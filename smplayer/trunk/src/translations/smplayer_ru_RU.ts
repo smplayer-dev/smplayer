@@ -6658,26 +6658,26 @@ Do you want to overwrite?</source>
         <translation>&amp;Отключить срабатывание функции левой клавиши мыши при двойном щелчке</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>Media seeking</source>
         <translation>Прокрутка</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Volume control</source>
         <translation>Регулятор громкости</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
         <translation>Увеличение</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="164"/>
         <source>None</source>
         <translation>Ничего</translation>
     </message>
@@ -6687,7 +6687,7 @@ Do you want to overwrite?</source>
         <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды щёлкните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="171"/>
+        <location filename="../prefinput.cpp" line="173"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды щёлкните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
@@ -6707,42 +6707,42 @@ Do you want to overwrite?</source>
         <translation>&amp;Функция колеса:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Shortcut editor</source>
         <translation>Редактор сочетаний клавиш</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Эта таблица позволяет изменить сочетания клавиш для различных действий. Двойной щелчок или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата - просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="379"/>
         <source>Left click</source>
         <translation>Левый щелчок</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="378"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Выбрать действие для левого щелчка мыши.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="382"/>
         <source>Double click</source>
         <translation>Двойной щелчок</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="381"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Выбрать действие для двойного щелчка мыши.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Wheel function</source>
         <translation>Функция колеса</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="393"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Выбрать действие для функции колеса.</translation>
     </message>
@@ -6762,42 +6762,42 @@ Do you want to overwrite?</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Fullscreen</source>
         <translation>Полный экран</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Compact</source>
         <translation>Компактно</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Screenshot</source>
         <translation>Снимок экрана</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Mute</source>
         <translation>Приглушение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Frame counter</source>
         <translation>Счётчик кадров</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
         <translation>Сбросить увеличение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Exit fullscreen</source>
         <translation>Выйти из полноэкранного режима</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Double size</source>
         <translation>Двойной размер</translation>
     </message>
@@ -6812,48 +6812,48 @@ Do you want to overwrite?</source>
         <translation>Пауза / Покадровый просмотр</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Playlist</source>
         <translation>Плейлист</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Preferences</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>No function</source>
         <translation>Нет функции</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="154"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>Change speed</source>
         <translation>Изменить скорость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Normal speed</source>
         <translation>Нормальная скорость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Keyboard</source>
         <translation>Клавиатура</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="375"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>Mouse</source>
         <translation>Мышь</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="385"/>
         <source>Middle click</source>
         <translation>Средний щелчок</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="384"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Выбрать действие для среднего щелчка мыши.</translation>
     </message>
@@ -6903,12 +6903,12 @@ Do you want to overwrite?</source>
         <translation>Вперёд (длинный интервал)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
         <translation>OSD – Следующий уровень</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Show context menu</source>
         <translation>Показать контекстное меню</translation>
     </message>
@@ -6928,208 +6928,218 @@ Do you want to overwrite?</source>
         <translation>Уменьшить громкость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>X Button 1</source>
         <translation>Доп. кнопка 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="387"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Select the action for the X button 1.</source>
         <translation>Выбрать действие для доп. кнопки 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>X Button 2</source>
         <translation>Доп. кнопка 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="390"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Select the action for the X button 2.</source>
         <translation>Выбрать действие для доп. кнопки 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Show video equalizer</source>
         <translation>Показать видеоэквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Show audio equalizer</source>
         <translation>Показать аудиоэквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Always on top</source>
         <translation>Всегда</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="71"/>
+        <source>Play next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Play previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Never on top</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>On top while playing</source>
         <translation>Наверху во время воспроизведения</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>Next chapter</source>
         <translation>Следующий раздел</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Previous chapter</source>
         <translation>Предыдущий раздел</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Активировать опцию под мышью в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Return to main DVD menu</source>
         <translation>Вернуться к главному DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Вернуться к предыдущему DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Передвинуть курсор вверх в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Передвинуть курсор вниз в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Передвинуть курсор влево в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Передвинуть курсор вправо в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Активировать подсвеченный пункт в DVD-меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="163"/>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="165"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Move window</source>
         <translation>Переместить окно</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="167"/>
+        <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
         <translation>Перемотка и громкость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="370"/>
+        <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Использовать мультимедийные клавиши как глобальные горячие клавиши</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="371"/>
+        <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Когда выбрана эта опция, мультимедийные клавиши (Воспроизведение, Стоп, Громкость+/-, Тишина и т. д.) будут работать даже когда SMPlayer работает в фоне.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
         <translation>Функция перетаскивания</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="396"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Эта опция контролирует, что делать, когда мышь перемещена при нажатой левой кнопке.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
         <translation>главное окно перемещено</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="400"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>горизонтальное перемещение изменяет позицию времени, а вертикальное перемещение изменяет громкость</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="404"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Отключить срабатывание функции левой клавиши мыши при двойном щелчке</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="405"/>
+        <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Если эта опция включена, после двойного щелчка по области видео выполнится только функция двойного щелчка, иначе будет выполняться так же функция левой клавиши.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="408"/>
+        <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>При включении данной опции срабатывание левой клавиши мыши задерживается на %1 миллисекунд, так как это необходимо для определения двойного щелчка.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Change function of wheel</source>
         <translation>Изменить функцию колеса мыши</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="157"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Перемотка файла</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Масштабирование видео</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.cpp" line="159"/>
         <source>&amp;Volume control</source>
         <translation>Регулировка &amp;громкости</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
         <translation>Изменить &amp;скорость воспроизведения</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="416"/>
         <source>Mouse wheel functions</source>
         <translation>Функции колеса мыши</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="417"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Выберите это, чтобы задействовать перемотку как одну из функций.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="420"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Выберите это, чтобы задействовать регулировку громкости как одну из функций.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="423"/>
+        <location filename="../prefinput.cpp" line="425"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Выберите это, чтобы задействовать масштабирование как одну из функций.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="426"/>
+        <location filename="../prefinput.cpp" line="428"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Выберите это, чтобы задействовать регулировку скорости воспроизведения как одну из функций.</translation>
     </message>
@@ -7144,12 +7154,12 @@ Do you want to overwrite?</source>
         <translation>Выберите действия, которые будут циклически переключаться при использовании опции &quot;Изменить функцию колеса мыши&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="411"/>
+        <location filename="../prefinput.cpp" line="413"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Инвертировать направление перемотки</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="412"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Выберите это для противоположного направления.</translation>
     </message>

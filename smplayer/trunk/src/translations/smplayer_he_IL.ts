@@ -6653,26 +6653,26 @@ Do you want to overwrite?</source>
         <translation>אל תעורר לחיצה שמאלית באמצעות ל&amp;חיצה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>Media seeking</source>
         <translation>חיפוש מדיה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Volume control</source>
         <translation>בקרת עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
         <translation>וידאו זום</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="164"/>
         <source>None</source>
         <translation>כלום</translation>
     </message>
@@ -6682,7 +6682,7 @@ Do you want to overwrite?</source>
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או לחץ Enter על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="171"/>
+        <location filename="../prefinput.cpp" line="173"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
@@ -6702,42 +6702,42 @@ Do you want to overwrite?</source>
         <translation>&amp;פונקציית גלגל:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Shortcut editor</source>
         <translation>עורך קיצור דרך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>טבלה זו מתירה לך לשנות קיצורי דרך של רוב הפעולות הזמינות. קליק כפול או לחץ enter על פריט, או לחץ על הלחצן &lt;b&gt;שנה קיצור דרך&lt;/b&gt; כדי להיכנס אל תיבת דו שיח &lt;i&gt;התאמת קיצור דרך&lt;/i&gt;. קיימות שתי דרכים לשנות קיצור דרך: כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; מופעל אז פשוט תלחץ את המקש או את הצירוף החדש אשר ברצונך להקצות עבוד הפעולה (למרבה הצער זו לא עובדת עבור כל המקשים). כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; כבוי אז באפשרותך להזין את השם המלא של המקש.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="379"/>
         <source>Left click</source>
         <translation>קליק שמאלי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="378"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק שמאלי בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="382"/>
         <source>Double click</source>
         <translation>קליק כפול</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="381"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק כפול בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Wheel function</source>
         <translation>פונקציית גלגל</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="393"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>בחר את הפעולה עבור גלגל העכבר.</translation>
     </message>
@@ -6757,42 +6757,42 @@ Do you want to overwrite?</source>
         <translation>הפסק</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Fullscreen</source>
         <translation>מסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Compact</source>
         <translation>קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Screenshot</source>
         <translation>תצלום מסך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Mute</source>
         <translation>השתק</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Frame counter</source>
         <translation>מונה מסגרת</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
         <translation>אפס זום</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Exit fullscreen</source>
         <translation>עזוב מסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Double size</source>
         <translation>מידה כפולה</translation>
     </message>
@@ -6807,48 +6807,48 @@ Do you want to overwrite?</source>
         <translation>השהה / פסיעת מסגרת</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Playlist</source>
         <translation>רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Preferences</source>
         <translation>ביצועים</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>No function</source>
         <translation>אין פונקציה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="154"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>Change speed</source>
         <translation>שנה מהירות</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Normal speed</source>
         <translation>מהירות רגילה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Keyboard</source>
         <translation>מקלדת</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="375"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>Mouse</source>
         <translation>עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="385"/>
         <source>Middle click</source>
         <translation>קליק אמצעי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="384"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק תיכוני בעכבר.</translation>
     </message>
@@ -6898,12 +6898,12 @@ Do you want to overwrite?</source>
         <translation>לך קדימה (ארוך)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
         <translation>OSD - שלב בא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Show context menu</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
@@ -6923,208 +6923,218 @@ Do you want to overwrite?</source>
         <translation>הנמך עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>X Button 1</source>
         <translation>לחצן X‏ 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="387"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Select the action for the X button 1.</source>
         <translation>בחר פעולה עבור לחצן X‏ 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>X Button 2</source>
         <translation>לחצן X‏ 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="390"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Select the action for the X button 2.</source>
         <translation>בחר פעולה עבור לחצן X‏ 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Show video equalizer</source>
         <translation>הצג מאזן וידאו</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Show audio equalizer</source>
         <translation>הצג מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Always on top</source>
         <translation>תמיד בשיא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="71"/>
+        <source>Play next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Play previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Never on top</source>
         <translation>אף פעם לא עליון</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>On top while playing</source>
         <translation>על השיא במהלך נגינה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>Next chapter</source>
         <translation>פרק הבא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Previous chapter</source>
         <translation>פרק קודם</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>הפעל אפשרות תחת עכבר בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Return to main DVD menu</source>
         <translation>חזור אל תפריט DVD ראשי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>חזור אל תפריט קודם בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Move cursor up in DVD menus</source>
         <translation>הזז סמן מעלה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Move cursor down in DVD menus</source>
         <translation>הזז סמן מטה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Move cursor left in DVD menus</source>
         <translation>הזז סמן שמאלה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Move cursor right in DVD menus</source>
         <translation>הזז סמן ימינה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>הפעל אפשרות הדגשה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="163"/>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="165"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Move window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="167"/>
+        <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="370"/>
+        <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="371"/>
+        <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="396"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="400"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="404"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>אל תעורר לחיצה שמאלית באמצעות לחיצה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="405"/>
+        <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="408"/>
+        <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Change function of wheel</source>
         <translation>שנה פונקציה של גלגל</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="157"/>
         <source>Media &amp;seeking</source>
         <translation>חי&amp;פוש מדיה</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;הקרב וידאו</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.cpp" line="159"/>
         <source>&amp;Volume control</source>
         <translation>בקרת עוצמת &amp;שמע</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
         <translation>&amp;שנה מהירות</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="416"/>
         <source>Mouse wheel functions</source>
         <translation>פונקציות גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="417"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>סמן את זו כדי לאפשר חיפוש כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="420"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי עוצמה כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="423"/>
+        <location filename="../prefinput.cpp" line="425"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>סמן את זו כדי לאפשר זום כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="426"/>
+        <location filename="../prefinput.cpp" line="428"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי מהירות כפונקציה אחת.</translation>
     </message>
@@ -7139,12 +7149,12 @@ Do you want to overwrite?</source>
         <translation>בחר את הפעולות שיש להחליפן כאשר משתמשים באפשרות &quot;שנה פונקציית גלגל&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="411"/>
+        <location filename="../prefinput.cpp" line="413"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>חיפוש מדיה גלגל מהופך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="412"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>סמן את זו כדי לחפש בכיוון הנגדי.</translation>
     </message>

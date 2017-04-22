@@ -6657,26 +6657,26 @@ Valóban felül akarja írni?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>Media seeking</source>
         <translation>Média tekerés</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Volume control</source>
         <translation>Hangerő szabályzás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
         <translation>Videó nagyítás</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="164"/>
         <source>None</source>
         <translation>Nincs</translation>
     </message>
@@ -6686,7 +6686,7 @@ Valóban felül akarja írni?</translation>
         <translation>Itt tud bármilyen billentyűparancsot megváltoztatni. Ehhez kattintson duplán vagy nyomja le az entert a gyorsgomb cellán. Opcionálisan akár le is tudja menteni a listát és megoszthatja más emberekkel vagy betöltheti egy másik gépen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="171"/>
+        <location filename="../prefinput.cpp" line="173"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Itt tud bármilyen billentyűparancsot megváltoztatni. Ehhez kattintson duplán vagy kezdjen írni a gyorsgomb cellán. Opcionálisan akár le is tudja menteni a listát és megoszthatja más emberekkel vagy betöltheti egy másik gépen.</translation>
     </message>
@@ -6706,42 +6706,42 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Görgő funkció:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Shortcut editor</source>
         <translation>Gyorsgomb szerkesztő</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Ebben a táblázatban megváltoztathatja a legtöbb művelethez rendelt gyorsgombokat. Kattintson duplán vagy nyomjon entert egy bejegyzésen, vagy nyomja meg a &lt;b&gt;Gyorsgomb cseréje&lt;/b&gt; gombot a &lt;i&gt;Gyorsgomb módosítása&lt;/i&gt; ablakba lépéshez. Két módon lehet egy gyorsgombot megváltoztatni: ha a &lt;b&gt;Rögzítés&lt;/b&gt; gomb be van nyomva akkor egyszerűen nyomja meg az új gombot vagy gomb kombinációt amit a parancshoz kíván társítani (sajnos ez nem minden gombbal működik). Ha a &lt;b&gt;Rögzítés&lt;/b&gt; gomb nincs benyomva akkor beírhatja a gomb teljes nevét.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="379"/>
         <source>Left click</source>
         <translation>Bal kattintás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="378"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Válassza ki a bal kattintáshoz rendelendő funkciót.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="382"/>
         <source>Double click</source>
         <translation>Dupla kattintás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="381"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Válassza ki a dupla kattintáshoz rendelendő funkciót.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Wheel function</source>
         <translation>Görgő funkció</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="393"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Válassza ki az egérgörgőhöz rendelendő funkciót.</translation>
     </message>
@@ -6761,42 +6761,42 @@ Valóban felül akarja írni?</translation>
         <translation>Megállítás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Fullscreen</source>
         <translation>Teljes képernyő</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Compact</source>
         <translation>Kompakt</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Screenshot</source>
         <translation>Pillanatkép</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Mute</source>
         <translation>Némítás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Frame counter</source>
         <translation>Képkocka számláló</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
         <translation>Nagyítás visszaállítása</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Exit fullscreen</source>
         <translation>Kilépés a teljes képernyőből</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Double size</source>
         <translation>Dupla méret</translation>
     </message>
@@ -6811,48 +6811,48 @@ Valóban felül akarja írni?</translation>
         <translation>Szünet / Képkocka léptetés</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Playlist</source>
         <translation>Lejátszási lista</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Preferences</source>
         <translation>Beállítások</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>No function</source>
         <translation>Nincs funkció</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="154"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>Change speed</source>
         <translation>Sebesség változtatás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Normal speed</source>
         <translation>Normál sebesség</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Keyboard</source>
         <translation>Billentyűzet</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="375"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>Mouse</source>
         <translation>Egér</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="385"/>
         <source>Middle click</source>
         <translation>Középső kattintás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="384"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Válassza ki a középső kattintáshoz rendelendő funkciót.</translation>
     </message>
@@ -6902,12 +6902,12 @@ Valóban felül akarja írni?</translation>
         <translation>Előre (hosszú)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
         <translation>OSD - Következő szint</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Show context menu</source>
         <translation>Helyi menü mutatása</translation>
     </message>
@@ -6927,208 +6927,218 @@ Valóban felül akarja írni?</translation>
         <translation>Hangerő csökkentése</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>X Button 1</source>
         <translation>X gomb 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="387"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Select the action for the X button 1.</source>
         <translation>Válassza ki az X gomb 1-hez rendelendő műveletet.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>X Button 2</source>
         <translation>X gomb 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="390"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Select the action for the X button 2.</source>
         <translation>Válassza ki az X gomb 2-höz rendelendő műveletet.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Show video equalizer</source>
         <translation>Videó kiegyenlítő megjelenítése</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Show audio equalizer</source>
         <translation>Hang kiegyenlítő megjelenítése</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Always on top</source>
         <translation>Mindig legfelül</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="71"/>
+        <source>Play next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Play previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Never on top</source>
         <translation>Sosem legfelül</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>On top while playing</source>
         <translation>Lejátszás közben legfelül</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>Next chapter</source>
         <translation>Következő fejezet</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Previous chapter</source>
         <translation>Előző fejezet</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Kurzor alatti opció aktiválása DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Return to main DVD menu</source>
         <translation>Visszatérés a fő DVD menübe</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Visszatérés az előző DVD menübe</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Kurzor mozgatása felfelé DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Kurzor mozgatása lefelé DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Kurzor mozgatása balra DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Kurzor mozgatása jobbra DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Kijelölt opció aktiválása DVD menükben</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="163"/>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="165"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Move window</source>
         <translation>Ablak mozgatása</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="167"/>
+        <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
         <translation>Keresés és hangerő</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="370"/>
+        <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="371"/>
+        <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="396"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
         <translation>a főablak elmozdult</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="400"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>vízszintes irányú mozgás az időpozíciót, függőleges irányú a hangerőt állítja</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="404"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Dupla kattintás ne indítsa el a bal kattintáshoz rendelt funkciót</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="405"/>
+        <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="408"/>
+        <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Change function of wheel</source>
         <translation>Görgő funkciójának megváltoztatása</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="157"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Média tekerés</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Videó nagyítás</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.cpp" line="159"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Hangerő szabályzás</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Sebesség változtatás</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="416"/>
         <source>Mouse wheel functions</source>
         <translation>Egér görgő funkciók</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="417"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Jelölje be a tekerés funkció engedélyezéséhez.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="420"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Jelölje be a hangerő változtatás funkció engedélyezéséhez.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="423"/>
+        <location filename="../prefinput.cpp" line="425"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Jelölje be a nagyítás változtatás funkció engedélyezéséhez.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="426"/>
+        <location filename="../prefinput.cpp" line="428"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Jelölje be a sebesség változtatás funkció engedélyezéséhez.</translation>
     </message>
@@ -7143,12 +7153,12 @@ Valóban felül akarja írni?</translation>
         <translation>Jelölje be a műveleteket amelyek közt léptetni akar, ha a &quot;Görgő funkciójának megváltoztatása&quot; opciót használja.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="411"/>
+        <location filename="../prefinput.cpp" line="413"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Egérgörgő megfordítása tekerésnél</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="412"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Jelölje be az ellenkező irányba tekeréshez.</translation>
     </message>

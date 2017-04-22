@@ -6661,26 +6661,26 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Ne pas déclencher l&apos;action du clic gauche avec un double clic.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>Media seeking</source>
         <translation>Navigation dans le média</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Volume control</source>
         <translation>Contrôle du volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
         <translation>Zoom vidéo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="164"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
@@ -6690,7 +6690,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Vous pouvez changer n&apos;importe quel raccourci clavier. Pour se faire, double-cliquez ou appuyez sur &quot;entrée&quot; en appuyant sur la combinaison de touches. Ajouté à celà, vous pouvez aussi sauvegarder la liste pour la partager avec d&apos;autres personnes ou la charger sur un autre ordinateur.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="171"/>
+        <location filename="../prefinput.cpp" line="173"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Vous pouvez changer n&apos;importe quel raccourci clavier. Pour se faire, double-cliquez ou appuyez sur &quot;entrée&quot; en appuyant sur la combinaison de touches. Ajouté à celà, vous pouvez aussi sauvegarder la liste pour la partager avec d&apos;autres personnes ou la charger sur un autre ordinateur.</translation>
     </message>
@@ -6710,42 +6710,42 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Fonction de la &amp;molette :</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Shortcut editor</source>
         <translation>Éditeur de raccourcis</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Cette table vous permet de changer les raccourcis clé de la plupart des actions disponibles. Double-clicquez ou appuyez sur entrer sur un élément, ou pressez sur bouton &lt;b&gt;Changer raccourci&lt;/b&gt; pour entrer sur la fenêtre &lt;i&gt;Modifier raccourci&lt;/i&gt;. Il y a deux façons de changer un raccourci : si le bouton &lt;b&gt;Capturer&lt;/b&gt; est actif alors pressez juste sur une nouvelle touche ou combinaison de touches que vous voulez assigner pour l&apos;action (malheureusement cela ne marche pas pour toutes les touches). Si le boutton &lt;b&gt;Capturer&lt;/b&gt; est inactif,  alors vous pourrez entrer le nom entier de la touche.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="379"/>
         <source>Left click</source>
         <translation>Clic gauche</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="378"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Sélectionner l&apos;action pour le clic gauche de la souris.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="382"/>
         <source>Double click</source>
         <translation>Double-clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="381"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Sélectionner l&apos;action pour le double-clic de la souris.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Wheel function</source>
         <translation>Fonction de la molette</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="393"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Sélectionner l&apos;action de de la molette.</translation>
     </message>
@@ -6765,42 +6765,42 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Fullscreen</source>
         <translation>Plein écran</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Compact</source>
         <translation>Compact</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Screenshot</source>
         <translation>Capturer écran</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Mute</source>
         <translation>Muet</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Frame counter</source>
         <translation>Compteur d&apos;images</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
         <translation>Réinitialiser zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Exit fullscreen</source>
         <translation>Sortir du mode plein écran</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Double size</source>
         <translation>Double taille</translation>
     </message>
@@ -6815,48 +6815,48 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Pause / Saut d&apos;images</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Playlist</source>
         <translation>Liste de lecture</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Preferences</source>
         <translation>Préférences</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>No function</source>
         <translation>Aucune fonction</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="154"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>Change speed</source>
         <translation>Changer la vitesse</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Normal speed</source>
         <translation>Vitesse normale</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Keyboard</source>
         <translation>Clavier</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="375"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>Mouse</source>
         <translation>Souris</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="385"/>
         <source>Middle click</source>
         <translation>Bouton central</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="384"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Choisir l&apos;action pour le bouton central de la souris.</translation>
     </message>
@@ -6906,12 +6906,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Avant long</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
         <translation>OSD - Niveau suivant</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Show context menu</source>
         <translation>Montrer le menu contexte</translation>
     </message>
@@ -6931,208 +6931,218 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Diminuer le volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>X Button 1</source>
         <translation>X Bouton 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="387"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Select the action for the X button 1.</source>
         <translation>Sélectionnez l&apos;action pour l&apos;X bouton 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>X Button 2</source>
         <translation>X Bouton 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="390"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Select the action for the X button 2.</source>
         <translation>Sélectionnez l&apos;action pour l&apos;X bouton 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Show video equalizer</source>
         <translation>Montrer l&apos;égaliseur vidéo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Show audio equalizer</source>
         <translation>Montrer l&apos;égaliseur audio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Always on top</source>
         <translation>Toujours au premier plan</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="71"/>
+        <source>Play next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Play previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Never on top</source>
         <translation>Jamais au premier plan</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>On top while playing</source>
         <translation>Au premier plan durant la lecture</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>Next chapter</source>
         <translation>Chapitre suivant</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Previous chapter</source>
         <translation>Chapitre précédent</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Activer l&apos;option sous le pointeur dans les menu d&apos;un DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Return to main DVD menu</source>
         <translation>Retourner au menu principal du DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Retour au menu précédent dans les menus DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Déplacer le curseur vers le haut dans les menus DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Déplacer le curseur vers le bas dans les menus DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Déplacer le curseur vers la gauche dans les menus DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Déplacer le curseur vers la droite dans les menus DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Activer l&apos;option surlignée dans le menu d&apos;un DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="163"/>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="165"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Move window</source>
         <translation>Déplacer la fenêtre</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="167"/>
+        <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
         <translation>Recherche et volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="370"/>
+        <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Utiliser les clés multimédia comme raccourcis globaux</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="371"/>
+        <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Quand cette option est activée, les clés multimédia (Jouer, Arrêter, Volume+/-, Muet...) fonctionnent, même si SMPlayer est actif en arrière-plan.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
         <translation>Fonction glisser</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="396"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Cette option contrôle ce qu&apos;il faut faire lorsque la souris est déplacée tout en appuyant sur le bouton gauche.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
         <translation>la fenêtre principale est déplacée</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="400"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>un mouvement horizontal modifie la position dans le temps tandis qu&apos;un déplacement vertical modifie le volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="404"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Ne pas déclencher la fonction du clic gauche avec un double clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="405"/>
+        <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Si cette option est activée seule la fonction double clic sera déclenchée lorsque vous cliquerez sur la zone de vidéo L&apos;action du clic gauche ne sera pas activée.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="408"/>
+        <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>En activant cette option le clic gauche est retardé de %1 millisecondes  il sera alors nécessaire d&apos;attendre ce temps afin de savoir si il s&apos;agit d&apos;un double clic ou non.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Change function of wheel</source>
         <translation>Changer la fonction de la molette</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="157"/>
         <source>Media &amp;seeking</source>
         <translation>Navigation temporelle</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Zoom vidéo</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.cpp" line="159"/>
         <source>&amp;Volume control</source>
         <translation>Contrôle du &amp;volume</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Changer la vitesse</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="416"/>
         <source>Mouse wheel functions</source>
         <translation>Fonctions de la molette de la souris</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="417"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Cochez pour activer la fonction de navigation.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="420"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Cochez pour activer la fonction de contrôle du volume.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="423"/>
+        <location filename="../prefinput.cpp" line="425"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Cochez pour activer la fonction de zoom.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="426"/>
+        <location filename="../prefinput.cpp" line="428"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Cochez pour activer la fonction de changement de la vitesse de lecture.</translation>
     </message>
@@ -7147,12 +7157,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Sélectionnez les actions qui doivent être parcourus lorsque vous utilisez l&apos;option &quot;Changer la fonction de la molette&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="411"/>
+        <location filename="../prefinput.cpp" line="413"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Inverser le sens de la roulette</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="412"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Inverser le sens de la roulette</translation>
     </message>
