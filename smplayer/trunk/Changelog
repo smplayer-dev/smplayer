@@ -1,4 +1,7 @@
-Version 17.?:
+Version 17.4.2:
+
+(2017-04-22)
+ * Add play_next and play_prev to the list of actions for the mouse buttons.
 
 (2017-04-21)
  * Bugfix: remember the position of the video when it's opened by
