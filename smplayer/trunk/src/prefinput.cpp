@@ -68,6 +68,8 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Go forward (long)"), "forward3" );
 	left_click_combo->addItem( tr("Increase volume"), "increase_volume" );
 	left_click_combo->addItem( tr("Decrease volume"), "decrease_volume" );
+	left_click_combo->addItem( tr("Play next"), "play_next" );
+	left_click_combo->addItem( tr("Play previous"), "play_prev" );
 	left_click_combo->addItem( tr("Fullscreen"), "fullscreen" );
 	left_click_combo->addItem( tr("Compact"), "compact" );
 	left_click_combo->addItem( tr("Screenshot"), "screenshot" );
