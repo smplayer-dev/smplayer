@@ -1,3 +1,17 @@
+smplayer (17.4.2) precise; urgency=low
+
+  * New option (menu View -> OSD) to display the times with milliseconds.
+  * New fix for the thumbnail generator that works also with older
+    versions of mpv.
+  * Bugfix: the position of the video is remembered when it's opened by
+    drag & drop.
+  * The Windows installer won't install mpv on Windows XP since mpv is not
+    longer compatible with Windows XP.
+  * New option to use the mplayer ffhevcvdpau decoder (Linux only).
+  * Avoid some crashes from mpv.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 22 Apr 2017 22:14:53 +0200
+
 smplayer (17.4.0) precise; urgency=low
 
   * The thumbnail generator has been fixed.
