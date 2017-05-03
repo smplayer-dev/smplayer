@@ -6964,12 +6964,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir seguinte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir anterior</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>

@@ -2635,7 +2635,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation>&amp;Voriger</translation>
+        <translation>&amp;Vorheriges</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
@@ -6965,12 +6965,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächste wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorherige wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>

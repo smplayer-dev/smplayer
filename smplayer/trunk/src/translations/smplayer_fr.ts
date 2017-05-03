@@ -3189,7 +3189,7 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
-        <translation>Résolution</translation>
+        <translation>Définition</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="130"/>
@@ -4570,7 +4570,7 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Resolution:</source>
-        <translation>Résolution :</translation>
+        <translation>Définition :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
@@ -5325,7 +5325,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifier les plantag&amp;es de %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5360,12 +5360,12 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifier les plantages de %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette options est cochée, une fenêtre apparaîtra pour informer des plantages de %1. Sinon, ces échecs seront simplement ignorés.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -6968,12 +6968,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire le suivant</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire le précédent</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -8424,7 +8424,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Passer (toujours)&lt;/b&gt; : le fltre boucle passera sans se préoccuper de la résolution de la vidéo</translation>
+        <translation>&lt;b&gt;Passer (toujours)&lt;/b&gt; : le fltre boucle passera sans se préoccuper de la définition de la vidéo</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
@@ -8834,12 +8834,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les sous-titres contenant le nom de la vidéo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les sous-titres du dossier</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9896,32 +9896,32 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation>Côte à côte avec résolution demi largeur (œil gauche à gauche, œil droit à droite)</translation>
+        <translation>Côte à côte avec définition demi-largeur (œil gauche à gauche, œil droit à droite)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation>Côte à côte avec résolution demi largeur (œil droit à gauche, œil gauche à droite)</translation>
+        <translation>Côte à côte avec définition demi-largeur (œil droit à gauche, œil gauche à droite)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation>Au dessus-en dessous (oeil gauche au dessus, oeil droit en dessous)</translation>
+        <translation>Au dessus-en dessous (œil gauche au dessus, œil droit en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation>Au dessus-en dessous (oeil droit au dessus, oeil gauche en dessous)</translation>
+        <translation>Au dessus-en dessous (œil droit au dessus, œil gauche en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation>Au dessus-en dessous avec résolution demi hauteur (oeil gauche au dessus, oeil droit en dessous)</translation>
+        <translation>Au dessus-en dessous avec définition demi-hauteur (œil gauche au dessus, œil droit en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation>Au dessus-en dessous avec résolution demi hauteur (œil droit au dessus, œil gauche en dessous)</translation>
+        <translation>Au dessus-en dessous avec définition demi-hauteur (œil droit au dessus, œil gauche en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
@@ -9976,22 +9976,22 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation>Lignes entrelacées (l&apos;oeil gauche a la ligne supérieure, l&apos;œil droit commence sur la ligne suivante)</translation>
+        <translation>Lignes entrelacées (l&apos;œil gauche a la ligne supérieure, l&apos;œil droit commence sur la ligne suivante)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation>Lignes entrelacées (l&apos;oeil droit a la ligne supérieure, l&apos;œil gauche commence sur la ligne suivante)</translation>
+        <translation>Lignes entrelacées (l&apos;œil droit a la ligne supérieure, l&apos;œil gauche commence sur la ligne suivante)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation>Sortie mono (oeil gauche seulement)</translation>
+        <translation>Sortie mono (œil gauche seulement)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation>Sortie mono (oeil droit seulement)</translation>
+        <translation>Sortie mono (œil droit seulement)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
@@ -10375,7 +10375,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
-        <translation>Résolution : %1x%2</translation>
+        <translation>Définition : %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="472"/>
