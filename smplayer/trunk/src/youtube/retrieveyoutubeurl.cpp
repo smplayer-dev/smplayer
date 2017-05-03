@@ -252,11 +252,12 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	#ifdef YT_USE_SIG
 	QString html5_player;
 	#endif
-	//QRegExp rxplayer("player-([\\d,\\w,-]+)\\\\");
-	QRegExp rxplayer("jsbin\\/player-([\\d\\w-]+)\\/base\\.js");
+	QRegExp rxplayer("jsbin\\/player-([\\d\\w-]+)\\/([a-z]{2}_[A-Z]{2})\\/base\\.js");
 	if (rxplayer.indexIn(replyString) != -1) {
-		html5_player = rxplayer.cap(1);
-		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << html5_player;
+		QString player = rxplayer.cap(1);
+		QString locale = rxplayer.cap(2);
+		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player << "locale:" << locale;
+		html5_player = player +"/"+ locale;
 	}
 
 	video_page = replyString;
