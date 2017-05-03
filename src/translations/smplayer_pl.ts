@@ -6966,12 +6966,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwórz następny</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwórz poprzedni</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>

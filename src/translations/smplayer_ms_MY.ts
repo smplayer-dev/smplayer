@@ -1070,7 +1070,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Tunjuk waktu dengan &amp;milisaat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -5323,7 +5323,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Maklum kero&amp;sakan %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5358,12 +5358,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Maklum kerosakan %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini ditanda, satu tetingkap akan muncul untuk memaklumkan mengenai kerosakan %1. Jika tidak, kegagalan tersebut akan diabaikan secara senyap.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -6963,12 +6963,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Main berikutnya</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Main terdahulu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -8829,12 +8829,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Semua sarikata mengandungi nama cereka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Semua sarikata dalam direktori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>

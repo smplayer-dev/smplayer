@@ -6964,12 +6964,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 재생</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>이전 재생</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>

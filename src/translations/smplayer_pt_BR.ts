@@ -6964,12 +6964,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir próxima</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir anterior</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>

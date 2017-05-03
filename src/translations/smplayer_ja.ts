@@ -6963,12 +6963,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>次を再生</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>前を再生</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -9403,7 +9403,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation>確認間隔 (日)(&amp;D)</translation>
+        <translation>確認する間隔 (日)(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
@@ -9433,7 +9433,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>更新の確認の間隔 (日) をここに入力します。</translation>
+        <translation>更新を確認する間隔 (日) をここに入力します。</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
