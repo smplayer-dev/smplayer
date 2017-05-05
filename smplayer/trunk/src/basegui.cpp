@@ -5179,7 +5179,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 
 	/* If only one file is dropped and it's not a folder nor a subtitle,
        open it with openFile so that it remembers the position */
-	if (dir_list.isEmpty() && sub_file.isEmpty() && file_list.count() == 1) {
+	if (dir_list.isEmpty() && sub_file.isEmpty() && file_list.count() == 1 && QFile::exists(file_list[0])) {
 		openFile(file_list[0]);
 		return;
 	}
