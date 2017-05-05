@@ -45,6 +45,7 @@
 #include <QMimeData>
 #include <QDomDocument>
 #include <QDesktopServices>
+#include <QClipboard>
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000
@@ -72,7 +73,6 @@
 #include "urlhistory.h"
 #include <QNetworkAccessManager>
 #include <QTemporaryFile>
-#include <QClipboard>
 #include <QMovie>
 #endif
 
