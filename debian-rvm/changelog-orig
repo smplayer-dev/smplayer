@@ -1,3 +1,9 @@
+smplayer (17.5.0) precise; urgency=medium
+
+  * Fix for YouTube.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 08 May 2017 11:30:51 +0200
+
 smplayer (17.4.2) precise; urgency=low
 
   * New option (menu View -> OSD) to display the times with milliseconds.
