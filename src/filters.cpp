@@ -38,6 +38,7 @@ void Filters::init() {
 
 	// Audio
 	list["volnorm"] = Filter("volume normalization", "volnorm", "1");
+	list["acompressor"] = Filter("acompressor", "acompressor", "");
 }
 
 Filter Filters::item(const QString & key) {
