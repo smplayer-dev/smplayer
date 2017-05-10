@@ -2344,7 +2344,8 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 
 		if (mset.volnorm_filter) {
-			proc->addAF("volnorm", pref->filters->item("volnorm").options());
+			QString options = proc->isMPlayer() ? pref->filters->item("volnorm").options() : pref->filters->item("acompressor").options();
+			proc->addAF("volnorm", options);
 		}
 
 		if (proc->isMPlayer()) {
@@ -2838,8 +2839,8 @@ void Core::toggleVolnorm(bool b) {
 		mset.volnorm_filter = b;
 		if (MplayerVersion::isMplayerAtLeast(31030)) {
 			// Change filter without restarting
-			QString f = pref->filters->item("volnorm").filter();
-			proc->enableVolnorm(b, pref->filters->item("volnorm").options());
+			QString options = proc->isMPlayer() ? pref->filters->item("volnorm").options() : pref->filters->item("acompressor").options();
+			proc->enableVolnorm(b, options);
 		} else {
 			restartPlay();
 		}
