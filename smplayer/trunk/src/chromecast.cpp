@@ -27,7 +27,6 @@
 #include <QSettings>
 #include <QDebug>
 #include "helper.h"
-#include "subreader.h"
 
 //#define CHROMECAST_USE_SERVER_WEBFSD
 //#define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
@@ -108,25 +107,6 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		}
 		qDebug() << "Chromecast::openLocal: sub_filename:" << sub_filename;
 	}
-
-	// If subtitle is in srt format, try to convert to vtt
-	if (1) {
-		QString subtitle_path = dir +"/"+ sub_filename;
-		QFileInfo fi(subtitle_path);
-		if (fi.suffix().toLower() == "srt") {
-			qDebug() << "Chromecast::openLocal: subtitle is in srt format";
-
-			SubReader sr;
-			sr.autoConvertToVTT(subtitle_path);
-
-			// Check if a subtitle file with vtt extension exists
-			QString vtt_subtitle = dir +"/"+ fi.completeBaseName() + ".vtt";
-			if (QFile::exists(vtt_subtitle)) {
-				qDebug() << "Chromecast::openLocal: using" << vtt_subtitle;
-			}
-		}
-	}
-
 #else
 	QString sub_filepath;
 	if (!subtitle.isEmpty()) {
