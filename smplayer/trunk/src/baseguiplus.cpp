@@ -65,7 +65,6 @@
 
 #ifdef CHROMECAST_SUPPORT
 #include "chromecast.h"
-#include "subreader.h"
 #endif
 
 using namespace Global;
@@ -1097,27 +1096,6 @@ void BaseGuiPlus::playOnChromecast() {
 			SubData sub = core->mdat.subs.itemAt(core->mset.current_sub_id);
 			qDebug() << "BaseGuiPlus::playOnChromecast: current sub name:" << sub.name() << "filename:" << sub.filename();
 			if (!sub.filename().isEmpty()) subtitle = sub.filename(); else subtitle = sub.name();
-
-			if (1) {
-				QString dir = QFileInfo(core->mdat.filename).absolutePath();
-
-				QString subtitle_path = dir +"/"+ subtitle;
-				QFileInfo fi(subtitle_path);
-				if (fi.suffix().toLower() == "srt") {
-					qDebug() << "BaseGuiPlus::playOnChromecast: subtitle is in srt format";
-
-					SubReader sr;
-					sr.autoConvertToVTT(subtitle_path);
-
-					// Check if a subtitle file with vtt extension exists
-					QString vtt_subtitle = fi.completeBaseName() + ".vtt";
-					QString vtt_subtitle_path = dir +"/"+ vtt_subtitle;
-					if (QFile::exists(vtt_subtitle_path)) {
-						qDebug() << "BaseGuiPlus::playOnChromecast: using" << vtt_subtitle;
-						subtitle = vtt_subtitle;
-					}
-				}
-			}
 		}
 		Chromecast::instance()->openLocal(core->mdat.filename, title, subtitle);
 	}
