@@ -549,8 +549,8 @@ contains( DEFINES, HDPI_SUPPORT ) {
 }
 
 contains( DEFINES, CHROMECAST_SUPPORT ) {
-	HEADERS += chromecast.h
-	SOURCES += chromecast.cpp
+	HEADERS += chromecast.h subreader.h
+	SOURCES += chromecast.cpp subreader.cpp
 }
 
 unix {
