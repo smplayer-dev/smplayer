@@ -64,6 +64,9 @@ public:
 
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
 
+	void setAutoConvertToVTT(bool b) { autoconvert_to_vtt = b; };
+	bool autoConvertToVTT() { return autoconvert_to_vtt; };
+
 protected:
 	void startServer(QString doc_root);
 	void stopServer();
@@ -89,6 +92,9 @@ protected:
 	bool directory_listing;
 
 	bool server_needs_restart;
+
+	// Options to convert to vtt
+	bool autoconvert_to_vtt;
 
 private:
 	static Chromecast * instance_obj;
