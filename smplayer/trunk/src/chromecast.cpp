@@ -60,6 +60,7 @@ Chromecast::Chromecast(QObject * parent)
 	, server_port(8010)
 	, directory_listing(true)
 	, server_needs_restart(false)
+	, autoconvert_to_vtt(true)
 {
 }
 
@@ -110,7 +111,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 	}
 
 	// If subtitle is in srt format, try to convert to vtt
-	if (1) {
+	if (autoconvert_to_vtt) {
 		QString subtitle_path = dir +"/"+ sub_filename;
 		QFileInfo fi(subtitle_path);
 		if (fi.suffix().toLower() == "srt") {
@@ -314,6 +315,11 @@ void Chromecast::loadSettings() {
 		setLocalAddress(settings->value("local_address", localAddress()).toString());
 		setDirectoryListing(settings->value("directory_listing", directoryListing()).toBool());
 		settings->endGroup();
+
+		settings->beginGroup("chromecast/subtitles");
+		setAutoConvertToVTT(settings->value("autoconvert_to_vtt", autoConvertToVTT()).toBool());
+		settings->endGroup();
+
 	}
 }
 
@@ -325,6 +331,10 @@ void Chromecast::saveSettings() {
 		settings->setValue("port", serverPort());
 		settings->setValue("local_address", localAddress());
 		settings->setValue("directory_listing", directoryListing());
+		settings->endGroup();
+
+		settings->beginGroup("chromecast/subtitles");
+		settings->setValue("autoconvert_to_vtt", autoConvertToVTT());
 		settings->endGroup();
 	}
 }

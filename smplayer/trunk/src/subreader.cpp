@@ -37,6 +37,8 @@ SubReader::~SubReader() {
 }
 
 void SubReader::parseSRT(const QString & filename) {
+	entries.clear();
+
 	QRegExp rx_number("^(\\d+)$");
 	QRegExp rx_time("^(.* --> .*)$");
 
