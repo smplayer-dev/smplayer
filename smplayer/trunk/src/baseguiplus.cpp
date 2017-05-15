@@ -1097,7 +1097,11 @@ void BaseGuiPlus::playOnChromecast() {
 			qDebug() << "BaseGuiPlus::playOnChromecast: current sub name:" << sub.name() << "filename:" << sub.filename();
 			if (!sub.filename().isEmpty()) subtitle = sub.filename(); else subtitle = sub.name();
 		}
-		Chromecast::instance()->openLocal(core->mdat.filename, title, subtitle);
+		Chromecast * cc = Chromecast::instance();
+		#ifdef CONVERT_TO_VTT
+		cc->setSubtitleEncoding(pref->subcp);
+		#endif
+		cc->openLocal(core->mdat.filename, title, subtitle);
 	}
 }
 #endif

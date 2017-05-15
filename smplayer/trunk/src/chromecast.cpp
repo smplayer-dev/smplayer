@@ -157,7 +157,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		qDebug() << "Chromecast::openLocal: url:" << url;
 		qDebug() << "Chromecast::openLocal: sub_url:" << sub_url;
 
-		#if 0
+		#if 1
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 			"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
 		#endif
@@ -188,7 +188,7 @@ QString Chromecast::checkForVTT(const QString & video_path, const QString & subt
 		#ifdef CONVERT_TO_VTT
 		if (autoconvert_to_vtt) {
 			SubReader sr;
-			sr.setInputCodec(sub_encoding);
+			sr.setInputCodec(sub_encoding.toLatin1());
 			sr.setVTTLinePosition(sub_position);
 			sr.autoConvertToVTT(subtitle_path);
 		}
@@ -336,7 +336,7 @@ void Chromecast::loadSettings() {
 		#ifdef CONVERT_TO_VTT
 		settings->beginGroup("chromecast/subtitles");
 		setAutoConvertToVTT(settings->value("autoconvert_to_vtt", autoConvertToVTT()).toBool());
-		setSubtitleEncoding(settings->value("encoding", subtitleEncoding()).toByteArray());
+		//setSubtitleEncoding(settings->value("encoding", subtitleEncoding()).toString());
 		setSubtitlePosition(settings->value("position", subtitlePosition()).toInt());
 		settings->endGroup();
 		#endif
@@ -356,7 +356,7 @@ void Chromecast::saveSettings() {
 		#ifdef CONVERT_TO_VTT
 		settings->beginGroup("chromecast/subtitles");
 		settings->setValue("autoconvert_to_vtt", autoConvertToVTT());
-		settings->setValue("encoding", subtitleEncoding());
+		//settings->setValue("encoding", subtitleEncoding());
 		settings->setValue("position", subtitlePosition());
 		settings->endGroup();
 		#endif
