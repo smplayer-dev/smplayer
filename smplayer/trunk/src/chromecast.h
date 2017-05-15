@@ -78,6 +78,8 @@ protected:
 	QString filepathWithoutRoot(const QString & filepath);
 #endif
 
+	QString checkForVTT(const QString & video_path, const QString & subtitle_file);
+
 protected slots:
 	void readProcessOutput();
 	void processFinished(int exit_code, QProcess::ExitStatus exit_status);
