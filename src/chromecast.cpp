@@ -95,7 +95,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 	QString sub_filename;
 	if (!subtitle.isEmpty()) {
 		// Check if subtitle is in the video directory
-		if (QFile::exists(dir +"/" + subtitle)) {
+		if (QFile::exists(dir +"/"+ subtitle)) {
 			sub_filename = subtitle;
 			qDebug() << "Chromecast::openLocal: sub_filename:" << sub_filename;
 		} else {
@@ -107,37 +107,17 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 				}
 			}
 		}
+		sub_filename = checkForVTT(dir, sub_filename);
 		qDebug() << "Chromecast::openLocal: sub_filename:" << sub_filename;
 	}
-
-	// If subtitle is in srt format, try to convert to vtt
-	if (autoconvert_to_vtt) {
-		QString subtitle_path = dir +"/"+ sub_filename;
-		QFileInfo fi(subtitle_path);
-		if (fi.suffix().toLower() == "srt") {
-			qDebug() << "Chromecast::openLocal: subtitle is in srt format";
-
-			SubReader sr;
-			sr.autoConvertToVTT(subtitle_path);
-
-			// Check if a subtitle file with vtt extension exists
-			QString vtt_subtitle = fi.completeBaseName() + ".vtt";
-			QString vtt_subtitle_path = dir +"/"+ vtt_subtitle;
-			if (QFile::exists(vtt_subtitle_path)) {
-				qDebug() << "Chromecast::openLocal: using" << vtt_subtitle;
-				sub_filename = vtt_subtitle;
-			}
-		}
-	}
-
 #else
 	QString sub_filepath;
 	if (!subtitle.isEmpty()) {
 		if (QFile::exists(subtitle)) {
 			sub_filepath = subtitle;
 		} else {
-			if (QFile::exists(dir +"/" + subtitle)) {
-				sub_filepath = dir +"/" + subtitle;
+			if (QFile::exists(dir +"/"+ subtitle)) {
+				sub_filepath = dir +"/"+ subtitle;
 			}
 		}
 		qDebug() << "Chromecast::openLocal: sub_filepath:" << sub_filepath;
@@ -188,6 +168,32 @@ QString Chromecast::filepathWithoutRoot(const QString & filepath) {
 	return abs_filename;
 }
 #endif
+
+QString Chromecast::checkForVTT(const QString & video_path, const QString & subtitle_file) {
+	QString actual_subtitle = subtitle_file;
+	QString dir = video_path;
+
+	QString subtitle_path = dir +"/"+ subtitle_file;
+	QFileInfo fi(subtitle_path);
+	if (fi.suffix().toLower() == "srt") {
+		qDebug() << "Chromecast::checkForVTT: subtitle is in srt format";
+
+		if (autoconvert_to_vtt) {
+			SubReader sr;
+			sr.autoConvertToVTT(subtitle_path);
+		}
+
+		// Check if a subtitle file with vtt extension exists
+		QString vtt_subtitle = fi.completeBaseName() + ".vtt";
+		QString vtt_subtitle_path = dir +"/"+ vtt_subtitle;
+		if (QFile::exists(vtt_subtitle_path)) {
+			qDebug() << "Chromecast::checkForVTT: using" << vtt_subtitle;
+			actual_subtitle = vtt_subtitle;
+		}
+	}
+
+	return actual_subtitle;
+}
 
 QStringList Chromecast::localAddresses() {
 	QStringList l;
