@@ -27,7 +27,10 @@
 #include <QSettings>
 #include <QDebug>
 #include "helper.h"
+
+#ifdef CONVERT_TO_VTT
 #include "subreader.h"
+#endif
 
 //#define CHROMECAST_USE_SERVER_WEBFSD
 //#define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
@@ -60,8 +63,12 @@ Chromecast::Chromecast(QObject * parent)
 	, server_port(8010)
 	, directory_listing(true)
 	, server_needs_restart(false)
-	, autoconvert_to_vtt(true)
 {
+#ifdef CONVERT_TO_VTT
+	autoconvert_to_vtt = true;
+	sub_encoding = "ISO-8859-1";
+	sub_position = -1;
+#endif
 }
 
 Chromecast::~Chromecast() {
@@ -150,7 +157,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		qDebug() << "Chromecast::openLocal: url:" << url;
 		qDebug() << "Chromecast::openLocal: sub_url:" << sub_url;
 
-		#if 1
+		#if 0
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 			"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
 		#endif
@@ -178,10 +185,14 @@ QString Chromecast::checkForVTT(const QString & video_path, const QString & subt
 	if (fi.suffix().toLower() == "srt") {
 		qDebug() << "Chromecast::checkForVTT: subtitle is in srt format";
 
+		#ifdef CONVERT_TO_VTT
 		if (autoconvert_to_vtt) {
 			SubReader sr;
+			sr.setInputCodec(sub_encoding);
+			sr.setVTTLinePosition(sub_position);
 			sr.autoConvertToVTT(subtitle_path);
 		}
+		#endif
 
 		// Check if a subtitle file with vtt extension exists
 		QString vtt_subtitle = fi.completeBaseName() + ".vtt";
@@ -322,10 +333,13 @@ void Chromecast::loadSettings() {
 		setDirectoryListing(settings->value("directory_listing", directoryListing()).toBool());
 		settings->endGroup();
 
+		#ifdef CONVERT_TO_VTT
 		settings->beginGroup("chromecast/subtitles");
 		setAutoConvertToVTT(settings->value("autoconvert_to_vtt", autoConvertToVTT()).toBool());
+		setSubtitleEncoding(settings->value("encoding", subtitleEncoding()).toByteArray());
+		setSubtitlePosition(settings->value("position", subtitlePosition()).toInt());
 		settings->endGroup();
-
+		#endif
 	}
 }
 
@@ -339,9 +353,13 @@ void Chromecast::saveSettings() {
 		settings->setValue("directory_listing", directoryListing());
 		settings->endGroup();
 
+		#ifdef CONVERT_TO_VTT
 		settings->beginGroup("chromecast/subtitles");
 		settings->setValue("autoconvert_to_vtt", autoConvertToVTT());
+		settings->setValue("encoding", subtitleEncoding());
+		settings->setValue("position", subtitlePosition());
 		settings->endGroup();
+		#endif
 	}
 }
 
