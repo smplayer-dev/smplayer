@@ -24,6 +24,7 @@
 #include <QProcess>
 
 #define SERVE_FILE_DIR_ONLY
+#define CONVERT_TO_VTT
 
 class QSettings;
 
@@ -64,8 +65,16 @@ public:
 
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
 
+#ifdef CONVERT_TO_VTT
 	void setAutoConvertToVTT(bool b) { autoconvert_to_vtt = b; };
 	bool autoConvertToVTT() { return autoconvert_to_vtt; };
+
+	void setSubtitleEncoding(const QByteArray& encoding) { sub_encoding = encoding; };
+	QByteArray subtitleEncoding() { return sub_encoding; };
+
+	void setSubtitlePosition(int position) { sub_position = position; };
+	int subtitlePosition() { return sub_position; };
+#endif
 
 protected:
 	void startServer(QString doc_root);
@@ -95,8 +104,11 @@ protected:
 
 	bool server_needs_restart;
 
-	// Options to convert to vtt
+#ifdef CONVERT_TO_VTT
 	bool autoconvert_to_vtt;
+	QByteArray sub_encoding;
+	int sub_position;
+#endif
 
 private:
 	static Chromecast * instance_obj;
