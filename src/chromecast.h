@@ -69,8 +69,8 @@ public:
 	void setAutoConvertToVTT(bool b) { autoconvert_to_vtt = b; };
 	bool autoConvertToVTT() { return autoconvert_to_vtt; };
 
-	void setSubtitleEncoding(const QByteArray& encoding) { sub_encoding = encoding; };
-	QByteArray subtitleEncoding() { return sub_encoding; };
+	void setSubtitleEncoding(const QString& encoding) { sub_encoding = encoding; };
+	QString subtitleEncoding() { return sub_encoding; };
 
 	void setSubtitlePosition(int position) { sub_position = position; };
 	int subtitlePosition() { return sub_position; };
@@ -106,7 +106,7 @@ protected:
 
 #ifdef CONVERT_TO_VTT
 	bool autoconvert_to_vtt;
-	QByteArray sub_encoding;
+	QString sub_encoding;
 	int sub_position;
 #endif
 
