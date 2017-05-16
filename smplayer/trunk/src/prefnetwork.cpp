@@ -60,6 +60,10 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	youtube_box->hide();
 #endif
 
+#ifndef CONVERT_TO_VTT
+	subs_box->hide();
+#endif
+
 	retranslateStrings();
 }
 

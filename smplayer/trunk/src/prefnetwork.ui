@@ -263,7 +263,7 @@
         </spacer>
        </item>
        <item row="2" column="0">
-        <widget class="QGroupBox" name="groupBox_2">
+        <widget class="QGroupBox" name="subs_box">
          <property name="title">
           <string>Subtitles</string>
          </property>
