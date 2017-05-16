@@ -115,6 +115,10 @@ void PrefNetwork::setData(Preferences * pref) {
 	setLocalIP(cc->localAddress(), cc->localAddresses());
 	port_spin->setValue(cc->serverPort());
 	directory_listing_check->setChecked(cc->directoryListing());
+
+	#ifdef CONVERT_TO_VTT
+	convert_subs_check->setChecked(cc->autoConvertToVTT());
+	#endif
 #endif
 }
 
@@ -140,6 +144,10 @@ void PrefNetwork::getData(Preferences * pref) {
 	cc->setLocalAddress(localIP());
 	cc->setServerPort(port_spin->value());
 	cc->setDirectoryListing(directory_listing_check->isChecked());
+
+	#ifdef CONVERT_TO_VTT
+	cc->setAutoConvertToVTT(convert_subs_check->isChecked());
+	#endif
 #endif
 }
 
@@ -263,6 +271,12 @@ void PrefNetwork::createHelp() {
            "files from this computer. If this option is on, any device can get a listing "
            "of the files in this computer. "
            "If this option is off, the list won't be available.") );
+
+	#ifdef CONVERT_TO_VTT
+	setWhatsThis(convert_subs_check, tr("Convert SRT subtitles to VTT"),
+		tr("When this option is enabled SMPlayer will convert automatically subtitle files "
+           "in SRT format to VTT format. The VTT subtitle will have the same name but extension .vtt"));
+	#endif
 #endif
 
 	addSectionTitle(tr("Proxy"));
