@@ -106,14 +106,16 @@ QString SubReader::convertToVTT() {
 	for (int n = 0; n < entries.count(); n++) {
 		QString time = entries[n].time;
 		time.replace(",", ".");
-		QString text = codec->toUnicode(entries[n].text);
-		if (!filter.isEmpty() && rx.indexIn(text) != -1) {
-			qDebug() << "SubReader::convertToVTT: filtered:" << text;
-		} else {
-			res += time;
-			if (vtt_line_position > -1) res += " line:" + QString::number(vtt_line_position) + "%";
-			res += NL;
-			res += text + NL + NL;
+		QString text = codec->toUnicode(entries[n].text).trimmed();
+		if (!text.isEmpty()) {
+			if (!filter.isEmpty() && rx.indexIn(text) != -1) {
+				qDebug() << "SubReader::convertToVTT: filtered:" << text;
+			} else {
+				res += time;
+				if (vtt_line_position > -1) res += " line:" + QString::number(vtt_line_position) + "%";
+				res += NL;
+				res += text + NL + NL;
+			}
 		}
 	}
 
