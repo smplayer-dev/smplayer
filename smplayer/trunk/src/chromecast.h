@@ -74,6 +74,9 @@ public:
 
 	void setSubtitlePosition(int position) { sub_position = position; };
 	int subtitlePosition() { return sub_position; };
+
+	void setSubtitleFilter(const QString & filter) { sub_filter = filter; };
+	QString subtitleFilter() { return sub_filter; };
 #endif
 
 protected:
@@ -108,6 +111,7 @@ protected:
 	bool autoconvert_to_vtt;
 	QString sub_encoding;
 	int sub_position;
+	QString sub_filter;
 #endif
 
 private:
