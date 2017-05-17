@@ -110,6 +110,7 @@ QString SubReader::convertToVTT() {
 		if (!text.isEmpty()) {
 			if (!filter.isEmpty() && rx.indexIn(text) != -1) {
 				qDebug() << "SubReader::convertToVTT: filtered:" << text;
+				res += "NOTE " + time + NL + "NOTE " + text.replace("\r\n", "\r\nNOTE ") + NL + NL;
 			} else {
 				res += time;
 				if (vtt_line_position > -1) res += " line:" + QString::number(vtt_line_position) + "%";
