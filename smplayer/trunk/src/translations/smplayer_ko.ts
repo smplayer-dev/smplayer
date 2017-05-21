@@ -2224,68 +2224,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3097"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3112"/>
+        <location filename="../core.cpp" line="3113"/>
         <source>Hue: %1</source>
         <translation>색상: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3128"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3270"/>
+        <location filename="../core.cpp" line="3271"/>
         <source>Volume: %1</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4181"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3398"/>
-        <location filename="../core.cpp" line="3409"/>
+        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Font scale: %1</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4011"/>
+        <location filename="../core.cpp" line="4012"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4413"/>
+        <location filename="../core.cpp" line="4414"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3323"/>
+        <location filename="../core.cpp" line="3324"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3341"/>
+        <location filename="../core.cpp" line="3342"/>
         <source>Audio delay: %1 ms</source>
         <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3181"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Speed: %1</source>
         <translation>속도: %1</translation>
     </message>
@@ -2300,42 +2300,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3494"/>
+        <location filename="../core.cpp" line="3495"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3496"/>
+        <location filename="../core.cpp" line="3497"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4059"/>
+        <location filename="../core.cpp" line="4060"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4062"/>
+        <location filename="../core.cpp" line="4063"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4065"/>
+        <location filename="../core.cpp" line="4066"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4069"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4389"/>
+        <location filename="../core.cpp" line="4390"/>
         <source>Screenshot saved as %1</source>
         <translation>스크린샷 저장: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4424"/>
+        <location filename="../core.cpp" line="4425"/>
         <source>Starting...</source>
         <translation>시작하는 중...</translation>
     </message>
@@ -2350,17 +2350,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2710"/>
+        <location filename="../core.cpp" line="2711"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2732"/>
+        <location filename="../core.cpp" line="2733"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2752"/>
+        <location filename="../core.cpp" line="2753"/>
         <source>A-B markers cleared</source>
         <translation>A-B 표시를 지웠습니다</translation>
     </message>
@@ -6276,7 +6276,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="116"/>
         <source>Remember &amp;time position</source>
-        <translation>시간 위치 기억하기(&amp;T)</translation>
+        <translation>시간 위치 기억하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1183"/>
@@ -7897,38 +7897,48 @@ Do you want to overwrite?</source>
         <translation>이 컴퓨터에서 로컬 미디어를 크롬캐스트로 전송하기 위해서, SMPlayer는 작은 웹 서버를 실행할 것입니다. 여기서 몇가지 설정을 조절할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="269"/>
+        <location filename="../prefnetwork.ui" line="268"/>
+        <source>Subtitles</source>
+        <translation type="unfinished">자막</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="274"/>
+        <source>Convert SRT subtitles to &amp;VTT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="285"/>
         <source>&amp;Proxy</source>
         <translation>프록시</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="275"/>
+        <location filename="../prefnetwork.ui" line="291"/>
         <source>&amp;Enable proxy</source>
         <translation>프록시 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="288"/>
+        <location filename="../prefnetwork.ui" line="304"/>
         <source>&amp;Host:</source>
         <translation>호스트:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="205"/>
-        <location filename="../prefnetwork.ui" line="301"/>
+        <location filename="../prefnetwork.ui" line="317"/>
         <source>&amp;Port:</source>
         <translation>포트:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="321"/>
+        <location filename="../prefnetwork.ui" line="337"/>
         <source>&amp;Username:</source>
         <translation>사용자명:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="334"/>
+        <location filename="../prefnetwork.ui" line="350"/>
         <source>Pa&amp;ssword:</source>
         <translation>비밀번호:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="367"/>
         <source>&amp;Type:</source>
         <translation>형식:</translation>
     </message>
@@ -7943,166 +7953,176 @@ Do you want to overwrite?</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="71"/>
+        <location filename="../prefnetwork.cpp" line="75"/>
         <source>Network</source>
         <translation>네트워크</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="220"/>
+        <location filename="../prefnetwork.cpp" line="232"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation>mpv + youtube-dl을 필요로 하는 사이트에서만 사용을 시도합니다</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="239"/>
+        <location filename="../prefnetwork.cpp" line="251"/>
         <source>User agent</source>
         <translation>사용자 에이전트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="83"/>
-        <location filename="../prefnetwork.cpp" line="218"/>
+        <location filename="../prefnetwork.cpp" line="87"/>
+        <location filename="../prefnetwork.cpp" line="230"/>
         <source>Disabled</source>
         <translation>비활성화</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="85"/>
-        <location filename="../prefnetwork.cpp" line="187"/>
-        <location filename="../prefnetwork.cpp" line="220"/>
+        <location filename="../prefnetwork.cpp" line="89"/>
+        <location filename="../prefnetwork.cpp" line="199"/>
+        <location filename="../prefnetwork.cpp" line="232"/>
         <source>Auto</source>
         <translation>자동</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="214"/>
+        <location filename="../prefnetwork.cpp" line="226"/>
         <source>YouTube</source>
         <translation>유투브</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="216"/>
+        <location filename="../prefnetwork.cpp" line="228"/>
         <source>Support for video sites</source>
         <translation>비디오 사이트 지원</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="218"/>
+        <location filename="../prefnetwork.cpp" line="230"/>
         <source>support for video sites is turned off</source>
         <translation>비디오 사이트 지원이 꺼져 있습니다</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="223"/>
+        <location filename="../prefnetwork.cpp" line="235"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>유투부 내부 지원만 사용합니다</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="226"/>
+        <location filename="../prefnetwork.cpp" line="238"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>모든 사이트에서 mpv + youtube-dl을 사용합니다</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="248"/>
         <source>Playback quality</source>
         <translation>재생 품질</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="237"/>
+        <location filename="../prefnetwork.cpp" line="249"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>선호하는 유투브 동영상 품질을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="240"/>
+        <location filename="../prefnetwork.cpp" line="252"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation>SMPlayer가 유투브에 접속할 때 사용할 사용자 에이전트를 설정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="252"/>
+        <location filename="../prefnetwork.cpp" line="264"/>
         <source>Chromecast</source>
         <translation>크롬캐스트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
+        <location filename="../prefnetwork.cpp" line="266"/>
         <source>Local IP</source>
         <translation>로컬 IP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="267"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation>이 컴퓨터의 로컬 IP 주소. 이 컴퓨터에서 해당 파일에 접근할 수 있도록 로컬 IP 주소를 크롬캐스트에 전달할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="259"/>
+        <location filename="../prefnetwork.cpp" line="271"/>
         <source>The port that the web server will use.</source>
         <translation>웹 서버가 사용할 포트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="261"/>
+        <location filename="../prefnetwork.cpp" line="273"/>
         <source>Directory listing</source>
         <translation>폴더 목록 출력</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="262"/>
+        <location filename="../prefnetwork.cpp" line="274"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation>웹 서버가 실행 중일 때, 로컬 네트워크상의 장치는 이 컴퓨터의 파일에 접근할 수 있습니다. 이 옵션을 사용하면, 이 컴퓨터의 파일 목록을 얻을 수 있습니다. 이 옵션을 끄면, 파일 목록은 이용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="268"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
+        <source>Convert SRT subtitles to VTT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="281"/>
+        <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Proxy</source>
         <translation>프락시</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>Enable proxy</source>
         <translation>프록시 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="271"/>
+        <location filename="../prefnetwork.cpp" line="289"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>프록시 사용하기/사용하지 않기.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="273"/>
+        <location filename="../prefnetwork.cpp" line="291"/>
         <source>Host</source>
         <translation>호스트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="274"/>
+        <location filename="../prefnetwork.cpp" line="292"/>
         <source>The host name of the proxy.</source>
         <translation>프록시의 호스트명.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="258"/>
-        <location filename="../prefnetwork.cpp" line="276"/>
+        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="294"/>
         <source>Port</source>
         <translation>포트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="277"/>
+        <location filename="../prefnetwork.cpp" line="295"/>
         <source>The port of the proxy.</source>
         <translation>프록시의 포트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="279"/>
+        <location filename="../prefnetwork.cpp" line="297"/>
         <source>Username</source>
         <translation>사용자명</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="298"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>프록시가 인증이 필요하면, 여기에 사용자명을 정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
         <source>Password</source>
         <translation>비밀번호</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="283"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>프록시의 비밀번호. &lt;b&gt;경고:&lt;/b&gt; 비밀번호는 설정 파일에 일반적인 텍스트로 저장됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Type</source>
         <translation>형식</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="287"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>Select the proxy type to be used.</source>
         <translation>사용할 프록시 형식을 선택하세요.</translation>
     </message>

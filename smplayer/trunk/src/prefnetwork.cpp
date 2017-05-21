@@ -279,7 +279,7 @@ void PrefNetwork::createHelp() {
 	#ifdef CONVERT_TO_VTT
 	setWhatsThis(convert_subs_check, tr("Convert SRT subtitles to VTT"),
 		tr("When this option is enabled SMPlayer will convert automatically subtitle files "
-           "in SRT format to VTT format. The VTT subtitle will have the same name but extension .vtt"));
+           "in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt"));
 	#endif
 #endif
 

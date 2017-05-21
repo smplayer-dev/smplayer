@@ -2224,68 +2224,68 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Brightness: %1</source>
         <translation>Ljosstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3097"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3112"/>
+        <location filename="../core.cpp" line="3113"/>
         <source>Hue: %1</source>
         <translation>Fargetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3128"/>
         <source>Saturation: %1</source>
         <translation>Metting: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3270"/>
+        <location filename="../core.cpp" line="3271"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4181"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3398"/>
-        <location filename="../core.cpp" line="3409"/>
+        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Font scale: %1</source>
         <translation>Skrift storleik: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4011"/>
+        <location filename="../core.cpp" line="4012"/>
         <source>Aspect ratio: %1</source>
         <translation>Bildeformat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4413"/>
+        <location filename="../core.cpp" line="4414"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer mellomlager for skrift. Dette vil ta nokre sekund...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3323"/>
+        <location filename="../core.cpp" line="3324"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Undertekst forseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3341"/>
+        <location filename="../core.cpp" line="3342"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lydforseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3181"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Speed: %1</source>
         <translation>Fart: %1</translation>
     </message>
@@ -2300,42 +2300,42 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Klarte ikkje å finna nettadressa til videoen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3494"/>
+        <location filename="../core.cpp" line="3495"/>
         <source>Subtitles on</source>
         <translation>Undertekstar på</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3496"/>
+        <location filename="../core.cpp" line="3497"/>
         <source>Subtitles off</source>
         <translation>Undertekstar av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4059"/>
+        <location filename="../core.cpp" line="4060"/>
         <source>Mouse wheel seeks now</source>
         <translation>Museskroll - navigering no</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4062"/>
+        <location filename="../core.cpp" line="4063"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Museskroll - endring av lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4065"/>
+        <location filename="../core.cpp" line="4066"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Museskroll - endring av zoom-nivå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4069"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Museskroll - endring av tempo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4389"/>
+        <location filename="../core.cpp" line="4390"/>
         <source>Screenshot saved as %1</source>
         <translation>Skjermbilete lagra som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4424"/>
+        <location filename="../core.cpp" line="4425"/>
         <source>Starting...</source>
         <translation>Startar…</translation>
     </message>
@@ -2350,17 +2350,17 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Skjermbileta ikkje tekne, plassering ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2710"/>
+        <location filename="../core.cpp" line="2711"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>‹‹A›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2732"/>
+        <location filename="../core.cpp" line="2733"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>‹‹B›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2752"/>
+        <location filename="../core.cpp" line="2753"/>
         <source>A-B markers cleared</source>
         <translation>A-B punkta fjerna</translation>
     </message>
@@ -7899,38 +7899,48 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="269"/>
+        <location filename="../prefnetwork.ui" line="268"/>
+        <source>Subtitles</source>
+        <translation type="unfinished">Undertekstar</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="274"/>
+        <source>Convert SRT subtitles to &amp;VTT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="285"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Mellomtenar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="275"/>
+        <location filename="../prefnetwork.ui" line="291"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Slå på mellomtenar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="288"/>
+        <location filename="../prefnetwork.ui" line="304"/>
         <source>&amp;Host:</source>
         <translation>&amp;Vert:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="205"/>
-        <location filename="../prefnetwork.ui" line="301"/>
+        <location filename="../prefnetwork.ui" line="317"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="321"/>
+        <location filename="../prefnetwork.ui" line="337"/>
         <source>&amp;Username:</source>
         <translation>&amp;Brukarnamn:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="334"/>
+        <location filename="../prefnetwork.ui" line="350"/>
         <source>Pa&amp;ssword:</source>
         <translation>Pa&amp;ssord:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="367"/>
         <source>&amp;Type:</source>
         <translation>&amp;Type:</translation>
     </message>
@@ -7945,167 +7955,177 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="71"/>
+        <location filename="../prefnetwork.cpp" line="75"/>
         <source>Network</source>
         <translation>Nettverk</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="220"/>
+        <location filename="../prefnetwork.cpp" line="232"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="239"/>
+        <location filename="../prefnetwork.cpp" line="251"/>
         <source>User agent</source>
         <translation>Brukaragent</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="83"/>
-        <location filename="../prefnetwork.cpp" line="218"/>
+        <location filename="../prefnetwork.cpp" line="87"/>
+        <location filename="../prefnetwork.cpp" line="230"/>
         <source>Disabled</source>
         <translation>Avslått</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="85"/>
-        <location filename="../prefnetwork.cpp" line="187"/>
-        <location filename="../prefnetwork.cpp" line="220"/>
+        <location filename="../prefnetwork.cpp" line="89"/>
+        <location filename="../prefnetwork.cpp" line="199"/>
+        <location filename="../prefnetwork.cpp" line="232"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="214"/>
+        <location filename="../prefnetwork.cpp" line="226"/>
         <source>YouTube</source>
         <translation>YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="216"/>
+        <location filename="../prefnetwork.cpp" line="228"/>
         <source>Support for video sites</source>
         <translation>Støtte for videonettstadar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="218"/>
+        <location filename="../prefnetwork.cpp" line="230"/>
         <source>support for video sites is turned off</source>
         <translation>støtte for videonettstadar ewr slått av</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="223"/>
+        <location filename="../prefnetwork.cpp" line="235"/>
         <source>only the internal support for YouTube will be used</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="226"/>
+        <location filename="../prefnetwork.cpp" line="238"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>brukar mpv + youtube-dl for alle nettstadar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="248"/>
         <source>Playback quality</source>
         <translation>Avfspelingskvalitet</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="237"/>
+        <location filename="../prefnetwork.cpp" line="249"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>Vel føretrekt kvalitet for YouTube-videoar.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="240"/>
+        <location filename="../prefnetwork.cpp" line="252"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="252"/>
+        <location filename="../prefnetwork.cpp" line="264"/>
         <source>Chromecast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
+        <location filename="../prefnetwork.cpp" line="266"/>
         <source>Local IP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="267"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="259"/>
+        <location filename="../prefnetwork.cpp" line="271"/>
         <source>The port that the web server will use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="261"/>
+        <location filename="../prefnetwork.cpp" line="273"/>
         <source>Directory listing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="262"/>
+        <location filename="../prefnetwork.cpp" line="274"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="268"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
+        <source>Convert SRT subtitles to VTT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="281"/>
+        <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Proxy</source>
         <translation>Mellomtenar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>Enable proxy</source>
         <translation>Slå på mellomtenar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="271"/>
+        <location filename="../prefnetwork.cpp" line="289"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Slå på/av mellomtenar.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="273"/>
+        <location filename="../prefnetwork.cpp" line="291"/>
         <source>Host</source>
         <translation>Vert</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="274"/>
+        <location filename="../prefnetwork.cpp" line="292"/>
         <source>The host name of the proxy.</source>
         <translation>Vertsnamn åt mellomtenar.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="258"/>
-        <location filename="../prefnetwork.cpp" line="276"/>
+        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="294"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="277"/>
+        <location filename="../prefnetwork.cpp" line="295"/>
         <source>The port of the proxy.</source>
         <translation>Porten åt mellomtenaren.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="279"/>
+        <location filename="../prefnetwork.cpp" line="297"/>
         <source>Username</source>
         <translation>Brukarnamn</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="298"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation type="unfinished">Om mellomtenaren krev verifisering, skriv inn brukarnamn her.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
         <source>Password</source>
         <translation>Passord</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="283"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation type="unfinished">Set passordet for mellomtenaren her. 
 Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="287"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>Select the proxy type to be used.</source>
         <translation>Vel mellomtenartype.</translation>
     </message>
