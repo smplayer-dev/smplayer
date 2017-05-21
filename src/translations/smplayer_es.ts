@@ -7915,12 +7915,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="268"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Subtítulos</translation>
+        <translation>Subtítulos</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="274"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Convertir subtítulos SRT en &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="285"/>
@@ -8069,12 +8069,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Convertir subtítulos SRT en VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="281"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando se activa esta opción SMPlayer convertirá automáticamente los subtítulos en formato SRT a VTT. El archivo VTT se guardará en la misma carpeta y con mismo nombre que el subtítulo SRT pero con extensión .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
