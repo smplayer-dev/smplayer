@@ -23,6 +23,7 @@ InputBookmark::InputBookmark( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 	time_edit->setDisplayFormat("hh:mm:ss");
+	name_edit->setFocus();
 }
 
 InputBookmark::~InputBookmark() {
