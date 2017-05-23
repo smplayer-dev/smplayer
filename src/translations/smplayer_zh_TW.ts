@@ -840,22 +840,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5104"/>
         <source>Error detected</source>
         <translation>檢測到錯誤</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5103"/>
+        <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>抱歉，這個影片不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5340"/>
+        <location filename="../basegui.cpp" line="5342"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5341"/>
+        <location filename="../basegui.cpp" line="5343"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1334,130 +1334,130 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>即便是小錢都可以很有幫助。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5037"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>Connection failed</source>
         <translation>連線失敗</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您所要求的影片需要開啟 HTTPS 連線。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>很可惜，您的系統缺少必要的 OpenSSL 元件</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>請參訪 %1 以得知如何修復這個問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>this link</source>
         <translation>這個連結</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>因 Youtube 頁面的變更，這個影片不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5058"/>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5068"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6042"/>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 Error</source>
         <translation>%1 錯誤</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 意外地結束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>youtube-dl 組件執行失敗。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>安裝 Microsoft Visual C++ 2010 可轉散發套件 (x86) 可能可以修復此問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6071"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Click here to get it</source>
         <translation>點選這裡來取得它</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6096"/>
+        <location filename="../basegui.cpp" line="6098"/>
         <source>%1 failed to start.</source>
         <translation>%1 啟動失敗。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>請檢查 %1 在偏好設定裡的路徑。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6099"/>
+        <location filename="../basegui.cpp" line="6101"/>
         <source>%1 has crashed.</source>
         <translation>%1 當掉了。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube 瀏覽器尚未安裝。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6182"/>
-        <location filename="../basegui.cpp" line="6194"/>
+        <location filename="../basegui.cpp" line="6184"/>
+        <location filename="../basegui.cpp" line="6196"/>
         <source>Visit %1 to get it.</source>
         <translation>參訪 %1 以取得它。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube 瀏覽器執行失敗。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6195"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>請確保它已正確地安裝。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6359"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>系統已切換至平板電腦模式。SMPlayer 是否也應該變更為平板電腦模式？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6361"/>
+        <location filename="../basegui.cpp" line="6363"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>系統已結束平板電腦模式。SMPlayer 是否也應該關閉平板電腦模式？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6365"/>
+        <location filename="../basegui.cpp" line="6367"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>記住我的決定且不要再詢問</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>很可惜，由於 YouTube 網頁的變更，無法播放 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5062"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想更新 YouTube 的程式碼嗎？這樣可能可以解決問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>也許更新 SMPlayer 可以解決這個問題。</translation>
     </message>
@@ -1593,17 +1593,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重設視訊等化器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5104"/>
+        <location filename="../basegui.cpp" line="5106"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>伺服器返回 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6046"/>
         <source>Exit code: %1</source>
         <translation>結束代碼: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6100"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>See the log for more info.</source>
         <translation>更多資訊請參閱日誌</translation>
     </message>
@@ -1725,22 +1725,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音訊軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4948"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 您使用的是舊的 MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4949"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>您系統上的 MPlayer (%1) 過於老舊，無法和 SMPlayer 搭配，因此有些選項無法正常運作，字幕選擇可能會失敗......</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>Please, update your MPlayer.</source>
         <translation>請更新您的 MPlayer 。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(這個警告將不再顯示)</translation>
     </message>
@@ -1869,8 +1869,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切換「保持在桌面最上層顯示」</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5544"/>
-        <location filename="../basegui.cpp" line="5884"/>
+        <location filename="../basegui.cpp" line="5546"/>
+        <location filename="../basegui.cpp" line="5886"/>
         <source>Jump to %1</source>
         <translation>跳轉到 %1</translation>
     </message>
@@ -7904,12 +7904,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="268"/>
         <source>Subtitles</source>
-        <translation type="unfinished">字幕</translation>
+        <translation>字幕</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="274"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>將 SRT 字幕轉換為 VTT(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="285"/>
@@ -8058,12 +8058,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>將 SRT 字幕轉換為 VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="281"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>當此選項啟用時，SMPlayer 將會自動將 SRT 格式的字幕轉換為 VTT 格式。VTT 字幕將會有相同的檔案名稱，僅將副檔名變更為 .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>

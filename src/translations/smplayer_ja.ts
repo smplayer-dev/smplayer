@@ -840,22 +840,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5104"/>
         <source>Error detected</source>
         <translation>エラーが検出されました</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5103"/>
+        <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>残念ながらこのビデオは再生できません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5340"/>
+        <location filename="../basegui.cpp" line="5342"/>
         <source>Pause</source>
         <translation>一時停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5341"/>
+        <location filename="../basegui.cpp" line="5343"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1334,130 +1334,130 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>小さな額でも大きな助けとなります。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5037"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>Connection failed</source>
         <translation>接続に失敗しました</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>要求したビデオは HTTPS 接続を開く必要があります。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>残念ながらそれに必要な OpenSSL コンポーネントはお使いのシステムで利用できません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>この問題を解決する方法については%1にアクセスしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>this link</source>
         <translation>このリンク</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>残念ながら YouTube ページの変更により、このビデオは再生できません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5058"/>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5068"/>
         <source>Problems with Youtube</source>
         <translation>YouTube に関する問題</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6042"/>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 Error</source>
         <translation>%1 エラー</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 は予期せず終了しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>コンポーネント youtube-dl の実行に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Microsoft Visual C++ 2010 再頒布可能パッケージ (x86) のインストールで問題を解決できるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6071"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Click here to get it</source>
         <translation>取得するにはここをクリックします</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6096"/>
+        <location filename="../basegui.cpp" line="6098"/>
         <source>%1 failed to start.</source>
         <translation>%1 が起動に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>環境設定で %1 のパスを確認してください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6099"/>
+        <location filename="../basegui.cpp" line="6101"/>
         <source>%1 has crashed.</source>
         <translation>%1 はクラッシュしました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube ブラウザーがインストールされていません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6182"/>
-        <location filename="../basegui.cpp" line="6194"/>
+        <location filename="../basegui.cpp" line="6184"/>
+        <location filename="../basegui.cpp" line="6196"/>
         <source>Visit %1 to get it.</source>
         <translation>取得するには %1 にアクセスしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube ブラウザーの実行に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6195"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>正しくインストールされていることを確実にしてください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6359"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>システムがタブレット モードへ切り替えられました。SMPlayer もタブレット モードへ変更しますか?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6361"/>
+        <location filename="../basegui.cpp" line="6363"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>システムがタブレット モードを終了しました。SMPlayer もタブレット モードをオフにしますか?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6365"/>
+        <location filename="../basegui.cpp" line="6367"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>設定を記憶して今後確認しない</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>YouTube ページの変更のため、ビデオ &apos;%1&apos; は残念ながら再生できません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5062"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>YouTube のコードを更新しますか? これにより問題が修正されるかもしれません。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>SMPlayer の更新でこの問題が修正できるかもしれません。</translation>
     </message>
@@ -1593,17 +1593,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ビデオ イコライザーのリセット</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5104"/>
+        <location filename="../basegui.cpp" line="5106"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>サーバーは &apos;%1&apos; を返しました</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6046"/>
         <source>Exit code: %1</source>
         <translation>終了コード: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6100"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>See the log for more info.</source>
         <translation>さらなる情報はログをご覧ください。</translation>
     </message>
@@ -1725,22 +1725,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>トラック(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4948"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 古い MPlayer を使用しています</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4949"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>お使いのシステムにインストールされている MPlayer のバージョン (%1) は古いです。SMPlayer はよく動作できません: 一部のオプションは動作しません、字幕の選択は失敗する可能性があります...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>Please, update your MPlayer.</source>
         <translation>お使いの MPlayer を更新してください。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(この警告はこれ以上表示されません)</translation>
     </message>
@@ -1869,8 +1869,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>手前に表示の切り替え</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5544"/>
-        <location filename="../basegui.cpp" line="5884"/>
+        <location filename="../basegui.cpp" line="5546"/>
+        <location filename="../basegui.cpp" line="5886"/>
         <source>Jump to %1</source>
         <translation>%1 へジャンプします</translation>
     </message>
@@ -7898,12 +7898,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="268"/>
         <source>Subtitles</source>
-        <translation type="unfinished">字幕</translation>
+        <translation>字幕</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="274"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>SRT 字幕を VTT へ変換(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="285"/>
@@ -8052,12 +8052,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>SRT 字幕を VTT へ変換</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="281"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合 SMPlayer は SRT 形式の字幕ファイルを自動的に VTT 形式へ変換します。VTT 字幕は拡張子 .vtt 以外は同じファイル名になります。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>

@@ -840,22 +840,22 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Podnaslovi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5104"/>
         <source>Error detected</source>
         <translation>Greška otkrivena</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5103"/>
+        <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Nažalost ova video snimka se ne može reproducirati.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5340"/>
+        <location filename="../basegui.cpp" line="5342"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5341"/>
+        <location filename="../basegui.cpp" line="5343"/>
         <source>Stop</source>
         <translation>Zaustavi</translation>
     </message>
@@ -1334,130 +1334,130 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Čak i najmanji iznos će nam puno pomoći.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5037"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>Connection failed</source>
         <translation>Neuspjelo povezivanje</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Tražena video snimka zahtijeva pokretanje HTTPS povezivanja.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Nažalost OpenSSL komponenta potrebna za povezivanje, nije dostupna na vašem sustavu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Posjetite %1 kako biste saznali, kako popraviti ovaj problem.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>this link</source>
         <translation>ovu poveznicu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Nažalost uslijed promjena na Youtube stranici, ova video snimka se ne može reproducirati.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5058"/>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5068"/>
         <source>Problems with Youtube</source>
         <translation>Problemi s Youtubom</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6042"/>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 Error</source>
         <translation>%1 greška</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 se zatvorio neočekivano.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Komponenta youtube-dl se ne može pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Instalacija Microsoft Visual C++ 2010 Redistributable paketa (x86) može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6071"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Click here to get it</source>
         <translation>Kliknite ovdje kako bi ga nabavilli</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6096"/>
+        <location filename="../basegui.cpp" line="6098"/>
         <source>%1 failed to start.</source>
         <translation>%1 je nemoguće pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Provjerite %1 putanju u osobitostima.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6099"/>
+        <location filename="../basegui.cpp" line="6101"/>
         <source>%1 has crashed.</source>
         <translation>%1 se srušio.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube preglednik nije instaliran.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6182"/>
-        <location filename="../basegui.cpp" line="6194"/>
+        <location filename="../basegui.cpp" line="6184"/>
+        <location filename="../basegui.cpp" line="6196"/>
         <source>Visit %1 to get it.</source>
         <translation>Posjetite %1 da bi ga nabavili.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube preglednik se ne može pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6195"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Pobrinite se da je instaliran.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6359"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sustav se prebacio u tablet način rada. Treba li se i SMPlayer prebaciti u tablet način rada?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6361"/>
+        <location filename="../basegui.cpp" line="6363"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sustav je napustio tablet način rada. Treba li i SMPlayer napustiti tablet nečin rada?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6365"/>
+        <location filename="../basegui.cpp" line="6367"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Zapamti moj odabir i ne pitaj ponovno.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Nažalost uslijed promjena na Youtube stranici, video snimka &apos;%1&apos; se ne može reproducirati.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5062"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Želite li nadopuniti Youtube kôd? To može popraviti problem.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Možda nadopuna SMPlayera može popraviti taj problem.</translation>
     </message>
@@ -1593,17 +1593,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Ekvalizator slike vrati na početno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5104"/>
+        <location filename="../basegui.cpp" line="5106"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Poslužitelj je vratio &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6046"/>
         <source>Exit code: %1</source>
         <translation>Izlazni kôd: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6100"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>See the log for more info.</source>
         <translation>Pogledajte zapis za više informacija.</translation>
     </message>
@@ -1725,22 +1725,22 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>&amp;Zvučni zapis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4948"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Upozorenje - Koristite zastarjeli MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4949"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Trenutna instalirana inačica MPlayera (%1) je zastarjela. SMPlayer ne radi ispravno s njom, neke mogućnosti neće biti dostupne, kao npr. odabir podnaslova...  </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>Please, update your MPlayer.</source>
         <translation>Molim, nadopunite vaš MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ovo upozorenje više neće biti prikazano)</translation>
     </message>
@@ -1869,8 +1869,8 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Uključi/Isključi ostani na vrhu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5544"/>
-        <location filename="../basegui.cpp" line="5884"/>
+        <location filename="../basegui.cpp" line="5546"/>
+        <location filename="../basegui.cpp" line="5886"/>
         <source>Jump to %1</source>
         <translation>Premotaj na %1</translation>
     </message>
@@ -7900,12 +7900,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="268"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Podnaslovi</translation>
+        <translation>Podnaslovi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="274"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretvori SRT podnaslove u &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="285"/>
@@ -8054,12 +8054,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretvori SRT podnaslove u VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="281"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Kada je ova mogućnost omogućena SMPlayer će automatski pretvoriti datoteke podnaslova SRT formata u VTT format. VTT podnaslov će imati isti naziv datoteke i .vtt nastavak vrste datoteke</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>

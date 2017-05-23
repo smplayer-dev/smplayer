@@ -840,22 +840,22 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Legendas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5104"/>
         <source>Error detected</source>
         <translation>Erro detectado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5103"/>
+        <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Infelizmente esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5340"/>
+        <location filename="../basegui.cpp" line="5342"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5341"/>
+        <location filename="../basegui.cpp" line="5343"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1334,130 +1334,130 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Mesmo uma pequena quantia ajudará bastante.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5037"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>Connection failed</source>
         <translation>Falha na conexão</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>O vídeo requisitado precisa abrir uma conexão HTTPS.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Infelizmente, o componente OpenSSL, necessário para a ação, não está disponível em seu sistema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Por favor, visite %1 para saber como reparar esse problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>this link</source>
         <translation>esse link</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Devido às alterações no Youtube, esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5058"/>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5068"/>
         <source>Problems with Youtube</source>
         <translation>Problemas com o Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6042"/>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 Error</source>
         <translation>Erro em %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 terminou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Falha na execução do youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>A instalação do Microsoft Visual C++ 2010 Redistributable Package (x86) deve resolver o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6071"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Click here to get it</source>
         <translation>Clique aqui para obtê-lo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6096"/>
+        <location filename="../basegui.cpp" line="6098"/>
         <source>%1 failed to start.</source>
         <translation>Falha ao iniciar %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Por favor verifique o caminho do %1 nas Preferências.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6099"/>
+        <location filename="../basegui.cpp" line="6101"/>
         <source>%1 has crashed.</source>
         <translation>%1 travou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>O navegador do Youtube não está instalado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6182"/>
-        <location filename="../basegui.cpp" line="6194"/>
+        <location filename="../basegui.cpp" line="6184"/>
+        <location filename="../basegui.cpp" line="6196"/>
         <source>Visit %1 to get it.</source>
         <translation>VIsite %1 para baixar isso.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Falha na execução do navegador do YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6195"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Tenha certeza de que foi instalado corretamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6359"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>O sistema mudou para o modo tablet. Deseja que o SMPlayer mude para o modo tablet também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6361"/>
+        <location filename="../basegui.cpp" line="6363"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>O sistema saiu do modo tablet. Deseja que o SMPlayer saia também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6365"/>
+        <location filename="../basegui.cpp" line="6367"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Lembre-se da minha decisão e não pergunte novamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Devido às recentes alterações no Youtube, o vídeo %1 não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5062"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Gostaria de atualizar o código do Youtube? Isso pode consertar o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Atualize o SMPlayer e tente novamente.</translation>
     </message>
@@ -1593,17 +1593,17 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Repor equalizador vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5104"/>
+        <location filename="../basegui.cpp" line="5106"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>O servidor está &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6046"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6100"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>See the log for more info.</source>
         <translation>Veja o registo para mais informações.</translation>
     </message>
@@ -1725,22 +1725,22 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>&amp;Faixa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4948"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Aviso - Usando MPlayer antiquado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4949"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. O SMPlayer não funcionará corretamente: algumas opções não funcionam, legendas podem falhar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>Please, update your MPlayer.</source>
         <translation>Por favor, atualize o MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Este aviso não será apresentado novamente)</translation>
     </message>
@@ -1869,8 +1869,8 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Ativar/Desativar fica no topo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5544"/>
-        <location filename="../basegui.cpp" line="5884"/>
+        <location filename="../basegui.cpp" line="5546"/>
+        <location filename="../basegui.cpp" line="5886"/>
         <source>Jump to %1</source>
         <translation>Ir para %1</translation>
     </message>
@@ -7899,12 +7899,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="268"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Legendas</translation>
+        <translation>Legendas</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="274"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converter legendas SRT para &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="285"/>
@@ -8053,12 +8053,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converter legendas SRT para VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="281"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Com essa opção habilitada, o SMPlayer converterá automaticamente os arquivos de legenda no formato SRT para o formato VTT. O arquivo de legenda VTT terá o mesmo nome mas com a extensão .vtt.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>

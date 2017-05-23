@@ -840,22 +840,22 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Subtítols</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5104"/>
         <source>Error detected</source>
         <translation>Error detectat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5103"/>
+        <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Desafortunadament no es pot reproduir aquest vídeo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5340"/>
+        <location filename="../basegui.cpp" line="5342"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5341"/>
+        <location filename="../basegui.cpp" line="5343"/>
         <source>Stop</source>
         <translation>Atura</translation>
     </message>
@@ -1334,130 +1334,130 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Fins i tot la quantitat més petita ajudarà molt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5037"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>Connection failed</source>
         <translation>La connexió ha fallat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>El vídeo que heu sol·licitat requereix que s&apos;obri una connexió HTTPS.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Desafortunadament, el component OpenSSL, que es requereix per això, no està disponible al sistema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Si us plau, visiteu %1 per a conèixer com corregir aquest problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>this link</source>
         <translation>aquest enllaç</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Desafortunadament, a causa de canvis a YouTube, no es pot reproduir aquest vídeo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5058"/>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5068"/>
         <source>Problems with Youtube</source>
         <translation>Problemes amb YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6042"/>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 Error</source>
         <translation>Error %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ha acabat inesperadament.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>No s&apos;ha pogut executar el component youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>La instal·lació del paquet de redistribució de Microsoft Visual C++ 2010 (x86) pot corregir aquest problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6071"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Click here to get it</source>
         <translation>Feu clic aquí per a obtenir-lo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6096"/>
+        <location filename="../basegui.cpp" line="6098"/>
         <source>%1 failed to start.</source>
         <translation>No s&apos;ha pogut iniciar %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Comproveu el camí de %1 a les preferències.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6099"/>
+        <location filename="../basegui.cpp" line="6101"/>
         <source>%1 has crashed.</source>
         <translation>%1 ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>El navegador de YouTube no està instal·lat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6182"/>
-        <location filename="../basegui.cpp" line="6194"/>
+        <location filename="../basegui.cpp" line="6184"/>
+        <location filename="../basegui.cpp" line="6196"/>
         <source>Visit %1 to get it.</source>
         <translation>Visiteu %1 per a obtenir-lo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>L&apos;execució del navegador de YouTube ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6195"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Assegureu-vos que estigui instal·lat correctament.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6359"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>El sistema ha canviat al mode de tauleta. També s&apos;ha de canviar SMPlayer al mode de tauleta?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6361"/>
+        <location filename="../basegui.cpp" line="6363"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>El sistema ha sortit del mode de tauleta. SMPlayer també ha d&apos;apagar el mode de tauleta?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6365"/>
+        <location filename="../basegui.cpp" line="6367"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Recorda la meva decisió i no tornis a preguntar-ho</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Desafortunadament, a causa de canvis a YouTube, no es pot reproduir el vídeo &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5062"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Voleu actualitzar el codi de YouTube? Això pot corregir el problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Potser l&apos;actualització de SMPlayer pot corregir el problema.</translation>
     </message>
@@ -1593,17 +1593,17 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Restableix l&apos;equalitzador de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5104"/>
+        <location filename="../basegui.cpp" line="5106"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>El servidor ha retornat &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6044"/>
+        <location filename="../basegui.cpp" line="6046"/>
         <source>Exit code: %1</source>
         <translation>Codi de sortida: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6100"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>See the log for more info.</source>
         <translation>Mireu al registre per més informació.</translation>
     </message>
@@ -1725,22 +1725,22 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Pis&amp;ta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4948"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Advertència - Ús d&apos;un MPlayer antic</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4949"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>Please, update your MPlayer.</source>
         <translation>Actualitzeu el vostre MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(aquesta advertència no es tornarà a mostrar mai més)</translation>
     </message>
@@ -1869,8 +1869,8 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Commuta mantén per sobre</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5544"/>
-        <location filename="../basegui.cpp" line="5884"/>
+        <location filename="../basegui.cpp" line="5546"/>
+        <location filename="../basegui.cpp" line="5886"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
