@@ -312,6 +312,8 @@ public slots:
 #ifdef BOOKMARKS
 	void nextBookmark();
 	void prevBookmark();
+
+	void saveBookmarks();
 #endif
 
 	#if 0

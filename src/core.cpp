@@ -4864,6 +4864,11 @@ void Core::nextBookmark() {
 		goToSec(first_time);
 	}
 }
+
+void Core::saveBookmarks() {
+	qDebug("Core::saveBookmarks");
+	saveMediaInfo();
+}
 #endif
 
 #include "moc_core.cpp"

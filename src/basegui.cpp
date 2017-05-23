@@ -4655,6 +4655,7 @@ void BaseGui::showAddBookmarkDialog() {
 	if (d.exec() == QDialog::Accepted) {
 		core->mset.bookmarks.insert(d.time(), d.name());
 		updateBookmarks();
+		core->saveBookmarks();
 	}
 }
 
@@ -4665,6 +4666,7 @@ void BaseGui::showBookmarkDialog() {
 	if (d.exec() == QDialog::Accepted) {
 		core->mset.bookmarks = d.bookmarks();
 		updateBookmarks();
+		core->saveBookmarks();
 	}
 }
 #endif
