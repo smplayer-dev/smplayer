@@ -1,3 +1,17 @@
+Version 17.6:
+
+(2017-05-23)
+ * (Add bookmark) Set focus on the name field.
+ * Save bookmarks just after edit.
+
+(2017-05-16)
+ * Add an option in preferences -> network -> chromecast to convert automatically
+   SRT subtitles to VTT.
+
+(2017-05-11)
+ * Possibility to pass options to the acompressor filter (in smplayer.ini).
+
+
 Version 17.5:
 
 (2017-05-03)
