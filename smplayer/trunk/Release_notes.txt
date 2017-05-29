@@ -1,3 +1,9 @@
+Version 17.6
+
+ * Possibility to convert automatically subtitles in srt format to vtt
+   when playing on Chromecast.
+
+
 Version 17.5
 
  * Fix for YouTube.
