@@ -65,7 +65,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_STREAM_PATH=${stream-path}\n";
 
 #ifndef Q_OS_WIN
-	arg << "--audio-client-name=smplayer";
+	arg << "--audio-client-name=SMPlayer";
 #endif
 
 #ifdef CUSTOM_STATUS
