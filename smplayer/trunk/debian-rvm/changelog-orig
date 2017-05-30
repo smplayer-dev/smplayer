@@ -1,3 +1,10 @@
+smplayer (17.6.0) precise; urgency=low
+
+  * Possibility to convert automatically subtitles in srt format to vtt
+    when playing on Chromecast.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 30 May 2017 23:59:06 +0200
+
 smplayer (17.5.0) precise; urgency=medium
 
   * Fix for YouTube.
