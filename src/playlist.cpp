@@ -941,7 +941,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 	qDebug() << "Playlist::load_m3u: utf8:" << utf8;
 
 	QRegExp m3u_id("^#EXTM3U|^#M3U");
-	QRegExp info("^#EXTINF:(.*),(.*)");
+	QRegExp rx_info("^#EXTINF:([.\\d]+).*tvg-logo=\"(.*)\",(.*)");
 
 	QFile f( file );
 	if ( f.open( QIODevice::ReadOnly ) ) {
@@ -965,19 +965,19 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 			line = stream.readLine().trimmed();
 			if (line.isEmpty()) continue; // Ignore empty lines
 
-			qDebug( "Playlist::load_m3u: line: '%s'", line.toUtf8().data() );
+			qDebug() << "Playlist::load_m3u: line:" << line;
 			if (m3u_id.indexIn(line)!=-1) {
 				//#EXTM3U
 				// Ignore line
 			}
 			else
-			/*
-			if (info.indexIn(line)!=-1) {
-				duration = info.cap(1).toDouble();
-				name = info.cap(2);
-				qDebug("Playlist::load_m3u: name: '%s', duration: %f", name.toUtf8().data(), duration );
-			} 
-			*/
+			if (rx_info.indexIn(line) != -1) {
+				duration = rx_info.cap(1).toDouble();
+				name = rx_info.cap(3);
+				QString logo = rx_info.cap(2);
+				qDebug() << "Playlist::load_m3u: name:" << name << "duration:" << duration << "logo:" << logo;
+			}
+			else
 			if (line.startsWith("#EXTINF:")) {
 				QStringList fields = line.mid(8).split(",");
 				//qDebug() << "Playlist::load_m3u: fields:" << fields;
