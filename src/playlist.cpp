@@ -244,6 +244,14 @@ QString PLItem::videoURL() {
 	return data(Role_Video_URL).toString();
 }
 
+void PLItem::setIconURL(const QString & url) {
+	setData(url, Role_Icon_URL);
+}
+
+QString PLItem::iconURL() {
+	return data(Role_Icon_URL).toString();
+}
+
 /* ----------------------------------------------------------- */
 
 
@@ -860,7 +868,7 @@ void Playlist::changeItem(int row, const QString & filename, const QString name,
 }
 */
 
-void Playlist::addItem(QString filename, QString name, double duration, QStringList params, QString video_url) {
+void Playlist::addItem(QString filename, QString name, double duration, QStringList params, QString video_url, QString icon_url) {
 	//qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -882,6 +890,7 @@ void Playlist::addItem(QString filename, QString name, double duration, QStringL
 	PLItem * i = new PLItem(filename, name, duration);
 	i->setExtraParams(params);
 	i->setVideoURL(video_url);
+	i->setIconURL(icon_url);
 	i->setPosition(count()+1);
 	table->appendRow(i->items());
 
@@ -952,6 +961,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		QString name="";
 		double duration=0;
 		QStringList extra_params;
+		QString icon_url;
 
 		QTextStream stream( &f );
 
@@ -974,8 +984,8 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 			if (rx_info.indexIn(line) != -1) {
 				duration = rx_info.cap(1).toDouble();
 				name = rx_info.cap(3);
-				QString logo = rx_info.cap(2);
-				qDebug() << "Playlist::load_m3u: name:" << name << "duration:" << duration << "logo:" << logo;
+				icon_url = rx_info.cap(2);
+				qDebug() << "Playlist::load_m3u: name:" << name << "duration:" << duration << "icon_url:" << icon_url;
 			}
 			else
 			if (line.startsWith("#EXTINF:")) {
@@ -1007,10 +1017,11 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 				}
 				name.replace("&#44;", ",");
 				//qDebug() << "Playlist::load_m3u: extra_params:" << extra_params;
-				addItem( filename, name, duration, extra_params );
-				name=""; 
+				addItem( filename, name, duration, extra_params, "", icon_url );
+				name = "";
 				duration = 0;
 				extra_params.clear();
+				icon_url = "";
 			}
 		}
 		f.close();
@@ -1157,8 +1168,11 @@ bool Playlist::save_m3u(QString file) {
 			#endif
 			name = i->name();
 			name.replace(",", "&#44;");
+			QString icon_url = i->iconURL();
 			stream << "#EXTINF:";
-			stream << i->duration() << ",";
+			stream << i->duration();
+			if (!icon_url.isEmpty()) stream << " tvg-logo=\"" + icon_url + "\"";
+			stream << ",";
 			stream << name << "\n";
 
 			// Save extra params
@@ -2201,6 +2215,7 @@ void Playlist::saveSettings() {
 			set->setValue( QString("item_%1_name").arg(n), i->name() );
 			set->setValue( QString("item_%1_params").arg(n), i->extraParams() );
 			set->setValue( QString("item_%1_video_url").arg(n), i->videoURL() );
+			set->setValue( QString("item_%1_icon_url").arg(n), i->iconURL() );
 		}
 		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
@@ -2285,7 +2300,8 @@ void Playlist::loadSettings() {
 			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
 			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
 			QString video_url = set->value( QString("item_%1_video_url").arg(n), "").toString();
-			addItem( filename, name, duration, params, video_url );
+			QString icon_url = set->value( QString("item_%1_icon_url").arg(n), "").toString();
+			addItem( filename, name, duration, params, video_url, icon_url );
 		}
 		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
