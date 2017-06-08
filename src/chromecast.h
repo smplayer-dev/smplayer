@@ -77,6 +77,9 @@ public:
 
 	void setSubtitleFilter(const QString & filter) { sub_filter = filter; };
 	QString subtitleFilter() { return sub_filter; };
+
+	void setOverwriteVTT(bool b) { overwrite_vtt = b; };
+	bool overwriteVTT() { return overwrite_vtt; };
 #endif
 
 protected:
@@ -112,6 +115,7 @@ protected:
 	QString sub_encoding;
 	int sub_position;
 	QString sub_filter;
+	bool overwrite_vtt;
 #endif
 
 private:

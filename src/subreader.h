@@ -48,6 +48,9 @@ public:
 	void setTextFilter(const QString & f) { filter = f; }
 	QString textFilter() { return filter; }
 
+	void setOverwriteVTT(bool b) { overwrite_vtt = b; }
+	bool overwriteVTT() { return overwrite_vtt; };
+
 	void parseSRT(const QString & filename);
 
 	QString convertToVTT();
@@ -67,6 +70,7 @@ private:
 	QList<Subtitle> entries;
 	QByteArray input_codec;
 	QString filter;
+	bool overwrite_vtt;
 	int vtt_line_position;
 	bool has_bom;
 };
