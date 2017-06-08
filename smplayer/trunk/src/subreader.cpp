@@ -30,6 +30,7 @@
 SubReader::SubReader() {
 	input_codec = "ISO-8859-1";
 	vtt_line_position = -1;
+	overwrite_vtt = false;
 	has_bom = false;
 }
 
@@ -184,8 +185,12 @@ bool SubReader::autoConvertToVTT(const QString & filename) {
 	qDebug() << "SubReader::autoConvertToVTT: output:" << output_filename;
 
 	if (QFile::exists(output_filename)) {
-		qDebug() << "SubReader::autoConvertToVTT: file" << output_filename << "already exists. Exiting.";
-		return true;
+		if (!overwrite_vtt) {
+			qDebug() << "SubReader::autoConvertToVTT: file" << output_filename << "already exists. Skipping.";
+			return true;
+		} else {
+			qDebug() << "SubReader::autoConvertToVTT: overwriting " << output_filename;
+		}
 	}
 
 	parseSRT(filename);
