@@ -192,7 +192,11 @@ QString Chromecast::checkForVTT(const QString & video_path, const QString & subt
 			SubReader sr;
 			sr.setInputCodec(sub_encoding.toLatin1());
 			sr.setVTTLinePosition(sub_position);
-			if (use_sub_filter) sr.setTextFilter(sub_filter);
+			if (use_sub_filter) {
+				QString filter = sub_filter;
+				if (filter.isEmpty()) filter = "opensubtitles|subtitulos\\.es|tusubtitulo|osdb|addic7ed";
+				sr.setTextFilter(filter);
+			}
 			sr.setOverwriteVTT(overwrite_vtt);
 			sr.autoConvertToVTT(subtitle_path);
 		}
