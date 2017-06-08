@@ -80,6 +80,9 @@ public:
 
 	void setOverwriteVTT(bool b) { overwrite_vtt = b; };
 	bool overwriteVTT() { return overwrite_vtt; };
+
+	void enableSubtitleFilter(bool b) { use_sub_filter = b; };
+	bool isSubtitleFilterEnabled() { return use_sub_filter; };
 #endif
 
 protected:
@@ -116,6 +119,7 @@ protected:
 	int sub_position;
 	QString sub_filter;
 	bool overwrite_vtt;
+	bool use_sub_filter;
 #endif
 
 private:
