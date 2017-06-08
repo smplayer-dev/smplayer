@@ -104,13 +104,16 @@ QString SubReader::convertToVTT() {
 
 	QString res = BOM + "WEBVTT" + NL + NL;
 
+	int filtered_lines = 0;
+
 	for (int n = 0; n < entries.count(); n++) {
 		QString time = entries[n].time;
 		time.replace(",", ".");
 		QString text = codec->toUnicode(entries[n].text).trimmed();
 		if (!text.isEmpty()) {
 			if (!filter.isEmpty() && rx.indexIn(text) != -1) {
-				qDebug() << "SubReader::convertToVTT: filtered:" << text;
+				//qDebug() << "SubReader::convertToVTT: filtered:" << text;
+				filtered_lines++;
 				res += "NOTE " + time + NL + "NOTE " + text.replace("\r\n", "\r\nNOTE ") + NL + NL;
 			} else {
 				res += time;
@@ -119,6 +122,10 @@ QString SubReader::convertToVTT() {
 				res += text + NL + NL;
 			}
 		}
+	}
+
+	if (filtered_lines != 0) {
+		qDebug() << "SubReader::convertToVTT: filtered lines:" << filtered_lines;
 	}
 
 	return res;
