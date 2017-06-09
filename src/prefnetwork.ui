@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>480</width>
-    <height>485</height>
+    <height>514</height>
    </rect>
   </property>
   <layout class="QVBoxLayout">
@@ -136,8 +136,8 @@
       <attribute name="title">
        <string>C&amp;hromecast</string>
       </attribute>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
         <widget class="QGroupBox" name="groupBox">
          <property name="title">
           <string>Web Server</string>
@@ -249,20 +249,7 @@
          </layout>
         </widget>
        </item>
-       <item row="5" column="0">
-        <spacer name="verticalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="2" column="0">
+       <item>
         <widget class="QGroupBox" name="subs_box">
          <property name="title">
           <string>Subtitles</string>
@@ -275,8 +262,100 @@
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QWidget" name="subtitle_container" native="true">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0" rowspan="2">
+              <spacer>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>21</width>
+                 <height>61</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QCheckBox" name="overwrite_subs_check">
+               <property name="text">
+                <string>&amp;Overwrite existing VTT files</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QCheckBox" name="subs_filter_check">
+               <property name="text">
+                <string>Try to &amp;remove advertisements</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>Position of &amp;subtitles on screen:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>subs_position_spin</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="subs_position_spin">
+                 <property name="minimum">
+                  <number>-1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>100</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>
@@ -418,6 +497,9 @@
   <tabstop>port_spin</tabstop>
   <tabstop>directory_listing_check</tabstop>
   <tabstop>convert_subs_check</tabstop>
+  <tabstop>overwrite_subs_check</tabstop>
+  <tabstop>subs_filter_check</tabstop>
+  <tabstop>subs_position_spin</tabstop>
   <tabstop>use_proxy_check</tabstop>
   <tabstop>proxy_hostname_edit</tabstop>
   <tabstop>proxy_port_spin</tabstop>
@@ -440,6 +522,22 @@
     <hint type="destinationlabel">
      <x>239</x>
      <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>convert_subs_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>subtitle_container</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>243</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>376</y>
     </hint>
    </hints>
   </connection>

@@ -122,6 +122,9 @@ void PrefNetwork::setData(Preferences * pref) {
 
 	#ifdef CONVERT_TO_VTT
 	convert_subs_check->setChecked(cc->autoConvertToVTT());
+	subs_position_spin->setValue(cc->subtitlePosition());
+	overwrite_subs_check->setChecked(cc->overwriteVTT());
+	subs_filter_check->setChecked(cc->isSubtitleFilterEnabled());
 	#endif
 #endif
 }
@@ -151,6 +154,9 @@ void PrefNetwork::getData(Preferences * pref) {
 
 	#ifdef CONVERT_TO_VTT
 	cc->setAutoConvertToVTT(convert_subs_check->isChecked());
+	cc->setSubtitlePosition(subs_position_spin->value());
+	cc->setOverwriteVTT(overwrite_subs_check->isChecked());
+	cc->enableSubtitleFilter(subs_filter_check->isChecked());
 	#endif
 #endif
 }
