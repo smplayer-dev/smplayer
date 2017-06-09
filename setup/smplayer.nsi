@@ -485,7 +485,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
     Goto check_ytdl
 
   YTDL:
-  INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "http://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
+  INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "https://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
   Pop $R0
   StrCmp $R0 "OK" +3 0
     DetailPrint $(YTDL_DL_Failed)
