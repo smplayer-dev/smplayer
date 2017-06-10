@@ -345,7 +345,7 @@ void Chromecast::loadSettings() {
 		settings->beginGroup("chromecast/subtitles");
 		setAutoConvertToVTT(settings->value("autoconvert_to_vtt", autoConvertToVTT()).toBool());
 		//setSubtitleEncoding(settings->value("encoding", subtitleEncoding()).toString());
-		setSubtitlePosition(settings->value("position", subtitlePosition()).toInt());
+		setSubtitlePosition(settings->value("position_on_screen", 93).toInt());
 		setSubtitleFilter(settings->value("text_filter", subtitleFilter()).toString());
 		setOverwriteVTT(settings->value("overwrite_vtt", overwriteVTT()).toBool());
 		enableSubtitleFilter(settings->value("use_sub_filter", isSubtitleFilterEnabled()).toBool());
@@ -368,7 +368,7 @@ void Chromecast::saveSettings() {
 		settings->beginGroup("chromecast/subtitles");
 		settings->setValue("autoconvert_to_vtt", autoConvertToVTT());
 		//settings->setValue("encoding", subtitleEncoding());
-		settings->setValue("position", subtitlePosition());
+		settings->setValue("position_on_screen", subtitlePosition());
 		settings->setValue("text_filter", subtitleFilter());
 		settings->setValue("overwrite_vtt", overwriteVTT());
 		settings->setValue("use_sub_filter", isSubtitleFilterEnabled());

@@ -292,12 +292,12 @@ void PrefNetwork::createHelp() {
 
 	setWhatsThis(subs_filter_check, tr("Try to remove advertisements"),
 		tr("If this option is enabled SMPlayer will try to find advertisements "
-           "which some websites add to subtitle files and remove them."));
+           "in the subtitles and remove them."));
 
 	setWhatsThis(subs_position_spin, tr("Position of subtitles on screen"),
 		tr("This option sets the position on the screen where the subtitles are displayed.") +"<br>"+
-		tr("0 is the top of the screen, 100 is the bottom of the screen. "
-           "The special value -1 means the default position."));
+		tr("0 is the top of the screen, 100 is the bottom of the screen.") +" "+
+		tr("The special value -1 means the default position."));
 	#endif
 #endif
 
