@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2952,10 +2950,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3053,7 +3048,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro
@@ -7909,17 +7904,17 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Substituir ficheir&amp;os VTT existentes</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar &amp;remover anúncios</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Po&amp;sição das legendas no ecrã:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8078,42 +8073,42 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Substituir ficheiros VTT existentes</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o SMPlayer irá substituir os ficheiros VTT existentes.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar remover anúncios</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o SMPlayer irá tentar detetar e remover os anúncios que existam nas legendas.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posição das legendas no ecrã</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção define a posição do ecrã em que as legendas serão mostradas.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>O valor 0 implica o topo do do ecrã e o valor 100 a base.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>O valor -1 é especial porque significa a posição padrão.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -9663,19 +9658,13 @@ Substituir?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

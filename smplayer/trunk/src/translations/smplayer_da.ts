@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2952,10 +2950,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n undertekst udpakket</numerusform>
-            <numerusform>%n undertekster udpakket</numerusform>
-        </translation>
+        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3053,7 +3048,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -7658,7 +7653,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation>Indstil hvor længe (i millisekunder) der skal gå før knapperne skjules efter markøren er bevæget væk fra knapperne.</translation>
+        <translation>Sætter hvor længe (i millisekunder) der skal gå før knapperne skjules efter markøren er bevæget væk fra knapperne.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
@@ -7909,17 +7904,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Overskriv eksisterende VTT-filer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prøv på at &amp;fjerne reklamer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering af &amp;undertekster på skærm:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8078,42 +8073,42 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Overskriv eksisterende VTT-filer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis denne indstilling er slået til, vil SMPlayer overskrive eksisterende VTT-filer.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prøv på at fjerne reklamer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis denne indstilling er slået til, vil SMPlayer prøve på at finde reklamer i underteksterne og fjerne dem.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering af undertekster på skærm</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne indstilling sætter placeringen på skærmen når underteksterne vises.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 er toppen af skærmen, 100 er bunden af skærmen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den specielle værdi -1 betyder standardplaceringen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -8440,7 +8435,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation>Indstiller hardware video decoding API. Hvis der ikke er mulighed for at anvende hardware decoding, vil software decoding blive brugt i stedet.</translation>
+        <translation>Sætter hardware video decoding API. Hvis der ikke er mulighed for at anvende hardware decoding, vil software decoding blive brugt i stedet.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
@@ -9663,19 +9658,13 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9728,12 +9717,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation>indstil øverst til altid.</translation>
+        <translation>sætter øverst til altid.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation>indstil øverst til aldrig.</translation>
+        <translation>sætter øverst til aldrig.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
