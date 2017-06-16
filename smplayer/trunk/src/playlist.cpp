@@ -1776,6 +1776,9 @@ void Playlist::removeSelected() {
 	QModelIndexList indexes = listView->selectionModel()->selectedRows();
 	int count = indexes.count();
 
+	qDebug() << "Playlist::removeSelected: count:" << count;
+	if (count < 1) return;
+
 	for (int n = count; n > 0; n--) {
 		QModelIndex s_index = proxy->mapToSource(indexes.at(n-1));
 		table->removeRow(s_index.row());
