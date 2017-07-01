@@ -1,3 +1,13 @@
+Version 17.7:
+
+(2017-06-16)
+ * (Playlist) Fix a crash when trying to delete selected items but there's none
+   selected.
+
+(2017-06-09)
+ * Add subtitles configuration options in preferences -> network -> chromecast.
+
+
 Version 17.6:
 
 (2017-05-23)
