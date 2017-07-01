@@ -229,7 +229,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="189"/>
         <source>Audio Equalizer</source>
-        <translation>Ισοσταθμιστής Ήχου</translation>
+        <translation>Ισοσταθμιστής ήχου</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="192"/>
@@ -1070,7 +1070,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Εμφάνιση των χρόνων σε &amp;χιλιοστά του δευτερολέπτου</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -2342,27 +2342,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1413"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
+        <translation>Το στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1426"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
+        <translation>Το στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2711"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation>Σημάδι «Α» στα %1</translation>
+        <translation>Σημαδευτής «Α» στα %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2733"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation>Σημάδι «Β» στα %1</translation>
+        <translation>Σημαδευτής «Β» στα %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2753"/>
         <source>A-B markers cleared</source>
-        <translation>Καθαρίστηκαν τα σημάδια Α-Β</translation>
+        <translation>Καθαρίστηκαν οι σημαδευτές Α-Β</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="594"/>
@@ -4559,73 +4559,73 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>File:</source>
-        <translation>Αρχείο</translation>
+        <translation>Αρχείο:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Video:</source>
-        <translation>Βίντεο</translation>
+        <translation>Βίντεο:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Resolution:</source>
-        <translation>Ανάλυση</translation>
+        <translation>Ανάλυση:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <source>Frames per second:</source>
-        <translation>Καρέ το δευτερόλεπτο</translation>
+        <translation>Καρέ ανά δευτερόλεπτο:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Estimated:</source>
-        <translation>αναμενόμενo</translation>
+        <translation>Εκτίμηση:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Aspect Ratio:</source>
-        <translation>Αναλογίες</translation>
+        <translation>Αναλογίες εικόνας:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="165"/>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Bitrate:</source>
-        <translation>Ρυθμός bit</translation>
+        <translation>Ρυθμός bit:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Dropped frames:</source>
-        <translation>Διακεκομμένα καρέ</translation>
+        <translation>Διακεκομμένα καρέ:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Audio:</source>
-        <translation>Ήχος</translation>
+        <translation>Ήχος:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Sample Rate:</source>
-        <translation>Ρυθμός δειγματοληψίας</translation>
+        <translation>Ρυθμός δειγματοληψίας:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Channels:</source>
-        <translation>Κανάλια</translation>
+        <translation>Κανάλια:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="171"/>
         <source>Audio/video synchronization:</source>
-        <translation>Συγχρονισμός Ήχου/Εικόνας</translation>
+        <translation>Συγχρονισμός Ήχου/Εικόνας:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="172"/>
         <source>Cache fill:</source>
-        <translation>Πλήρωση προσωρινής μνήμης</translation>
+        <translation>Πλήρωση κρυφής μνήμης:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="173"/>
         <source>Used cache:</source>
-        <translation>Χρησιμοποιημένη προσωρινή μνήμη</translation>
+        <translation>Κρυφή μνήμη σε χρήση:</translation>
     </message>
 </context>
 <context>
@@ -4851,12 +4851,12 @@ Do you want to overwrite?</source>
         <translation>Επιλέξτε φάκελο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>Επεξεργασία ονόματος</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Γράψτε το όνομα με το οποίο θα εμφανίζεται στην λίστα το αρχείο:</translation>
     </message>
@@ -4988,47 +4988,47 @@ Do you want to overwrite?</source>
         <translation>&amp;Αντιγραφή του URL στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Επιβεβαιώστε τη διαγραφή</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Πρόκειται να ΔΙΑΓΡΑΨΕΤΕ το αρχείο «%1» από τον οδηγό σας.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Αυτή η ενέργεια είναι μη αναστρέψιμη. Είστε σίγουρος-η ότι θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Η διαγραφή απέτυχε</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Δεν ήταν δυνατή η διαγραφή του «%1»</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Σφάλμα κατά τη διαγραφή του αρχείου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Δεν είναι δυνατή η διαγραφή του «%1» από το σύστημα αρχείων.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Αδύνατη η φόρτωση της λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation>Μη αναγνωρίσιμη μορφή.</translation>
     </message>
@@ -5324,7 +5324,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναφορά καταρ&amp;ρεύσεων του %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5344,7 +5344,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η απενεργοποίηση της επιλογής μπορεί να μειώνει το τρεμούλιασμα, αλλά μπορεί να αναπαραγάγει παράξενα τεχνουργήματα υπό ορισμένες συνθήκες.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5359,12 +5359,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Αναφορά καταρρεύσεων του %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, θα εμφανίζεται ένα αναδυόμενο παράθυρο για να αναφέρετε σχετικά με τις καταρρεύσεις του %1. Διαφορετικά, οι καταρρεύσεις αυτές θα αγνοούνται σιωπηλά.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5640,7 +5640,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, το SMPlayer θα αναπαράγει τα DVD χρησιμοποιώντας το dvdnav. Απαιτεί μια έκδοση του MPlayer με υποστήριξη dvdnav.</translation>
+        <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, το SMPlayer θα αναπαραγάγει τα DVD χρησιμοποιώντας το dvdnav. Απαιτεί μια έκδοση του MPlayer με υποστήριξη dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -6964,12 +6964,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτέλεση επομένου</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτέλεση προηγούμενου</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7481,7 +7481,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Κλασικό</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7899,27 +7899,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="255"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Υπότιτλοι</translation>
+        <translation>Υπότιτλοι</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="261"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετατροπή των υποτίτλων SRT σε &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αντικατάσταση των υπαρχόντων αρχείων VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσπάθεια α&amp;φαίρεσης των διαφημίσεων</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέση των υπο&amp;τίτλων στην οθόνη:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8068,52 +8068,52 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Μετατροπή των υποτίτλων SRT σε VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη ο SMPlayer θα μετατρέπει τα αρχεία υποτίτλων SRT σε VTT αυτομάτως. Το αρχείο υποτίτλων VTT θα έχει το ίδιο όνομα αλλά με την επέκταση .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Αντικατάσταση των υπαρχόντων αρχείων VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη ο SMPlayer θα αντικαθιστά τα υπάρχοντα αρχεία VTT.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Προσπάθεια αφαίρεσης των διαφημίσεων</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη ο SMPlayer θα προσπαθεί να βρίσκει τις διαφημίσεις στους υπότιτλους και να τους αφαιρεί.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Θέση των υποτίτλων στην οθόνη</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτή η επιλογή ορίζει την θέση απεικόνισης των υποτίτλων στην οθόνη.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το 0 αντιστοιχεί στην κορυφή της οθόνης, και το 100 στην βάση της οθόνης.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η ειδική τιμή -1 αντιστοιχεί στην τιμή εξ ορισμού.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -8905,12 +8905,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλοι οι υπότιτλοι που περιέχουν το όνομα της ταινίας</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Όλοι οι υπότιτλοι στον κατάλογο</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
