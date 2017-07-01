@@ -4851,12 +4851,12 @@ Deseja substituí-lo?</translation>
         <translation>Escolha uma pasta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>Editar nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escreva o nome que este arquivo terá na lista de reprodução:</translation>
     </message>
@@ -4988,47 +4988,47 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Copiar URL para a área de transferência</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Confirmar deleção</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Você está prestes a DELETAR o arquivo &apos;%1&apos; do seu HD.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Essa ação não pode ser desfeita. Tem certeza que deseja continuar?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Falha ao deletar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Não foi possível deletar &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Erro ao deletar o arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Não foi possível deletar o arquivo &apos;%1&apos; do sistema de arquivos.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Não foi possível carregar essa lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation>Formato não reconhecido.</translation>
     </message>

@@ -4850,12 +4850,12 @@ Do you want to overwrite?</source>
         <translation>Bir klasör seçin</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>İsmi düzenle</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Bu dosyanın oynatma listesinde gösterileceği ismi yazın:</translation>
     </message>
@@ -4987,47 +4987,47 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Silmeyi onayla</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>&apos;%1&apos; dosyasını diskinizden silmek üzeresiniz.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Bu eylem geri alınamaz. Devam etmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Silme başarısız</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>&apos;%1&apos; silme başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Dosyayı silerken hata oluştu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>&apos;%1&apos; dosya sisteminizden silinemedi.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Bu çalma listesini yüklemek olanaksız</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation>Tanınmayan biçim.</translation>
     </message>

@@ -4850,12 +4850,12 @@ Do you want to overwrite?</source>
         <translation>Изабери фасциклу</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>Едитуј име</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Откуцај име које ће бити приказано у плејлисти за овај фајл:</translation>
     </message>
@@ -4987,47 +4987,47 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Потврдите брисање</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Сада ћете ОБРИСАТИ фајл &apos;%1&apos; са вашег диска.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Ова акција не може бити опозвана. Да ли сте сигурни да желите да наставите?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Неуспело брисање</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Није било могуће обрисати &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Грешка при брисању фајла</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Није могуће обрисати &apos;%1&apos; из фајл система.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation type="unfinished"></translation>
     </message>

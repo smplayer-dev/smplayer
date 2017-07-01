@@ -4852,12 +4852,12 @@ Do you want to overwrite?</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>Змінити назву</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Уведіть назву, яка буде відображатися у переліку для цього файлу:</translation>
     </message>
@@ -4989,47 +4989,47 @@ Do you want to overwrite?</source>
         <translation>&amp;Копіювати URL до буферу обміну</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Схвалити вилучення</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Ви збираєтеся ВИЛУЧИТИ файл &apos;%1&apos; з Вашого диску.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Ця дія незворотня. Ви справді бажаєте продовжити?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Вилучення не вдалося</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Не вдалося вилучити &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Помилка при вилученні файлу</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Неможливо вилучити &apos;%1&apos; з файлової системи.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Неможливо завантажити цей перелік</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation>Нерозпізнаний формат.</translation>
     </message>
@@ -7910,17 +7910,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перезаписувати існуючі VTT-файли</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Пробувати видаляти &amp;рекламу</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Позиція субтитрів на &amp;екрані</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8079,42 +8079,42 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезаписувати існуючі VTT-файли</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer перезаписуватиме існуючі VTT-файли.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Пробувати видаляти рекламу</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer спробує знайти та видалити рекламу у субтитрах.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Розташування субтитрів на екрані</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція встановлює позицію відображених на екрані субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 це верх екрану, 100 це низ екрану.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Спеціальне значення -1 означає типову позицію.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>

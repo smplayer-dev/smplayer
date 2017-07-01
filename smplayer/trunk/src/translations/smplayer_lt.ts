@@ -1306,7 +1306,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4541"/>
         <source>No</source>
-        <translation type="unfinished">Ne</translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4544"/>
@@ -1316,7 +1316,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4545"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer yra laisvoji programinė įranga. Kita vertus, jos kūrimas reikalauja daug laiko ir darbo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4546"/>
@@ -1383,7 +1383,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="6070"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepavyko paleisti komponento youtube-dl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6071"/>
@@ -2121,7 +2121,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="856"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Virtuali geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="858"/>
@@ -4838,7 +4838,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="740"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Įkelti/Išsaugoti</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1641"/>
@@ -4851,12 +4851,12 @@ Norite perrašyti?</translation>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1906"/>
+        <location filename="../playlist.cpp" line="1909"/>
         <source>Edit name</source>
         <translation>Redaguoti pavadinimą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1907"/>
+        <location filename="../playlist.cpp" line="1910"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Įrašykite pavadinimą, kuris bus rodomas grojaraštyje šiam failui:</translation>
     </message>
@@ -4878,7 +4878,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="688"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Išsaugoti k&amp;aip...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="692"/>
@@ -4988,47 +4988,47 @@ Norite perrašyti?</translation>
         <translation>&amp;Kopijuoti URL į iškarpinę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1947"/>
         <source>Confirm deletion</source>
         <translation>Patvirtinkite šalinimą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1948"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Jūs ruošiatės iš savo disko PAŠALINTI failą &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1949"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Šis veiksmas negali būti atšauktas. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1964"/>
+        <location filename="../playlist.cpp" line="1967"/>
         <source>Deletion failed</source>
         <translation>Ištrynimas nepavyko</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1965"/>
+        <location filename="../playlist.cpp" line="1968"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Nepavyko ištrinti &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1970"/>
+        <location filename="../playlist.cpp" line="1973"/>
         <source>Error deleting the file</source>
         <translation>Klaida, ištrinant failą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1971"/>
+        <location filename="../playlist.cpp" line="1974"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Nepavyko iš failų sistemos ištrinti &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Neįmanoma įkelti šio grojaraščio</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2438"/>
+        <location filename="../playlist.cpp" line="2441"/>
         <source>Unrecognized format.</source>
         <translation>Neatpažintas formatas.</translation>
     </message>
@@ -6964,12 +6964,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Groti kitą</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Groti ankstesnį</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -8043,7 +8043,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="272"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietinis IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="273"/>
@@ -8643,12 +8643,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepaisyti atkūrimo klaidų</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiškai pridėti failus į grojaraštį</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8683,7 +8683,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Išeinant, išsaugoti grojaraščio kopiją</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
@@ -8838,7 +8838,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Iš&amp;einant, išsaugoti grojaraščio kopiją</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
