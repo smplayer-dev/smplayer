@@ -1,3 +1,12 @@
+Version 17.7
+
+ * Add some options to configure the conversion of srt subtitles to vtt for
+   Chromecast (Preferences -> Network -> Chromecast), like the position of the
+   subtitles on screen.
+ * Fix a crash that may happen in the playlist when trying to delete selected
+   items.
+
+
 Version 17.6
 
  * Possibility to convert automatically subtitles in srt format to vtt
