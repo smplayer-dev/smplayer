@@ -1,3 +1,13 @@
+smplayer (17.7.0) precise; urgency=low
+
+  * Add some options to configure the conversion of srt subtitles to vtt for
+    Chromecast (Preferences -> Network -> Chromecast), like the position of the
+    subtitles on screen.
+  * Fix a crash that may happen in the playlist when trying to delete selected
+    items.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 04 Jul 2017 22:03:22 +0200
+
 smplayer (17.6.0) precise; urgency=low
 
   * Possibility to convert automatically subtitles in srt format to vtt
