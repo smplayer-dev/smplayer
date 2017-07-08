@@ -7520,7 +7520,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu özellik etkinleştirildiğinde, ana pencere masaüstünde ortalanacaktır.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
