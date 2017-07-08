@@ -162,7 +162,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="219"/>
         <source>Shortcut</source>
-        <translation>Горячая клавиша</translation>
+        <translation>Сочетание клавиш</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="221"/>
@@ -749,7 +749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2146"/>
         <source>&amp;OSD</source>
-        <translation>&amp;Вид OSD</translation>
+        <translation>&amp;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
@@ -888,12 +888,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Zoom &amp;-</source>
-        <translation>Ув&amp;еличение –</translation>
+        <translation>&amp;Масштабирование –</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
         <source>Zoom &amp;+</source>
-        <translation>&amp;Увеличение +</translation>
+        <translation>М&amp;асштабирование +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1742"/>
@@ -1085,7 +1085,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
         <source>OSD - Next level</source>
-        <translation>OSD – Следующая фраза</translation>
+        <translation>OSD – Следующий уровень</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
@@ -1752,22 +1752,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1743"/>
         <source>&amp;Auto zoom</source>
-        <translation>&amp;Автоувеличение</translation>
+        <translation>&amp;Автомасштаб</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
         <source>Zoom for &amp;16:9</source>
-        <translation>Увеличение для &amp;16:9</translation>
+        <translation>Масштабирование для &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation>Увеличение для &amp;2.35:1</translation>
+        <translation>Масштабирование для &amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2050"/>
         <source>&amp;Always</source>
-        <translation>&amp;Всегда наверху</translation>
+        <translation>&amp;Всегда</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2051"/>
@@ -2011,7 +2011,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="357"/>
         <source>Information about connected &amp;screens</source>
-        <translation>Информация о подключенных &amp;экранах</translation>
+        <translation>Информация о подключённых &amp;экранах</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="360"/>
@@ -2036,12 +2036,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="816"/>
         <source>Information about connected screens</source>
-        <translation>Информация о подключенных экранах</translation>
+        <translation>Информация о подключённых экранах</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="819"/>
         <source>Connected screens</source>
-        <translation>Подключенные экраны</translation>
+        <translation>Подключённые экраны</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="822"/>
@@ -2256,7 +2256,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4181"/>
         <source>Zoom: %1</source>
-        <translation>Увеличение: %1</translation>
+        <translation>Масштабирование: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3399"/>
@@ -4955,7 +4955,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Open source folder</source>
-        <translation>&amp;Открыть каталог источника</translation>
+        <translation>&amp;Открыть папку источника</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="728"/>
@@ -4986,7 +4986,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1474"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation>&amp;Копировать URL в буфер обмена</translation>
+        <translation>&amp;Копировать ссылку в буфер обмена</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1947"/>
@@ -6341,17 +6341,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Default zoom</source>
-        <translation>Увеличение по умолчанию</translation>
+        <translation>Масштабирование по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1115"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Эта опция устанавливает увеличение по умолчанию для новых видеофайлов.</translation>
+        <translation>Эта опция устанавливает масштабирование по умолчанию для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="525"/>
         <source>Default &amp;zoom:</source>
-        <translation>У&amp;величение по умолчанию:</translation>
+        <translation>&amp;Масштабирование по умолчанию:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1011"/>
@@ -6371,7 +6371,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Отметьте эту опцию, чтобы отключить хранитель экрана во время воспроизведения.&lt;br&gt; Он будет включен снова по окончании воспроизведения.</translation>
+        <translation>Отметьте эту опцию, чтобы отключить хранитель экрана во время воспроизведения.&lt;br&gt; Он будет включён снова по окончании воспроизведения.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1240"/>
@@ -6625,7 +6625,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="42"/>
         <source>Keyboard and mouse</source>
-        <translation>Устройства ввода</translation>
+        <translation>Клавиатура и мышь</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
@@ -6673,7 +6673,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="153"/>
         <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
-        <translation>Увеличение</translation>
+        <translation>Масштабирование</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
@@ -6789,7 +6789,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
-        <translation>Сбросить увеличение</translation>
+        <translation>Сбросить масштабирование</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
@@ -7116,7 +7116,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.ui" line="456"/>
         <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
-        <translation>Изменить &amp;скорость воспроизведения</translation>
+        <translation>&amp;Скорость воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="416"/>
@@ -8089,7 +8089,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation>Попробовать удалить рекламу</translation>
+        <translation>Пытаться удалить рекламу</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
@@ -9756,7 +9756,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
+        <translation>&apos;медиа&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
