@@ -1367,7 +1367,7 @@ void Core::pause_and_frame_step() {
 }
 
 void Core::pause() {
-	qDebug("Core::pause: current state: %s", stateToString().toUtf8().data());
+	qDebug() << "Core::pause: current state:" << stateToString();
 
 	if (proc->isRunning()) {
 		// Pauses and unpauses
@@ -1376,6 +1376,8 @@ void Core::pause() {
 }
 
 void Core::play_or_pause() {
+	qDebug("Core::play_or_pause");
+
 	if (proc->isRunning()) {
 		pause();
 	} else {
