@@ -654,6 +654,7 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	if (filter_name == "equalizer") {
 		previous_eq = option;
 		arg << "--af-add=equalizer=" + option;
+		//arg << "--af-add=lavfi=[anequalizer=" + option + "]";
 	}
 	else
 	if (filter_name == "extrastereo") {
@@ -892,8 +893,10 @@ void MPVProcess::setAudioEqualizer(const QString & values) {
 
 	if (!previous_eq.isEmpty()) {
 		writeToStdin("af del equalizer=" + previous_eq);
+		//writeToStdin("af del lavfi=[anequalizer=" + previous_eq + "]");
 	}
 	writeToStdin("af add equalizer=" + values);
+	//writeToStdin("af add lavfi=[anequalizer=" + values + "]");
 	previous_eq = values;
 }
 

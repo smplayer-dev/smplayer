@@ -199,7 +199,7 @@ int Helper::qtVersion() {
 	return r;
 }
 
-QString Helper::equalizerListToString(AudioEqualizerList values) {
+QString Helper::equalizerListToString(AudioEqualizerList values, bool anequalizer_format) {
 	double v0 = (double) values[0].toInt() / 10;
 	double v1 = (double) values[1].toInt() / 10;
 	double v2 = (double) values[2].toInt() / 10;
@@ -210,11 +210,25 @@ QString Helper::equalizerListToString(AudioEqualizerList values) {
 	double v7 = (double) values[7].toInt() / 10;
 	double v8 = (double) values[8].toInt() / 10;
 	double v9 = (double) values[9].toInt() / 10;
-	QString s = QString::number(v0) + ":" + QString::number(v1) + ":" +
+
+	QString s;
+	if (!anequalizer_format) {
+		s = QString::number(v0) + ":" + QString::number(v1) + ":" +
 				QString::number(v2) + ":" + QString::number(v3) + ":" +
 				QString::number(v4) + ":" + QString::number(v5) + ":" +
 				QString::number(v6) + ":" + QString::number(v7) + ":" +
 				QString::number(v8) + ":" + QString::number(v9);
+	} else {
+		for (int ch = 0; ch < 2; ch++) {
+			double freq = 31.25;
+			for (int f = 0; f < 10; f++) {
+				double v = (double) values[f].toInt() / 10;
+				s += QString("c%1 f=%2 w=1000 g=%3|").arg(ch).arg(freq).arg(v);
+				freq = freq * 2;
+			}
+		}
+		//qDebug() << "Helper::equalizerListToString:" << s;
+	}
 
 	return s;
 }
