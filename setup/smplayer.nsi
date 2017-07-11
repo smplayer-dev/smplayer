@@ -455,12 +455,16 @@ SectionGroup $(MPlayerMPVGroupTitle)
   ${MementoSection} "MPlayer" SecMPlayer
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x gdb.exe /x gdb64.exe /x vfw2menc.exe /x buildinfo /x buildinfo64 /x buildinfo-mencoder-32 /x buildinfo-mencoder-debug-32 /x buildinfo-mplayer-32 /x buildinfo-mplayer-debug-32 /x buildinfo-mencoder-64 /x buildinfo-mencoder-debug-64 /x buildinfo-mplayer-64 /x buildinfo-mplayer-debug-64 "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x gdb.exe /x gdb64.exe /x vfw2menc.exe /x buildinfo /x buildinfo64 /x buildinfo-mencoder-32 /x buildinfo-mencoder-debug-32 /x buildinfo-mplayer-32 /x buildinfo-mplayer-debug-32 /x buildinfo-mencoder-64 /x buildinfo-mencoder-debug-64 /x buildinfo-mplayer-64 /x buildinfo-mplayer-debug-64 /x libaacs.dll /x libaacs64.dll /x libbdplus.dll /x libbdplus64.dll "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 !ifdef WIN64
     File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
+    File /nonfatal /oname=libaacs.dll "${SMPLAYER_BUILD_DIR}\mplayer\libaacs64.dll"
+    File /nonfatal /oname=libbdplus.dll "${SMPLAYER_BUILD_DIR}\mplayer\libbdplus64.dll"
     RMDir "$INSTDIR\mplayer\codecs"
 !else
     File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
+    File /nonfatal "${SMPLAYER_BUILD_DIR}\mplayer\libaacs.dll"
+    File /nonfatal "${SMPLAYER_BUILD_DIR}\mplayer\libbdplus.dll"
 !endif
 
   ${MementoSectionEnd}
