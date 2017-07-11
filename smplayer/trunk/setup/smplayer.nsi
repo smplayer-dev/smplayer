@@ -469,11 +469,12 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
   SetOutPath "$INSTDIR\mpv"
 !ifdef WIN64
-  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com /x d3dcompiler_43.dll /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /oname=d3dcompiler_43.dll "${SMPLAYER_BUILD_DIR}\mpv\d3dcompiler_43-64.dll"
   File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mpv\mpv64.exe"
   File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mpv\mpv64.com"
 !else
-  File /r /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /r /x mpv64.exe /x mpv64.com /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
 
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
