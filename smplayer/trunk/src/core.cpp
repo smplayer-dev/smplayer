@@ -2366,9 +2366,7 @@ void Core::startMplayer( QString file, double seek ) {
 		// Audio equalizer
 		if (pref->use_audio_equalizer) {
 			AudioEqualizerList l = pref->global_audio_equalizer ? pref->audio_equalizer : mset.audio_equalizer;
-			//bool use_anequalizer = proc->isMPV();
-			bool use_anequalizer = false;
-			proc->addAF("equalizer", Helper::equalizerListToString(l, use_anequalizer));
+			proc->addAF("equalizer", l);
 		}
 
 		// Additional audio filters, supplied by user
@@ -3525,9 +3523,7 @@ void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 	}
 
 	if (!restart) {
-		//bool use_anequalizer = proc->isMPV();
-		bool use_anequalizer = false;
-		proc->setAudioEqualizer(Helper::equalizerListToString(values, use_anequalizer));
+		proc->setAudioEqualizer(values);
 	} else {
 		restartPlay();
 	}

@@ -87,7 +87,7 @@ public:
 	void enableKaraoke(bool b);
 	void enableExtrastereo(bool b);
 	void enableVolnorm(bool b, const QString & option);
-	void setAudioEqualizer(const QString & values);
+	void setAudioEqualizer(AudioEqualizerList);
 	void setAudioDelay(double delay);
 	void setSubDelay(double delay);
 	void setLoop(int v);

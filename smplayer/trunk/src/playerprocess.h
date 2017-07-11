@@ -97,7 +97,7 @@ public:
 #endif
 	virtual void enableExtrastereo(bool b) = 0;
 	virtual void enableVolnorm(bool b, const QString & option) = 0;
-	virtual void setAudioEqualizer(const QString & values) = 0;
+	virtual void setAudioEqualizer(AudioEqualizerList) = 0;
 	virtual void setAudioDelay(double delay) = 0;
 	virtual void setSubDelay(double delay) = 0;
 	virtual void setLoop(int v) = 0;
