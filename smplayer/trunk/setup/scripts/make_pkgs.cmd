@@ -243,7 +243,7 @@ copy /y "%PORTABLE_EXE_DIR%\smplayer-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smpl
 REM copy /y "%PORTABLE_EXE_DIR%\smtube-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
 
 echo Finalizing package...
-7za a -t7z "%OUTPUT_DIR%\%PORTABLE_DIR_NAME%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -xr!mpv64.exe -xr!mpv64.com -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\%PORTABLE_DIR_NAME%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -xr!mpv64.exe -xr!mpv64.com -xr!d3dcompiler_43-64.dll -xr!libaacs64.dll -xr!libbdplus64.dll -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -294,7 +294,11 @@ echo Backing up files...
 ren "%SMPLAYER_PORTABLE_DIR%\smplayer.exe" smplayer.bak
 REM ren "%SMPLAYER_PORTABLE_DIR%\smtube.exe" smtube.bak
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer.exe.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libaacs.dll" libaacs.dll.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libbdplus.dll" libbdplus.dll.bak32
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer64.exe" mplayer.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libaacs64.dll" libaacs.dll
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libbdplus64.dll" libbdplus.dll
 
 if exist "%SMPLAYER_PORTABLE_DIR%\mpv\fonts" (
   ren "%SMPLAYER_PORTABLE_DIR%\mpv\fonts" fonts.bak32
@@ -305,8 +309,10 @@ if exist "%SMPLAYER_PORTABLE_DIR%\mpv\mpv" (
 
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe" mpv.exe.bak32
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com" mpv.com.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\d3dcompiler_43.dll" d3dcompiler_43.dll.bak32
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv64.exe" mpv.exe
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv64.com" mpv.com
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\d3dcompiler_43-64.dll" d3dcompiler_43.dll
 
 echo Creating screenshots dir...
 
@@ -349,15 +355,21 @@ del "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 del "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
 REM del "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer64.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libaacs.dll" libaacs64.dll
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libbdplus.dll" libbdplus64.dll
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32" mplayer.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libaacs.dll.bak32" libaacs.dll
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\libbdplus.dll.bak32" libbdplus.dll
 REM del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
 REM ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
 
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe" mpv64.exe
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com" mpv64.com
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\d3dcompiler_43.dll" d3dcompiler_43-64.dll
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe.bak32" mpv.exe
 ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com.bak32" mpv.com
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\d3dcompiler_43.dll.bak32" d3dcompiler_43.dll
 
 if exist "%SMPLAYER_PORTABLE_DIR%\mpv\fonts.bak32" (
   ren "%SMPLAYER_PORTABLE_DIR%\mpv\fonts.bak32" fonts
