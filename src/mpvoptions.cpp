@@ -21,6 +21,8 @@
 #include "inforeader.h"
 #include "deviceinfo.h"
 
+//#define USE_ANEQUALIZER
+
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
 
@@ -652,9 +654,16 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "equalizer") {
+		AudioEqualizerList l = value.toList();
+		#ifndef USE_ANEQUALIZER
+		option = Helper::equalizerListToString(l);
 		previous_eq = option;
 		arg << "--af-add=equalizer=" + option;
-		//arg << "--af-add=lavfi=[anequalizer=" + option + "]";
+		#else
+		option = Helper::equalizerListToString(l, true);
+		previous_eq = option;
+		arg << "--af-add=lavfi=[anequalizer=" + option + "]";
+		#endif
 	}
 	else
 	if (filter_name == "extrastereo") {
@@ -888,16 +897,29 @@ void MPVProcess::enableVolnorm(bool b, const QString & option) {
 	if (b) writeToStdin("af add lavfi=[" + s + "]"); else writeToStdin("af del lavfi=[" + s + "]");
 }
 
-void MPVProcess::setAudioEqualizer(const QString & values) {
+void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
+#ifndef USE_ANEQUALIZER
+	QString values = Helper::equalizerListToString(l);
 	if (values == previous_eq) return;
 
 	if (!previous_eq.isEmpty()) {
 		writeToStdin("af del equalizer=" + previous_eq);
-		//writeToStdin("af del lavfi=[anequalizer=" + previous_eq + "]");
 	}
 	writeToStdin("af add equalizer=" + values);
-	//writeToStdin("af add lavfi=[anequalizer=" + values + "]");
 	previous_eq = values;
+#else
+	/* Not working */
+	#if 0
+	QString values = Helper::equalizerListToString(l, true);
+	if (values == previous_eq) return;
+
+	if (!previous_eq.isEmpty()) {
+		writeToStdin("af del lavfi=[anequalizer=" + previous_eq + "]");
+	}
+	writeToStdin("af add lavfi=[anequalizer=" + values + "]");
+	previous_eq = values;
+	#endif
+#endif
 }
 
 void MPVProcess::setAudioDelay(double delay) {

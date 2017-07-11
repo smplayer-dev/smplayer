@@ -246,8 +246,14 @@ void MplayerProcess::addStereo3DFilter(const QString & in, const QString & out) 
 
 void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString s = filter_name;
-	if (!value.isNull()) s += "=" + value.toString();
-	arg << "-af-add" << s;
+	if (filter_name == "equalizer") {
+		AudioEqualizerList l = value.toList();
+		QString o = Helper::equalizerListToString(l);
+		arg << "-af-add" << "equalizer=" + o;
+	} else {
+		if (!value.isNull()) s += "=" + value.toString();
+		arg << "-af-add" << s;
+	}
 }
 
 void MplayerProcess::quit() {
@@ -412,7 +418,8 @@ void MplayerProcess::enableVolnorm(bool b, const QString & option) {
 	if (b) writeToStdin("af_add volnorm=" + option); else writeToStdin("af_del volnorm");
 }
 
-void MplayerProcess::setAudioEqualizer(const QString & values) {
+void MplayerProcess::setAudioEqualizer(AudioEqualizerList l) {
+	QString values = Helper::equalizerListToString(l);
 	writeToStdin("af_cmdline equalizer " + values);
 }
 
