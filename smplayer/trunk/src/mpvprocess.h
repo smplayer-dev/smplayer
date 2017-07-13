@@ -90,6 +90,7 @@ public:
 #endif
 	void enableExtrastereo(bool b);
 	void enableVolnorm(bool b, const QString & option);
+	void enableEarwax(bool b);
 	void setAudioEqualizer(AudioEqualizerList);
 	void setAudioDelay(double delay);
 	void setSubDelay(double delay);

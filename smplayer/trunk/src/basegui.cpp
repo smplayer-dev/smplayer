@@ -764,6 +764,12 @@ void BaseGui::createActions() {
 	connect( volnormAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleVolnorm(bool)) );
 
+#ifdef MPV_SUPPORT
+	earwaxAct = new MyAction( this, "earwax_filter" );
+	earwaxAct->setCheckable( true );
+	connect( earwaxAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleEarwax(bool)) );
+#endif
 
 	// Menu Subtitles
 	loadSubsAct = new MyAction( this, "load_subs" );
@@ -1397,6 +1403,9 @@ void BaseGui::setActionsEnabled(bool b) {
 	karaokeAct->setEnabled(b);
 #endif
 	volnormAct->setEnabled(b);
+#ifdef MPV_SUPPORT
+	earwaxAct->setEnabled(b);
+#endif
 	loadAudioAct->setEnabled(b);
 	//unloadAudioAct->setEnabled(b);
 
@@ -1517,6 +1526,9 @@ void BaseGui::enableActionsOnPlaying() {
 		karaokeAct->setEnabled(false);
 #endif
 		volnormAct->setEnabled(false);
+#ifdef MPV_SUPPORT
+		earwaxAct->setEnabled(false);
+#endif
 		channelsGroup->setActionsEnabled(false);
 		stereoGroup->setActionsEnabled(false);
 	}
@@ -1777,6 +1789,9 @@ void BaseGui::retranslateStrings() {
 	karaokeAct->change( tr("&Karaoke") );
 #endif
 	volnormAct->change( tr("Volume &normalization") );
+#ifdef MPV_SUPPORT
+	earwaxAct->change( tr("&Headphones optimization") );
+#endif
 
 	// Menu Subtitles
 	loadSubsAct->change( Images::icon("open"), tr("&Load...") );
@@ -2637,6 +2652,9 @@ void BaseGui::createMenus() {
 	audiofilter_menu->addAction(extrastereoAct);
 	#ifdef MPLAYER_SUPPORT
 	audiofilter_menu->addAction(karaokeAct);
+	#endif
+	#ifdef MPV_SUPPORT
+	audiofilter_menu->addAction(earwaxAct);
 	#endif
 	audiofilter_menu->addAction(volnormAct);
 
@@ -3902,6 +3920,11 @@ void BaseGui::updateWidgets() {
 	// Volnorm menu option
 	volnormAct->setChecked( core->mset.volnorm_filter );
 
+#ifdef MPV_SUPPORT
+	// Earwax menu option
+	earwaxAct->setChecked( core->mset.earwax_filter );
+#endif
+
 	// Repeat menu option
 	repeatAct->setChecked( core->mset.loop );
 
@@ -3978,6 +4001,7 @@ void BaseGui::updateWidgets() {
 		secondary_subtitles_track_menu->setEnabled(false);
 		frameBackStepAct->setEnabled(false);
 		OSDFractionsAct->setEnabled(false);
+		earwaxAct->setEnabled(false);
 	} else {
 		karaokeAct->setEnabled(false);
 	}

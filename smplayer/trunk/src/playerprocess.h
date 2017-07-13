@@ -97,6 +97,9 @@ public:
 #endif
 	virtual void enableExtrastereo(bool b) = 0;
 	virtual void enableVolnorm(bool b, const QString & option) = 0;
+#ifdef MPV_SUPPORT
+	virtual void enableEarwax(bool b) = 0;
+#endif
 	virtual void setAudioEqualizer(AudioEqualizerList) = 0;
 	virtual void setAudioDelay(double delay) = 0;
 	virtual void setSubDelay(double delay) = 0;

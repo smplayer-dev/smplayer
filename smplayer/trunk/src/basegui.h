@@ -523,6 +523,9 @@ protected:
 	MyAction * karaokeAct;
 #endif
 	MyAction * volnormAct;
+#ifdef MPV_SUPPORT
+	MyAction * earwaxAct;
+#endif
 	MyAction * loadAudioAct;
 	MyAction * unloadAudioAct;
 

@@ -100,6 +100,9 @@ void MediaSettings::reset() {
 #endif
 	extrastereo_filter = false;
 	volnorm_filter = pref->initial_volnorm;
+#ifdef MPV_SUPPORT
+	earwax_filter = false;
+#endif
 
 	audio_use_channels = pref->initial_audio_channels; //ChDefault; // (0)
 	stereo_mode = pref->initial_stereo_mode; //Stereo; // (0)
@@ -258,6 +261,9 @@ void MediaSettings::list() {
 #endif
 	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 	qDebug("  volnorm_filter: %d", volnorm_filter);
+#ifdef MPV_SUPPORT
+	qDebug("  earwax_filter: %d", earwax_filter);
+#endif
 
 	qDebug("  audio_use_channels: %d", audio_use_channels);
 	qDebug("  stereo_mode: %d", stereo_mode);
@@ -389,6 +395,9 @@ void MediaSettings::save(QSettings * set, int player_id) {
 #endif
 	set->setValue( "extrastereo_filter", extrastereo_filter);
 	set->setValue( "volnorm_filter", volnorm_filter);
+#ifdef MPV_SUPPORT
+	set->setValue( "earwax_filter", earwax_filter);
+#endif
 
 	set->setValue( "audio_use_channels", audio_use_channels);
 	set->setValue( "stereo_mode", stereo_mode);
@@ -527,6 +536,9 @@ void MediaSettings::load(QSettings * set, int player_id) {
 #endif
 	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 	volnorm_filter = set->value( "volnorm_filter", volnorm_filter).toBool();
+#ifdef MPV_SUPPORT
+	earwax_filter = set->value( "earwax_filter", earwax_filter).toBool();
+#endif
 
 	audio_use_channels = set->value( "audio_use_channels", audio_use_channels).toInt();
 	stereo_mode = set->value( "stereo_mode", stereo_mode).toInt();

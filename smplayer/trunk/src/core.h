@@ -158,6 +158,11 @@ public slots:
 	void toggleVolnorm();
 	void toggleVolnorm(bool b);
 
+#ifdef MPV_SUPPORT
+	void toggleEarwax();
+	void toggleEarwax(bool b);
+#endif
+
 	void setAudioChannels(int channels);
 	void setStereoMode(int mode);
 
