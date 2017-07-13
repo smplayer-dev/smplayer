@@ -87,6 +87,9 @@ public:
 	void enableKaraoke(bool b);
 	void enableExtrastereo(bool b);
 	void enableVolnorm(bool b, const QString & option);
+#ifdef MPV_SUPPORT
+	void enableEarwax(bool b) {};
+#endif
 	void setAudioEqualizer(AudioEqualizerList);
 	void setAudioDelay(double delay);
 	void setSubDelay(double delay);

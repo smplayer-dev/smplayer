@@ -246,6 +246,10 @@ void MplayerProcess::addStereo3DFilter(const QString & in, const QString & out) 
 
 void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString s = filter_name;
+	if (filter_name == "earwax") {
+		// Not supported
+	}
+	else
 	if (filter_name == "equalizer") {
 		AudioEqualizerList l = value.toList();
 		QString o = Helper::equalizerListToString(l);

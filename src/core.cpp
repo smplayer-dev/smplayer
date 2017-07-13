@@ -2350,6 +2350,12 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addAF("volnorm", options);
 		}
 
+		#ifdef MPV_SUPPORT
+		if (mset.earwax_filter) {
+			proc->addAF("earwax");
+		}
+		#endif
+
 		if (proc->isMPlayer()) {
 			bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
 			if (pref->use_scaletempo == Preferences::Detect) {
@@ -2848,6 +2854,20 @@ void Core::toggleVolnorm(bool b) {
 		}
 	}
 }
+
+#ifdef MPV_SUPPORT
+void Core::toggleEarwax() {
+	toggleEarwax( !mset.earwax_filter );
+}
+
+void Core::toggleEarwax(bool b) {
+	qDebug("Core::toggleEarwax: %d", b);
+	if (b != mset.earwax_filter) {
+		mset.earwax_filter = b;
+		proc->enableEarwax(b);
+	}
+}
+#endif
 
 void Core::setAudioChannels(int channels) {
 	qDebug("Core::setAudioChannels:%d", channels);

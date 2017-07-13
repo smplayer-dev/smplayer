@@ -125,6 +125,9 @@ public:
 #endif
 	bool extrastereo_filter;
 	bool volnorm_filter;
+#ifdef MPV_SUPPORT
+	bool earwax_filter;
+#endif
 
 	int audio_use_channels;
 	int stereo_mode;

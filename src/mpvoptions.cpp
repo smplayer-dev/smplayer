@@ -670,6 +670,10 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 		arg << "--af-add=lavfi=[extrastereo]";
 	}
 	else
+	if (filter_name == "earwax") {
+		arg << "--af-add=lavfi=[earwax]";
+	}
+	else
 	if (filter_name == "karaoke") {
 		/* Not supported anymore */
 		/* Ignore */
@@ -895,6 +899,10 @@ void MPVProcess::enableVolnorm(bool b, const QString & option) {
 	QString s = "acompressor";
 	if (!option.isEmpty()) s += "=" + option;
 	if (b) writeToStdin("af add lavfi=[" + s + "]"); else writeToStdin("af del lavfi=[" + s + "]");
+}
+
+void MPVProcess::enableEarwax(bool b) {
+	if (b) writeToStdin("af add lavfi=[earwax]"); else writeToStdin("af del lavfi=[earwax]");
 }
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
