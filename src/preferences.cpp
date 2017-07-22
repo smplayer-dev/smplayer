@@ -1104,7 +1104,7 @@ void Preferences::save() {
 
 	set->setValue("initial_deinterlace", initial_deinterlace);
 
-	set->setValue("initial_audio_channels", initial_audio_channels);
+	set->setValue("audio_channels", initial_audio_channels);
 	set->setValue("initial_stereo_mode", initial_stereo_mode);
 
 	set->setValue("initial_audio_track", initial_audio_track);
@@ -1679,7 +1679,7 @@ void Preferences::load() {
 
 	initial_deinterlace = set->value("initial_deinterlace", initial_deinterlace).toInt();
 
-	initial_audio_channels = set->value("initial_audio_channels", initial_audio_channels).toInt();
+	initial_audio_channels = set->value("audio_channels", initial_audio_channels).toInt();
 	initial_stereo_mode = set->value("initial_stereo_mode", initial_stereo_mode).toInt();
 
 	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
