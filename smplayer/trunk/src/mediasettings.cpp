@@ -399,7 +399,7 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "earwax_filter", earwax_filter);
 #endif
 
-	set->setValue( "audio_use_channels", audio_use_channels);
+	set->setValue( "audio_channels", audio_use_channels);
 	set->setValue( "stereo_mode", stereo_mode);
 
 	set->setValue( "zoom_factor", zoom_factor);
@@ -540,7 +540,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	earwax_filter = set->value( "earwax_filter", earwax_filter).toBool();
 #endif
 
-	audio_use_channels = set->value( "audio_use_channels", audio_use_channels).toInt();
+	audio_use_channels = set->value( "audio_channels", audio_use_channels).toInt();
 	stereo_mode = set->value( "stereo_mode", stereo_mode).toInt();
 
 	zoom_factor = set->value( "zoom_factor", zoom_factor).toDouble();
