@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -46,12 +44,12 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>你也可以帮助翻译 SMPlayer</translation>
+        <translation>你也可以帮助翻译 SMPlayer。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>访问 %1 并加入翻译团队</translation>
+        <translation>访问 %1 并加入翻译团队。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
@@ -61,7 +59,7 @@
     <message>
         <location filename="../about.cpp" line="78"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation>SMPlayer 是 %1 和 %2 的图形化前端</translation>
+        <translation>SMPlayer 是 %1 和 %2 的图形化前端。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
@@ -81,7 +79,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation>佩奇</translation>
+        <translation>页面</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -221,7 +219,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="228"/>
         <source>&amp;Change shortcut...</source>
-        <translation>更改快捷键(&amp;C)...</translation>
+        <translation>&amp;更改快捷键...</translation>
     </message>
 </context>
 <context>
@@ -252,7 +250,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Preset</source>
-        <translation>当前(&amp;P)</translation>
+        <translation>&amp;当前</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
@@ -272,7 +270,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;关闭</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -847,7 +845,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5105"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation>抱歉此视频不能播放</translation>
+        <translation>抱歉此视频不能播放。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5342"/>
@@ -1070,7 +1068,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>以毫秒显示时间</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -1306,7 +1304,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4541"/>
         <source>No</source>
-        <translation type="unfinished">否</translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4544"/>
@@ -1316,22 +1314,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4545"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation>SMPlayer是免费软件，但是开发需要大量时间和工作</translation>
+        <translation>SMPlayer是免费软件，但是开发需要大量时间和工作。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4546"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>为了继续开发新的功能，我们需要你们的帮助</translation>
+        <translation>为了继续开发新的功能，我们需要你们的帮助。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4547"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>请考虑捐赠支持SMPlayer项目</translation>
+        <translation>请考虑捐赠支持SMPlayer项目。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4548"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation>就算是很少的的数量都会有很大的帮助的</translation>
+        <translation>就算是很少的的数量都会有很大的帮助的。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5039"/>
@@ -1361,7 +1359,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5053"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation>抱歉因 Youtube页面的变化，此视频不能播放</translation>
+        <translation>抱歉因 Youtube页面的变化，此视频不能播放。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5060"/>
@@ -1449,7 +1447,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5056"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>抱歉因 Youtube变化，视频 &apos;%1&apos; 不能播放</translation>
+        <translation>抱歉因 Youtube变化，视频 &apos;%1&apos; 不能播放。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5062"/>
@@ -2192,7 +2190,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube代码已成功更新</translation>
+        <translation>Youtube代码已成功更新。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="127"/>
@@ -2202,23 +2200,23 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Success</translation>
+        <translation>成功</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>An error happened writing %1</translation>
+        <translation>写入 %1 时发生了一个错误</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>An error happened while downloading the file:&lt;br&gt;%1</translation>
+        <translation>下载&lt;br&gt;%1时发生了一个错误</translation>
     </message>
 </context>
 <context>
@@ -2435,12 +2433,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;位率信息</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;以毫秒显示当前时间</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2952,9 +2950,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3052,7 +3048,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -4553,7 +4549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv尚未支持 &apos;%1&apos; 过滤器</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
@@ -4568,33 +4564,33 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>解析度</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"></translation>
+        <translation>每秒显示的画面数</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Estimated:</source>
-        <translation type="unfinished"></translation>
+        <translation>预估</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>外观比例</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="165"/>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>位率</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>已丢失的画面</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
@@ -4604,7 +4600,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>取样率</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
@@ -4619,7 +4615,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="172"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"></translation>
+        <translation>缓存填充：</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="173"/>
@@ -4832,7 +4828,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="725"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>在&amp;a网页浏览器中开启串流</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="740"/>
@@ -4850,12 +4846,12 @@ Do you want to overwrite?</source>
         <translation>选择一个目录</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1909"/>
+        <location filename="../playlist.cpp" line="1906"/>
         <source>Edit name</source>
         <translation>编辑名称</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1910"/>
+        <location filename="../playlist.cpp" line="1907"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>键入该文件将显示在播放列表中的名称:</translation>
     </message>
@@ -4953,7 +4949,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;打开来源文件夹</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="728"/>
@@ -4964,22 +4960,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="730"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>显示位置栏</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="731"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>显示名称栏</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>显示长度栏</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="733"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
+        <translation>显示文件名称栏</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1474"/>
@@ -4987,47 +4983,47 @@ Do you want to overwrite?</source>
         <translation>复制链接到剪贴板</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1947"/>
+        <location filename="../playlist.cpp" line="1944"/>
         <source>Confirm deletion</source>
         <translation>确认删除</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1948"/>
+        <location filename="../playlist.cpp" line="1945"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>将从您的硬盘删除文件 &apos;%1&apos; </translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1946"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>此操作不可撤销。你确定要继续？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1967"/>
+        <location filename="../playlist.cpp" line="1964"/>
         <source>Deletion failed</source>
         <translation>删除失败</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1968"/>
+        <location filename="../playlist.cpp" line="1965"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>无法删除 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1973"/>
+        <location filename="../playlist.cpp" line="1970"/>
         <source>Error deleting the file</source>
         <translation>删除文件出错</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1974"/>
+        <location filename="../playlist.cpp" line="1971"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>无法从文件系统删除 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2438"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>不能导入这个列表</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2438"/>
         <source>Unrecognized format.</source>
         <translation>不能识别的格式</translation>
     </message>
@@ -5323,7 +5319,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>通知 1% 崩溃 &amp;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5343,7 +5339,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消这个选项可以减少闪烁，但是也可能造成视频不正常显示</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5358,12 +5354,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>通知 %1 崩溃</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用这个选项，当 1% 崩溃时会弹窗提示，否则会被静默忽略</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5819,7 +5815,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1110"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用这个选项，新打开的文件将会默认加入黑边框到图片中</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
@@ -5880,7 +5876,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1109"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>默认给字幕加黑边框</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1119"/>
@@ -6195,7 +6191,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>默认给字幕加黑边框&amp;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -7080,7 +7076,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>如果开启此选项，当你在视频区域双击时，只会触发双击行为。左键行为不会被启动</translation>
+        <translation>如果开启此选项，当你在视频区域双击时，只会触发双击行为。左键行为不会被启动。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="410"/>
@@ -7445,22 +7441,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;基础 GUI&lt;/b&gt; 提供传统的界面，拥有工具栏和控制栏</translation>
+        <translation>&lt;b&gt;基础 GUI&lt;/b&gt; 提供传统的界面，拥有工具栏和控制栏。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;迷你 GUI&lt;/b&gt; 提供一个更为简洁的界面，没有工具栏，有一个拥有很少按钮的控制栏</translation>
+        <translation>&lt;b&gt;迷你 GUI&lt;/b&gt; 提供一个更为简洁的界面，没有工具栏，有一个拥有很少按钮的控制栏。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>&lt;b&gt;可换肤 GUI&lt;/b&gt;提供一个支持皮肤的界面</translation>
+        <translation>&lt;b&gt;可换肤 GUI&lt;/b&gt;提供一个支持皮肤的界面。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation>&lt;b&gt;Mpc GUI&lt;/b&gt; 界面和 Media Player Classic 长得很像</translation>
+        <translation>&lt;b&gt;Mpc GUI&lt;/b&gt; 界面和 Media Player Classic 长得很像。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
@@ -7632,7 +7628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>如果勾选此项，浮动控制条仅会在鼠标移动到屏幕底部时显示。否则浮动控制框只要在鼠标移动时就显示</translation>
+        <translation>如果勾选此项，浮动控制条仅会在鼠标移动到屏幕底部时显示。否则浮动控制框只要在鼠标移动时就显示。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="856"/>
@@ -7642,7 +7638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="858"/>
         <source>This option only works with the basic GUI.</source>
-        <translation>此选项仅适用于基础GUI</translation>
+        <translation>此选项仅适用于基础GUI。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="859"/>
@@ -7657,12 +7653,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation>设置鼠标离开控制条后，控制条隐藏的时间(毫秒)</translation>
+        <translation>设置鼠标离开控制条后，控制条隐藏的时间(毫秒)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
         <source>Max. URLs</source>
-        <translation>URL</translation>
+        <translation>最大 URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
@@ -7873,17 +7869,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>网络服务器</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>这里的改动将会在下次网络服务器重启的时候应用</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>列出目录</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
@@ -7893,7 +7889,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>为了将这台电脑上的本地媒体文件提供给 Chromecast，SMPlayer 将会运行一个迷你服务器。你可以在这里进行设置。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="255"/>
@@ -7903,22 +7899,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="261"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation>Convert SRT 字幕到 &amp;VTT</translation>
+        <translation>转换 SRT 字幕到 &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;覆盖已有的 VTT 文件</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>尝试移除广告&amp;</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;字幕在屏幕上的位置</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8047,72 +8043,72 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="273"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>这台电脑的本地IP地址会传送给Chromecast，这样他就可以读取这台电脑上的文件了。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>网络服务器会使用的端口</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="279"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>列出目录</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>网络服务器运行时，任何在你网络中的设备都可以读取这台电脑里的这些文件，如果这个选项打开，任何设备都可以获得列表，如果关闭，将不会提供列表。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation>Convert SRT 字幕到 VTT</translation>
+        <translation>转换 SRT 字幕到 VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>如果打开此选项，SMPlayer会自动将 SRT 格式的字幕转换为 VTT 格式，VTT 字幕将会有同样的文件名，只是扩展名变为 .vtt。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>覆盖存在的 VTT 文件</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果启用这个选项，SMPlayer会覆盖存在的 VTT 文件。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>尝试移除广告</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果启用这个选项，SMPlayer会尝试寻找字幕中的广告并移除。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕在屏幕上的位置</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个选项设置字幕在屏幕的哪个位置显示。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0是屏幕顶部，100是屏幕底部。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>特殊值 -1 表示默认位置。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -8178,7 +8174,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>Select the proxy type to be used.</source>
-        <translation>选择要使用的代理类型</translation>
+        <translation>选择要使用的代理类型。</translation>
     </message>
 </context>
 <context>
@@ -8637,7 +8633,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>当一个文件到结尾的时候，下一个文件会自动播放</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
@@ -8657,7 +8653,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Misc</translation>
+        <translation>杂项</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8667,17 +8663,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation>如果启用此选项，添加文件后会自动分类</translation>
+        <translation>如果启用此选项，添加文件后会自动分类。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>区分大小写搜索</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>此选项制定了当在播放列表中搜索时是否区分大小写。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
@@ -8687,17 +8683,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果这个选项启用，SMPlayer关闭时会在设置文件中保存播放列表的复件，在SMPlayer再次运行时会自动重新加载。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此选项以从硬盘上删除文件</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>此选项让你可以在播放列表的右键菜单中启用从硬盘删除文件的选项。为避免意外，此选项默认是禁用的。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8737,7 +8733,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation>此选项允许自动添加文件到列表</translation>
+        <translation>此选项允许自动添加文件到列表：</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
@@ -8772,7 +8768,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation>从文件夹添加(&amp;f)</translation>
+        <translation>从文件夹添加&amp;f：</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
@@ -8822,7 +8818,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;杂项</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8832,17 +8828,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;区分大小写搜索</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;退出时保存播放列表复件</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此选项以从&amp;硬盘上删除文件</translation>
     </message>
 </context>
 <context>
@@ -9498,7 +9494,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>如果此项开启，SMPlayer会检查并提示有更新</translation>
+        <translation>如果此项开启，SMPlayer会检查并提示有更新。</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9508,7 +9504,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>你可以输入检查更新的间隔(单位:天)</translation>
+        <translation>你可以输入检查更新的间隔(单位:天)。</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -9662,17 +9658,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9761,12 +9753,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (修订版 %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (修订版 %2)</translation>
     </message>
 </context>
 <context>
