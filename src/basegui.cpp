@@ -1790,7 +1790,7 @@ void BaseGui::retranslateStrings() {
 #endif
 	volnormAct->change( tr("Volume &normalization") );
 #ifdef MPV_SUPPORT
-	earwaxAct->change( tr("&Headphones optimization") );
+	earwaxAct->change( tr("&Headphone optimization") + " (earwax)" );
 #endif
 
 	// Menu Subtitles
