@@ -114,6 +114,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 	// Channels combo
+	channels_combo->addItem( "0", MediaSettings::ChDefault );
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
 	channels_combo->addItem( "6", MediaSettings::ChFull51 );
@@ -160,11 +161,12 @@ void PrefGeneral::retranslateStrings() {
 	player_combo->setCurrentIndex(player_item);
 #endif
 
-	channels_combo->setItemText(0, tr("2 (Stereo)") );
-	channels_combo->setItemText(1, tr("4 (4.0 Surround)") );
-	channels_combo->setItemText(2, tr("6 (5.1 Surround)") );
-	channels_combo->setItemText(3, tr("7 (6.1 Surround)") );
-	channels_combo->setItemText(4, tr("8 (7.1 Surround)") );
+	channels_combo->setItemText(0, tr("Default") );
+	channels_combo->setItemText(1, tr("2 (Stereo)") );
+	channels_combo->setItemText(2, tr("4 (4.0 Surround)") );
+	channels_combo->setItemText(3, tr("6 (5.1 Surround)") );
+	channels_combo->setItemText(4, tr("7 (6.1 Surround)") );
+	channels_combo->setItemText(5, tr("8 (7.1 Surround)") );
 
 	int deinterlace_item = deinterlace_combo->currentIndex();
 	deinterlace_combo->clear();

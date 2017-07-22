@@ -741,7 +741,7 @@ protected:
 
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;
-	/* MyAction * channelsDefaultAct; */
+	MyAction * channelsDefaultAct;
 	MyAction * channelsStereoAct;
 	MyAction * channelsSurroundAct;
 	MyAction * channelsFull51Act;

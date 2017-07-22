@@ -582,6 +582,6 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	is264andHD = set->value( "is264andHD", is264andHD ).toBool();
 
 	// ChDefault not used anymore
-	if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
+	//if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
 }
 
