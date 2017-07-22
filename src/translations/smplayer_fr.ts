@@ -6334,7 +6334,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../prefgeneral.cpp" line="472"/>
         <location filename="../prefgeneral.cpp" line="515"/>
         <source>User defined...</source>
-        <translation>Utilisateur défini...</translation>
+        <translation>Défini par l&apos;utilisateur...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1114"/>
