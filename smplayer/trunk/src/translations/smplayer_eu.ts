@@ -1009,7 +1009,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Entzungailuen hoberentzea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>

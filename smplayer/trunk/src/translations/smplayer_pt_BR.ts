@@ -1009,7 +1009,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>Otimizado para &amp;fone de ouvido</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>

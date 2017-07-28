@@ -1009,7 +1009,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimización de &amp;auriculares</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -7916,17 +7916,17 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sobrescribir os ficheiros VTT existentes</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar elimina&amp;r anuncios</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición dos &amp;subtítulos na pantalla:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8085,42 +8085,42 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobrescribir os ficheiros VTT existentes</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opción está activada o SMPlayer sobrescribirá os ficheiros VTT.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar eliminar os anuncios</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opción está activada o SMPlayer tentará atopar e eliminar anuncios nos subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición dos subtítulos na pantalla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción estabelece a posición na pantalla onde se mostran os subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 é a banda superior da pantalla, 100 é a banda inferior.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>O valor especial -1 indica a posición predeterminada.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
