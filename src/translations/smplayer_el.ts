@@ -1009,7 +1009,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Βελτιστοποίηση για ακουστικά</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>

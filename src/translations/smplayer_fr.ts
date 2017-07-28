@@ -1009,7 +1009,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Optimisation casque audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -5905,7 +5905,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1188"/>
         <source>Global audio equalizer</source>
-        <translation>Egaliseur audio global</translation>
+        <translation>Égaliseur audio global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1189"/>
@@ -7367,7 +7367,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.ui" line="892"/>
         <source>&amp;Max. items</source>
-        <translation>Eléments &amp;Maxi.</translation>
+        <translation>Éléments &amp;Maxi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
@@ -10324,7 +10324,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Egaliseur vidéo</translation>
+        <translation>Égaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
@@ -10354,7 +10354,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>&amp;Egaliseur logiciel</translation>
+        <translation>&amp;Égaliseur logiciel</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
@@ -10665,7 +10665,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation>Egaliseur vidéo</translation>
+        <translation>Égaliseur vidéo</translation>
     </message>
 </context>
 <context>
