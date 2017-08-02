@@ -1009,7 +1009,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopfhörer-Optimierung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
