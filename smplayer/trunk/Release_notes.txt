@@ -1,3 +1,8 @@
+Version 17.8
+
+ * New audio filter for headphone optimization.
+
+
 Version 17.7
 
  * Add some options to configure the conversion of srt subtitles to vtt for
