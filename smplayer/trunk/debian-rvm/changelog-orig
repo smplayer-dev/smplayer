@@ -1,3 +1,9 @@
+smplayer (17.8.0) precise; urgency=low
+
+  * New audio filter for headphone optimization.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 09 Aug 2017 23:04:13 +0200
+
 smplayer (17.7.0) precise; urgency=low
 
   * Add some options to configure the conversion of srt subtitles to vtt for
