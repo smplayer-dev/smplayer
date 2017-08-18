@@ -65,3 +65,19 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 
 	return s;
 }
+
+QStringList AudioEqualizerHelper::equalizerListToStringList(AudioEqualizerList values, AudioEqualizerType type) {
+	QStringList l;
+
+	if (type == Firequalizer) {
+		double freq = 31.25;
+		for (int f = 0; f < 10; f++) {
+			double v = (double) values[f].toInt() / 10;
+			QString s = QString("gain_entry='entry(%1,%2)'").arg(freq).arg(v);
+			freq = freq * 2;
+			l << s;
+		}
+	}
+
+	return l;
+}

@@ -213,6 +213,7 @@ private:
 	int br_current_title;
 
 	QString previous_eq;
+	QStringList previous_eq_list;
 
 #ifdef CAPTURE_STREAM
 	bool capturing;
