@@ -22,6 +22,7 @@
 #include "deviceinfo.h"
 
 //#define USE_ANEQUALIZER
+//#define USE_FIREQUALIZER
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -655,14 +656,20 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	else
 	if (filter_name == "equalizer") {
 		AudioEqualizerList l = value.toList();
-		#ifndef USE_ANEQUALIZER
+		#if !defined(USE_ANEQUALIZER) && !defined(USE_FIREQUALIZER)
 		option = AudioEqualizerHelper::equalizerListToString(l);
 		previous_eq = option;
 		arg << "--af-add=equalizer=" + option;
-		#else
+		#endif
+		#ifdef USE_ANEQUALIZER
 		option = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
 		previous_eq = option;
 		arg << "--af-add=lavfi=[anequalizer=" + option + "]";
+		#endif
+		#ifdef USE_FIREQUALIZER
+		option = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
+		previous_eq = option;
+		arg << "--af-add=lavfi=[firequalizer=" + option + "]";
 		#endif
 	}
 	else
@@ -906,7 +913,7 @@ void MPVProcess::enableEarwax(bool b) {
 }
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
-#ifndef USE_ANEQUALIZER
+#if !defined(USE_ANEQUALIZER) && !defined(USE_FIREQUALIZER)
 	QString values = AudioEqualizerHelper::equalizerListToString(l);
 	if (values == previous_eq) return;
 
@@ -915,7 +922,8 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	}
 	writeToStdin("af add equalizer=" + values);
 	previous_eq = values;
-#else
+#endif
+#ifdef USE_ANEQUALIZER
 	/* Not working */
 	#if 0
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
@@ -927,6 +935,17 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	writeToStdin("af add lavfi=[anequalizer=" + values + "]");
 	previous_eq = values;
 	#endif
+#endif
+#ifdef USE_FIREQUALIZER
+	/* Not working */
+	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
+	if (values == previous_eq) return;
+
+	if (!previous_eq.isEmpty()) {
+		writeToStdin("af del lavfi=[firequalizer=" + previous_eq + "]");
+	}
+	writeToStdin("af add lavfi=[firequalizer=" + values + "]");
+	previous_eq = values;
 #endif
 }
 

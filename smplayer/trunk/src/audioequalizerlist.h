@@ -27,7 +27,7 @@ typedef QList<QVariant> AudioEqualizerList;
 class AudioEqualizerHelper {
 
 public:
-	enum AudioEqualizerType { Equalizer = 0, Anequalizer = 1, FireEqualizer = 2 };
+	enum AudioEqualizerType { Equalizer = 0, Anequalizer = 1, Firequalizer = 2 };
 
 	//! Returns a string to be passed to mplayer with the audio equalizer
 	//! values.

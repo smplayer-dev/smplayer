@@ -50,6 +50,18 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		}
 		//qDebug() << "AudioEqualizerHelper::equalizerListToString:" << s;
 	}
+	else
+	if (type == Firequalizer) {
+		s = "gain_entry='";
+		double freq = 31.25;
+		for (int f = 0; f < 10; f++) {
+			double v = (double) values[f].toInt() / 10;
+			s += QString("entry(%1,%2)").arg(freq).arg(v);
+			if (f < 9) s += ";";
+			freq = freq * 2;
+		}
+		s += "'";
+	}
 
 	return s;
 }
