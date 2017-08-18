@@ -656,11 +656,11 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	if (filter_name == "equalizer") {
 		AudioEqualizerList l = value.toList();
 		#ifndef USE_ANEQUALIZER
-		option = Helper::equalizerListToString(l);
+		option = AudioEqualizerHelper::equalizerListToString(l);
 		previous_eq = option;
 		arg << "--af-add=equalizer=" + option;
 		#else
-		option = Helper::equalizerListToString(l, true);
+		option = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
 		previous_eq = option;
 		arg << "--af-add=lavfi=[anequalizer=" + option + "]";
 		#endif
@@ -907,7 +907,7 @@ void MPVProcess::enableEarwax(bool b) {
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 #ifndef USE_ANEQUALIZER
-	QString values = Helper::equalizerListToString(l);
+	QString values = AudioEqualizerHelper::equalizerListToString(l);
 	if (values == previous_eq) return;
 
 	if (!previous_eq.isEmpty()) {
@@ -918,7 +918,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 #else
 	/* Not working */
 	#if 0
-	QString values = Helper::equalizerListToString(l, true);
+	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
 	if (values == previous_eq) return;
 
 	if (!previous_eq.isEmpty()) {

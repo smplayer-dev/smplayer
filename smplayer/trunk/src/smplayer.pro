@@ -250,6 +250,7 @@ SOURCES	+= version.cpp \
 	infoprovider.cpp \
 	mplayerwindow.cpp \
 	mediadata.cpp \
+	audioequalizerlist.cpp \
 	mediasettings.cpp \
 	assstyles.cpp \
 	filters.cpp \
