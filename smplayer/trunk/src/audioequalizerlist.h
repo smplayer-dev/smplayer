@@ -20,6 +20,7 @@
 #define AUDIOEQUALIZERLIST_H
 
 #include <QList>
+#include <QStringList>
 #include <QVariant>
 
 typedef QList<QVariant> AudioEqualizerList;
@@ -32,6 +33,8 @@ public:
 	//! Returns a string to be passed to mplayer with the audio equalizer
 	//! values.
 	static QString equalizerListToString(AudioEqualizerList values, AudioEqualizerType type = Equalizer);
+
+	static QStringList equalizerListToStringList(AudioEqualizerList values, AudioEqualizerType type = Equalizer);
 };
 
 #endif
