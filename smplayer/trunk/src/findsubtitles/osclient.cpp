@@ -56,11 +56,12 @@ void OSClient::login() {
 			  this, SLOT(gotFault(int, const QString &)));
 }
 
-void OSClient::search(const QString & hash, qint64 file_size) {
-	qDebug() << "OSClient::search: hash: " << hash << "file_size: " << file_size;
+void OSClient::search(const QString & hash, qint64 file_size, const QString & filename) {
+	qDebug() << "OSClient::search: hash:" << hash << "file_size:" << file_size << "filename:" << filename;
 
 	search_hash = hash;
 	search_size = file_size;
+	search_filename = filename;
 
 	disconnect(this, SIGNAL(loggedIn()), this, SLOT(doSearch()));
 
@@ -91,8 +92,12 @@ void OSClient::doSearch() {
 
 	QVariantMap m;
 	m["sublanguageid"] = "all";
-	m["moviehash"] = search_hash;
-	m["moviebytesize"] = QString::number(search_size);
+	if (!search_filename.isEmpty()) {
+		m["query"] = search_filename;
+	} else {
+		m["moviehash"] = search_hash;
+		m["moviebytesize"] = QString::number(search_size);
+	}
 
 	QVariantList list;
 #ifdef OS_SEARCH_WORKAROUND

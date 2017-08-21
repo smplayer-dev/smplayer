@@ -304,8 +304,11 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 	if (hash.isEmpty()) {
 		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {
-		qint64 file_size = QFileInfo(filename).size();
-		osclient->search(hash, file_size);
+		QFileInfo fi(filename);
+		qint64 file_size = fi.size();
+		QString basename;
+		if (0) basename = fi.completeBaseName(); // Filename without extension
+		osclient->search(hash, file_size, basename);
 		last_file = filename;
 	}
 }

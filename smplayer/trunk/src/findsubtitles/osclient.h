@@ -46,7 +46,7 @@ public:
 
 public slots:
 	void setServer(const QString & server);
-	void search(const QString & hash, qint64 file_size);
+	void search(const QString & hash, qint64 file_size, const QString & filename = QString::null);
 
 private slots:
 	void login();
@@ -73,6 +73,7 @@ private:
 	bool logged_in;
 	QString search_hash;
 	qint64 search_size;
+	QString search_filename;
 #ifdef OS_SEARCH_WORKAROUND
 	int best_search_count;
 	int search_retries;
