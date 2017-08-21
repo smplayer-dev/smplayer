@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1010,7 +1008,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ottimizzazione cuffie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -1076,7 +1074,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra tempo in &amp;millisecondi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
@@ -2959,10 +2957,7 @@ Esempio: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>estratti %n sottotitoli</numerusform>
-            <numerusform>estratto %n sottotitolo</numerusform>
-        </translation>
+        <translation><numerusform>estratti %n sottotitoli</numerusform><numerusform>estratto %n sottotitolo</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3060,7 +3055,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non è stato possibile salvare il file scaricato
@@ -5331,7 +5326,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifica %1 crash</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5366,12 +5361,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifica %1 crash</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attivata, un popup sarà mostrato per informare di %1 crash. Altrimenti i problemi verranno ignorati.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -6972,12 +6967,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci successivo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci precedente</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7489,7 +7484,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Classico</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7907,27 +7902,27 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="255"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Sottotitoli</translation>
+        <translation>Sottotitoli</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="261"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converti sottotitoli SRT in &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;ovrascrivi file VTT esistenti</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prova a &amp;rimuovere pubblicità</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posizione dei &amp;sottotitoli:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8076,52 +8071,52 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converti sottotitoli da SRT a VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attivata SMPlayer convertirà i sottotitoli SRTT in VTT con lo stesso nome file ma estensione .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Sovrascrivi file VTT esistenti</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attivata SMPlayer sovrascriverà i file VTT preesistenti.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Prova a rimuovere la pubblicità</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attivata SMPlayer proverà a trovare pubblicità nei sottotitoli e rimuoverla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posizione dei sottotitoli</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione imposta la posizione dello schermo dove saranno mostrati i sottotitoli.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 è l&apos;estremo superiore, 100 quello inferiore dello schermo.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il valore speciale -1 significa posizione di default.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -8913,12 +8908,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutti i sottotitoli contenenti il nome del video</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutti i sottotitoli nella cartella</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9671,19 +9666,13 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n secondo</numerusform>
-            <numerusform>%n secondi</numerusform>
-        </translation>
+        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minuti</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
