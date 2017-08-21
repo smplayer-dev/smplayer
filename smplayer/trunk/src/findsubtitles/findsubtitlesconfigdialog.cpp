@@ -24,6 +24,9 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 {
 	setupUi(this);
 
+	search_method_combo->addItem(tr("Hash"), Hash);
+	search_method_combo->addItem(tr("Filename"), Filename);
+
 #ifdef FS_USE_PROXY
 	proxy_type_combo->addItem( tr("HTTP"), QNetworkProxy::HttpProxy);
 	proxy_type_combo->addItem( tr("SOCKS5"), QNetworkProxy::Socks5Proxy);
@@ -61,6 +64,16 @@ void FindSubtitlesConfigDialog::setServer(QString server) {
 
 QString FindSubtitlesConfigDialog::server() {
 	return server_edit->text();
+}
+
+void FindSubtitlesConfigDialog::setSearchMethod(SearchMethod m) {
+	int pos = search_method_combo->findData(m);
+	if (pos == -1) pos = 0;
+	search_method_combo->setCurrentIndex(pos);
+}
+
+int FindSubtitlesConfigDialog::searchMethod() {
+	return search_method_combo->itemData(search_method_combo->currentIndex()).toInt();
 }
 
 #ifdef OS_SEARCH_WORKAROUND

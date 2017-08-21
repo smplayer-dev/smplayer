@@ -137,6 +137,7 @@ protected:
 
 	// Opensubtitles server
 	QString os_server;
+	int search_method;
 
 #ifdef FS_USE_PROXY
 	// Proxy
