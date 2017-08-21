@@ -26,12 +26,17 @@ class FindSubtitlesConfigDialog : public QDialog, public Ui::FindSubtitlesConfig
 	Q_OBJECT
 
 public:
+	enum SearchMethod { Hash = 0, Filename = 1 };
+
 	FindSubtitlesConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~FindSubtitlesConfigDialog();
 
 	// Server
 	void setServer(QString server);
 	QString server();
+
+	void setSearchMethod(SearchMethod m);
+	int searchMethod();
 
 #ifdef OS_SEARCH_WORKAROUND
 	void setRetries(int n);
