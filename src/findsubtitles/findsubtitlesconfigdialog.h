@@ -31,9 +31,11 @@ public:
 	FindSubtitlesConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~FindSubtitlesConfigDialog();
 
+#ifdef FS_USE_SERVER_CONFIG
 	// Server
 	void setServer(QString server);
 	QString server();
+#endif
 
 	void setSearchMethod(SearchMethod m);
 	int searchMethod();

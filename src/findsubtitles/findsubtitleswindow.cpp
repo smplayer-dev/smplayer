@@ -782,7 +782,9 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 
 	FindSubtitlesConfigDialog d(this);
 
+	#ifdef FS_USE_SERVER_CONFIG
 	d.setServer( os_server );
+	#endif
 	d.setSearchMethod( (FindSubtitlesConfigDialog::SearchMethod) search_method );
 	#ifdef OS_SEARCH_WORKAROUND
 	d.setRetries(osclient->retries());
@@ -801,7 +803,9 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	#endif
 
 	if (d.exec() == QDialog::Accepted) {
+		#ifdef FS_USE_SERVER_CONFIG
 		os_server = d.server();
+		#endif
 		search_method = d.searchMethod();
 		#ifdef OS_SEARCH_WORKAROUND
 		osclient->setRetries( d.retries() );

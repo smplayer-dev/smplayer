@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>499</width>
-    <height>429</height>
+    <height>464</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,28 +15,11 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
-    <widget class="QGroupBox" name="server_group">
+    <widget class="QGroupBox" name="misc_group">
      <property name="title">
-      <string>Server</string>
+      <string>General</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <item>
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>&amp;OpenSubtitles server:</string>
-          </property>
-          <property name="buddy">
-           <cstring>server_edit</cstring>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="server_edit"/>
-        </item>
-       </layout>
-      </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
@@ -68,41 +51,11 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
-        <item>
-         <widget class="QLabel" name="retries_label">
-          <property name="text">
-           <string>Number of &amp;retries:</string>
-          </property>
-          <property name="buddy">
-           <cstring>retries_spin</cstring>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QSpinBox" name="retries_spin">
-          <property name="minimum">
-           <number>1</number>
-          </property>
-          <property name="maximum">
-           <number>50</number>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>257</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
+       <widget class="QCheckBox" name="addlang_check">
+        <property name="text">
+         <string>A&amp;ppend language code to the subtitle filename</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -222,17 +175,64 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="misc_group">
+    <widget class="QGroupBox" name="server_group">
      <property name="title">
-      <string>Misc</string>
+      <string>Server</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QCheckBox" name="addlang_check">
-        <property name="text">
-         <string>A&amp;ppend language code to the subtitle filename</string>
-        </property>
-       </widget>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="server_label">
+          <property name="text">
+           <string>&amp;OpenSubtitles server:</string>
+          </property>
+          <property name="buddy">
+           <cstring>server_edit</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="server_edit"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="retries_label">
+          <property name="text">
+           <string>Number of &amp;retries:</string>
+          </property>
+          <property name="buddy">
+           <cstring>retries_spin</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="retries_spin">
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>50</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>257</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
       </item>
      </layout>
     </widget>
@@ -250,16 +250,16 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>server_edit</tabstop>
   <tabstop>search_method_combo</tabstop>
-  <tabstop>retries_spin</tabstop>
+  <tabstop>addlang_check</tabstop>
   <tabstop>use_proxy_check</tabstop>
   <tabstop>proxy_hostname_edit</tabstop>
   <tabstop>proxy_port_spin</tabstop>
   <tabstop>proxy_username_edit</tabstop>
   <tabstop>proxy_password_edit</tabstop>
   <tabstop>proxy_type_combo</tabstop>
-  <tabstop>addlang_check</tabstop>
+  <tabstop>server_edit</tabstop>
+  <tabstop>retries_spin</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources/>

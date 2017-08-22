@@ -52,12 +52,22 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 	misc_group->hide();
 #endif
 
+#ifndef FS_USE_SERVER_CONFIG
+	server_label->hide();
+	server_edit->hide();
+#endif
+
+#if !defined(FS_USE_SERVER_CONFIG) && !defined(OS_SEARCH_WORKAROUND)
+	server_group->hide();
+#endif
+
 	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
 FindSubtitlesConfigDialog::~FindSubtitlesConfigDialog() {
 }
 
+#ifdef FS_USE_SERVER_CONFIG
 void FindSubtitlesConfigDialog::setServer(QString server) {
 	server_edit->setText(server);
 }
@@ -65,6 +75,7 @@ void FindSubtitlesConfigDialog::setServer(QString server) {
 QString FindSubtitlesConfigDialog::server() {
 	return server_edit->text();
 }
+#endif
 
 void FindSubtitlesConfigDialog::setSearchMethod(SearchMethod m) {
 	int pos = search_method_combo->findData(m);
