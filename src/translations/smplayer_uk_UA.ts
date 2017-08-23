@@ -2444,7 +2444,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation>Показати поточний час з мілісекундами</translation>
+        <translation>Показати поточний час з &amp;мілісекундами</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -4950,7 +4950,7 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="719"/>
         <location filename="../playlist.cpp" line="1469"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation>&amp;Копіювати шлях до файлу в буфер обміну.</translation>
+        <translation>&amp;Копіювати шлях до файлу в буфер обміну</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="720"/>
@@ -7921,7 +7921,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation>Позиція субтитрів на &amp;екрані</translation>
+        <translation>Позиція субтитрів на &amp;екрані:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8100,7 +8100,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation>Розташування субтитрів на екрані</translation>
+        <translation>Позиція субтитрів на екрані</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
