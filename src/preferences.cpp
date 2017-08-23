@@ -363,7 +363,7 @@ void Preferences::reset() {
 
 	show_tag_in_window_title = true;
 
-	time_to_kill_mplayer = 1000;
+	time_to_kill_mplayer = 5000;
 
 #ifdef MPRIS2
 	use_mpris2 = true;
