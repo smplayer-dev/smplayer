@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -221,7 +219,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="228"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Redigér genvej...</translation>
+        <translation>&amp;Rediger genvej...</translation>
     </message>
 </context>
 <context>
@@ -267,7 +265,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Anvend som standardværdier</translation>
+        <translation>&amp;Sæt som standardværdier</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
@@ -821,8 +819,8 @@ Vil du overskrive den?</translation>
         <location filename="../basegui.cpp" line="4294"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CD-ROM-/DVD-drevene er endnu ikke sat op.
-Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
+        <translation>CD-ROM-/DVD-drevene er endnu ikke konfigureret.
+Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4407"/>
@@ -945,7 +943,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>Update the &amp;YouTube code</source>
-        <translation>Opdatér &amp;YouTube-koden</translation>
+        <translation>Opdater &amp;YouTube-koden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2199"/>
@@ -1055,7 +1053,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
         <source>&amp;Open configuration folder</source>
-        <translation>&amp;Åbn opsætningsmappe</translation>
+        <translation>&amp;Åbn konfigurationsmappe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
@@ -1276,7 +1274,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2144"/>
         <source>&amp;Edit bookmarks</source>
-        <translation>&amp;Redigér bogmærker</translation>
+        <translation>&amp;Rediger bogmærker</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
@@ -1326,7 +1324,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4570"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Vi har brug for din hjælp til fortsat at udvikle SMPlayer med nye faciliteter. </translation>
+        <translation>Vi har brug for din hjælp til fortsat at udvikle SMPlayer med nye faciliteter.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4571"/>
@@ -1495,7 +1493,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4036"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>De nuværende værdier er blevet gemt for at blive brugt som standardværdier.</translation>
+        <translation>De nuværende værdier er blevet gemt for at blive brugt som standard.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1914"/>
@@ -1580,12 +1578,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1858"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Kommandolinjeindstillinger</translation>
+        <translation>&amp;Kommandolinjetilvalg</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>SMPlayer command line options</source>
-        <translation>SMPlayer kommandolinjeindstillinger</translation>
+        <translation>SMPlayer kommandolinjetilvalg</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1815"/>
@@ -1738,12 +1736,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4973"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Den version af MPlayer (%1) som er installeret på dit system er forældet. SMPlayer virker ikke godt med den, nogle indstillinger vil ikke virke, valg af undertekst vil måske mislykkes...</translation>
+        <translation>Den version af MPlayer (%1) som er installeret på dit system er forældet. SMPlayer virker ikke godt med den, nogle valgmuligheder vil ikke virke, valg af undertekst vil måske mislykkes...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4978"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Opdatér venligst din MPlayer.</translation>
+        <translation>Opdater venligst din MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4980"/>
@@ -1818,7 +1816,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2155"/>
         <source>DVD menu, select option</source>
-        <translation>DVD-menu, vælg indstilling</translation>
+        <translation>DVD-menu, vælg valgmulighed</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2157"/>
@@ -1828,12 +1826,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1782"/>
         <source>Set dela&amp;y...</source>
-        <translation>Indstil fors&amp;inkelse...</translation>
+        <translation>Sæt fors&amp;inkelse...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1801"/>
         <source>Se&amp;t delay...</source>
-        <translation>Inds&amp;til forsinkelse...</translation>
+        <translation>&amp;Sæt forsinkelse...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4624"/>
@@ -2160,7 +2158,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation>Redigér bogmærker</translation>
+        <translation>Rediger bogmærker</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
@@ -2348,12 +2346,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../core.cpp" line="1415"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Skærmbilledet blev IKKE taget, mappe er ikke sat op</translation>
+        <translation>Skærmbilledet blev IKKE taget, mappen er ikke konfigureret</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1428"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Skærmbillederne blev IKKE taget, mappe er ikke sat op</translation>
+        <translation>Skærmbillederne blev IKKE taget, mappen er ikke konfigureret</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2719"/>
@@ -2451,12 +2449,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>&amp;Redigér hovedværktøjslinje</translation>
+        <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
         <source>Edit &amp;control bar</source>
-        <translation>Redigér &amp;kommandopanel</translation>
+        <translation>Rediger &amp;kommandopanel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="716"/>
@@ -2466,7 +2464,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="717"/>
         <source>Edit &amp;floating control</source>
-        <translation>Rediger &amp;flydende panel</translation>
+        <translation>Rediger &amp;flydende kontrol</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="764"/>
@@ -2737,7 +2735,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Indstillinger:</translation>
+        <translation>&amp;Valgmuligheder:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
@@ -2757,7 +2755,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Cancel</source>
-        <translation>Annullér</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
@@ -2767,17 +2765,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation>&amp;Indstillinger for %1</translation>
+        <translation>&amp;Valgmuligheder for %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
-        <translation>Yderligere indstillinger for %1</translation>
+        <translation>Yderligere valgmuligheder for %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation>Her kan du videregive ekstra indstillinger til %1.</translation>
+        <translation>Her kan du videregive ekstra valgmuligheder til %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2810,22 +2808,22 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
-        <translation>Værtsnavn for proxyen.</translation>
+        <translation>Værtsnavnet på proxyen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
-        <translation>Porten til proxyen.</translation>
+        <translation>Proxyens port.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>Hvis proxyen kræver godkendelse, sætter dette brugernavnet.</translation>
+        <translation>Hvis proxyen kræver autentifikation, sætter dette brugernavnet.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i opsætningsfilen.</translation>
+        <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i konfigurationsfilen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
@@ -2835,7 +2833,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation>Indstillinger</translation>
+        <translation>Valgmuligheder</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2958,10 +2956,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n undertekst udpakket</numerusform>
-            <numerusform>%n undertekster udpakket</numerusform>
-        </translation>
+        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3032,7 +3027,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation>&amp;Opdatér</translation>
+        <translation>&amp;Opdater</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="535"/>
@@ -3059,7 +3054,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -3081,7 +3076,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation>&amp;Indstillinger</translation>
+        <translation>&amp;Valgmuligheder</translation>
     </message>
 </context>
 <context>
@@ -5090,7 +5085,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="613"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Denne indstilling er primært tiltænkt til fejlsøgning af programmet.</translation>
+        <translation>Denne valgmulighed er primært tiltænkt til fejlsøgning af programmet.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5115,7 +5110,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Indstillinger:</translation>
+        <translation>&amp;Valgmuligheder:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="337"/>
@@ -5165,7 +5160,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation>Hvis indstillingen er slået til, bruges lavf-demuxer til alle formater.</translation>
+        <translation>Hvis valgmuligheden er slået til, bruges lavf-demuxer til alle formater.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
@@ -5190,7 +5185,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Options</source>
-        <translation>Indstillinger</translation>
+        <translation>Valgmuligheder</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
@@ -5265,7 +5260,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Hvis indstillingen er slået til, gemmer SMPlayer fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
@@ -5275,7 +5270,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Hvis indstillingen er slået til, gemmer SMPlayer outputtet af %1 (Du kan se det i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; %1&lt;/b&gt;). Hvis der er problemer kan denne log indeholde vigtige oplysninger, så det anbefales at indstillingen er slået til.</translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer outputtet af %1 (Du kan se det i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; %1&lt;/b&gt;). Hvis der er problemer kan denne log indeholde vigtige oplysninger, så det anbefales at indstillingen er slået til.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
@@ -5320,7 +5315,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
-        <translation>Skriv dem adskilt af mellemrum.</translation>
+        <translation>Skriv dem, adskilt af mellemrum.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
@@ -5335,7 +5330,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation>Her kan du videregive indstillinger og filtre til %1.</translation>
+        <translation>Her kan du videregive valgmuligheder og filtre til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5405,12 +5400,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>Options for %1</source>
-        <translation>Indstillinger for %1</translation>
+        <translation>Valgmuligheder for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Here you can type options for %1.</source>
-        <translation>Er kan du skrive indstillinger til %1.</translation>
+        <translation>Er kan du skrive valgmuligheder til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
@@ -5499,7 +5494,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="198"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>Vis tag-in&amp;fo i vinduets titellinje</translation>
+        <translation>Vis tagin&amp;fo i vinduets titellinje</translation>
     </message>
 </context>
 <context>
@@ -5777,7 +5772,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1027"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation>Når denne indstilling er aktiveret, vil indstillinger for online-strømme også blive husket.</translation>
+        <translation>Når denne indstilling er aktiveret, vil valgmuligheder for online-strømme også blive husket.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1042"/>
@@ -5878,7 +5873,7 @@ Vil du overskrive den?</translation>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <location filename="../prefgeneral.cpp" line="1064"/>
         <source>This option only works with mpv.</source>
-        <translation>Denne indstillinger virker kun med mpv.</translation>
+        <translation>Denne indstilling virker kun med mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
@@ -5918,7 +5913,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Anmoder om antallet af afspilningskanaler. %1 spørger dekoderen om at dekode lyde i de angivne antal kanaler. Så er det op til dekoderen at opfylde kravet. Dette er typisk kun vigtigt ved afspilning af videoer med AC3-lyd (såsom DVD&apos;er). Hvor liba52 som standard står for dekodningen og korrekt nedmixer lyden i de anmodne antal kanaler. &lt;b&gt;Bemærk&lt;/b&gt;: Denne indstillinger honoreres af codecs (kun AC3), filtre (surround) og lydoutput drivere (OSS som det mindste).</translation>
+        <translation>Anmoder om antallet af afspilningskanaler. %1 spørger dekoderen om at dekode lyde i de angivne antal kanaler. Så er det op til dekoderen at opfylde kravet. Dette er typisk kun vigtigt ved afspilning af videoer med AC3-lyd (såsom DVD&apos;er). Hvor liba52 som standard står for dekodningen og korrekt nedmixer lyden i de anmodne antal kanaler. &lt;b&gt;Bemærk&lt;/b&gt;: Denne valgmulighed honoreres af codecs (kun AC3), filtre (surround) og lydoutput drivere (OSS som det mindste).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1210"/>
@@ -6367,7 +6362,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1017"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalt vil SMPlayer huske indstillingerne for hver fil du afspiller (valgt lydspor, lydstyrke, filtre...). Deaktivér denne indstilling hvis du ikke kan lide denne funktion.</translation>
+        <translation>Normalt vil SMPlayer huske indstillingerne for hver fil du afspiller (valgt lydspor, lydstyrke, filtre...). Deaktivér denne valgmulighed hvis du ikke kan lide denne funktion.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1070"/>
@@ -6428,7 +6423,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Denne indstilling lader dig ændre den måde filindstillinger gemmes på. Følgende indstillinger er tilgængelige:</translation>
+        <translation>Denne indstilling lader dig ændre den måde filindstillinger gemmes på. Følgende valgmuligheder er tilgængelige:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
@@ -6623,7 +6618,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
-        <translation>&amp;Opsæt...</translation>
+        <translation>&amp;Konfigurer...</translation>
     </message>
 </context>
 <context>
@@ -7058,7 +7053,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation>Når denne indstillinger er aktiveret, virker multimedietasterne (afspil, stop, lydstyrke+/-, mute, osv.) selv når SMPlayer kører i baggrunden.</translation>
+        <translation>Når denne indstilling er aktiveret, virker multimedietasterne (afspil, stop, lydstyrke+/-, mute, osv.) selv når SMPlayer kører i baggrunden.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
@@ -7393,7 +7388,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation>A&amp;uto</translation>
+        <translation>A&amp;utomatisk</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7528,7 +7523,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation>Når denne indstillinger er aktiveret, centreres hovedvinduet på skrivebordet.</translation>
+        <translation>Når denne valgmulighed er aktiveret, centreres hovedvinduet på skrivebordet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
@@ -7635,7 +7630,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation>Vis kun når markøren bevæges nederst på skærmen</translation>
+        <translation>Vis kun når markøren bevæges i bunden af skærmen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
@@ -7871,7 +7866,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation>Indstillinger til YouTube</translation>
+        <translation>Valgmuligheder til YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -8000,7 +7995,7 @@ Vil du overskrive den?</translation>
         <location filename="../prefnetwork.cpp" line="205"/>
         <location filename="../prefnetwork.cpp" line="238"/>
         <source>Auto</source>
-        <translation>Auto</translation>
+        <translation>Automatisk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="232"/>
@@ -8166,7 +8161,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="316"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>Hvis proxyen kræver loginoplysninger, sætte dette brugernavnet.</translation>
+        <translation>Hvis proxyen kræver autentifikation, sætter dette brugernavnet.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
@@ -8176,7 +8171,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="319"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i opsætningsfilen.</translation>
+        <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i konfigurationsfilen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -8256,7 +8251,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation>A&amp;uto</translation>
+        <translation>A&amp;utomatisk</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8271,7 +8266,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Anvendelse af mellemlager kan forbedre ydelsen ved langsomme medier</translation>
+        <translation>Sætning af mellemlager kan forbedre ydelsen ved langsomme medier</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -8346,7 +8341,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Mulige værdier:&lt;br&gt; &lt;b&gt;Ja&lt;/b&gt;: Den hurtigste måde til at skifte lydspor vil blive forsøgt (det vil måske ikke virke med visse formater).&lt;br&gt;&lt;b&gt;Nej&lt;/b&gt;: MPlayer-processen vil blive genstartet når du skifter lydspor.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer vil bestemme hvad der skal gøres i henhold til versionen af MPlayer.</translation>
+        <translation>Mulige værdier:&lt;br&gt; &lt;b&gt;Ja&lt;/b&gt;: Den hurtigste måde til at skifte lydspor vil blive forsøgt (det vil måske ikke virke med visse formater).&lt;br&gt;&lt;b&gt;Nej&lt;/b&gt;: MPlayer-processen vil blive genstartet når du skifter lydspor.&lt;br&gt; &lt;b&gt;Automatisk&lt;/b&gt;: SMPlayer vil bestemme hvad der skal gøres i henhold til versionen af MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="387"/>
@@ -8452,7 +8447,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
-        <translation>Tilgængelige indstillinger:</translation>
+        <translation>Tilgængelige valgmuligheder:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
@@ -8705,7 +8700,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation>Denne indstillinger giver dig mulighed for at aktivere indstillingen til at slette filer fra disken i spillelistens genvejsmenu. For at undgå sletning ved et uheld er denne indstilling deaktiveret som standard.</translation>
+        <translation>Denne valgmulighed giver dig mulighed for at aktivere indstillingen til at slette filer fra disken i spillelistens genvejsmenu. For at undgå sletning ved et uheld er denne indstilling deaktiveret som standard.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8735,7 +8730,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="175"/>
         <source>Play files from start</source>
-        <translation>Afspil filer fra begyndelse</translation>
+        <translation>Afspil filer fra begyndelsen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
@@ -8942,7 +8937,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="410"/>
         <source>Include subtitles on screenshots</source>
-        <translation>Vis undertekster i skærmbilleder</translation>
+        <translation>Vis undertekster på skærmbilleder</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="464"/>
@@ -9227,7 +9222,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation>Følgende indstillinger lader dig definere den stil der bruges til ikke-stiliserede undertekster (srt, sub...).</translation>
+        <translation>Følgende valgmuligheder lader dig definere den stil der bruges til ikke-stiliserede undertekster (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9280,7 +9275,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>Hvis denne indstilling er slået til, vil underteksternes tegnsæt automatisk blive forsøgt registreret for det givne sprog. Den falder tilbage til standardtegnsæt hvis automatisk registrering mislykkedes. Denne indstillinger kræver en %1 med ENCA-understøttelse.</translation>
+        <translation>Hvis denne indstilling er slået til, vil underteksternes tegnsæt automatisk blive forsøgt registreret for det givne sprog. Den falder tilbage til standardtegnsæt hvis automatisk registrering mislykkedes. Denne valgmulighed kræver en %1 med ENCA-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
@@ -9300,7 +9295,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation>Denne indstilling ændrer IKKE størrelsen på undertekster i den nuværende video. Brug indstillingerne &lt;i&gt;Størrelse+&lt;/i&gt; og &lt;i&gt;Størrelse-&lt;/i&gt; i Undertekster-menuen for at gøre det.</translation>
+        <translation>Denne indstilling ændrer IKKE størrelsen på undertekster i den nuværende video. Brug valgmulighederne &lt;i&gt;Størrelse+&lt;/i&gt; og &lt;i&gt;Størrelse-&lt;/i&gt; i Undertekster-menuen for at gøre det.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
@@ -9350,7 +9345,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>Hvis indstillingen er slået til, vises underteksterne i skærmbillederne. &lt;b&gt;Bemærk:&lt;/b&gt; det kan til tider forårsage problemer.</translation>
+        <translation>Hvis indstillingen er slået til, vises underteksterne på skærmbillederne. &lt;b&gt;Bemærk:&lt;/b&gt; det kan til tider forårsage problemer.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
@@ -9544,7 +9539,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annullér</translation>
+        <translation>&amp;Annuller</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9582,7 +9577,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>prøver at oprette en forbindelse til en anden kørende instans og sende den angivne handling til den. Eksempel: -send-action-pause . Resten af indstillingerne (om nogen) vil blive ignoreret og programmet vil afslutte. Det vil returnere 0 ved succes og -1 ved fejl.</translation>
+        <translation>prøver at oprette en forbindelse til en anden kørende instans og sende den angivne handling til den. Eksempel: -send-action-pause . Resten af valgmulighederne (om nogen) vil blive ignoreret og programmet vil afslutte. Det vil returnere 0 ved succes og -1 ved fejl.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
@@ -9670,19 +9665,13 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9692,7 +9681,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation>angiver den mappe hvor SMPlayer gemmer sine opsætningsfiler (smplayer.ini, smplayer_files.ini...)</translation>
+        <translation>angiver den mappe hvor SMPlayer gemmer sine konfigurationsfiler (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="185"/>
@@ -9888,7 +9877,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation>Tryk &lt;b&gt;Annullér&lt;/b&gt; for at fortryde nedlukning.</translation>
+        <translation>Tryk &lt;b&gt;Annuller&lt;/b&gt; for at fortryde nedlukning.</translation>
     </message>
 </context>
 <context>
@@ -9916,7 +9905,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation>&amp;Rediger flydende kontroller</translation>
+        <translation>&amp;Rediger flydende kontrol</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
@@ -10355,7 +10344,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>&amp;Anvend som standardværdi</translation>
+        <translation>&amp;Sæt som standardværdier</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -10375,7 +10364,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Indstil alle kontroller til nul.</translation>
+        <translation>Sæt alle kontroller til nul.</translation>
     </message>
 </context>
 <context>
@@ -10388,7 +10377,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="151"/>
         <source>Cancel</source>
-        <translation>Annullér</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="150"/>
