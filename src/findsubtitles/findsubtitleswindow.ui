@@ -1,7 +1,8 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>FindSubtitlesWindow</class>
- <widget class="QWidget" name="FindSubtitlesWindow" >
-  <property name="geometry" >
+ <widget class="QWidget" name="FindSubtitlesWindow">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -9,100 +10,73 @@
     <height>385</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Find Subtitles</string>
   </property>
-  <layout class="QVBoxLayout" >
-   <property name="spacing" >
+  <layout class="QVBoxLayout">
+   <property name="spacing">
     <number>6</number>
    </property>
-   <property name="leftMargin" >
-    <number>9</number>
-   </property>
-   <property name="topMargin" >
-    <number>9</number>
-   </property>
-   <property name="rightMargin" >
-    <number>9</number>
-   </property>
-   <property name="bottomMargin" >
+   <property name="margin">
     <number>9</number>
    </property>
    <item>
-    <layout class="QHBoxLayout" >
-     <property name="spacing" >
+    <layout class="QHBoxLayout">
+     <property name="spacing">
       <number>6</number>
      </property>
-     <property name="leftMargin" >
-      <number>0</number>
-     </property>
-     <property name="topMargin" >
-      <number>0</number>
-     </property>
-     <property name="rightMargin" >
-      <number>0</number>
-     </property>
-     <property name="bottomMargin" >
+     <property name="margin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="subtitles_for_label" >
-       <property name="text" >
+      <widget class="QLabel" name="subtitles_for_label">
+       <property name="text">
         <string>&amp;Subtitles for</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>file_chooser</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="FileChooser" name="file_chooser" />
+      <widget class="FileChooser" name="file_chooser"/>
      </item>
     </layout>
    </item>
    <item>
-    <widget class="QTreeView" name="view" />
+    <widget class="QTreeView" name="view"/>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
-     <property name="spacing" >
+    <layout class="QHBoxLayout">
+     <property name="spacing">
       <number>6</number>
      </property>
-     <property name="leftMargin" >
-      <number>0</number>
-     </property>
-     <property name="topMargin" >
-      <number>0</number>
-     </property>
-     <property name="rightMargin" >
-      <number>0</number>
-     </property>
-     <property name="bottomMargin" >
+     <property name="margin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="filter_language_label" >
-       <property name="text" >
+      <widget class="QLabel" name="filter_language_label">
+       <property name="text">
         <string>&amp;Language:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>language_filter</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="language_filter" >
-       <property name="editable" >
+      <widget class="QComboBox" name="language_filter">
+       <property name="editable">
         <bool>false</bool>
        </property>
       </widget>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
          <height>20</height>
@@ -111,28 +85,28 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="configure_button" >
-       <property name="text" >
+      <widget class="QPushButton" name="configure_button">
+       <property name="text">
         <string>&amp;Options</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="refresh_button" >
-       <property name="enabled" >
+      <widget class="QPushButton" name="refresh_button">
+       <property name="enabled">
         <bool>false</bool>
        </property>
-       <property name="text" >
+       <property name="text">
         <string>&amp;Refresh</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="download_button" >
-       <property name="enabled" >
+      <widget class="QPushButton" name="download_button">
+       <property name="enabled">
         <bool>false</bool>
        </property>
-       <property name="text" >
+       <property name="text">
         <string>&amp;Download</string>
        </property>
       </widget>
@@ -140,56 +114,50 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
-     <property name="spacing" >
+    <layout class="QHBoxLayout">
+     <property name="spacing">
       <number>6</number>
      </property>
-     <property name="leftMargin" >
-      <number>0</number>
-     </property>
-     <property name="topMargin" >
-      <number>0</number>
-     </property>
-     <property name="rightMargin" >
-      <number>0</number>
-     </property>
-     <property name="bottomMargin" >
+     <property name="margin">
       <number>0</number>
      </property>
      <item>
-      <widget class="QLabel" name="status" >
-       <property name="sizePolicy" >
-        <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
+      <widget class="QLabel" name="status">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
-       <property name="frameShape" >
+       <property name="frameShape">
         <enum>QFrame::Panel</enum>
        </property>
-       <property name="frameShadow" >
+       <property name="frameShadow">
         <enum>QFrame::Sunken</enum>
        </property>
-       <property name="text" >
+       <property name="text">
         <string/>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QProgressBar" name="progress" >
-       <property name="sizePolicy" >
-        <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+      <widget class="QProgressBar" name="progress">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
-       <property name="value" >
+       <property name="value">
         <number>0</number>
        </property>
-       <property name="textVisible" >
+       <property name="textVisible">
         <bool>false</bool>
        </property>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
@@ -197,11 +165,11 @@
     </layout>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox" >
-     <property name="orientation" >
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
-     <property name="standardButtons" >
+     <property name="standardButtons">
       <set>QDialogButtonBox::Close</set>
      </property>
     </widget>
@@ -231,11 +199,11 @@
    <receiver>FindSubtitlesWindow</receiver>
    <slot>close()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>334</x>
      <y>380</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>334</x>
      <y>201</y>
     </hint>
