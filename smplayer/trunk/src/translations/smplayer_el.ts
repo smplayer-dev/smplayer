@@ -2793,42 +2793,52 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>Hash</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <source>Filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Ενεργοποίηση/απενεργοποίηση της χρήσης διαμεσολαβητή.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The host name of the proxy.</source>
         <translation>Το όνομα συστήματος του διαμεσολαβητή.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The port of the proxy.</source>
         <translation>Η θύρα του διαμεσολαβητή.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Αν ο διαμεσολαβητής απαιτεί επικύρωση, αυτό θέτει το όνομα χρήστη.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="39"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Κωδικός πρόσβασης για τον διαμεσολαβητή. &lt;b&gt;Προειδοποίηση:&lt;/b&gt; ο κωδικός πρόσβασης θα αποθηκευτεί ως απλό κείμενο στο αρχείο διαμόρφωσης INI.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="41"/>
         <source>Select the proxy type to be used.</source>
         <translation>Επιλέξτε τον τύπο διαμεσολαβητή προς χρήση.</translation>
     </message>
@@ -2838,62 +2848,71 @@ Example: extrastereo,karaoke</source>
         <translation>Επιλογές</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="180"/>
         <source>Server</source>
         <translation>Διακομιστής</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="188"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>Εξυπηρετητής &amp;OpenSubtitles:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="83"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Proxy</source>
         <translation>Διαμεσολαβητής</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="89"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
+        <source>General</source>
+        <translation type="unfinished">Γενικά</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
+        <source>Search &amp;method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Ενεργοποίηση διαμεσολαβητή</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="102"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
         <source>&amp;Host:</source>
         <translation>&amp;Σύστημα:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="115"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="98"/>
         <source>&amp;Port:</source>
         <translation>&amp;Θύρα:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="135"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="118"/>
         <source>&amp;Username:</source>
         <translation>Όνομα &amp;χρήστη:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="131"/>
         <source>Pa&amp;ssword:</source>
         <translation>&amp;Κωδικός:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
         <source>&amp;Type:</source>
         <translation>&amp;Τύπος:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="197"/>
         <source>Misc</source>
-        <translation>Διάφορα</translation>
+        <translation type="obsolete">Διάφορα</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>&amp;Προσάρτηση του κωδικού γλώσσας στο όνομα αρχείου των υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
         <source>Number of &amp;retries:</source>
         <translation>Αριθμός &amp;προσπαθειών:</translation>
     </message>
@@ -2901,62 +2920,67 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
         <source>Language</source>
         <translation>Γλώσσα</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
         <source>Name</source>
         <translation>Όνομα</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
         <source>Format</source>
         <translation>Μορφή</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="238"/>
         <source>Files</source>
         <translation>Αρχεία</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="238"/>
         <source>Date</source>
         <translation>Ημερομηνία</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="238"/>
         <source>Uploaded by</source>
         <translation>Αναρτήθηκε από</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="253"/>
         <source>Portuguese - Brasil</source>
         <translation>Πορτογαλικά-Βραζιλίας</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="268"/>
         <source>All</source>
         <translation>Όλες</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="275"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Close</source>
         <translation>Κλείσιμο</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="364"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
+        <source>Subtitles service powered by %1</source>
+        <translation type="unfinished">Η υπηρεσία υποτίτλων παρέχεται από το %1</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Η σύνδεση στο opensubtitles.org απέτυχε</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
         <source>Search has failed</source>
         <translation>Η αναζήτηση απέτυχε</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform>
@@ -2964,101 +2988,101 @@ Example: extrastereo,karaoke</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Σφάλμα της διόρθωσης των γραμμών υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="279"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="104"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
         <source>&amp;Download</source>
         <translation>&amp;Λήψη</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Αντιγραφή διεύθυνσης στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="364"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="355"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
         <source>Download failed: %1.</source>
         <translation>Η λήψη απέτυχε: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="360"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Connecting to %1...</source>
         <translation>Γίνεται σύνδεση με τον %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
         <source>Downloading...</source>
         <translation>Λήψη...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Done.</source>
         <translation>Ολοκληρώθηκε.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="431"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="441"/>
         <source>%1 files available</source>
         <translation>%1 διαθέσιμα αρχεία</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
         <source>Failed to parse the received data.</source>
         <translation>Αποτυχία ανάλυσης των ληφθέντων δεδομένων.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
         <source>Find Subtitles</source>
         <translation>Εύρεση Υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="51"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Subtitles for</source>
         <translation>&amp;Υπότιτλοι για</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="54"/>
         <source>&amp;Language:</source>
         <translation>&amp;Γλώσσα:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="94"/>
         <source>&amp;Refresh</source>
         <translation>&amp;Ανανέωση</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="535"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="682"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="545"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
         <source>Subtitle saved as %1</source>
         <translation>Οι υπότιτλοι αποθηκεύτηκαν ως %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="719"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="729"/>
         <source>Overwrite?</source>
         <translation>Αντικατάσταση;</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="720"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="730"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Το αρχείο %1 υπάρχει ήδη, να αντικατασταθεί;</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="530"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="637"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="540"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="647"/>
         <source>Error saving file</source>
         <translation>Σφάλμα κατά την αποθήκευση αρχείου</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3067,19 +3091,19 @@ Please check the permissions of that folder.</source>
 Παρακαλούμε ελέγξτε τα δικαιώματα του φακέλου.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="503"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="631"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="513"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="641"/>
         <source>Download failed</source>
         <translation>Η λήψη απέτυχε</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="625"/>
         <source>Temporary file %1</source>
         <translation>Προσωρινό αρχείο %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="84"/>
         <source>&amp;Options</source>
         <translation>&amp;Επιλογές</translation>
     </message>
