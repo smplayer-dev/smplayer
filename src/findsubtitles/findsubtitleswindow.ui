@@ -13,13 +13,7 @@
   <property name="windowTitle">
    <string>Find Subtitles</string>
   </property>
-  <layout class="QVBoxLayout">
-   <property name="spacing">
-    <number>6</number>
-   </property>
-   <property name="margin">
-    <number>9</number>
-   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <layout class="QHBoxLayout">
      <property name="spacing">
@@ -165,14 +159,28 @@
     </layout>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Close</set>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="credits_label">
+       <property name="text">
+        <string notr="true">Subtitles service powered by....</string>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Close</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
@@ -187,6 +195,7 @@
   <tabstop>file_chooser</tabstop>
   <tabstop>view</tabstop>
   <tabstop>language_filter</tabstop>
+  <tabstop>configure_button</tabstop>
   <tabstop>refresh_button</tabstop>
   <tabstop>download_button</tabstop>
   <tabstop>buttonBox</tabstop>

@@ -290,6 +290,9 @@ void FindSubtitlesWindow::retranslateStrings() {
 	downloadAct->setIcon( Images::icon("download") );
 	copyLinkAct->setIcon( Images::icon("copy") );
 #endif
+
+	credits_label->setText("<i>"+ tr("Subtitles service powered by %1")
+                           .arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>") + "</i>");
 }
 
 void FindSubtitlesWindow::setMovie(QString filename) {
