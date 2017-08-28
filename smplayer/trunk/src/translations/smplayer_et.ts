@@ -1009,7 +1009,7 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>Kõrvaklappidele &amp;optimeerimine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -2795,12 +2795,12 @@ Näide: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Räsi</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Faili nimi</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2865,12 +2865,12 @@ Näide: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Üldised sätted</translation>
+        <translation>Üldine</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsingu&amp;meetod:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2901,10 +2901,6 @@ Näide: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tüüp:</translation>
-    </message>
-    <message>
-        <source>Misc</source>
-        <translation type="obsolete">Muu</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
@@ -2967,7 +2963,7 @@ Näide: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">Subtiitrite teenust pakub %1</translation>
+        <translation>Subtiitrite teenust pakub %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -7604,7 +7600,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefinterface.cpp" line="793"/>
         <location filename="../prefinterface.cpp" line="797"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation>Vali ajavahemik, mille võrra edasi või tagasi minna, kui tehakse tegevus &quot;%1&quot;.</translation>
+        <translation>Vali ajavahemik, mille võrra edasi või tagasi minna, kui tehakse toiming &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="790"/>
@@ -7785,7 +7781,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="844"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Veeris</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="845"/>
@@ -7822,7 +7818,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="723"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Veeris:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -7935,12 +7931,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="261"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Teisenda SRT-subtriitrid &amp;VTT-vormingusse</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kirjuta olemasolevad VTT-failid üle</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
@@ -8084,7 +8080,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Port, mida veebiserver kasutab</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="279"/>
@@ -8099,7 +8095,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Teisenda SRT-subtriitrid VTT-vormingusse</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
@@ -8689,7 +8685,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Muu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -9091,32 +9087,32 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Vasak veeris</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vasak veeris pikslites.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Parem veeris</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Parem veeris pikslites.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikaalne veeris</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikaalne veeris pikslites.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
@@ -9191,7 +9187,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="534"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Veerised</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="543"/>
@@ -9478,7 +9474,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV ja raadio</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
@@ -9664,22 +9660,22 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>kaust</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>action_name</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>ava vaike-GUI</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
@@ -9695,18 +9691,18 @@ Kas kirjutada see üle?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>1 sekund</numerusform>
+            <numerusform>%n sekundit</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>1 minut</numerusform>
+            <numerusform>%n minutit</numerusform>
         </translation>
     </message>
     <message>
@@ -9717,7 +9713,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>määrab kausta, kuhu SMPlayer salvestab seadistusfailid (smplayer.ini, smplayer_files.ini)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="185"/>
@@ -9791,7 +9787,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer on mu lemmik meediumipleier. Proovi järele!</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
@@ -9814,7 +9810,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tuleta hiljem meelde</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
@@ -9865,12 +9861,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="310"/>
         <source>Clear</source>
-        <translation>Puhasta</translation>
+        <translation>Tühjenda</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Vajuta klahvikombinatsioon, mida otseteeks määrata</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -9885,12 +9881,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
         <source>Capture keystrokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvesta klahvikombinatsioon</translation>
     </message>
 </context>
 <context>
@@ -9903,7 +9899,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esitamine on lõppenud. SMPlayer sulgub.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
@@ -9921,17 +9917,17 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Tööribad</translation>
+        <translation>&amp;Tööriistaribad</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">&amp;Olekuriba</translation>
+        <translation>&amp;Olekuriba</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Põhitööriba</translation>
+        <translation>&amp;Peamine tööriiistariba</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
@@ -9956,7 +9952,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Esitamine</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9974,12 +9970,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Stereo 3D filter</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"></translation>
+        <translation>Video 3D-vorming:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
@@ -10029,77 +10025,77 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – punane/sinine hall</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – punane/sinine poolik</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – punane/sinine</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – punane/sinine optimeeritud Dubois&apos; meetodil</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – roheline/magenta hall</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – roheline/magenta poolik</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – roheline/magenta</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – kollane/sinine hall</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – kollane/sinine poolik</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglüüf – kollane/sinine</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaheldumisi read (vasaku silma pilt on esimesel real, parema silma pilt järgmisel)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaheldumisi read (parema silma pilt on esimesel real, vasaku silma pilt järgmisel)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üks kanal (vasak silm)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Üks kanal (parem silm)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Määramata</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
@@ -10117,7 +10113,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arhiivis on mitu subtiitrite faili. Palun vali need, mida lahti pakkida.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -10156,42 +10152,42 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Tööriistariba redigeerimine</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saadaval toimingud</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vasakule</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Paremale</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Alla</translation>
+        <translation>&amp;Alla</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Üles</translation>
+        <translation>&amp;Üles</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitud &amp;toimingud</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ikooni suurus</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -10206,7 +10202,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="257"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Helitugevuse riba</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
@@ -10231,12 +10227,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolm ühes tagasikerimine</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="269"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolm ühes edasikerimine</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
@@ -10267,7 +10263,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimast versiooninumbrit ei õnnestunud leida.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
@@ -10294,7 +10290,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kas soovid uue versiooni kohta lisainfot?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
@@ -10314,7 +10310,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimase versiooni info laadimisel esines viga.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
@@ -10332,7 +10328,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali siin vdpau koodekid, mida kasutada. Kõik neist ei pruugi töötada.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
@@ -10360,7 +10356,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Toon</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
@@ -10375,7 +10371,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkvaraline &amp;ekvalaiser</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>

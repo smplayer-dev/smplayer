@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Вид:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Разни</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>&amp;Прикачане на езиковият код в заглавието на субтитърът</translation>

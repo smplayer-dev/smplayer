@@ -2902,10 +2902,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Tipas:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Kita</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation type="unfinished"></translation>
@@ -8689,7 +8685,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Kita</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>

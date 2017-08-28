@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Τύπος:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Διάφορα</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>&amp;Προσάρτηση του κωδικού γλώσσας στο όνομα αρχείου των υποτίτλων</translation>

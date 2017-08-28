@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>类型(&amp;T):</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Misc</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>将语言代码附加到字幕文件名中(&amp;p)</translation>

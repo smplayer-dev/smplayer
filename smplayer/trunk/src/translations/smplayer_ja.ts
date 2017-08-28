@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>種類(&amp;T):</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">その他</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>字幕のファイル名に言語コードを追加する(&amp;P)</translation>
