@@ -2900,10 +2900,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;טיפוס:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">שונות</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation type="unfinished"></translation>
@@ -8685,7 +8681,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">שונות</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>

@@ -2904,10 +2904,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>&amp;Tipe:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Macam</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>T&amp;ambahkan kode bahasa ke nama-file subtitle</translation>
@@ -8689,7 +8685,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Macam</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>

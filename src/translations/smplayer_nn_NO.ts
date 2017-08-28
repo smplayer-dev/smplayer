@@ -2901,10 +2901,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>&amp;Type:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Ymse</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation type="unfinished"></translation>
@@ -8692,7 +8688,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Ymse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>

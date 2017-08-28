@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>ال&amp;نوع:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">متنوعة</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>أ&amp;رفق رمز اللغة الى اسم ملف الترجمة</translation>

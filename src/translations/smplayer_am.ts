@@ -2903,10 +2903,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;አይነት:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">የተለያዩ</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>መ&amp;ጨመሪያ የ ቋንቋ ኮድ ለ ንዑስ አርእስት ኮድ</translation>

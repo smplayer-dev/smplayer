@@ -2903,10 +2903,6 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>&amp;Type:</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Diversen</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>Taalcode aan de ondertitel van het bestandsnaam toevoegen</translation>

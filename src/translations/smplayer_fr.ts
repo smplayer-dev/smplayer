@@ -2904,10 +2904,6 @@ Exemple: extrastereo,karaoke</translation>
         <translation>&amp;Type :</translation>
     </message>
     <message>
-        <source>Misc</source>
-        <translation type="obsolete">Divers</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
         <translation>Ajouter le code de langue au nom du fichier de sous-titres</translation>

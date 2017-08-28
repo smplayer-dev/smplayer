@@ -2800,7 +2800,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de fitxer</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2865,12 +2865,12 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">General</translation>
+        <translation>General</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mètode de cerca:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2901,10 +2901,6 @@ Exemple: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tipus:</translation>
-    </message>
-    <message>
-        <source>Misc</source>
-        <translation type="obsolete">Altres</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
@@ -4867,7 +4863,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../playlist.cpp" line="740"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Carrega/desa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1641"/>
@@ -5901,7 +5897,7 @@ El voleu sobreescriure?</translation>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <location filename="../prefgeneral.cpp" line="1064"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished">Aquesta opció només funciona amb mpv.</translation>
+        <translation>Aquesta opció només funciona amb mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
@@ -6536,22 +6532,22 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactiva l&apos;estalvi de pantalla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1159"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció desactiva l&apos;estalvi de pantalla abans de començar a reproduir un fitxer i l&apos;activa quan s&apos;acaba la reproducció. Si aquesta opció està habilitada, l&apos;estalvi de pantalla no apareixerà fins i tot si es reprodueixen fitxers d&apos;àudio o quan un fitxer està en pausa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1165"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Evita l&apos;estalvi de pantalla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1166"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quan es marca aquesta opció, SMPlayer intentarà evitar que es mostri l&apos;estalvi de pantalla quan es reprodueixi un fitxer de vídeo. Si es reprodueix un fitxer d&apos;àudio, o està en mode de pausa, es permetrà que es mostri l&apos;estalvi de pantalla. Aquesta opció només funciona si la finestra de SMPlayer està en primer pla.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="641"/>
@@ -6561,7 +6557,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="647"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Desa&amp;ctiva l&apos;estalvi de pantalla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="654"/>
@@ -6576,7 +6572,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajusta gradualment la sincronització d&apos;A/V en funció de les mesures del retard d&apos;àudio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1236"/>
@@ -6616,7 +6612,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1108"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; no s&apos;utilitzarà aquesta opció per als canals de televisió.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="481"/>
@@ -6626,12 +6622,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza el traspàs d&apos;AC3 al maquinari.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; quan aquesta opció estigui activada, no s&apos;utilitzarà cap filtre d&apos;àudio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="426"/>
@@ -6994,12 +6990,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodueix el següent</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodueix l&apos;anterior</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7511,7 +7507,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Clàssica</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7683,7 +7679,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"></translation>
+        <translation>Temps a ocultar el control</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
@@ -7794,7 +7790,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualitza-ho també al mode compacte</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
@@ -7826,7 +7822,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualitza-ho també al mode &amp;compacte</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="239"/>
@@ -7861,7 +7857,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="817"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: aquesta opció només funciona amb MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
@@ -7929,17 +7925,17 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="255"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Subtítols</translation>
+        <translation>Subtítols</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="261"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converteix els subtítols SRT a &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;obreescriu els fitxers VTT existents</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
@@ -7949,7 +7945,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició dels &amp;subtítols en la pantalla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8048,7 +8044,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="244"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>utilitza mpv + youtube-dl per a tots els llocs</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
@@ -8058,12 +8054,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona la qualitat preferida per als vídeos de YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="258"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Estableix l&apos;agent d&apos;usuari que utilitzarà SMPlayer quan es connecti a YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="270"/>
@@ -8078,12 +8074,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="273"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;adreça IP local d&apos;aquest ordinador. Aquesta adreça es passarà a Chromecast perquè pugui accedir als fitxers d&apos;aquest ordinador.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>El port que utilitzarà el servidor web.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="279"/>
@@ -8098,7 +8094,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Converteix els subtítols SRT a VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
@@ -8108,7 +8104,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobreescriu els fitxers VTT existents</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
@@ -8128,7 +8124,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició dels subtítols en la pantalla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
@@ -8158,7 +8154,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="307"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Habilita o inhabilita l&apos;ús del servidor intermediari.</translation>
+        <translation>Habilita o inhabilita l&apos;ús del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="309"/>
@@ -8693,27 +8689,27 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenació automàtica</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, després d&apos;afegir fitxers s&apos;ordenarà automàticament la llista.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca amb distinció de majúscules i minúscules</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció especifica si la cerca a la llista de reproducció té distinció de majúscules i minúscules.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Desa una còpia de la llista de reproducció en sortir</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
@@ -8723,52 +8719,52 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Habiliteu aquesta opció per suprimir els fitxers del disc</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció us permet habilitar l&apos;opció per suprimir fitxers del disc al menú contextual de la llista de reproducció. Per evitar les eliminacions accidentals, aquesta opció està inhabilitada per defecte.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Sense&lt;/b&gt;: no s&apos;afegiran fitxers</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Fitxers de vídeo&lt;/b&gt;: s&apos;afegiran tots els fitxers de vídeo trobats a la carpeta</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Fitxers d&apos;àudio&lt;/b&gt;: s&apos;afegiran tots els fitxers d&apos;àudio trobats a la carpeta</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="201"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Fitxers de vídeo i d&apos;àudio&lt;/b&gt;: s&apos;afegiran tots els fitxers de vídeo i d&apos;àudio trobats a la carpeta</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="202"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Fitxers consecutius&lt;/b&gt;: s&apos;afegiran els fitxes consecutius (com ara vídeo_1.avi i vídeo_2.avi)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="175"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodueix els fitxers des del començament</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, tots els fitxers de la llista de reproducció començaran a reproduir-se des del principi en comptes de reprendre la reproducció des d&apos;una reproducció anterior.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció es pot utilitzar per afegir automàticament fitxers a la llista de reproducció:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
@@ -8778,7 +8774,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="187"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>Si s&apos;activa aquesta opció, la llista de reproducció ignorarà els errors de reproducció d&apos;un fitxer previ i reproduirà el fitxer següent de la llista.</translation>
+        <translation>Si aquesta opció està habilitada, la llista de reproducció ignorarà els errors de reproducció d&apos;un fitxer previ i reproduirà el fitxer següent de la llista.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8935,12 +8931,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Tots els subtítols que continguin el nom de la pel·lícula</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Tots els subtítols d&apos;un directori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9005,7 +9001,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Intenta la detecció automàtica per a aquest idioma</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -9055,7 +9051,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>Si s&apos;habilita aquesta opció, les lletres del sistema de Windows estaran disponibles per als subtítols. Hi ha un inconvenient: s&apos;ha de crear una memòria cau de lletres i pot trigar algun temps.</translation>
+        <translation>Si aquesta opció està habilitada, les lletres del sistema de Windows estaran disponibles per als subtítols. Hi ha un inconvenient: s&apos;ha de crear una memòria cau de lletres i pot trigar algun temps.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
@@ -9065,7 +9061,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>La mida en píxels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
@@ -9095,7 +9091,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el marge esquerre en píxels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -9105,7 +9101,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica el marge dret en píxels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -9140,7 +9136,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil de la vora</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -9185,7 +9181,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="482"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vora:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="534"/>
@@ -9225,7 +9221,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="653"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Est&amp;il de la vora:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
@@ -9393,7 +9389,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Estil SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
@@ -9413,7 +9409,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="762"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Perso&amp;nalitza...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
@@ -9431,7 +9427,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Cap</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
@@ -9486,7 +9482,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, SMPlayer buscarà nous canals de televisió i noves emissores de ràdio a ~/.mplayer/channels.conf.ter o ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -9529,7 +9525,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, SMPlayer comprovarà si hi ha actualitzacions, i mostrarà una notificació quan hi hagi disponible una versió nova.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9875,12 +9871,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix la drecera</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix la drecera</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9921,7 +9917,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Barres d&apos;eines</translation>
+        <translation>&amp;Barres d&apos;eines</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -9931,7 +9927,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">Barra d&apos;eines &amp;principal</translation>
+        <translation>Barra d&apos;eines &amp;principal</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
@@ -9956,7 +9952,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduint</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9984,7 +9980,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;ormat de sortida:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -10099,7 +10095,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Cap</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
@@ -10418,17 +10414,17 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="150"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished">Generador d&apos;imatges en miniatura</translation>
+        <translation>Generador d&apos;imatges en miniatura</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="153"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Generat per SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;estan creant les imatges en miniatura...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="467"/>
@@ -10453,7 +10449,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">No s&apos;ha pogut desar el fitxer</translation>
+        <translation>No s&apos;ha pogut desar el fitxer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="195"/>
@@ -10478,12 +10474,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Resolució: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Format del vídeo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="473"/>
@@ -10498,7 +10494,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="405"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut carregar el fitxer %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
