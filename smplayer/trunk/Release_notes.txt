@@ -1,3 +1,10 @@
+Version 17.9
+
+ * Now it's possible to the search for subtitles using the filename instead of
+   a hash.
+ * Fix for the OSD when using SMPlayer with mpv 0.26.
+
+
 Version 17.8
 
  * New audio filter for headphone optimization.
