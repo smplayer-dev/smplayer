@@ -1,3 +1,16 @@
+Version 17.9:
+
+(2017-08-23)
+ * Increase the time to kill the external player process to try to 
+   avoid a crash message.
+
+(2017-08-21)
+ * Possibility to search for subtitles using the filename as query.
+
+(2017-08-12)
+ * Fix OSD when using mpv 0.26.
+
+
 Version 17.8:
 
 (2017-07-22)
