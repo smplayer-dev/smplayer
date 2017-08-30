@@ -75,11 +75,11 @@ ${LangFileString} Reinstall_Msg3_1 "Klik på Start når du er klar til at forts�
 ${LangFileString} Reinstall_Msg3_2 "Klik på Næste når du er klar til at fortsætte."
 ${LangFileString} Reinstall_Msg3_3 "Klik på Afinstaller når du er klar til at fortsætte."
 ${LangFileString} Reinstall_Msg4 "Skift installationsindstillinger"
-${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
+${LangFileString} Reinstall_Msg5 "Nulstil min SMPlayer-konfiguration"
 
-${LangFileString} Remove_Settings_Confirmation "Er du sikker på, at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
+${LangFileString} Remove_Settings_Confirmation "Er du sikker på, at du vil nulstille dine SMPlayer-indstillinger? Denne handling kan ikke gøres om."
 
-${LangFileString} Type_Reinstall "geninstallér"
+${LangFileString} Type_Reinstall "geninstaller"
 ${LangFileString} Type_Downgrade "nedgradér"
 ${LangFileString} Type_Upgrade "opgradér"
 
@@ -134,4 +134,4 @@ ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Rydder op i skrifttypekonfigurations-mellemlager..."
-${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer's indstillinger..."
+${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer-indstillinger..."
