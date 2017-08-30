@@ -66,7 +66,7 @@
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Subtitles service powered by %1</source>
-        <translation>Le service de sous-titre est fourni par %1</translation>
+        <translation>Le service de sous-titres est fourni par %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
@@ -1855,7 +1855,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../basegui.cpp" line="4637"/>
         <location filename="../basegui.cpp" line="4641"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Délai audio (en miliseconde) :</translation>
+        <translation>Délai audio (en millisecondes) :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4652"/>
@@ -1867,7 +1867,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../basegui.cpp" line="4653"/>
         <location filename="../basegui.cpp" line="4657"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Délai sous-titres (en miliseconde) :</translation>
+        <translation>Délai sous-titres (en millisecondes) :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
@@ -2796,12 +2796,12 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Hachage</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de fichier</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2866,12 +2866,12 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Général</translation>
+        <translation>Général</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Méthode de recherche :</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2964,7 +2964,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">Le service de sous-titre est fourni par %1</translation>
+        <translation>Le service de sous-titres est fourni par %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -8956,7 +8956,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Select first available subtitle</source>
-        <translation>Selectionner le premier sous-titre disponible</translation>
+        <translation>Sélectionner le premier sous-titrage disponible</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
@@ -9688,7 +9688,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation>spécifie le fichier sous-titre qui doit être chargé pour la première vidéo.</translation>
+        <translation>spécifie le fichier sous-titres qui doit être chargé pour la première vidéo.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="101"/>

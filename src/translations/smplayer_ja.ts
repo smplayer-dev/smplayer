@@ -2795,12 +2795,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>ハッシュ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル名</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2865,12 +2865,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">全般</translation>
+        <translation>全般</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>検索方法(&amp;M):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2963,7 +2963,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">字幕サービスは %1 によって提供されています</translation>
+        <translation>字幕サービスは %1 によって提供されています</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
