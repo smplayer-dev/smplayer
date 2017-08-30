@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-02-16 15:26+0000\n"
+"PO-Revision-Date: 2017-08-23 20:46+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -208,17 +208,17 @@ msgstr "Skift installationsindstillinger"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
-msgstr "Nulstil mine SMPlayer indstillinger"
+msgstr "Nulstil min SMPlayer-konfiguration"
 
 # Remove_Settings_Confirmation
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be"
 " reversed."
-msgstr "Er du sikker på, at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
+msgstr "Er du sikker på, at du vil nulstille dine SMPlayer-indstillinger? Denne handling kan ikke gøres om."
 
 # Type_Reinstall
 msgid "reinstall"
-msgstr "geninstallér"
+msgstr "geninstaller"
 
 # Type_Downgrade
 msgid "downgrade"
@@ -361,7 +361,7 @@ msgstr "Rydder op i skrifttypekonfigurations-mellemlager..."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr "Rydder op i SMPlayer's indstillinger..."
+msgstr "Rydder op i SMPlayer-indstillinger..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
