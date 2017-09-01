@@ -1,3 +1,11 @@
+smplayer (17.9.0) precise; urgency=medium
+
+  * Now it's possible to the search for subtitles using the filename instead of
+    a hash.
+  * Fix for the OSD when using SMPlayer with mpv 0.26.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 01 Sep 2017 10:56:14 +0200
+
 smplayer (17.8.0) precise; urgency=low
 
   * New audio filter for headphone optimization.
