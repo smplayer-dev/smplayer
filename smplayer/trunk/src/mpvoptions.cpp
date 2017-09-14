@@ -598,6 +598,13 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		// Ignore
 	}
 	else
+	if (filter_name == "letterbox") {
+		//addVFIfAvailable("expand", "aspect=" + option);
+		//addVFIfAvailable("lavfi", "[pad=aspect=" + option +"]");
+		QString f = QString("[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
+		addVFIfAvailable("lavfi", f);
+	}
+	else
 	if (filter_name == "rotate") {
 		if (option == "0") {
 			arg << "--vf-add=rotate=270,flip";
@@ -1090,7 +1097,9 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 
 	QString f;
 	if (filter == "letterbox") {
-		f = QString("expand=aspect=%1").arg(option.toDouble());
+		//f = QString("expand=aspect=%1").arg(option.toDouble());
+		//f = QString("lavfi=[pad=aspect=%1]").arg(option.toDouble());
+		f = QString("lavfi=[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
 	}
 	else
 	if (filter == "noise") {

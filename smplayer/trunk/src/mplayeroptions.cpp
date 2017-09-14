@@ -223,6 +223,11 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		arg << "-vf-add" << "harddup,flip";
 	}
 	else
+	if (filter_name == "letterbox") {
+		arg << "-vf-add" << "expand=aspect=" + option;
+	}
+	/*
+	else
 	if (filter_name == "expand") {
 		arg << "-vf-add" << "expand=" + option + ",harddup";
 		// Note: on some videos (h264 for instance) the subtitles doesn't disappear,
@@ -230,6 +235,7 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		// filter after expand fixes the problem. I chose harddup 'cos I think
 		// it will be harmless in mplayer.
 	}
+	*/
 	else {
 		QString s = filter_name;
 		QString option = value.toString();

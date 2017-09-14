@@ -2231,7 +2231,7 @@ void Core::startMplayer( QString file, double seek ) {
          || (pref->fullscreen && pref->add_blackborders_on_fullscreen)
          #endif
     ) {
-		proc->addVF("expand", QString("aspect=%1").arg( DesktopInfo::desktop_aspectRatio(mplayerwindow)));
+		proc->addVF("letterbox", QString::number(DesktopInfo::desktop_aspectRatio(mplayerwindow)));
 	}
 
 	// Software equalizer
