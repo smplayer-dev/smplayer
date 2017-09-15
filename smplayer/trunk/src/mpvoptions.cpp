@@ -600,16 +600,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		// Ignore
 	}
 	else
-	if (filter_name == "letterbox") {
-		//addVFIfAvailable("expand", "aspect=" + option);
-		#ifdef USE_ASPECT_IN_PAD
-		addVFIfAvailable("lavfi", "[pad=aspect=" + option +"]");
-		#else
-		QString f = QString("[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
-		addVFIfAvailable("lavfi", f);
-		#endif
-	}
-	else
 	if (filter_name == "rotate") {
 		if (option == "0") {
 			arg << "--vf-add=rotate=270,flip";
@@ -629,9 +619,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "flip" || filter_name == "mirror" ||
-        filter_name == "scale" || filter_name == "gradfun")
+        filter_name == "scale" || filter_name == "gradfun" ||
+        filter_name == "letterbox")
 	{
-		arg << "--vf-add=" + lavfi(filter_name, option);
+		arg << "--vf-add=" + lavfi(filter_name, value);
 	}
 	else {
 		if (filter_name == "pp") {
@@ -1107,15 +1098,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	qDebug() << "MPVProcess::changeVF:" << filter << enable;
 
 	QString f;
-	if (filter == "letterbox") {
-		//f = QString("expand=aspect=%1").arg(option.toDouble());
-		#ifdef USE_ASPECT_IN_PAD
-		f = QString("lavfi=[pad=aspect=%1]").arg(option.toDouble());
-		#else
-		f = QString("lavfi=[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
-		#endif
-	}
-	else
 	if (filter == "noise") {
 		f = "lavfi=[noise=alls=9:allf=t]";
 	}
@@ -1186,9 +1168,10 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 	if (filter == "flip" || filter == "mirror" ||
-        filter == "scale" || filter == "gradfun")
+        filter == "scale" || filter == "gradfun" ||
+        filter == "letterbox")
 	{
-		f = lavfi(filter, option.toString());
+		f = lavfi(filter, option);
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
@@ -1304,7 +1287,7 @@ void MPVProcess::setChannelsFile(const QString & filename) {
 	arg << "--dvbin-file=" + filename;
 }
 
-QString MPVProcess::lavfi(QString filter_name, QString option) {
+QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) {
 	QString f;
 
 	if (filter_name == "flip") {
@@ -1317,7 +1300,16 @@ QString MPVProcess::lavfi(QString filter_name, QString option) {
 	else
 	if (filter_name == "scale" || filter_name == "gradfun") {
 		f = filter_name;
-		if (!option.isEmpty()) f += "=" + option;
+		QString o = option.toString();
+		if (!o.isEmpty()) f += "=" + o;
+	}
+	else
+	if (filter_name == "letterbox") {
+		#ifdef USE_ASPECT_IN_PAD
+		f = QString("pad=aspect=%1").arg(option.toDouble());
+		#else
+		f = QString("pad=iw:iw/%1:0:(oh-ih)/2").arg(option.toDouble());
+		#endif
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
