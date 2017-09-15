@@ -25,6 +25,8 @@
 //#define USE_FIREQUALIZER
 //#define FIREQUALIZER_LIST
 
+//#define USE_ASPECT_IN_PAD
+
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
 
@@ -600,9 +602,12 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	else
 	if (filter_name == "letterbox") {
 		//addVFIfAvailable("expand", "aspect=" + option);
-		//addVFIfAvailable("lavfi", "[pad=aspect=" + option +"]");
+		#ifdef USE_ASPECT_IN_PAD
+		addVFIfAvailable("lavfi", "[pad=aspect=" + option +"]");
+		#else
 		QString f = QString("[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
 		addVFIfAvailable("lavfi", f);
+		#endif
 	}
 	else
 	if (filter_name == "rotate") {
@@ -1098,8 +1103,11 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	QString f;
 	if (filter == "letterbox") {
 		//f = QString("expand=aspect=%1").arg(option.toDouble());
-		//f = QString("lavfi=[pad=aspect=%1]").arg(option.toDouble());
+		#ifdef USE_ASPECT_IN_PAD
+		f = QString("lavfi=[pad=aspect=%1]").arg(option.toDouble());
+		#else
 		f = QString("lavfi=[pad=iw:iw/%1:0:(oh-ih)/2]").arg(option.toDouble());
+		#endif
 	}
 	else
 	if (filter == "noise") {
