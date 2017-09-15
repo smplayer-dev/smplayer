@@ -628,6 +628,14 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		}
 	}
 	else
+	if (filter_name == "flip") {
+		arg << "--vf-add=lavfi=[vflip]";
+	}
+	else
+	if (filter_name == "mirror") {
+		arg << "--vf-add=lavfi=[hflip]";
+	}
+	else
 	if (filter_name == "scale" || filter_name == "gradfun") {
 		QString f = filter_name;
 		if (!option.isEmpty()) f += "=" + option;
@@ -1169,8 +1177,12 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		}
 	}
 	else
-	if (filter == "flip" || filter == "mirror") {
-		f = filter;
+	if (filter == "flip") {
+		f = "lavfi=[vflip]";
+	}
+	else
+	if (filter == "mirror") {
+		f = "lavfi=[hflip]";
 	}
 	else
 	if (filter == "scale" || filter == "gradfun") {
