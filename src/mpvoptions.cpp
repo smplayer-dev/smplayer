@@ -628,18 +628,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		}
 	}
 	else
-	if (filter_name == "flip") {
-		arg << "--vf-add=lavfi=[vflip]";
-	}
-	else
-	if (filter_name == "mirror") {
-		arg << "--vf-add=lavfi=[hflip]";
-	}
-	else
-	if (filter_name == "scale" || filter_name == "gradfun") {
-		QString f = filter_name;
-		if (!option.isEmpty()) f += "=" + option;
-		arg << "--vf-add=lavfi=[" + f + "]";
+	if (filter_name == "flip" || filter_name == "mirror" ||
+        filter_name == "scale" || filter_name == "gradfun")
+	{
+		arg << "--vf-add=" + lavfi(filter_name, option);
 	}
 	else {
 		if (filter_name == "pp") {
@@ -1177,21 +1169,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		}
 	}
 	else
-	if (filter == "flip") {
-		f = "lavfi=[vflip]";
-	}
-	else
-	if (filter == "mirror") {
-		f = "lavfi=[hflip]";
-	}
-	else
-	if (filter == "scale" || filter == "gradfun") {
-		f = filter;
-		QString o = option.toString();
-		if (!o.isEmpty()) f += "=" + o;
-		f = "lavfi=[" + f + "]";
-	}
-	else
 	if (filter == "lb" || filter == "l5") {
 		f = "lavfi=[pp=" + filter +"]";
 	}
@@ -1206,6 +1183,12 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	else
 	if (filter == "kerndeint") {
 		f = "lavfi=[kerndeint=" + option.toString() +"]";
+	}
+	else
+	if (filter == "flip" || filter == "mirror" ||
+        filter == "scale" || filter == "gradfun")
+	{
+		f = lavfi(filter, option.toString());
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
@@ -1319,4 +1302,24 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 
 void MPVProcess::setChannelsFile(const QString & filename) {
 	arg << "--dvbin-file=" + filename;
+}
+
+QString MPVProcess::lavfi(QString filter_name, QString option) {
+	QString f;
+
+	if (filter_name == "flip") {
+		f = "vflip";
+	}
+	else
+	if (filter_name == "mirror") {
+		f = "hflip";
+	}
+	else
+	if (filter_name == "scale" || filter_name == "gradfun") {
+		f = filter_name;
+		if (!option.isEmpty()) f += "=" + option;
+	}
+
+	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
+	return f;
 }

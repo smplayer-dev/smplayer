@@ -128,6 +128,7 @@ protected:
 	bool isOptionAvailable(const QString & option);
 	void addVFIfAvailable(const QString & vf, const QString & value = QString::null);
 	void messageFilterNotSupported(const QString & filter_name);
+	QString lavfi(QString filter_name, QString option = QString::null);
 
 #ifdef OSD_WITH_TIMER
 	void toggleInfoOnOSD();
