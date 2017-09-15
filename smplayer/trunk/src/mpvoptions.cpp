@@ -627,6 +627,12 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 			arg << "--vf-add=rotate=90,flip";
 		}
 	}
+	else
+	if (filter_name == "scale" || filter_name == "gradfun") {
+		QString f = filter_name;
+		if (!option.isEmpty()) f += "=" + option;
+		arg << "--vf-add=lavfi=[" + f + "]";
+	}
 	else {
 		if (filter_name == "pp") {
 			QString s;
@@ -1171,6 +1177,7 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = filter;
 		QString o = option.toString();
 		if (!o.isEmpty()) f += "=" + o;
+		f = "lavfi=[" + f + "]";
 	}
 	else
 	if (filter == "lb" || filter == "l5") {
