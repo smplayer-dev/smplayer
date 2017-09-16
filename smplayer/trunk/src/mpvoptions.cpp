@@ -538,6 +538,12 @@ void MPVProcess::setSubEncoding(const QString & codepage, const QString & enca_l
 void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 
+	QString lavfi_filter = lavfi(filter_name, value);
+	if (!lavfi_filter.isEmpty()) {
+		arg << "--vf-add=" + lavfi_filter;
+	}
+	else
+
 	if ((filter_name == "harddup") || (filter_name == "hue")) {
 		// ignore
 	}
@@ -616,13 +622,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		if (option == "3") {
 			arg << "--vf-add=rotate=90,flip";
 		}
-	}
-	else
-	if (filter_name == "flip" || filter_name == "mirror" ||
-        filter_name == "scale" || filter_name == "gradfun" ||
-        filter_name == "letterbox")
-	{
-		arg << "--vf-add=" + lavfi(filter_name, value);
 	}
 	else {
 		if (filter_name == "pp") {
@@ -1098,6 +1097,13 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	qDebug() << "MPVProcess::changeVF:" << filter << enable;
 
 	QString f;
+
+	QString lavfi_filter = lavfi(filter, option);
+	if (!lavfi_filter.isEmpty()) {
+		f = lavfi_filter;
+	}
+	else
+
 	if (filter == "noise") {
 		f = "lavfi=[noise=alls=9:allf=t]";
 	}
@@ -1165,13 +1171,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	else
 	if (filter == "kerndeint") {
 		f = "lavfi=[kerndeint=" + option.toString() +"]";
-	}
-	else
-	if (filter == "flip" || filter == "mirror" ||
-        filter == "scale" || filter == "gradfun" ||
-        filter == "letterbox")
-	{
-		f = lavfi(filter, option);
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
