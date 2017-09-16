@@ -95,9 +95,7 @@ void MediaSettings::reset() {
 	add_letterbox = false;
 #endif
 
-#ifdef MPLAYER_SUPPORT
 	karaoke_filter = false;
-#endif
 	extrastereo_filter = false;
 	volnorm_filter = pref->initial_volnorm;
 #ifdef MPV_SUPPORT
@@ -256,9 +254,7 @@ void MediaSettings::list() {
 
 	qDebug("  add_letterbox: %d", add_letterbox);
 
-#ifdef MPLAYER_SUPPORT
 	qDebug("  karaoke_filter: %d", karaoke_filter);
-#endif
 	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 	qDebug("  volnorm_filter: %d", volnorm_filter);
 #ifdef MPV_SUPPORT
@@ -390,9 +386,7 @@ void MediaSettings::save(QSettings * set, int player_id) {
 
 	set->setValue( "add_letterbox", add_letterbox );
 
-#ifdef MPLAYER_SUPPORT
 	set->setValue( "karaoke_filter", karaoke_filter);
-#endif
 	set->setValue( "extrastereo_filter", extrastereo_filter);
 	set->setValue( "volnorm_filter", volnorm_filter);
 #ifdef MPV_SUPPORT
@@ -531,9 +525,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 
 	add_letterbox = set->value( "add_letterbox", add_letterbox ).toBool();
 
-#ifdef MPLAYER_SUPPORT
 	karaoke_filter = set->value( "karaoke_filter", karaoke_filter).toBool();
-#endif
 	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 	volnorm_filter = set->value( "volnorm_filter", volnorm_filter).toBool();
 #ifdef MPV_SUPPORT

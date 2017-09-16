@@ -120,9 +120,7 @@ public:
 	QString stereo3d_in;
 	QString stereo3d_out;
 
-#ifdef MPLAYER_SUPPORT
 	bool karaoke_filter;
-#endif
 	bool extrastereo_filter;
 	bool volnorm_filter;
 #ifdef MPV_SUPPORT

@@ -85,9 +85,7 @@ public:
 	void seekSub(int value);
 	void setSubForcedOnly(bool b);
 	void setSpeed(double value);
-#ifdef MPLAYER_SUPPORT
 	void enableKaraoke(bool b);
-#endif
 	void enableExtrastereo(bool b);
 	void enableVolnorm(bool b, const QString & option);
 	void enableEarwax(bool b);

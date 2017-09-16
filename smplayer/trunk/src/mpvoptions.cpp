@@ -647,11 +647,6 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 			#endif
 		#endif
 	}
-	else
-	if (filter_name == "karaoke") {
-		/* Not supported anymore */
-		/* Ignore */
-	}
 	else {
 		QString s = filter_name;
 		if (!option.isEmpty()) s += "=" + option;
@@ -856,14 +851,11 @@ void MPVProcess::setSpeed(double value) {
 	writeToStdin("set speed " + QString::number(value));
 }
 
-#ifdef MPLAYER_SUPPORT
-void MPVProcess::enableKaraoke(bool /*b*/) {
-	/*
-	if (b) writeToStdin("af add karaoke"); else writeToStdin("af del karaoke");
-	*/
-	messageFilterNotSupported("karaoke");
+void MPVProcess::enableKaraoke(bool b) {
+	changeAF("karaoke", b);
+
+	//messageFilterNotSupported("karaoke");
 }
-#endif
 
 void MPVProcess::enableExtrastereo(bool b) {
 	changeAF("extrastereo", b);
@@ -1268,6 +1260,10 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		f = "acompressor";
 		QString o = option.toString();
 		if (!o.isEmpty()) f += "=" + o;
+	}
+	else
+	if (filter_name == "karaoke") {
+		f = "stereotools=mlev=0.015625";
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
