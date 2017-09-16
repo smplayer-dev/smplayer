@@ -752,12 +752,10 @@ void BaseGui::createActions() {
 	connect( extrastereoAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleExtrastereo(bool)) );
 
-#ifdef MPLAYER_SUPPORT
 	karaokeAct = new MyAction( this, "karaoke_filter" );
 	karaokeAct->setCheckable( true );
 	connect( karaokeAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleKaraoke(bool)) );
-#endif
 
 	volnormAct = new MyAction( this, "volnorm_filter" );
 	volnormAct->setCheckable( true );
@@ -1399,9 +1397,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incAudioDelayAct->setEnabled(b);
 	audioDelayAct->setEnabled(b);
 	extrastereoAct->setEnabled(b);
-#ifdef MPLAYER_SUPPORT
 	karaokeAct->setEnabled(b);
-#endif
 	volnormAct->setEnabled(b);
 #ifdef MPV_SUPPORT
 	earwaxAct->setEnabled(b);
@@ -1522,9 +1518,7 @@ void BaseGui::enableActionsOnPlaying() {
 		incAudioDelayAct->setEnabled(false);
 		audioDelayAct->setEnabled(false);
 		extrastereoAct->setEnabled(false);
-#ifdef MPLAYER_SUPPORT
 		karaokeAct->setEnabled(false);
-#endif
 		volnormAct->setEnabled(false);
 #ifdef MPV_SUPPORT
 		earwaxAct->setEnabled(false);
@@ -1785,9 +1779,7 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu Filters
 	extrastereoAct->change( tr("&Extrastereo") );
-#ifdef MPLAYER_SUPPORT
 	karaokeAct->change( tr("&Karaoke") );
-#endif
 	volnormAct->change( tr("Volume &normalization") );
 #ifdef MPV_SUPPORT
 	earwaxAct->change( tr("&Headphone optimization") + " (earwax)" );
@@ -2650,9 +2642,7 @@ void BaseGui::createMenus() {
 	audiofilter_menu = new QMenu(this);
 	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
 	audiofilter_menu->addAction(extrastereoAct);
-	#ifdef MPLAYER_SUPPORT
 	audiofilter_menu->addAction(karaokeAct);
-	#endif
 	#ifdef MPV_SUPPORT
 	audiofilter_menu->addAction(earwaxAct);
 	#endif
@@ -3909,10 +3899,8 @@ void BaseGui::updateWidgets() {
 	// Mute menu option
 	muteAct->setChecked( (pref->global_volume ? pref->mute : core->mset.mute) );
 
-#ifdef MPLAYER_SUPPORT
 	// Karaoke menu option
 	karaokeAct->setChecked( core->mset.karaoke_filter );
-#endif
 
 	// Extrastereo menu option
 	extrastereoAct->setChecked( core->mset.extrastereo_filter );
@@ -4003,7 +3991,7 @@ void BaseGui::updateWidgets() {
 		OSDFractionsAct->setEnabled(false);
 		earwaxAct->setEnabled(false);
 	} else {
-		karaokeAct->setEnabled(false);
+		//karaokeAct->setEnabled(false);
 	}
 #endif
 }

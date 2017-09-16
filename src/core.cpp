@@ -2325,11 +2325,9 @@ void Core::startMplayer( QString file, double seek ) {
 	if (!pref->use_hwac3) {
 
 		// Audio filters
-		#ifdef MPLAYER_SUPPORT
 		if (mset.karaoke_filter) {
 			proc->addAF("karaoke");
 		}
-		#endif
 
 		// Stereo mode
 		if (mset.stereo_mode != 0) {
@@ -2801,7 +2799,6 @@ void Core::toggleRepeat(bool b) {
 
 
 // Audio filters
-#ifdef MPLAYER_SUPPORT
 void Core::toggleKaraoke() {
 	toggleKaraoke( !mset.karaoke_filter );
 }
@@ -2818,7 +2815,6 @@ void Core::toggleKaraoke(bool b) {
 		}
 	}
 }
-#endif
 
 void Core::toggleExtrastereo() {
 	toggleExtrastereo( !mset.extrastereo_filter );

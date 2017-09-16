@@ -519,9 +519,7 @@ protected:
 	MyAction * incAudioDelayAct;
 	MyAction * audioDelayAct; // Ask for delay
 	MyAction * extrastereoAct;
-#ifdef MPLAYER_SUPPORT
 	MyAction * karaokeAct;
-#endif
 	MyAction * volnormAct;
 #ifdef MPV_SUPPORT
 	MyAction * earwaxAct;
