@@ -866,17 +866,15 @@ void MPVProcess::enableKaraoke(bool /*b*/) {
 #endif
 
 void MPVProcess::enableExtrastereo(bool b) {
-	if (b) writeToStdin("af add lavfi=[extrastereo]"); else writeToStdin("af del lavfi=[extrastereo]");
+	changeAF("extrastereo", b);
 }
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {
-	QString s = "acompressor";
-	if (!option.isEmpty()) s += "=" + option;
-	if (b) writeToStdin("af add lavfi=[" + s + "]"); else writeToStdin("af del lavfi=[" + s + "]");
+	changeAF("volnorm", b);
 }
 
 void MPVProcess::enableEarwax(bool b) {
-	if (b) writeToStdin("af add lavfi=[earwax]"); else writeToStdin("af del lavfi=[earwax]");
+	changeAF("earwax", b);
 }
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
@@ -1086,6 +1084,21 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 
 	if (!f.isEmpty()) {
 		writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(f));
+	}
+}
+
+void MPVProcess::changeAF(const QString & filter, bool enable, const QVariant & option) {
+	qDebug() << "MPVProcess::changeAF:" << filter << enable;
+
+	QString f;
+
+	QString lavfi_filter = lavfi(filter, option);
+	if (!lavfi_filter.isEmpty()) {
+		f = lavfi_filter;
+	}
+
+	if (!f.isEmpty()) {
+		writeToStdin(QString("af %1 \"%2\"").arg(enable ? "add" : "del").arg(f));
 	}
 }
 

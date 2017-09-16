@@ -104,6 +104,7 @@ public:
 #endif
 	void setTitle(int ID);
 	void changeVF(const QString & filter, bool enable, const QVariant & option = QVariant());
+	void changeAF(const QString & filter, bool enable, const QVariant & option = QVariant());
 	void changeStereo3DFilter(bool enable, const QString & in, const QString & out);
 #if DVDNAV_SUPPORT
 	void discSetMousePos(int x, int y);
