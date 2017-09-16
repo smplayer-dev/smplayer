@@ -572,10 +572,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		addVFIfAvailable("lavfi", "[pp=dr]");
 	}
 	else
-	if (filter_name == "phase") {
-		addVFIfAvailable("lavfi", "[phase=" + option +"]");
-	}
-	else
 	if (filter_name == "postprocessing") {
 		addVFIfAvailable("lavfi", "[pp]");
 	}
@@ -1114,10 +1110,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = "lavfi=[pp=dr]";
 	}
 	else
-	if (filter == "phase") {
-		f = "lavfi=[phase=" + option.toString() +"]";
-	}
-	else
 	if (filter == "postprocessing") {
 		f = "lavfi=[pp]";
 	}
@@ -1278,7 +1270,8 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	}
 	else
 	if (filter_name == "scale" || filter_name == "gradfun" ||
-       filter_name == "hqdn3d" || filter_name == "kerndeint" )
+       filter_name == "hqdn3d" || filter_name == "kerndeint" ||
+       filter_name == "phase")
 	{
 		f = filter_name;
 		QString o = option.toString();
