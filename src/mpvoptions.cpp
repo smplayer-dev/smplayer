@@ -580,22 +580,12 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		addVFIfAvailable("lavfi", "[pp]");
 	}
 	else
-	if (filter_name == "hqdn3d") {
-		QString o;
-		if (!option.isEmpty()) o = "=" + option;
-		addVFIfAvailable("lavfi", "[hqdn3d" + o +"]");
-	}
-	else
 	if (filter_name == "yadif") {
 		if (option == "1") {
 			arg << "--vf-add=yadif=field";
 		} else {
 			arg << "--vf-add=yadif";
 		}
-	}
-	else
-	if (filter_name == "kerndeint") {
-		addVFIfAvailable("lavfi", "[kerndeint=" + option +"]");
 	}
 	else
 	if (filter_name == "lb" || filter_name == "l5") {
@@ -1132,12 +1122,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = "lavfi=[pp]";
 	}
 	else
-	if (filter == "hqdn3d") {
-		QString o = option.toString();
-		if (!o.isEmpty()) o = "=" + o;
-		f = "lavfi=[hqdn3d" + o +"]";
-	}
-	else
 	if (filter == "rotate") {
 		QString o = option.toString();
 		if (o == "0") {
@@ -1167,10 +1151,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		} else {
 			f = "yadif";
 		}
-	}
-	else
-	if (filter == "kerndeint") {
-		f = "lavfi=[kerndeint=" + option.toString() +"]";
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
@@ -1297,7 +1277,9 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		f = "hflip";
 	}
 	else
-	if (filter_name == "scale" || filter_name == "gradfun") {
+	if (filter_name == "scale" || filter_name == "gradfun" ||
+       filter_name == "hqdn3d" || filter_name == "kerndeint" )
+	{
 		f = filter_name;
 		QString o = option.toString();
 		if (!o.isEmpty()) f += "=" + o;
