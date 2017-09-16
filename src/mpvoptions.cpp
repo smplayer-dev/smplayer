@@ -601,6 +601,12 @@ void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
 void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 
+	QString lavfi_filter = lavfi(filter_name, value);
+	if (!lavfi_filter.isEmpty()) {
+		arg << "--af-add=" + lavfi_filter;
+	}
+	else
+
 	if (filter_name == "volnorm") {
 		QString s = "acompressor";
 		if (!option.isEmpty()) s += "=" + option;
@@ -646,14 +652,6 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 			}
 			#endif
 		#endif
-	}
-	else
-	if (filter_name == "extrastereo") {
-		arg << "--af-add=lavfi=[extrastereo]";
-	}
-	else
-	if (filter_name == "earwax") {
-		arg << "--af-add=lavfi=[earwax]";
 	}
 	else
 	if (filter_name == "karaoke") {
@@ -1243,7 +1241,8 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "scale" || filter_name == "gradfun" ||
        filter_name == "hqdn3d" || filter_name == "kerndeint" ||
-       filter_name == "phase")
+       filter_name == "phase" || filter_name == "extrastereo" ||
+       filter_name == "earwax")
 	{
 		f = filter_name;
 		QString o = option.toString();
