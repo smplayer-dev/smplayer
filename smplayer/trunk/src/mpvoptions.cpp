@@ -552,18 +552,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		arg << "--vf-add=eq";
 	}
 	else
-	if (filter_name == "deblock") {
-		addVFIfAvailable("lavfi", "[pp=" + option +"]");
-	}
-	else
-	if (filter_name == "dering") {
-		addVFIfAvailable("lavfi", "[pp=dr]");
-	}
-	else
-	if (filter_name == "postprocessing") {
-		addVFIfAvailable("lavfi", "[pp]");
-	}
-	else
 	if (filter_name == "yadif") {
 		if (option == "1") {
 			arg << "--vf-add=yadif=field";
@@ -1074,18 +1062,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 
-	if (filter == "deblock") {
-		f = "lavfi=[pp=" + option.toString() +"]";
-	}
-	else
-	if (filter == "dering") {
-		f = "lavfi=[pp=dr]";
-	}
-	else
-	if (filter == "postprocessing") {
-		f = "lavfi=[pp]";
-	}
-	else
 	if (filter == "rotate") {
 		QString o = option.toString();
 		if (o == "0") {
@@ -1247,6 +1223,18 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "sharpen") {
 		f = "unsharp=la=1.5:ca=1.5";
+	}
+	else
+	if (filter_name == "deblock") {
+		f = "pp=" + option.toString();
+	}
+	else
+	if (filter_name == "dering") {
+		f = "pp=dr";
+	}
+	else
+	if (filter_name == "postprocessing") {
+		f = "pp";
 	}
 	else
 	if (filter_name == "lb" || filter_name == "l5") {
