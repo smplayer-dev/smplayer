@@ -607,12 +607,6 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 
-	if (filter_name == "volnorm") {
-		QString s = "acompressor";
-		if (!option.isEmpty()) s += "=" + option;
-		arg << "--af-add=lavfi=[" + s + "]";
-	}
-	else
 	if (filter_name == "channels") {
 		if (option == "2:2:0:1:0:0") arg << "--af-add=channels=2:[0-1,0-0]";
 		else
@@ -1255,6 +1249,12 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		#else
 		f = QString("pad=iw:iw/%1:0:(oh-ih)/2").arg(option.toDouble());
 		#endif
+	}
+	else
+	if (filter_name == "volnorm") {
+		f = "acompressor";
+		QString o = option.toString();
+		if (!o.isEmpty()) f += "=" + o;
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
