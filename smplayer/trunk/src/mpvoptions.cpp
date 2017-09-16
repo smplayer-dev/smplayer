@@ -572,10 +572,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		}
 	}
 	else
-	if (filter_name == "lb" || filter_name == "l5") {
-		addVFIfAvailable("lavfi", "[pp=" + filter_name +"]");
-	}
-	else
 	if (filter_name == "subs_on_screenshots") {
 		// Ignore
 	}
@@ -1109,10 +1105,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		}
 	}
 	else
-	if (filter == "lb" || filter == "l5") {
-		f = "lavfi=[pp=" + filter +"]";
-	}
-	else
 	if (filter == "yadif") {
 		if (option.toString() == "1") {
 			f = "yadif=field";
@@ -1255,6 +1247,10 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "sharpen") {
 		f = "unsharp=la=1.5:ca=1.5";
+	}
+	else
+	if (filter_name == "lb" || filter_name == "l5") {
+		f = "pp=" + filter_name;
 	}
 	else
 	if (filter_name == "scale" || filter_name == "gradfun" ||
