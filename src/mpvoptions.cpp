@@ -552,18 +552,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		arg << "--vf-add=eq";
 	}
 	else
-	if (filter_name == "blur") {
-		addVFIfAvailable("lavfi", "[unsharp=la=-1.5:ca=-1.5]");
-	}
-	else
-	if (filter_name == "sharpen") {
-		addVFIfAvailable("lavfi", "[unsharp=la=1.5:ca=1.5]");
-	}
-	else
-	if (filter_name == "noise") {
-		addVFIfAvailable("lavfi", "[noise=alls=9:allf=t]");
-	}
-	else
 	if (filter_name == "deblock") {
 		addVFIfAvailable("lavfi", "[pp=" + option +"]");
 	}
@@ -1090,18 +1078,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 
-	if (filter == "noise") {
-		f = "lavfi=[noise=alls=9:allf=t]";
-	}
-	else
-	if (filter == "blur") {
-		f = "lavfi=[unsharp=la=-1.5:ca=-1.5]";
-	}
-	else
-	if (filter == "sharpen") {
-		f = "lavfi=[unsharp=la=1.5:ca=1.5]";
-	}
-	else
 	if (filter == "deblock") {
 		f = "lavfi=[pp=" + option.toString() +"]";
 	}
@@ -1267,6 +1243,18 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "mirror") {
 		f = "hflip";
+	}
+	else
+	if (filter_name == "noise") {
+		f = "noise=alls=9:allf=t";
+	}
+	else
+	if (filter_name == "blur") {
+		f = "unsharp=la=-1.5:ca=-1.5";
+	}
+	else
+	if (filter_name == "sharpen") {
+		f = "unsharp=la=1.5:ca=1.5";
 	}
 	else
 	if (filter_name == "scale" || filter_name == "gradfun" ||
