@@ -21,9 +21,13 @@
 #include "inforeader.h"
 #include "deviceinfo.h"
 
-//#define USE_ANEQUALIZER
-//#define USE_FIREQUALIZER
-//#define FIREQUALIZER_LIST
+#define EQ_OLD 0
+#define EQ_ANEQUALIZER 1
+#define EQ_FIREQUALIZER 2
+#define EQ_FIREQUALIZER_LIST 3
+
+#define USE_EQUALIZER EQ_OLD
+
 
 //#define USE_ASPECT_IN_PAD
 
@@ -622,30 +626,7 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "equalizer") {
-		AudioEqualizerList l = value.toList();
-		#if !defined(USE_ANEQUALIZER) && !defined(USE_FIREQUALIZER)
-		option = AudioEqualizerHelper::equalizerListToString(l);
-		previous_eq = option;
-		arg << "--af-add=equalizer=" + option;
-		#endif
-		#ifdef USE_ANEQUALIZER
-		option = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
-		previous_eq = option;
-		arg << "--af-add=lavfi=[anequalizer=" + option + "]";
-		#endif
-		#ifdef USE_FIREQUALIZER
-			#ifndef FIREQUALIZER_LIST
-			option = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
-			previous_eq = option;
-			arg << "--af-add=lavfi=[firequalizer=" + option + "]";
-			#else
-			QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::Firequalizer);
-			previous_eq_list = e;
-			foreach(QString option, e) {
-				arg << "--af-add=lavfi=[firequalizer=" + option + "]";
-			}
-			#endif
-		#endif
+		arg << "--af-add=" + audioEqualizerFilter(value.toList());
 	}
 	else {
 		QString s = filter_name;
@@ -870,61 +851,15 @@ void MPVProcess::enableEarwax(bool b) {
 }
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
-#if !defined(USE_ANEQUALIZER) && !defined(USE_FIREQUALIZER)
-	QString values = AudioEqualizerHelper::equalizerListToString(l);
-	if (values == previous_eq) return;
+	QString eq_filter = audioEqualizerFilter(l);
+	if (previous_eq == eq_filter) return;
 
 	if (!previous_eq.isEmpty()) {
-		writeToStdin("af del equalizer=" + previous_eq);
-	}
-	writeToStdin("af add equalizer=" + values);
-	previous_eq = values;
-#endif
-#ifdef USE_ANEQUALIZER
-	/* Not working */
-	#if 0
-	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
-	if (values == previous_eq) return;
-
-	if (!previous_eq.isEmpty()) {
-		writeToStdin("af del lavfi=[anequalizer=" + previous_eq + "]");
-	}
-	writeToStdin("af add lavfi=[anequalizer=" + values + "]");
-	previous_eq = values;
-	#endif
-#endif
-#ifdef USE_FIREQUALIZER
-	/* Not working */
-	#ifndef FIREQUALIZER_LIST
-	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
-	if (values == previous_eq) return;
-
-	if (!previous_eq.isEmpty()) {
-		writeToStdin("af del lavfi=[firequalizer=" + previous_eq + "]");
-	}
-	writeToStdin("af add lavfi=[firequalizer=" + values + "]");
-	previous_eq = values;
-
-	#else
-
-	QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::Firequalizer);
-
-	if (!previous_eq_list.isEmpty()) {
-		foreach(QString option, previous_eq_list) {
-			if (!e.contains(option)) {
-				writeToStdin("af del lavfi=[firequalizer=" + option + "]");
-			}
-		}
+		writeToStdin("af del " + previous_eq);
 	}
 
-	foreach(QString option, e) {
-		if (!previous_eq_list.contains(option)) {
-			writeToStdin("af add lavfi=[firequalizer=" + option + "]");
-		}
-	}
-	previous_eq_list = e;
-	#endif
-#endif
+	writeToStdin("af add " + eq_filter);
+	previous_eq = eq_filter;
 }
 
 void MPVProcess::setAudioDelay(double delay) {
@@ -1267,5 +1202,35 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
+	return f;
+}
+
+QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
+	QString f;
+
+#if USE_EQUALIZER == EQ_OLD
+	QString values = AudioEqualizerHelper::equalizerListToString(l);
+	f = "equalizer=" + values;
+#endif
+
+#if USE_EQUALIZER == EQ_ANEQUALIZER
+	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
+	f = "lavfi=[anequalizer=" + values + "]";
+#endif
+
+#if USE_EQUALIZER == EQ_FIREQUALIZER
+	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
+	f = "lavfi=[firequalizer=" + values + "]";
+#endif
+
+#if USE_EQUALIZER == EQ_FIREQUALIZER_LIST
+	QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::Firequalizer);
+	foreach(QString option, e) {
+		if (!f.isEmpty()) f += ",";
+		f += "firequalizer=" + option;
+	}
+	f = "lavfi=[" + f + "]";
+#endif
+
 	return f;
 }

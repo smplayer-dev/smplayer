@@ -128,6 +128,7 @@ protected:
 	void addVFIfAvailable(const QString & vf, const QString & value = QString::null);
 	void messageFilterNotSupported(const QString & filter_name);
 	QString lavfi(const QString & filter_name, const QVariant & option = QVariant());
+	QString audioEqualizerFilter(AudioEqualizerList);
 
 #ifdef OSD_WITH_TIMER
 	void toggleInfoOnOSD();
