@@ -836,6 +836,15 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 #else
 
 	QString eq_filter = audioEqualizerFilter(l);
+
+	// FIXME: this function is called on startup,
+	// try to detect it and exit
+	// to avoid to add the filter twice
+	if (previous_eq.isEmpty()) {
+		previous_eq = eq_filter;
+		return;
+	}
+
 	if (previous_eq == eq_filter) return;
 
 	if (!previous_eq.isEmpty()) {
