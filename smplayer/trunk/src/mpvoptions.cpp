@@ -568,24 +568,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	if (filter_name == "subs_on_screenshots") {
 		// Ignore
 	}
-	else
-	if (filter_name == "rotate") {
-		if (option == "0") {
-			arg << "--vf-add=rotate=270,flip";
-		}
-		else
-		if (option == "1") {
-			arg << "--vf-add=rotate=90";
-		}
-		else
-		if (option == "2") {
-			arg << "--vf-add=rotate=270";
-		}
-		else
-		if (option == "3") {
-			arg << "--vf-add=rotate=90,flip";
-		}
-	}
 	else {
 		if (filter_name == "pp") {
 			QString s;
@@ -980,25 +962,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 
-	if (filter == "rotate") {
-		QString o = option.toString();
-		if (o == "0") {
-			f = "rotate=270,flip";
-		}
-		else
-		if (o == "1") {
-			f = "rotate=90";
-		}
-		else
-		if (o == "2") {
-			f = "rotate=270";
-		}
-		else
-		if (o == "3") {
-			f = "rotate=90,flip";
-		}
-	}
-	else
 	if (filter == "yadif") {
 		if (option.toString() == "1") {
 			f = "yadif=field";
@@ -1190,6 +1153,25 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		#else
 		f = QString("pad=iw:iw/%1:0:(oh-ih)/2").arg(option.toDouble());
 		#endif
+	}
+	else
+	if (filter_name == "rotate") {
+		QString o = option.toString();
+		if (o == "0") {
+			f = "rotate=3*PI/2:ih:iw,vflip";
+		}
+		else
+		if (o == "1") {
+			f = "rotate=PI/2:ih:iw"; // 90º
+		}
+		else
+		if (o == "2") {
+			f = "rotate=3*PI/2:ih:iw"; // 270º
+		}
+		else
+		if (o == "3") {
+			f = "rotate=PI/2:ih:iw,vflip";
+		}
 	}
 	else
 	if (filter_name == "volnorm") {
