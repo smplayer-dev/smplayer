@@ -2866,7 +2866,7 @@ void Core::toggleEarwax(bool b) {
 #endif
 
 void Core::setAudioChannels(int channels) {
-	qDebug("Core::setAudioChannels:%d", channels);
+	qDebug("Core::setAudioChannels: %d", channels);
 	if (channels != mset.audio_use_channels ) {
 		mset.audio_use_channels = channels;
 		restartPlay();
@@ -2874,10 +2874,29 @@ void Core::setAudioChannels(int channels) {
 }
 
 void Core::setStereoMode(int mode) {
-	qDebug("Core::setStereoMode:%d", mode);
+	qDebug("Core::setStereoMode: %d", mode);
 	if (mode != mset.stereo_mode ) {
-		mset.stereo_mode = mode;
-		restartPlay();
+		if (proc->isMPlayer()) {
+			mset.stereo_mode = mode;
+			restartPlay();
+		} else {
+			// MPV
+			// Remove previous filter
+			switch (mset.stereo_mode) {
+				case MediaSettings::Left: proc->changeAF("stereo-mode", false, "left"); break;
+				case MediaSettings::Right: proc->changeAF("stereo-mode", false, "right"); break;
+				case MediaSettings::Mono: proc->changeAF("stereo-mode", false, "mono"); break;
+				case MediaSettings::Reverse: proc->changeAF("stereo-mode", false, "reverse"); break;
+			}
+			// New filter
+			mset.stereo_mode = mode;
+			switch (mset.stereo_mode) {
+				case MediaSettings::Left: proc->changeAF("stereo-mode", true, "left"); break;
+				case MediaSettings::Right: proc->changeAF("stereo-mode", true, "right"); break;
+				case MediaSettings::Mono: proc->changeAF("stereo-mode", true, "mono"); break;
+				case MediaSettings::Reverse: proc->changeAF("stereo-mode", true, "reverse"); break;
+			}
+		}
 	}
 }
 
