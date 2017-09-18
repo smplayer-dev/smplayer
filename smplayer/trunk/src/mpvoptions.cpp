@@ -557,14 +557,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		arg << "--vf-add=eq";
 	}
 	else
-	if (filter_name == "yadif") {
-		if (option == "1") {
-			arg << "--vf-add=yadif=field";
-		} else {
-			arg << "--vf-add=yadif";
-		}
-	}
-	else
 	if (filter_name == "subs_on_screenshots") {
 		// Ignore
 	}
@@ -960,15 +952,6 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	if (!lavfi_filter.isEmpty()) {
 		f = lavfi_filter;
 	}
-	else
-
-	if (filter == "yadif") {
-		if (option.toString() == "1") {
-			f = "yadif=field";
-		} else {
-			f = "yadif";
-		}
-	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
 	}
@@ -1137,6 +1120,16 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		f = "pp=" + filter_name;
 	}
 	else
+
+	if (filter_name == "yadif") {
+		if (option.toString() == "1") {
+			f = "yadif=mode=send_field";
+		} else {
+			f = "yadif=mode=send_frame";
+		}
+	}
+	else
+
 	if (filter_name == "scale" || filter_name == "gradfun" ||
        filter_name == "hqdn3d" || filter_name == "kerndeint" ||
        filter_name == "phase" || filter_name == "extrastereo" ||
