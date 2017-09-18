@@ -812,6 +812,29 @@ void MPVProcess::enableEarwax(bool b) {
 }
 
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
+#if USE_EQUALIZER == EQ_ANEQUALIZER
+
+	#if 1
+	// Test changing the equalizer
+	static AudioEqualizerList previous_l;
+
+	double freq = 31.25;
+	for (int f = 0; f < 10; f++) {
+		if (!previous_l.isEmpty() && l[f] != previous_l[f]) {
+			double v = (double) l[f].toInt() / 10;
+			QString s = QString("%1|f=%2|w=1000|g=%3|").arg(f).arg(freq).arg(v);
+			writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
+			//s = QString("%1|f=%2|w=1000|g=%3|").arg(f+10).arg(freq).arg(v);
+			//writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
+			freq = freq * 2;
+		}
+	}
+
+	previous_l = l;
+	#endif
+
+#else
+
 	QString eq_filter = audioEqualizerFilter(l);
 	if (previous_eq == eq_filter) return;
 
@@ -821,6 +844,8 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 	writeToStdin("af add " + eq_filter);
 	previous_eq = eq_filter;
+
+#endif
 }
 
 void MPVProcess::setAudioDelay(double delay) {
@@ -1188,7 +1213,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_ANEQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
-	f = "lavfi=[anequalizer=" + values + "]";
+	f = "@anequalizer:lavfi=[anequalizer=" + values + "]";
 #endif
 
 #if USE_EQUALIZER == EQ_FIREQUALIZER
