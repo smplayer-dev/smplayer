@@ -111,6 +111,7 @@ public:
 #endif
 	virtual void setTitle(int ID) = 0;
 	virtual void changeVF(const QString & filter, bool enable, const QVariant & option = QVariant()) = 0;
+	virtual void changeAF(const QString & filter, bool enable, const QVariant & option = QVariant()) = 0;
 	virtual void changeStereo3DFilter(bool enable, const QString & in, const QString & out) = 0;
 #if DVDNAV_SUPPORT
 	virtual void discSetMousePos(int x, int y) = 0;

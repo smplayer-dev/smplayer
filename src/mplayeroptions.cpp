@@ -256,6 +256,17 @@ void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) 
 		// Not supported
 	}
 	else
+	if (filter_name == "stereo-mode") {
+		QString o = value.toString();
+		if (o == "left") arg << "-af-add" << "channels=2:2:0:1:0:0";
+		else
+		if (o == "right") arg << "-af-add" << "channels=2:2:1:0:1:1";
+		else
+		if (o == "reverse") arg << "-af-add" << "channels=2:2:0:1:1:0";
+		else
+		if (o == "mono") arg << "-af-add" << "pan=1:0.5:0.5";
+	}
+	else
 	if (filter_name == "equalizer") {
 		AudioEqualizerList l = value.toList();
 		QString o = AudioEqualizerHelper::equalizerListToString(l);

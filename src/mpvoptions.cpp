@@ -1163,19 +1163,15 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		f = "stereotools=mlev=0.015625";
 	}
 	else
-	if (filter_name == "pan") {
-		if (option.toString() == "1:0.5:0.5") {
-			f = "pan=mono|c0=.5*c0+.5*c1";
-		}
-	}
-	else
-	if (filter_name == "channels") {
+	if (filter_name == "stereo-mode") {
 		QString o = option.toString();
-		if (o == "2:2:0:1:0:0") f = "pan=mono|c0=c0";
+		if (o == "left") f = "pan=mono|c0=c0";
 		else
-		if (o == "2:2:1:0:1:1") f = "pan=mono|c0=c1";
+		if (o == "right") f = "pan=mono|c0=c1";
 		else
-		if (o == "2:2:0:1:1:0") f = "pan=stereo|c0=c1:c1=c0";
+		if (o == "reverse") f = "pan=stereo|c0=c1:c1=c0";
+		else
+		if (o == "mono") f = "pan=mono|c0=.5*c0+.5*c1";
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
