@@ -4008,7 +4008,9 @@ void BaseGui::updateVideoEqualizer() {
 void BaseGui::updateAudioEqualizer() {
 	// Audio Equalizer
 	AudioEqualizerList l = pref->global_audio_equalizer ? pref->audio_equalizer : core->mset.audio_equalizer;
+	audio_equalizer->blockSignals(true);
 	audio_equalizer->setEqualizer(l);
+	audio_equalizer->blockSignals(false);
 }
 
 void BaseGui::setDefaultValuesFromVideoEqualizer() {
