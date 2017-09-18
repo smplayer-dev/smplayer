@@ -844,7 +844,7 @@ void MPVProcess::enableExtrastereo(bool b) {
 }
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {
-	changeAF("volnorm", b);
+	changeAF("volnorm", b, option);
 }
 
 void MPVProcess::enableEarwax(bool b) {
