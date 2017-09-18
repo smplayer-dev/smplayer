@@ -29,7 +29,6 @@
 
 #define USE_EQUALIZER EQ_OLD
 
-
 //#define USE_ASPECT_IN_PAD
 
 void MPVProcess::addArgument(const QString & /*a*/) {
@@ -1155,7 +1154,7 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "letterbox") {
 		#ifdef USE_ASPECT_IN_PAD
-		f = QString("pad=aspect=%1").arg(option.toDouble());
+		f = QString("pad=aspect=%1:y=(oh-ih)/2").arg(option.toDouble());
 		#else
 		f = QString("pad=iw:iw/%1:0:(oh-ih)/2").arg(option.toDouble());
 		#endif
