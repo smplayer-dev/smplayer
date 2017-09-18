@@ -586,14 +586,6 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 
-	if (filter_name == "channels") {
-		if (option == "2:2:0:1:0:0") arg << "--af-add=channels=2:[0-1,0-0]";
-		else
-		if (option == "2:2:1:0:1:1") arg << "--af-add=channels=2:[1-0,1-1]";
-		else
-		if (option == "2:2:0:1:1:0") arg << "--af-add=channels=2:[0-1,1-0]";
-	}
-	else
 	if (filter_name == "equalizer") {
 		arg << "--af-add=" + audioEqualizerFilter(value.toList());
 	}
@@ -1175,6 +1167,15 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		if (option.toString() == "1:0.5:0.5") {
 			f = "pan=mono|c0=.5*c0+.5*c1";
 		}
+	}
+	else
+	if (filter_name == "channels") {
+		QString o = option.toString();
+		if (o == "2:2:0:1:0:0") f = "pan=mono|c0=c0";
+		else
+		if (o == "2:2:1:0:1:1") f = "pan=mono|c0=c1";
+		else
+		if (o == "2:2:0:1:1:0") f = "pan=stereo|c0=c1:c1=c0";
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
