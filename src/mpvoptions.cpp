@@ -594,12 +594,6 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 		if (option == "2:2:0:1:1:0") arg << "--af-add=channels=2:[0-1,1-0]";
 	}
 	else
-	if (filter_name == "pan") {
-		if (option == "1:0.5:0.5") {
-			arg << "--af-add=pan=1:[0.5,0.5]";
-		}
-	}
-	else
 	if (filter_name == "equalizer") {
 		arg << "--af-add=" + audioEqualizerFilter(value.toList());
 	}
@@ -1175,6 +1169,12 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "karaoke") {
 		f = "stereotools=mlev=0.015625";
+	}
+	else
+	if (filter_name == "pan") {
+		if (option.toString() == "1:0.5:0.5") {
+			f = "pan=mono|c0=.5*c0+.5*c1";
+		}
 	}
 
 	if (!f.isEmpty()) f = "lavfi=[" + f + "]";
