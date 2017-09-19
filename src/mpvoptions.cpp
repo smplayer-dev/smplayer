@@ -586,7 +586,9 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	else
 
 	if (filter_name == "equalizer") {
-		arg << "--af-add=" + audioEqualizerFilter(value.toList());
+		QString f = audioEqualizerFilter(value.toList());
+		arg << "--af-add=" + f;
+		previous_eq = f;
 	}
 	else {
 		QString s = filter_name;
