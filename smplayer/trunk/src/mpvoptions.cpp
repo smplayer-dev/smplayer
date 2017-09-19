@@ -836,6 +836,20 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	previous_l = l;
 	#endif
 
+#elif USE_EQUALIZER == EQ_FIREQUALIZER
+
+	static AudioEqualizerList previous_l;
+	double freq = 31.25;
+	for (int f = 0; f < 10; f++) {
+		if (!previous_l.isEmpty() && l[f] != previous_l[f]) {
+			double v = (double) l[f].toInt() / 10;
+			QString s = QString("\"gain_entry\" \"entry(%1,%2)\"").arg(freq).arg(v);
+			writeToStdin("af-command \"firequalizer\" " + s);
+		}
+		freq = freq * 2;
+	}
+	previous_l = l;
+
 #else
 
 	QString eq_filter = audioEqualizerFilter(l);
@@ -1221,7 +1235,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_FIREQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
-	f = "lavfi=[firequalizer=" + values + "]";
+	f = "@firequalizer:lavfi=[firequalizer=" + values + "]";
 #endif
 
 #if USE_EQUALIZER == EQ_SUPEREQUALIZER
@@ -1235,7 +1249,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 		if (!f.isEmpty()) f += ",";
 		f += "firequalizer=" + option;
 	}
-	f = "lavfi=[" + f + "]";
+	f = "@firequalizer:lavfi=[" + f + "]";
 #endif
 
 	return f;
