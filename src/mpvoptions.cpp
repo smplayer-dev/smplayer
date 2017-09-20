@@ -26,6 +26,7 @@
 #define EQ_FIREQUALIZER 2
 #define EQ_FIREQUALIZER_LIST 3
 #define EQ_SUPEREQUALIZER 4
+#define EQ_FEQUALIZER 5
 
 #define USE_EQUALIZER EQ_OLD
 
@@ -1250,6 +1251,15 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 		f += "firequalizer=" + option;
 	}
 	f = "@firequalizer:lavfi=[" + f + "]";
+#endif
+
+#if USE_EQUALIZER == EQ_FEQUALIZER
+	QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::FEqualizer);
+	foreach(QString option, e) {
+		if (!f.isEmpty()) f += ",";
+		f += "equalizer=" + option;
+	}
+	f = "lavfi=[" + f + "]";
 #endif
 
 	return f;
