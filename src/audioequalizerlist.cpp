@@ -19,6 +19,10 @@
 #include "audioequalizerlist.h"
 #include <QDebug>
 
+#define ANEQUALIZER_CHANNELS 2
+#define ANEQUALIZER_WIDTH 1000
+#define ANEQUALIZER_MUL 20 / 240
+
 QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, AudioEqualizerType type) {
 	double v0 = (double) values[0].toInt() / 10;
 	double v1 = (double) values[1].toInt() / 10;
@@ -41,11 +45,11 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 	}
 	else
 	if (type == Anequalizer) {
-		for (int ch = 0; ch < 2; ch++) {
+		for (int ch = 0; ch < ANEQUALIZER_CHANNELS; ch++) {
 			double freq = 31.25;
 			for (int f = 0; f < 10; f++) {
-				double v = (double) values[f].toInt() * 20 / 240;
-				s += QString("c%1 f=%2 w=1000 g=%3|").arg(ch).arg(freq).arg(v);
+				double v = (double) values[f].toInt() * ANEQUALIZER_MUL;
+				s += QString("c%1 f=%2 w=%4 g=%3|").arg(ch).arg(freq).arg(v).arg(ANEQUALIZER_WIDTH);
 				freq = freq * 2;
 			}
 		}
@@ -80,6 +84,27 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 	}
 
 	return s;
+}
+
+QStringList AudioEqualizerHelper::equalizerListForCommand(AudioEqualizerList values,
+	AudioEqualizerList old_values, AudioEqualizerType type) 
+{
+	QStringList l;
+
+	if (type == Anequalizer) {
+		double freq = 31.25;
+		for (int f = 0; f < 10; f++) {
+			if (!old_values.isEmpty() && values[f] != old_values[f]) {
+				double v = (double) values[f].toInt() * ANEQUALIZER_MUL;
+				for (int ch = 0; ch < ANEQUALIZER_CHANNELS; ch++) {
+					l << QString("%1|f=%2|w=%4|g=%3").arg(f + ch*10).arg(freq).arg(v).arg(ANEQUALIZER_WIDTH);
+				}
+			}
+			freq = freq * 2;
+		}
+	}
+
+	return l;
 }
 
 QStringList AudioEqualizerHelper::equalizerListToStringList(AudioEqualizerList values, AudioEqualizerType type) {
