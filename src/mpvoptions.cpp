@@ -1259,7 +1259,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 		if (!f.isEmpty()) f += ",";
 		f += "equalizer=" + option;
 	}
-	f = "lavfi=[" + f + "]";
+	f = "lavfi=[aresample=44100," + f + "]";
 #endif
 
 	return f;
