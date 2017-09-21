@@ -574,7 +574,13 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 }
 
 void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
-	arg << "--vf-add=stereo3d=" + in + ":" + out;
+	QString input;
+	if (!in.isEmpty()) input = "in=" + in + ":";
+
+	QString output;
+	if (!out.isEmpty()) output = "out=" + out;
+
+	arg << "--vf-add=lavfi=[stereo3d=" + input + output + "]";
 }
 
 void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
@@ -1006,7 +1012,13 @@ void MPVProcess::changeAF(const QString & filter, bool enable, const QVariant & 
 }
 
 void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QString & out) {
-	QString filter = "stereo3d=" + in + ":" + out;
+	QString input;
+	if (!in.isEmpty()) input = "in=" + in + ":";
+
+	QString output;
+	if (!out.isEmpty()) output = "out=" + out;
+
+	QString filter = "lavfi=[stereo3d=" + input + output + "]";
 	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(filter));
 }
 
