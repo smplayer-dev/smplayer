@@ -826,16 +826,9 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_ANEQUALIZER
 
-	double freq = 31.25;
-	for (int f = 0; f < 10; f++) {
-		if (!previous_eq_list.isEmpty() && l[f] != previous_eq_list[f]) {
-			double v = (double) l[f].toInt() * 20 / 240;
-			for (int ch = 0; ch < 2; ch++) {
-				QString s = QString("%1|f=%2|w=1000|g=%3").arg(f + ch*10).arg(freq).arg(v);
-				writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
-			}
-		}
-		freq = freq * 2;
+	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Anequalizer);
+	foreach(QString command, commands) {
+		writeToStdin("af-command \"anequalizer\" \"change\" \"" + command + "\"");
 	}
 
 	previous_eq_list = l;

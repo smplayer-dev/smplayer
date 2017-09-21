@@ -34,7 +34,9 @@ public:
 	//! values.
 	static QString equalizerListToString(AudioEqualizerList values, AudioEqualizerType type = Equalizer);
 
-	static QStringList equalizerListToStringList(AudioEqualizerList values, AudioEqualizerType type = Equalizer);
+	static QStringList equalizerListToStringList(AudioEqualizerList values, AudioEqualizerType type);
+
+	static QStringList equalizerListForCommand(AudioEqualizerList values, AudioEqualizerList old_values, AudioEqualizerType type);
 };
 
 #endif
