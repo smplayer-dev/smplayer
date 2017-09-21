@@ -21,9 +21,10 @@
 
 #define ANEQUALIZER_CHANNELS 2
 #define ANEQUALIZER_WIDTH 1000
-#define ANEQUALIZER_MUL 20 / 240
+#define ANEQUALIZER_TYPE 0
+#define ANEQUALIZER_SCALE 20 / 240
 
-#define FIREQUALIZER_MUL 0.1
+#define FIREQUALIZER_SCALE 24 / 240
 
 QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, AudioEqualizerType type) {
 	QString s;
@@ -40,8 +41,8 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		for (int ch = 0; ch < ANEQUALIZER_CHANNELS; ch++) {
 			double freq = 31.25;
 			for (int f = 0; f < 10; f++) {
-				double v = (double) values[f].toInt() * ANEQUALIZER_MUL;
-				s += QString("c%1 f=%2 w=%4 g=%3|").arg(ch).arg(freq).arg(v).arg(ANEQUALIZER_WIDTH);
+				double v = (double) values[f].toInt() * ANEQUALIZER_SCALE;
+				s += QString("c%1 f=%2 w=%4 g=%3 t=%5|").arg(ch).arg(freq).arg(v).arg(ANEQUALIZER_WIDTH).arg(ANEQUALIZER_TYPE);
 				freq = freq * 2;
 			}
 		}
@@ -52,7 +53,7 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		s = "gain_entry='";
 		double freq = 31.25;
 		for (int f = 0; f < 10; f++) {
-			double v = (double) values[f].toInt() * FIREQUALIZER_MUL;
+			double v = (double) values[f].toInt() * FIREQUALIZER_SCALE;
 			s += QString("entry(%1,%2)").arg(freq).arg(v);
 			if (f < 9) s += ";";
 			freq = freq * 2;
@@ -87,7 +88,7 @@ QStringList AudioEqualizerHelper::equalizerListForCommand(AudioEqualizerList val
 		double freq = 31.25;
 		for (int f = 0; f < 10; f++) {
 			if (!old_values.isEmpty() && values[f] != old_values[f]) {
-				double v = (double) values[f].toInt() * ANEQUALIZER_MUL;
+				double v = (double) values[f].toInt() * ANEQUALIZER_SCALE;
 				for (int ch = 0; ch < ANEQUALIZER_CHANNELS; ch++) {
 					l << QString("%1|f=%2|w=%4|g=%3").arg(f + ch*10).arg(freq).arg(v).arg(ANEQUALIZER_WIDTH);
 				}
@@ -100,7 +101,7 @@ QStringList AudioEqualizerHelper::equalizerListForCommand(AudioEqualizerList val
 		double freq = 31.25;
 		for (int f = 0; f < 10; f++) {
 			if (!old_values.isEmpty() && values[f] != old_values[f]) {
-				double v = (double) values[f].toInt() * FIREQUALIZER_MUL;
+				double v = (double) values[f].toInt() * FIREQUALIZER_SCALE;
 				// This is probably wrong
 				l << QString("entry(%1,%2)").arg(freq).arg(v);
 			}
@@ -117,7 +118,7 @@ QStringList AudioEqualizerHelper::equalizerListToStringList(AudioEqualizerList v
 	if (type == Firequalizer) {
 		double freq = 31.25;
 		for (int f = 0; f < 10; f++) {
-			double v = (double) values[f].toInt() / 10;
+			double v = (double) values[f].toInt() * FIREQUALIZER_SCALE;
 			QString s = QString("gain_entry='entry(%1,%2)'").arg(freq).arg(v);
 			freq = freq * 2;
 			l << s;
