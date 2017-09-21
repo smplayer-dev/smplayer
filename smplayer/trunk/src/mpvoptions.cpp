@@ -593,9 +593,11 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	else
 
 	if (filter_name == "equalizer") {
-		QString f = audioEqualizerFilter(value.toList());
+		AudioEqualizerList al = value.toList();
+		QString f = audioEqualizerFilter(al);
 		arg << "--af-add=" + f;
 		previous_eq = f;
+		previous_eq_list = al;
 	}
 	else {
 		QString s = filter_name;
@@ -824,24 +826,20 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_ANEQUALIZER
 
-	#if 1
-	// Test changing the equalizer
-	static AudioEqualizerList previous_l;
-
 	double freq = 31.25;
 	for (int f = 0; f < 10; f++) {
-		if (!previous_l.isEmpty() && l[f] != previous_l[f]) {
-			double v = (double) l[f].toInt() / 10;
-			QString s = QString("%1|f=%2|w=1000|g=%3|").arg(f).arg(freq).arg(v);
+		if (!previous_eq_list.isEmpty() && l[f] != previous_eq_list[f]) {
+			double v = (double) l[f].toInt() * 20 / 240;
+			QString s = QString("%1|f=%2|w=1000|g=%3").arg(f).arg(freq).arg(v);
 			writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
-			//s = QString("%1|f=%2|w=1000|g=%3|").arg(f+10).arg(freq).arg(v);
-			//writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
-			freq = freq * 2;
+			s = QString("%1|f=%2|w=200|g=%3").arg(f+10).arg(freq).arg(v);
+			writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
+
 		}
+		freq = freq * 2;
 	}
 
-	previous_l = l;
-	#endif
+	previous_eq_list = l;
 
 #elif USE_EQUALIZER == EQ_FIREQUALIZER
 

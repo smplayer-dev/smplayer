@@ -44,7 +44,7 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		for (int ch = 0; ch < 2; ch++) {
 			double freq = 31.25;
 			for (int f = 0; f < 10; f++) {
-				double v = (double) values[f].toInt() / 10;
+				double v = (double) values[f].toInt() * 20 / 240;
 				s += QString("c%1 f=%2 w=1000 g=%3|").arg(ch).arg(freq).arg(v);
 				freq = freq * 2;
 			}
