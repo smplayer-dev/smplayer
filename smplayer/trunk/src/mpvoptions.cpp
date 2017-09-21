@@ -830,11 +830,10 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	for (int f = 0; f < 10; f++) {
 		if (!previous_eq_list.isEmpty() && l[f] != previous_eq_list[f]) {
 			double v = (double) l[f].toInt() * 20 / 240;
-			QString s = QString("%1|f=%2|w=1000|g=%3").arg(f).arg(freq).arg(v);
-			writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
-			s = QString("%1|f=%2|w=200|g=%3").arg(f+10).arg(freq).arg(v);
-			writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
-
+			for (int ch = 0; ch < 2; ch++) {
+				QString s = QString("%1|f=%2|w=1000|g=%3").arg(f + ch*10).arg(freq).arg(v);
+				writeToStdin("af-command \"anequalizer\" \"change\" \"" + s + "\"");
+			}
 		}
 		freq = freq * 2;
 	}
