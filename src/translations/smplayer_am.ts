@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -391,1601 +393,1601 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1943"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>&amp;Open</source>
         <translation>&amp;መክፈቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1936"/>
         <source>&amp;Play</source>
         <translation>&amp;ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1945"/>
+        <location filename="../basegui.cpp" line="1937"/>
         <source>&amp;Video</source>
         <translation>&amp;ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1946"/>
+        <location filename="../basegui.cpp" line="1938"/>
         <source>&amp;Audio</source>
         <translation>&amp;ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1947"/>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="1940"/>
         <source>&amp;Browse</source>
         <translation>&amp;መቃኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1950"/>
+        <location filename="../basegui.cpp" line="1942"/>
         <source>Op&amp;tions</source>
         <translation>ምር&amp;ጫዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1951"/>
+        <location filename="../basegui.cpp" line="1943"/>
         <source>&amp;Help</source>
         <translation>&amp;እርዳታ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1661"/>
         <source>&amp;File...</source>
         <translation>&amp;ፋይል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1662"/>
         <source>D&amp;irectory...</source>
         <translation>ዳ&amp;ይሬክቶሪ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1663"/>
         <source>&amp;Playlist...</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1666"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;ዲቪዲ ከ ማጫወቻው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>D&amp;VD from folder...</source>
         <translation>ዲ&amp;ቪዲ ከ ፎልደር...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>&amp;Clear</source>
         <translation>&amp;ማጽጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>&amp;Recent files</source>
         <translation>የ &amp;ቅርብ ጊዜ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>P&amp;lay</source>
         <translation>ማ&amp;ጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>&amp;Pause</source>
         <translation>&amp;ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1706"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>&amp;Stop</source>
         <translation>&amp;ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>&amp;Frame step</source>
         <translation>የ &amp;ክፈፍ ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;መደበኛ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Double speed</source>
         <translation>&amp;ድርብ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>Speed &amp;-10%</source>
         <translation>ፍጥነት &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1730"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>Speed &amp;+10%</source>
         <translation>ፍጥነት &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1985"/>
+        <location filename="../basegui.cpp" line="1977"/>
         <source>Sp&amp;eed</source>
         <translation>ፍጥ&amp;ነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Repeat</source>
         <translation>&amp;መድገሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1737"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Fullscreen</source>
         <translation>በ &amp;ሙሉ መመልከቻ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Compact mode</source>
         <translation>በ &amp;ዝቅተኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1995"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>Si&amp;ze</source>
         <translation>መጠ&amp;ን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="1997"/>
         <source>&amp;Aspect ratio</source>
         <translation> የ &amp;ማነፃፀሪያ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2044"/>
-        <location filename="../basegui.cpp" line="3560"/>
-        <location filename="../basegui.cpp" line="3574"/>
+        <location filename="../basegui.cpp" line="2036"/>
+        <location filename="../basegui.cpp" line="3550"/>
+        <location filename="../basegui.cpp" line="3564"/>
         <source>&amp;None</source>
         <translation>&amp;ምንም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2045"/>
+        <location filename="../basegui.cpp" line="2037"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;አነስተኛ ማለፊያ5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2048"/>
+        <location filename="../basegui.cpp" line="2040"/>
         <source>Linear &amp;Blend</source>
         <translation>ቀጥተኛ &amp;ማዋሀጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2008"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;መቀየሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;Postprocessing</source>
         <translation>ከ &amp;ሂደት በኋላ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;በራሱ ፈልጎ ማግኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>Add n&amp;oise</source>
         <translation>ረ&amp;ብሻ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2003"/>
         <source>F&amp;ilters</source>
         <translation>ማ&amp;ጣሪያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1739"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;እኩል ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Screenshot</source>
         <translation>የ &amp;መመልከቻ ፎቶ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>S&amp;tay on top</source>
         <translation>ከ ላይ ማ&amp;ድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;ተጨማሪ ስቴሪዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;ካሪዮኪ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2079"/>
+        <location filename="../basegui.cpp" line="2071"/>
         <source>&amp;Filters</source>
         <translation>&amp;ማጣሪያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2089"/>
-        <location filename="../basegui.cpp" line="2095"/>
+        <location filename="../basegui.cpp" line="2081"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>&amp;Stereo</source>
         <translation>&amp;ስቴሪዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2090"/>
+        <location filename="../basegui.cpp" line="2082"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2091"/>
+        <location filename="../basegui.cpp" line="2083"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2074"/>
         <source>&amp;Channels</source>
         <translation>&amp;ጣቢያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2096"/>
+        <location filename="../basegui.cpp" line="2088"/>
         <source>&amp;Left channel</source>
         <translation>የ &amp;ግራ ጣቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2097"/>
+        <location filename="../basegui.cpp" line="2089"/>
         <source>&amp;Right channel</source>
         <translation>የ &amp;ቀኝ ጣቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2085"/>
+        <location filename="../basegui.cpp" line="2077"/>
         <source>&amp;Stereo mode</source>
         <translation>በ &amp;ስቴሪዮ ዘደ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>&amp;Mute</source>
         <translation>&amp;መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>Volume &amp;-</source>
         <translation>መጠን &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1779"/>
+        <location filename="../basegui.cpp" line="1773"/>
         <source>Volume &amp;+</source>
         <translation>መጠን &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1780"/>
+        <location filename="../basegui.cpp" line="1774"/>
         <source>&amp;Delay -</source>
         <translation>&amp;ማዘግያ -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>D&amp;elay +</source>
         <translation>ማ&amp;ዘግያ +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2105"/>
+        <location filename="../basegui.cpp" line="2097"/>
         <source>&amp;Select</source>
         <translation>&amp;ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&amp;Load...</source>
         <translation>&amp;መጫኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>Delay &amp;-</source>
         <translation>ማዘግያ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1800"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>Delay &amp;+</source>
         <translation>ማዘግያ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1802"/>
+        <location filename="../basegui.cpp" line="1794"/>
         <source>&amp;Up</source>
         <translation>ወደ &amp;ላይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Down</source>
         <translation>ወደ &amp;ታች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2123"/>
+        <location filename="../basegui.cpp" line="2115"/>
         <source>&amp;Title</source>
         <translation>&amp;አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2126"/>
+        <location filename="../basegui.cpp" line="2118"/>
         <source>&amp;Chapter</source>
         <translation>&amp;ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2129"/>
+        <location filename="../basegui.cpp" line="2121"/>
         <source>&amp;Angle</source>
         <translation>&amp;አንግል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1839"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;Playlist</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2034"/>
         <source>&amp;Disabled</source>
         <translation>&amp;ተሰናክሏል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2161"/>
+        <location filename="../basegui.cpp" line="2153"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1841"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>P&amp;references</source>
         <translation>ም&amp;ርጫዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1871"/>
+        <location filename="../basegui.cpp" line="1863"/>
         <source>About &amp;SMPlayer</source>
         <translation>ስለ SMP ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3597"/>
-        <location filename="../basegui.cpp" line="3613"/>
-        <location filename="../basegui.cpp" line="3629"/>
-        <location filename="../basegui.cpp" line="3644"/>
-        <location filename="../basegui.cpp" line="3678"/>
-        <location filename="../basegui.cpp" line="3698"/>
-        <location filename="../basegui.cpp" line="3774"/>
+        <location filename="../basegui.cpp" line="3587"/>
+        <location filename="../basegui.cpp" line="3603"/>
+        <location filename="../basegui.cpp" line="3619"/>
+        <location filename="../basegui.cpp" line="3634"/>
+        <location filename="../basegui.cpp" line="3668"/>
+        <location filename="../basegui.cpp" line="3688"/>
+        <location filename="../basegui.cpp" line="3764"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ባዶ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4231"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4232"/>
-        <location filename="../basegui.cpp" line="4477"/>
+        <location filename="../basegui.cpp" line="4222"/>
+        <location filename="../basegui.cpp" line="4467"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4233"/>
+        <location filename="../basegui.cpp" line="4223"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4234"/>
-        <location filename="../basegui.cpp" line="4457"/>
-        <location filename="../basegui.cpp" line="4478"/>
+        <location filename="../basegui.cpp" line="4224"/>
+        <location filename="../basegui.cpp" line="4447"/>
+        <location filename="../basegui.cpp" line="4468"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4229"/>
-        <location filename="../basegui.cpp" line="4454"/>
-        <location filename="../basegui.cpp" line="4475"/>
+        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4465"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;ዩቲዩብ%1 መቃኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1859"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;ይለግሱ / ከ ጓደኞቾ ጋር ይጋሩ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4293"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>SMPlayer - Information</source>
         <translation>የ SMP መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4294"/>
+        <location filename="../basegui.cpp" line="4284"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ሲዲ ራም / ዲቪዲ አካል ገና አልተዋቀረም
 የ ማዋቀሪያው ንግግር ይታያል እና ከዛ ያሰናዱት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4407"/>
+        <location filename="../basegui.cpp" line="4397"/>
         <source>Select the Blu-ray folder</source>
         <translation>የ ብሉ-ሬይ ፎልደር ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4420"/>
+        <location filename="../basegui.cpp" line="4410"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4456"/>
+        <location filename="../basegui.cpp" line="4446"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5128"/>
+        <location filename="../basegui.cpp" line="5118"/>
         <source>Error detected</source>
         <translation>ስህተት ተግኝቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5129"/>
+        <location filename="../basegui.cpp" line="5119"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>ይህን ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5366"/>
+        <location filename="../basegui.cpp" line="5356"/>
         <source>Pause</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5367"/>
+        <location filename="../basegui.cpp" line="5357"/>
         <source>Stop</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>Play / Pause</source>
         <translation>ማጫወቻ/ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>Pause / Frame step</source>
         <translation>ማስቆሚያ / የ ክፈፍ ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
-        <location filename="../basegui.cpp" line="1798"/>
+        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>U&amp;nload</source>
         <translation>ማ&amp;ራገፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>V&amp;CD</source>
         <translation>ቪ&amp;ሲዲ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>C&amp;lose</source>
         <translation>መ&amp;ዝጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>Zoom &amp;-</source>
         <translation>ማሳያ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1753"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>Zoom &amp;+</source>
         <translation>ማሳያ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Reset</source>
         <translation>&amp;እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1752"/>
         <source>Move &amp;left</source>
         <translation>ወደ &amp;ግራ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1753"/>
         <source>Move &amp;right</source>
         <translation>ወደ &amp;ቀኝ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>Move &amp;up</source>
         <translation>ወደ &amp;ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>Move &amp;down</source>
         <translation>ወደ &amp;ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;ያለፈው መስመር በ ንዑስ አርእስት </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1809"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>የ&amp;ሚቀጥለው መስመር በ ንዑስ አርእስት </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
-        <location filename="../basegui.cpp" line="2183"/>
+        <location filename="../basegui.cpp" line="1840"/>
+        <location filename="../basegui.cpp" line="2175"/>
         <source>%1 log</source>
         <translation>%1 መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
-        <location filename="../basegui.cpp" line="2186"/>
+        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="2178"/>
         <source>SMPlayer log</source>
         <translation>SMP ማጫወቻ መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1854"/>
         <source>Update the &amp;YouTube code</source>
         <translation>ማሻሻያ የ &amp;ዩቲዩብ ኮድ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2199"/>
-        <location filename="../basegui.cpp" line="2200"/>
-        <location filename="../basegui.cpp" line="2201"/>
+        <location filename="../basegui.cpp" line="2191"/>
+        <location filename="../basegui.cpp" line="2192"/>
+        <location filename="../basegui.cpp" line="2193"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2203"/>
-        <location filename="../basegui.cpp" line="2204"/>
-        <location filename="../basegui.cpp" line="2205"/>
+        <location filename="../basegui.cpp" line="2195"/>
+        <location filename="../basegui.cpp" line="2196"/>
+        <location filename="../basegui.cpp" line="2197"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>Dec volume (2)</source>
         <translation>መጠን መቀነሻ (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1669"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;ብሉ-ሬይ ከ ማጫወቻው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>&amp;ብሉ-ሬይ ከ ፎልደር...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1708"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>Fra&amp;me back step</source>
         <translation>ክፈ&amp;ፍ ደረጃ ወደ ኋላ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Half speed</source>
         <translation>&amp;ግማሽ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>Start/stop capturing stream</source>
         <translation>ማስተላለፊያ ማስጀመሪያ/ማስቆሚያ:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>በ አውራ &amp;ጥፍር ልክ መፍጠሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>Stereo &amp;3D filter</source>
         <translation>ስቴሪዮ 3ዲ ማጣሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Headphone optimization</source>
         <translation>&amp;በ ጆሮ ማድመጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>Seek to next subtitle</source>
         <translation>የሚቀጥለውን ንዑስ አርእስት መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>Seek to previous subtitle</source>
         <translation>ያለፈውን ንዑስ አርእስት መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>Use custo&amp;m style</source>
         <translation>ዘዴ ማስተካከ&amp;ያ ይጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>ንዑስ አርእስት መፈለጊያ ከ &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;ነባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1840"/>
+        <location filename="../basegui.cpp" line="1832"/>
         <source>&amp;Information and properties...</source>
         <translation>&amp;መረጃ እና ባህሪዎች መመልከቻ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1853"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>T&amp;ablet mode</source>
         <translation>በ ታ&amp;ብሌት ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>First Steps &amp;Guide</source>
         <translation>የ መጀመሪያ ደረጃ &amp;መምሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1857"/>
         <source>&amp;Open configuration folder</source>
         <translation>የማዋቀሪያ ፎልደር &amp;መክፈቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>&amp;Donate</source>
         <translation>&amp;ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>Size &amp;+</source>
         <translation>መጠን &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1883"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>Size &amp;-</source>
         <translation>መጠን &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>Show times with &amp;milliseconds</source>
         <translation>ጊዜ በ &amp;ሚሊ ሰከንዶች ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>Inc volume (2)</source>
         <translation>መጠን መጨመሪያ (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>Exit fullscreen</source>
         <translation>ከ ሙሉ መመልከቻ ዘዴ መውጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1906"/>
+        <location filename="../basegui.cpp" line="1898"/>
         <source>OSD - Next level</source>
         <translation>OSD - የሚቀጥለው ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1907"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>Dec contrast</source>
         <translation>ማነፃፀሪያ መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1900"/>
         <source>Inc contrast</source>
         <translation>ማነፃፀሪያ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1909"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>Dec brightness</source>
         <translation>ብርሁነት መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>Inc brightness</source>
         <translation>ብርሁነት መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1911"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>Dec hue</source>
         <translation>Dec hue</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1912"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>Inc hue</source>
         <translation>Inc hue</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>Dec saturation</source>
         <translation>Dec saturation</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1915"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>Dec gamma</source>
         <translation>ጋማ መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1910"/>
         <source>Next audio</source>
         <translation>የሚቀጥለው ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1911"/>
         <source>Next subtitle</source>
         <translation>የሚቀጥለው ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1920"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>Next chapter</source>
         <translation>የሚቀጥለው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1913"/>
         <source>Previous chapter</source>
         <translation>ያለፈው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1929"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>Show &amp;info on OSD</source>
         <translation>ለ OSD &amp;መረጃ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1930"/>
+        <location filename="../basegui.cpp" line="1922"/>
         <source>Show playback time on OSD</source>
         <translation>መልሶ ማጫወቻ ጊዜ ማሳያ በ OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1941"/>
         <source>Vie&amp;w</source>
         <translation>መመል&amp;ከቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2025"/>
+        <location filename="../basegui.cpp" line="2017"/>
         <source>De&amp;noise</source>
         <translation>De&amp;noise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2028"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>Blur/S&amp;harp</source>
         <translation>ማደብዘዣ/ማ&amp;ጥሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2051"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2052"/>
+        <location filename="../basegui.cpp" line="2044"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;መደበኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2053"/>
+        <location filename="../basegui.cpp" line="2045"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;ለስላሳ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2055"/>
+        <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ምንም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2048"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ማደብዘዣ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2057"/>
+        <location filename="../basegui.cpp" line="2049"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ማጥሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2077"/>
+        <location filename="../basegui.cpp" line="2069"/>
         <source>Select audio track</source>
         <translation>ይምረጡ የ ድምፅ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2092"/>
+        <location filename="../basegui.cpp" line="2084"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2093"/>
+        <location filename="../basegui.cpp" line="2085"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2098"/>
+        <location filename="../basegui.cpp" line="2090"/>
         <source>&amp;Mono</source>
         <translation>&amp;ሞኖ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2099"/>
+        <location filename="../basegui.cpp" line="2091"/>
         <source>Re&amp;verse</source>
         <translation>እንደ &amp;ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2103"/>
+        <location filename="../basegui.cpp" line="2095"/>
         <source>Prim&amp;ary track</source>
         <translation>ቀዳ&amp;ሚ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2100"/>
         <source>Select subtitle track</source>
         <translation>ይምረጡ የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2103"/>
         <source>Secondary trac&amp;k</source>
         <translation>ሁለተኛ ተረ&amp;ኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2113"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>Select secondary subtitle track</source>
         <translation>ይምረጡ ሁለተኛ የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2119"/>
+        <location filename="../basegui.cpp" line="2111"/>
         <source>F&amp;rames per second</source>
         <translation>ክ&amp;ፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2133"/>
+        <location filename="../basegui.cpp" line="2125"/>
         <source>&amp;Bookmarks</source>
         <translation>&amp;ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2135"/>
         <source>&amp;Add new bookmark</source>
         <translation>&amp;መጨመሪያ አዲስ ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2144"/>
+        <location filename="../basegui.cpp" line="2136"/>
         <source>&amp;Edit bookmarks</source>
         <translation>&amp;ማረሚያ ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2145"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>Previous bookmark</source>
         <translation>ያለፈው ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2146"/>
+        <location filename="../basegui.cpp" line="2138"/>
         <source>Next bookmark</source>
         <translation>የሚቀጥለው ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2175"/>
+        <location filename="../basegui.cpp" line="2167"/>
         <source>Quick access menu</source>
         <translation>በፍጥነት መደረሻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2990"/>
+        <location filename="../basegui.cpp" line="2980"/>
         <source>Logs</source>
         <translation>መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4562"/>
+        <location filename="../basegui.cpp" line="4552"/>
         <source>Support SMPlayer</source>
         <translation>ይደግፉ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4564"/>
+        <location filename="../basegui.cpp" line="4554"/>
         <source>Donate</source>
         <translation>ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4565"/>
+        <location filename="../basegui.cpp" line="4555"/>
         <source>No</source>
         <translation>አይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4568"/>
+        <location filename="../basegui.cpp" line="4558"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer እርስዎን ይፈልጋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4569"/>
+        <location filename="../basegui.cpp" line="4559"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer ነፃ ሶፍትዌር ነው: ነገር ግን ማበልጸጉ ብዙ ስራ እና ጊዜ ይወስዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4570"/>
+        <location filename="../basegui.cpp" line="4560"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>የ SMPlayer ለማበልጸግ በ አዲስ ገጽታ እኛ የ እርስዎን እርዳታ እንፈልጋለን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4571"/>
+        <location filename="../basegui.cpp" line="4561"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>እባክዎን ለ SMPlayer እቅድ የሚችሉትን ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4572"/>
+        <location filename="../basegui.cpp" line="4562"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>በጣም ትንሹ እንኳን ብዙ ይረዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5063"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>Connection failed</source>
         <translation>ግንኙነቱ ወድቋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5064"/>
+        <location filename="../basegui.cpp" line="5054"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>እርስዎ የ ፈለጉት ቪዲዮ የ HTTPS ግንኙነት ማስጀመር ይፈልጋል.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5065"/>
+        <location filename="../basegui.cpp" line="5055"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>ይህ የ OpenSSL አካላት ያስፈልጋል በ እርስዎ ስርአት ውስጥ አልተገኘም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5056"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>እባክዎን ይጎብኙ %1 ችግሮችን እንዴት አድርገው እንደሚጠግኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5057"/>
         <source>this link</source>
         <translation>ይህ አገናኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5077"/>
+        <location filename="../basegui.cpp" line="5067"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>ይህን የ ዩቲዩብ ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5084"/>
-        <location filename="../basegui.cpp" line="5092"/>
+        <location filename="../basegui.cpp" line="5074"/>
+        <location filename="../basegui.cpp" line="5082"/>
         <source>Problems with Youtube</source>
         <translation>ዩቲዩብ ችግር ገጥሞታል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6068"/>
-        <location filename="../basegui.cpp" line="6120"/>
+        <location filename="../basegui.cpp" line="6058"/>
+        <location filename="../basegui.cpp" line="6110"/>
         <source>%1 Error</source>
         <translation>%1 ስህተት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6069"/>
+        <location filename="../basegui.cpp" line="6059"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ጨርሷል በ ድንገት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6084"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6095"/>
+        <location filename="../basegui.cpp" line="6085"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>መግጠም የ Microsoft Visual C++ 2010 ስርጭት ጥቅል (x86) ችግሩን ያስወግደዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6097"/>
+        <location filename="../basegui.cpp" line="6087"/>
         <source>Click here to get it</source>
         <translation>ለማግኘት እዚህ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6122"/>
+        <location filename="../basegui.cpp" line="6112"/>
         <source>%1 failed to start.</source>
         <translation>%1 ማስጀመር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6123"/>
+        <location filename="../basegui.cpp" line="6113"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>እባክዎን ይመርምሩ %1 መንገዱን ከ ምርጫዎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6125"/>
+        <location filename="../basegui.cpp" line="6115"/>
         <source>%1 has crashed.</source>
         <translation>%1 ተጋጭቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6207"/>
+        <location filename="../basegui.cpp" line="6197"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>የ ዩቲዩብ መቃኛ አልተገጠመም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6208"/>
-        <location filename="../basegui.cpp" line="6220"/>
+        <location filename="../basegui.cpp" line="6198"/>
+        <location filename="../basegui.cpp" line="6210"/>
         <source>Visit %1 to get it.</source>
         <translation>ይጎብኙ %1 ለማግኘት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6218"/>
+        <location filename="../basegui.cpp" line="6208"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>የ ዩቲዩብ መቃኛ ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6219"/>
+        <location filename="../basegui.cpp" line="6209"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>በ ትክክል መገጠሙን እርግጠኛ ይሁኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6385"/>
+        <location filename="../basegui.cpp" line="6375"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>ስርአቱ ወደ ታብሌት ዘዴ ተቀይሯል: SMPlayer ወደ ታብሌት ዘዴ ይቀየር?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6387"/>
+        <location filename="../basegui.cpp" line="6377"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>ስርአቱ ከ ታብሌት ዘዴ ወጥቷል: SMPlayer ከ ታብሌት ዘዴ ውስጥ ይውጣ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6391"/>
+        <location filename="../basegui.cpp" line="6381"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>የ እኔን ውሳኔ አስታውስ እና እንደገና አትጠይቀኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5080"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>ይህን የ ዩቲዩብ ቪዲዮ ማጫወት አልተቻለም: የ ቪዲዮ &apos;%1&apos; ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5086"/>
+        <location filename="../basegui.cpp" line="5076"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>እርስዎ የ Youtube code ማሻሻል ይፈልጋሉ? ይህ ችግሩን ይጠግናል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5094"/>
+        <location filename="../basegui.cpp" line="5084"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>ምናልባት SMPlayer ማሻሻል ችግሩን ይፈታዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2165"/>
+        <location filename="../basegui.cpp" line="2157"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>የ SMPlayer ከ ጓደኞቹ ጋር ይ&amp;ካፈሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3285"/>
-        <location filename="../basegui.cpp" line="4035"/>
+        <location filename="../basegui.cpp" line="3275"/>
+        <location filename="../basegui.cpp" line="4025"/>
         <source>Information</source>
         <translation>መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3286"/>
+        <location filename="../basegui.cpp" line="3276"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>እርስዎ የ SMPlayer እንደገና ማስነሳት አለብዎት አዲሱን GUI. ለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3786"/>
+        <location filename="../basegui.cpp" line="3776"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>የ SMP ማጫወቻ - ማጥፊያ ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3787"/>
+        <location filename="../basegui.cpp" line="3777"/>
         <source>Delete the list of recent files?</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች ዝርዝር ላጥፋ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4036"/>
+        <location filename="../basegui.cpp" line="4026"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>የ አሁኑን ዋጋዎች እንደ ነባር ዋጋዎች ተቀምጠዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>Inc saturation</source>
         <translation>Inc saturation</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>Inc gamma</source>
         <translation>ጋማ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;መጫኛ የ ውጪ ፋይሎች...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2049"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2046"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2047"/>
+        <location filename="../basegui.cpp" line="2039"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (double framerate)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1890"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>&amp;Next</source>
         <translation>&amp;ይቀጥሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1883"/>
         <source>Pre&amp;vious</source>
         <translation>ያለ&amp;ፈው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>Volume &amp;normalization</source>
         <translation>መጠን &amp;መደበኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1665"/>
         <source>&amp;Audio CD</source>
         <translation>የ &amp;ድምፅ ሲዲ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1914"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;መቀያየሪያ ድርብ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1796"/>
         <source>S&amp;ize -</source>
         <translation>መ&amp;ጠን -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1797"/>
         <source>Si&amp;ze +</source>
         <translation>መጠ&amp;ን +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>Add &amp;black borders</source>
         <translation>&amp;ጥቁር ድንበር መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>Soft&amp;ware scaling</source>
         <translation>ሶፍት&amp;ዌር መመጠኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;FAQ</source>
         <translation>&amp;ብዙ ጊዜ የሚጠየቁ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>&amp;Command line options</source>
         <translation>የ &amp;ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4497"/>
+        <location filename="../basegui.cpp" line="4487"/>
         <source>SMPlayer command line options</source>
         <translation>የ SMP ማጫወቻ ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>&amp;Forced subtitles only</source>
         <translation>&amp;ማስገደጃ ንዑስ አርእስት ብቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>Reset video equalizer</source>
         <translation>የ ቪዲዮ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5130"/>
+        <location filename="../basegui.cpp" line="5120"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>ሰርቨሩ መልሷል &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6070"/>
+        <location filename="../basegui.cpp" line="6060"/>
         <source>Exit code: %1</source>
         <translation>መውጫ ከ code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6126"/>
+        <location filename="../basegui.cpp" line="6116"/>
         <source>See the log for more info.</source>
         <translation>ለ በለጠ መረጃ መግቢያውን ይመልከቱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2014"/>
+        <location filename="../basegui.cpp" line="2006"/>
         <source>&amp;Rotate</source>
         <translation>&amp;ማዞሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2059"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>&amp;Off</source>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2060"/>
+        <location filename="../basegui.cpp" line="2052"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;ማዞሪያ በ 90 ዲግሪዎች ከ ግራ ወደ ቀኝ እና መገልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2061"/>
+        <location filename="../basegui.cpp" line="2053"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ &amp;ግራ ወደ ቀኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2062"/>
+        <location filename="../basegui.cpp" line="2054"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ ቀኝ ወደ ግራ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2063"/>
+        <location filename="../basegui.cpp" line="2055"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ ቀኝ ወደ ግራ እና &amp;መገልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;መዝለያ ወደ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1925"/>
+        <location filename="../basegui.cpp" line="1917"/>
         <source>Show context menu</source>
         <translation>የ አገባብ ዝርዝር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4230"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>E&amp;qualizer</source>
         <translation>እ&amp;ኩል ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1916"/>
         <source>Reset audio equalizer</source>
         <translation>ድምፅ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1813"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>ንዑስ &amp;አርእስት መላኪያ ወደ OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2031"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Auto</source>
         <translation>&amp;ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Speed -&amp;4%</source>
         <translation>ፍጥነት -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;ፍጥነት +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Speed -&amp;1%</source>
         <translation>ፍጥነት -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>S&amp;peed +1%</source>
         <translation>ፍ&amp;ጥነት +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2021"/>
+        <location filename="../basegui.cpp" line="2013"/>
         <source>Scree&amp;n</source>
         <translation>መመልከ&amp;ቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2071"/>
-        <location filename="../basegui.cpp" line="2088"/>
+        <location filename="../basegui.cpp" line="2063"/>
+        <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Default</source>
         <translation>&amp;ነባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1743"/>
         <source>Mirr&amp;or image</source>
         <translation>የ ተንፀባ&amp;ረቀ ምስል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1917"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>Next video</source>
         <translation>የሚቀጥለው ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1984"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2067"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4972"/>
+        <location filename="../basegui.cpp" line="4962"/>
         <source>Warning - Using old MPlayer</source>
         <translation>ማስጠንቀቂያ - አሮጌ SMP ማጫወቻ ስለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4973"/>
+        <location filename="../basegui.cpp" line="4963"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>ይህ እትም የ MPlayer (%1) የ ተገጠመው በ እርስዎ ስርአት ውስጥ ጊዜው ያለፈበት ነው: የ SMPlayer በ ትክክል ላይሰራ ይችላል: እንዳንድ ምርጫዎች ላይሰሩ ይችላሉ: ንዑስ አርእስት ምርጫ ላይሰራ ይችላል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4978"/>
+        <location filename="../basegui.cpp" line="4968"/>
         <source>Please, update your MPlayer.</source>
         <translation>እባክዎን የ SMP ማጫወቻ ያሻሽሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4980"/>
+        <location filename="../basegui.cpp" line="4970"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(ይህ ማስጠንቀቂያ ሁለተኛ አይታይም)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1926"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>Next aspect ratio</source>
         <translation> የሚቀጥለው የ ማነፃፀሪያ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;በራሱ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1750"/>
         <source>Zoom for &amp;16:9</source>
         <translation>ማሳያ በ &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>ማሳያ በ &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2057"/>
         <source>&amp;Always</source>
         <translation>&amp;ሁልጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2066"/>
+        <location filename="../basegui.cpp" line="2058"/>
         <source>&amp;Never</source>
         <translation>&amp;በፍጹም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2067"/>
+        <location filename="../basegui.cpp" line="2059"/>
         <source>While &amp;playing</source>
         <translation>በ &amp;ሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2154"/>
+        <location filename="../basegui.cpp" line="2146"/>
         <source>DVD &amp;menu</source>
         <translation>ዲቪዲ &amp;ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2156"/>
+        <location filename="../basegui.cpp" line="2148"/>
         <source>DVD &amp;previous menu</source>
         <translation>ዲቪዲ &amp;ያለፈው ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2150"/>
+        <location filename="../basegui.cpp" line="2142"/>
         <source>DVD menu, move up</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2151"/>
+        <location filename="../basegui.cpp" line="2143"/>
         <source>DVD menu, move down</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2152"/>
+        <location filename="../basegui.cpp" line="2144"/>
         <source>DVD menu, move left</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ግራ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2153"/>
+        <location filename="../basegui.cpp" line="2145"/>
         <source>DVD menu, move right</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ቀኝ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2155"/>
+        <location filename="../basegui.cpp" line="2147"/>
         <source>DVD menu, select option</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ምርጫ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2157"/>
+        <location filename="../basegui.cpp" line="2149"/>
         <source>DVD menu, mouse click</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር በ አይጥ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>Set dela&amp;y...</source>
         <translation>ማሰናጃ ማዘግ&amp;ያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1793"/>
         <source>Se&amp;t delay...</source>
         <translation>ማሰና&amp;ጃ ማዘግያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4624"/>
+        <location filename="../basegui.cpp" line="4614"/>
         <source>&amp;Jump to:</source>
         <translation>መዝለያ ወደ:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4625"/>
+        <location filename="../basegui.cpp" line="4615"/>
         <source>SMPlayer - Seek</source>
         <translation>SMP ማጫወቻ - መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4626"/>
+        <location filename="../basegui.cpp" line="4630"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMP ማጫወቻ - ድምፅ ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4637"/>
-        <location filename="../basegui.cpp" line="4641"/>
+        <location filename="../basegui.cpp" line="4627"/>
+        <location filename="../basegui.cpp" line="4631"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>ድምፅ ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4652"/>
-        <location filename="../basegui.cpp" line="4656"/>
+        <location filename="../basegui.cpp" line="4642"/>
+        <location filename="../basegui.cpp" line="4646"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMP ማጫወቻ - ንዑስ አርእስት ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4653"/>
-        <location filename="../basegui.cpp" line="4657"/>
+        <location filename="../basegui.cpp" line="4643"/>
+        <location filename="../basegui.cpp" line="4647"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ንዑስ አርእስት ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2068"/>
+        <location filename="../basegui.cpp" line="2060"/>
         <source>Toggle stay on top</source>
         <translation>መቀያየሪያ ከ ላይ ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5570"/>
-        <location filename="../basegui.cpp" line="5910"/>
+        <location filename="../basegui.cpp" line="5560"/>
+        <location filename="../basegui.cpp" line="5900"/>
         <source>Jump to %1</source>
         <translation>መዝለያ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1741"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>የ መመልከቻ ፎት ማን&amp;ሻ ማስጀመሪያ/ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1817"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>Subtitle &amp;visibility</source>
         <translation>ንዑስ አርእስት &amp;መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1927"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>Next wheel function</source>
         <translation>የሚቀጥለው የ ጎማ ተግባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2138"/>
+        <location filename="../basegui.cpp" line="2130"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>ፕ&amp;ሮግራም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1969"/>
         <source>&amp;TV</source>
         <translation>&amp;ቲቪ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1972"/>
         <source>Radi&amp;o</source>
         <translation>ራዲ&amp;ዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1936"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>Subtitles onl&amp;y</source>
         <translation>ንዑስ አርእስት ብ&amp;ቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1929"/>
         <source>Volume + &amp;Seek</source>
         <translation>መጠን + &amp;መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1930"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>መጠን + መፈለጊያ + ጊዜ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1931"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>መጠን + መፈለጊያ + ጊዜ መቆጣጠሪያ + የ&amp;ቅላላ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1608"/>
+        <location filename="../basegui.cpp" line="1602"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>የ ቪዲዮ ማጣሪያ ይሰናከላል የ vdpau ሲጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>Fli&amp;p image</source>
         <translation>ምስል መገ&amp;ልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2002"/>
+        <location filename="../basegui.cpp" line="1994"/>
         <source>Zoo&amp;m</source>
         <translation>ማሳ&amp;ያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>Set &amp;A marker</source>
         <translation>ማሰናጃ &amp;A ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1713"/>
         <source>Set &amp;B marker</source>
         <translation>ማሰናጃ &amp;B ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>&amp;Clear A-B markers</source>
         <translation>ማሰናጃ A-B ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1988"/>
+        <location filename="../basegui.cpp" line="1980"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B ክፍል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1924"/>
         <source>Toggle deinterlacing</source>
         <translation>መቀያየሪያ deinterlacing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2116"/>
+        <location filename="../basegui.cpp" line="2108"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>&amp;Disc</source>
         <translation>&amp;ዲስክ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>F&amp;avorites</source>
         <translation>የ&amp;ምወዳቸው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1851"/>
         <source>Check for &amp;updates</source>
         <translation>&amp;ማሻሻያ መፈለጊያ</translation>
     </message>
@@ -2228,68 +2230,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3089"/>
+        <location filename="../core.cpp" line="3104"/>
         <source>Brightness: %1</source>
         <translation>ብርሁነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3120"/>
         <source>Contrast: %1</source>
         <translation>ማነፃፀሪያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3120"/>
+        <location filename="../core.cpp" line="3135"/>
         <source>Gamma: %1</source>
         <translation>ጋማ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3135"/>
+        <location filename="../core.cpp" line="3150"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3293"/>
+        <location filename="../core.cpp" line="3308"/>
         <source>Volume: %1</source>
         <translation>መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4203"/>
+        <location filename="../core.cpp" line="4218"/>
         <source>Zoom: %1</source>
         <translation>ማሳያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3421"/>
-        <location filename="../core.cpp" line="3432"/>
+        <location filename="../core.cpp" line="3436"/>
+        <location filename="../core.cpp" line="3447"/>
         <source>Font scale: %1</source>
         <translation>የ ፊደል መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4034"/>
+        <location filename="../core.cpp" line="4049"/>
         <source>Aspect ratio: %1</source>
         <translation>የ መጠን አንጻር: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4436"/>
+        <location filename="../core.cpp" line="4451"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>የ ፊደል ማጠራቀሚያ በ ማሻሻል ላይ: ይህ ትንሽ ጊዜ ይወስዳል...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3346"/>
+        <location filename="../core.cpp" line="3361"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>ንዑስ አርእስት ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3364"/>
+        <location filename="../core.cpp" line="3379"/>
         <source>Audio delay: %1 ms</source>
         <translation>ድምፅ ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3204"/>
+        <location filename="../core.cpp" line="3219"/>
         <source>Speed: %1</source>
         <translation>ፍጥነት: %1</translation>
     </message>
@@ -2304,42 +2306,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ለዚህ ቪዲዮ URL ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3517"/>
+        <location filename="../core.cpp" line="3532"/>
         <source>Subtitles on</source>
         <translation>ንዑስ አርእስት በርቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3519"/>
+        <location filename="../core.cpp" line="3534"/>
         <source>Subtitles off</source>
         <translation>ንዑስ አርእስት ጠፍቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4082"/>
+        <location filename="../core.cpp" line="4097"/>
         <source>Mouse wheel seeks now</source>
         <translation>በ አይጥ ቁልፍ አሁን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4085"/>
+        <location filename="../core.cpp" line="4100"/>
         <source>Mouse wheel changes volume now</source>
         <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4088"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4091"/>
+        <location filename="../core.cpp" line="4106"/>
         <source>Mouse wheel changes speed now</source>
         <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4412"/>
+        <location filename="../core.cpp" line="4427"/>
         <source>Screenshot saved as %1</source>
         <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4447"/>
+        <location filename="../core.cpp" line="4462"/>
         <source>Starting...</source>
         <translation>በ ማስጀመር ላይ...</translation>
     </message>
@@ -2354,17 +2356,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2719"/>
+        <location filename="../core.cpp" line="2717"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2741"/>
+        <location filename="../core.cpp" line="2739"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2761"/>
+        <location filename="../core.cpp" line="2759"/>
         <source>A-B markers cleared</source>
         <translation>A-B ምልክት ጸድቷል</translation>
     </message>
@@ -2976,7 +2978,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3074,7 +3079,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -4572,78 +4577,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="159"/>
+        <location filename="../mpvprocess.h" line="160"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>ይህ &apos;%1&apos; ማጣሪያ የ ተደገፈ አይደለም በ mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="160"/>
+        <location filename="../mpvprocess.h" line="161"/>
         <source>File:</source>
         <translation>ፋይል:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="161"/>
+        <location filename="../mpvprocess.h" line="162"/>
         <source>Video:</source>
         <translation>ቪዲዮ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="162"/>
+        <location filename="../mpvprocess.h" line="163"/>
         <source>Resolution:</source>
         <translation>ሪዞሊሽን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="164"/>
         <source>Frames per second:</source>
         <translation>ክፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="164"/>
+        <location filename="../mpvprocess.h" line="165"/>
         <source>Estimated:</source>
         <translation>የ ተገመተው:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="165"/>
+        <location filename="../mpvprocess.h" line="166"/>
         <source>Aspect Ratio:</source>
         <translation>ማነፃፀሪያ መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="166"/>
-        <location filename="../mpvprocess.h" line="169"/>
+        <location filename="../mpvprocess.h" line="167"/>
+        <location filename="../mpvprocess.h" line="170"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="167"/>
+        <location filename="../mpvprocess.h" line="168"/>
         <source>Dropped frames:</source>
         <translation>የ ተጣሉ ክፈፎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="168"/>
+        <location filename="../mpvprocess.h" line="169"/>
         <source>Audio:</source>
         <translation>ድምፅ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="170"/>
+        <location filename="../mpvprocess.h" line="171"/>
         <source>Sample Rate:</source>
         <translation>ናሙና መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="171"/>
+        <location filename="../mpvprocess.h" line="172"/>
         <source>Channels:</source>
         <translation>ጣቢያዎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="172"/>
+        <location filename="../mpvprocess.h" line="173"/>
         <source>Audio/video synchronization:</source>
         <translation>ድምፅ/ቪዲዮ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="173"/>
+        <location filename="../mpvprocess.h" line="174"/>
         <source>Cache fill:</source>
         <translation>ማጠራቀሚያ መሙያ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="174"/>
+        <location filename="../mpvprocess.h" line="175"/>
         <source>Used cache:</source>
         <translation>የ ተጠቀሙት ማጠራቀሚያ:</translation>
     </message>
@@ -7930,17 +7935,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8099,12 +8104,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
@@ -8114,7 +8119,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
@@ -8124,12 +8129,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
@@ -9686,13 +9691,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9705,19 +9716,19 @@ Do you want to overwrite?</source>
         <translation>የ smplayer የሚጠራቀምበትን ዳይሬክቶሪ መወሰኛ እና ፋይሎች ማዋቀሪያ (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="185"/>
+        <location filename="../mediasettings.cpp" line="183"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>ተሰናክሏል</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="196"/>
+        <location filename="../mediasettings.cpp" line="194"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>በራሱ</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="197"/>
+        <location filename="../mediasettings.cpp" line="195"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>ያልታወቀ</translation>
