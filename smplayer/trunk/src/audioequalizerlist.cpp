@@ -60,6 +60,7 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		}
 		s += "'";
 	}
+#ifndef SIMPLE_EQUALIZER
 	else
 	if (type == Superequalizer) {
 		for (int n = 0; n < 10; n++) {
@@ -75,10 +76,12 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 			if (n == 9) s += "17b=" + QString::number(v) + ":";
 		}
 	}
+#endif
 
 	return s;
 }
 
+#ifndef SIMPLE_EQUALIZER
 QStringList AudioEqualizerHelper::equalizerListForCommand(AudioEqualizerList values,
 	AudioEqualizerList old_values, AudioEqualizerType type) 
 {
@@ -137,3 +140,4 @@ QStringList AudioEqualizerHelper::equalizerListToStringList(AudioEqualizerList v
 
 	return l;
 }
+#endif
