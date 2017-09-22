@@ -28,7 +28,7 @@
 #define EQ_SUPEREQUALIZER 4
 #define EQ_FEQUALIZER 5
 
-#define USE_EQUALIZER EQ_ANEQUALIZER
+#define USE_EQUALIZER EQ_OLD
 
 //#define USE_ASPECT_IN_PAD
 
@@ -824,6 +824,7 @@ void MPVProcess::enableEarwax(bool b) {
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	qDebug("MPVProcess::setAudioEqualizer");
 
+/*
 #if USE_EQUALIZER == EQ_ANEQUALIZER
 
 	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Anequalizer);
@@ -843,18 +844,21 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	previous_eq_list = l;
 
 #else
+*/
 
 	QString eq_filter = audioEqualizerFilter(l);
 	if (previous_eq == eq_filter) return;
 
 	if (!previous_eq.isEmpty()) {
-		writeToStdin("af del " + previous_eq);
+		writeToStdin("af del \"" + previous_eq + "\"");
 	}
 
-	writeToStdin("af add " + eq_filter);
+	writeToStdin("af add \"" + eq_filter + "\"");
 	previous_eq = eq_filter;
 
+/*
 #endif
+*/
 }
 
 void MPVProcess::setAudioDelay(double delay) {
