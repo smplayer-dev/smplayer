@@ -824,8 +824,7 @@ void MPVProcess::enableEarwax(bool b) {
 void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	qDebug("MPVProcess::setAudioEqualizer");
 
-/*
-#if USE_EQUALIZER == EQ_ANEQUALIZER
+	#if !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_ANEQUALIZER
 
 	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Anequalizer);
 	foreach(QString command, commands) {
@@ -834,7 +833,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 	previous_eq_list = l;
 
-#elif USE_EQUALIZER == EQ_FIREQUALIZER
+	#elif !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_FIREQUALIZER
 
 	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Firequalizer);
 	foreach(QString command, commands) {
@@ -843,8 +842,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 	previous_eq_list = l;
 
-#else
-*/
+	#else
 
 	QString eq_filter = audioEqualizerFilter(l);
 	if (previous_eq == eq_filter) return;
@@ -856,9 +854,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	writeToStdin("af add \"" + eq_filter + "\"");
 	previous_eq = eq_filter;
 
-/*
 #endif
-*/
 }
 
 void MPVProcess::setAudioDelay(double delay) {
@@ -1232,20 +1228,26 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_ANEQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Anequalizer);
-	f = "@anequalizer:lavfi=[anequalizer=" + values + "]";
+	f = "lavfi=[anequalizer=" + values + "]";
+	#ifndef SIMPLE_EQUALIZER
+	f = "@anequalizer:" + f;
+	#endif
 #endif
 
 #if USE_EQUALIZER == EQ_FIREQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
-	f = "@firequalizer:lavfi=[firequalizer=" + values + "]";
+	f = "lavfi=[firequalizer=" + values + "]";
+	#ifndef SIMPLE_EQUALIZER
+	f = "@firequalizer:" + f;
+	#endif
 #endif
 
-#if USE_EQUALIZER == EQ_SUPEREQUALIZER
+#if !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_SUPEREQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Superequalizer);
 	f = "lavfi=[superequalizer=" + values + "]";
 #endif
 
-#if USE_EQUALIZER == EQ_FIREQUALIZER_LIST
+#if !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_FIREQUALIZER_LIST
 	QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::Firequalizer);
 	foreach(QString option, e) {
 		if (!f.isEmpty()) f += ",";
