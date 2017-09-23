@@ -1242,12 +1242,13 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 	#endif
 #endif
 
-#if !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_SUPEREQUALIZER
+#ifndef SIMPLE_EQUALIZER
+#if USE_EQUALIZER == EQ_SUPEREQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Superequalizer);
 	f = "lavfi=[superequalizer=" + values + "]";
 #endif
 
-#if !defined(SIMPLE_EQUALIZER) && USE_EQUALIZER == EQ_FIREQUALIZER_LIST
+#if USE_EQUALIZER == EQ_FIREQUALIZER_LIST
 	QStringList e = AudioEqualizerHelper::equalizerListToStringList(l, AudioEqualizerHelper::Firequalizer);
 	foreach(QString option, e) {
 		if (!f.isEmpty()) f += ",";
@@ -1263,6 +1264,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 		f += "equalizer=" + option;
 	}
 	f = "lavfi=[aresample=44100," + f + "]";
+#endif
 #endif
 
 	return f;
