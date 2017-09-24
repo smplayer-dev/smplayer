@@ -1,3 +1,27 @@
+Version 17.10:
+
+(2017-09-22)
+ * (mpv) Use firequalizer.
+
+(2017-09-21)
+ * (mpv) Use lavfi for stereo3d.
+
+(2017-09-18)
+ * (mpv) Use lavfi for rotate, yadif and pan.
+ * (mpv) Don't restart the process when changing the stereo mode option.
+
+(2017-09-16)
+ * (mpv) Use lavfi for hqdn3d, kerndeint, phase, noise, blur, sharpen,
+   lb, l5, deblock, dering, postprocessing, extrastereo, earwax and volnorm.
+ * Enable the karaoke filter with mpv.
+
+(2017-09-15)
+ * (mpv) Use lavfi for flip and mirror.
+
+(2017-09-14)
+ * (mpv) Use the pad filter instead of expand.
+
+
 Version 17.9:
 
 (2017-08-23)
