@@ -1,3 +1,10 @@
+smplayer (17.10.0) precise; urgency=low
+
+  * Replace the deprecated video and audio filters by mpv with new ones.
+  * The karaoke filter is available again when using mpv.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 29 Sep 2017 21:51:59 +0200
+
 smplayer (17.9.0) precise; urgency=medium
 
   * Now it's possible to the search for subtitles using the filename instead of
