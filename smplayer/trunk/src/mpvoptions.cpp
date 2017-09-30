@@ -1211,7 +1211,7 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		else
 		if (o == "right") f = "pan=mono|c0=c1";
 		else
-		if (o == "reverse") f = "pan=stereo|c0=c1:c1=c0";
+		if (o == "reverse") f = "pan=stereo|c0=c1|c1=c0";
 		else
 		if (o == "mono") f = "pan=mono|c0=.5*c0+.5*c1";
 	}
