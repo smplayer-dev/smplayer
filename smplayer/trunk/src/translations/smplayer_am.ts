@@ -7935,17 +7935,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="293"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;በ ላዩ ላይ ደርቦ መጻፊያ በ ነበረው VTT ፋይሎች ላይ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="300"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>ማስታወቂያዎችን ለ &amp;ማስወገድ መሞከሪያ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="309"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>የ &amp;ንዑስ አረስቶች ቦታ በ መመልከቻው ላይ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="364"/>
@@ -8104,12 +8104,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>ደርቦ መጻፊያ በ ነበረው VTT ፋይሎች ላይ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="291"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ምርጫ ካስቻሉ SMPlayer ደርቦ ይጽፍበታል በ VTT ፋይሎች ላይ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
@@ -8119,7 +8119,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="294"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ምርጫ ካስቻሉ SMPlayer ማስታወቂያዎች በ ንዑስ አርእስት ውስጥ ይፈልግ እና ያስወግዳቸዋል</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
@@ -8129,12 +8129,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="298"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ምርጫ የሚያሰናዳው በ መመልከቻው ላይ የ ንዑስ አርእስት ማሳያ ቦታ ነው</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 የ መመልከቻው ላይኛው ክፍል ነው: 100 የ መመልከቻው ታችኛው ክፍል ነው: </translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
