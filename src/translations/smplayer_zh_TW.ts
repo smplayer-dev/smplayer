@@ -5776,7 +5776,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1007"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation>選項「其他」讓您可以手動選取執行檔路徑。</translation>
+        <translation>若您想手動指定引擎執行檔的路徑，請選擇「其他」。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1010"/>
@@ -7886,7 +7886,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation>Youtube（及其他網站）(&amp;Y)</translation>
+        <translation>Youtube 及其他網站 (&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
@@ -8927,7 +8927,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>自動載入字幕檔案(*.srt, *.sub...)(&amp;T)：</translation>
+        <translation>自動載入字幕檔案 (*.srt, *.sub...) (&amp;T)：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
@@ -9007,7 +9007,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
-        <translation>嘗試自動檢測到這個語言</translation>
+        <translation>嘗試自動偵測此語言</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -9027,7 +9027,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation>嘗試對這個語言自動檢測(&amp;U)：</translation>
+        <translation>嘗試自動偵測此語言 (&amp;U)：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
@@ -9375,7 +9375,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>如果勾選這個選項，字幕將出現在擷取的影像中。&lt;b&gt;注意：&lt;/b&gt;有時，它可能會導致一些麻煩。</translation>
+        <translation>若勾選此項，字幕將會出現在擷取的影像中。&lt;b&gt;注意：&lt;/b&gt;勾選後，有時可能會出現一些問題。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
