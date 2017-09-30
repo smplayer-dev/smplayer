@@ -1167,10 +1167,12 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	}
 	else
 	if (filter_name == "letterbox") {
+		QSize desktop_size = option.toSize();
 		#ifdef USE_ASPECT_IN_PAD
-		f = QString("pad=aspect=%1:y=(oh-ih)/2").arg(option.toDouble());
+		double aspect = (double) desktop_size.width() / desktop_size.height();
+		f = QString("pad=aspect=%1:y=(oh-ih)/2").arg(aspect);
 		#else
-		f = QString("pad=iw:iw/%1:0:(oh-ih)/2").arg(option.toDouble());
+		f = QString("pad=iw:iw/%1*%2:0:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
 		#endif
 	}
 	else
