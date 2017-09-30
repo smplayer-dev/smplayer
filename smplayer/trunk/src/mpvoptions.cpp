@@ -28,7 +28,11 @@
 #define EQ_SUPEREQUALIZER 4
 #define EQ_FEQUALIZER 5
 
+#ifdef Q_OS_WIN
 #define USE_EQUALIZER EQ_FIREQUALIZER
+#else
+#define USE_EQUALIZER EQ_OLD
+#endif
 
 //#define USE_ASPECT_IN_PAD
 
