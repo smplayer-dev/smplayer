@@ -224,7 +224,9 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 	}
 	else
 	if (filter_name == "letterbox") {
-		arg << "-vf-add" << "expand=aspect=" + option;
+		QSize desktop_size = value.toSize();
+		double aspect = (double) desktop_size.width() / desktop_size.height();
+		arg << "-vf-add" << "expand=aspect=" + QString::number(aspect);
 	}
 	/*
 	else
