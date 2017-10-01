@@ -45,9 +45,9 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
-//#define USE_CONFIG_VERSION
+#define USE_CONFIG_VERSION
 #ifdef USE_CONFIG_VERSION
-#define CURRENT_CONFIG_VERSION 4
+#define CURRENT_CONFIG_VERSION 5
 #endif
 
 using namespace Global;
@@ -160,7 +160,11 @@ void Preferences::reset() {
 	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
 	use_hwac3 = false;
+#ifdef Q_OS_WIN
 	use_audio_equalizer = true;
+#else
+	use_audio_equalizer = false;
+#endif
 
 	global_volume = true;
 	volume = 50;
@@ -1810,6 +1814,13 @@ void Preferences::load() {
 
 			resize_method = Never;
 			//move_when_dragging = false;
+		}
+		if (config_version <= 5) {
+			#ifdef Q_OS_WIN
+			#else
+			use_audio_equalizer = false;
+			initial_volnorm = false;
+			#endif
 		}
 		config_version = CURRENT_CONFIG_VERSION;
 	}
