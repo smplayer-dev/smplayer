@@ -1172,7 +1172,7 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		QSize desktop_size = option.toSize();
 		#ifdef USE_ASPECT_IN_PAD
 		double aspect = (double) desktop_size.width() / desktop_size.height();
-		f = QString("pad=aspect=%1:y=(oh-ih)/2").arg(aspect);
+		f = QString("pad=aspect=%1:y=(oh-ih)/2:x=(ow-iw)/2").arg(aspect);
 		#else
 		f = QString("pad=iw:iw/%1*%2:0:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
 		#endif
