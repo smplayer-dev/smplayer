@@ -81,11 +81,10 @@ void Preferences::reset() {
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	mplayer_bin= "mpv/mpv.exe";
-	if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+	if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
 		mplayer_bin= "mplayer/mplayer.exe";
 	}
 #else
-	//mplayer_bin = "mplayer";
 	mplayer_bin = "mpv";
 #endif
 
@@ -1817,6 +1816,9 @@ void Preferences::load() {
 		}
 		if (config_version <= 5) {
 			#ifdef Q_OS_WIN
+			if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
+				mplayer_bin= "mplayer/mplayer.exe";
+			}
 			#else
 			use_audio_equalizer = false;
 			initial_volnorm = false;
