@@ -487,6 +487,9 @@ public:
 
 	// Streaming
 	int streaming_type;
+#ifdef MPV_SUPPORT
+	QString ytdl_quality;
+#endif
 	#ifdef YOUTUBE_SUPPORT
 	int yt_quality;
 	QString yt_user_agent;

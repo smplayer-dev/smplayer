@@ -450,6 +450,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		}
 	}
 	else
+	if (option_name == "ytdl_quality") {
+		if (isOptionAvailable("--ytdl-format")) {
+			QString quality = value.toString();
+			if (!quality.isEmpty()) arg << "-ytdl-format=" + quality;
+		}
+	}
+	else
 	if (option_name == "fontconfig") {
 		if (isOptionAvailable("--use-text-osd")) {
 			bool b = value.toBool();

@@ -2415,8 +2415,11 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 			qDebug() << "Core::startMplayer: enable_sites:" << enable_sites;
 			proc->setOption("enable_streaming_sites_support", enable_sites);
+			if (enable_sites) proc->setOption("ytdl_quality", pref->ytdl_quality);
 		} else {
-			proc->setOption("enable_streaming_sites_support", pref->streaming_type == Preferences::StreamingYTDL);
+			bool enable_sites = pref->streaming_type == Preferences::StreamingYTDL;
+			proc->setOption("enable_streaming_sites_support", enable_sites);
+			if (enable_sites) proc->setOption("ytdl_quality", pref->ytdl_quality);
 		}
 	}
 #endif
