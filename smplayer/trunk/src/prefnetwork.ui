@@ -62,6 +62,57 @@
         </layout>
        </item>
        <item>
+        <widget class="QWidget" name="ytdl_quality_frame" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="ytdl_quality_label">
+            <property name="text">
+             <string>P&amp;referred quality:</string>
+            </property>
+            <property name="buddy">
+             <cstring>ytdl_quality_combo</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="ytdl_quality_combo"/>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>221</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QGroupBox" name="youtube_box">
          <property name="title">
           <string>Options for YouTube</string>
@@ -491,6 +542,7 @@
  <tabstops>
   <tabstop>tab_widget</tabstop>
   <tabstop>streaming_type_combo</tabstop>
+  <tabstop>ytdl_quality_combo</tabstop>
   <tabstop>yt_quality_combo</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>local_ip_combo</tabstop>

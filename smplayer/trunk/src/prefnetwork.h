@@ -56,6 +56,11 @@ protected:
 	void setStreamingType(int);
 	int streamingType();
 
+#ifdef MPV_SUPPORT
+	void setYTDLQuality(const QString & q);
+	QString YTDLQuality();
+#endif
+
 #ifdef CHROMECAST_SUPPORT
 	void setLocalIP(const QString & ip, const QStringList & values);
 	QString localIP();
