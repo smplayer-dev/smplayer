@@ -64,6 +64,10 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	subs_box->hide();
 #endif
 
+#ifndef MPV_SUPPORT
+	ytdl_quality_frame->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -96,6 +100,22 @@ void PrefNetwork::retranslateStrings() {
 	#endif
 	streaming_type_combo->setCurrentIndex(streaming_item);
 
+	#ifdef MPV_SUPPORT
+	int quality_item = ytdl_quality_combo->currentIndex();
+	ytdl_quality_combo->clear();
+
+	ytdl_quality_combo->addItem(tr("Best video and audio"), "");
+	ytdl_quality_combo->addItem(tr("Best video"), "best");
+	ytdl_quality_combo->addItem("1080p", "[height <=? 1080]");
+	ytdl_quality_combo->addItem("720p", "[height <=? 720]");
+	ytdl_quality_combo->addItem("480p", "[height <=? 480]");
+	ytdl_quality_combo->addItem("360p", "[height <=? 360]");
+	ytdl_quality_combo->addItem("240p", "[height <=? 240]");
+	ytdl_quality_combo->addItem("144p", "[height <=? 144]");
+
+	ytdl_quality_combo->setCurrentIndex(quality_item);
+	#endif
+
 	createHelp();
 }
 
@@ -112,6 +132,10 @@ void PrefNetwork::setData(Preferences * pref) {
 #ifdef YOUTUBE_SUPPORT
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
+#endif
+
+#ifdef MPV_SUPPORT
+	setYTDLQuality(pref->ytdl_quality);
 #endif
 
 #ifdef CHROMECAST_SUPPORT
@@ -144,6 +168,10 @@ void PrefNetwork::getData(Preferences * pref) {
 #ifdef YOUTUBE_SUPPORT
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
+#endif
+
+#ifdef MPV_SUPPORT
+	pref->ytdl_quality = YTDLQuality();
 #endif
 
 #ifdef CHROMECAST_SUPPORT
@@ -194,9 +222,26 @@ int PrefNetwork::streamingType() {
 	return streaming_type_combo->itemData(i).toInt();
 }
 
+#ifdef MPV_SUPPORT
+void PrefNetwork::setYTDLQuality(const QString & q) {
+	int i = ytdl_quality_combo->findData(q);
+	if (i < 0) i = 0;
+	ytdl_quality_combo->setCurrentIndex(i);
+}
+
+QString PrefNetwork::YTDLQuality() {
+	int i = ytdl_quality_combo->currentIndex();
+	return ytdl_quality_combo->itemData(i).toString();
+}
+#endif
+
 void PrefNetwork::streaming_type_combo_changed(int i) {
 	//qDebug() << "PrefNetwork::streaming_type_combo_changed:" << i;
 	youtube_box->setEnabled(i == Preferences::StreamingYT || i == Preferences::StreamingAuto);
+
+#ifdef MPV_SUPPORT
+	ytdl_quality_frame->setEnabled(i == Preferences::StreamingAuto || i == Preferences::StreamingYTDL);
+#endif
 }
 
 #ifdef CHROMECAST_SUPPORT
