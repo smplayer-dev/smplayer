@@ -508,6 +508,7 @@ void Preferences::reset() {
 
 #ifdef MPV_SUPPORT
 	streaming_type = StreamingAuto;
+	ytdl_quality = "";
 #else
 	streaming_type = StreamingYT;
 #endif
@@ -1040,6 +1041,9 @@ void Preferences::save() {
 
 	set->beginGroup("streaming");
 	set->setValue("streaming_type", streaming_type);
+#ifdef MPV_SUPPORT
+	set->setValue("ytdl_quality", ytdl_quality);
+#endif
 
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
@@ -1618,6 +1622,9 @@ void Preferences::load() {
 
 	set->beginGroup("streaming");
 	streaming_type = set->value("streaming_type", streaming_type).toInt();
+#ifdef MPV_SUPPORT
+	ytdl_quality = set->value("ytdl_quality", ytdl_quality).toString();
+#endif
 
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
