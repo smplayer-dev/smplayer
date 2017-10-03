@@ -291,6 +291,11 @@ void PrefNetwork::createHelp() {
 		"</ul>"
 	);
 
+#ifdef MPV_SUPPORT
+	setWhatsThis(ytdl_quality_combo, tr("Preferred quality"),
+		tr("This option specifies the preferred quality that youtube-dl should use."));
+#endif
+
 	/*
 	setWhatsThis(yt_support_check, tr("Enable Youtube internal support"),
 		tr("If this option is checked, SMPlayer will try to play videos from Youtube URLs.") );
