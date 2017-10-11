@@ -294,7 +294,13 @@ void PrefNetwork::createHelp() {
 
 #ifdef MPV_SUPPORT
 	setWhatsThis(ytdl_quality_combo, tr("Preferred quality"),
-		tr("This option specifies the preferred quality that youtube-dl should use."));
+		tr("This option specifies the preferred quality for the video streams handled by youtube-dl.") +
+		"<ul>"
+		"<li><b>" + tr("Best video and audio") +":</b> " + tr("selects the best video and audio streams available") +"</li>"
+		"<li><b>" + tr("Best") +":</b> " + tr("selects the best quality format available as a single file") +"</li>"
+		"<li><b>" + tr("1080p, 720p...") +":</b> " + tr("will try to use the selected resolution if available") +"</li>"
+		"<li><b>" + tr("Worst") +":</b> " + tr("selects the worst quality format available") +"</li>"
+		"</ul>");
 #endif
 
 	/*
