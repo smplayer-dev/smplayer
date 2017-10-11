@@ -105,7 +105,7 @@ void PrefNetwork::retranslateStrings() {
 	ytdl_quality_combo->clear();
 
 	ytdl_quality_combo->addItem(tr("Best video and audio"), "");
-	ytdl_quality_combo->addItem(tr("Best video"), "best");
+	ytdl_quality_combo->addItem(tr("Best"), "best");
 	ytdl_quality_combo->addItem("1080p", "[height <=? 1080]");
 	ytdl_quality_combo->addItem("720p", "[height <=? 720]");
 	ytdl_quality_combo->addItem("480p", "[height <=? 480]");
