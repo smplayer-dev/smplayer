@@ -2230,68 +2230,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3104"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Brightness: %1</source>
         <translation>ብርሁነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3120"/>
+        <location filename="../core.cpp" line="3123"/>
         <source>Contrast: %1</source>
         <translation>ማነፃፀሪያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3135"/>
+        <location filename="../core.cpp" line="3138"/>
         <source>Gamma: %1</source>
         <translation>ጋማ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3165"/>
+        <location filename="../core.cpp" line="3168"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3308"/>
+        <location filename="../core.cpp" line="3311"/>
         <source>Volume: %1</source>
         <translation>መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4218"/>
+        <location filename="../core.cpp" line="4221"/>
         <source>Zoom: %1</source>
         <translation>ማሳያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3436"/>
-        <location filename="../core.cpp" line="3447"/>
+        <location filename="../core.cpp" line="3439"/>
+        <location filename="../core.cpp" line="3450"/>
         <source>Font scale: %1</source>
         <translation>የ ፊደል መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4049"/>
+        <location filename="../core.cpp" line="4052"/>
         <source>Aspect ratio: %1</source>
         <translation>የ መጠን አንጻር: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4451"/>
+        <location filename="../core.cpp" line="4454"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>የ ፊደል ማጠራቀሚያ በ ማሻሻል ላይ: ይህ ትንሽ ጊዜ ይወስዳል...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3361"/>
+        <location filename="../core.cpp" line="3364"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>ንዑስ አርእስት ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3379"/>
+        <location filename="../core.cpp" line="3382"/>
         <source>Audio delay: %1 ms</source>
         <translation>ድምፅ ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3219"/>
+        <location filename="../core.cpp" line="3222"/>
         <source>Speed: %1</source>
         <translation>ፍጥነት: %1</translation>
     </message>
@@ -2306,42 +2306,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ለዚህ ቪዲዮ URL ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3532"/>
+        <location filename="../core.cpp" line="3535"/>
         <source>Subtitles on</source>
         <translation>ንዑስ አርእስት በርቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3534"/>
+        <location filename="../core.cpp" line="3537"/>
         <source>Subtitles off</source>
         <translation>ንዑስ አርእስት ጠፍቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4097"/>
+        <location filename="../core.cpp" line="4100"/>
         <source>Mouse wheel seeks now</source>
         <translation>በ አይጥ ቁልፍ አሁን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4100"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Mouse wheel changes volume now</source>
         <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4106"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4106"/>
+        <location filename="../core.cpp" line="4109"/>
         <source>Mouse wheel changes speed now</source>
         <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4427"/>
+        <location filename="../core.cpp" line="4430"/>
         <source>Screenshot saved as %1</source>
         <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4462"/>
+        <location filename="../core.cpp" line="4465"/>
         <source>Starting...</source>
         <translation>በ ማስጀመር ላይ...</translation>
     </message>
@@ -2356,17 +2356,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2717"/>
+        <location filename="../core.cpp" line="2720"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2739"/>
+        <location filename="../core.cpp" line="2742"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2759"/>
+        <location filename="../core.cpp" line="2762"/>
         <source>A-B markers cleared</source>
         <translation>A-B ምልክት ጸድቷል</translation>
     </message>
@@ -7868,12 +7868,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="75"/>
+        <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality</source>
         <translation>በ ድጋሚ ማጫወቻ &amp;ጥራት</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="105"/>
+        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;User agent</source>
         <translation>የ &amp;ተጠቃሚ ወኪል</translation>
     </message>
@@ -7888,98 +7888,103 @@ Do you want to overwrite?</source>
         <translation>ድጋፍ ለ &amp;ቪዲዮ ድህረ ገጾች:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="67"/>
+        <location filename="../prefnetwork.ui" line="89"/>
+        <source>P&amp;referred quality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
         <translation>ምርጫ ለ ዩቲዩብ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="137"/>
+        <location filename="../prefnetwork.ui" line="188"/>
         <source>C&amp;hromecast</source>
         <translation>C&amp;hromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="143"/>
+        <location filename="../prefnetwork.ui" line="194"/>
         <source>Web Server</source>
         <translation>የ ዌብ ሰርቨር</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="155"/>
+        <location filename="../prefnetwork.ui" line="206"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation>በዚህ ክፍል ውስጥ የሚቀየረው የሚፈጸመው በሚቀጥለው ጊዜ የ ዌብ ሰርቨር ሲጀምር ነው</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="175"/>
+        <location filename="../prefnetwork.ui" line="226"/>
         <source>&amp;Directory listing</source>
         <translation>የ &amp;ዳይሬክቶሪ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="182"/>
+        <location filename="../prefnetwork.ui" line="233"/>
         <source>Local &amp;IP:</source>
         <translation>የ አካባቢ &amp;IP:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="228"/>
+        <location filename="../prefnetwork.ui" line="279"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation>የ አካባቢ መገናኛዎች ለ ማጫወት ከ ኮምፒዩተር ውስጥ ወደ Chromecast, SMPlayer አነስተኛ የ ዌብ ሰርቨር ያስኬዳል: እርስዎ አንዳንድ ነገር እዚህ ማሰናዳት ይችላሉ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="255"/>
+        <location filename="../prefnetwork.ui" line="306"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="261"/>
+        <location filename="../prefnetwork.ui" line="312"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation>መቀየሪያ SRT ንዑስ አርእስት ወደ &amp;VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="293"/>
+        <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation>&amp;በ ላዩ ላይ ደርቦ መጻፊያ በ ነበረው VTT ፋይሎች ላይ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="300"/>
+        <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
         <translation>ማስታወቂያዎችን ለ &amp;ማስወገድ መሞከሪያ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="309"/>
+        <location filename="../prefnetwork.ui" line="360"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation>የ &amp;ንዑስ አረስቶች ቦታ በ መመልከቻው ላይ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="364"/>
+        <location filename="../prefnetwork.ui" line="415"/>
         <source>&amp;Proxy</source>
         <translation>&amp;ወኪል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="370"/>
+        <location filename="../prefnetwork.ui" line="421"/>
         <source>&amp;Enable proxy</source>
         <translation>ወኪል &amp;ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="383"/>
+        <location filename="../prefnetwork.ui" line="434"/>
         <source>&amp;Host:</source>
         <translation>&amp;ጋባዥ:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="205"/>
-        <location filename="../prefnetwork.ui" line="396"/>
+        <location filename="../prefnetwork.ui" line="256"/>
+        <location filename="../prefnetwork.ui" line="447"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="416"/>
+        <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Username:</source>
         <translation>የ &amp;ተጠቃሚ ስም:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="429"/>
+        <location filename="../prefnetwork.ui" line="480"/>
         <source>Pa&amp;ssword:</source>
         <translation>የ መግ&amp;ቢያ ቃል:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="446"/>
+        <location filename="../prefnetwork.ui" line="497"/>
         <source>&amp;Type:</source>
         <translation>&amp;አይነት:</translation>
     </message>
@@ -7994,216 +7999,269 @@ Do you want to overwrite?</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="75"/>
+        <location filename="../prefnetwork.cpp" line="79"/>
         <source>Network</source>
         <translation>ኔትዎርክ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="238"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation>ለ መጠቀም ይሞክራል የ mpv + youtube-dl ለሚፈልጉት ድህረ ገጽ </translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="257"/>
+        <location filename="../prefnetwork.cpp" line="314"/>
         <source>User agent</source>
         <translation>የ ተጠቃሚ ወኪል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="87"/>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="91"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>Disabled</source>
         <translation>ተሰናክሏል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="89"/>
-        <location filename="../prefnetwork.cpp" line="205"/>
-        <location filename="../prefnetwork.cpp" line="238"/>
+        <location filename="../prefnetwork.cpp" line="93"/>
+        <location filename="../prefnetwork.cpp" line="251"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Auto</source>
         <translation>በራሱ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="232"/>
+        <location filename="../prefnetwork.cpp" line="107"/>
+        <location filename="../prefnetwork.cpp" line="299"/>
+        <source>Best video and audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="115"/>
+        <location filename="../prefnetwork.cpp" line="302"/>
+        <source>Worst</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="278"/>
         <source>YouTube</source>
         <translation>ዩቲዩብ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="234"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
         <source>Support for video sites</source>
         <translation>ድጋፍ ለ ቪዲዮ ድህረ ገጾች:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>support for video sites is turned off</source>
         <translation>ድጋፍ ለ ቪዲዮ ድህረ ገጾች ጠፍቷል:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="241"/>
+        <location filename="../prefnetwork.cpp" line="287"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>የ ውስጥ ድጋፍ ብቻ ለ YouTube ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="244"/>
+        <location filename="../prefnetwork.cpp" line="290"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>ይጠቀማል የ mpv + youtube-dl ለ ሁሉም ድህረ ገጾች</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
+        <location filename="../prefnetwork.cpp" line="296"/>
+        <source>Preferred quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="297"/>
+        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="299"/>
+        <source>selects the best video and audio streams available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="108"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
+        <source>Best</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="300"/>
+        <source>selects the best quality format available as a single file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="301"/>
+        <source>1080p, 720p...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="301"/>
+        <source>will try to use the selected resolution if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="302"/>
+        <source>selects the worst quality format available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="311"/>
         <source>Playback quality</source>
         <translation>በ ድጋሚ ማጫወቻ ጥራት</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="312"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>እርስዎ የሚፈልጉትን የ YouTube ቪዲዮ ጥራት ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="258"/>
+        <location filename="../prefnetwork.cpp" line="315"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation>ተጠቃሚውን ማሰናጃ ከ SMPlayer ከ ዩቲዩብ ጋር ሲገናኝ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="327"/>
         <source>Chromecast</source>
         <translation>Chromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="272"/>
+        <location filename="../prefnetwork.cpp" line="329"/>
         <source>Local IP</source>
         <translation>የ አካባቢ IP:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="273"/>
+        <location filename="../prefnetwork.cpp" line="330"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation>የዚህ ኮምፒዩተር የ አካባቢ IP አድራሻ ይተላለፋል ወደ Chromecast ሰለዚህ በዚህ ኮምፒዩተር ውስጥ ፋይሎች ጋር መድረስ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="277"/>
+        <location filename="../prefnetwork.cpp" line="334"/>
         <source>The port that the web server will use.</source>
         <translation>የ ዌብ ሰርቨር የሚጠቀመው port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="279"/>
+        <location filename="../prefnetwork.cpp" line="336"/>
         <source>Directory listing</source>
         <translation>የ ዳይሬክቶሪ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="337"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation>የ ዌብ ሰርቨር በሚሄድ ጊዜ: ማንኛውም አካል በ እርስዎ ኔትዎርክ ውስጥ ያለ ፋይሎች ጋር መድረስ ይችላል በ ኮምፒዩተሩ ውስጥ: ይህን ምርጫ ካበሩ ማንኛውም አካል የ ፋይሎቹን ዝርዝር ማግኘት ይችላል: ይህም ምርጫ ከጠፋ ዝርዝሩ አይታይም</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="343"/>
         <source>Convert SRT subtitles to VTT</source>
         <translation>መቀየሪያ SRT ንዑስ አርእስት ወደ &amp;VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="287"/>
+        <location filename="../prefnetwork.cpp" line="344"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
         <translation>ይህን ምርጫ ሲያስችሉ የ SMPlayer ራሱ በራሱ ይቀይራል የ ንዑስ አርእስት ፋይሎች ከ SRT አቀራረብ ወደ VTT አቀራረብ: የ VTT ንዑስ አርእስት ተመሳሳይ የ ፋይል ስም ነገር ግን ተጨማሪ .vtt ይኖረዋል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="290"/>
+        <location filename="../prefnetwork.cpp" line="347"/>
         <source>Overwrite existing VTT files</source>
         <translation>ደርቦ መጻፊያ በ ነበረው VTT ፋይሎች ላይ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="291"/>
+        <location filename="../prefnetwork.cpp" line="348"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
         <translation>ይህን ምርጫ ካስቻሉ SMPlayer ደርቦ ይጽፍበታል በ VTT ፋይሎች ላይ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="293"/>
+        <location filename="../prefnetwork.cpp" line="350"/>
         <source>Try to remove advertisements</source>
         <translation>ማስታወቂያ ለ ማስወገድ ሞክር</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="294"/>
+        <location filename="../prefnetwork.cpp" line="351"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
         <translation>ይህን ምርጫ ካስቻሉ SMPlayer ማስታወቂያዎች በ ንዑስ አርእስት ውስጥ ይፈልግ እና ያስወግዳቸዋል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="297"/>
+        <location filename="../prefnetwork.cpp" line="354"/>
         <source>Position of subtitles on screen</source>
         <translation>የ ንዑስ አርእስት ቦታ በ መመልከቻ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="298"/>
+        <location filename="../prefnetwork.cpp" line="355"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
         <translation>ይህ ምርጫ የሚያሰናዳው በ መመልከቻው ላይ የ ንዑስ አርእስት ማሳያ ቦታ ነው</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="356"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
         <translation>0 የ መመልከቻው ላይኛው ክፍል ነው: 100 የ መመልከቻው ታችኛው ክፍል ነው: </translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="300"/>
+        <location filename="../prefnetwork.cpp" line="357"/>
         <source>The special value -1 means the default position.</source>
         <translation>የ ተለየ ቦታ ዋጋ -1 ማለት ነባር ቦታ ነው</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="361"/>
         <source>Proxy</source>
         <translation>ወኪል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="306"/>
+        <location filename="../prefnetwork.cpp" line="363"/>
         <source>Enable proxy</source>
         <translation>ወኪል ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="307"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>ማስቻያ/ማሰናከያ ወኪል መጠቀሚያ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="309"/>
+        <location filename="../prefnetwork.cpp" line="366"/>
         <source>Host</source>
         <translation>&amp;ጋባዥ:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="310"/>
+        <location filename="../prefnetwork.cpp" line="367"/>
         <source>The host name of the proxy.</source>
         <translation>የ ጋባዥ ስም ለ ወኪል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="276"/>
-        <location filename="../prefnetwork.cpp" line="312"/>
+        <location filename="../prefnetwork.cpp" line="333"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="313"/>
+        <location filename="../prefnetwork.cpp" line="370"/>
         <source>The port of the proxy.</source>
         <translation>The port of the proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="315"/>
+        <location filename="../prefnetwork.cpp" line="372"/>
         <source>Username</source>
         <translation>የ ተጠቃሚ ስም</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="316"/>
+        <location filename="../prefnetwork.cpp" line="373"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>ወኪሉ ማረጋገጫ የሚፈልግ ከሆነ: ይህ የ ተጠቃሚ ስም ማሰናጃ ነው</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="318"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>Password</source>
         <translation>የ መግቢያ ቃል</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="319"/>
+        <location filename="../prefnetwork.cpp" line="376"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>የ መግቢያ ቃል ለ ወኪል &lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; የ መግቢያ ቃል ይቀመጣል እንደ መደበኛ ጽሁፍ በ ማሰናጃ ፋይል ውስጥ ይቀመጣል: </translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="322"/>
+        <location filename="../prefnetwork.cpp" line="379"/>
         <source>Type</source>
         <translation>አይነት</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="323"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Select the proxy type to be used.</source>
         <translation>ይምረጡ የሚጠቀሙትን የ ወኪል አይነት</translation>
     </message>

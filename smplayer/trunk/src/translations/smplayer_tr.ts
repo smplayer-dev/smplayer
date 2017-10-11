@@ -2230,68 +2230,68 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3104"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Brightness: %1</source>
         <translation>Parlaklık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3120"/>
+        <location filename="../core.cpp" line="3123"/>
         <source>Contrast: %1</source>
         <translation>Zıtlık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3135"/>
+        <location filename="../core.cpp" line="3138"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Hue: %1</source>
         <translation>Renk tonu: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3165"/>
+        <location filename="../core.cpp" line="3168"/>
         <source>Saturation: %1</source>
         <translation>Doygunluk: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3308"/>
+        <location filename="../core.cpp" line="3311"/>
         <source>Volume: %1</source>
         <translation>Ses: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4218"/>
+        <location filename="../core.cpp" line="4221"/>
         <source>Zoom: %1</source>
         <translation>Yakınlık: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3436"/>
-        <location filename="../core.cpp" line="3447"/>
+        <location filename="../core.cpp" line="3439"/>
+        <location filename="../core.cpp" line="3450"/>
         <source>Font scale: %1</source>
         <translation>Yazıtipi ölçeği: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4049"/>
+        <location filename="../core.cpp" line="4052"/>
         <source>Aspect ratio: %1</source>
         <translation>En-boy oranı: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4451"/>
+        <location filename="../core.cpp" line="4454"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Yazıtipi önbelleğini güncelle. Bu işlem birkaç saniye sürer...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3361"/>
+        <location filename="../core.cpp" line="3364"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Altyazı gecikmesi: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3379"/>
+        <location filename="../core.cpp" line="3382"/>
         <source>Audio delay: %1 ms</source>
         <translation>Ses gecikmesi: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3219"/>
+        <location filename="../core.cpp" line="3222"/>
         <source>Speed: %1</source>
         <translation>Hız: %1</translation>
     </message>
@@ -2306,42 +2306,42 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Video bağlantısı bulunamadı</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3532"/>
+        <location filename="../core.cpp" line="3535"/>
         <source>Subtitles on</source>
         <translation>Altyazı açık</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3534"/>
+        <location filename="../core.cpp" line="3537"/>
         <source>Subtitles off</source>
         <translation>Altyazı kapalı</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4097"/>
+        <location filename="../core.cpp" line="4100"/>
         <source>Mouse wheel seeks now</source>
         <translation>Fare tekeri hızı değiştirir</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4100"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Fare tekeri ses düzeyini değiştirir</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4106"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Fare tekeri yakınlaştırma seviyesini değiştirir</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4106"/>
+        <location filename="../core.cpp" line="4109"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Fare tekeri hızı değiştirir</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4427"/>
+        <location filename="../core.cpp" line="4430"/>
         <source>Screenshot saved as %1</source>
         <translation>Ekran görüntüsü %1 olarak kaydedildi</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4462"/>
+        <location filename="../core.cpp" line="4465"/>
         <source>Starting...</source>
         <translation>Başlıyor...</translation>
     </message>
@@ -2356,17 +2356,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Ekran görüntüleri alınmadı, klasör yapılandırılmamış</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2717"/>
+        <location filename="../core.cpp" line="2720"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; işaretçisi %1 değerine ayarlandı</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2739"/>
+        <location filename="../core.cpp" line="2742"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; işaretçisi %1 değerine ayarlandı</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2759"/>
+        <location filename="../core.cpp" line="2762"/>
         <source>A-B markers cleared</source>
         <translation>A-B işaretçileri temizlendi</translation>
     </message>
@@ -7868,12 +7868,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="75"/>
+        <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality</source>
         <translation>Oynatma &amp;kalitesi</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="105"/>
+        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;User agent</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7888,98 +7888,103 @@ Do you want to overwrite?</source>
         <translation>&amp;Video siteleri için destekler</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="67"/>
+        <location filename="../prefnetwork.ui" line="89"/>
+        <source>P&amp;referred quality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
         <translation>YouTube seçenekleri</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="137"/>
+        <location filename="../prefnetwork.ui" line="188"/>
         <source>C&amp;hromecast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="143"/>
+        <location filename="../prefnetwork.ui" line="194"/>
         <source>Web Server</source>
         <translation>Web Sunucu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="155"/>
+        <location filename="../prefnetwork.ui" line="206"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="175"/>
+        <location filename="../prefnetwork.ui" line="226"/>
         <source>&amp;Directory listing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="182"/>
+        <location filename="../prefnetwork.ui" line="233"/>
         <source>Local &amp;IP:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="228"/>
+        <location filename="../prefnetwork.ui" line="279"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="255"/>
+        <location filename="../prefnetwork.ui" line="306"/>
         <source>Subtitles</source>
         <translation type="unfinished">Altyazılar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="261"/>
+        <location filename="../prefnetwork.ui" line="312"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="293"/>
+        <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="300"/>
+        <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="309"/>
+        <location filename="../prefnetwork.ui" line="360"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="364"/>
+        <location filename="../prefnetwork.ui" line="415"/>
         <source>&amp;Proxy</source>
         <translation>Vekil sunucu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="370"/>
+        <location filename="../prefnetwork.ui" line="421"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Vekil sunucuyu etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="383"/>
+        <location filename="../prefnetwork.ui" line="434"/>
         <source>&amp;Host:</source>
         <translation>&amp;Makine:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="205"/>
-        <location filename="../prefnetwork.ui" line="396"/>
+        <location filename="../prefnetwork.ui" line="256"/>
+        <location filename="../prefnetwork.ui" line="447"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="416"/>
+        <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Username:</source>
         <translation>&amp;Kullanıcı adı:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="429"/>
+        <location filename="../prefnetwork.ui" line="480"/>
         <source>Pa&amp;ssword:</source>
         <translation>Pa&amp;rola:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="446"/>
+        <location filename="../prefnetwork.ui" line="497"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tip:</translation>
     </message>
@@ -7994,216 +7999,269 @@ Do you want to overwrite?</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="75"/>
+        <location filename="../prefnetwork.cpp" line="79"/>
         <source>Network</source>
         <translation>Ağ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="238"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="257"/>
+        <location filename="../prefnetwork.cpp" line="314"/>
         <source>User agent</source>
         <translation>Kullanıcı aracısı</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="87"/>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="91"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>Disabled</source>
         <translation>Devredışı</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="89"/>
-        <location filename="../prefnetwork.cpp" line="205"/>
-        <location filename="../prefnetwork.cpp" line="238"/>
+        <location filename="../prefnetwork.cpp" line="93"/>
+        <location filename="../prefnetwork.cpp" line="251"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Auto</source>
         <translation>Otomatik</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="232"/>
+        <location filename="../prefnetwork.cpp" line="107"/>
+        <location filename="../prefnetwork.cpp" line="299"/>
+        <source>Best video and audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="115"/>
+        <location filename="../prefnetwork.cpp" line="302"/>
+        <source>Worst</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="278"/>
         <source>YouTube</source>
         <translation>YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="234"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
         <source>Support for video sites</source>
         <translation>Video siteleri için destekler</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="236"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>support for video sites is turned off</source>
         <translation>video siteleri için desteği kapat</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="241"/>
+        <location filename="../prefnetwork.cpp" line="287"/>
         <source>only the internal support for YouTube will be used</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="244"/>
+        <location filename="../prefnetwork.cpp" line="290"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
-        <source>Playback quality</source>
-        <translation>Oynatma kalitesi</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="255"/>
-        <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="258"/>
-        <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
-        <source>Chromecast</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="272"/>
-        <source>Local IP</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="273"/>
-        <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="277"/>
-        <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="279"/>
-        <source>Directory listing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
-        <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
-        <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="287"/>
-        <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="290"/>
-        <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="291"/>
-        <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="293"/>
-        <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="294"/>
-        <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
+        <location filename="../prefnetwork.cpp" line="296"/>
+        <source>Preferred quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
-        <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="298"/>
-        <source>This option sets the position on the screen where the subtitles are displayed.</source>
+        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
-        <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
+        <source>selects the best video and audio streams available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="108"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
+        <source>Best</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
+        <source>selects the best quality format available as a single file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="301"/>
+        <source>1080p, 720p...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="301"/>
+        <source>will try to use the selected resolution if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="302"/>
+        <source>selects the worst quality format available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="311"/>
+        <source>Playback quality</source>
+        <translation>Oynatma kalitesi</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="312"/>
+        <source>Select the preferred quality for YouTube videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="315"/>
+        <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="327"/>
+        <source>Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="329"/>
+        <source>Local IP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="330"/>
+        <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="334"/>
+        <source>The port that the web server will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="336"/>
+        <source>Directory listing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="337"/>
+        <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="343"/>
+        <source>Convert SRT subtitles to VTT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="344"/>
+        <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="347"/>
+        <source>Overwrite existing VTT files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="348"/>
+        <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="350"/>
+        <source>Try to remove advertisements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="351"/>
+        <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="354"/>
+        <source>Position of subtitles on screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="355"/>
+        <source>This option sets the position on the screen where the subtitles are displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="356"/>
+        <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="357"/>
         <source>The special value -1 means the default position.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="361"/>
         <source>Proxy</source>
         <translation>Vekil sunucu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="306"/>
+        <location filename="../prefnetwork.cpp" line="363"/>
         <source>Enable proxy</source>
         <translation>&amp;Vekil sunucuyu etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="307"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Vekil sunucu kullanımını aç/kapa.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="309"/>
+        <location filename="../prefnetwork.cpp" line="366"/>
         <source>Host</source>
         <translation>Makine:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="310"/>
+        <location filename="../prefnetwork.cpp" line="367"/>
         <source>The host name of the proxy.</source>
         <translation>Vekil sunucu makine adı.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="276"/>
-        <location filename="../prefnetwork.cpp" line="312"/>
+        <location filename="../prefnetwork.cpp" line="333"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="313"/>
+        <location filename="../prefnetwork.cpp" line="370"/>
         <source>The port of the proxy.</source>
         <translation>Vekil sunucu portu.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="315"/>
+        <location filename="../prefnetwork.cpp" line="372"/>
         <source>Username</source>
         <translation>Kullanıcı adı:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="316"/>
+        <location filename="../prefnetwork.cpp" line="373"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Vekil sunucu kimlik denetimi gerektiriyorsa, bu alan kullanıcı adını ayarlar.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="318"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>Password</source>
         <translation>Parola</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="319"/>
+        <location filename="../prefnetwork.cpp" line="376"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation type="unfinished">Vekil sunucu için gerekli parola. &lt;b&gt;Uyarı:&lt;/b&gt;parola, yapılandırma dosyasının içine görünecek şekilde kaydedilecektir.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="322"/>
+        <location filename="../prefnetwork.cpp" line="379"/>
         <source>Type</source>
         <translation>Tür</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="323"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Select the proxy type to be used.</source>
         <translation>Kullanılacak vekil sunucu tipini seçin.</translation>
     </message>
