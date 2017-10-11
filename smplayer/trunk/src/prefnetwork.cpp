@@ -112,6 +112,7 @@ void PrefNetwork::retranslateStrings() {
 	ytdl_quality_combo->addItem("360p", "[height <=? 360]");
 	ytdl_quality_combo->addItem("240p", "[height <=? 240]");
 	ytdl_quality_combo->addItem("144p", "[height <=? 144]");
+	ytdl_quality_combo->addItem(tr("Worst"), "worst");
 
 	ytdl_quality_combo->setCurrentIndex(quality_item);
 	#endif
