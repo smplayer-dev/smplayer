@@ -230,7 +230,8 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 	if (filter_name == "letterbox") {
 		QSize desktop_size = value.toSize();
 		double aspect = (double) desktop_size.width() / desktop_size.height();
-		arg << "-vf-add" << "expand=aspect=" + QString::number(aspect);
+		arg << "-vf-add" << "expand=aspect=" + QString::number(aspect) + ",harddup";
+		// harddup fixes subtitles not disappearing
 	}
 	/*
 	else
