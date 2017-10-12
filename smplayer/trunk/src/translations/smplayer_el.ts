@@ -7891,7 +7891,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Προτι&amp;μώμενη ποιότητα:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8031,13 +8031,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Άριστο βίντεο και ήχος</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Χείριστη</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8067,43 +8067,43 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Προτιμώμενη ποιότητα</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Αυτή η επιλογή καθορίζει την προτιμώμενη ποιότητα για τις ροές βίντεο που διαχειρίζεται το youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>επιλέγει τις άριστες διαθέσιμες ροές βίντεο και ήχου</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Άριστη</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>επιλέγει την άριστη ποιότητα της διαθέσιμης μορφής ως μοναδικό αρχείο</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>θα γίνει προσπάθεια χρήσης της επιλεγμένης ανάλυσης αν είναι διαθέσιμη</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>επιλέγει τον διαθέσιμο τύπο με την χείριστη ποιότητα</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9120,7 +9120,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
-        <translation>Το μέγεθος σε pixel.</translation>
+        <translation>Το μέγεθος σε εικονοστοιχεία.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
@@ -9150,7 +9150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation>Ορίζει το αριστερό περιθώριο σε pixel.</translation>
+        <translation>Ορίζει το αριστερό περιθώριο σε εικονοστοιχεία.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -9160,7 +9160,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation>Ορίζει το δεξί περιθώριο σε pixel.</translation>
+        <translation>Ορίζει το δεξί περιθώριο σε εικονοστοιχεία.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -9170,7 +9170,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation>Ορίζει το κάθετο περιθώριο σε pixel.</translation>
+        <translation>Ορίζει το κάθετο περιθώριο σε εικονοστοιχεία.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
@@ -9701,12 +9701,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>ανοίγει το μίνι Γραφικό Περιβάλλον (GUI) αντί για το προεπιλεγμένο.</translation>
+        <translation>ανοίγει το ελαχιστοποιημένο γραφικό περιβάλλον (GUI) αντί του εξ ορισμού.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>Επαναφορά παλιών συσχετίσεων και καθάρισμα του μητρώου (registry).</translation>
+        <translation>Επαναφορά παλιών συσχετίσεων και καθάρισμα του μητρώου.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="104"/>
@@ -10536,7 +10536,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
-        <translation>Τύπος Βίντεο: %1</translation>
+        <translation>Τύπος βίντεο: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="473"/>
@@ -10581,7 +10581,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
-        <translation>Χωρίς Πληροφορίες</translation>
+        <translation>Χωρίς πληροφορίες</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="459"/>
@@ -10656,7 +10656,7 @@ Do you want to overwrite?</source>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation>Οι Μικρογραφίες θα οργανώνονται σε ένα πίνακα.</translation>
+        <translation>Οι μικρογραφίες θα οργανώνονται σε ένα πίνακα.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
@@ -10729,7 +10729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation>Λίστα Αναπαραγωγής</translation>
+        <translation>Λίστα αναπαραγωγής</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
