@@ -19,9 +19,9 @@
 #ifndef HDPISUPPORT_H
 #define HDPISUPPORT_H
 
-#ifndef PORTABLE_APP
+//#ifndef PORTABLE_APP
 #define HDPI_STORE_DATA
-#endif
+//#endif
 
 #include <QString>
 

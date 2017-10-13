@@ -26,10 +26,35 @@
 #include "hdpisupport.h"
 #endif
 
+#ifdef PORTABLE_APP
+#ifdef Q_OS_WIN
+QString windowsApplicationPath() {
+	wchar_t my_path[_MAX_PATH+1];
+	GetModuleFileName(NULL, my_path,_MAX_PATH);
+	QString app_path = QString::fromWCharArray(my_path);
+	if (app_path.isEmpty()) return "";
+	QFileInfo fi(app_path);
+	return fi.absolutePath();
+}
+#endif
+
+QString hdpiConfig() {
+	#ifdef PORTABLE_APP
+	return windowsApplicationPath();
+	#else
+	return Paths::configPath();
+	#endif
+}
+#endif
+
 int main( int argc, char ** argv )
 {
 #ifdef HDPI_SUPPORT
-	HDPISupport * hdpi = new HDPISupport(Paths::configPath());
+	QString hdpi_config_path = hdpiConfig();
+	HDPISupport * hdpi = 0;
+	if (!hdpi_config_path.isEmpty()) {
+		hdpi = new HDPISupport(hdpi_config_path);
+	}
 #endif
 
 	MyApplication a( "smplayer", argc, argv );
@@ -82,6 +107,9 @@ int main( int argc, char ** argv )
 	}
 
 	SMPlayer * smplayer = new SMPlayer(config_path);
+	#ifdef HDPI_SUPPORT
+	qDebug() << "main: hdpi_config_path:" << hdpi_config_path;
+	#endif
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
 	if (c != SMPlayer::NoExit) {
 		return c;
@@ -93,7 +121,7 @@ int main( int argc, char ** argv )
 	delete smplayer;
 
 #ifdef HDPI_SUPPORT
-	delete hdpi;
+	if (hdpi != 0) delete hdpi;
 #endif
 
 	return r;
