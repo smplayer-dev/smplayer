@@ -26,8 +26,7 @@
 #include "hdpisupport.h"
 #endif
 
-#ifdef PORTABLE_APP
-#ifdef Q_OS_WIN
+#if defined(PORTABLE_APP) && defined(Q_OS_WIN)
 QString windowsApplicationPath() {
 	wchar_t my_path[_MAX_PATH+1];
 	GetModuleFileName(NULL, my_path,_MAX_PATH);
@@ -45,7 +44,6 @@ QString hdpiConfig() {
 	return Paths::configPath();
 	#endif
 }
-#endif
 
 int main( int argc, char ** argv )
 {
