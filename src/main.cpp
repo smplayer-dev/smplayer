@@ -24,7 +24,6 @@
 #ifdef HDPI_SUPPORT
 #include "paths.h"
 #include "hdpisupport.h"
-#endif
 
 #if defined(PORTABLE_APP) && defined(Q_OS_WIN)
 QString windowsApplicationPath() {
@@ -44,6 +43,7 @@ QString hdpiConfig() {
 	return Paths::configPath();
 	#endif
 }
+#endif // HDPI_SUPPORT
 
 int main( int argc, char ** argv )
 {
