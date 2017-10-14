@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="am">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2978,10 +2976,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
-            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
-        </translation>
+        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3079,7 +3074,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -7890,7 +7885,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>እርስዎ የ&amp;ሚመርጡት ጥራት</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8030,13 +8025,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>ጥሩ ድምፅ &amp; ቪዲዮ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>መጥፎ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8066,43 +8061,43 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>እርስዎ የሚመርጡት ጥራት</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>ጥሩ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>ዝግጁ ከሆነ የ ተመረጠውን ሪዞሊሽን መጠቀሚያ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9749,19 +9744,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ሰከንድ(ዶች)</numerusform>
-            <numerusform>%n ሰከንድ(ዶች)</numerusform>
-        </translation>
+        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n ደቂቃ(ዎች)</numerusform>
-            <numerusform>%n ደቂቃ(ዎች)</numerusform>
-        </translation>
+        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
