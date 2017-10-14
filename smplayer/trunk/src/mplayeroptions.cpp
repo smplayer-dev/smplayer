@@ -532,9 +532,19 @@ void MplayerProcess::setOSDScale(double /*value*/) {
 	/* writeToStdin("set_property subfont-osd-scale " + QString::number(value)); */
 }
 
-void MplayerProcess::changeVF(const QString & /*filter*/, bool /*enable*/, const QVariant & /*option*/) {
+void MplayerProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
 	// not supported
+	Q_UNUSED(filter);
+	Q_UNUSED(enable);
+	Q_UNUSED(option);
 }
+
+void MplayerProcess::changeAF(const QString & filter, bool enable, const QVariant & option) {
+	/* Not used yet */
+	Q_UNUSED(filter);
+	Q_UNUSED(enable);
+	Q_UNUSED(option);
+};
 
 void MplayerProcess::changeStereo3DFilter(bool /*enable*/, const QString & /*in*/, const QString & /*out*/) {
 	// not supported

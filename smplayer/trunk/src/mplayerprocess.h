@@ -88,7 +88,7 @@ public:
 	void enableExtrastereo(bool b);
 	void enableVolnorm(bool b, const QString & option);
 #ifdef MPV_SUPPORT
-	void enableEarwax(bool b) {};
+	void enableEarwax(bool /*b*/) {};
 #endif
 	void setAudioEqualizer(AudioEqualizerList);
 	void setAudioDelay(double delay);
@@ -103,7 +103,7 @@ public:
 #endif
 	void setTitle(int ID);
 	void changeVF(const QString & filter, bool enable, const QVariant & option = QVariant());
-	void changeAF(const QString & filter, bool enable, const QVariant & option = QVariant()) { /* Not used yet */ };
+	void changeAF(const QString & filter, bool enable, const QVariant & option = QVariant());
 	void changeStereo3DFilter(bool enable, const QString & in, const QString & out);
 #if DVDNAV_SUPPORT
 	void discSetMousePos(int x, int y);
