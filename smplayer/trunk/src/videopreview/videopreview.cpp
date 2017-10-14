@@ -423,7 +423,9 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 
 	// Add current time text
 	if (prop.display_osd) {
-		QString stime = QTime().addSecs(time).toString("hh:mm:ss");
+		QTime t(0,0);
+		QString stime = t.addSecs(time).toString("hh:mm:ss");
+		//qDebug() << "VideoPreview::addPicture: stime:" << stime << "time:" << time;
 		QFont font("Arial");
 		font.setBold(true);
 		QPainter painter(&scaled_picture);
