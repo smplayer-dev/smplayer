@@ -30,9 +30,16 @@
 
 #define USE_EQUALIZER EQ_FIREQUALIZER
 
+#define LETTERBOX_OLD 1
+#define LETTERBOX_PAD 2
+#define LETTERBOX_PAD_WITH_ASPECT 3
+
 #ifdef Q_OS_WIN
-#define USE_ASPECT_IN_PAD
+#define USE_LETTERBOX LETTERBOX_PAD_WITH_ASPECT
+#else
+#define USE_LETTERBOX LETTERBOX_PAD
 #endif
+
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -558,6 +565,15 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 
+#if USE_LETTERBOX == LETTERBOX_OLD
+	if (filter_name == "letterbox") {
+		QSize desktop_size = value.toSize();
+		double aspect = (double) desktop_size.width() / desktop_size.height();
+		arg << "--vf-add=" + QString("expand=aspect=%1").arg(aspect);
+	}
+	else
+#endif
+
 	if ((filter_name == "harddup") || (filter_name == "hue")) {
 		// ignore
 	}
@@ -981,6 +997,16 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	if (!lavfi_filter.isEmpty()) {
 		f = lavfi_filter;
 	}
+
+#if USE_LETTERBOX == LETTERBOX_OLD
+	else
+	if (filter == "letterbox") {
+		QSize desktop_size = option.toSize();
+		double aspect = (double) desktop_size.width() / desktop_size.height();
+		f = QString("expand=aspect=%1").arg(aspect);
+	}
+#endif
+
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
 	}
@@ -1177,10 +1203,11 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 	else
 	if (filter_name == "letterbox") {
 		QSize desktop_size = option.toSize();
-		#ifdef USE_ASPECT_IN_PAD
+		#if USE_LETTERBOX == LETTERBOX_PAD_WITH_ASPECT
 		double aspect = (double) desktop_size.width() / desktop_size.height();
 		f = QString("pad=aspect=%1:x=(ow-iw)/2:y=(oh-ih)/2").arg(aspect);
-		#else
+		#endif
+		#if USE_LETTERBOX == LETTERBOX_PAD
 		//f = QString("pad=ih*%1/%2:ih:(ow-iw)/2:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
 		f = QString("pad=iw:iw/%1*%2:0:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
 		#endif
