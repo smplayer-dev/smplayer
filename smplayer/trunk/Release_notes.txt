@@ -1,3 +1,16 @@
+Version 17.10.2
+
+ * New option in Preferences -> Network to select the preferred quality
+   for streaming sites such as DailyMotion, Vimeo and so on (all those
+   which are handled by youtube-dl).
+ * The audio equalizer is now disabled by default on Linux to prevent a
+   no sound problem for users with old versions of mpv.
+ * The HDPI support is now also enabled on the portable package for Windows.
+ * Fix subtitles not disappearing when using the letterbox filter with mplayer.
+ * Fix: now the time is correctly displayed in the thumbnail generator
+   pictures when SMPlayer is built with Qt 5.
+
+
 Version 17.10
 
  * Replace the deprecated video and audio filters in mpv with new ones.
