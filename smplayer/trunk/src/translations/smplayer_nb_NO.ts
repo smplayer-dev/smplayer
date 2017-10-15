@@ -10460,7 +10460,7 @@ Vil du overskrive den?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="485"/>
         <source>Video preview</source>
         <translation>Videoforhåndsvisning</translation>
     </message>
@@ -10485,27 +10485,27 @@ Vil du overskrive den?</translation>
         <translation>Lager forhåndsvisninger...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Size: %1 MB</source>
         <translation>Størrelse: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="471"/>
         <source>Length: %1</source>
         <translation>Lengde: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="644"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>Save file</source>
         <translation>Lagre fil</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="657"/>
+        <location filename="../videopreview/videopreview.cpp" line="659"/>
         <source>Error saving file</source>
         <translation>Feil ved lagring av fil</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="658"/>
+        <location filename="../videopreview/videopreview.cpp" line="660"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Filen kunne ikke lagres</translation>
     </message>
@@ -10530,22 +10530,22 @@ Vil du overskrive den?</translation>
         <translation>MPlayer-prosessen kjørte ikke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="470"/>
         <source>Resolution: %1x%2</source>
         <translation>Oppløsning: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="472"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Video format: %1</source>
         <translation>Videoformat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="475"/>
         <source>Frames per second: %1</source>
         <translation>Bilder i sekundet: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="476"/>
         <source>Aspect ratio: %1</source>
         <translation>Visningsaspekt: %1</translation>
     </message>
@@ -10555,12 +10555,12 @@ Vil du overskrive den?</translation>
         <translation>%1-filen kunne ikke lastes inn</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>No filename</source>
         <translation>Ingen filnavn</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="604"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer-prosessen mislyktes i å starte opp mens den prøvde å hente info om videoen</translation>
     </message>
@@ -10575,38 +10575,38 @@ Vil du overskrive den?</translation>
         <translation>%1-filen finnes ikke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="645"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>Images</source>
         <translation>Bilder</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="456"/>
+        <location filename="../videopreview/videopreview.cpp" line="458"/>
         <source>No info</source>
         <translation>Ingen informasjon</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
-        <location filename="../videopreview/videopreview.cpp" line="460"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="462"/>
         <source>%1 kbps</source>
         <translation>%1 Kb/s</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="463"/>
         <source>%1 Hz</source>
         <translation>%1Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="477"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Video bitrate: %1</source>
         <translation>Videobitfrekvens: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="480"/>
         <source>Audio bitrate: %1</source>
         <translation>Lydbitfrekvens: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>Audio rate: %1</source>
         <translation>Lydfrekvens: %1</translation>
     </message>

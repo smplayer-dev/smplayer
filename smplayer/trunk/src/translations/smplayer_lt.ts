@@ -10461,7 +10461,7 @@ Norite perrašyti?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="485"/>
         <source>Video preview</source>
         <translation>Video peržiūra</translation>
     </message>
@@ -10486,27 +10486,27 @@ Norite perrašyti?</translation>
         <translation>Kuriamos miniatiūros...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Size: %1 MB</source>
         <translation>Dydis: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="471"/>
         <source>Length: %1</source>
         <translation>Trukmė: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="644"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>Save file</source>
         <translation>Išsaugoti failą</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="657"/>
+        <location filename="../videopreview/videopreview.cpp" line="659"/>
         <source>Error saving file</source>
         <translation>Failo išsaugojimo klaida</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="658"/>
+        <location filename="../videopreview/videopreview.cpp" line="660"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Failas negali būti išsaugotas</translation>
     </message>
@@ -10531,22 +10531,22 @@ Norite perrašyti?</translation>
         <translation>Mplayer procesas nevyksta</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="470"/>
         <source>Resolution: %1x%2</source>
         <translation>Rezoliucija: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="472"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Video format: %1</source>
         <translation>Video formatas: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="475"/>
         <source>Frames per second: %1</source>
         <translation>Kadrų per sekundę: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="476"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
@@ -10556,12 +10556,12 @@ Norite perrašyti?</translation>
         <translation>Failas %1 negali būti įkeltas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>No filename</source>
         <translation>Nėra failo vardo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="604"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer procesas nebuvo paleistas bandant gauti informaciją apie video</translation>
     </message>
@@ -10576,38 +10576,38 @@ Norite perrašyti?</translation>
         <translation>Failo %1 nėra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="645"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>Images</source>
         <translation>Paveiksėliai</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="456"/>
+        <location filename="../videopreview/videopreview.cpp" line="458"/>
         <source>No info</source>
         <translation>Nėra informacijos</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
-        <location filename="../videopreview/videopreview.cpp" line="460"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="462"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="463"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="477"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="480"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>Audio rate: %1</source>
         <translation>Audio dažnis: %1</translation>
     </message>

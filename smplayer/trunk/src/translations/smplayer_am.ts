@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -2976,7 +2978,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3074,7 +3079,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -8066,12 +8071,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
@@ -8082,7 +8087,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -8097,7 +8102,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9744,13 +9749,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10449,7 +10460,7 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="485"/>
         <source>Video preview</source>
         <translation>የ ቪዲዮ ቅድመ እይታ</translation>
     </message>
@@ -10474,27 +10485,27 @@ Do you want to overwrite?</source>
         <translation>በ አውራ ጥፍር ልክ በ መፍጠር ላይ...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Size: %1 MB</source>
         <translation>መጠን: %1 ሜባ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="471"/>
         <source>Length: %1</source>
         <translation>እርዝመት: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="644"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>Save file</source>
         <translation>ፋይል ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="657"/>
+        <location filename="../videopreview/videopreview.cpp" line="659"/>
         <source>Error saving file</source>
         <translation>ፋይሎች በ ማስቀመት ላይ ስህተት ተፈጥሯል</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="658"/>
+        <location filename="../videopreview/videopreview.cpp" line="660"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>ፋይሉን ማስቀመጥ አልተቻለም</translation>
     </message>
@@ -10519,22 +10530,22 @@ Do you want to overwrite?</source>
         <translation>የ mplayer ሂደት ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="470"/>
         <source>Resolution: %1x%2</source>
         <translation>ሪዞሊሽን: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="472"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Video format: %1</source>
         <translation>የ ቪዲዮ አቀራረብ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="475"/>
         <source>Frames per second: %1</source>
         <translation>ክፈፎች በ ሰከንድ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="476"/>
         <source>Aspect ratio: %1</source>
         <translation>ማነፃፀሪያ መጠን: %1</translation>
     </message>
@@ -10544,12 +10555,12 @@ Do you want to overwrite?</source>
         <translation>ፋይሉን %1 መጫን አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>No filename</source>
         <translation>የ ፋይል ስም የለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="604"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>የ mplayer ሂደት ማስጀመር አልተቻለም አልተቻለም: ስለ ቪዲዮው መረጃ ለማግኘት በ መሞከር ላይ</translation>
     </message>
@@ -10564,38 +10575,38 @@ Do you want to overwrite?</source>
         <translation>ፋይሉ %1 አልነበረም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="645"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>Images</source>
         <translation>ምስሎች</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="456"/>
+        <location filename="../videopreview/videopreview.cpp" line="458"/>
         <source>No info</source>
         <translation>መረጃ የለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
-        <location filename="../videopreview/videopreview.cpp" line="460"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="462"/>
         <source>%1 kbps</source>
         <translation>%1 ኪቢሰ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="463"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="477"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Video bitrate: %1</source>
         <translation>የ ቪዲዮ bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="480"/>
         <source>Audio bitrate: %1</source>
         <translation>የ ድምፅ bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>Audio rate: %1</source>
         <translation>የ ድምፅ መጠን: %1</translation>
     </message>

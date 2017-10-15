@@ -7893,7 +7893,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevo&amp;rzugte Qualität:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8033,13 +8033,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestes Video und Audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Schlechteste</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8069,43 +8069,43 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevorzugte Qualität</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option gibt die bevorzugte Qualität für die Videostreams an, die von youtube-dl verarbeitet werden.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>wählt die besten verfügbaren Video- und Audiostreams aus</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Beste</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>wählt das beste als einzelne Datei verfügbare Qualitätsformat aus</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>wird versuchen, die ausgewählte Auflösung zu verwenden, falls verfügbar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>wählt das schlechteste verfügbare Qualitätsformat aus</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -10461,7 +10461,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="485"/>
         <source>Video preview</source>
         <translation>Videovorschau</translation>
     </message>
@@ -10486,27 +10486,27 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Vorschaubilder werden erstellt …</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Size: %1 MB</source>
         <translation>Größe: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="471"/>
         <source>Length: %1</source>
         <translation>Dauer: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="644"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>Save file</source>
         <translation>Datei speichern</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="657"/>
+        <location filename="../videopreview/videopreview.cpp" line="659"/>
         <source>Error saving file</source>
         <translation>Fehler beim Speichern der Datei</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="658"/>
+        <location filename="../videopreview/videopreview.cpp" line="660"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Die Datei kann nicht gespeichert werden</translation>
     </message>
@@ -10531,22 +10531,22 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Der MPlayer-Prozess ist nicht gestartet</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="470"/>
         <source>Resolution: %1x%2</source>
         <translation>Auflösung: %1×%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="472"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Video format: %1</source>
         <translation>Videoformat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="475"/>
         <source>Frames per second: %1</source>
         <translation>Bilder pro Sekunde: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="476"/>
         <source>Aspect ratio: %1</source>
         <translation>Seitenverhältnis: %1</translation>
     </message>
@@ -10556,12 +10556,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Die Datei %1 kann nicht geladen werden</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>No filename</source>
         <translation>Kein Dateiname</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="604"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Beim Versuch Informationen über das Video zu erhalten, konnte der MPlayer-Prozess nicht gestartet werden</translation>
     </message>
@@ -10576,38 +10576,38 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Die Datei %1 existiert nicht</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="645"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>Images</source>
         <translation>Bilder</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="456"/>
+        <location filename="../videopreview/videopreview.cpp" line="458"/>
         <source>No info</source>
         <translation>Keine Infos</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
-        <location filename="../videopreview/videopreview.cpp" line="460"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="462"/>
         <source>%1 kbps</source>
         <translation>%1 Kbit/s</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
+        <location filename="../videopreview/videopreview.cpp" line="463"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="477"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Video bitrate: %1</source>
         <translation>Video-Bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="480"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio-Bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>Audio rate: %1</source>
         <translation>Audiorate: %1</translation>
     </message>
