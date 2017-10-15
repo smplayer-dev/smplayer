@@ -1,3 +1,28 @@
+Version 17.10.2:
+
+(2017-10-14)
+ * Bug fix: display the time in the thumbnail generator pictures when SMPlayer
+   is compiled with Qt 5.
+
+(2017-10-13)
+ * (Windows) Enable HDPI support in the portable version.
+
+(2017-10-12)
+ * Fix subtitles not disappearing when using the letterbox filter with mplayer.
+
+(2017-10-03)
+ * Add an option in Preferences -> Network to select the preferred quality
+   to be used with streaming sites handled by youtube-dl.
+
+(2017-10-02)
+ * Use mplayer on Windows Vista, since it seems mpv is not longer compatible
+   with that version.
+
+(2017-10-01)
+ * (Linux) Don't use the audio equalizer by default.
+ * (Windows) Fix letterbox with vertical videos.
+
+
 Version 17.10:
 
 (2017-09-22)
