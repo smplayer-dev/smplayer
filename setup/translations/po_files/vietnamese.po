@@ -4,11 +4,12 @@
 # 
 # Translators:
 # Nguyen Thanh Tai <thanhtai2009@outlook.com>, 2015
+# Thanh Phu <thanhphu@soongsil.ac.kr>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"PO-Revision-Date: 2017-09-21 04:58+0000\n"
+"Last-Translator: Thanh Phu <thanhphu@soongsil.ac.kr>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/rvm/smplayer/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr ""
+msgstr "Hệ điều hành không được hỗ trợ.[:n:]SMPlayer ${SMPLAYER_VERSION} Yêu cầu Windows Vista hoặc mới hơn, có thể không hoạt động đúng cách trên hệ thống của bạn.[:n:]Bạn thật sự muốn tiếp tục cài đặt?"
 
 # Win64_Required
 msgid ""
@@ -213,7 +214,7 @@ msgstr "Đặt lại cấu hình SMPlayer của tôi"
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be"
 " reversed."
-msgstr ""
+msgstr "Bạn có thật sự muốn xoá thiết lập của SMPlayer không? Sau khi đã xoá sẽ không thể khôi phục lại"
 
 # Type_Reinstall
 msgid "reinstall"
@@ -320,47 +321,47 @@ msgstr "Đang phục hồi SMTube từ bản cài đặt trước..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Sao lưu mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Phục hồi MPV từ lần cài đặt trước..."
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Đang tải MPV xuống..."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv chưa được cài đặt thành công. Thử lại?"
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Không thể tải xuống mpv: '$R0'."
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Không thể cài đặt mpv."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl chưa được cài đặt thành công. Thử lại?"
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Không thể tải xuống youtube-dl: '$R0'."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Đang tìm cập nhật cho youtube-dl"
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Đang xoá cache của fontconfig..."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Đang xoá thiết lập của SMPlayer..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
