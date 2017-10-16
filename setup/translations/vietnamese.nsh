@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Bạn phải đăng nhập tài khoản qu
 ${LangFileString} SMPlayer_Is_Running "Một tiến trình của SMPlayer đang chạy. Hãy thoát SMPlayer và thử lại."
 
 ${LangFileString} OS_Not_Supported "Hệ điều hành không được hỗ trợ.$\nSMPlayer ${SMPLAYER_VERSION} yêu cầu thấp nhất là Windows XP và có thể không hoạt động đúng cách trên hệ thống của bạn.$\nBạn thật sự muốn tiếp tục cài đặt?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Hệ điều hành không được hỗ trợ.$\nSMPlayer ${SMPLAYER_VERSION} Yêu cầu Windows Vista hoặc mới hơn, có thể không hoạt động đúng cách trên hệ thống của bạn.$\nBạn thật sự muốn tiếp tục cài đặt?"
 ${LangFileString} Win64_Required "Yêu cầu hệ điều hành Windows 64-bit để cài đặt phần mềm này."
 ${LangFileString} Existing_32bitInst "Bản cài đặt 32-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 32-bit của SMPlayer trước."
 ${LangFileString} Existing_64bitInst "Bản cài đặt 64-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 64-bit của SMPlayer trước."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Bấm Gỡ bỏ khi sẵn sàng tiến hành
 ${LangFileString} Reinstall_Msg4 "Thay đổi Thiết lập Cài đặt"
 ${LangFileString} Reinstall_Msg5 "Đặt lại cấu hình SMPlayer của tôi"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Bạn có thật sự muốn xoá thiết lập của SMPlayer không? Sau khi đã xoá sẽ không thể khôi phục lại"
 
 ${LangFileString} Type_Reinstall "cài lại"
 ${LangFileString} Type_Downgrade "hạ cấp"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Đang phục hồi thay đổi..."
 ${LangFileString} Info_Files_Extract "Đang trích xuất tập tin..."
 ${LangFileString} Info_SMTube_Backup "Đang sao lưu SMTube..."
 ${LangFileString} Info_SMTube_Restore "Đang phục hồi SMTube từ bản cài đặt trước..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Sao lưu mpv..."
+${LangFileString} Info_MPV_Restore "Phục hồi MPV từ lần cài đặt trước..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Đang tải MPV xuống..."
+${LangFileString} MPV_DL_Retry "mpv chưa được cài đặt thành công. Thử lại?"
+${LangFileString} MPV_DL_Failed "Không thể tải xuống mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Không thể cài đặt mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl chưa được cài đặt thành công. Thử lại?"
+${LangFileString} YTDL_DL_Failed "Không thể tải xuống youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Đang tìm cập nhật cho youtube-dl"
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Đang xoá cache của fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "Đang xoá thiết lập của SMPlayer..."
