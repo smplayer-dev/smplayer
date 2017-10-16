@@ -1,3 +1,18 @@
+smplayer (17.10.2) precise; urgency=low
+
+  * New option in Preferences -> Network to select the preferred quality
+    for streaming sites such as DailyMotion, Vimeo and so on (all those
+    which are handled by youtube-dl).
+  * The audio equalizer is now disabled by default on Linux to prevent a
+    no sound problem for users with old versions of mpv.
+  * Fix some problems with the letterbox filter (the 'add black borders' option).
+  * The HDPI support is now also enabled on the portable package for Windows.
+  * Fix subtitles not disappearing when using the letterbox filter with mplayer.
+  * Fix: now the time is correctly displayed in the thumbnail generator
+    pictures when SMPlayer is built with Qt 5.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 16 Oct 2017 18:33:29 +0200
+
 smplayer (17.10.0) precise; urgency=low
 
   * Replace the deprecated video and audio filters by mpv with new ones.
