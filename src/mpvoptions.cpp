@@ -1209,7 +1209,7 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		#endif
 		#if USE_LETTERBOX == LETTERBOX_PAD
 		//f = QString("pad=ih*%1/%2:ih:(ow-iw)/2:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
-		f = QString("pad=iw:iw/%1*%2:0:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
+		f = QString("pad=iw:iw*sar/%1*%2:0:(oh-ih)/2").arg(desktop_size.width()).arg(desktop_size.height());
 		#endif
 	}
 	else
