@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2978,11 +2976,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3080,7 +3074,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -7892,7 +7886,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ž&amp;eljena kvaliteta:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8032,13 +8026,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Najbolja slika i zvuk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Najgore</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8068,43 +8062,43 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Željena kvaliteta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova mogućnost određuje željenu kvalitetu za video strujanja upravljana s youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>odabire najbolje dostupno strujanje slike i zvuka</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Najbolje</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>odabire najbolju kvalitetu formata dostupnu za pojedinačnu datoteku</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>pokušati će koristiti odabranu razlučivost ako je dostupna</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>odabire najlošiju dostupnu kvalitetu formata</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9749,21 +9743,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10462,7 +10448,7 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="485"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Video preview</source>
         <translation>Pregled minijatura video zapisa</translation>
     </message>
@@ -10487,27 +10473,27 @@ Do you want to overwrite?</source>
         <translation>Stvaranje minijatura video zapisa...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="467"/>
         <source>Size: %1 MB</source>
         <translation>Veličina: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Length: %1</source>
         <translation>Trajanje: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="646"/>
+        <location filename="../videopreview/videopreview.cpp" line="644"/>
         <source>Save file</source>
         <translation>Spremi datoteku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="659"/>
+        <location filename="../videopreview/videopreview.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Greška pri spremanju datoteke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="660"/>
+        <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Datoteka ne može biti spremljena</translation>
     </message>
@@ -10532,22 +10518,22 @@ Do you want to overwrite?</source>
         <translation>Mplayer proces nije pokrenut</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="470"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
         <translation>Razlučivost: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
         <translation>Format video zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="475"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>Frames per second: %1</source>
         <translation>Sličica u sekundi: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="476"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
@@ -10557,12 +10543,12 @@ Do you want to overwrite?</source>
         <translation>Datoteka %1 se ne može očitati</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>No filename</source>
         <translation>Nema naziva datoteke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="604"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer proces nije pokrenut prilikom dobivanja informacija o video zapisu</translation>
     </message>
@@ -10577,38 +10563,38 @@ Do you want to overwrite?</source>
         <translation>Datoteka %1 ne postoji</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="647"/>
+        <location filename="../videopreview/videopreview.cpp" line="645"/>
         <source>Images</source>
         <translation>Slike</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="458"/>
+        <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
         <translation>Nema informacije</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
-        <location filename="../videopreview/videopreview.cpp" line="462"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="460"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="463"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="477"/>
         <source>Video bitrate: %1</source>
         <translation>Brzina prijenosa video zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="480"/>
+        <location filename="../videopreview/videopreview.cpp" line="478"/>
         <source>Audio bitrate: %1</source>
         <translation>Brzina prijenosa zvučnog zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="481"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Audio rate: %1</source>
         <translation>Frekvencija zvučnog zapisa: %1</translation>
     </message>
