@@ -40,6 +40,8 @@
 #define USE_LETTERBOX LETTERBOX_PAD
 #endif
 
+#define USE_OLD_VIDEO_EQ
+
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -579,7 +581,11 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "eq2") {
+		#ifdef USE_OLD_VIDEO_EQ
 		arg << "--vf-add=eq";
+		#else
+		arg << "--vf-add=@eq:lavfi=[eq]";
+		#endif
 	}
 	else
 	if (filter_name == "subs_on_screenshots") {
@@ -767,11 +773,21 @@ void MPVProcess::displayInfoOnOSD() {
 #endif
 
 void MPVProcess::setContrast(int value) {
+#ifdef USE_OLD_VIDEO_EQ
 	writeToStdin("set contrast " + QString::number(value));
+#else
+	double v = (double) (value + 100) / 100;
+	writeToStdin("vf-command \"eq\" \"contrast\" \"" + QString::number(v) + "\"");
+#endif
 }
 
 void MPVProcess::setBrightness(int value) {
+#ifdef USE_OLD_VIDEO_EQ
 	writeToStdin("set brightness " + QString::number(value));
+#else
+	double v = (double) value / 100;
+	writeToStdin("vf-command \"eq\" \"brightness\" \"" + QString::number(v) + "\"");
+#endif
 }
 
 void MPVProcess::setHue(int value) {
@@ -779,7 +795,12 @@ void MPVProcess::setHue(int value) {
 }
 
 void MPVProcess::setSaturation(int value) {
+#ifdef USE_OLD_VIDEO_EQ
 	writeToStdin("set saturation " + QString::number(value));
+#else
+	double v = (double) (value + 100) / 100;
+	writeToStdin("vf-command \"eq\" \"saturation\" \"" + QString::number(v) + "\"");
+#endif
 }
 
 void MPVProcess::setGamma(int value) {
