@@ -25,7 +25,7 @@
 #include "config.h"
 
 #define OSD_WITH_TIMER
-#define USE_OLD_VIDEO_EQ
+//#define USE_OLD_VIDEO_EQ
 
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
