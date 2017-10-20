@@ -772,38 +772,54 @@ void MPVProcess::displayInfoOnOSD() {
 }
 #endif
 
-void MPVProcess::setContrast(int value) {
-#ifdef USE_OLD_VIDEO_EQ
+void MPVProcess::setContrast(int value, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	if (soft_eq) {
+		double v = (double) (value + 100) / 100;
+		writeToStdin("vf-command \"eq\" \"contrast\" \"" + QString::number(v) + "\"");
+	}
+	else
+#endif
 	writeToStdin("set contrast " + QString::number(value));
-#else
-	double v = (double) (value + 100) / 100;
-	writeToStdin("vf-command \"eq\" \"contrast\" \"" + QString::number(v) + "\"");
-#endif
 }
 
-void MPVProcess::setBrightness(int value) {
-#ifdef USE_OLD_VIDEO_EQ
+void MPVProcess::setBrightness(int value, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	if (soft_eq) {
+		double v = (double) value / 100;
+		writeToStdin("vf-command \"eq\" \"brightness\" \"" + QString::number(v) + "\"");
+	}
+	else
+#endif
 	writeToStdin("set brightness " + QString::number(value));
-#else
-	double v = (double) value / 100;
-	writeToStdin("vf-command \"eq\" \"brightness\" \"" + QString::number(v) + "\"");
-#endif
 }
 
-void MPVProcess::setHue(int value) {
+void MPVProcess::setHue(int value, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	if (soft_eq) {
+	}
+	else
+#endif
 	writeToStdin("set hue " + QString::number(value));
 }
 
-void MPVProcess::setSaturation(int value) {
-#ifdef USE_OLD_VIDEO_EQ
-	writeToStdin("set saturation " + QString::number(value));
-#else
-	double v = (double) (value + 100) / 100;
-	writeToStdin("vf-command \"eq\" \"saturation\" \"" + QString::number(v) + "\"");
+void MPVProcess::setSaturation(int value, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	if (soft_eq) {
+		double v = (double) (value + 100) / 100;
+		writeToStdin("vf-command \"eq\" \"saturation\" \"" + QString::number(v) + "\"");
+	}
+	else
 #endif
+	writeToStdin("set saturation " + QString::number(value));
 }
 
-void MPVProcess::setGamma(int value) {
+void MPVProcess::setGamma(int value, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	if (soft_eq) {
+	}
+	else
+#endif
 	writeToStdin("set gamma " + QString::number(value));
 }
 

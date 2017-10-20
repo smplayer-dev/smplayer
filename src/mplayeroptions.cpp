@@ -371,23 +371,28 @@ void MplayerProcess::showTimeOnOSD() {
 	writeToStdin("osd_show_property_text \"${time_pos} / ${length} (${percent_pos}%)\" 2000 0");
 }
 
-void MplayerProcess::setContrast(int value) {
+void MplayerProcess::setContrast(int value, bool soft_eq) {
+	Q_UNUSED(soft_eq);
 	writeToStdin(pausing_prefix + " contrast " + QString::number(value) + " 1");
 }
 
-void MplayerProcess::setBrightness(int value) {
+void MplayerProcess::setBrightness(int value, bool soft_eq) {
+	Q_UNUSED(soft_eq);
 	writeToStdin(pausing_prefix + " brightness " + QString::number(value) + " 1");
 }
 
-void MplayerProcess::setHue(int value) {
+void MplayerProcess::setHue(int value, bool soft_eq) {
+	Q_UNUSED(soft_eq);
 	writeToStdin(pausing_prefix + " hue " + QString::number(value) + " 1");
 }
 
-void MplayerProcess::setSaturation(int value) {
+void MplayerProcess::setSaturation(int value, bool soft_eq) {
+	Q_UNUSED(soft_eq);
 	writeToStdin(pausing_prefix + " saturation " + QString::number(value) + " 1");
 }
 
-void MplayerProcess::setGamma(int value) {
+void MplayerProcess::setGamma(int value, bool soft_eq) {
+	Q_UNUSED(soft_eq);
 	writeToStdin(pausing_prefix + " gamma " + QString::number(value) + " 1");
 }
 

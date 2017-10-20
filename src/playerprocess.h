@@ -75,11 +75,11 @@ public:
 	virtual void showOSDText(const QString & text, int duration, int level) = 0;
 	virtual void showFilenameOnOSD() = 0;
 	virtual void showTimeOnOSD() = 0;
-	virtual void setContrast(int value) = 0;
-	virtual void setBrightness(int value) = 0;
-	virtual void setHue(int value) = 0;
-	virtual void setSaturation(int value) = 0;
-	virtual void setGamma(int value) = 0;
+	virtual void setContrast(int value, bool soft_eq) = 0;
+	virtual void setBrightness(int value, bool soft_eq) = 0;
+	virtual void setHue(int value, bool soft_eq) = 0;
+	virtual void setSaturation(int value, bool soft_eq) = 0;
+	virtual void setGamma(int value, bool soft_eq) = 0;
 	virtual void setChapter(int ID) = 0;
 	virtual void nextChapter() = 0;
 	virtual void previousChapter() = 0;
