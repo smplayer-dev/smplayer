@@ -1384,8 +1384,7 @@ QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
 
 	f = QString("%1:%2:%3:%4").arg(contrast).arg(brightness).arg(saturation).arg(gamma);
 
-	double hue = (double) eq.hue / 10;
-	f += ",hue=b=" + QString::number(hue);
+	f += ",hue=h=" + QString::number(eq.hue);
 
 	f = "lavfi=[eq=" + f + "]";
 
