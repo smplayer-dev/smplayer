@@ -578,6 +578,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		// ignore
 	}
 	else
+	/*
 	if (filter_name == "eq2") {
 		#ifdef USE_OLD_VIDEO_EQ
 		arg << "--vf-add=eq";
@@ -586,6 +587,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		#endif
 	}
 	else
+	*/
 	if (filter_name == "subs_on_screenshots") {
 		// Ignore
 	}
@@ -614,7 +616,6 @@ void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
 
 void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) {
 	if (soft_eq) {
-		//arg << "-vf-add=@eq:lavfi=[eq]";
 		#ifdef USE_OLD_VIDEO_EQ
 		arg << "--vf-add=lavfi=[eq]";
 		#else
