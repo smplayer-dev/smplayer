@@ -40,8 +40,6 @@
 #define USE_LETTERBOX LETTERBOX_PAD
 #endif
 
-#define USE_OLD_VIDEO_EQ
-
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -616,9 +614,14 @@ void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
 
 void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) {
 	if (soft_eq) {
-		arg << "-vf-add=@eq:lavfi=[eq]";
-		#ifndef USE_OLD_VIDEO_EQ
-		// TO DO: pass options to filter
+		//arg << "-vf-add=@eq:lavfi=[eq]";
+		#ifdef USE_OLD_VIDEO_EQ
+		arg << "--vf-add=lavfi=[eq]";
+		#else
+		current_soft_eq = SoftVideoEq(contrast, brightness, saturation, gamma, hue);
+		QString f = videoEqualizerFilter(current_soft_eq);
+		arg << "--vf-add=" + f;
+		previous_soft_eq = current_soft_eq;
 		#endif
 	}
 #ifndef USE_OLD_VIDEO_EQ
@@ -794,8 +797,8 @@ void MPVProcess::displayInfoOnOSD() {
 void MPVProcess::setContrast(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
-		double v = (double) (value + 100) / 100;
-		writeToStdin("vf-command \"eq\" \"contrast\" \"" + QString::number(v) + "\"");
+		current_soft_eq.contrast = value;
+		updateSoftVideoEqualizerFilter();
 	}
 	else
 #endif
@@ -805,8 +808,8 @@ void MPVProcess::setContrast(int value, bool soft_eq) {
 void MPVProcess::setBrightness(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
-		double v = (double) value / 100;
-		writeToStdin("vf-command \"eq\" \"brightness\" \"" + QString::number(v) + "\"");
+		current_soft_eq.brightness = value;
+		updateSoftVideoEqualizerFilter();
 	}
 	else
 #endif
@@ -825,8 +828,8 @@ void MPVProcess::setHue(int value, bool soft_eq) {
 void MPVProcess::setSaturation(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
-		double v = qMax(0.0, (double) (value + 50) / 50);
-		writeToStdin("vf-command \"eq\" \"saturation\" \"" + QString::number(v) + "\"");
+		current_soft_eq.saturation = value;
+		updateSoftVideoEqualizerFilter();
 	}
 	else
 #endif
@@ -836,8 +839,8 @@ void MPVProcess::setSaturation(int value, bool soft_eq) {
 void MPVProcess::setGamma(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
-		double v = qMax(0.1, (double) (value + (100/9)) / (100/9));
-		writeToStdin("vf-command \"eq\" \"gamma\" \"" + QString::number(v) + "\"");
+		current_soft_eq.gamma = value;
+		updateSoftVideoEqualizerFilter();
 	}
 	else
 #endif
@@ -1366,3 +1369,29 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 
 	return f;
 }
+
+#ifndef USE_OLD_VIDEO_EQ
+QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
+	QString f;
+
+	double brightness = (double) eq.brightness / 100;
+	double contrast = (double) (eq.contrast + 100) / 100;
+	double saturation = qMax(0.0, (double) (eq.saturation + 50) / 50);
+	double gamma = qMax(0.1, (double) (eq.gamma + (100/9)) / (100/9));
+
+	f = QString("%1:%2:%3:%4").arg(contrast).arg(brightness).arg(saturation).arg(gamma);
+	f = "lavfi=[eq=" + f + "]";
+
+	return f;
+}
+
+void MPVProcess::updateSoftVideoEqualizerFilter() {
+	QString f = videoEqualizerFilter(previous_soft_eq);
+	writeToStdin("vf del \"" + f + "\"");
+
+	f = videoEqualizerFilter(current_soft_eq);
+	writeToStdin("vf add \"" + f + "\"");
+
+	previous_soft_eq = current_soft_eq;
+}
+#endif
