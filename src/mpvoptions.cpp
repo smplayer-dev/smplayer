@@ -614,6 +614,25 @@ void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
 	arg << "--vf-add=lavfi=[stereo3d=" + input + output + "]";
 }
 
+void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) {
+	if (soft_eq) {
+		arg << "-vf-add=@eq:lavfi=[eq]";
+		#ifndef USE_OLD_VIDEO_EQ
+		// TO DO: pass options to filter
+		#endif
+	}
+#ifndef USE_OLD_VIDEO_EQ
+	else
+#endif
+	{
+		if (contrast != 0) arg << "--contrast=" + QString::number(contrast);
+		if (brightness != 0) arg << "--brightness=" + QString::number(brightness);
+		if (hue != 0) arg << "--hue=" + QString::number(hue);
+		if (saturation != 0) arg << "--saturation=" + QString::number(saturation);
+		if (gamma != 0) arg << "--gamma=" + QString::number(gamma);
+	}
+}
+
 void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 

@@ -257,6 +257,18 @@ void MplayerProcess::addStereo3DFilter(const QString & in, const QString & out) 
 	arg << "-vf-add" << filter;
 }
 
+void MplayerProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) {
+	if (contrast != 0) arg << "-contrast" << QString::number(contrast);
+	if (brightness != 0) arg << "-brightness" << QString::number(brightness);
+	if (hue != 0) arg << "-hue" << QString::number(hue);
+	if (saturation != 0) arg << "-saturation" << QString::number(saturation);
+	if (gamma != 0) arg << "-gamma" << QString::number(gamma);
+
+	if (soft_eq) {
+		arg << "-vf-add" << "eq2,hue";
+	}
+}
+
 void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString s = filter_name;
 	if (filter_name == "earwax") {
