@@ -3102,7 +3102,7 @@ void Core::setBrightness(int value) {
 
 	if (value != mset.brightness) {
 		proc->setPausingPrefix(pausing_prefix());
-		proc->setBrightness(value);
+		proc->setBrightness(value, pref->use_soft_video_eq);
 		mset.brightness = value;
 		displayMessage( tr("Brightness: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -3118,7 +3118,7 @@ void Core::setContrast(int value) {
 
 	if (value != mset.contrast) {
 		proc->setPausingPrefix(pausing_prefix());
-		proc->setContrast(value);
+		proc->setContrast(value, pref->use_soft_video_eq);
 		mset.contrast = value;
 		displayMessage( tr("Contrast: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -3133,7 +3133,7 @@ void Core::setGamma(int value) {
 
 	if (value != mset.gamma) {
 		proc->setPausingPrefix(pausing_prefix());
-		proc->setGamma(value);
+		proc->setGamma(value, pref->use_soft_video_eq);
 		mset.gamma= value;
 		displayMessage( tr("Gamma: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -3148,7 +3148,7 @@ void Core::setHue(int value) {
 
 	if (value != mset.hue) {
 		proc->setPausingPrefix(pausing_prefix());
-		proc->setHue(value);
+		proc->setHue(value, pref->use_soft_video_eq);
 		mset.hue = value;
 		displayMessage( tr("Hue: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();
@@ -3163,7 +3163,7 @@ void Core::setSaturation(int value) {
 
 	if (value != mset.saturation) {
 		proc->setPausingPrefix(pausing_prefix());
-		proc->setSaturation(value);
+		proc->setSaturation(value, pref->use_soft_video_eq);
 		mset.saturation = value;
 		displayMessage( tr("Saturation: %1").arg(value) );
 		emit videoEqualizerNeedsUpdate();

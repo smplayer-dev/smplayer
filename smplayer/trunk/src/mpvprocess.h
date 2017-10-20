@@ -70,11 +70,11 @@ public:
 	void showOSDText(const QString & text, int duration, int level);
 	void showFilenameOnOSD();
 	void showTimeOnOSD();
-	void setContrast(int value);
-	void setBrightness(int value);
-	void setHue(int value);
-	void setSaturation(int value);
-	void setGamma(int value);
+	void setContrast(int value, bool soft_eq);
+	void setBrightness(int value, bool soft_eq);
+	void setHue(int value, bool soft_eq);
+	void setSaturation(int value, bool soft_eq);
+	void setGamma(int value, bool soft_eq);
 	void setChapter(int ID);
 	void nextChapter();
 	void previousChapter();
