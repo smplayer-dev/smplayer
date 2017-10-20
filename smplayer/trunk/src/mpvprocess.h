@@ -25,6 +25,19 @@
 #include "config.h"
 
 #define OSD_WITH_TIMER
+#define USE_OLD_VIDEO_EQ
+
+#ifndef USE_OLD_VIDEO_EQ
+class SoftVideoEq
+{
+public:
+	SoftVideoEq() { contrast = brightness = saturation = gamma = hue = 0; };
+	SoftVideoEq(int c, int b, int s, int g, int h) {
+		contrast = c; brightness = b; saturation = s; gamma = g; hue = h;
+	}
+	int contrast, brightness, saturation, gamma, hue;
+};
+#endif
 
 class QStringList;
 
@@ -132,6 +145,10 @@ protected:
 	void messageFilterNotSupported(const QString & filter_name);
 	QString lavfi(const QString & filter_name, const QVariant & option = QVariant());
 	QString audioEqualizerFilter(AudioEqualizerList);
+#ifndef USE_OLD_VIDEO_EQ
+	QString videoEqualizerFilter(SoftVideoEq);
+	void updateSoftVideoEqualizerFilter();
+#endif
 
 #ifdef OSD_WITH_TIMER
 	void toggleInfoOnOSD();
@@ -218,6 +235,11 @@ private:
 
 	QString previous_eq;
 	AudioEqualizerList previous_eq_list;
+
+#ifndef USE_OLD_VIDEO_EQ
+	SoftVideoEq current_soft_eq;
+	SoftVideoEq previous_soft_eq;
+#endif
 
 #ifdef CAPTURE_STREAM
 	bool capturing;
