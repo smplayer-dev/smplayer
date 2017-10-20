@@ -825,7 +825,7 @@ void MPVProcess::setHue(int value, bool soft_eq) {
 void MPVProcess::setSaturation(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
-		double v = (double) (value + 100) / 100;
+		double v = qMax(0.0, (double) (value + 50) / 50);
 		writeToStdin("vf-command \"eq\" \"saturation\" \"" + QString::number(v) + "\"");
 	}
 	else
@@ -836,6 +836,8 @@ void MPVProcess::setSaturation(int value, bool soft_eq) {
 void MPVProcess::setGamma(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
+		double v = qMax(0.1, (double) (value + (100/9)) / (100/9));
+		writeToStdin("vf-command \"eq\" \"gamma\" \"" + QString::number(v) + "\"");
 	}
 	else
 #endif
