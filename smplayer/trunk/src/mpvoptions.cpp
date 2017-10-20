@@ -819,6 +819,8 @@ void MPVProcess::setBrightness(int value, bool soft_eq) {
 void MPVProcess::setHue(int value, bool soft_eq) {
 #ifndef USE_OLD_VIDEO_EQ
 	if (soft_eq) {
+		current_soft_eq.hue = value;
+		updateSoftVideoEqualizerFilter();
 	}
 	else
 #endif
@@ -1380,6 +1382,10 @@ QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
 	double gamma = qMax(0.1, (double) (eq.gamma + (100/9)) / (100/9));
 
 	f = QString("%1:%2:%3:%4").arg(contrast).arg(brightness).arg(saturation).arg(gamma);
+
+	double hue = (double) eq.hue / 10;
+	f += ",hue=b=" + QString::number(hue);
+
 	f = "lavfi=[eq=" + f + "]";
 
 	return f;
