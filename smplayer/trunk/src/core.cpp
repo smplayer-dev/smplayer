@@ -2000,6 +2000,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Contrast, brightness...
 	if (pref->change_video_equalizer_on_startup) {
+		/*
 		if (mset.contrast != 0) {
 			proc->setOption("contrast", QString::number(mset.contrast));
 		}
@@ -2019,6 +2020,8 @@ void Core::startMplayer( QString file, double seek ) {
 		if (mset.gamma != 0) {
 			proc->setOption("gamma", QString::number(mset.gamma));
 		}
+		*/
+		proc->setVideoEqualizerOptions(mset.contrast, mset.brightness, mset.hue, mset.saturation, mset.gamma, pref->use_soft_video_eq);
 	}
 
 
@@ -2235,18 +2238,20 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Software equalizer
+	/*
 	if ( (pref->use_soft_video_eq) ) {
 		proc->addVF("eq2");
 		proc->addVF("hue");
 		if ( (pref->vo == "gl") || (pref->vo == "gl2") || (pref->vo == "gl_tiled")
-#ifdef Q_OS_WIN
+		#ifdef Q_OS_WIN
              || (pref->vo == "directx:noaccel")
-#endif
+		#endif
 		    )
 		{
 			proc->addVF("scale");
 		}
 	}
+	*/
 
 	// Additional video filters, supplied by user
 	// File
