@@ -623,7 +623,7 @@ void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue,
 		#ifdef USE_OLD_VIDEO_EQ
 		arg << "--vf-add=lavfi=[eq]";
 		#else
-		current_soft_eq = SoftVideoEq(contrast, brightness, saturation, gamma, hue);
+		current_soft_eq = SoftVideoEq(contrast, brightness, hue, saturation, gamma);
 		QString f = videoEqualizerFilter(current_soft_eq);
 		arg << "--vf-add=" + f;
 		previous_soft_eq = current_soft_eq;

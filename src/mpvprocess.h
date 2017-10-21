@@ -31,11 +31,11 @@
 class SoftVideoEq
 {
 public:
-	SoftVideoEq() { contrast = brightness = saturation = gamma = hue = 0; };
-	SoftVideoEq(int c, int b, int s, int g, int h) {
-		contrast = c; brightness = b; saturation = s; gamma = g; hue = h;
+	SoftVideoEq() { contrast = brightness = hue = saturation = gamma = 0; };
+	SoftVideoEq(int c, int b, int h, int s, int g) {
+		contrast = c; brightness = b; hue = h, saturation = s; gamma = g;
 	}
-	int contrast, brightness, saturation, gamma, hue;
+	int contrast, brightness, hue, saturation, gamma;
 };
 #endif
 
