@@ -615,6 +615,10 @@ void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
 }
 
 void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) {
+#ifndef USE_OLD_VIDEO_EQ
+	use_soft_eq = soft_eq;
+#endif
+
 	if (soft_eq) {
 		#ifdef USE_OLD_VIDEO_EQ
 		arg << "--vf-add=lavfi=[eq]";
@@ -795,9 +799,9 @@ void MPVProcess::displayInfoOnOSD() {
 }
 #endif
 
-void MPVProcess::setContrast(int value, bool soft_eq) {
+void MPVProcess::setContrast(int value) {
 #ifndef USE_OLD_VIDEO_EQ
-	if (soft_eq) {
+	if (use_soft_eq) {
 		current_soft_eq.contrast = value;
 		updateSoftVideoEqualizerFilter();
 	}
@@ -806,9 +810,9 @@ void MPVProcess::setContrast(int value, bool soft_eq) {
 	writeToStdin("set contrast " + QString::number(value));
 }
 
-void MPVProcess::setBrightness(int value, bool soft_eq) {
+void MPVProcess::setBrightness(int value) {
 #ifndef USE_OLD_VIDEO_EQ
-	if (soft_eq) {
+	if (use_soft_eq) {
 		current_soft_eq.brightness = value;
 		updateSoftVideoEqualizerFilter();
 	}
@@ -817,9 +821,9 @@ void MPVProcess::setBrightness(int value, bool soft_eq) {
 	writeToStdin("set brightness " + QString::number(value));
 }
 
-void MPVProcess::setHue(int value, bool soft_eq) {
+void MPVProcess::setHue(int value) {
 #ifndef USE_OLD_VIDEO_EQ
-	if (soft_eq) {
+	if (use_soft_eq) {
 		current_soft_eq.hue = value;
 		updateSoftVideoEqualizerFilter();
 	}
@@ -828,9 +832,9 @@ void MPVProcess::setHue(int value, bool soft_eq) {
 	writeToStdin("set hue " + QString::number(value));
 }
 
-void MPVProcess::setSaturation(int value, bool soft_eq) {
+void MPVProcess::setSaturation(int value) {
 #ifndef USE_OLD_VIDEO_EQ
-	if (soft_eq) {
+	if (use_soft_eq) {
 		current_soft_eq.saturation = value;
 		updateSoftVideoEqualizerFilter();
 	}
@@ -839,9 +843,9 @@ void MPVProcess::setSaturation(int value, bool soft_eq) {
 	writeToStdin("set saturation " + QString::number(value));
 }
 
-void MPVProcess::setGamma(int value, bool soft_eq) {
+void MPVProcess::setGamma(int value) {
 #ifndef USE_OLD_VIDEO_EQ
-	if (soft_eq) {
+	if (use_soft_eq) {
 		current_soft_eq.gamma = value;
 		updateSoftVideoEqualizerFilter();
 	}

@@ -85,11 +85,11 @@ public:
 	void showFilenameOnOSD();
 	void showTimeOnOSD();
 
-	void setContrast(int value, bool soft_eq);
-	void setBrightness(int value, bool soft_eq);
-	void setHue(int value, bool soft_eq);
-	void setSaturation(int value, bool soft_eq);
-	void setGamma(int value, bool soft_eq);
+	void setContrast(int value);
+	void setBrightness(int value);
+	void setHue(int value);
+	void setSaturation(int value);
+	void setGamma(int value);
 
 	void setChapter(int ID);
 	void nextChapter();
@@ -237,6 +237,7 @@ private:
 	AudioEqualizerList previous_eq_list;
 
 #ifndef USE_OLD_VIDEO_EQ
+	bool use_soft_eq;
 	SoftVideoEq current_soft_eq;
 	SoftVideoEq previous_soft_eq;
 #endif
