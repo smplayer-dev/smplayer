@@ -4129,7 +4129,7 @@ void Core::changeLetterbox(bool b) {
 #ifdef ADD_BLACKBORDERS_FS
 void Core::changeLetterboxOnFullscreen(bool b) {
 	qDebug("Core::changeLetterboxOnFullscreen: %d", b);
-	CHANGE_VF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
+	CHANGE_VF("letterbox", b, DesktopInfo::desktop_size(mplayerwindow));
 }
 #endif
 
@@ -4288,7 +4288,7 @@ void Core::autoZoomFromLetterbox(double aspect) {
 	double zoom_factor = (double) desktop.height() / actual_video.height();
 
 	qDebug("Core::autoZoomFromLetterbox: calculated zoom factor: %f", zoom_factor);
-	changeZoom(zoom_factor);	
+	changeZoom(zoom_factor);
 }
 
 void Core::autoZoomFor169() {
