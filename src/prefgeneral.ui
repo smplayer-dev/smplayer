@@ -774,7 +774,7 @@
        <item>
         <widget class="QCheckBox" name="hwac3_check">
          <property name="text">
-          <string>&amp;AC3/DTS pass-through S/PDIF</string>
+          <string>&amp;AC3/DTS passthrough over S/PDIF and HDMI</string>
          </property>
         </widget>
        </item>
