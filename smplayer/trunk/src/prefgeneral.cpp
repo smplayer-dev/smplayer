@@ -1190,7 +1190,7 @@ void PrefGeneral::createHelp() {
 		tr("If it's not checked, the audio equalizer values are saved along each file "
            "and loaded back when the file is played later.") );
 
-	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
+	setWhatsThis(hwac3_check, tr("AC3/DTS passthrough over S/PDIF and HDMI"),
 		tr("Uses hardware AC3 passthrough.") + "<br>" +
         tr("<b>Note:</b> none of the audio filters will be used when this "
            "option is enabled.") );
