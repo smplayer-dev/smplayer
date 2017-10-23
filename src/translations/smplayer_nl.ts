@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2978,10 +2976,7 @@ Voorbeeld: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n ondertiteling(en) uitgepakt</numerusform>
-            <numerusform>%n ondertiteling(en) uitgepakt</numerusform>
-        </translation>
+        <translation><numerusform>%n ondertiteling(en) uitgepakt</numerusform><numerusform>%n ondertiteling(en) uitgepakt</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3079,7 +3074,7 @@ Voorbeeld: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Het was niet mogelijk om het gedownload bestand
@@ -7891,7 +7886,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kwaliteitsvoorkeur:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8031,13 +8026,13 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Beste video en audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Slechtst</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8067,43 +8062,43 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kwaliteitsvoorkeur</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie geeft de gewenste kwaliteit aan voor de videostromen behanbdeld door youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>selecteert het beste kwaliteitsformaat dat beschikbaar is</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Beste</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>selecteert de beste kwaliteitsformaat dat beschikbaar is</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>zal proberen de geselecteerde resolutie te gebruiken indien beschikbaar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>selecteert het slechtste kwaliteitsformaat dat beschikbaar is</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9748,19 +9743,13 @@ Wilt u het overschrijven?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n seconde</numerusform>
-            <numerusform>%n seconden</numerusform>
-        </translation>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuut</numerusform>
-            <numerusform>%n minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10459,7 +10448,7 @@ Wilt u het overschrijven?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="485"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Video preview</source>
         <translation>Video-voorbeeld</translation>
     </message>
@@ -10484,27 +10473,27 @@ Wilt u het overschrijven?</translation>
         <translation>Miniaturen aanmaken...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="467"/>
         <source>Size: %1 MB</source>
         <translation>Grootte: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Length: %1</source>
         <translation>Lengte: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="646"/>
+        <location filename="../videopreview/videopreview.cpp" line="644"/>
         <source>Save file</source>
         <translation>Bestand opslaan</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="659"/>
+        <location filename="../videopreview/videopreview.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="660"/>
+        <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Het bestand kon niet worden opgeslagen</translation>
     </message>
@@ -10529,22 +10518,22 @@ Wilt u het overschrijven?</translation>
         <translation>Het mplayer-proces werd niet uitgevoerd</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="470"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolutie: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="474"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
         <translation>Videoformaat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="475"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>Frames per second: %1</source>
         <translation>Frames per seconde: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="476"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspectverhouding: %1</translation>
     </message>
@@ -10554,12 +10543,12 @@ Wilt u het overschrijven?</translation>
         <translation>Het bestand %1 kan niet worden geladen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>No filename</source>
         <translation>Geen bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="604"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Het mplayer-proces startte niet bij het verkrijgen van informatie over de video</translation>
     </message>
@@ -10574,38 +10563,38 @@ Wilt u het overschrijven?</translation>
         <translation>Het bestand %1 bestaat niet</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="647"/>
+        <location filename="../videopreview/videopreview.cpp" line="645"/>
         <source>Images</source>
         <translation>Afbeeldingen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="458"/>
+        <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
         <translation>Geen info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="461"/>
-        <location filename="../videopreview/videopreview.cpp" line="462"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="460"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="463"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="477"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitsnelheid: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="480"/>
+        <location filename="../videopreview/videopreview.cpp" line="478"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitsnelheid: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="481"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Audio rate: %1</source>
         <translation>Audio rate: %1</translation>
     </message>
