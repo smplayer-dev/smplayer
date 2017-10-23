@@ -19,6 +19,7 @@
 #include "desktopinfo.h"
 #include <QApplication>
 #include <QDesktopWidget>
+#include <QDebug>
 
 QSize DesktopInfo::desktop_size(QWidget *w) {
 	QDesktopWidget * dw = QApplication::desktop();
@@ -44,8 +45,16 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 	QDesktopWidget * dw = QApplication::desktop();
 	QRect r = dw->screenGeometry(w);
 
-	qDebug("DesktopInfo::isInsideScreen: geometry of screen: x:%d y:%d w:%d h:%d", r.x(), r.y(), r.width(), r.height() );
-	return r.contains(w->pos());
+	qDebug() << "DesktopInfo::isInsideScreen: geometry of screen:" << r;
+
+	QPoint p = w->pos();
+
+	p.setX(p.x() + w->size().width() / 2);
+	p.setY(p.y() + w->size().height() / 2);
+
+	qDebug() << "DesktopInfo::isInsideScreen: center point of window:" << p;
+
+	return r.contains(p);
 }
 
 QPoint DesktopInfo::topLeftPrimaryScreen() {
