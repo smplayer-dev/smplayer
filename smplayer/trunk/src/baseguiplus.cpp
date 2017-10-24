@@ -942,6 +942,9 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		//is_primary_screen = false;
 		if (is_primary_screen) {
 			mplayerwindow->showNormal();
+			#if QT_VERSION >= 0x050000 && defined(Q_OS_LINUX)
+			qApp->processEvents();
+			#endif
 			detachVideo(false);
 		} else {
 			detachVideo(true);
@@ -987,6 +990,9 @@ void BaseGuiPlus::detachVideo(bool detach) {
 
 			mplayerwindow->setWindowTitle(QString::null);
 			mplayerwindow->setParent(panel);
+			#if QT_VERSION >= 0x050000 && defined(Q_OS_LINUX)
+			qApp->processEvents();
+			#endif
 			panel->layout()->addWidget(mplayerwindow);
 		}
 	}
