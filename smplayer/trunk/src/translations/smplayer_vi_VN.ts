@@ -2140,12 +2140,12 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6041,10 +6041,6 @@ Do you want to overwrite?</source>
         <translation>Mức khuyếch đại lớn &amp;nhất:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS pass-through S/PDIF</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Hiển thị trực tiếp</translation>
@@ -6128,10 +6124,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Mức khuyếch đại lớn nhất</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS chuyển qua S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

@@ -2140,12 +2140,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <translation>Ekran podstawowy</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Wyjście zewnętrznego ekranu SMPlayera</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Domyślne urządzenie dźwiękowe</translation>
     </message>
@@ -5940,7 +5940,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>Przejście AC3/DTS poprzez S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6035,7 +6035,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>Przejście &amp;AC3/DTS poprzez S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6046,10 +6046,6 @@ na liście odtwarzania:</translation>
         <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;ks. wzmocnienie:</translation>
-    </message>
-    <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
@@ -6135,10 +6131,6 @@ na liście odtwarzania:</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Maksymalne wzmocnienie</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
@@ -7901,7 +7893,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;referowana jakość:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8041,13 +8033,13 @@ na liście odtwarzania:</translation>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Najlepszy obraz i dźwięk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Najgorsza</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8077,43 +8069,43 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Preferowana jakość</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta opcja określa preferowaną jakość strumieni wideo obsługiwanych przez youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>wybiera najlepsze dostępne strumienie wideo i audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Najlepsza</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>wybiera najlepszy format jakości dostępny jako pojedynczy plik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>spróbuje użyć wybranej rozdzielczości, jeśli jest dostępna</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>wybiera najgorszy dostępny format jakości</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>

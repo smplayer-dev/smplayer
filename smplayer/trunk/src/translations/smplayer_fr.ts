@@ -2141,12 +2141,12 @@ Information concernant les écrans connectés</translation>
         <translation>Ecran principal</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Sortie écran externe pour SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>Périphérique audio par &amp;défaut</translation>
     </message>
@@ -6048,10 +6048,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>Amplification Ma&amp;x. :</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS pass-through S/PDIF</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Rendu direct</translation>
@@ -6135,10 +6131,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Amplification Max</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

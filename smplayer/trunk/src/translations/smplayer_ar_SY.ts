@@ -2140,12 +2140,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>الشاشة الرئيسية</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>مخرجات الشاشة الخارجية لـ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>جهاز الصوت الإ&amp;فتراضي</translation>
     </message>
@@ -6048,10 +6048,6 @@ Do you want to overwrite?</source>
         <translation>أقص&amp;ى تضخيم:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;تمرير باستخدام  S/PDIF لصيغة AC3/DT</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>تصيير مباشر</translation>
@@ -6135,10 +6131,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>أقصى تضخيم</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">تمرير باستخدام  S/PDIF لصيغة AC3/DT</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

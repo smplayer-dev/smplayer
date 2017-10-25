@@ -2140,12 +2140,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Birinci ekran</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer dış ekran çıkışı</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6045,10 +6045,6 @@ Do you want to overwrite?</source>
         <translation>Azami Ku&amp;vvetlendirme:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS&apos;den S/PDIF&apos;ye düzgeçiş</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Doğrudan oluşturma</translation>
@@ -6132,10 +6128,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Azami Kuvvetlendirme</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS&apos;den S/PDIF&apos;ye düzgeçiş</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

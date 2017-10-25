@@ -2140,12 +2140,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>主屏幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer 外置屏幕输出</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>默认音频设备(&amp;D)</translation>
     </message>
@@ -6045,10 +6045,6 @@ Do you want to overwrite?</source>
         <translation>最大放大率(&amp;X):</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS 直通 S/PDIF(&amp;A)</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>直接渲染</translation>
@@ -6132,10 +6128,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>最大放大率</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS 直通 S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
