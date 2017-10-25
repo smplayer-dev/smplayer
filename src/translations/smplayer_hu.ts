@@ -2140,12 +2140,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Elsődleges képernyő</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Az SMPlayer külső képernyő kimenete</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Alapértelmezett hang eszköz</translation>
     </message>
@@ -6046,10 +6046,6 @@ Valóban felül akarja írni?</translation>
         <translation>Ma&amp;ximális erősítés:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS átengedés S/PDIF-en</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Hardveres gyorsítás</translation>
@@ -6133,10 +6129,6 @@ Valóban felül akarja írni?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Maximális erősítés</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS átengedés S/PDIF-en</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

@@ -2140,12 +2140,12 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Peamine ekraan</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayeri väljund välisele ekraanile</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Vaikimisi heliseade</translation>
     </message>
@@ -6046,10 +6046,6 @@ Kas kirjutada see üle?</translation>
         <translation>&amp;Maksimaalne võimendus:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">S/PDIF-i &amp;AC3/DTS-i läbilaskerežiim</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Otsene renderdamine</translation>
@@ -6133,10 +6129,6 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Maksimaalne võimendus</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">S/PDIF-i &amp;AC3/DTS-i läbilaskerežiim</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

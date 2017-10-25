@@ -2140,12 +2140,12 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Primær skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer ekstern skærm-output</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Standardlydenhed</translation>
     </message>
@@ -5938,7 +5938,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3-/DTS-gennemsending over S/PDIF og HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6033,7 +6033,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3-/DTS-gennemsending over S/PDIF og HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6044,10 +6044,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;ks. forstærkning:</translation>
-    </message>
-    <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS sendes igennem S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
@@ -6133,10 +6129,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Maks. forstærkning</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS sendes igennem S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

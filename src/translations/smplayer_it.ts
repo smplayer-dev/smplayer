@@ -2141,12 +2141,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Schermo primario</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Output schermo esterno SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>Periferica audio di &amp;Default</translation>
     </message>
@@ -6047,10 +6047,6 @@ Vuoi sovrascriverlo?</translation>
         <translation>Ma&amp;ssima amplificazione:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS in uscita su S/PDIF</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Rendering diretto</translation>
@@ -6134,10 +6130,6 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Massima amplificazione</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS in uscita su S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

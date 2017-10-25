@@ -2140,12 +2140,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Pantalla primaria</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Saída á pantalla externa de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>Dispositivo predeterminado &amp;de son</translation>
     </message>
@@ -5938,7 +5938,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS pasado a través de S/PDIF e HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6033,7 +6033,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS pasado a través de S/PDIF e HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6044,10 +6044,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Amplificación &amp;máx.:</translation>
-    </message>
-    <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS pasado a través de S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
@@ -6133,10 +6129,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Máx. amplificación</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS pasado a través de S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

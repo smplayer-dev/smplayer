@@ -2140,12 +2140,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ቀዳሚ መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>የ SMPlayer የ ውጪ መመልከቻ ውጤት</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;ነባር የ ድምፅ አካል</translation>
     </message>
@@ -6045,10 +6045,6 @@ Do you want to overwrite?</source>
         <translation>ከፍ&amp;ተኛ ማጉሊያ:</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS በ ውስጡ-ያልፋል S/PDIF</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>በቀጥታ መፈጸሚያ</translation>
@@ -6132,10 +6128,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>ከፍተኛ ማጉሊያ:</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS በ ውስጡ-ያልፋል S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

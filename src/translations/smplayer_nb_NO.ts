@@ -2141,12 +2141,12 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
         <translation>Hovedskjerm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer ekstern skjermutdata</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Standard lydenhet</translation>
     </message>
@@ -6047,10 +6047,6 @@ Vil du overskrive den?</translation>
         <translation>&amp;Maks lydforsterkning</translation>
     </message>
     <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;Direkte AC3/DTS gjennom S/PDIF</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Direct rendering</source>
         <translation>Direkte tolkning</translation>
@@ -6134,10 +6130,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Maks lydforsterkning</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">Direkte AC3/DTS gjennom S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>

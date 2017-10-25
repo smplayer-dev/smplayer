@@ -2140,12 +2140,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Primární obrazovka</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>Externí výstup SMPlayeru na obrazovku</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1022"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Výchozí zvukové zařízení</translation>
     </message>
@@ -5940,7 +5940,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS prochází přes S/PDIF a HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6035,7 +6035,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS prochází přes S/PDIF a HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6046,10 +6046,6 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Ma&amp;x. zesílení:</translation>
-    </message>
-    <message>
-        <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
@@ -6135,10 +6131,6 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Max. Amplification</source>
         <translation>Max. zesílení</translation>
-    </message>
-    <message>
-        <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="obsolete">AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
