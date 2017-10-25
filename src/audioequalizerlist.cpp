@@ -54,7 +54,12 @@ QString AudioEqualizerHelper::equalizerListToString(AudioEqualizerList values, A
 		double freq = 31.25;
 		for (int f = 0; f < 10; f++) {
 			double v = (double) values[f].toInt() * FIREQUALIZER_SCALE;
-			s += QString("entry(%1,%2)").arg(freq).arg(v);
+			if (f == 0) {
+				double v1 = (double) values[1].toInt() * FIREQUALIZER_SCALE;
+				s += QString("entry(0,%1)").arg(2 * v - v1);
+			} else {
+				s += QString("entry(%1,%2)").arg(freq).arg(v);
+			}
 			if (f < 9) s += ";";
 			freq = freq * 2;
 		}

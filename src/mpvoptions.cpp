@@ -1343,7 +1343,7 @@ QString MPVProcess::audioEqualizerFilter(AudioEqualizerList l) {
 
 #if USE_EQUALIZER == EQ_FIREQUALIZER
 	QString values = AudioEqualizerHelper::equalizerListToString(l, AudioEqualizerHelper::Firequalizer);
-	f = "lavfi=[firequalizer=" + values + "]";
+	f = "lavfi=[firequalizer=gain='cubic_interpolate(f)':zero_phase=on:wfunc=tukey:delay=0.027:" + values + "]";
 	#ifndef SIMPLE_EQUALIZER
 	f = "@firequalizer:" + f;
 	#endif
