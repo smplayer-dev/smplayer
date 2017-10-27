@@ -47,6 +47,13 @@ QString hdpiConfig() {
 
 int main( int argc, char ** argv )
 {
+#ifdef Q_OS_LINUX
+	// There a are reports that SMPlayer doesn't work well with
+	// the KDE global menu, so this should disable it.
+	qputenv("KDE_NO_GLOBAL_MENU", QByteArray("1"));
+	//qDebug() << "KDE_NO_GLOBAL_MENU:" << qgetenv("KDE_NO_GLOBAL_MENU");
+#endif
+
 #ifdef HDPI_SUPPORT
 	QString hdpi_config_path = hdpiConfig();
 	HDPISupport * hdpi = 0;
