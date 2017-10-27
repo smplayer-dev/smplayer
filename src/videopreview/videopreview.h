@@ -117,7 +117,7 @@ protected:
 
 protected:
 	bool extractImages();
-	bool runPlayer(int seek, double aspect_ratio);
+	bool runPlayer(double seek, double aspect_ratio);
 	bool addPicture(const QString & filename, int num, int time); 
 	void displayVideoInfo(const VideoInfo & i);
 	void cleanDir(QString directory);
