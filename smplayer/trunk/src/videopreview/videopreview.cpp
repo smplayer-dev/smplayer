@@ -231,9 +231,9 @@ bool VideoPreview::extractImages() {
 
 	int num_pictures = prop.n_cols * prop.n_rows;
 	length -= prop.initial_step;
-	int s_step = length / num_pictures;
+	double s_step = (double) length / num_pictures;
 
-	int current_time = prop.initial_step;
+	double current_time = prop.initial_step;
 
 	canceled = false;
 	progress->setLabelText(tr("Creating thumbnails..."));
@@ -291,7 +291,7 @@ bool VideoPreview::isOptionAvailableinMPV(const QString & option) {
 }
 #endif
 
-bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
+bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 	QStringList args;
 
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
@@ -302,7 +302,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 		#endif
 
 		// MPV
-		args << "--no-config" << "--no-audio" << "--no-cache";
+		args << "--no-config" << "--no-audio" << "--no-cache" << "--hr-seek=yes";
 		args << "--frames=" + QString::number(N_OUTPUT_FRAMES);
 		args << "--framedrop=no" << "--start=" + QString::number(seek);
 		if (aspect_ratio != 0) {
