@@ -471,9 +471,9 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	int count = 1;
 
 	QString text =
-		"<b><font size=+1>" + i.filename +"</font></b>"
-		"<table cellspacing=4 cellpadding=4><tr>"
-		"<td>";
+		"<h1 style=\"font-family:arial;\">" + i.filename + "</h1>"
+		"<table cellspacing=4 cellpadding=4 style=\"font-family:arial; font-size:medium\">"
+		"<tr><td>";
 
 	ADD_INFO(tr("Size: %1 MB").arg(i.size / (1024*1024)));
 	ADD_INFO(tr("Resolution: %1x%2").arg(i.width).arg(i.height));
