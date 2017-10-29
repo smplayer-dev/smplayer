@@ -445,8 +445,8 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 
 #define ADD_INFO( data) \
 	{ \
-	if (count++ % 3 == 0) text += "</td><td>"; \
-	text += data + "<br>"; \
+	text += data; \
+	if (count++ % 3 == 0) text += "</td><td>"; else text += "<br>"; \
 	}
 
 void VideoPreview::displayVideoInfo(const VideoInfo & i) {
@@ -468,7 +468,7 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
-	int count = 0;
+	int count = 1;
 
 	QString text =
 		"<b><font size=+1>" + i.filename +"</font></b>"
@@ -490,6 +490,8 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	if (i.audio_rate) ADD_INFO(tr("Audio rate: %1").arg(audio_rate));
 
 	text += "</td></tr></table>";
+
+	//qDebug() << "VideoPreview::displayVideoInfo: text:" << text;
 
 	info->setText(text);
 	setWindowTitle( tr("Video preview") + " - " + i.filename );
