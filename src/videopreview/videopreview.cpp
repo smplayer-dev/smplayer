@@ -479,8 +479,10 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	ADD_INFO(tr("Resolution: %1x%2").arg(i.width).arg(i.height));
 	ADD_INFO(tr("Length: %1").arg(t.toString("hh:mm:ss")));
 
-	ADD_INFO(tr("Video format: %1").arg(i.video_format));
 	if (i.fps) ADD_INFO(tr("Frames per second: %1").arg(fps));
+	if (!i.video_format.isEmpty()) ADD_INFO(tr("Video format: %1").arg(i.video_format));
+	if (!i.audio_format.isEmpty()) ADD_INFO(tr("Audio format: %1").arg(i.audio_format));
+
 	ADD_INFO(tr("Aspect ratio: %1").arg(aspect));
 
 	if (i.video_bitrate) ADD_INFO(tr("Video bitrate: %1").arg(video_bitrate));
@@ -547,7 +549,8 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
                 "ID_VIDEO_BITRATE=${=video-bitrate}\n"
                 "ID_AUDIO_BITRATE=${=audio-bitrate}\n"
                 "ID_AUDIO_RATE=${audio-params/samplerate:${=audio-samplerate}}\n"
-                "ID_VIDEO_FORMAT=${=video-format}";
+                "ID_VIDEO_FORMAT=${video-format}\n"
+                "ID_AUDIO_FORMAT=${audio-codec-name}\n";
 
 		args << "--vo=null" << "-ao=null" << "--frames=1" << "--no-quiet" << "--no-cache" << "--no-config";
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
@@ -605,6 +608,8 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 				if (tag == "AUDIO_RATE") i.audio_rate = value.toInt();
 				else
 				if (tag == "VIDEO_FORMAT") i.video_format = value;
+				else
+				if (tag == "AUDIO_FORMAT") i.audio_format = value;
 			}
 		}
 	} else {
