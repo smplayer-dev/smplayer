@@ -443,6 +443,12 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	return true;
 }
 
+#define ADD_INFO( data) \
+	{ \
+	if (count++ % 3 == 0) text += "</td><td>"; \
+	text += data + "<br>"; \
+	}
+
 void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	// Display info about the video
 	QTime t(0,0);
@@ -462,26 +468,28 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
-	info->setText(
+	int count = 0;
+
+	QString text =
 		"<b><font size=+1>" + i.filename +"</font></b>"
 		"<table cellspacing=4 cellpadding=4><tr>"
-		"<td>" +
-		tr("Size: %1 MB").arg(i.size / (1024*1024)) + "<br>" +
-		tr("Resolution: %1x%2").arg(i.width).arg(i.height) + "<br>" +
-		tr("Length: %1").arg(t.toString("hh:mm:ss")) +
-		"</td>"
-		"<td>" +
-		tr("Video format: %1").arg(i.video_format) + "<br>" +
-		tr("Frames per second: %1").arg(fps) + "<br>" +
-		tr("Aspect ratio: %1").arg(aspect) + //"<br>" +
-		"</td>"
-		"<td>" +
-		tr("Video bitrate: %1").arg(video_bitrate) + "<br>" +
-		tr("Audio bitrate: %1").arg(audio_bitrate) + "<br>" +
-		tr("Audio rate: %1").arg(audio_rate) + //"<br>" +
-		"</td>"
-		"</tr></table>" 
-	);
+		"<td>";
+
+	ADD_INFO(tr("Size: %1 MB").arg(i.size / (1024*1024)));
+	ADD_INFO(tr("Resolution: %1x%2").arg(i.width).arg(i.height));
+	ADD_INFO(tr("Length: %1").arg(t.toString("hh:mm:ss")));
+
+	ADD_INFO(tr("Video format: %1").arg(i.video_format));
+	if (i.fps) ADD_INFO(tr("Frames per second: %1").arg(fps));
+	ADD_INFO(tr("Aspect ratio: %1").arg(aspect));
+
+	if (i.video_bitrate) ADD_INFO(tr("Video bitrate: %1").arg(video_bitrate));
+	if (i.audio_bitrate) ADD_INFO(tr("Audio bitrate: %1").arg(audio_bitrate));
+	if (i.audio_rate) ADD_INFO(tr("Audio rate: %1").arg(audio_rate));
+
+	text += "</td></tr></table>";
+
+	info->setText(text);
 	setWindowTitle( tr("Video preview") + " - " + i.filename );
 }
 
