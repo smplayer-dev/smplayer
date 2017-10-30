@@ -5940,7 +5940,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS passthrough sur S/PDIF et HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6035,7 +6035,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS passthrough sur S/PDIF et HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -7895,7 +7895,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Q&amp;ualité préférée :</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8035,13 +8035,13 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleure qualité vidéo et audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Pire</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8071,43 +8071,43 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Qualité préférée</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option spécifie la qualité préférée pour les flux vidéo pris en charge par youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>sélectionne les meilleurs flux vidéo et audio disponibles</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleure</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>sélectionne le format de meilleure qualité disponible en tant que fichier unique</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>essaiera d&apos;utiliser la définition selectionnée, si disponible</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>sélectionne le format de pire qualité disponible</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -10463,157 +10463,153 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>Video preview</source>
         <translation>Aperçu vidéo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="151"/>
+        <location filename="../videopreview/videopreview.cpp" line="155"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="150"/>
+        <location filename="../videopreview/videopreview.cpp" line="154"/>
         <source>Thumbnail Generator</source>
         <translation>Générateur d&apos;aperçus</translation>
     </message>
     <message>
-        <source>Generated by SMPlayer</source>
-        <translation type="obsolete">Généré par SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="243"/>
         <source>Creating thumbnails...</source>
         <translation>Création des vignettes...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="482"/>
         <source>Size: %1 MB</source>
         <translation>Taille : %1 Mo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="480"/>
+        <location filename="../videopreview/videopreview.cpp" line="484"/>
         <source>Length: %1</source>
         <translation>Durée : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="484"/>
+        <location filename="../videopreview/videopreview.cpp" line="488"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Format audio : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="661"/>
+        <location filename="../videopreview/videopreview.cpp" line="665"/>
         <source>Save file</source>
         <translation>Sauvegarder le fichier</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="674"/>
+        <location filename="../videopreview/videopreview.cpp" line="678"/>
         <source>Error saving file</source>
         <translation>Erreur lors de la sauvegarde du fichier</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="675"/>
+        <location filename="../videopreview/videopreview.cpp" line="679"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Le fichier n&apos;a pas pu être sauvegardé</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="195"/>
+        <location filename="../videopreview/videopreview.cpp" line="199"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="196"/>
+        <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>L&apos;erreur suivante c&apos;est produite lors de la création des vignettes:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="222"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Le répertoire temporaire (%1) ne peut être créé</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="385"/>
+        <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Le processus de mplayer ne s&apos;est pas lancé</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Resolution: %1x%2</source>
         <translation>Définition : %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="487"/>
         <source>Video format: %1</source>
         <translation>Format vidéo : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="482"/>
+        <location filename="../videopreview/videopreview.cpp" line="486"/>
         <source>Frames per second: %1</source>
         <translation>Images par secondes : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
+        <location filename="../videopreview/videopreview.cpp" line="490"/>
         <source>Aspect ratio: %1</source>
         <translation>Ratio d&apos;aspect : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="405"/>
+        <location filename="../videopreview/videopreview.cpp" line="409"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Le fichier %1 ne peut être chargé</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="525"/>
+        <location filename="../videopreview/videopreview.cpp" line="529"/>
         <source>No filename</source>
         <translation>Pas de nom de fichier</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="619"/>
+        <location filename="../videopreview/videopreview.cpp" line="623"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Le processus de MPlayer n&apos;a pas démarré lors de l&apos;obtension des informations sur la vidéo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="217"/>
         <source>The length of the video is 0</source>
         <translation>La durée de la vidéo est 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="257"/>
+        <location filename="../videopreview/videopreview.cpp" line="261"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Le fichier %1 n&apos;éxiste pas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="662"/>
+        <location filename="../videopreview/videopreview.cpp" line="666"/>
         <source>Images</source>
         <translation>Images</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="464"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>No info</source>
         <translation>Pas d&apos;info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="492"/>
         <source>Video bitrate: %1</source>
         <translation>Débit binaire vidéo : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="489"/>
+        <location filename="../videopreview/videopreview.cpp" line="493"/>
         <source>Audio bitrate: %1</source>
         <translation>Débit binaire audio : %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="490"/>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
         <source>Audio rate: %1</source>
         <translation>Débit audio : %1</translation>
     </message>
