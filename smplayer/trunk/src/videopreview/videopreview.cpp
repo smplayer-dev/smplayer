@@ -53,6 +53,10 @@
 // MPlayer2 doesn't support png outdir
 /* #define VP_USE_PNG_OUTDIR */
 
+#define FONT_STYLE "font-family:ubuntu,verdana,arial;"
+#define HEADER_STYLE "style=\"" FONT_STYLE " font-size:16px\""
+#define FOOTER_STYLE HEADER_STYLE
+
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
 {
 	setMplayerPath(mplayer_path);
@@ -150,7 +154,7 @@ void VideoPreview::retranslateStrings() {
 	progress->setWindowTitle(tr("Thumbnail Generator"));
 	progress->setCancelButtonText( tr("Cancel") );
 
-	foot->setText("<i style=\"font-family:verdana,arial; font-size:large\"><b>http://smplayer.info</b></i>");
+	foot->setText("<i " FOOTER_STYLE "><b>http://smplayer.info</b></i>");
 }
 
 void VideoPreview::setMplayerPath(QString mplayer_path) {
@@ -471,8 +475,8 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	int count = 1;
 
 	QString text =
-		"<h1 style=\"font-family:verdana,arial;\">" + i.filename + "</h1>"
-		"<table cellspacing=4 cellpadding=4 style=\"font-family:verdana,arial; font-size:large\">"
+		"<h1 " FONT_STYLE ">" + i.filename + "</h1>"
+		"<table cellspacing=4 cellpadding=4 " HEADER_STYLE ">"
 		"<tr><td>";
 
 	ADD_INFO(tr("Size: %1 MB").arg(i.size / (1024*1024)));
