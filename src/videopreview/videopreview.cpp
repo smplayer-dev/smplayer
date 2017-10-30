@@ -435,6 +435,20 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 		QPainter painter(&scaled_picture);
 		painter.setPen( Qt::white );
 		painter.setFont(font);
+		//painter.drawText(scaled_picture.rect(), Qt::AlignRight | Qt::AlignBottom, stime);
+
+		// Set background
+		QFontMetrics fm(font);
+		int px_wide = fm.width(stime);
+		int px_high = fm.height();
+		QRect rect(scaled_picture.rect());
+		rect.setX(rect.width() - px_wide);
+		rect.setY(rect.height() - px_high);
+		rect.setWidth(px_wide);
+		rect.setHeight(px_high);
+		painter.fillRect(rect, QBrush(QColor(0, 0, 0, 128)));
+
+		// Draw text
 		painter.drawText(scaled_picture.rect(), Qt::AlignRight | Qt::AlignBottom, stime);
 	}
 
