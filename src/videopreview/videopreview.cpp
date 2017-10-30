@@ -150,7 +150,7 @@ void VideoPreview::retranslateStrings() {
 	progress->setWindowTitle(tr("Thumbnail Generator"));
 	progress->setCancelButtonText( tr("Cancel") );
 
-	foot->setText("<i style=\"font-family:arial; font-size:medium\">http://smplayer.info</i>");
+	foot->setText("<i style=\"font-family:verdana,arial; font-size:large\"><b>http://smplayer.info</b></i>");
 }
 
 void VideoPreview::setMplayerPath(QString mplayer_path) {
@@ -471,8 +471,8 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	int count = 1;
 
 	QString text =
-		"<h1 style=\"font-family:arial;\">" + i.filename + "</h1>"
-		"<table cellspacing=4 cellpadding=4 style=\"font-family:arial; font-size:medium\">"
+		"<h1 style=\"font-family:verdana,arial;\">" + i.filename + "</h1>"
+		"<table cellspacing=4 cellpadding=4 style=\"font-family:verdana,arial; font-size:large\">"
 		"<tr><td>";
 
 	ADD_INFO(tr("Size: %1 MB").arg(i.size / (1024*1024)));
