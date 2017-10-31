@@ -498,7 +498,7 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	ADD_INFO(tr("Resolution: %1x%2").arg(i.width).arg(i.height));
 	ADD_INFO(tr("Length: %1").arg(t.toString("hh:mm:ss")));
 
-	if (i.fps) ADD_INFO(tr("Frames per second: %1").arg(fps));
+	if (i.fps && i.fps != 1000) ADD_INFO(tr("Frames per second: %1").arg(fps));
 	if (!i.video_format.isEmpty()) ADD_INFO(tr("Video format: %1").arg(i.video_format));
 	if (!i.audio_format.isEmpty()) ADD_INFO(tr("Audio format: %1").arg(i.audio_format));
 
