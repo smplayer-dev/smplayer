@@ -449,7 +449,7 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 		painter.fillRect(rect, QBrush(QColor(0, 0, 0, 128)));
 
 		// Draw text
-		painter.drawText(scaled_picture.rect(), Qt::AlignRight | Qt::AlignBottom, stime);
+		painter.drawText(rect, Qt::AlignCenter, stime);
 	}
 
 	QLabel * l = new QLabel(this);
