@@ -430,10 +430,11 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 		QTime t(0,0);
 		QString stime = t.addSecs(time).toString("hh:mm:ss");
 		//qDebug() << "VideoPreview::addPicture: stime:" << stime << "time:" << time;
-		QFont font("Arial");
+		QFont font;
+		font.setPointSize(12);
 		font.setBold(true);
 		QPainter painter(&scaled_picture);
-		painter.setPen( Qt::white );
+		painter.setPen(Qt::white);
 		painter.setFont(font);
 		//painter.drawText(scaled_picture.rect(), Qt::AlignRight | Qt::AlignBottom, stime);
 
