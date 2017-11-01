@@ -1,3 +1,24 @@
+Version 17.11:
+
+(2017-10-30)
+ * Cosmetic changes in the thumbnail generator.
+
+(2017-10-27)
+ * Add more precision in the thumbnail generator.
+
+(2017-10-25)
+ * (mpv) Improve the firequalizer filter.
+
+(2017-10-22)
+ * (mpv) Fix the option "AC3/DTS passthrough".
+
+(2017-10-21)
+ * Fix the option "add black borders on fullscreen".
+
+(2017-10-20)
+ * (mpv) Fix the software video equalizer.
+
+
 Version 17.10.2:
 
 (2017-10-14)
