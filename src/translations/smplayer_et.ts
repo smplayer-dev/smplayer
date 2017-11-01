@@ -10460,7 +10460,7 @@ Kas kirjutada see üle?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video preview</source>
         <translation>Video eelvaade</translation>
     </message>
@@ -10480,32 +10480,32 @@ Kas kirjutada see üle?</translation>
         <translation>Pisipiltide loomine...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="482"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>Size: %1 MB</source>
         <translation>Suurus: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="484"/>
+        <location filename="../videopreview/videopreview.cpp" line="499"/>
         <source>Length: %1</source>
         <translation>Pikkus %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="503"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="665"/>
+        <location filename="../videopreview/videopreview.cpp" line="680"/>
         <source>Save file</source>
         <translation>Salvesta fail</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="678"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Error saving file</source>
         <translation>Viga faili salvetamisel</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="679"/>
+        <location filename="../videopreview/videopreview.cpp" line="694"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>faili ei salvestatud</translation>
     </message>
@@ -10530,22 +10530,22 @@ Kas kirjutada see üle?</translation>
         <translation>MPlayeri protsess ei käivitunud</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="498"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolutsioon: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="502"/>
         <source>Video format: %1</source>
         <translation>Video formaat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>Frames per second: %1</source>
         <translation>Kaadreid sekundis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="490"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Aspect ratio: %1</source>
         <translation>Kuvasuhe: %1</translation>
     </message>
@@ -10555,12 +10555,12 @@ Kas kirjutada see üle?</translation>
         <translation>Faili %1 pole laetud</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="529"/>
+        <location filename="../videopreview/videopreview.cpp" line="544"/>
         <source>No filename</source>
         <translation>Pole failinime</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="623"/>
+        <location filename="../videopreview/videopreview.cpp" line="638"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>MPlayeri protsess ei käivitunud video info lugemisel</translation>
     </message>
@@ -10575,38 +10575,38 @@ Kas kirjutada see üle?</translation>
         <translation>%1 faili pole olemas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="666"/>
+        <location filename="../videopreview/videopreview.cpp" line="681"/>
         <source>Images</source>
         <translation>PIldid</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>No info</source>
         <translation>POle infot</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
-        <location filename="../videopreview/videopreview.cpp" line="472"/>
+        <location filename="../videopreview/videopreview.cpp" line="486"/>
+        <location filename="../videopreview/videopreview.cpp" line="487"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="473"/>
+        <location filename="../videopreview/videopreview.cpp" line="488"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="492"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitisagedus: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="493"/>
+        <location filename="../videopreview/videopreview.cpp" line="508"/>
         <source>Audio bitrate: %1</source>
         <translation>Heli bitisagedus: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="494"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Audio rate: %1</source>
         <translation>Audio hinnang :%1</translation>
     </message>
