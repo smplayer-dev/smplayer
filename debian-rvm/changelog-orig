@@ -1,3 +1,13 @@
+smplayer (17.11.0) precise; urgency=low
+
+  * The video equalizer by software has been fixed.
+  * The thumbnail generator is now more precise with short videos.
+  * The audio quality of the audio equalizer has been improved.
+  * The option "add black borders on fullscreen" has been fixed.
+  * The option "AC3/DTS passthrough over S/PDIF" has been fixed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 02 Nov 2017 22:21:07 +0100
+
 smplayer (17.10.2) precise; urgency=low
 
   * New option in Preferences -> Network to select the preferred quality
