@@ -10491,7 +10491,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="503"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydformat: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="680"/>
