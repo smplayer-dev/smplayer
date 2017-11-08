@@ -4,72 +4,77 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="64"/>
         <source>Version: %1</source>
         <translation>Bertsioa: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
         <translation>Garapen bertsioa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="72"/>
         <source>Links:</source>
         <translation>Loturak:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="73"/>
         <source>Official website:</source>
         <translation>Webgune ofiziala:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="74"/>
         <source>Support forum:</source>
         <translation>Sostengu eztabaigunea:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="82"/>
+        <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer interfaze grafiko bat da %1-rako.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Klikatu hemen transifex-ko taldeetako itzultzaileak ezagutzeko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Many people contributed with translations.</source>
         <translation>Jende ugarik lagundu du itzulpenekin.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="169"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>SMPlayer zure hizkuntzara itzultzen ere lagundu dezakezu.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Ikusi %1 eta bat egin itzulpen talde batean.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="60"/>
         <source>Using %1</source>
         <translation>Erabiltzen %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="78"/>
+        <location filename="../about.cpp" line="44"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;Ongi</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer interfaze grafiko bat da %1 eta %2-rako.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
         <translation>Azpidatzi zerbitzua %1-ek hornitua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -112,37 +117,37 @@
         <translation>&amp;Baimena</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="64"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
         <translation>Edizio Eramangarria</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="70"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Qt %1 Erabiltzen (Qt %2-rekin bilduta)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="128"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer logoaren egilea: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Read the entire license</source>
         <translation>Irakurri baimen osoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Read a translation</source>
         <translation>Irakurri itzulpen bat</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="129"/>
         <source>Packages for Windows created by %1</source>
         <translation>Windows-rako pakete sortzailea: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Beste jende askok lagundu du bere ekarpenekin. Ikusi Aldaketa-oharra xehetasunetarako.</translation>
     </message>
@@ -2750,42 +2755,50 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Audio iraga&amp;zkiak:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>OK</source>
-        <translation>Ongi</translation>
+        <translation type="obsolete">Ongi</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Cancel</source>
-        <translation>Ezeztatu</translation>
+        <translation type="obsolete">Ezeztatu</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="89"/>
+        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;Ongi</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">E&amp;zeztatu</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Apply</source>
         <translation>Ezarri</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="94"/>
         <source>O&amp;ptions for %1</source>
         <translation>%1-rentzako a&amp;ukerak</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="98"/>
+        <location filename="../filepropertiesdialog.cpp" line="95"/>
         <source>Additional Options for %1</source>
         <translation>%1-entzako Aukera Gehigarriak</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="99"/>
+        <location filename="../filepropertiesdialog.cpp" line="96"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Hemen aukera gehigarriak bidali ahal dizkiozu %1-ri.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Write them separated by spaces.</source>
         <translation>Idatzi tartez bananduta.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Example:</source>
         <translation>Adibidea:</translation>
     </message>
@@ -10459,153 +10472,163 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Video preview</source>
         <translation>Bideo aurreikuspena</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="155"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Cancel</source>
         <translation>Ezeztatu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="154"/>
+        <location filename="../videopreview/videopreview.cpp" line="122"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">It&amp;xi</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <source>&amp;Save</source>
+        <translation type="unfinished">&amp;Gorde</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="162"/>
         <source>Thumbnail Generator</source>
         <translation>Txikirudi Sortzailea</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="243"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>Creating thumbnails...</source>
         <translation>Txikirudiak sortzen...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Size: %1 MB</source>
         <translation>Neurria: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Length: %1</source>
         <translation>Iraupena: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="503"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Audio format: %1</source>
         <translation>Audio heuskarria: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="680"/>
+        <location filename="../videopreview/videopreview.cpp" line="688"/>
         <source>Save file</source>
         <translation>Gorde agiria</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="701"/>
         <source>Error saving file</source>
         <translation>Akatsa agiria gordetzerakoan</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="694"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Agiria ezin da gorde</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="199"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>Error</source>
         <translation>Akatsa</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="200"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Hurrengo akatsa gertatu da txikirudiak sortzerakoan:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Aldibaterako zuzenbidea (%1) ezinda sortu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="389"/>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer garapenak ezin du ekin</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Resolution: %1x%2</source>
         <translation>Bereizmena; %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="502"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Video format: %1</source>
         <translation>Bideo heuskarria: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Frames per second: %1</source>
         <translation>Frame segunduko: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="505"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Aspect ratio: %1</source>
         <translation>Ikuspegi Maila: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>%1 agiria ezin da gertatu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="544"/>
+        <location filename="../videopreview/videopreview.cpp" line="552"/>
         <source>No filename</source>
         <translation>Agirizen gabe</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="638"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation> MPlayer garapena ezin da hasi bideoari buruzko argibideak lortzen saiatzen den bitartean</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>The length of the video is 0</source>
         <translation>Bideoaren iraupena 0 da</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="261"/>
+        <location filename="../videopreview/videopreview.cpp" line="269"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>%1 agiria ez dago</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="681"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Images</source>
         <translation>Irudiak</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="491"/>
         <source>No info</source>
         <translation>Argibiderik ez</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
+        <location filename="../videopreview/videopreview.cpp" line="495"/>
         <source>%1 kbps</source>
         <translation>%1 kbs-ko</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>Video bitrate: %1</source>
         <translation>Bideo bitneurria: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitneurria: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="509"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio rate: %1</source>
         <translation>Audio neurria: %1</translation>
     </message>
@@ -10613,7 +10636,7 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>VideoPreviewConfigDialog</name>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>Default</source>
         <translation>Berezkoa</translation>
     </message>
@@ -10648,48 +10671,58 @@ Gainidaztea nahi duzu?</translation>
         <translation>Ge&amp;hienezko zabalera:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;Ongi</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">E&amp;zeztatu</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
         <translation>Aurreikuspena zuk hemen adierazitako bideotik sortuko da.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>Txikirudiak taula batean antolatuko dira.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
         <translation>Aukera honek taularen zutabe zenbatekoa adierazten du.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
         <translation>Aukera honek taularen lerro zenbatekoa adierazten du.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
         <translation>Aukera hau hautatzen baduzu, irakurketa denbora erakutsiko da txikirudi bakoitzaren ohinean.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
         <translation>Bideoaren ikuspegi maila okerra bada, bestelako bat adierazi dezakezu hemen.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
         <translation>Arrunt lehen framea beltza da, baina ideia hona da bideoaren hasierako segundu batzuk jauzi egitea. Aukera honek zenbat segundu jauziko diren adieraztea ahalbidetzen du.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
         <translation>Aukera honek adierazten du sortutako aurreikuspen irudiak izango duen zabalera gehiena pixeletan.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>Frame batzuk bideotik atera daitezke aurreikuspena sortzeko. Hemen frameak ateratzeko irudiaren heuskarria hautatu dezakezu. PNG-k ontasun handiagoa eman dezake. </translation>
     </message>
@@ -10709,7 +10742,7 @@ Gainidaztea nahi duzu?</translation>
         <translation>Atera &amp;frameak honela</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
         <translation>Sartu hemen DVD gailua edo agiritegi bat DVD irudi batekin.</translation>
     </message>

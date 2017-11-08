@@ -1,73 +1,80 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="hr">
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="64"/>
         <source>Version: %1</source>
         <translation>Inačica: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
         <translation>Razvojna inačica</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="72"/>
         <source>Links:</source>
         <translation>Poveznice:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="73"/>
         <source>Official website:</source>
         <translation>Službena web stranica:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="74"/>
         <source>Support forum:</source>
         <translation>Forum podrške:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="82"/>
+        <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer je grafičko sučelje za %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Kliknite ovdje kako bi vidjeli timove prevoditelja s transifexa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Many people contributed with translations.</source>
         <translation>Mnogo ljudi je doprinjelo s prijevodima.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="169"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>Vi isto tako možete pomoći u prijevodu SMPlayera na vaš jezik.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Posjetite %1 i pridružite se prevoditeljskom timu.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="60"/>
         <source>Using %1</source>
         <translation>Koristi se %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="78"/>
+        <location filename="../about.cpp" line="44"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;U redu</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer je grafičko sučelje za %1 i %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
         <translation>Uslugu podnaslova pruža %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -110,37 +117,37 @@
         <translation>&amp;Licenca</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="64"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
         <translation>Prijenosno izdanje</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="70"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Koristi se Qt %1 (kompajlirano s Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="128"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer logotip dizajnirao je %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Read the entire license</source>
         <translation>Pročitajte cijelu licencu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Read a translation</source>
         <translation>Pročitajte prijevod</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="129"/>
         <source>Packages for Windows created by %1</source>
         <translation>Pakete za Windowse napravio je %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Mnoge druge osobe su doprinijele svojim dodacima i popravcima. Pogledajte zapis promjena za pojedinosti.</translation>
     </message>
@@ -2748,42 +2755,50 @@ Npr: extrastereo,karaoke</translation>
         <translation>Zvučni &amp;filtri:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>OK</source>
-        <translation>U redu</translation>
+        <translation type="obsolete">U redu</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Cancel</source>
-        <translation>Odustani</translation>
+        <translation type="obsolete">Odustani</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="89"/>
+        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;U redu</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Odustani</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Apply</source>
         <translation>Primjeni</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="94"/>
         <source>O&amp;ptions for %1</source>
         <translation>M&amp;ogućnosti za %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="98"/>
+        <location filename="../filepropertiesdialog.cpp" line="95"/>
         <source>Additional Options for %1</source>
         <translation>Dodatne mogućnosti za %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="99"/>
+        <location filename="../filepropertiesdialog.cpp" line="96"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Ovdje možete upisati dodatne mogućnosti za %1.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Write them separated by spaces.</source>
         <translation>Upišite ih odvojene razmakom.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Example:</source>
         <translation>Primjer:</translation>
     </message>
@@ -2976,7 +2991,11 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
+        <translation>
+            <numerusform>%n podnaslov raspakiran</numerusform>
+            <numerusform>%n podnaslova raspakirana</numerusform>
+            <numerusform>%n podnaslova raspakirano</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3074,7 +3093,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -9743,13 +9762,21 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
+        <translation>
+            <numerusform>%n sekunda</numerusform>
+            <numerusform>%n sekunde</numerusform>
+            <numerusform>%n sekundi</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
+        <translation>
+            <numerusform>%n minuta</numerusform>
+            <numerusform>%n minute</numerusform>
+            <numerusform>%n minuta</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10448,153 +10475,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Video preview</source>
         <translation>Pregled minijatura video zapisa</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="151"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Cancel</source>
         <translation>Odustani</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="150"/>
+        <location filename="../videopreview/videopreview.cpp" line="122"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Zatvori</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <source>&amp;Save</source>
+        <translation type="unfinished">&amp;Spremi</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="162"/>
         <source>Thumbnail Generator</source>
         <translation>Generator minijatura</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>Creating thumbnails...</source>
         <translation>Stvaranje minijatura video zapisa...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="478"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Size: %1 MB</source>
         <translation>Veličina: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="480"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Length: %1</source>
         <translation>Trajanje: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="484"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Audio format: %1</source>
         <translation>Zvučni format: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="661"/>
+        <location filename="../videopreview/videopreview.cpp" line="688"/>
         <source>Save file</source>
         <translation>Spremi datoteku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="674"/>
+        <location filename="../videopreview/videopreview.cpp" line="701"/>
         <source>Error saving file</source>
         <translation>Greška pri spremanju datoteke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="675"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Datoteka ne može biti spremljena</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="195"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="196"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Sljedeća greška je nastala pri stvaranju minijatura video zapisa:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="222"/>
+        <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Privremeni direktorij (%1) ne može biti stvoren</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="385"/>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Mplayer proces nije pokrenut</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="479"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Resolution: %1x%2</source>
         <translation>Razlučivost: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Video format: %1</source>
         <translation>Format video zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="482"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Frames per second: %1</source>
         <translation>Sličica u sekundi: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="405"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Datoteka %1 se ne može očitati</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="525"/>
+        <location filename="../videopreview/videopreview.cpp" line="552"/>
         <source>No filename</source>
         <translation>Nema naziva datoteke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="619"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer proces nije pokrenut prilikom dobivanja informacija o video zapisu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>The length of the video is 0</source>
         <translation>Trajanje video zapisa je 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="257"/>
+        <location filename="../videopreview/videopreview.cpp" line="269"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Datoteka %1 ne postoji</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="662"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Images</source>
         <translation>Slike</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="464"/>
+        <location filename="../videopreview/videopreview.cpp" line="491"/>
         <source>No info</source>
         <translation>Nema informacije</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="467"/>
-        <location filename="../videopreview/videopreview.cpp" line="468"/>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
+        <location filename="../videopreview/videopreview.cpp" line="495"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="469"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>Video bitrate: %1</source>
         <translation>Brzina prijenosa video zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="489"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Audio bitrate: %1</source>
         <translation>Brzina prijenosa zvučnog zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="490"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio rate: %1</source>
         <translation>Frekvencija zvučnog zapisa: %1</translation>
     </message>
@@ -10602,7 +10639,7 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreviewConfigDialog</name>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>Default</source>
         <translation>Zadan</translation>
     </message>
@@ -10637,48 +10674,58 @@ Do you want to overwrite?</source>
         <translation>&amp;Maksimalna širina:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;U redu</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Odustani</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
         <translation>Pregled će biti stvoren za video zapis koji ste ovdje odredili.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>Minijature će biti organizirane kao tabela.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
         <translation>Ova mogućnost određuje broj stupaca tabele.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
         <translation>Ova mogućnost određuje broj redaka tabele.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
         <translation>Ako odaberete ovu mogućnost, vrijeme reprodukcije će biti prikazano na dnu svake minijature.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
         <translation>Ako je omjer slike video zapisa pogrešan, ovdje možete odrediti drugi omjer slike.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
         <translation>Obično je prva sličica crna, stoga bi bilo dobro preskočiti nekoliko sekundi na početku video zapisa. Ova mogućnost vam dopušta da odredite koliko će sekundi biti preskočeno.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
         <translation>Ova mogućnost određuje maksimalnu širinu u pikselima koju će generirana slika pregleda imati.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>Neke sličice će biti izvučene iz video zapisa kako bi se stvorio pregled. Ovdje možete odabrati format slike za izvučene sličice. PNG može dati bolju kvalitetu.</translation>
     </message>
@@ -10698,7 +10745,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Spremi sličice kao</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
         <translation>Unesite ovdje DVD uređaj ili mapu s DVD slikom.</translation>
     </message>

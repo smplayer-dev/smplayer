@@ -4,72 +4,77 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="64"/>
         <source>Version: %1</source>
         <translation>Versie: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
         <translation>Ontwikkelversie</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="72"/>
         <source>Links:</source>
         <translation>Koppelingen:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="73"/>
         <source>Official website:</source>
         <translation>Officiële website:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="74"/>
         <source>Support forum:</source>
         <translation>Forum voor ondersteuning:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="82"/>
+        <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer is een grafische interface voor %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Klik hier om de vertalers van de Transifex-teams te leren kennen:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Many people contributed with translations.</source>
         <translation>Veel mensen hebben bijgedragen met vertalen.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="169"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>U kunt ook helpen SMPlayer te vertalen naar uw eigen taal.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Bezoek %1 en neem deel aan een vertaalteam.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="60"/>
         <source>Using %1</source>
         <translation>Gebruik %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="78"/>
+        <location filename="../about.cpp" line="44"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer is een grafische interface voor %1 en %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
         <translation>Ondertitelingsdienst mede mogelijk gemaakt door %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -112,37 +117,37 @@
         <translation>&amp;Licentie</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="64"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
         <translation>Draagbare editie</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="70"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Gebruik makend van Qt %1 (gecompileerd met Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="128"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo van %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Read the entire license</source>
         <translation>Lees de volledige licentie</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Read a translation</source>
         <translation>Lees een vertaling</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="129"/>
         <source>Packages for Windows created by %1</source>
         <translation>Het windows programma is gemaakt door %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Vele andere hebben een bijdrage geleverd. Bekijk de Changelog voor de details.</translation>
     </message>
@@ -2750,42 +2755,50 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Audio&amp;filters:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="obsolete">OK</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Cancel</source>
-        <translation>Annuleren</translation>
+        <translation type="obsolete">Annuleren</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="89"/>
+        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Annuleren</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Apply</source>
         <translation>Toepassen</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="94"/>
         <source>O&amp;ptions for %1</source>
         <translation>O&amp;pties voor %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="98"/>
+        <location filename="../filepropertiesdialog.cpp" line="95"/>
         <source>Additional Options for %1</source>
         <translation>Extra opties voor %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="99"/>
+        <location filename="../filepropertiesdialog.cpp" line="96"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Hier kunt u extra opties passeren naar %1.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Write them separated by spaces.</source>
         <translation>Schrijf ze gescheiden door spaties.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Example:</source>
         <translation>Voorbeeld:</translation>
     </message>
@@ -10459,153 +10472,163 @@ Wilt u het overschrijven?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Video preview</source>
         <translation>Video-voorbeeld</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="155"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="154"/>
+        <location filename="../videopreview/videopreview.cpp" line="122"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Sluiten</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <source>&amp;Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="162"/>
         <source>Thumbnail Generator</source>
         <translation>Thumbnail Generator</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="243"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>Creating thumbnails...</source>
         <translation>Miniaturen aanmaken...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Size: %1 MB</source>
         <translation>Grootte: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Length: %1</source>
         <translation>Lengte: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="503"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="680"/>
+        <location filename="../videopreview/videopreview.cpp" line="688"/>
         <source>Save file</source>
         <translation>Bestand opslaan</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="701"/>
         <source>Error saving file</source>
         <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="694"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Het bestand kon niet worden opgeslagen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="199"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>Error</source>
         <translation>Foutmelding</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="200"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>De volgende fout trad op bij het maken van de miniaturen:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>De tijdelijke map (%1) kan niet worden aangemaakt</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="389"/>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Het mplayer-proces werd niet uitgevoerd</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolutie: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="502"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Video format: %1</source>
         <translation>Videoformaat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Frames per second: %1</source>
         <translation>Frames per seconde: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="505"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspectverhouding: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Het bestand %1 kan niet worden geladen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="544"/>
+        <location filename="../videopreview/videopreview.cpp" line="552"/>
         <source>No filename</source>
         <translation>Geen bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="638"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Het mplayer-proces startte niet bij het verkrijgen van informatie over de video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>The length of the video is 0</source>
         <translation>De lengte van de video is 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="261"/>
+        <location filename="../videopreview/videopreview.cpp" line="269"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Het bestand %1 bestaat niet</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="681"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Images</source>
         <translation>Afbeeldingen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="491"/>
         <source>No info</source>
         <translation>Geen info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
+        <location filename="../videopreview/videopreview.cpp" line="495"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitsnelheid: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitsnelheid: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="509"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio rate: %1</source>
         <translation>Audio rate: %1</translation>
     </message>
@@ -10613,7 +10636,7 @@ Wilt u het overschrijven?</translation>
 <context>
     <name>VideoPreviewConfigDialog</name>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>Default</source>
         <translation>Standaard</translation>
     </message>
@@ -10648,48 +10671,58 @@ Wilt u het overschrijven?</translation>
         <translation>&amp;Maximale breedte:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Annuleren</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
         <translation>Het voorbeeld zal worden gemaakt voor de video die u hier instelt.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>De miniaturen zullen op een tabel worden gesorteerd.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
         <translation>Deze optie stelt het aantal kolommen op de tabel in.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
         <translation>Deze optie stelt het aantal rijen op de tabel in.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
         <translation>Indien u deze optie aanvinkt zal de tijd op elke miniatuur worden getoond.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
         <translation>Indien de aspectverhouding verkeerd is, kan u hier een nieuwe geven.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
         <translation>Meestal zijn de eerste frames zwart, dus het is een goed idee om de eerste seconden van de video over te slaan. Deze optie geeft aan hoeveel seconden dit zullen zijn.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
         <translation>Deze optie specificeert de maximale breedte in pixels dat de gegenereerde voorvertoning van het beeld zal hebben.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>Sommige frames worden afgeleid uit de video om het voorbeeld te maken. Hier kunt u het beeldformaat voor deze frames bepalen. PNG kan een betere kwaliteit geven.</translation>
     </message>
@@ -10709,7 +10742,7 @@ Wilt u het overschrijven?</translation>
         <translation>Fram&amp;es uitpakken als</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
         <translation>Vul hier een appraat in dat DVD&apos;s afspeelt, of een map dat een DVD bestand bevat. </translation>
     </message>

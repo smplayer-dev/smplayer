@@ -4,72 +4,77 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="64"/>
         <source>Version: %1</source>
         <translation>Версія: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="62"/>
+        <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
         <translation>Версія в розробці</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="72"/>
         <source>Links:</source>
         <translation>Посилання:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="73"/>
         <source>Official website:</source>
         <translation>Офiцiйний сайт:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="74"/>
         <source>Support forum:</source>
         <translation>Підтримка форуму:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="82"/>
+        <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer — це графічний інтерфейс для %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Натисніть сюди, щоб ознайомитися з переліком перекладачів з команди Transifex</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Many people contributed with translations.</source>
         <translation>Багато людей зробили внесок у переклади.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="169"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>Ви також можете допомогти перекласти SMPlayer рідною мовою.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Відвідайте %1 і приєднайтеся до команди перекладачів.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="60"/>
         <source>Using %1</source>
         <translation>Використовуючи %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="78"/>
+        <location filename="../about.cpp" line="44"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer - це графічний інтерфейс для %1 і %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="91"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
         <translation>Служба субтитрів функціонує на %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -112,37 +117,37 @@
         <translation>&amp;Ліцензія</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="64"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
         <translation>Портативна редакція</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="70"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Використовується Qt %1 (зібрано з Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="125"/>
+        <location filename="../about.cpp" line="128"/>
         <source>SMPlayer logo by %1</source>
         <translation>Логотип SMPlayer: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="106"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Read the entire license</source>
         <translation>Читати повну ліцензію</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="114"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Read a translation</source>
         <translation>Читати переклад</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="129"/>
         <source>Packages for Windows created by %1</source>
         <translation>Пакунки для Windows створено %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Багато людей зробили внесок своїми виправленнями.  Перегляньте Changelog для деталей.</translation>
     </message>
@@ -2750,42 +2755,50 @@ Example: extrastereo,karaoke</source>
         <translation>Фільтри &amp;звуку:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>OK</source>
-        <translation>Гаразд</translation>
+        <translation type="obsolete">Гаразд</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="obsolete">Скасувати</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="89"/>
+        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Скасувати</translation>
+    </message>
+    <message>
+        <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Apply</source>
         <translation>Застосувати</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="94"/>
         <source>O&amp;ptions for %1</source>
         <translation>Оп&amp;ції для %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="98"/>
+        <location filename="../filepropertiesdialog.cpp" line="95"/>
         <source>Additional Options for %1</source>
         <translation>Додаткові опції для %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="99"/>
+        <location filename="../filepropertiesdialog.cpp" line="96"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Тут ви можете вказати додаткові опції %1.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Write them separated by spaces.</source>
         <translation>Розділіть їх пробілами.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="100"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>Example:</source>
         <translation>Приклад:</translation>
     </message>
@@ -10462,153 +10475,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Video preview</source>
         <translation>Попередній перегляд відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="155"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Cancel</source>
         <translation>Скасувати</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="154"/>
+        <location filename="../videopreview/videopreview.cpp" line="122"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Закрити</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <source>&amp;Save</source>
+        <translation type="unfinished">&amp;Зберегти</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="162"/>
         <source>Thumbnail Generator</source>
         <translation>Генератор мініатюр</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="243"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>Creating thumbnails...</source>
         <translation>Створення мініатюр...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Size: %1 MB</source>
         <translation>Розмір: %1 Мб</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Length: %1</source>
         <translation>Довжина: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="503"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="680"/>
+        <location filename="../videopreview/videopreview.cpp" line="688"/>
         <source>Save file</source>
         <translation>Зберегти файл</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="701"/>
         <source>Error saving file</source>
         <translation>Помилка збереження файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="694"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Файл не може бути збережений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="199"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="200"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Сталася така помилка під час створення мініатюр:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Тимчасова тека (%1) не може бути створена</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="389"/>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Процес mplayer не запустився</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="498"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Resolution: %1x%2</source>
         <translation>Роздільність: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="502"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Video format: %1</source>
         <translation>Формат відео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Frames per second: %1</source>
         <translation>Кадрів на секунду: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="505"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Файл %1 не може бути завантажений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="544"/>
+        <location filename="../videopreview/videopreview.cpp" line="552"/>
         <source>No filename</source>
         <translation>Немає назви файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="638"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Процес mplayer не запустився під час спроби отримання відомостей про відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>The length of the video is 0</source>
         <translation>Довжина відео: 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="261"/>
+        <location filename="../videopreview/videopreview.cpp" line="269"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Файл %1 не існує</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="681"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Images</source>
         <translation>Зображення</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="483"/>
+        <location filename="../videopreview/videopreview.cpp" line="491"/>
         <source>No info</source>
         <translation>Немає відомостей</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="486"/>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
+        <location filename="../videopreview/videopreview.cpp" line="495"/>
         <source>%1 kbps</source>
         <translation>%1 кбіт/с</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="488"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 Hz</source>
         <translation>%1 Гц</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>Video bitrate: %1</source>
         <translation>Бітрейт відео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Audio bitrate: %1</source>
         <translation>Бітрейт аудіо: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="509"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio rate: %1</source>
         <translation>Частота аудіо: %1</translation>
     </message>
@@ -10616,7 +10639,7 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreviewConfigDialog</name>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="37"/>
         <source>Default</source>
         <translation>Типові</translation>
     </message>
@@ -10651,48 +10674,58 @@ Do you want to overwrite?</source>
         <translation>Найбільша &amp;ширина:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
+        <source>&amp;OK</source>
+        <translation type="unfinished">&amp;OK</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
+        <source>&amp;Cancel</source>
+        <translation type="unfinished">&amp;Скасувати</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
         <translation>Попередній перегляд буде створено для відео, яке ви вкажете тут.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>Мініатюри будуть розташовані в таблиці.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
         <translation>Ця опція визначає кількість стовпців таблиці.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
         <translation>Ця опція визначає кількість рядків таблиці.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
         <translation>Якщо ви виберете цю опцію, час програвання буде відображений знизу кожної мініатюри.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
         <translation>Якщо співвідношення сторін відео невірне, Ви тут можете визначити інше.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
         <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку відео. Ця опція дозволяє визначити скільки секунд буде пропущено.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
         <translation>Ця опція визначає найбільшу ширину у пікселях, що будуть мати створені мініатюри.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>Деякі кадри будуть витягнені з відео у порядку створення попереднього перегляду. Тут Ви можете обрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
     </message>
@@ -10712,7 +10745,7 @@ Do you want to overwrite?</source>
         <translation>Витягнути &amp;кадри як</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
         <translation>Введіть пристрій DVD або теку з образом DVD.</translation>
     </message>
