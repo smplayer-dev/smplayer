@@ -498,7 +498,7 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	int count = 1;
 
 	QString text =
-		"<h1 " FONT_STYLE ">" + i.filename + "</h1>"
+		"<h2 " FONT_STYLE ">" + i.filename + "</h2>"
 		"<table cellspacing=4 cellpadding=4 " HEADER_STYLE ">"
 		"<tr><td>";
 
