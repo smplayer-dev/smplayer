@@ -82,12 +82,9 @@ void FilePropertiesDialog::retranslateStrings() {
 
 	showInfo();
 
-	// Qt 4.2 doesn't update the buttons' text
-#if QT_VERSION < 0x040300
-	okButton->setText( tr("OK") );
-	cancelButton->setText( tr("Cancel") );
+	okButton->setText( tr("&OK") );
+	cancelButton->setText( tr("&Cancel") );
 	applyButton->setText( tr("Apply") );
-#endif
 
 #if ALLOW_DEMUXER_CODEC_CHANGE
 	int tab_idx = 4;
