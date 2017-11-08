@@ -27,6 +27,7 @@
 
 #include <QFile>
 #include <QDesktopServices>
+#include <QPushButton>
 
 #if QT_VERSION >= 0x050000
 #include "myscroller.h"
@@ -39,6 +40,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 	setWindowIcon( Images::icon("logo", 64) );
+
+	button_box->button(QDialogButtonBox::Ok)->setText(tr("&OK"));
 
 #if QT_VERSION >= 0x050000
 	MyScroller::setScroller(info->viewport());
