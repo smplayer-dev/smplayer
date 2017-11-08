@@ -18,11 +18,15 @@
 
 #include "videopreviewconfigdialog.h"
 #include <QImageReader>
+#include <QPushButton>
 
 VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
 {
 	setupUi(this);
+
+	button_box->button(QDialogButtonBox::Ok)->setText(tr("&Ok"));
+	button_box->button(QDialogButtonBox::Cancel)->setText(tr("&Cancel"));
 
 	connect(filename_edit, SIGNAL(textChanged(const QString &)),
             this, SLOT(filenameChanged(const QString &)) );

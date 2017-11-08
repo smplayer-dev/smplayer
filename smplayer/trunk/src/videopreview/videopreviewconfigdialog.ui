@@ -306,7 +306,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
+    <widget class="QDialogButtonBox" name="button_box">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
@@ -334,12 +334,12 @@
   <tabstop>initial_step_spin</tabstop>
   <tabstop>max_width_spin</tabstop>
   <tabstop>format_combo</tabstop>
-  <tabstop>buttonBox</tabstop>
+  <tabstop>button_box</tabstop>
  </tabstops>
  <resources/>
  <connections>
   <connection>
-   <sender>buttonBox</sender>
+   <sender>button_box</sender>
    <signal>accepted()</signal>
    <receiver>VideoPreviewConfigDialog</receiver>
    <slot>accept()</slot>
@@ -355,7 +355,7 @@
    </hints>
   </connection>
   <connection>
-   <sender>buttonBox</sender>
+   <sender>button_box</sender>
    <signal>rejected()</signal>
    <receiver>VideoPreviewConfigDialog</receiver>
    <slot>reject()</slot>
