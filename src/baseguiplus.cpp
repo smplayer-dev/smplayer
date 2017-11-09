@@ -76,7 +76,9 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	, detached_label(0)
 #endif
 	, mainwindow_visible(true)
+#ifdef USE_SYSTRAY
 	, trayicon_playlist_was_visible(false)
+#endif
 	, widgets_size(0)
 #if DOCK_PLAYLIST
 	, fullscreen_playlist_was_visible(false)
@@ -89,14 +91,15 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	//infowindow_visible = false;
 	mainwindow_pos = pos();
 
+	quitAct = new MyAction(QKeySequence("Ctrl+Q"), this, "quit");
+	connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
+
+#ifdef USE_SYSTRAY
 	tray = new QSystemTrayIcon(this);
 
 	tray->setToolTip( "SMPlayer" );
 	connect( tray, SIGNAL(activated(QSystemTrayIcon::ActivationReason)), 
              this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
-
-	quitAct = new MyAction(QKeySequence("Ctrl+Q"), this, "quit");
-	connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
 
 	showTrayAct = new MyAction(this, "show_tray_icon" );
 	showTrayAct->setCheckable(true);
@@ -133,6 +136,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	context_menu->addAction(quitAct);
 
 	tray->setContextMenu( context_menu );
+#endif
 
 #if DOCK_PLAYLIST
 	// Playlistdock
@@ -232,7 +236,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
+
+#ifdef USE_SYSTRAY
 	tray->hide();
+#endif
 
 #ifdef CHROMECAST_SUPPORT
 	Chromecast::deleteInstance();
@@ -246,7 +253,9 @@ void BaseGuiPlus::populateMainMenu() {
 
 	if (!pref->tablet_mode) {
 		openMenu->addAction(quitAct);
+		#ifdef USE_SYSTRAY
 		optionsMenu->addAction(showTrayAct);
+		#endif
 	}
 
 #ifdef DETACH_VIDEO_OPTION
@@ -278,7 +287,11 @@ bool BaseGuiPlus::startHidden() {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	return false;
 #else
-	if ( (!showTrayAct->isChecked()) || (mainwindow_visible) ) 
+	#ifdef USE_SYSTRAY
+	if (!showTrayAct->isChecked() || mainwindow_visible)
+	#else
+	if (mainwindow_visible)
+	#endif
 		return false;
 	else
 		return true;
@@ -304,6 +317,9 @@ void BaseGuiPlus::updateWidgets() {
 void BaseGuiPlus::closeWindow() {
 	qDebug("BaseGuiPlus::closeWindow");
 
+#ifndef USE_SYSTRAY
+	BaseGui::closeWindow();
+#else
 	if (tray->isVisible()) {
 		//e->ignore();
 		exitFullscreen();
@@ -316,12 +332,11 @@ void BaseGuiPlus::closeWindow() {
         	    QSystemTrayIcon::Information, 3000 );
 			pref->balloon_count--;
 		}
-
 	} else {
 		BaseGui::closeWindow();
 	}
 	//tray->hide();
-
+#endif
 }
 
 void BaseGuiPlus::quit() {
@@ -332,12 +347,13 @@ void BaseGuiPlus::quit() {
 void BaseGuiPlus::retranslateStrings() {
 	BaseGui::retranslateStrings();
 
-	tray->setIcon(Images::icon("logo", 22));
-
 	quitAct->change( Images::icon("exit"), tr("&Quit") );
-	showTrayAct->change( Images::icon("systray"), tr("S&how icon in system tray") );
 
+#ifdef USE_SYSTRAY
+	tray->setIcon(Images::icon("logo", 22));
+	showTrayAct->change( Images::icon("systray"), tr("S&how icon in system tray") );
 	updateShowAllAct();
+#endif
 
 #if DOCK_PLAYLIST
 	// playlistdock->setWindowTitle( tr("Playlist") );
@@ -366,12 +382,14 @@ void BaseGuiPlus::retranslateStrings() {
 #endif
 }
 
+#ifdef USE_SYSTRAY
 void BaseGuiPlus::updateShowAllAct() {
 	if (isVisible()) 
 		showAllAct->change( tr("&Hide") );
 	else
 		showAllAct->change( tr("&Restore") );
 }
+#endif
 
 void BaseGuiPlus::saveConfig() {
 	qDebug("BaseGuiPlus::saveConfig");
@@ -380,10 +398,12 @@ void BaseGuiPlus::saveConfig() {
 
 	set->beginGroup( "base_gui_plus");
 
+#ifdef USE_SYSTRAY
 	set->setValue( "show_tray_icon", showTrayAct->isChecked() );
+	set->setValue( "trayicon_playlist_was_visible", trayicon_playlist_was_visible );
+#endif
 	set->setValue( "mainwindow_visible", isVisible() );
 
-	set->setValue( "trayicon_playlist_was_visible", trayicon_playlist_was_visible );
 	set->setValue( "widgets_size", widgets_size );
 #if DOCK_PLAYLIST
 	set->setValue( "fullscreen_playlist_was_visible", fullscreen_playlist_was_visible );
@@ -408,13 +428,15 @@ void BaseGuiPlus::loadConfig() {
 
 	set->beginGroup( "base_gui_plus");
 
+#ifdef USE_SYSTRAY
 	bool show_tray_icon = set->value( "show_tray_icon", false).toBool();
 	showTrayAct->setChecked( show_tray_icon );
 	//tray->setVisible( show_tray_icon );
+	trayicon_playlist_was_visible = set->value( "trayicon_playlist_was_visible", trayicon_playlist_was_visible ).toBool();
+#endif
 
 	mainwindow_visible = set->value("mainwindow_visible", true).toBool();
 
-	trayicon_playlist_was_visible = set->value( "trayicon_playlist_was_visible", trayicon_playlist_was_visible ).toBool();
 	widgets_size = set->value( "widgets_size", widgets_size ).toInt();
 #if DOCK_PLAYLIST
 	fullscreen_playlist_was_visible = set->value( "fullscreen_playlist_was_visible", fullscreen_playlist_was_visible ).toBool();
@@ -431,10 +453,12 @@ void BaseGuiPlus::loadConfig() {
 
 	set->endGroup();
 
+#ifdef USE_SYSTRAY
 	updateShowAllAct();
+#endif
 }
 
-
+#ifdef USE_SYSTRAY
 void BaseGuiPlus::trayIconActivated(QSystemTrayIcon::ActivationReason reason) {
 	qDebug("DefaultGui::trayIconActivated: %d", reason);
 
@@ -512,11 +536,14 @@ void BaseGuiPlus::showAll(bool b) {
 	}
 	updateShowAllAct();
 }
+#endif
 
 void BaseGuiPlus::resizeWindow(int w, int h) {
     qDebug("BaseGuiPlus::resizeWindow: %d, %d", w, h);
 
+#ifdef USE_SYSTRAY
 	if ( (tray->isVisible()) && (!isVisible()) ) showAll(true);
+#endif
 
 	BaseGui::resizeWindow(w, h );
 }
@@ -525,11 +552,15 @@ void BaseGuiPlus::updateMediaInfo() {
 	qDebug("BaseGuiPlus::updateMediaInfo");
 	BaseGui::updateMediaInfo();
 
+#ifdef USE_SYSTRAY
 	tray->setToolTip( windowTitle() );
+#endif
 }
 
 void BaseGuiPlus::setWindowCaption(const QString & title) {
+#ifdef USE_SYSTRAY
 	tray->setToolTip( title );
+#endif
 
 	BaseGui::setWindowCaption( title );
 }
