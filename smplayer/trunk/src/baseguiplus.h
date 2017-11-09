@@ -21,9 +21,13 @@
 
 #include "basegui.h"
 #include "widgetactions.h"
-#include <QSystemTrayIcon>
 #include <QPoint>
 #include "guiconfig.h"
+
+#define USE_SYSTRAY
+#ifdef USE_SYSTRAY
+#include <QSystemTrayIcon>
+#endif
 
 #define SCREENS_SUPPORT
 //#define DETACH_VIDEO_OPTION
@@ -68,7 +72,9 @@ protected:
 
 	void loadConfig();
 	void saveConfig();
+#ifdef USE_SYSTRAY
 	void updateShowAllAct();
+#endif
 
 	virtual void aboutToEnterFullscreen();
 	virtual void aboutToExitFullscreen();
@@ -94,10 +100,12 @@ protected slots:
 	virtual void resizeWindow(int w, int h);
 	virtual void updateMediaInfo();
 	// New
+#ifdef USE_SYSTRAY
 	virtual void trayIconActivated(QSystemTrayIcon::ActivationReason);
 	virtual void toggleShowAll();
 	virtual void showAll(bool b);
 	virtual void showAll();
+#endif
 	virtual void quit();
 
 #if DOCK_PLAYLIST
@@ -138,12 +146,14 @@ protected slots:
 #endif
 
 protected:
+#ifdef USE_SYSTRAY
 	QSystemTrayIcon * tray;
 	QMenu * context_menu;
-
-	MyAction * quitAct;
 	MyAction * showTrayAct;
 	MyAction * showAllAct;
+#endif
+
+	MyAction * quitAct;
 
 #ifdef CHROMECAST_SUPPORT
 	MyAction * playOnChromecastAct;
@@ -177,7 +187,9 @@ protected:
 	bool mainwindow_visible;
 
 	QPoint playlist_pos;
+#ifdef USE_SYSTRAY
 	bool trayicon_playlist_was_visible;
+#endif
 
 	//QPoint infowindow_pos;
 	//bool infowindow_visible;
