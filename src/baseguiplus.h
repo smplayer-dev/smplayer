@@ -102,7 +102,6 @@ protected slots:
 	// New
 #ifdef USE_SYSTRAY
 	void initializeSystrayMenu();
-	void showSystrayIcon(bool);
 	virtual void trayIconActivated(QSystemTrayIcon::ActivationReason);
 	virtual void toggleShowAll();
 	virtual void showAll(bool b);

@@ -107,7 +107,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	showTrayAct = new MyAction(this, "show_tray_icon" );
 	showTrayAct->setCheckable(true);
 	connect( showTrayAct, SIGNAL(toggled(bool)),
-             this, SLOT(showSystrayIcon(bool)) );
+             tray, SLOT(setVisible(bool)) );
 
 	showAllAct = new MyAction(this, "restore/hide");
 	connect( showAllAct, SIGNAL(triggered()),
@@ -394,10 +394,6 @@ void BaseGuiPlus::initializeSystrayMenu() {
 	context_menu->addAction(quitAct);
 
 	tray->setContextMenu(context_menu);
-}
-
-void BaseGuiPlus::showSystrayIcon(bool visible) {
-	tray->setVisible(visible);
 }
 
 void BaseGuiPlus::updateShowAllAct() {
