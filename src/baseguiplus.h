@@ -73,6 +73,7 @@ protected:
 	void loadConfig();
 	void saveConfig();
 #ifdef USE_SYSTRAY
+	void initializeSystrayMenu();
 	void updateShowAllAct();
 #endif
 
@@ -101,6 +102,7 @@ protected slots:
 	virtual void updateMediaInfo();
 	// New
 #ifdef USE_SYSTRAY
+	void showSystrayIcon(bool);
 	virtual void trayIconActivated(QSystemTrayIcon::ActivationReason);
 	virtual void toggleShowAll();
 	virtual void showAll(bool b);
