@@ -113,7 +113,12 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
+	#ifdef Q_OS_WIN
+	initializeSystrayMenu();
+	#else
+	// Workaround for a bug in KDE which makes SMPlayer to crash
 	QTimer::singleShot(100, this, SLOT(initializeSystrayMenu()));
+	#endif
 #endif
 
 #if DOCK_PLAYLIST
