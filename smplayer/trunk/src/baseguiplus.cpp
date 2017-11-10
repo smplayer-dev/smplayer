@@ -113,7 +113,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
-	//initializeSystrayMenu();
+	QTimer::singleShot(100, this, SLOT(initializeSystrayMenu()));
 #endif
 
 #if DOCK_PLAYLIST
@@ -388,11 +388,10 @@ void BaseGuiPlus::initializeSystrayMenu() {
 	context_menu->addSeparator();
 	context_menu->addAction(quitAct);
 
-	tray->setContextMenu( context_menu );
+	tray->setContextMenu(context_menu);
 }
 
 void BaseGuiPlus::showSystrayIcon(bool visible) {
-	if (!context_menu) initializeSystrayMenu();
 	tray->setVisible(visible);
 }
 
