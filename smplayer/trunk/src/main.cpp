@@ -47,18 +47,6 @@ QString hdpiConfig() {
 
 int main( int argc, char ** argv )
 {
-#if defined(Q_OS_LINUX) && QT_VERSION >= 0x050000
-	// There a are reports of crashes when 
-	// the KDE global menu is activated.
-	// This disables it unless KDE_NO_GLOBAL_MENU is set to 0.
-	if (qgetenv("KDE_NO_GLOBAL_MENU") == "0") {
-		qunsetenv("KDE_NO_GLOBAL_MENU");
-	} else {
-		qputenv("KDE_NO_GLOBAL_MENU", QByteArray("1"));
-	}
-	//qDebug() << "KDE_NO_GLOBAL_MENU:" << qgetenv("KDE_NO_GLOBAL_MENU");
-#endif
-
 #ifdef HDPI_SUPPORT
 	QString hdpi_config_path = hdpiConfig();
 	HDPISupport * hdpi = 0;
