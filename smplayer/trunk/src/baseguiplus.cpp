@@ -71,6 +71,9 @@ using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	: BaseGui( parent, flags )
+#ifdef USE_SYSTRAY
+	, context_menu(0)
+#endif
 #ifdef SCREENS_SUPPORT
 	, screens_info_window(0)
 	, detached_label(0)
@@ -104,38 +107,13 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	showTrayAct = new MyAction(this, "show_tray_icon" );
 	showTrayAct->setCheckable(true);
 	connect( showTrayAct, SIGNAL(toggled(bool)),
-             tray, SLOT(setVisible(bool)) );
+             this, SLOT(showSystrayIcon(bool)) );
 
 	showAllAct = new MyAction(this, "restore/hide");
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
-	context_menu = new QMenu(this);
-	context_menu->addAction(showAllAct);
-	context_menu->addSeparator();
-	context_menu->addAction(openFileAct);
-	context_menu->addMenu(recentfiles_menu);
-	context_menu->addAction(openDirectoryAct);
-	context_menu->addAction(openDVDAct);
-	context_menu->addAction(openURLAct);
-	context_menu->addMenu(favorites);
-#if defined(TV_SUPPORT) && !defined(Q_OS_WIN)
-	context_menu->addMenu(tvlist);
-	context_menu->addMenu(radiolist);
-#endif
-	context_menu->addSeparator();
-	context_menu->addAction(playOrPauseAct);
-	context_menu->addAction(stopAct);
-	context_menu->addSeparator();
-	context_menu->addAction(playPrevAct);
-	context_menu->addAction(playNextAct);
-	context_menu->addSeparator();
-	context_menu->addAction(showPlaylistAct);
-	context_menu->addAction(showPreferencesAct);
-	context_menu->addSeparator();
-	context_menu->addAction(quitAct);
-
-	tray->setContextMenu( context_menu );
+	//initializeSystrayMenu();
 #endif
 
 #if DOCK_PLAYLIST
@@ -383,6 +361,41 @@ void BaseGuiPlus::retranslateStrings() {
 }
 
 #ifdef USE_SYSTRAY
+void BaseGuiPlus::initializeSystrayMenu() {
+	qDebug("BaseGuiPlus::initializeSystrayMenu");
+	context_menu = new QMenu(this);
+	context_menu->addAction(showAllAct);
+	context_menu->addSeparator();
+	context_menu->addAction(openFileAct);
+	context_menu->addMenu(recentfiles_menu);
+	context_menu->addAction(openDirectoryAct);
+	context_menu->addAction(openDVDAct);
+	context_menu->addAction(openURLAct);
+	context_menu->addMenu(favorites);
+#if defined(TV_SUPPORT) && !defined(Q_OS_WIN)
+	context_menu->addMenu(tvlist);
+	context_menu->addMenu(radiolist);
+#endif
+	context_menu->addSeparator();
+	context_menu->addAction(playOrPauseAct);
+	context_menu->addAction(stopAct);
+	context_menu->addSeparator();
+	context_menu->addAction(playPrevAct);
+	context_menu->addAction(playNextAct);
+	context_menu->addSeparator();
+	context_menu->addAction(showPlaylistAct);
+	context_menu->addAction(showPreferencesAct);
+	context_menu->addSeparator();
+	context_menu->addAction(quitAct);
+
+	tray->setContextMenu( context_menu );
+}
+
+void BaseGuiPlus::showSystrayIcon(bool visible) {
+	if (!context_menu) initializeSystrayMenu();
+	tray->setVisible(visible);
+}
+
 void BaseGuiPlus::updateShowAllAct() {
 	if (isVisible()) 
 		showAllAct->change( tr("&Hide") );
