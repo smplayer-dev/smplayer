@@ -2000,162 +2000,162 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="315"/>
+        <location filename="../baseguiplus.cpp" line="314"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer draait hier nog steeds</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="338"/>
+        <location filename="../baseguiplus.cpp" line="337"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Pictogram in systeemvak &amp;tonen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="351"/>
+        <location filename="../baseguiplus.cpp" line="350"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Afspelen via &amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="355"/>
+        <location filename="../baseguiplus.cpp" line="354"/>
         <source>Send &amp;video to screen</source>
         <translation>Stuur &amp;video naar scherm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="357"/>
+        <location filename="../baseguiplus.cpp" line="356"/>
         <source>Information about connected &amp;screens</source>
         <translation>Informatie over verbonden &amp;schermen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Video is sent to an external screen</source>
         <translation>Video is naar een extern scherm gestuurd</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="364"/>
+        <location filename="../baseguiplus.cpp" line="363"/>
         <source>Send &amp;audio to</source>
         <translation>Stuur &amp;audio naar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="401"/>
         <source>&amp;Hide</source>
         <translation>&amp;Verbergen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="373"/>
+        <location filename="../baseguiplus.cpp" line="403"/>
         <source>&amp;Restore</source>
         <translation>&amp;Herstellen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="816"/>
+        <location filename="../baseguiplus.cpp" line="860"/>
         <source>Information about connected screens</source>
         <translation>Informatie over verbonden schermen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="819"/>
+        <location filename="../baseguiplus.cpp" line="863"/>
         <source>Connected screens</source>
         <translation>Verbonden schermen</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="822"/>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="866"/>
+        <location filename="../baseguiplus.cpp" line="908"/>
         <source>Number of screens: %1</source>
         <translation>Het aantal schermen: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="827"/>
-        <location filename="../baseguiplus.cpp" line="865"/>
+        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Primary screen: %1</source>
         <translation>Primaire scherm: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="835"/>
-        <location filename="../baseguiplus.cpp" line="869"/>
+        <location filename="../baseguiplus.cpp" line="879"/>
+        <location filename="../baseguiplus.cpp" line="913"/>
         <source>Information for screen %1</source>
         <translation>Informatie over scherm %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="837"/>
-        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="881"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Beschikbare geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="839"/>
+        <location filename="../baseguiplus.cpp" line="883"/>
         <source>Available size: %1 x %2</source>
         <translation>Beschikbare grootte: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="840"/>
+        <location filename="../baseguiplus.cpp" line="884"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Beschikbare virtuele geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="844"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Beschikbare virtuele grootte: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="846"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Depth: %1 bits</source>
         <translation>Diepte: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="847"/>
-        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="849"/>
+        <location filename="../baseguiplus.cpp" line="893"/>
         <source>Logical DPI: %1</source>
         <translation>Logische DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="851"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Physical DPI: %1</source>
         <translation>Fysieke DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="852"/>
+        <location filename="../baseguiplus.cpp" line="896"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fysieke afmetingen: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="854"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Vernieuwingsfrequentie: 1% Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="855"/>
+        <location filename="../baseguiplus.cpp" line="899"/>
         <source>Size: %1 x %2</source>
         <translation>Afmetingen: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="856"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuele geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="858"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuele afmetingen: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="911"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Primary screen</source>
         <translation>Primaire scherm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="980"/>
+        <location filename="../baseguiplus.cpp" line="1024"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer externe scherm uitvoer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1072"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Standaard audioapparaat</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="333"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afsluiten</translation>
     </message>
@@ -2753,14 +2753,6 @@ Voorbeeld: extrastereo,karaoke</translation>
         <location filename="../filepropertiesdialog.ui" line="406"/>
         <source>Audio &amp;filters:</source>
         <translation>Audio&amp;filters:</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="obsolete">OK</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Annuleren</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="85"/>
