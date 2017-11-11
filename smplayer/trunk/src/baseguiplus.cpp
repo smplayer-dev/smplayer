@@ -113,12 +113,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
 
-	#ifdef Q_OS_WIN
-	initializeSystrayMenu();
-	#else
-	// Workaround for a bug in KDE which makes SMPlayer to crash
-	QTimer::singleShot(100, this, SLOT(initializeSystrayMenu()));
-	#endif
+	// The systray menu will be initialized later in
+	// the function populateMainMenu
 #endif
 
 #if DOCK_PLAYLIST
@@ -263,6 +259,10 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef CHROMECAST_SUPPORT
 	playMenu->addSeparator();
 	playMenu->addAction(playOnChromecastAct);
+#endif
+
+#ifdef USE_SYSTRAY
+	if (context_menu == 0) initializeSystrayMenu();
 #endif
 }
 
