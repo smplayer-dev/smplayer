@@ -20,10 +20,10 @@
 #include <QSessionManager>
 
 #ifdef SINGLE_INSTANCE
-MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
+MyApplication::MyApplication (const QString & appId, int & argc, char ** argv)
 	: QtSingleApplication(appId, argc, argv)
 #else
-MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
+MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** argv)
 	: QApplication(argc, argv)
 #endif
 {
@@ -32,7 +32,7 @@ MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv )
 #endif
 
 #if QT_VERSION >= 0x050600
-	QGuiApplication::setFallbackSessionManagementEnabled(false);
+	setFallbackSessionManagementEnabled(false);
 #endif
 #if QT_VERSION >= 0x050000
 	connect(this, SIGNAL(commitDataRequest(QSessionManager)),
