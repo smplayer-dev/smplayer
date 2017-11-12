@@ -63,7 +63,7 @@ protected slots:
 #endif
 };
 
-#else
+#else // SINGLE_INSTANCE
 #include <QApplication>
 
 class MyApplication : public QApplication
@@ -74,7 +74,7 @@ class MyApplication : public QApplication
 	Q_OBJECT
 
 public:
-	MyApplication ( const QString & appId, int & argc, char ** argv );
+	MyApplication (const QString & appId, int & argc, char ** argv);
 
 	#if QT_VERSION < 0x050000
 	virtual void commitData(QSessionManager & manager);
@@ -92,8 +92,7 @@ protected slots:
 	void commitData(QSessionManager & manager);
 #endif
 };
-
-#endif
+#endif // SINGLE_INSTANCE
 
 #endif
 
