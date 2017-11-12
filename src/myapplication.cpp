@@ -17,28 +17,33 @@
 */
 
 #include "myapplication.h"
+#include <QSessionManager>
 
 #ifdef SINGLE_INSTANCE
 MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
 	: QtSingleApplication(appId, argc, argv)
-{
-#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
-	installNativeEventFilter(this);
-#endif
-};
-
 #else
-
 MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
 	: QApplication(argc, argv)
+#endif
 {
 #if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
 	installNativeEventFilter(this);
 #endif
+
+#if QT_VERSION >= 0x050600
+	QGuiApplication::setFallbackSessionManagementEnabled(false);
+#endif
+#if QT_VERSION >= 0x050000
+	connect(this, SIGNAL(commitDataRequest(QSessionManager)),
+            this, SLOT(commitData(QSessionManager)));
+#endif
 };
 
-#endif
-	
+void MyApplication::commitData(QSessionManager & manager) {
+	manager.release();
+}
+
 #if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
 bool MyApplication::nativeEventFilter(const QByteArray &eventType, void *message, long *result) {
 	//qDebug() << "MyApplication::nativeEventFilter:" <<eventType;
