@@ -40,11 +40,11 @@ class MyApplication : public QtSingleApplication
 	Q_OBJECT
 
 public:
-	MyApplication ( const QString & appId, int & argc, char ** argv );
+	MyApplication(const QString & appId, int & argc, char ** argv);
 
-	virtual void commitData ( QSessionManager & /*manager*/ ) {
-		// Nothing to do, let the application to close
-	}
+	#if QT_VERSION < 0x050000
+	virtual void commitData(QSessionManager & manager);
+	#endif
 
 	inline static MyApplication * instance() {
 		return qobject_cast<MyApplication*>(QApplication::instance());
@@ -55,6 +55,11 @@ public:
 	#if QT_VERSION >= 0x050000
 	virtual bool nativeEventFilter(const QByteArray &eventType, void *message, long *result);
 	#endif
+#endif
+
+#if QT_VERSION >= 0x050000
+protected slots:
+	void commitData(QSessionManager & manager);
 #endif
 };
 
@@ -71,15 +76,20 @@ class MyApplication : public QApplication
 public:
 	MyApplication ( const QString & appId, int & argc, char ** argv );
 
-	virtual void commitData ( QSessionManager & /*manager*/ ) {
-		// Nothing to do, let the application to close
-	}
-	
+	#if QT_VERSION < 0x050000
+	virtual void commitData(QSessionManager & manager);
+	#endif
+
 #ifdef USE_WINEVENTFILTER
 	virtual bool winEventFilter(MSG * msg, long * result);
 	#if QT_VERSION >= 0x050000
 	virtual bool nativeEventFilter(const QByteArray &eventType, void *message, long *result);
 	#endif
+#endif
+
+#if QT_VERSION >= 0x050000
+protected slots:
+	void commitData(QSessionManager & manager);
 #endif
 };
 
