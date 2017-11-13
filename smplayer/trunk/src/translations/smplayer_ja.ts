@@ -8035,7 +8035,7 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation>最良のビデオとオーディオ</translation>
+        <translation>最高のビデオとオーディオ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
@@ -8081,18 +8081,18 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation>利用可能な最良のビデオおよびオーディオ ストリームを選択します</translation>
+        <translation>利用可能な最高のビデオおよびオーディオ ストリームを選択します</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation>最良</translation>
+        <translation>最高</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation>単一のファイルとして利用可能な最良の品質のフォーマットを選択します</translation>
+        <translation>単一のファイルとして利用可能な最高の品質のフォーマットを選択します</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>

@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -2757,12 +2757,12 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="85"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Anuluj</translation>
+        <translation>&amp;Anuluj</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -10480,12 +10480,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zamknij</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapi&amp;sz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="162"/>
@@ -10669,12 +10669,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Anuluj</translation>
+        <translation>&amp;Anuluj</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>

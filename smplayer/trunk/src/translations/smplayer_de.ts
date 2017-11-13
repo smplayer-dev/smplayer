@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -2758,12 +2758,12 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="85"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">Abbre&amp;chen</translation>
+        <translation>Abbre&amp;chen</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -10478,12 +10478,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">S&amp;chließen</translation>
+        <translation>S&amp;chließen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;Speichern</translation>
+        <translation>&amp;Speichern</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="162"/>
@@ -10667,12 +10667,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">Abbre&amp;chen</translation>
+        <translation>Abbre&amp;chen</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
