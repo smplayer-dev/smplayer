@@ -1,3 +1,11 @@
+Version 17.11.2:
+
+ * A crash that may happen on KDE when the global menus
+   are activated has been fixed.
+ * Fix: SMPlayer won't cancel logout in KDE.
+ * The seek function in the MPRIS2 code has been fixed.
+
+
 Version 17.11
 
  * The video equalizer by software has been fixed.
