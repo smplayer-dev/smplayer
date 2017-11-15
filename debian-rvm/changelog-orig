@@ -1,3 +1,12 @@
+smplayer (17.11.2) precise; urgency=low
+
+  * A crash that may happen on KDE when the global menus
+    are activated has been fixed.
+  * Fix: SMPlayer won't cancel logout in KDE.
+  * The seek function in the MPRIS2 code has been fixed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 15 Nov 2017 22:09:42 +0100
+
 smplayer (17.11.0) precise; urgency=low
 
   * The video equalizer by software has been fixed.
