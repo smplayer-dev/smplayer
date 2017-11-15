@@ -90,9 +90,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 			.arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">MPlayer</a>") +
 	#endif
 #endif
-        "<br><br>" +
-		tr("Subtitles service powered by %1").arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>")
-        /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":default-theme/opensubtitles-logo.png\"></a>" */
+        "<br>"
 	);
 
 
