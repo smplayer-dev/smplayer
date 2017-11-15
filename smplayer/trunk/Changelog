@@ -1,3 +1,19 @@
+Version 17.11.2:
+
+(2017-11-15)
+ * Allow wordwrap in the title in the thumbnail generator.
+
+(2017-11-13)
+ * Fix seek in MPRIS2 (fix function SetPosition).
+
+(2017-11-12)
+ * Prevent SMPlayer to cancel logout in KDE. (Bug #843)
+
+(2017-11-11)
+ * Fix a crash that may happen on KDE when the global menus
+   are activated. (Bug #839)
+
+
 Version 17.11:
 
 (2017-10-30)
