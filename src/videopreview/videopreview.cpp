@@ -91,6 +91,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	w_contents->setPalette(p);
 
 	info = new QLabel(this);
+	info->setWordWrap(true);
 
 	foot = new QLabel(this);
 	foot->setAlignment(Qt::AlignRight);
