@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -9,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
-        <translation>Development version</translation>
+        <translation>Udviklingsversion</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="72"/>
@@ -32,22 +34,22 @@
         <translation>SMPlayer er en grafisk grænseflade til %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Klik her for at se oversætterne fra Transifex-teams</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
         <translation>Mange personer har bidraget med oversættelser.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>Du kan også hjælpe med at oversætte SMPlayer til dit eget sprog.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Besøg %1 og meld dig til et oversættelsesteam.</translation>
     </message>
@@ -67,12 +69,11 @@
         <translation>SMPlayer er en grafisk grænseflade til %1 og %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
-        <translation>Tjeneste til undertekster leveret af %1</translation>
+        <translation type="obsolete">Tjeneste til undertekster leveret af %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -125,27 +126,27 @@
         <translation>Med Qt %1 (kompileret med Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="126"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer-logo af %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Read the entire license</source>
         <translation>Læs hele licensen</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Read a translation</source>
         <translation>Læs en oversættelse</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="127"/>
         <source>Packages for Windows created by %1</source>
         <translation>Pakker til Windows, skabt af %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="128"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Mange andre har hjulpet med rettelser. Læs detaljerne i Changelog&apos;en.</translation>
     </message>
@@ -1998,162 +1999,162 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="315"/>
+        <location filename="../baseguiplus.cpp" line="314"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer kører stadig</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="338"/>
+        <location filename="../baseguiplus.cpp" line="337"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Vis ikon på &amp;proceslinje</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="351"/>
+        <location filename="../baseguiplus.cpp" line="350"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Afspil på &amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="355"/>
+        <location filename="../baseguiplus.cpp" line="354"/>
         <source>Send &amp;video to screen</source>
         <translation>Send &amp;video til skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="357"/>
+        <location filename="../baseguiplus.cpp" line="356"/>
         <source>Information about connected &amp;screens</source>
         <translation>Information om tilsluttede &amp;skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Video is sent to an external screen</source>
         <translation>Video sendes til ekstern skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="364"/>
+        <location filename="../baseguiplus.cpp" line="363"/>
         <source>Send &amp;audio to</source>
         <translation>Send &amp;lyd til</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="401"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skjul</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="373"/>
+        <location filename="../baseguiplus.cpp" line="403"/>
         <source>&amp;Restore</source>
         <translation>&amp;Genskab</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="816"/>
+        <location filename="../baseguiplus.cpp" line="860"/>
         <source>Information about connected screens</source>
         <translation>Information om tilsluttede skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="819"/>
+        <location filename="../baseguiplus.cpp" line="863"/>
         <source>Connected screens</source>
         <translation>Tilsluttede skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="822"/>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="866"/>
+        <location filename="../baseguiplus.cpp" line="908"/>
         <source>Number of screens: %1</source>
         <translation>Antal skærme: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="827"/>
-        <location filename="../baseguiplus.cpp" line="865"/>
+        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Primary screen: %1</source>
         <translation>Primær skærm: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="835"/>
-        <location filename="../baseguiplus.cpp" line="869"/>
+        <location filename="../baseguiplus.cpp" line="879"/>
+        <location filename="../baseguiplus.cpp" line="913"/>
         <source>Information for screen %1</source>
         <translation>Information for skærm %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="837"/>
-        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="881"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Tilgængelig geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="839"/>
+        <location filename="../baseguiplus.cpp" line="883"/>
         <source>Available size: %1 x %2</source>
         <translation>Tilgængelig størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="840"/>
+        <location filename="../baseguiplus.cpp" line="884"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Tilgængelig virtuel geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="844"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Tilgængelig virtuel størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="846"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Depth: %1 bits</source>
         <translation>Dybde: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="847"/>
-        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="849"/>
+        <location filename="../baseguiplus.cpp" line="893"/>
         <source>Logical DPI: %1</source>
         <translation>Logisk DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="851"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Physical DPI: %1</source>
         <translation>Fysisk DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="852"/>
+        <location filename="../baseguiplus.cpp" line="896"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fysisk størrelse: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="854"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Opdateringshastighed: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="855"/>
+        <location filename="../baseguiplus.cpp" line="899"/>
         <source>Size: %1 x %2</source>
         <translation>Størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="856"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuel geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="858"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuel størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="911"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Primary screen</source>
         <translation>Primær skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="980"/>
+        <location filename="../baseguiplus.cpp" line="1024"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer ekstern skærm-output</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1072"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Standardlydenhed</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="333"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afslut</translation>
     </message>
@@ -2981,7 +2982,10 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
+        <translation>
+            <numerusform>%n undertekst udpakket</numerusform>
+            <numerusform>%n undertekster udpakket</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3079,7 +3083,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -9748,13 +9752,19 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekunder</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minutter</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10453,163 +10463,163 @@ Vil du overskrive den?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="524"/>
+        <location filename="../videopreview/videopreview.cpp" line="525"/>
         <source>Video preview</source>
         <translation>Forhåndsvis video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="163"/>
+        <location filename="../videopreview/videopreview.cpp" line="164"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="122"/>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Close</source>
         <translation>&amp;Luk</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <location filename="../videopreview/videopreview.cpp" line="124"/>
         <source>&amp;Save</source>
         <translation>&amp;Gem</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="162"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Thumbnail Generator</source>
         <translation>Miniaturegenerator</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="251"/>
+        <location filename="../videopreview/videopreview.cpp" line="252"/>
         <source>Creating thumbnails...</source>
         <translation>Opretter miniaturer...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="505"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Size: %1 MB</source>
         <translation>Størrelse: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="508"/>
         <source>Length: %1</source>
         <translation>Varighed: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Lydformat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="688"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Save file</source>
         <translation>Gem fil</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="701"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>Error saving file</source>
         <translation>Fejl ved gemning af fil</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="702"/>
+        <location filename="../videopreview/videopreview.cpp" line="703"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Filen kunne ikke gemmes</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="207"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Følgende fejl opstod under oprettelse af miniaturer:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Den midlertidige mappe (%1) kan ikke oprettes</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="397"/>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer-processen startede ikke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Resolution: %1x%2</source>
         <translation>Opløsning: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Video format: %1</source>
         <translation>Videoformat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="509"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
         <translation>Billeder pr. sekund: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Aspect ratio: %1</source>
         <translation>Højde-bredde-forhold: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="417"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Filen %1 kan ikke indlæses</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="552"/>
+        <location filename="../videopreview/videopreview.cpp" line="553"/>
         <source>No filename</source>
         <translation>Intet filnavn</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="646"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>MPlayer-processen startede ikke under forsøg på at hente info om videoen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="225"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>The length of the video is 0</source>
         <translation>Videoens varighed er 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="269"/>
+        <location filename="../videopreview/videopreview.cpp" line="270"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Filen %1 findes ikke</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="689"/>
+        <location filename="../videopreview/videopreview.cpp" line="690"/>
         <source>Images</source>
         <translation>Billeder</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="491"/>
+        <location filename="../videopreview/videopreview.cpp" line="492"/>
         <source>No info</source>
         <translation>Ingen info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="494"/>
         <location filename="../videopreview/videopreview.cpp" line="495"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video bitrate: %1</source>
         <translation>Video-bithastighed: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio bitrate: %1</source>
         <translation>Lyd-bithastighed: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio rate: %1</source>
         <translation>Lyd-hastighed: %1</translation>
     </message>
