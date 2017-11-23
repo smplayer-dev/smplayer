@@ -47,80 +47,70 @@ MediaPlayer2::MediaPlayer2(BaseGui* gui, QObject* parent)
     : QDBusAbstractAdaptor(parent),
       m_gui(gui)
 {
-//     connect(m_gui, SIGNAL(fullScreen(bool)), this, SLOT(emitFullscreenChange(bool)));
+//	connect(m_gui, SIGNAL(fullScreen(bool)), this, SLOT(emitFullscreenChange(bool)));
 }
 
-MediaPlayer2::~MediaPlayer2()
-{
+MediaPlayer2::~MediaPlayer2() {
 }
 
-bool MediaPlayer2::CanQuit() const
-{
+bool MediaPlayer2::CanQuit() const {
     return true;
 }
 
-void MediaPlayer2::Quit() const
-{
+void MediaPlayer2::Quit() const {
+	qDebug("MediaPlayer2::Quit");
 	m_gui->runActions("close");
 }
 
-bool MediaPlayer2::CanRaise() const
-{
+bool MediaPlayer2::CanRaise() const {
     return true;
 }
 
-void MediaPlayer2::Raise() const
-{
-    m_gui->raise();
+void MediaPlayer2::Raise() const {
+	qDebug("MediaPlayer2::Raise");
+	m_gui->raise();
+	m_gui->activateWindow();
 }
 
-bool MediaPlayer2::Fullscreen() const
-{
+bool MediaPlayer2::Fullscreen() const {
     return m_gui->isFullScreen();
 }
 
-void MediaPlayer2::setFullscreen(bool fullscreen) const
-{
-    m_gui->toggleFullscreen(fullscreen);
+void MediaPlayer2::setFullscreen(bool fullscreen) const {
+	qDebug() << "MediaPlayer2::setFullscreen:" << fullscreen;
+	m_gui->toggleFullscreen(fullscreen);
 }
 
-void MediaPlayer2::emitFullscreenChange(bool fullscreen) const
-{
-    QVariantMap properties;
-    properties["Fullscreen"] = fullscreen;
-    Mpris2::signalPropertiesChange(this, properties);
+void MediaPlayer2::emitFullscreenChange(bool fullscreen) const {
+	QVariantMap properties;
+	properties["Fullscreen"] = fullscreen;
+	Mpris2::signalPropertiesChange(this, properties);
 }
 
-bool MediaPlayer2::CanSetFullscreen() const
-{
-    return true;
+bool MediaPlayer2::CanSetFullscreen() const {
+	return true;
 }
 
-bool MediaPlayer2::HasTrackList() const
-{
-    return false;
+bool MediaPlayer2::HasTrackList() const {
+	return false;
 }
 
-QString MediaPlayer2::Identity() const
-{
-    return QString("SMPlayer");
+QString MediaPlayer2::Identity() const {
+	return QString("SMPlayer");
 }
 
-QString MediaPlayer2::DesktopEntry() const
-{
-    return QString("smplayer");
+QString MediaPlayer2::DesktopEntry() const {
+	return QString("smplayer");
 }
 
-QStringList MediaPlayer2::SupportedUriSchemes() const
-{
-    //TODO: Implement me
-    return QStringList();
+QStringList MediaPlayer2::SupportedUriSchemes() const {
+	//TODO: Implement me
+	return QStringList();
 }
 
-QStringList MediaPlayer2::SupportedMimeTypes() const
-{
-    //TODO: Implement me
-    return QStringList();
+QStringList MediaPlayer2::SupportedMimeTypes() const {
+	//TODO: Implement me
+	return QStringList();
 }
 
 #include "moc_mediaplayer2.cpp"
