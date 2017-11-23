@@ -295,14 +295,14 @@ void BaseGui::setupNetworkProxy() {
 
 #ifdef SINGLE_INSTANCE
 void BaseGui::handleMessageFromOtherInstances(const QString& message) {
-	qDebug("BaseGui::handleMessageFromOtherInstances: '%s'", message.toUtf8().constData());
+	qDebug() << "BaseGui::handleMessageFromOtherInstances:" << message;
 
 	int pos = message.indexOf(' ');
 	if (pos > -1) {
 		QString command = message.left(pos);
 		QString arg = message.mid(pos+1);
-		qDebug("command: '%s'", command.toUtf8().constData());
-		qDebug("arg: '%s'", arg.toUtf8().constData());
+		qDebug() << "command:" << command;
+		qDebug() << "arg:" << arg;
 
 		if (command == "open_file") {
 			emit openFileRequested();
