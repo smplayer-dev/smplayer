@@ -264,8 +264,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--sub-codepage=" + cp;
 	}
 	else
-	if (option_name == "osdlevel") {
+	if (option_name == "osd-level") {
 		arg << "--osd-level=" + value.toString();
+	}
+	else
+	if (option_name == "osd-fractions") {
+		bool use_fractions = value.toBool();
+		if (use_fractions) arg << "--osd-fractions";
 	}
 	else
 	if (option_name == "sws") {
