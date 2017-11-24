@@ -308,11 +308,11 @@ void MplayerProcess::setOSD(int o) {
 	writeToStdin(pausing_prefix + " osd " + QString::number(o));
 }
 
-void MplayerProcess::setAudio(int ID) {
+void MplayerProcess::setAudio(int ID, bool use_osd) {
 	writeToStdin("switch_audio " + QString::number(ID));
 }
 
-void MplayerProcess::setVideo(int ID) {
+void MplayerProcess::setVideo(int ID, bool use_osd) {
 	writeToStdin("set_property switch_video " + QString::number(ID));
 }
 
