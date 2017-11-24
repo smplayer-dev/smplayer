@@ -117,6 +117,13 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		if (o.contains("decoder")) arg << "-hardframedrop";
 	}
 	else
+	if (option_name == "osd-level") {
+		arg << "-osdlevel" << value.toString();
+	}
+	else
+	if (option_name == "osd-fractions") {
+	}
+	else
 	if (option_name == "osd-scale") {
 		arg << "-subfont-osd-scale" << value.toString();
 	}
@@ -309,14 +316,17 @@ void MplayerProcess::setOSD(int o) {
 }
 
 void MplayerProcess::setAudio(int ID, bool use_osd) {
+	Q_UNUSED(use_osd);
 	writeToStdin("switch_audio " + QString::number(ID));
 }
 
 void MplayerProcess::setVideo(int ID, bool use_osd) {
+	Q_UNUSED(use_osd);
 	writeToStdin("set_property switch_video " + QString::number(ID));
 }
 
 void MplayerProcess::setSubtitle(int type, int ID, bool use_osd) {
+	Q_UNUSED(use_osd);
 	switch (type) {
 		case SubData::Vob:
 			writeToStdin( "sub_vob " + QString::number(ID) );

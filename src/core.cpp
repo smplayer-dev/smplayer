@@ -1275,7 +1275,9 @@ void Core::finishRestart() {
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
 
 	// Initialize the OSD level
+	/*
 	QTimer::singleShot(pref->osd_delay, this, SLOT(initializeOSD()));
+	*/
 
 	emit mediaLoaded();
 	emit mediaInfoChanged();
@@ -1288,12 +1290,14 @@ void Core::finishRestart() {
 	qDebug("Core::finishRestart: --- end ---");
 }
 
+/*
 void Core::initializeOSD() {
 	changeOSD(pref->osd);
-#ifdef MPV_SUPPORT
+	#ifdef MPV_SUPPORT
 	setOSDFractions(pref->osd_fractions);
-#endif
+	#endif
 }
+*/
 
 void Core::stop()
 {
@@ -1835,6 +1839,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// OSD
+	proc->setOption("osd-level", pref->osd);
+	#ifdef MPV_SUPPORT
+	proc->setOption("osd-fractions", pref->osd_fractions);
+	#endif
 	proc->setOption("osd-scale", proc->isMPlayer() ? pref->subfont_osd_scale : pref->osd_scale);
 
 	// Subtitles fonts
