@@ -684,24 +684,25 @@ void MPVProcess::setVideo(int ID) {
 	writeToStdin("set vid " + QString::number(ID));
 }
 
-void MPVProcess::setSubtitle(int /*type*/, int ID) {
-	writeToStdin("set sid " + QString::number(ID));
+void MPVProcess::setSubtitle(int type, int ID, bool use_osd) {
+	Q_UNUSED(type);
+	writeToStdin(QString("%1 set sid %2").arg(use_osd ? "" : "no-osd").arg(ID));
 }
 
 void MPVProcess::disableSubtitles() {
-	writeToStdin("set sid no");
+	writeToStdin("no-osd set sid no");
 }
 
-void MPVProcess::setSecondarySubtitle(int ID) {
-	writeToStdin("set secondary-sid " + QString::number(ID));
+void MPVProcess::setSecondarySubtitle(int ID, bool use_osd) {
+	writeToStdin(QString("%1 set secondary-sid %2").arg(use_osd ? "" : "no-osd").arg(ID));
 }
 
 void MPVProcess::disableSecondarySubtitles() {
-	writeToStdin("set secondary-sid no");
+	writeToStdin("no-osd set secondary-sid no");
 }
 
 void MPVProcess::setSubtitlesVisibility(bool b) {
-	writeToStdin(QString("set sub-visibility %1").arg(b ? "yes" : "no"));
+	writeToStdin(QString("no-osd set sub-visibility %1").arg(b ? "yes" : "no"));
 }
 
 void MPVProcess::seek(double secs, int mode, bool precise) {
