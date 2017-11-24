@@ -63,9 +63,9 @@ public:
 	virtual void setOSD(int o) = 0;
 	virtual void setAudio(int ID) = 0;
 	virtual void setVideo(int ID) = 0;
-	virtual void setSubtitle(int type, int ID) = 0;
+	virtual void setSubtitle(int type, int ID, bool use_osd = true) = 0;
 	virtual void disableSubtitles() = 0;
-	virtual void setSecondarySubtitle(int ID) = 0;
+	virtual void setSecondarySubtitle(int ID, bool use_osd = true) = 0;
 	virtual void disableSecondarySubtitles() = 0;
 	virtual void setSubtitlesVisibility(bool b) = 0;
 	virtual void seek(double secs, int mode, bool precise) = 0;

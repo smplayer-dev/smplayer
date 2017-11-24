@@ -316,7 +316,7 @@ void MplayerProcess::setVideo(int ID) {
 	writeToStdin("set_property switch_video " + QString::number(ID));
 }
 
-void MplayerProcess::setSubtitle(int type, int ID) {
+void MplayerProcess::setSubtitle(int type, int ID, bool use_osd) {
 	switch (type) {
 		case SubData::Vob:
 			writeToStdin( "sub_vob " + QString::number(ID) );

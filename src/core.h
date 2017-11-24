@@ -288,10 +288,10 @@ public slots:
 	void setAudioEq9(int value);
 
 	void changeDeinterlace(int);
-	void changeSubtitle(int);
+	void changeSubtitle(int ID);
 	void nextSubtitle();
 #ifdef MPV_SUPPORT
-	void changeSecondarySubtitle(int);
+	void changeSecondarySubtitle(int ID);
 #endif
 	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
@@ -562,6 +562,7 @@ private:
 	bool just_unloaded_external_subs;
 	State _state;
 	bool change_volume_after_unpause;
+	bool block_osd;
 
 	QString initial_subtitle;
 

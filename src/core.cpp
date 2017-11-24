@@ -84,6 +84,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_loaded_external_subs = false;
 	just_unloaded_external_subs = false;
 	change_volume_after_unpause = false;
+	block_osd = false;
 
 #if DVDNAV_SUPPORT
 	dvdnav_title_is_menu = true; // Enabled by default for compatibility with previous versions of mplayer
@@ -3744,7 +3745,7 @@ void Core::changeDeinterlace(int ID) {
 
 
 void Core::changeSubtitle(int ID) {
-	qDebug("Core::changeSubtitle: %d", ID);
+	qDebug("Core::changeSubtitle: ID: %d", ID);
 
 	mset.current_sub_id = ID;
 	if (ID==MediaSettings::SubNone) {
@@ -3755,7 +3756,7 @@ void Core::changeSubtitle(int ID) {
 		ID=-1;
 		qDebug("Core::changeSubtitle: subtitle is NoneSelected, this shouldn't happen. ID set to -1.");
 	}
-	
+
 	qDebug("Core::changeSubtitle: ID: %d", ID);
 
 	int real_id = -1;
@@ -3766,7 +3767,7 @@ void Core::changeSubtitle(int ID) {
 		if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
 		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
 			real_id = mdat.subs.itemAt(ID).ID();
-			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id);
+			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id, !block_osd);
 		} else {
 			qWarning("Core::changeSubtitle: subtitle list is empty!");
 		}
@@ -3795,7 +3796,7 @@ void Core::nextSubtitle() {
 #ifdef MPV_SUPPORT
 void Core::changeSecondarySubtitle(int ID) {
 	// MPV only
-	qDebug("Core::changeSecondarySubtitle: %d", ID);
+	qDebug("Core::changeSecondarySubtitle: ID: %d", ID);
 
 	mset.current_secondary_sub_id = ID;
 	if (ID == MediaSettings::SubNone) {
@@ -3813,7 +3814,7 @@ void Core::changeSecondarySubtitle(int ID) {
 		if (!valid_item) qWarning("Core::changeSecondarySubtitle: ID: %d is not valid!", ID);
 		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
 			real_id = mdat.subs.itemAt(ID).ID();
-			proc->setSecondarySubtitle(real_id);
+			proc->setSecondarySubtitle(real_id, !block_osd);
 		}
 	}
 }
@@ -4682,8 +4683,9 @@ void Core::initAudioTrack(const Tracks & audios) {
 #if NOTIFY_SUB_CHANGES
 void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack");
-
 	qDebug("Core::initSubtitleTrack: num_items: %d", mdat.subs.numItems());
+
+	block_osd = true;
 
 	bool restore_subs = ((mdat.subs.numItems() > 0) || 
                          (mset.current_sub_id != MediaSettings::NoneSelected));
@@ -4737,7 +4739,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 						break;
 					}
 				}
-				changeSubtitle( selected_subtitle );
+				changeSubtitle(selected_subtitle);
 				goto end;
 			}
 		}
@@ -4748,18 +4750,18 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		qDebug("Core::initSubtitleTrack: selecting initial track");
 
 		if (!pref->autoload_sub) {
-			changeSubtitle( MediaSettings::SubNone );
+			changeSubtitle(MediaSettings::SubNone);
 		} else {
 			//Select first subtitle
 			int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
-			changeSubtitle( sub );
+			changeSubtitle(sub);
 		}
 	} else {
 		// Try to restore previous subtitle track
 		qDebug("Core::initSubtitleTrack: restoring subtitle");
 
 		if (mset.current_sub_id == MediaSettings::SubNone) {
-			changeSubtitle( MediaSettings::SubNone );
+			changeSubtitle(MediaSettings::SubNone);
 		}
 		else
 		if (mset.current_sub_id != MediaSettings::NoneSelected) {
@@ -4773,7 +4775,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 				}
 			}
 			if (item > -1) {
-				changeSubtitle(item );
+				changeSubtitle(item);
 			} else {
 				qDebug("Core::initSubtitleTrack: previous subtitle not found!");
 			}
@@ -4784,6 +4786,8 @@ end:
 #ifdef MPV_SUPPORT
 	changeSecondarySubtitle(mset.current_secondary_sub_id);
 #endif
+
+	block_osd = false;
 	updateWidgets();
 }
 
