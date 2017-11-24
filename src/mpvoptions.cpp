@@ -676,12 +676,12 @@ void MPVProcess::setOSD(int o) {
 	writeToStdin("no-osd set osd-level " + QString::number(o));
 }
 
-void MPVProcess::setAudio(int ID) {
-	writeToStdin("set aid " + QString::number(ID));
+void MPVProcess::setAudio(int ID, bool use_osd) {
+	writeToStdin(QString("%1 set aid %2").arg(use_osd ? "" : "no-osd").arg(ID));
 }
 
-void MPVProcess::setVideo(int ID) {
-	writeToStdin("set vid " + QString::number(ID));
+void MPVProcess::setVideo(int ID, bool use_osd) {
+	writeToStdin(QString("%1 set vid %2").arg(use_osd ? "" : "no-osd").arg(ID));
 }
 
 void MPVProcess::setSubtitle(int type, int ID, bool use_osd) {

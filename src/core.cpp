@@ -3840,7 +3840,7 @@ void Core::changeAudio(int ID, bool allow_restart) {
 		if (need_restart) {
 			restartPlay();
 		} else {
-			proc->setAudio(ID);
+			proc->setAudio(ID, !block_osd);
 			// Workaround for a mplayer problem in windows,
 			// volume is too loud after changing audio.
 
@@ -3901,7 +3901,7 @@ void Core::changeVideo(int ID, bool allow_restart) {
 				// Workaround a problem with the nsv demuxer
 				qWarning("Core::changeVideo: not changing the video with nsv to prevent mplayer go crazy");
 			} else {
-				proc->setVideo(ID);
+				proc->setVideo(ID, !block_osd);
 			}
 		}
 	}
@@ -4634,8 +4634,9 @@ void Core::initVideoTrack(const Tracks & videos) {
 #if NOTIFY_AUDIO_CHANGES
 void Core::initAudioTrack(const Tracks & audios) {
 	qDebug("Core::initAudioTrack");
-
 	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
+
+	block_osd = true;
 
 	bool restore_audio = ((mdat.audios.numItems() > 0) || 
                           (mset.current_audio_id != MediaSettings::NoneSelected));
@@ -4667,13 +4668,14 @@ void Core::initAudioTrack(const Tracks & audios) {
 			}
 		}
 
-		if (change_audio) changeAudio( audio );
+		if (change_audio) changeAudio(audio);
 	} else {
 		// Try to restore previous audio track
 		qDebug("Core::initAudioTrack: restoring audio");
 		// Nothing to do, the audio is already set with -aid
 	}
 
+	block_osd = false;
 	updateWidgets();
 
 	emit audioTracksChanged();
