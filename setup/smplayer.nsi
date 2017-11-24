@@ -908,6 +908,8 @@ FunctionEnd
 Function .onInstSuccess
 
   ${MementoSectionSave}
+  
+  ExecShell "open" "http://www.smplayer.info/post-install.php?version=${SMPLAYER_VERSION}"
 
 FunctionEnd
 
