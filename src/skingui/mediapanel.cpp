@@ -134,6 +134,8 @@ void MediaPanel::setScrollingEnabled(bool b) {
 }
 
 void MediaPanel::paintEvent(QPaintEvent * e) {
+	Q_UNUSED(e);
+
 	QPainter p(this);
 	p.drawPixmap(0,0,leftBackground.width(), 53, leftBackground);
 	p.drawPixmap(width() - rightBackground.width(), 0, rightBackground.width(), 53, rightBackground );
@@ -246,6 +248,8 @@ void MediaPanel::retranslateStrings() {
 }
 
 void ScrollingLabel::paintEvent(QPaintEvent * e) {
+	Q_UNUSED(e);
+
 	QPainter p(this);
 	p.setFont(font());
 	p.setPen(palette().color(foregroundRole()));
@@ -293,12 +297,16 @@ void ScrollingLabel::updateLabel() {
 }
 
 void ScrollingLabel::timerEvent(QTimerEvent * t) {
+	Q_UNUSED(t);
+
 	scrollPos += 1;
 	scrollPos = scrollPos % (textRect.width() + gap);
 	update();
 }
 
 ScrollingLabel::ScrollingLabel(QWidget* parent ) {
+	Q_UNUSED(parent);
+
 	scrollPos =0;
 	timerId = -1;
 	scrolling_enabled = false;
