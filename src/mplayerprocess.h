@@ -53,11 +53,11 @@ public:
 	void quit();
 	void setVolume(int v);
 	void setOSD(int o);
-	void setAudio(int ID, bool use_osd);
-	void setVideo(int ID, bool use_osd);
-	void setSubtitle(int type, int ID, bool use_osd);
+	void setAudio(int ID);
+	void setVideo(int ID);
+	void setSubtitle(int type, int ID);
 	void disableSubtitles();
-	void setSecondarySubtitle(int /*ID*/, bool /*use_osd*/) {};
+	void setSecondarySubtitle(int /*ID*/) {};
 	void disableSecondarySubtitles() {};
 	void setSubtitlesVisibility(bool b);
 	void seek(double secs, int mode, bool precise);

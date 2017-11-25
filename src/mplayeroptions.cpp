@@ -315,18 +315,15 @@ void MplayerProcess::setOSD(int o) {
 	writeToStdin(pausing_prefix + " osd " + QString::number(o));
 }
 
-void MplayerProcess::setAudio(int ID, bool use_osd) {
-	Q_UNUSED(use_osd);
+void MplayerProcess::setAudio(int ID) {
 	writeToStdin("switch_audio " + QString::number(ID));
 }
 
-void MplayerProcess::setVideo(int ID, bool use_osd) {
-	Q_UNUSED(use_osd);
+void MplayerProcess::setVideo(int ID) {
 	writeToStdin("set_property switch_video " + QString::number(ID));
 }
 
-void MplayerProcess::setSubtitle(int type, int ID, bool use_osd) {
-	Q_UNUSED(use_osd);
+void MplayerProcess::setSubtitle(int type, int ID) {
 	switch (type) {
 		case SubData::Vob:
 			writeToStdin( "sub_vob " + QString::number(ID) );

@@ -562,7 +562,6 @@ private:
 	bool just_unloaded_external_subs;
 	State _state;
 	bool change_volume_after_unpause;
-	bool block_osd;
 
 	QString initial_subtitle;
 

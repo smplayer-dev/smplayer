@@ -84,7 +84,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	just_loaded_external_subs = false;
 	just_unloaded_external_subs = false;
 	change_volume_after_unpause = false;
-	block_osd = false;
 
 #if DVDNAV_SUPPORT
 	dvdnav_title_is_menu = true; // Enabled by default for compatibility with previous versions of mplayer
@@ -3775,7 +3774,7 @@ void Core::changeSubtitle(int ID) {
 		if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
 		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
 			real_id = mdat.subs.itemAt(ID).ID();
-			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id, !block_osd);
+			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id);
 		} else {
 			qWarning("Core::changeSubtitle: subtitle list is empty!");
 		}
@@ -3822,7 +3821,7 @@ void Core::changeSecondarySubtitle(int ID) {
 		if (!valid_item) qWarning("Core::changeSecondarySubtitle: ID: %d is not valid!", ID);
 		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
 			real_id = mdat.subs.itemAt(ID).ID();
-			proc->setSecondarySubtitle(real_id, !block_osd);
+			proc->setSecondarySubtitle(real_id);
 		}
 	}
 }
@@ -3848,7 +3847,7 @@ void Core::changeAudio(int ID, bool allow_restart) {
 		if (need_restart) {
 			restartPlay();
 		} else {
-			proc->setAudio(ID, !block_osd);
+			proc->setAudio(ID);
 			// Workaround for a mplayer problem in windows,
 			// volume is too loud after changing audio.
 
@@ -3909,7 +3908,7 @@ void Core::changeVideo(int ID, bool allow_restart) {
 				// Workaround a problem with the nsv demuxer
 				qWarning("Core::changeVideo: not changing the video with nsv to prevent mplayer go crazy");
 			} else {
-				proc->setVideo(ID, !block_osd);
+				proc->setVideo(ID);
 			}
 		}
 	}
@@ -4644,7 +4643,7 @@ void Core::initAudioTrack(const Tracks & audios) {
 	qDebug("Core::initAudioTrack");
 	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
 
-	block_osd = true;
+	proc->enableOSDInCommands(false);
 
 	bool restore_audio = ((mdat.audios.numItems() > 0) || 
                           (mset.current_audio_id != MediaSettings::NoneSelected));
@@ -4683,7 +4682,7 @@ void Core::initAudioTrack(const Tracks & audios) {
 		// Nothing to do, the audio is already set with -aid
 	}
 
-	block_osd = false;
+	proc->enableOSDInCommands(true);
 	updateWidgets();
 
 	emit audioTracksChanged();
@@ -4695,7 +4694,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack");
 	qDebug("Core::initSubtitleTrack: num_items: %d", mdat.subs.numItems());
 
-	block_osd = true;
+	proc->enableOSDInCommands(false);
 
 	bool restore_subs = ((mdat.subs.numItems() > 0) || 
                          (mset.current_sub_id != MediaSettings::NoneSelected));
@@ -4797,7 +4796,7 @@ end:
 	changeSecondarySubtitle(mset.current_secondary_sub_id);
 #endif
 
-	block_osd = false;
+	proc->enableOSDInCommands(true);
 	updateWidgets();
 }
 
