@@ -40,6 +40,8 @@
 #define USE_LETTERBOX LETTERBOX_PAD
 #endif
 
+#define OSD_PREFIX use_osd_in_commands ? "" : "no-osd"
+//#define OSD_PREFIX ""
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -681,25 +683,25 @@ void MPVProcess::setOSD(int o) {
 	writeToStdin("no-osd set osd-level " + QString::number(o));
 }
 
-void MPVProcess::setAudio(int ID, bool use_osd) {
-	writeToStdin(QString("%1 set aid %2").arg(use_osd ? "" : "no-osd").arg(ID));
+void MPVProcess::setAudio(int ID) {
+	writeToStdin(QString("%1 set aid %2").arg(OSD_PREFIX).arg(ID));
 }
 
-void MPVProcess::setVideo(int ID, bool use_osd) {
-	writeToStdin(QString("%1 set vid %2").arg(use_osd ? "" : "no-osd").arg(ID));
+void MPVProcess::setVideo(int ID) {
+	writeToStdin(QString("%1 set vid %2").arg(OSD_PREFIX).arg(ID));
 }
 
-void MPVProcess::setSubtitle(int type, int ID, bool use_osd) {
+void MPVProcess::setSubtitle(int type, int ID) {
 	Q_UNUSED(type);
-	writeToStdin(QString("%1 set sid %2").arg(use_osd ? "" : "no-osd").arg(ID));
+	writeToStdin(QString("%1 set sid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::disableSubtitles() {
 	writeToStdin("no-osd set sid no");
 }
 
-void MPVProcess::setSecondarySubtitle(int ID, bool use_osd) {
-	writeToStdin(QString("%1 set secondary-sid %2").arg(use_osd ? "" : "no-osd").arg(ID));
+void MPVProcess::setSecondarySubtitle(int ID) {
+	writeToStdin(QString("%1 set secondary-sid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::disableSecondarySubtitles() {

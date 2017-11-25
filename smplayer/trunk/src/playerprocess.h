@@ -61,11 +61,11 @@ public:
 	virtual void quit() = 0;
 	virtual void setVolume(int v) = 0;
 	virtual void setOSD(int o) = 0;
-	virtual void setAudio(int ID, bool use_osd) = 0;
-	virtual void setVideo(int ID, bool use_osd) = 0;
-	virtual void setSubtitle(int type, int ID, bool use_osd) = 0;
+	virtual void setAudio(int ID) = 0;
+	virtual void setVideo(int ID) = 0;
+	virtual void setSubtitle(int type, int ID) = 0;
 	virtual void disableSubtitles() = 0;
-	virtual void setSecondarySubtitle(int ID, bool use_osd) = 0;
+	virtual void setSecondarySubtitle(int ID) = 0;
 	virtual void disableSecondarySubtitles() = 0;
 	virtual void setSubtitlesVisibility(bool b) = 0;
 	virtual void seek(double secs, int mode, bool precise) = 0;
@@ -137,6 +137,9 @@ public:
 
 	void setOSDMediaInfo(const QString & s) { osd_media_info = s; };
 	QString OSDMediaInfo() { return osd_media_info; };
+
+	void enableOSDInCommands(bool b) { use_osd_in_commands = b; };
+	bool isOSDInCommandsEnabled() { return use_osd_in_commands; };
 
 #ifdef CAPTURE_STREAM
 	virtual void setCaptureDirectory(const QString & dir);
@@ -218,6 +221,7 @@ protected:
 	PlayerID::Player player_id;
 
 	QString osd_media_info;
+	bool use_osd_in_commands;
 };
 
 #endif
