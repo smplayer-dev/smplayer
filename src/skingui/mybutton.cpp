@@ -32,6 +32,8 @@ MyButton::MyButton(QWidget *parent) :
 
 void MyButton::paintEvent(QPaintEvent *e)
 {
+    Q_UNUSED(e);
+
     QPixmap pix;
     if(isEnabled() && ( isDown() || isChecked()))
     {

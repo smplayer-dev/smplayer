@@ -52,8 +52,10 @@ void IconSetter::removeInstance()
     m_instance = 0;
 }
 
-void IconSetter::setActionIcon(QPixmap pixmap )
+void IconSetter::setActionIcon(QPixmap pixmap)
 {
+    Q_UNUSED(pixmap);
+
 #if 0
 //#define SAVE_ICONS 1
 #define SAVE(name) { QPixmap p = pixmap.copy(n*24, 0, 24, 24); \
