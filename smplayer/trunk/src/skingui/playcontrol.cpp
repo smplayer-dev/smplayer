@@ -58,6 +58,7 @@ PlayControl::PlayControl(QWidget *parent) :
 
 void PlayControl::resizeEvent(QResizeEvent *e)
 {
+    Q_UNUSED(e);
     updateSize();
 }
 

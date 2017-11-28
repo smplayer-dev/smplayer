@@ -56,6 +56,8 @@ PanelSeeker::PanelSeeker(QWidget *parent) :
 
 void PanelSeeker::paintEvent(QPaintEvent * e)
 {
+    Q_UNUSED(e);
+
     QPainter p(this);
 
     p.drawPixmap( leftRightMargin, (height()- leftPix.height())/2 , leftPix  );
@@ -149,8 +151,10 @@ void PanelSeeker::mouseMoveEvent(QMouseEvent *m)
 }
 
 void PanelSeeker::mouseReleaseEvent(QMouseEvent *m)
-{    
-    setSliderDown(false);        
+{
+    Q_UNUSED(m);
+
+    setSliderDown(false);
     if(isPressed)
     {
         isPressed = false;
@@ -158,7 +162,7 @@ void PanelSeeker::mouseReleaseEvent(QMouseEvent *m)
         frozen = true;
         freezeTimer->start();
         /*if(mousePressPos == m->pos())
-        {            
+        {
             knobAdjust( m->posF().x() - knobRect.center().x(), true);
             triggerAction(SliderMove);
         } */
