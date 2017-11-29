@@ -43,6 +43,8 @@ QString TVSettings::filenameToGroupname(const QString & filename) {
 }
 
 bool TVSettings::existSettingsFor(QString filename, int type) {
+	Q_UNUSED(type);
+
 	qDebug() << "TVSettings::existSettingsFor:" << filename;
 
 	QString group_name = filenameToGroupname(filename);
@@ -57,6 +59,8 @@ bool TVSettings::existSettingsFor(QString filename, int type) {
 }
 
 void TVSettings::loadSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
+	Q_UNUSED(type);
+
 	qDebug() << "TVSettings::loadSettingsFor:" << filename;
 
 	QString group_name = filenameToGroupname(filename);
@@ -71,6 +75,8 @@ void TVSettings::loadSettingsFor(QString filename, int type, MediaSettings & mse
 }
 
 void TVSettings::saveSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
+	Q_UNUSED(type);
+
 	qDebug() << "TVSettings::saveSettingsFor" << filename;
 
 	QString group_name = filenameToGroupname(filename);
