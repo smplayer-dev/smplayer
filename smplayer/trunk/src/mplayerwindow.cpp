@@ -486,6 +486,8 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 }
 
 bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
+	Q_UNUSED(object);
+
 #ifdef HANDLE_GESTURES
 	if (event->type() == QEvent::Gesture) {
 		qDebug() << "MplayerWindow::eventFilter: event:" << event;
