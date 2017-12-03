@@ -492,6 +492,8 @@ protected:
 	MyAction * videoEqualizerAct;
 	MyAction * screenshotAct;
 	MyAction * screenshotsAct;
+	MyAction * screenshotWithSubsAct;
+	MyAction * screenshotWithNoSubsAct;
 #ifdef CAPTURE_STREAM
 	MyAction * capturingAct;
 #endif

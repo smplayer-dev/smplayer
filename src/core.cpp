@@ -1405,15 +1405,15 @@ void Core::frameBackStep() {
 	}
 }
 
-void Core::screenshot() {
-	qDebug("Core::screenshot");
+void Core::screenshot(bool include_subtitles) {
+	qDebug() << "Core::screenshot: include_subtitles:" << include_subtitles;
 
 	if (!pref->screenshot_directory.isEmpty()
         /* && QFileInfo(pref->screenshot_directory).isDir() */)
 	{
 		proc->setPausingPrefix(pausing_prefix());
-		proc->takeScreenshot(PlayerProcess::Single, pref->subtitles_on_screenshots);
-		qDebug("Core::screenshot: taken screenshot");
+		proc->takeScreenshot(PlayerProcess::Single, include_subtitles);
+		qDebug("Core::screenshot: screenshot taken");
 	} else {
 		qDebug("Core::screenshot: error: directory for screenshots not valid");
 		emit showMessage( tr("Screenshot NOT taken, folder not configured") );
@@ -1431,6 +1431,21 @@ void Core::screenshots() {
 		qDebug("Core::screenshots: error: directory for screenshots not valid");
 		emit showMessage( tr("Screenshots NOT taken, folder not configured") );
 	}
+}
+
+void Core::screenshot() {
+	qDebug("Core::screenshot");
+	screenshot(pref->subtitles_on_screenshots);
+}
+
+void Core::screenshotWithSubtitles() {
+	qDebug("Core::screenshotWithSubtitles");
+	screenshot(true);
+}
+
+void Core::screenshotWithoutSubtitles() {
+	qDebug("Core::screenshotWithoutSubtitles");
+	screenshot(false);
 }
 
 #ifdef CAPTURE_STREAM

@@ -619,6 +619,14 @@ void BaseGui::createActions() {
 	connect( screenshotAct, SIGNAL(triggered()),
              core, SLOT(screenshot()) );
 
+	screenshotWithSubsAct = new MyAction( QKeySequence("Ctrl+Shift+S"), this, "screenshot_with_subtitles" );
+	connect( screenshotWithSubsAct, SIGNAL(triggered()),
+             core, SLOT(screenshotWithSubtitles()) );
+
+	screenshotWithNoSubsAct = new MyAction( QKeySequence("Ctrl+Alt+S"), this, "screenshot_without_subtitles" );
+	connect( screenshotWithNoSubsAct, SIGNAL(triggered()),
+             core, SLOT(screenshotWithoutSubtitles()) );
+
 	// Multiple screenshots
 	screenshotsAct = new MyAction( QKeySequence("Shift+D"), this, "multiple_screenshots" );
 	connect( screenshotsAct, SIGNAL(triggered()),
@@ -1373,6 +1381,8 @@ void BaseGui::setActionsEnabled(bool b) {
 	videoEqualizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	screenshotsAct->setEnabled(b);
+	screenshotWithSubsAct->setEnabled(b);
+	screenshotWithNoSubsAct->setEnabled(b);
 #ifdef CAPTURE_STREAM
 	capturingAct->setEnabled(b);
 #endif
@@ -1532,6 +1542,8 @@ void BaseGui::enableActionsOnPlaying() {
 		videoEqualizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		screenshotsAct->setEnabled(false);
+		screenshotWithSubsAct->setEnabled(false);
+		screenshotWithNoSubsAct->setEnabled(false);
 #ifdef CAPTURE_STREAM
 		capturingAct->setEnabled(false);
 #endif
@@ -1732,6 +1744,8 @@ void BaseGui::retranslateStrings() {
 	compactAct->change( Images::icon("compact"), tr("&Compact mode") );
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
+	screenshotWithSubsAct->change( Images::icon("screenshot"), tr("Screenshot with subtitles") );
+	screenshotWithNoSubsAct->change( Images::icon("screenshot"), tr("Screenshot without subtitles") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
 #ifdef CAPTURE_STREAM
 	capturingAct->change(Images::icon("record"), tr("Start/stop capturing stream"));
