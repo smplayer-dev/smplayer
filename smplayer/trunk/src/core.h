@@ -109,8 +109,14 @@ public slots:
 	void pause();
 	void frameStep();
 	void frameBackStep();
+
 	void screenshot();	//!< Take a screenshot of current frame
 	void screenshots();	//!< Start/stop taking screenshot of each frame
+
+	void screenshot(bool include_subtitles);
+	void screenshotWithSubtitles();
+	void screenshotWithoutSubtitles();
+
 #ifdef CAPTURE_STREAM
 	void switchCapturing();
 #endif
