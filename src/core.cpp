@@ -1863,6 +1863,7 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->setOption("osd-fractions", pref->osd_fractions);
 	#endif
 	proc->setOption("osd-scale", proc->isMPlayer() ? pref->subfont_osd_scale : pref->osd_scale);
+	proc->setOption("osd-bar-pos", pref->osd_bar_pos);
 
 	// Subtitles fonts
 	if ((pref->use_ass_subtitles) && (pref->freetype_support)) {

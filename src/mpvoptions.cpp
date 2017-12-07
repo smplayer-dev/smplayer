@@ -275,6 +275,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		if (use_fractions) arg << "--osd-fractions";
 	}
 	else
+	if (option_name == "osd-bar-pos") {
+		if (isOptionAvailable("--osd-bar-align-y")) {
+			double position = double (value.toInt() * 2 - 100) / 100;
+			arg << "--osd-bar-align-y=" + QString::number(position);
+		}
+	}
+	else
 	if (option_name == "sws") {
 		arg << "--sws-scaler=lanczos";
 	}

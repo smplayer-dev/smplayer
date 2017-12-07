@@ -188,6 +188,7 @@ void Preferences::reset() {
 #ifdef MPV_SUPPORT
 	osd_fractions = false;
 #endif
+	osd_bar_pos = 50;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
@@ -731,6 +732,7 @@ void Preferences::save() {
 #ifdef MPV_SUPPORT
 	set->setValue("osd_fractions", osd_fractions);
 #endif
+	set->setValue("osd_bar_pos", osd_bar_pos);
 
 	set->setValue("file_settings_method", file_settings_method);
 
@@ -1305,6 +1307,7 @@ void Preferences::load() {
 #ifdef MPV_SUPPORT
 	osd_fractions = set->value("osd_fractions", osd_fractions).toBool();
 #endif
+	osd_bar_pos = set->value("osd_bar_pos", osd_bar_pos).toInt();
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
