@@ -1273,10 +1273,12 @@ void Core::finishRestart() {
 	// A-B marker
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
 
+#ifdef MPLAYER_SUPPORT
 	// Initialize the OSD level
-	/*
-	QTimer::singleShot(pref->osd_delay, this, SLOT(initializeOSD()));
-	*/
+	if (proc->isMPlayer()) {
+		QTimer::singleShot(pref->osd_delay, this, SLOT(initializeOSD()));
+	}
+#endif
 
 	emit mediaLoaded();
 	emit mediaInfoChanged();
@@ -1289,14 +1291,15 @@ void Core::finishRestart() {
 	qDebug("Core::finishRestart: --- end ---");
 }
 
-/*
+#ifdef MPLAYER_SUPPORT
 void Core::initializeOSD() {
+	qDebug("Core::initializeOSD");
 	changeOSD(pref->osd);
 	#ifdef MPV_SUPPORT
 	setOSDFractions(pref->osd_fractions);
 	#endif
 }
-*/
+#endif
 
 void Core::stop()
 {
@@ -1853,8 +1856,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// OSD
-	proc->setOption("osd-level", pref->osd);
 	#ifdef MPV_SUPPORT
+	if (proc->isMPV()) {
+		proc->setOption("osd-level", pref->osd);
+	}
 	proc->setOption("osd-fractions", pref->osd_fractions);
 	#endif
 	proc->setOption("osd-scale", proc->isMPlayer() ? pref->subfont_osd_scale : pref->osd_scale);
@@ -2139,9 +2144,13 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+#ifdef MPLAYER_SUPPORT
 	// Enable the OSD later, to avoid a lot of messages to be
 	// printed on startup
-	proc->setOption("osdlevel", "0");
+	if (proc->isMPlayer()) {
+		proc->setOption("osd-level", "0");
+	}
+#endif
 
 	if (pref->use_idx) {
 		proc->setOption("idx");

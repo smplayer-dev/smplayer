@@ -453,7 +453,9 @@ protected slots:
 	void dvdTitleIsMovie();
 #endif
 
-	/* void initializeOSD(); */
+#ifdef MPLAYER_SUPPORT
+	void initializeOSD();
+#endif
 
 #ifdef YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
