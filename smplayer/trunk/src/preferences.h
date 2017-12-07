@@ -165,6 +165,7 @@ public:
 #ifdef MPV_SUPPORT
 	bool osd_fractions; //<! Show OSD times with milliseconds.
 #endif
+	int osd_bar_pos;
 
 	QString file_settings_method; //!< Method to be used for saving file settings
 

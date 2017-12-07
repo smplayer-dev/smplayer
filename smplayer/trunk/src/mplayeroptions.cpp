@@ -124,6 +124,13 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	if (option_name == "osd-fractions") {
 	}
 	else
+	if (option_name == "osd-bar-pos") {
+		int position = value.toInt();
+		if (position != 50) {
+			arg << "-progbar-align" << QString::number(position);
+		}
+	}
+	else
 	if (option_name == "osd-scale") {
 		arg << "-subfont-osd-scale" << value.toString();
 	}
