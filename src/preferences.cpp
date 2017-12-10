@@ -188,7 +188,7 @@ void Preferences::reset() {
 #ifdef MPV_SUPPORT
 	osd_fractions = false;
 #endif
-	osd_bar_pos = 50;
+	osd_bar_pos = 80;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 

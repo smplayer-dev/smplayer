@@ -126,7 +126,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	else
 	if (option_name == "osd-bar-pos") {
 		int position = value.toInt();
-		if (position != 50) {
+		if (position >= 0 && position <= 100) {
 			arg << "-progbar-align" << QString::number(position);
 		}
 	}
