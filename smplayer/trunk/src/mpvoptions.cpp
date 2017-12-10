@@ -277,8 +277,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	else
 	if (option_name == "osd-bar-pos") {
 		if (isOptionAvailable("--osd-bar-align-y")) {
-			double position = double (value.toInt() * 2 - 100) / 100;
-			arg << "--osd-bar-align-y=" + QString::number(position);
+			if (value.toInt() >= 0 && value.toInt() <= 100) {
+				double position = double (value.toInt() * 2 - 100) / 100;
+				arg << "--osd-bar-align-y=" + QString::number(position);
+			}
 		}
 	}
 	else
