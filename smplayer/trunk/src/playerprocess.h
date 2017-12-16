@@ -138,8 +138,8 @@ public:
 	void setOSDMediaInfo(const QString & s) { osd_media_info = s; };
 	QString OSDMediaInfo() { return osd_media_info; };
 
-	void enableOSDInCommands(bool b) { use_osd_in_commands = b; };
-	bool isOSDInCommandsEnabled() { return use_osd_in_commands; };
+	virtual void enableOSDInCommands(bool b) = 0;
+	virtual bool isOSDInCommandsEnabled() = 0;
 
 #ifdef CAPTURE_STREAM
 	virtual void setCaptureDirectory(const QString & dir);
@@ -223,7 +223,6 @@ protected:
 	PlayerID::Player player_id;
 
 	QString osd_media_info;
-	bool use_osd_in_commands;
 };
 
 #endif

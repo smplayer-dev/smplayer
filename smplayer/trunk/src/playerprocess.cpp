@@ -32,7 +32,6 @@
 
 PlayerProcess::PlayerProcess(QObject * parent)
 	: MyProcess(parent)
-	, use_osd_in_commands(true)
 {
 #if NOTIFY_SUB_CHANGES
 	qRegisterMetaType<SubTracks>("SubTracks");

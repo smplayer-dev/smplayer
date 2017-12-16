@@ -137,6 +137,9 @@ public:
 
 	void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null);
 
+	void enableOSDInCommands(bool b) { use_osd_in_commands = b; };
+	bool isOSDInCommandsEnabled() { return use_osd_in_commands; };
+
 	QString mpvVersion() { return mpv_version; };
 
 protected:
@@ -251,6 +254,8 @@ private:
 #ifdef OSD_WITH_TIMER
 	QTimer * osd_timer;
 #endif
+
+	bool use_osd_in_commands;
 
 	// Regular expressions
 	QRegExp rx_av;

@@ -1856,6 +1856,13 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// OSD
+	#ifdef MPLAYER_SUPPORT
+	// Enable the OSD later, to avoid a lot of messages to be
+	// printed on startup
+	if (proc->isMPlayer()) {
+		proc->setOption("osd-level", "0");
+	}
+	#endif
 	#ifdef MPV_SUPPORT
 	if (proc->isMPV()) {
 		proc->setOption("osd-level", pref->osd);
@@ -2144,14 +2151,6 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("ss", QString::number(seek));
 		}
 	}
-
-#ifdef MPLAYER_SUPPORT
-	// Enable the OSD later, to avoid a lot of messages to be
-	// printed on startup
-	if (proc->isMPlayer()) {
-		proc->setOption("osd-level", "0");
-	}
-#endif
 
 	if (pref->use_idx) {
 		proc->setOption("idx");

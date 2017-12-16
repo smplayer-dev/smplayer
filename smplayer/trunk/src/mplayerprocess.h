@@ -129,6 +129,9 @@ public:
 	void setCaptureDirectory(const QString & dir);
 #endif
 
+	void enableOSDInCommands(bool) {};
+	bool isOSDInCommandsEnabled() { return true; };
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
