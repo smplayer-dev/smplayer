@@ -46,6 +46,17 @@
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
 
+void MPVProcess::initializeOptionVars() {
+	qDebug("MPVProcess::initializeOptionVars");
+	PlayerProcess::initializeOptionVars();
+
+#ifdef OSD_WITH_TIMER
+	osd_timer = new QTimer(this);
+	osd_timer->setInterval(500);
+	connect(osd_timer, SIGNAL(timeout()), this, SLOT(displayInfoOnOSD()));
+#endif
+}
+
 void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
@@ -104,13 +115,6 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	capturing = false;
 #endif
 
-#ifdef OSD_WITH_TIMER
-	if (!osd_timer) {
-		osd_timer = new QTimer(this);
-		osd_timer->setInterval(500);
-		connect(osd_timer, SIGNAL(timeout()), this, SLOT(displayInfoOnOSD()));
-	}
-#endif
 }
 
 void MPVProcess::setFixedOptions() {

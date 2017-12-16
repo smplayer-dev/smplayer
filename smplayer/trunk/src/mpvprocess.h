@@ -166,6 +166,8 @@ protected slots:
 #endif
 
 protected:
+	virtual void initializeOptionVars();
+
 #if NOTIFY_AUDIO_CHANGES
 	void updateAudioTrack(int ID, const QString & name, const QString & lang);
 #endif
