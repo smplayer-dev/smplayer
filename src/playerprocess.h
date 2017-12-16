@@ -211,6 +211,8 @@ signals:
 	void receivedAudioBitrate(int);
 
 protected:
+	virtual void initializeOptionVars() {};
+
 	MediaData md;
 	QString pausing_prefix;
 

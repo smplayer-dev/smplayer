@@ -56,9 +56,6 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
-#ifdef OSD_WITH_TIMER
-	, osd_timer(0)
-#endif
 {
 	player_id = PlayerID::MPV;
 
@@ -73,6 +70,7 @@ MPVProcess::MPVProcess(QObject * parent)
 
 	/* int svn = MplayerVersion::mplayerVersion("mpv unknown version (C)"); */
 
+	initializeOptionVars();
 	initializeRX();
 }
 

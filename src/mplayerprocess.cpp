@@ -56,6 +56,8 @@ MplayerProcess::MplayerProcess(QObject * parent)
 
 	connect( this, SIGNAL(error(QProcess::ProcessError)),
              this, SLOT(gotError(QProcess::ProcessError)) );
+
+	initializeOptionVars();
 }
 
 MplayerProcess::~MplayerProcess() {

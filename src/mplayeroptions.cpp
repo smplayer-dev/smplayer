@@ -21,6 +21,11 @@
 #include <QDir>
 #include <QDebug>
 
+void MplayerProcess::initializeOptionVars() {
+	qDebug("MplayerProcess::initializeOptionVars");
+	PlayerProcess::initializeOptionVars();
+}
+
 void MplayerProcess::setMedia(const QString & media, bool is_playlist) {
 	if (is_playlist) arg << "-playlist";
 	arg << media;
