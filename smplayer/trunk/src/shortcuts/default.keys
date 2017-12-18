@@ -49,8 +49,9 @@ fullscreen	F, Ctrl+T
 compact	Ctrl+C
 video_equalizer	Ctrl+E
 screenshot	S
+screenshot_with_subtitles	Ctrl+Shift+S
+screenshot_without_subtitles	Ctrl+Alt+S
 multiple_screenshots	Shift+D
-capture_stream	
 video_preview	
 flip	
 mirror	
@@ -75,6 +76,7 @@ unload_audio_file
 extrastereo_filter	
 karaoke_filter	
 volnorm_filter	
+earwax_filter	
 load_subs	
 unload_subs	
 dec_sub_delay	Z
@@ -99,16 +101,17 @@ show_preferences	Ctrl+P
 show_tube_browser	F11
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
+tablet_mode	
 first_steps	
 faq	
 cl_options	
 check_updates	
-update_youtube	
 show_config	
 donate	
 about_smplayer	
 inc_osd_scale	Shift+U
 dec_osd_scale	Shift+Y
+osd_fractions	
 play_next	>, Media Next
 play_prev	<, Media Previous
 move_up	Alt+Up
@@ -144,7 +147,8 @@ reset_audio_equalizer
 show_context_menu	
 next_aspect	A
 next_wheel_function	
-show_filename	Shift+I
+show_filename_osd	Shift+O
+show_info_osd	Shift+I
 show_time	I
 toggle_deinterlacing	D
 osd_none	
@@ -172,6 +176,7 @@ deinterlace_yadif0
 deinterlace_yadif1	
 deinterlace_lb	
 deinterlace_kern	
+channels_default	
 channels_stereo	
 channels_surround	
 channels_ful51	
@@ -223,19 +228,13 @@ add_bookmark	Ctrl+A
 edit_bookmarks	
 prev_bookmark	Ctrl+B
 next_bookmark	Ctrl+N
-dvdnav_up	Shift+Up
-dvdnav_down	Shift+Down
-dvdnav_left	Shift+Left
-dvdnav_right	Shift+Right
-dvdnav_menu	Shift+Return
-dvdnav_select	Return
-dvdnav_prev	Shift+Esc
-dvdnav_mouse	
 quit	Ctrl+Q
 show_tray_icon	
 restore/hide	
 pl_open	
+pl_open_url	
 pl_save	
+pl_save_as	
 pl_play	
 pl_next	N
 pl_prev	P
@@ -251,8 +250,22 @@ pl_remove_selected
 pl_remove_all	
 pl_edit	
 pl_delete_from_disk	
+pl_copy_url	
+pl_open_folder	
+pl_chromecast	
+pl_show_search	
+pl_show_position_column	
+pl_show_name_column	
+pl_show_duration_column	
+pl_show_filename_column	
+play_on_chromecast	
+send_to_screen_1	
+screens_info	
 toggle_video_info	
 toggle_frame_counter	
+toggle_format_info	
+toggle_bitrate_info	
+use_milliseconds	
 edit_main_toolbar	
 edit_control1	
 edit_control2	
