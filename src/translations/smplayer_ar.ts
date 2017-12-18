@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ar">
 <context>
     <name>About</name>
     <message>
@@ -32,22 +34,22 @@
         <translation>SMPlayer هو واجهة رسومية لـ %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>انقر هنا لمعرفة الترجمات من فِرَق transifex</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
         <translation>تعاون كثيرون في الترجمة.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>بإمكانك أيضاً أن تساعد في ترجمة SMPlayer إلى لغتك.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>زر %1 وانضم إلى فريق للترجمة.</translation>
     </message>
@@ -67,12 +69,11 @@
         <translation>SMPlayer هو واجهة رسومية لـ %1 و %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
-        <translation>خدمة الترجمات توفرها %1</translation>
+        <translation type="obsolete">خدمة الترجمات توفرها %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -125,27 +126,27 @@
         <translation>يستخدم Qt %1 (جمّع باستخدام Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="126"/>
         <source>SMPlayer logo by %1</source>
         <translation>صمم %1 شعار SMPlayer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="109"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Read the entire license</source>
         <translation>اقرأ الرخصة كاملة</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="117"/>
+        <location filename="../about.cpp" line="115"/>
         <source>Read a translation</source>
         <translation>اقرأ نسخة مترجمة</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="127"/>
         <source>Packages for Windows created by %1</source>
         <translation>أنشأ %1 حزمات ويندوز Windows</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="130"/>
+        <location filename="../about.cpp" line="128"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>ساهم الكثير من الآخرين بترقيع الثغرات. اطلع على التفاصيل في سجل التغييرات.</translation>
     </message>
@@ -396,1601 +397,1616 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1953"/>
         <source>&amp;Open</source>
         <translation>فت&amp;ح</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1936"/>
+        <location filename="../basegui.cpp" line="1954"/>
         <source>&amp;Play</source>
         <translation>تش&amp;غيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1955"/>
         <source>&amp;Video</source>
         <translation>&amp;فيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1956"/>
         <source>&amp;Audio</source>
         <translation>&amp;صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>&amp;Subtitles</source>
         <translation>تر&amp;جمات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1958"/>
         <source>&amp;Browse</source>
         <translation>&amp;تصفح</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1942"/>
+        <location filename="../basegui.cpp" line="1960"/>
         <source>Op&amp;tions</source>
         <translation>&amp;خيارات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1943"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>&amp;Help</source>
         <translation>&amp;مساعدة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>&amp;File...</source>
         <translation>&amp;ملف...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>D&amp;irectory...</source>
         <translation>م&amp;جلد...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>&amp;Playlist...</source>
         <translation>قا&amp;ئمة تشغيل...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>&amp;DVD from drive</source>
         <translation>قرص DVD من &amp;سواقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>D&amp;VD from folder...</source>
         <translation>قرص DVD من م&amp;جلد...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>&amp;URL...</source>
         <translation>راب&amp;ط...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1959"/>
+        <location filename="../basegui.cpp" line="1977"/>
         <source>&amp;Clear</source>
         <translation>ام&amp;سح</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1957"/>
+        <location filename="../basegui.cpp" line="1975"/>
         <source>&amp;Recent files</source>
         <translation>الملفات الأ&amp;خيرة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>P&amp;lay</source>
         <translation>&amp;شغّل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>&amp;Pause</source>
         <translation>ألبِ&amp;ث</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1700"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Stop</source>
         <translation>أو&amp;قِف</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>&amp;Frame step</source>
         <translation>اخطُ إ&amp;طاراً واحداً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Normal speed</source>
         <translation>السرعة ال&amp;طبيعية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>&amp;Double speed</source>
         <translation>سرعة م&amp;ضاعفة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1738"/>
         <source>Speed &amp;-10%</source>
         <translation>سرّع &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>Speed &amp;+10%</source>
         <translation>سرّع &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;بدون</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1995"/>
         <source>Sp&amp;eed</source>
         <translation>السر&amp;عة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Repeat</source>
         <translation>&amp;كرّر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>&amp;Fullscreen</source>
         <translation>امل&amp;ا الشاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>&amp;Compact mode</source>
         <translation>الوضع المض&amp;غوط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1987"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>Si&amp;ze</source>
         <translation>ال&amp;قياس</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1997"/>
+        <location filename="../basegui.cpp" line="2015"/>
         <source>&amp;Aspect ratio</source>
         <translation>ن&amp;سبة الأبعاد</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2036"/>
-        <location filename="../basegui.cpp" line="3550"/>
-        <location filename="../basegui.cpp" line="3564"/>
+        <location filename="../basegui.cpp" line="2054"/>
+        <location filename="../basegui.cpp" line="3568"/>
+        <location filename="../basegui.cpp" line="3582"/>
         <source>&amp;None</source>
         <translation>&amp;بدون</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2037"/>
+        <location filename="../basegui.cpp" line="2055"/>
         <source>&amp;Lowpass5</source>
         <translation>تمرير &amp;منخفض 5 م هيرتز</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2040"/>
+        <location filename="../basegui.cpp" line="2058"/>
         <source>Linear &amp;Blend</source>
         <translation>&amp;خلط خطّي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2018"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;فَكّ التشابك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>&amp;Postprocessing</source>
         <translation>م&amp;عالجة لاحقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>&amp;Autodetect phase</source>
         <translation>اكت&amp;شف الطور تلقائياً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>&amp;Deblock</source>
         <translation>&amp;نعِّم الحواف بين القطَع المُعالجَة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>De&amp;ring</source>
         <translation>&amp;فك الحوافّ الحلقية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>Add n&amp;oise</source>
         <translation>أضف ض&amp;جيجاً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2021"/>
         <source>F&amp;ilters</source>
         <translation>المُرش&amp;حّات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Equalizer</source>
         <translation>المُ&amp;ساوي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>&amp;Screenshot</source>
         <translation>التق&amp;ط صورة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2027"/>
         <source>S&amp;tay on top</source>
         <translation>ابقَ ف&amp;ي القمّة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;ستيريو اضافي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;كاريوكي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2071"/>
+        <location filename="../basegui.cpp" line="2089"/>
         <source>&amp;Filters</source>
         <translation>المُر&amp;شحّات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2081"/>
-        <location filename="../basegui.cpp" line="2087"/>
+        <location filename="../basegui.cpp" line="2099"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>&amp;Stereo</source>
         <translation>&amp;ستيريو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2100"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0  محيط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2083"/>
+        <location filename="../basegui.cpp" line="2101"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 محيط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2074"/>
+        <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Channels</source>
         <translation>ال&amp;قنوات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2088"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>&amp;Left channel</source>
         <translation>القناة اليس&amp;رى</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2089"/>
+        <location filename="../basegui.cpp" line="2107"/>
         <source>&amp;Right channel</source>
         <translation>القناة الي&amp;منى</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2077"/>
+        <location filename="../basegui.cpp" line="2095"/>
         <source>&amp;Stereo mode</source>
         <translation>وضع &amp;ستيريو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>&amp;Mute</source>
         <translation>ا&amp;كتم الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>Volume &amp;-</source>
         <translation>العلوّ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>Volume &amp;+</source>
         <translation>العلوّ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>&amp;Delay -</source>
         <translation>تأ&amp;خير -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>D&amp;elay +</source>
         <translation>تأخي&amp;ر +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2097"/>
+        <location filename="../basegui.cpp" line="2115"/>
         <source>&amp;Select</source>
         <translation>ا&amp;ختر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;Load...</source>
         <translation>&amp;حمّل...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>Delay &amp;-</source>
         <translation>تأخير &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>Delay &amp;+</source>
         <translation>تأخير &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1811"/>
         <source>&amp;Up</source>
         <translation>لأ&amp;على</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>&amp;Down</source>
         <translation>للأ&amp;سفل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2115"/>
+        <location filename="../basegui.cpp" line="2133"/>
         <source>&amp;Title</source>
         <translation>ال&amp;عنوان</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2118"/>
+        <location filename="../basegui.cpp" line="2136"/>
         <source>&amp;Chapter</source>
         <translation>ال&amp;فصل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2121"/>
+        <location filename="../basegui.cpp" line="2139"/>
         <source>&amp;Angle</source>
         <translation>ال&amp;زاوية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>&amp;Playlist</source>
         <translation>&amp;قائمة التشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2034"/>
+        <location filename="../basegui.cpp" line="2052"/>
         <source>&amp;Disabled</source>
         <translation>م&amp;عطّل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2153"/>
+        <location filename="../basegui.cpp" line="2171"/>
         <source>&amp;OSD</source>
         <translation>ل&amp;وحة الأدوات على الشاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1833"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>P&amp;references</source>
         <translation>ال&amp;تفضيلات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>About &amp;SMPlayer</source>
         <translation>نب&amp;ذة عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3587"/>
-        <location filename="../basegui.cpp" line="3603"/>
-        <location filename="../basegui.cpp" line="3619"/>
-        <location filename="../basegui.cpp" line="3634"/>
-        <location filename="../basegui.cpp" line="3668"/>
-        <location filename="../basegui.cpp" line="3688"/>
-        <location filename="../basegui.cpp" line="3764"/>
+        <location filename="../basegui.cpp" line="3605"/>
+        <location filename="../basegui.cpp" line="3621"/>
+        <location filename="../basegui.cpp" line="3637"/>
+        <location filename="../basegui.cpp" line="3652"/>
+        <location filename="../basegui.cpp" line="3686"/>
+        <location filename="../basegui.cpp" line="3706"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;فارغ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4221"/>
+        <location filename="../basegui.cpp" line="4239"/>
         <source>Video</source>
         <translation>مقاطع فيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4222"/>
-        <location filename="../basegui.cpp" line="4467"/>
+        <location filename="../basegui.cpp" line="4240"/>
+        <location filename="../basegui.cpp" line="4485"/>
         <source>Audio</source>
         <translation>مقاطع صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4223"/>
+        <location filename="../basegui.cpp" line="4241"/>
         <source>Playlists</source>
         <translation>قوائم تشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4224"/>
-        <location filename="../basegui.cpp" line="4447"/>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4242"/>
+        <location filename="../basegui.cpp" line="4465"/>
+        <location filename="../basegui.cpp" line="4486"/>
         <source>All files</source>
         <translation>كل الملفات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4219"/>
-        <location filename="../basegui.cpp" line="4444"/>
-        <location filename="../basegui.cpp" line="4465"/>
+        <location filename="../basegui.cpp" line="4237"/>
+        <location filename="../basegui.cpp" line="4462"/>
+        <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a file</source>
         <translation>اختر ملفاً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>مست&amp;عرِض YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>تبرّع / &amp;شارك مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4283"/>
+        <location filename="../basegui.cpp" line="4301"/>
         <source>SMPlayer - Information</source>
         <translation>معلومات عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4284"/>
+        <location filename="../basegui.cpp" line="4302"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُضبط سواقة أقراص CDROM أو DVD بعدُ.
 سيظهر الآن حوار الضبط، فتستطيع القيام بالأمر.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4397"/>
+        <location filename="../basegui.cpp" line="4415"/>
         <source>Select the Blu-ray folder</source>
         <translation>إختر مجلد بلو-راي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4410"/>
+        <location filename="../basegui.cpp" line="4428"/>
         <source>Choose a directory</source>
         <translation>اختر مجلداً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4446"/>
+        <location filename="../basegui.cpp" line="4464"/>
         <source>Subtitles</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5118"/>
+        <location filename="../basegui.cpp" line="5136"/>
         <source>Error detected</source>
         <translation>اكتُشِف خطأ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5119"/>
+        <location filename="../basegui.cpp" line="5137"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>نأسف إذ لا يمكن تشغيل مقطع الفيديو هذا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5356"/>
+        <location filename="../basegui.cpp" line="5374"/>
         <source>Pause</source>
         <translation>لبث</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5357"/>
+        <location filename="../basegui.cpp" line="5375"/>
         <source>Stop</source>
         <translation>متوقف</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1704"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>Play / Pause</source>
         <translation>شغّل/ألبث</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>Pause / Frame step</source>
         <translation>ألبث/خطوة إطار</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>U&amp;nload</source>
         <translation>أ&amp;زِل التحميل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1664"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>V&amp;CD</source>
         <translation>قرص فيديو م&amp;ضغوط (VCD)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>C&amp;lose</source>
         <translation>أ&amp;غلِق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>Zoom &amp;-</source>
         <translation>&amp;بعِّد درجة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1747"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>Zoom &amp;+</source>
         <translation>&amp;قرِّب درجة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;Reset</source>
         <translation>&amp;صفّر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>Move &amp;left</source>
         <translation>حرّك للي&amp;سار</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1753"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>Move &amp;right</source>
         <translation>حرّك للي&amp;مين</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>Move &amp;up</source>
         <translation>حرّك لأ&amp;على</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>Move &amp;down</source>
         <translation>حرّك لأس&amp;فل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>السطر الساب&amp;ق في الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>السطر التال&amp;ي في الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1840"/>
-        <location filename="../basegui.cpp" line="2175"/>
+        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="2193"/>
         <source>%1 log</source>
         <translation>سجل %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1843"/>
-        <location filename="../basegui.cpp" line="2178"/>
+        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="2196"/>
         <source>SMPlayer log</source>
         <translation>سجل SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Update the &amp;YouTube code</source>
         <translation>تحدسث النص الب&amp;رمجي لليوتيوب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2191"/>
-        <location filename="../basegui.cpp" line="2192"/>
-        <location filename="../basegui.cpp" line="2193"/>
+        <location filename="../basegui.cpp" line="2209"/>
+        <location filename="../basegui.cpp" line="2210"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2195"/>
-        <location filename="../basegui.cpp" line="2196"/>
-        <location filename="../basegui.cpp" line="2197"/>
+        <location filename="../basegui.cpp" line="2213"/>
+        <location filename="../basegui.cpp" line="2214"/>
+        <location filename="../basegui.cpp" line="2215"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>Dec volume (2)</source>
         <translation>أنقص الصوت (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>قرص &amp;بلو-راي من سواقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>قرص بلو-&amp;راي من مجلد...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>Fra&amp;me back step</source>
         <translation>خط&amp;وة إطار للخلف</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>&amp;Half speed</source>
         <translation>ن&amp;صف السرعة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1737"/>
+        <location filename="../basegui.cpp" line="1750"/>
+        <source>Screenshot with subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1751"/>
+        <source>Screenshot without subtitles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>Start/stop capturing stream</source>
         <translation>بدء/ايقاف التقاط الدفق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>مو&amp;لِّد المصغرات...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1744"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>Stereo &amp;3D filter</source>
         <translation>مرشح &amp;3D أبعاد للستريو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>أزل ت&amp;غير اللون المفاجئ (gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>Seek to next subtitle</source>
         <translation>تنقّل الى الترجمة التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Seek to previous subtitle</source>
         <translation>تنقّل الى الترجمة السابقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>Use custo&amp;m style</source>
         <translation>استخدم طرازاً مُخ&amp;صّصًا</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>اعثر على التر&amp;جمات في OpenSubstitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>ال&amp;مبدئي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1832"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Information and properties...</source>
         <translation>م&amp;علومات و خصائص...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1845"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>T&amp;ablet mode</source>
         <translation>النمط ال&amp;لوحي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1865"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;دليل البدء</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>&amp;Open configuration folder</source>
         <translation>افتح مجلد ال&amp;ضبط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1861"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>&amp;Donate</source>
         <translation>&amp;تبرع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>Size &amp;+</source>
         <translation>حجم &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>Size &amp;-</source>
         <translation>حجم &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1878"/>
+        <location filename="../basegui.cpp" line="1895"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1910"/>
         <source>Inc volume (2)</source>
         <translation>زِد الصوت (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1913"/>
         <source>Exit fullscreen</source>
         <translation>اخرج من ملء الشاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>OSD - Next level</source>
         <translation>لوحة الأدوات على الشاشة - المرحلة التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1899"/>
+        <location filename="../basegui.cpp" line="1916"/>
         <source>Dec contrast</source>
         <translation>أنقص التباين</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1917"/>
         <source>Inc contrast</source>
         <translation>زِد التباين</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>Dec brightness</source>
         <translation>أنقص السطوع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>Inc brightness</source>
         <translation>زِد السطوع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>Dec hue</source>
         <translation>أنقص التدرج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>Inc hue</source>
         <translation>زِد التدرج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1922"/>
         <source>Dec saturation</source>
         <translation>أنقص التشبع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1907"/>
+        <location filename="../basegui.cpp" line="1924"/>
         <source>Dec gamma</source>
         <translation>أنقص غاما</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1927"/>
         <source>Next audio</source>
         <translation>مقطع الصوت التالي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1911"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>Next subtitle</source>
         <translation>الترجمة التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1912"/>
+        <location filename="../basegui.cpp" line="1929"/>
         <source>Next chapter</source>
         <translation>الفصل التالي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1930"/>
         <source>Previous chapter</source>
         <translation>الفصل السابق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1938"/>
+        <source>Show filename on OSD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>Show &amp;info on OSD</source>
         <translation>أظهر ال&amp;معلومات في لوحة الأدوات على الشاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1940"/>
         <source>Show playback time on OSD</source>
         <translation>أظهر وقت التشغيل في لوحة الأدوات على الشاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1941"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>Vie&amp;w</source>
         <translation>م&amp;عاينة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
+        <location filename="../basegui.cpp" line="2035"/>
         <source>De&amp;noise</source>
         <translation>أزل ال&amp;ضجيج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>Blur/S&amp;harp</source>
         <translation>غشاوة/&amp;حِدَّة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
+        <location filename="../basegui.cpp" line="2061"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;بدون</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2044"/>
+        <location filename="../basegui.cpp" line="2062"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;عادي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2045"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;خفيف</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2047"/>
+        <location filename="../basegui.cpp" line="2065"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;بدون</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2048"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;غشاوة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2049"/>
+        <location filename="../basegui.cpp" line="2067"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;حِدّة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2069"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>Select audio track</source>
         <translation>اختر مسار الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2084"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 محيط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2085"/>
+        <location filename="../basegui.cpp" line="2103"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 محيط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2090"/>
+        <location filename="../basegui.cpp" line="2108"/>
         <source>&amp;Mono</source>
         <translation>أُ&amp;حادي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2091"/>
+        <location filename="../basegui.cpp" line="2109"/>
         <source>Re&amp;verse</source>
         <translation>م&amp;عكوس</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2095"/>
+        <location filename="../basegui.cpp" line="2113"/>
         <source>Prim&amp;ary track</source>
         <translation>&amp;مسار رئيسي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2100"/>
+        <location filename="../basegui.cpp" line="2118"/>
         <source>Select subtitle track</source>
         <translation>اختر مسار الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2103"/>
+        <location filename="../basegui.cpp" line="2121"/>
         <source>Secondary trac&amp;k</source>
         <translation>م&amp;سار ثانوي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2105"/>
+        <location filename="../basegui.cpp" line="2123"/>
         <source>Select secondary subtitle track</source>
         <translation>اختر المسار الثانوي للترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2129"/>
         <source>F&amp;rames per second</source>
         <translation>الإ&amp;طارات في الثانية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2125"/>
+        <location filename="../basegui.cpp" line="2143"/>
         <source>&amp;Bookmarks</source>
         <translation>&amp;علامات إشارة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2135"/>
+        <location filename="../basegui.cpp" line="2153"/>
         <source>&amp;Add new bookmark</source>
         <translation>إ&amp;ضافة علامة جديدة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2136"/>
+        <location filename="../basegui.cpp" line="2154"/>
         <source>&amp;Edit bookmarks</source>
         <translation>&amp;تحرير العلامات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2137"/>
+        <location filename="../basegui.cpp" line="2155"/>
         <source>Previous bookmark</source>
         <translation>العلامة السابقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2138"/>
+        <location filename="../basegui.cpp" line="2156"/>
         <source>Next bookmark</source>
         <translation>العلامة التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2167"/>
+        <location filename="../basegui.cpp" line="2185"/>
         <source>Quick access menu</source>
         <translation>قائمة الوصول السريع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2980"/>
+        <location filename="../basegui.cpp" line="2998"/>
         <source>Logs</source>
         <translation>السجلات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4552"/>
+        <location filename="../basegui.cpp" line="4570"/>
         <source>Support SMPlayer</source>
         <translation>إدعم SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4572"/>
         <source>Donate</source>
         <translation>تبرّع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4555"/>
+        <location filename="../basegui.cpp" line="4573"/>
         <source>No</source>
         <translation>لا</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4558"/>
+        <location filename="../basegui.cpp" line="4576"/>
         <source>SMPlayer needs you</source>
         <translation>المشغّل SMPlayer يحتاج إليك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4559"/>
+        <location filename="../basegui.cpp" line="4577"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>المشغّل SMPlayer برنامج مجاني، لكن التطوير يحتاج الكثير من الوقت و الكثير من العمل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4560"/>
+        <location filename="../basegui.cpp" line="4578"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>من أجل الاستمرار في تطوير SMPlayer و بميزات جديدة فاننا نحتاج الى مساعدتك.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4561"/>
+        <location filename="../basegui.cpp" line="4579"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>الرجاء أن تضع في إعتبارك دعم مشروع المشغّل SMPlayer بإرسال تبرّع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4562"/>
+        <location filename="../basegui.cpp" line="4580"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>حتى أقل المبالغ ستساعد كثيرا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5053"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>Connection failed</source>
         <translation>فشل الإتصال</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5072"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>الفيديو الذي طلبته يحتاج الى اتصال HTTPS آمن.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5055"/>
+        <location filename="../basegui.cpp" line="5073"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>للأسف فإن OpenSSL، و هو مكون ضروري له، لا يتوفر في النظام الخاص بك.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5056"/>
+        <location filename="../basegui.cpp" line="5074"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>لطفاً زُر %1 لمعرفة كيفية إصلاح هذه المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5057"/>
+        <location filename="../basegui.cpp" line="5075"/>
         <source>this link</source>
         <translation>هذا الرابط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5085"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو هذا بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5074"/>
-        <location filename="../basegui.cpp" line="5082"/>
+        <location filename="../basegui.cpp" line="5092"/>
+        <location filename="../basegui.cpp" line="5100"/>
         <source>Problems with Youtube</source>
         <translation>مشكلات في YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6058"/>
-        <location filename="../basegui.cpp" line="6110"/>
+        <location filename="../basegui.cpp" line="6076"/>
+        <location filename="../basegui.cpp" line="6128"/>
         <source>%1 Error</source>
         <translation>خطأ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6059"/>
+        <location filename="../basegui.cpp" line="6077"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 إنتهى على نحو غير متوقع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6084"/>
+        <location filename="../basegui.cpp" line="6102"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>فشل المكوّن youtube-dl في الاشتغال.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6085"/>
+        <location filename="../basegui.cpp" line="6103"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>تثبيت الحزمة التوزيعية لفيجوال سي بلس بلس 2010 من مايكروسوفت (اصدار x86) Microsoft Visual C++ 2010 Redistributable Package  قد يحل المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6105"/>
         <source>Click here to get it</source>
         <translation>انقر هنا للحصول عليها</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6112"/>
+        <location filename="../basegui.cpp" line="6130"/>
         <source>%1 failed to start.</source>
         <translation>%1 عجز أن يبدأ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6113"/>
+        <location filename="../basegui.cpp" line="6131"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>رجاء تحقق من مسار %1 في التفضيلات.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6115"/>
+        <location filename="../basegui.cpp" line="6133"/>
         <source>%1 has crashed.</source>
         <translation>%1 إنهار.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6197"/>
+        <location filename="../basegui.cpp" line="6215"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>مستعرض يوتيوب YouTube Browser غير مثبَّت.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6198"/>
-        <location filename="../basegui.cpp" line="6210"/>
+        <location filename="../basegui.cpp" line="6216"/>
+        <location filename="../basegui.cpp" line="6228"/>
         <source>Visit %1 to get it.</source>
         <translation>زُر %1 للحصول عليه.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6208"/>
+        <location filename="../basegui.cpp" line="6226"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>فشل متصفح اليوتيوب أن يشتغل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6209"/>
+        <location filename="../basegui.cpp" line="6227"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>تأكد من كونه مثبَّتاً بصورة صحيحة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6375"/>
+        <location filename="../basegui.cpp" line="6393"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>بُدّل النظام الى النمط اللوحي. أيتوجب على SMPlayer أن يغير الى النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6377"/>
+        <location filename="../basegui.cpp" line="6395"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>خرج النظام من النمط اللوحي. أيتوجب على SMPlayer أن يُطفئ النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6381"/>
+        <location filename="../basegui.cpp" line="6399"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>تذكّر قراري و لا تسأل ثانيةً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5070"/>
+        <location filename="../basegui.cpp" line="5088"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو &quot;%1&quot; بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5076"/>
+        <location filename="../basegui.cpp" line="5094"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>أتريد تحديث النص البرمجي لـYouTube؟ لعل هذا يحلّ المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5084"/>
+        <location filename="../basegui.cpp" line="5102"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>قد يحل المشكلة تحديث SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2157"/>
+        <location filename="../basegui.cpp" line="2175"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>&amp;شارك SMPlayer مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3275"/>
-        <location filename="../basegui.cpp" line="4025"/>
+        <location filename="../basegui.cpp" line="3293"/>
+        <location filename="../basegui.cpp" line="4043"/>
         <source>Information</source>
         <translation>معلومات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3276"/>
+        <location filename="../basegui.cpp" line="3294"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>عليك إعادة تشغيل SMPlayer لاستخدام الواجهة الرسومية الجديدة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3776"/>
+        <location filename="../basegui.cpp" line="3794"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>أكِّد الحذف - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3777"/>
+        <location filename="../basegui.cpp" line="3795"/>
         <source>Delete the list of recent files?</source>
         <translation>أأحذف لائحة الملفات الأخيرة؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4026"/>
+        <location filename="../basegui.cpp" line="4044"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>حُفظَت القيم الحالية لتستخدم قيماً مبدئية.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1906"/>
+        <location filename="../basegui.cpp" line="1923"/>
         <source>Inc saturation</source>
         <translation>زِد التشبع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>Inc gamma</source>
         <translation>زِد غاما</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1794"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;حمل ملفاً خارجياً...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2041"/>
+        <location filename="../basegui.cpp" line="2059"/>
         <source>&amp;Kerndeint</source>
         <translation>م&amp;رشح Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
+        <location filename="../basegui.cpp" line="2056"/>
         <source>&amp;Yadif (normal)</source>
         <translation>مرشح Yadif (&amp;عادي)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2039"/>
+        <location filename="../basegui.cpp" line="2057"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>مرشح Yadif (&amp;ضعف معدل الإطارات)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>&amp;Next</source>
         <translation>ال&amp;تالي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1883"/>
+        <location filename="../basegui.cpp" line="1900"/>
         <source>Pre&amp;vious</source>
         <translation>ال&amp;سابق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;تسوية علوّ الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1680"/>
         <source>&amp;Audio CD</source>
         <translation>قرص &amp;صوتيّ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1931"/>
         <source>&amp;Toggle double size</source>
         <translation>بدّل وضع مضاعفة ال&amp;حجم</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1813"/>
         <source>S&amp;ize -</source>
         <translation>ح&amp;جم -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1814"/>
         <source>Si&amp;ze +</source>
         <translation>حج&amp;م +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>Add &amp;black borders</source>
         <translation>أضف حدوداً &amp;سوداء</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>Soft&amp;ware scaling</source>
         <translation>تحجيم &amp;برمجي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1849"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;FAQ</source>
         <translation>الأ&amp;سئلة الشائعة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1850"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Command line options</source>
         <translation>&amp;خيارات سطر الأوامر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4487"/>
+        <location filename="../basegui.cpp" line="4505"/>
         <source>SMPlayer command line options</source>
         <translation>خيارات سطر الأوامر لـSMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1824"/>
         <source>&amp;Forced subtitles only</source>
         <translation>الترجمات الم&amp;فروضة فقط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1915"/>
+        <location filename="../basegui.cpp" line="1932"/>
         <source>Reset video equalizer</source>
         <translation>صفّر مساوي الفيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5120"/>
+        <location filename="../basegui.cpp" line="5138"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>أعاد الخادوم &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6060"/>
+        <location filename="../basegui.cpp" line="6078"/>
         <source>Exit code: %1</source>
         <translation>رمز الخروج: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6116"/>
+        <location filename="../basegui.cpp" line="6134"/>
         <source>See the log for more info.</source>
         <translation>انظر السجل لمعلومات أكثر.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2024"/>
         <source>&amp;Rotate</source>
         <translation>الت&amp;دوير</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2051"/>
+        <location filename="../basegui.cpp" line="2069"/>
         <source>&amp;Off</source>
         <translation>&amp;بدون</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2052"/>
+        <location filename="../basegui.cpp" line="2070"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>دَوِّر 90 درجة باتجاه عقارب الساعة وا&amp;قلب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2053"/>
+        <location filename="../basegui.cpp" line="2071"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>دَوِّر 90 درجة با&amp;تجاه عقارب الساعة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2054"/>
+        <location filename="../basegui.cpp" line="2072"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>دَوِّر 90 درجة ب&amp;عكس اتجاه عقارب الساعة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2055"/>
+        <location filename="../basegui.cpp" line="2073"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>دَوِّر 90 درجة بعكس اتجاه عقارب الساعة واق&amp;لب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Jump to...</source>
         <translation>اقف&amp;ز إلى...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1917"/>
+        <location filename="../basegui.cpp" line="1934"/>
         <source>Show context menu</source>
         <translation>أظهر قائمة السياق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4220"/>
+        <location filename="../basegui.cpp" line="4238"/>
         <source>Multimedia</source>
         <translation>الوسائط المتعددة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>E&amp;qualizer</source>
         <translation>ال&amp;مُساوي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1933"/>
         <source>Reset audio equalizer</source>
         <translation>صفّر مساوي الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1813"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>ارف&amp;ع الترجمات إلى OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2023"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;Auto</source>
         <translation>&amp;تلقائي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Speed -&amp;4%</source>
         <translation>سرّع -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1741"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;سرّع +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>Speed -&amp;1%</source>
         <translation>سرّع -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1743"/>
         <source>S&amp;peed +1%</source>
         <translation>س&amp;رّع +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2031"/>
         <source>Scree&amp;n</source>
         <translation>ال&amp;شاشة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2063"/>
-        <location filename="../basegui.cpp" line="2080"/>
+        <location filename="../basegui.cpp" line="2081"/>
+        <location filename="../basegui.cpp" line="2098"/>
         <source>&amp;Default</source>
         <translation>ال&amp;مبدئي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>Mirr&amp;or image</source>
         <translation>اع&amp;كس الصورة مرآة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1909"/>
+        <location filename="../basegui.cpp" line="1926"/>
         <source>Next video</source>
         <translation>الفيديو التالي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1984"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;مسار الفيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2067"/>
+        <location filename="../basegui.cpp" line="2085"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>مسار ال&amp;صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4962"/>
+        <location filename="../basegui.cpp" line="4980"/>
         <source>Warning - Using old MPlayer</source>
         <translation>تحذير - استخدام MPlayer قديم</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4963"/>
+        <location filename="../basegui.cpp" line="4981"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>إصدار MPlayer المثبت على نظامك (%1) قديم. لا يعمل SMPlayer به كما ينبغي: قد لا يعمل اختيار الترجمات وبعض الخيارات الأخرى... </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4968"/>
+        <location filename="../basegui.cpp" line="4986"/>
         <source>Please, update your MPlayer.</source>
         <translation>رجاء حدّث MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4970"/>
+        <location filename="../basegui.cpp" line="4988"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(لن يُعرض هذا التحذير ثانيةً)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>Next aspect ratio</source>
         <translation>نسبة الأبعاد التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;تقريب تلقائي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>Zoom for &amp;16:9</source>
         <translation>قرّب لـ &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1751"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>قرب لـ &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2057"/>
+        <location filename="../basegui.cpp" line="2075"/>
         <source>&amp;Always</source>
         <translation>&amp;دوماً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2058"/>
+        <location filename="../basegui.cpp" line="2076"/>
         <source>&amp;Never</source>
         <translation>&amp;لا، أبداً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2059"/>
+        <location filename="../basegui.cpp" line="2077"/>
         <source>While &amp;playing</source>
         <translation>أثناء التش&amp;غيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2146"/>
+        <location filename="../basegui.cpp" line="2164"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;قائمة DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2166"/>
         <source>DVD &amp;previous menu</source>
         <translation>قائمة DVD ال&amp;سابقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2142"/>
+        <location filename="../basegui.cpp" line="2160"/>
         <source>DVD menu, move up</source>
         <translation>قائمة DVD، تحريك لأعلى</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2161"/>
         <source>DVD menu, move down</source>
         <translation>قائمة DVD، تحريك لأسفل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2144"/>
+        <location filename="../basegui.cpp" line="2162"/>
         <source>DVD menu, move left</source>
         <translation>قائمة DVD، تحريك لليسار</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2145"/>
+        <location filename="../basegui.cpp" line="2163"/>
         <source>DVD menu, move right</source>
         <translation>قائمة DVD، تحريك لليمين</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2147"/>
+        <location filename="../basegui.cpp" line="2165"/>
         <source>DVD menu, select option</source>
         <translation>قائمة DVD، خيار التأشير</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2149"/>
+        <location filename="../basegui.cpp" line="2167"/>
         <source>DVD menu, mouse click</source>
         <translation>قائمة DVD، النقر بالفأرة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1776"/>
+        <location filename="../basegui.cpp" line="1793"/>
         <source>Set dela&amp;y...</source>
         <translation>عيّن ال&amp;تأخير...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1810"/>
         <source>Se&amp;t delay...</source>
         <translation>عيّن التأخي&amp;ر...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4614"/>
+        <location filename="../basegui.cpp" line="4632"/>
         <source>&amp;Jump to:</source>
         <translation>ا&amp;قفز إلى:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4615"/>
+        <location filename="../basegui.cpp" line="4633"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer -تنقّل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4626"/>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4644"/>
+        <location filename="../basegui.cpp" line="4648"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - تأخير الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4627"/>
-        <location filename="../basegui.cpp" line="4631"/>
+        <location filename="../basegui.cpp" line="4645"/>
+        <location filename="../basegui.cpp" line="4649"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>تأخير الصوت (بالميلي ثانية):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4642"/>
-        <location filename="../basegui.cpp" line="4646"/>
+        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - تأخير الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <location filename="../basegui.cpp" line="4647"/>
+        <location filename="../basegui.cpp" line="4661"/>
+        <location filename="../basegui.cpp" line="4665"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>تأخير الترجمة (بالميلي ثانية):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2060"/>
+        <location filename="../basegui.cpp" line="2078"/>
         <source>Toggle stay on top</source>
         <translation>بدّل وضع البقاء في قمة النوافذ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5560"/>
-        <location filename="../basegui.cpp" line="5900"/>
+        <location filename="../basegui.cpp" line="5578"/>
+        <location filename="../basegui.cpp" line="5918"/>
         <source>Jump to %1</source>
         <translation>اقفز إلى %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1752"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>ابدأ/أوقف ال&amp;تقاط الصور</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1809"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Subtitle &amp;visibility</source>
         <translation>إ&amp;ظهار الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1936"/>
         <source>Next wheel function</source>
         <translation>وظيفة العجلة التالية</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2130"/>
+        <location filename="../basegui.cpp" line="2148"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>بر&amp;نامج</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>&amp;TV</source>
         <translation>ال&amp;تلفاز</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1990"/>
         <source>Radi&amp;o</source>
         <translation>المذيا&amp;ع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1928"/>
+        <location filename="../basegui.cpp" line="1946"/>
         <source>Subtitles onl&amp;y</source>
         <translation>الترجمات فق&amp;ط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1929"/>
+        <location filename="../basegui.cpp" line="1947"/>
         <source>Volume + &amp;Seek</source>
         <translation>حجم الصوت + الت&amp;نقل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1930"/>
+        <location filename="../basegui.cpp" line="1948"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>حجم الصوت + التنقّل + المُؤ&amp;قِّت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1931"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>حجم الصوت + التنقّل + المُؤقِّت + الوقت ال&amp;كلي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1617"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>تُعطَّل مرشّحات الفيديو عند استخدام VDPAU</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1742"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>Fli&amp;p image</source>
         <translation>اقل&amp;ب الصورة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1994"/>
+        <location filename="../basegui.cpp" line="2012"/>
         <source>Zoo&amp;m</source>
         <translation>التق&amp;ريب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Set &amp;A marker</source>
         <translation>عين الإشارة &amp;أ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>Set &amp;B marker</source>
         <translation>عين الإشارة &amp;ب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>&amp;Clear A-B markers</source>
         <translation>ام&amp;سح الإشارتين &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1998"/>
         <source>&amp;A-B section</source>
         <translation>المقطع ب&amp;ين أ - ب</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1942"/>
         <source>Toggle deinterlacing</source>
         <translation>بدّل وضع فكّ التشابك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2126"/>
         <source>&amp;Closed captions</source>
         <translation>الشروحات المُن&amp;غلقة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1961"/>
+        <location filename="../basegui.cpp" line="1979"/>
         <source>&amp;Disc</source>
         <translation>&amp;قرص</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
+        <location filename="../basegui.cpp" line="1983"/>
         <source>F&amp;avorites</source>
         <translation>المف&amp;ضلات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>Check for &amp;updates</source>
         <translation>التمس التحدي&amp;ثات</translation>
     </message>
@@ -1998,162 +2014,162 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="315"/>
+        <location filename="../baseguiplus.cpp" line="314"/>
         <source>SMPlayer is still running here</source>
         <translation>ما زال SMPlayer يعمل هنا</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="338"/>
+        <location filename="../baseguiplus.cpp" line="337"/>
         <source>S&amp;how icon in system tray</source>
         <translation>أ&amp;ظهر الرمز في منطقة تنبيهات النظام</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="351"/>
+        <location filename="../baseguiplus.cpp" line="350"/>
         <source>Play on &amp;Chromecast</source>
         <translation>تشغيل في &amp;كروم كاست</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="355"/>
+        <location filename="../baseguiplus.cpp" line="354"/>
         <source>Send &amp;video to screen</source>
         <translation>ارسال الفيديو الى ال&amp;شاشة</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="357"/>
+        <location filename="../baseguiplus.cpp" line="356"/>
         <source>Information about connected &amp;screens</source>
         <translation>معلومات عن ال&amp;شاشات المربوطة</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Video is sent to an external screen</source>
         <translation>يُرسل الفيديو الى شاشة خارجية</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="364"/>
+        <location filename="../baseguiplus.cpp" line="363"/>
         <source>Send &amp;audio to</source>
         <translation>إر&amp;سال الصوت الى</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="401"/>
         <source>&amp;Hide</source>
         <translation>أ&amp;خفِ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="373"/>
+        <location filename="../baseguiplus.cpp" line="403"/>
         <source>&amp;Restore</source>
         <translation>ا&amp;ستعِدْ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="816"/>
+        <location filename="../baseguiplus.cpp" line="860"/>
         <source>Information about connected screens</source>
         <translation>معلومات عن الشاشات المرتبطة</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="819"/>
+        <location filename="../baseguiplus.cpp" line="863"/>
         <source>Connected screens</source>
         <translation>الشاشات المرتبطة</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="822"/>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="866"/>
+        <location filename="../baseguiplus.cpp" line="908"/>
         <source>Number of screens: %1</source>
         <translation>عدد الشاشات: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="827"/>
-        <location filename="../baseguiplus.cpp" line="865"/>
+        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Primary screen: %1</source>
         <translation>الشاشة الرئيسية: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="835"/>
-        <location filename="../baseguiplus.cpp" line="869"/>
+        <location filename="../baseguiplus.cpp" line="879"/>
+        <location filename="../baseguiplus.cpp" line="913"/>
         <source>Information for screen %1</source>
         <translation>معلومات للشاشة %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="837"/>
-        <location filename="../baseguiplus.cpp" line="871"/>
+        <location filename="../baseguiplus.cpp" line="881"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>التباعدات المتاحة: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="839"/>
+        <location filename="../baseguiplus.cpp" line="883"/>
         <source>Available size: %1 x %2</source>
         <translation>الحجم المتاح: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="840"/>
+        <location filename="../baseguiplus.cpp" line="884"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>التباعدات الإفتراضية المتاحة: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="844"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>الحجم الإفتراضي المتاح:  %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="846"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Depth: %1 bits</source>
         <translation>العمق: %1 بت</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="847"/>
-        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>التباعد: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="849"/>
+        <location filename="../baseguiplus.cpp" line="893"/>
         <source>Logical DPI: %1</source>
         <translation>النقاط DPI المنطقية: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="851"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Physical DPI: %1</source>
         <translation>النقاط DPI الحقيقية: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="852"/>
+        <location filename="../baseguiplus.cpp" line="896"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>الحجم الحقيقي:  %1 x %2 ملم</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="854"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>معدل التحديث: %1 هرتز</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="855"/>
+        <location filename="../baseguiplus.cpp" line="899"/>
         <source>Size: %1 x %2</source>
         <translation>الحجم: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="856"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>التباعدات الإفتراضية:  %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="858"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Virtual size: %1 x %2</source>
         <translation>الحجم الإفتراضي: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="911"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Primary screen</source>
         <translation>الشاشة الرئيسية</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="980"/>
+        <location filename="../baseguiplus.cpp" line="1024"/>
         <source>SMPlayer external screen output</source>
         <translation>مخرجات الشاشة الخارجية لـ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1072"/>
         <source>&amp;Default audio device</source>
         <translation>جهاز الصوت الإ&amp;فتراضي</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="333"/>
         <source>&amp;Quit</source>
         <translation>أ&amp;نهِ</translation>
     </message>
@@ -2233,68 +2249,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3112"/>
+        <location filename="../core.cpp" line="3144"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3128"/>
+        <location filename="../core.cpp" line="3160"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3143"/>
+        <location filename="../core.cpp" line="3175"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3158"/>
+        <location filename="../core.cpp" line="3190"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3173"/>
+        <location filename="../core.cpp" line="3205"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3316"/>
+        <location filename="../core.cpp" line="3348"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4226"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3444"/>
-        <location filename="../core.cpp" line="3455"/>
+        <location filename="../core.cpp" line="3476"/>
+        <location filename="../core.cpp" line="3487"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4057"/>
+        <location filename="../core.cpp" line="4089"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4459"/>
+        <location filename="../core.cpp" line="4496"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3369"/>
+        <location filename="../core.cpp" line="3401"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3419"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3259"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
@@ -2309,67 +2325,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3540"/>
+        <location filename="../core.cpp" line="3572"/>
         <source>Subtitles on</source>
         <translation>الترجمات مفعّلة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3542"/>
+        <location filename="../core.cpp" line="3574"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4105"/>
+        <location filename="../core.cpp" line="4137"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4140"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4111"/>
+        <location filename="../core.cpp" line="4143"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4114"/>
+        <location filename="../core.cpp" line="4146"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4435"/>
+        <location filename="../core.cpp" line="4472"/>
         <source>Screenshot saved as %1</source>
         <translation>حُفظت اللقطة بالإسم %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4470"/>
+        <location filename="../core.cpp" line="4507"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1415"/>
+        <location filename="../core.cpp" line="1422"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصورة، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1428"/>
+        <location filename="../core.cpp" line="1435"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2725"/>
+        <location filename="../core.cpp" line="2757"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2747"/>
+        <location filename="../core.cpp" line="2779"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2767"/>
+        <location filename="../core.cpp" line="2799"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
@@ -2798,7 +2814,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Hash</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
@@ -2966,7 +2982,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">خدمة الترجمات توفرها %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -2981,7 +2997,14 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>لم تُستخرَج أية ترجمة(0)</numerusform><numerusform>استُخرجت ترجمة واحدة(1)</numerusform><numerusform>استُخرجت ترجمتان(2)</numerusform><numerusform>استُخرجت %n ترجمات(ترجمات)</numerusform><numerusform>استُخرجت %n ترجمةً(ترجمات)</numerusform><numerusform>استُخرجت %n ترجمة(ترجمات)</numerusform></translation>
+        <translation>
+            <numerusform>لم تُستخرَج أية ترجمة(0)</numerusform>
+            <numerusform>استُخرجت ترجمة واحدة(1)</numerusform>
+            <numerusform>استُخرجت ترجمتان(2)</numerusform>
+            <numerusform>استُخرجت %n ترجمات(ترجمات)</numerusform>
+            <numerusform>استُخرجت %n ترجمةً(ترجمات)</numerusform>
+            <numerusform>استُخرجت %n ترجمة(ترجمات)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3079,7 +3102,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -4576,78 +4599,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="180"/>
+        <location filename="../mpvprocess.h" line="186"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>عامل التصفية &apos;%1&apos; لا يدعمه mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="181"/>
+        <location filename="../mpvprocess.h" line="187"/>
         <source>File:</source>
         <translation>ملف:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="182"/>
+        <location filename="../mpvprocess.h" line="188"/>
         <source>Video:</source>
         <translation>فيديو</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="183"/>
+        <location filename="../mpvprocess.h" line="189"/>
         <source>Resolution:</source>
         <translation>دقة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="184"/>
+        <location filename="../mpvprocess.h" line="190"/>
         <source>Frames per second:</source>
         <translation>الاطار لكل ثانية:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="185"/>
+        <location filename="../mpvprocess.h" line="191"/>
         <source>Estimated:</source>
         <translation>المتوقع:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="186"/>
+        <location filename="../mpvprocess.h" line="192"/>
         <source>Aspect Ratio:</source>
         <translation>نسبة الأبعاد</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="187"/>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Bitrate:</source>
         <translation>معدل البتات</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="188"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>Dropped frames:</source>
         <translation>الإطارات المستبعَدة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Audio:</source>
         <translation>صوت:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Sample Rate:</source>
         <translation>معدل العيّنة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Channels:</source>
         <translation>القنوات:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Audio/video synchronization:</source>
         <translation>مزامنة الصوت/الفيديو :</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Cache fill:</source>
         <translation>امتلاء الذاكرة الخبيئة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Used cache:</source>
         <translation>الذاكرة الخبيئة المستخدمة:</translation>
     </message>
@@ -4663,12 +4686,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="244"/>
+        <location filename="../skingui/mediapanel.cpp" line="246"/>
         <source>Shuffle playlist</source>
         <translation>اخلط القائمة</translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="245"/>
+        <location filename="../skingui/mediapanel.cpp" line="247"/>
         <source>Repeat playlist</source>
         <translation>كرّر القائمة</translation>
     </message>
@@ -4742,37 +4765,37 @@ Do you want to overwrite?</source>
 <context>
     <name>PlayControl</name>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="185"/>
+        <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
         <translation>أرجع</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="186"/>
+        <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
         <translation>قدّم</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="187"/>
+        <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
         <translation>شغّل/ألبث</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="188"/>
+        <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
         <translation>أوقف</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="189"/>
+        <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
         <translation>سجّل</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="190"/>
+        <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
         <translation>الملف التالي في قائمة التشغيل</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="191"/>
+        <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
         <translation>الملف السابق في قائمة التشغيل</translation>
     </message>
@@ -5348,7 +5371,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5383,12 +5406,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5936,7 +5959,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6031,7 +6054,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -7889,7 +7912,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -7934,22 +7957,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="312"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="360"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="415"/>
@@ -8029,13 +8052,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8070,12 +8093,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
@@ -8086,7 +8109,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -8101,7 +8124,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -8151,32 +8174,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="351"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="354"/>
@@ -8186,17 +8209,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="355"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="356"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="357"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="361"/>
@@ -8988,12 +9011,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9746,13 +9769,27 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
+        <translation>
+            <numerusform>%n ثا</numerusform>
+            <numerusform>ثانية واحدة</numerusform>
+            <numerusform>ثانيتين</numerusform>
+            <numerusform>%n ثوانٍ</numerusform>
+            <numerusform>%n ثانيةً</numerusform>
+            <numerusform>%n ثانية</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
+        <translation>
+            <numerusform>%n د</numerusform>
+            <numerusform>دقيقة واحدة</numerusform>
+            <numerusform>دقيقتين</numerusform>
+            <numerusform>%n دقائق</numerusform>
+            <numerusform>%n دقيقة</numerusform>
+            <numerusform>%n دقيقة</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10451,163 +10488,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="524"/>
+        <location filename="../videopreview/videopreview.cpp" line="525"/>
         <source>Video preview</source>
         <translation>معاينة الفيديو</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="163"/>
+        <location filename="../videopreview/videopreview.cpp" line="164"/>
         <source>Cancel</source>
         <translation>ألغِ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="122"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location filename="../videopreview/videopreview.cpp" line="123"/>
-        <source>&amp;Save</source>
-        <translation type="unfinished"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="162"/>
+        <location filename="../videopreview/videopreview.cpp" line="124"/>
+        <source>&amp;Save</source>
+        <translation type="unfinished">احف&amp;ظ</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Thumbnail Generator</source>
         <translation>مولِّد المصغرات</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="251"/>
+        <location filename="../videopreview/videopreview.cpp" line="252"/>
         <source>Creating thumbnails...</source>
         <translation>يُنشئ المُصغرات...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="505"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Size: %1 MB</source>
         <translation>الحجم: %1 م.ب</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="508"/>
         <source>Length: %1</source>
         <translation>الطول: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="688"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Save file</source>
         <translation>احفظ الملف</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="701"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>Error saving file</source>
         <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="702"/>
+        <location filename="../videopreview/videopreview.cpp" line="703"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>تعذّر حفظ الملف</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="207"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>Error</source>
         <translation>خطأ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>وقع الخطأ التالي أثناء إنشاء المُصغَّرات:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>يتعذّر إنشاء دليل الملفات المؤقت (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="397"/>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>لم تشتغل عملية mplayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Resolution: %1x%2</source>
         <translation>الدقة: %1×%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Video format: %1</source>
         <translation>صيغة الفيديو: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="509"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
         <translation>الإطارات في الثانية: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="417"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>يتعذر تحميل الملف %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="552"/>
+        <location filename="../videopreview/videopreview.cpp" line="553"/>
         <source>No filename</source>
         <translation>لا اسم للملف</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="646"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>لم تبدأ عملية mplayer عند محاولة جلب معلومات عن مقطع الفيديو</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="225"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>The length of the video is 0</source>
         <translation>طول مقطع الفيديو صفر</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="269"/>
+        <location filename="../videopreview/videopreview.cpp" line="270"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>لم يُوجد الملف %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="689"/>
+        <location filename="../videopreview/videopreview.cpp" line="690"/>
         <source>Images</source>
         <translation>الصور</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="491"/>
+        <location filename="../videopreview/videopreview.cpp" line="492"/>
         <source>No info</source>
         <translation>لا معلومات</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="494"/>
         <location filename="../videopreview/videopreview.cpp" line="495"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 kbps</source>
         <translation>%1 ك.بت في الثانية</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>%1 Hz</source>
         <translation>%1 هرتز</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video bitrate: %1</source>
         <translation>معدَّل بتات الفيديو: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio bitrate: %1</source>
         <translation>معدَّل بتات الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio rate: %1</source>
         <translation>معدل الصوت: %1</translation>
     </message>
@@ -10652,12 +10689,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
