@@ -348,6 +348,7 @@ public slots:
 	void autoZoomFor235();
 
 	void showFilenameOnOSD();
+	void showMediaInfoOnOSD();
 	void showTimeOnOSD();
 	void toggleDeinterlace();
 

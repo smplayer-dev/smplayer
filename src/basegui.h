@@ -629,6 +629,7 @@ protected:
 	MyAction * nextWheelFunctionAct;
 
 	MyAction * showFilenameAct;
+	MyAction * showMediaInfoAct;
 	MyAction * showTimeAct;
 	MyAction * toggleDeinterlaceAct;
 

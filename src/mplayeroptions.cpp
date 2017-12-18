@@ -398,6 +398,10 @@ void MplayerProcess::showFilenameOnOSD() {
 	writeToStdin("osd_show_property_text \"" + s + "\" 2000 0");
 }
 
+void MplayerProcess::showMediaInfoOnOSD() {
+	showFilenameOnOSD();
+}
+
 void MplayerProcess::showTimeOnOSD() {
 	writeToStdin("osd_show_property_text \"${time_pos} / ${length} (${percent_pos}%)\" 2000 0");
 }
