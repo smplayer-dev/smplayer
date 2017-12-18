@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -34,22 +32,22 @@
         <translation>SMPlayer 是 %1 的图形化前端</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>点击这里查看 transifex 翻译团队的成员</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Many people contributed with translations.</source>
         <translation>许多人贡献了翻译。</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>你也可以帮助翻译 SMPlayer。</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="170"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>访问 %1 并加入翻译团队。</translation>
     </message>
@@ -61,7 +59,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">确定(&amp;O)</translation>
+        <translation>好(&amp;o)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -69,11 +67,12 @@
         <translation>SMPlayer 是 %1 和 %2 的图形化前端。</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="94"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">字幕服务由 %1 提供</translation>
+        <translation>字幕服务由 %1 提供</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="197"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -126,27 +125,27 @@
         <translation>正在使用 Qt %1 (用 Qt %2 编译)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="126"/>
+        <location filename="../about.cpp" line="128"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer 标志由 %1 设计</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="109"/>
         <source>Read the entire license</source>
         <translation>阅读整个许可证</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="115"/>
+        <location filename="../about.cpp" line="117"/>
         <source>Read a translation</source>
         <translation>阅读翻译</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="129"/>
         <source>Packages for Windows created by %1</source>
         <translation>适用于 Windows 的软件包由 %1 创建</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="130"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>还有许多人贡献了补丁。有关详细信息，请参阅变更日志(Changelog)。</translation>
     </message>
@@ -1013,7 +1012,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>优化耳机(&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1803"/>
@@ -1999,162 +1998,162 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="314"/>
+        <location filename="../baseguiplus.cpp" line="315"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer 仍在运行</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="338"/>
         <source>S&amp;how icon in system tray</source>
         <translation>在系统托盘上显示图标(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="350"/>
+        <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
         <translation>在Chromecast上播放</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="355"/>
         <source>Send &amp;video to screen</source>
         <translation>将视频发送到屏幕(&amp;v)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="356"/>
+        <location filename="../baseguiplus.cpp" line="357"/>
         <source>Information about connected &amp;screens</source>
         <translation>已连接屏幕信息(&amp;s)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="359"/>
+        <location filename="../baseguiplus.cpp" line="360"/>
         <source>Video is sent to an external screen</source>
         <translation>视频已发送到外部屏幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="363"/>
+        <location filename="../baseguiplus.cpp" line="364"/>
         <source>Send &amp;audio to</source>
         <translation>将音频发送到(&amp;a)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="401"/>
+        <location filename="../baseguiplus.cpp" line="371"/>
         <source>&amp;Hide</source>
         <translation>隐藏(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="403"/>
+        <location filename="../baseguiplus.cpp" line="373"/>
         <source>&amp;Restore</source>
         <translation>还原(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="860"/>
+        <location filename="../baseguiplus.cpp" line="816"/>
         <source>Information about connected screens</source>
         <translation>已连接屏幕信息</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="863"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Connected screens</source>
         <translation>已连接屏幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="866"/>
-        <location filename="../baseguiplus.cpp" line="908"/>
+        <location filename="../baseguiplus.cpp" line="822"/>
+        <location filename="../baseguiplus.cpp" line="864"/>
         <source>Number of screens: %1</source>
         <translation>屏幕数: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="871"/>
-        <location filename="../baseguiplus.cpp" line="909"/>
+        <location filename="../baseguiplus.cpp" line="827"/>
+        <location filename="../baseguiplus.cpp" line="865"/>
         <source>Primary screen: %1</source>
         <translation>主屏幕: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="879"/>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="835"/>
+        <location filename="../baseguiplus.cpp" line="869"/>
         <source>Information for screen %1</source>
         <translation>屏幕 %1 信息</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="881"/>
-        <location filename="../baseguiplus.cpp" line="915"/>
+        <location filename="../baseguiplus.cpp" line="837"/>
+        <location filename="../baseguiplus.cpp" line="871"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>可用的分辨率：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
+        <location filename="../baseguiplus.cpp" line="839"/>
         <source>Available size: %1 x %2</source>
         <translation>可用大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="884"/>
+        <location filename="../baseguiplus.cpp" line="840"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>可用的实际分辨率: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="844"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>可用虚拟大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="890"/>
+        <location filename="../baseguiplus.cpp" line="846"/>
         <source>Depth: %1 bits</source>
         <translation>位深: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="891"/>
-        <location filename="../baseguiplus.cpp" line="917"/>
+        <location filename="../baseguiplus.cpp" line="847"/>
+        <location filename="../baseguiplus.cpp" line="873"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>分辨率：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="893"/>
+        <location filename="../baseguiplus.cpp" line="849"/>
         <source>Logical DPI: %1</source>
         <translation>逻辑 DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
+        <location filename="../baseguiplus.cpp" line="851"/>
         <source>Physical DPI: %1</source>
         <translation>物理DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="896"/>
+        <location filename="../baseguiplus.cpp" line="852"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>物理大小: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="854"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>刷新率: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="899"/>
+        <location filename="../baseguiplus.cpp" line="855"/>
         <source>Size: %1 x %2</source>
         <translation>大小: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="900"/>
+        <location filename="../baseguiplus.cpp" line="856"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>虚拟分辨率：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
+        <location filename="../baseguiplus.cpp" line="858"/>
         <source>Virtual size: %1 x %2</source>
         <translation>虚拟大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="955"/>
+        <location filename="../baseguiplus.cpp" line="911"/>
         <source>Primary screen</source>
         <translation>主屏幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1024"/>
+        <location filename="../baseguiplus.cpp" line="980"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer 外置屏幕输出</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1072"/>
+        <location filename="../baseguiplus.cpp" line="1028"/>
         <source>&amp;Default audio device</source>
         <translation>默认音频设备(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="333"/>
+        <location filename="../baseguiplus.cpp" line="337"/>
         <source>&amp;Quit</source>
         <translation>退出(&amp;Q)</translation>
     </message>
@@ -2756,12 +2755,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="85"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">确定(&amp;O)</translation>
+        <translation>好(&amp;o)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">取消(&amp;C)</translation>
+        <translation>取消(&amp;c)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -2799,12 +2798,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Hash</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>文件名</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2869,12 +2868,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">常规</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索方法(&amp;m)：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2967,7 +2966,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">字幕服务由 %1 提供</translation>
+        <translation>由 %1 提供的字幕服务</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -2982,9 +2981,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3082,7 +3079,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -5941,7 +5938,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>经由 S/PDIF 和 HDMI 透传的 AC3/DTS</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1199"/>
@@ -6036,7 +6033,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>经由 S/PDIF 和 HDMI 透传的 AC3/DTS (&amp;a)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -7894,7 +7891,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>首选质量(&amp;r)：</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8034,13 +8031,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="107"/>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>最佳视频和音频</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>最差</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8070,43 +8067,43 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>首选质量</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>此视频质量的特定选项是由 youtube-dl 控制的。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>最佳视频和音频流的质量选择是可用的</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>最佳</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>单文件的最佳质量格式选择是可用的</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>如果可用，将会尝试已选择的尺寸</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>选择最差的质量格式可用</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -9751,17 +9748,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10460,163 +10453,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="525"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Video preview</source>
         <translation>视频预览</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="164"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <location filename="../videopreview/videopreview.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭(&amp;c)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="124"/>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">保存(&amp;S)</translation>
+        <translation>保存(&amp;s)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="163"/>
+        <location filename="../videopreview/videopreview.cpp" line="162"/>
         <source>Thumbnail Generator</source>
         <translation>缩略图生成器</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>Creating thumbnails...</source>
         <translation>正在创建缩略图...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="505"/>
         <source>Size: %1 MB</source>
         <translation>大小: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Length: %1</source>
         <translation>长度: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>音频格式： %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="689"/>
+        <location filename="../videopreview/videopreview.cpp" line="688"/>
         <source>Save file</source>
         <translation>保存文件</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="702"/>
+        <location filename="../videopreview/videopreview.cpp" line="701"/>
         <source>Error saving file</source>
         <translation>保存文件时出错</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="703"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>无法保存该文件</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>创建缩略图时发生以下错误:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>无法创建临时目录(%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <location filename="../videopreview/videopreview.cpp" line="397"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer 进程没有运行</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Resolution: %1x%2</source>
         <translation>分辨率: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Video format: %1</source>
         <translation>视频格式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="509"/>
         <source>Frames per second: %1</source>
         <translation>每秒帧数: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="514"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>无法加载文件 %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="553"/>
+        <location filename="../videopreview/videopreview.cpp" line="552"/>
         <source>No filename</source>
         <translation>没有文件名</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="647"/>
+        <location filename="../videopreview/videopreview.cpp" line="646"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>试图获取视频信息时，MPlayer 进程没有启动</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="225"/>
         <source>The length of the video is 0</source>
         <translation>视频的长度是 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="270"/>
+        <location filename="../videopreview/videopreview.cpp" line="269"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>文件 %1 不存在</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="690"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Images</source>
         <translation>图像</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="492"/>
+        <location filename="../videopreview/videopreview.cpp" line="491"/>
         <source>No info</source>
         <translation>无信息</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="494"/>
         <location filename="../videopreview/videopreview.cpp" line="495"/>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 kbps</source>
         <translation>%1kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>Video bitrate: %1</source>
         <translation>视频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Audio bitrate: %1</source>
         <translation>音频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="518"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio rate: %1</source>
         <translation>音频采样率: %1</translation>
     </message>
@@ -10661,12 +10654,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">确定(&amp;O)</translation>
+        <translation>好(&amp;o)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">取消(&amp;C)</translation>
+        <translation>取消(&amp;c)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
