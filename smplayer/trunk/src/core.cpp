@@ -4342,14 +4342,19 @@ void Core::decZoom() {
 }
 
 void Core::showFilenameOnOSD() {
+	qDebug("Core::showFilenameOnOSD");
+	proc->showFilenameOnOSD();
+}
+
+void Core::showMediaInfoOnOSD() {
+	qDebug("Core::showMediaInfoOnOSD");
 #ifdef MPV_SUPPORT
 	if (proc->isMPV()) proc->setOSDMediaInfo(pref->mpv_osd_media_info);
 #endif
 #ifdef MPLAYER_SUPPORT
 	if (proc->isMPlayer()) proc->setOSDMediaInfo(pref->mplayer_osd_media_info);
 #endif
-
-	proc->showFilenameOnOSD();
+	proc->showMediaInfoOnOSD();
 }
 
 void Core::showTimeOnOSD() {

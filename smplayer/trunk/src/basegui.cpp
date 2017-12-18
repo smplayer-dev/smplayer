@@ -1082,8 +1082,11 @@ void BaseGui::createActions() {
 	connect( nextWheelFunctionAct, SIGNAL(triggered()),
 			 core, SLOT(nextWheelFunction()) );
 
-	showFilenameAct = new MyAction(Qt::SHIFT | Qt::Key_I, this, "show_info_osd");
+	showFilenameAct = new MyAction(Qt::SHIFT | Qt::Key_O, this, "show_filename_osd");
 	connect( showFilenameAct, SIGNAL(triggered()), core, SLOT(showFilenameOnOSD()) );
+
+	showMediaInfoAct = new MyAction(Qt::SHIFT | Qt::Key_I, this, "show_info_osd");
+	connect( showMediaInfoAct, SIGNAL(triggered()), core, SLOT(showMediaInfoOnOSD()) );
 
 	showTimeAct = new MyAction(Qt::Key_I, this, "show_time");
 	connect( showTimeAct, SIGNAL(triggered()), core, SLOT(showTimeOnOSD()) );
@@ -1932,7 +1935,8 @@ void BaseGui::retranslateStrings() {
 	nextAspectAct->change( Images::icon("next_aspect"), tr("Next aspect ratio") );
 	nextWheelFunctionAct->change( Images::icon("next_wheel_function"), tr("Next wheel function") );
 
-	showFilenameAct->change( tr("Show &info on OSD") );
+	showFilenameAct->change( tr("Show filename on OSD") );
+	showMediaInfoAct->change( tr("Show &info on OSD") );
 	showTimeAct->change( tr("Show playback time on OSD") );
 
 	toggleDeinterlaceAct->change( tr("Toggle deinterlacing") );
@@ -2734,7 +2738,7 @@ void BaseGui::createMenus() {
 	osd_menu->menuAction()->setObjectName("osd_menu");
 	osd_menu->addActions(osdGroup->actions());
 	osd_menu->addSeparator();
-	osd_menu->addAction(showFilenameAct);
+	osd_menu->addAction(showMediaInfoAct);
 	osd_menu->addSeparator();
 	osd_menu->addAction(decOSDScaleAct);
 	osd_menu->addAction(incOSDScaleAct);

@@ -761,6 +761,13 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 
 void MPVProcess::showFilenameOnOSD() {
 #ifdef OSD_WITH_TIMER
+	osd_timer->stop();
+#endif
+	showOSDText("${filename}", 2000, 0);
+}
+
+void MPVProcess::showMediaInfoOnOSD() {
+#ifdef OSD_WITH_TIMER
 	toggleInfoOnOSD();
 #else
 	showOSDText("${filename}", 2000, 0);
