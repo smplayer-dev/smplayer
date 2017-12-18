@@ -127,6 +127,7 @@ void MPVProcess::setFixedOptions() {
 	arg << "--input-file=/dev/stdin";
 	//arg << "--no-osc";
 	//arg << "--msg-level=vd=v";
+	arg << "--video-stereo-mode=no";
 }
 
 void MPVProcess::disableInput() {
