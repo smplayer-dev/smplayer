@@ -1,3 +1,30 @@
+Version 17.12:
+
+(2017-12-18)
+ * New action which displays the filename in the OSD for 2 seconds. Assigned
+   by default to Shift+O.
+ * Disable the internal/own handling of stereo3d when using mpv.
+
+(2017-12-10)
+ * The option to record a stream has been temporary removed.
+   It's currently broken.
+
+(2017-12-07)
+ * New option osd_bar_pos for smplayer.ini. It specifies the position of
+   the OSD bar (0 = top, 100 = bottom).
+
+(2017-12-03)
+ * New two actions to take screenshots with or without subtitles (only works
+   with mpv). Assigned by default to Ctrl+Shift+ S and Ctrl+Alt+S.
+
+(2017-11-30)
+ * The support for DVD menus has been removed. It never worked well and also
+   mpv already removed support for it a long time ago.
+
+(2017-11-23)
+ * The option to open an informative page after an upgrade has been removed.
+
+
 Version 17.11.2:
 
 (2017-11-15)
