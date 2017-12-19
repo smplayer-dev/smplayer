@@ -1,3 +1,16 @@
+Version 17.2:
+
+ * New two actions to take screenshots with or without subtitles (they only
+   work when using mpv). Assigned by default to Ctrl+Shift+ S and Ctrl+Alt+S.
+ * New action which displays the filename in the OSD for 2 seconds. Assigned
+   by default to Shift+O.
+ * New option osd_bar_pos for smplayer.ini. It specifies the position of
+   the OSD bar (0 = top, 100 = bottom).
+ * The support for DVD menus has been removed. It never worked well and also
+   mpv already removed support for it a long time ago.
+ * The option to open an informative page after an upgrade has been removed.
+
+
 Version 17.11.2:
 
  * A crash that may happen on KDE when the global menus
