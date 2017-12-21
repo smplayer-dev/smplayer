@@ -14,8 +14,8 @@ Version 17.12:
    the OSD bar (0 = top, 100 = bottom).
 
 (2017-12-03)
- * New two actions to take screenshots with or without subtitles (only works
-   with mpv). Assigned by default to Ctrl+Shift+ S and Ctrl+Alt+S.
+ * Two new actions to take screenshots with or without subtitles (they only
+   work with mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
 
 (2017-11-30)
  * The support for DVD menus has been removed. It never worked well and also
