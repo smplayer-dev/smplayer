@@ -69,10 +69,6 @@
         <translation>SMPlayer je grafičko sučelje za %1 i %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Uslugu podnaslova pruža %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>

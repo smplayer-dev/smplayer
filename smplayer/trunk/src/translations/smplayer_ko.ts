@@ -69,10 +69,6 @@
         <translation>SMPlayer는 %1과 %2의 그래픽 인터페이스입니다.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">%1의 지원을 받는 자막 서비스</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -993,12 +989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷에 자막 포함</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷에 자막 미포함</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1169,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD에 파일명 보이기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>

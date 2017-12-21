@@ -69,10 +69,6 @@
         <translation>SMPlayer — это графический интерфейс для %1 и %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Служба субтитров предоставлена %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -993,12 +989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимок экрана с субтитрами</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимок экрана без субтитров</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1169,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать имя файла в OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>

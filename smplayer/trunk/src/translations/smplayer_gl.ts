@@ -69,10 +69,6 @@
         <translation>SMPlayer é unha interface gráfica para %1 e %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Servizo de subtítulos impulsado por %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -993,12 +989,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Capturas de pantalla con subtítulos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Capturas de pantalla sen subtítulos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1169,12 +1165,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar nome do ficheiro en OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Mostrar &amp;info en OSD</translation>
+        <translation>Mostrar &amp;información en OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>

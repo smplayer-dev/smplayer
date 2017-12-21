@@ -69,10 +69,6 @@
         <translation>SMPlayer е графичен интерфейс за %1 и %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Услугата за субтитри се задвижва от %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -2982,7 +2978,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">Услугата за субтитри се задвижва от %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>

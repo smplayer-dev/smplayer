@@ -69,10 +69,6 @@
         <translation>O SMPlayer é uma interface gráfica para %1 e %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Legendas disponibilizadas por %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -993,12 +989,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de ecrã com legendas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de ecrã sem legendas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1169,7 +1165,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar nome do ficheiro no OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>

@@ -61,16 +61,12 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Tamam</translation>
+        <translation>&amp;Tamam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer %1 ve %2 için bir grafik arayüz.</translation>
-    </message>
-    <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Altyazılar hizmeti %1 tarafından desteklenmektedir</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
@@ -993,12 +989,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Altyazılı ekran görüntüsü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Altyazısız ekran görüntüsü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1023,7 +1019,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kulaklık iyileştirme</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
@@ -1169,7 +1165,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD&apos;de dosya adını göster</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
@@ -1335,7 +1331,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4576"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayerin sana gereksinimi var</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4577"/>
@@ -1355,7 +1351,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4580"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>En küçük miktar bile çok yardımcı olacak.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5071"/>
@@ -2771,12 +2767,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="85"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Tamam</translation>
+        <translation>&amp;Tamam</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;İptal</translation>
+        <translation>&amp;İptal</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -2819,7 +2815,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya adı</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2884,7 +2880,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Genel</translation>
+        <translation>Genel</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
@@ -2982,7 +2978,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished">Altyazılar hizmeti %1 tarafından desteklenmektedir</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -5459,7 +5455,7 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="515"/>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Aralarını virgülle ayırarak yazın. Boşluk kullanmayın!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -7009,7 +7005,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Sonrakini oynat</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
