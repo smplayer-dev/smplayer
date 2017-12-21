@@ -1,3 +1,17 @@
+smplayer (17.12.0) precise; urgency=low
+
+  * Two new actions to take screenshots with or without subtitles (they only
+    work when using mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
+  * New action which displays the filename in the OSD for 2 seconds. Assigned
+    by default to Shift+O.
+  * New option osd_bar_pos for smplayer.ini. It specifies the position of
+    the OSD bar (0 = top, 100 = bottom).
+  * The support for DVD menus has been removed. It never worked well and also
+    mpv already removed support for it some time ago.
+  * The option to open an informative page after an upgrade has been removed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 21 Dec 2017 18:46:33 +0100
+
 smplayer (17.11.2) precise; urgency=low
 
   * A crash that may happen on KDE when the global menus
