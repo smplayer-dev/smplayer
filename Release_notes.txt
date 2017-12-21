@@ -1,4 +1,4 @@
-Version 17.2:
+Version 17.12:
 
  * Two new actions to take screenshots with or without subtitles (they only
    work when using mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
