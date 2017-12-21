@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "fontconfig キャッシュをクリーンアップしてます..."
+${LangFileString} Info_Cleaning_Fontconfig "fontconfig キャッシュをクリーンアップしています..."
 ${LangFileString} Info_Cleaning_SMPlayer "SMPlayer の設定をクリーンアップしています..."
