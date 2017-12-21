@@ -69,10 +69,6 @@
         <translation>SMPlayer er en grafisk grænseflade til %1 og %2.</translation>
     </message>
     <message>
-        <source>Subtitles service powered by %1</source>
-        <translation type="obsolete">Tjeneste til undertekster leveret af %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -753,7 +749,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>&amp;Skærmdisplay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1850"/>
@@ -993,12 +989,12 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Skærmbillede med undertekster</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Skærmbillede uden undertekster</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1104,7 +1100,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Næste niveau</translation>
+        <translation>Skærmdisplay - Næste niveau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
@@ -1169,17 +1165,17 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis filnavn på skærmdisplay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Vis &amp;info på OSD</translation>
+        <translation>Vis &amp;info på skærmdisplay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Show playback time on OSD</source>
-        <translation>Vis afspilningstid på OSD</translation>
+        <translation>Vis afspilningstid på skærmdisplay</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1959"/>
@@ -6087,7 +6083,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Dobbelt buffer undgår flimmer ved at gemme to billeder i hukommelsen og vise det ene mens det andet afkodes. Hvis deaktiveret kan det påvirke OSD negativt, men det fjerner ofte OSD-flimmer.</translation>
+        <translation>Dobbelt buffer undgår flimmer ved at gemme to billeder i hukommelsen og vise det ene mens det andet afkodes. Hvis deaktiveret kan det påvirke skærmdisplay negativt, men det fjerner ofte skærmdisplay-flimmer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
@@ -6167,7 +6163,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Sætter det maksimale forstærkningsniveau i procent (standard 110). En værdi på 200 vil lade dig justere lydstyrken op til et maksimum på det dobbelt af det nuværende niveau. Med værdier under 100 vil den indledende lydstyrke (som er 100%) være over maksimum, hvilket f.eks. OSD&apos;et ikke kan vise korrekt.</translation>
+        <translation>Sætter det maksimale forstærkningsniveau i procent (standard 110). En værdi på 200 vil lade dig justere lydstyrken op til et maksimum på det dobbelt af det nuværende niveau. Med værdier under 100 vil den indledende lydstyrke (som er 100%) være over maksimum, hvilket f.eks. skærmdisplayet ikke kan vise korrekt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1098"/>
@@ -6497,7 +6493,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1127"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Hvis indstillingen er slået til, aktiveres direkte rendering (ikke understøttet af alle codecs og video-output)&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; kan give fejl i OSD og undertekster!</translation>
+        <translation>Hvis indstillingen er slået til, aktiveres direkte rendering (ikke understøttet af alle codecs og video-output)&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; kan give fejl i skærmdisplay og undertekster!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
@@ -6950,7 +6946,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Næste niveau</translation>
+        <translation>Skærmdisplay - Næste niveau</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
