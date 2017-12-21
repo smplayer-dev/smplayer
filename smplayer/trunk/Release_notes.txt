@@ -1,7 +1,7 @@
 Version 17.2:
 
- * New two actions to take screenshots with or without subtitles (they only
-   work when using mpv). Assigned by default to Ctrl+Shift+ S and Ctrl+Alt+S.
+ * Two new actions to take screenshots with or without subtitles (they only
+   work when using mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
  * New action which displays the filename in the OSD for 2 seconds. Assigned
    by default to Shift+O.
  * New option osd_bar_pos for smplayer.ini. It specifies the position of
