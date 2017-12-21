@@ -4,12 +4,12 @@
 # 
 # Translators:
 # ever_green, 2016
-# nardog <hysknrs@hotmail.co.jp>, 2014-2016
+# nardog, 2014-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: ever_green\n"
+"PO-Revision-Date: 2017-11-03 22:20+0000\n"
+"Last-Translator: nardog\n"
 "Language-Team: Japanese (http://www.transifex.com/rvm/smplayer/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -357,7 +357,7 @@ msgstr "youtube-dl の更新を確認しています..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr "fontconfig キャッシュをクリーンアップしてます..."
+msgstr "fontconfig キャッシュをクリーンアップしています..."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
