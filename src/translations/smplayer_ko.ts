@@ -450,12 +450,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD 드라이브</translation>
+        <translation>DVD 드라이브(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1682"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD 폴더...</translation>
+        <translation>DVD 폴더(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1687"/>
@@ -684,12 +684,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
         <source>&amp;Delay -</source>
-        <translation>느리게 (delay -)</translation>
+        <translation>느리게(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>D&amp;elay +</source>
-        <translation>빠르게 (delay +)</translation>
+        <translation>빠르게(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2115"/>
@@ -704,12 +704,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1808"/>
         <source>Delay &amp;-</source>
-        <translation>느리게 (delay -)</translation>
+        <translation>느리게(&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
         <source>Delay &amp;+</source>
-        <translation>빠르게 (delay +)</translation>
+        <translation>빠르게(&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -749,7 +749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
         <source>&amp;OSD</source>
-        <translation>화면 정보 표시(&amp;OSD)</translation>
+        <translation>화면 정보 표시(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1850"/>
@@ -759,7 +759,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
         <source>About &amp;SMPlayer</source>
-        <translation>&amp;SMPlayer 정보</translation>
+        <translation>SMPlayer 정보(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3605"/>
@@ -878,7 +878,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>V&amp;CD</source>
-        <translation>비디오 &amp;CD</translation>
+        <translation>비디오 CD(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
@@ -888,17 +888,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1763"/>
         <source>Zoom &amp;-</source>
-        <translation>축소하기</translation>
+        <translation>축소하기(&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1764"/>
         <source>Zoom &amp;+</source>
-        <translation>확대하기</translation>
+        <translation>확대하기(&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;Reset</source>
-        <translation>초기화하기</translation>
+        <translation>초기화하기(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
@@ -908,7 +908,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
         <source>Move &amp;right</source>
-        <translation>오른쪽으로 이동</translation>
+        <translation>오른쪽으로 이동(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1771"/>
@@ -969,12 +969,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation>&amp;Blu-ray 드라이브</translation>
+        <translation>Blu-ray 드라이브(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>Blu-&amp;ray 폴더...</translation>
+        <translation>Blu-ray 폴더(&amp;R)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
@@ -1045,7 +1045,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation>기본</translation>
+        <translation>기본(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
@@ -1560,7 +1560,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
         <source>&amp;Audio CD</source>
-        <translation>오디오 &amp;CD</translation>
+        <translation>오디오 CD(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1931"/>
@@ -1590,7 +1590,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;FAQ</source>
-        <translation>자주 묻는 질문(&amp;FAQ)</translation>
+        <translation>자주 묻는 질문(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
@@ -1685,7 +1685,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>OpenSubtitles.org에 자막 업로드하기...</translation>
+        <translation>OpenSubtitles.org에 자막 업로드하기(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
@@ -1798,7 +1798,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2077"/>
         <source>While &amp;playing</source>
-        <translation>재생 중일때만</translation>
+        <translation>재생 중일때만(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2164"/>
@@ -1843,12 +1843,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>Set dela&amp;y...</source>
-        <translation>싱크 조절하기...</translation>
+        <translation>싱크 조절하기(&amp;Y)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
         <source>Se&amp;t delay...</source>
-        <translation>싱크 조절하기...</translation>
+        <translation>싱크 조절하기(&amp;T)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4632"/>
@@ -1903,7 +1903,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>자막 보이기</translation>
+        <translation>자막 보이기(&amp;V)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
@@ -1929,22 +1929,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Subtitles onl&amp;y</source>
-        <translation>자막만</translation>
+        <translation>자막만(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
         <source>Volume + &amp;Seek</source>
-        <translation>볼륨 + 탐색</translation>
+        <translation>볼륨 + 탐색(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1948"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>볼륨 + 탐색 + 타이머</translation>
+        <translation>볼륨 + 탐색 + 타이머(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1949"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>볼륨 + 탐색 + 타이머 + 전체 시간</translation>
+        <translation>볼륨 + 탐색 + 타이머 + 전체 시간(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
@@ -1989,7 +1989,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2126"/>
         <source>&amp;Closed captions</source>
-        <translation>클로즈드 캡션</translation>
+        <translation>클로즈드 캡션(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
@@ -2406,7 +2406,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="696"/>
         <source>&amp;Main toolbar</source>
-        <translation>기본 툴바(&amp;M)</translation>
+        <translation>메인 툴바(&amp;M)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="700"/>
@@ -2426,7 +2426,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="709"/>
         <source>F&amp;ormat info</source>
-        <translation>형식 정보</translation>
+        <translation>형식 정보(&amp;O)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="750"/>
@@ -2441,17 +2441,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="693"/>
         <source>Status&amp;bar</source>
-        <translation>상태바</translation>
+        <translation>상태바(&amp;B)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="707"/>
         <source>&amp;Video info</source>
-        <translation>동영상 정보</translation>
+        <translation>동영상 정보(&amp;V)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Frame counter</source>
-        <translation>프레임 카운터</translation>
+        <translation>프레임 카운터(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
@@ -2466,22 +2466,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>메인 툴바 편집하기</translation>
+        <translation>메인 툴바 편집하기(&amp;T)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
         <source>Edit &amp;control bar</source>
-        <translation>컨트롤 바 편집하기</translation>
+        <translation>조작바 편집하기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="716"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>미니 컨트롤 바 편집하기</translation>
+        <translation>미니 조작바 편집하기(&amp;I)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="717"/>
         <source>Edit &amp;floating control</source>
-        <translation>전체화면 컨트롤 바 편집하기</translation>
+        <translation>전체화면 조작바 편집하기(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="764"/>
@@ -2595,12 +2595,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation>삭제</translation>
+        <translation>삭제(&amp;E)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>Delete &amp;all</source>
-        <translation>모두 삭제</translation>
+        <translation>모두 삭제(&amp;A)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
@@ -2615,12 +2615,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation>새 항목</translation>
+        <translation>새 항목(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation>새 하위메뉴</translation>
+        <translation>새 하위메뉴(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -2640,27 +2640,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>편집...</translation>
+        <translation>편집(&amp;E)...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation>이동...</translation>
+        <translation>이동(&amp;J)...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation>다음</translation>
+        <translation>다음(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation>이전</translation>
+        <translation>이전(&amp;P)</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>현재 미디어 추가하기</translation>
+        <translation>현재 미디어 추가(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -4702,17 +4702,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="172"/>
         <source>Control bar</source>
-        <translation>컨트롤 바</translation>
+        <translation>조작바</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation>컨트롤 바 편집하기</translation>
+        <translation>조작바 편집하기</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
         <source>Edit &amp;floating control</source>
-        <translation>전체화면 컨트롤 바 편집하기</translation>
+        <translation>전체화면 조작바 편집하기</translation>
     </message>
 </context>
 <context>
@@ -4720,7 +4720,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Control bar</source>
-        <translation>컨트롤 바</translation>
+        <translation>조작바</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="151"/>
@@ -5364,7 +5364,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation>%1 충돌 알리기(&amp;E)</translation>
+        <translation>%1 충돌 알리기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -6047,7 +6047,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation>S/PDIF 및 HDMI로 AC3/DTS 패스쓰루(&amp;A)</translation>
+        <translation>S/PDIF 및 HDMI로 AC3/DTS 패스쓰루</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6238,7 +6238,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation>자막용 검은색 여백을 기본적으로 추가하기(&amp;K)</translation>
+        <translation>자막용 검은색 여백을 기본적으로 추가하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -7328,7 +7328,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>창이 화면 밖으로 나가지 않도록 방지하기(&amp;P)</translation>
+        <translation>창이 화면 밖으로 나가지 않도록 방지하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7373,12 +7373,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>일단 정지 버튼을 누르면 재생시간 위치를 초기화하기</translation>
+        <translation>정지 버튼을 한 번 누르면 재생시간 위치를 초기화하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>전체화면에서 마우스를 움직일 때 컨트롤 바가 나타납니다.</translation>
+        <translation>전체화면에서 마우스를 움직일 때 조작바가 나타납니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
@@ -7418,7 +7418,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation>High DPI 화면 지원하기(&amp;E)</translation>
+        <translation>High DPI 화면 지원하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7428,7 +7428,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation>자동(&amp;U)</translation>
+        <translation>자동</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7488,7 +7488,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>기본 GUI는 툴바와 컨트롤 바의 전통적인 인터페이스를 제공합니다.</translation>
+        <translation>기본 GUI는 툴바와 조작바의 전통적인 인터페이스를 제공합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
@@ -7665,7 +7665,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="819"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation>일단 정지 버튼을 누르면 재생시간 위치를 초기화하기</translation>
+        <translation>정지 버튼을 한 번 누르면 재생시간 위치를 초기화하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
@@ -7675,12 +7675,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>이 옵션 사용시, 컨트롤 바는 마우스를 화면 하단으로 이동할 때만 나타납니다. 이 옵션 미사용시는 마우스의 위치에 상관 없이 마우스를 움직이면 컨트롤 바가 나타날 것입니다.</translation>
+        <translation>이 옵션 사용시, 조작바는 마우스를 화면 하단으로 이동할 때만 나타납니다. 이 옵션 미사용시는 마우스의 위치에 상관 없이 마우스를 움직이면 조작바가 나타납니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>이 옵션을 사용하면, 간편 모드에서도 전체화면 컨트롤 바가 나타나게 할 수 있습니다.</translation>
+        <translation>이 옵션을 사용하면, 간편 모드에서도 전체화면 조작바가 나타나게 할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="858"/>
@@ -7690,7 +7690,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;경고:&lt;/b&gt; 전체화면 컨트롤 바는 간편 모드용으로 디자인한 것이 아니라서 잘 동작하지 않을 수 있습니다.</translation>
+        <translation>&lt;b&gt;경고:&lt;/b&gt; 전체화면 조작바는 간편 모드용으로 디자인한 것이 아니라서 잘 동작하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
@@ -7771,7 +7771,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Floating control</source>
-        <translation>전체화면 컨트롤 바</translation>
+        <translation>전체화면 조작바</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="837"/>
@@ -7781,7 +7781,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="838"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>이 옵션은 전체화면 컨트롤 바가 나타날 때 애니메이션을 사용합니다.</translation>
+        <translation>이 옵션은 전체화면 조작바가 나타날 때 애니메이션을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="841"/>
@@ -7801,7 +7801,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>이 옵션은 전체화면의 컨트롤 바가 화면 하단에서 얼마큼 떨어져 있을지를 픽셀단위로 지정합니다. 출력화면이 TV인 경우, 오버스캔 때문에 하단의 컨트롤이 보이지 않을 경우에 유용합니다.</translation>
+        <translation>이 옵션은 전체화면의 조작바가 화면 하단에서 얼마큼 떨어져 있을지를 픽셀단위로 지정합니다. 출력화면이 TV인 경우, 오버스캔 때문에 하단의 컨트롤이 보이지 않을 경우에 유용합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
@@ -7811,12 +7811,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
         <source>&amp;Floating control</source>
-        <translation>전체화면 컨트롤 바</translation>
+        <translation>전체화면 조작바</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
         <source>&amp;Animated</source>
-        <translation>전체화면 컨트롤 바 애니메이션하기</translation>
+        <translation>전체화면 조작바 애니메이션하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="690"/>
@@ -7951,22 +7951,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="312"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation>SRT 자막을 VTT로 변환하기(&amp;V)</translation>
+        <translation>SRT 자막을 VTT로 변환하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation>기존의 VTT 파일에 덮어쓰기(&amp;O)</translation>
+        <translation>기존의 VTT 파일에 덮어쓰기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation>광고 제거 시도하기(&amp;R)</translation>
+        <translation>광고 제거 시도하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="360"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation>화면상의 자막 위치(&amp;S):</translation>
+        <translation>화면상의 자막 위치:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="415"/>
@@ -8878,7 +8878,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
         <source>P&amp;lay files from start</source>
-        <translation>처음부터 파일 재생하기(&amp;L)</translation>
+        <translation>처음부터 파일 재생하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
@@ -8903,7 +8903,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation>파일 추가하기</translation>
+        <translation>파일 추가</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
@@ -8913,12 +8913,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>하위 폴더의 파일 추가하기(&amp;R)</translation>
+        <translation>하위 폴더의 파일 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation>추가한 파일의 정보를 자동으로 가져오기 (느림) (&amp;I)</translation>
+        <translation>추가한 파일의 정보를 자동으로 가져오기 (느림)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -9987,7 +9987,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>&amp;Toolbars</source>
-        <translation>도구막대(&amp;T)</translation>
+        <translation>툴바(&amp;T)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -9997,7 +9997,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>&amp;Main toolbar</source>
-        <translation>주 도구 막대(&amp;M)</translation>
+        <translation>메인 툴바(&amp;M)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
@@ -10007,7 +10007,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation>전체화면 컨트롤 바 편집하기</translation>
+        <translation>전체화면 조작바 편집하기</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>

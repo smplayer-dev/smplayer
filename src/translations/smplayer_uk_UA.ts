@@ -989,12 +989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Скріншот із субтитрами</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Скріншот без субтитрів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1165,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати ім&apos;я файлу на екранному меню</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
