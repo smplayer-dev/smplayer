@@ -1580,7 +1580,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>Add &amp;black borders</source>
-        <translation>Добавить &amp;чёрные полосы</translation>
+        <translation>Добавлять &amp;чёрные полосы</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1782"/>
@@ -5924,7 +5924,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Add black borders for subtitles by default</source>
-        <translation>Добавить чёрные полосы для субтитров по умолчанию</translation>
+        <translation>Добавлять чёрные полосы для субтитров по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1121"/>
@@ -6434,7 +6434,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Добавить чёрные полосы в полноэкранном режиме</translation>
+        <translation>Добавлять чёрные полосы в полноэкранном режиме</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
@@ -6444,7 +6444,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>Добавить &amp;чёрные полосы в полноэкранном режиме</translation>
+        <translation>Добавлять &amp;чёрные полосы в полноэкранном режиме</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="183"/>

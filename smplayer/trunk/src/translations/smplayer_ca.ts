@@ -4034,7 +4034,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="338"/>
         <source>Ukrainian</source>
-        <translation>Ucranià</translation>
+        <translation>Ucraïnès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
@@ -7925,7 +7925,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="206"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation>Els canvis en aquesta secció s&apos;aplicaran la propera vegada que es reiniciï el servidor web</translation>
+        <translation>Els canvis en aquesta secció s&apos;aplicaran la pròxima vegada que es reiniciï el servidor web</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="226"/>

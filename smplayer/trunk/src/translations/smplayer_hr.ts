@@ -989,12 +989,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Snimka zaslona s podnaslovima</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Snimka zaslona bez podnaslova</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1165,7 +1165,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži naziv datoteke na OSD-u</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
