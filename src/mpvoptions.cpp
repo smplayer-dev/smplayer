@@ -756,8 +756,10 @@ void MPVProcess::frameBackStep() {
 }
 
 void MPVProcess::showOSDText(const QString & text, int duration, int level) {
-	QString str = QString("show_text \"%1\" %2 %3").arg(text).arg(duration).arg(level);
-	writeToStdin(str);
+	if (use_osd_in_commands) {
+		QString str = QString("show_text \"%1\" %2 %3").arg(text).arg(duration).arg(level);
+		writeToStdin(str);
+	}
 }
 
 void MPVProcess::showFilenameOnOSD() {

@@ -184,7 +184,7 @@ void Preferences::reset() {
 	osd = Seek;
 	osd_scale = 1;
 	subfont_osd_scale = 3;
-	osd_delay = 2200;
+	osd_delay = 5000;
 #ifdef MPV_SUPPORT
 	osd_fractions = false;
 #endif

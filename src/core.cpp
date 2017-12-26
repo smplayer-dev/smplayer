@@ -1140,6 +1140,8 @@ void Core::newMediaPlaying() {
 void Core::finishRestart() {
 	qDebug("Core::finishRestart: --- start ---");
 
+	proc->enableOSDInCommands(false);
+
 	if (!we_are_restarting) {
 		newMediaPlaying();
 		//QTimer::singleShot(1000, this, SIGNAL(mediaStartPlay())); 
@@ -1287,6 +1289,8 @@ void Core::finishRestart() {
 	emit mediaDataReceived(mdat);
 
 	updateWidgets(); // New
+
+	proc->enableOSDInCommands(true);
 
 	qDebug("Core::finishRestart: --- end ---");
 }
@@ -4672,6 +4676,7 @@ void Core::initAudioTrack(const Tracks & audios) {
 	qDebug("Core::initAudioTrack");
 	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
 
+	bool is_osd_enabled = proc->isOSDInCommandsEnabled();
 	proc->enableOSDInCommands(false);
 
 	bool restore_audio = ((mdat.audios.numItems() > 0) || 
@@ -4711,7 +4716,8 @@ void Core::initAudioTrack(const Tracks & audios) {
 		// Nothing to do, the audio is already set with -aid
 	}
 
-	proc->enableOSDInCommands(true);
+	proc->enableOSDInCommands(is_osd_enabled);
+
 	updateWidgets();
 
 	emit audioTracksChanged();
