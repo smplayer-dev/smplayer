@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -400,7 +398,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1954"/>
         <source>&amp;Play</source>
-        <translation>&amp;Воспроизвести</translation>
+        <translation>&amp;Воспроизведение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1955"/>
@@ -410,7 +408,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1956"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Звук</translation>
+        <translation>&amp;Аудио</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
@@ -669,7 +667,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1788"/>
         <source>&amp;Mute</source>
-        <translation>Выключит&amp;ь звук</translation>
+        <translation>&amp;Приглушить звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1789"/>
@@ -781,7 +779,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4240"/>
         <location filename="../basegui.cpp" line="4485"/>
         <source>Audio</source>
-        <translation>Звук</translation>
+        <translation>Аудио</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4241"/>
@@ -1555,7 +1553,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1800"/>
         <source>Volume &amp;normalization</source>
-        <translation>&amp;Нормализация звука</translation>
+        <translation>&amp;Нормализация громкости</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
@@ -2396,7 +2394,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="703"/>
         <source>Audio</source>
-        <translation>Звук</translation>
+        <translation>Аудио</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="704"/>
@@ -2993,11 +2991,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр извлечён</numerusform>
-            <numerusform>%n субтитра извлечёны</numerusform>
-            <numerusform>%n субтитров извлечено</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр извлечён</numerusform><numerusform>%n субтитра извлечёны</numerusform><numerusform>%n субтитров извлечено</numerusform><numerusform>%n субтитров извлечено</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3095,7 +3089,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Не удалось сохранить загруженный
@@ -4642,7 +4636,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="195"/>
         <source>Audio:</source>
-        <translation>Звук:</translation>
+        <translation>Аудио:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="197"/>
@@ -5989,7 +5983,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1162"/>
         <source>&amp;Audio:</source>
-        <translation>&amp;Звук:</translation>
+        <translation>&amp;Аудио:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
@@ -6249,7 +6243,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="678"/>
         <source>A&amp;udio</source>
-        <translation>&amp;Звук</translation>
+        <translation>&amp;Аудио</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="863"/>
@@ -6264,7 +6258,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Audio</source>
-        <translation>Звук</translation>
+        <translation>Аудио</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1239"/>
@@ -6539,7 +6533,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1216"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Эта опция также применяется для приглушением (mute) звука.</translation>
+        <translation>Эта опция также применяется для приглушения звука.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="872"/>
@@ -6584,7 +6578,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1232"/>
         <source>Audio/video auto synchronization</source>
-        <translation>Автосинхронизация звука/видео</translation>
+        <translation>Автосинхронизация аудио/видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1233"/>
@@ -7494,7 +7488,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;Мини интерфейс&lt;/b&gt; предоставляет более простой интерфейс без панели инструментов, но с контрольной панелью с несколькими кнопками.</translation>
+        <translation>&lt;b&gt;Мини-интерфейс&lt;/b&gt; предоставляет более простой интерфейс без панели инструментов, но с контрольной панелью с несколькими кнопками.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
@@ -7757,7 +7751,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="236"/>
         <source>Mini GUI</source>
-        <translation>Мини интерфейс</translation>
+        <translation>Мини-интерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
@@ -9717,7 +9711,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>Открывает мини GUI вместо стандартного.</translation>
+        <translation>открывает мини-интерфейс вместо стандартного.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
@@ -9764,21 +9758,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунды</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минуты</numerusform>
-            <numerusform>%n минут</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минуты</numerusform><numerusform>%n минут</numerusform><numerusform>%n минут</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
