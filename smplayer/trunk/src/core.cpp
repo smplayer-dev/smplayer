@@ -69,6 +69,8 @@
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
+//#define SIMPLE_TRACK_SELECTION
+
 using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
@@ -1963,6 +1965,14 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 	}
+
+	#ifdef SIMPLE_TRACK_SELECTION
+	/*
+	if (mset.current_sub_id != MediaSettings::NoneSelected) {
+		if (proc->isMPV()) proc->setOption("sid", QString::number(mset.current_sub_id));
+	}
+	*/
+	#endif
 #endif
 
 #if PROGRAM_SWITCH
@@ -4672,6 +4682,19 @@ void Core::initVideoTrack(const Tracks & videos) {
 #endif
 
 #if NOTIFY_AUDIO_CHANGES
+#ifdef SIMPLE_TRACK_SELECTION
+void Core::initAudioTrack(const Tracks & audios) {
+	mdat.audios = audios;
+
+	qDebug() << "Core::initAudioTrack: num_items:" << mdat.audios.numItems();
+	qDebug("Core::initAudioTrack: list of audios:");
+	mdat.audios.list();
+
+	initializeMenus();
+	updateWidgets();
+}
+#else
+
 void Core::initAudioTrack(const Tracks & audios) {
 	qDebug("Core::initAudioTrack");
 	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
@@ -4722,9 +4745,23 @@ void Core::initAudioTrack(const Tracks & audios) {
 
 	emit audioTracksChanged();
 }
+#endif // SIMPLE_TRACK_SELECTION
 #endif
 
 #if NOTIFY_SUB_CHANGES
+#ifdef SIMPLE_TRACK_SELECTION
+void Core::initSubtitleTrack(const SubTracks & subs) {
+	mdat.subs = subs;
+
+	qDebug() << "Core::initSubtitleTrack: num_items:" << mdat.subs.numItems();
+	qDebug("Core::initSubtitleTrack: list of subtitles:");
+	mdat.subs.list();
+
+	initializeMenus();
+	updateWidgets();
+}
+#else
+
 void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack");
 	qDebug("Core::initSubtitleTrack: num_items: %d", mdat.subs.numItems());
@@ -4834,6 +4871,7 @@ end:
 	proc->enableOSDInCommands(true);
 	updateWidgets();
 }
+#endif // SIMPLE_TRACK_SELECTION
 
 void Core::setSubtitleTrackAgain(const SubTracks &) {
 	qDebug("Core::setSubtitleTrackAgain");
