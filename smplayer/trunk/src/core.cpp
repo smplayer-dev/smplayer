@@ -1967,11 +1967,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	#ifdef SIMPLE_TRACK_SELECTION
-	/*
-	if (mset.current_sub_id != MediaSettings::NoneSelected) {
-		if (proc->isMPV()) proc->setOption("sid", QString::number(mset.current_sub_id));
+	if (proc->isMPV()) {
+		int real_id = getSubRealID(mset.current_sub_id);
+		if (real_id != -1) proc->setOption("sid", QString::number(real_id));
 	}
-	*/
 	#endif
 #endif
 
@@ -3788,17 +3787,33 @@ void Core::changeDeinterlace(int ID) {
 }
 
 
+int Core::getSubRealID(int ID) {
+	if (ID == MediaSettings::SubNone || ID == MediaSettings::NoneSelected) {
+		ID = -1;
+	}
+	if (ID == -1) return ID;
+
+	int real_id = -1;
+
+	bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+
+	if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
+		real_id = mdat.subs.itemAt(ID).ID();
+	}
+
+	return real_id;
+}
 
 void Core::changeSubtitle(int ID) {
 	qDebug("Core::changeSubtitle: ID: %d", ID);
 
 	mset.current_sub_id = ID;
-	if (ID==MediaSettings::SubNone) {
-		ID=-1;
+	if (ID == MediaSettings::SubNone) {
+		ID = -1;
 	}
 
-	if (ID==MediaSettings::NoneSelected) {
-		ID=-1;
+	if (ID == MediaSettings::NoneSelected) {
+		ID = -1;
 		qDebug("Core::changeSubtitle: subtitle is NoneSelected, this shouldn't happen. ID set to -1.");
 	}
 
