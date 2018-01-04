@@ -1967,9 +1967,9 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	#ifdef SIMPLE_TRACK_SELECTION
-	if (proc->isMPV()) {
+	if (proc->isMPV() && mset.current_sub_id != MediaSettings::NoneSelected) {
 		int real_id = getSubRealID(mset.current_sub_id);
-		if (real_id != -1) proc->setOption("sid", QString::number(real_id));
+		proc->setOption("sid", QString::number(real_id));
 	}
 	#endif
 #endif
