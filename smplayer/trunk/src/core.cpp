@@ -69,7 +69,7 @@
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
-#define SIMPLE_TRACK_SELECTION
+//#define SIMPLE_TRACK_SELECTION
 
 using namespace Global;
 
@@ -1967,9 +1967,17 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	#ifdef SIMPLE_TRACK_SELECTION
-	if (proc->isMPV() && mset.current_sub_id != MediaSettings::NoneSelected) {
-		int real_id = getSubRealID(mset.current_sub_id);
-		proc->setOption("sid", QString::number(real_id));
+	if (proc->isMPV()) {
+		// Not working: no info about tracks
+		if (mset.current_sub_id != MediaSettings::NoneSelected) {
+			int real_id = getSubRealID(mset.current_sub_id);
+			proc->setOption("sid", QString::number(real_id));
+		}
+
+		if (mset.current_secondary_sub_id != MediaSettings::NoneSelected) {
+			int real_id = getSubRealID(mset.current_secondary_sub_id);
+			proc->setOption("secondary-sid", QString::number(real_id));
+		}
 	}
 	#endif
 #endif
