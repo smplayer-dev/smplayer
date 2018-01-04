@@ -255,6 +255,8 @@ public slots:
 	void incSubPos();
 	void decSubPos();
 
+	int getSubRealID(int ID);
+
 	void changeSubScale(double value);
 	void incSubScale();
 	void decSubScale();
