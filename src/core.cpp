@@ -69,7 +69,7 @@
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
-//#define SIMPLE_TRACK_SELECTION
+#define SIMPLE_TRACK_SELECTION
 
 using namespace Global;
 
@@ -4771,6 +4771,12 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug() << "Core::initSubtitleTrack: num_items:" << mdat.subs.numItems();
 	qDebug("Core::initSubtitleTrack: list of subtitles:");
 	mdat.subs.list();
+
+	if (proc->isMPlayer()) {
+		bool restore_subs = ((mdat.subs.numItems() > 0) ||
+                             (mset.current_sub_id != MediaSettings::NoneSelected));
+		if (restore_subs) changeSubtitle(mset.current_sub_id);
+	}
 
 	initializeMenus();
 	updateWidgets();
