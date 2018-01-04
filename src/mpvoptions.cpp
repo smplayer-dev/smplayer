@@ -518,7 +518,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		if (!value.isNull()) arg << "--af-add=" + value.toString();
 	}
 	else
-	if (option_name == "aid" || option_name == "sid" || option_name == "vid") {
+	if (option_name == "aid" || option_name == "sid" || option_name == "secondary-sid" || option_name == "vid") {
 		int v = value.toInt();
 		arg << QString("--%1=%2").arg(option_name).arg(v > -1 ? value.toString() : "no");
 	}
