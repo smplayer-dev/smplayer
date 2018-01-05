@@ -21,7 +21,7 @@
 
 /* Here we store some volatile info about the file we need to remember */
 
-#define MD_USE_TRACKS
+//#define MD_USE_TRACKS
 
 #include "tracks.h"
 #include "subtracks.h"

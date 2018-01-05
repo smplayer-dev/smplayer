@@ -1196,7 +1196,7 @@ void Core::finishRestart() {
 
 		// Use the subtitle info from mplayerprocess
 		qDebug( "Core::finishRestart: copying sub data from proc to mdat");
-	    mset.subs = proc->mediaData().subs;
+		mset.subs = proc->mediaData().tsubs;
 		initializeMenus();
 		int item = MediaSettings::SubNone;
 

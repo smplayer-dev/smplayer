@@ -459,10 +459,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#if NOTIFY_SUB_CHANGES
 			updateSubtitleTrack(ID, title, lang);
 			#else
-			if (md.subs.find(SubData::Sub, ID) == -1) {
-				md.subs.add(SubData::Sub, ID);
-				md.subs.changeName(SubData::Sub, ID, title);
-				md.subs.changeLang(SubData::Sub, ID, lang);
+			if (md.tsubs.find(SubData::Sub, ID) == -1) {
+				md.tsubs.add(SubData::Sub, ID);
+				md.tsubs.changeName(SubData::Sub, ID, title);
+				md.tsubs.changeLang(SubData::Sub, ID, lang);
 			}
 			#endif
 		}

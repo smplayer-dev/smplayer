@@ -144,6 +144,7 @@ QString InfoFile::getInfo(MediaData md) {
 	s += addItem( tr("Selected codec"), md.audio_codec );
 	s += closePar();
 
+#ifdef MD_USE_TRACKS
 	// Audio Tracks
 	if (md.taudios.numItems() > 0) {
 		s += openPar( tr("Audio Streams") );
@@ -188,6 +189,7 @@ QString InfoFile::getInfo(MediaData md) {
 		}
 		s += closePar();
 	}
+#endif
 
 	QString page = "<html><head><style type=\"text/css\">" + style() + "</style></head><body>"+ s + "</body></html>";
 	//qDebug() << "InfoFile::getInfo:" << page;
