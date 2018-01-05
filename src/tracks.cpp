@@ -18,6 +18,7 @@
 
 #include "tracks.h"
 #include <QRegExp>
+#include <QSettings>
 
 Tracks::Tracks() { 
 	clear();
@@ -79,7 +80,7 @@ int Tracks::findLang(QString expr) {
 		if (rx.indexIn( itemAt(n).lang() ) > -1) {
 			qDebug("Tracks::findLang: found preferred lang!");
 			res_id = itemAt(n).ID();
-			break;	
+			break;
 		}
 	}
 
@@ -96,3 +97,29 @@ void Tracks::list() {
 	}
 }
 
+void Tracks::save(QSettings * set, const QString & name) {
+	set->beginWriteArray(name);
+	for (int n = 0; n < numItems(); n++) {
+		set->setArrayIndex(n);
+		TrackData d = itemAt(n);
+		set->setValue("id", d.ID());
+		set->setValue("lang", d.lang());
+		set->setValue("name", d.name());
+	}
+	set->endArray();
+}
+
+void Tracks::load(QSettings * set, const QString & name) {
+	clear();
+	int items = set->beginReadArray(name);
+	for (int n = 0; n < items; n++) {
+		set->setArrayIndex(n);
+		int ID = set->value("id", -1).toInt();
+		if (ID != -1) {
+			addID(ID);
+			addLang(ID, set->value("lang", "").toString());
+			addName(ID, set->value("name", "").toString());
+		}
+	}
+	set->endArray();
+}

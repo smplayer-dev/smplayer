@@ -22,6 +22,8 @@
 #include <QString>
 #include <QMap>
 
+class QSettings;
+
 /* Class to store info about video/audio tracks */
 
 class TrackData {
@@ -92,6 +94,9 @@ public:
 	int find(int ID);
 
 	int findLang(QString expr);
+
+	void save(QSettings * set, const QString & name);
+	void load(QSettings * set, const QString & name);
 
 protected:
 	typedef QMap <int, TrackData> TrackMap;

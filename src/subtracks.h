@@ -24,8 +24,9 @@
 #include <QFileInfo>
 #include <QList>
 
-class SubData 
-{
+class QSettings;
+
+class SubData {
 
 public:
 	enum Type { None = -1, Vob = 0, Sub = 1, File = 2 };
@@ -111,6 +112,9 @@ public:
 	void list();
 	void listNames();
 	/* void test(); */
+
+	void save(QSettings * set, const QString & name);
+	void load(QSettings * set, const QString & name);
 
 protected:
 	SubList subs;
