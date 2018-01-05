@@ -93,6 +93,8 @@ public:
 	TrackData item(int ID);
 	int find(int ID);
 
+	int IDAt(int n);
+
 	int findLang(QString expr);
 
 	void save(QSettings * set, const QString & name);

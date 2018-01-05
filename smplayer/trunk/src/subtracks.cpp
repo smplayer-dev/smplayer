@@ -65,6 +65,14 @@ bool SubTracks::existsItemAt(int n) {
 	return ((n > 0) && (n < numItems()));
 }
 
+int SubTracks::IDAt(int n) {
+	if (existsItemAt(n)) {
+		return itemAt(n).ID();
+	} else {
+		return -1;
+	}
+}
+
 int SubTracks::findLang(QString expr) {
 	qDebug( "SubTracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
@@ -77,7 +85,7 @@ int SubTracks::findLang(QString expr) {
 		if (rx.indexIn( subs[n].lang() ) > -1) {
 			qDebug("SubTracks::findLang: found preferred lang!");
 			res_id = n;
-			break;	
+			break;
 		}
 	}
 
