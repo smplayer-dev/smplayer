@@ -439,15 +439,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 #if !NOTIFY_SUB_CHANGES
 		// Subtitles
 		if (rx_subtitle.indexIn(line) > -1) {
-			md.subs.parse(line);
+			md.tsubs.parse(line);
 		}
 		else
 		if (rx_sid.indexIn(line) > -1) {
-			md.subs.parse(line);
+			md.tsubs.parse(line);
 		}
 		else
 		if (rx_subtitle_file.indexIn(line) > -1) {
-			md.subs.parse(line);
+			md.tsubs.parse(line);
 		}
 #endif
 		// AO
@@ -483,6 +483,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		else
 #endif
 
+#if !NOTIFY_VIDEO_CHANGES
 		// Video tracks
 		if (rx_video.indexIn(line) > -1) {
 			int ID = rx_video.cap(1).toInt();
@@ -497,6 +498,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.tvideos.addLang(ID, lang);
 		}
 		else
+#endif
 
 		// Matroshka chapters
 		if (rx_mkvchapters.indexIn(line)!=-1) {
@@ -743,6 +745,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			else
 #endif
 
+#if !NOTIFY_VIDEO_CHANGES
 			// Video
 			if (tag == "ID_VIDEO_ID") {
 				int ID = value.toInt();
@@ -750,6 +753,8 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.tvideos.addID( ID );
 			}
 			else
+#endif
+
 			if (tag == "ID_LENGTH") {
 				md.duration = value.toDouble();
 				qDebug("MplayerProcess::parseLine: md.duration set to %f", md.duration);
