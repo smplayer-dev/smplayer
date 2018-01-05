@@ -449,6 +449,11 @@ void MediaSettings::save(QSettings * set, int player_id) {
 #endif
 
 	set->setValue( "is264andHD", is264andHD );
+
+	// Save tracks
+	videos.save(set, "videotracks");
+	audios.save(set, "audiotracks");
+	subs.save(set, "subtitletracks");
 }
 
 void MediaSettings::load(QSettings * set, int player_id) {
@@ -588,5 +593,19 @@ void MediaSettings::load(QSettings * set, int player_id) {
 
 	// ChDefault not used anymore
 	//if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;
+
+	// Load tracks
+	videos.load(set, "videotracks");
+	audios.load(set, "audiotracks");
+	subs.load(set, "subtitletracks");
+
+	qDebug("MediaSettings::load: list of video tracks:");
+	videos.list();
+
+	qDebug("MediaSettings::load: list of audio tracks:");
+	audios.list();
+
+	qDebug("MediaSettings::load: list of subtitle tracks:");
+	subs.list();
 }
 

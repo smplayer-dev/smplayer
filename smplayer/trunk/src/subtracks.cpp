@@ -20,6 +20,7 @@
 #include "subtracks.h"
 #include "mediasettings.h"
 #include <QRegExp>
+#include <QSettings>
 
 SubTracks::SubTracks() {
 	index = 0;
@@ -222,6 +223,37 @@ SubTracks::ParseResult SubTracks::parse(QString text) {
 	}
 
 	return result;
+}
+
+void SubTracks::save(QSettings * set, const QString & name) {
+	set->beginWriteArray(name);
+	for (int n = 0; n < numItems(); n++) {
+		set->setArrayIndex(n);
+		SubData d = itemAt(n);
+		set->setValue("id", d.ID());
+		set->setValue("lang", d.lang());
+		set->setValue("name", d.name());
+		set->setValue("type", d.type());
+		set->setValue("filename", d.filename());
+	}
+	set->endArray();
+}
+
+void SubTracks::load(QSettings * set, const QString & name) {
+	clear();
+	int items = set->beginReadArray(name);
+	for (int n = 0; n < items; n++) {
+		set->setArrayIndex(n);
+		int ID = set->value("id", -1).toInt();
+		SubData::Type type = (SubData::Type) set->value("type", SubData::None).toInt();
+		if (ID != -1) {
+			add(type, ID);
+			changeLang(type, ID, set->value("lang", "").toString());
+			changeName(type, ID, set->value("name", "").toString());
+			changeFilename(type, ID, set->value("filename", "").toString());
+		}
+	}
+	set->endArray();
 }
 
 /*
