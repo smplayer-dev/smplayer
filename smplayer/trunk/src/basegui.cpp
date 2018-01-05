@@ -1522,7 +1522,7 @@ void BaseGui::enableActionsOnPlaying() {
 	audioEqualizerAct->setEnabled(pref->use_audio_equalizer);
 
 	// Disable audio actions if there's not audio track
-	if ((core->mdat.audios.numItems()==0) && (core->mset.external_audio.isEmpty())) {
+	if ((core->mset.audios.numItems()==0) && (core->mset.external_audio.isEmpty())) {
 		audioEqualizerAct->setEnabled(false);
 		muteAct->setEnabled(false);
 		decVolumeAct->setEnabled(false);
@@ -3568,10 +3568,10 @@ void BaseGui::initializeMenus() {
 	QAction * subNoneAct = subtitleTrackGroup->addAction( tr("&None") );
 	subNoneAct->setData(MediaSettings::SubNone);
 	subNoneAct->setCheckable(true);
-	for (n=0; n < core->mdat.subs.numItems(); n++) {
+	for (n=0; n < core->mset.subs.numItems(); n++) {
 		QAction *a = new QAction(subtitleTrackGroup);
 		a->setCheckable(true);
-		a->setText(core->mdat.subs.itemAt(n).displayName());
+		a->setText(core->mset.subs.itemAt(n).displayName());
 		a->setData(n);
 	}
 	subtitles_track_menu->addActions( subtitleTrackGroup->actions() );
@@ -3582,10 +3582,10 @@ void BaseGui::initializeMenus() {
 	QAction * subSecNoneAct = secondarySubtitleTrackGroup->addAction( tr("&None") );
 	subSecNoneAct->setData(MediaSettings::SubNone);
 	subSecNoneAct->setCheckable(true);
-	for (n=0; n < core->mdat.subs.numItems(); n++) {
+	for (n=0; n < core->mset.subs.numItems(); n++) {
 		QAction *a = new QAction(secondarySubtitleTrackGroup);
 		a->setCheckable(true);
-		a->setText(core->mdat.subs.itemAt(n).displayName());
+		a->setText(core->mset.subs.itemAt(n).displayName());
 		a->setData(n);
 	}
 	secondary_subtitles_track_menu->addActions( secondarySubtitleTrackGroup->actions() );
@@ -3601,15 +3601,15 @@ void BaseGui::initializeMenus() {
 		a->setChecked(true);
 	}
 	else
-	if (core->mdat.audios.numItems()==0) {
+	if (core->mset.audios.numItems()==0) {
 		QAction * a = audioTrackGroup->addAction( tr("<empty>") );
 		a->setEnabled(false);
 	} else {
-		for (n=0; n < core->mdat.audios.numItems(); n++) {
+		for (n=0; n < core->mset.audios.numItems(); n++) {
 			QAction *a = new QAction(audioTrackGroup);
 			a->setCheckable(true);
-			a->setText(core->mdat.audios.itemAt(n).displayName());
-			a->setData(core->mdat.audios.itemAt(n).ID());
+			a->setText(core->mset.audios.itemAt(n).displayName());
+			a->setData(core->mset.audios.itemAt(n).ID());
 		}
 	}
 	audiotrack_menu->addActions( audioTrackGroup->actions() );
@@ -3633,15 +3633,15 @@ void BaseGui::initializeMenus() {
 
 	// Video
 	videoTrackGroup->clear(true);
-	if (core->mdat.videos.numItems()==0) {
+	if (core->mset.videos.numItems()==0) {
 		QAction * a = videoTrackGroup->addAction( tr("<empty>") );
 		a->setEnabled(false);
 	} else {
-		for (n=0; n < core->mdat.videos.numItems(); n++) {
+		for (n=0; n < core->mset.videos.numItems(); n++) {
 			QAction *a = new QAction(videoTrackGroup);
 			a->setCheckable(true);
-			a->setText(core->mdat.videos.itemAt(n).displayName());
-			a->setData(core->mdat.videos.itemAt(n).ID());
+			a->setText(core->mset.videos.itemAt(n).displayName());
+			a->setData(core->mset.videos.itemAt(n).ID());
 		}
 	}
 	videotrack_menu->addActions( videoTrackGroup->actions() );

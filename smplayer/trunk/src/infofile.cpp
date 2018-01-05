@@ -145,45 +145,45 @@ QString InfoFile::getInfo(MediaData md) {
 	s += closePar();
 
 	// Audio Tracks
-	if (md.audios.numItems() > 0) {
+	if (md.taudios.numItems() > 0) {
 		s += openPar( tr("Audio Streams") );
 		s += addTrackColumns( QStringList() << "#" << tr("Language") << tr("Name") << "ID" );
 
-		for (int n = 0; n < md.audios.numItems(); n++) {
+		for (int n = 0; n < md.taudios.numItems(); n++) {
 			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
 			#endif
 			s += openItem();
-			QString lang = md.audios.itemAt(n).lang();
+			QString lang = md.taudios.itemAt(n).lang();
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			QString name = md.audios.itemAt(n).name();
+			QString name = md.taudios.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			s += addTrack(n, lang, name, md.audios.itemAt(n).ID());
+			s += addTrack(n, lang, name, md.taudios.itemAt(n).ID());
 			s += closeItem();
 		}
 		s += closePar();
 	}
 
 	// Subtitles
-	if (md.subs.numItems() > 0) {
+	if (md.tsubs.numItems() > 0) {
 		s += openPar( tr("Subtitles") );
 		s += addTrackColumns( QStringList() << "#" << tr("Type") << tr("Language") << tr("Name") << "ID" );
-		for (int n = 0; n < md.subs.numItems(); n++) {
+		for (int n = 0; n < md.tsubs.numItems(); n++) {
 			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
 			#endif
 			s += openItem();
 			QString t;
-			switch (md.subs.itemAt(n).type()) {
+			switch (md.tsubs.itemAt(n).type()) {
 				case SubData::File: t = "FILE_SUB"; break;
 				case SubData::Vob:	t = "VOB"; break;
 				default:			t = "SUB";
 			}
-			QString lang = md.subs.itemAt(n).lang();
+			QString lang = md.tsubs.itemAt(n).lang();
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			QString name = md.subs.itemAt(n).name();
+			QString name = md.tsubs.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			s += addTrack(n, lang, name, md.subs.itemAt(n).ID(), t);
+			s += addTrack(n, lang, name, md.tsubs.itemAt(n).ID(), t);
 			s += closeItem();
 		}
 		s += closePar();

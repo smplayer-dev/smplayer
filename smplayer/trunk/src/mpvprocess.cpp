@@ -432,10 +432,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#if NOTIFY_AUDIO_CHANGES
 			updateAudioTrack(ID, title, lang);
 			#else
-			if (md.audios.find(ID) == -1) {
-				md.audios.addID(ID);
-				md.audios.addName(ID, title);
-				md.audios.addLang(ID, lang);
+			if (md.taudios.find(ID) == -1) {
+				md.taudios.addID(ID);
+				md.taudios.addName(ID, title);
+				md.taudios.addLang(ID, lang);
 			}
 			#endif
 		}
@@ -488,7 +488,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			QString title = rx_video.cap(4);
 			qDebug("MPVProcess::parseLine: video id: %d, name: '%s'", ID, title.toUtf8().constData());
 			//md.videos.addID(ID);
-			md.videos.addName(ID, title);
+			md.tvideos.addName(ID, title);
 		}
 		else
 #endif
