@@ -22,6 +22,8 @@
 #define INFO_SIMPLE_LAYOUT
 
 #include "mediadata.h"
+#include "tracks.h"
+#include "subtracks.h"
 #include <QString>
 
 class InfoFile : public QObject
@@ -32,7 +34,7 @@ public:
 	InfoFile(QObject * parent = 0);
 	~InfoFile();
 
-	QString getInfo(MediaData md);
+	QString getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks subs);
 
 protected:
 	QString title(QString text, QString icon);

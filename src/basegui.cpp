@@ -3355,7 +3355,7 @@ void BaseGui::setDataToFileProperties() {
 	file_dialog->setMplayerAdditionalVideoFilters( core->mset.mplayer_additional_video_filters );
 	file_dialog->setMplayerAdditionalAudioFilters( core->mset.mplayer_additional_audio_filters );
 
-	file_dialog->setMediaData( core->mdat );
+	file_dialog->setMediaData( core->mdat, core->mset.videos, core->mset.audios, core->mset.subs);
 }
 
 void BaseGui::applyFileProperties() {
