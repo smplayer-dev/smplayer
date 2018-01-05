@@ -34,7 +34,7 @@ public:
     FilePropertiesDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
     ~FilePropertiesDialog();
 
-	void setMediaData(MediaData md);
+	void setMediaData(MediaData md, Tracks videos, Tracks audios, SubTracks subs);
 
 #if ALLOW_DEMUXER_CODEC_CHANGE
 	// Call it as soon as possible
@@ -91,6 +91,9 @@ private:
 	QString orig_demuxer, orig_ac, orig_vc;
 #endif
 	MediaData media_data;
+	Tracks video_tracks;
+	Tracks audio_tracks;
+	SubTracks sub_tracks;
 
 	QPushButton * okButton;
 	QPushButton * cancelButton;

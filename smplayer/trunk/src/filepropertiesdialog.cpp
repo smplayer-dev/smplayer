@@ -65,14 +65,17 @@ FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
 FilePropertiesDialog::~FilePropertiesDialog() {
 }
 
-void FilePropertiesDialog::setMediaData(MediaData md) {
+void FilePropertiesDialog::setMediaData(MediaData md, Tracks videos, Tracks audios, SubTracks subs) {
 	media_data = md;
+	video_tracks = videos;
+	audio_tracks = audios;
+	sub_tracks = subs;
 	showInfo();
 }
 
 void FilePropertiesDialog::showInfo() {
 	InfoFile info;
-	info_edit->setText( info.getInfo(media_data) );
+	info_edit->setText( info.getInfo(media_data, video_tracks, audio_tracks, sub_tracks) );
 }
 
 void FilePropertiesDialog::retranslateStrings() {

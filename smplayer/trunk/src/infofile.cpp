@@ -37,7 +37,7 @@ InfoFile::InfoFile(QObject * parent)
 InfoFile::~InfoFile() {
 }
 
-QString InfoFile::getInfo(MediaData md) {
+QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks subs) {
 	QString s;
 
 	// General
@@ -144,52 +144,50 @@ QString InfoFile::getInfo(MediaData md) {
 	s += addItem( tr("Selected codec"), md.audio_codec );
 	s += closePar();
 
-#ifdef MD_USE_TRACKS
 	// Audio Tracks
-	if (md.taudios.numItems() > 0) {
+	if (audios.numItems() > 0) {
 		s += openPar( tr("Audio Streams") );
 		s += addTrackColumns( QStringList() << "#" << tr("Language") << tr("Name") << "ID" );
 
-		for (int n = 0; n < md.taudios.numItems(); n++) {
+		for (int n = 0; n < audios.numItems(); n++) {
 			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
 			#endif
 			s += openItem();
-			QString lang = md.taudios.itemAt(n).lang();
+			QString lang = audios.itemAt(n).lang();
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			QString name = md.taudios.itemAt(n).name();
+			QString name = audios.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			s += addTrack(n, lang, name, md.taudios.itemAt(n).ID());
+			s += addTrack(n, lang, name, audios.itemAt(n).ID());
 			s += closeItem();
 		}
 		s += closePar();
 	}
 
 	// Subtitles
-	if (md.tsubs.numItems() > 0) {
+	if (subs.numItems() > 0) {
 		s += openPar( tr("Subtitles") );
 		s += addTrackColumns( QStringList() << "#" << tr("Type") << tr("Language") << tr("Name") << "ID" );
-		for (int n = 0; n < md.tsubs.numItems(); n++) {
+		for (int n = 0; n < subs.numItems(); n++) {
 			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
 			#endif
 			s += openItem();
 			QString t;
-			switch (md.tsubs.itemAt(n).type()) {
+			switch (subs.itemAt(n).type()) {
 				case SubData::File: t = "FILE_SUB"; break;
 				case SubData::Vob:	t = "VOB"; break;
 				default:			t = "SUB";
 			}
-			QString lang = md.tsubs.itemAt(n).lang();
+			QString lang = subs.itemAt(n).lang();
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			QString name = md.tsubs.itemAt(n).name();
+			QString name = subs.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
-			s += addTrack(n, lang, name, md.tsubs.itemAt(n).ID(), t);
+			s += addTrack(n, lang, name, subs.itemAt(n).ID(), t);
 			s += closeItem();
 		}
 		s += closePar();
 	}
-#endif
 
 	QString page = "<html><head><style type=\"text/css\">" + style() + "</style></head><body>"+ s + "</body></html>";
 	//qDebug() << "InfoFile::getInfo:" << page;
