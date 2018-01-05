@@ -54,6 +54,14 @@ bool Tracks::existsItemAt(int n) {
 	return ((n > 0) && (n < numItems()));
 }
 
+int Tracks::IDAt(int n) {
+	if (existsItemAt(n)) {
+		return itemAt(n).ID();
+	} else {
+		return -1;
+	}
+}
+
 TrackData Tracks::itemAt(int n) {
 	return tm.values()[n];
 }

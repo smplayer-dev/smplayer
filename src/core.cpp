@@ -1970,12 +1970,12 @@ void Core::startMplayer( QString file, double seek ) {
 	if (proc->isMPV()) {
 		// Not working: no info about tracks
 		if (mset.current_sub_id != MediaSettings::NoneSelected) {
-			int real_id = getSubRealID(mset.current_sub_id);
+			int real_id = mset.subs.IDAt(mset.current_sub_id);
 			proc->setOption("sid", QString::number(real_id));
 		}
 
 		if (mset.current_secondary_sub_id != MediaSettings::NoneSelected) {
-			int real_id = getSubRealID(mset.current_secondary_sub_id);
+			int real_id = mset.subs.IDAt(mset.current_secondary_sub_id);
 			proc->setOption("secondary-sid", QString::number(real_id));
 		}
 	}
@@ -3794,23 +3794,6 @@ void Core::changeDeinterlace(int ID) {
 	}
 }
 
-
-int Core::getSubRealID(int ID) {
-	if (ID == MediaSettings::SubNone || ID == MediaSettings::NoneSelected) {
-		ID = -1;
-	}
-	if (ID == -1) return ID;
-
-	int real_id = -1;
-
-	bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
-
-	if ( (mset.subs.numItems() > 0) && (valid_item) ) {
-		real_id = mset.subs.itemAt(ID).ID();
-	}
-
-	return real_id;
-}
 
 void Core::changeSubtitle(int ID) {
 	qDebug("Core::changeSubtitle: ID: %d", ID);

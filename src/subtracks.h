@@ -103,6 +103,8 @@ public:
 	SubData itemAt(int n);
 	SubData findItem( SubData::Type t, int ID );
 
+	int IDAt(int n);
+
 	int findLang(QString expr);
 	int selectOne(QString preferred_lang, int default_sub=0);
 
