@@ -466,9 +466,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
                     ID, lang.toUtf8().data(), t.toUtf8().data());
 
 			if ( t == "NAME" ) 
-				md.audios.addName(ID, lang);
+				md.taudios.addName(ID, lang);
 			else
-				md.audios.addLang(ID, lang);
+				md.taudios.addLang(ID, lang);
 		}
 		else
 #endif
@@ -492,9 +492,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
                     ID, lang.toUtf8().data(), t.toUtf8().data());
 
 			if ( t == "NAME" ) 
-				md.videos.addName(ID, lang);
+				md.tvideos.addName(ID, lang);
 			else
-				md.videos.addLang(ID, lang);
+				md.tvideos.addLang(ID, lang);
 		}
 		else
 
@@ -738,7 +738,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_AUDIO_ID") {
 				int ID = value.toInt();
 				qDebug("MplayerProcess::parseLine: ID_AUDIO_ID: %d", ID);
-				md.audios.addID( ID );
+				md.taudios.addID( ID );
 			}
 			else
 #endif
@@ -747,7 +747,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_VIDEO_ID") {
 				int ID = value.toInt();
 				qDebug("MplayerProcess::parseLine: ID_VIDEO_ID: %d", ID);
-				md.videos.addID( ID );
+				md.tvideos.addID( ID );
 			}
 			else
 			if (tag == "ID_LENGTH") {

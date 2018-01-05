@@ -147,6 +147,10 @@ void MediaSettings::reset() {
 
 	win_width=400;
 	win_height=300;
+
+	videos.clear();
+	audios.clear();
+	subs.clear();
 }
 
 double MediaSettings::win_aspect() {
@@ -299,6 +303,15 @@ void MediaSettings::list() {
 #endif
 
 	qDebug("  is264andHD: %d", is264andHD);
+
+	qDebug("  Videos:");
+	videos.list();
+
+	qDebug("  Audios:");
+	audios.list();
+
+	qDebug("  Subtitles:");
+	subs.list();
 }
 
 void MediaSettings::save(QSettings * set, int player_id) {

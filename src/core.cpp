@@ -1071,28 +1071,28 @@ void Core::newMediaPlaying() {
 	// Video
 	#if 0
 	if ( (mset.current_video_id == MediaSettings::NoneSelected) && 
-         (mdat.videos.numItems() > 0) ) 
+         (mset.videos.numItems() > 0) ) 
 	{
-		changeVideo( mdat.videos.itemAt(0).ID(), false ); // Don't allow to restart
+		changeVideo( mset.videos.itemAt(0).ID(), false ); // Don't allow to restart
 	}
 	#endif
 
 #if !DELAYED_AUDIO_SETUP_ON_STARTUP && !NOTIFY_AUDIO_CHANGES
 	// First audio if none selected
 	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
-         (mdat.audios.numItems() > 0) ) 
+         (mset.audios.numItems() > 0) ) 
 	{
 		// Don't set mset.current_audio_id here! changeAudio will do. 
 		// Otherwise changeAudio will do nothing.
 
-		int audio = mdat.audios.itemAt(0).ID(); // First one
-		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
-			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
+		int audio = mset.audios.itemAt(0).ID(); // First one
+		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mset.audios.itemAt(pref->initial_audio_track-1).ID();
 		}
 
 		// Check if one of the audio tracks is the user preferred.
 		if (!pref->audio_lang.isEmpty()) {
-			int res = mdat.audios.findLang( pref->audio_lang );
+			int res = mset.audios.findLang( pref->audio_lang );
 			if (res != -1) audio = res;
 		}
 
@@ -1109,7 +1109,7 @@ void Core::newMediaPlaying() {
 		if (pref->autoload_sub) {
 			//Select first subtitle if none selected
 			if (mset.current_sub_id == MediaSettings::NoneSelected) {
-				int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
+				int sub = mset.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
 				changeSubtitle( sub );
 			}
 		} else {
@@ -1190,20 +1190,20 @@ void Core::finishRestart() {
 		int old_item = -1;
 		if ( mset.current_sub_id != MediaSettings::SubNone ) {
 			old_item = mset.current_sub_id;
-			type = mdat.subs.itemAt(old_item).type();
-			ID = mdat.subs.itemAt(old_item).ID();
+			type = mset.subs.itemAt(old_item).type();
+			ID = mset.subs.itemAt(old_item).ID();
 		}
 
 		// Use the subtitle info from mplayerprocess
 		qDebug( "Core::finishRestart: copying sub data from proc to mdat");
-	    mdat.subs = proc->mediaData().subs;
+	    mset.subs = proc->mediaData().subs;
 		initializeMenus();
 		int item = MediaSettings::SubNone;
 
 		// Try to recover old subtitle
 		if (just_unloaded_external_subs) {
 			if (old_item > -1) {
-				int new_item = mdat.subs.find(type, ID);
+				int new_item = mset.subs.find(type, ID);
 				if (new_item > -1) item = new_item;
 			}
 		}
@@ -1215,7 +1215,7 @@ void Core::finishRestart() {
 			if ( (pref->autoload_sub) && (item == MediaSettings::SubNone) ) {
 				qDebug("Core::finishRestart: cannot find previous subtitle");
 				qDebug("Core::finishRestart: selecting a new one");
-				item = mdat.subs.selectOne( pref->subtitle_lang );
+				item = mset.subs.selectOne( pref->subtitle_lang );
 			}
 		}
 		changeSubtitle( item );
@@ -1960,7 +1960,7 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mset.external_audio.isEmpty()) {
 		if (mset.current_audio_id != MediaSettings::NoneSelected) {
 			// Workaround for MPlayer bug #1321 (http://bugzilla.mplayerhq.hu/show_bug.cgi?id=1321)
-			if (mdat.audios.numItems() != 1) {
+			if (mset.audios.numItems() != 1) {
 				proc->setOption("aid", QString::number(mset.current_audio_id));
 			}
 		}
@@ -3803,10 +3803,10 @@ int Core::getSubRealID(int ID) {
 
 	int real_id = -1;
 
-	bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+	bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
 
-	if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
-		real_id = mdat.subs.itemAt(ID).ID();
+	if ( (mset.subs.numItems() > 0) && (valid_item) ) {
+		real_id = mset.subs.itemAt(ID).ID();
 	}
 
 	return real_id;
@@ -3831,11 +3831,11 @@ void Core::changeSubtitle(int ID) {
 	if (ID == -1) {
 		proc->disableSubtitles();
 	} else {
-		bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+		bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
 		if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
-		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
-			real_id = mdat.subs.itemAt(ID).ID();
-			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id);
+		if ( (mset.subs.numItems() > 0) && (valid_item) ) {
+			real_id = mset.subs.itemAt(ID).ID();
+			proc->setSubtitle(mset.subs.itemAt(ID).type(), real_id);
 		} else {
 			qWarning("Core::changeSubtitle: subtitle list is empty!");
 		}
@@ -3848,13 +3848,13 @@ void Core::nextSubtitle() {
 	qDebug("Core::nextSubtitle");
 
 	if ( (mset.current_sub_id == MediaSettings::SubNone) && 
-         (mdat.subs.numItems() > 0) ) 
+         (mset.subs.numItems() > 0) ) 
 	{
 		changeSubtitle(0);
 	} 
 	else {
 		int item = mset.current_sub_id + 1;
-		if (item >= mdat.subs.numItems()) {
+		if (item >= mset.subs.numItems()) {
 			item = MediaSettings::SubNone;
 		}
 		changeSubtitle( item );
@@ -3878,10 +3878,10 @@ void Core::changeSecondarySubtitle(int ID) {
 		proc->disableSecondarySubtitles();
 	} else {
 		int real_id = -1;
-		bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+		bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
 		if (!valid_item) qWarning("Core::changeSecondarySubtitle: ID: %d is not valid!", ID);
-		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
-			real_id = mdat.subs.itemAt(ID).ID();
+		if ( (mset.subs.numItems() > 0) && (valid_item) ) {
+			real_id = mset.subs.itemAt(ID).ID();
 			proc->setSecondarySubtitle(real_id);
 		}
 	}
@@ -3936,14 +3936,14 @@ void Core::changeAudio(int ID, bool allow_restart) {
 void Core::nextAudio() {
 	qDebug("Core::nextAudio");
 
-	int item = mdat.audios.find( mset.current_audio_id );
+	int item = mset.audios.find( mset.current_audio_id );
 	if (item == -1) {
 		qWarning("Core::nextAudio: audio ID %d not found!", mset.current_audio_id);
 	} else {
-		qDebug( "Core::nextAudio: numItems: %d, item: %d", mdat.audios.numItems(), item);
+		qDebug( "Core::nextAudio: numItems: %d, item: %d", mset.audios.numItems(), item);
 		item++;
-		if (item >= mdat.audios.numItems()) item=0;
-		int ID = mdat.audios.itemAt(item).ID();
+		if (item >= mset.audios.numItems()) item=0;
+		int ID = mset.audios.itemAt(item).ID();
 		qDebug( "Core::nextAudio: item: %d, ID: %d", item, ID);
 		changeAudio( ID );
 	}
@@ -3978,14 +3978,14 @@ void Core::changeVideo(int ID, bool allow_restart) {
 void Core::nextVideo() {
 	qDebug("Core::nextVideo");
 
-	int item = mdat.videos.find( mset.current_video_id );
+	int item = mset.videos.find( mset.current_video_id );
 	if (item == -1) {
 		qWarning("Core::nextVideo: video ID %d not found!", mset.current_video_id);
 	} else {
-		qDebug( "Core::nextVideo: numItems: %d, item: %d", mdat.videos.numItems(), item);
+		qDebug( "Core::nextVideo: numItems: %d, item: %d", mset.videos.numItems(), item);
 		item++;
-		if (item >= mdat.videos.numItems()) item=0;
-		int ID = mdat.videos.itemAt(item).ID();
+		if (item >= mset.videos.numItems()) item=0;
+		int ID = mset.videos.itemAt(item).ID();
 		qDebug( "Core::nextVideo: item: %d, ID: %d", item, ID);
 		changeVideo( ID );
 	}
@@ -4674,19 +4674,19 @@ void Core::initAudioTrack() {
 
 	// First audio if none selected
 	if ( (mset.current_audio_id == MediaSettings::NoneSelected) && 
-         (mdat.audios.numItems() > 0) ) 
+         (mset.audios.numItems() > 0) ) 
 	{
 		// Don't set mset.current_audio_id here! changeAudio will do. 
 		// Otherwise changeAudio will do nothing.
 
-		int audio = mdat.audios.itemAt(0).ID(); // First one
-		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
-			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
+		int audio = mset.audios.itemAt(0).ID(); // First one
+		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mset.audios.itemAt(pref->initial_audio_track-1).ID();
 		}
 
 		// Check if one of the audio tracks is the user preferred.
 		if (!pref->audio_lang.isEmpty()) {
-			int res = mdat.audios.findLang( pref->audio_lang );
+			int res = mset.audios.findLang( pref->audio_lang );
 			if (res != -1) audio = res;
 		}
 
@@ -4698,7 +4698,7 @@ void Core::initAudioTrack() {
 #if NOTIFY_VIDEO_CHANGES
 void Core::initVideoTrack(const Tracks & videos) {
 	qDebug("Core::initVideoTrack");
-	mdat.videos = videos;
+	mset.videos = videos;
 	initializeMenus();
 	updateWidgets();
 }
@@ -4707,11 +4707,11 @@ void Core::initVideoTrack(const Tracks & videos) {
 #if NOTIFY_AUDIO_CHANGES
 #ifdef SIMPLE_TRACK_SELECTION
 void Core::initAudioTrack(const Tracks & audios) {
-	mdat.audios = audios;
+	mset.audios = audios;
 
-	qDebug() << "Core::initAudioTrack: num_items:" << mdat.audios.numItems();
+	qDebug() << "Core::initAudioTrack: num_items:" << mset.audios.numItems();
 	qDebug("Core::initAudioTrack: list of audios:");
-	mdat.audios.list();
+	mset.audios.list();
 
 	initializeMenus();
 	updateWidgets();
@@ -4720,18 +4720,18 @@ void Core::initAudioTrack(const Tracks & audios) {
 
 void Core::initAudioTrack(const Tracks & audios) {
 	qDebug("Core::initAudioTrack");
-	qDebug("Core::initAudioTrack: num_items: %d", mdat.audios.numItems());
+	qDebug("Core::initAudioTrack: num_items: %d", mset.audios.numItems());
 
 	bool is_osd_enabled = proc->isOSDInCommandsEnabled();
 	proc->enableOSDInCommands(false);
 
-	bool restore_audio = ((mdat.audios.numItems() > 0) || 
+	bool restore_audio = ((mset.audios.numItems() > 0) || 
                           (mset.current_audio_id != MediaSettings::NoneSelected));
 
-	mdat.audios = audios;
+	mset.audios = audios;
 
 	qDebug("Core::initAudioTrack: list of audios:");
-	mdat.audios.list();
+	mset.audios.list();
 
 	initializeMenus();
 
@@ -4741,14 +4741,14 @@ void Core::initAudioTrack(const Tracks & audios) {
 
 		bool change_audio = (mdat.type != TYPE_STREAM); // Don't change audio with streams unless strictly necessary
 
-		int audio = mdat.audios.itemAt(0).ID(); // First one
-		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
-			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
+		int audio = mset.audios.itemAt(0).ID(); // First one
+		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
+			audio = mset.audios.itemAt(pref->initial_audio_track-1).ID();
 		}
 
 		// Check if one of the audio tracks is the user preferred.
 		if (!pref->audio_lang.isEmpty()) {
-			int res = mdat.audios.findLang( pref->audio_lang );
+			int res = mset.audios.findLang( pref->audio_lang );
 			if (res != -1) {
 				audio = res;
 				change_audio = true;
@@ -4774,14 +4774,14 @@ void Core::initAudioTrack(const Tracks & audios) {
 #if NOTIFY_SUB_CHANGES
 #ifdef SIMPLE_TRACK_SELECTION
 void Core::initSubtitleTrack(const SubTracks & subs) {
-	mdat.subs = subs;
+	mset.subs = subs;
 
-	qDebug() << "Core::initSubtitleTrack: num_items:" << mdat.subs.numItems();
+	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems();
 	qDebug("Core::initSubtitleTrack: list of subtitles:");
-	mdat.subs.list();
+	mset.subs.list();
 
 	if (proc->isMPlayer()) {
-		bool restore_subs = ((mdat.subs.numItems() > 0) ||
+		bool restore_subs = ((mset.subs.numItems() > 0) ||
                              (mset.current_sub_id != MediaSettings::NoneSelected));
 		if (restore_subs) changeSubtitle(mset.current_sub_id);
 	}
@@ -4793,30 +4793,30 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 
 void Core::initSubtitleTrack(const SubTracks & subs) {
 	qDebug("Core::initSubtitleTrack");
-	qDebug("Core::initSubtitleTrack: num_items: %d", mdat.subs.numItems());
+	qDebug("Core::initSubtitleTrack: num_items: %d", mset.subs.numItems());
 
 	proc->enableOSDInCommands(false);
 
-	bool restore_subs = ((mdat.subs.numItems() > 0) || 
+	bool restore_subs = ((mset.subs.numItems() > 0) || 
                          (mset.current_sub_id != MediaSettings::NoneSelected));
 
 	// Save current sub
 	SubData::Type previous_sub_type = SubData::Sub;
 	int previous_sub_id = -1;
-	if (mdat.subs.numItems() > 0) {
+	if (mset.subs.numItems() > 0) {
 		if ((mset.current_sub_id != MediaSettings::SubNone) && 
 	        (mset.current_sub_id != MediaSettings::NoneSelected)) 
 		{
-			previous_sub_type = mdat.subs.itemAt(mset.current_sub_id).type();
-			previous_sub_id = mdat.subs.itemAt(mset.current_sub_id).ID();
+			previous_sub_type = mset.subs.itemAt(mset.current_sub_id).type();
+			previous_sub_id = mset.subs.itemAt(mset.current_sub_id).ID();
 		}
 	}
 	qDebug("Core::initSubtitleTrack: previous subtitle: type: %d id: %d", previous_sub_type, previous_sub_id);
 
-	mdat.subs = subs;
+	mset.subs = subs;
 
 	qDebug("Core::initSubtitleTrack: list of subtitles:");
-	mdat.subs.list();
+	mset.subs.list();
 
 	initializeMenus();
 
@@ -4837,12 +4837,12 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		if (!is_idx) {
 			// The loaded subtitle file is the last one, so
 			// try to select that one.
-			if (mdat.subs.numItems() > 0) {
-				int selected_subtitle = mdat.subs.numItems()-1; // If everything fails, use the last one
+			if (mset.subs.numItems() > 0) {
+				int selected_subtitle = mset.subs.numItems()-1; // If everything fails, use the last one
 
 				// Try to find the subtitle file in the list
-				for (int n = 0; n < mdat.subs.numItems(); n++) {
-					SubData sub = mdat.subs.itemAt(n);
+				for (int n = 0; n < mset.subs.numItems(); n++) {
+					SubData sub = mset.subs.itemAt(n);
 					if ((sub.type() == SubData::File) && (sub.filename() == mset.external_subtitles)) {
 						selected_subtitle = n;
 						qDebug("Core::initSubtitleTrack: external subtitle found: #%d", n);
@@ -4863,7 +4863,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 			changeSubtitle(MediaSettings::SubNone);
 		} else {
 			//Select first subtitle
-			int sub = mdat.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
+			int sub = mset.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
 			changeSubtitle(sub);
 		}
 	} else {
@@ -4878,7 +4878,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 			// Try to find old subtitle
 			int item = mset.current_sub_id;
 			if (previous_sub_id != -1) {
-				int sub_item = mdat.subs.find(previous_sub_type, previous_sub_id);
+				int sub_item = mset.subs.find(previous_sub_type, previous_sub_id);
 				if (sub_item > -1) {
 					item = sub_item;
 					qDebug("Core::initSubtitleTrack: previous subtitle found: %d", sub_item);

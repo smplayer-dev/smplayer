@@ -27,6 +27,8 @@
 #include <QSize>
 #include "config.h"
 #include "audioequalizerlist.h"
+#include "tracks.h"
+#include "subtracks.h"
 
 //#define MSET_USE_STARTING_TIME
 
@@ -172,6 +174,10 @@ public:
 	QString mplayer_additional_options;
 	QString mplayer_additional_video_filters;
 	QString mplayer_additional_audio_filters;
+
+	Tracks videos;
+	Tracks audios;
+	SubTracks subs;
 
 	// Some things that were before in mediadata
 	// They can vary, because of filters, so better here

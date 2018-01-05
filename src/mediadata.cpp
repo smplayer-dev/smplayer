@@ -45,12 +45,14 @@ void MediaData::reset() {
 #if PROGRAM_SWITCH
 	programs.clear();
 #endif
-	videos.clear();
-	audios.clear();
+
+#ifdef MD_USE_TRACKS
+	tvideos.clear();
+	taudios.clear();
+	tsubs.clear();
+#endif
+
 	titles.clear();
-
-	subs.clear();
-
 	chapters.clear();
 
 	n_chapters = 0;
@@ -119,18 +121,21 @@ void MediaData::list() {
 
 	qDebug("  chapters: %d", n_chapters);
 
-	qDebug("  Subs:");
-	subs.list();
-
 #if PROGRAM_SWITCH
 	qDebug("  Programs:");
 	programs.list();
 #endif
+
+#ifdef MD_USE_TRACKS
 	qDebug("  Videos:");
-	videos.list();
+	tvideos.list();
 
 	qDebug("  Audios:");
-	audios.list();
+	taudios.list();
+
+	qDebug("  Subs:");
+	tsubs.list();
+#endif
 
 	qDebug("  Titles:");
 	titles.list();

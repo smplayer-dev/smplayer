@@ -21,6 +21,8 @@
 
 /* Here we store some volatile info about the file we need to remember */
 
+#define MD_USE_TRACKS
+
 #include "tracks.h"
 #include "subtracks.h"
 #include "titletracks.h"
@@ -75,12 +77,14 @@ public:
 #if PROGRAM_SWITCH
 	Tracks programs;
 #endif
-	Tracks videos;
-	Tracks audios;
+
+#ifdef MD_USE_TRACKS
+	Tracks tvideos;
+	Tracks taudios;
+	SubTracks tsubs;
+#endif
+
 	TitleTracks titles; // for DVDs
-
-	SubTracks subs;
-
 	Chapters chapters;
 
 	int n_chapters;
