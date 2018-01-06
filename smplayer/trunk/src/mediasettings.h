@@ -61,9 +61,10 @@ public:
 	virtual void reset();
 
 	double current_sec;
-	int current_sub_id;
+
+	int current_subtitle_track;
 #ifdef MPV_SUPPORT
-	int current_secondary_sub_id;
+	int current_secondary_subtitle_track;
 #endif
 
 #if PROGRAM_SWITCH
