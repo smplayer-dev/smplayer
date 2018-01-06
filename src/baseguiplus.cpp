@@ -1142,8 +1142,8 @@ void BaseGuiPlus::playOnChromecast() {
 	else
 	if (core->mdat.type == TYPE_FILE) {
 		QString subtitle;
-		if (MediaSettings::SubNone != core->mset.current_sub_id && MediaSettings::NoneSelected != core->mset.current_sub_id) {
-			SubData sub = core->mset.subs.itemAt(core->mset.current_sub_id);
+		if (MediaSettings::SubNone != core->mset.current_subtitle_track && MediaSettings::NoneSelected != core->mset.current_subtitle_track) {
+			SubData sub = core->mset.subs.itemAt(core->mset.current_subtitle_track);
 			qDebug() << "BaseGuiPlus::playOnChromecast: current sub name:" << sub.name() << "filename:" << sub.filename();
 			if (!sub.filename().isEmpty()) subtitle = sub.filename(); else subtitle = sub.name();
 		}

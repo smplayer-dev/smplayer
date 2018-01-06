@@ -3380,7 +3380,7 @@ void BaseGui::applyFileProperties() {
 		// Demuxer changed
 		demuxer_changed = true;
 		core->mset.current_audio_id = MediaSettings::NoneSelected;
-		core->mset.current_sub_id = MediaSettings::NoneSelected;
+		core->mset.current_subtitle_track = MediaSettings::NoneSelected;
 	}
 
 	QString ac = file_dialog->audioCodec();
@@ -3806,11 +3806,11 @@ void BaseGui::updateWidgets() {
 	qDebug("BaseGui::updateWidgets");
 
 	// Subtitles menu
-	subtitleTrackGroup->setChecked( core->mset.current_sub_id );
+	subtitleTrackGroup->setChecked( core->mset.current_subtitle_track );
 
 #ifdef MPV_SUPPORT
 	// Secondary subtitles menu
-	secondarySubtitleTrackGroup->setChecked( core->mset.current_secondary_sub_id );
+	secondarySubtitleTrackGroup->setChecked( core->mset.current_secondary_subtitle_track );
 #endif
 
 	// Disable the unload subs action if there's no external subtitles
@@ -3981,8 +3981,8 @@ void BaseGui::updateWidgets() {
 	subVisibilityAct->setChecked(pref->sub_visibility);
 
 	// Enable or disable subtitle options
-	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
-              (core->mset.current_sub_id != MediaSettings::NoneSelected));
+	bool e = ((core->mset.current_subtitle_track != MediaSettings::SubNone) &&
+              (core->mset.current_subtitle_track != MediaSettings::NoneSelected));
 
 	if (core->mset.closed_caption_channel !=0 ) e = true; // Enable if using closed captions
 

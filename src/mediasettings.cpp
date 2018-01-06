@@ -34,10 +34,11 @@ void MediaSettings::reset() {
 	qDebug("MediaSettings::reset");
 
 	current_sec = 0;
-	//current_sub_id = SubNone; 
-	current_sub_id = NoneSelected;
+
+	//current_subtitle_track = SubNone;
+	current_subtitle_track = NoneSelected;
 #ifdef MPV_SUPPORT
-	current_secondary_sub_id = NoneSelected;
+	current_secondary_subtitle_track = NoneSelected;
 #endif
 #if PROGRAM_SWITCH
 	current_program_id = NoneSelected;
@@ -206,9 +207,9 @@ void MediaSettings::list() {
 	qDebug("MediaSettings::list");
 
 	qDebug("  current_sec: %f", current_sec);
-	qDebug("  current_sub_id: %d", current_sub_id);
+	qDebug("  current_subtitle_track: %d", current_subtitle_track);
 #ifdef MPV_SUPPORT
-	qDebug("  current_secondary_sub_id: %d", current_secondary_sub_id);
+	qDebug("  current_secondary_subtitle_track: %d", current_secondary_subtitle_track);
 #endif
 #if PROGRAM_SWITCH
 	qDebug("  current_program_id: %d", current_program_id);
@@ -338,9 +339,9 @@ void MediaSettings::save(QSettings * set, int player_id) {
 #endif
 
 	set->beginGroup(demuxer_section);
-	set->setValue( "current_sub_id", current_sub_id );
+	set->setValue( "current_subtitle_track", current_subtitle_track );
 	#ifdef MPV_SUPPORT
-	set->setValue( "current_secondary_sub_id", current_secondary_sub_id );
+	set->setValue( "current_secondary_subtitle_track", current_secondary_subtitle_track );
 	#endif
 	#if PROGRAM_SWITCH
 	set->setValue( "current_program_id", current_program_id );
@@ -482,9 +483,9 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	qDebug("MediaSettings::load: demuxer_section: %s", demuxer_section.toUtf8().constData());
 
 	set->beginGroup(demuxer_section);
-	current_sub_id = set->value( "current_sub_id", NoneSelected ).toInt();
+	current_subtitle_track = set->value( "current_subtitle_track", NoneSelected ).toInt();
 	#ifdef MPV_SUPPORT
-	current_secondary_sub_id = set->value( "current_secondary_sub_id", NoneSelected ).toInt();
+	current_secondary_subtitle_track = set->value( "current_secondary_subtitle_track", NoneSelected ).toInt();
 	#endif
 	#if PROGRAM_SWITCH
 	current_program_id = set->value( "current_program_id", NoneSelected ).toInt();
