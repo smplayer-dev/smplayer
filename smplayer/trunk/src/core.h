@@ -294,10 +294,10 @@ public slots:
 	void setAudioEq9(int value);
 
 	void changeDeinterlace(int);
-	void changeSubtitle(int ID);
+	void changeSubtitle(int track);
 	void nextSubtitle();
 #ifdef MPV_SUPPORT
-	void changeSecondarySubtitle(int ID);
+	void changeSecondarySubtitle(int track);
 #endif
 	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
