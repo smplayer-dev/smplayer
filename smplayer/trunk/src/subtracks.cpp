@@ -62,7 +62,7 @@ int SubTracks::numItems() {
 }
 
 bool SubTracks::existsItemAt(int n) {
-	return ((n > 0) && (n < numItems()));
+	return ((n >= 0) && (n < numItems()));
 }
 
 int SubTracks::IDAt(int n) {

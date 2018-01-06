@@ -51,7 +51,7 @@ int Tracks::numItems() {
 }
 
 bool Tracks::existsItemAt(int n) {
-	return ((n > 0) && (n < numItems()));
+	return ((n >= 0) && (n < numItems()));
 }
 
 int Tracks::IDAt(int n) {
