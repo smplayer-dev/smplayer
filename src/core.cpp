@@ -69,7 +69,7 @@
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
-#define SIMPLE_TRACK_SELECTION
+//#define SIMPLE_TRACK_SELECTION
 
 using namespace Global;
 
@@ -3795,30 +3795,30 @@ void Core::changeDeinterlace(int ID) {
 }
 
 
-void Core::changeSubtitle(int ID) {
-	qDebug("Core::changeSubtitle: ID: %d", ID);
+void Core::changeSubtitle(int track) {
+	qDebug("Core::changeSubtitle: track: %d", track);
 
-	mset.current_subtitle_track = ID;
-	if (ID == MediaSettings::SubNone) {
-		ID = -1;
+	mset.current_subtitle_track = track;
+	if (track == MediaSettings::SubNone) {
+		track = -1;
 	}
 
-	if (ID == MediaSettings::NoneSelected) {
-		ID = -1;
-		qDebug("Core::changeSubtitle: subtitle is NoneSelected, this shouldn't happen. ID set to -1.");
+	if (track == MediaSettings::NoneSelected) {
+		track = -1;
+		qDebug("Core::changeSubtitle: subtitle is NoneSelected, this shouldn't happen. Track set to -1.");
 	}
 
-	qDebug("Core::changeSubtitle: ID: %d", ID);
+	qDebug("Core::changeSubtitle: track: %d", track);
 
-	int real_id = -1;
-	if (ID == -1) {
+	int ID = -1;
+	if (track == -1) {
 		proc->disableSubtitles();
 	} else {
-		bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
-		if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
-		if ( (mset.subs.numItems() > 0) && (valid_item) ) {
-			real_id = mset.subs.itemAt(ID).ID();
-			proc->setSubtitle(mset.subs.itemAt(ID).type(), real_id);
+		bool valid_item = ((track >= 0) && (track < mset.subs.numItems()));
+		if (!valid_item) qWarning("Core::changeSubtitle: track: %d is not valid!", track);
+		if ((mset.subs.numItems() > 0) && (valid_item)) {
+			ID = mset.subs.itemAt(track).ID();
+			proc->setSubtitle(mset.subs.itemAt(track).type(), ID);
 		} else {
 			qWarning("Core::changeSubtitle: subtitle list is empty!");
 		}
@@ -3831,7 +3831,7 @@ void Core::nextSubtitle() {
 	qDebug("Core::nextSubtitle");
 
 	if ( (mset.current_subtitle_track == MediaSettings::SubNone) && 
-         (mset.subs.numItems() > 0) ) 
+         (mset.subs.numItems() > 0) )
 	{
 		changeSubtitle(0);
 	} 
@@ -3845,27 +3845,28 @@ void Core::nextSubtitle() {
 }
 
 #ifdef MPV_SUPPORT
-void Core::changeSecondarySubtitle(int ID) {
+void Core::changeSecondarySubtitle(int track) {
 	// MPV only
-	qDebug("Core::changeSecondarySubtitle: ID: %d", ID);
+	qDebug("Core::changeSecondarySubtitle: track: %d", track);
 
-	mset.current_secondary_subtitle_track = ID;
-	if (ID == MediaSettings::SubNone) {
-		ID = -1;
+	mset.current_secondary_subtitle_track = track;
+
+	if (track == MediaSettings::SubNone) {
+		track = -1;
 	}
-	if (ID == MediaSettings::NoneSelected) {
-		ID = -1;
+	if (track == MediaSettings::NoneSelected) {
+		track = -1;
 	}
 
-	if (ID == -1) {
+	if (track == -1) {
 		proc->disableSecondarySubtitles();
 	} else {
-		int real_id = -1;
-		bool valid_item = ( (ID >= 0) && (ID < mset.subs.numItems()) );
-		if (!valid_item) qWarning("Core::changeSecondarySubtitle: ID: %d is not valid!", ID);
-		if ( (mset.subs.numItems() > 0) && (valid_item) ) {
-			real_id = mset.subs.itemAt(ID).ID();
-			proc->setSecondarySubtitle(real_id);
+		int ID = -1;
+		bool valid_item = ((track >= 0) && (track < mset.subs.numItems()));
+		if (!valid_item) qWarning("Core::changeSecondarySubtitle: track: %d is not valid!", track);
+		if ((mset.subs.numItems() > 0) && (valid_item)) {
+			ID = mset.subs.itemAt(track).ID();
+			proc->setSecondarySubtitle(ID);
 		}
 	}
 }
