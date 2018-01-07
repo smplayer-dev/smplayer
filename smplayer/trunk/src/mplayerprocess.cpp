@@ -43,6 +43,9 @@ MplayerProcess::MplayerProcess(QObject * parent)
 #if NOTIFY_AUDIO_CHANGES
 	, audio_info_changed(false)
 #endif
+#if NOTIFY_VIDEO_CHANGES
+	, video_info_changed(false)
+#endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
 {
@@ -81,6 +84,11 @@ bool MplayerProcess::start() {
 	audio_info_changed = false;
 #endif
 
+#if NOTIFY_VIDEO_CHANGES
+	videos.clear();
+	video_info_changed = false;
+#endif
+
 	dvd_current_title = -1;
 	br_current_title = -1;
 
@@ -96,7 +104,9 @@ static QRegExp rx("^(.*)=(.*)");
 #if !NOTIFY_AUDIO_CHANGES
 static QRegExp rx_audio_mat("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
 #endif
+#if !NOTIFY_VIDEO_CHANGES
 static QRegExp rx_video("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
+#endif
 static QRegExp rx_title("^ID_(DVD|BLURAY)_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
 static QRegExp rx_chapters("^ID_CHAPTER_(\\d+)_(START|END|NAME)=(.+)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
@@ -140,6 +150,12 @@ static QRegExp rx_subtitle_file("^ID_FILE_SUB_FILENAME=(.*)");
 #if NOTIFY_AUDIO_CHANGES
 static QRegExp rx_audio("^ID_AUDIO_ID=(\\d+)");
 static QRegExp rx_audio_info("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
+#endif
+
+// Video
+#if NOTIFY_VIDEO_CHANGES
+static QRegExp rx_video("^ID_VIDEO_ID=(\\d+)");
+static QRegExp rx_video_info("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
 #endif
 
 #if PROGRAM_SWITCH
@@ -207,6 +223,16 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: audio_info_changed");
 				audio_info_changed = false;
 				emit audioInfoChanged(audios);
+			}
+		}
+#endif
+
+#if NOTIFY_VIDEO_CHANGES
+		if (notified_mplayer_is_running) {
+			if (video_info_changed) {
+				qDebug("MplayerProcess::parseLine: video_info_changed");
+				video_info_changed = false;
+				emit videoInfoChanged(videos);
 			}
 		}
 #endif
@@ -391,6 +417,16 @@ void MplayerProcess::parseLine(QByteArray ba) {
 					}
 				}
 			}
+		}
+#endif
+
+#if NOTIFY_AUDIO_CHANGES
+		// Video
+		if (rx_video.indexIn(line) > -1) {
+			int ID = rx_video.cap(1).toInt();
+			qDebug("MplayerProcess::parseLine: ID_VIDEO_ID: %d", ID);
+			if (videos.find(ID) == -1) video_info_changed = true;
+			videos.addID( ID );
 		}
 #endif
 
