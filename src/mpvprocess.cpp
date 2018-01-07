@@ -535,22 +535,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			*/
 			if (type == "video") {
 				#if NOTIFY_VIDEO_CHANGES
-				int idx = videos.find(ID);
-				if (idx == -1) {
-					video_info_changed = true;
-					videos.addName(ID, name);
-					videos.addLang(ID, lang);
-				} else {
-					// Track already existed
-					if (videos.itemAt(idx).name() != name) {
-						video_info_changed = true;
-						videos.addName(ID, name);
-					}
-					if (videos.itemAt(idx).lang() != lang) {
-						video_info_changed = true;
-						videos.addLang(ID, lang);
-					}
-				}
+				updateVideoTrack(ID, name, lang);
 				#endif
 			}
 			else
@@ -773,6 +758,29 @@ void MPVProcess::requestBitrateInfo() {
 	writeToStdin("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
 }
 */
+
+#if NOTIFY_VIDEO_CHANGES
+void MPVProcess::updateVideoTrack(int ID, const QString & name, const QString & lang) {
+	qDebug("MPVProcess::updateVideoTrack: ID: %d", ID);
+
+	int idx = videos.find(ID);
+	if (idx == -1) {
+		video_info_changed = true;
+		videos.addName(ID, name);
+		videos.addLang(ID, lang);
+	} else {
+		// Track already existed
+		if (videos.itemAt(idx).name() != name) {
+			video_info_changed = true;
+			videos.addName(ID, name);
+		}
+		if (videos.itemAt(idx).lang() != lang) {
+			video_info_changed = true;
+			videos.addLang(ID, lang);
+		}
+	}
+}
+#endif
 
 #if NOTIFY_AUDIO_CHANGES
 void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & lang) {

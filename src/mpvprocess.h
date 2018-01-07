@@ -172,6 +172,9 @@ protected slots:
 protected:
 	virtual void initializeOptionVars();
 
+#if NOTIFY_VIDEO_CHANGES
+	void updateVideoTrack(int ID, const QString & name, const QString & lang);
+#endif
 #if NOTIFY_AUDIO_CHANGES
 	void updateAudioTrack(int ID, const QString & name, const QString & lang);
 #endif
