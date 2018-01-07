@@ -214,18 +214,18 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( this, SIGNAL(mediaLoaded()), this, SLOT(initAudioTrack()), Qt::QueuedConnection );
 #endif
 #if NOTIFY_SUB_CHANGES
-	connect( proc, SIGNAL(subtitleInfoChanged(const SubTracks &)), 
-             this, SLOT(initSubtitleTrack(const SubTracks &)), Qt::QueuedConnection );
+	connect( proc, SIGNAL(subtitleInfoChanged(const SubTracks &, int)),
+             this, SLOT(initSubtitleTrack(const SubTracks &, int)), Qt::QueuedConnection );
 	connect( proc, SIGNAL(subtitleInfoReceivedAgain(const SubTracks &)), 
              this, SLOT(setSubtitleTrackAgain(const SubTracks &)), Qt::QueuedConnection );
 #endif
 #if NOTIFY_AUDIO_CHANGES
-	connect( proc, SIGNAL(audioInfoChanged(const Tracks &)), 
-             this, SLOT(initAudioTrack(const Tracks &)), Qt::QueuedConnection );
+	connect( proc, SIGNAL(audioInfoChanged(const Tracks &, int)),
+             this, SLOT(initAudioTrack(const Tracks &, int)), Qt::QueuedConnection );
 #endif
 #if NOTIFY_VIDEO_CHANGES
-	connect( proc, SIGNAL(videoInfoChanged(const Tracks &)),
-             this, SLOT(initVideoTrack(const Tracks &)), Qt::QueuedConnection );
+	connect( proc, SIGNAL(videoInfoChanged(const Tracks &, int)),
+             this, SLOT(initVideoTrack(const Tracks &, int)), Qt::QueuedConnection );
 #endif
 #if NOTIFY_CHAPTER_CHANGES
 	connect( proc, SIGNAL(chaptersChanged(const Chapters &)), 
@@ -4684,9 +4684,12 @@ void Core::initAudioTrack() {
 #endif
 
 #if NOTIFY_VIDEO_CHANGES
-void Core::initVideoTrack(const Tracks & videos) {
-	qDebug("Core::initVideoTrack");
+void Core::initVideoTrack(const Tracks & videos, int selected_id) {
+	qDebug("Core::initVideoTrack: selected_id: %d", selected_id);
 	mset.videos = videos;
+
+	if (selected_id != -1) mset.current_video_id = selected_id;
+
 	initializeMenus();
 	updateWidgets();
 }
@@ -4694,19 +4697,21 @@ void Core::initVideoTrack(const Tracks & videos) {
 
 #if NOTIFY_AUDIO_CHANGES
 #ifdef SIMPLE_TRACK_SELECTION
-void Core::initAudioTrack(const Tracks & audios) {
+void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 	mset.audios = audios;
 
-	qDebug() << "Core::initAudioTrack: num_items:" << mset.audios.numItems();
+	qDebug() << "Core::initAudioTrack: num_items:" << mset.audios.numItems() << "selected_id:" << selected_id;
 	qDebug("Core::initAudioTrack: list of audios:");
 	mset.audios.list();
+
+	if (selected_id != -1) mset.current_audio_id = selected_id;
 
 	initializeMenus();
 	updateWidgets();
 }
 #else
 
-void Core::initAudioTrack(const Tracks & audios) {
+void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 	qDebug("Core::initAudioTrack");
 	qDebug("Core::initAudioTrack: num_items: %d", mset.audios.numItems());
 
@@ -4761,10 +4766,10 @@ void Core::initAudioTrack(const Tracks & audios) {
 
 #if NOTIFY_SUB_CHANGES
 #ifdef SIMPLE_TRACK_SELECTION
-void Core::initSubtitleTrack(const SubTracks & subs) {
+void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	mset.subs = subs;
 
-	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems();
+	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems() << "selected_id:" << selected_id;
 	qDebug("Core::initSubtitleTrack: list of subtitles:");
 	mset.subs.list();
 
@@ -4772,6 +4777,12 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		bool restore_subs = ((mset.subs.numItems() > 0) ||
                              (mset.current_subtitle_track != MediaSettings::NoneSelected));
 		if (restore_subs) changeSubtitle(mset.current_subtitle_track);
+	} else {
+		// MPV
+		if (selected_id != -1) {
+			int track = mset.subs.find(SubData::Sub, selected_id);
+			mset.current_subtitle_track = track;
+		}
 	}
 
 	initializeMenus();
@@ -4779,7 +4790,7 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 }
 #else
 
-void Core::initSubtitleTrack(const SubTracks & subs) {
+void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	qDebug("Core::initSubtitleTrack");
 	qDebug("Core::initSubtitleTrack: num_items: %d", mset.subs.numItems());
 

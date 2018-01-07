@@ -207,7 +207,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				qDebug("MplayerProcess::parseLine: subtitle_info_changed");
 				subtitle_info_changed = false;
 				subtitle_info_received = false;
-				emit subtitleInfoChanged(subs);
+				emit subtitleInfoChanged(subs, -1);
 			}
 			if (subtitle_info_received) {
 				qDebug("MplayerProcess::parseLine: subtitle_info_received");
@@ -222,7 +222,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (audio_info_changed) {
 				qDebug("MplayerProcess::parseLine: audio_info_changed");
 				audio_info_changed = false;
-				emit audioInfoChanged(audios);
+				emit audioInfoChanged(audios, -1);
 			}
 		}
 #endif
@@ -232,7 +232,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (video_info_changed) {
 				qDebug("MplayerProcess::parseLine: video_info_changed");
 				video_info_changed = false;
-				emit videoInfoChanged(videos);
+				emit videoInfoChanged(videos, -1);
 			}
 		}
 #endif

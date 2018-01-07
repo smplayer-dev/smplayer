@@ -184,18 +184,18 @@ signals:
 
 #if NOTIFY_SUB_CHANGES
 	//! Emitted if a new subtitle has been added or an old one changed
-	void subtitleInfoChanged(const SubTracks &);
+	void subtitleInfoChanged(const SubTracks &, int selected_id);
 
 	//! Emitted when subtitle info has been received but there wasn't anything new
 	void subtitleInfoReceivedAgain(const SubTracks &);
 #endif
 #if NOTIFY_AUDIO_CHANGES
 	//! Emitted if a new audio track been added or an old one changed
-    void audioInfoChanged(const Tracks &);
+    void audioInfoChanged(const Tracks &, int selected_id);
 #endif
 #if NOTIFY_VIDEO_CHANGES
 	//! Emitted if a new video track been added or an old one changed
-	void videoInfoChanged(const Tracks &);
+	void videoInfoChanged(const Tracks &, int selected_id);
 #endif
 #if NOTIFY_CHAPTER_CHANGES
 	void chaptersChanged(const Chapters &);
