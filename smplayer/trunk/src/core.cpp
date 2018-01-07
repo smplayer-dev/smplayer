@@ -3940,6 +3940,9 @@ void Core::changeVideo(int ID, bool allow_restart) {
 		mset.current_video_id = ID;
 		qDebug("Core::changeVideo: ID set to: %d", ID);
 
+		proc->setVideo(ID);
+
+		/*
 		bool need_restart = false;
 		if (allow_restart) {
 			// afaik lavf doesn't require to restart, any other?
@@ -3956,6 +3959,7 @@ void Core::changeVideo(int ID, bool allow_restart) {
 				proc->setVideo(ID);
 			}
 		}
+		*/
 	}
 }
 
