@@ -161,6 +161,11 @@ private:
 	bool audio_info_changed;
 #endif
 
+#if NOTIFY_VIDEO_CHANGES
+	Tracks videos;
+	bool video_info_changed;
+#endif
+
 	int dvd_current_title;
 	int br_current_title;
 };
