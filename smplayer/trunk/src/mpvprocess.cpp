@@ -44,12 +44,15 @@ MPVProcess::MPVProcess(QObject * parent)
 #if NOTIFY_SUB_CHANGES
 	, subtitle_info_received(false)
 	, subtitle_info_changed(false)
+	, selected_subtitle(-1)
 #endif
 #if NOTIFY_AUDIO_CHANGES
 	, audio_info_changed(false)
+	, selected_audio(-1)
 #endif
 #if NOTIFY_VIDEO_CHANGES
 	, video_info_changed(false)
+	, selected_video(-1)
 #endif
 #if NOTIFY_CHAPTER_CHANGES
 	, chapter_info_changed(false)
@@ -89,16 +92,19 @@ bool MPVProcess::start() {
 	subs.clear();
 	subtitle_info_received = false;
 	subtitle_info_changed = false;
+	selected_subtitle = -1;
 #endif
 
 #if NOTIFY_AUDIO_CHANGES
 	audios.clear();
 	audio_info_changed = false;
+	selected_audio = -1;
 #endif
 
 #if NOTIFY_VIDEO_CHANGES
 	videos.clear();
 	video_info_changed = false;
+	selected_video = -1;
 #endif
 
 #if NOTIFY_CHAPTER_CHANGES
@@ -292,7 +298,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 				qDebug("MPVProcess::parseLine: subtitle_info_changed");
 				subtitle_info_changed = false;
 				subtitle_info_received = false;
-				emit subtitleInfoChanged(subs);
+				emit subtitleInfoChanged(subs, selected_subtitle);
 			}
 			if (subtitle_info_received) {
 				qDebug("MPVProcess::parseLine: subtitle_info_received");
@@ -307,7 +313,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			if (audio_info_changed) {
 				qDebug("MPVProcess::parseLine: audio_info_changed");
 				audio_info_changed = false;
-				emit audioInfoChanged(audios);
+				emit audioInfoChanged(audios, selected_audio);
 			}
 		}
 #endif
@@ -317,7 +323,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			if (video_info_changed) {
 				qDebug("MPVProcess::parseLine: video_info_changed");
 				video_info_changed = false;
-				emit videoInfoChanged(videos);
+				emit videoInfoChanged(videos, selected_video);
 			}
 		}
 #endif
@@ -430,7 +436,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			qDebug() << "MPVProcess::parseLine: audio id:" << ID << "lang:" << lang << "name:" << title;
 
 			#if NOTIFY_AUDIO_CHANGES
-			updateAudioTrack(ID, title, lang);
+			updateAudioTrack(ID, title, lang, false);
 			#else
 			if (md.taudios.find(ID) == -1) {
 				md.taudios.addID(ID);
@@ -457,7 +463,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			qDebug() << "MPVProcess::parseLine: sub id:" << ID << "lang:" << lang << "name:" << title;
 
 			#if NOTIFY_SUB_CHANGES
-			updateSubtitleTrack(ID, title, lang);
+			updateSubtitleTrack(ID, title, lang, false);
 			#else
 			if (md.tsubs.find(SubData::Sub, ID) == -1) {
 				md.tsubs.add(SubData::Sub, ID);
@@ -535,19 +541,19 @@ void MPVProcess::parseLine(QByteArray ba) {
 			*/
 			if (type == "video") {
 				#if NOTIFY_VIDEO_CHANGES
-				updateVideoTrack(ID, name, lang);
+				updateVideoTrack(ID, name, lang, (selected == "yes"));
 				#endif
 			}
 			else
 			if (type == "audio") {
 				#if NOTIFY_AUDIO_CHANGES
-				updateAudioTrack(ID, name, lang);
+				updateAudioTrack(ID, name, lang, (selected == "yes"));
 				#endif
 			}
 			else
 			if (type == "sub") {
 				#if NOTIFY_SUB_CHANGES
-				updateSubtitleTrack(ID, name, lang);
+				updateSubtitleTrack(ID, name, lang, (selected == "yes"));
 				#endif
 			}
 		}
@@ -760,7 +766,7 @@ void MPVProcess::requestBitrateInfo() {
 */
 
 #if NOTIFY_VIDEO_CHANGES
-void MPVProcess::updateVideoTrack(int ID, const QString & name, const QString & lang) {
+void MPVProcess::updateVideoTrack(int ID, const QString & name, const QString & lang, bool selected) {
 	qDebug("MPVProcess::updateVideoTrack: ID: %d", ID);
 
 	int idx = videos.find(ID);
@@ -779,11 +785,16 @@ void MPVProcess::updateVideoTrack(int ID, const QString & name, const QString & 
 			videos.addLang(ID, lang);
 		}
 	}
+
+	if (selected && selected_video != ID) {
+		selected_video = ID;
+		video_info_changed = true;
+	}
 }
 #endif
 
 #if NOTIFY_AUDIO_CHANGES
-void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & lang) {
+void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & lang, bool selected) {
 	qDebug("MPVProcess::updateAudioTrack: ID: %d", ID);
 
 	int idx = audios.find(ID);
@@ -802,11 +813,16 @@ void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & 
 			audios.addLang(ID, lang);
 		}
 	}
+
+	if (selected && selected_audio != ID) {
+		selected_audio = ID;
+		audio_info_changed = true;
+	}
 }
 #endif
 
 #if NOTIFY_SUB_CHANGES
-void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString & lang) {
+void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString & lang, bool selected) {
 	qDebug("MPVProcess::updateSubtitleTrack: ID: %d", ID);
 
 	int idx = subs.find(SubData::Sub, ID);
@@ -826,6 +842,11 @@ void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString
 			subtitle_info_changed = true;
 			subs.changeLang(SubData::Sub, ID, lang);
 		}
+	}
+
+	if (selected && selected_subtitle != ID) {
+		selected_subtitle = ID;
+		subtitle_info_changed = true;
 	}
 }
 #endif

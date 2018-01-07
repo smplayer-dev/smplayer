@@ -432,13 +432,13 @@ protected slots:
 	void initAudioTrack();
 #endif
 #if NOTIFY_AUDIO_CHANGES
-	void initAudioTrack(const Tracks &);
+	void initAudioTrack(const Tracks &, int selected_id);
 #endif
 #if NOTIFY_VIDEO_CHANGES
-	void initVideoTrack(const Tracks &);
+	void initVideoTrack(const Tracks &, int selected_id);
 #endif
 #if NOTIFY_SUB_CHANGES
-	void initSubtitleTrack(const SubTracks &);
+	void initSubtitleTrack(const SubTracks &, int selected_id);
 	void setSubtitleTrackAgain(const SubTracks &);
 #endif
 #if NOTIFY_CHAPTER_CHANGES

@@ -173,13 +173,13 @@ protected:
 	virtual void initializeOptionVars();
 
 #if NOTIFY_VIDEO_CHANGES
-	void updateVideoTrack(int ID, const QString & name, const QString & lang);
+	void updateVideoTrack(int ID, const QString & name, const QString & lang, bool selected);
 #endif
 #if NOTIFY_AUDIO_CHANGES
-	void updateAudioTrack(int ID, const QString & name, const QString & lang);
+	void updateAudioTrack(int ID, const QString & name, const QString & lang, bool selected);
 #endif
 #if NOTIFY_SUB_CHANGES
-	void updateSubtitleTrack(int ID, const QString & name, const QString & lang);
+	void updateSubtitleTrack(int ID, const QString & name, const QString & lang, bool selected);
 #endif
 
 private:
@@ -222,16 +222,19 @@ private:
 
 	bool subtitle_info_received;
 	bool subtitle_info_changed;
+	int selected_subtitle;
 #endif
 
 #if NOTIFY_AUDIO_CHANGES
 	Tracks audios;
 	bool audio_info_changed;
+	int selected_audio;
 #endif
 
 #if NOTIFY_VIDEO_CHANGES
 	Tracks videos;
 	bool video_info_changed;
+	int selected_video;
 #endif
 
 #if NOTIFY_CHAPTER_CHANGES
