@@ -4695,8 +4695,9 @@ void Core::initVideoTrack(const Tracks & videos, int selected_id) {
 }
 #endif
 
-#if NOTIFY_AUDIO_CHANGES
 #ifdef SIMPLE_TRACK_SELECTION
+
+#if NOTIFY_AUDIO_CHANGES
 void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 	mset.audios = audios;
 
@@ -4709,8 +4710,36 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 	initializeMenus();
 	updateWidgets();
 }
-#else
+#endif // NOTIFY_AUDIO_CHANGES
 
+#if NOTIFY_SUB_CHANGES
+void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
+	mset.subs = subs;
+
+	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems() << "selected_id:" << selected_id;
+	qDebug("Core::initSubtitleTrack: list of subtitles:");
+	mset.subs.list();
+
+	if (proc->isMPlayer()) {
+		bool restore_subs = ((mset.subs.numItems() > 0) ||
+                             (mset.current_subtitle_track != MediaSettings::NoneSelected));
+		if (restore_subs) changeSubtitle(mset.current_subtitle_track);
+	} else {
+		// MPV
+		if (selected_id != -1) {
+			int track = mset.subs.find(SubData::Sub, selected_id);
+			mset.current_subtitle_track = track;
+		}
+	}
+
+	initializeMenus();
+	updateWidgets();
+}
+#endif // NOTIFY_SUB_CHANGES
+
+#else // SIMPLE_TRACK_SELECTION
+
+#if NOTIFY_AUDIO_CHANGES
 void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 	qDebug("Core::initAudioTrack");
 	qDebug("Core::initAudioTrack: num_items: %d", mset.audios.numItems());
@@ -4761,35 +4790,9 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 
 	emit audioTracksChanged();
 }
-#endif // SIMPLE_TRACK_SELECTION
-#endif
+#endif // NOTIFY_AUDIO_CHANGES
 
 #if NOTIFY_SUB_CHANGES
-#ifdef SIMPLE_TRACK_SELECTION
-void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
-	mset.subs = subs;
-
-	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems() << "selected_id:" << selected_id;
-	qDebug("Core::initSubtitleTrack: list of subtitles:");
-	mset.subs.list();
-
-	if (proc->isMPlayer()) {
-		bool restore_subs = ((mset.subs.numItems() > 0) ||
-                             (mset.current_subtitle_track != MediaSettings::NoneSelected));
-		if (restore_subs) changeSubtitle(mset.current_subtitle_track);
-	} else {
-		// MPV
-		if (selected_id != -1) {
-			int track = mset.subs.find(SubData::Sub, selected_id);
-			mset.current_subtitle_track = track;
-		}
-	}
-
-	initializeMenus();
-	updateWidgets();
-}
-#else
-
 void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	qDebug("Core::initSubtitleTrack");
 	qDebug("Core::initSubtitleTrack: num_items: %d", mset.subs.numItems());
@@ -4892,15 +4895,18 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	}
 end:
 
-#ifdef MPV_SUPPORT
+	#ifdef MPV_SUPPORT
 	changeSecondarySubtitle(mset.current_secondary_subtitle_track);
-#endif
+	#endif
 
 	proc->enableOSDInCommands(true);
 	updateWidgets();
 }
+#endif // NOTIFY_SUB_CHANGES
+
 #endif // SIMPLE_TRACK_SELECTION
 
+#if NOTIFY_SUB_CHANGES
 void Core::setSubtitleTrackAgain(const SubTracks &) {
 	qDebug("Core::setSubtitleTrackAgain");
 	changeSubtitle( mset.current_subtitle_track );
