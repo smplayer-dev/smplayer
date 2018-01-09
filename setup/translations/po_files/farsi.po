@@ -5,12 +5,13 @@
 # Translators:
 # امیــــر, 2015
 # Behrooz Ramezani <b3hrooz.ram3zani@gmail.com>, 2015
+# Hessam Shahpouri, 2018
 # hossein heydari <hossein7heydari@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"PO-Revision-Date: 2018-01-01 15:30+0000\n"
+"Last-Translator: Hessam Shahpouri\n"
 "Language-Team: Persian (http://www.transifex.com/rvm/smplayer/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,36 +21,36 @@ msgstr ""
 
 # Installer_Is_Running
 msgid "The installer is already running."
-msgstr "نصب کننده شما آماده اجرا است"
+msgstr "برنامه نصب کننده هم اکنون در حال اجراست."
 
 # Installer_No_Admin
 msgid ""
 "You must be logged in as an administrator when installing this program."
-msgstr "در هنگام نصب شما باید با دسترسی مدیریت کامل وارد شده باشید"
+msgstr "برای نصب این نرم‌افزار باید با یک حساب کاربری با دسترسی مدیریت وارد شده باشید."
 
 # SMPlayer_Is_Running
 msgid ""
 "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "یک نمونه از smplayer در حال اجراست ، لطفا smplayer را ببندید و دوباره تلاش کنید"
+msgstr "برنامه SMPlayer هم اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
 
 # OS_Not_Supported
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr ""
+msgstr "سیستم عامل پشتیبانی نمی‌شود.[:n:]نرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows XP برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
 
 # OS_Not_Supported_VistaRequired
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr ""
+msgstr "سیستم عامل پشتیبانی نمی‌شود.[:n:]نرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows Vista برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
 
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr "یک ویندوز 64 بیتی درخواست نصب این نرم افزار را دارد"
+msgstr "برای نصب این نرم‌فزار به یک سیستم عامل Windows با ساختار 64 بیتی نیاز است."
 
 # Existing_32bitInst
 msgid ""
@@ -65,7 +66,7 @@ msgstr "یک نسخه 64 بیتی از smplayer نصب شده است . شما ب
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "نصب $(^NameDA)"
 
 # WelcomePage_Text
 msgid ""
