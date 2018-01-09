@@ -11,18 +11,18 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_Is_Running "نصب کننده شما آماده اجرا است"
-${LangFileString} Installer_No_Admin "در هنگام نصب شما باید با دسترسی مدیریت کامل وارد شده باشید"
-${LangFileString} SMPlayer_Is_Running "یک نمونه از smplayer در حال اجراست ، لطفا smplayer را ببندید و دوباره تلاش کنید"
+${LangFileString} Installer_Is_Running "برنامه نصب کننده هم اکنون در حال اجراست."
+${LangFileString} Installer_No_Admin "برای نصب این نرم‌افزار باید با یک حساب کاربری با دسترسی مدیریت وارد شده باشید."
+${LangFileString} SMPlayer_Is_Running "برنامه SMPlayer هم اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} Win64_Required "یک ویندوز 64 بیتی درخواست نصب این نرم افزار را دارد"
+${LangFileString} OS_Not_Supported "سیستم عامل پشتیبانی نمی‌شود.$\nنرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows XP برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+${LangFileString} OS_Not_Supported_VistaRequired "سیستم عامل پشتیبانی نمی‌شود.$\nنرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows Vista برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+${LangFileString} Win64_Required "برای نصب این نرم‌فزار به یک سیستم عامل Windows با ساختار 64 بیتی نیاز است."
 ${LangFileString} Existing_32bitInst "یک نسخه 32 بیتی از SMPlayer نصب شده است ، ابتدا آن نسخه 32 بیتی را حذف نمایید."
 ${LangFileString} Existing_64bitInst "یک نسخه 64 بیتی از smplayer نصب شده است . شما باید ابتدا این نسخه 64 بیتی smplayer را حذف کنید."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Title "نصب $(^NameDA)"
 ${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
