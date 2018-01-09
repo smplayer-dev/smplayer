@@ -18,7 +18,7 @@ ${LangFileString} SMPlayer_Is_Running "Экземпляр SMPlayer запуще�
 ${LangFileString} OS_Not_Supported "Неподдерживаемая версия операционной системы.$\nSMPlayer ${SMPLAYER_VERSION} требует как минимум Windows XP и может работать неправильно на вашей системе.$\nВы действительно хотите продолжить установку?"
 ${LangFileString} OS_Not_Supported_VistaRequired "Неподдерживаемая версия операционной системы.$\nSMPlayer ${SMPLAYER_VERSION} требует как минимум Windows Vista и может работать неправильно на вашей системе.$\nВы действительно хотите продолжить установку?"
 ${LangFileString} Win64_Required "Для установки данного ПО требуется 64-битная ОС Windows."
-${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
+${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала удалите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."
 
 ; Welcome page
@@ -57,7 +57,7 @@ ${LangFileString} Section_IconThemes "Темы иконок"
 ${LangFileString} Section_IconThemes_Desc "Дополнительные темы иконок для SMPlayer."
 
 ${LangFileString} Section_Translations "Переводы"
-${LangFileString} Section_Translations_Desc "Языковые файлы SMPlayer, помимо английского."
+${LangFileString} Section_Translations_Desc "Языковые файлы SMPlayer помимо английского."
 
 ${LangFileString} Section_ResetSettings_Desc "Удаляет настройки SMPlayer, оставшиеся от предыдущих установок."
 
@@ -87,7 +87,7 @@ ${LangFileString} StartBtn "Старт"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Загрузка кодеков MPlayer..."
-${LangFileString} Codecs_DL_Retry "Не удалось успешно установить кодеки MPlayer. Попытаться ещё раз?"
+${LangFileString} Codecs_DL_Retry "Не удалось установить кодеки MPlayer. Повторить ещё раз?"
 ${LangFileString} Codecs_DL_Failed "Не удалось загрузить кодеки MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Ошибка при установке кодеков MPlayer."
 
