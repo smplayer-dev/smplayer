@@ -29,7 +29,7 @@
 
 class QSettings;
 
-#define YT_GET_VIDEOINFO
+//#define YT_GET_VIDEOINFO
 //#define YT_DASH_SUPPORT
 #define YT_LIVE_STREAM
 
