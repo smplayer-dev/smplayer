@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andrei Stepanov, 2014-2016
+# Andrei Stepanov, 2014-2017
 # angry_snake <inactive+angry_snake@transifex.com>, 2014
 # Simple88, 2016
 # Andrei Stepanov, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: Simple88\n"
+"PO-Revision-Date: 2017-12-25 08:32+0000\n"
+"Last-Translator: Andrei Stepanov\n"
 "Language-Team: Russian (http://www.transifex.com/rvm/smplayer/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,7 @@ msgstr "Для установки данного ПО требуется 64-би
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall "
 "32-bit SMPlayer first."
-msgstr "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
+msgstr "Существует 32-битная установка SMPlayer. Сначала удалите 32-битный SMPlayer."
 
 # Existing_64bitInst
 msgid ""
@@ -154,7 +154,7 @@ msgstr "Переводы"
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
-msgstr "Языковые файлы SMPlayer, помимо английского."
+msgstr "Языковые файлы SMPlayer помимо английского."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
@@ -240,7 +240,7 @@ msgstr "Загрузка кодеков MPlayer..."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Не удалось успешно установить кодеки MPlayer. Попытаться ещё раз?"
+msgstr "Не удалось установить кодеки MPlayer. Повторить ещё раз?"
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
