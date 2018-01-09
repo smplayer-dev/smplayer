@@ -1,6 +1,6 @@
 Version 18.1:
 
- * Fix youtube.
+ * Fix for YouTube.
 
 
 Version 17.12:
