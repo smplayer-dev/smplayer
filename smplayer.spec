@@ -49,6 +49,8 @@ One of the main features is the ability to remember the state of a
 played file, so when you play it later it will be resumed at the same point
 and with the same settings.
 
+%global debug_package %{nil}
+
 %prep
 #%setup -a3 -a4 -a5 -qn %{name}-%{version}
 %setup -a3 -a4 -qn %{name}-%{version}
