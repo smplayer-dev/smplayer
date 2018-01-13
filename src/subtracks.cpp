@@ -73,6 +73,7 @@ int SubTracks::IDAt(int n) {
 	}
 }
 
+#if !SIMPLE_TRACK_SELECTION
 int SubTracks::findLang(QString expr) {
 	qDebug( "SubTracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
@@ -111,6 +112,7 @@ int SubTracks::selectOne(QString preferred_lang, int default_sub) {
 	}
 	return sub;
 }
+#endif
 
 int SubTracks::find( SubData::Type t, int ID ) {
 	for (unsigned int n=0; n < subs.count(); n++) {

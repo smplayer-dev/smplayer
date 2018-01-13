@@ -22,6 +22,8 @@
 #include <QString>
 #include <QMap>
 
+#include "config.h"
+
 class QSettings;
 
 /* Class to store info about video/audio tracks */
@@ -95,7 +97,9 @@ public:
 
 	int IDAt(int n);
 
+#if !SIMPLE_TRACK_SELECTION
 	int findLang(QString expr);
+#endif
 
 	void save(QSettings * set, const QString & name);
 	void load(QSettings * set, const QString & name);

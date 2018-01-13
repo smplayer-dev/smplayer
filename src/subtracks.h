@@ -24,6 +24,8 @@
 #include <QFileInfo>
 #include <QList>
 
+#include "config.h"
+
 class QSettings;
 
 class SubData {
@@ -105,8 +107,10 @@ public:
 
 	int IDAt(int n);
 
+#if !SIMPLE_TRACK_SELECTION
 	int findLang(QString expr);
 	int selectOne(QString preferred_lang, int default_sub=0);
+#endif
 
 	//! Parses a line from mplayer output with subtitle info
 	ParseResult parse(QString text);

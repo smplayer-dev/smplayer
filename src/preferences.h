@@ -93,8 +93,10 @@ public:
 	bool remember_time_pos;
 	bool remember_stream_settings;
 
+#if !SIMPLE_TRACK_SELECTION
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
+#endif
 
 	// Video
 	bool use_direct_rendering;
@@ -549,8 +551,10 @@ public:
 	int initial_audio_channels;
 	int initial_stereo_mode;
 
+#if !SIMPLE_TRACK_SELECTION
 	int initial_audio_track;
 	int initial_subtitle_track;
+#endif
 
 
     /* ************

@@ -69,8 +69,6 @@
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
-//#define SIMPLE_TRACK_SELECTION
-
 using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
@@ -1966,7 +1964,7 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-	#ifdef SIMPLE_TRACK_SELECTION
+	#if SIMPLE_TRACK_SELECTION
 	if (proc->isMPV()) {
 		// Not working: no info about tracks
 		if (mset.current_subtitle_track != MediaSettings::NoneSelected) {
@@ -4695,7 +4693,7 @@ void Core::initVideoTrack(const Tracks & videos, int selected_id) {
 }
 #endif
 
-#ifdef SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
 
 #if NOTIFY_AUDIO_CHANGES
 void Core::initAudioTrack(const Tracks & audios, int selected_id) {

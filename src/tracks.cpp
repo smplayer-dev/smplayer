@@ -77,6 +77,7 @@ int Tracks::find(int ID) {
 	return -1;
 }
 
+#if !SIMPLE_TRACK_SELECTION
 int Tracks::findLang(QString expr) {
 	qDebug( "Tracks::findLang: '%s'", expr.toUtf8().data());
 	QRegExp rx( expr );
@@ -94,6 +95,7 @@ int Tracks::findLang(QString expr) {
 
 	return res_id;
 }
+#endif
 
 void Tracks::list() {
 	QMapIterator<int, TrackData> i(tm);

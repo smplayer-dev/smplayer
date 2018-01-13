@@ -104,6 +104,11 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	blackborders_check->hide();
 #endif
 
+#if SIMPLE_TRACK_SELECTION
+	tracks_frame->hide();
+	tracks_separator->hide();
+#endif
+
 #ifdef MPV_SUPPORT
 	screenshot_format_combo->addItems(QStringList() << "png" << "ppm" << "pgm" << "pgmyuv" << "tga" << "jpg" << "jpeg");
 #else
@@ -235,10 +240,14 @@ void PrefGeneral::setData(Preferences * pref) {
 	remember_streams_check->setChecked(pref->remember_stream_settings);
 
 	setFileSettingsMethod( pref->file_settings_method );
+
+#if !SIMPLE_TRACK_SELECTION
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
 	setAudioTrack( pref->initial_audio_track );
 	setSubtitleTrack( pref->initial_subtitle_track );
+#endif
+
 	setCloseOnFinish( pref->close_on_finish );
 	setPauseWhenHidden( pref->pause_when_hidden );
 #ifdef AUTO_SHUTDOWN_PC
@@ -333,11 +342,13 @@ void PrefGeneral::getData(Preferences * pref) {
 		filesettings_method_changed = true;
 	}
 
+#if !SIMPLE_TRACK_SELECTION
 	pref->audio_lang = audioLang();
 	pref->subtitle_lang = subtitleLang();
 
 	pref->initial_audio_track = audioTrack();
 	pref->initial_subtitle_track = subtitleTrack();
+#endif
 
 	pref->close_on_finish = closeOnFinish();
 	pref->pause_when_hidden = pauseWhenHidden();
@@ -672,6 +683,7 @@ QString PrefGeneral::subtitleLang() {
 	return subtitle_lang_edit->text();
 }
 
+#if !SIMPLE_TRACK_SELECTION
 void PrefGeneral::setAudioTrack(int track) {
 	audio_track_spin->setValue(track);
 }
@@ -687,6 +699,7 @@ void PrefGeneral::setSubtitleTrack(int track) {
 int PrefGeneral::subtitleTrack() {
 	return subtitle_track_spin->value();
 }
+#endif
 
 void PrefGeneral::setCloseOnFinish(bool b) {
 	close_on_finish_check->setChecked(b);

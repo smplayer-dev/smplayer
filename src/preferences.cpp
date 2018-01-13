@@ -116,8 +116,10 @@ void Preferences::reset() {
 	remember_time_pos = true;
 	remember_stream_settings = true;
 
+#if !SIMPLE_TRACK_SELECTION
 	audio_lang = "";
 	subtitle_lang = "";
+#endif
 
 	use_direct_rendering = false;
 	use_double_buffer = true;
@@ -568,8 +570,10 @@ void Preferences::reset() {
 	initial_audio_channels = MediaSettings::ChDefault;
 	initial_stereo_mode = MediaSettings::Stereo;
 
+#if !SIMPLE_TRACK_SELECTION
 	initial_audio_track = 1;
 	initial_subtitle_track = 1;
+#endif
 
 
     /* ************
@@ -669,8 +673,10 @@ void Preferences::save() {
 	set->setValue("remember_time_pos", remember_time_pos);
 	set->setValue("remember_stream_settings", remember_stream_settings);
 
+#if !SIMPLE_TRACK_SELECTION
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
+#endif
 
 	set->setValue("use_direct_rendering", use_direct_rendering);
 	set->setValue("use_double_buffer", use_double_buffer);
@@ -1116,8 +1122,10 @@ void Preferences::save() {
 	set->setValue("audio_channels", initial_audio_channels);
 	set->setValue("initial_stereo_mode", initial_stereo_mode);
 
+#if !SIMPLE_TRACK_SELECTION
 	set->setValue("initial_audio_track", initial_audio_track);
 	set->setValue("initial_subtitle_track", initial_subtitle_track);
+#endif
 
 	set->endGroup(); // defaults
 
@@ -1243,12 +1251,14 @@ void Preferences::load() {
 	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
 	remember_stream_settings = set->value("remember_stream_settings", remember_stream_settings).toBool();
 
+#if !SIMPLE_TRACK_SELECTION
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
+#endif
 
 	use_direct_rendering = set->value("use_direct_rendering", use_direct_rendering).toBool();
 	use_double_buffer = set->value("use_double_buffer", use_double_buffer).toBool();
-	
+
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_slices = set->value("use_slices", use_slices ).toBool();
 	autoq = set->value("autoq", autoq).toInt();
@@ -1695,8 +1705,10 @@ void Preferences::load() {
 	initial_audio_channels = set->value("audio_channels", initial_audio_channels).toInt();
 	initial_stereo_mode = set->value("initial_stereo_mode", initial_stereo_mode).toInt();
 
+#if !SIMPLE_TRACK_SELECTION
 	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
 	initial_subtitle_track = set->value("initial_subtitle_track", initial_subtitle_track).toInt();
+#endif
 
 	set->endGroup(); // defaults
 
