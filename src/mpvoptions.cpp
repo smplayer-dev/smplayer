@@ -524,6 +524,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "wid" ||
+	    option_name == "alang" || option_name == "slang" ||
 	    option_name == "volume" ||
 	    option_name == "ass-styles" ||
 	    option_name == "embeddedfonts" ||

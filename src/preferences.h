@@ -93,7 +93,10 @@ public:
 	bool remember_time_pos;
 	bool remember_stream_settings;
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	QString alang;
+	QString slang;
+#else
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
 #endif

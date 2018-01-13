@@ -1977,6 +1977,8 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("secondary-sid", QString::number(real_id));
 		}
 	}
+	proc->setOption("alang", pref->alang);
+	proc->setOption("slang", pref->slang);
 	#endif
 #endif
 
@@ -4719,8 +4721,11 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	mset.subs.list();
 
 	if (proc->isMPlayer()) {
+		/*
 		bool restore_subs = ((mset.subs.numItems() > 0) ||
                              (mset.current_subtitle_track != MediaSettings::NoneSelected));
+		*/
+		bool restore_subs = (mset.current_subtitle_track != MediaSettings::NoneSelected);
 		if (restore_subs) changeSubtitle(mset.current_subtitle_track);
 	} else {
 		// MPV
