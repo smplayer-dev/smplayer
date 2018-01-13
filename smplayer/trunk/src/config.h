@@ -26,6 +26,9 @@
 #define NOTIFY_VIDEO_CHANGES 1
 #define NOTIFY_CHAPTER_CHANGES 1
 
+#define SIMPLE_TRACK_SELECTION 1
+
+
 
 // STYLE_SWITCHING
 // if 1, the preferences dialog will have an option to switch
