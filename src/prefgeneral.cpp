@@ -211,15 +211,7 @@ void PrefGeneral::retranslateStrings() {
            "subtitle streams is found, SMPlayer will try to use your "
            "preferred language. This only will work with media that offer "
            "info about the language of audio and subtitle streams, like DVDs "
-           "or mkv files.") + "<br>"+
-#if SIMPLE_TRACK_SELECTION
-		tr(" ")
-#else
-		tr("These fields accept regular expressions. "
-           "Example: <b>es|esp|spa</b> will select the track if it matches with "
-            "<i>es</i>, <i>esp</i> or <i>spa</i>.")
-#endif
-	);
+           "or mkv files.") );
 
 #ifndef MPLAYER_MPV_SELECTION
 	executable_label->setText( tr("%1 &executable:").arg(PLAYER_NAME) );
@@ -1264,13 +1256,10 @@ void PrefGeneral::createHelp() {
 	addSectionTitle(tr("Preferred audio and subtitles"));
 
 	setWhatsThis(audio_lang_edit, tr("Preferred audio language"),
-		tr("Here you can type your preferred language for the audio streams. "
-           "When a media with multiple audio streams is found, SMPlayer will "
-           "try to use your preferred language.<br>"
-           "This only will work with media that offer info about the language "
-           "of the audio streams, like DVDs or mkv files.") +"<br>"+
 #if SIMPLE_TRACK_SELECTION
-		tr(" ")
+		tr("You can specify here a priority list of audio languages, separated by commas. "
+           "For example: spa,eng,jpn")
+
 #else
 		tr("This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the audio track if it matches with <i>es</i>, "
@@ -1279,13 +1268,9 @@ void PrefGeneral::createHelp() {
 	);
 
 	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
-		tr("Here you can type your preferred language for the subtitle stream. "
-           "When a media with multiple subtitle streams is found, SMPlayer will "
-           "try to use your preferred language.<br>"
-           "This only will work with media that offer info about the language "
-           "of the subtitle streams, like DVDs or mkv files.") +"<br>"+
 #if SIMPLE_TRACK_SELECTION
-		tr(" ")
+		tr("You can specify here a priority list of subtitle languages, separated by commas. "
+           "For example: spa,eng,jpn")
 #else
 		tr("This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the subtitle stream if it matches with <i>es</i>, "
@@ -1293,6 +1278,7 @@ void PrefGeneral::createHelp() {
 #endif
 	);
 
+#if !SIMPLE_TRACK_SELECTION
 	setWhatsThis(audio_track_spin, tr("Audio track"),
 		tr("Specifies the default audio track which will be used when playing "
            "new files. If the track doesn't exist, the first one will be used. "
@@ -1304,7 +1290,7 @@ void PrefGeneral::createHelp() {
            "playing new files. If the track doesn't exist, the first one "
            "will be used. <br><b>Note:</b> the <i>\"preferred subtitle "
            "language\"</i> has preference over this option.") );
-
+#endif
 }
 
 #include "moc_prefgeneral.cpp"
