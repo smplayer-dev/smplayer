@@ -1977,8 +1977,8 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("secondary-sid", QString::number(real_id));
 		}
 	}
-	proc->setOption("alang", pref->alang);
-	proc->setOption("slang", pref->slang);
+	if (!pref->alang.isEmpty()) proc->setOption("alang", pref->alang);
+	if (!pref->slang.isEmpty()) proc->setOption("slang", pref->slang);
 	#endif
 #endif
 
