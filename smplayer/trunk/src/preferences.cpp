@@ -116,7 +116,10 @@ void Preferences::reset() {
 	remember_time_pos = true;
 	remember_stream_settings = true;
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	alang = "";
+	slang = "";
+#else
 	audio_lang = "";
 	subtitle_lang = "";
 #endif
@@ -673,7 +676,10 @@ void Preferences::save() {
 	set->setValue("remember_time_pos", remember_time_pos);
 	set->setValue("remember_stream_settings", remember_stream_settings);
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	set->setValue("alang", alang);
+	set->setValue("slang", slang);
+#else
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
 #endif
@@ -1251,7 +1257,10 @@ void Preferences::load() {
 	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
 	remember_stream_settings = set->value("remember_stream_settings", remember_stream_settings).toBool();
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	alang = set->value("alang", alang).toString();
+	slang = set->value("slang", slang).toString();
+#else
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();
 #endif

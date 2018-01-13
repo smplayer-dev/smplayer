@@ -211,9 +211,15 @@ void PrefGeneral::retranslateStrings() {
            "subtitle streams is found, SMPlayer will try to use your "
            "preferred language. This only will work with media that offer "
            "info about the language of audio and subtitle streams, like DVDs "
-           "or mkv files.<br>These fields accept regular expressions. "
+           "or mkv files.") + "<br>"+
+#if SIMPLE_TRACK_SELECTION
+		tr(" ")
+#else
+		tr("These fields accept regular expressions. "
            "Example: <b>es|esp|spa</b> will select the track if it matches with "
-            "<i>es</i>, <i>esp</i> or <i>spa</i>."));
+            "<i>es</i>, <i>esp</i> or <i>spa</i>.")
+#endif
+	);
 
 #ifndef MPLAYER_MPV_SELECTION
 	executable_label->setText( tr("%1 &executable:").arg(PLAYER_NAME) );
@@ -241,7 +247,10 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setFileSettingsMethod( pref->file_settings_method );
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	setAudioLang( pref->alang );
+	setSubtitleLang( pref->slang );
+#else
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
 	setAudioTrack( pref->initial_audio_track );
@@ -342,7 +351,10 @@ void PrefGeneral::getData(Preferences * pref) {
 		filesettings_method_changed = true;
 	}
 
-#if !SIMPLE_TRACK_SELECTION
+#if SIMPLE_TRACK_SELECTION
+	pref->alang = audioLang();
+	pref->slang = subtitleLang();
+#else
 	pref->audio_lang = audioLang();
 	pref->subtitle_lang = subtitleLang();
 
@@ -1256,20 +1268,30 @@ void PrefGeneral::createHelp() {
            "When a media with multiple audio streams is found, SMPlayer will "
            "try to use your preferred language.<br>"
            "This only will work with media that offer info about the language "
-           "of the audio streams, like DVDs or mkv files.<br>"
-           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
+           "of the audio streams, like DVDs or mkv files.") +"<br>"+
+#if SIMPLE_TRACK_SELECTION
+		tr(" ")
+#else
+		tr("This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the audio track if it matches with <i>es</i>, "
-           "<i>esp</i> or <i>spa</i>.") );
+           "<i>esp</i> or <i>spa</i>.")
+#endif
+	);
 
 	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
 		tr("Here you can type your preferred language for the subtitle stream. "
            "When a media with multiple subtitle streams is found, SMPlayer will "
            "try to use your preferred language.<br>"
            "This only will work with media that offer info about the language "
-           "of the subtitle streams, like DVDs or mkv files.<br>"
-           "This field accepts regular expressions. Example: <b>es|esp|spa</b> "
+           "of the subtitle streams, like DVDs or mkv files.") +"<br>"+
+#if SIMPLE_TRACK_SELECTION
+		tr(" ")
+#else
+		tr("This field accepts regular expressions. Example: <b>es|esp|spa</b> "
            "will select the subtitle stream if it matches with <i>es</i>, "
-           "<i>esp</i> or <i>spa</i>.") );
+           "<i>esp</i> or <i>spa</i>.")
+#endif
+	);
 
 	setWhatsThis(audio_track_spin, tr("Audio track"),
 		tr("Specifies the default audio track which will be used when playing "
