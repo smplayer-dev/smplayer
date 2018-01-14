@@ -177,7 +177,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 	video_id = getVideoID(url);
 
 	QString scheme = use_https_vi ? "https" : "http";
-	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&el=vevo&ps=default&eurl=&gl=US&hl=en").arg(video_id).arg(scheme);
+	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&el=leanback&ps=default&eurl=&gl=US&hl=en").arg(video_id).arg(scheme);
 
 	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url.left(20);
 
@@ -192,9 +192,11 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 	#endif
 
 	#ifdef YT_USE_SIG
+	/*
 	if (!sig.sts.isEmpty()) {
 		u = u + "&amp;sts=" + sig.sts;
 	}
+	*/
 	#ifdef YT_USE_YTSIG
 	else {
 		YTSig::check(u);
