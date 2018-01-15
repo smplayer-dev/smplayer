@@ -1965,6 +1965,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	#if SIMPLE_TRACK_SELECTION
+	#ifdef MPV_SUPPORT
 	if (proc->isMPV()) {
 		// Not working: no info about tracks
 		if (mset.current_subtitle_track != MediaSettings::NoneSelected) {
@@ -1977,9 +1978,10 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("secondary-sid", QString::number(real_id));
 		}
 	}
+	#endif // MPV_SUPPORT
 	if (!pref->alang.isEmpty()) proc->setOption("alang", pref->alang);
 	if (!pref->slang.isEmpty()) proc->setOption("slang", pref->slang);
-	#endif
+	#endif // SIMPLE_TRACK_SELECTION
 #endif
 
 #if PROGRAM_SWITCH
@@ -2155,13 +2157,16 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mdat.type != TYPE_TV) {
 		// Play A - B
 		if ((mset.A_marker > -1) && (mset.B_marker > mset.A_marker)) {
+			#ifdef MPV_SUPPORT
 			if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 				if (mset.loop) {
 					proc->setOption("ab-loop-a", QString::number(mset.A_marker));
 					proc->setOption("ab-loop-b", QString::number(mset.B_marker));
 				}
 				proc->setOption("ss", QString::number(seek));
-			} else {
+			} else
+			#endif
+			{
 				proc->setOption("ss", QString::number(mset.A_marker));
 				proc->setOption("endpos", QString::number(mset.B_marker - mset.A_marker));
 			}
@@ -2777,9 +2782,12 @@ void Core::setAMarker(int sec) {
 	mset.A_marker = sec;
 	displayMessage( tr("\"A\" marker set to %1").arg(Helper::formatTime(sec)) );
 
+	#ifdef MPV_SUPPORT
 	if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 		if (mset.loop) proc->setAMarker(sec);
-	} else {
+	} else
+	#endif
+	{
 		// MPlayer
 		if (mset.B_marker > mset.A_marker) {
 			if (proc->isRunning()) restartPlay();
@@ -2799,9 +2807,12 @@ void Core::setBMarker(int sec) {
 	mset.B_marker = sec;
 	displayMessage( tr("\"B\" marker set to %1").arg(Helper::formatTime(sec)) );
 
+	#ifdef MPV_SUPPORT
 	if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 		if (mset.loop) proc->setBMarker(sec);
-	} else {
+	} else
+	#endif
+	{
 		// MPlayer
 		if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
 			if (proc->isRunning()) restartPlay();
@@ -2818,9 +2829,12 @@ void Core::clearABMarkers() {
 		mset.A_marker = -1;
 		mset.B_marker = -1;
 		displayMessage( tr("A-B markers cleared") );
+		#ifdef MPV_SUPPORT
 		if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 			proc->clearABMarkers();
-		} else {
+		} else
+		#endif
+		{
 			// MPlayer
 			if (proc->isRunning()) restartPlay();
 		}
@@ -2842,6 +2856,7 @@ void Core::toggleRepeat(bool b) {
 			// Use slave command
 			int v = -1; // no loop
 			if (mset.loop) v = 0; // infinite loop
+			#ifdef MPV_SUPPORT
 			if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 				// Enable A-B markers
 				proc->clearABMarkers();
@@ -2850,6 +2865,7 @@ void Core::toggleRepeat(bool b) {
 					if (mset.B_marker > -1) proc->setBMarker(mset.B_marker);
 				}
 			}
+			#endif
 			proc->setLoop(v);
 		} else {
 			// Restart mplayer
