@@ -361,6 +361,10 @@ public:
 	QString mplayer_osd_media_info;
 #endif
 
+#ifdef MPV_SUPPORT
+	bool emulate_mplayer_ab_section;
+#endif
+
 
 	/* *********
 	   GUI stuff

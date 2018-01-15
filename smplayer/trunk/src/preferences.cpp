@@ -385,6 +385,10 @@ void Preferences::reset() {
 	mplayer_osd_media_info = "";
 #endif
 
+#ifdef MPV_SUPPORT
+	emulate_mplayer_ab_section = false;
+#endif
+
 
     /* *********
        GUI stuff
@@ -930,6 +934,10 @@ void Preferences::save() {
 #endif
 #ifdef MPLAYER_SUPPORT
 	set->setValue("mplayer_osd_media_info", mplayer_osd_media_info);
+#endif
+
+#ifdef MPV_SUPPORT
+	set->setValue("emulate_mplayer_ab_section", emulate_mplayer_ab_section);
 #endif
 
 	set->endGroup(); // advanced
@@ -1516,6 +1524,10 @@ void Preferences::load() {
 #endif
 #ifdef MPLAYER_SUPPORT
 	mplayer_osd_media_info = set->value("mplayer_osd_media_info", mplayer_osd_media_info).toString();
+#endif
+
+#ifdef MPV_SUPPORT
+	emulate_mplayer_ab_section = set->value("emulate_mplayer_ab_section", emulate_mplayer_ab_section).toBool();
 #endif
 
 	set->endGroup(); // advanced

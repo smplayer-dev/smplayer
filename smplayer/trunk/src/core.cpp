@@ -2155,7 +2155,7 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mdat.type != TYPE_TV) {
 		// Play A - B
 		if ((mset.A_marker > -1) && (mset.B_marker > mset.A_marker)) {
-			if (proc->isMPV()) {
+			if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 				if (mset.loop) {
 					proc->setOption("ab-loop-a", QString::number(mset.A_marker));
 					proc->setOption("ab-loop-b", QString::number(mset.B_marker));
@@ -2777,7 +2777,7 @@ void Core::setAMarker(int sec) {
 	mset.A_marker = sec;
 	displayMessage( tr("\"A\" marker set to %1").arg(Helper::formatTime(sec)) );
 
-	if (proc->isMPV()) {
+	if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 		if (mset.loop) proc->setAMarker(sec);
 	} else {
 		// MPlayer
@@ -2799,7 +2799,7 @@ void Core::setBMarker(int sec) {
 	mset.B_marker = sec;
 	displayMessage( tr("\"B\" marker set to %1").arg(Helper::formatTime(sec)) );
 
-	if (proc->isMPV()) {
+	if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 		if (mset.loop) proc->setBMarker(sec);
 	} else {
 		// MPlayer
@@ -2818,7 +2818,7 @@ void Core::clearABMarkers() {
 		mset.A_marker = -1;
 		mset.B_marker = -1;
 		displayMessage( tr("A-B markers cleared") );
-		if (proc->isMPV()) {
+		if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 			proc->clearABMarkers();
 		} else {
 			// MPlayer
@@ -2842,7 +2842,7 @@ void Core::toggleRepeat(bool b) {
 			// Use slave command
 			int v = -1; // no loop
 			if (mset.loop) v = 0; // infinite loop
-			if (proc->isMPV()) {
+			if (proc->isMPV() && !pref->emulate_mplayer_ab_section) {
 				// Enable A-B markers
 				proc->clearABMarkers();
 				if (b) {
