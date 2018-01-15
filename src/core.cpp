@@ -1967,7 +1967,11 @@ void Core::startMplayer( QString file, double seek ) {
 	#if SIMPLE_TRACK_SELECTION
 	#ifdef MPV_SUPPORT
 	if (proc->isMPV()) {
-		// Not working: no info about tracks
+		// Check if the user doesn't want to auto load any subtitle
+		if (!pref->autoload_sub && mset.current_subtitle_track == MediaSettings::NoneSelected) {
+			proc->setOption("sid", "-1");
+		}
+		else
 		if (mset.current_subtitle_track != MediaSettings::NoneSelected) {
 			int real_id = mset.subs.IDAt(mset.current_subtitle_track);
 			proc->setOption("sid", QString::number(real_id));
@@ -4737,12 +4741,15 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	mset.subs.list();
 
 	if (proc->isMPlayer()) {
-		/*
-		bool restore_subs = ((mset.subs.numItems() > 0) ||
-                             (mset.current_subtitle_track != MediaSettings::NoneSelected));
-		*/
+		qDebug() << "Core::initSubtitleTrack: current_subtitle_track:" << mset.current_subtitle_track;
 		bool restore_subs = (mset.current_subtitle_track != MediaSettings::NoneSelected);
-		if (restore_subs) changeSubtitle(mset.current_subtitle_track);
+		if (restore_subs) {
+			changeSubtitle(mset.current_subtitle_track);
+		} else {
+			if (!pref->autoload_sub) {
+				changeSubtitle(MediaSettings::SubNone);
+			}
+		}
 	} else {
 		// MPV
 		if (selected_id != -1) {
