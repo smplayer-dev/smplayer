@@ -171,6 +171,10 @@ public slots:
 	void loadXSPF(const QString & filename);
 	bool saveXSPF(const QString & filename);
 
+#if QT_VERSION >= 0x050000
+	void loadYoutubeList(QByteArray & data);
+#endif
+
 	void setModified(bool);
 
 	void setFilter(const QString & filter);
