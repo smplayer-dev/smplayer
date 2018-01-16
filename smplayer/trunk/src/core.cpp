@@ -4729,6 +4729,7 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 
 	initializeMenus();
 	updateWidgets();
+	emit audioTracksChanged();
 }
 #endif // NOTIFY_AUDIO_CHANGES
 
