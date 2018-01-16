@@ -49,6 +49,7 @@
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000
+#include <QUrlQuery>
 #include "myscroller.h"
 #endif
 
@@ -1130,6 +1131,48 @@ void Playlist::loadXSPF(const QString & filename) {
 		if (start_play_on_load) startPlay();
 	}
 }
+
+#if QT_VERSION >= 0x050000
+/// youtube list support
+void Playlist::loadYoutubeList(QByteArray & data) {
+	qDebug() << "Playlist::loadYoutubeList:";
+
+	QDomDocument dom_document;
+	bool ok = dom_document.setContent(data);
+	qDebug() << "Playlist::loadYoutubeList: success:" << ok;
+	if (!ok) return;
+
+	QDomNode root = dom_document.documentElement();
+	if (!root.isNull()) {
+		clear();
+
+		QDomNode track = root.firstChildElement("video");
+		while (!track.isNull()) {
+			QString filename;
+			QStringList extra_params;
+
+			QString title = track.firstChildElement("title").text(); // toCDATASection().data();
+			QString video_url = QString("https://www.youtube.com/watch?v=").append(track.firstChildElement("encrypted_id").text().toLatin1());
+			QString icon_url  = track.firstChildElement("thumbnail").text().toLatin1();
+			int duration = track.firstChildElement("length_seconds").text().toInt();
+
+			qDebug() << "Playlist::loadYoutubeList: title:" << title;
+			qDebug() << "Playlist::loadYoutubeList: video_url:" << video_url;
+			qDebug() << "Playlist::loadYoutubeList: icon_url:" << icon_url;
+			qDebug() << "Playlist::loadYoutubeList: duration:" << duration;
+
+			addItem( video_url, title, duration, extra_params, video_url, icon_url );
+
+			track = track.nextSiblingElement("video");
+		}
+
+		//list();
+		setPlaylistFilename(root.firstChildElement("title").text());
+		setModified( false );
+		if (start_play_on_load) startPlay();
+	}
+}
+#endif
 
 bool Playlist::save_m3u(QString file) {
 	qDebug() << "Playlist::save_m3u:" << file;
@@ -2406,10 +2449,22 @@ void Playlist::openUrl() {
 	}
 }
 
-void Playlist::openUrl(const QString & url) {
-	qDebug() << "Playlist::openUrl:" << url;
-	downloader->fetchPage(url);
+void Playlist::openUrl(const QString & orig_url) {
+	QString url = QString(orig_url);
 
+	qDebug() << "Playlist::openUrl:" << url;
+
+#if QT_VERSION >= 0x050000
+	// if youtube list then convert to ajax call
+	if (url.contains("youtube") && url.contains("list=")) {
+		QUrl qurl = QUrl(url);
+		QUrlQuery query = QUrlQuery(qurl);
+		QString lst = query.queryItemValue("list"); // QString("RDQ4DphMfcOOM"); // todo
+		url = QString("https://www.youtube.com/list_ajax?action_get_list=1&style=xml&list=").append(lst);
+	}
+#endif
+
+	downloader->fetchPage(url);
 	showLoadingAnimation(true);
 }
 
@@ -2423,6 +2478,12 @@ void Playlist::playlistDownloaded(QByteArray data) {
 	QString tfile = tf.fileName();
 	qDebug() << "Playlist::playlistDownloaded: tfile:" << tfile;
 
+#if QT_VERSION >= 0x050000
+	if (data.contains("<?xml")) {
+		loadYoutubeList(data);
+	}
+	else
+#endif
 	if (data.contains("#EXTM3U")) {
 		load_m3u(tfile, M3U8);
 		setPlaylistFilename("");
