@@ -77,6 +77,10 @@
 #include <QMovie>
 #endif
 
+#if defined(YT_PLAYLIST_SUPPORT) && QT_VERSION >= 0x050000
+#include <QUrlQuery>
+#endif
+
 #if USE_INFOPROVIDER
 #include "infoprovider.h"
 #endif
@@ -1132,7 +1136,7 @@ void Playlist::loadXSPF(const QString & filename) {
 	}
 }
 
-#if QT_VERSION >= 0x050000
+#ifdef YT_PLAYLIST_SUPPORT
 /// youtube list support
 void Playlist::loadYoutubeList(QByteArray & data) {
 	qDebug() << "Playlist::loadYoutubeList:";
@@ -2454,12 +2458,16 @@ void Playlist::openUrl(const QString & orig_url) {
 
 	qDebug() << "Playlist::openUrl:" << url;
 
-#if QT_VERSION >= 0x050000
+#ifdef YT_PLAYLIST_SUPPORT
 	// if youtube list then convert to ajax call
 	if (url.contains("youtube") && url.contains("list=")) {
 		QUrl qurl = QUrl(url);
+		#if QT_VERSION >= 0x050000
 		QUrlQuery query = QUrlQuery(qurl);
 		QString lst = query.queryItemValue("list"); // QString("RDQ4DphMfcOOM"); // todo
+		#else
+		QString lst = qurl.queryItemValue("list");
+		#endif
 		url = QString("https://www.youtube.com/list_ajax?action_get_list=1&style=xml&list=").append(lst);
 	}
 #endif
@@ -2478,7 +2486,7 @@ void Playlist::playlistDownloaded(QByteArray data) {
 	QString tfile = tf.fileName();
 	qDebug() << "Playlist::playlistDownloaded: tfile:" << tfile;
 
-#if QT_VERSION >= 0x050000
+#ifdef YT_PLAYLIST_SUPPORT
 	if (data.contains("<?xml")) {
 		loadYoutubeList(data);
 	}

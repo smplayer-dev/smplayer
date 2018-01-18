@@ -31,6 +31,8 @@
 //#define PLAYLIST_DOUBLE_TOOLBAR
 #define PLAYLIST_DELETE_FROM_DISK
 
+#define YT_PLAYLIST_SUPPORT
+
 class PLItem : public QStandardItem {
 public:
 	 enum PLItem_Roles { Role_Played = Qt::UserRole + 2, Role_Current = Qt::UserRole + 3, Role_Params = Qt::UserRole + 4,
@@ -171,7 +173,7 @@ public slots:
 	void loadXSPF(const QString & filename);
 	bool saveXSPF(const QString & filename);
 
-#if QT_VERSION >= 0x050000
+#ifdef YT_PLAYLIST_SUPPORT
 	void loadYoutubeList(QByteArray & data);
 #endif
 
