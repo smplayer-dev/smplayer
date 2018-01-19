@@ -2245,68 +2245,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3144"/>
+        <location filename="../core.cpp" line="3185"/>
         <source>Brightness: %1</source>
         <translation>Φωτεινότητα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3160"/>
+        <location filename="../core.cpp" line="3201"/>
         <source>Contrast: %1</source>
         <translation>Αντίθεση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3175"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Gamma: %1</source>
         <translation>Γάμμα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3190"/>
+        <location filename="../core.cpp" line="3231"/>
         <source>Hue: %1</source>
         <translation>Απόχρωση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3205"/>
+        <location filename="../core.cpp" line="3246"/>
         <source>Saturation: %1</source>
         <translation>Κορεσμός: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3348"/>
+        <location filename="../core.cpp" line="3389"/>
         <source>Volume: %1</source>
         <translation>Ένταση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4303"/>
         <source>Zoom: %1</source>
         <translation>Εστίαση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3476"/>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3517"/>
+        <location filename="../core.cpp" line="3528"/>
         <source>Font scale: %1</source>
         <translation>Κλίμακα γραμματοσειράς: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4089"/>
+        <location filename="../core.cpp" line="4134"/>
         <source>Aspect ratio: %1</source>
         <translation>Αναλογίες εικόνας: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4496"/>
+        <location filename="../core.cpp" line="4541"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Ενημέρωση προσωρινής μνήμης γραμματοσειρών. Μπορεί να διαρκέσει λίγα δευτερόλεπτα...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3401"/>
+        <location filename="../core.cpp" line="3442"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Καθυστέρηση υποτίτλων: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3419"/>
+        <location filename="../core.cpp" line="3460"/>
         <source>Audio delay: %1 ms</source>
         <translation>Καθυστέρηση ήχου: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3259"/>
+        <location filename="../core.cpp" line="3300"/>
         <source>Speed: %1</source>
         <translation>Ταχύτητα: %1</translation>
     </message>
@@ -2321,67 +2321,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Αδύνατος ο εντοπισμός του URL του βίντεο</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3572"/>
+        <location filename="../core.cpp" line="3613"/>
         <source>Subtitles on</source>
         <translation>Εμφάνιση υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3574"/>
+        <location filename="../core.cpp" line="3615"/>
         <source>Subtitles off</source>
         <translation>Απόκρυψη υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4137"/>
+        <location filename="../core.cpp" line="4182"/>
         <source>Mouse wheel seeks now</source>
         <translation>Ο τροχός του ποντικιού τώρα θα αναζητά</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4140"/>
+        <location filename="../core.cpp" line="4185"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την ένταση</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4143"/>
+        <location filename="../core.cpp" line="4188"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την εστίαση</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4146"/>
+        <location filename="../core.cpp" line="4191"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την ταχύτητα</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4472"/>
+        <location filename="../core.cpp" line="4517"/>
         <source>Screenshot saved as %1</source>
         <translation>Το στιγμιότυπο αποθηκεύτηκε ως %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4507"/>
+        <location filename="../core.cpp" line="4552"/>
         <source>Starting...</source>
         <translation>Έναρξη...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1422"/>
+        <location filename="../core.cpp" line="1426"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Το στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1435"/>
+        <location filename="../core.cpp" line="1439"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Το στιγμιότυπο ΔΕΝ ελήφθη, δεν έχει οριστεί φάκελος</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2757"/>
+        <location filename="../core.cpp" line="2787"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Σημαδευτής «Α» στα %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2779"/>
+        <location filename="../core.cpp" line="2812"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Σημαδευτής «Β» στα %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2799"/>
+        <location filename="../core.cpp" line="2835"/>
         <source>A-B markers cleared</source>
         <translation>Καθαρίστηκαν οι σημαδευτές Α-Β</translation>
     </message>
@@ -2765,42 +2765,42 @@ Example: extrastereo,karaoke</source>
         <translation>Φίλτρα &amp;ήχου:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
         <translation>&amp;Εντάξει</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
+        <location filename="../filepropertiesdialog.cpp" line="90"/>
         <source>Apply</source>
         <translation>Εφαρμογή</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="94"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
         <translation>Ε&amp;πιλογές για %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="95"/>
+        <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
         <translation>Πρόσθετες επιλογές για %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="96"/>
+        <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Εδώ μπορείτε να εισάγετε επιπλέον επιλογές για %1.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
         <translation>Γράψτε τες διαχωρίζοντάς τες με διαστήματα.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Example:</source>
         <translation>Παράδειγμα:</translation>
     </message>
@@ -4593,78 +4593,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="186"/>
+        <location filename="../mpvprocess.h" line="189"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>το &apos;%1&apos; φίλτρο δεν υποστηρίζεται από το mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="187"/>
+        <location filename="../mpvprocess.h" line="190"/>
         <source>File:</source>
         <translation>Αρχείο:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="188"/>
+        <location filename="../mpvprocess.h" line="191"/>
         <source>Video:</source>
         <translation>Βίντεο:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="192"/>
         <source>Resolution:</source>
         <translation>Ανάλυση:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="193"/>
         <source>Frames per second:</source>
         <translation>Καρέ ανά δευτερόλεπτο:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
         <translation>Εκτίμηση:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
         <translation>Αναλογίες εικόνας:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
         <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Bitrate:</source>
         <translation>Ρυθμός bit:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
         <translation>Διακεκομμένα καρέ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Audio:</source>
         <translation>Ήχος:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
         <translation>Ρυθμός δειγματοληψίας:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Channels:</source>
         <translation>Κανάλια:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
         <translation>Συγχρονισμός Ήχου/Εικόνας:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Cache fill:</source>
         <translation>Πλήρωση κρυφής μνήμης:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
         <translation>Κρυφή μνήμη σε χρήση:</translation>
     </message>
@@ -4797,304 +4797,304 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Name</source>
         <translation>Όνομα</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Length</source>
         <translation>Διάρκεια</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="690"/>
+        <location filename="../playlist.cpp" line="695"/>
         <source>&amp;Play</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="736"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>&amp;Edit</source>
         <translation>&amp;Επεξεργασία</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1325"/>
-        <location filename="../playlist.cpp" line="1361"/>
+        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1408"/>
         <source>Playlists</source>
         <translation>Λίστες</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1323"/>
+        <location filename="../playlist.cpp" line="1370"/>
         <source>Choose a file</source>
         <translation>Επιλέξτε αρχείο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1359"/>
+        <location filename="../playlist.cpp" line="1406"/>
         <source>Choose a filename</source>
         <translation>Επιλέξτε όνομα αρχείου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1371"/>
+        <location filename="../playlist.cpp" line="1418"/>
         <source>Confirm overwrite?</source>
         <translation>Επιβεβαίωσή αντικατάστασης;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Το αρχείο %1 υπάρχει ήδη.
 Θέλετε να το αντικαταστήσετε;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1325"/>
-        <location filename="../playlist.cpp" line="1361"/>
-        <location filename="../playlist.cpp" line="1644"/>
+        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1691"/>
         <source>All files</source>
         <translation>Όλα τα αρχεία</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="366"/>
+        <location filename="../playlist.cpp" line="371"/>
         <source>Untitled playlist</source>
         <translation>Άτιτλη λίστα αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="687"/>
         <source>&amp;Load...</source>
         <translation>&amp;Φόρτωση...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="684"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Φόρτωση της λίστας αναπαραγωγής από το &amp;URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="723"/>
+        <location filename="../playlist.cpp" line="728"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Εκτέλεση στο Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="730"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Άνοιγμα της ροής στον &amp;φυλλομετρητή</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Load/Save</source>
         <translation>Φόρτωση/αποθήκευση</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1641"/>
+        <location filename="../playlist.cpp" line="1688"/>
         <source>Select one or more files to open</source>
         <translation>Επιλέξτε ένα ή περισσότερα αρχεία για άνοιγμα</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1711"/>
+        <location filename="../playlist.cpp" line="1758"/>
         <source>Choose a directory</source>
         <translation>Επιλέξτε φάκελο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1909"/>
+        <location filename="../playlist.cpp" line="1956"/>
         <source>Edit name</source>
         <translation>Επεξεργασία ονόματος</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1910"/>
+        <location filename="../playlist.cpp" line="1957"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Γράψτε το όνομα με το οποίο θα εμφανίζεται στην λίστα το αρχείο:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Filename / URL</source>
         <translation>Όνομα αρχείου / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="685"/>
+        <location filename="../playlist.cpp" line="690"/>
         <source>Download playlist from URL</source>
         <translation>Λήψη της λίστας αναπαραγωγής από το URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="687"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>&amp;Save</source>
         <translation>Απο&amp;θήκευση</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="693"/>
         <source>Save &amp;as...</source>
         <translation>Αποθήκευση &amp;ως...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="692"/>
+        <location filename="../playlist.cpp" line="697"/>
         <source>&amp;Next</source>
         <translation>&amp;Επόμενο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="693"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Προηγούμενο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="699"/>
+        <location filename="../playlist.cpp" line="704"/>
         <source>Move &amp;up</source>
         <translation>&amp;Πάνω</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="700"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>Move &amp;down</source>
         <translation>&amp;Κάτω</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="707"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Επανάληψη</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="703"/>
+        <location filename="../playlist.cpp" line="708"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Ανακάτεμα</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="706"/>
+        <location filename="../playlist.cpp" line="711"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Προσθήκη του τρέχοντος αρχείου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="712"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;Προσθήκη αρχείου(ων)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Add &amp;directory</source>
         <translation>&amp;Προσθήκη φακέλου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="714"/>
         <source>Add &amp;URL(s)</source>
         <translation>Προσθήκη &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Remove &amp;selected</source>
         <translation>&amp;Αφαίρεση επιλεγμένου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Remove &amp;all</source>
         <translation>Αφαίρεση ό&amp;λων</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="716"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Διαγραφή από τον δίσκο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="719"/>
-        <location filename="../playlist.cpp" line="1469"/>
+        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="1516"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>Α&amp;ντιγραφή της διαδρομής του αρχείου στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Open source folder</source>
         <translation>Άνοι&amp;γμα του φακέλου πηγής</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>Search</source>
         <translation>Αναζήτηση</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>Show position column</source>
         <translation>Εμφάνιση της στήλης θέσης</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Show name column</source>
         <translation>Εμφάνιση της στήλης ονόματος</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Show length column</source>
         <translation>Εμφάνιση της στήλης μήκους</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="738"/>
         <source>Show filename column</source>
         <translation>Εμφάνιση της στήλης ονόματος αρχείου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1474"/>
+        <location filename="../playlist.cpp" line="1521"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Αντιγραφή του URL στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1947"/>
+        <location filename="../playlist.cpp" line="1994"/>
         <source>Confirm deletion</source>
         <translation>Επιβεβαιώστε τη διαγραφή</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1948"/>
+        <location filename="../playlist.cpp" line="1995"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Πρόκειται να ΔΙΑΓΡΑΨΕΤΕ το αρχείο «%1» από τον οδηγό σας.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Αυτή η ενέργεια είναι μη αναστρέψιμη. Είστε σίγουρος-η ότι θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1967"/>
+        <location filename="../playlist.cpp" line="2014"/>
         <source>Deletion failed</source>
         <translation>Η διαγραφή απέτυχε</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1968"/>
+        <location filename="../playlist.cpp" line="2015"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Δεν ήταν δυνατή η διαγραφή του «%1»</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1973"/>
+        <location filename="../playlist.cpp" line="2020"/>
         <source>Error deleting the file</source>
         <translation>Σφάλμα κατά τη διαγραφή του αρχείου</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1974"/>
+        <location filename="../playlist.cpp" line="2021"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Δεν είναι δυνατή η διαγραφή του «%1» από το σύστημα αρχείων.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2510"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Αδύνατη η φόρτωση της λίστας αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2510"/>
         <source>Unrecognized format.</source>
         <translation>Μη αναγνωρίσιμη μορφή.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="747"/>
         <source>Add...</source>
         <translation>Προσθήκη...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>Remove...</source>
         <translation>Αφαίρεση...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
+        <location filename="../playlist.cpp" line="1451"/>
         <source>Playlist modified</source>
         <translation>Η λίστα τροποποιήθηκε</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1405"/>
+        <location filename="../playlist.cpp" line="1452"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Υπάρχουν αλλαγές σε εκκρεμότητα, θέλετε να αποθηκεύσετε τη λίστα;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1643"/>
+        <location filename="../playlist.cpp" line="1690"/>
         <source>Multimedia</source>
         <translation>Πολυμέσα</translation>
     </message>
@@ -5712,8 +5712,8 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="145"/>
-        <location filename="../prefgeneral.cpp" line="1002"/>
+        <location filename="../prefgeneral.cpp" line="150"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
@@ -5728,265 +5728,270 @@ Do you want to overwrite?</source>
         <translation>Ρυθμίσεις πολυμέσων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1159"/>
         <source>Start videos in fullscreen</source>
         <translation>Έναρξη βίντεο σε πλήρη οθόνη</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1173"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Disable screensaver</source>
         <translation>Απενεργοποίηση προφύλαξης οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="168"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="169"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="195"/>
+        <location filename="../prefgeneral.cpp" line="200"/>
         <source>Select the %1 executable</source>
         <translation>Επιλογή του εκτελέσιμου %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="197"/>
+        <location filename="../prefgeneral.cpp" line="202"/>
         <source>Executables</source>
         <translation>Εκτελέσιμα</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="199"/>
+        <location filename="../prefgeneral.cpp" line="204"/>
         <source>All files</source>
         <translation>Όλα τα αρχεία</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="201"/>
+        <location filename="../prefgeneral.cpp" line="206"/>
         <source>Select a directory</source>
         <translation>Επιλέξτε φάκελο</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="214"/>
+        <location filename="../prefgeneral.cpp" line="217"/>
         <source>%1 &amp;executable:</source>
         <translation>%1 &amp;εκτελέσιμο:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="164"/>
-        <location filename="../prefgeneral.cpp" line="410"/>
-        <location filename="../prefgeneral.cpp" line="411"/>
+        <location filename="../prefgeneral.cpp" line="169"/>
+        <location filename="../prefgeneral.cpp" line="425"/>
+        <location filename="../prefgeneral.cpp" line="426"/>
         <source>Default</source>
         <translation>Εξ ορισμού</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="209"/>
+        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>Multimedia engine</source>
         <translation>Μηχανή πολυμέσων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Επιλογή της μηχανής πολυμέσων προς χρήση, MPlayer ή mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1007"/>
+        <location filename="../prefgeneral.cpp" line="1024"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Η επιλογή «άλλο» σας επιτρέπει να επιλέξετε χειροκίνητα την διαδρομή του εκτελέσιμου.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>%1 executable</source>
         <translation>%1 εκτελέσιμο</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1028"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Εδώ μπορείτε να ορίσετε το εκτελέσιμο %1 που θα χρησιμοποιεί το SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>Remember settings for streams</source>
         <translation>Απομνημόνευση των ρυθμίσεων των ροών</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Αν είναι ενεργοποιημένη αυτή η επιλογή, οι ρυθμίσεις των διαδικτυακών ροών θα απομνημονεύονται.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1042"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Screenshots folder</source>
         <translation>Φάκελος στιγμιότυπων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1048"/>
+        <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Template for screenshots</source>
         <translation>Πρότυπο για στιγμιότυπα</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Για παράδειγμα το %1 θα αποθήκευε το στιγμιότυπο οθόνης ως «όνοματαινίας_0001.png».</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>Το %1 καθορίζει το όνομα αρχείου του βίντεο δίχως το επίθημα, το %2 προσθέτει έναν τετραψήφιο αριθμό συμπληρωμένο από μηδενικά.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Format for screenshots</source>
         <translation>Μορφή για τα στιγμιότυπα</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1079"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Αυτή η επιλογή επιτρέπει την επιλογή του τύπου αρχείου της εικόνας που χρησιμοποιείται για την αποθήκευση των στιγμιότυπων οθόνης.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1080"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, ο υπολογιστής θα τερματιστεί αμέσως μετά το κλείσιμο του SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Video output driver</source>
         <translation>Οδηγός εξόδου βίντεο</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Select the video output driver.</source>
         <translation>Επιλέξτε τον οδηγό εξόδου του βίντεο.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Η ενεργοποίηση αυτής της επιλογής, θα προσθέτει από προεπιλογή, μαύρες λωρίδες στην εικόνα για τα νέα αρχεία που θα ανοίγουν.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1182"/>
+        <location filename="../prefgeneral.cpp" line="1199"/>
         <source>Audio output driver</source>
         <translation>Οδηγός εξόδου ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Select the audio output driver.</source>
         <translation>Επιλέξτε τον οδηγό εξόδου του ήχου.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1016"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Remember settings</source>
         <translation>Απομνημόνευση ρυθμίσεων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1241"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Preferred audio language</source>
         <translation>Προτιμώμενη γλώσσα ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1251"/>
+        <location filename="../prefgeneral.cpp" line="1270"/>
         <source>Preferred subtitle language</source>
         <translation>Προτιμώμενη γλώσσα υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Software video equalizer</source>
         <translation>Ισοσταθμιστής βίντεο λογισμικού</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="160"/>
+        <location filename="../prefgeneral.cpp" line="165"/>
         <source>Other...</source>
         <translation>Άλλο...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Αυτή η επιλογή καθορίζει το πρότυπο του ονόματος αρχείου που χρησιμοποιείται για την αποθήκευση των στιγμιότυπων οθόνης.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Για έναν πλήρη κατάλογο των προσδιοριστικών πρότυπων ανατρέξτε σε αυτόν τον δεσμό:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1057"/>
-        <location filename="../prefgeneral.cpp" line="1064"/>
+        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>This option only works with mpv.</source>
         <translation>Η επιλογή αυτή λειτουργεί μόνο με το mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Shut down computer</source>
         <translation>Τερματισμός του υπολογιστή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Add black borders for subtitles by default</source>
         <translation>Προσθήκη μαύρων λωρίδων για τους υπότιτλους από προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Μπορείτε να επιλέξετε αυτή την επιλογή εάν η κάρτα γραφικών σας ή το επιλεγμένο πρόγραμμα οδήγησης εξόδου βίντεο δεν υποστηρίζει ισοστάθμιση βίντεο . &lt;b&gt;Σημείωση:&lt;/b&gt; αυτή η επιλογή μπορεί να είναι ασύμβατη με ορισμένους οδηγούς εξόδου βίντεο.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1160"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, όλα τα βίντεο θα αναπαράγονται σε πλήρη οθόνη.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1188"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Global audio equalizer</source>
         <translation>Καθολικός ισοσταθμιστής ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1189"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, όλα τα αρχεία πολυμέσων κάνουν κοινή χρήση του ισοσταθμιστή ήχου.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Αν δεν είναι ενεργοποιημένο, οι τιμές του ισοσταθμιστή ήχου αποθηκεύονται παράλληλα με το αρχείο και ανακτώνται κατά την αναπαραγωγή του αρχείου αργότερα.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS διέλευση μέσω S/PDIF και HDMI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1199"/>
+        <location filename="../prefgeneral.cpp" line="1216"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Απαιτεί τον αριθμό των καναλιών αναπαραγωγής. Το %1 ρωτά τον αποκωδικοποιητή να αποκωδικοποιήσει τον ήχο σε όσα κανάλια έχουν καθοριστεί. Στη συνέχεια, εναπόκειται στον αποκωδικοποιητή να εκπληρώσει το αίτημα. Αυτό είναι συνήθως σημαντικό μόνο κατά την αναπαραγωγή βίντεο με ήχο AC3 (όπως τα DVD). Στην περίπτωση αυτή το liba52 κάνει την αποκωδικοποίηση εξ ορισμού και διορθώνει χαμηλώνοντας τον ήχο στον απαιτούμενο αριθμό καναλιών. &lt;b&gt;Σημείωση&lt;/b&gt;: Αυτή η επιλογή χρησιμοποιείται από κωδικοποιητές (μόνο AC3), φίλτρα (περιβάλλων ήχου) και προγράμματα οδήγησης εξόδου ήχου (OSS τουλάχιστον).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1227"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Επιτρέπει την αλλαγή της ταχύτητας αναπαραγωγής χωρίς μεταβολή βήματος.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1218"/>
+        <location filename="../prefgeneral.cpp" line="1235"/>
         <source>Software volume control</source>
         <translation>Έλεγχος έντασης λογισμικού</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Ενεργοποιήσετε αυτήν την επιλογή για να χρησιμοποιείστε τον μίκτη του προγράμματος, αντί του μίκτη της κάρτας γραφικών.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Postprocessing quality</source>
         <translation>Ποιότητα μετεπεξεργασίας</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Δυναμικά αλλάζει το επίπεδο ανάλογα με το διαθέσιμο ελεύθερο χρόνο ΚΜΕ. Ο αριθμός που διευκρινίζετε θα είναι το ανώτατο χρησιμοποιούμενο όριο. Συνήθως μπορείτε να χρησιμοποιήσετε έναν μεγάλο αριθμό.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1162"/>
+        <location filename="../prefgeneral.ui" line="1165"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ήχος:</translation>
     </message>
@@ -5996,7 +6001,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Απομνημόνευση ρυθμίσεων για όλα τα αρχεία (κομμάτια, υπότιτλοι...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1181"/>
+        <location filename="../prefgeneral.ui" line="1184"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;Υπότιτλοι:</translation>
     </message>
@@ -6061,12 +6066,12 @@ Do you want to overwrite?</source>
         <translation>&amp;Μέγιστη ενίσχυση:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Direct rendering</source>
         <translation>Άμεση απόδοση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Double buffering</source>
         <translation>Διπλή ενδιάμεση μνήμη</translation>
     </message>
@@ -6081,7 +6086,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Διπλή ενδιάμεση μνήμη</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Η διπλή ενδιάμεση μνήμη διορθώνει το τρεμούλιασμα με την αποθήκευση δύο πλαισίων στη μνήμη, και την προβολή του ενός όσο αποκωδικοποιείται το επόμενο. Εάν απενεργοποιηθεί, μπορεί να έχει δυσμενείς επιπτώσεις στο OSD, αλλά συχνά αφαιρεί το τρεμούλιασμα στο OSD.</translation>
     </message>
@@ -6096,27 +6101,27 @@ Do you want to overwrite?</source>
         <translation>&amp;Κανονικοποίηση έντασης από προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Close when finished</source>
         <translation>Κλείσιμο όταν τελειώσει</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, το κύριο παράθυρο θα κλείσει αυτόματα όταν τελειώσει το τρέχον αρχείο/λίστα.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="165"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
         <source>2 (Stereo)</source>
         <translation>2 (Στερεοφωνικός)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="166"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="167"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 Surround)</translation>
     </message>
@@ -6131,77 +6136,97 @@ Do you want to overwrite?</source>
         <translation>&amp;Παύση κατά την ελαχιστοποίηση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Pause when minimized</source>
         <translation>Παύση κατά την ελαχιστοποίηση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Enable postprocessing by default</source>
         <translation>Μετεπεξεργασίας ενεργή από προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1222"/>
+        <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Max. Amplification</source>
         <translation>Μέγιστη Ενίσχυση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1246"/>
         <source>Volume normalization by default</source>
         <translation>Ομαλοποίηση έντασης από προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Μεγιστοποίηση έντασης χωρίς παραμόρφωση του ήχου.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Channels by default</source>
         <translation>Προεπιλεγμένα κανάλια</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1223"/>
+        <location filename="../prefgeneral.cpp" line="1240"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Καθορίζει το ανώτατο όριο ενίσχυσης σε ποσοστό (προεπιλογή: 110). Η τιμή των 200 θα σας επιτρέψει να ρυθμίσετε την ένταση μέχρι κατ &apos;ανώτατο όριο το διπλάσιο του κανονικού επιπέδου. Με τιμές κάτω από τα 100 της αρχικής έντασης (που είναι 100%) θα είναι το ανώτατο όριο, το οποίο π.χ. η OSD, δεν μπορεί να εμφανίσει σωστά.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1115"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Η μεταεπεξεργασία θα χρησιμοποιείται εξ ορισμού στα νέα ανοιγμένα αρχεία.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1261"/>
+        <location filename="../prefgeneral.cpp" line="1260"/>
+        <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1264"/>
+        <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1272"/>
+        <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1275"/>
+        <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1282"/>
         <source>Audio track</source>
         <translation>Κομμάτι ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1262"/>
+        <location filename="../prefgeneral.cpp" line="1283"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Καθορίζει το προεπιλεγμένο κομμάτι ήχου που θα χρησιμοποιηθεί όταν παίζετε νέα αρχεία. Αν το κομμάτι δεν υπάρχει, θα χρησιμοποιείται το πρώτο.&lt;br&gt;&lt;b&gt;Σημείωση:&lt;/b&gt; η &lt;i&gt;«προτιμώμενη γλώσσα ήχου&quot;&lt;/i&gt; έχει προτεραιότητα σε σχέση με αυτή την επιλογή.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1267"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Subtitle track</source>
         <translation>Κομμάτι υπότιτλων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1268"/>
+        <location filename="../prefgeneral.cpp" line="1289"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Καθορίζει το προεπιλεγμένο κομμάτι υπότιτλων που θα χρησιμοποιηθεί όταν παίζετε νέα αρχεία. Αν το κομμάτι δεν υπάρχει, θα χρησιμοποιείται το πρώτο. &lt;br&gt;&lt;b&gt;Σημείωση: Η&lt;/b&gt; &lt;i&gt;&quot;προτιμώμενη γλώσσα υπότιτλων&quot;&lt;/i&gt; έχει προτεραιότητα σε σχέση με αυτή την επιλογή.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1290"/>
+        <location filename="../prefgeneral.ui" line="1305"/>
         <source>Or choose a track number:</source>
         <translation>Ή επιλέξτε έναν αριθμό κομματιού:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1231"/>
+        <location filename="../prefgeneral.ui" line="1246"/>
         <source>Audi&amp;o:</source>
         <translation>&amp;Ήχος:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1197"/>
+        <location filename="../prefgeneral.ui" line="1200"/>
         <source>Preferred language:</source>
         <translation>Προτιμώμενη γλώσσα:</translation>
     </message>
@@ -6211,14 +6236,13 @@ Do you want to overwrite?</source>
         <translation>&amp;Προτιμώμενος ήχος και υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1244"/>
+        <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Υπότιτλοι:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="204"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου και υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους ή υποτίτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. Αυτό λειτουργεί μόνο για πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου και υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Τα πεδία αυτά δέχονται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου και υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους ή υποτίτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. Αυτό λειτουργεί μόνο για πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου και υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Τα πεδία αυτά δέχονται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6226,7 +6250,7 @@ Do you want to overwrite?</source>
         <translation>Υψηλή ταχύτητα &amp;αναπαραγωγής χωρίς μεταβολή βήματος</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1226"/>
         <source>High speed playback without altering pitch</source>
         <translation>Υψηλή ταχύτητα αναπαραγωγής χωρίς μεταβολή βήματος</translation>
     </message>
@@ -6256,62 +6280,62 @@ Do you want to overwrite?</source>
         <translation>Ένταση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Video</source>
         <translation>Βίντεο</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1197"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1256"/>
         <source>Preferred audio and subtitles</source>
         <translation>Προτιμώμενος ήχος και υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="173"/>
+        <location filename="../prefgeneral.cpp" line="178"/>
         <source>None</source>
         <translation>Κανένα</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="174"/>
+        <location filename="../prefgeneral.cpp" line="179"/>
         <source>Lowpass5</source>
         <translation>Lowpass5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="175"/>
+        <location filename="../prefgeneral.cpp" line="180"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (κανονικό)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="176"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (διπλός ρυθμός καρέ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="177"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Linear Blend</source>
         <translation>Γραμμική Ανάμειξη</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="178"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1105"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Deinterlace by default</source>
         <translation>Απόπλεξη εξ ορισμού</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Επιλέξτε το φίλτρο απόπλεξης που θέλετε να χρησιμοποιηθεί για τα νέα ανοιγμένα βίντεο.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1021"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Remember time position</source>
         <translation>Απομνημόνευση θέσης του χρόνου</translation>
     </message>
@@ -6321,12 +6345,12 @@ Do you want to overwrite?</source>
         <translation>Απομνημόνευση θέσης του &amp;χρόνου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1202"/>
         <source>Enable the audio equalizer</source>
         <translation>Ενεργοποίηση ισοσταθμιστή ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Ενεργοποιήσετε την επιλογή αν θέλετε να χρησιμοποιήσετε τον ισοσταθμιστή ήχου.</translation>
     </message>
@@ -6336,12 +6360,12 @@ Do you want to overwrite?</source>
         <translation>&amp;Ενεργοποίηση ισοσταθμιστή ήχου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1153"/>
         <source>Draw video using slices</source>
         <translation>Σύσταση βίντεο με χρήση τμημάτων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Ενεργοποίηση/απενεργοποίηση σύστασης βίντεο από κομμάτια/ζώνες ύψους 16 pixel. Ανάλογα με την κάρτα γραφικών και τη διαθέσιμη ενδιάμεση μνήμη μπορεί να είναι γρηγορότερο η αργότερο. Έχει επίδραση μόνο με τους κωδικοποιητές libmpeg2 και libavcodec.</translation>
     </message>
@@ -6356,36 +6380,36 @@ Do you want to overwrite?</source>
         <translation>&amp;Κλείσιμο όταν τελειώσει η αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="418"/>
-        <location filename="../prefgeneral.cpp" line="425"/>
-        <location filename="../prefgeneral.cpp" line="451"/>
+        <location filename="../prefgeneral.cpp" line="433"/>
+        <location filename="../prefgeneral.cpp" line="440"/>
+        <location filename="../prefgeneral.cpp" line="466"/>
         <source>fast</source>
         <translation>γρήγορο</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="419"/>
-        <location filename="../prefgeneral.cpp" line="447"/>
+        <location filename="../prefgeneral.cpp" line="434"/>
+        <location filename="../prefgeneral.cpp" line="462"/>
         <source>slow</source>
         <translation>αργό</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="452"/>
+        <location filename="../prefgeneral.cpp" line="467"/>
         <source>fast - ATI cards</source>
         <translation>γρήγορο - κάρτες ATI </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
-        <location filename="../prefgeneral.cpp" line="517"/>
+        <location filename="../prefgeneral.cpp" line="489"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>User defined...</source>
         <translation>Ορισμένο από χρήστη...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Default zoom</source>
         <translation>Προεπιλεγμένη μεγέθυνση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Η επιλογή αυτή καθορίζει την προεπιλεγμένη εστίαση που χρησιμοποιείται για νέα βίντεο.</translation>
     </message>
@@ -6395,34 +6419,32 @@ Do you want to overwrite?</source>
         <translation>Προεπιλεγμένη &amp;μεγέθυνση:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1013"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Αν η επιλογή αυτή είναι λάθος, το SMPlayer δε θα είναι σε θέση να παίξει τίποτα!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Γενικά, το SMPlayer θα θυμάται τις ρυθμίσεις για κάθε αρχείο που παίζετε (επιλεγμένο κομμάτι ήχου, ένταση, φίλτρα...). Απενεργοποιήσετε αυτήν την επιλογή αν δε σας αρέσει αυτή η λειτουργία.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, το αρχείο θα παύει όταν το κυρίως παράθυρο είναι κρυμμένο. Όταν το παράθυρο επανέρχεται, η αναπαραγωγή θα συνεχίζεται.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1174"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Ενεργοποιήστε αυτήν την επιλογή για να απενεργοποιήσετε την προφύλαξη οθόνης κατά την αναπαραγωγή.&lt;br&gt;Η προφύλαξη οθόνης θα ενεργοποιηθεί ξανά όταν η αναπαραγωγή τελειώσει.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς υπότιτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα των υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει τη ροή υποτίτλων, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς υπότιτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα των υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει τη ροή υποτίτλων, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6431,12 +6453,12 @@ Do you want to overwrite?</source>
         <translation>&amp;Οδηγός εξόδου:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1164"/>
         <source>Add black borders on fullscreen</source>
         <translation>Προσθήκη μαύρης κορνίζας στη πλήρη οθόνη</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1165"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Αν η επιλογή αυτή είναι ενεργοποιημένη, μια μαύρη κορνίζα θα προστεθεί στην εικόνα σε λειτουργία πλήρους οθόνης. Αυτό επιτρέπει στους υπότιτλους να εμφανίζονται στη μαύρη κορνίζα.</translation>
     </message>
@@ -6446,32 +6468,32 @@ Do you want to overwrite?</source>
         <translation>&amp;Προσθήκη μαύρης κορνίζας στην πλήρη οθόνη</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="188"/>
         <source>one ini file</source>
         <translation>ένα αρχείο ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="184"/>
+        <location filename="../prefgeneral.cpp" line="189"/>
         <source>multiple ini files</source>
         <translation>πολλαπλά αρχεία ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Method to store the file settings</source>
         <translation>Μέθοδος αποθήκευσης ρυθμίσεων του αρχείου</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Αυτή η επιλογή σας επιτρέπει να αλλάξετε τον τρόπο αποθήκευσης των ρυθμίσεων του αρχείου. Οι ακόλουθες επιλογές είναι διαθέσιμες:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1032"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;ένα αρχείο ini&lt;/b&gt;: οι ρυθμίσεις για όλα τα αναπαραχθέντα αρχεία θα αποθηκευτούν σε ένα ενιαίο αρχείο ini (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Η τελευταία αυτή μέθοδος θα μπορούσε να είναι πιο γρήγορη αν υπάρχουν πληροφορίες για πολλά αρχεία.</translation>
     </message>
@@ -6481,32 +6503,32 @@ Do you want to overwrite?</source>
         <translation>&amp;Αποθήκευση ρυθμίσεων σε</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;πολλαπλά αρχεία ini&lt;/b&gt;: ένα ini αρχείο θα χρησιμοποιείται για κάθε αναπαραχθέν αρχείο. Αυτά τα αρχεία ini θα αποθηκευτούν στον φάκελο %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Αν ενεργοποιήσετε αυτήν την επιλογή, ο SMPlayer θα θυμάται την τελευταία θέση του αρχείου, όταν το ανοίξετε πάλι. Αυτή η επιλογή δουλεύει μόνο με κανονική αρχεία (όχι με DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Αν είναι επιλεγμένο, ενεργοποιεί την άμεση απόδοση (δεν υποστηρίζετε από όλους τους κωδικοποιητές και εξόδους βίντεο)&lt;br&gt;&lt;b&gt;Προειδοποίηση:&lt;/b&gt; Μπορεί να προκαλέσει σφάλματα OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>Enable screenshots</source>
         <translation>Ενεργοποίηση στιγμιοτύπων</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Μπορείτε να χρησιμοποιήσετε αυτήν την επιλογή για να ενεργοποιήσετε ή να απενεργοποιήσετε τη δυνατότητα να πάρει στιγμιότυπα.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Εδώ μπορείτε να καθορίσετε έναν φάκελο όπου τα στιγμιότυπα που λαμβάνονται από τον SMPlayer θα αποθηκεύονται. Εάν ο φάκελος δεν είναι έγκυρος τα στιγμιότυπα θα απενεργοποιούνται.</translation>
     </message>
@@ -6526,17 +6548,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Φάκελος:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1212"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Global volume</source>
         <translation>Γενική ένταση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1213"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, η ίδια ένταση θα χρησιμοποιείται για όλα τα αρχεία που αναπαράγονται. Εάν η επιλογή δεν είναι επιλεγμένη κάθε αρχείο θα χρησιμοποιεί τη δική του ένταση.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>This option also applies for the mute control.</source>
         <translation>Η δυνατότητα αυτή ισχύει επίσης και για τον έλεγχο σίγασης.</translation>
     </message>
@@ -6546,22 +6568,22 @@ Do you want to overwrite?</source>
         <translation>&amp;Γενική ένταση</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Switch screensaver off</source>
         <translation>Απενεργοποίηση προφύλαξης οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Αυτή η επιλογή απενεργοποιεί την προφύλαξη οθόνης λίγο πριν την αναπαραγωγή ενός αρχείου και να ενεργοποιείται όταν η αναπαραγωγή τελειώνει. Όταν αυτή η επιλογή είναι ενεργοποιημένη, η προφύλαξη οθόνης δεν θα εμφανιστεί ακόμα και αν παίζει αρχεία ήχου ή όταν ένα αρχείο έχει διακοπεί.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Avoid screensaver</source>
         <translation>Αποφυγή προφύλαξης οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Όταν είναι ενεργοποιημένη αυτή η επιλογή, ο SMPlayer θα προσπαθήσει να εμποδίσει την προφύλαξη οθόνης να εμφανίζεται κατά την αναπαραγωγή ενός αρχείου βίντεο. Η προφύλαξη οθόνης θα επιτρέπεται να εμφανίζεται κατά την αναπαραγωγή ενός αρχείου ήχου ή σε κατάσταση παύσης. Αυτή η επιλογή λειτουργεί μόνο οταν το παράθυρο SMPlayer είναι σε πρώτο πλάνο.</translation>
     </message>
@@ -6581,22 +6603,22 @@ Do you want to overwrite?</source>
         <translation>Απο&amp;φυγή προφύλαξης οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1232"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Audio/video auto synchronization</source>
         <translation>Αυτόματος συγχρονισμός ήχου/εικόνας</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1250"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Βαθμιαία ρυθμίζει συγχρονισμό ήχ/εικ βάσει μετρήσεων καθυστέρησης ήχου.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>A-V sync correction</source>
         <translation>Διόρθωση συγχρονισμού ήχ/εικ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1237"/>
+        <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Μέγιστη διόρθωση συγχρονισμού για ήχ/εικ ανά καρέ (σε δευτερόλεπτα)</translation>
     </message>
@@ -6626,7 +6648,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Μέγιστη διόρθωση:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Σημείωση:&lt;/b&gt; Αυτή η επιλογή δεν θα χρησιμοποιηθεί για τηλεοπτικά κανάλια.</translation>
     </message>
@@ -6636,22 +6658,22 @@ Do you want to overwrite?</source>
         <translation>Απόπλε&amp;ξη εξ ορισμού (εκτός από την TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1211"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Χρήση διέλευσης υλικού AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1195"/>
+        <location filename="../prefgeneral.cpp" line="1212"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Σημείωση:&lt;/b&gt; δεν θα χρησιμοποιηθεί κανένα φίλτρο ήχου όταν είναι ενεργοποιημένη αυτή η επιλογή.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="441"/>
         <source>snap mode</source>
         <translation>λειτουργία snap</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="427"/>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <source>slower dive mode</source>
         <translation>λειτουργία slower dive</translation>
     </message>
@@ -9788,19 +9810,19 @@ Do you want to overwrite?</source>
         <translation>προσδιορίζει τον φάκελο όπου το smplayer θα αποθηκεύσει τα αρχεία ρυθμίσεων του (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="183"/>
+        <location filename="../mediasettings.cpp" line="188"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>απενεργποιημένο</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="194"/>
+        <location filename="../mediasettings.cpp" line="199"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>αυτόματο</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="195"/>
+        <location filename="../mediasettings.cpp" line="200"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>άγνωστο</translation>

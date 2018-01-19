@@ -2246,68 +2246,68 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3144"/>
+        <location filename="../core.cpp" line="3185"/>
         <source>Brightness: %1</source>
         <translation>Lysstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3160"/>
+        <location filename="../core.cpp" line="3201"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3175"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3190"/>
+        <location filename="../core.cpp" line="3231"/>
         <source>Hue: %1</source>
         <translation>Kulørverdi: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3205"/>
+        <location filename="../core.cpp" line="3246"/>
         <source>Saturation: %1</source>
         <translation>Fargemetning. %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3348"/>
+        <location filename="../core.cpp" line="3389"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4303"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3476"/>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3517"/>
+        <location filename="../core.cpp" line="3528"/>
         <source>Font scale: %1</source>
         <translation>Fontskalering: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4089"/>
+        <location filename="../core.cpp" line="4134"/>
         <source>Aspect ratio: %1</source>
         <translation>Visningsaspekt: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4496"/>
+        <location filename="../core.cpp" line="4541"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer fontmellomlageret. Dette kan ta noen sekunder...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3401"/>
+        <location filename="../core.cpp" line="3442"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Undertekstforsinkelser: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3419"/>
+        <location filename="../core.cpp" line="3460"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lydforsinkelse: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3259"/>
+        <location filename="../core.cpp" line="3300"/>
         <source>Speed: %1</source>
         <translation>Fart: %1</translation>
     </message>
@@ -2322,67 +2322,67 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
         <translation>Kunne ikke finne videoens nettadresse</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3572"/>
+        <location filename="../core.cpp" line="3613"/>
         <source>Subtitles on</source>
         <translation>Undertekster på</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3574"/>
+        <location filename="../core.cpp" line="3615"/>
         <source>Subtitles off</source>
         <translation>Undertekster av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4137"/>
+        <location filename="../core.cpp" line="4182"/>
         <source>Mouse wheel seeks now</source>
         <translation>Musehjulet spoler nå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4140"/>
+        <location filename="../core.cpp" line="4185"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Musehjulet endrer volumet nå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4143"/>
+        <location filename="../core.cpp" line="4188"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Musehjulet endrer zoomingen nå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4146"/>
+        <location filename="../core.cpp" line="4191"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Musehjulet endrer farten nå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4472"/>
+        <location filename="../core.cpp" line="4517"/>
         <source>Screenshot saved as %1</source>
         <translation>Skjermklipp lagret som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4507"/>
+        <location filename="../core.cpp" line="4552"/>
         <source>Starting...</source>
         <translation>Starter opp...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1422"/>
+        <location filename="../core.cpp" line="1426"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Skjermklippet ble IKKE tatt, siden mappen ikke er satt opp</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1435"/>
+        <location filename="../core.cpp" line="1439"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Skjermklippene ble IKKE tatt, siden mappen ikke er satt opp</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2757"/>
+        <location filename="../core.cpp" line="2787"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>A-punkt satt til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2779"/>
+        <location filename="../core.cpp" line="2812"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>B-punkt satt til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2799"/>
+        <location filename="../core.cpp" line="2835"/>
         <source>A-B markers cleared</source>
         <translation>A- og B-punktene ble fjernet</translation>
     </message>
@@ -2766,42 +2766,42 @@ Eksempler: extrastereo,karaoke</translation>
         <translation>Lyd&amp;filtre:</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="85"/>
+        <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
         <translation type="unfinished">&amp;OK</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="86"/>
+        <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;Cancel</source>
         <translation type="unfinished">&amp;Lukk</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="87"/>
+        <location filename="../filepropertiesdialog.cpp" line="90"/>
         <source>Apply</source>
         <translation>Bruk</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="94"/>
+        <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
         <translation>I&amp;nnstillinger for %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="95"/>
+        <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
         <translation>Ekstra innstillinger for %1</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="96"/>
+        <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>Her kan du overlate ekstra innstillinger til %1.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
         <translation>Skriv dem med mellomrom mellom dem.</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.cpp" line="97"/>
+        <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Example:</source>
         <translation>Eksempel:</translation>
     </message>
@@ -4594,78 +4594,78 @@ Vil du overskrive den?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="186"/>
+        <location filename="../mpvprocess.h" line="189"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>&apos;%1&apos;-filteret støttes ikke av mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="187"/>
+        <location filename="../mpvprocess.h" line="190"/>
         <source>File:</source>
         <translation>Fil:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="188"/>
+        <location filename="../mpvprocess.h" line="191"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="192"/>
         <source>Resolution:</source>
         <translation>Oppløsning:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="193"/>
         <source>Frames per second:</source>
         <translation>Bilder i sekundet:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
         <translation>Antatt:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
         <translation>Visningsaspekt:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
         <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Bitrate:</source>
         <translation>Bitfrekvens:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
         <translation>Bilder hoppet over:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Audio:</source>
         <translation>Lyd:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
         <translation>Samplingsfrekvens:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Channels:</source>
         <translation>Kanaler:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
         <translation>Synkronisering av lyd/video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Cache fill:</source>
         <translation>Mellomlagringsfyll:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
         <translation>Brukt mellomlagring:</translation>
     </message>
@@ -4798,304 +4798,304 @@ Vil du overskrive den?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Length</source>
         <translation>Lengde</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="690"/>
+        <location filename="../playlist.cpp" line="695"/>
         <source>&amp;Play</source>
         <translation>&amp;Spill av</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="736"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>&amp;Edit</source>
         <translation>&amp;Rediger</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1325"/>
-        <location filename="../playlist.cpp" line="1361"/>
+        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1408"/>
         <source>Playlists</source>
         <translation>Spillelister</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1323"/>
+        <location filename="../playlist.cpp" line="1370"/>
         <source>Choose a file</source>
         <translation>Velg en fil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1359"/>
+        <location filename="../playlist.cpp" line="1406"/>
         <source>Choose a filename</source>
         <translation>Velg et filnavn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1371"/>
+        <location filename="../playlist.cpp" line="1418"/>
         <source>Confirm overwrite?</source>
         <translation>Vil du skrive over?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>%1-filen finnes allerede.
 Vil du overskrive den?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1325"/>
-        <location filename="../playlist.cpp" line="1361"/>
-        <location filename="../playlist.cpp" line="1644"/>
+        <location filename="../playlist.cpp" line="1372"/>
+        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1691"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="366"/>
+        <location filename="../playlist.cpp" line="371"/>
         <source>Untitled playlist</source>
         <translation>Spilleliste uten navn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="687"/>
         <source>&amp;Load...</source>
         <translation>&amp;Last inn...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="684"/>
+        <location filename="../playlist.cpp" line="689"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Last ned spilleliste fra &amp;nettadresse...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="723"/>
+        <location filename="../playlist.cpp" line="728"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Spill av med en Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="730"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Spill av strømmen i &amp;en nettleser</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Load/Save</source>
         <translation>Last inn / Lagre</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1641"/>
+        <location filename="../playlist.cpp" line="1688"/>
         <source>Select one or more files to open</source>
         <translation>Velg en eller flere filer å åpne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1711"/>
+        <location filename="../playlist.cpp" line="1758"/>
         <source>Choose a directory</source>
         <translation>Velg en plassering</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1909"/>
+        <location filename="../playlist.cpp" line="1956"/>
         <source>Edit name</source>
         <translation>Rediger navn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1910"/>
+        <location filename="../playlist.cpp" line="1957"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Skriv inn navnet som denne spillelisten vil vise denne filen som:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="680"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Filename / URL</source>
         <translation>Filnavn / Nettadresse</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="685"/>
+        <location filename="../playlist.cpp" line="690"/>
         <source>Download playlist from URL</source>
         <translation>Last ned spilleliste fra nettadresse</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="687"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>&amp;Save</source>
         <translation>&amp;Lagre</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="693"/>
         <source>Save &amp;as...</source>
         <translation>Lagre &amp;som...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="692"/>
+        <location filename="../playlist.cpp" line="697"/>
         <source>&amp;Next</source>
         <translation>&amp;Neste</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="693"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Pre&amp;vious</source>
         <translation>For&amp;rige</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="699"/>
+        <location filename="../playlist.cpp" line="704"/>
         <source>Move &amp;up</source>
         <translation>Gå &amp;opp</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="700"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>Move &amp;down</source>
         <translation>Gå &amp;ned</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="707"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Gjenta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="703"/>
+        <location filename="../playlist.cpp" line="708"/>
         <source>S&amp;huffle</source>
         <translation>B&amp;land</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="706"/>
+        <location filename="../playlist.cpp" line="711"/>
         <source>Add &amp;current file</source>
         <translation>Legg til &amp;nåværende fil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="712"/>
         <source>Add &amp;file(s)</source>
         <translation>Legg til &amp;fil(er)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Add &amp;directory</source>
         <translation>Legg til &amp;plassering</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="714"/>
         <source>Add &amp;URL(s)</source>
         <translation>Legg til &amp;nettadresse(r)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Remove &amp;selected</source>
         <translation>Fjern &amp;valgte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Remove &amp;all</source>
         <translation>Fjern &amp;alle</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="716"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Slett fil fra harddisk</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="719"/>
-        <location filename="../playlist.cpp" line="1469"/>
+        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="1516"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Kopier filbanen til utklippstavlen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Åpne kildemappen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>Search</source>
         <translation>Søk</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>Show position column</source>
         <translation>Vis posisjonskolonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Show name column</source>
         <translation>Vis navnekolonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Show length column</source>
         <translation>Vis varighetskolonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="738"/>
         <source>Show filename column</source>
         <translation>Vis filnavnkolonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1474"/>
+        <location filename="../playlist.cpp" line="1521"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Kopier nettadressen til utklippstavlen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1947"/>
+        <location filename="../playlist.cpp" line="1994"/>
         <source>Confirm deletion</source>
         <translation>Bekreft sletting</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1948"/>
+        <location filename="../playlist.cpp" line="1995"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Du er i ferd med å SLETTE &apos;%1&apos;-filen fra harddisken din.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Denne handlingen kan ikke omgjøres. Er du sikker på at du vil gå videre?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1967"/>
+        <location filename="../playlist.cpp" line="2014"/>
         <source>Deletion failed</source>
         <translation>Sletting mislyktes</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1968"/>
+        <location filename="../playlist.cpp" line="2015"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Det var ikke mulig å slette &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1973"/>
+        <location filename="../playlist.cpp" line="2020"/>
         <source>Error deleting the file</source>
         <translation>Feil ved sletting av fil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1974"/>
+        <location filename="../playlist.cpp" line="2021"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Det er ikke mulig å slette &apos;%1&apos; fra filsystemet.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2510"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Det er ikke mulig å laste inn denne spillelisten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2441"/>
+        <location filename="../playlist.cpp" line="2510"/>
         <source>Unrecognized format.</source>
         <translation>Ugjenkjennelig format.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="747"/>
         <source>Add...</source>
         <translation>Legg til...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>Remove...</source>
         <translation>Fjern...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
+        <location filename="../playlist.cpp" line="1451"/>
         <source>Playlist modified</source>
         <translation>Spilleliste endret</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1405"/>
+        <location filename="../playlist.cpp" line="1452"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Det er blitt gjort ulagrede endringer, vil du lagre spillelisten?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1643"/>
+        <location filename="../playlist.cpp" line="1690"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -5713,8 +5713,8 @@ Vil du overskrive den?</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="145"/>
-        <location filename="../prefgeneral.cpp" line="1002"/>
+        <location filename="../prefgeneral.cpp" line="150"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>General</source>
         <translation>Generelt</translation>
     </message>
@@ -5729,265 +5729,270 @@ Vil du overskrive den?</translation>
         <translation>Medieinnstillinger</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1159"/>
         <source>Start videos in fullscreen</source>
         <translation>Start videoer i fullskjerm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1173"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Disable screensaver</source>
         <translation>Skru av skjermsparer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="168"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (6.1 surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="169"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (7.1 surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="195"/>
+        <location filename="../prefgeneral.cpp" line="200"/>
         <source>Select the %1 executable</source>
         <translation>Velg den eksekverbare %1-filen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="197"/>
+        <location filename="../prefgeneral.cpp" line="202"/>
         <source>Executables</source>
         <translation>Eksekverbare filer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="199"/>
+        <location filename="../prefgeneral.cpp" line="204"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="201"/>
+        <location filename="../prefgeneral.cpp" line="206"/>
         <source>Select a directory</source>
         <translation>Velg en plassering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="214"/>
+        <location filename="../prefgeneral.cpp" line="217"/>
         <source>%1 &amp;executable:</source>
         <translation>%1 &amp;eksekverbare filer:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="164"/>
-        <location filename="../prefgeneral.cpp" line="410"/>
-        <location filename="../prefgeneral.cpp" line="411"/>
+        <location filename="../prefgeneral.cpp" line="169"/>
+        <location filename="../prefgeneral.cpp" line="425"/>
+        <location filename="../prefgeneral.cpp" line="426"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="209"/>
+        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>Multimedia engine</source>
         <translation>Multimediemotor</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Velg hvilken multimediemotor du ønsker å bruke, enten MPlayer eller mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1007"/>
+        <location filename="../prefgeneral.cpp" line="1024"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Alternativet &apos;Annet&apos; gjør at du kan manuelt velge filbanen til den eksekverbare filen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>%1 executable</source>
         <translation>%1 eksekverbare filer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1028"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Her må du velge den eksekverbare %1-filen som SMPlayer skal bruke.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>Remember settings for streams</source>
         <translation>Husk innstillingene for kringkastinger</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Hvis dette alternativet er valgt, vil innstillingene for online-medier også bli husket.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1042"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Screenshots folder</source>
         <translation>Skjermklippmappe</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1048"/>
+        <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Template for screenshots</source>
         <translation>Mal for skjermklipp</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>For eksempel ville %1 lagre skjermklippet som &apos;filmnavn_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 bestemmer videoens filnavn uten utvidelsen, mens %2 legger til et 4-sifret nummer spedd ut med nuller.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Format for screenshots</source>
         <translation>Format for skjermklipp</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1079"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Denne innstillingen tillater deg å velge bildefiltypen som skjermklippene skal lagres som.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1080"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Hvis dette alternativet er valgt, vil datamaskinen skru seg av rett etter at SMPlayer har blitt lukket.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Video output driver</source>
         <translation>Videoutdatadriver</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Select the video output driver.</source>
         <translation>Velg videoutdatadriveren.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Hvis dette alternativet er valgt, vil svarte felter automatisk bli lagt til i bildet til nyåpnede filer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1182"/>
+        <location filename="../prefgeneral.cpp" line="1199"/>
         <source>Audio output driver</source>
         <translation>Lydutdatadriver</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Select the audio output driver.</source>
         <translation>Velg lydutdatadriveren.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1016"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Remember settings</source>
         <translation>Husk innstillinger</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1241"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Preferred audio language</source>
         <translation>Foretrukket lydspråk</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1251"/>
+        <location filename="../prefgeneral.cpp" line="1270"/>
         <source>Preferred subtitle language</source>
         <translation>Foretrukket undertekstspråk</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Software video equalizer</source>
         <translation>Programvaretonekontroll</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="160"/>
+        <location filename="../prefgeneral.cpp" line="165"/>
         <source>Other...</source>
         <translation>Annet...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Denne innstillingen velger filnavnmalen som skal brukes til å lagre skjermklipp.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>For en full liste over malvelgere, gå til denne lenken:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1057"/>
-        <location filename="../prefgeneral.cpp" line="1064"/>
+        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>This option only works with mpv.</source>
         <translation>Denne innstillingen fungerer bare med mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Shut down computer</source>
         <translation>Skru av datamaskinen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Add black borders for subtitles by default</source>
         <translation>Legg til svarte kanter til undertekstene som standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Du kan velge denne innstillinger dersom videotonekontrollen ikke støttes av ditt skjermkort eller din valgte videoutdatadriver.&lt;br&gt;&lt;b&gt;Bemerk&lt;/b&gt; at denne innstillingen kan være inkompatibel med noen videoutdatadrivere.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1160"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Hvis dette alternativet er valgt, vil alle videoer starte i fullskjermsmodus.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1188"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Global audio equalizer</source>
         <translation>Altomfattende lydtonekontroll</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1189"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Hvis dette alternativet er valgt, vil alle mediefiler dele på lydtonekontrollen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Hvis det ikke er valgt, vil videotonekontrollerverdiene lagres sammen med hver fil, og lastes inn igjen når filen spilles av igjen senere.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1199"/>
+        <location filename="../prefgeneral.cpp" line="1216"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Ber den om antall avspillingskanaler. %1 ber dekoderen om å dekode lyden til det antall kanaler som har blitt valgt. Deretter er det opp til dekoderen å utføre dette kravet. Dette er vanligvis kun viktig ved avspilling av videoer med AC3-lyd (deriblant DVDer). I så fall håndterer liba52 dekodingen som standard, og nedmikser lyden til det ønskede antall kanaler på korrekt vis. &lt;b&gt;Bemerk&lt;/b&gt;: Denne innstillingen følges av kodeker (kun AC3), filtre (Surround), og lydutdatadrivere (OSS gjør garantert det).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1227"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Tillater deg å endre avspillingshastigheten uten å endre tonefallet.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1218"/>
+        <location filename="../prefgeneral.cpp" line="1235"/>
         <source>Software volume control</source>
         <translation>Programvare-volumkontroller</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Velg denne innstillingen for å bruke en programvaremikser, i stedet for å bruke lydkortmikseren.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Postprocessing quality</source>
         <translation>Etterbehandlingskvalitet</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Endrer etterbehandlingsnivået dynamisk avhengig av den tilgjengelige reserve-prosessortiden. Nummeret du velger, vil bli maksnivået som kan brukes. Vanligvis kan du bruke et stort nummer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1162"/>
+        <location filename="../prefgeneral.ui" line="1165"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Lyd:</translation>
     </message>
@@ -5997,7 +6002,7 @@ Vil du overskrive den?</translation>
         <translation>Husk innstillinger for alle filer (lydspor, undertekster...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1181"/>
+        <location filename="../prefgeneral.ui" line="1184"/>
         <source>Su&amp;btitles:</source>
         <translation>Un&amp;dertekster:</translation>
     </message>
@@ -6062,12 +6067,12 @@ Vil du overskrive den?</translation>
         <translation>&amp;Maks lydforsterkning</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Direct rendering</source>
         <translation>Direkte tolkning</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Double buffering</source>
         <translation>Dobbelbufring</translation>
     </message>
@@ -6082,7 +6087,7 @@ Vil du overskrive den?</translation>
         <translation>Dob&amp;belbufring</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Dobbelbufring korrigerer flimmer ved å lagre to bilder i minnet, og viser den ene mens den dekoder den andre. Hvis det deaktiveres kan det negativt påvirke OSD, men det fjerner ofte OSD-flimmer.</translation>
     </message>
@@ -6097,27 +6102,27 @@ Vil du overskrive den?</translation>
         <translation>Volum&amp;stabilisering som standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Close when finished</source>
         <translation>Lukk når det er ferdig</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Hvis denne innstillingen er valgt, vil hovedvinduet lukkes automatisk når den nåværende filen/spillelisten er ferdig.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="165"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
         <source>2 (Stereo)</source>
         <translation>2 (stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="166"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="167"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 surround)</translation>
     </message>
@@ -6132,77 +6137,97 @@ Vil du overskrive den?</translation>
         <translation>&amp;Sett på pause ved minimering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Pause when minimized</source>
         <translation>Sett på pause ved minimering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Enable postprocessing by default</source>
         <translation>Aktiver etterbehandling som standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1222"/>
+        <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Max. Amplification</source>
         <translation>Maks lydforsterkning</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1246"/>
         <source>Volume normalization by default</source>
         <translation>Volumstabilisering som standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maksimerer volumet uten å forstyrre lyden.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Channels by default</source>
         <translation>Standardkanaler</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1223"/>
+        <location filename="../prefgeneral.cpp" line="1240"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Velger maks forsterkningsnivå i prosent (Standarden er 110). En verdi på 200 vil tillate deg å justere volumet opp til maksimalt det dobbelte av det nåværende nivået. Med verdier under 100 vil det opprinnelige volumet (som er 100%) være over det nye maksimumet, som deriblant OSD-visningen ikke kan vise riktig.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1115"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Etterbehandling vil bli brukt som standard for nyåpnede filer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1261"/>
+        <location filename="../prefgeneral.cpp" line="1260"/>
+        <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1264"/>
+        <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1272"/>
+        <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1275"/>
+        <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1282"/>
         <source>Audio track</source>
         <translation>Lydspor</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1262"/>
+        <location filename="../prefgeneral.cpp" line="1283"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Velg standardlydsporet som skal bli brukt når du spiller av nye filer. Hvis lydsporet ikke finnes, vil spor 1 bli brukt i stedet. &lt;br&gt;&lt;b&gt;Bemerk&lt;/b&gt; at &lt;i&gt;&quot;Foretrukket lydspråk&quot;&lt;/i&gt; har høyere prioritet enn denne innstillingen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1267"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Subtitle track</source>
         <translation>Undertekstspor</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1268"/>
+        <location filename="../prefgeneral.cpp" line="1289"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Velg standardundertekstsporet som skal bli brukt når du spiller av nye filer. Hvis undertekstsporet ikke finnes, vil spor 1 bli brukt i stedet. &lt;br&gt;&lt;b&gt;Bemerk&lt;/b&gt; at &lt;i&gt;&quot;Foretrukket undertekstspråk&quot;&lt;/i&gt; har høyere prioritet enn denne innstillingen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1290"/>
+        <location filename="../prefgeneral.ui" line="1305"/>
         <source>Or choose a track number:</source>
         <translation>Eller velg et spornummer:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1231"/>
+        <location filename="../prefgeneral.ui" line="1246"/>
         <source>Audi&amp;o:</source>
         <translation>Ly&amp;d:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1197"/>
+        <location filename="../prefgeneral.ui" line="1200"/>
         <source>Preferred language:</source>
         <translation>Foretrukket språk:</translation>
     </message>
@@ -6212,14 +6237,13 @@ Vil du overskrive den?</translation>
         <translation>Foretrukk&amp;et lyd og undertekst</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1244"/>
+        <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Undertekster:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="204"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et medie med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation type="obsolete">Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et medie med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6227,7 +6251,7 @@ Vil du overskrive den?</translation>
         <translation>Raskere &amp;avspilling uten å endre tonefallet</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1226"/>
         <source>High speed playback without altering pitch</source>
         <translation>Raskere avspilling uten å endre tonefallet</translation>
     </message>
@@ -6257,62 +6281,62 @@ Vil du overskrive den?</translation>
         <translation>Volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1197"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1256"/>
         <source>Preferred audio and subtitles</source>
         <translation>Foretrukket lyd og undertekst</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="173"/>
+        <location filename="../prefgeneral.cpp" line="178"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="174"/>
+        <location filename="../prefgeneral.cpp" line="179"/>
         <source>Lowpass5</source>
         <translation>Lowpass5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="175"/>
+        <location filename="../prefgeneral.cpp" line="180"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="176"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (dobbel bildefrekvens)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="177"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Linear Blend</source>
         <translation>Lineær sammenblanding</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="178"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1105"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Deinterlace by default</source>
         <translation>Avflett som standard</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Velg avflettingsfilteret du vil bruke til nye videoer som du åpner.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1021"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Remember time position</source>
         <translation>Husk tidsposisjon</translation>
     </message>
@@ -6322,12 +6346,12 @@ Vil du overskrive den?</translation>
         <translation>Husk &amp;tidsposisjon</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1202"/>
         <source>Enable the audio equalizer</source>
         <translation>Aktiver lydtonekontroll</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Velg denne innstillingen hvis du vil bruke lydtonekontrollen.</translation>
     </message>
@@ -6337,12 +6361,12 @@ Vil du overskrive den?</translation>
         <translation>&amp;Skru på lydtonekontroll</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1153"/>
         <source>Draw video using slices</source>
         <translation>Kod videobildene stykkevis</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Aktiver/deaktiver å kode videoer med 16-pikslers høye skiver. Hvis det er deaktivert, vil hele skjermen kodes i ett sett. Det kan være raskere eller tregere, avhengig av skjermkortet og den tilgjengelige mellomlagringen. Det har kun en effekt med libmpeg2- og libavcodec-kodekene.</translation>
     </message>
@@ -6357,36 +6381,36 @@ Vil du overskrive den?</translation>
         <translation>&amp;Lukk etter at avspillingen er ferdig</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="418"/>
-        <location filename="../prefgeneral.cpp" line="425"/>
-        <location filename="../prefgeneral.cpp" line="451"/>
+        <location filename="../prefgeneral.cpp" line="433"/>
+        <location filename="../prefgeneral.cpp" line="440"/>
+        <location filename="../prefgeneral.cpp" line="466"/>
         <source>fast</source>
         <translation>Raskt</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="419"/>
-        <location filename="../prefgeneral.cpp" line="447"/>
+        <location filename="../prefgeneral.cpp" line="434"/>
+        <location filename="../prefgeneral.cpp" line="462"/>
         <source>slow</source>
         <translation>Tregt</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="452"/>
+        <location filename="../prefgeneral.cpp" line="467"/>
         <source>fast - ATI cards</source>
         <translation>Raskt (ATI-kort)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
-        <location filename="../prefgeneral.cpp" line="517"/>
+        <location filename="../prefgeneral.cpp" line="489"/>
+        <location filename="../prefgeneral.cpp" line="532"/>
         <source>User defined...</source>
         <translation>Brukertilpasset...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Default zoom</source>
         <translation>Standardzooming</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Denne innstillingen velger standardzoomingen som skal brukes ved avspilling av nye videoer.</translation>
     </message>
@@ -6396,34 +6420,32 @@ Vil du overskrive den?</translation>
         <translation>Standard&amp;zooming:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1013"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Hvis denne innstillingen er feil, vil ikke SMPlayer kunne spille av noe som helst!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Vanligvis vil SMPlayer huske innstillingene til hver fil du spiller av (Valgt lydspor, volum, filtre...). Skru av dette alternativet hvis du ikke liker denne funksjonen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Hvis dette alternativet er valgt, vil filen bli satt på pause når hovedvinduet blir skjult. Når vinduet vises igjen, vil avspillingen fortsette.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1174"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Velg dette alternativet for å deaktivere skjermspareren under avspilling.&lt;br&gt;Skjermspareren vil bli aktivert igjen når avspillingen er ferdig.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyden. Når et medie med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation type="obsolete">Her kan du skrive inn ditt foretrukne språk for lyden. Når et medie med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et medie med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation type="obsolete">Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et medie med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6432,12 +6454,12 @@ Vil du overskrive den?</translation>
         <translation>Ut&amp;datadriver:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1164"/>
         <source>Add black borders on fullscreen</source>
         <translation>Legg til svarte kanter ved fullskjerm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1165"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Hvis dette alternativet er valgt, vil svarte felter bli lagt til i bildet i fullskjermsmodus. Dette gjør det mulig for undertekster å bli vist i de svarte feltene.</translation>
     </message>
@@ -6447,32 +6469,32 @@ Vil du overskrive den?</translation>
         <translation>&amp;Legg til svarte kanter ved fullskjerm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="188"/>
         <source>one ini file</source>
         <translation>én .ini-fil</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="184"/>
+        <location filename="../prefgeneral.cpp" line="189"/>
         <source>multiple ini files</source>
         <translation>flere .ini-filer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Method to store the file settings</source>
         <translation>Metode for å lagre filinnstillinger</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Denne innstillingen tillater deg å endre måten filinnstillingene blir lagret. De følgende innstillingene er tilgjengelige:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1032"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;Én .ini-fil&lt;/b&gt;: innstillingene for alle avspilte filer vil bli lagret i en enkelt .ini.fil (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Sistnevnte metode kan være raskere hvis det er informasjon for mange filer.</translation>
     </message>
@@ -6482,32 +6504,32 @@ Vil du overskrive den?</translation>
         <translation>&amp;Lagre innstillinger i</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;Flere .ini-filer&lt;/b&gt;: hver avspilte fil får tildelt sin egen .ini-fil. Disse .ini-filene vil bli lagret i %1-mappen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Hvis du velger denne innstillingen, vil SMPlayer huske den forrige tidsposisjonen til filen når du åpner den igjen. Denne innstillingen fungerer bare med vanlige filer (altså ikke med DVDer, CDer, nettadresser...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Hvis dette er valgt, skrur det på sanntidsrendering (som ikke alle kodeker eller videoutdataer støtter)&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Det kan forårsake OSD/SUB-korrumpering!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>Enable screenshots</source>
         <translation>Aktiver skjermklipp</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Du kan bruke denne innstillingen til å aktivere eller fjerne muligheten til å ta skjermklipp.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Her kan du velge en mappe der skjermklippene som tas av SMPlayer vil bli lagret. Hvis mappen ikke er gyldig, vil skjermklippfunksjonen bli skrudd av.</translation>
     </message>
@@ -6527,17 +6549,17 @@ Vil du overskrive den?</translation>
         <translation>&amp;Mappe:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1212"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Global volume</source>
         <translation>Altomfattende volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1213"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Hvis denne innstillingen er valgt, vil det samme volumnivået bli brukt i alle filene du spiller av. Hvis innstillingen ikke er valgt, vil hver fil ha sitt eget volum.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>This option also applies for the mute control.</source>
         <translation>Dette alternativet gjelder også for dempeknappen.</translation>
     </message>
@@ -6547,22 +6569,22 @@ Vil du overskrive den?</translation>
         <translation>Altom&amp;fattende volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Switch screensaver off</source>
         <translation>Skru av skjermsparer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Denne innstillingen skrur skjermspareren av rett før avspilling av en fil, og skrur den på igjen når avspillingen er ferdig. Hvis denne innstillingen er valgt, vil ikke skjermspareren dukke opp, selv under avspilling av lydfiler eller hvis en fil er satt på pause.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Avoid screensaver</source>
         <translation>Unngå skjermsparer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Hvis denne innstillingen er valgt, vil SMPlayer prøve å hindre skjermspareren i å bli vist når en videofil blir spilt av. Skjermspareren vil kun være i stand til å vises under avspilling av en lydfil eller i pausemodus. Denne innstillingen fungerer bare hvis SMPlayer-vinduet ikke er minimert.</translation>
     </message>
@@ -6582,22 +6604,22 @@ Vil du overskrive den?</translation>
         <translation>Unngå &amp;skjermsparer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1232"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Audio/video auto synchronization</source>
         <translation>Autosynkronisering av lyd/video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1250"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Justerer A/V-synkroniseringen gradvis, basert på lydforsinkelsesmålinger.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>A-V sync correction</source>
         <translation>AV-synkroniseringskorrigering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1237"/>
+        <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Maksimal A/V-synkroniseringskorrigering per bilde (i sekunder)</translation>
     </message>
@@ -6627,7 +6649,7 @@ Vil du overskrive den?</translation>
         <translation>&amp;Maks korrigering:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Bemerk:&lt;/b&gt; Denne innstillingen vil ikke bli brukt for TV-kanaler.</translation>
     </message>
@@ -6637,22 +6659,22 @@ Vil du overskrive den?</translation>
         <translation>Avf&amp;lett som standard med (Bortsett fra for TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1211"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Bruker direkte AC3 gjennom maskinvareytelse.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1195"/>
+        <location filename="../prefgeneral.cpp" line="1212"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Bemerk:&lt;/b&gt; Ingen av lydfiltrene vil bli brukt dersom denne innstillingen er aktivert.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="441"/>
         <source>snap mode</source>
         <translation>Klistremodus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="427"/>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <source>slower dive mode</source>
         <translation>Modus for tregere stuping</translation>
     </message>
@@ -9789,19 +9811,19 @@ Vil du overskrive den?</translation>
         <translation>spesifiserer plasseringen hvor SMPlayer vil lagre sine konfigureringsfiler (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="183"/>
+        <location filename="../mediasettings.cpp" line="188"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>Deaktivert</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="194"/>
+        <location filename="../mediasettings.cpp" line="199"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="195"/>
+        <location filename="../mediasettings.cpp" line="200"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>Ukjent</translation>
