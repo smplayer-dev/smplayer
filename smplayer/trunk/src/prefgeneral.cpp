@@ -1257,7 +1257,7 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(audio_lang_edit, tr("Preferred audio language"),
 #if SIMPLE_TRACK_SELECTION
-		tr("You can specify here a priority list of audio languages, separated by commas. "
+		tr("You can specify here a priority list of audio language codes, separated by commas. "
            "For example: spa,eng,jpn")
 
 #else
@@ -1269,7 +1269,7 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(subtitle_lang_edit, tr("Preferred subtitle language"),
 #if SIMPLE_TRACK_SELECTION
-		tr("You can specify here a priority list of subtitle languages, separated by commas. "
+		tr("You can specify here a priority list of subtitle language codes, separated by commas. "
            "For example: spa,eng,jpn")
 #else
 		tr("This field accepts regular expressions. Example: <b>es|esp|spa</b> "
