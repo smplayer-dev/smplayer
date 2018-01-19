@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -759,7 +757,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
         <source>About &amp;SMPlayer</source>
-        <translation>&amp;SMPlayer-eri buruz</translation>
+        <translation>S&amp;MPlayer-eri buruz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3605"/>
@@ -1055,7 +1053,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>T&amp;ablet mode</source>
-        <translation>&amp;Tableta modua</translation>
+        <translation>T&amp;ableta modua</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
@@ -1590,7 +1588,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;FAQ</source>
-        <translation>SE&amp;G</translation>
+        <translation>&amp;SEG</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
@@ -2022,7 +2020,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="350"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Irakurri Chromec&amp;ast-en</translation>
+        <translation>Irakurri &amp;Chromecast-en</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="354"/>
@@ -2032,7 +2030,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="356"/>
         <source>Information about connected &amp;screens</source>
-        <translation>Elkartutako &amp;ikusleihoei buruzko argibideak</translation>
+        <translation>&amp;Elkartutako ikusleihoei buruzko argibideak</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="359"/>
@@ -2993,10 +2991,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3094,7 +3089,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -6073,7 +6068,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="586"/>
         <source>D&amp;irect rendering</source>
-        <translation>Aurkezpen zuzen&amp;a</translation>
+        <translation>&amp;Aurkezpen zuzena</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="593"/>
@@ -6238,7 +6233,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation>Gehitu h&amp;ertz beltzak azpidatzientzat berez</translation>
+        <translation>Gehitu hertz beltzak az&amp;pidatzientzat berez</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6348,7 +6343,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>&amp;Marraztu bideoa xerrak erabiliz</translation>
+        <translation>Marraztu bideoa &amp;xerrak erabiliz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
@@ -6392,7 +6387,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="525"/>
         <source>Default &amp;zoom:</source>
-        <translation>Berezko &amp;zooma:</translation>
+        <translation>Berezko zoo&amp;ma:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1013"/>
@@ -7328,7 +7323,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>&amp;Saihestu leihoa ikusleihotik kanpo jartzea</translation>
+        <translation>Saihestu leihoa ik&amp;usleihotik kanpo jartzea</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7343,7 +7338,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation>A&amp;zala:</translation>
+        <translation>&amp;Azala:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
@@ -7418,7 +7413,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation>Gaitu D&amp;PI handiko ikusleihoentzako sostengua</translation>
+        <translation>Gaitu DPI &amp;handiko ikusleihoentzako sostengua</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7858,7 +7853,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>E&amp;zkutatu bideo leihoa audio agiriak irakurtzerakoan</translation>
+        <translation>Ezkutatu bideo &amp;leihoa audio agiriak irakurtzerakoan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="814"/>
@@ -7906,7 +7901,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation>Hobetsitako &amp;ontasuna:</translation>
+        <translation>&amp;Hobetsitako ontasuna:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -7916,7 +7911,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>C&amp;hromecast</source>
-        <translation>C&amp;hromecast</translation>
+        <translation>&amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="194"/>
@@ -7931,12 +7926,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="226"/>
         <source>&amp;Directory listing</source>
-        <translation>&amp;Zuzenbide zerrenda</translation>
+        <translation>Z&amp;uzenbide zerrenda</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="233"/>
         <source>Local &amp;IP:</source>
-        <translation>Tokiko &amp;IP-a:</translation>
+        <translation>&amp;Tokiko IP-a:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
@@ -7961,7 +7956,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation>Saiatu &amp;iragarkiak kentzen</translation>
+        <translation>&amp;Saiatu iragarkiak kentzen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="360"/>
@@ -8873,7 +8868,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation>&amp;Gehitu agiriak agiritegitik:</translation>
+        <translation>Gehitu &amp;agiriak agiritegitik:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
@@ -8888,17 +8883,17 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>Hasi irakurketa irakur-zerrenda bat gertatu ondoren</translation>
+        <translation>&amp;Hasi irakurketa irakur-zerrenda bat gertatu ondoren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation>Irakurri hurrengo agiria berezgaitasunez</translation>
+        <translation>Ira&amp;kurri hurrengo agiria berezgaitasunez</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation>Ezikusi irakurketa a&amp;katsak</translation>
+        <translation>&amp;Ezikusi irakurketa akatsak</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8913,7 +8908,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>Ge&amp;hitu zuzenbideko agiriak jarraian</translation>
+        <translation>Gehitu z&amp;uzenbideko agiriak jarraian</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
@@ -9763,19 +9758,13 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10655,7 +10644,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="56"/>
         <source>&amp;Columns:</source>
-        <translation>&amp;Zutabeak:</translation>
+        <translation>Z&amp;utabeak:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="92"/>
