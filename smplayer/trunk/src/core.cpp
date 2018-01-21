@@ -4388,7 +4388,7 @@ void Core::decZoom() {
 
 void Core::showFilenameOnOSD() {
 	qDebug("Core::showFilenameOnOSD");
-	proc->showFilenameOnOSD();
+	proc->showFilenameOnOSD(pref->osd_show_filename_duration);
 }
 
 void Core::showMediaInfoOnOSD() {

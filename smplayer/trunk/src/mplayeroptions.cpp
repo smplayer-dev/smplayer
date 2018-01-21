@@ -390,12 +390,12 @@ void MplayerProcess::showOSDText(const QString & text, int duration, int level) 
 	writeToStdin(str);
 }
 
-void MplayerProcess::showFilenameOnOSD() {
+void MplayerProcess::showFilenameOnOSD(int duration) {
 	QString s = "${filename}";
 
 	if (!osd_media_info.isEmpty()) s = osd_media_info;
 
-	writeToStdin("osd_show_property_text \"" + s + "\" 2000 0");
+	writeToStdin(QString("osd_show_property_text \"%1\" %2 0").arg(s).arg(duration));
 }
 
 void MplayerProcess::showMediaInfoOnOSD() {

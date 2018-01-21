@@ -171,6 +171,7 @@ public:
 	bool osd_fractions; //<! Show OSD times with milliseconds.
 #endif
 	int osd_bar_pos;
+	int osd_show_filename_duration;
 
 	QString file_settings_method; //!< Method to be used for saving file settings
 
@@ -178,6 +179,7 @@ public:
 	#ifdef Q_OS_WIN
 	QString tablet_mode_change_answer;
 	#endif
+
 
     /* ***************
        Drives (CD/DVD)
