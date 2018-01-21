@@ -5781,7 +5781,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -6177,22 +6177,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>您可以在此指定音訊語言代碼的優先順序清單，以英文逗號分開。範例：spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個欄位僅接受正規表示式。範例：&lt;b&gt;es|esp|spa&lt;/b&gt; 將會選取符合 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt;、&lt;i&gt;spa&lt;/i&gt; 的音軌。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>您可以在此指定字幕語言代碼的優先順序清單，以英文逗號分開。範例：spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個欄位僅接受正規表示式。範例：&lt;b&gt;es|esp|spa&lt;/b&gt; 將會選取符合 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt;、&lt;i&gt;spa&lt;/i&gt; 的字幕。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -6238,12 +6238,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>字幕(&amp;S)：</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔案。&lt;br&gt;
-&lt;br/&gt;
-下列欄位接受正規表達式，例如填入 &lt;b&gt;es|esp|spa&lt;/b&gt; ，SMPlayer 便會選取符合 &lt;b&gt;es&lt;/b&gt;、&lt;b&gt;esp&lt;/b&gt; 或是 &lt;b&gt;spa&lt;/b&gt; 的軌道。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6438,18 +6432,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>選擇此選項後，播放時將停用螢幕保護程式。&lt;br&gt;播放結束後螢幕保護程式會被再度啟用。</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔案。&lt;br&gt;
-&lt;br/&gt;
-此欄位接受正規表達式，例如填入 &lt;b&gt;es|esp|spa&lt;/b&gt; ，SMPlayer 便會選取符合 &lt;b&gt;es&lt;/b&gt;、&lt;b&gt;esp&lt;/b&gt; 或是 &lt;b&gt;spa&lt;/b&gt; 的軌道。</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔案。&lt;br&gt;
-&lt;br/&gt;
-此欄位接受正規表達式，例如填入 &lt;b&gt;es|esp|spa&lt;/b&gt; ，SMPlayer 便會選取符合 &lt;b&gt;es&lt;/b&gt;、&lt;b&gt;esp&lt;/b&gt; 或是 &lt;b&gt;spa&lt;/b&gt; 的軌道。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

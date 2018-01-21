@@ -6242,10 +6242,6 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Sottotitoli:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Qui puoi inserire la lingua preferita per l&apos;audio e i sottotitoli. Quando viene rilevato un medium con più tracce audio o sottotitoli disponibili, SMPlayer proverà a utilizzare la tua lingua preferita.&lt;br&gt;Questo funzionerà solo con un medium che dispone di info circa la lingua dell&apos;audio e del sottotitolo, come i DVD o i file mkv.&lt;br&gt;Questo campo accetta le espressioni regolari. p.es.: &lt;b&gt;it|ita&lt;/b&gt; sceglierà il sottotitolo corrispondente a &lt;i&gt;it&lt;/i&gt; o &lt;i&gt;ita&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Ri&amp;produzione ad alta velocità senza alterazione del pitch</translation>
@@ -6438,14 +6434,6 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Seleziona questa opzione per disabilitare lo screensaver.&lt;br&gt;Sarà poi riattivato alla fine della riproduzione.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Qui puoi inserire la lingua preferita per l&apos;audio. Quando viene rilevato un medium con più tracce audio disponibili, SMPlayer proverà a utilizzare la tua lingua preferita.&lt;br&gt;Questo funzionerà solo con un medium che dispone di info circa la lingua dell&apos;audio, come i DVD o i file mkv.&lt;br&gt;Questo campo accetta le espressioni regolari. p.es.: &lt;b&gt;it|ita&lt;/b&gt; sceglierà la traccia audio corrispondente a &lt;i&gt;it&lt;/i&gt; o &lt;i&gt;ita&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Qui puoi inserire la lingua preferita per i sottotitoli. Quando viene rilevato un medium con più sottotitoli disponibili, SMPlayer proverà a utilizzare la tua lingua preferita.&lt;br&gt;Questo funzionerà solo con un medium che dispone di info circa la lingua del sottotitolo, come i DVD o i file mkv.&lt;br&gt;Questo campo accetta le espressioni regolari. p.es.: &lt;b&gt;it|ita&lt;/b&gt; sceglierà il sottotitolo corrispondente a &lt;i&gt;it&lt;/i&gt; o &lt;i&gt;ita&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

@@ -6240,10 +6240,6 @@ Do you want to overwrite?</source>
         <translation>字幕(&amp;S):</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">在这里您可以键入您的音频和字幕流的首选语言。当发现媒体具有多个音频或字幕流时，SMPlayer 将尝试使用您的首选语言。这仅工作于提供音频和字幕流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。示例: &lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的轨道。</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>高速播放而不改变音调(&amp;P)</translation>
@@ -6436,14 +6432,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>勾选此选项可在播放时禁用屏幕保护程序。&lt;br&gt;播放结束时屏幕保护程序将再次启用。</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">在这里您可以键入您的音频流首选语言。当发现媒体具有多个音频流时，SMPlayer 将尝试使用您的首选语言。&lt;br&gt;这仅工作于提供音频流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。示例: &lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的音轨。</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">在这里您可以键入您的字幕流首选语言。当发现媒体具有多个字幕流时，SMPlayer 将尝试使用您的首选语言。&lt;br&gt;这仅工作于提供字幕流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。示例: &lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的字幕流。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

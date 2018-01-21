@@ -5783,7 +5783,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно указать предпочитаемый язык для аудио и субтитров. Если воспроизводимый файл содержит дорожки субтитров или аудио-дорожки на разных языках, то SMPlayer будет выбирать из них соответствующие вашим предпочтениям. Это верно для тех типов данных мультимедиа, которые содержат информацию о языке аудио-дорожек и субтитров, таких как DVD или mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -6179,22 +6179,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете указать приоритет языка звуковых дорожек, разделяя их запятыми: Например: rus,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это поле принимает регулярные выражения. Например: &lt;b&gt;ru|rus|russian&lt;/b&gt; означает, что будут выбраны аудио-дорожки, содержащие в названии языка &lt;i&gt;ru&lt;/i&gt;, &lt;i&gt;rus&lt;/i&gt; или &lt;i&gt;russian.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете указать приоритет языка субтитров, разделяя их запятыми: Например: rus,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Это поле принимает регулярные выражения. Например: &lt;b&gt;ru|rus|russian&lt;/b&gt; означает, что будут выбраны субтитры, содержащие в названии языка &lt;i&gt;ru&lt;/i&gt;, &lt;i&gt;rus&lt;/i&gt; или &lt;i&gt;russian&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -6240,10 +6240,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>Су&amp;бтитры:</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Здесь можно указать предпочитаемый для аудио и субтитров язык. Если воспроизводимый файл содержит дорожки субтитров или аудиодорожки на разных языках, то SMPlayer будет выбирать из них соответствующие вашим предпочтениям.&lt;br&gt;Сказанное выше верно для тех типов данных мультимедиа, которые содержат информацию о языке аудиодорожек и субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;ru|rus&lt;/b&gt; означает, что будут выбраны дорожки, содержащие в названии &lt;i&gt;ru&lt;/i&gt; или &lt;i&gt;rus&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6438,14 +6434,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Отметьте эту опцию, чтобы отключить хранитель экрана во время воспроизведения.&lt;br&gt; Он будет включён снова по окончании воспроизведения.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Здесь можно указать предпочитаемый язык для звуковых дорожек. Если воспроизводимое видео содержит несколько звуковых дорожек, то SMPlayer будет использовать ту из них, которая соответствует вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов данных мультимедиа, которые содержат информацию о языке звуковых дорожек, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;ru|rus&lt;/b&gt; означает, что будет выбрана звуковая дорожка, содержащая в названии языка &lt;i&gt;ru&lt;/i&gt; или &lt;i&gt;rus&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Здесь можно указать предпочитаемый язык для субтитров. Если проигрываемый фильм содержит субтитры на разных языках, то SMPlayer будет использовать те из них, которые соответствуют вашим предпочтениям.&lt;br&gt;Все сказанное верно для тех типов данных мультимедиа, которые содержат информацию о языке субтитров, таких как DVD или mkv.&lt;br&gt;Также можно использовать регулярные выражения. Например: &lt;b&gt;ru|rus&lt;/b&gt; означает, что будут выбраны субтитры, содержащие в названии языка &lt;i&gt;ru&lt;/i&gt; или &lt;i&gt;rus&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

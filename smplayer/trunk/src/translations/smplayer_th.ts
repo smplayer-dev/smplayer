@@ -6237,10 +6237,6 @@ Do you want to overwrite?</source>
         <translation>ศัพท์&amp;บรรยาย:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">ที่นี่คุณสามารถพิมพ์ภาษาที่ชอบสำหรับกระแสเสียงและศัพท์บรรยาย เมื่อพบสื่อที่มีหลายกระแสเสียงหรือศัพท์ฯ SMPlayer จะพยายามใช้ภาษาที่คุณชอบ สิ่งนี้จะมีผลกับสื่อที่นำเสนอข้อมูลเกี่ยวกับภาษาของกระแสเสียงและศัพท์ฯ เช่น DVD หรือไฟล์ mkv &lt;br&gt;ช่องข้อมูลนี้ยอมรับค่าที่ระบุแบบปกติ เช่น &lt;b&gt;th|tha&lt;/b&gt; จะเลือกแทร็คที่สอดคล้องกับ &lt;i&gt;th&lt;/i&gt; หรือ &lt;i&gt;tha&lt;/i&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>เล่นความเ&amp;ร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
@@ -6433,14 +6429,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>เลือกตัวเลือกนี้เพื่อไม่ใช้งานภาพพักหน้าจอขณะกำลังเล่น &lt;br&gt;ภาพพักหน้าจอจะใช้งานได้อีกครั้งเมื่อเล่นเสร็จ.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">ที่นี่คุณสามารถพิมพ์ภาษาที่ชอบสำหรับกระแสเสียง เมื่อพบสื่อที่มีหลายกระแสเสียง SMPlayer จะพยายามใช้ภาษาที่คุณชอบ &lt;br&gt;สิ่งนี้จะมีผลกับสื่อที่นำเสนอข้อมูลเกี่ยวกับภาษาของกระแสเสียง เช่น DVD หรือไฟล์ mkv &lt;br&gt;ช่องข้อมูลนี้ยอมรับค่าที่ระบุแบบปกติ เช่น &lt;b&gt;th|tha&lt;/b&gt; จะเลือกแทร็คเสียงที่สอดคล้องกับ &lt;i&gt;th&lt;/i&gt;หรือ &lt;i&gt;tha&lt;/i&gt;</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">ที่นี่คุณสามารถพิมพ์ภาษาที่ชอบสำหรับกระแสศัพท์บรรยาย เมื่อพบสื่อที่มีหลายกระแสศัพท์ฯ SMPlayer จะพยายามใช้ภาษาที่คุณชอบ &lt;br&gt;สิ่งนี้จะมีผลกับสื่อที่นำเสนอข้อมูลเกี่ยวกับภาษาของกระแสศัพท์ฯ เช่น DVD หรือไฟล์ mkv &lt;br&gt;ช่องข้อมูลนี้ยอมรับค่าที่ระบุแบบปกติ เช่น &lt;b&gt;th|tha&lt;/b&gt; จะเลือกแทร็คศัพท์ฯที่สอดคล้องกับ &lt;i&gt;th&lt;/i&gt; หรือ &lt;i&gt;tha&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

@@ -6242,10 +6242,6 @@ Möchten Sie sie überschreiben?</translation>
         <translation>&amp;Untertitel:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hier kann die bevorzugte Sprache für die Ton- und Untertitelspur eingegeben werden. Bei Medien mit mehreren Ton- oder Untertitelspuren, wird SMPlayer versuchen die bevorzugte Sprache zu verwenden. Das funktioniert nur mit Medien, die Informationen über die Ton- und Untertitelspuren bereitstellen, wie es bei DVDs oder MKV-Dateien der Fall ist.&lt;br&gt;Diese Felder akzeptieren reguläre Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; wird die Spur auswählen, die auf &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; oder &lt;i&gt;spa&lt;/i&gt; passt.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>&amp;Hochgeschwindigkeitswiedergabe ohne Anhebung der Tonhöhe</translation>
@@ -6438,14 +6434,6 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Aktivieren Sie diese Option, um den Bildschirmschoner während der Wiedergabe zu deaktivieren.&lt;br&gt;Der Bildschirmschoner wird nach Beendigung der Wiedergabe wieder aktiviert.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hier kann die bevorzugte Sprache für die Tonspur eingegeben werden. Bei Medien mit mehreren Ton- oder Untertitelspuren, wird SMPlayer versuchen die bevorzugte Sprache zu verwenden.&lt;br&gt;Das funktioniert nur mit Medien, die Informationen über die Sprache der Tonspuren bereitstellen, wie es bei DVDs oder MKV-Dateien der Fall ist.&lt;br&gt;Dieses Feld akzeptiert reguläre Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; wird die Tonspur auswählen, die auf &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; oder &lt;i&gt;spa&lt;/i&gt; passt.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hier kann die bevorzugte Sprache für die Untertitelspur eingegeben werden. Bei Medien mit mehreren Untertiteln wird SMPlayer versuchen die bevorzugte Untertitelsprache zu verwenden.&lt;br&gt;Das funktioniert nur mit Medien, die Informationen über die Untertitelspuren bereitstellen, wie es bei DVDs oder MKV-Dateien der Fall ist.&lt;br&gt;Das Feld akzeptiert reguläre Ausdrücke. Beispiel: &lt;b&gt;es|esp|spa&lt;/b&gt; wird die Untertitelspur auswählen, die auf &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; oder &lt;i&gt;spa&lt;/i&gt; passt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

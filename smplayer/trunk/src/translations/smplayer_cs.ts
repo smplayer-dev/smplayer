@@ -6243,10 +6243,6 @@ Opravdu jej chcete přepsat?</translation>
         <translation>&amp;Titulky:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Zde můžete zadat preferovaný jazyk audio stopy nebo titulků. Pokud médium obsahuje více audio stop nebo titulků, SMPlayer zkusí zvolit preferované jazyky. Toto nastavení funguje pouze pro média, která poskytují informace o zvukových stopách a titulcích, jako DVD nebo soubory mkv.&lt;br&gt;Tato pole akceptují regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; vybere stopu, pokud odpovídá jménu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; nebo &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Rychlé &amp;přehrávání beze změny výšky zvuku</translation>
@@ -6439,14 +6435,6 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Zaškrtněte tuto položku a spořič obrazovky bude zakázán po dobu přehrávání.&lt;br&gt; Spořič bude opět povolen po skončení přehrávání.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Zde můžete zadat preferovaný jazyk audio stopy. Pokud médium obsahuje více audio stop, SMPlayer zkusí zvolit preferované jazyky. Toto nastavení funguje pouze pro média, která poskytují informace o zvukových stopách, jako DVD nebo soubory mkv.&lt;br&gt;Toto pole akceptuje regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; vybere stopu, pokud odpovídá jménu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; nebo &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Zde můžete zadat preferovaný jazyk titulků. Pokud médium obsahuje více titulků, SMPlayer zkusí zvolit preferované jazyky. Toto nastavení funguje pouze pro média, která poskytují informace o titulcích, jako DVD nebo soubory mkv.&lt;br&gt;Toto pole akceptuje regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; vybere stopu, pokud odpovídá jménu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; nebo &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

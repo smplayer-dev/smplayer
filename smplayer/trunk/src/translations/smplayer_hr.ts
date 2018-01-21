@@ -6242,10 +6242,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Podnaslov:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Ovdje možete upisati željeni jezik za zvučni zapis i podnaslove. Kada je pronađen medij sa višestrukim zvučnim zapisima i podnaslovima, SMPlayer će probati pokrenuti vaš željeni jezik.&lt;br&gt;Ovo će raditi samo sa medijima koji pružaju informacije o jeziku zvučnih zapisa i podnaslova, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati podnaslov ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Visoka brzina &amp;reprodukcije bez promjene visine zvuka</translation>
@@ -6438,14 +6434,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Odaberite ovu mogućnost za onemogućavanje čuvara zaslona tijekom reprodukcije.&lt;br&gt;Čuvar zaslona će se ponovno omogućiti kada reprodukcija završi.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Ovdje možete upisati željeni jezik zvučnih zapisa. Kada je medij sa višestrukim zvučnim zapisom pronađen, SMPlayer će probati koristiti vaš željeni jezik.&lt;br&gt;Ovo će jedino raditi sa medijima koji pružaju informacije o jeziku zvučnog zapisa, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati zvučni zapis ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Ovdje možete upisati željeni jezik podnaslova. Kada je medij sa višestrukim podnaslovima pronađen, SMPlayer će probati koristiti vaš željeni jezik.&lt;br&gt;Ovo će jedino raditi sa medijima koji pružaju informacije o jeziku podnaslova, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati podnaslov ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

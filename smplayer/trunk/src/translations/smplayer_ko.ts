@@ -5781,7 +5781,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 오디오와 자막 스트림에 선호하는 언어를 지정할 수 있습니다. 오디오나 자막 스트림이 여러 개 있는 미디어인 경우 SMPlayer는 선호하는 언어를 먼저 사용합니다. 이것은 DVD나 mkv 파일처럼 오디오와 자막 스트림의 정보를 제공하는 미디어에서만 동작합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -6177,22 +6177,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 오디오 언어 코드의 우선 순위 목록을 쉼표로 구분하여 지정할 수 있습니다. 예: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 필드에는 정규식을 사용할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt;는 만약 &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 또는 &lt;i&gt;spa&lt;/i&gt;와 일치하면 해당 오디오 트랙을 선택합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 자막 언어 코드의 우선 순위 목록을 쉼표로 구분하여 지정할 수 있습니다. 예: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 필드에는 정규식을 사용할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt;는 만약 &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 또는 &lt;i&gt;spa&lt;/i&gt;와 일치하면 해당 자막 스트림을 선택합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -6239,10 +6239,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>자막:</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">여기에서 오디오와 자막 스트림에 선호하는 언어를 지정할 수 있습니다. 오디오나 자막 스트림이 여러 개 있는 미디어인 경우 SMPlayer는 선호하는 언어를 먼저 사용합니다. 이것은 DVD나 mkv 파일처럼 오디오와 자막 스트림의 정보를 제공하는 미디어에서만 동작합니다. &lt;br&gt;이 필드에는 정규식을 사용할 수 있습니다. 예:  &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 일치하는 트랙을 선택합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6437,14 +6433,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>재생 중에 화면 보호기를 끄려면 이 옵션을 사용하세요. 화면 보호기는 재생이 끝나면 다시 활성화 됩니다.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">선호하는 오디오 스트림 언어를 여기에 입력할 수 있습니다. 오디오 스트림이 여러 개인 경우, SMPlayer는 선호하는 언어를 먼저 사용하려고 할 것입니다. 이것은 DVD나 mkv 파일처럼 오디오 스트림의 언어에 대한 정보를 제공하는 미디어에서만 동작합니다. 이 필드는 정규식을 입력할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt; 는  &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 나 &lt;i&gt;spa&lt;/i&gt;와 일치하는 오디오 트랙을 선택하게 됩니다.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">선호하는 자막스트림 언어를 여기에 입력할 수 있습니다. 자막 스트림이 여러 개인 경우, SMPlayer는 선호하는 언어를 먼저 사용하려고 할 것입니다. 이것은 DVD나 mkv 파일처럼 자막 스트림의 언어에 대한 정보를 제공하는 미디어에서만 동작합니다. 이 필드는 정규식을 입력할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt; 는  &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 나 &lt;i&gt;spa&lt;/i&gt;와 일치하는 자막 트랙을 선택하게 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

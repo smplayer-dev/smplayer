@@ -5782,7 +5782,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemen audio eta azpidatzi jarioentzat hobetsitako hizkuntza idatzi dezakezu. Azpidatzi edo audio jario anitz dituen multimedia bat aurkitzean, SMPlayer hobetsitako hizkuntza erabiltzen saiatuko da. Honek, DVD-ak edo mkv agiriak bezala,  azpidatzi eta audio jarioei buruzko argibideak eskaintzen dituzten multimediekin bakarrik jarduten du.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -6178,22 +6178,22 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemen audio hizkuntza kodeen lehentasun zerrenda bat zehaztu dezakezu, kakotxaz bananduta. Adibidez, eus, baq, eng, spa, jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eremu honek adiera arruntak onartzen ditu. Adibidea: &lt;b&gt;eu|eus|baq&lt;/b&gt; honek hauetako batekin bat datorren audio bidea hautatuko du &lt;i&gt;eu&lt;/i&gt;, &lt;i&gt;eus&lt;/i&gt; edo &lt;i&gt;baq&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemen audio azpidatzi kodeen lehentasun zerrenda bat zehaztu dezakezu, kakotxaz bananduta. Adibidez, eus, baq, eng, spa, jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eremu honek adiera arruntak onartzen ditu. Adibidea: &lt;b&gt;eu|eus|baq&lt;/b&gt; honek hauetako batekin bat datorren azpidatzi bidea hautatuko du &lt;i&gt;eu&lt;/i&gt;, &lt;i&gt;eus&lt;/i&gt; edo &lt;i&gt;baq&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -6239,10 +6239,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>Azpida&amp;tzia:</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hemen audio eta azpidatzi jarioentzat hobetsitako hizkuntza zehaztu dezakezu. Azpidatzi edo audio jario anitz dituen multimedia bat aurkitzean, smplayer hobetsitako hizkuntza erabiltzen saiatuko da.&lt;br&gt;Honek, DVD-ak edo mkv agiriak bezala,  azpidatzi eta audio jarioei buruzko argibideak eskaintzen dituzten multimediekin jarduten du.&lt;br&gt;Eremu honek adierazpen arruntak onartzen ditu. Adibidez &lt;b&gt;eu|eus|baq&lt;/b&gt; erabiliaz &lt;i&gt;eu&lt;/i&gt;, &lt;i&gt;eus&lt;/i&gt; edo &lt;i&gt;baq&lt;/i&gt;-rekin bat datorren jarioa erabiliko da.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6437,14 +6433,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Hautatu aukera hau ikusleiho-babeslea ezgaitzeko irakurketan zehar. &lt;br&gt;Ikusleiho-babeslea berriro gaituko da irakurketa amaitzean.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hemen azpidatzien jariorako hizkuntza hobetsia idatzi dezakezu. Azpidatzi jario anitz dituen multimedia bat aurkitzen denean, SMPlayer saiatuko da erabiltzen zuk hobetsitako hizkuntza. &lt;br&gt;Honek bakarrik lan egingo du azpidatzi jarioaren argibideak ematen dituzten multimediekin, DVD-ak edo mkv agiriak bezala.&lt;br&gt;Eremu honek adierazpen arruntak onartzen ditu. Adibidez: &lt;b&gt;eu|eus|baq&lt;/b&gt; idatziz gero &lt;i&gt;eu&lt;/i&gt;, &lt;i&gt;eus&lt;/i&gt; edo &lt;i&gt;baq&lt;/i&gt;-rekin bat datorren azpidatzi jarioa hautatuko du.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Hemen azpidatzien jariorako hizkuntza hobetsia idatzi dezakezu. Azpidatzi jario anitz dituen multimedia bat aurkitzen denean, SMPlayer saiatuko da erabiltzen zuk hobetsitako hizkuntza. &lt;br&gt;Honek bakarrik lan egingo du azpidatzi jarioaren argibideak ematen dituzten multimediekin, DVD-ak edo mkv agiriak adibidez.&lt;br&gt;Eremu honek adierazpen arruntak onartzen ditu. Adibidez: &lt;b&gt;eu|eus|baq&lt;/b&gt; idatziz gero &lt;i&gt;eu&lt;/i&gt;, &lt;i&gt;eus&lt;/i&gt; edo &lt;i&gt;baq&lt;/i&gt;-rekin bat datorren azpidatzi jarioa hautatuko du.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

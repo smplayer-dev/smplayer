@@ -6242,10 +6242,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Субтитри:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>В&amp;исока швидкість відтворення без зміни кроку</translation>
@@ -6438,14 +6434,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Встановіть цю опцію, щоб вимкнути зберігач екрану під час відтворення.&lt;br&gt;Зберігач екрану увімкнеться знову, коли відтворення завершиться.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати мову для звукових доріжок. При знаходженні декількох звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює лише для форматів, які надають відомості про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатися використати бажану для вас мову.&lt;br&gt;Це працює лише для форматів, які надають відомості про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

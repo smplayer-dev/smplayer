@@ -6240,10 +6240,6 @@ El voleu sobreescriure?</translation>
         <translation>&amp;Subtítols:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Aquí podeu teclejar el vostre idioma preferit per als fluxos de l&apos;àudio i del subtítol. Quan es trobi un mitjà amb diversos fluxos d&apos;àudio o de subtítols, smplayer intentarà utilitzar el vostre idioma preferit.&lt;br&gt;Això només funcionarà amb els mitjans que ofereixen informació sobre els fluxos de l&apos;idioma de l&apos;àudio i dels subtítols, com ara els DVD o els fitxers mkv.&lt;br&gt;Aquests camps accepten expressions regulars. Per exemple: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionarà la pista si coincideix amb &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Alta velocitat de re&amp;producció sense alteració de l&apos;altura</translation>

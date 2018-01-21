@@ -6240,10 +6240,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Sarikata:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>&amp;Main balik kelajuan tinggi tanpa mengubah pic</translation>
@@ -6436,14 +6432,6 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Tanda pilihan ini untuk lumpuhkan penyelamat skrin, semasa dimainkan. &lt;br&gt;Penyelamatan akan dibenarkan sekali lagi bila selesai main.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Di sini anda boleh taip bahasa digemari anda untuk strim audio. Bila media dengan strim audio berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Di sini anda boleh taip bahasa digemari anda untuk strim sarikata. Bila media dengan strim sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih strim sarikata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

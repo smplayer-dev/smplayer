@@ -6241,10 +6241,6 @@ Norite perrašyti?</translation>
         <translation>&amp;Subtitrai:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Čia galite įrašyti pageidaujamą kalbą audio ir subtitrų takeliams. Kai media failas turės keletą audio ar subtitrų takelių, SMPlayer pabandys naudoti jūsų pageidaujamą kalbą.&lt;br&gt;Tai veikia tik su media failais, kuriuose yra informacija apie audio ar subtitrų srauto kalbą (DVD ar mkv failams).&lt;br&gt;Šie laukai pripažįsta reguliarias išraiškas. Pavyzdžiui: &lt;b&gt;liet|lit&lt;/b&gt; reiškia kad bus išrinkti takeliai, kurių pavadinime bus &lt;i&gt;liet&lt;/i&gt; arba &lt;i&gt;lit&lt;/i&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Greitas atkūrimas be &amp;pič-efekto</translation>
@@ -6437,14 +6433,6 @@ Norite perrašyti?</translation>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Pažymėkite norėdami išjungti ekrano užsklandą atkūrimo metu. &lt;br&gt;Pasibaigus atkūrimui, ekrano užsklanda vėl bus įjungta.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Čia galite įrašyti pageidaujamą kalbą audio takeliams. Kai media failas turės keletą audio takelių, SMPlayer pabandys naudoti jūsų pageidaujamą kalbą.&lt;br&gt;Tai veikia tik su media failais, kuriuose yra informacija apie audio takelio kalbą (DVD ar mkv failams).&lt;br&gt;Šie laukai pripažįsta reguliarias išraiškas. Pavyzdžiui: &lt;b&gt;liet|lit&lt;/b&gt; reiškia kad bus išrinktas audio takelis, kurio pavadinime bus &lt;i&gt;liet&lt;/i&gt; arba &lt;i&gt;lit&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Čia galite įrašyti pageidaujamą kalbą subtitrų takeliams. Kai media failas turės keletą subtitrų takelių, SMPlayer pabandys naudoti jūsų pageidaujamą kalbą.&lt;br&gt;Tai veikia tik su media failais, kuriuose yra informacija apie subtitrų takelio kalbą (DVD ar mkv failams).&lt;br&gt;Šie laukai pripažįsta reguliarias išraiškas. Pavyzdžiui: &lt;b&gt;liet|lit&lt;/b&gt; reiškia kad bus išrinktas subtitrų takelis, kurio pavadinime bus &lt;i&gt;liet&lt;/i&gt; arba &lt;i&gt;lit&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
