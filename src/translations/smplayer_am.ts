@@ -6240,10 +6240,6 @@ Do you want to overwrite?</source>
         <translation>&amp;ንዑስ አርእስት:</translation>
     </message>
     <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">እዚህ የሚፈልጉትን ቋንቋ መጻፍ ይችላሉ ለ ድምፅ ንዑስ አርእስት ማስተላለፊያ: በርካታ ድምፅ በ መገናኛ ወይንም ንዑስ አርእስት ሲተላለፍ በ SMPlayer እርስዎ የ መረጡትን ቋንቋ ለ መጠቀም ይሞክራል: ይህ የሚሰራው መገናኛው ስለ ቋንቋው መረጃ ሲያቀርብ ነው: ስለ ድምፅ እና ንዑስ አርእስት ማስተላለፊያ እንደ DVDs ወይንም mkv ፋይሎች.&lt;br&gt;እነዚህ ሜዳዎች መደበኛ አቀራረብ ይቀበላሉ: ለምሳሌ: &lt;b&gt;es|esp|spa&lt;/b&gt; ተረኛ ይመርጣል ከ ተመሳሰለ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;. ጋር</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>በ ከፍተኛ ፍጥነት &amp;መልሶ ማጫወቻ የ ድምፅ ጥራት ሳይቀንስ</translation>
@@ -6436,14 +6432,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>ይህን ምርጫ ይምረጡ መመልከቻ ማዳኛ ለማሰናከል በሚጫወት ጊዜ&lt;br&gt;የ መመልከቻ ማዳኛ ይቀጥላል ማጫወቱን ሲጨርስ</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">እዚህ የሚፈልጉትን ቋንቋ መጻፍ ይችላሉ ለ ድምፅ ማስተላለፊያ:  በርካታ ድምፅ በ መገናኛ በሚተላለፍ ጊዜ በ SMPlayer እርስዎ የ መረጡትን ቋንቋ ለ መጠቀም ይሞክራል: &lt;br&gt;ይህ የሚሰራው መገናኛው ስለ ቋንቋው መረጃ ሲያቀርብ ነው: ስለ ድምፅ  ማስተላለፊያ እንደ DVDs ወይንም mkv ፋይሎች.&lt;br&gt;እነዚህ ሜዳዎች መደበኛ አቀራረብ ይቀበላሉ: ለምሳሌ: &lt;b&gt;es|esp|spa&lt;/b&gt; ተረኛ ይመርጣል ከ ተመሳሰለ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;. ጋር</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">እርስዎ እዚህ መጻፍ ይችላሉ የሚፈልጉትን ቋንቋ ለ ንዑስ አርእስት ማስተላለፊያ: መገናኛ በሚጫወት ጊዜ በርካታ ንዑስ አርእስት የያዘ በሚገኝ ጊዜ: የ SMPlayer የ እርስዎን ቋንቋ ምርጫ ለ መጠቀም ይሞክራል: &lt;br&gt;ይህ የሚሰራው መገናኛ ለ ንዑስ አርእስት ለሚተላለፈው ስለ ቋንቋው መረጃ ለሚያቀርብ ብቻ ነው: እንደ ዲቪዲs ወይንም mkv ፋይሎች አይነት: &lt;br&gt;ይህ ሜዳ መደበኛ መግለጫዎች ይቀበላል: ለምሳሌ: &lt;b&gt;es|esp|spa&lt;/b&gt; ይመርጣል የ ንዑስ አርእስት ማስተላለፊያ ተመሳሳይ ከሆነ ነው ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt; ጋር</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>

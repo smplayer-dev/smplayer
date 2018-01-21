@@ -46,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Μπορείτε και σεις να βοηθήσετε στη μετάφραση του SMPlayer στη γλώσσα σας.</translation>
+        <translation>Μπορείτε και εσείς να βοηθήσετε στη μετάφραση του SMPlayer στη γλώσσα σας.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -613,7 +613,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2027"/>
         <source>S&amp;tay on top</source>
-        <translation>Παραμ&amp;ονή σε πρώτο πλάνο</translation>
+        <translation>Παραμ&amp;ονή στο προσκήνιο</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
@@ -1376,7 +1376,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5075"/>
         <source>this link</source>
-        <translation>αυτόν το δεσμό</translation>
+        <translation>αυτόν τον δεσμό</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5085"/>
@@ -1590,7 +1590,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;FAQ</source>
-        <translation>Κοινές &amp;Ερωτήσεις</translation>
+        <translation>Κοινές &amp;ερωτήσεις</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
@@ -1748,7 +1748,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4980"/>
         <source>Warning - Using old MPlayer</source>
-        <translation>Προειδοποίηση - Χρησιμοποιείται παλιά έκδοση του MPlayer</translation>
+        <translation>Προειδοποίηση - Χρήση παλιάς έκδοσης του MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4981"/>
@@ -1934,22 +1934,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
         <source>Volume + &amp;Seek</source>
-        <translation>Ένταση + Ανα&amp;ζήτηση</translation>
+        <translation>Ένταση + ανα&amp;ζήτηση</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1948"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>Ένταση + Αναζήτηση + &amp;Χρονόμετρο</translation>
+        <translation>Ένταση + αναζήτηση + &amp;χρονόμετρο</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1949"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>Ένταση + Αναζήτηση + Χρονόμετρο + &amp;Συνολικός χρόνος</translation>
+        <translation>Ένταση + αναζήτηση + χρονόμετρο + &amp;συνολικός χρόνος</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Τα φίλτρα βίντεο είναι εκτός λειτουργίας κατά τη χρήση vdpau</translation>
+        <translation>Τα φίλτρα βίντεο είναι εκτός λειτουργίας κατά την χρήση vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -3052,7 +3052,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
         <source>Find Subtitles</source>
-        <translation>Εύρεση Υποτίτλων</translation>
+        <translation>Εύρεση υποτίτλων</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
@@ -3428,7 +3428,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>&amp;Παρακαλώ, επιλέξτε τη σωστή έκδοση:</translation>
+        <translation>&amp;Παρακαλώ, επιλέξτε την σωστή έκδοση:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -5782,7 +5782,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Εδώ μπορείτε να πληκτρολογήσετε την προτιμώμενη γλώσσα ροών ήχου και υποτίτλων Όταν εντοπίζεται ένα πολυμέσο με πολλαπλές ροές ήχου ή υποτίτλων, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει την γλώσσα της προτίμησής σας Αυτό λειτουργεί μόνον για πολυμέσα που παρέχουν πληροφορίες για την γλώσσα των ροών ήχου και υποτίτλων, όπως τα DVD ή τα αρχεία mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -6178,22 +6178,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Εδώ μπορείτε να καθορίσετε μια λίστα προτεραιότητας κωδικών γλώσσας για τις ροές ήχου, διαχωρισμένες με κόμμα. Πχ: el,spa,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σε αυτά τα πεδία μπορείτε να χρησιμοποιήσετε κανονικές εκφράσεις. Πχ: με &lt;b&gt;es|esp|spa&lt;/b&gt; επιλέγονται τα κομμάτια ήχου που ταιριάζουν με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Εδώ μπορείτε να καθορίσετε μια λίστα προτεραιότητας κωδικών γλώσσας για τις ροές ήχου, διαχωρισμένες με κόμμα. Πχ: el,spa,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Σε αυτά τα πεδία μπορείτε να χρησιμοποιήσετε κανονικές εκφράσεις. Πχ: με &lt;b&gt;es|esp|spa&lt;/b&gt; επιλέγονται τα κομμάτια ήχου που ταιριάζουν με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -6239,10 +6239,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="1259"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Υπότιτλοι:</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου και υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους ή υποτίτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. Αυτό λειτουργεί μόνο για πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου και υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Τα πεδία αυτά δέχονται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6437,14 +6433,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Ενεργοποιήστε αυτήν την επιλογή για να απενεργοποιήσετε την προφύλαξη οθόνης κατά την αναπαραγωγή.&lt;br&gt;Η προφύλαξη οθόνης θα ενεργοποιηθεί ξανά όταν η αναπαραγωγή τελειώσει.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα ήχου. Όταν ένα πολυμέσο έχει πολλαπλούς ήχους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα του ήχου, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει το κομμάτι, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="obsolete">Εδώ μπορείτε να πληκτρολογήσετε τη προτιμώμενη γλώσσα υποτίτλων. Όταν ένα πολυμέσο έχει πολλαπλούς υπότιτλους, ο SMPlayer θα προσπαθήσει να χρησιμοποιήσει τη γλώσσα της προτίμησής σας. &lt;br&gt;Αυτό θα λειτουργήσει με πολυμέσα που προσφέρουν πληροφορίες για τη γλώσσα των υποτίτλων, όπως τα DVD ή τα αρχεία mkv.&lt;br&gt;Το πεδίο αυτό δέχεται κανονικές εκφράσεις. Παράδειγμα: &lt;b&gt;es|esp|spa&lt;/b&gt; θα επιλέξει τη ροή υποτίτλων, αν ταιριάζει με &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ή &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -10768,7 +10756,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Εισάγετε εδώ τη συσκευή DVD ή ένα φάκελο με την εικόνα DVD.</translation>
+        <translation>Εισαγάγετε εδώ την συσκευή DVD ή έναν φάκελο με την εικόνα DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
