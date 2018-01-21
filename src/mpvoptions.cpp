@@ -767,11 +767,11 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 	}
 }
 
-void MPVProcess::showFilenameOnOSD() {
+void MPVProcess::showFilenameOnOSD(int duration) {
 #ifdef OSD_WITH_TIMER
 	osd_timer->stop();
 #endif
-	showOSDText("${filename}", 2000, 0);
+	showOSDText("${filename}", duration, 0);
 }
 
 void MPVProcess::showMediaInfoOnOSD() {

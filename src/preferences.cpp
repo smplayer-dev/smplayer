@@ -194,6 +194,7 @@ void Preferences::reset() {
 	osd_fractions = false;
 #endif
 	osd_bar_pos = 80;
+	osd_show_filename_duration = 2000;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
@@ -749,6 +750,7 @@ void Preferences::save() {
 	set->setValue("osd_fractions", osd_fractions);
 #endif
 	set->setValue("osd_bar_pos", osd_bar_pos);
+	set->setValue("osd_show_filename_duration", osd_show_filename_duration);
 
 	set->setValue("file_settings_method", file_settings_method);
 
@@ -1335,6 +1337,7 @@ void Preferences::load() {
 	osd_fractions = set->value("osd_fractions", osd_fractions).toBool();
 #endif
 	osd_bar_pos = set->value("osd_bar_pos", osd_bar_pos).toInt();
+	osd_show_filename_duration = set->value("osd_show_filename_duration", osd_show_filename_duration).toInt();
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
