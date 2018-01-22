@@ -1,7 +1,31 @@
+Version 18.2:
+
+(2018-01-21)
+ * Add option osd_show_filename_duration for smplayer.ini which specifies
+   the time (in milliseconds) that the filename would be displayed on screen.
+
+(2018-01-16)
+ * Add support for YouTube playlists. In the playlist window, click in the
+   Load/save icon, select "Load playlist from URL" and paste the URL of
+   the YouTube playlist.
+
+(2018-01-15)
+ * (mpv) Don't use --video-stereo-mode since it's deprecated.
+ * Add option emulate_mplayer_ab_section for smplayer.ini.
+
+(2018-01-03 - 2018-01-16)
+ * The initialization of the audio and subtitle tracks has been simplified
+   and now it's possible to use a priority list of languages (it uses the
+   mplayer/mpv alang and slang options).
+
+
 Version 18.1:
 
 (2018-01-09)
  * Fix Youtube.
+
+(2017-12-27)
+ * Prevent to display the OSD in fullscreen during initialization of playback.
 
 (2017-12-26)
  * Use video/x-ogm+ogg in smplayer.desktop.
