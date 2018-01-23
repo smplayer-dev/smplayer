@@ -1,3 +1,13 @@
+smplayer (18.2.0) precise; urgency=low
+
+  * Now it's possible to use a priority list of preferred languages for the
+    audio and subtitles.
+  * Now there's support for YouTube playlists. In the playlist window, click
+    in the Load/save icon, select "Load playlist from URL" and paste the URL of
+    the YouTube playlist.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 23 Jan 2018 21:19:06 +0100
+
 smplayer (18.1.0) precise; urgency=low
 
   * Fix for YouTube.
