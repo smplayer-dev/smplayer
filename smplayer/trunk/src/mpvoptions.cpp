@@ -1193,10 +1193,10 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		arg << sub_color + "=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
 	}
 
-	if (styles.borderstyle == AssStyles::Outline) {
-		arg << sub_shadow_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
-	} else {
-		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
+	arg << sub_shadow_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
+
+	if (styles.borderstyle == AssStyles::Opaque) {
+		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backgroundcolor);
 	}
 
 	if (!sub_border_color.isEmpty()) {
