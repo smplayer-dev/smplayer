@@ -38,6 +38,7 @@ public:
 	QColor primarycolor;
 	QColor backcolor;
 	QColor outlinecolor;
+	QColor backgroundcolor; // Background color when the style is Opaque
 	bool bold;
 	bool italic;
 	int halignment;

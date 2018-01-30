@@ -28,6 +28,7 @@ AssStyles::AssStyles() {
 	primarycolor = QColor("#FFFFFF");
 	backcolor = QColor("#000000");
 	outlinecolor = QColor("#000000");
+	backgroundcolor = QColor("#000000");
 	bold = false;
 	italic = false;
 	halignment = HCenter;
@@ -48,6 +49,7 @@ void AssStyles::save(QSettings * set) {
 	set->setValue("styles/primarycolor/argb", ColorUtils::colorToAARRGGBB(primarycolor));
 	set->setValue("styles/backcolor/argb", ColorUtils::colorToAARRGGBB(backcolor));
 	set->setValue("styles/outlinecolor/argb", ColorUtils::colorToAARRGGBB(outlinecolor));
+	set->setValue("styles/backgroundcolor/argb", ColorUtils::colorToAARRGGBB(backgroundcolor));
 	set->setValue("styles/bold", bold);
 	set->setValue("styles/italic", italic);
 	set->setValue("styles/halignment", halignment);
@@ -69,6 +71,7 @@ void AssStyles::load(QSettings * set) {
 	primarycolor = ColorUtils::AARRGGBBToColor(set->value("styles/primarycolor/argb", "#FFFFFFFF").toString());
 	backcolor = ColorUtils::AARRGGBBToColor(set->value("styles/backcolor/argb", "#FF000000").toString());
 	outlinecolor = ColorUtils::AARRGGBBToColor(set->value("styles/outlinecolor/argb", "#FF000000").toString());
+	backgroundcolor = ColorUtils::AARRGGBBToColor(set->value("styles/backgroundcolor/argb", "#FF000000").toString());
 
 	bold = set->value("styles/bold", bold).toBool();
 	italic = set->value("styles/italic", italic).toBool();
