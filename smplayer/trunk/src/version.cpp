@@ -20,7 +20,7 @@
 #include <QObject>
 
 #define USE_SVN_VERSIONS 1
-#define DEVELOPMENT_VERSION 0
+#define DEVELOPMENT_VERSION 1
 
 #define VERSION "18.2.0"
 
