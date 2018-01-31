@@ -97,6 +97,10 @@ bool AssStyles::exportStyles(const QString & filename) const {
 		else
 		if (valignment == 2) alignment += 6; // Top
 
+		bool is_opaque = (borderstyle == Opaque);
+		QColor bgcolor = outlinecolor;
+		if (is_opaque) bgcolor = backgroundcolor;
+
 		out << "[Script Info]" << endl;
 		out << "ScriptType: v4.00+" << endl;
 		out << "Collisions: Normal" << endl;
@@ -108,13 +112,13 @@ bool AssStyles::exportStyles(const QString & filename) const {
 		out << fontsize << "," ;
 		out << "&H" << ColorUtils::colorToAABBGGRR(primarycolor) << "," ;
 		out << "&H" << ColorUtils::colorToAABBGGRR(backcolor) << "," ;
-		out << "&H" << ColorUtils::colorToAABBGGRR(outlinecolor) << "," ;
+		out << "&H" << ColorUtils::colorToAABBGGRR(bgcolor) << "," ;
 		out << (bold ? -1 : 0) << "," ;
 		out << (italic ? -1 : 0) << "," ;
 		out << alignment << "," ;
 		out << borderstyle << "," ;
 		out << outline << "," ;
-		out << shadow << "," ;
+		out << (is_opaque ? 0 : shadow) << "," ;
 		out << marginl << "," ;
 		out << marginr << "," ;
 		out << marginv;
@@ -135,18 +139,22 @@ QString AssStyles::toString() {
 	else
 	if (valignment == 2) alignment += 4; // Top
 
+	bool is_opaque = (borderstyle == Opaque);
+	QColor bgcolor = outlinecolor;
+	if (is_opaque) bgcolor = backgroundcolor;
+
 	QString s = "PlayResX=512,PlayResY=320,"; // Aspect of 1.6, it doesn't look too bad either in 4:3 and 16:9
 
 	s += QString("Name=Default,Fontname=%1,Fontsize=%2,PrimaryColour=&H%3,BackColour=&H%4,"
                  "OutlineColour=&H%5,Bold=%6,Italic=%7,Alignment=%8,BorderStyle=%9,")
                  .arg(fontname).arg(fontsize).arg(ColorUtils::colorToAABBGGRR(primarycolor))
                  .arg(ColorUtils::colorToAABBGGRR(backcolor))
-                 .arg(ColorUtils::colorToAABBGGRR(outlinecolor))
+                 .arg(ColorUtils::colorToAABBGGRR(bgcolor))
                  .arg(bold ? 1 : 0).arg(italic ? 1 : 0)
                  .arg(alignment).arg(borderstyle);
 
 	s += QString("Outline=%1,Shadow=%2,MarginL=%3,MarginR=%4,MarginV=%5")
-                 .arg(outline).arg(shadow).arg(marginl).arg(marginr).arg(marginv);
+                 .arg(outline).arg(is_opaque ? 0 : shadow).arg(marginl).arg(marginr).arg(marginv);
 
 
 	return s;
