@@ -479,7 +479,7 @@ void PrefGeneral::updateDriverCombos() {
 		}
 		else
 		if (vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" || 
-            vo == "tga" || vo == "pnm" || vo == "md5sum" ) 
+            vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct") 
 		{
 			; // Nothing to do
 		}
