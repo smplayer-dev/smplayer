@@ -521,7 +521,7 @@ signals:
 	void noVideo();
 	void volumeChanged(int);
 #if NOTIFY_AUDIO_CHANGES
-	void audioTracksChanged();
+	void audioTracksInitialized();
 #endif
 
 	//! Sent when requested to play, but there is no file to play

@@ -4719,6 +4719,9 @@ void Core::initVideoTrack(const Tracks & videos, int selected_id) {
 
 #if NOTIFY_AUDIO_CHANGES
 void Core::initAudioTrack(const Tracks & audios, int selected_id) {
+	int old_audios_count =  mset.audios.numItems();
+	qDebug() << "Core::initAudioTrack: old_audios_count:" << old_audios_count;
+
 	mset.audios = audios;
 
 	qDebug() << "Core::initAudioTrack: num_items:" << mset.audios.numItems() << "selected_id:" << selected_id;
@@ -4729,7 +4732,10 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 
 	initializeMenus();
 	updateWidgets();
-	emit audioTracksChanged();
+
+	if (old_audios_count < 1) {
+		emit audioTracksInitialized();
+	}
 }
 #endif // NOTIFY_AUDIO_CHANGES
 
@@ -4815,7 +4821,7 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 
 	updateWidgets();
 
-	emit audioTracksChanged();
+	emit audioTracksInitialized();
 }
 #endif // NOTIFY_AUDIO_CHANGES
 
