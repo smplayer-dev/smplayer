@@ -1233,7 +1233,7 @@ For translators: don't translate this text, it will be replaced with another one
             <item row="1" column="1">
              <widget class="QSpinBox" name="audio_track_spin">
               <property name="minimum">
-               <number>1</number>
+               <number>0</number>
               </property>
               <property name="maximum">
                <number>99</number>
@@ -1295,7 +1295,7 @@ For translators: don't translate this text, it will be replaced with another one
             <item row="2" column="1">
              <widget class="QSpinBox" name="subtitle_track_spin">
               <property name="minimum">
-               <number>1</number>
+               <number>0</number>
               </property>
              </widget>
             </item>
