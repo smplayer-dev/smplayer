@@ -4736,25 +4736,21 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 
 	if (selected_id != -1) mset.current_audio_id = selected_id;
 
-#if SELECT_TRACKS_ON_STARTUP
-	qDebug() << "Core::initAudioTrack: preferred audio track:" << pref->initial_audio_track;
-	qDebug() << "Core::initAudioTrack: previous_selected_id:" << previous_selected_id;
-	if (previous_selected_id == MediaSettings::NoneSelected && pref->initial_audio_track > 0)
-		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
-			int audio_id = mset.audios.itemAt(pref->initial_audio_track-1).ID();
-			//if (previous_selected_id != audio_id) {
-				//mset.current_audio_id = previous_selected_id;
-				qDebug() << "Core::initAudioTrack: changing audio track to" << audio_id;
-				changeAudio(audio_id);
-			//}
-		}
-#endif
-
 	initializeMenus();
 	updateWidgets();
 
-	emit audioTracksInitialized();
+#if SELECT_TRACKS_ON_STARTUP
+	qDebug() << "Core::initAudioTrack: preferred audio track:" << pref->initial_audio_track << "previous_selected_id:" << previous_selected_id;
+	if (previous_selected_id == MediaSettings::NoneSelected && pref->initial_audio_track > 0) {
+		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
+			int audio_id = mset.audios.itemAt(pref->initial_audio_track-1).ID();
+			qDebug() << "Core::initAudioTrack: changing audio track to" << audio_id;
+			changeAudio(audio_id);
+		}
+	}
+#endif
 
+	emit audioTracksInitialized();
 	qDebug() << "Core::initAudioTrack: current_audio_id:" << mset.current_audio_id;
 }
 #endif // NOTIFY_AUDIO_CHANGES
@@ -4766,6 +4762,10 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 	qDebug() << "Core::initSubtitleTrack: num_items:" << mset.subs.numItems() << "selected_id:" << selected_id;
 	qDebug("Core::initSubtitleTrack: list of subtitles:");
 	mset.subs.list();
+
+#if SELECT_TRACKS_ON_STARTUP
+	int previous_selected = mset.current_subtitle_track;
+#endif
 
 	if (proc->isMPlayer()) {
 		qDebug() << "Core::initSubtitleTrack: current_subtitle_track:" << mset.current_subtitle_track;
@@ -4787,6 +4787,18 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 
 	initializeMenus();
 	updateWidgets();
+
+#if SELECT_TRACKS_ON_STARTUP
+	qDebug() << "Core::initSubtitleTrack: preferred subtitle track:" << pref->initial_subtitle_track << "previous_selected:" << previous_selected;
+	if (previous_selected == MediaSettings::NoneSelected && pref->initial_subtitle_track > 0) {
+		if (pref->initial_subtitle_track <= mset.subs.numItems()) {
+			int subtitle_track = pref->initial_subtitle_track-1;
+			qDebug() << "Core::initSubtitleTrack: changing subtitle track to" << subtitle_track;
+			changeSubtitle(subtitle_track);
+		}
+	}
+#endif
+
 }
 #endif // NOTIFY_SUB_CHANGES
 
