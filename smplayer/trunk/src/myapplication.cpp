@@ -35,8 +35,8 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 	setFallbackSessionManagementEnabled(false);
 #endif
 #if QT_VERSION >= 0x050000
-	connect(this, SIGNAL(commitDataRequest(QSessionManager)),
-            this, SLOT(commitData(QSessionManager)));
+	connect(this, SIGNAL(commitDataRequest(QSessionManager &)),
+            this, SLOT(commitData(QSessionManager &)), Qt::DirectConnection);
 #endif
 };
 
