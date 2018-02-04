@@ -104,7 +104,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	blackborders_check->hide();
 #endif
 
-#if SIMPLE_TRACK_SELECTION
+#if !SELECT_TRACKS_ON_STARTUP
 	tracks_frame->hide();
 	tracks_separator->hide();
 #endif
@@ -245,6 +245,8 @@ void PrefGeneral::setData(Preferences * pref) {
 #else
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
+#endif
+#if SELECT_TRACKS_ON_STARTUP
 	setAudioTrack( pref->initial_audio_track );
 	setSubtitleTrack( pref->initial_subtitle_track );
 #endif
@@ -349,7 +351,8 @@ void PrefGeneral::getData(Preferences * pref) {
 #else
 	pref->audio_lang = audioLang();
 	pref->subtitle_lang = subtitleLang();
-
+#endif
+#if SELECT_TRACKS_ON_STARTUP
 	pref->initial_audio_track = audioTrack();
 	pref->initial_subtitle_track = subtitleTrack();
 #endif
@@ -687,7 +690,7 @@ QString PrefGeneral::subtitleLang() {
 	return subtitle_lang_edit->text();
 }
 
-#if !SIMPLE_TRACK_SELECTION
+#if SELECT_TRACKS_ON_STARTUP
 void PrefGeneral::setAudioTrack(int track) {
 	audio_track_spin->setValue(track);
 }
@@ -1278,7 +1281,7 @@ void PrefGeneral::createHelp() {
 #endif
 	);
 
-#if !SIMPLE_TRACK_SELECTION
+#if SELECT_TRACKS_ON_STARTUP
 	setWhatsThis(audio_track_spin, tr("Audio track"),
 		tr("Specifies the default audio track which will be used when playing "
            "new files. If the track doesn't exist, the first one will be used. "

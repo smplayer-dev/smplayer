@@ -93,7 +93,7 @@ protected:
 	void setSubtitleLang(QString lang);
 	QString subtitleLang();
 
-#if !SIMPLE_TRACK_SELECTION
+#if SELECT_TRACKS_ON_STARTUP
 	void setAudioTrack(int track);
 	int audioTrack();
 

@@ -578,9 +578,9 @@ void Preferences::reset() {
 	initial_audio_channels = MediaSettings::ChDefault;
 	initial_stereo_mode = MediaSettings::Stereo;
 
-#if !SIMPLE_TRACK_SELECTION
-	initial_audio_track = 1;
-	initial_subtitle_track = 1;
+#if SELECT_TRACKS_ON_STARTUP
+	initial_audio_track = 0;
+	initial_subtitle_track = 0;
 #endif
 
 
@@ -1138,9 +1138,9 @@ void Preferences::save() {
 	set->setValue("audio_channels", initial_audio_channels);
 	set->setValue("initial_stereo_mode", initial_stereo_mode);
 
-#if !SIMPLE_TRACK_SELECTION
-	set->setValue("initial_audio_track", initial_audio_track);
-	set->setValue("initial_subtitle_track", initial_subtitle_track);
+#if SELECT_TRACKS_ON_STARTUP
+	set->setValue("preferred_audio_track", initial_audio_track);
+	set->setValue("preferred_subtitle_track", initial_subtitle_track);
 #endif
 
 	set->endGroup(); // defaults
@@ -1729,9 +1729,9 @@ void Preferences::load() {
 	initial_audio_channels = set->value("audio_channels", initial_audio_channels).toInt();
 	initial_stereo_mode = set->value("initial_stereo_mode", initial_stereo_mode).toInt();
 
-#if !SIMPLE_TRACK_SELECTION
-	initial_audio_track = set->value("initial_audio_track", initial_audio_track).toInt();
-	initial_subtitle_track = set->value("initial_subtitle_track", initial_subtitle_track).toInt();
+#if SELECT_TRACKS_ON_STARTUP
+	initial_audio_track = set->value("preferred_audio_track", initial_audio_track).toInt();
+	initial_subtitle_track = set->value("preferred_subtitle_track", initial_subtitle_track).toInt();
 #endif
 
 	set->endGroup(); // defaults

@@ -560,7 +560,7 @@ public:
 	int initial_audio_channels;
 	int initial_stereo_mode;
 
-#if !SIMPLE_TRACK_SELECTION
+#if SELECT_TRACKS_ON_STARTUP
 	int initial_audio_track;
 	int initial_subtitle_track;
 #endif
