@@ -697,6 +697,22 @@
                  </widget>
                 </item>
                 <item>
+                 <widget class="QLabel" name="opacity_num">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::Panel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Sunken</enum>
+                  </property>
+                  <property name="text">
+                   <string notr="true">0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
                  <widget class="QLabel" name="style_outline_label">
                   <property name="text">
                    <string>&amp;Outline:</string>
@@ -894,6 +910,22 @@
     <hint type="destinationlabel">
      <x>474</x>
      <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>opacity_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>opacity_num</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>318</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>318</y>
     </hint>
    </hints>
   </connection>
