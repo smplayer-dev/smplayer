@@ -4829,9 +4829,11 @@ void Core::initAudioTrack(const Tracks & audios, int selected_id) {
 		bool change_audio = (mdat.type != TYPE_STREAM); // Don't change audio with streams unless strictly necessary
 
 		int audio = mset.audios.itemAt(0).ID(); // First one
+		#if SELECT_TRACKS_ON_STARTUP
 		if (mset.audios.existsItemAt(pref->initial_audio_track-1)) {
 			audio = mset.audios.itemAt(pref->initial_audio_track-1).ID();
 		}
+		#endif
 
 		// Check if one of the audio tracks is the user preferred.
 		if (!pref->audio_lang.isEmpty()) {
@@ -4929,9 +4931,11 @@ void Core::initSubtitleTrack(const SubTracks & subs, int selected_id) {
 		if (!pref->autoload_sub) {
 			changeSubtitle(MediaSettings::SubNone);
 		} else {
+			#if SELECT_TRACKS_ON_STARTUP
 			//Select first subtitle
 			int sub = mset.subs.selectOne( pref->subtitle_lang, pref->initial_subtitle_track-1 );
 			changeSubtitle(sub);
+			#endif
 		}
 	} else {
 		// Try to restore previous subtitle track
