@@ -152,6 +152,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	style_marginl_spin->setValue(pref->ass_styles.marginl);
 	style_marginr_spin->setValue(pref->ass_styles.marginr);
 	style_marginv_spin->setValue(pref->ass_styles.marginv);
+	opacity_spin->setValue(pref->ass_styles.backgroundOpacity());
 
 	setForceAssStyles(pref->force_ass_styles);
 	setCustomizedAssStyle(pref->user_forced_ass_style);
@@ -195,6 +196,11 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_styles.marginr, style_marginr_spin->value());
 	TEST_AND_SET(pref->ass_styles.marginv, style_marginv_spin->value());
 
+	if (pref->ass_styles.backgroundOpacity() != opacity_spin->value()) {
+		pref->ass_styles.setBackgroundOpacity(opacity_spin->value());
+		requires_restart = true;
+	}
+
 	pref->ass_styles.exportStyles( Paths::subtitleStyleFile() );
 
 	TEST_AND_SET(pref->force_ass_styles, forceAssStyles());
@@ -207,12 +213,21 @@ void PrefSubtitles::getData(Preferences * pref) {
 #endif
 }
 
-void PrefSubtitles::checkBorderStyleCombo( int index ) {
+void PrefSubtitles::checkBorderStyleCombo(int index) {
 	bool b = (index == 0);
 	style_outline_spin->setEnabled(b);
 	style_shadow_spin->setEnabled(b);
 	style_outline_label->setEnabled(b);
 	style_shadow_label->setEnabled(b);
+	opacity_label->setEnabled(!b);
+	opacity_spin->setEnabled(!b);
+
+	style_outline_spin->setVisible(b);
+	style_shadow_spin->setVisible(b);
+	style_outline_label->setVisible(b);
+	style_shadow_label->setVisible(b);
+	opacity_label->setVisible(!b);
+	opacity_spin->setVisible(!b);
 }
 
 

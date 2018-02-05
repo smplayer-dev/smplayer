@@ -36,11 +36,11 @@ public:
 	virtual QString sectionName();
 	virtual QPixmap sectionIcon();
 
-    // Pass data to the dialog
-    void setData(Preferences * pref);
+	// Pass data to the dialog
+	void setData(Preferences * pref);
 
-    // Apply changes
-    void getData(Preferences * pref);
+	// Apply changes
+	void getData(Preferences * pref);
 
 protected:
 	virtual void createHelp();
@@ -85,7 +85,7 @@ protected slots:
 #ifdef FONTS_HACK
 	void on_windowsfontdir_check_toggled(bool b);
 #endif
-	void checkBorderStyleCombo( int index );
+	void checkBorderStyleCombo(int index);
 
 protected:
 	virtual void retranslateStrings();

@@ -674,6 +674,29 @@
                  </spacer>
                 </item>
                 <item>
+                 <widget class="QLabel" name="opacity_label">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="text">
+                   <string>&amp;Opacity:</string>
+                  </property>
+                  <property name="buddy">
+                   <cstring>opacity_spin</cstring>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="opacity_spin">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="maximum">
+                   <number>255</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
                  <widget class="QLabel" name="style_outline_label">
                   <property name="text">
                    <string>&amp;Outline:</string>
@@ -834,6 +857,7 @@
   <tabstop>style_alignment_combo</tabstop>
   <tabstop>style_valignment_combo</tabstop>
   <tabstop>style_border_style_combo</tabstop>
+  <tabstop>opacity_spin</tabstop>
   <tabstop>style_outline_spin</tabstop>
   <tabstop>style_shadow_spin</tabstop>
   <tabstop>force_ass_styles</tabstop>
