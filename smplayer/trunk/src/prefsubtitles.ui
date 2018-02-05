@@ -679,20 +679,20 @@
                    <bool>false</bool>
                   </property>
                   <property name="text">
-                   <string>&amp;Opacity:</string>
+                   <string>Opacity:</string>
                   </property>
                   <property name="buddy">
-                   <cstring>opacity_spin</cstring>
+                   <cstring>opacity_slider</cstring>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QSpinBox" name="opacity_spin">
-                  <property name="enabled">
-                   <bool>false</bool>
-                  </property>
+                 <widget class="QSlider" name="opacity_slider">
                   <property name="maximum">
                    <number>255</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
                   </property>
                  </widget>
                 </item>
@@ -857,7 +857,7 @@
   <tabstop>style_alignment_combo</tabstop>
   <tabstop>style_valignment_combo</tabstop>
   <tabstop>style_border_style_combo</tabstop>
-  <tabstop>opacity_spin</tabstop>
+  <tabstop>opacity_slider</tabstop>
   <tabstop>style_outline_spin</tabstop>
   <tabstop>style_shadow_spin</tabstop>
   <tabstop>force_ass_styles</tabstop>
