@@ -5709,7 +5709,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="150"/>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>General</source>
         <translation>ทั่วไป</translation>
     </message>
@@ -5724,12 +5724,12 @@ Do you want to overwrite?</source>
         <translation>การตั้งค่าสื่อ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Start videos in fullscreen</source>
         <translation>เริ่มต้นวิดีโอในแบบเต็มจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Disable screensaver</source>
         <translation>ไม่ใช้งานภาพพักหน้าจอ</translation>
     </message>
@@ -5770,8 +5770,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="169"/>
-        <location filename="../prefgeneral.cpp" line="425"/>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="428"/>
+        <location filename="../prefgeneral.cpp" line="429"/>
         <source>Default</source>
         <translation type="unfinished">ค่าตั้งต้น</translation>
     </message>
@@ -5781,117 +5781,117 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1025"/>
         <source>Multimedia engine</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1023"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>%1 executable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1028"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Remember settings for streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1044"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Screenshots folder</source>
         <translation>โฟลเดอร์ของภาพหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1065"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Template for screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Format for screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ คอมพิวเตอร์จะปิดตัวลงหลังจาก SMPlayer ถูกปิด</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1103"/>
+        <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Video output driver</source>
         <translation>ไดรเวอร์ขาออกของวิดีโอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Select the video output driver.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1129"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1199"/>
+        <location filename="../prefgeneral.cpp" line="1202"/>
         <source>Audio output driver</source>
         <translation>ไดรเวอร์ขาออกของเสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Select the audio output driver.</source>
         <translation>เลือกไดรเวอร์ขาออกของเสียง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Remember settings</source>
         <translation>จดจำการตั้งค่า</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1258"/>
+        <location filename="../prefgeneral.cpp" line="1261"/>
         <source>Preferred audio language</source>
         <translation>ภาษาเสียงที่ชอบ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1270"/>
+        <location filename="../prefgeneral.cpp" line="1273"/>
         <source>Preferred subtitle language</source>
         <translation>ภาษาศัพท์รรยายที่ชอบ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Software video equalizer</source>
         <translation>อิควอไลเซอร์วิดีโอของซอฟต์แวร์</translation>
     </message>
@@ -5901,88 +5901,88 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1069"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>This option only works with mpv.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1099"/>
         <source>Shut down computer</source>
         <translation>ปิดคอมพิวเตอร์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1131"/>
         <source>Add black borders for subtitles by default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1138"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>คุณสามารถเลือกตัวเลือกนี้ถ้าอิควอไลเซอร์วิดีโอไม่รองรับโดยการ์ดจอหรือไดรเวอร์ขาออกวิดีโอที่เลือก &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt; สิ่งนี้อาจไม่เข้ากับบางไดรเวอร์ขาออกวิดีโอ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1160"/>
+        <location filename="../prefgeneral.cpp" line="1163"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก วิดีโอทั้งหมดจะเริ่มต้นเล่นในแบบเต็มจอ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Global audio equalizer</source>
         <translation>อิควอไลเซอร์เสียงทั้งมวล</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1206"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ ไฟล์สื่อทั้งหมดจะแชร์อิควอไลเซอร์เสียงกัน</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>ถ้าไม่เลือกตัวเลือกนี้ ค่าอิควอไลเซอร์เสียงจะถูกบันทึกตามแต่ละไฟล์ และจะถูกโหลดกลับเมื่อไฟล์ถูกเล่นในครั้งต่อมา</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1213"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1227"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Software volume control</source>
         <translation>ตัวควบคุมความดังของซอฟต์แวร์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>เลือกตัวเลือกนี้เพื่อใช้ software mixer แทน sound card mixer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1120"/>
         <source>Postprocessing quality</source>
         <translation>คุณภาพ postprocessing</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>เปลี่ยนระดับ postprocessing อย่างแปรเปลี่ยนได้ ขึ้นกับเวลา CPU ที่มีเหลืออยู่ เลขที่คุณระบุจะเป็นระดับสูงสุดที่ใช้ โดยปกติคุณสามารถใช้เลขค่าใหญ่ได้.</translation>
     </message>
@@ -6062,12 +6062,12 @@ Do you want to overwrite?</source>
         <translation>การเพิ่ม&amp;สูงสุด:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Direct rendering</source>
         <translation>การแปลผลโดยตรง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Double buffering</source>
         <translation>การบัฟเฟอร์ 2 เท่า</translation>
     </message>
@@ -6082,7 +6082,7 @@ Do you want to overwrite?</source>
         <translation>การ&amp;บัฟเฟอร์ 2 เท่า</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1149"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>การบัฟเฟอร์ 2 เท่าจะแก้ปัญหาการกระพริบโดยการจัดเก็บ 2 เฟรมในหน่วยความจำ และแสดงผลหนึ่งเฟรมในขณะกำลังถอดรหัสอีกอัน ถ้าไม่ใช้งานจะส่งผลด้านลบต่อสิ่งแสดงบนจอ แต่มักจะลดการกระพริบของสิ่งแสดงบนจอ.</translation>
     </message>
@@ -6097,12 +6097,12 @@ Do you want to overwrite?</source>
         <translation>&amp;ปรับความดังให้ปกติโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Close when finished</source>
         <translation>ปิดเมื่อเสร็จสิ้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1095"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ หน้าต่างหลักจะปิดอัตโนมัติเมื่อไฟล์/บัญชีการเล่นปัจจุบันได้ทำเสร็จสิ้น.</translation>
     </message>
@@ -6132,82 +6132,82 @@ Do you want to overwrite?</source>
         <translation>&amp;พักเมื่อย่อลง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1089"/>
         <source>Pause when minimized</source>
         <translation>พักเมื่อย่อลง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1114"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Enable postprocessing by default</source>
         <translation>ใช้งาน postprocessing โดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Max. Amplification</source>
         <translation>การเพิ่มสูงสุด</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1246"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Volume normalization by default</source>
         <translation>ปรับความดังให้ปกติโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1247"/>
+        <location filename="../prefgeneral.cpp" line="1250"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>เพิ่มความดังสูงสุด โดยไม่ทำให้เสียงเพี้ยน.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1215"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Channels by default</source>
         <translation>ช่องโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1240"/>
+        <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>ตั้งระดับการเพิ่มสูงสุดในแบบร้อยละ (ค่าตั้งต้น: 110) ค่า 200 จะอนุญาตให้คุณปรับความดังสูงสุดเป็น 2 เท่าของระดับปัจจุบัน ส่วนค่าที่ต่ำกว่า 100 ค่าความดังเริ่มต้น(ซึ่งเป็นร้อยละ 100) จะมากกว่าค่าสูงสุด อาจทำให้ เช่น สิ่งแสดงบนจอแสดงผลไม่ถูกต้อง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Postprocessing จะถูกใช้โดยตั้งต้น บนไฟล์ใหม่ที่เปิด.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1260"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1264"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1272"/>
+        <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1282"/>
+        <location filename="../prefgeneral.cpp" line="1285"/>
         <source>Audio track</source>
         <translation>แทร็คเสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1283"/>
+        <location filename="../prefgeneral.cpp" line="1286"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ระบุแทร็คเสียงตั้งต้น ซึ่งจะูถูกใช้เมื่อกำลังเล่นไฟล์ใหม่ ถ้าแทร็คไม่มีอยู่ อันแรกจะถูกเลือกใช้ &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt;  &lt;i&gt;&quot;ภาษาเสียงที่ชอบ&quot;&lt;/i&gt; จะมีผลเหนือตัวเลือกนี้.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1288"/>
+        <location filename="../prefgeneral.cpp" line="1291"/>
         <source>Subtitle track</source>
         <translation>แทร็คศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1289"/>
+        <location filename="../prefgeneral.cpp" line="1292"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ระบุแทร็คศัพท์บรรยายตั้งต้น ซึ่งจะูถูกใช้เมื่อกำลังเล่นไฟล์ใหม่ ถ้าแทร็คไม่มีอยู่ อันแรกจะถูกเลือกใช้ &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt;  &lt;i&gt;&quot;ภาษาศัพท์บรรยายที่ชอบ&quot;&lt;/i&gt; จะมีผลเหนือตัวเลือกนี้.</translation>
     </message>
@@ -6242,7 +6242,7 @@ Do you want to overwrite?</source>
         <translation>เล่นความเ&amp;ร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1226"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>High speed playback without altering pitch</source>
         <translation>เล่นความเร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
     </message>
@@ -6272,17 +6272,17 @@ Do you want to overwrite?</source>
         <translation>ความดัง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Video</source>
         <translation>วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1256"/>
+        <location filename="../prefgeneral.cpp" line="1259"/>
         <source>Preferred audio and subtitles</source>
         <translation>เสียงและศัพท์บรรยายที่ชอบ</translation>
     </message>
@@ -6317,17 +6317,17 @@ Do you want to overwrite?</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlace โดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1123"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>เลือกตัวกรอง deinterlace ที่คุณต้องการใช้กับวิดีโอใหม่ที่เปิด</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Remember time position</source>
         <translation>จดจำตำแหน่งเวลา</translation>
     </message>
@@ -6337,12 +6337,12 @@ Do you want to overwrite?</source>
         <translation>จดจำ&amp;ตำแหน่งเวลา</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Enable the audio equalizer</source>
         <translation>ใช้งานอิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>เลือกตัวเลือกนี้ถ้าคุณต้องการใช้อิควอไลเซอร์เสียง.</translation>
     </message>
@@ -6352,12 +6352,12 @@ Do you want to overwrite?</source>
         <translation>ใ&amp;ช้งานอิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1156"/>
         <source>Draw video using slices</source>
         <translation>วาดวิดีโอโดยการตัดแบ่ง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>ใช้/ไม่ใช้งานการวาดวิดีโอโดยแผ่นตัดแบ่ง/แถบสูง 16 พิกเซล  ถ้าไม่ใช้งาน ทั้งเฟรมจะถูกวาดในการรันครั้งเดียว อาจจะเร็วกว่าหรือช้ากว่าขึ้นกับการ์ดจอและแคชที่มี สิ่งนี้มีผลกับเฉพาะ libmpeg2 และ libavcodec codecs.</translation>
     </message>
@@ -6372,36 +6372,36 @@ Do you want to overwrite?</source>
         <translation>&amp;ปิดเมื่อเล่นเสร็จสิ้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="433"/>
-        <location filename="../prefgeneral.cpp" line="440"/>
-        <location filename="../prefgeneral.cpp" line="466"/>
+        <location filename="../prefgeneral.cpp" line="436"/>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>fast</source>
         <translation>เร็ว</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="434"/>
-        <location filename="../prefgeneral.cpp" line="462"/>
+        <location filename="../prefgeneral.cpp" line="437"/>
+        <location filename="../prefgeneral.cpp" line="465"/>
         <source>slow</source>
         <translation>ช้า</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="467"/>
+        <location filename="../prefgeneral.cpp" line="470"/>
         <source>fast - ATI cards</source>
         <translation>เร็ว - ATI cards</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="489"/>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
+        <location filename="../prefgeneral.cpp" line="535"/>
         <source>User defined...</source>
         <translation>ผู้ใช้กำหนดเอง...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Default zoom</source>
         <translation>การขยายตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>ตัวเลือกนี้จะตั้งค่าการขยายตั้งต้น สำหรับวิดีโอใหม่ที่จะเปิด.</translation>
     </message>
@@ -6411,22 +6411,22 @@ Do you want to overwrite?</source>
         <translation>การข&amp;ยายตั้งต้น:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>ถ้าการตั้งค่านี้ผิด SMPlayer จะไม่สามารถเล่นสิ่งใดได้!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>โดยปกติ SMPlayer จะจดจำการตั้งค่าสำหรับแต่ละไฟล์ที่คุณเล่น (แทร็คเสียงที่เลือก, ความดัง, ตัวกรอง ฯลฯ) ไม่เลือกตัวเลือกนี้ได้หากคุณไม่ต้องการ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1090"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ ไฟล์จะถูกพักเมื่อหน้าต่างหลักถูกซ่อน เมื่อหน้าต่างถูกเรียกคืนกลับ การเล่นจะดำเนินต่อไป.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>เลือกตัวเลือกนี้เพื่อไม่ใช้งานภาพพักหน้าจอขณะกำลังเล่น &lt;br&gt;ภาพพักหน้าจอจะใช้งานได้อีกครั้งเมื่อเล่นเสร็จ.</translation>
     </message>
@@ -6437,12 +6437,12 @@ Do you want to overwrite?</source>
         <translation>ไดรเวอร์ขา&amp;ออก:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Add black borders on fullscreen</source>
         <translation>เพิ่มขอบสีดำบนแบบเต็มจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ ขอบสีดำจะถูกเพิ่มไปยังภาพในแบบเต็มจอ สิ่งนี้ช่วยให้ศัพท์บรรยายแสดงที่ขอบสีดำ.</translation>
     </message>
@@ -6462,22 +6462,22 @@ Do you want to overwrite?</source>
         <translation>ไฟล์ ini หลายไฟล์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>Method to store the file settings</source>
         <translation>วิธีจัดเก็บการตั้งค่าไฟล์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>ตัวเลือกนี้อนุญาตให้เปลี่ยนวิธีจัดเก็บการตั้งค่าไฟล์ ตัวเลือกที่มีได้แก่:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;ไฟล์ ini เดียว&lt;/b&gt;:การตั้งค่าสำหรับทุกไฟล์ที่เล่นจะบันทึกในไฟล์ ini เดียว (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>วิธีหลังจะเร็วกว่า ถ้ามีข้อมูลสำหรับไฟล์จำนวนมาก.</translation>
     </message>
@@ -6487,32 +6487,32 @@ Do you want to overwrite?</source>
         <translation>จัดเ&amp;ก็บการตั้งค่าใน</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1054"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;ไฟล์ ini หลายไฟล์&lt;/b&gt;: แต่ละไฟล์ที่เล่นจะใช้หนึ่งไฟล์ ini โดยไฟล์ ini เหล่านั้นจะถูกเก็บในโฟลเดอร์ %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1042"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>ถ้าเลือกตัวเลือกนี้ SMPlayer จะจดจำตำแหน่งสุดท้ายของไฟล์เมื่อคุณเปิดมันอีกครั้ง ตัวเลือกนี้มีผลเฉพาะไฟล์ปกติ (ไม่ใช่ DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1144"/>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>ถ้าเลือก เปิดการแปลผลโดยตรง (ไม่รองรับโดยทุก codec และวิดีโอขาออก)&lt;br&gt;&lt;b&gt;คำเตือน:&lt;/b&gt; อาจทำให้สิ่งแสดงบนจอ/SUB ผิดพลาด!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>Enable screenshots</source>
         <translation>ใช้งานภาพหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>คุณสามารถใช้ตัวเลือกนี้ เพื่อใช้หรือไม่ใช้งานความเป็นไปได้ในการจับภาพหน้าจอ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>ที่นี่คุณสามารถระบุโฟลเดอร์ภาพหน้าจอที่จับโดย SMPlayer จะถูกจัดเก็บ ถ้าโฟลเดอร์นี้ไม่ถูกต้องคุณลักษณะการจับภาพหน้าจอจะไม่ถูกใช้งาน.</translation>
     </message>
@@ -6532,17 +6532,17 @@ Do you want to overwrite?</source>
         <translation>โ&amp;ฟลเดอร์:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1232"/>
         <source>Global volume</source>
         <translation>ความดังโดยทั่วไป</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ ความดังที่เท่ากันจะถูกใช้กับทุกไฟล์ที่คุณเล่น ถ้าไม่เลือกสิ่งนี้ แต่ละไฟล์จะใช้ความดังของมันเอง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>This option also applies for the mute control.</source>
         <translation>ตัวเลือกนี้ยังใช้สำหรับตัวควบคุมการเงียบเสียงด้วย.</translation>
     </message>
@@ -6552,22 +6552,22 @@ Do you want to overwrite?</source>
         <translation>ความ&amp;ดังโดยทั่วไป</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1175"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Switch screensaver off</source>
         <translation>สวิตช์ปิดภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1176"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>ตัวเลือกนี้ จะปิดภาพพักหน้าจอตอนก่อนเริ่มเล่นไฟล์ และจะกลับมาเปิดภาพพักหน้าจอเมื่อเล่นเสร็จ ถ้าใช้งานตัวเลือกนี้ ภาพพักหน้าจอจะไม่ปรากฏแม้กำลังเล่นไฟล์เสียงหรือเมื่อพักไฟล์.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1182"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>Avoid screensaver</source>
         <translation>หลีกเลี่ยงภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>เมื่อเลือกสิ่งนี้ SMPlayer จะพยายามป้องกันภาพพักหน้าจอที่จะถูกแสดงเมื่อกำลังเล่นไฟล์วิดีโอ แต่จะอนุญาตให้แสดงหากกำลังเล่นไฟล์เสียงหรือพัก ตัวเลือกนี้จะทำงานเฉพาะถ้าหน้าต่าง SMPlayer อยู่เบื้องหน้า.</translation>
     </message>
@@ -6587,22 +6587,22 @@ Do you want to overwrite?</source>
         <translation>&amp;หลีกเลี่ยงภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1249"/>
+        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Audio/video auto synchronization</source>
         <translation>ซิงค์เสียง/วิดีโออัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1250"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>ปรับซิงค์ A/V อย่างเป็นขั้นตอน ยึดตามวิธีการหน่วงเสียง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1253"/>
+        <location filename="../prefgeneral.cpp" line="1256"/>
         <source>A-V sync correction</source>
         <translation>การปรับแก้ซิงค์ A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1254"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>การปรับแก้ซิงค์ A-V สูงสุดต่อเฟรม (เป็นวินาที)</translation>
     </message>
@@ -6632,7 +6632,7 @@ Do you want to overwrite?</source>
         <translation>การปรับแก้&amp;สูงสุด:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;หมายเหตุ:&lt;/b&gt; ตัวเลือกนี้ไม่สามารถใช้สำหรับช่องโทรทัศน์ได้ .</translation>
     </message>
@@ -6642,22 +6642,22 @@ Do you want to overwrite?</source>
         <translation>ลดเ&amp;ส้นภาพโดยตั้งต้น (ยกเว้นโทรทัศน์):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1211"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>ใช้ hardware AC3 passthrough.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1212"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;หมายเหตุ:&lt;/b&gt; ไม่มีการใช้ตัวกรองใดๆ เมื่อตัวเลือกนี้ถูกใช้งาน.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="441"/>
+        <location filename="../prefgeneral.cpp" line="444"/>
         <source>snap mode</source>
         <translation>snap mode</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="442"/>
+        <location filename="../prefgeneral.cpp" line="445"/>
         <source>slower dive mode</source>
         <translation>slower dive mode</translation>
     </message>
@@ -8956,7 +8956,7 @@ Do you want to overwrite?</source>
     <name>PrefSubtitles</name>
     <message>
         <location filename="../prefsubtitles.cpp" line="61"/>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Subtitles</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
@@ -8967,7 +8967,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="402"/>
         <source>Autoload</source>
         <translation>โหลดอัตโนมัติ</translation>
     </message>
@@ -8988,13 +8988,13 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="433"/>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="450"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Font</source>
         <translation>อักษร</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Size</source>
         <translation>ขนาด</translation>
     </message>
@@ -9029,67 +9029,67 @@ Do you want to overwrite?</source>
         <translation>ร&amp;วมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="388"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select first available subtitle</source>
         <translation>เลือกศัพท์บรรยายแรกที่มี</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Default subtitle encoding</source>
         <translation>การเข้ารหัสศัพท์บรรยายตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Include subtitles on screenshots</source>
         <translation>รวมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Text color</source>
         <translation>สีอักษร</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="465"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>เลือกสีของอักษรศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Border color</source>
         <translation>สีขอบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="468"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>เลือกสีขอบของศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="386"/>
+        <location filename="../prefsubtitles.cpp" line="403"/>
         <source>Select the subtitle autoload method.</source>
         <translation>เลือกวิธีโหลดศัพท์บรรยายอัตโนมัติ.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="389"/>
+        <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>ถ้ามีศัพท์บรรยายหนึ่งแทร็คหรือมากกว่า หนึ่งในนั้นจะถูกเลือกอัตโนมัติ โดยปกติคืออันแรก เว้นแต่มีหนึ่งในนั้นที่สอดคล้องกับการตั้งค่าภาษาที่ชอบของผู้ใช้ ซึ่งอันนั้นจะถูกเลือกแทน.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="412"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>เลือกการเข้ารหัสที่จะถูกใช้สำหรับไฟล์ศัพท์บรรยายโดยตั้งต้น.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="415"/>
         <source>Try to autodetect for this language</source>
         <translation>พยายามตรวจสอบอัตโนมัติ สำหรับภาษานี้</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="405"/>
+        <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Subtitle language</source>
         <translation>ภาษาศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="406"/>
+        <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>เลือกภาษา ที่คุณต้องการให้การเข้ารหัสถูกเดาโดยอัตโนมัติ.</translation>
     </message>
@@ -9104,132 +9104,132 @@ Do you want to overwrite?</source>
         <translation>พยายาม&amp;ตรวจสอบอัตโนมัติ สำหรับภาษานี้:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Outline</source>
         <translation>เส้นร่าง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="453"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Select the font for the subtitles.</source>
         <translation>เลือกอักษรสำหรับศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Use the ASS library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Enable Windows fonts</source>
         <translation>ใช้งานแบบอักษรของ Windows</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="426"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation>ถ้าใช้งานตัวเลือกนี้ แบบอักษรระบบของ Windows จะใช้ได้กับศัพท์บรรยาย แต่จะเกิดความไม่สะดวกเพราะต้องมีการสร้างแคชแบบอักษรซึ่งจะใช้เวลาสักพัก</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="429"/>
+        <location filename="../prefsubtitles.cpp" line="446"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>ถ้าไม่เลือกตัวเลือกนี้ จะมีจำนวนแบบอักษรไม่มากที่ SMPlayer จะใช้ได้ แต่ก็จะทำงานได้เร็วขึ้นมาก</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>The size in pixels.</source>
         <translation>ขนาดในหน่วยพิกเซล.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Bold</source>
         <translation>หนา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="459"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>ถ้าเลือกสิ่งนี้ ข้อความอักษรจะปรากฏเป็นตัว &lt;b&gt;หนา&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Italic</source>
         <translation>เอียง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="462"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>ถ้าเลือกสิ่งนี้ ข้อความอักษรจะปรากฏเป็นตัว &lt;i&gt;เอียง&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Left margin</source>
         <translation>ริมซ้าย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="474"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>ระบุริมซ้ายในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Right margin</source>
         <translation>ริมขวา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="477"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>ระบุริมขวาในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>Vertical margin</source>
         <translation>ริม</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="480"/>
+        <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>ระบุริมของแนวตั้งในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="499"/>
         <source>Horizontal alignment</source>
         <translation>การจัดวางในแนวนอน</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="500"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>ระบุการจัดวางของแนวนอน ค่าที่ใช้ได้คือ ซ้าย, กลาง และ ขวา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="503"/>
         <source>Vertical alignment</source>
         <translation>การจัดวางในแนวตั้ง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>ระบุการจัดวางของแนวตั้ง ค่าที่ใช้ได้: ล่าง, กึ่งกลาง และ บน</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Border style</source>
         <translation>แบบขอบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>ระบุลักษณะของขอบ, ค่าที่เป็นไปได้ได้แก่: เส้นร่าง และ กล่องทึบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Shadow</source>
         <translation>เงา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Apply style to ASS files too</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9304,27 +9304,32 @@ Do you want to overwrite?</source>
         <translation>แบบ&amp;ขอบ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="679"/>
+        <location filename="../prefsubtitles.ui" line="682"/>
+        <source>Opacity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>&amp;Outline:</source>
         <translation>เ&amp;ส้นร่าง:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="699"/>
+        <location filename="../prefsubtitles.ui" line="738"/>
         <source>Shado&amp;w:</source>
         <translation>เ&amp;งา:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
+        <location filename="../prefsubtitles.ui" line="778"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="788"/>
+        <location filename="../prefsubtitles.ui" line="827"/>
         <source>Use custo&amp;m style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>ตัวเลือกต่อไปนี้จะให้คุณกำหนดลักษณะที่จะใช้สำหรับศัพท์บรรยายที่ไม่มีการกำหนดลักษณะไว้ (srt, sub...)</translation>
     </message>
@@ -9377,47 +9382,47 @@ Do you want to overwrite?</source>
         <translation>กล่องทึบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="399"/>
+        <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="419"/>
+        <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="512"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>ถ้าตั้งลักษณะขอบเป็น &lt;i&gt;เส้นร่าง&lt;/i&gt; ตัวเลือกนี้จะระบุความกว้างของเส้นร่างรอบตัวอักษรในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>ถ้าตั้งลักษณะขอบเป็น &lt;i&gt;เส้นร่าง&lt;/i&gt; ตัวเลือกนี้จะระบุความลึกของเงาที่ตกอยู่หลังตัวอักษรในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>ตัวเลือกนี้ไม่ได้เปลี่ยนขนาดของศัพท์บรรยายในวิดีโอปัจจุบัน เพื่อทำสิ่งดังกล่าวให้ใช้ตัวเลือก &lt;i&gt;ขนาด+&lt;/i&gt; และ &lt;i&gt;ขนาด-&lt;/i&gt; ในเมนูศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Default scale</source>
         <translation>มาตราตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="457"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>ตัวเลือกนี้จะระบุสเกลหรือมาตราแบบอักษรตั้งต้นสำหรับศัพท์บรรยาย SSA/ASS ซึ่งจะถูกใช้สำหรับไฟล์ที่ถูกเปิดใหม่</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Line spacing</source>
         <translation>ระยะห่างบรรทัด</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="445"/>
+        <location filename="../prefsubtitles.cpp" line="462"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>สิ่งนี้จะระบุช่องว่างที่จะใช้แยกหลายบรรทัดออกจากกัน สามารถใช้ค่าติดลบได้</translation>
     </message>
@@ -9437,7 +9442,7 @@ Do you want to overwrite?</source>
         <translation>ระยะ&amp;ห่างบรรทัด:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Freetype support</source>
         <translation>รองรับ freetye</translation>
     </message>
@@ -9447,37 +9452,37 @@ Do you want to overwrite?</source>
         <translation>รองรับ Freet&amp;ype </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก ศัพท์บรรยายจะปรากฏในภาพหน้าจอด้วย &lt;b&gt;หมายเหตุ:&lt;/b&gt; บางครั้งอาจเกิดปัญหาบางอย่างได้</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="332"/>
+        <location filename="../prefsubtitles.cpp" line="349"/>
         <source>Customize SSA/ASS style</source>
         <translation>ปรับแต่งรูปแบบ SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>ที่นี่คุณสามารถใส่ลักษณะ SSA/ASS ที่ปรับแต่งของคุณ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="334"/>
+        <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>ล้างบรรทัดที่แก้ไข เพื่อไม่ใช้รูปแบบที่ปรับแต่ง.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>SSA/ASS style</source>
         <translation>รูปแบบ SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Shadow color</source>
         <translation>สีเงา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="471"/>
+        <location filename="../prefsubtitles.cpp" line="488"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>สีนี้จะถูกใช้เป็นสีเงาศัพท์บรรยาย</translation>
     </message>
@@ -9487,12 +9492,12 @@ Do you want to overwrite?</source>
         <translation>เงา:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="762"/>
+        <location filename="../prefsubtitles.ui" line="801"/>
         <source>Custo&amp;mize...</source>
         <translation>&amp;ปรับแต่งค่า...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก ลักษณะที่กำหนดด้านบนจะถูกใช้กับศัพท์บรรยาย ass ด้วย</translation>
     </message>

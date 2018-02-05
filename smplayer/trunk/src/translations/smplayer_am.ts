@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -2991,7 +2993,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3089,7 +3094,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -5707,7 +5712,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="150"/>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>General</source>
         <translation>ባጠቃላይ</translation>
     </message>
@@ -5722,12 +5727,12 @@ Do you want to overwrite?</source>
         <translation>መገናኛ ማሰናጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Start videos in fullscreen</source>
         <translation>ቪዲዮ በ ሙሉ መመልከቻ ማስጀመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Disable screensaver</source>
         <translation>መመልከቻ ማዳኛ ማሰናከያ</translation>
     </message>
@@ -5768,8 +5773,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="169"/>
-        <location filename="../prefgeneral.cpp" line="425"/>
-        <location filename="../prefgeneral.cpp" line="426"/>
+        <location filename="../prefgeneral.cpp" line="428"/>
+        <location filename="../prefgeneral.cpp" line="429"/>
         <source>Default</source>
         <translation>ነባር</translation>
     </message>
@@ -5779,117 +5784,117 @@ Do you want to overwrite?</source>
         <translation>እዚህ የሚፈልጉትን ቋንቋ መጻፍ ይችላሉ ለ ድምፅ ንዑስ አርእስት ማስተላለፊያ: በርካታ ድምፅ በ መገናኛ ወይንም ንዑስ አርእስት ሲተላለፍ በ SMPlayer እርስዎ የ መረጡትን ቋንቋ ለ መጠቀም ይሞክራል: ይህ የሚሰራው መገናኛው ስለ ቋንቋው መረጃ ሲያቀርብ ነው: ስለ ድምፅ እና ንዑስ አርእስት ማስተላለፊያ እንደ DVDs ወይንም mkv ፋይሎች.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1025"/>
         <source>Multimedia engine</source>
         <translation>በርካታ መገናኛ ሞተር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1023"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>ይምረጡ የትኛውን የ በርካታ መገናኛ መጠቀም እንደሚፈልጉ MPlayer ወይንም mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>ይህ ምርጫ &apos;ሌላ&apos; እርስዎን የሚያስችለው ሚፈጸመውን መንገድ መምረጥ ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>%1 executable</source>
         <translation>%1 የሚፈጸመው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1028"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>እርስዎ እዚህ መወሰን ይችላሉ %1ለ  መፈጸም የ SMPlayer የሚጠቀመውን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Remember settings for streams</source>
         <translation>የ ማስተላለፊያ ማሰናጃን አስታውስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1044"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>ይህን ምርጫ ሲያስችሉ በ መስመር ላይ ማስተላለፊያ ማሰናጃ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Screenshots folder</source>
         <translation>የ መመልከቻ ፎቶ ፎልደር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1065"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Template for screenshots</source>
         <translation>ለ መመልከቻ ፎቶ ቴምፕሌት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>ለምሳሌ %1 የ መመልከቻውን ፎቶ ያስቀምጣል እንደ &apos;ሙቪ ስም_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 ለ ቪዲዮ የ ፋይል ስም መወሰኛ ያለ ተጨማሪ: %2 ይጨምራል የ 4 አሀዝ ቁጥር በ ዜሮ የ ተከበበ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Format for screenshots</source>
         <translation>የ መመልከቻ ፎቶ አቀራረብ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>ይህ ምርጫ እርስዎን የሚያስችለው የ ምስል ፋይል አይነት መምረጥ ነው: የ መመልከቻ ፎቶ እርስዎ ያስቀመጡትን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ኮምፒዩተሩ ይዘጋል SMPlayer ከ ጨረሰ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1103"/>
+        <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Video output driver</source>
         <translation>የ ቪዲዮ ውጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Select the video output driver.</source>
         <translation>የ ቪዲዮ ውጤት አካል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1129"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ጥቁር ድንበር ይጨመራል በ ምስሎች ዙሪያ አዲስ በ ተከፈቱ ፋይሎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1199"/>
+        <location filename="../prefgeneral.cpp" line="1202"/>
         <source>Audio output driver</source>
         <translation>የ ድምፅ ውጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Select the audio output driver.</source>
         <translation>የ ድምፅ ውጤት አካል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Remember settings</source>
         <translation>ማሰናጃውን አስታውስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1258"/>
+        <location filename="../prefgeneral.cpp" line="1261"/>
         <source>Preferred audio language</source>
         <translation>የተመረጠው የ ድምፅ ቋንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1270"/>
+        <location filename="../prefgeneral.cpp" line="1273"/>
         <source>Preferred subtitle language</source>
         <translation>የተመረጠው የ ንዑስ አርእስት ቋንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Software video equalizer</source>
         <translation>ሶፍትዌር ቪዲዮ ማስተካከያ</translation>
     </message>
@@ -5899,88 +5904,88 @@ Do you want to overwrite?</source>
         <translation>ሌላ...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1069"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>ይህ ምርጫ የሚገልጸው የ ፋይል ስም ቴምፕሌት የ መመልከቻ ፎቶ ለማስቀመጥ ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>ለ ሙሉ ዝርዝር ቴምፕሌት ለ መወሰን ይህን አገባኝ ይጎብኙ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>This option only works with mpv.</source>
         <translation>ምርጫው የሚሰራው ለ mpv. ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1099"/>
         <source>Shut down computer</source>
         <translation>ኮምፒዩተር ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1131"/>
         <source>Add black borders for subtitles by default</source>
         <translation>ለ ንዑስ አርእስት ድንበሮች ጥቁር ቀለም መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1138"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>እርስዎ በዚህ ምርጫ ላይ ምልክት ማድረግ ይችላሉ ለ ቪዲዮ ማስተካከያ የማይደገፍ ከሆነ በ እርስዎ የ ንድፍ ካርድ  ወይንም ይምረጡ የ ቪዲዮ ውጤት አካል &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; ይህ ምርጫ ከ አንዳንድ ቪዲዮ ውጤቶች ጋር ላይስማማ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1160"/>
+        <location filename="../prefgeneral.cpp" line="1163"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ሁሉም ቪዲዮዎች በ ሙሉ ዘዴ ውስጥ ይጫወታሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Global audio equalizer</source>
         <translation>የ ድምፅ ማስተካከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1206"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ሁሉም የ መገናኛ ፋይሎች ድምፅ ማስተካከያውን ይጋራሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>ምልክት ካልተደረገበት: የ ድምፅ ማስተካከያ ዋግዎች ይቀመጣሉ ከ ፋይል ጋር: እና ይጫናሉ ፋይሉ በሚጫወት ጊዜ </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1213"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS  በ ውስጡ-ያልፋል በ S/PDIF እና HDMI ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>መልሶ የማጫወቻ ጣቢያዎችን %1 ይጠይቃል የ decoder to decode ዽምፅጽ ወደ ተጠየቀው በርካታ አቀራረብ: እና ከዛ የ decoder ወደ ተፈለገው አስፈላጊነት ይቀይራል: ይህ ብዙ ጊዜ አስፈላጊ የሚሆነው ቪዲዮ በሚያጫውቱ ጊዜ ነው በ AC3 ድምፅ (እንደ ዲቪዲs). ስለዚህ  liba52 does the decoding በ ነባር እና በትክክል downmixes የ ድምፅ ወደ ተፈለገው የ ጣቢያ ቁጥር &lt;b&gt;ማስታወሻ&lt;/b&gt;: ይህ ምርጫ የ ትደገፈ ነው በ codecs (AC3 ብቻ), ማጣሪያዎች (surround) እና ድምፅ ውጤት drivers (OSS ቢያንስ).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1227"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>የ መልሶ ማጫወቻ ፍጥነት መቀየሪያ ማስቻያ  የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Software volume control</source>
         <translation>የ መጠን መቆጣጠሪያ ሶፍትዌር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>ይህ ምርጫ ይምረጡ: ሁሉንም የ ድምፅ ማስተካከያ መጠቀም ከ ፈለጉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1120"/>
         <source>Postprocessing quality</source>
         <translation>በሚጫወት ጊዜ ጥራት ማሻሻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>መጠን መቀየሪያ በ ቅድሚያ ሂደት ውስጥ እንደ ዝግጁ እንደሆነው ትርፍ CPU ሰአት: እርስዎ የሚወስኑትን ከፍተኛ ቁጥር ደረጃ ይጠቀማል: ብዙ ጊዜ እርስዎ ትልቅ ቁጥር መጠቀም ይችላሉ</translation>
     </message>
@@ -6060,12 +6065,12 @@ Do you want to overwrite?</source>
         <translation>ከፍ&amp;ተኛ ማጉሊያ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Direct rendering</source>
         <translation>በቀጥታ መፈጸሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Double buffering</source>
         <translation>በቀጥታ በ መጠበቅ ላይ</translation>
     </message>
@@ -6080,7 +6085,7 @@ Do you want to overwrite?</source>
         <translation>በ ድርብ በ መጠበቅ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1149"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>ድርብ መጠበቂያ ብልጭ ድርግም የሚለውን ይጠግነዋል በ ማስታወሻ ውስጥ ሁለት ክፈፍ በማስቀመጥ: እና ያሳያል አንድ decoding ሌላውን ሲፈልግ: ይህ ከ ተሰናከለ ተፅእኖ ይፈጥራል በ OSD negatively, ነገር ግን ያስወግዳል የ OSD ብልጭ ድርግም የሚለውን</translation>
     </message>
@@ -6095,12 +6100,12 @@ Do you want to overwrite?</source>
         <translation>መጠን &amp;መደበኛ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Close when finished</source>
         <translation>ሲጨርስ መዝጊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1095"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ: ዋናው መስኮት ራሱ በራሱ ይዘጋል የ አሁኑ ፋይል/ማጫወቻ ዝርዝር ሲጨርስ</translation>
     </message>
@@ -6130,82 +6135,82 @@ Do you want to overwrite?</source>
         <translation>&amp;ማስቆሚያ በሚያንስ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1089"/>
         <source>Pause when minimized</source>
         <translation>ማስቆሚያ በሚያንስ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1114"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Enable postprocessing by default</source>
         <translation>በ ነባር በሚጫወት ጊዜ ጥራት ማሻሻያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Max. Amplification</source>
         <translation>ከፍተኛ ማጉሊያ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1246"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Volume normalization by default</source>
         <translation>መጠን መደበኛ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1247"/>
+        <location filename="../prefgeneral.cpp" line="1250"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>መጠን መጨመሪያ ድምፁ ሳይበላሽ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1215"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Channels by default</source>
         <translation>በ ነባር ጣቢያዎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1240"/>
+        <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>ከፍተኛ የማጉሊያ መጠን ማሰናጃ በ ፐርሰንት (ነባር: 110). ይህ ዋጋ ለ 200 እርስዎን የሚያስችለው መጠን መጨመር ነው በ እጥፍ የ አሁኑን መጠን: ዝቅተኛ የሆኑ ዋጋዎች ከ 100 በታች ነባሩን ይጠቀማሉ (ይህን  100%) ከ ከፍተኛው በላይ ይሆናል: ለምሳሌ: የ OSD በ ትክክል አይታይም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>በ ነባር በሚጫወት ጊዜ ጥራት ማሻሻያ ማስቻያ ይጠቀማል አዲስ በ ተከፈቱ ፋይሎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1260"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>እርስዎ እዚህ የ ቅድሚያ ዝርዝር መወሰን ይችላሉ ለ ድምፅ ቋንቋ ኮድ: በ ኮማ በ መለያየት: ለምሳሌ: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1264"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ይህ ሜዳ መደበኛ መግለጫዎች ይቀበላል: ለምሳሌ &lt;b&gt;es|esp|spa&lt;/b&gt; የ ድምፅ ተረኛ ይመርጣል የሚመሳሰል ከሆነ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1272"/>
+        <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>እርስዎ እዚህ የ ቅድሚያ ዝርዝር መወሰን ይችላሉ ለ ንዑስ አርእስት ቋንቋ ኮድ: በ ኮማ በ መለያየት: ለምሳሌ: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ይህ ሜዳ መደበኛ መግለጫዎች ይቀበላል: ለምሳሌ &lt;b&gt;es|esp|spa&lt;/b&gt; የ ንዑስ አርእስት ተረኛ ይመርጣል የሚመሳሰል ከሆነ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1282"/>
+        <location filename="../prefgeneral.cpp" line="1285"/>
         <source>Audio track</source>
         <translation>የ ድምፅ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1283"/>
+        <location filename="../prefgeneral.cpp" line="1286"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ነባር የ ድምፅ ተረኛ መወሰኛ አዲስ ፋይል በሚያጫውቱ ጊዜ የሚጠቀሙበት: ተረኛው ከሌለ የ መጀመሪያውን ይጠቀማል:  &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; የ &lt;i&gt;&quot;ተመረጠው ድምፅ ቋንቋ&quot;&lt;/i&gt; ምርጫዎች አለው በ ምርጫ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1288"/>
+        <location filename="../prefgeneral.cpp" line="1291"/>
         <source>Subtitle track</source>
         <translation>የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1289"/>
+        <location filename="../prefgeneral.cpp" line="1292"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ነባር የ ንዑስ አርእስት ተረኛ መወሰኛ አዲስ ፋይል በሚያጫውቱ ጊዜ የሚጠቀሙበት: ተረኛው ከሌለ የ መጀመሪያውን ይጠቀማል:  &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; የ &lt;i&gt;&quot;ተመረጠው ድምፅ ቋንቋ&quot;&lt;/i&gt; ምርጫዎች አለው በ ምርጫ ላይ</translation>
     </message>
@@ -6240,7 +6245,7 @@ Do you want to overwrite?</source>
         <translation>በ ከፍተኛ ፍጥነት &amp;መልሶ ማጫወቻ የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1226"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>High speed playback without altering pitch</source>
         <translation>በ ከፍተኛ ፍጥነት መልሶ ማጫወቻ የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
@@ -6270,17 +6275,17 @@ Do you want to overwrite?</source>
         <translation>መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1256"/>
+        <location filename="../prefgeneral.cpp" line="1259"/>
         <source>Preferred audio and subtitles</source>
         <translation>የተመረጠው ድምፅ እና ንዑስ አርእስት</translation>
     </message>
@@ -6315,17 +6320,17 @@ Do you want to overwrite?</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Deinterlace by default</source>
         <translation>መቀየሪያ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1123"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>&amp;ይምረጡ የ መቀየሪያ ማጣሪያ እርስዎ አዲስ ቪዲዮ ለ መክፈት የሚጠቀሙበት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Remember time position</source>
         <translation>የ ጊዜ ቦታ ያስታውሳል</translation>
     </message>
@@ -6335,12 +6340,12 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ጊዜ ቦታ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Enable the audio equalizer</source>
         <translation>የ ድምፅ ማስተካከያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>ይህ ምርጫ ይምረጡ: ሁሉንም የ ድምፅ ማስተካከያ መጠቀም ከ ፈለጉ</translation>
     </message>
@@ -6350,12 +6355,12 @@ Do you want to overwrite?</source>
         <translation>የ ድምፅ ማስተካከያ &amp;ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1156"/>
         <source>Draw video using slices</source>
         <translation>ቪዲዮ መሳያ ቁራጮች በ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>ማስቻያ/ማሰናከያ መሳያ ቪዲዮ በ 16-ፒክስል እርዝመት slices/bands. ከ ተሰናከል: ጠቅላላ ክፈፉ ይሳላል በ ነጠላ ማስኬጃ ውስጥ: ምናልባት ፈጣን ወይንም ዝግተኛ ሊሆን ይችላል: እንደ ቪዲዮ ካርዱ ሁኔታ: እና ዝግጁ ማጠራቀሚያ:ተፅእኖ የሚኖረው በ libmpeg2 እና libavcodec codecs. ብቻ ነው</translation>
     </message>
@@ -6370,36 +6375,36 @@ Do you want to overwrite?</source>
         <translation>መልሶ ማጫወቻ ሲጨርስ &amp;መዝጊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="433"/>
-        <location filename="../prefgeneral.cpp" line="440"/>
-        <location filename="../prefgeneral.cpp" line="466"/>
+        <location filename="../prefgeneral.cpp" line="436"/>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <location filename="../prefgeneral.cpp" line="469"/>
         <source>fast</source>
         <translation>በፍጥነት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="434"/>
-        <location filename="../prefgeneral.cpp" line="462"/>
+        <location filename="../prefgeneral.cpp" line="437"/>
+        <location filename="../prefgeneral.cpp" line="465"/>
         <source>slow</source>
         <translation>በዝግታ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="467"/>
+        <location filename="../prefgeneral.cpp" line="470"/>
         <source>fast - ATI cards</source>
         <translation>ፈጣን - ATI ካርዶች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="489"/>
-        <location filename="../prefgeneral.cpp" line="532"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
+        <location filename="../prefgeneral.cpp" line="535"/>
         <source>User defined...</source>
         <translation>በ ተጠቃሚ የሚገለጽ...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Default zoom</source>
         <translation>ነባር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ነበር ማሳያ ይጠቀማል ለ አዲስ ቪዲዮ</translation>
     </message>
@@ -6409,22 +6414,22 @@ Do you want to overwrite?</source>
         <translation>ነባር &amp;ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>ይህ ማሰናጃ ከ ተሳሳተ: SMPlayer ምንም ነገር ማጫወት አይችልም!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>ብዙ ጊዜ SMPlayer ማሰናጃውን ያስታውሳል ለ እያንዳንዱ ፋይል እርስዎ ያጫወቱትን: (የ ተመረጠውን የ ድምፅ ተረኛ: መጠን: ማጣሪያዎች...). እነዚህን ገጽታዎች ካልፈለጉ ያሰናክሉት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1090"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ: ፋይሉ ይቆያል ዋናው መስኮት በሚደበቅ ጊዜ: መስኮት እንደ ነበር ሲመለስ ማጫወቱን ይቀጥላል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>ይህን ምርጫ ይምረጡ መመልከቻ ማዳኛ ለማሰናከል በሚጫወት ጊዜ&lt;br&gt;የ መመልከቻ ማዳኛ ይቀጥላል ማጫወቱን ሲጨርስ</translation>
     </message>
@@ -6435,12 +6440,12 @@ Do you want to overwrite?</source>
         <translation>የ ው&amp;ጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Add black borders on fullscreen</source>
         <translation>በ ሙሉ መመልከቻ ዘዴ ላይ ለ ድንበሮች ጥቁር ቀለም መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ጥቁር ድንበር ይጨመራል በ ምስሎች ዙሪያ በ ሙሉ መመልከቻ ዘዴ ውስጥ: ይህ ንዑስ አርእስት በ ጥቁሩ ድንበር ላይ እንዲታያ ያደርጋል</translation>
     </message>
@@ -6460,22 +6465,22 @@ Do you want to overwrite?</source>
         <translation>በርካታ ማስነሻ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>Method to store the file settings</source>
         <translation>የ ፋይል ማሰናጃ ማጠራቀሚያ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>ይህ ምርጫ የሚያስችለው የ ፋይል ማሰናጃ እንዴት እንደሚቀመጥ ነው: የሚቀጥሉት ምርጫዎች ዝግጁ ናቸው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;አንድ ini ፋይል&lt;/b&gt;: ሁሉም የ ተጫወቱት ፋይሎች ይቀመጣሉ በ ነጠላ ini ፋይል ውስጥ (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>የ መጨረሻው መንገድ ፈጣን ነው መረጃ ከ ተገኛ ለ ፋይሎች</translation>
     </message>
@@ -6485,32 +6490,32 @@ Do you want to overwrite?</source>
         <translation>&amp;ማጠራቀሚያ ማሰናጃ በ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1054"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;በርካታ ini ፋይሎች&lt;/b&gt;: አንድ ini ፋይል ይጠቀማል ለ እያንዳንዱ ለ ተጫወተው ፋይል: እነዚህ ini ፋይሎች በ ፎልደር ውስጥ ይቀመጣሉ %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1042"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>እርስዎ ይህን ምርጫ ከ መረጡ SMPlayer ያስታውሳል ፋይሉ የ ነበረበትን ቦታ መጨረሻ ላይ እርስዎ እንደገና ሲክፍቱት: ይህ ምርጫ የሚሰራው ለ መደበኛ ፋይሎች ነው (አይደለም ለ DVDs, CDs, URLs...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1144"/>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>ይህ ምልክት ከ ተደረገበት በ ቀጥታ ያጫውታል  (ያልተደገፉ በ ሁሉም  codecs እና ቪዲዮ ውጤቶች)&lt;br&gt;&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; ችግር ሊፈጥር ይችላል በ OSD/SUB የ ተበላሹ ላይ!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>Enable screenshots</source>
         <translation>መመልከቻ ፎቶ ማንሻ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>እርስዎ ይህን ምርጫ መጠቀም ይችላሉ ለ ማስቻል ወይንም ለ ማሰናከል የ መመልከቻ ፎቶ ለማንሳት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>እርስዎ እዚህ መወሰን ይችላሉ የ መመልከቻ ፎቶ የ ተነሳው በ SMPlayer የት እንደሚጠራቀም: ፎልደሩ ዋጋ ከሌለው የ መመልከቻ ፎቶ ገጽታ ይሰናከላል</translation>
     </message>
@@ -6530,17 +6535,17 @@ Do you want to overwrite?</source>
         <translation>&amp;ፎልደር:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1232"/>
         <source>Global volume</source>
         <translation>አለም አቀፍ መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ተመሳሳይ መጠን ይጠቀማል እርስዎ ለሚያጫውቱት ፋይሎች: ይህ ምርጫ ካልተመረጠ እያንዳንዱ ፋይል የራሱን መጠን ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>This option also applies for the mute control.</source>
         <translation>ይህን ምርጫ መፈጸም ይቻላል ለ ድምፅ መቀነሻ መቆጣጠሪያ</translation>
     </message>
@@ -6550,22 +6555,22 @@ Do you want to overwrite?</source>
         <translation>አለም &amp;አቀፍ መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1175"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Switch screensaver off</source>
         <translation>መመልከቻውን ማዳኛ መቀየሪያ ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1176"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>ይህ ምርጫ መመልከቻ ማዳኛውን ያጠፋዋል ፋይሉ መጫወት ከ መጀመሩ በፊት እና ያበራዋል ፋይሉ መጫወት ሲጨርስ: ይህን ምርጫ ካስቻሉ: መመልከቻ ማዳኛው አይታይም የ ድምፅ ፋይሎች ወይንም ፋይሉን በሚያጠፉ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1182"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>Avoid screensaver</source>
         <translation>መመልከቻ ማዳኛ ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት: የ SMPlayer ለ መከልከል ይሞክራል የ መመልከቻ ማዳኛ እንዳይታይ ቪዲዮ በሚጫወት ጊዜ: የ መመልከቻ ማዳኛ እንዲታይ የሚፈቀደው የ ድምፅ ፋይል ሲጫወት ብቻ ነው: ወይንም የ ድምፅ ፋይሉ ሲያስቆሙ ነው: ይህ ምርጫ የሚሰራው የ  SMPlayer መስኮት ከ ፊት ለፊት ሲሆን ነው</translation>
     </message>
@@ -6585,22 +6590,22 @@ Do you want to overwrite?</source>
         <translation>&amp;መመልከቻ ማዳኛ ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1249"/>
+        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Audio/video auto synchronization</source>
         <translation>ድምፅ/ቪዲዮ በራሱ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1250"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>ቀስ በ ቀስ የ A/V ማስማሚያ ይስተካከላል እንደ ድምፁ ማዘግያ መለኪያዎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1253"/>
+        <location filename="../prefgeneral.cpp" line="1256"/>
         <source>A-V sync correction</source>
         <translation>A-V ማስማሚያ ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1254"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>ከፍተኛው A-V ማስማሚያ ማረሚያ በ ክፈፍ (በ ሰከንዶች ውስጥ)</translation>
     </message>
@@ -6630,7 +6635,7 @@ Do you want to overwrite?</source>
         <translation>&amp;ከፍተኛ ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;ማስታወሻ:&lt;/b&gt; ይህን ምርጫ ለ ቲቪ ጣቢያ አይጠቀምም</translation>
     </message>
@@ -6640,22 +6645,22 @@ Do you want to overwrite?</source>
         <translation>መቀየሪያ በ ነባር (ከ ቲቪ በስተቀር):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1211"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>ይጠቀሙ ጠንካራ አክል AC3 በ ውስጡ ማለፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1212"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;ማስታወሻ:&lt;/b&gt; ምንም የ ድምፅ ማጣሪያ አይጠቀምም ይህን ምርጫ ሲያስችሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="441"/>
+        <location filename="../prefgeneral.cpp" line="444"/>
         <source>snap mode</source>
         <translation>መቁረጫ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="442"/>
+        <location filename="../prefgeneral.cpp" line="445"/>
         <source>slower dive mode</source>
         <translation>በ ዝግታ መግቢያ ዘዴ</translation>
     </message>
@@ -8954,7 +8959,7 @@ Do you want to overwrite?</source>
     <name>PrefSubtitles</name>
     <message>
         <location filename="../prefsubtitles.cpp" line="61"/>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
@@ -8965,7 +8970,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="402"/>
         <source>Autoload</source>
         <translation>በራሱ መጫኛ</translation>
     </message>
@@ -8986,13 +8991,13 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="433"/>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="450"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Font</source>
         <translation>ፋደል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Size</source>
         <translation>መጠን</translation>
     </message>
@@ -9027,67 +9032,67 @@ Do you want to overwrite?</source>
         <translation>ንዑስ አርእስት በ መመልከቻው ፎቶ ላይ &amp;ማካተቻ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="388"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select first available subtitle</source>
         <translation>ይምረጡ ዝግጁ የ መጀመሪያውን ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Default subtitle encoding</source>
         <translation>ነባር ንዑስ አርእስት encoding:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Include subtitles on screenshots</source>
         <translation>የ ንዑስ አርእስቶች ያካትታል በ መመልከቻ ፎቶ ማንሻ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Text color</source>
         <translation>የ ጽሁፍ ቀለም</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="465"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>ይምረጡ ቀለም ለ ንዑስ አርእስቶች ጽሁፍ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Border color</source>
         <translation>የ ድንበር ቀለም</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="468"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>ይምረጡ ቀለም ለ ንዑስ አርእስቶች ድንበር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="386"/>
+        <location filename="../prefsubtitles.cpp" line="403"/>
         <source>Select the subtitle autoload method.</source>
         <translation>ይምረጡ የ ንዑስ አርእስት በራሱ መጫኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="389"/>
+        <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>አንድ ወይንም ተጨማሪ የ ንዑስ አርእስት ዝግጁ ከሆኑ: ራሱ በራሱ አንዱን መርጦ ያጫውታል: ብዙ ጊዜ የሚመረጠው የ መጀመሪያው ነው: ነገር ግን አንዱ ተጠቃሚው የመረጠውን ቋንቋ ከሆነ ይህን  ንዑስ አርእስት ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="412"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>ይምረጡ encoding የ ንዑስ አርእስት ፋይሎች የሚጠቀሙትን በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
+        <location filename="../prefsubtitles.cpp" line="415"/>
         <source>Try to autodetect for this language</source>
         <translation>ይህን ቋንቋ በራሱ ፈልጎ ማግኛ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="405"/>
+        <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Subtitle language</source>
         <translation>የ ንዑስ አርእስት ቋንቋዎች</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="406"/>
+        <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>ይምረጡ ቋንቋ የ encoding ራሱ በራሱ የሚገምተውን </translation>
     </message>
@@ -9102,134 +9107,134 @@ Do you want to overwrite?</source>
         <translation>ራ&amp;ሱ በራሱ ቋንቋ መፈለጊያ መሞከሪያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Outline</source>
         <translation>ረቂቅ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="453"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Select the font for the subtitles.</source>
         <translation>ለ ንዑስ አርእስት ፊደል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="431"/>
         <source>Use the ASS library</source>
         <translation>ይጠቀሙ የ ASS library</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>ይህ ምርጫ የሚያስችለው የ ASS library, ለማሳየት የሚጠቀመውን ለ ንዑስ አርእስት በርካታ ቀለሞች እና ፊደሎች</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Enable Windows fonts</source>
         <translation>
 
 </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="426"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation>ይህን ምርጫ ካስቻሉ የ መስኮት ስርአት ፊደል ይጠቀማል ለ ንዑስ አርእስት: ነገር ግን የ ፊደል ማጠራቀሚያ መፈጠር አለበት: ይህ ትንሽ ጊዜ ይወስዳል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="429"/>
+        <location filename="../prefsubtitles.cpp" line="446"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>ይህ ምርጫ ካልተመረጠ ጥቂት የ ፊደሎች ጥቅል ብቻ SMPlayer ይጠቀማል ነገር ግን ፋጣን ነው</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>The size in pixels.</source>
         <translation>መጠኑ በ ፒክስል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Bold</source>
         <translation>ማድመቂያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="459"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>ምልክት ከ ተደረገበት ጽሁፉ የሚታየው &lt;b&gt;ደምቆ&lt;/b&gt;. ነው</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Italic</source>
         <translation>ማዝመሚያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="462"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>ምልክት ከ ተደረገበት ጽሁፉ የሚታየው በ &lt;b&gt;ማዝመሚያ&lt;/b&gt;. ነው</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Left margin</source>
         <translation>የ ግራ መስመር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="474"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>የ ግራ መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Right margin</source>
         <translation>የ ቀኝ መስመር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="477"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>የ ቀኝ መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>Vertical margin</source>
         <translation>የ ቁመት መስመር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="480"/>
+        <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>የ ቁመት መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="499"/>
         <source>Horizontal alignment</source>
         <translation>የ አግድም መስመር</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="500"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>የ አግድም ማሰለፊያ መወሰኛ: የ ሚቻሉት ዋጋዎች በ ግራ: መሀከል: እና በ ቀኝ ነው</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="503"/>
         <source>Vertical alignment</source>
         <translation>በ ቁመት ማሰለፊያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="504"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>የ ቁመት ማሰለፊያ መወሰኛ: የሚቻሉ ዋጋዎች: መሀከል ላይ ከ ታች በኩል እና ከ ላይ በኩል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Border style</source>
         <translation>የ ድንበር ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="508"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>የ ድንበር ዘዴ መወሰኛ: የሚቻሉ ዋጋዎች: ረቂቅ እና በ ውስጡ የማያሳልፍ ሳጥን</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Shadow</source>
         <translation>ጥላ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Apply style to ASS files too</source>
         <translation>መፈጸሚያ ዘዴ ለ ASS ፋይል </translation>
     </message>
@@ -9304,27 +9309,32 @@ Do you want to overwrite?</source>
         <translation>የ ድንበር ዘዴ&amp;ዎች:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="679"/>
+        <location filename="../prefsubtitles.ui" line="682"/>
+        <source>Opacity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="718"/>
         <source>&amp;Outline:</source>
         <translation>&amp;ረቂቅ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="699"/>
+        <location filename="../prefsubtitles.ui" line="738"/>
         <source>Shado&amp;w:</source>
         <translation>ጥ&amp;ላ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
+        <location filename="../prefsubtitles.ui" line="778"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation>መ&amp;ፈጸሚያ ዘዴ ለ ASS ፋይል </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="788"/>
+        <location filename="../prefsubtitles.ui" line="827"/>
         <source>Use custo&amp;m style</source>
         <translation>ዘዴ ማስተካከ&amp;ያ ይጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>የሚቀጥሉት ምርጫዎች እርስዎን መግለጽ ያስችላል የሚጠቀሙትን ዘዴ ለ ምንም-ዘዴ ለሌላቸው ንዑስ አርእስት (srt, sub...).</translation>
     </message>
@@ -9377,47 +9387,47 @@ Do you want to overwrite?</source>
         <translation>በ ውስጡ ብርሀን ያማያሳልፍ ሳጥን</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="399"/>
+        <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
         <translation>ይህ ምርጫ በሚበራ ጊዜ የ encoding ለ ንዑስ አርእስት ራሱ በራሱ ለማግኘት ይሞክራል: ለ ተሰጠው ቋንቋ: ካልተሳካ ወደ ነበረበት ይመለሳል ወደ ነባር encoding. ይህ ምርጫ የ %1 with ENCA ድጋፍ ይፈልጋል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="419"/>
+        <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
         <translation>እርስዎ ይህን ምርጫ ማሰናከል የለብዎትም: እርስዎ ይህን ማድረግ የሚችሉት %1 ከ ተሰናዳ ነው በ freetype ድጋፍ. &lt;b&gt;ይህን ምርጫ ማሰናከል ንዑስ አርእስት እንዳይሰራ ይከለክላል&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="512"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>የ ድንበር ዘዴ ከ ተሰናዳ ለ &lt;i&gt;ረቂቅ&lt;/i&gt; ይህ ምርጫ የሚወስነው የ ረቂቅ ስፋት ነው በ ጽሁፍ ፒክስል ዙሪያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>የ ድንበር ዘዴ ከ ተሰናዳ ለ &lt;i&gt;ረቂቅ&lt;/i&gt; ይህ ምርጫ የሚወስነው የ ጥላ ጥልቀት ነው ከ ጽሁፍ ፒክስል መደብ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>ይህ ምርጫ አይቀይርም የ ንዑስ አርእስት መጠን በ አሁኑ ቪዲዮ ውስጥ: ይህን ለማድረግ: ይህን ምርጫ ይጠቀሙ &lt;i&gt;መጠን+&lt;/i&gt; እና &lt;i&gt;መጠን-&lt;/i&gt; በ ንዑስ አርእስት ዝርዝር ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Default scale</source>
         <translation>ነባር መመጠኛ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="457"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>ይህ ምርጫ የሚወስነው ነባር የ ፊደል መጠን ነው ለ SSA/ASS ንዑስ አርእስት አዲስ ለ ተፈቱ ፋይሎች የሚጠቀሙበት</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Line spacing</source>
         <translation>የ መስመር ክፍተት:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="445"/>
+        <location filename="../prefsubtitles.cpp" line="462"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>ይህ የሚወስነው ክፍተት ነው እርስዎ የሚጠቀሙበት ለ መለያየት በርካታ መስመሮችን: አሉታዊ ዋግዎች ሊኖሩት ይችላል</translation>
     </message>
@@ -9437,7 +9447,7 @@ Do you want to overwrite?</source>
         <translation>የ &amp;መስመር ክፍተት:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Freetype support</source>
         <translation>ነፃ አይነት የ ተደገፈ</translation>
     </message>
@@ -9447,37 +9457,37 @@ Do you want to overwrite?</source>
         <translation>ነፃ አ&amp;ይነት የ ተደገፈ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ንዑስ አርእስት ይታያል በ መመልከቻው ፎቶ ውስጥ: &lt;b&gt;ማስታወሻ:&lt;/b&gt; አንዳንድ ጊዜ ችግር ሊፈጥር ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="332"/>
+        <location filename="../prefsubtitles.cpp" line="349"/>
         <source>Customize SSA/ASS style</source>
         <translation>ማስተካከያ SSA/ASS ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>እዚህ እርስዎ ማስተካከያ ማስገባት ይችላሉ SSA/ASS style.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="334"/>
+        <location filename="../prefsubtitles.cpp" line="351"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>የ ማረሚያ መስመር ማጽጃ የ ማስተካከያ ዘዴ ለ ማሰናከል</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>SSA/ASS style</source>
         <translation>SSA/ASS ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Shadow color</source>
         <translation>የ ጥላ ቀለም</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="471"/>
+        <location filename="../prefsubtitles.cpp" line="488"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>ይህን ቀለም ይጠቀማል ለ ንዑስ አርእስት ጥላ</translation>
     </message>
@@ -9487,12 +9497,12 @@ Do you want to overwrite?</source>
         <translation>ጥላ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="762"/>
+        <location filename="../prefsubtitles.ui" line="801"/>
         <source>Custo&amp;mize...</source>
         <translation>ማስተ&amp;ካከያ...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>እዚህ ምርጫ ውስጥ ምልክት ከ ተደረገ: ከላይ የ ተገለጸው ዘዴ ለ ass ንዑስ አርእስት ይፈጸማል</translation>
     </message>
@@ -9769,13 +9779,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
