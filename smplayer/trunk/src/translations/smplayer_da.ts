@@ -5777,7 +5777,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"/>
+        <translation>Her kan du skrive dine fortrukne sprog til lyd- og undertekststrømme. Når et medie med flere lyd- og undertekststrømme findes, så prøver SMPlayer at bruge dit foretrukne sprog. Det virker kun med medier som tilbyder information om sprog til lyd- og undertekststrømme, såsom DVD&apos;er og mkv-filer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
@@ -5812,7 +5812,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1044"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation>Når denne indstilling er aktiveret, vil valgmuligheder for online-strømme også blive husket.</translation>
+        <translation>Når denne indstilling er aktiveret, vil valgmuligheder for onlinestrømme også blive husket.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
@@ -6178,17 +6178,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Feltet accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vælger lydsporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"/>
+        <translation>Du kan angive en prioritetsliste over underteksternes sprogkoder. F.eks.: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Feltet accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vælger undertekststrømmen hvis den matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1282"/>
@@ -8092,12 +8092,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation>Denne valgmulighed angiver den foretrukne kvalitet til video-strømme hånderet af youtube-dl.</translation>
+        <translation>Denne valgmulighed angiver den foretrukne kvalitet til videostrømme hånderet af youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation>vælger de bedste video- og lyd-strømme som er tilgængelige</translation>
+        <translation>vælger de bedste video- og lydstrømme som er tilgængelige</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
