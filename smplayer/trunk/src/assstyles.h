@@ -50,6 +50,9 @@ public:
 	int marginr;
 	int marginv;
 
+	void setBackgroundOpacity(int value);
+	int backgroundOpacity();
+
 	void save(QSettings * set);
 	void load(QSettings * set);
 

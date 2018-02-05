@@ -41,6 +41,14 @@ AssStyles::AssStyles() {
 	marginv = 8;
 }
 
+void AssStyles::setBackgroundOpacity(int value) {
+	backgroundcolor.setAlpha(value);
+}
+
+int AssStyles::backgroundOpacity() {
+	return backgroundcolor.alpha();
+}
+
 void AssStyles::save(QSettings * set) {
 	qDebug("AssStyles::save");
 
