@@ -1411,7 +1411,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6105"/>
         <source>Click here to get it</source>
-        <translation>Нажмите сюда для получения</translation>
+        <translation>Нажмите сюда для загрузки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6130"/>
@@ -1437,7 +1437,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6216"/>
         <location filename="../basegui.cpp" line="6228"/>
         <source>Visit %1 to get it.</source>
-        <translation>Посетите %1 для получения.</translation>
+        <translation>Посетите %1 для загрузки.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6226"/>
