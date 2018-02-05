@@ -221,6 +221,7 @@ void PrefSubtitles::checkBorderStyleCombo(int index) {
 	style_shadow_label->setEnabled(b);
 	opacity_label->setEnabled(!b);
 	opacity_slider->setEnabled(!b);
+	opacity_num->setEnabled(!b);
 
 	style_outline_spin->setVisible(b);
 	style_shadow_spin->setVisible(b);
@@ -228,6 +229,7 @@ void PrefSubtitles::checkBorderStyleCombo(int index) {
 	style_shadow_label->setVisible(b);
 	opacity_label->setVisible(!b);
 	opacity_slider->setVisible(!b);
+	opacity_num->setVisible(!b);
 }
 
 
