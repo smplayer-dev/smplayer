@@ -294,7 +294,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 #if NOTIFY_SUB_CHANGES
 		if (notified_mplayer_is_running) {
-			if (subtitle_info_changed) {
+			if (subtitle_info_changed && sec > 0.4) {
 				qDebug("MPVProcess::parseLine: subtitle_info_changed");
 				subtitle_info_changed = false;
 				subtitle_info_received = false;
@@ -310,7 +310,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 #if NOTIFY_AUDIO_CHANGES
 		if (notified_mplayer_is_running) {
-			if (audio_info_changed) {
+			if (audio_info_changed && sec > 0.4) {
 				qDebug("MPVProcess::parseLine: audio_info_changed");
 				audio_info_changed = false;
 				emit audioInfoChanged(audios, selected_audio);
