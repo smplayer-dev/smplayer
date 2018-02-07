@@ -1455,17 +1455,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6393"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>Систем је прешао на таблет режим. Да ли СМПлејер треба да пређе на таблет режим?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6395"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>Систем је напустио таблет режим. Треба ли СМПлејер да напусти таблет режим?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6399"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>Сећате се моје одлуке и не питајте поново</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5088"/>
@@ -2023,7 +2023,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="350"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Пусти на &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="354"/>
@@ -2087,7 +2087,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../baseguiplus.cpp" line="881"/>
         <location filename="../baseguiplus.cpp" line="915"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступна геометрија: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="883"/>
@@ -2118,47 +2118,47 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="893"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Логичка ДПИ: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="895"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Физичка ДПИ: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="896"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <translation>Физичка величина: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="898"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>Освежење: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="899"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Величина: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="900"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Виртуелна геометрија: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="902"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Виртуелна величина: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="955"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Примарни екран</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="1024"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation>Излаз екстерног екрана за СМПлејер</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="1072"/>
@@ -2739,13 +2739,16 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>Можеш додати додатне видео филтере.
+Одвојити их са  &quot;,&quot;.  Не користи размак!
+Пример: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>Додај аудио филтере. Иста правила као за видео филтере.
+Пример: екстрастерео, караоке</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2790,12 +2793,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Овде можете додати додатне опција за %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Напиши раздвојено размацима.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2883,7 +2886,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод &amp;претраге:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2918,7 +2921,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>До&amp;да језички код у име титл фајла</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
@@ -2976,7 +2979,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="294"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервис титлова покренут од %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="374"/>
@@ -3301,7 +3304,7 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="183"/>
         <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>недефинисано</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
@@ -4586,7 +4589,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Затвори</translation>
+        <translation>&amp;Затвори</translation>
     </message>
 </context>
 <context>
@@ -4594,7 +4597,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="189"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"></translation>
+        <translation>Филтер &apos;%1&apos; није подржан од мпв</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="190"/>
@@ -4624,7 +4627,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Однос аспекта:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="196"/>
@@ -4635,7 +4638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Испуштени фрејмови:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="198"/>
@@ -4645,7 +4648,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Оцена узорка:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="201"/>
@@ -4655,7 +4658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"></translation>
+        <translation>Аудио/Видео синхронизација:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="203"/>
@@ -4665,7 +4668,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
-        <translation type="unfinished"></translation>
+        <translation>Коришћени кеш:</translation>
     </message>
 </context>
 <context>
@@ -4853,7 +4856,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="371"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Неименована плеј листа</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="687"/>
@@ -4863,17 +4866,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="689"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>Учитај плеј листу са &amp;УРЛ...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="728"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Пусти на Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="730"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Отвори стрим у &amp;веб прегледачу</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="745"/>
@@ -4994,7 +4997,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Фасцикла отвореног кода</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="733"/>
@@ -5015,7 +5018,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="737"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>Прикажи дужину колоне</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="738"/>
@@ -5304,7 +5307,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"></translation>
+        <translation>Дневник %1 излаза</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
@@ -5314,7 +5317,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>Аутоматски сачуван %1 дневник</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
@@ -5324,12 +5327,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="585"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Аутоматски сачувај %1 дневник са именом</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="586"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Унеси овде путању и име где ће бити сачуван %1  дневник.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="592"/>
@@ -5344,22 +5347,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Покрени %1 у сопственом прозору</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пређи на кратка имена (8+3) за %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пиши одвојено размаком.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Излазни %1 &amp;дневник</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
@@ -5374,7 +5377,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Аутома&amp;тски сачувај %1 дневник у фајлу</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
@@ -5389,7 +5392,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Покрени %1 у сопственом прозору</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -5409,12 +5412,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Прећи на краћа имена фајлова (8+3) за %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је опција омогућена, СМПлејер ће прећи на  %1 краћу верзију имена фајлова.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -5439,28 +5442,28 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Опције за  %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Овде можеш унети опције за  %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation> Овде можеш додати видео филтере за %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Пиши одвојено зарезима. Не користи размаке!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Овде можеш додати аудио филтере за  %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
@@ -5475,7 +5478,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>А&amp;удио филтер:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5749,7 +5752,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="200"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери %1 извршно</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
@@ -5769,7 +5772,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="217"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 &amp;извршно:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="169"/>
@@ -5786,12 +5789,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation>Мултимедијални покретач</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери који мултимедијални покретач желиш да користиш, Мплејер или мпв.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1027"/>
@@ -5801,22 +5804,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>%1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 извршно</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Овде можеш одредити %1 извршно које ће СМПлејер користити.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Запамти подешавања за стримове</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Кад је опција омогућена, подешавање за стримове уживо ће бити запамћена.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1062"/>
@@ -5841,12 +5844,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат за снимке екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1082"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Опција дозвољава избор типа слике за чување снимака екрана.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
@@ -5861,12 +5864,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери излазни драјвер за видео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је опција омогућена, црна трака ће бити додата подразумевано за нове отворене фајлове.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1202"/>
@@ -5901,7 +5904,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="165"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>Друго...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1069"/>
@@ -5927,7 +5930,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1131"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Додај црну траку за титлове подразумевано</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1141"/>
@@ -6012,12 +6015,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation>Мултимедијални &amp;покретач:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Запа&amp;мти подешавања за стримове</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -6027,7 +6030,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ф&amp;ормат:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -6257,7 +6260,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Додај цр&amp;ну траку за титлове подразумевано</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6685,7 +6688,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Користи мултимедијалне тастере као опште пречице</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -7092,12 +7095,12 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="167"/>
         <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Претрага и јачина</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Користи мултимедијалне тастере као опште пречице</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="373"/>
@@ -7107,7 +7110,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Функција превлачења</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="398"/>
@@ -7117,7 +7120,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>главни прозор је померен</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="402"/>
@@ -7342,7 +7345,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Центар &amp;прозора</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7417,7 +7420,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Високи &amp;ДПИ</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
@@ -7427,12 +7430,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Омогући подршку за високе ДПИ екране</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Скалирано</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7442,7 +7445,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Промене у овој секцији захтевају рестарт СМПлејера</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7532,7 +7535,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Класично</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7547,12 +7550,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="255"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation>Фактор с&amp;калирања:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="258"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Однос пи&amp;ксела:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="737"/>
@@ -7567,12 +7570,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="741"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>Центар прозора</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је ова опција омогућена, главни прозор ће бити центриран на екрану.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
@@ -7906,17 +7909,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube (и други сајтови)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Подршка за &amp;видео сајтове:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Же&amp;љени квалитет:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -7926,12 +7929,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="194"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб сервер</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="206"/>
@@ -7941,12 +7944,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="226"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Фасцикла за списак</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="233"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Локална &amp;ИП:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
@@ -7961,22 +7964,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="312"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Конвертуј СРТ титлове у &amp;ВТТ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Препиши постојеће ВТТ фајлове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Пробај да &amp;уклониш рекламе</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="360"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Позиција &amp;титлова на екрану:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="415"/>
@@ -8062,7 +8065,7 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="115"/>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>Најгоре</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="278"/>
@@ -8072,37 +8075,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Подршка са видео сајтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="282"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>подршка за видео сајтове је искључена</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>биће коришћена само интерна подршка за YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>користи mpv + youtube-dl за све сајтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Жељени квалитет</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="297"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ова опција одређује жељени квалитет за видео стримове покренуте од youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="299"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>одреди најбоље доступне видео и аудио стримове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
@@ -8113,7 +8116,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>одреди најбољи квалитет формата доступан као појединачни фајл</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -8123,12 +8126,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>ће пробати да користи одабрану резолуцију ако је доступна</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>одреди најгори доступну квалитет формата</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -8138,17 +8141,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="312"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери жељени квалитет за  YouTube видео.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="315"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Одреди кориснички агент који ће СМПлејер користити када се повеже са YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="327"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="329"/>
@@ -8163,12 +8166,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="334"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт који ће користити веб сервер.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="336"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Фасцикла за списак</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="337"/>
@@ -8178,7 +8181,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Конвертуј СРТ титлове у ВТТ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8193,7 +8196,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је ова опција омогућена СМПлејер ће преписати постојеће ВТТ фајлове.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
@@ -8203,12 +8206,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="351"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је ова опције омогућена, СМПлејер ће пробати да нађе рекламе у титловима и уклони их.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="354"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Позиција титлова на екрану</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="355"/>
@@ -8223,7 +8226,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="357"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Специјална вредност -1 значи подразумевану позицију.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="361"/>
@@ -8631,7 +8634,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Уобичајено ова опција ће омогућити кеш кад је неопходно.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="400"/>
@@ -8734,12 +8737,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Почни емитовање по учитавању плејлисте</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Емитовање ће почети по учитавању плеј листе.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
@@ -8774,12 +8777,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Аутоматско сортирање</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако је опција омогућена, листа ће бити сортирана аутоматски по додавању фајлова.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
@@ -8794,7 +8797,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Сачувај копију плеј листе на излазу</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
@@ -8804,7 +8807,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Омогући опцију брисања фајлова са диска</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
@@ -8849,7 +8852,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ова опција може бити коришћена за додавање фајлова аутоматски у плеј листу:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
@@ -8894,22 +8897,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Емитовање</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;очни емитовање по учитавању плеј листе</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Пус&amp;ти следећи фајл аутоматски</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Иг&amp;нориши грешке емитовања</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8934,12 +8937,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Остало</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>А&amp;утоматско сортирање</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="177"/>
@@ -8949,12 +8952,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сачувај копију плеј листе на излазу</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Омогући опцију брисања фајлова са &amp;диска</translation>
     </message>
 </context>
 <context>
@@ -9311,7 +9314,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Прозирност:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -9856,7 +9859,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>подеси титли за први видео.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -9882,12 +9885,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (ревизија %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (ревизија %2)</translation>
     </message>
 </context>
 <context>
@@ -10042,7 +10045,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Емитовање</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -10509,7 +10512,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="124"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;Сачувај</translation>
+        <translation>&amp;Сачувај</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="163"/>
@@ -10534,7 +10537,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Аудио формат: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="689"/>
@@ -10693,12 +10696,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;У реду</translation>
+        <translation>&amp;У реду</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Откажи</translation>
+        <translation>&amp;Откажи</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>

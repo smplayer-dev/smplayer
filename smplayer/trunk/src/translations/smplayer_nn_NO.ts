@@ -1029,7 +1029,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>Seek to previous subtitle</source>
-        <translation>Søk til førre undertekst</translation>
+        <translation>Søk til føregåande undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1823"/>
@@ -1423,7 +1423,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="6131"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation>Ver snill og kontroller %1-bana i Innstillingar.</translation>
+        <translation>Ver snill og kontroller %1-bana i Innstillingane.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6133"/>
@@ -1580,7 +1580,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>Add &amp;black borders</source>
-        <translation>Lag &amp;svart råme.</translation>
+        <translation>Lag &amp;svart ramme.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1782"/>
@@ -1876,13 +1876,13 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../basegui.cpp" line="4660"/>
         <location filename="../basegui.cpp" line="4664"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer - Undertekst forseinking</translation>
+        <translation>SMPlayer - Undertekstforseinking</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <location filename="../basegui.cpp" line="4665"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Undertekst forseinking (i millisekund):</translation>
+        <translation>Undertekstforseinking (i millisekund):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
@@ -1903,7 +1903,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>Undertekst &amp;utsjånad</translation>
+        <translation>Undertekst&amp;utsjånad</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
@@ -2298,7 +2298,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../core.cpp" line="3442"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation>Undertekst forseinking: %1 ms</translation>
+        <translation>Undertekstforseinking: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3460"/>
@@ -2764,12 +2764,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Avbryt</translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
@@ -2812,7 +2812,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2878,7 +2878,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Generelt</translation>
+        <translation>Generelt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
@@ -2999,7 +2999,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
         <source>Error fixing the subtitle lines</source>
-        <translation>Feil ved retting av undertekst line.</translation>
+        <translation>Feil ved retting av undertekstlinjer.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="104"/>
@@ -7014,12 +7014,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Play next</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel neste</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>Play previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel føregåande</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7386,7 +7386,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den flytande kontrollen kjem fram i fullskjermmodus når du flyttar på musa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
@@ -7814,7 +7814,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis også i kompaktmodus</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
@@ -7954,7 +7954,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="306"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Undertekstar</translation>
+        <translation>Undertekstar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="312"/>
@@ -8116,7 +8116,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -8146,12 +8146,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="327"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="329"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokal IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
@@ -8181,12 +8181,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation>Når dette valet er slått på, vil SMPlayer automatisk konvertere undertekstfiler i SRT-formatet til VTT-formatet. VTT-undertekstar endrar ikkje filenamn, men filetternamnet vert endra til .vtt</translation>
+        <translation>Når dette valet er slått på, vil SMPlayer automatisk konvertera undertekstfiler i SRT-formatet til VTT-formatet. VTT-undertekstar endrar ikkje filenamn, men filetternamnet vert endra til .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv over eksisterande VTT-filer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8772,7 +8772,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Autosorter</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
@@ -8892,7 +8892,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Avspeling</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
@@ -9029,7 +9029,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="210"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>&amp;Inkluder undertekstar og skjermbilete</translation>
+        <translation>&amp;Inkluder undertekstar og skjermbilde</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -9044,7 +9044,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Include subtitles on screenshots</source>
-        <translation>Inkluder undertekstar i skjermbilete</translation>
+        <translation>Inkluder undertekstar i skjermbilde</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
@@ -10500,12 +10500,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Lat att</translation>
+        <translation>&amp;Lat att</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="124"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;Lagra</translation>
+        <translation>&amp;Lagre</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="163"/>
@@ -10530,7 +10530,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydformat: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="689"/>
@@ -10689,12 +10689,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Avbryt</translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>

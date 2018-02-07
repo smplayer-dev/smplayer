@@ -9310,7 +9310,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacidade:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>

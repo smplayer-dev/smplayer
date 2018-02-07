@@ -9312,7 +9312,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprzezroczystość:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
