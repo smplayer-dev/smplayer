@@ -9310,7 +9310,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>불투명도:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
