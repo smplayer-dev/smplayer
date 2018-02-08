@@ -1501,15 +1501,15 @@ void BaseGui::enableActionsOnPlaying() {
 
 	playAct->setEnabled(false);
 
+#if 1
 	// Screenshot option
-	/*
-	bool screenshots_enabled = ( (pref->use_screenshot) && 
-                                 (!pref->screenshot_directory.isEmpty()) &&
-                                 (QFileInfo(pref->screenshot_directory).isDir()) );
+	bool screenshots_enabled = ( pref->use_screenshot && 
+                                 !pref->screenshot_directory.isEmpty() &&
+                                 QFileInfo(pref->screenshot_directory).isDir() );
 
 	screenshotAct->setEnabled( screenshots_enabled );
 	screenshotsAct->setEnabled( screenshots_enabled );
-	*/
+#endif
 
 #ifdef CAPTURE_STREAM
 	capturingAct->setEnabled(!pref->capture_directory.isEmpty() && QFileInfo(pref->capture_directory).isDir());
