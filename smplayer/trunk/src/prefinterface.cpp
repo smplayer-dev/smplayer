@@ -29,6 +29,7 @@
 #include <QDir>
 #include <QStyleFactory>
 #include <QFontDialog>
+#include <QDebug>
 
 #ifdef HDPI_SUPPORT
 #include "hdpisupport.h"
@@ -66,13 +67,13 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 
 	// User
 	QDir icon_dir = Paths::configPath() + "/themes";
-	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
+	qDebug() << "PrefInterface::PrefInterface: icon_dir:" << icon_dir.absolutePath();
 	QStringList iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
 		#ifdef SKINS
 		QString css_file = Paths::configPath() + "/themes/" + iconsets[n] + "/main.css";
 		bool is_skin = QFile::exists(css_file);
-		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
+		//qDebug() << "PrefInterface::PrefInterface: css_file:" << css_file << "is_skin:" << is_skin;
 		if (is_skin) {
 			skin_combo->addItem( iconsets[n], iconsets[n] );
 			n_skins++;
@@ -81,18 +82,21 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		#endif
 		iconset_combo->addItem( iconsets[n], iconsets[n] );
 	}
+
 	// Global
 	icon_dir = Paths::themesPath();
-	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
+	qDebug() << "PrefInterface::PrefInterface: icon_dir:" << icon_dir.absolutePath();
 	iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
 		#ifdef SKINS
 		QString css_file = Paths::themesPath() + "/" + iconsets[n] + "/main.css";
 		bool is_skin = QFile::exists(css_file);
-		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
-		if ((is_skin) && (skin_combo->findData( iconsets[n] ) == -1)) {
-			skin_combo->addItem( iconsets[n], iconsets[n] );
-			n_skins++;
+		//qDebug() << "PrefInterface::PrefInterface: css_file:" << css_file << "is_skin:" << is_skin;
+		if (is_skin) {
+			if (skin_combo->findData( iconsets[n] ) == -1) {
+				skin_combo->addItem( iconsets[n], iconsets[n] );
+				n_skins++;
+			}
 		}
 		else
 		#endif
@@ -100,6 +104,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 			iconset_combo->addItem( iconsets[n], iconsets[n] );
 		}
 	}
+
 	#ifdef SKINS
 	if (skin_combo->itemText(0) == "Black") {
 		skin_combo->removeItem(0);
