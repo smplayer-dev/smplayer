@@ -7223,14 +7223,14 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="153"/>
-        <location filename="../prefinterface.cpp" line="731"/>
+        <location filename="../prefinterface.cpp" line="158"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Interface</source>
         <translation>Γραφικό περιβάλλον</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="223"/>
-        <location filename="../prefinterface.cpp" line="227"/>
+        <location filename="../prefinterface.cpp" line="228"/>
+        <location filename="../prefinterface.cpp" line="232"/>
         <source>Default</source>
         <translation>Προεπιλογή</translation>
     </message>
@@ -7261,42 +7261,42 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="867"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Recent files</source>
         <translation>Πρόσφατα αρχεία</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Language</source>
         <translation>Γλώσσα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Here you can change the language of the application.</source>
         <translation>Εδώ αλλάζεται η γλώσσα της εφαρμογής.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="197"/>
+        <location filename="../prefinterface.cpp" line="202"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Μικρό άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="168"/>
+        <location filename="../prefinterface.cpp" line="173"/>
         <source>System language</source>
         <translation>Γλώσσα του συστήματος</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="203"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Μεσαίο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
+        <location filename="../prefinterface.cpp" line="204"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Μεγάλο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="200"/>
+        <location filename="../prefinterface.cpp" line="205"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Άλμα &amp;τροχού ποντικιού</translation>
     </message>
@@ -7471,305 +7471,305 @@ Do you want to overwrite?</source>
         <translation>&amp;Υποστάσεις</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>Autoresize</source>
         <translation>Αυτόματη αλλαγή μεγέθους</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Το κύριο παράθυρο μπορεί να αλλάζει μέγεθος αυτόματα. Επιλέξτε την επιλογή που προτιμάτε.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Remember position and size</source>
         <translation>Απομνημόνευση θέσης και μεγέθους</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Αν ενεργοποιήσετε αυτήν την επιλογή, η θέση και το μέγεθος του κύριου παραθύρου θα αποθηκευτούν και θα αποκατασταθούν την επόμενη φορά που θα εκτελέσετε τον SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Επιλέξτε το γραφικό περιβάλλον που προτιμάτε για την εφαρμογή.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>Το &lt;b&gt;Βασικό περιβάλλον&lt;/b&gt; παρέχει την παραδοσιακή διεπαφή, με την γραμμή εργαλείων και τη γραμμή ελέγχου.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>Το &lt;b&gt;Μικρό περιβάλλον&lt;/b&gt; παρέχει μια πιο λιτή διεπαφή, δίχως τη γραμμή εργαλείων και με την εργαλειοθήκη ελέγχου με μερικά κουμπιά.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>Το &lt;b&gt;περιβάλλον με θέματα&lt;/b&gt; παρέχει ένα περιβάλλον όπου υπάρχουν διαθέσιμα διάφορα θέματα.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>Το &lt;b&gt;Mpc περιβάλλον&lt;/b&gt; δείχνει σαν τη διεπαφή του Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="870"/>
         <source>Privacy</source>
         <translation>Ιδιωτικότητα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Επιλέξτε τον μέγιστο αριθμό στοιχείων που θα εμφανίζονται στο υπομενού &lt;b&gt;Άνοιγμα-&gt;Πρόσφατα αρχεία&lt;/b&gt;. Αν το ρυθμίσετε στο 0, το μενού δε θα εμφανίζεται καθόλου.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Icon set</source>
         <translation>Θέμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="221"/>
+        <location filename="../prefinterface.cpp" line="226"/>
         <source>Classic</source>
         <translation>Κλασικό</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="233"/>
+        <location filename="../prefinterface.cpp" line="238"/>
         <source>Basic GUI</source>
         <translation>Βασικό περιβάλλον</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="242"/>
+        <location filename="../prefinterface.cpp" line="247"/>
         <source>Skinnable GUI</source>
         <translation>Περιβάλλον με θέματα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="255"/>
+        <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
         <translation>&amp;Συντελεστής κλίμακας:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="258"/>
+        <location filename="../prefinterface.cpp" line="263"/>
         <source>Pixel rati&amp;o:</source>
         <translation>Αναλογία εικονο&amp;στοιχείων:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Αποτρέπει την επέκταση των ορίων του παραθύρου εκτός οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Αν έπειτα από μια αυτόματη αλλαγή του μεγέθους το κύριο παράθυρο υπερβεί τα όρια της οθόνης, αυτή τη επιλογή θα το αποτρέψει κεντράροντας το παράθυρο.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Center window</source>
         <translation>Κεντράρισμα παραθύρου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Αν είναι ενεργοποιημένη αυτή η επιλογή, το κύριο παράθυρο θα είναι κεντραρισμένο στην επιφάνεια εργασίας.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Επιλέξτε το θέμα εικονιδίων που προτιμάτε για την εφαρμογή.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="775"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Skin</source>
         <translation>Θέμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Επιλέξτε το θέμα που προτιμάτε για την εφαρμογή. Διατίθεται μόνο με το γραφικό περιβάλλον με θέμα (skinnable GUI).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>Style</source>
         <translation>Ύφος</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Επιλέξτε το ύφος που προτιμάτε για την εφαρμογή.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="783"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Default font</source>
         <translation>Προεπιλεγμένη γραμματοσειρά</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Εδώ μπορείτε να αλλάξετε τη γραμματοσειρά της εφαρμογής.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Seeking</source>
         <translation>Μετακίνηση στο χρόνο</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Short jump</source>
         <translation>Μικρό άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
-        <location filename="../prefinterface.cpp" line="793"/>
-        <location filename="../prefinterface.cpp" line="797"/>
+        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Επιλέξτε το χρονικό διάστημα που θα πρέπει να πάτε μπροστά ή πίσω, όταν επιλέγετε την ενέργεια %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="795"/>
         <source>short jump</source>
         <translation>μικρό άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Medium jump</source>
         <translation>Μεσαίο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>medium jump</source>
         <translation>μεσαίο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Long jump</source>
         <translation>Μεγάλο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="803"/>
         <source>long jump</source>
         <translation>μεγάλο άλμα</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Mouse wheel jump</source>
         <translation>Άλμα τροχού ποντικιού</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Επιλέξτε το χρονικό διάστημα που θα πρέπει να πάει προς τα εμπρός ή προς τα πίσω όταν μετακινείτε τον τροχό του ποντικιού.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Behaviour of time slider</source>
         <translation>Συμπεριφορά ολισθητή χρόνου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="805"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Επιλέξτε τι θα γίνεται κατά το σύρσιμο του δείκτη της μπάρας του χρόνου.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Πιέζοντας το κουμπί διακοπής μια φορά επαναφέρεται η χρονική θέση</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="850"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Εμφάνιση μόνον κατά την μετακίνηση του ποντικιού στο κάτω μέρος της οθόνης</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Αν είναι ενεργοποιημένο, η αιωρούμενη εργαλειοθήκη ελέγχων θα εμφανίζεται μόνον κατά την μετακίνηση του ποντικιού στη βάση της οθόνης. Διαφορετικά η εργαλειοθήκη θα εμφανίζεται κατά την μετακίνηση του ποντικιού ανεξαρτήτου της θέσης του.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="856"/>
+        <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, η αιωρούμενη εργαλειοθήκη ελέγχων θα εμφανίζεται εξίσου σε συμπαγή λειτουργία.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="858"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Αυτή η επιλογή λειτουργεί μόνο με το βασικό περιβάλλον.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="859"/>
+        <location filename="../prefinterface.cpp" line="864"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Προειδοποίηση:&lt;/b&gt; η αιωρούμενη εργαλειοθήκη ελέγχων δεν έχει σχεδιαστεί για τη συμπαγή λειτουργία και πιθανώς να μην λειτουργεί σωστά.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="862"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Time to hide the control</source>
         <translation>Χρόνος μέχρι την απόκρυψη της εργαλειοθήκης ελέγχων</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="863"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Ορίζει τον χρόνο (σε χιλιοστά του δευτερολέπτου) για την απόκρυψη της εργαλειοθήκης ελέγχων μετά την απομάκρυνση του του ποντικιού από την εργαλειοθήκη.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Max. URLs</source>
         <translation>Μεγ. διευθύνσεις URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Επιλέξτε τον μέγιστο αριθμό στοιχείων που θα θυμάται ο διάλογος &lt;b&gt;Άνοιγμα-&gt;URL&lt;/b&gt;. Ορίστε το στο 0 εάν δεν θέλετε να αποθηκεύονται οι διευθύνσεις URL.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="882"/>
         <source>Remember last directory</source>
         <translation>Απομνημόνευση τελευταίου φακέλου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, ο SMPlayer θα θυμάται τον τελευταίο φάκελο που χρησιμοποιήσατε για να ανοίξετε αρχείο.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="813"/>
         <source>Seeking method</source>
         <translation>Μέθοδος μετακίνησης στο χρόνο</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="809"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Ρυθμίζει τη μέθοδο που θα χρησιμοποιηθεί κατά την μετακίνηση στο χρόνο με τον ολισθητή χρόνου. Απόλυτη μετακίνηση μπορεί να είναι λίγο πιο ακριβής, ενώ η σχετική μετακίνηση μπορεί να λειτουργήσει καλύτερα με αρχεία με λάθος διάρκεια.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="820"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Εξ ορισμού, όταν πιεστεί το κουμπί της διακοπής, η χρονική θέση απομνημονεύεται ούτως ώστε αν πιέσετε το κουμπί αναπαραγωγής το μέσο θα ανακτηθεί στο ίδιο σημείο. Χρειάζεται να πιέσετε το κουμπί της διακοπής δυο φορές έτσι ώστε να αρχικοποιήσετε την χρονική θέση, αλλά αν αυτή η επιλογή είναι ενεργοποιημένη η χρονική θέση θα τεθεί στο 0 με μόνο μια πίεση στο κουμπί διακοπής.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="832"/>
         <source>Instances</source>
         <translation>Υποστάσεις</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="830"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Χρησιμοποιείτε μόνο μία εκτελούμενη υπόσταση του SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="831"/>
+        <location filename="../prefinterface.cpp" line="836"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Ενεργοποιήστε αυτή την επιλογή αν θέλετε να χρησιμοποιήσετε μια ήδη εκτελούμενη υπόσταση του SMPlayer κατά το άνοιγμα άλλων αρχείων.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="236"/>
+        <location filename="../prefinterface.cpp" line="241"/>
         <source>Mini GUI</source>
         <translation>Μίνι γραφικό περιβάλλον (GUI)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>GUI</source>
         <translation>Γραφικό Περιβάλλον  (GUI)</translation>
     </message>
@@ -7779,42 +7779,42 @@ Do you want to overwrite?</source>
         <translation>&amp;Γραφ.Περιβάλλον</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="835"/>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Floating control</source>
         <translation>Αιωρούμενη εργαλειοθήκη ελέγχου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Animated</source>
         <translation>Μετακινούμενη</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="838"/>
+        <location filename="../prefinterface.cpp" line="843"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Αν αυτή η επιλογή είναι ενεργοποιημένη, η αιωρούμενη εργαλειοθήκη ελέγχου θα εμφανίζεται κινούμενο.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="846"/>
         <source>Width</source>
         <translation>Πλάτος</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="842"/>
+        <location filename="../prefinterface.cpp" line="847"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Καθορίζει το πλάτος της εργαλειοθήκης ελέγχου (ως ποσοστό).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="844"/>
+        <location filename="../prefinterface.cpp" line="849"/>
         <source>Margin</source>
         <translation>Περιθώριο</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="845"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Αυτή η επιλογή ορίζει τον αριθμό των pixel που η εργαλειοθήκη ελέγχου θα είναι μακριά από σε σχέση με το κάτω μέρος της οθόνης. Χρήσιμο όταν η οθόνη είναι μια τηλεόραση, καθώς η σάρωση πάνω θα μπορούσε να αποτρέψει την εργαλειοθήκη ελέγχου να είναι ορατή.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="860"/>
         <source>Display in compact mode too</source>
         <translation>Εμφάνιση επίσης σε συμπαγή λειτουργία</translation>
     </message>
@@ -7851,17 +7851,17 @@ Do you want to overwrite?</source>
         <translation>Εμφάνιση επίσης σε &amp;συμπαγή λειτουργία</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="239"/>
+        <location filename="../prefinterface.cpp" line="244"/>
         <source>Mpc GUI</source>
         <translation>Γραφικό Περιβάλλον (GUI) Mpc</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Hide video window when playing audio files</source>
         <translation>Απόκρυψη παράθυρου βίντεο κατά την αναπαραγωγή αρχείων ήχου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Αν είναι ενεργοποιημένη αυτή η επιλογή θα είναι κρυφό το παράθυρο βίντεο κατά την αναπαραγωγή αρχείων ήχου.</translation>
     </message>
@@ -7871,17 +7871,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Απόκρυψη παράθυρου βίντεο κατά την αναπαραγωγή αρχείων ήχου</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Precise seeking</source>
         <translation>Ακριβής αναζήτηση</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, η αναζήτηση είναι πιο ακριβής, αλλά μπορεί να είναι λίγο πιο αργή. Ενδέχεται να μην λειτουργεί με ορισμένες μορφές βίντεο.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="817"/>
+        <location filename="../prefinterface.cpp" line="822"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Σημείωση: η επιλογή αυτή λειτουργεί μόνο με το MPlayer2</translation>
     </message>

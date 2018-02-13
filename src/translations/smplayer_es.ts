@@ -7239,14 +7239,14 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="153"/>
-        <location filename="../prefinterface.cpp" line="731"/>
+        <location filename="../prefinterface.cpp" line="158"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Interface</source>
         <translation>Interfaz</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="223"/>
-        <location filename="../prefinterface.cpp" line="227"/>
+        <location filename="../prefinterface.cpp" line="228"/>
+        <location filename="../prefinterface.cpp" line="232"/>
         <source>Default</source>
         <translation>Por defecto</translation>
     </message>
@@ -7277,42 +7277,42 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="867"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Recent files</source>
         <translation>Ficheros recientes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Here you can change the language of the application.</source>
         <translation>Aquí puedes cambiar el idioma del programa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="197"/>
+        <location filename="../prefinterface.cpp" line="202"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Salto corto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="168"/>
+        <location filename="../prefinterface.cpp" line="173"/>
         <source>System language</source>
         <translation>Idioma del sistema</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="203"/>
         <source>&amp;Medium jump</source>
         <translation>Salto &amp;medio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
+        <location filename="../prefinterface.cpp" line="204"/>
         <source>&amp;Long jump</source>
         <translation>Salto &amp;largo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="200"/>
+        <location filename="../prefinterface.cpp" line="205"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>&amp;Rueda del ratón</translation>
     </message>
@@ -7487,305 +7487,305 @@ Do you want to overwrite?</source>
         <translation>Inst&amp;ancias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>Autoresize</source>
         <translation>Ajuste automático del tamaño</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>La ventana principal puede cambiar de tamaño automáticamente. Selecciona la opción que prefieras.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Remember position and size</source>
         <translation>Recordar la posición y el tamaño</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Si marcas esta opción, se guardará la posición y el tamaño de la ventana principal y se recuperarán cuando abras SMPlayer más tarde.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Selecciona el interfaz gráfico que prefieras para el programa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>El &lt;b&gt;GUI básico&lt;/b&gt; proporciona el interfaz tradicional, con la barra de herramientas y la barra de control.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>El &lt;b&gt;GUI mini&lt;/b&gt; proporciona un GUI más simple, sin barra de herramientas y con una barra de control con muy pocos botones.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>El &lt;b&gt;GUI con soporte de pieles&lt;/b&gt; proporciona un interfaz con varios skins disponibles.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>El &lt;b&gt;GUI Mpc&lt;/b&gt; proporciona un interfaz parecido al del Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="870"/>
         <source>Privacy</source>
         <translation>Privacidad</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Selecciona el máximo número de elementos que se mostrarán en el submenú &lt;b&gt;Abrir-&gt;Ficheros recientes&lt;/b&gt;. Si lo pones a 0 el menú no aparecerá.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Icon set</source>
         <translation>Juego de iconos</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="221"/>
+        <location filename="../prefinterface.cpp" line="226"/>
         <source>Classic</source>
         <translation>Clásico</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="233"/>
+        <location filename="../prefinterface.cpp" line="238"/>
         <source>Basic GUI</source>
         <translation>GUI básico</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="242"/>
+        <location filename="../prefinterface.cpp" line="247"/>
         <source>Skinnable GUI</source>
         <translation>GUI con soporte de pieles</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="255"/>
+        <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
         <translation>Fact&amp;or de escalado:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="258"/>
+        <location filename="../prefinterface.cpp" line="263"/>
         <source>Pixel rati&amp;o:</source>
         <translation>Pr&amp;oporción de píxeles:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Evitar que la ventana quede fuera de la pantalla</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Si después de un ajuste automático del tamaño la ventana queda fuera de la pantalla esta opción centrará la ventana para evitarlo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Center window</source>
         <translation>Centrar ventana</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Si se activa esta opción la ventana principal será centrada en el escritorio.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Selecciona el juego de iconos que prefieras para el programa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="775"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Skin</source>
         <translation>Piel</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Selecciona la piel que prefieras para la aplicación. Disponible solo con el GUI con soporte de pieles.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>Style</source>
         <translation>Estilo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Selecciona el estilo que prefieras para el programa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="783"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Default font</source>
         <translation>Tipo de letra por defecto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Aquí puedes cambiar el tipo de letra del programa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Seeking</source>
         <translation>Búsqueda</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Short jump</source>
         <translation>Salto corto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
-        <location filename="../prefinterface.cpp" line="793"/>
-        <location filename="../prefinterface.cpp" line="797"/>
+        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Selecciona el tiempo que se avanzará o retrocederá cuando selecciones la acción %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="795"/>
         <source>short jump</source>
         <translation>salto corto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Medium jump</source>
         <translation>Salto medio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>medium jump</source>
         <translation>salto medio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Long jump</source>
         <translation>Salto largo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="803"/>
         <source>long jump</source>
         <translation>salto largo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Mouse wheel jump</source>
         <translation>Salto por la rueda del ratón</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Selecciona el tiempo que se avanzará o retrocederá cuando muevas la rueda del ratón.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Behaviour of time slider</source>
         <translation>Deslizador del tiempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="805"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Selecciona qué hacer mientras se arrastra el deslizador.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Pulsar el botón stop una vez pone el tiempo a cero</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="850"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Mostrar sólo al mover el ratón a la parte inferior de la pantalla</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Si se activa esta opción, el control flotante sólo aparecerá cuando se mueva el ratón a la parte inferior de la pantalla. En caso contrario el control aparecerá en cuanto se mueva el ratón, sin importar la posición en la pantalla.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="856"/>
+        <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Si se activa esta opción, el control flotante aparecerá también en modo compacto.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="858"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Esta opción sólo funciona con el GUI básico.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="859"/>
+        <location filename="../prefinterface.cpp" line="864"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Advertencia:&lt;/b&gt; el control flotante no se ha diseñado para el modo compacto y podría no funcionar correctamente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="862"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Time to hide the control</source>
         <translation>Tiempo para ocultar el control</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="863"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Establece el tiempo (en milisegundos) que debe pasar para que el control se oculte tras alejar el ratón del control.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Max. URLs</source>
         <translation>Máx. URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Selecciona el máximo número de entradas que se guardarán el en diálogo de &lt;b&gt;Abrir-&gt;URL&lt;/b&gt;. Ponlo a 0 si no quieres que se guarden ninguna URL.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="882"/>
         <source>Remember last directory</source>
         <translation>Recordar el último directorio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Si se marca esta opción, SMPlayer recordará el última carpeta que se usó al abrir un fichero.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="813"/>
         <source>Seeking method</source>
         <translation>Método de búsqueda</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="809"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Especifica qué método debe usarse cuando se hace una búsqueda con el deslizador. La búsqueda absoluta puedes ser un poco más exacta, mientra que la búsqueda relativa puede funcionar mejor con ficheros que reportan una duración incorrecta.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="820"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Por defecto cuando se pulsa el botón de stop se recuerda por donde se quedó la reproducción de modo que si se pulsa play se reanuda donde quedó. Es necesario pulsar dos veces el botón de stop para poner el tiempo a cero, pero si se marca esta opción el tiempo se pondrá a cero pulsando el botón de stop solo una vez.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="832"/>
         <source>Instances</source>
         <translation>Instancias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="830"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Usar sólo una única instancia de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="831"/>
+        <location filename="../prefinterface.cpp" line="836"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Marca esta opción si quieres usar una misma instancia de SMPlayer para todos los ficheros que abras.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="236"/>
+        <location filename="../prefinterface.cpp" line="241"/>
         <source>Mini GUI</source>
         <translation>GUI Mini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -7795,42 +7795,42 @@ Do you want to overwrite?</source>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="835"/>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Floating control</source>
         <translation>Control flotante</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Animated</source>
         <translation>Animado</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="838"/>
+        <location filename="../prefinterface.cpp" line="843"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Si se activa esta opción, el control flotante aparecerá por medio de una animación.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="846"/>
         <source>Width</source>
         <translation>Ancho</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="842"/>
+        <location filename="../prefinterface.cpp" line="847"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Especifica el ancho del control (porcentaje del ancho de la pantalla).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="844"/>
+        <location filename="../prefinterface.cpp" line="849"/>
         <source>Margin</source>
         <translation>Margen</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="845"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Esta opción establece el número de píxeles que el control flotante se alejará del borde inferior de la pantalla. Útil cuando la pantalla es un televisor, ya que el overscan puede evitar que el control se vea totalmente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="860"/>
         <source>Display in compact mode too</source>
         <translation>Mostrar también en modo compacto</translation>
     </message>
@@ -7867,17 +7867,17 @@ Do you want to overwrite?</source>
         <translation>Mostrar también en modo &amp;compacto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="239"/>
+        <location filename="../prefinterface.cpp" line="244"/>
         <source>Mpc GUI</source>
         <translation>GUI Mpc</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Hide video window when playing audio files</source>
         <translation>Ocultar la ventana de vídeo al reproducir ficheros de audio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Si se activa esta opción la ventana de vídeo se ocultará cuando se reproduzcan ficheros de audio.</translation>
     </message>
@@ -7887,17 +7887,17 @@ Do you want to overwrite?</source>
         <translation>Oc&amp;ultar la ventana de vídeo al reproducir ficheros de audio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Precise seeking</source>
         <translation>Búsqueda precisa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Si se activa esta opción, la búsqueda será más exacta pero puede ser un poco más lenta. Puede que no funcione con todos los formatos de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="817"/>
+        <location filename="../prefinterface.cpp" line="822"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Importante: esta opción sólo funciona con MPlayer2</translation>
     </message>
