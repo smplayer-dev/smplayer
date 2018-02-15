@@ -1,3 +1,27 @@
+Version 18.2.2:
+
+(2018-02-15)
+ * The option Open -> URL can now also load YouTube playlists.
+
+(2018-02-08)
+ * Prevent the skins to be added to the themes combobox if the user folder
+   and the config folder are the same (happens in the portable version).
+ * Disable the screenshot actions if the screenshot folder is set to an
+   empty string.
+
+(2018-02-05)
+ * Add an option in Preferences -> Subtitles to select the opacity of the
+   background of the subtitles.
+
+(2018-02-02)
+ * The options to select the preferred number of track for audio and subtitles
+   are back.
+
+(2018-02-01)
+ * (mpv) Use direct3d as default video output since some users are having
+   troubles with the gpu output.
+
+
 Version 18.2:
 
 (2018-01-21)
