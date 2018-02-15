@@ -4111,6 +4111,12 @@ void BaseGui::open(QString file) {
 		playlist->loadXSPF(file);
 	}
 	else
+#ifdef YT_PLAYLIST_SUPPORT
+	if (file.contains("http") && file.contains("youtube") && file.contains("list=")) {
+		playlist->openUrl(file);
+	}
+	else
+#endif
 	if (QFileInfo(file).isDir()) {
 		openDirectory(file);
 	} 
@@ -4210,6 +4216,13 @@ void BaseGui::openURL() {
 }
 
 void BaseGui::openURL(QString url) {
+#ifdef YT_PLAYLIST_SUPPORT
+	if (url.contains("http") && url.contains("youtube") && url.contains("list=")) {
+		playlist->openUrl(url);
+		return;
+	}
+#endif
+
 	if (!url.isEmpty()) {
 		//pref->history_urls->addUrl(url);
 
