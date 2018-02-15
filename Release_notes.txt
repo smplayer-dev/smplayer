@@ -1,3 +1,15 @@
+Version 18.2.2:
+
+ * The option Open -> URL can now also load YouTube playlists.
+ * New option in Preferences -> Subtitles to select the opacity of the
+   background of the subtitles (available when the "border style" is set
+   to "opaque box").
+ * The options to select the preferred number of track for audio and subtitles
+   are back.
+ * (mpv) Now the direct3d is the default video output for Windows, since some
+   users reported problems with the gpu output.
+
+
 Version 18.2:
 
  * Now it's possible to use a priority list of preferred languages for the
