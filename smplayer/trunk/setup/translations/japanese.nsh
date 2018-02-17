@@ -49,7 +49,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "バイナリ コーデックはこ
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
 !endif
 
-${LangFileString} Section_MPV_Desc "MPlayer と MPlayer2 の機能豊富なフォークです"
+${LangFileString} Section_MPV_Desc "MPlayer と MPlayer2 の機能豊富なフォークです。"
 
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
