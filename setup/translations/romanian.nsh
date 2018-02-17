@@ -17,7 +17,7 @@ ${LangFileString} SMPlayer_Is_Running "O instanță a SMPlayer rulează. Închid
 
 ${LangFileString} OS_Not_Supported "Sistem de operare nesuportat.$\nSMPlayer ${SMPLAYER_VERSION} este necesar cel puțin ultimul Windows XP și poate să nu funcționeze corect pe sistemul dumneavoastră.$\n Sigur doriți să continuați cu instalarea?"
 ${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} Win64_Required "Un sistem de operare Windows la 64-bit este necesar pentru instalarea acestei aplicații."
+${LangFileString} Win64_Required "Un sistem de operare Windows pe 64 biți este necesar pentru instalarea acestei aplicații."
 ${LangFileString} Existing_32bitInst "Există o instalare SMPlayer de 32-bit. Trebuie să dezinstalați întâi SMPlayer la 32-bit."
 ${LangFileString} Existing_64bitInst "Există o instalare SMPlayer de 64-bit. Trebuie să dezinstalați întâi SMPlayer la 64-bit."
 
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Apăsați dezinstalează când este gata de 
 ${LangFileString} Reinstall_Msg4 "Modifică configurările de instalare"
 ${LangFileString} Reinstall_Msg5 "Resetează configurările mele SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Sigur doriți să resetați setările dumneavoastră pentru SMPlayer? Această acțiune nu poate fi revocată."
 
 ${LangFileString} Type_Reinstall "reinstalare"
 ${LangFileString} Type_Downgrade "versiune anterioară"
