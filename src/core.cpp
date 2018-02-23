@@ -1305,10 +1305,8 @@ void Core::initializeOSD() {
 }
 #endif
 
-void Core::stop()
-{
-	qDebug("Core::stop");
-	qDebug("Core::stop: state: %s", stateToString().toUtf8().data());
+void Core::stop() {
+	qDebug() << "Core::stop: state:" << stateToString();
 	
 	if (state()==Stopped) {
 		// if pressed stop twice, reset video to the beginning
@@ -2674,7 +2672,7 @@ void Core::stopMplayer() {
 	}
 #endif
 
-	qDebug("Core::stopMplayer: Finished. (I hope)");
+	qDebug("Core::stopMplayer: Finished.");
 }
 
 
