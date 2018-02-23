@@ -220,6 +220,10 @@ public:
 	bool isDeleteFromDiskAllowed() { return allow_delete_from_disk; };
 #endif
 
+#ifdef YT_PLAYLIST_SUPPORT
+	static bool isYTPlaylist(const QString & url);
+#endif
+
 /*
 public:
 	MyAction * playPrevAct() { return prevAct; };

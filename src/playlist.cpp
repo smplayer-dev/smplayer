@@ -1176,6 +1176,10 @@ void Playlist::loadYoutubeList(QByteArray & data) {
 		if (start_play_on_load) startPlay();
 	}
 }
+
+bool Playlist::isYTPlaylist(const QString & url) {
+	return ((url.contains("http:") || url.contains("https:")) && url.contains("youtube") && url.contains("list=") && !url.contains("index="));
+}
 #endif
 
 bool Playlist::save_m3u(QString file) {
@@ -2460,7 +2464,7 @@ void Playlist::openUrl(const QString & orig_url) {
 
 #ifdef YT_PLAYLIST_SUPPORT
 	// if youtube list then convert to ajax call
-	if (url.contains("youtube") && url.contains("list=")) {
+	if (isYTPlaylist(url)) {
 		QUrl qurl = QUrl(url);
 		#if QT_VERSION >= 0x050000
 		QUrlQuery query = QUrlQuery(qurl);
