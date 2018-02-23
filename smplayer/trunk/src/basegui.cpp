@@ -3287,7 +3287,7 @@ void BaseGui::applyNewPreferences() {
 
 	if (_interface->guiChanged()) {
 #ifdef GUI_CHANGE_ON_RUNTIME
-		core->stop();
+		if (core->state() != Core::Stopped) core->stop();
 		emit guiChanged(pref->gui);
 #else
 		QMessageBox::information(this, tr("Information"),
@@ -3300,7 +3300,7 @@ void BaseGui::applyNewPreferences() {
 		// Hack, simulate a change of GUI to restart the interface
 		// FIXME: try to create a new Core::proc in the future
 		#ifdef GUI_CHANGE_ON_RUNTIME
-		core->stop();
+		if (core->state() != Core::Stopped) core->stop();
 		emit guiChanged(pref->gui);
 		#endif
 	}
