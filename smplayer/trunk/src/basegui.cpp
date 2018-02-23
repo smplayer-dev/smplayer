@@ -4112,7 +4112,7 @@ void BaseGui::open(QString file) {
 	}
 	else
 #ifdef YT_PLAYLIST_SUPPORT
-	if (file.contains("http") && file.contains("youtube") && file.contains("list=")) {
+	if (playlist->isYTPlaylist(file)) {
 		playlist->openUrl(file);
 	}
 	else
@@ -4217,7 +4217,7 @@ void BaseGui::openURL() {
 
 void BaseGui::openURL(QString url) {
 #ifdef YT_PLAYLIST_SUPPORT
-	if (url.contains("http") && url.contains("youtube") && url.contains("list=")) {
+	if (playlist->isYTPlaylist(url)) {
 		playlist->openUrl(url);
 		return;
 	}
