@@ -283,7 +283,13 @@ void FindSubtitlesWindow::retranslateStrings() {
 	copyLinkAct->setText( tr("&Copy link to clipboard") );
 
 	// Icons
-#ifndef NO_SMPLAYER_SUPPORT
+#ifdef NO_SMPLAYER_SUPPORT
+	download_button->setIcon(QApplication::style()->standardIcon(QStyle::SP_ArrowDown));
+	refresh_button->setIcon(QApplication::style()->standardIcon(QStyle::SP_BrowserReload));
+	configure_button->setIcon(QIcon::fromTheme("preferences-other"));
+	downloadAct->setIcon(QApplication::style()->standardIcon(QStyle::SP_ArrowDown));
+	copyLinkAct->setIcon(QIcon::fromTheme("edit-copy"));
+#else
 	download_button->setIcon( Images::icon("download") );
 	configure_button->setIcon( Images::icon("prefs") );
 	refresh_button->setIcon( Images::icon("refresh") );
