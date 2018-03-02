@@ -70,7 +70,8 @@ protected slots:
 	void applyCurrentFilter();
 
 	void showError(QString error);
-	void connecting(QString host);
+	void showConnecting();
+	//void showConnecting(QString host);
 	void showLoginFailed();
 	void showSearchFailed();
 	void showErrorOS(int, const QString &);

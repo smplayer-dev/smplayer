@@ -137,7 +137,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(updateRefreshButton()) );
 
 	connect( downloader, SIGNAL(connecting(QString)),
-             this, SLOT(connecting(QString)) );
+             this, SLOT(showConnecting(QString)) );
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
 	*/
@@ -148,6 +148,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( osclient, SIGNAL(loginFailed()), this, SLOT(showLoginFailed()) );
 	connect( osclient, SIGNAL(searchFailed()), this, SLOT(showSearchFailed()) );
 	connect( osclient, SIGNAL(errorFound(int, const QString &)), this, SLOT(showErrorOS(int, const QString &)) );
+	connect( osclient, SIGNAL(connecting()), this, SLOT(showConnecting()) );
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = false;
@@ -366,9 +367,15 @@ void FindSubtitlesWindow::showError(QString error) {
                              .arg(error));
 }
 
-void FindSubtitlesWindow::connecting(QString host) {
+void FindSubtitlesWindow::showConnecting() {
+	status->setText(tr("Connecting..."));
+}
+
+/*
+void FindSubtitlesWindow::showConnecting(QString host) {
 	status->setText( tr("Connecting to %1...").arg(host) );
 }
+*/
 
 void FindSubtitlesWindow::showLoginFailed() {
 	status->setText( tr("Login to opensubtitles.org has failed") );

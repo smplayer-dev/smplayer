@@ -76,6 +76,8 @@ void OSClient::search(const QString & hash, qint64 file_size, const QString & fi
 	connect(this, SIGNAL(loggedIn()), this, SLOT(doSearch()));
 	login();
 	#endif
+
+	emit connecting();
 }
 
 #ifdef OS_SEARCH_WORKAROUND
