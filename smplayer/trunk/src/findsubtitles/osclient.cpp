@@ -45,7 +45,7 @@ void OSClient::login() {
 	qDebug("OSClient::login");
 
 	QString user_agent = "SMPlayer v" + Version::stable();
-	qDebug("OSClient::login: user agent: %s", user_agent.toUtf8().constData());
+	qDebug() << "OSClient::login: user agent:" << user_agent;
 
 	QVariantList args;
 
@@ -131,8 +131,7 @@ void OSClient::responseLogin(QVariant &arg) {
 	QString status = m["status"].toString();
 	QString t = m["token"].toString();
 
-	qDebug("OSClient::responseLogin: status: %s", status.toLatin1().constData());
-	qDebug("OSClient::responseLogin: token: %s", t.toLatin1().constData());
+	qDebug() << "OSClient::responseLogin: status:" << status << "token:" << t;
 
 	if (status == "200 OK") {
 		token = t;
@@ -149,7 +148,7 @@ void OSClient::responseSearch(QVariant &arg) {
 	QVariantMap m = arg.toMap();
 	QString status = m["status"].toString();
 
-	qDebug("OSClient::responseSearch: status: %s", status.toLatin1().constData());
+	qDebug() << "OSClient::responseSearch: status:" << status;
 	//qDebug("count: %d", m.count());
 
 	/*
@@ -168,7 +167,7 @@ void OSClient::responseSearch(QVariant &arg) {
 	s_list.clear();
 
 	QVariantList data = m["data"].toList();
-	qDebug("OSClient::responseSearch: data count: %d", data.count());
+	qDebug() << "OSClient::responseSearch: data count:" << data.count();
 
 #ifdef OS_SEARCH_WORKAROUND
 	if (best_search_count >= data.count()) {
@@ -223,7 +222,7 @@ void OSClient::responseSearch(QVariant &arg) {
 }
 
 void OSClient::gotFault(int error, const QString &message) {
-	qDebug("OSClient::gotFault: error: %d, message: %s", error, message.toUtf8().constData());
+	qDebug() << "OSClient::gotFault: error:" << error << "message:" << message;
 	emit errorFound(error, message);
 }
 
