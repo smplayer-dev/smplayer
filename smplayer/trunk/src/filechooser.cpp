@@ -26,6 +26,7 @@
 #include "filedialog.h"
 #include "images.h"
 #else
+#include <QApplication>
 #include <QFileDialog>
 #endif
 
@@ -47,7 +48,7 @@ FileChooser::~FileChooser() {
 
 void FileChooser::setupButton() {
 #ifdef NO_SMPLAYER_SUPPORT
-	setIcon( QPixmap(":/folder_open") );
+	setIcon(QApplication::style()->standardIcon(QStyle::SP_DialogOpenButton).pixmap(QSize(32,32)));
 #else
 	setIcon( Images::icon("folder_open") );
 #endif
