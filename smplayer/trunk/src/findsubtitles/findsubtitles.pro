@@ -19,6 +19,7 @@ HEADERS += ../filehash.h \
            ../filechooser.h \
            ../languages.h \
            ../version.h \
+           ../myscroller.h \
            fixsubs.h \
            findsubtitlesconfigdialog.h \
            findsubtitleswindow.h
@@ -28,6 +29,7 @@ SOURCES += ../filehash.cpp \
            ../filechooser.cpp \
            ../languages.cpp \
            ../version.cpp \
+           ../myscroller.cpp \
            fixsubs.cpp \
            findsubtitlesconfigdialog.cpp \
            findsubtitleswindow.cpp \
