@@ -61,6 +61,7 @@ private slots:
 	void responseSearch(QVariant &);
 
 signals:
+	void connecting();
 	void loggedIn();
 	void loginFailed();
 	void searchFinished();
