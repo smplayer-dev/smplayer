@@ -187,8 +187,6 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	os_server = "http://api.opensubtitles.org/xml-rpc";
 	osclient->setServer(os_server);
 
-	search_method = OSClient::Hash;
-
 #ifdef FS_USE_PROXY
 	// Proxy
 	use_proxy = false;
@@ -319,10 +317,7 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 		QFileInfo fi(filename);
 		qint64 file_size = fi.size();
 		QString basename;
-		//if (search_method == FindSubtitlesConfigDialog::Filename) {
-			basename = fi.completeBaseName(); // Filename without extension
-		//}
-		osclient->setSearchMethod((OSClient::SearchMethod) search_method);
+		basename = fi.completeBaseName(); // Filename without extension
 		osclient->search(hash, file_size, basename);
 		last_file = filename;
 	}
@@ -802,7 +797,7 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	#ifdef FS_USE_SERVER_CONFIG
 	d.setServer( os_server );
 	#endif
-	d.setSearchMethod(search_method);
+	d.setSearchMethod(osclient->searchMethod());
 	#ifdef OS_SEARCH_WORKAROUND
 	d.setRetries(osclient->retries());
 	#endif
@@ -823,7 +818,7 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		#ifdef FS_USE_SERVER_CONFIG
 		os_server = d.server();
 		#endif
-		search_method = d.searchMethod();
+		osclient->setSearchMethod( (OSClient::SearchMethod) d.searchMethod() );
 		#ifdef OS_SEARCH_WORKAROUND
 		osclient->setRetries( d.retries() );
 		#endif
@@ -895,7 +890,7 @@ void FindSubtitlesWindow::saveSettings() {
 	set->setValue("proxy/password", proxy_password);
 #endif
 
-	set->setValue("search_method", search_method);
+	set->setValue("search_method", osclient->searchMethod());
 
 	set->endGroup();
 }
@@ -924,7 +919,7 @@ void FindSubtitlesWindow::loadSettings() {
 	proxy_password = set->value("proxy/password", proxy_password).toString();
 #endif
 
-	search_method = set->value("search_method", search_method).toInt();
+	osclient->setSearchMethod( (OSClient::SearchMethod) set->value("search_method", osclient->searchMethod()).toInt() );
 
 	set->endGroup();
 }
