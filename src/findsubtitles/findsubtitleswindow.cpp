@@ -187,7 +187,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	os_server = "http://api.opensubtitles.org/xml-rpc";
 	osclient->setServer(os_server);
 
-	search_method = FindSubtitlesConfigDialog::Hash;
+	search_method = OSClient::Hash;
 
 #ifdef FS_USE_PROXY
 	// Proxy
@@ -319,9 +319,10 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 		QFileInfo fi(filename);
 		qint64 file_size = fi.size();
 		QString basename;
-		if (search_method == FindSubtitlesConfigDialog::Filename) {
+		//if (search_method == FindSubtitlesConfigDialog::Filename) {
 			basename = fi.completeBaseName(); // Filename without extension
-		}
+		//}
+		osclient->setSearchMethod((OSClient::SearchMethod) search_method);
 		osclient->search(hash, file_size, basename);
 		last_file = filename;
 	}
@@ -801,7 +802,7 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	#ifdef FS_USE_SERVER_CONFIG
 	d.setServer( os_server );
 	#endif
-	d.setSearchMethod( (FindSubtitlesConfigDialog::SearchMethod) search_method );
+	d.setSearchMethod(search_method);
 	#ifdef OS_SEARCH_WORKAROUND
 	d.setRetries(osclient->retries());
 	#endif

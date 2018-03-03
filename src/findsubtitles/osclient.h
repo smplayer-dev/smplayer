@@ -31,6 +31,8 @@ class OSClient : public QObject {
 	Q_OBJECT
 
 public:
+	 enum SearchMethod { Hash = 0, Filename = 1, HashAndFilename = 2 };
+
 	OSClient(QObject* parent = 0);
 
 	QList<OSSubtitle> subtitleList() { return s_list; };
@@ -43,6 +45,9 @@ public:
 	void setRetries(int n) { search_retries = n; };
 	int retries() { return search_retries; };
 #endif
+
+	void setSearchMethod(SearchMethod m) { search_method = m; };
+	int searchMethod() { return search_method; };
 
 public slots:
 	void setServer(const QString & server);
@@ -80,6 +85,8 @@ private:
 	int search_retries;
 #endif
 	QList <OSSubtitle> s_list;
+
+	int search_method;
 };
 
 #endif

@@ -27,6 +27,7 @@ OSClient::OSClient(QObject* parent) :
 	, best_search_count(0)
 	, search_retries(8)
 #endif
+	, search_method(Hash)
 {
 	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
 }
@@ -92,16 +93,28 @@ void OSClient::doSearch() {
 #endif
 	qDebug("OSClient::doSearch");
 
+	QVariantList list;
+
 	QVariantMap m;
 	m["sublanguageid"] = "all";
-	if (!search_filename.isEmpty()) {
-		m["query"] = search_filename;
-	} else {
-		m["moviehash"] = search_hash;
-		m["moviebytesize"] = QString::number(search_size);
+
+	switch (search_method) {
+		case Filename:
+			m["query"] = search_filename;
+			break;
+		case Hash:
+			m["moviehash"] = search_hash;
+			m["moviebytesize"] = QString::number(search_size);
+			break;
+		case HashAndFilename:
+			m["moviehash"] = search_hash;
+			m["moviebytesize"] = QString::number(search_size);
+			QVariantMap m2;
+			m2["sublanguageid"] = "all";
+			m2["query"] = search_filename;
+			list.append(m2);
 	}
 
-	QVariantList list;
 #ifdef OS_SEARCH_WORKAROUND
 	// Sometimes opensubtitles return 0 subtitles
 	// A workaround seems to add the query several times

@@ -17,6 +17,7 @@
 */
 
 #include "findsubtitlesconfigdialog.h"
+#include "osclient.h"
 #include <QNetworkProxy>
 
 FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::WindowFlags f )
@@ -24,8 +25,9 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 {
 	setupUi(this);
 
-	search_method_combo->addItem(tr("Hash"), Hash);
-	search_method_combo->addItem(tr("Filename"), Filename);
+	search_method_combo->addItem(tr("Hash"), OSClient::Hash);
+	search_method_combo->addItem(tr("Filename"), OSClient::Filename);
+	search_method_combo->addItem(tr("Hash and filename"), OSClient::HashAndFilename);
 
 #ifdef FS_USE_PROXY
 	proxy_type_combo->addItem( tr("HTTP"), QNetworkProxy::HttpProxy);
@@ -77,7 +79,7 @@ QString FindSubtitlesConfigDialog::server() {
 }
 #endif
 
-void FindSubtitlesConfigDialog::setSearchMethod(SearchMethod m) {
+void FindSubtitlesConfigDialog::setSearchMethod(int m) {
 	int pos = search_method_combo->findData(m);
 	if (pos == -1) pos = 0;
 	search_method_combo->setCurrentIndex(pos);
