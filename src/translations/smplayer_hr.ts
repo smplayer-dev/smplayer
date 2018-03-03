@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2993,11 +2991,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="775"/>
@@ -3095,7 +3089,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="648"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -5783,7 +5777,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovdje možete upisati željeni jezik za zvučni zapis i podnaslove. Kada je pronađen medij sa višestrukim zvučnim zapisima i podnaslovima, SMPlayer će probati pokrenuti vaš željeni jezik. Ovo će raditi samo sa medijima koji pružaju informacije o jeziku zvučnih zapisa i podnaslova, poput DVD-a ili mkv datoteka.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6179,22 +6173,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovdje možete odrediti popis poželjnih jezičnih kôdova zvučnih zapisa, odvojenih zarezom. Na primjer: eng,hrv,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova polja primaju osnovne izraze. Primjer: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati zvučni zapis ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovdje možete odrediti popis poželjnih jezičnih kôdova podnaslova, odvojenih zarezom. Na primjer: eng,hrv,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova polja primaju osnovne izraze. Primjer: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati podnaslov ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -7224,14 +7218,14 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="158"/>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="153"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Interface</source>
         <translation>Sučelje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="228"/>
-        <location filename="../prefinterface.cpp" line="232"/>
+        <location filename="../prefinterface.cpp" line="223"/>
+        <location filename="../prefinterface.cpp" line="227"/>
         <source>Default</source>
         <translation>Zadano</translation>
     </message>
@@ -7262,42 +7256,42 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Recent files</source>
         <translation>Nedavne datoteke</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Language</source>
         <translation>Jezik</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Here you can change the language of the application.</source>
         <translation>Ovdje možete promijeniti jezik aplikacije.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="202"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Kratak skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="173"/>
+        <location filename="../prefinterface.cpp" line="168"/>
         <source>System language</source>
         <translation>Jezik sustava</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="203"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Srednji skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="204"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Duži skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="205"/>
+        <location filename="../prefinterface.cpp" line="200"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Skok &amp;kotačićem miša</translation>
     </message>
@@ -7472,305 +7466,305 @@ Do you want to overwrite?</source>
         <translation>Pok&amp;renuti primjerci</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Autoresize</source>
         <translation>Automatski promijeni veličinu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Glavni prozor može automatski mijenjati veličinu. Odaberite željenu mogućnost.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Remember position and size</source>
         <translation>Zapamti položaj i veličinu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Ako odaberete ovu mogućnost, položaj i veličina glavnog prozora biti će spremljena i vraćena kada ponovno pokrenete SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Odaberite poželjno grafičko sučelje za aplikaciju.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>&lt;b&gt;Osnovno GUI sučelje&lt;/b&gt; je tradicionalno GUI sučelje, s alatnom i trakom upravljanja.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>&lt;b&gt;Mini GUI sučelje&lt;/b&gt; je jednostavnije sučelje, bez alatne i trake upravljanja samo s nekoliko tipki.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>&lt;b&gt;GUI s presvlakama&lt;/b&gt; omogućuje sučelje s nekoliko dostupnih presvlaka.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>&lt;b&gt;Mpc GUI sučelje&lt;/b&gt; daje izgled sučelju poput onog u Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="870"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Privacy</source>
         <translation>Privatnost</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Odaberite maksimalan broj stavki koje će biti prikazane u &lt;b&gt;Otvori-&gt;Nedavne datoteke&lt;/b&gt; podizborniku. Ako ih postavite na 0 taj podizbornik neće biti prikazan.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>Icon set</source>
         <translation>Postavke ikona</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="226"/>
+        <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
         <translation>Klasičan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="238"/>
+        <location filename="../prefinterface.cpp" line="233"/>
         <source>Basic GUI</source>
         <translation>Osnovno GUI sučelje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="247"/>
+        <location filename="../prefinterface.cpp" line="242"/>
         <source>Skinnable GUI</source>
         <translation>GUI s presvlakama</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="260"/>
+        <location filename="../prefinterface.cpp" line="255"/>
         <source>Scale fact&amp;or:</source>
         <translation>Razmjer prilag&amp;odbe:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="263"/>
+        <location filename="../prefinterface.cpp" line="258"/>
         <source>Pixel rati&amp;o:</source>
         <translation>Omjer pi&amp;ksela:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Spriječi prozor da ode izvan zaslona</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Ako nakon automatske promjene veličine glavnog prozora ode izvan zaslona, ova mogućnost prozor pomiće u sredinu.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Center window</source>
         <translation>Prozor u sredini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Kada je ova mogućnost odabrana, glavni prozor će biti u sredini radne površine.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Odaberite poželjne postavke ikona za aplikaciju.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>Skin</source>
         <translation>Presvlaka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Odaberite željenu presvlaku za aplikaciju. Dostupno samo za GUI s presvlakama.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>Style</source>
         <translation>Izgled</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Odaberite željeni izgled aplikacije.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="783"/>
         <source>Default font</source>
         <translation>Zadana slova</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Ovdje možete promijeniti slova aplikacije.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="791"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Seeking</source>
         <translation>Pretraživanje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Short jump</source>
         <translation>Kratak skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
-        <location filename="../prefinterface.cpp" line="798"/>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Odaberite pomak vremena prilikom pomicanja naprijed ili natrag kada odaberete %1 radnju.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="795"/>
+        <location filename="../prefinterface.cpp" line="790"/>
         <source>short jump</source>
         <translation>kratak skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="797"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>Medium jump</source>
         <translation>Srednji skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="799"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>medium jump</source>
         <translation>srednji skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Long jump</source>
         <translation>Duži skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="803"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>long jump</source>
         <translation>duži skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="805"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>Mouse wheel jump</source>
         <translation>Skok kotačićem miša</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Odaberite pomak vremena prilikom pomicanja naprijed ili natrag kada pomičete kotačić miša.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="809"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>Behaviour of time slider</source>
         <translation>Ponašanje vremenskog klizača</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Odaberite što činiti kada se pomiče vremenski klizač.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="824"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Klikom na tipku zaustavljanja jednom poništava se vremenski položaj</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Prikaži samo kada se pokazivačem miša prelazi dnom zaslona</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="856"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja biti će samo prikazana kada se pokazivačem miša prijeđe dnom zaslona. U suprotnom traka lebdećeg upravljanja će se pojaviti uvijek kada se pokazivač miša pomakne, neovisno o pložaju na zaslonu.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="861"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja će se pojaviti u prikazu jednostavnog prozora.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="863"/>
+        <location filename="../prefinterface.cpp" line="858"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Ova mogućnost radi samo sa osnovnim GUI sučeljem.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="864"/>
+        <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Upozorenje:&lt;/b&gt; traka lebdećeg upravljanja nije dizajnirana za prikaz jednostavnog prozora i možda neće ispravno raditi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="867"/>
+        <location filename="../prefinterface.cpp" line="862"/>
         <source>Time to hide the control</source>
         <translation>Vrijeme sakrivanja trake upravljanja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Postavite vrijeme sakrivanja trake upravljanja (u milisekundama) nakon što se pokazivač miša udalji od trake upravljanja.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Max. URLs</source>
         <translation>Maks. URL-ova</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Odaberite maksimalan broj stavki koje će biti prikazane u &lt;b&gt;Otvori-&gt;URL&lt;/b&gt; dijalogu. Postavite na 0 ako ne želite spremiti URL-ove.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="882"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Remember last directory</source>
         <translation>Zapamti posljednji direktorij</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="883"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Ako je odabrana ova mogućnost, SMPlayer će zapamtiti posljednji direktorij korišten pri otvaranju datoteke.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="813"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>Seeking method</source>
         <translation>Način pretraživanja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Postavite na koji će se način koristiti klizač prilikom pretraživanja. Potpuno pretraživanje je malo preciznije, dok jednostavno pretraživanje radi bolje s datotekama koje imaju pogrešno upisano vrijeme trajanja.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="825"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Uobičajeno kada je tipka zaustavljanja pritisnuta vremenski položaj je zapamćen, stoga kada se tipka reprodukcije pritisne reprodukcija se nastavlja sa zapamćenog položaja. Morate pritisnuti tipku zaustavljanja dva puta za poništavanje zapamćenog položaja, ali ako je ova mogućnost odabrana vremenski položaj biti će postavljen na 0 samo sa jednim pritiskom na tipku zaustavljanja.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="832"/>
+        <location filename="../prefinterface.cpp" line="827"/>
         <source>Instances</source>
         <translation>Pokrenuti primjerci</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="835"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Koristi samo jedan pokrenuti primjerak SMPlayera</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="836"/>
+        <location filename="../prefinterface.cpp" line="831"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Odaberite ovu mogućnost ako želite koristiti već pokrenuti primjerak SMPlayera kada otvarate druge datoteke.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="241"/>
+        <location filename="../prefinterface.cpp" line="236"/>
         <source>Mini GUI</source>
         <translation>Mini GUI sučelje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>GUI</source>
         <translation>Grafičko sučelje</translation>
     </message>
@@ -7780,42 +7774,42 @@ Do you want to overwrite?</source>
         <translation>&amp;Grafičko sučelje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="840"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Floating control</source>
         <translation>Lebdeće upravljanje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="842"/>
+        <location filename="../prefinterface.cpp" line="837"/>
         <source>Animated</source>
         <translation>Animirano</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="843"/>
+        <location filename="../prefinterface.cpp" line="838"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja će se pojaviti s animacijom.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="846"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>Width</source>
         <translation>Širina</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Određuje širinu trake upravljanja (u postotku).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="849"/>
+        <location filename="../prefinterface.cpp" line="844"/>
         <source>Margin</source>
         <translation>Udaljenost od dna zaslona</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="850"/>
+        <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Ova mogućnost postavlja broj piksela koliko će biti lebdeća traka upravljanja udaljena od dna zaslona. Korisno kada je zaslon TV, kada zbog nevidljivih obruba zaslona traka upravljanja nije vidljiva.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="860"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
         <translation>Prikaži i u jednostavnom načinu</translation>
     </message>
@@ -7852,17 +7846,17 @@ Do you want to overwrite?</source>
         <translation>Prikaži i u &amp;jednostavnom načinu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="244"/>
+        <location filename="../prefinterface.cpp" line="239"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI sučelje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>Hide video window when playing audio files</source>
         <translation>Sakrij video prozor tijekom reprodukcije zvučnih datoteka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Ako je ova mogućnost odabrana video prozor biti će sakriven tijekom reprodukcije zvučnih datoteka.</translation>
     </message>
@@ -7872,17 +7866,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Sakrij video prozor tijekom reprodukcije zvučnih datoteka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Precise seeking</source>
         <translation>Precizno pretraživanje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="820"/>
+        <location filename="../prefinterface.cpp" line="815"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Ako je ova mogućnost odabrana, pretraživanja su više preciznija ali mogu biti nešto sporija. Možda neće raditi s nekim video formatima.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="822"/>
+        <location filename="../prefinterface.cpp" line="817"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Napomena: ova mogućnost radi samo sa MPlayer2</translation>
     </message>
@@ -9311,7 +9305,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Neprozirnost:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -9779,21 +9773,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
