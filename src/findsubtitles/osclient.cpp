@@ -27,7 +27,7 @@ OSClient::OSClient(QObject* parent) :
 	, best_search_count(0)
 	, search_retries(8)
 #endif
-	, search_method(Hash)
+	, search_method(HashAndFilename)
 {
 	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
 }
