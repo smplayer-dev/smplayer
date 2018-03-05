@@ -2820,7 +2820,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Hash og filnavn</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2988,7 +2988,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Opretter forbindelse...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -3033,10 +3033,6 @@ Eksempel: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
         <source>Download failed: %1.</source>
         <translation>Download mislykkedes: %1.</translation>
-    </message>
-    <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Opretter forbindelse til %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>

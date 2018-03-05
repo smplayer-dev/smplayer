@@ -3036,10 +3036,6 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Stahování selhalo: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Připojování k %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Stahuji...</translation>

@@ -3031,10 +3031,6 @@ Example: extrastereo,karaoke</source>
         <translation>Shkarkimi dështoj: %1</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Duke u lidhur me %1</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Duke shkarkuar...</translation>

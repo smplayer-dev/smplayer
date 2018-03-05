@@ -3035,10 +3035,6 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Downloaden mislukt: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Verbinden met %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Bezig met downloaden...</translation>

@@ -3035,10 +3035,6 @@ Example: extrastereo,karaoke</source>
         <translation>ማውረድ አልተቻለም: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">በ መገናኘት ላይ ወደ %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>በ ማውረድ ላይ...</translation>

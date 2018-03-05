@@ -3036,10 +3036,6 @@ Eksempler: extrastereo,karaoke</translation>
         <translation>Nedlasting mislyktes: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Kobler til %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Laster ned...</translation>
