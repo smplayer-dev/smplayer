@@ -3037,10 +3037,6 @@ Példa: extrastereo,karaoke </translation>
         <translation>Letöltési hiba: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Kapcsolódás %1-hoz...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Letöltés...</translation>

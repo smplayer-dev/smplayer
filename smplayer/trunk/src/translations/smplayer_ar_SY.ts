@@ -3039,10 +3039,6 @@ Example: extrastereo,karaoke</source>
         <translation>فشل التنزيل: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">يتصل بـ%1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>يُنزّل...</translation>

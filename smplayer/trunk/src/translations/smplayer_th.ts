@@ -3031,10 +3031,6 @@ Example: extrastereo,karaoke</source>
         <translation>ดาวน์โหลดล้มเหลว: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">กำลังเชื่อมต่อ %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>กำลังดาวน์โหลด...</translation>

@@ -3036,10 +3036,6 @@ Exemple: extrastereo,karaoke</translation>
         <translation>Téléchargement échoué : %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Connexion à %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Téléchargement...</translation>

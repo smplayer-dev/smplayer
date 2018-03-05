@@ -3035,10 +3035,6 @@ Example: extrastereo,karaoke</source>
         <translation>Atsiųsti nepavyko: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Jungiamasi prie %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Atsiunčiama...</translation>

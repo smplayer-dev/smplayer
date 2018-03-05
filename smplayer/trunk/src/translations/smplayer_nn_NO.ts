@@ -3033,10 +3033,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>Mislukka nedlasting: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Koplar til %1…</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Lastar ned…</translation>

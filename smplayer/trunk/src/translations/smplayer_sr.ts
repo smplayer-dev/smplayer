@@ -3037,10 +3037,6 @@ Example: extrastereo,karaoke</source>
         <translation>Преузимање неуспело: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Повезивање са %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Преузимање...</translation>

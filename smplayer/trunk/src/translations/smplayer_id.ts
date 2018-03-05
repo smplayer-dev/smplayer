@@ -3035,10 +3035,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Unduhan gagal: %1</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Menyambung ke %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Mengunduh...</translation>

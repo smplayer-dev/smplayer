@@ -3035,10 +3035,6 @@ Example: extrastereo,karaoke</source>
         <translation>Η λήψη απέτυχε: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Γίνεται σύνδεση με τον %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Λήψη...</translation>

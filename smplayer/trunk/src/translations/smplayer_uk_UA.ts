@@ -3036,10 +3036,6 @@ Example: extrastereo,karaoke</source>
         <translation>Завантаження невдале: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">З&apos;єднуюсь з %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Завантажується...</translation>

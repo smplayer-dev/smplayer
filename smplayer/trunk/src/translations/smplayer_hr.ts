@@ -3036,10 +3036,6 @@ Npr: extrastereo,karaoke</translation>
         <translation>Neuspjelo preuzimanje: %1.</translation>
     </message>
     <message>
-        <source>Connecting to %1...</source>
-        <translation type="obsolete">Povezivanje s %1...</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
         <translation>Preuzimanje...</translation>
