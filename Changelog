@@ -1,3 +1,13 @@
+Version 18.3:
+
+(2018-03-03)
+ * Possibility to search for subtitles using the hash and filename methods
+   at the same time.
+
+(2018-02-23)
+ * Fix a bug which prevented to play some YouTube URLs.
+
+
 Version 18.2.2:
 
 (2018-02-15)
