@@ -10800,6 +10800,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
@@ -10847,11 +10852,6 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
-        <source>Frames per second: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

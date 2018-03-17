@@ -10535,6 +10535,11 @@ El voleu sobreescriure?</translation>
         <translation>Duració: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Format de l&apos;àudio: %1</translation>
@@ -10585,9 +10590,8 @@ El voleu sobreescriure?</translation>
         <translation>Format del vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Fotogrames per segon: %1</translation>
+        <translation type="obsolete">Fotogrames per segon: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>
