@@ -10534,6 +10534,11 @@ Gainidaztea nahi duzu?</translation>
         <translation>Iraupena: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Audio heuskarria: %1</translation>
@@ -10584,9 +10589,8 @@ Gainidaztea nahi duzu?</translation>
         <translation>Bideo heuskarria: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Frame segunduko: %1</translation>
+        <translation type="obsolete">Frame segunduko: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

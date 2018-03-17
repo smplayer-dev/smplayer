@@ -10657,14 +10657,18 @@ Do you want to overwrite?</source>
         <translation>وضوح تصویر : ٪1×٪2</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Video format: %1</source>
         <translation>فرمت فیلم : ٪1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>فریم بر ثانیه : ٪1</translation>
+        <translation type="obsolete">فریم بر ثانیه : ٪1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

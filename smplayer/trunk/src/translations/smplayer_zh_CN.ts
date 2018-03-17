@@ -989,12 +989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>截屏包含字幕</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>截屏不包含字幕</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1165,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>在OSD中显示文件名</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
@@ -2820,7 +2820,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>哈希值及文件名</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2988,7 +2988,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>连接中...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -5786,7 +5786,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里你可以输入音频及字幕的首选语言。当一个媒体文件包含多个音频和字幕轨道时，SMPlayer会尝试选择首选的语言。此选项只有在媒体文件中包含音频轨道和字幕轨道信息时才可用，例如DVD或者mkv文件。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6182,22 +6182,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里可以按照优先顺序输入音频语言代码，使用逗号隔开，例如：zh,zh-cn,zh-chs,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>此输入框可以使用正则表达式。例如： &lt;b&gt;zh|zh-cn|zh-chs&lt;/b&gt; 会匹配到包含 &lt;i&gt;zh, &lt;i&gt;zh-cn&lt;/i&gt; 或 &lt;i&gt;zh-chs&lt;/i&gt;的音频轨道。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>在这里可以按照优先顺序输入字幕语言代码，使用逗号隔开，例如：zh,zh-cn,zh-chs,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>此输入框可以使用正则表达式。例如： &lt;b&gt;zh|zh-cn|zh-chs&lt;/b&gt; 会匹配到包含 &lt;i&gt;zh, &lt;i&gt;zh-cn&lt;/i&gt; 或 &lt;i&gt;zh-chs&lt;/i&gt;的字幕轨道。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -9314,7 +9314,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>透明度：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -10531,6 +10531,11 @@ Do you want to overwrite?</source>
         <translation>长度: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>音频格式： %1</translation>
@@ -10581,9 +10586,8 @@ Do you want to overwrite?</source>
         <translation>视频格式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>每秒帧数: %1</translation>
+        <translation type="obsolete">每秒帧数: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

@@ -10536,6 +10536,11 @@ Norite perrašyti?</translation>
         <translation>Trukmė: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
@@ -10586,9 +10591,8 @@ Norite perrašyti?</translation>
         <translation>Video formatas: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Kadrų per sekundę: %1</translation>
+        <translation type="obsolete">Kadrų per sekundę: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

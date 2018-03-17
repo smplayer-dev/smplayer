@@ -10534,6 +10534,11 @@ Do you want to overwrite?</source>
         <translation>Duración: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation>FPS: %1</translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Formato de audio: %1</translation>
@@ -10584,9 +10589,8 @@ Do you want to overwrite?</source>
         <translation>Formato de vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Imágenes por segundo: %1</translation>
+        <translation type="obsolete">Imágenes por segundo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

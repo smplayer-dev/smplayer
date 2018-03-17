@@ -10537,6 +10537,11 @@ Do you want to overwrite?</source>
         <translation>Trajanje: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Zvučni format: %1</translation>
@@ -10587,9 +10592,8 @@ Do you want to overwrite?</source>
         <translation>Format video zapisa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Sličica u sekundi: %1</translation>
+        <translation type="obsolete">Sličica u sekundi: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

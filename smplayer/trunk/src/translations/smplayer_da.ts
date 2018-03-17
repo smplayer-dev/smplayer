@@ -4157,7 +4157,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>South-Eastern European</source>
-        <translation>Syd-Øst Europæisk</translation>
+        <translation>Sydøsteuropæisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="307"/>
@@ -10534,6 +10534,11 @@ Vil du overskrive den?</translation>
         <translation>Varighed: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Lydformat: %1</translation>
@@ -10584,9 +10589,8 @@ Vil du overskrive den?</translation>
         <translation>Videoformat: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Billeder pr. sekund: %1</translation>
+        <translation type="obsolete">Billeder pr. sekund: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

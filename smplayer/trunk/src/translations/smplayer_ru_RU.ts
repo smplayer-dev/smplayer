@@ -10537,6 +10537,11 @@ Do you want to overwrite?</source>
         <translation>Продолжительность: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Формат аудио: %1</translation>
@@ -10587,9 +10592,8 @@ Do you want to overwrite?</source>
         <translation>Формат видео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Кадров в секунду: %1</translation>
+        <translation type="obsolete">Кадров в секунду: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

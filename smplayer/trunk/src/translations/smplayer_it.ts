@@ -10535,6 +10535,11 @@ Vuoi sovrascriverlo?</translation>
         <translation>Durata: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
@@ -10585,9 +10590,8 @@ Vuoi sovrascriverlo?</translation>
         <translation>Formato video: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Fotogrammi al secondo: %1</translation>
+        <translation type="obsolete">Fotogrammi al secondo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

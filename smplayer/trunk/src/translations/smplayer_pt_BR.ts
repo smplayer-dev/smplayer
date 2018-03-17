@@ -10534,6 +10534,11 @@ Deseja substituí-lo?</translation>
         <translation>Duração: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Formato de áudio: %1</translation>
@@ -10584,9 +10589,8 @@ Deseja substituí-lo?</translation>
         <translation>Formato Vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Quadros por segundo: %1</translation>
+        <translation type="obsolete">Quadros por segundo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

@@ -10535,6 +10535,11 @@ Do you want to overwrite?</source>
         <translation>እርዝመት: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>የ ድምፅ አቀራረብ: %1</translation>
@@ -10585,9 +10590,8 @@ Do you want to overwrite?</source>
         <translation>የ ቪዲዮ አቀራረብ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>ክፈፎች በ ሰከንድ: %1</translation>
+        <translation type="obsolete">ክፈፎች በ ሰከንድ: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>

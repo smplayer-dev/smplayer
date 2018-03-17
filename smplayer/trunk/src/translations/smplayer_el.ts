@@ -10534,6 +10534,11 @@ Do you want to overwrite?</source>
         <translation>Διάρκεια: %1</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <source>FPS: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>Μορφή ήχου: %1</translation>
@@ -10584,9 +10589,8 @@ Do you want to overwrite?</source>
         <translation>Τύπος βίντεο: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>Frames per second: %1</source>
-        <translation>Καρέ ανά δευτερόλεπτο: %1</translation>
+        <translation type="obsolete">Καρέ ανά δευτερόλεπτο: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>
