@@ -55,7 +55,7 @@
 /* #define VP_USE_PNG_OUTDIR */
 
 #define FONT_STYLE "font-family:ubuntu,verdana,arial;"
-#define HEADER_STYLE "style=\"" FONT_STYLE " font-size:14px\""
+#define HEADER_STYLE "style=\"" FONT_STYLE " font-size:16px\""
 #define FOOTER_STYLE HEADER_STYLE
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
@@ -91,7 +91,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	w_contents->setPalette(p);
 
 	info = new QLabel(this);
-	info->setWordWrap(true);
+	info->setWordWrap(false);
 
 	foot = new QLabel(this);
 	foot->setAlignment(Qt::AlignRight);
@@ -496,10 +496,16 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
+	QString filename = i.filename;
+	const int maxlength = 50;
+	if (filename.length() > maxlength) {
+		filename = filename.left(maxlength - 9) + "..." + filename.right(6);
+	}
+
 	int count = 1;
 
 	QString text =
-		"<h2 " FONT_STYLE ">" + i.filename + "</h2>"
+		"<h2 " FONT_STYLE ">" + filename + "</h2>"
 		"<table cellspacing=4 cellpadding=4 " HEADER_STYLE ">"
 		"<tr><td>";
 
@@ -526,8 +532,6 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 }
 
 void VideoPreview::cleanDir(QString directory) {
-	//return;
-
 	QStringList filter;
 	if (prop.extract_format == PNG) {
 		filter.append("*.png");
