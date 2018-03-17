@@ -55,7 +55,7 @@
 /* #define VP_USE_PNG_OUTDIR */
 
 #define FONT_STYLE "font-family:ubuntu,verdana,arial;"
-#define HEADER_STYLE "style=\"" FONT_STYLE " font-size:16px\""
+#define HEADER_STYLE "style=\"" FONT_STYLE " font-size:14px\""
 #define FOOTER_STYLE HEADER_STYLE
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
