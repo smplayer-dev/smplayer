@@ -1,5 +1,9 @@
 Version 18.3:
 
+(2018-03-16)
+ * (mpv) Prevent to show subtitles in the images created by the thumbnail
+   generator.
+
 (2018-03-03)
  * Possibility to search for subtitles using the hash and filename methods
    at the same time.
