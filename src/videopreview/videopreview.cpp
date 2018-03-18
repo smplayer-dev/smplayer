@@ -90,6 +90,9 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	p.setColor(w_contents->foregroundRole(), Qt::black);
 	w_contents->setPalette(p);
 
+	title = new QLabel(this);
+	title->setWordWrap(true);
+
 	info = new QLabel(this);
 	info->setWordWrap(false);
 
@@ -104,6 +107,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	l->setContentsMargins(4, 4, 4, 4);
 	l->setSpacing(0);
 	l->setSizeConstraint(QLayout::SetFixedSize);
+	l->addWidget(title);
 	l->addWidget(info);
 	l->addLayout(grid_layout);
 	l->addWidget(foot);
@@ -496,16 +500,11 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
-	QString filename = i.filename;
-	const int maxlength = 50;
-	if (filename.length() > maxlength) {
-		filename = filename.left(maxlength - 9) + "..." + filename.right(6);
-	}
+	title->setText("<h2 " FONT_STYLE ">" + i.filename + "</h2>");
 
 	int count = 1;
 
 	QString text =
-		"<h2 " FONT_STYLE ">" + filename + "</h2>"
 		"<table cellspacing=4 cellpadding=4 " HEADER_STYLE ">"
 		"<tr><td>";
 
