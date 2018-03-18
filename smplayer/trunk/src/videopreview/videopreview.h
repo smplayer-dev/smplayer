@@ -134,6 +134,7 @@ protected:
 	QList <QLabel *> label_list;
 
 	QGridLayout * grid_layout;
+	QLabel * title;
 	QLabel * info;
 	QLabel * foot;
 	QWidget * w_contents;
