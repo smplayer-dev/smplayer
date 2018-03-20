@@ -2820,7 +2820,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Хеш та ім&apos;я файла</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2988,7 +2988,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>З&apos;єднання...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -5788,7 +5788,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тут можна вказати бажану мову для аудіо і субтитрів. Якщо відтворюваний файл містить доріжки субтитрів чи аудіо-доріжки на різних мовах, то SMPlayer буде вибирати з них відповідні до ваших переваг. Це працюватиме тільки для тих типів данних мультимедіа, які містять інформацію про мову аудіо-доріжок та субтитрів, таких як DVD чи mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6184,22 +6184,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете вказати пріоритет звукових доріжок, відокремлюючи їх комами. Наприклад: ukr,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це поле приймає регулярні вирази. Наприклад: &lt;b&gt;uk|ukr|ukrainian&lt;/b&gt; означає, що будуть вибрані аудіо-доріжки, що містять в назві мови &lt;i&gt;uk&lt;/i&gt;, &lt;i&gt;ukr&lt;/i&gt; чи &lt;i&gt;ukrainian.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете вказати пріоритет мов субтитрів, відокремлюючи їх комами. Наприклад: ukr,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Це поле приймає регулярні вирази. Наприклад: &lt;b&gt;uk|ukr|ukrainian&lt;/b&gt; означає, що будуть вибрані субтитри, що містять в назві мови &lt;i&gt;uk&lt;/i&gt;, &lt;i&gt;ukr&lt;/i&gt; чи &lt;i&gt;ukrainian.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -9316,7 +9316,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Непрозорість:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -10497,167 +10497,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="525"/>
+        <location filename="../videopreview/videopreview.cpp" line="530"/>
         <source>Video preview</source>
         <translation>Попередній перегляд відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="164"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Cancel</source>
         <translation>Скасувати</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <location filename="../videopreview/videopreview.cpp" line="127"/>
         <source>&amp;Close</source>
         <translation>&amp;Закрити</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="124"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Save</source>
         <translation>&amp;Зберегти</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="163"/>
+        <location filename="../videopreview/videopreview.cpp" line="167"/>
         <source>Thumbnail Generator</source>
         <translation>Генератор мініатюр</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="256"/>
         <source>Creating thumbnails...</source>
         <translation>Створення мініатюр...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Size: %1 MB</source>
         <translation>Розмір: %1 Мб</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Length: %1</source>
         <translation>Довжина: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>FPS: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio format: %1</source>
         <translation>Формат аудіо: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="689"/>
+        <location filename="../videopreview/videopreview.cpp" line="692"/>
         <source>Save file</source>
         <translation>Зберегти файл</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="702"/>
+        <location filename="../videopreview/videopreview.cpp" line="705"/>
         <source>Error saving file</source>
         <translation>Помилка збереження файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="703"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Файл не може бути збережений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="212"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Сталася така помилка під час створення мініатюр:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Тимчасова тека (%1) не може бути створена</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <location filename="../videopreview/videopreview.cpp" line="402"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Процес mplayer не запустився</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Resolution: %1x%2</source>
         <translation>Роздільність: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video format: %1</source>
         <translation>Формат відео: %1</translation>
     </message>
     <message>
-        <source>Frames per second: %1</source>
-        <translation type="obsolete">Кадрів на секунду: %1</translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="514"/>
+        <location filename="../videopreview/videopreview.cpp" line="519"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Файл %1 не може бути завантажений</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="553"/>
+        <location filename="../videopreview/videopreview.cpp" line="556"/>
         <source>No filename</source>
         <translation>Немає назви файлу</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="647"/>
+        <location filename="../videopreview/videopreview.cpp" line="650"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Процес mplayer не запустився під час спроби отримання відомостей про відео</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="230"/>
         <source>The length of the video is 0</source>
         <translation>Довжина відео: 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="270"/>
+        <location filename="../videopreview/videopreview.cpp" line="274"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Файл %1 не існує</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="690"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Images</source>
         <translation>Зображення</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="492"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>No info</source>
         <translation>Немає відомостей</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="495"/>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="500"/>
         <source>%1 kbps</source>
         <translation>%1 кбіт/с</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 Hz</source>
         <translation>%1 Гц</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="521"/>
         <source>Video bitrate: %1</source>
         <translation>Бітрейт відео: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Audio bitrate: %1</source>
         <translation>Бітрейт аудіо: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="518"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio rate: %1</source>
         <translation>Частота аудіо: %1</translation>
     </message>

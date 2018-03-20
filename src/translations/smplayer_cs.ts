@@ -2820,7 +2820,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Hash a název souboru</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2988,7 +2988,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojování...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -5788,7 +5788,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete zadat upřednostňovaný jazyk zvukové stopy nebo titulků. Pokud médium obsahuje více audio stop nebo titulků, SMPlayer zkusí zvolit váš preferovaný jazyk. Toto funguje pouze pro média, která poskytují informace o zvukových stopách a titulcích, jako DVD nebo soubory mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6185,22 +6185,22 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete určit prioritní seznam kódů jazyků a zvuku oddělených čárkami. Například: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto pole přijímá regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; zvolí zvukovou stopu, která odpovídá &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete určit prioritní seznam kódů jazyků a zvuku, oddělených čárkami. Například: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto pole přijímá regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; zvolí titulky, které odpovídají &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -9318,7 +9318,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Neprůhlednost:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -10499,167 +10499,163 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="525"/>
+        <location filename="../videopreview/videopreview.cpp" line="530"/>
         <source>Video preview</source>
         <translation>Náhled na video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="164"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="123"/>
+        <location filename="../videopreview/videopreview.cpp" line="127"/>
         <source>&amp;Close</source>
         <translation>&amp;Zavřít</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="124"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Save</source>
         <translation>&amp;Uložit</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="163"/>
+        <location filename="../videopreview/videopreview.cpp" line="167"/>
         <source>Thumbnail Generator</source>
         <translation>Generátor náhledů</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="256"/>
         <source>Creating thumbnails...</source>
         <translation>Vytvářím miniatury...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="506"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Size: %1 MB</source>
         <translation>Velikost: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="508"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Length: %1</source>
         <translation>Délka: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="510"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio format: %1</source>
         <translation>Formát zvuku: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="689"/>
+        <location filename="../videopreview/videopreview.cpp" line="692"/>
         <source>Save file</source>
         <translation>Uložit do souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="702"/>
+        <location filename="../videopreview/videopreview.cpp" line="705"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="703"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Tento soubor nemůže být uložen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="212"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Při vytváření miniatur došlo k následující chybě:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Nelze vytvořit dočasný adresář (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="398"/>
+        <location filename="../videopreview/videopreview.cpp" line="402"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Nešlo spustit MPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="507"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozlišení: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video format: %1</source>
         <translation>Formát videa: %1</translation>
     </message>
     <message>
-        <source>Frames per second: %1</source>
-        <translation type="obsolete">Snímků za sekundu: %1</translation>
-    </message>
-    <message>
-        <location filename="../videopreview/videopreview.cpp" line="514"/>
+        <location filename="../videopreview/videopreview.cpp" line="519"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Nelze načíst soubor %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="553"/>
+        <location filename="../videopreview/videopreview.cpp" line="556"/>
         <source>No filename</source>
         <translation>Nezadáno jméno souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="647"/>
+        <location filename="../videopreview/videopreview.cpp" line="650"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Nešlo spustit MPlayer pro získání informací o videu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="226"/>
+        <location filename="../videopreview/videopreview.cpp" line="230"/>
         <source>The length of the video is 0</source>
         <translation>Video nulové délky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="270"/>
+        <location filename="../videopreview/videopreview.cpp" line="274"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Soubor %1 neexistuje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="690"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Images</source>
         <translation>Obrázky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="492"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>No info</source>
         <translation>Bez informací</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="495"/>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="499"/>
+        <location filename="../videopreview/videopreview.cpp" line="500"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="521"/>
         <source>Video bitrate: %1</source>
         <translation>Rychlost videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Audio bitrate: %1</source>
         <translation>Rychlost audia: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="518"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio rate: %1</source>
         <translation>Vzorkování zvuku: %1</translation>
     </message>
