@@ -20,14 +20,14 @@
 #include <QObject>
 
 #define USE_SVN_VERSIONS 1
-#define DEVELOPMENT_VERSION 1
+#define DEVELOPMENT_VERSION 0
 
-#define VERSION "18.2.2"
+#define VERSION "18.3.0"
 
 #if USE_SVN_VERSIONS && DEVELOPMENT_VERSION
 #include "svn_revision.h"
 #else
-#define SVN_REVISION "8937"
+#define SVN_REVISION "8959"
 #endif
 
 #ifdef Q_OS_WIN

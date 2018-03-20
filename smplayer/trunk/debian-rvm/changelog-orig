@@ -1,3 +1,11 @@
+smplayer (18.3.0) precise; urgency=low
+
+  * Possibility to search for subtitles using the hash and filename methods
+    at the same time.
+  * Fix a bug which prevented to play some YouTube URLs.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 20 Mar 2018 21:29:14 +0100
+
 smplayer (18.2.2) precise; urgency=low
 
   * The option Open -> URL can now also load YouTube playlists.
@@ -6,7 +14,7 @@ smplayer (18.2.2) precise; urgency=low
     to "opaque box").
   * The options to select the preferred number of track for audio and subtitles
     are back.
-  * (mpv) Now the direct3d is the default video output for Windows, since some
+  * (mpv) Now direct3d is the default video output for Windows, since some
     users reported problems with the gpu output.
 
  -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 17 Feb 2018 21:46:13 +0100
