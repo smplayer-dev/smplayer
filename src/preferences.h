@@ -367,6 +367,8 @@ public:
 	bool emulate_mplayer_ab_section;
 #endif
 
+	bool use_native_open_dialog;
+
 
 	/* *********
 	   GUI stuff

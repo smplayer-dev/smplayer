@@ -55,6 +55,11 @@ public:
 			QString * selectedFilter = 0, 
 			QFileDialog::Options options = QFileDialog::DontResolveSymlinks );
 
+	static void setNative(bool b) { use_native_dialog = b; };
+	static bool isNative() { return use_native_dialog; };
+
+protected:
+	static bool use_native_dialog;
 };
 
 #endif

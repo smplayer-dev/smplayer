@@ -390,6 +390,8 @@ void Preferences::reset() {
 	emulate_mplayer_ab_section = false;
 #endif
 
+	use_native_open_dialog = true;
+
 
     /* *********
        GUI stuff
@@ -941,6 +943,8 @@ void Preferences::save() {
 #ifdef MPV_SUPPORT
 	set->setValue("emulate_mplayer_ab_section", emulate_mplayer_ab_section);
 #endif
+
+	set->setValue("use_native_open_dialog", use_native_open_dialog);
 
 	set->endGroup(); // advanced
 
@@ -1532,6 +1536,8 @@ void Preferences::load() {
 #ifdef MPV_SUPPORT
 	emulate_mplayer_ab_section = set->value("emulate_mplayer_ab_section", emulate_mplayer_ab_section).toBool();
 #endif
+
+	use_native_open_dialog = set->value("use_native_open_dialog", use_native_open_dialog).toBool();
 
 	set->endGroup(); // advanced
 

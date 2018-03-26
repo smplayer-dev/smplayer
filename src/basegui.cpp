@@ -267,6 +267,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef MPRIS2
 	if (pref->use_mpris2) new Mpris2(this, this);
 #endif
+
+	MyFileDialog::setNative(pref->use_native_open_dialog);
 }
 
 void BaseGui::setupNetworkProxy() {
