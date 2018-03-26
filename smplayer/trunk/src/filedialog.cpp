@@ -19,11 +19,15 @@
 #include "filedialog.h"
 #include <QWidget>
 
+bool MyFileDialog::use_native_dialog = true;
+
 QString MyFileDialog::getOpenFileName( QWidget * parent, 
 			const QString & caption, 
 			const QString & dir, const QString & filter, 
 			QString * selectedFilter, QFileDialog::Options options ) 
 {
+	if (!use_native_dialog) options |= QFileDialog::DontUseNativeDialog;
+
 	return QFileDialog::getOpenFileName( parent, caption, dir, filter,
 										 selectedFilter, options );
 }
@@ -33,6 +37,8 @@ QString MyFileDialog::getExistingDirectory ( QWidget * parent,
 			const QString & dir, 
 			QFileDialog::Options options )
 {
+	if (!use_native_dialog) options |= QFileDialog::DontUseNativeDialog;
+
 	return QFileDialog::getExistingDirectory( parent, caption, dir, options );
 }
 
@@ -43,6 +49,8 @@ QString MyFileDialog::getSaveFileName ( QWidget * parent,
 			QString * selectedFilter, 
 			QFileDialog::Options options )
 {
+	if (!use_native_dialog) options |= QFileDialog::DontUseNativeDialog;
+
 	return QFileDialog::getSaveFileName( parent, caption, dir, filter,
                                          selectedFilter, options );
 }
@@ -54,6 +62,8 @@ QStringList MyFileDialog::getOpenFileNames ( QWidget * parent,
 			QString * selectedFilter, 
 			QFileDialog::Options options )
 {
+	if (!use_native_dialog) options |= QFileDialog::DontUseNativeDialog;
+
 	return QFileDialog::getOpenFileNames( parent, caption, dir, filter,
                                           selectedFilter, options );
 }
