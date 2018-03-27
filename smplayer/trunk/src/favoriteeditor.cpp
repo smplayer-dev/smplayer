@@ -52,7 +52,7 @@ QWidget * FEDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem &
 
 	if (index.column() == COL_FILE) {
 		FileChooser * fch = new FileChooser(parent);
-		fch->setOptions(QFileDialog::DontUseNativeDialog | QFileDialog::DontResolveSymlinks); // Crashes if use the KDE dialog
+		fch->setOptions(QFileDialog::DontUseNativeDialog | QFileDialog::DontResolveSymlinks); // Crashes if the native dialog is used
 		fch->setText( index.model()->data(index, Qt::DisplayRole).toString() );
 		return fch;
 	} 
