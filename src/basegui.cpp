@@ -4427,7 +4427,7 @@ void BaseGui::openBluRayFromFolder() {
 	qDebug("BaseGui::openBluRayFromFolder");
 
 	if (playlist->maybeSave()) {
-		QString dir = QFileDialog::getExistingDirectory(this, tr("Select the Blu-ray folder"),
+		QString dir = MyFileDialog::getExistingDirectory(this, tr("Select the Blu-ray folder"),
                           pref->last_dvd_directory, QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
 		if (!dir.isEmpty()) {
 			openBluRayFromFolder(dir);

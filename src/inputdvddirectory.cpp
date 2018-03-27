@@ -42,14 +42,6 @@ void InputDVDDirectory::on_searchButton_clicked() {
 	QString s = MyFileDialog::getExistingDirectory(
                     this, tr("Choose a directory"),
                     dvd_directory_edit->text() );
-	/*
-	QString s = QFileDialog::getOpenFileName(
-                    dvd_directory_edit->text(),
-                    "*.*", this,
-                    "select_dvd_device_dialog",
-                    tr("Choose a directory or iso file") );
-	*/
-
 	if (!s.isEmpty()) {
 		dvd_directory_edit->setText(s);
 	}
