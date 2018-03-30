@@ -278,6 +278,8 @@ void PrefInterface::setData(Preferences * pref) {
 	center_window_check->setChecked(pref->center_window);
 	center_if_outside_check->setChecked(pref->center_window_if_outside);
 
+	use_native_openfile_check->setChecked(pref->use_native_open_dialog);
+
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
 #endif
@@ -354,6 +356,8 @@ void PrefInterface::getData(Preferences * pref) {
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
 #endif
+
+	pref->use_native_open_dialog = use_native_openfile_check->isChecked();
 
 	pref->seeking1 = seeking1();
 	pref->seeking2 = seeking2();
@@ -787,6 +791,9 @@ void PrefInterface::createHelp() {
 
 	setWhatsThis(changeFontButton, tr("Default font"),
         tr("You can change here the application's font.") );
+
+	setWhatsThis(use_native_openfile_check, tr("Use the system native file dialog"),
+        tr("When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.") );
 
 	addSectionTitle(tr("Seeking"));
 
