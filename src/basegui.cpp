@@ -3201,6 +3201,8 @@ void BaseGui::applyNewPreferences() {
 
 	if (_interface->fontChanged()) need_apply_styles = true;
 
+	MyFileDialog::setNative(pref->use_native_open_dialog);
+
 #ifndef MOUSE_GESTURES
 	mplayerwindow->activateMouseDragTracking(pref->drag_function == Preferences::MoveWindow);
 #endif

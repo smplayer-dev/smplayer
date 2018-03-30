@@ -415,6 +415,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="use_native_openfile_check">
+         <property name="text">
+          <string>Use the syste&amp;m native file dialog</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1095,6 +1102,7 @@
   <tabstop>style_combo</tabstop>
   <tabstop>default_font_edit</tabstop>
   <tabstop>changeFontButton</tabstop>
+  <tabstop>use_native_openfile_check</tabstop>
   <tabstop>timeslider_behaviour_combo</tabstop>
   <tabstop>absolute_seeking_button</tabstop>
   <tabstop>relative_seeking_button</tabstop>
