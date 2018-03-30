@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -3003,9 +3001,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已擷取出 %n 字幕擋</numerusform>
-        </translation>
+        <translation><numerusform>已擷取出 %n 字幕擋</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
@@ -3098,7 +3094,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>無法將下載好的檔案儲存
@@ -7930,7 +7926,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>C&amp;hromecast</source>
-        <translation>Chromecasr(&amp;H)</translation>
+        <translation>Chromecast(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="194"/>
@@ -9784,17 +9780,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10493,163 +10485,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="530"/>
+        <location filename="../videopreview/videopreview.cpp" line="525"/>
         <source>Video preview</source>
         <translation>影片預覽</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="168"/>
+        <location filename="../videopreview/videopreview.cpp" line="164"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="127"/>
+        <location filename="../videopreview/videopreview.cpp" line="123"/>
         <source>&amp;Close</source>
         <translation>關閉(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="124"/>
         <source>&amp;Save</source>
         <translation>儲存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="167"/>
+        <location filename="../videopreview/videopreview.cpp" line="163"/>
         <source>Thumbnail Generator</source>
         <translation>縮圖產生器</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="256"/>
+        <location filename="../videopreview/videopreview.cpp" line="252"/>
         <source>Creating thumbnails...</source>
         <translation>建立縮圖中...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="506"/>
         <source>Size: %1 MB</source>
         <translation>大小：%1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="508"/>
         <source>Length: %1</source>
         <translation>長度：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="510"/>
         <source>FPS: %1</source>
         <translation>FPS：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Audio format: %1</source>
         <translation>音訊格式：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="692"/>
+        <location filename="../videopreview/videopreview.cpp" line="689"/>
         <source>Save file</source>
         <translation>儲存檔案</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="705"/>
+        <location filename="../videopreview/videopreview.cpp" line="702"/>
         <source>Error saving file</source>
         <translation>儲存檔案時出錯</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="706"/>
+        <location filename="../videopreview/videopreview.cpp" line="703"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>無法儲存檔案</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="212"/>
+        <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>製作縮圖時出現了以下的錯誤：</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>無法建立臨時目錄 (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="398"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer 行程沒有執行</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="507"/>
         <source>Resolution: %1x%2</source>
         <translation>解析度：%1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Video format: %1</source>
         <translation>影片格式：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Aspect ratio: %1</source>
         <translation>外觀比例：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>無法讀取檔案 %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="556"/>
+        <location filename="../videopreview/videopreview.cpp" line="553"/>
         <source>No filename</source>
         <translation>沒有檔案名</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="650"/>
+        <location filename="../videopreview/videopreview.cpp" line="647"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>在取得關於該影片的資訊時 mplayer 行程無法啟動</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>The length of the video is 0</source>
         <translation>影片長度為零</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="274"/>
+        <location filename="../videopreview/videopreview.cpp" line="270"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>檔案 %1 不存在</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="690"/>
         <source>Images</source>
         <translation>圖片</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="492"/>
         <source>No info</source>
         <translation>無資料</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
-        <location filename="../videopreview/videopreview.cpp" line="500"/>
+        <location filename="../videopreview/videopreview.cpp" line="495"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="521"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video bitrate: %1</source>
         <translation>視訊位元率：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="522"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio bitrate: %1</source>
         <translation>音訊位元率：%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="523"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio rate: %1</source>
         <translation>音訊取樣率：%1</translation>
     </message>
