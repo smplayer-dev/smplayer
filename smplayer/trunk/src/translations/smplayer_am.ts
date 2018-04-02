@@ -7372,7 +7372,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ስርአ&amp;ት ቀዳሚ ፋይል ንግግር ይጠቀሙ</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7622,12 +7622,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ስርአት ቀዳሚ ፋይል ንግግር ይጠቀሙ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ምርጫ ካስቻሉ SMPlayer የ ስርአት ቀዳሚ ፋይል ንግግር ይጠቀማል:   ያለ በለዚያ የ ውስጡን ይጠቀማል</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

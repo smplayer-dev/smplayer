@@ -7373,7 +7373,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 자체 파일 대화상자 사용(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7623,12 +7623,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 자체 파일 대화상자 사용하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 SMPlayer는 시스템 자체 대화상자를 사용합니다. 옵션 미사용시 내장 대화상자를 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

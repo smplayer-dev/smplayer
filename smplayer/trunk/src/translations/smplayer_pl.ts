@@ -7375,7 +7375,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj syste&amp;mowego okna wyboru pliku</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7625,12 +7625,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj systemowego okna wyboru pliku</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gdy ta opcja jest włączona, SMPlayer spróbuje użyć systemowego okna wyboru pliku. W przeciwnym razie użyje wewnętrznego.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

@@ -7372,7 +7372,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>使用系統原生檔案對話框(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7622,12 +7622,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>使用系統原生檔案對話框</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>當此選項啟用時，SMPlayer 將會嘗試使用系統原生的檔案對話框。否則它將會使用自己的對話框。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

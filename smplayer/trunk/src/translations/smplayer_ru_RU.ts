@@ -7374,7 +7374,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать систе&amp;мные файловые окна</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7624,12 +7624,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать системные файловые окна</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, то SMPlayer попытается использовать системные окна для работы с файлами. Иначе будут использоваться встроенные.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
