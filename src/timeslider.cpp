@@ -22,6 +22,7 @@
 #include <QWheelEvent>
 #include <QTimer>
 #include <QToolTip>
+#include <QStyleOption>
 #include <QDebug>
 
 #define DEBUG 0
@@ -163,9 +164,17 @@ bool TimeSlider::event(QEvent *event) {
 	if (event->type() == QEvent::ToolTip) {
 		QHelpEvent * help_event = static_cast<QHelpEvent *>(event);
 		//qDebug() << "TimeSlider::event: x:" << help_event->x() << "maximum:" << maximum() << "width:" << width() << "total_time:" << total_time;
-		qreal perc = help_event->x() * 100 / width();
-		qreal time = perc * total_time / 100;
-		//qDebug() << "TimeSlider::event: time:" << time;
+
+		QStyleOptionSlider opt;
+		initStyleOption(&opt);
+		const QRect sliderRect = style()->subControlRect(QStyle::CC_Slider, &opt, QStyle::SC_SliderHandle, this);
+		const QPoint center = sliderRect.center() - sliderRect.topLeft();
+
+		int value = pixelPosToRangeValue(help_event->x() - center.x());
+		int range = maximum() - minimum();
+		qreal time = value * total_time / range;
+		//qDebug() << "TimeSlider::event: value:" << value << "range:" << range << "time:" << time;
+
 		if (time >= 0 && time <= total_time) {
 			QToolTip::showText(help_event->globalPos(), Helper::formatTime(time), this);
 		} else {
