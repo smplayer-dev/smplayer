@@ -7373,7 +7373,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar caixas de diálogo nativas do siste&amp;ma</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7623,12 +7623,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar caixas de diálogo nativas do sistema</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o SMPlayer irá tentar utilizar as caixas de diálogo do sistema.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

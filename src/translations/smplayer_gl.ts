@@ -7373,7 +7373,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar o diálogo de ficheiros nativo do siste&amp;ma</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7623,12 +7623,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar o diálogo de ficheiros nativo do sistema</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando esta opción está activada, o SMPlayer tenta usar o diálogo de ficheiros nativo do sistema. Noutro caso usará o interno.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

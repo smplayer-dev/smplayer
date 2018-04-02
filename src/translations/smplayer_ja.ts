@@ -7372,7 +7372,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>システム標準のファイル ダイアログを使用する(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7622,12 +7622,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>システム標準のファイル ダイアログを使用する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合、SMPlayer はシステム標準のファイル ダイアログを使用しようとします。有効でない場合は内部のダイアログを使用します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>

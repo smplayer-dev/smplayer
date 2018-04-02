@@ -7373,7 +7373,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili siste&amp;maren jatorrizko agiri elkarrizketa</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7623,12 +7623,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili sistemaren jatorrizko agiri elkarrizketa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaitzen denean, SMPlayer sistemaren jatorrizko agiri elkarrizketa erabiltzen saiatuko da. Beste barneko bat erabiliko du.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
