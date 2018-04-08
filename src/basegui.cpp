@@ -4646,8 +4646,6 @@ void BaseGui::shareSMPlayer() {
 
 void BaseGui::showGotoDialog() {
 	TimeDialog d(this);
-	d.setLabel(tr("&Jump to:"));
-	d.setWindowTitle(tr("SMPlayer - Seek"));
 	d.setMaximumTime( (int) core->mdat.duration);
 	d.setTime( (int) core->mset.current_sec);
 	if (d.exec() == QDialog::Accepted) {
