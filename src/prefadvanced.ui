@@ -226,7 +226,7 @@
             <enum>QFrame::Sunken</enum>
            </property>
            <property name="text">
-            <string>0</string>
+            <string notr="true">0</string>
            </property>
           </widget>
          </item>
