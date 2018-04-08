@@ -840,22 +840,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5153"/>
+        <location filename="../basegui.cpp" line="5151"/>
         <source>Error detected</source>
         <translation>检测到错误</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5154"/>
+        <location filename="../basegui.cpp" line="5152"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>抱歉此视频不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5391"/>
+        <location filename="../basegui.cpp" line="5389"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5392"/>
+        <location filename="../basegui.cpp" line="5390"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1354,130 +1354,130 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>就算是很少的的数量都会有很大的帮助的。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5088"/>
+        <location filename="../basegui.cpp" line="5086"/>
         <source>Connection failed</source>
         <translation>连接失败</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5089"/>
+        <location filename="../basegui.cpp" line="5087"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您请求的视频需要使用HTTPS连接。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5090"/>
+        <location filename="../basegui.cpp" line="5088"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>很不幸，此功能需要openssl组件，而您的系统中没有。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5091"/>
+        <location filename="../basegui.cpp" line="5089"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>请访问 %1 查看如何解决此问题。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5092"/>
+        <location filename="../basegui.cpp" line="5090"/>
         <source>this link</source>
         <translation>此链接</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5100"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>抱歉因 Youtube页面的变化，此视频不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5109"/>
-        <location filename="../basegui.cpp" line="5117"/>
+        <location filename="../basegui.cpp" line="5107"/>
+        <location filename="../basegui.cpp" line="5115"/>
         <source>Problems with Youtube</source>
         <translation>Youtube的问题</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
-        <location filename="../basegui.cpp" line="6145"/>
+        <location filename="../basegui.cpp" line="6091"/>
+        <location filename="../basegui.cpp" line="6143"/>
         <source>%1 Error</source>
         <translation>%1 错误</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6092"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 已意外结束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6119"/>
+        <location filename="../basegui.cpp" line="6117"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>youtube-dl 运行失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6120"/>
+        <location filename="../basegui.cpp" line="6118"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>安装 Microsoft Visual C++ 2010 Redistributable Package (x86) 或许可以解决此问题。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6122"/>
+        <location filename="../basegui.cpp" line="6120"/>
         <source>Click here to get it</source>
         <translation>点击这里获取</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6147"/>
+        <location filename="../basegui.cpp" line="6145"/>
         <source>%1 failed to start.</source>
         <translation>%1 启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
+        <location filename="../basegui.cpp" line="6146"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>请检查首选项中的 %1 路径。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6148"/>
         <source>%1 has crashed.</source>
         <translation>%1 已崩溃。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6232"/>
+        <location filename="../basegui.cpp" line="6230"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube 浏览器未安装。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6233"/>
-        <location filename="../basegui.cpp" line="6245"/>
+        <location filename="../basegui.cpp" line="6231"/>
+        <location filename="../basegui.cpp" line="6243"/>
         <source>Visit %1 to get it.</source>
         <translation>请访问 %1 获取。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6243"/>
+        <location filename="../basegui.cpp" line="6241"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube 浏览器启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6244"/>
+        <location filename="../basegui.cpp" line="6242"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>请确保已正确安装。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6410"/>
+        <location filename="../basegui.cpp" line="6408"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>系统已经切换为平板模式。需要将 SMPlayer 切换为平板模式吗？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6412"/>
+        <location filename="../basegui.cpp" line="6410"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>系统已经退出了平板模式，SMPlayer也需要关闭平板模式吗？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6416"/>
+        <location filename="../basegui.cpp" line="6414"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>记住我的选择，下次不再提醒</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5105"/>
+        <location filename="../basegui.cpp" line="5103"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>抱歉因 Youtube变化，视频 &apos;%1&apos; 不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5111"/>
+        <location filename="../basegui.cpp" line="5109"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>你想更新Youtube代码吗？这样或许能解决问题。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5119"/>
+        <location filename="../basegui.cpp" line="5117"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>或许更新SMPlayer能解决这问题。</translation>
     </message>
@@ -1613,17 +1613,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重置视频均衡器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5155"/>
+        <location filename="../basegui.cpp" line="5153"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>服务器返回&apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6095"/>
+        <location filename="../basegui.cpp" line="6093"/>
         <source>Exit code: %1</source>
         <translation>退出代码: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6151"/>
+        <location filename="../basegui.cpp" line="6149"/>
         <source>See the log for more info.</source>
         <translation>更多信息请参阅日志。</translation>
     </message>
@@ -1746,22 +1746,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音轨(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4997"/>
+        <location filename="../basegui.cpp" line="4995"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 正在使用过时的 MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4998"/>
+        <location filename="../basegui.cpp" line="4996"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>您的系统上安装的 MPlayer(%1)版本已过时。SMPlayer 无法正常运行它: 有些选项无法正常工作，字幕选择可能会失效...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5003"/>
+        <location filename="../basegui.cpp" line="5001"/>
         <source>Please, update your MPlayer.</source>
         <translation>请更新您的 MPlayer。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5005"/>
+        <location filename="../basegui.cpp" line="5003"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(此警告将不再显示)</translation>
     </message>
@@ -1851,36 +1851,34 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>设置延迟(&amp;T)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4649"/>
         <source>&amp;Jump to:</source>
-        <translation>跳转到(&amp;J):</translation>
+        <translation type="obsolete">跳转到(&amp;J):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4650"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - 定位</translation>
+        <translation type="obsolete">SMPlayer - 定位</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4661"/>
-        <location filename="../basegui.cpp" line="4665"/>
+        <location filename="../basegui.cpp" line="4659"/>
+        <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 音频延迟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4662"/>
-        <location filename="../basegui.cpp" line="4666"/>
+        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>音频延迟(毫秒):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4677"/>
-        <location filename="../basegui.cpp" line="4681"/>
+        <location filename="../basegui.cpp" line="4675"/>
+        <location filename="../basegui.cpp" line="4679"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 字幕延迟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4678"/>
-        <location filename="../basegui.cpp" line="4682"/>
+        <location filename="../basegui.cpp" line="4676"/>
+        <location filename="../basegui.cpp" line="4680"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>字幕延迟(毫秒):</translation>
     </message>
@@ -1890,8 +1888,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切换保持在最前端</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5595"/>
-        <location filename="../basegui.cpp" line="5935"/>
+        <location filename="../basegui.cpp" line="5593"/>
+        <location filename="../basegui.cpp" line="5933"/>
         <source>Jump to %1</source>
         <translation>跳转到 %1</translation>
     </message>
@@ -5107,7 +5105,7 @@ Do you want to overwrite?</source>
     <name>PrefAdvanced</name>
     <message>
         <location filename="../prefadvanced.cpp" line="79"/>
-        <location filename="../prefadvanced.cpp" line="449"/>
+        <location filename="../prefadvanced.cpp" line="455"/>
         <source>Advanced</source>
         <translation>高级</translation>
     </message>
@@ -5122,17 +5120,17 @@ Do you want to overwrite?</source>
         <translation>高级(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="560"/>
+        <location filename="../prefadvanced.cpp" line="569"/>
         <source>Log SMPlayer output</source>
         <translation>记录 SMPlayer 输出</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="613"/>
+        <location filename="../prefadvanced.ui" line="653"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>此选项主要用于调试应用程序。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="591"/>
+        <location filename="../prefadvanced.cpp" line="600"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 日志筛选器</translation>
     </message>
@@ -5147,102 +5145,111 @@ Do you want to overwrite?</source>
         <translation>默认使用lavf 分流器(&amp;v)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="213"/>
+        <location filename="../prefadvanced.ui" line="200"/>
+        <source>O&amp;SD bar position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="253"/>
         <source>Color&amp;key:</source>
         <translation>颜色值(&amp;k):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="311"/>
+        <location filename="../prefadvanced.ui" line="351"/>
         <source>&amp;Options:</source>
         <translation>选项(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="337"/>
+        <location filename="../prefadvanced.ui" line="377"/>
         <source>V&amp;ideo filters:</source>
         <translation>视频过滤器(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="546"/>
+        <location filename="../prefadvanced.ui" line="586"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="552"/>
+        <location filename="../prefadvanced.ui" line="592"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>记录 SMPlayer 输出(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="623"/>
+        <location filename="../prefadvanced.ui" line="663"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer 日志筛选器(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="236"/>
+        <location filename="../prefadvanced.ui" line="276"/>
         <source>C&amp;hange...</source>
         <translation>更改(&amp;H)...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="557"/>
+        <location filename="../prefadvanced.cpp" line="566"/>
         <source>Logs</source>
         <translation>日志</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="451"/>
+        <location filename="../prefadvanced.cpp" line="457"/>
         <source>Monitor aspect</source>
         <translation>显示器纵横比</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="452"/>
+        <location filename="../prefadvanced.cpp" line="458"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>选择您的显示器纵横比。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="461"/>
+        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Use the lavf demuxer by default</source>
         <translation>默认使用lavf 分流器</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>如果勾选此项，lavf分流器将会被用于所有格式的文件。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="537"/>
+        <location filename="../prefadvanced.cpp" line="546"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
         <translation>播放文件列表(m3u等)需要使用此选项，但是此选项可能引起安全风险，因为 MPlayer 无法正确处理恶意文件。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="490"/>
+        <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
         <translation>局限: 只有当某个文件被打开，而且 MPlayer 进程没有被重启(例如您选择音频或视频过滤器)时动作才会运行。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="500"/>
+        <location filename="../prefadvanced.cpp" line="509"/>
         <source>Colorkey</source>
         <translation>色键</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="501"/>
+        <location filename="../prefadvanced.cpp" line="510"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>如果您在任何其他窗口上看到了部分视频，您可以通过更改色键来修复它。请尽量选择接近黑色的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="509"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>Options</source>
         <translation>选项</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="513"/>
+        <location filename="../prefadvanced.cpp" line="522"/>
         <source>Video filters</source>
         <translation>视频过滤器</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="517"/>
+        <location filename="../prefadvanced.cpp" line="526"/>
         <source>Audio filters</source>
         <translation>音频过滤器</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>Repaint the background of the video window</source>
         <translation>重绘视频窗口背景</translation>
     </message>
@@ -5252,47 +5259,47 @@ Do you want to overwrite?</source>
         <translation>重绘视频窗口背景(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="551"/>
+        <location filename="../prefadvanced.cpp" line="560"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="552"/>
+        <location filename="../prefadvanced.cpp" line="561"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>使用 IPv4 网络连接。失败自动返回 IPv6。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="554"/>
+        <location filename="../prefadvanced.cpp" line="563"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="555"/>
+        <location filename="../prefadvanced.cpp" line="564"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>使用 IPv6 网络连接。失败自动返回 IPv4。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="432"/>
+        <location filename="../prefadvanced.ui" line="472"/>
         <source>Network Connection</source>
         <translation>网络连接</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="444"/>
+        <location filename="../prefadvanced.ui" line="484"/>
         <source>IPv&amp;4</source>
         <translation>IPv4(&amp;4)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="451"/>
+        <location filename="../prefadvanced.ui" line="491"/>
         <source>IPv&amp;6</source>
         <translation>IPv6(&amp;6)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="475"/>
+        <location filename="../prefadvanced.ui" line="515"/>
         <source>Lo&amp;gs</source>
         <translation>日志(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
+        <location filename="../prefadvanced.cpp" line="460"/>
         <source>Rebuild index if needed</source>
         <translation>需要时重建索引</translation>
     </message>
@@ -5302,47 +5309,47 @@ Do you want to overwrite?</source>
         <translation>需要时重建索引(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="570"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>如果勾选此选项，SMPlayer 将存储其输出的调试信息(在 &lt;b&gt;选项 -&gt; 查看日志 -&gt; SMPlayer&lt;/b&gt; 中您可以看到该日志)。在您发现 Bug 时，此信息可能对开发者非常有用。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="573"/>
+        <location filename="../prefadvanced.cpp" line="582"/>
         <source>Log %1 output</source>
         <translation>记录 %1 输出</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="574"/>
+        <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>如果勾选，SMPlayer 将存储 %1 的输出(在 &lt;b&gt;选项 -&gt; 查看日志 -&gt; %1 &lt;/b&gt;中可以看到它)。出现问题时，该日志会记录重要的信息，因此建议保持勾选此选项。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="579"/>
+        <location filename="../prefadvanced.cpp" line="588"/>
         <source>Autosave %1 log</source>
         <translation>自动保存 %1 日志</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="580"/>
+        <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>如果勾选此选项，每次有新文件开始播放时，%1 日志将被保存到指定的文件。这样做有便于外部应用程序获取当前播放文件的信息。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="585"/>
+        <location filename="../prefadvanced.cpp" line="594"/>
         <source>Autosave %1 log filename</source>
         <translation>自动保存 %1 日志的文件名</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="586"/>
+        <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
         <translation>在这里输入保存 %1 日志的路径及文件名。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="592"/>
+        <location filename="../prefadvanced.cpp" line="601"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>此选项允许筛选将被存储在日志中的 SMPlayer 消息。在这里您可以编写任何正则表达式。&lt;br&gt;例如: &lt;i&gt;^Core::..*&lt;/i&gt; 将只显示以 &lt;i&gt;Core::&lt;/i&gt; 开始的行</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Correct pts</source>
         <translation>校正 PTS</translation>
     </message>
@@ -5357,7 +5364,7 @@ Do you want to overwrite?</source>
         <translation>传送短文件名(8+3)到 %1 (&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="511"/>
+        <location filename="../prefadvanced.cpp" line="520"/>
         <source>Write them separated by spaces.</source>
         <translation>使用空格分隔。</translation>
     </message>
@@ -5387,57 +5394,67 @@ Do you want to overwrite?</source>
         <translation>将 %1 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
+        <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation>取消这个选项可以减少闪烁，但是也可能造成视频不正常显示</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="500"/>
+        <source>OSD bar position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="501"/>
+        <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="530"/>
         <source>Run %1 in its own window</source>
         <translation>让 %1 在其自己的窗口中运行</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
         <translation>如果勾选此选项，%1 的视频窗口将不会被嵌入到 SMPlayer 的主窗口中，而它将使用其自己的窗口。需要注意的是，键盘和鼠标事件将由 %1 直接处理，这意味着当焦点在 %1 窗口时，快捷键和鼠标点击很可能无法按预期工作。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
         <translation>通知 %1 崩溃</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
         <translation>启用这个选项，当 1% 崩溃时会弹窗提示，否则会被静默忽略</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="544"/>
+        <location filename="../prefadvanced.cpp" line="553"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>传送短文件名(8+3)到 %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="545"/>
+        <location filename="../prefadvanced.cpp" line="554"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>如果勾选此选项，SMPlayer 将会将短文件名传送给 %1。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="536"/>
+        <location filename="../prefadvanced.cpp" line="545"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>将 %1 选项传送给 MPlayer (安全风险)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="473"/>
+        <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>切换 %1 到试验模式，其中视频帧时间戳的计算方式不同，且支持视频过滤器添加新的帧或修改现有的时间戳。例如当正在播放的字幕同步到场景变化时(已启用 SSA/ASS 库)，可得到更精确的时间戳。如果没有校正 PTS，字幕同步通常会被某些帧关闭。此选项不能与某些解复用器和编解码器一起正常工作。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="482"/>
+        <location filename="../prefadvanced.cpp" line="488"/>
         <source>Actions list</source>
         <translation>动作列表</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="483"/>
+        <location filename="../prefadvanced.cpp" line="489"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>在这里您可以指定一个每次打开文件时将运行的 &lt;i&gt;动作&lt;/i&gt; 列表。在 &lt;b&gt;键盘和鼠标&lt;/b&gt; 部分的快捷键编辑器中您会发现所有的可用动作。动作之间必须由空格隔开。可选动作可以在后面用 &lt;i&gt;true&lt;/i&gt; 或 &lt;i&gt;false&lt;/i&gt; 来启用或禁用它。</translation>
     </message>
@@ -5447,28 +5464,28 @@ Do you want to overwrite?</source>
         <translation>%1 选项</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Here you can type options for %1.</source>
         <translation>你可以在这里输入 %1 的参数。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="514"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
         <source>Here you can add video filters for %1.</source>
         <translation>你可以为 %1 添加视频过滤器。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="515"/>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="528"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>请使用逗号分隔每个参数。不要使用空格！</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can add audio filters for %1.</source>
         <translation>你可以在这里为 %1 添加音频过滤器。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="549"/>
+        <location filename="../prefadvanced.cpp" line="558"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
@@ -5478,25 +5495,25 @@ Do you want to overwrite?</source>
         <translation>每次打开文件时运行下列动作。动作之间必须由空格隔开(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="363"/>
+        <location filename="../prefadvanced.ui" line="403"/>
         <source>A&amp;udio filters:</source>
         <translation>音频过滤器(&amp;u):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="426"/>
+        <location filename="../prefadvanced.ui" line="466"/>
         <source>&amp;Network</source>
         <translation>网络(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="489"/>
-        <location filename="../prefadvanced.cpp" line="511"/>
-        <location filename="../prefadvanced.cpp" line="515"/>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="495"/>
+        <location filename="../prefadvanced.cpp" line="520"/>
+        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="528"/>
         <source>Example:</source>
         <translation>示例:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>在没有找到索引的情况下重建文件索引，从而允许定位。这对于损坏/未完成下载或制作低劣的文件很有用。此选项仅适用原本支持定位的媒体(即不能是 stdin、pipe 等)。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; 创建索引可能需要一些时间。</translation>
     </message>
@@ -5506,37 +5523,37 @@ Do you want to overwrite?</source>
         <translation>校正 PTS(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="519"/>
+        <location filename="../prefadvanced.ui" line="559"/>
         <source>&amp;Verbose</source>
         <translation>详细信息(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="567"/>
+        <location filename="../prefadvanced.cpp" line="576"/>
         <source>Save SMPlayer log to file</source>
         <translation>保存 SMPlayer 日志到文件</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="568"/>
+        <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>如果勾选此选项，SMPlayer 日志将被记录到 %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="584"/>
+        <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>保存 SMPlayer 日志到文件(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="494"/>
+        <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
         <translation>在窗口标题上显示标签信息</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="495"/>
+        <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>如果启用此选项，标签中的信息将显示在窗口标题上。否则将只显示文件名。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="198"/>
+        <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
         <translation>在窗口标题上显示标签信息(&amp;F)</translation>
     </message>
@@ -10249,6 +10266,11 @@ Do you want to overwrite?</source>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
         <translation>跳转到(&amp;J):</translation>
+    </message>
+    <message>
+        <location filename="../timedialog.cpp" line="26"/>
+        <source>SMPlayer - Seek</source>
+        <translation type="unfinished">SMPlayer - 定位</translation>
     </message>
 </context>
 <context>
