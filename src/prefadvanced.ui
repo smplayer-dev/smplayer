@@ -193,6 +193,46 @@
         </widget>
        </item>
        <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>O&amp;SD bar position:</string>
+           </property>
+           <property name="buddy">
+            <cstring>osd_pos_slider</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="osd_pos_slider">
+           <property name="minimum">
+            <number>-1</number>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="osd_pos_label">
+           <property name="frameShape">
+            <enum>QFrame::Panel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
         <widget class="QCheckBox" name="show_tag_in_title_check">
          <property name="text">
           <string>Show tag in&amp;fo in window title</string>
@@ -675,6 +715,7 @@
   <tabstop>repaint_video_background_check</tabstop>
   <tabstop>correct_pts_combo</tabstop>
   <tabstop>actions_to_run_edit</tabstop>
+  <tabstop>osd_pos_slider</tabstop>
   <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
@@ -742,6 +783,22 @@
     <hint type="destinationlabel">
      <x>255</x>
      <y>86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>osd_pos_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>osd_pos_label</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>372</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>491</x>
+     <y>372</y>
     </hint>
    </hints>
   </connection>

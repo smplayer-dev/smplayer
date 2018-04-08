@@ -103,6 +103,8 @@ void PrefAdvanced::retranslateStrings() {
 
 	use_playlist_check->setText( tr("Pa&ss the %1 option to MPlayer (security risk)").arg("-playlist") );
 
+	osd_pos_label->setNum(osd_pos_slider->value());
+
 	createHelp();
 }
 
@@ -127,6 +129,8 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setUseCorrectPts( pref->use_correct_pts );
 	setActionsToRun( pref->actions_to_run );
 	setShowTagInTitle( pref->show_tag_in_window_title );
+
+	osd_pos_slider->setValue(pref->osd_bar_pos);
 
 #ifdef LOG_MPLAYER
 	setLogMplayer( pref->log_mplayer );
@@ -176,6 +180,8 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->actions_to_run = actionsToRun();
 	//TEST_AND_SET(pref->show_tag_in_window_title, showTagInTitle());
 	pref->show_tag_in_window_title = showTagInTitle(); // TODO: detect change and apply
+
+	TEST_AND_SET(pref->osd_bar_pos, osd_pos_slider->value());
 
 	if (pref->monitor_aspect != monitorAspect()) {
 		pref->monitor_aspect = monitorAspect();
