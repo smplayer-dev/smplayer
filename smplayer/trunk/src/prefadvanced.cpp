@@ -497,6 +497,9 @@ void PrefAdvanced::createHelp() {
            "not when the %1 process is restarted (e.g. you select an "
            "audio or video filter).").arg(PLAYER_NAME) );
 
+	setWhatsThis(osd_pos_slider, tr("OSD bar position"),
+		tr("Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom."));
+
 	setWhatsThis(show_tag_in_title_check, tr("Show tag info in window title"),
 		tr("If this option is enabled, information from tags will be "
 		   "shown in window title. "
