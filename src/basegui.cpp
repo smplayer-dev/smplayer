@@ -841,7 +841,7 @@ void BaseGui::createActions() {
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
 
-	subVisibilityAct = new MyAction(Qt::Key_V, this, "subtitle_visibility");
+	subVisibilityAct = new MyAction(this, "sub_visibility");
 	subVisibilityAct->setCheckable(true);
 	connect( subVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSubVisibility(bool)) );
 
