@@ -92,7 +92,7 @@ seek_next_sub	Ctrl+Right
 seek_prev_sub	Ctrl+Left
 use_custom_sub_style	
 use_forced_subs_only	
-subtitle_visibility	V
+sub_visibility	
 show_find_sub_dialog	
 upload_subtitles	
 show_playlist	Ctrl+L
@@ -271,4 +271,3 @@ edit_control1
 edit_control2	
 edit_floating_control	
 show_main_toolbar	F5
-show_language_toolbar	F6
