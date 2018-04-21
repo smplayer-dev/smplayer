@@ -1851,14 +1851,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Ase&amp;ta viive...</translation>
     </message>
     <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Hyppää kohtaan:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Haku</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
@@ -10266,7 +10258,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Haku</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

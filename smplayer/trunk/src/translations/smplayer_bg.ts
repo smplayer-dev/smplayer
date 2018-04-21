@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Добре</translation>
+        <translation>&amp;ОК</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -989,12 +989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимка на екрана със субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимка на екрана без субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1756"/>
@@ -1849,14 +1849,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1812"/>
         <source>Se&amp;t delay...</source>
         <translation>За&amp;дайте забавяне...</translation>
-    </message>
-    <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Прескачане до:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Превъртане</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4659"/>
@@ -2765,7 +2757,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Добре</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
@@ -2883,7 +2875,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Общи</translation>
+        <translation>Общи</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
@@ -2986,7 +2978,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Свързване...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -5149,10 +5141,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -7993,7 +7981,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="306"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Субтитри</translation>
+        <translation>Субтитри</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="312"/>
@@ -10273,7 +10261,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Превъртане</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10732,7 +10720,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Добре</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>

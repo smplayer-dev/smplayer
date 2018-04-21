@@ -1851,14 +1851,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;קפוץ אל:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - חיפוש</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
@@ -5145,10 +5137,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -10269,7 +10257,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - חיפוש</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -1851,14 +1851,6 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>&amp;Sæt forsinkelse...</translation>
     </message>
     <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Gå til:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Søg</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
@@ -5148,11 +5140,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation>Placering af &amp;skærmdisplaylinje:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5402,12 +5390,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering af skærmdisplaylinje</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sæt placeringen på skærmen hvor skærmdisplaylinjen vises. 0 er øverst, 100 nederst.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -10273,7 +10261,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Søg</translation>
+        <translation>SMPlayer - Søg</translation>
     </message>
 </context>
 <context>

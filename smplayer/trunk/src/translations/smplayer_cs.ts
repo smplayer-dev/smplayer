@@ -1851,14 +1851,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Nastav&amp;it zpoždění...</translation>
     </message>
     <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Jdi na:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Pozice</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
@@ -5149,11 +5141,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation>Pozice pruhu O&amp;SD:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5403,12 +5391,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozice OSD pruhu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit pozici obrazovky, kde je OSD pruh zobrazen. 0 je nahoře, 100 dole.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -7392,7 +7380,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít systé&amp;mový dialog souboru.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7642,12 +7630,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít systémový dialog souboru.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud je tato funkce povolena, SMPlayer se pokusí použít systémový dialog souboru. Jinak se použije vlastní.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -10278,7 +10266,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Pozice</translation>
+        <translation>SMPlayer - Pozice hledání</translation>
     </message>
 </context>
 <context>

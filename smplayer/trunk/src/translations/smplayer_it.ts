@@ -1852,14 +1852,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Salta a:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Cerca</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <location filename="../basegui.cpp" line="4663"/>
         <source>SMPlayer - Audio delay</source>
@@ -5150,10 +5142,6 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -10274,7 +10262,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Cerca</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

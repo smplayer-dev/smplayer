@@ -41,17 +41,17 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>Множество людей помогало с переводами.</translation>
+        <translation>Множество людей работало над локализациями.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Вы также можете помочь в переводе SMPlayer на ваш язык.</translation>
+        <translation>Вы тоже можете помочь перевести SMPlayer на свой родной язык</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Посетите %1 и присоединяйтесь к команде перевода.</translation>
+        <translation>Посетите %1 и присоединяйтесь к команде переводчиков.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -1849,14 +1849,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1812"/>
         <source>Se&amp;t delay...</source>
         <translation>Ус&amp;тановить задержку...</translation>
-    </message>
-    <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Перейти к:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer – Перемотка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4659"/>
@@ -5149,11 +5141,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation>По&amp;ложение панели OSD:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5403,12 +5391,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>Положение панели OSD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Указывает положение панели OSD на экране. 0 – верх, 100 – низ.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -10276,7 +10264,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer – Перемотка</translation>
+        <translation>SMPlayer – Перемотка</translation>
     </message>
 </context>
 <context>
