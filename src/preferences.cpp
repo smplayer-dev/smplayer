@@ -490,7 +490,11 @@ void Preferences::reset() {
 	hide_video_window_on_audio_files = true;
 #endif
 
+#ifdef Q_OS_WIN
+	report_mplayer_crashes = false;
+#else
 	report_mplayer_crashes = true;
+#endif
 
 #if REPORT_OLD_MPLAYER
 	reported_mplayer_is_old = false;
@@ -1034,7 +1038,7 @@ void Preferences::save() {
 	set->setValue("hide_video_window_on_audio_files", hide_video_window_on_audio_files);
 #endif
 
-	set->setValue("report_mplayer_crashes", report_mplayer_crashes);
+	set->setValue("report_player_crashes", report_mplayer_crashes);
 
 #if REPORT_OLD_MPLAYER
 	set->setValue("reported_mplayer_is_old", reported_mplayer_is_old);
@@ -1630,7 +1634,7 @@ void Preferences::load() {
 	hide_video_window_on_audio_files = set->value("hide_video_window_on_audio_files", hide_video_window_on_audio_files).toBool();
 #endif
 
-	report_mplayer_crashes = set->value("report_mplayer_crashes", report_mplayer_crashes).toBool();
+	report_mplayer_crashes = set->value("report_player_crashes", report_mplayer_crashes).toBool();
 
 #if REPORT_OLD_MPLAYER
 	reported_mplayer_is_old = set->value("reported_mplayer_is_old", reported_mplayer_is_old).toBool();
