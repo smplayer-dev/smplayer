@@ -6083,7 +6083,7 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 
 	if (!pref->report_mplayer_crashes) {
 		qDebug("BaseGui::showExitCodeFromMplayer: not displaying error dialog");
-		statusBar()->showMessage(tr("%1 has finished unexpectedly.").arg(PLAYER_NAME));
+		statusBar()->showMessage(tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) +" "+ tr("More info in the log."));
 		return;
 	}
 
@@ -6136,7 +6136,7 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 
 	if (!pref->report_mplayer_crashes) {
 		qDebug("BaseGui::showErrorFromMplayer: not displaying error dialog");
-		statusBar()->showMessage(tr("%1 failed to start.").arg(PLAYER_NAME));
+		statusBar()->showMessage(tr("%1 failed to start.").arg(PLAYER_NAME) +" "+ tr("More info in the log."));
 		return;
 	}
 
