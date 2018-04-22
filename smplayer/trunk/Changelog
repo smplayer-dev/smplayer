@@ -1,3 +1,25 @@
+Version 18.4:
+
+(2018-04-22)
+ * Report errors in the status bar if the option to display a dialog for
+   errors is disabled.
+ * Set the option report_player_crashes to false by default on Windows.
+
+(2018-04-21)
+ * Remove the default shortcut key for the subtitle visibility action,
+   since it usually causes problems when the user accidentally presses it.
+
+(2018-04-08)
+ * Add an option in Preferences -> Advanced to set the OSD bar position.
+
+(2018-04-03)
+ * Fix accuracy of the tooltip in the timeslider.
+
+(2018-03-30)
+ * Add the option 'Use the system native file dialog' in
+   Preferences -> Interface.
+
+
 Version 18.3:
 
 (2018-03-16)
