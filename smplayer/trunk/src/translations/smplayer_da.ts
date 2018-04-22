@@ -1390,79 +1390,87 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Problemer med YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6091"/>
-        <location filename="../basegui.cpp" line="6143"/>
+        <location filename="../basegui.cpp" line="6086"/>
+        <location filename="../basegui.cpp" line="6139"/>
+        <source>More info in the log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6145"/>
         <source>%1 Error</source>
         <translation>%1 Fejl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6086"/>
+        <location filename="../basegui.cpp" line="6093"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 er afsluttet uventet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6117"/>
+        <location filename="../basegui.cpp" line="6118"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Det lykkedes ikke at starte komponenten youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6118"/>
+        <location filename="../basegui.cpp" line="6119"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Det kan måske løse problemet at installere Microsoft Visual C++ 2010 Redistributable Package (x86).</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6120"/>
+        <location filename="../basegui.cpp" line="6121"/>
         <source>Click here to get it</source>
         <translation>Klik her, for at hente det</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6145"/>
+        <location filename="../basegui.cpp" line="6139"/>
+        <location filename="../basegui.cpp" line="6147"/>
         <source>%1 failed to start.</source>
         <translation>%1 kunne ikke starte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6146"/>
+        <location filename="../basegui.cpp" line="6148"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Tjek venligst stien %1 i præferencer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
+        <location filename="../basegui.cpp" line="6150"/>
         <source>%1 has crashed.</source>
         <translation>%1 er holdt op med at virke.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6230"/>
+        <location filename="../basegui.cpp" line="6232"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-browseren er ikke installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6231"/>
-        <location filename="../basegui.cpp" line="6243"/>
+        <location filename="../basegui.cpp" line="6233"/>
+        <location filename="../basegui.cpp" line="6245"/>
         <source>Visit %1 to get it.</source>
         <translation>Besøg %1 for at hente den.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6241"/>
+        <location filename="../basegui.cpp" line="6243"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube-browseren kunne ikke køre.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6242"/>
+        <location filename="../basegui.cpp" line="6244"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Sørg for det er korrekt installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6408"/>
+        <location filename="../basegui.cpp" line="6410"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Systemet har skiftet til tablettilstand. Skal SMPlayer også skifte til tablettilstand?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6410"/>
+        <location filename="../basegui.cpp" line="6412"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Systemet har forladt tablettilstand. Skal SMPlayer også forlade tablettilstand?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6414"/>
+        <location filename="../basegui.cpp" line="6416"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Husk mit valg og spørg ikke igen</translation>
     </message>
@@ -1618,12 +1626,12 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Serveren returnerede &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6149"/>
+        <location filename="../basegui.cpp" line="6151"/>
         <source>See the log for more info.</source>
         <translation>Se loggen for mere info.</translation>
     </message>
@@ -7698,6 +7706,11 @@ Vil du overskrive den?</translation>
         <translation>Vælg hvad der skal gøres når der trækkes i tidsskydeknappen.</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="829"/>
+        <source>Note: this option only works when using mpv as multimedia engine.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinterface.cpp" line="831"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Et tryk på stop-knappen nulstiller tidspositionen</translation>
@@ -7906,9 +7919,8 @@ Vil du overskrive den?</translation>
         <translation>Hvis denne indstilling er slået til, er søgninger mere præcise men de kan være langsommere. Dette vil ikke virke med alle video formater.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation>Bemærk: denne indstilling vil kun virke med MPlayer2</translation>
+        <translation type="obsolete">Bemærk: denne indstilling vil kun virke med MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

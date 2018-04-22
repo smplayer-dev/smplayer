@@ -1390,79 +1390,87 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Προβλήματα με το Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6091"/>
-        <location filename="../basegui.cpp" line="6143"/>
+        <location filename="../basegui.cpp" line="6086"/>
+        <location filename="../basegui.cpp" line="6139"/>
+        <source>More info in the log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6145"/>
         <source>%1 Error</source>
         <translation>%1 Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6086"/>
+        <location filename="../basegui.cpp" line="6093"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>Το %1 τερματίστηκε απροσδόκητα.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6117"/>
+        <location filename="../basegui.cpp" line="6118"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Αποτυχία εκτέλεσης του συστατικού youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6118"/>
+        <location filename="../basegui.cpp" line="6119"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Πιθανώς να λύσετε το πρόβλημα με την εγκατάσταση του Microsoft Visual C++ 2010 Redistributable Package (x86).</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6120"/>
+        <location filename="../basegui.cpp" line="6121"/>
         <source>Click here to get it</source>
         <translation>Κάντε κλικ εδώ για λήψη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6145"/>
+        <location filename="../basegui.cpp" line="6139"/>
+        <location filename="../basegui.cpp" line="6147"/>
         <source>%1 failed to start.</source>
         <translation>Το %1 απέτυχε να εκκινηθεί.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6146"/>
+        <location filename="../basegui.cpp" line="6148"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Παρακαλώ ελέγξτε τη διαδρομή %1 στις προτιμήσεις.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
+        <location filename="../basegui.cpp" line="6150"/>
         <source>%1 has crashed.</source>
         <translation>Το %1 κατέρρευσε.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6230"/>
+        <location filename="../basegui.cpp" line="6232"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Ο περιηγητής YouTube δεν είναι εγκατεστημένος.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6231"/>
-        <location filename="../basegui.cpp" line="6243"/>
+        <location filename="../basegui.cpp" line="6233"/>
+        <location filename="../basegui.cpp" line="6245"/>
         <source>Visit %1 to get it.</source>
         <translation>Επισκεφτείτε το %1 για να το λάβετε.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6241"/>
+        <location filename="../basegui.cpp" line="6243"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Αποτυχία εκτέλεσης του περιηγητή YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6242"/>
+        <location filename="../basegui.cpp" line="6244"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Σιγουρευτείτε ότι έχει εγκατασταθεί σωστά.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6408"/>
+        <location filename="../basegui.cpp" line="6410"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Το σύστημα εναλλάχτηκε σε λειτουργία ταμπλέτας. Να αλλάξει και το SMPlayer σε λειτουργία ταμπλέτας;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6410"/>
+        <location filename="../basegui.cpp" line="6412"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Το σύστημα εγκατέλειψε την λειτουργία ταμπλέτας. Να εγκαταλείψει και το SMPlayer τη λειτουργία ταμπλέτας;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6414"/>
+        <location filename="../basegui.cpp" line="6416"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Απομνημόνευση της επιλογής και να μην ξαναρωτηθώ</translation>
     </message>
@@ -1618,12 +1626,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ο διακομιστής επέστρεψε «%1»</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>Exit code: %1</source>
         <translation>Κώδικας εξόδου: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6149"/>
+        <location filename="../basegui.cpp" line="6151"/>
         <source>See the log for more info.</source>
         <translation>Δείτε το αρχείο καταγραφής για περισσότερες πληροφορίες.</translation>
     </message>
@@ -7698,6 +7706,11 @@ Do you want to overwrite?</source>
         <translation>Επιλέξτε τι θα γίνεται κατά το σύρσιμο του δείκτη της μπάρας του χρόνου.</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="829"/>
+        <source>Note: this option only works when using mpv as multimedia engine.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinterface.cpp" line="831"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Πιέζοντας το κουμπί διακοπής μια φορά επαναφέρεται η χρονική θέση</translation>
@@ -7906,9 +7919,8 @@ Do you want to overwrite?</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, η αναζήτηση είναι πιο ακριβής, αλλά μπορεί να είναι λίγο πιο αργή. Ενδέχεται να μην λειτουργεί με ορισμένες μορφές βίντεο.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation>Σημείωση: η επιλογή αυτή λειτουργεί μόνο με το MPlayer2</translation>
+        <translation type="obsolete">Σημείωση: η επιλογή αυτή λειτουργεί μόνο με το MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
