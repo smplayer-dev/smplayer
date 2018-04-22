@@ -826,7 +826,7 @@ void PrefInterface::createHelp() {
 	setWhatsThis(precise_seeking_check, tr("Precise seeking"),
 		tr("If this option is enabled, seeks are more accurate but they "
            "can be a little bit slower. May not work with some video formats.") +"<br>"+
-		tr("Note: this option only works with MPlayer2") );
+		tr("Note: this option only works when using mpv as multimedia engine.") );
 
 	setWhatsThis(reset_stop_check, tr("Pressing the stop button once resets the time position"),
 		tr("By default when the stop button is pressed the time position is remembered "
