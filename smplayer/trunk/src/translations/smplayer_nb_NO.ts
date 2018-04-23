@@ -7920,10 +7920,6 @@ Vil du overskrive den?</translation>
         <translation>Hvis denne innstillingen er valgt, vil spolehoppene være mer nøyaktige, men de kan være litt tregere. Det kan kanskje ikke virke med noen videoformater.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Bemerk: Dette alternativet fungerer bare med MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Nøyaktig spoling</translation>

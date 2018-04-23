@@ -7916,10 +7916,6 @@ Do you want to overwrite?</source>
         <translation>Nếu bật lựa chọn này, việc tìm kiếm sẽ chính xác hơn nhưng cũng chậm hơn một chút. Có thể vô hiệu với một số định dạng video.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Lưu ý: lựa chọn này chỉ có hiệu lực với MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>Tìm kiếm &amp;chính xác</translation>

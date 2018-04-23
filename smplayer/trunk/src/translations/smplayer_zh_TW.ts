@@ -1393,7 +1393,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>更多資訊在紀錄檔中。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7707,7 +7707,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：此選項僅在使用 mpv 作為多媒體引擎時運作。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7916,10 +7916,6 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>如果啟用此選項，尋找會更精確，但過程可以稍微慢一點。可能無法在某些影片格式執行</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">注意：這個選項僅適用於 MPlayer2 中</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

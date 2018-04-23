@@ -1393,7 +1393,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>更多信息在日志中。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -5147,7 +5147,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;SD 栏位置：</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5397,12 +5397,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD 栏位置</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>设置 OSD 栏的屏幕显示位置。 0 是顶部，100 底部。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -7385,7 +7385,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>使用系统原生的文件对话框(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7635,12 +7635,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>使用系统原生的文件对话框</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>启用此选项时，SMPlayer 将尝试使用系统原生的文件对话框。否则它会使用自己内部的。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7707,7 +7707,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：此选项仅适用于使用 mpv 作为多媒体引擎时。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7916,10 +7916,6 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>如果启用此选项，定位会更精确，但它稍有点慢。可能无法同一些视频格式正常工作。</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">注意: 此选项仅适用于 MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
@@ -10270,7 +10266,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 定位</translation>
     </message>
 </context>
 <context>
@@ -10570,7 +10566,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS：%1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="517"/>

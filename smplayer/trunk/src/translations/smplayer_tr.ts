@@ -7918,10 +7918,6 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Not: bu seçenek yanlız MPlayer2 ile çalışmaktadır.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Tam gezinme</translation>

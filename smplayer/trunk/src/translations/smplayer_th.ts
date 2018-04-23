@@ -7915,10 +7915,6 @@ Do you want to overwrite?</source>
         <translation>ถ้าใช้ตัวเลือกนี้ การหาจะถูกต้องยิ่งขึ้นแต่อาจจะช้าลงเล็กน้อย อาจใช้ไม่ได้ผลกับวิดีโอบางรูปแบบ.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">หมายเหตุ: ตัวเลือกนี้ใช้ได้เฉพาะกับ MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>การหาอย่างแ&amp;ม่นยำ</translation>

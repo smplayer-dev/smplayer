@@ -7918,10 +7918,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>Jika pilihan ini dibenarkan, jangkau lebih tepat tetapi ia boleh menjadi perlahan. Mungkin tidak berfungsi dengan beberapa format video.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Perhatian: pilihan ini hanya berfungsi dengan MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>Jangkauan &amp;tepat</translation>

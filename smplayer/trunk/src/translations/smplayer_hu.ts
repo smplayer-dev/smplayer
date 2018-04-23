@@ -7919,10 +7919,6 @@ Valóban felül akarja írni?</translation>
         <translation>Ha ez be van jelölve, a pozícionálás pontosabb, de lassabb lesz. Nem minden videóformátumnál működik.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Megjegyzés: ez az opció csak MPlayer2-vel működik</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Pontos tekerés</translation>

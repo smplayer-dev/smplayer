@@ -221,7 +221,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="228"/>
         <source>&amp;Change shortcut...</source>
-        <translation>Изменить &amp;сочетание клавиш...</translation>
+        <translation>Изменить &amp;сочетание клавиш…</translation>
     </message>
 </context>
 <context>
@@ -435,17 +435,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
         <source>&amp;File...</source>
-        <translation>&amp;Файл...</translation>
+        <translation>&amp;Файл…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>D&amp;irectory...</source>
-        <translation>Ката&amp;лог...</translation>
+        <translation>Ката&amp;лог…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Плейлист...</translation>
+        <translation>&amp;Плейлист…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1683"/>
@@ -455,12 +455,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>D&amp;VD from folder...</source>
-        <translation>DVD из &amp;каталога...</translation>
+        <translation>DVD из &amp;каталога…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
         <source>&amp;URL...</source>
-        <translation>А&amp;дрес...</translation>
+        <translation>А&amp;дрес…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
@@ -490,7 +490,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Frame step</source>
-        <translation>По&amp;кадрово</translation>
+        <translation>С&amp;ледующий кадр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1737"/>
@@ -516,7 +516,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1835"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>О&amp;тключен</translation>
+        <translation>О&amp;тключён</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1997"/>
@@ -699,7 +699,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1808"/>
         <source>&amp;Load...</source>
-        <translation>Загрузить из &amp;файла...</translation>
+        <translation>Загрузить из &amp;файла…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
@@ -805,7 +805,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>&amp;YouTube%1 браузер</translation>
+        <translation>&amp;Браузер &amp;YouTube%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
@@ -821,8 +821,8 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4319"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>Приводы CD/DVD еще не настроены.
-Вы сможете сделать это в диалоге настроек этих устройств.</translation>
+        <translation>Приводы CD/DVD ещё не настроены.
+Вы сможете сделать это в окне настроек этих устройств.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4432"/>
@@ -867,7 +867,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>Pause / Frame step</source>
-        <translation>Пауза / Покадровый просмотр</translation>
+        <translation>Пауза / Следующий кадр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
@@ -934,13 +934,13 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1859"/>
         <location filename="../basegui.cpp" line="2195"/>
         <source>%1 log</source>
-        <translation>Отчёт %1</translation>
+        <translation>Журнал %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <location filename="../basegui.cpp" line="2198"/>
         <source>SMPlayer log</source>
-        <translation>Отчёт SMPlayer</translation>
+        <translation>Журнал SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1873"/>
@@ -979,7 +979,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1719"/>
         <source>Fra&amp;me back step</source>
-        <translation>&amp;Шаг покадрового воспроизведения</translation>
+        <translation>&amp;Предыдущий кадр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1738"/>
@@ -1004,7 +1004,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>Генератор миниа&amp;тюр...</translation>
+        <translation>Генератор миниа&amp;тюр…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1763"/>
@@ -1039,7 +1039,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>&amp;Поиск субтитров на OpenSubtitles.org</translation>
+        <translation>&amp;Поиск субтитров в OpenSubtitles.org</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
@@ -1050,7 +1050,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1851"/>
         <source>&amp;Information and properties...</source>
-        <translation>&amp;Информация и свойства...</translation>
+        <translation>&amp;Информация и свойства…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -1341,12 +1341,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4595"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Для того, чтобы продолжать развивать SMPlayer с новыми возможностями, нам нужна ваша помощь.</translation>
+        <translation>Для того, чтобы продолжать разработку SMPlayer и добавлять новые возможности, нам нужна ваша помощь.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4596"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>Пожалуйста, обратите внимание на то, чтобы поддержать проект SMPlayer отправлением пожертвования.</translation>
+        <translation>Пожалуйста, рассмотрите возможность пожертвования проекту SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4597"/>
@@ -1393,7 +1393,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Подробнее в журнале</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -1533,7 +1533,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1796"/>
         <source>&amp;Load external file...</source>
-        <translation>За&amp;грузить из файла...</translation>
+        <translation>За&amp;грузить из файла…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -1633,7 +1633,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6151"/>
         <source>See the log for more info.</source>
-        <translation>Смотрите отчёт для подробной информации.</translation>
+        <translation>Смотрите журнал для подробностей.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2026"/>
@@ -1643,7 +1643,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2071"/>
         <source>&amp;Off</source>
-        <translation>О&amp;тключен</translation>
+        <translation>О&amp;тключён</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
@@ -1668,7 +1668,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Jump to...</source>
-        <translation>П&amp;ерейти к...</translation>
+        <translation>П&amp;ерейти к…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
@@ -1693,7 +1693,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Загрузить &amp;субтитры на OpenSubtitles.org</translation>
+        <translation>Отправить &amp;субтитры в OpenSubtitles.org</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2043"/>
@@ -1761,7 +1761,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4996"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые опции не будут работать, выбор субтитров может вызывать ошибку...</translation>
+        <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые параметры не будут работать, выбор субтитров может вызывать ошибку…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5001"/>
@@ -1851,12 +1851,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1795"/>
         <source>Set dela&amp;y...</source>
-        <translation>Установить &amp;задержку...</translation>
+        <translation>Установить &amp;задержку…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1812"/>
         <source>Se&amp;t delay...</source>
-        <translation>Ус&amp;тановить задержку...</translation>
+        <translation>Ус&amp;тановить задержку…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4659"/>
@@ -2002,7 +2002,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>Check for &amp;updates</source>
-        <translation>Проверить &amp;обновления</translation>
+        <translation>Проверять &amp;обновления</translation>
     </message>
 </context>
 <context>
@@ -2201,7 +2201,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Скачивание...</translation>
+        <translation>Скачивание…</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -2291,7 +2291,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4539"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>Обновление кэша шрифтов. Это может занять несколько секунд...</translation>
+        <translation>Обновление кэша шрифтов. Это может занять несколько секунд…</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3440"/>
@@ -2356,7 +2356,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4550"/>
         <source>Starting...</source>
-        <translation>Запуск...</translation>
+        <translation>Запуск…</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1424"/>
@@ -2485,7 +2485,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../defaultgui.cpp" line="764"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation>%1x%2 %3 кадр(а,ов)/с</translation>
+        <translation>%1x%2 %3 кадров/с</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
@@ -2511,13 +2511,13 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
         <source>Hide log</source>
-        <translation>Скрыть отчёт</translation>
+        <translation>Скрыть журнал</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="91"/>
         <location filename="../errordialog.cpp" line="69"/>
         <source>Show log</source>
-        <translation>Показать отчёт</translation>
+        <translation>Показать журнал</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="14"/>
@@ -2638,12 +2638,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>&amp;Редактировать...</translation>
+        <translation>&amp;Редактировать…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation>&amp;Перейти...</translation>
+        <translation>&amp;Перейти…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
@@ -2674,7 +2674,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="41"/>
         <source>Downloading...</source>
-        <translation>Загрузка...</translation>
+        <translation>Загрузка…</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="62"/>
@@ -2719,7 +2719,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="128"/>
         <source>&amp;Select the video codec:</source>
-        <translation>Вы&amp;берите видео кодек:</translation>
+        <translation>Вы&amp;берите видеокодек:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="178"/>
@@ -2729,14 +2729,14 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="190"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>Выб&amp;ерите аудио кодек:</translation>
+        <translation>Выб&amp;ерите аудиокодек:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="324"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation>Также Вы можете передать дополнительные фильтры видео.
+        <translation>Вы можете передать дополнительные фильтры видео.
 Разделяйте их запятой. Не используйте пробелы!
 Пример: scale=512:-2,mirror</translation>
     </message>
@@ -2795,7 +2795,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation>Разделите их пробелами.</translation>
+        <translation>Разделяйте их пробелами.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2986,12 +2986,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation>Соединение...</translation>
+        <translation>Соединение…</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Не удалось войти на opensubtitles.org</translation>
+        <translation>Не удалось войти в OpenSubtitles.org</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="387"/>
@@ -3036,7 +3036,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
         <source>Downloading...</source>
-        <translation>Загрузка...</translation>
+        <translation>Загрузка…</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
@@ -3133,7 +3133,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation>Создание кэша шрифтов...</translation>
+        <translation>Создание кэша шрифтов…</translation>
     </message>
 </context>
 <context>
@@ -3261,7 +3261,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="133"/>
         <source>Frames per second</source>
-        <translation>Кадров в секунду</translation>
+        <translation>Частота кадров</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
@@ -3409,7 +3409,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
-        <translation>Обзор...</translation>
+        <translation>Обзор…</translation>
     </message>
 </context>
 <context>
@@ -4564,12 +4564,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.cpp" line="134"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Невозможно сохранить отчёт</translation>
+        <translation>Не удалось сохранить журнал</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="108"/>
         <source>Logs</source>
-        <translation>Отчёты</translation>
+        <translation>Журналы</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="58"/>
@@ -4619,7 +4619,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="193"/>
         <source>Frames per second:</source>
-        <translation>Кадров в секунду:</translation>
+        <translation>Частота кадров:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="194"/>
@@ -4863,12 +4863,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="687"/>
         <source>&amp;Load...</source>
-        <translation>&amp;Загрузить...</translation>
+        <translation>&amp;Загрузить…</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="689"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Загрузить плейлист по &amp;ссылке...</translation>
+        <translation>Загрузить плейлист по &amp;ссылке…</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="728"/>
@@ -4923,7 +4923,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="693"/>
         <source>Save &amp;as...</source>
-        <translation>Сохранить &amp;как...</translation>
+        <translation>Сохранить &amp;как…</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="697"/>
@@ -5080,12 +5080,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="747"/>
         <source>Add...</source>
-        <translation>Добавить...</translation>
+        <translation>Добавить…</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="749"/>
         <source>Remove...</source>
-        <translation>Убрать...</translation>
+        <translation>Убрать…</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1455"/>
@@ -5124,7 +5124,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="569"/>
         <source>Log SMPlayer output</source>
-        <translation>Отчёт вывода SMPlayer</translation>
+        <translation>Журналировать вывод SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="653"/>
@@ -5134,7 +5134,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="600"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>Фильтр для отчётов SMPlayer</translation>
+        <translation>Фильтр для журналов SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
@@ -5159,7 +5159,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="351"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Настройки:</translation>
+        <translation>&amp;Параметры:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="377"/>
@@ -5174,22 +5174,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="592"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Отчёт &amp;вывода SMPlayer</translation>
+        <translation>Журналировать &amp;вывод SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="663"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Фильтры отчётов SMPlayer:</translation>
+        <translation>&amp;Фильтр для журналов SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="276"/>
         <source>C&amp;hange...</source>
-        <translation>Из&amp;менить...</translation>
+        <translation>Из&amp;менить…</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Logs</source>
-        <translation>Отчёты</translation>
+        <translation>Журналы</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5234,7 +5234,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Options</source>
-        <translation>Инструменты</translation>
+        <translation>Параметры</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -5294,7 +5294,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="515"/>
         <source>Lo&amp;gs</source>
-        <translation>&amp;Отчёты</translation>
+        <translation>&amp;Журналы</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
@@ -5309,42 +5309,42 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Если эта опция отмечена, SMPlayer сохранит отладочные сообщения в выводе SMPlayer (их можно увидеть в &lt;b&gt;Настройки -&gt; Смотреть отчёты -&gt; SMPlayer&lt;/b&gt;). Эта информация может быть полезна разработчикам, если вы нашли баг.</translation>
+        <translation>Если этот параметр отмечен, SMPlayer сохранит отладочные сообщения вывода SMPlayer (их можно увидеть в &lt;b&gt;Параметры -&gt; Смотреть журналы -&gt; SMPlayer&lt;/b&gt;). Эта информация может быть полезна разработчикам, если вы нашли баг.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>Log %1 output</source>
-        <translation>Отчёт вывода %1</translation>
+        <translation>Журналировать вывод %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Если выбрано, SMPlayer будет сохранять сообщения %1 (их можно просмотреть в &lt;b&gt;Настройки -&gt; Смотреть отчёты -&gt; %1&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
+        <translation>Если выбрано, SMPlayer будет сохранять сообщения %1 (их можно просмотреть в &lt;b&gt;Параметры -&gt; Смотреть журналы -&gt; %1&lt;/b&gt;). Журналы могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить этот параметр.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
         <source>Autosave %1 log</source>
-        <translation>Автосохранение отчёта %1</translation>
+        <translation>Автосохранение журнала %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Если отмечено, отчёт %1 будет сохранён в специальный файл каждый раз, когда начнётся воспроизведение нового файла. Это может требоваться для внешних приложений, которые получают информацию о воспроизводимом файле.</translation>
+        <translation>Если отмечено, журнал %1 будет сохранён в специальный файл каждый раз, когда начнётся воспроизведение нового файла. Это может требоваться для внешних приложений, которые получают информацию о воспроизводимом файле.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
         <source>Autosave %1 log filename</source>
-        <translation>Автосохранение имени файла отчёта %1</translation>
+        <translation>Автосохранение имени файла журнала %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation>Введите путь и имя файла, используемого для сохранения отчёта %1.</translation>
+        <translation>Введите путь и имя файла, используемого для сохранения журнала %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Эта опция позволяет фильтровать сообщения SMPlayer, которые сохраняются в отчёте. Здесь вы можете записать любое регулярное выражение. &lt;br&gt;Для примера: &lt;i&gt;^Core::.*&lt;/i&gt; будет отображать только строки, начинающиеся с &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Эта опция позволяет фильтровать сообщения SMPlayer, которые сохраняются в журнале. Здесь вы можете записать любое регулярное выражение. &lt;br&gt;Для примера: &lt;i&gt;^Core::.*&lt;/i&gt; будет отображать только строки, начинающиеся с &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5364,12 +5364,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="520"/>
         <source>Write them separated by spaces.</source>
-        <translation>Разделите их пробелами.</translation>
+        <translation>Разделяйте их пробелами.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation>Отчёт вывода %1</translation>
+        <translation>Журналировать вывод %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
@@ -5384,7 +5384,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation>&amp;Автосохранение отчёта %1 в файл</translation>
+        <translation>&amp;Автосохранение журнала %1 в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
@@ -5394,7 +5394,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation>Не выбор этого параметра может уменьшить мерцание, но это также может привести к странным артефактам при определённых обстоятельствах.</translation>
+        <translation>Отключение этого параметра может уменьшить мерцание, но это также может привести к странным артефактам при определённых обстоятельствах.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5444,7 +5444,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Переключает %1 в экспериментальный режим, в котором тайминг видео кадров рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключен некоторыми кадрами. С некоторыми демультиплексорами и кодеками эта опция работает некорректно.</translation>
+        <translation>Переключает %1 в экспериментальный режим, в котором тайминг видео кадров рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5523,22 +5523,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="559"/>
         <source>&amp;Verbose</source>
-        <translation>&amp;Подробный отчёт</translation>
+        <translation>&amp;Подробный журнал</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
         <source>Save SMPlayer log to file</source>
-        <translation>Сохранять отчёт SMPlayer в файл</translation>
+        <translation>Сохранять журнал SMPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation>Если эта опция отмечена, отчёт SMPlayer будет записан в %1</translation>
+        <translation>Если эта опция отмечена, журнал SMPlayer будет записан в %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation>&amp;Сохранять отчёт SMPlayer в файл</translation>
+        <translation>&amp;Сохранять журнал SMPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
@@ -5611,7 +5611,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Медиа файлы, ассоциированные с SMPlayer:</translation>
+        <translation>Медиафайлы, ассоциированные с SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5705,7 +5705,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Примечание 1&lt;/b&gt;: кэш будет отключен, это может повлиять на производительность.</translation>
+        <translation>&lt;b&gt;Примечание 1&lt;/b&gt;: кэш будет отключён, это может повлиять на производительность.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
@@ -5921,7 +5921,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="165"/>
         <source>Other...</source>
-        <translation>Другой...</translation>
+        <translation>Другой…</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1069"/>
@@ -5967,7 +5967,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation>Если эта опция выбрана, все медиа файлы будут использовать аудиоэквалайзер.</translation>
+        <translation>Если эта опция выбрана, все медиафайлы будут использовать аудиоэквалайзер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1210"/>
@@ -6017,7 +6017,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>За&amp;поминать настройки всех файлов (звуковая дорожка, субтитры...)</translation>
+        <translation>За&amp;поминать настройки всех файлов (звуковая дорожка, субтитры…)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1184"/>
@@ -6416,7 +6416,7 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="492"/>
         <location filename="../prefgeneral.cpp" line="535"/>
         <source>User defined...</source>
-        <translation>Определено пользователем...</translation>
+        <translation>Определено пользователем…</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1136"/>
@@ -6441,7 +6441,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>По умолчанию SMPlayer запоминает настройки каждого воспроизводимого файла (звуковая дорожка, громкость, фильтры...). Отключите эту опцию, если она вам не нравится.</translation>
+        <translation>По умолчанию SMPlayer запоминает настройки каждого воспроизводимого файла (звуковая дорожка, громкость, фильтры…). Отключите эту опцию, если она вам не нравится.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1090"/>
@@ -6492,7 +6492,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Эта опция позволяет изменить способ сохранения настроек файлов. Доступны следующие варианты:</translation>
+        <translation>Этот параметр позволяет изменить способ сохранения настроек файлов. Доступны следующие варианты:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
@@ -6517,7 +6517,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1042"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Если вы отметите эту опцию, SMPlayer будет запоминать последнюю позицию файла, когда вы снова его откроете. Эта опция работает только с обычными файлами (не с DVD, CD или сетевыми адресами...).</translation>
+        <translation>Если вы отметите эту опцию, SMPlayer будет запоминать последнюю позицию файла, когда вы снова его откроете. Эта опция работает только с обычными файлами (не с DVD, CD или сетевыми адресами…).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
@@ -7157,7 +7157,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation>При включении данной опции срабатывание левой клавиши мыши задерживается на %1 миллисекунд, так как это необходимо для определения двойного щелчка.</translation>
+        <translation>При включении этой опции срабатывание левой клавиши мыши задерживается на %1 миллисекунд, так как это необходимо для определения двойного щелчка.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
@@ -7382,7 +7382,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="411"/>
         <source>&amp;Change...</source>
-        <translation>&amp;Изменить...</translation>
+        <translation>&amp;Изменить…</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
@@ -7709,7 +7709,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Замечание: эта опция работает только при использовании движка воспроизведения MPV.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7920,10 +7920,6 @@ Do you want to overwrite?</source>
         <translation>Если опция включена, перемотка будет более точной, но может быть немного медленнее. Может не работать с некоторыми форматами видео.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Внимание: эта опция работает только с MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>То&amp;чное позиционирование</translation>
@@ -7959,7 +7955,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
-        <translation>Настройки YouTube</translation>
+        <translation>Параметры YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
@@ -7989,7 +7985,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation>Для того, чтобы обслуживать локальное медиа с этого компьютера на Chromecast, SMPlayer запустит крошечный веб-сервер. Вы можете настроить здесь некоторые настройки.</translation>
+        <translation>Для того, чтобы обслуживать локальное медиа с этого компьютера на Chromecast, SMPlayer запустит крошечный веб-сервер. Вы можете настроить здесь некоторые параметры.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="306"/>
@@ -8156,7 +8152,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>1080p, 720p...</source>
-        <translation>1080p, 720p...</translation>
+        <translation>1080p, 720p…</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -9043,7 +9039,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>&amp;Автозагрузка субтитров (*.srt, *.sub...):</translation>
+        <translation>&amp;Автозагрузка субтитров (*.srt, *.sub…):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
@@ -9163,7 +9159,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Данная опция активирует библиотеку ASS, что позволяет использовать субтитры с разными цветами, шрифтами...</translation>
+        <translation>Данная опция активирует библиотеку ASS, что позволяет использовать субтитры с разными цветами, шрифтами…</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
@@ -9373,7 +9369,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation>Следующие опции позволяют вам определить стиль, который будет использован для нестилизованных субтитров (srt, sub...).</translation>
+        <translation>Следующие параметры позволяют вам определить стиль, который будет использован для нестилизованных субтитров (srt, sub…).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9446,7 +9442,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation>Эта опция не изменяет размер субтитров для текущего видео. Чтобы сделать это, используйте опции &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер –&lt;/i&gt; в меню субтитров.</translation>
+        <translation>Этот параметр не изменяет размер субтитров для текущего видео. Чтобы сделать это, используйте параметры &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер –&lt;/i&gt; в меню субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9536,7 +9532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="801"/>
         <source>Custo&amp;mize...</source>
-        <translation>&amp;Настроить...</translation>
+        <translation>&amp;Настроить…</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
@@ -9627,7 +9623,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>Проверить &amp;обновления</translation>
+        <translation>Проверять &amp;обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -9840,7 +9836,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation>определяет каталог, в котором smplayer будет сохранять свои конфигурационные файлы (smplayer.ini, smplayer_files.ini...)</translation>
+        <translation>определяет каталог, в котором smplayer будет сохранять свои конфигурационные файлы (smplayer.ini, smplayer_files.ini…)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="188"/>
@@ -10460,7 +10456,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation>Выберите используемые кодеки vdpau. Могут работать не все из них.</translation>
+        <translation>Выберите используемые кодеки vdpau. Некоторые из них могут не работать.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
@@ -10561,7 +10557,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="256"/>
         <source>Creating thumbnails...</source>
-        <translation>Создание миниатюр...</translation>
+        <translation>Создание миниатюр…</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="511"/>
@@ -10692,7 +10688,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio rate: %1</source>
-        <translation>Частота выборки аудио: %1</translation>
+        <translation>Частота аудио: %1</translation>
     </message>
 </context>
 <context>
@@ -10801,7 +10797,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation>Извлечь &amp;кадры как</translation>
+        <translation>Извлечь &amp;кадры в</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
@@ -10816,7 +10812,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>&amp;Запоминать каталог для сохранения предпросмотра</translation>
+        <translation>&amp;Запомнить каталог для сохранения миниатюр</translation>
     </message>
 </context>
 <context>

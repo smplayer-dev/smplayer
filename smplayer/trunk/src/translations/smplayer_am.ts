@@ -7918,10 +7918,6 @@ Do you want to overwrite?</source>
         <translation>ይህን ምርጫ ካስቻሉ: መፈለጊያ በጣም ትክክል ይሆናል ነገር ግን ትንሽ ዝግተኛ ይሆናል: ከ አንዳንድ የ ቪዲዮ አቀራረቦች ጋር ላይሰራ ይችላል</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">ምርጫው የሚሰራው ለ MPlayer2. ብቻ ነው</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>በ &amp;ትክክል መፈለጊያ</translation>

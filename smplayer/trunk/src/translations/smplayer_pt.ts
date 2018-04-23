@@ -1393,7 +1393,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mais informações no registo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7708,7 +7708,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: esta opção só funciona ao usar o mpv como mecanismo multimédia.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7917,10 +7917,6 @@ Substituir?</translation>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Se ativa, a procura é mais precisa. No entanto, pode ser um pouco mais lenta. Pode não funcionar com alguns formatos de vídeo.</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Nota: esta opção só funciona com o MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

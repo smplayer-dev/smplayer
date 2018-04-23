@@ -1393,7 +1393,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>ログに詳細があります。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7707,7 +7707,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意: このオプションはマルチメディア エンジンとして mpv を使用している時にのみ動作します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7916,10 +7916,6 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>このオプションが有効な場合、シークはより正確になりますがやや遅くなることがあります。一部のビデオ形式では動作しない可能性があります。</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">注意: このオプションは MPlayer2 でのみ動作します</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

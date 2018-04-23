@@ -7919,10 +7919,6 @@ Kas kirjutada see üle?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Märkus: see valik töötab ainult MPlayer2-ga</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Täpne hüppamine</translation>
