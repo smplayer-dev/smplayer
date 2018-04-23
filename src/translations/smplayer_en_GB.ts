@@ -7917,10 +7917,6 @@ Do you want to overwrite?</translation>
         <translation>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Note: this option only works with MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Precise seeking</translation>

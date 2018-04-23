@@ -1393,7 +1393,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Argibide gehiago oharrean.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7708,7 +7708,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oharra: aukera honek mpv multimedia gailu bezala erabiltzen denean bakarrik egiten du lan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7917,10 +7917,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Aukera hau gaituta badago, bilaketa zehatzagoa da baina apur bat astiroagoa izan daiteke. Badaiteke zenbait bideo heuskarrirekin lan ez egitea.</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Oharra: aukera honek MPlayer2-rekin bakarrik egiten du lan</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

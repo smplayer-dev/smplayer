@@ -7918,10 +7918,6 @@ El voleu sobreescriure?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Nota: aquesta opció només funciona amb MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation type="unfinished"></translation>

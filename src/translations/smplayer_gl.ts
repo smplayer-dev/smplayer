@@ -1393,7 +1393,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Máis información no rexistro.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7708,7 +7708,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: esta opción só funciona usando o mpv como motor multimedia.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7917,10 +7917,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Ao activar esta opción, as localizacións pola liña de tempo serán máis precisas mais poida que algo máis lentas. Podería non funcionar con algúns formatos de vídeo.</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Nota: esta opción só funciona con MPlayer2.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

@@ -7920,10 +7920,6 @@ Vuoi sovrascriverlo?</translation>
         <translation>Se questa opzione è abilitata, le ricerche sono più accurate, ma possono essere anche un po&apos; più lente. Può non funzionare con alcuni formati video.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Nota: questa opzione funziona solo con MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Ricerca precisa</translation>

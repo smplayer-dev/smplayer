@@ -1393,7 +1393,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mere info i loggen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7917,10 +7917,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Hvis denne indstilling er slået til, er søgninger mere præcise men de kan være langsommere. Dette vil ikke virke med alle video formater.</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Bemærk: denne indstilling vil kun virke med MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

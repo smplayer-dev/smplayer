@@ -1393,7 +1393,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Více informací v logu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -7710,7 +7710,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poznámka: tato předvolba funguje pouze při použití multimediálního enginu mpv.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -7920,10 +7920,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Je-li tato možnost zaškrtnuta, seekování bude přesnější, ale může být pomalejší. Pro některé formáty nemusí fungovat.</translation>
-    </message>
-    <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Poznámka: tato možnost funguje pouze pro MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>

@@ -7919,10 +7919,6 @@ Do you want to overwrite?</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, η αναζήτηση είναι πιο ακριβής, αλλά μπορεί να είναι λίγο πιο αργή. Ενδέχεται να μην λειτουργεί με ορισμένες μορφές βίντεο.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Σημείωση: η επιλογή αυτή λειτουργεί μόνο με το MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>Ακριβής ανα&amp;ζήτηση</translation>

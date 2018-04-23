@@ -7919,10 +7919,6 @@ Wilt u het overschrijven?</translation>
         <translation>Als deze optie is ingeschakeld, zal zoeken nauwkeuriger zijn, maar wel een beetje langzamer. Met een aantal videoformaten zal deze optie niet werken.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Let op: deze optie werkt alleen met MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Nauwkeurig zoeken</translation>
