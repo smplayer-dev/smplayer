@@ -1,3 +1,14 @@
+smplayer (18.4.0) precise; urgency=low
+
+  * Bugfix: the time displayed by a tooltip when the mouse is over the
+    seekbar is now much more accurate.
+  * There's now an option in Preferences -> Advanced to set the position
+    of the OSD bar.
+  * Now it's possible to turn off the use of the system native file
+    dialog in Preferences -> Interface.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 23 Apr 2018 21:29:56 +0200
+
 smplayer (18.3.0) precise; urgency=low
 
   * Possibility to search for subtitles using the hash and filename methods

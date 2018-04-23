@@ -4,7 +4,7 @@ Version 18.4:
    is now much more accurate.
  * There's now an option in Preferences -> Advanced to set the position of
    the OSD bar.
- * Now it's possible to turn off the system native file dialog in
+ * Now it's possible to turn off the use of the system native file dialog in
    Preferences -> Interface.
 
 
