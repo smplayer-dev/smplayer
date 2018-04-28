@@ -712,8 +712,7 @@ void BaseGui::createActions() {
 	muteAct = new MyAction( Qt::Key_M, this, "mute" );
 	muteAct->addShortcut(Qt::Key_VolumeMute); // MCE remote key
 	muteAct->setCheckable( true );
-	connect( muteAct, SIGNAL(toggled(bool)),
-             core, SLOT(mute(bool)) );
+	connect( muteAct, SIGNAL(toggled(bool)), this, SLOT(mute(bool)) );
 
 #if USE_MULTIPLE_SHORTCUTS
 	decVolumeAct = new MyAction( this, "decrease_volume" );
@@ -4827,6 +4826,19 @@ void BaseGui::aboutToExitFullscreen() {
 	}
 }
 
+void BaseGui::mute(bool b) {
+	qDebug() << "BaseGui::mute:" << b;
+
+#if 0
+	static QTime t;
+	QTime now = QTime::currentTime();
+	int msecs = t.msecsTo(now);
+	t = now;
+	qDebug() << "BaseGui::mute: msecs:" << msecs;
+	if (msecs > 100)
+#endif
+		core->mute(b);
+}
 
 void BaseGui::leftClickFunction() {
 	qDebug("BaseGui::leftClickFunction");
