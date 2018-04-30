@@ -21,21 +21,10 @@
 
 #include <QtGlobal>
 
-#ifdef Q_OS_WIN
-  //#define USE_WINEVENTFILTER
-#endif
-
-#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
-#include <QAbstractNativeEventFilter>
-#endif
-
 #ifdef SINGLE_INSTANCE
 #include "QtSingleApplication"
 
 class MyApplication : public QtSingleApplication
-#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
-, QAbstractNativeEventFilter
-#endif
 {
 	Q_OBJECT
 
@@ -50,13 +39,6 @@ public:
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
 	
-#ifdef USE_WINEVENTFILTER
-	virtual bool winEventFilter(MSG * msg, long * result);
-	#if QT_VERSION >= 0x050000
-	virtual bool nativeEventFilter(const QByteArray &eventType, void *message, long *result);
-	#endif
-#endif
-
 #if QT_VERSION >= 0x050000
 protected slots:
 	void commitData(QSessionManager & manager);
@@ -67,9 +49,6 @@ protected slots:
 #include <QApplication>
 
 class MyApplication : public QApplication
-#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
-, QAbstractNativeEventFilter
-#endif
 {
 	Q_OBJECT
 
@@ -79,13 +58,6 @@ public:
 	#if QT_VERSION < 0x050000
 	virtual void commitData(QSessionManager & manager);
 	#endif
-
-#ifdef USE_WINEVENTFILTER
-	virtual bool winEventFilter(MSG * msg, long * result);
-	#if QT_VERSION >= 0x050000
-	virtual bool nativeEventFilter(const QByteArray &eventType, void *message, long *result);
-	#endif
-#endif
 
 #if QT_VERSION >= 0x050000
 protected slots:
