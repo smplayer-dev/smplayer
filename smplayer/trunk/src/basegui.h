@@ -200,9 +200,6 @@ public slots:
 	void setForceStartInFullscreen(int n) { arg_start_in_fullscreen = n; };
 	int forceStartInFullscreen() { return arg_start_in_fullscreen; };
 
-	// Multimedia keys
-	void mute(bool);
-
 
 protected slots:
 	virtual void closeWindow();
