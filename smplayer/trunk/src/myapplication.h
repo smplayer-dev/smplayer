@@ -39,6 +39,10 @@ public:
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
 	
+#ifdef Q_OS_WIN
+	QStringList winArguments();
+#endif
+	
 #if QT_VERSION >= 0x050000
 protected slots:
 	void commitData(QSessionManager & manager);
@@ -58,6 +62,10 @@ public:
 	#if QT_VERSION < 0x050000
 	virtual void commitData(QSessionManager & manager);
 	#endif
+
+#ifdef Q_OS_WIN
+	QStringList winArguments();
+#endif
 
 #if QT_VERSION >= 0x050000
 protected slots:

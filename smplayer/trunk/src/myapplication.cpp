@@ -19,6 +19,10 @@
 #include "myapplication.h"
 #include <QSessionManager>
 
+#ifdef Q_OS_WIN
+#include <windows.h>
+#endif
+
 #ifdef SINGLE_INSTANCE
 MyApplication::MyApplication (const QString & appId, int & argc, char ** argv)
 	: QtSingleApplication(appId, argc, argv)
@@ -39,6 +43,23 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 void MyApplication::commitData(QSessionManager & manager) {
 	manager.release();
 }
+
+#ifdef Q_OS_WIN
+// TODO: the arguments for Qt (like -style) shouldn't be returned
+QStringList MyApplication::winArguments() {
+	QString cmdLine = QString::fromWCharArray(GetCommandLine());
+	QStringList result;
+	int size;
+	if (wchar_t **argv = CommandLineToArgvW((const wchar_t *)cmdLine.utf16(), &size)) {
+		result.reserve(size);
+		wchar_t **argvEnd = argv + size;
+		for (wchar_t **a = argv; a < argvEnd; ++a)
+			result.append(QString::fromWCharArray(*a));
+		LocalFree(argv);
+	}
+	return result;
+}
+#endif
 
 #include "moc_myapplication.cpp"
 
