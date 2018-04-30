@@ -4835,9 +4835,14 @@ void BaseGui::mute(bool b) {
 	int msecs = t.msecsTo(now);
 	t = now;
 	qDebug() << "BaseGui::mute: msecs:" << msecs;
-	if (msecs > 100)
-#endif
+	if (msecs > 100) {
 		core->mute(b);
+	} else {
+		muteAct->setChecked( (pref->global_volume ? pref->mute : core->mset.mute) );
+	}
+#else
+	core->mute(b);
+#endif
 }
 
 void BaseGui::leftClickFunction() {
