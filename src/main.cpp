@@ -45,6 +45,22 @@ QString hdpiConfig() {
 }
 #endif // HDPI_SUPPORT
 
+#ifdef Q_OS_WIN
+QStringList winArguments() {
+	QString cmdLine = QString::fromWCharArray(GetCommandLine());
+    QStringList result;
+    int size;
+    if (wchar_t **argv = CommandLineToArgvW((const wchar_t *)cmdLine.utf16(), &size)) {
+        result.reserve(size);
+        wchar_t **argvEnd = argv + size;
+        for (wchar_t **a = argv; a < argvEnd; ++a)
+            result.append(QString::fromWCharArray(*a));
+        LocalFree(argv);
+    }
+    return result;
+}
+#endif
+
 int main( int argc, char ** argv )
 {
 #ifdef HDPI_SUPPORT
@@ -89,7 +105,11 @@ int main( int argc, char ** argv )
 	}
 #endif
 
+#ifdef Q_OS_WIN
+	QStringList args = winArguments();
+#else
 	QStringList args = a.arguments();
+#endif
 	int pos = args.indexOf("-config-path");
 	if ( pos != -1) {
 		if (pos+1 < args.count()) {
