@@ -38,6 +38,8 @@
 #include "deviceinfo.h"
 #endif
 
+#define CHECK_SHORTCUT_EVENTS
+
 class QMenu;
 class PlaylistDock;
 
@@ -59,6 +61,10 @@ public:
 
 #ifdef SCREENS_SUPPORT
 	/* virtual void toggleFullscreen(bool); */
+#endif
+
+#ifdef CHECK_SHORTCUT_EVENTS
+	virtual bool eventFilter(QObject * obj, QEvent * e);
 #endif
 
 public slots:
@@ -90,6 +96,10 @@ protected:
 
 #ifdef SCREENS_SUPPORT
 	bool isVideoDetached();
+#endif
+
+#ifdef CHECK_SHORTCUT_EVENTS
+	void installFilterOnActions();
 #endif
 
 protected slots:

@@ -209,6 +209,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	Chromecast::instance()->setSettings(settings);
 #endif
 
+#ifdef CHECK_SHORTCUT_EVENTS
+	installFilterOnActions();
+#endif
+
 	retranslateStrings();
 	loadConfig();
 }
@@ -1153,6 +1157,29 @@ void BaseGuiPlus::playOnChromecast() {
 		#endif
 		cc->openLocal(core->mdat.filename, title, subtitle);
 	}
+}
+#endif
+
+#ifdef CHECK_SHORTCUT_EVENTS
+void BaseGuiPlus::installFilterOnActions() {
+	QObjectList list = children();
+	for (int n = 0; n < list.count(); n++) {
+		QString classname = list[n]->metaObject()->className();
+		//qDebug() << "BaseGuiPlus::installFilterOnActions:" << classname;
+		if (classname == "QAction") {
+			list[n]->installEventFilter(this);
+		}
+	}
+}
+
+bool BaseGuiPlus::eventFilter(QObject * obj, QEvent * e) {
+	Q_UNUSED(obj);
+	if (e->type() == QEvent::Shortcut) {
+		QShortcutEvent * se = static_cast<QShortcutEvent*>(e);
+		qDebug() << "BaseGuiPlus::eventFilter: key:" << se->key();
+		//if (se->key() == QKeySequence(Qt::Key_VolumeMute)) return true;
+	}
+	return false;
 }
 #endif
 
