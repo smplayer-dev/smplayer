@@ -38,7 +38,7 @@
 #include "deviceinfo.h"
 #endif
 
-#define CHECK_SHORTCUT_EVENTS
+//#define CHECK_SHORTCUT_EVENTS
 
 class QMenu;
 class PlaylistDock;
