@@ -1174,14 +1174,16 @@ void BaseGuiPlus::installFilterOnActions() {
 
 bool BaseGuiPlus::eventFilter(QObject * obj, QEvent * e) {
 	Q_UNUSED(obj);
-	static QTime t;
+	static QTime t(0,0);
 
 	if (e->type() == QEvent::Shortcut) {
 		QShortcutEvent * se = static_cast<QShortcutEvent*>(e);
 		qDebug() << "BaseGuiPlus::eventFilter: key:" << se->key();
 		if (se->key() == QKeySequence(Qt::Key_VolumeMute) ||
+			/*
 		    se->key() == QKeySequence(Qt::Key_VolumeDown) ||
 		    se->key() == QKeySequence(Qt::Key_VolumeUp) ||
+			*/
 		    se->key() == QKeySequence(Qt::Key_MediaPlay) ||
 		    se->key() == QKeySequence(Qt::Key_MediaStop) ||
 		    se->key() == QKeySequence(Qt::Key_Stop) ||
@@ -1195,7 +1197,7 @@ bool BaseGuiPlus::eventFilter(QObject * obj, QEvent * e) {
 			int msecs = t.msecsTo(now);
 			t = now;
 			qDebug() << "BaseGuiPlus::eventFilter: msecs:" << msecs;
-			if (msecs < 20) return true;
+			if (msecs < 500) return true;
 		}
 	}
 	return false;

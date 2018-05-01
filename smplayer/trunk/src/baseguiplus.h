@@ -38,7 +38,12 @@
 #include "deviceinfo.h"
 #endif
 
-//#define CHECK_SHORTCUT_EVENTS
+#ifdef Q_OS_WIN
+// It seems in some systems the media key events
+// are sent twice. This will filter the key presses
+// from actions to try to detect them.
+#define CHECK_SHORTCUT_EVENTS
+#endif
 
 class QMenu;
 class PlaylistDock;
