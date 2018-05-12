@@ -4598,93 +4598,77 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvoptions.cpp" line="173"/>
         <location filename="../mpvprocess.h" line="189"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>Филтер &apos;%1&apos; није подржан од мпв</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="810"/>
         <location filename="../mpvprocess.h" line="190"/>
         <source>File:</source>
         <translation>Фајл:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="813"/>
         <location filename="../mpvprocess.h" line="191"/>
         <source>Video:</source>
         <translation>Видео:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="814"/>
         <location filename="../mpvprocess.h" line="192"/>
         <source>Resolution:</source>
         <translation>Резолуција:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="815"/>
         <location filename="../mpvprocess.h" line="193"/>
         <source>Frames per second:</source>
         <translation>Фрејмова по секунди:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="815"/>
         <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
         <translation>Процењено:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="817"/>
         <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
         <translation>Однос аспекта:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="818"/>
-        <location filename="../mpvoptions.cpp" line="823"/>
         <location filename="../mpvprocess.h" line="196"/>
         <location filename="../mpvprocess.h" line="199"/>
         <source>Bitrate:</source>
         <translation>Битрејт:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="819"/>
         <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
         <translation>Испуштени фрејмови:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="822"/>
         <location filename="../mpvprocess.h" line="198"/>
         <source>Audio:</source>
         <translation>Аудио:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="824"/>
         <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
         <translation>Оцена узорка:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="825"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>Channels:</source>
         <translation>Канали:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="828"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
         <translation>Аудио/Видео синхронизација:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="829"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Cache fill:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="830"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
         <translation>Коришћени кеш:</translation>
@@ -4762,15 +4746,6 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
-    </message>
-</context>
-<context>
-    <name>MplayerProcess</name>
-    <message>
-        <location filename="../mplayeroptions.cpp" line="383"/>
-        <location filename="../mplayeroptions.cpp" line="460"/>
-        <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
