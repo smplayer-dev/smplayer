@@ -42,7 +42,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 #ifdef MPLAYER2_SUPPORT
 	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*", Qt::CaseInsensitive);
 #endif
-	static QRegExp rx_mpv_version("^mpv (.*) \\(C\\).*", Qt::CaseInsensitive);
+	static QRegExp rx_mpv_version("^mpv (.*) (\\(C\\)|Copyright).*", Qt::CaseInsensitive);
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
 	static QRegExp rx_mplayer_revision_ubuntu("^MPlayer svn r(\\d+) (.*)");
