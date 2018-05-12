@@ -989,12 +989,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de pantalla amb subtítols</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de pantalla sense subtítols</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1756"/>
@@ -1165,7 +1165,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra el nom de fitxer a l&apos;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1393,7 +1393,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="6086"/>
         <location filename="../basegui.cpp" line="6139"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Més informació al registre.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6092"/>
@@ -2361,12 +2361,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="1424"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha fet la captura de pantalla, NO s&apos;ha configurat la carpeta</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1437"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;han fet la captures de pantalla, NO s&apos;ha configurat la carpeta</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2785"/>
@@ -4595,93 +4595,77 @@ El voleu sobreescriure?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvoptions.cpp" line="173"/>
         <location filename="../mpvprocess.h" line="189"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="810"/>
         <location filename="../mpvprocess.h" line="190"/>
         <source>File:</source>
         <translation>Fitxer:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="813"/>
         <location filename="../mpvprocess.h" line="191"/>
         <source>Video:</source>
         <translation>Vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="814"/>
         <location filename="../mpvprocess.h" line="192"/>
         <source>Resolution:</source>
         <translation>Resolució:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="815"/>
         <location filename="../mpvprocess.h" line="193"/>
         <source>Frames per second:</source>
         <translation>Fotogrames per segon:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="815"/>
         <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
         <translation>Aproximació:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="817"/>
         <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
         <translation>Relació d&apos;aspecte:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="818"/>
-        <location filename="../mpvoptions.cpp" line="823"/>
         <location filename="../mpvprocess.h" line="196"/>
         <location filename="../mpvprocess.h" line="199"/>
         <source>Bitrate:</source>
         <translation>Taxa de bits:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="819"/>
         <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
         <translation>Fotogrames refusats:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="822"/>
         <location filename="../mpvprocess.h" line="198"/>
         <source>Audio:</source>
         <translation>Àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="824"/>
         <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
         <translation>Freqüència de mostreig:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="825"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>Channels:</source>
         <translation>Canals:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="828"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronització de vídeo/àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="829"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Cache fill:</source>
         <translation>Ompliment de la memòria cau:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="830"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
         <translation>Memòria cau utilitzada:</translation>
@@ -4759,15 +4743,6 @@ El voleu sobreescriure?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
-    </message>
-</context>
-<context>
-    <name>MplayerProcess</name>
-    <message>
-        <location filename="../mplayeroptions.cpp" line="383"/>
-        <location filename="../mplayeroptions.cpp" line="460"/>
-        <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5167,12 +5142,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation>Utilitza el desmultiplexor la&amp;vf per defecte</translation>
+        <translation>Utilitza per defecte el desmultiplexor la&amp;vf</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició de la barra O&amp;SD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5422,7 +5397,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>Posició de la barra OSD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
@@ -5748,7 +5723,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xplora per les unitats CD/DVD</translation>
     </message>
 </context>
 <context>
@@ -5824,7 +5799,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí podeu teclejar el vostre idioma preferit per als fluxos de l&apos;àudio i del subtítol. Quan es trobi un mitjà amb diversos fluxos d&apos;àudio o de subtítols, smplayer intentarà utilitzar el vostre idioma preferit.&lt;br&gt;Això només funcionarà amb els mitjans que ofereixen informació sobre els fluxos de l&apos;idioma de l&apos;àudio i dels subtítols, com ara els DVD o els fitxers mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6000,7 +5975,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1213"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS a través de S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
@@ -6095,7 +6070,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS a través de S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6135,7 +6110,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>&amp;Habilita el post processament per defecte</translation>
+        <translation>&amp;Habilita per defecte el post processament</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
@@ -6220,7 +6195,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí podeu especificar una llista de prioritats dels codis d&apos;idioma de l&apos;àudio, separats per comes. Per exemple: cat,spa,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
@@ -6230,7 +6205,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí podeu especificar una llista de prioritats dels codis d&apos;idioma de subtítols, separats per comes. Per exemple: cat,spa,eng</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
@@ -6555,12 +6530,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podeu utilitzar aquesta opció per habilitar o inhabilitar la possibilitat de fer captures de pantalla.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí podeu especificar una carpeta on s&apos;emmagatzemaran les captures de pantalla fetes per SMPlayer. Si la carpeta no és vàlida, s&apos;inhabilitarà la funció de captura de pantalla.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -6953,7 +6928,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinput.ui" line="222"/>
         <source>M&amp;iddle click</source>
-        <translation>Clic del m&amp;ig</translation>
+        <translation>Cl&amp;ic central</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="235"/>
@@ -7410,7 +7385,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza el diàleg natiu de fitxers del siste&amp;ma</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7435,7 +7410,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>El control flotant apareix en mode de pantalla completa quan es mou el ratolí.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -7445,7 +7420,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;emps (en mil·lisegons) a ocultar el control:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
@@ -7595,7 +7570,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
-        <translation>Fact&amp;or d&apos;escala:</translation>
+        <translation>Fact&amp;or de canvi d&apos;escala:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="263"/>
@@ -7660,7 +7635,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitza el diàleg natiu de fitxers del sistema</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
@@ -7742,22 +7717,22 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra només mentre es mou el ratolí a la part inferior de la pantalla</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està marcada, el control flotant només es mostrarà quan es mogui el ratolí a la part inferior de la pantalla. En cas contrari, el control apareixerà sempre que es mogui el ratolí, independentment de la seva posició.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, el control flotant també apareixerà al mode compacte.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció només funciona amb la interfície bàsica.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
@@ -7853,7 +7828,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si aquesta opció està habilitada, el control flotant apareixerà amb una animació.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="853"/>
@@ -7873,7 +7848,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquesta opció estableix el nombre de píxels que el control flotant estarà separat de la part inferior de la pantalla. És útil quan la pantalla és un televisor, ja que la sobre-exploració pot impedir que el control sigui visible.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8129,7 +8104,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Compatibilitat per als llocs de vídeos</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="282"/>
@@ -8441,7 +8416,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Omet mostrar alguns marcs per mantenir la sincronització A/V en sistemes lents.</translation>
+        <translation>Omet mostrar alguns fotogrames per mantenir la sincronització A/V als sistemes lents.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -9287,7 +9262,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Shadow</source>
-        <translation>Obra</translation>
+        <translation>Ombra</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
@@ -9367,7 +9342,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitat:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="718"/>
@@ -9495,7 +9470,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>&amp;Escala predeterminada:</translation>
+        <translation>Can&amp;vi d&apos;escala predeterminat:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9550,7 +9525,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
         <source>Shadow:</source>
-        <translation>Obra:</translation>
+        <translation>Ombra:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="801"/>
@@ -9681,7 +9656,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí podeu introduir l&apos;interval (en dies) per a la comprovació d&apos;actualitzacions.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -10116,12 +10091,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre 3D estèreo</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"></translation>
+        <translation>Format &amp;3D del vídeo:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
@@ -10484,7 +10459,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhabilita els filtres de ví&amp;deo de programari</translation>
     </message>
 </context>
 <context>
