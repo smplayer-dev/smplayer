@@ -28,10 +28,17 @@ class GlobalShortcuts : public QObject, public QAbstractNativeEventFilter
 	Q_OBJECT
 
 public:
+	enum MediaKey { VolumeMute = 1, VolumeDown = 2, VolumeUp = 4,
+                    MediaPlay = 8, MediaStop = 16, MediaPrevious = 32,
+                    MediaNext = 64, MediaPause = 128, MediaRecord = 256 };
+	Q_DECLARE_FLAGS(MediaKeys, MediaKey)
+
 	GlobalShortcuts( QObject* parent = 0 );
 	~GlobalShortcuts();
 
 	bool isEnabled() { return enabled; };
+	void setGrabbedKeys(MediaKeys keys) { grabbed_keys = keys; };
+	MediaKeys grabbedKeys() { return grabbed_keys; };
 
 	virtual bool nativeEventFilter(const QByteArray & eventType, void * message, long * result);
 
@@ -51,6 +58,9 @@ private:
 
 	QMap<quint32, Qt::Key> key_list;
 	bool enabled;
+	MediaKeys grabbed_keys;
 };
+
+Q_DECLARE_OPERATORS_FOR_FLAGS(GlobalShortcuts::MediaKeys)
 
 #endif
