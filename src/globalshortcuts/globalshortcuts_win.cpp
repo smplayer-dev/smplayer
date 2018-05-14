@@ -49,14 +49,30 @@ bool GlobalShortcuts::unregisterShortcut(quint32 nativeKey, quint32 nativeMods) 
 
 void GlobalShortcuts::createKeysList() {
 	key_list.clear();
-	key_list[VK_VOLUME_DOWN] = Qt::Key_VolumeDown;
-	key_list[VK_VOLUME_UP] = Qt::Key_VolumeUp;
-	key_list[VK_VOLUME_MUTE] = Qt::Key_VolumeMute;
-	key_list[VK_MEDIA_PLAY_PAUSE] = Qt::Key_MediaPlay;
-	key_list[VK_MEDIA_STOP] = Qt::Key_MediaStop;
-	key_list[VK_MEDIA_PREV_TRACK] = Qt::Key_MediaPrevious;
-	key_list[VK_MEDIA_NEXT_TRACK] = Qt::Key_MediaNext;
-	key_list[VK_PLAY] = Qt::Key_MediaPlay;
+	if (grabbed_keys.testFlag(VolumeDown)) {
+		key_list[VK_VOLUME_DOWN] = Qt::Key_VolumeDown;
+	}
+	if (grabbed_keys.testFlag(VolumeUp)) {
+		key_list[VK_VOLUME_UP] = Qt::Key_VolumeUp;
+	}
+	if (grabbed_keys.testFlag(VolumeMute)) {
+		key_list[VK_VOLUME_MUTE] = Qt::Key_VolumeMute;
+	}
+	if (grabbed_keys.testFlag(MediaPlay)) {
+		key_list[VK_MEDIA_PLAY_PAUSE] = Qt::Key_MediaPlay;
+	}
+	if (grabbed_keys.testFlag(MediaStop)) {
+		key_list[VK_MEDIA_STOP] = Qt::Key_MediaStop;
+	}
+	if (grabbed_keys.testFlag(MediaPrevious)) {
+		key_list[VK_MEDIA_PREV_TRACK] = Qt::Key_MediaPrevious;
+	}
+	if (grabbed_keys.testFlag(MediaNext)) {
+		key_list[VK_MEDIA_NEXT_TRACK] = Qt::Key_MediaNext;
+	}
+	if (grabbed_keys.testFlag(MediaPlay)) {
+		key_list[VK_PLAY] = Qt::Key_MediaPlay;
+	}
 	//key_list[VK_F11] = Qt::Key_MediaPlay; // TEST
 	//key_list[] = Qt::Key_MediaPause;
 	//key_list[] = Qt::Key_MediaRecord;
