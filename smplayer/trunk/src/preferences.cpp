@@ -45,6 +45,10 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
+#ifdef GLOBALSHORTCUTS
+#include "globalshortcuts/globalshortcuts.h"
+#endif
+
 #define USE_CONFIG_VERSION
 #ifdef USE_CONFIG_VERSION
 #define CURRENT_CONFIG_VERSION 5
@@ -418,6 +422,10 @@ void Preferences::reset() {
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = false;
+	global_shortcuts_grabbed_keys = GlobalShortcuts::MediaPlay | GlobalShortcuts::MediaPlay |
+                                    GlobalShortcuts::MediaStop | GlobalShortcuts::MediaPrevious |
+                                    GlobalShortcuts::MediaNext | GlobalShortcuts::MediaPause |
+                                    GlobalShortcuts::MediaRecord;
 #endif
 
 #if DVDNAV_SUPPORT
@@ -976,6 +984,7 @@ void Preferences::save() {
 
 #ifdef GLOBALSHORTCUTS
 	set->setValue("use_global_shortcuts", use_global_shortcuts);
+	set->setValue("global_shortcuts_grabbed_keys", global_shortcuts_grabbed_keys);
 #endif
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
@@ -1569,6 +1578,7 @@ void Preferences::load() {
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = set->value("use_global_shortcuts", use_global_shortcuts).toBool();
+	global_shortcuts_grabbed_keys = set->value("global_shortcuts_grabbed_keys", global_shortcuts_grabbed_keys).toInt();
 #endif
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();

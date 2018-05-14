@@ -46,6 +46,13 @@ GlobalShortcuts::~GlobalShortcuts() {
 	if (enabled) setEnabled(false);
 }
 
+void GlobalShortcuts::setGrabbedKeys(MediaKeys keys) {
+	if (keys != grabbed_keys) {
+		grabbed_keys = keys;
+		createKeysList();
+	}
+}
+
 void GlobalShortcuts::setEnabled(bool b) {
 	qDebug() << "GlobalShortcuts::setEnabled:" << b;
 

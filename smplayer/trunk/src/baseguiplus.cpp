@@ -201,6 +201,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 #ifdef GLOBALSHORTCUTS
 	global_shortcuts = new GlobalShortcuts(this);
+	global_shortcuts->setGrabbedKeys((GlobalShortcuts::MediaKeys) pref->global_shortcuts_grabbed_keys);
 	global_shortcuts->setEnabled(pref->use_global_shortcuts);
 	connect(this, SIGNAL(preferencesChanged()), this, SLOT(updateGlobalShortcuts()));
 #endif
