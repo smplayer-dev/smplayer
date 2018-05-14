@@ -118,14 +118,33 @@ bool GlobalShortcuts::unregisterShortcut(quint32 nativeKey, quint32 nativeMods) 
 void GlobalShortcuts::createKeysList() {
 	X11Data x11;
 	key_list.clear();
-	key_list[x11.keysymToKeycode(XF86XK_AudioLowerVolume)] = Qt::Key_VolumeDown;
-	key_list[x11.keysymToKeycode(XF86XK_AudioRaiseVolume)] = Qt::Key_VolumeUp;
-	key_list[x11.keysymToKeycode(XF86XK_AudioMute)] = Qt::Key_VolumeMute;
-	key_list[x11.keysymToKeycode(XF86XK_AudioPlay)] = Qt::Key_MediaPlay;
-	key_list[x11.keysymToKeycode(XF86XK_AudioStop)] = Qt::Key_MediaStop;
-	key_list[x11.keysymToKeycode(XF86XK_AudioPrev)] = Qt::Key_MediaPrevious;
-	key_list[x11.keysymToKeycode(XF86XK_AudioNext)] = Qt::Key_MediaNext;
-	key_list[x11.keysymToKeycode(XF86XK_AudioPause)] = Qt::Key_MediaPause;
-	key_list[x11.keysymToKeycode(XF86XK_AudioRecord)] = Qt::Key_MediaRecord;
+	if (grabbed_keys.testFlag(VolumeDown)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioLowerVolume)] = Qt::Key_VolumeDown;
+	}
+	if (grabbed_keys.testFlag(VolumeUp)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioRaiseVolume)] = Qt::Key_VolumeUp;
+	}
+	if (grabbed_keys.testFlag(VolumeMute)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioMute)] = Qt::Key_VolumeMute;
+	}
+	if (grabbed_keys.testFlag(MediaPlay)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioPlay)] = Qt::Key_MediaPlay;
+	}
+	if (grabbed_keys.testFlag(MediaStop)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioStop)] = Qt::Key_MediaStop;
+	}
+	if (grabbed_keys.testFlag(MediaPrevious)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioPrev)] = Qt::Key_MediaPrevious;
+	}
+	if (grabbed_keys.testFlag(MediaNext)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioNext)] = Qt::Key_MediaNext;
+	}
+	if (grabbed_keys.testFlag(MediaPause)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioPause)] = Qt::Key_MediaPause;
+	}
+	if (grabbed_keys.testFlag(MediaRecord)) {
+		key_list[x11.keysymToKeycode(XF86XK_AudioRecord)] = Qt::Key_MediaRecord;
+	}
 	//key_list[x11.keysymToKeycode(0xffc8)] = Qt::Key_F11; // Test
+	qDebug() << "GlobalShortcuts::createKeysList:" << key_list;
 }

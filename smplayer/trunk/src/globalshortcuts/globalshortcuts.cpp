@@ -34,6 +34,10 @@ GlobalShortcuts::GlobalShortcuts(QObject* parent)
 	qDebug("GlobalShortcuts::GlobalShortcuts");
 	QAbstractEventDispatcher::instance()->installNativeEventFilter(this);
 
+	grabbed_keys = VolumeMute | VolumeDown | VolumeUp |
+                   MediaPlay | MediaStop | MediaPrevious |
+                   MediaNext | MediaPause | MediaRecord;
+
 	createKeysList();
 	//setEnabled(true);
 }
