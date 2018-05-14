@@ -391,6 +391,7 @@ public:
 
 #ifdef GLOBALSHORTCUTS
 	bool use_global_shortcuts;
+	int global_shortcuts_grabbed_keys;
 #endif
 
 	// Function of mouse buttons:

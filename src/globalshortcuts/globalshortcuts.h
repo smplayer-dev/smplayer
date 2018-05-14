@@ -37,7 +37,7 @@ public:
 	~GlobalShortcuts();
 
 	bool isEnabled() { return enabled; };
-	void setGrabbedKeys(MediaKeys keys) { grabbed_keys = keys; };
+	void setGrabbedKeys(MediaKeys keys);
 	MediaKeys grabbedKeys() { return grabbed_keys; };
 
 	virtual bool nativeEventFilter(const QByteArray & eventType, void * message, long * result);
