@@ -106,14 +106,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QCheckBox" name="volup_check">
+      <widget class="QCheckBox" name="voldown_check">
        <property name="text">
         <string>Volume &amp;Down</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QCheckBox" name="volup_check_2">
+      <widget class="QCheckBox" name="volup_check">
        <property name="text">
         <string>Volume &amp;Up</string>
        </property>
@@ -144,8 +144,8 @@
   <tabstop>pause_check</tabstop>
   <tabstop>record_check</tabstop>
   <tabstop>mute_check</tabstop>
+  <tabstop>voldown_check</tabstop>
   <tabstop>volup_check</tabstop>
-  <tabstop>volup_check_2</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources/>

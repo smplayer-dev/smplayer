@@ -17,6 +17,7 @@
 */
 
 #include "globalshortcutsdialog.h"
+#include "globalshortcuts/globalshortcuts.h"
 
 GlobalShortcutsDialog::GlobalShortcutsDialog(QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
@@ -25,6 +26,36 @@ GlobalShortcutsDialog::GlobalShortcutsDialog(QWidget* parent, Qt::WindowFlags f 
 }
 
 GlobalShortcutsDialog::~GlobalShortcutsDialog() {
+}
+
+void GlobalShortcutsDialog::setGrabbedKeys(int keys) {
+	GlobalShortcuts::MediaKeys k = (GlobalShortcuts::MediaKeys) keys;
+
+	play_check->setChecked(k.testFlag(GlobalShortcuts::MediaPlay));
+	stop_check->setChecked(k.testFlag(GlobalShortcuts::MediaStop));
+	previous_check->setChecked(k.testFlag(GlobalShortcuts::MediaPrevious));
+	next_check->setChecked(k.testFlag(GlobalShortcuts::MediaNext));
+	pause_check->setChecked(k.testFlag(GlobalShortcuts::MediaPause));
+	record_check->setChecked(k.testFlag(GlobalShortcuts::MediaRecord));
+	mute_check->setChecked(k.testFlag(GlobalShortcuts::VolumeMute));
+	voldown_check->setChecked(k.testFlag(GlobalShortcuts::VolumeDown));
+	volup_check->setChecked(k.testFlag(GlobalShortcuts::VolumeUp));
+}
+
+int GlobalShortcutsDialog::grabbedKeys() {
+	GlobalShortcuts::MediaKeys k(QFlag (0));
+
+	if (play_check->isChecked()) k = k | GlobalShortcuts::MediaPlay;
+	if (stop_check->isChecked()) k = k | GlobalShortcuts::MediaStop;
+	if (previous_check->isChecked()) k = k | GlobalShortcuts::MediaPrevious;
+	if (next_check->isChecked()) k = k | GlobalShortcuts::MediaNext;
+	if (pause_check->isChecked()) k = k | GlobalShortcuts::MediaPause;
+	if (record_check->isChecked()) k = k | GlobalShortcuts::MediaRecord;
+	if (mute_check->isChecked()) k = k | GlobalShortcuts::VolumeMute;
+	if (voldown_check->isChecked()) k = k | GlobalShortcuts::VolumeDown;
+	if (volup_check->isChecked()) k = k | GlobalShortcuts::VolumeUp;
+
+	return k;
 }
 
 #include "moc_globalshortcutsdialog.cpp"

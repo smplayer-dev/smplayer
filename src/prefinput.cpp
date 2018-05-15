@@ -22,13 +22,23 @@
 #include "config.h"
 #include "guiconfig.h"
 
+#ifdef GLOBALSHORTCUTS
+#include "globalshortcuts/globalshortcutsdialog.h"
+#endif
+
 PrefInput::PrefInput(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
+#ifdef GLOBALSHORTCUTS
+	, grabbed_keys(0)
+#endif
 {
 	setupUi(this);
 
-#ifndef GLOBALSHORTCUTS
+#ifdef GLOBALSHORTCUTS
+	connect(globalshortcuts_button, SIGNAL(clicked()), this, SLOT(showGlobalShortcutsDialog()));
+#else
 	globalshortcuts_check->hide();
+	globalshortcuts_button->hide();
 #endif
 
 	retranslateStrings();
@@ -195,6 +205,7 @@ void PrefInput::setData(Preferences * pref) {
 
 #ifdef GLOBALSHORTCUTS
 	setUseGlobalShortcuts(pref->use_global_shortcuts);
+	grabbed_keys = pref->global_shortcuts_grabbed_keys;
 #endif
 }
 
@@ -216,6 +227,7 @@ void PrefInput::getData(Preferences * pref) {
 
 #ifdef GLOBALSHORTCUTS
 	pref->use_global_shortcuts = useGlobalShortcuts();
+	pref->global_shortcuts_grabbed_keys = grabbed_keys;
 #endif
 }
 
@@ -349,6 +361,14 @@ void PrefInput::setUseGlobalShortcuts(bool b) {
 
 bool PrefInput::useGlobalShortcuts() {
 	return globalshortcuts_check->isChecked();
+}
+
+void PrefInput::showGlobalShortcutsDialog() {
+	GlobalShortcutsDialog d(this);
+	d.setGrabbedKeys(grabbed_keys);
+	if (d.exec() == QDialog::Accepted) {
+		grabbed_keys = d.grabbedKeys();
+	}
 }
 #endif
 
