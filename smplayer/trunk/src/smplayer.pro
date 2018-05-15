@@ -536,8 +536,9 @@ contains( DEFINES, BOOKMARKS ) {
 }
 
 contains( DEFINES, GLOBALSHORTCUTS ) {
-	HEADERS += globalshortcuts/globalshortcuts.h
-	SOURCES += globalshortcuts/globalshortcuts.cpp
+	HEADERS += globalshortcuts/globalshortcuts.h globalshortcuts/globalshortcutsdialog.h
+	SOURCES += globalshortcuts/globalshortcuts.cpp globalshortcuts/globalshortcutsdialog.cpp
+	FORMS += globalshortcuts/globalshortcutsdialog.ui
 	unix {
 		QT += gui-private
 		LIBS += $${QMAKE_LIBS_X11}
