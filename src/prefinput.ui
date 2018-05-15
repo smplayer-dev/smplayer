@@ -23,10 +23,7 @@
       <attribute name="title">
        <string>&amp;Keyboard</string>
       </attribute>
-      <layout class="QVBoxLayout">
-       <property name="spacing">
-        <number>6</number>
-       </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
        <property name="margin">
         <number>6</number>
        </property>
@@ -80,11 +77,38 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="globalshortcuts_check">
-         <property name="text">
-          <string>&amp;Use the multimedia keys as global shortcuts</string>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QCheckBox" name="globalshortcuts_check">
+           <property name="text">
+            <string>&amp;Use the multimedia keys as global shortcuts</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="globalshortcuts_button">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Select &amp;keys...</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>
@@ -491,6 +515,7 @@
  <tabstops>
   <tabstop>input_tab</tabstop>
   <tabstop>globalshortcuts_check</tabstop>
+  <tabstop>globalshortcuts_button</tabstop>
   <tabstop>left_click_combo</tabstop>
   <tabstop>double_click_combo</tabstop>
   <tabstop>right_click_combo</tabstop>
@@ -507,5 +532,22 @@
   <tabstop>wheel_function_speed</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>globalshortcuts_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>globalshortcuts_button</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>525</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>509</x>
+     <y>526</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
