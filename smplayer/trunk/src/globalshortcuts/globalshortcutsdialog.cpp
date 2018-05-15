@@ -23,6 +23,7 @@ GlobalShortcutsDialog::GlobalShortcutsDialog(QWidget* parent, Qt::WindowFlags f 
 	: QDialog(parent, f)
 {
 	setupUi(this);
+	setWindowTitle("SMPlayer - " + tr("Global Shortcuts"));
 }
 
 GlobalShortcutsDialog::~GlobalShortcutsDialog() {

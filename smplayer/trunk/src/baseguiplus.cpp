@@ -789,6 +789,8 @@ void BaseGuiPlus::showPreferencesDialog() {
 
 void BaseGuiPlus::updateGlobalShortcuts() {
 	qDebug("BaseGuiPlus::updateGlobalShortcuts");
+	global_shortcuts->setEnabled(false);
+	global_shortcuts->setGrabbedKeys((GlobalShortcuts::MediaKeys) pref->global_shortcuts_grabbed_keys);
 	global_shortcuts->setEnabled(pref->use_global_shortcuts);
 }
 #endif

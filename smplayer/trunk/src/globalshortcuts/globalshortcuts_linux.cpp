@@ -146,5 +146,5 @@ void GlobalShortcuts::createKeysList() {
 		key_list[x11.keysymToKeycode(XF86XK_AudioRecord)] = Qt::Key_MediaRecord;
 	}
 	//key_list[x11.keysymToKeycode(0xffc8)] = Qt::Key_F11; // Test
-	qDebug() << "GlobalShortcuts::createKeysList:" << key_list;
+	//qDebug() << "GlobalShortcuts::createKeysList:" << key_list;
 }
