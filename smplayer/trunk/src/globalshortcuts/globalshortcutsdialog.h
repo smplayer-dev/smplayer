@@ -29,6 +29,9 @@ class GlobalShortcutsDialog : public QDialog, public Ui::GlobalShortcutsDialog
 public:
 	GlobalShortcutsDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
 	~GlobalShortcutsDialog();
+
+	void setGrabbedKeys(int);
+	int grabbedKeys();
 };
 
 #endif

@@ -84,10 +84,21 @@ protected:
 #ifdef GLOBALSHORTCUTS
 	void setUseGlobalShortcuts(bool);
 	bool useGlobalShortcuts();
+
+	void setGrabbedKeys(int);
+	int grabbedKeys();
 #endif
 
 protected:
 	virtual void retranslateStrings();
+
+#ifdef GLOBALSHORTCUTS
+protected slots:
+	void showGlobalShortcutsDialog();
+
+protected:
+	int grabbed_keys;
+#endif
 };
 
 #endif
