@@ -37,6 +37,8 @@ public:
 	~GlobalShortcuts();
 
 	bool isEnabled() { return enabled; };
+
+	// It should be called before setEnabled
 	void setGrabbedKeys(MediaKeys keys);
 	MediaKeys grabbedKeys() { return grabbed_keys; };
 
