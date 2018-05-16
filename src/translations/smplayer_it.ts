@@ -2009,162 +2009,162 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer è ancora in esecuzione</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="341"/>
+        <location filename="../baseguiplus.cpp" line="342"/>
         <source>S&amp;how icon in system tray</source>
         <translation>M&amp;ostra icona nella barra di sistema</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="355"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Riproduci su &amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="358"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Send &amp;video to screen</source>
         <translation>Invia &amp;video allo schermo</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="361"/>
         <source>Information about connected &amp;screens</source>
         <translation>Informazioni riguardo &amp;schermi connessi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="363"/>
+        <location filename="../baseguiplus.cpp" line="364"/>
         <source>Video is sent to an external screen</source>
         <translation>Il video è trasmesso ad uno schermo esterno</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="367"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>Send &amp;audio to</source>
         <translation>Manda &amp;audio a</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="405"/>
+        <location filename="../baseguiplus.cpp" line="406"/>
         <source>&amp;Hide</source>
         <translation>&amp;Nascondi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="407"/>
+        <location filename="../baseguiplus.cpp" line="408"/>
         <source>&amp;Restore</source>
         <translation>&amp;Ripristina</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="867"/>
         <source>Information about connected screens</source>
         <translation>Informazioni riguardo schermi connessi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="867"/>
+        <location filename="../baseguiplus.cpp" line="870"/>
         <source>Connected screens</source>
         <translation>Schermi connessi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="870"/>
-        <location filename="../baseguiplus.cpp" line="912"/>
+        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Number of screens: %1</source>
         <translation>Numero di schermi: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="875"/>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="878"/>
+        <location filename="../baseguiplus.cpp" line="916"/>
         <source>Primary screen: %1</source>
         <translation>Schermo primario: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
-        <location filename="../baseguiplus.cpp" line="917"/>
+        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Information for screen %1</source>
         <translation>Informazioni sullo schermo: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="885"/>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometria disponibile: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="887"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Available size: %1 x %2</source>
         <translation>Grandezza disponibile: %1 %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtuale disponibile: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="892"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Grandezza virtuale disponibile: %1 %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
+        <location filename="../baseguiplus.cpp" line="897"/>
         <source>Depth: %1 bits</source>
         <translation>Profondità: %1 bits</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="924"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometria: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="897"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Logical DPI: %1</source>
         <translation>DPI logici: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="899"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Physical DPI: %1</source>
         <translation>DPI fisici: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="900"/>
+        <location filename="../baseguiplus.cpp" line="903"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Grandezza fisica: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Refresh rate: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="903"/>
+        <location filename="../baseguiplus.cpp" line="906"/>
         <source>Size: %1 x %2</source>
         <translation>Size: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
+        <location filename="../baseguiplus.cpp" line="907"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtuale: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtual size: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="959"/>
+        <location filename="../baseguiplus.cpp" line="962"/>
         <source>Primary screen</source>
         <translation>Schermo primario</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1031"/>
         <source>SMPlayer external screen output</source>
         <translation>Output schermo esterno SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1076"/>
+        <location filename="../baseguiplus.cpp" line="1079"/>
         <source>&amp;Default audio device</source>
         <translation>Periferica audio di &amp;Default</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="338"/>
         <source>&amp;Quit</source>
         <translation>&amp;Esci</translation>
     </message>
@@ -3134,6 +3134,64 @@ Controllarne i relativi permessi.</translation>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Creazione font cache...</translation>
+    </message>
+</context>
+<context>
+    <name>GlobalShortcutsDialog</name>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
+        <source>Select the multimedia keys that SMPlayer will capture.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
+        <source>Media &amp;Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
+        <source>Media &amp;Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
+        <source>Media Pre&amp;vious</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
+        <source>Media &amp;Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
+        <source>Media P&amp;ause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
+        <source>Media &amp;Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
+        <source>Volume &amp;Mute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
+        <source>Volume &amp;Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
+        <source>Volume &amp;Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
+        <source>Global Shortcuts</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6693,7 +6751,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="42"/>
+        <location filename="../prefinput.cpp" line="52"/>
         <source>Keyboard and mouse</source>
         <translation>Tastiera e mouse</translation>
     </message>
@@ -6703,538 +6761,543 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Tastiera</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="85"/>
+        <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
         <translation>&amp;Usa i tasti multimediali come scorciatoie globali</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="93"/>
+        <location filename="../prefinput.ui" line="107"/>
+        <source>Select &amp;keys...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="117"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Mouse</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="143"/>
+        <location filename="../prefinput.ui" line="167"/>
         <source>Button functions:</source>
         <translation>Funzione pulsanti:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="340"/>
+        <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
         <translation>Funzione &amp;trascinamento:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="382"/>
+        <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation>Non &amp;innescare l&apos;azione clic sinistro con un doppio clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="418"/>
+        <location filename="../prefinput.cpp" line="161"/>
+        <location filename="../prefinput.cpp" line="438"/>
         <source>Media seeking</source>
         <translation>Ricerca nel file</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="421"/>
+        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="441"/>
         <source>Volume control</source>
         <translation>Controllo volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
-        <location filename="../prefinput.cpp" line="424"/>
+        <location filename="../prefinput.cpp" line="163"/>
+        <location filename="../prefinput.cpp" line="444"/>
         <source>Zoom video</source>
         <translation>Zoom video</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>None</source>
         <translation>Nessuno</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="60"/>
+        <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Qui puoi cambiare le scorciatoie da tastiera. Per farlo, fai doppio click o scrivi nella cella corrispondente. Opzionalmente, puoi salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="173"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Qui è possibile cambiare le scorciatoie da tastiera. Per farlo, fare doppio clic o scrivere nella cella corrispondente. Opzionalmente, salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="153"/>
+        <location filename="../prefinput.ui" line="177"/>
         <source>&amp;Left click</source>
         <translation>Clic &amp;sinistro</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="176"/>
+        <location filename="../prefinput.ui" line="200"/>
         <source>&amp;Double click</source>
         <translation>&amp;Doppio clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="297"/>
+        <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
         <translation>Funzione della rotelli&amp;na del mouse:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Shortcut editor</source>
         <translation>Editor delle scorciatoie</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Questa tabella permette di cambiare le scorciatoie da tastiera. Fare doppio click, premere Invio o premere il bottone &lt;b&gt;Cambia scorciatoia&lt;/b&gt; su un elemento per attivare il dialogo &lt;i&gt;Modifica scorciatoia&lt;/i&gt;. Ci sono due modi per modificare una scorciatoia: se il bottone &lt;b&gt;Cattura&lt;/b&gt; è attivato, basta premere il nuovo tasto (o combinazione di tasti) da assegnare all&apos;azione (sfortunatamente ciò non funziona con tutti i tasti). Se il bottone &lt;b&gt;Cattura&lt;/b&gt; è disattivato puoi inserire manualmente il nome del tasto.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="379"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Left click</source>
         <translation>Clic sinistro</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Selezionare l&apos;azione per il clic sinistro del mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="382"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>Double click</source>
         <translation>Doppio clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Selezionare l&apos;azione per il doppio clic del mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="394"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Wheel function</source>
         <translation>Funzione rotellina</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="415"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Selezionare l&apos;azione per la rotellina del mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Play</source>
         <translation>Riproduci</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
         <translation>Tutto schermo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Compact</source>
         <translation>Compatto</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
         <translation>Schermata</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Mute</source>
         <translation>Muto</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Frame counter</source>
         <translation>Contatore fotogrammi</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Reset zoom</source>
         <translation>Reinizializza zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
         <translation>Esci da tutto schermo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Double size</source>
         <translation>Grandezza doppia</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
         <translation>Pausa / Per fotogramma</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Playlist</source>
         <translation>Lista di riproduzione</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Preferences</source>
         <translation>Preferenze</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>No function</source>
         <translation>Nessuna funzione</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="154"/>
-        <location filename="../prefinput.cpp" line="427"/>
+        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="447"/>
         <source>Change speed</source>
         <translation>Cambia velocità</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="94"/>
         <source>Normal speed</source>
         <translation>Velocità normale</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="378"/>
         <source>Keyboard</source>
         <translation>Tastiera</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Mouse</source>
         <translation>Mouse</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="385"/>
+        <location filename="../prefinput.cpp" line="405"/>
         <source>Middle click</source>
         <translation>Clic centrale</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Selezionare l&apos;azione per il clic centrale del mouse.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="222"/>
+        <location filename="../prefinput.ui" line="246"/>
         <source>M&amp;iddle click</source>
         <translation>Cl&amp;ic centrale</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="235"/>
+        <location filename="../prefinput.ui" line="259"/>
         <source>X Button &amp;1</source>
         <translation>Pulsante X &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="248"/>
+        <location filename="../prefinput.ui" line="272"/>
         <source>X Button &amp;2</source>
         <translation>Pulsante X &amp;2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
         <translation>Vai indietro (corto)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Go backward (medium)</source>
         <translation>Vai indietro (medio)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Go backward (long)</source>
         <translation>Vai indietro (lungo)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
         <translation>Vai avanti (corto)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Go forward (medium)</source>
         <translation>Vai avanti (medio)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Go forward (long)</source>
         <translation>Vai avanti (lungo)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
         <translation>OSD - Livello successivo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="92"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Show context menu</source>
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="199"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Right click</source>
         <translation>Clic dest&amp;ro</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Increase volume</source>
         <translation>Alza volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Decrease volume</source>
         <translation>Abbassa volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="388"/>
+        <location filename="../prefinput.cpp" line="408"/>
         <source>X Button 1</source>
         <translation>Pulsante X 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
         <translation>Scegli l&apos;azione per il pulsante X 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="391"/>
+        <location filename="../prefinput.cpp" line="411"/>
         <source>X Button 2</source>
         <translation>Pulsante X 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
         <translation>Scegli l&apos;azione per il pulsante X 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
         <translation>Mostra equalizzatore video</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
         <translation>Mostra equalizzatore audio</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Always on top</source>
         <translation>Sempre in primo piano</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Play next</source>
         <translation>Riproduci successivo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Play previous</source>
         <translation>Riproduci precedente</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Never on top</source>
         <translation>Mai in primo piano</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
         <translation>In primo piano durante la riproduzione</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Next chapter</source>
         <translation>Capitolo successivo</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Previous chapter</source>
         <translation>Capitolo precedente</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Attiva l&apos;opzione sotto il mouse nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Return to main DVD menu</source>
         <translation>Ritorna al menu DVD principale</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Ritorna al menu precedente nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Muovi su il cursore nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Muovi giù il cursore nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Muovi a sinistra il cursore nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="111"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Muovi a destra il cursore nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="112"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Attiva l&apos;opzione evidenziata nei menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="175"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Move window</source>
         <translation>Sposta finestra</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="167"/>
-        <location filename="../prefinput.cpp" line="401"/>
+        <location filename="../prefinput.cpp" line="177"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
         <translation>Ricerca e volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="372"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Usa i tasti multimediali come scorciatoie globali</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="373"/>
+        <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Se questa opzione è abilitata i tasti multimediali (Riproduci, Ferma Volume+/-, Muto, ecc.) funzionano anche quando SMPlayer è in esecuzione in sottofondo.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
         <translation>Funzione trascinamento</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="398"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Questa opzione controlla cosa fare quando il mouse viene mosso tenendo premuto il pulsante sinistro.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>the main window is moved</source>
         <translation>la finestra principale viene spostata</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="402"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>un movimento orizzontale cambia la posizione temporale mentre un movimento verticale cambia il volume</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="406"/>
+        <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Non innescare la funzione clic sinistro con un doppio clic</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="407"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Se questa opzione è abilitata, quando fai doppio clic sull&apos;area video verrà innescata solo la funzione doppio clic. L&apos;azione clic sinistro non verrà attivata.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="410"/>
+        <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>Abilitando questa opzione il clic sinistro viene rallentato di %1 millisecondi perché è necessario aspettare questo tempo per sapere se c&apos;è o meno un doppio clic.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
         <translation>Cambia la funzione della rotellina</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.ui" line="459"/>
+        <location filename="../prefinput.cpp" line="167"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Ricerca nel file</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.ui" line="473"/>
+        <location filename="../prefinput.cpp" line="168"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Zoom video</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.ui" line="466"/>
+        <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
         <translation>Controllo vo&amp;lume</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="160"/>
+        <location filename="../prefinput.ui" line="480"/>
+        <location filename="../prefinput.cpp" line="170"/>
         <source>&amp;Change speed</source>
         <translation>Cambio &amp;velocità</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="436"/>
         <source>Mouse wheel functions</source>
         <translation>Funzioni della rotellina del mouse</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Spunta per abilitare la funzione di ricerca.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Spunta per abilitare la funzione di cambio volume.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Spunta per abilitare la funzione di ingrandimento.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="428"/>
+        <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Spunta per abilitare la funzione di cambio velocità.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="413"/>
+        <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>Azioni della r&amp;otellina del mouse</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="425"/>
+        <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>Selezionare le azioni che saranno abilitate nell&apos;opzione &quot;Cambia la funzione della rotellina&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="413"/>
+        <location filename="../prefinput.cpp" line="433"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Funzione di ricerca con la rotella del mouse invertita</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Abilita per effettuare ricerche nella direzione opposta.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="389"/>
+        <location filename="../prefinput.ui" line="413"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>Ric&amp;erca invertita con la rotellina</translation>
     </message>

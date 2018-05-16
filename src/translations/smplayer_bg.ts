@@ -2008,162 +2008,162 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer все още работи</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="341"/>
+        <location filename="../baseguiplus.cpp" line="342"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Показване на икона в системния панел</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="355"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Възпроизведи в &amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="358"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Send &amp;video to screen</source>
         <translation>Изпращане на &amp;видео към екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="361"/>
         <source>Information about connected &amp;screens</source>
         <translation>Информация относно свързаните &amp;екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="363"/>
+        <location filename="../baseguiplus.cpp" line="364"/>
         <source>Video is sent to an external screen</source>
         <translation>Видеото е изпратено към външен екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="367"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>Send &amp;audio to</source>
         <translation>Изпращане на &amp;звук към</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="405"/>
+        <location filename="../baseguiplus.cpp" line="406"/>
         <source>&amp;Hide</source>
         <translation>&amp;Скриване</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="407"/>
+        <location filename="../baseguiplus.cpp" line="408"/>
         <source>&amp;Restore</source>
         <translation>&amp;Възстановяване</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="867"/>
         <source>Information about connected screens</source>
         <translation>Информация относно свързаните екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="867"/>
+        <location filename="../baseguiplus.cpp" line="870"/>
         <source>Connected screens</source>
         <translation>Свързани екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="870"/>
-        <location filename="../baseguiplus.cpp" line="912"/>
+        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Number of screens: %1</source>
         <translation>Брой екрани: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="875"/>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="878"/>
+        <location filename="../baseguiplus.cpp" line="916"/>
         <source>Primary screen: %1</source>
         <translation>Основен екран: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
-        <location filename="../baseguiplus.cpp" line="917"/>
+        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Information for screen %1</source>
         <translation>Информация за екран %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="885"/>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Налична геометрия: %1 %2 %3 х %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="887"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Available size: %1 x %2</source>
         <translation>Наличен размер: %1 х %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Налична виртуална геометрия: %1 %2 %3 х %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="892"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Наличен виртуален размер: %1 х %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
+        <location filename="../baseguiplus.cpp" line="897"/>
         <source>Depth: %1 bits</source>
         <translation>Дълбочина: %1 бита</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="924"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Геометрия: %1 %2 %3 х %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="897"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Logical DPI: %1</source>
         <translation>Логически ТНИ: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="899"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Physical DPI: %1</source>
         <translation>Физически ТНИ: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="900"/>
+        <location filename="../baseguiplus.cpp" line="903"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Физически размер: %1 х %2 мм</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Честота на опресняване: %1 Хц</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="903"/>
+        <location filename="../baseguiplus.cpp" line="906"/>
         <source>Size: %1 x %2</source>
         <translation>Размер: %1 х %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
+        <location filename="../baseguiplus.cpp" line="907"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Виртуална геометрия: %1 %2 %3 х %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Виртуален размер: </translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="959"/>
+        <location filename="../baseguiplus.cpp" line="962"/>
         <source>Primary screen</source>
         <translation>Основен екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1031"/>
         <source>SMPlayer external screen output</source>
         <translation>Изходящ поток на SMPlayer за външен екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1076"/>
+        <location filename="../baseguiplus.cpp" line="1079"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Стандартно звуково устройство</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="338"/>
         <source>&amp;Quit</source>
         <translation>&amp;Изход</translation>
     </message>
@@ -3133,6 +3133,64 @@ Please check the permissions of that folder.</source>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Складиране на шрифтове...</translation>
+    </message>
+</context>
+<context>
+    <name>GlobalShortcutsDialog</name>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
+        <source>Select the multimedia keys that SMPlayer will capture.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
+        <source>Media &amp;Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
+        <source>Media &amp;Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
+        <source>Media Pre&amp;vious</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
+        <source>Media &amp;Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
+        <source>Media P&amp;ause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
+        <source>Media &amp;Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
+        <source>Volume &amp;Mute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
+        <source>Volume &amp;Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
+        <source>Volume &amp;Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
+        <source>Global Shortcuts</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6692,7 +6750,7 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="42"/>
+        <location filename="../prefinput.cpp" line="52"/>
         <source>Keyboard and mouse</source>
         <translation>Клавиатура и мишка</translation>
     </message>
@@ -6702,538 +6760,543 @@ Do you want to overwrite?</source>
         <translation>&amp;Клавиатура</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="85"/>
+        <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
         <translation>&amp;Използвай мултимедиине комбинации като глобални</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="93"/>
+        <location filename="../prefinput.ui" line="107"/>
+        <source>Select &amp;keys...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="117"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Мишка</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="143"/>
+        <location filename="../prefinput.ui" line="167"/>
         <source>Button functions:</source>
         <translation>Функции на бутона:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="340"/>
+        <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
         <translation>Функция &amp;плъзгане:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="382"/>
+        <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation>Не &amp;слагайте двоен клик като действие на ляв клик</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="418"/>
+        <location filename="../prefinput.cpp" line="161"/>
+        <location filename="../prefinput.cpp" line="438"/>
         <source>Media seeking</source>
         <translation>Превъртане на медия</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="421"/>
+        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="441"/>
         <source>Volume control</source>
         <translation>Управление на звука</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
-        <location filename="../prefinput.cpp" line="424"/>
+        <location filename="../prefinput.cpp" line="163"/>
+        <location filename="../prefinput.cpp" line="444"/>
         <source>Zoom video</source>
         <translation>Увеличение на видео</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>None</source>
         <translation>Без</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="60"/>
+        <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Тук можете да промените всеки пряк път на клавиш. За целта кликнете два пъти или натиснете „Еnter“ върху клетката за прекия път. Можете също и да запаметите списъка, за да го споделите с други хора или да го заредите на друг компютър.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="173"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Тук можете да промените всеки пряк път на клавиш. За целта кликнете два пъти или започнете да въвеждате върху клетката за прекия път. Можете също и да запаметите списъка, за да го споделите с други хора или да го заредите на друг компютър.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="153"/>
+        <location filename="../prefinput.ui" line="177"/>
         <source>&amp;Left click</source>
         <translation>&amp;Ляво кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="176"/>
+        <location filename="../prefinput.ui" line="200"/>
         <source>&amp;Double click</source>
         <translation>&amp;Двойно кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="297"/>
+        <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Функция на колелото:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Shortcut editor</source>
         <translation>Редактор на преки пътища</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Тази таблица Ви позволява да промените прекия път чрез клавишите за най-използваните действия. Кликнете двойно или натиснете „Еnter“ върху елемента, или натиснете бутона &lt;b&gt;Промени пряк път&lt;/b&gt;, за да стигнете до прозореца &lt;i&gt;Промяна на пряк път&lt;/i&gt;. Има два начина за смяна на пряк път: ако бутонът &lt;b&gt;Прихващане&lt;/b&gt; е включен, просто натиснете новият клавиш или комбинация от клавиши, които искате да използвате за това действие (за съжаление на работи с всички клавиши) или ако бутонът &lt;b&gt;Прихващане&lt;/b&gt; е изключен, можете да въведете пълното име на ключа.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="379"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Left click</source>
         <translation>Ляво кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Изберете действие при ляво кликване с мишката.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="382"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>Double click</source>
         <translation>Двойно кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Изберете действие при двоен клик на мишката.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="394"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Wheel function</source>
         <translation>Действие на колелото</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="415"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Изберете действие за колелото на мишката.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Play</source>
         <translation>Възпроизвеждане</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Stop</source>
         <translation>Спиране</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
         <translation>На цял екран</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Compact</source>
         <translation>Компактен режим</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
         <translation>Снимка на екрана</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Mute</source>
         <translation>Заглушаване</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Frame counter</source>
         <translation>Брояч на кадри</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Reset zoom</source>
         <translation>Възстановяване на увеличаването</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
         <translation>Изход от цял екран</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Double size</source>
         <translation>Двоен размер</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Play / Pause</source>
         <translation>Възпроизвеждане/Пауза</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
         <translation>Пауза/По кадри</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Playlist</source>
         <translation>Списък за изпълнение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Preferences</source>
         <translation>Предпочитания</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>No function</source>
         <translation>Без функция</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="154"/>
-        <location filename="../prefinput.cpp" line="427"/>
+        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="447"/>
         <source>Change speed</source>
         <translation>Смяна на скоростта</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="94"/>
         <source>Normal speed</source>
         <translation>Нормална скорост</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="378"/>
         <source>Keyboard</source>
         <translation>Клавиатура</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Mouse</source>
         <translation>Мишка</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="385"/>
+        <location filename="../prefinput.cpp" line="405"/>
         <source>Middle click</source>
         <translation>Средно кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Изберете действие при средно кликване с мишката.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="222"/>
+        <location filename="../prefinput.ui" line="246"/>
         <source>M&amp;iddle click</source>
         <translation>Ср&amp;едно кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="235"/>
+        <location filename="../prefinput.ui" line="259"/>
         <source>X Button &amp;1</source>
         <translation>X Бутон &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="248"/>
+        <location filename="../prefinput.ui" line="272"/>
         <source>X Button &amp;2</source>
         <translation>X Бутон &amp;2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
         <translation>Назад (късо)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Go backward (medium)</source>
         <translation>Назад (средно)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Go backward (long)</source>
         <translation>Назад (дълго)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
         <translation>Напред (късо)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Go forward (medium)</source>
         <translation>Напред (средно)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Go forward (long)</source>
         <translation>Напред (дълго)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
         <translation>Екранно известие - следващо ниво</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="92"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Show context menu</source>
         <translation>Покажи контекстно меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="199"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Right click</source>
         <translation>&amp;Дясно кликване</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Increase volume</source>
         <translation>Увеличаване на звука</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Decrease volume</source>
         <translation>Намаляване на звука</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="388"/>
+        <location filename="../prefinput.cpp" line="408"/>
         <source>X Button 1</source>
         <translation>X Бутон 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
         <translation>Изберете действие за Х бутон 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="391"/>
+        <location filename="../prefinput.cpp" line="411"/>
         <source>X Button 2</source>
         <translation>X Бутон 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
         <translation>Изберете действие за Х бутон 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
         <translation>Покажи видео изравнител</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
         <translation>Покажи тонкоректор</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Always on top</source>
         <translation>Винаги отгоре</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Play next</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Play previous</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Never on top</source>
         <translation>Никога отгоре</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
         <translation>Отгоре при изпълнение</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Next chapter</source>
         <translation>Следваща глава</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Previous chapter</source>
         <translation>Предишна глава</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Задействане на опцията под мишката в DVD менютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Return to main DVD menu</source>
         <translation>Върни се към главното DVD меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Върни се към предишното DVD меню</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Премести курсора нагоре в DVD менютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Премести курсора надолу в DVD менютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Премести курсора наляво в DVD менютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="111"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Премести курсора надясно в DVD меютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="112"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Задействане на подчертаната опция в DVD менютата</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="175"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Move window</source>
         <translation>Преместване на прозореца</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="167"/>
-        <location filename="../prefinput.cpp" line="401"/>
+        <location filename="../prefinput.cpp" line="177"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
         <translation>Превъртане и звук</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="372"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Използвай мултимедиине комбинации като глобални</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="373"/>
+        <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Когато тази опция е активирана, мултимедиините бутони (Възпроизвеждане, Спиране, Сила на звука +/-, Заглушаване, и т.н.) ще работят дори когато SMPlayer работи във фонов режим.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
         <translation>Функция плъзгане</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="398"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Тази опция контролира случващото се при преместването на мишката с натиснат ляв бутон.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>the main window is moved</source>
         <translation>основният прозорец е преместен</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="402"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>хоризонталното преместване променя времепозицията, докато вертикалното преместване променя силата на звука</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="406"/>
+        <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Не слагайте двоен клик като функция на ляв клик</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="407"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Ако тази опция е активна, когато кликнете два пъти върху видео зоната ще бъде изпълнена само функцията с двоен клик. Действието с ляв клик няма да се активира.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="410"/>
+        <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>С активирането на тази опция, левият клик е забавен с %1 милисекунди, защото е необходимо да разбере дали ими или няма двоен клик.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
         <translation>Смяна функцията на колелото</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.ui" line="459"/>
+        <location filename="../prefinput.cpp" line="167"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Превъртане на медия</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.ui" line="473"/>
+        <location filename="../prefinput.cpp" line="168"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Увеличаване на видео</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.ui" line="466"/>
+        <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Управление на звука</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="160"/>
+        <location filename="../prefinput.ui" line="480"/>
+        <location filename="../prefinput.cpp" line="170"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Смяна на скоростта</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="436"/>
         <source>Mouse wheel functions</source>
         <translation>Функции с колелото на мишката</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Отметнете го, за да активирате превъртането като функция.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Отметнете го, за да активирате промяната на звука като функция.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Отметнете го, за да активирате увеличението като функция.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="428"/>
+        <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Отметнете го, за да активирате смяната на скоростта като функция.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="413"/>
+        <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>Фу&amp;нкции с колелото на мишката</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="425"/>
+        <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>Изберете действията, през които да се преминава при използване на опцията „Смяна функцията на колелото“.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="413"/>
+        <location filename="../prefinput.cpp" line="433"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Промяна посоката на превъртане чрез мишката</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Отметнете го, за да се превърта в противоположна посока.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="389"/>
+        <location filename="../prefinput.ui" line="413"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>П&amp;ромяна посоката на превъртане чрез мишката</translation>
     </message>

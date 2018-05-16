@@ -2008,162 +2008,162 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer kører stadig</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="341"/>
+        <location filename="../baseguiplus.cpp" line="342"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Vis ikon på &amp;proceslinje</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="355"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Afspil på &amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="358"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Send &amp;video to screen</source>
         <translation>Send &amp;video til skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="361"/>
         <source>Information about connected &amp;screens</source>
         <translation>Information om tilsluttede &amp;skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="363"/>
+        <location filename="../baseguiplus.cpp" line="364"/>
         <source>Video is sent to an external screen</source>
         <translation>Video sendes til ekstern skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="367"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>Send &amp;audio to</source>
         <translation>Send &amp;lyd til</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="405"/>
+        <location filename="../baseguiplus.cpp" line="406"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skjul</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="407"/>
+        <location filename="../baseguiplus.cpp" line="408"/>
         <source>&amp;Restore</source>
         <translation>&amp;Genskab</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="867"/>
         <source>Information about connected screens</source>
         <translation>Information om tilsluttede skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="867"/>
+        <location filename="../baseguiplus.cpp" line="870"/>
         <source>Connected screens</source>
         <translation>Tilsluttede skærme</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="870"/>
-        <location filename="../baseguiplus.cpp" line="912"/>
+        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Number of screens: %1</source>
         <translation>Antal skærme: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="875"/>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="878"/>
+        <location filename="../baseguiplus.cpp" line="916"/>
         <source>Primary screen: %1</source>
         <translation>Primær skærm: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
-        <location filename="../baseguiplus.cpp" line="917"/>
+        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Information for screen %1</source>
         <translation>Information for skærm %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="885"/>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Tilgængelig geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="887"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Available size: %1 x %2</source>
         <translation>Tilgængelig størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Tilgængelig virtuel geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="892"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Tilgængelig virtuel størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
+        <location filename="../baseguiplus.cpp" line="897"/>
         <source>Depth: %1 bits</source>
         <translation>Dybde: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="924"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="897"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Logical DPI: %1</source>
         <translation>Logisk DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="899"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Physical DPI: %1</source>
         <translation>Fysisk DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="900"/>
+        <location filename="../baseguiplus.cpp" line="903"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fysisk størrelse: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Opdateringshastighed: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="903"/>
+        <location filename="../baseguiplus.cpp" line="906"/>
         <source>Size: %1 x %2</source>
         <translation>Størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
+        <location filename="../baseguiplus.cpp" line="907"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuel geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuel størrelse: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="959"/>
+        <location filename="../baseguiplus.cpp" line="962"/>
         <source>Primary screen</source>
         <translation>Primær skærm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1031"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer ekstern skærm-output</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1076"/>
+        <location filename="../baseguiplus.cpp" line="1079"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Standardlydenhed</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="338"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afslut</translation>
     </message>
@@ -3133,6 +3133,64 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Opret et skrifttype-mellemlager...</translation>
+    </message>
+</context>
+<context>
+    <name>GlobalShortcutsDialog</name>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
+        <source>Select the multimedia keys that SMPlayer will capture.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
+        <source>Media &amp;Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
+        <source>Media &amp;Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
+        <source>Media Pre&amp;vious</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
+        <source>Media &amp;Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
+        <source>Media P&amp;ause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
+        <source>Media &amp;Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
+        <source>Volume &amp;Mute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
+        <source>Volume &amp;Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
+        <source>Volume &amp;Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
+        <source>Global Shortcuts</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6699,7 +6757,7 @@ Vil du overskrive den?</translation>
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="42"/>
+        <location filename="../prefinput.cpp" line="52"/>
         <source>Keyboard and mouse</source>
         <translation>Tastatur og mus</translation>
     </message>
@@ -6709,538 +6767,543 @@ Vil du overskrive den?</translation>
         <translation>&amp;Tastatur</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="85"/>
+        <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
         <translation>&amp;Brug multimedietasterne som globale genveje</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="93"/>
+        <location filename="../prefinput.ui" line="107"/>
+        <source>Select &amp;keys...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="117"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Mus</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="143"/>
+        <location filename="../prefinput.ui" line="167"/>
         <source>Button functions:</source>
         <translation>Knapfunktioner:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="340"/>
+        <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
         <translation>&amp;Træk-funktion:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="382"/>
+        <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation>Udløs ikke vens&amp;treklik-funktionen med et dobbeltklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="418"/>
+        <location filename="../prefinput.cpp" line="161"/>
+        <location filename="../prefinput.cpp" line="438"/>
         <source>Media seeking</source>
         <translation>Mediesøgning</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="421"/>
+        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="441"/>
         <source>Volume control</source>
         <translation>Lydstyrke kontrolelement</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
-        <location filename="../prefinput.cpp" line="424"/>
+        <location filename="../prefinput.cpp" line="163"/>
+        <location filename="../prefinput.cpp" line="444"/>
         <source>Zoom video</source>
         <translation>Zoom video</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="60"/>
+        <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Her kan du ændre enhver tastaturgenvej. For at gøre dette dobbeltklik eller tryk Retur over en genvejscelle. Du kan også vælge at gemme listen for at dele den med andre eller indlæse den på en anden computer.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="173"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Her kan du ændre enhver tastaturgenvej. For at gøre dette dobbeltklik eller begynd at skrive over en genvejscelle. Du kan også vælge at gemme listen for at dele den med andre eller indlæse den på en anden computer.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="153"/>
+        <location filename="../prefinput.ui" line="177"/>
         <source>&amp;Left click</source>
         <translation>&amp;Venstreklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="176"/>
+        <location filename="../prefinput.ui" line="200"/>
         <source>&amp;Double click</source>
         <translation>&amp;Dobbeltklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="297"/>
+        <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Hjulfunktion:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Shortcut editor</source>
         <translation>Redigering af genveje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Denne tabel lader dig ændre tastaturgenveje for de fleste tilgængelige funktioner. Dobbeltklik eller tryk Retur på et element, eller tryk på knappen &lt;b&gt;Skift genvej&lt;/b&gt; for at komme til dialogen &lt;i&gt;Ændr genvej&lt;/i&gt;. Der er to måder at ændre en genvej på: Hvis knappen &lt;b&gt;Indfangning&lt;/b&gt; er aktiveret så tryk blot på den ny tast eller kombination af taster som du vil tildele til handlingen (desværre virker det ikke for alle taster). Hvis knappen &lt;b&gt;Indfangning&lt;/b&gt; er deaktiveret kan du angive tastens fulde navn.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="379"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Left click</source>
         <translation>Venstreklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Vælg handling for venstreklik med musen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="382"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>Double click</source>
         <translation>Dobbeltklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Vælg handling for dobbeltklik med musen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="394"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Wheel function</source>
         <translation>Hjulfunktion</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="415"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Vælg handling for musehjulet.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Play</source>
         <translation>Afspil</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
         <translation>Fuldskærm</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Compact</source>
         <translation>Kompakt</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
         <translation>Skærmbillede</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Mute</source>
         <translation>Mute</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Frame counter</source>
         <translation>Billedtæller</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Reset zoom</source>
         <translation>Nulstil zoom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
         <translation>Afslut fuldskærm</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Double size</source>
         <translation>Dobbelt størrelse</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Play / Pause</source>
         <translation>Afspil/pause</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
         <translation>Pause/ét billede fremad</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Playlist</source>
         <translation>Spilleliste</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>No function</source>
         <translation>Ingen funktion</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="154"/>
-        <location filename="../prefinput.cpp" line="427"/>
+        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="447"/>
         <source>Change speed</source>
         <translation>Skift hastighed</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="94"/>
         <source>Normal speed</source>
         <translation>Normal hastighed</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="378"/>
         <source>Keyboard</source>
         <translation>Tastatur</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Mouse</source>
         <translation>Mus</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="385"/>
+        <location filename="../prefinput.cpp" line="405"/>
         <source>Middle click</source>
         <translation>Midterklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Vælg handling for midterklik med musen.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="222"/>
+        <location filename="../prefinput.ui" line="246"/>
         <source>M&amp;iddle click</source>
         <translation>M&amp;idterklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="235"/>
+        <location filename="../prefinput.ui" line="259"/>
         <source>X Button &amp;1</source>
         <translation>X-knap &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="248"/>
+        <location filename="../prefinput.ui" line="272"/>
         <source>X Button &amp;2</source>
         <translation>X-knap &amp;2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
         <translation>Gå tilbage (kort)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Go backward (medium)</source>
         <translation>Gå tilbage (mellem)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Go backward (long)</source>
         <translation>Gå tilbage (langt)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
         <translation>Gå frem (kort)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Go forward (medium)</source>
         <translation>Gå frem (mellem)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Go forward (long)</source>
         <translation>Gå frem (langt)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
         <translation>Skærmdisplay - Næste niveau</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="92"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Show context menu</source>
         <translation>Vis genvejsmenu</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="199"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Right click</source>
         <translation>&amp;Højreklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Increase volume</source>
         <translation>Højere</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Decrease volume</source>
         <translation>Lavere</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="388"/>
+        <location filename="../prefinput.cpp" line="408"/>
         <source>X Button 1</source>
         <translation>X-knap 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
         <translation>Vælg handling for X-knap 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="391"/>
+        <location filename="../prefinput.cpp" line="411"/>
         <source>X Button 2</source>
         <translation>X-knap 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
         <translation>Vælg handling for X-knap 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
         <translation>Vis video-equalizer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
         <translation>Vis lyd-equalizer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Always on top</source>
         <translation>Altid øverst</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Play next</source>
         <translation>Afspil næste</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Play previous</source>
         <translation>Afspil forrige</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Never on top</source>
         <translation>Aldrig øverst</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
         <translation>Øverst ved afspilning</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Next chapter</source>
         <translation>Næste kapitel</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Previous chapter</source>
         <translation>Forrige kapitel</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Aktivér indstilling under mus i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Return to main DVD menu</source>
         <translation>Tilbage til DVD&apos;ens hovedmenu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Tilbage til den forrige menu i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Flyt markør op i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Flyt markør ned i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Flyt markør til venstre i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="111"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Flyt markør til højre i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="112"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Aktivér fremhævet indstilling i DVD-menuer</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="175"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Move window</source>
         <translation>Flyt vindue</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="167"/>
-        <location filename="../prefinput.cpp" line="401"/>
+        <location filename="../prefinput.cpp" line="177"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
         <translation>Søgning og lydstyrke</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="372"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Brug multimedietasterne som globale genveje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="373"/>
+        <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Når denne indstilling er aktiveret, virker multimedietasterne (afspil, stop, lydstyrke+/-, mute, osv.) selv når SMPlayer kører i baggrunden.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
         <translation>Træk-funktion</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="398"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Denne indstilling styre hvad der skal ske når musen flyttes mens den venstre museknap holdes nede.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>the main window is moved</source>
         <translation>hovedvinduet er flyttet</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="402"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>en vandret bevægelse ændre tidspositionen mens en lodret bevægelse ændre lydstyrken</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="406"/>
+        <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Udløs ikke venstreklik-funktionen med et dobbeltklik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="407"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Hvis denne indstilling er slået til, vil kun dobbeltklik-funktionen blive udløst når du dobbeltklikker på videoområdet. Venstreklik-handlingen vil ikke blive aktiveret.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="410"/>
+        <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>Ved at aktivere denne indstilling bliver venstreklik forsinket med %1 millisekunder fordi det er nødvendigt at vente i den periode for at vide om det er et dobbeltklik eller ej.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
         <translation>Skift funktion af hjulet</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.ui" line="459"/>
+        <location filename="../prefinput.cpp" line="167"/>
         <source>Media &amp;seeking</source>
         <translation>Medie&amp;søgning</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.ui" line="473"/>
+        <location filename="../prefinput.cpp" line="168"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Zoom video</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.ui" line="466"/>
+        <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Lydstyrke kontrolelement</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="160"/>
+        <location filename="../prefinput.ui" line="480"/>
+        <location filename="../prefinput.cpp" line="170"/>
         <source>&amp;Change speed</source>
         <translation>S&amp;kift hastighed</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="436"/>
         <source>Mouse wheel functions</source>
         <translation>Musehjul-funktioner</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Markér den for at aktivere søgning som en funktion.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Markér den for at aktivere lydstyrke som en funktion.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Markér den for at aktivere zoom som en funktion.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="428"/>
+        <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Markér den for at aktivere skift af hastighed som en funktion.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="413"/>
+        <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>M&amp;usehjul-funktioner</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="425"/>
+        <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>Vælg de handlinger der skal køres igennem når indstillingen &quot;Skift funktion af hjul&quot; bruges.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="413"/>
+        <location filename="../prefinput.cpp" line="433"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Omvend søgning med musehjul</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Markér det for at søge i den modsatte retning.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="389"/>
+        <location filename="../prefinput.ui" line="413"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>O&amp;mvend mediesøgning med hjul</translation>
     </message>
