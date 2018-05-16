@@ -2008,162 +2008,162 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer je još uvijek pokrenut</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="341"/>
+        <location filename="../baseguiplus.cpp" line="342"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Prikaži i&amp;konu u traci sustava</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="355"/>
         <source>Play on &amp;Chromecast</source>
         <translation>Reproduciraj na &amp;Chromecastu</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="358"/>
+        <location filename="../baseguiplus.cpp" line="359"/>
         <source>Send &amp;video to screen</source>
         <translation>Pošalji &amp;video na zalon</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="360"/>
+        <location filename="../baseguiplus.cpp" line="361"/>
         <source>Information about connected &amp;screens</source>
         <translation>Informacije o povezanim &amp;zaslonima</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="363"/>
+        <location filename="../baseguiplus.cpp" line="364"/>
         <source>Video is sent to an external screen</source>
         <translation>Video snimka je poslana na vanjski zaslon</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="367"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>Send &amp;audio to</source>
         <translation>Pošalji &amp;zvuk u</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="405"/>
+        <location filename="../baseguiplus.cpp" line="406"/>
         <source>&amp;Hide</source>
         <translation>&amp;Sakrij</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="407"/>
+        <location filename="../baseguiplus.cpp" line="408"/>
         <source>&amp;Restore</source>
         <translation>&amp;Prikaži</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="864"/>
+        <location filename="../baseguiplus.cpp" line="867"/>
         <source>Information about connected screens</source>
         <translation>Informacije o povezanim zaslonima</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="867"/>
+        <location filename="../baseguiplus.cpp" line="870"/>
         <source>Connected screens</source>
         <translation>Povezani zasloni</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="870"/>
-        <location filename="../baseguiplus.cpp" line="912"/>
+        <location filename="../baseguiplus.cpp" line="873"/>
+        <location filename="../baseguiplus.cpp" line="915"/>
         <source>Number of screens: %1</source>
         <translation>Broj zaslona: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="875"/>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="878"/>
+        <location filename="../baseguiplus.cpp" line="916"/>
         <source>Primary screen: %1</source>
         <translation>Glavni zaslon: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
-        <location filename="../baseguiplus.cpp" line="917"/>
+        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Information for screen %1</source>
         <translation>Informacije za zaslon %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="885"/>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Dostupna geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="887"/>
+        <location filename="../baseguiplus.cpp" line="890"/>
         <source>Available size: %1 x %2</source>
         <translation>Dostupna veličina: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="888"/>
+        <location filename="../baseguiplus.cpp" line="891"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Dostupna virtualna geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="892"/>
+        <location filename="../baseguiplus.cpp" line="895"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Dostupna virtualna veličina: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
+        <location filename="../baseguiplus.cpp" line="897"/>
         <source>Depth: %1 bits</source>
         <translation>Dubina: %1 bitova</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="924"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="897"/>
+        <location filename="../baseguiplus.cpp" line="900"/>
         <source>Logical DPI: %1</source>
         <translation>Logičan DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="899"/>
+        <location filename="../baseguiplus.cpp" line="902"/>
         <source>Physical DPI: %1</source>
         <translation>Fizički DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="900"/>
+        <location filename="../baseguiplus.cpp" line="903"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fizička veličina: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Frekvencija: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="903"/>
+        <location filename="../baseguiplus.cpp" line="906"/>
         <source>Size: %1 x %2</source>
         <translation>Veličina: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
+        <location filename="../baseguiplus.cpp" line="907"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtualna geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="909"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtualna veličina: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="959"/>
+        <location filename="../baseguiplus.cpp" line="962"/>
         <source>Primary screen</source>
         <translation>Glavni zaslon</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1028"/>
+        <location filename="../baseguiplus.cpp" line="1031"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer izlaz vanjskog zaslona</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1076"/>
+        <location filename="../baseguiplus.cpp" line="1079"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Zadani zvučni uređaj</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="338"/>
         <source>&amp;Quit</source>
         <translation>&amp;Isključi</translation>
     </message>
@@ -3134,6 +3134,64 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Stvaranje priručne memorije slova...</translation>
+    </message>
+</context>
+<context>
+    <name>GlobalShortcutsDialog</name>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
+        <source>Select the multimedia keys that SMPlayer will capture.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
+        <source>Media &amp;Play</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
+        <source>Media &amp;Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
+        <source>Media Pre&amp;vious</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
+        <source>Media &amp;Next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
+        <source>Media P&amp;ause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
+        <source>Media &amp;Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
+        <source>Volume &amp;Mute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
+        <source>Volume &amp;Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
+        <source>Volume &amp;Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
+        <source>Global Shortcuts</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6693,7 +6751,7 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInput</name>
     <message>
-        <location filename="../prefinput.cpp" line="42"/>
+        <location filename="../prefinput.cpp" line="52"/>
         <source>Keyboard and mouse</source>
         <translation>Tipkovnica i miš</translation>
     </message>
@@ -6703,538 +6761,543 @@ Do you want to overwrite?</source>
         <translation>&amp;Tipkovnica</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="85"/>
+        <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
         <translation>&amp;Koristi multimedijske tipke kao globalne prečace</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="93"/>
+        <location filename="../prefinput.ui" line="107"/>
+        <source>Select &amp;keys...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="117"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Miš</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="143"/>
+        <location filename="../prefinput.ui" line="167"/>
         <source>Button functions:</source>
         <translation>Funkcije tipki:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="340"/>
+        <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
         <translation>Fun&amp;kcija povlačenja:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="382"/>
+        <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation>Nemoj &amp;pokrenuti radnju lijevog klika dvostrukim klikom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="418"/>
+        <location filename="../prefinput.cpp" line="161"/>
+        <location filename="../prefinput.cpp" line="438"/>
         <source>Media seeking</source>
         <translation>Pretraživanje medija</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="421"/>
+        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="441"/>
         <source>Volume control</source>
         <translation>Upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="153"/>
-        <location filename="../prefinput.cpp" line="424"/>
+        <location filename="../prefinput.cpp" line="163"/>
+        <location filename="../prefinput.cpp" line="444"/>
         <source>Zoom video</source>
         <translation>Zumiranje slike</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="174"/>
         <source>None</source>
         <translation>Nepoznato</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="60"/>
+        <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili pritisnite tipku &apos;Enter&apos; na polju prečaca. Po izboru možete spremiti popis i podijeliti ga s drugim ljudima ili ga učitati na drugom računalu.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="173"/>
+        <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili počnite tipkati na polju prečaca. Po izboru možete spremiti popis i podijeliti ga s drugim ljudima ili ga učitati na drugom računalu.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="153"/>
+        <location filename="../prefinput.ui" line="177"/>
         <source>&amp;Left click</source>
         <translation>&amp;Lijevi klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="176"/>
+        <location filename="../prefinput.ui" line="200"/>
         <source>&amp;Double click</source>
         <translation>&amp;Dvostruki klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="297"/>
+        <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;Funkcija kotačića:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Shortcut editor</source>
         <translation>Uređivač prečaca</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Ova tabela omogućuje vam izmjenu tipka prečaca za većinu dostupnih radnji. Dvostruko kliknite ili pritisnite tipku &apos;Enter&apos; na polju prečaca, ili pritisnite &lt;b&gt;Promijeni prečac&lt;/b&gt; tipku da bi ušli u &lt;i&gt;Prilagodi prečac&lt;/i&gt; dijalog. Postoje dva načina za promjenu prečaca: ako &lt;b&gt;Zarobi&lt;/b&gt; tipka je uključena tada samo pritisnite novu tipku ili kombinaciju tipki koju želite pridružiti radnji (nažalost to ne radi za sve tipke). Ako je &lt;b&gt;Zarobi&lt;/b&gt; tipka isključena tada možete upisati puni naziv tipke.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="379"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Left click</source>
         <translation>Lijevi klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>Odaberite radnju za lijevi klik miša.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="382"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>Double click</source>
         <translation>Dvostruki klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>Odaberite radnju za dvostruki klik miša.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="394"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Wheel function</source>
         <translation>Funkcija kotačića</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="415"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>Odaberite radnju za kotačić miša.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="58"/>
+        <location filename="../prefinput.cpp" line="68"/>
         <source>Play</source>
         <translation>Reprodukcija</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="60"/>
+        <location filename="../prefinput.cpp" line="70"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="62"/>
+        <location filename="../prefinput.cpp" line="72"/>
         <source>Stop</source>
         <translation>Zaustavi</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
         <translation>Cijeli zaslon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Compact</source>
         <translation>Jednostavni prozor</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
         <translation>Snimak zaslona</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Mute</source>
         <translation>Utišaj</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Frame counter</source>
         <translation>Brojač sličica</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Reset zoom</source>
         <translation>Vrati zumiranje na zadano</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
         <translation>Napusti cijeli zaslon</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Double size</source>
         <translation>Dvostruka veličina</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="59"/>
+        <location filename="../prefinput.cpp" line="69"/>
         <source>Play / Pause</source>
         <translation>Reprodukcija / Pauza</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="61"/>
+        <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
         <translation>Pauza / Pomak sličice</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Playlist</source>
         <translation>Popis izvođenja</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Preferences</source>
         <translation>Osobitosti</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>No function</source>
         <translation>Nema funkcije</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="154"/>
-        <location filename="../prefinput.cpp" line="427"/>
+        <location filename="../prefinput.cpp" line="164"/>
+        <location filename="../prefinput.cpp" line="447"/>
         <source>Change speed</source>
         <translation>Promjena brzine</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="94"/>
         <source>Normal speed</source>
         <translation>Normalna brzina</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="378"/>
         <source>Keyboard</source>
         <translation>Tipkovnica</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Mouse</source>
         <translation>Miš</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="385"/>
+        <location filename="../prefinput.cpp" line="405"/>
         <source>Middle click</source>
         <translation>Srednji klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>Odaberite radnju za srednji klik miša.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="222"/>
+        <location filename="../prefinput.ui" line="246"/>
         <source>M&amp;iddle click</source>
         <translation>S&amp;rednji klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="235"/>
+        <location filename="../prefinput.ui" line="259"/>
         <source>X Button &amp;1</source>
         <translation>X Tipka &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="248"/>
+        <location filename="../prefinput.ui" line="272"/>
         <source>X Button &amp;2</source>
         <translation>X Tipka &amp;2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="63"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
         <translation>Idi unazad (sporije)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="64"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Go backward (medium)</source>
         <translation>Idi unazad (srednje)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="65"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Go backward (long)</source>
         <translation>Idi unazad (brže)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="66"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
         <translation>Idi unaprijed (sporije)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="67"/>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Go forward (medium)</source>
         <translation>Idi unaprijed (srednje)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="68"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>Go forward (long)</source>
         <translation>Idi unaprijed (brže)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
         <translation>OSD - Sljedeća razina</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="92"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Show context menu</source>
         <translation>Prikaži kontekstualni izbornik</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="199"/>
+        <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Right click</source>
         <translation>&amp;Desni klik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="69"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Increase volume</source>
         <translation>Pojačaj glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="70"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>Decrease volume</source>
         <translation>Smanji glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="388"/>
+        <location filename="../prefinput.cpp" line="408"/>
         <source>X Button 1</source>
         <translation>X Tipka 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
         <translation>Odaberite radnju za X tipku 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="391"/>
+        <location filename="../prefinput.cpp" line="411"/>
         <source>X Button 2</source>
         <translation>X Tipka 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
         <translation>Odaberite radnju za X tipku 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
         <translation>Prikaži ekvalizator slike</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
         <translation>Prikaži ekvalizator zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Always on top</source>
         <translation>Uvijek na vrhu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Play next</source>
         <translation>Reproduciraj sljedeće</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Play previous</source>
         <translation>Reproduciraj prijašnje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Never on top</source>
         <translation>Nikada na vrhu</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
         <translation>Na vrhu tijekom reprodukcije</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Next chapter</source>
         <translation>Sljedeće poglavlje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Previous chapter</source>
         <translation>Prijašnje poglavlje</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="105"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Aktiviraj mogućnost pod mišem u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="106"/>
         <source>Return to main DVD menu</source>
         <translation>Povratak u glavni DVD izbornik</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="107"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>Povratak u prijašnji izbornik u DVD izborniku</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="108"/>
         <source>Move cursor up in DVD menus</source>
         <translation>Pomakni pokazivač miša gore u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="109"/>
         <source>Move cursor down in DVD menus</source>
         <translation>Pomakni pokazivač miša dolje u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="110"/>
         <source>Move cursor left in DVD menus</source>
         <translation>Pomakni pokazivač miša lijevo u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="101"/>
+        <location filename="../prefinput.cpp" line="111"/>
         <source>Move cursor right in DVD menus</source>
         <translation>Pomakni pokazivač miša desno u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="102"/>
+        <location filename="../prefinput.cpp" line="112"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>Aktiviraj mogućnost naglašavanja u DVD izbornicima</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="175"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Move window</source>
         <translation>Pomakni prozor</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="167"/>
-        <location filename="../prefinput.cpp" line="401"/>
+        <location filename="../prefinput.cpp" line="177"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
         <translation>Pretraživanje i glasnoća zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="372"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>Koristi multimedijske tipke kao globalne prečace</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="373"/>
+        <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>Kada je ova mogućnost omogućena multimedijske tipke (Reproduciraj, Zaustavi, Glasnoća zvuka+/-, Utišaj, itd.) će raditi čak i kada je SMPlayer pokrenut u pozadini.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
         <translation>Funkcija povlačenja</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="398"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>Ova mogućnost određuje što će se učiniti kada je miš pomknut dok se pritiska lijeva tipka.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>the main window is moved</source>
         <translation>glavni prozor je pomaknut</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="402"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>vodoravna promjena pomaka vremenskog položaja dok okomit pomak mijenja glasnoću zvuka.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="406"/>
+        <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>Nemoj pokrenuti radnju lijevog klika dvostrukim klikom</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="407"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>Ako je ova mogućnost odabrana, kada kliknete ne video područje samo će biti pokrenuta funkcija dvostrukog klika. Radnja lijevog klika neće biti aktivirana.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="410"/>
+        <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>Omogućavanjem ove mogućnosti lijevi klik se odgađa %1 millisekundi zato jer je potrebno čekati neko vrijeme da se vidi jeli dvostruki klik pokrenut ili nije.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
         <translation>Promijeni funkciju kotačića miša</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.ui" line="459"/>
+        <location filename="../prefinput.cpp" line="167"/>
         <source>Media &amp;seeking</source>
         <translation>Pretraživanje &amp;medija</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.ui" line="473"/>
+        <location filename="../prefinput.cpp" line="168"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Zumiranje slike</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.ui" line="466"/>
+        <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="160"/>
+        <location filename="../prefinput.ui" line="480"/>
+        <location filename="../prefinput.cpp" line="170"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Promjena brzine</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="436"/>
         <source>Mouse wheel functions</source>
         <translation>Funkcije kotačića miša</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Kliknite za omogućavanje traženja kao jedine funkcije.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Kliknite za omogućavanje promjene glasnoće zvuka kao jedine funkcije.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Kliknite za omogućavanje zumiranja kao jedine funkcije.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="428"/>
+        <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Kliknite za omogućavanje promjene brzine kao jedine funkcije.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="413"/>
+        <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>F&amp;unkcije kotačića miša</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="425"/>
+        <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>Odaberite radnje koje će se mijenjati kada se koristi &quot;Promijeni funkciju kotačića miša&quot; mogućnost.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="413"/>
+        <location filename="../prefinput.cpp" line="433"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Obrni pretraživanje kotačićem miša</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Odaberite pretraživanje u suprotnom smjeru.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="389"/>
+        <location filename="../prefinput.ui" line="413"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>O&amp;brni pretraživanje kotačićem miša</translation>
     </message>
