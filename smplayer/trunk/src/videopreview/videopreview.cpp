@@ -19,6 +19,7 @@
 #include "videopreview.h"
 #include "videopreviewconfigdialog.h"
 #include "playerid.h"
+#include <QAction>
 #include <QProcess>
 #include <QRegExp>
 #include <QDir>
