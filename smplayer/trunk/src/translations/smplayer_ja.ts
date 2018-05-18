@@ -3139,57 +3139,57 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer がキャプチャするマルチメディア キーを選択します。</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア再生(&amp;P)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア停止(&amp;S)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア前へ(&amp;V)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア次へ(&amp;N)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア一時停止(&amp;A)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア録音(&amp;R)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>音量ミュート(&amp;M)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>音量を下げる(&amp;D)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>音量を上げる(&amp;U)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>グローバル ショートカット</translation>
     </message>
 </context>
 <context>
@@ -4801,13 +4801,6 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
-    </message>
-</context>
-<context>
-    <name>MplayerProcess</name>
-    <message>
-        <source>This option is not supported by MPlayer</source>
-        <translation type="obsolete">このオプションは MPlayer にはサポートされていません</translation>
     </message>
 </context>
 <context>
@@ -6773,7 +6766,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>キーの選択(&amp;K)...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -10594,163 +10587,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="530"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Video preview</source>
         <translation>ビデオのプレビュー</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="168"/>
+        <location filename="../videopreview/videopreview.cpp" line="169"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="127"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
         <translation>閉じる(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="167"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Thumbnail Generator</source>
         <translation>サムネイルの生成</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="256"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>Creating thumbnails...</source>
         <translation>サムネイルを作成しています...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Size: %1 MB</source>
         <translation>サイズ: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Length: %1</source>
         <translation>長さ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
         <translation>FPS: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
         <translation>オーディオ形式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="692"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Save file</source>
         <translation>ファイルの保存</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="705"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>Error saving file</source>
         <translation>ファイルの保存エラー</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="706"/>
+        <location filename="../videopreview/videopreview.cpp" line="707"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>ファイルは保存できませんでした</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="212"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>サムネイルの作成中に以下のエラーが発生しました:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>一時ディレクトリ (%1) は作成できません</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>mplayer プロセスが実行しませんでした</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Resolution: %1x%2</source>
         <translation>解像度: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Video format: %1</source>
         <translation>ビデオ形式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>Aspect ratio: %1</source>
         <translation>アスペクト比: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>ファイル %1 は読み込めません</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="556"/>
+        <location filename="../videopreview/videopreview.cpp" line="557"/>
         <source>No filename</source>
         <translation>ファイル名なし</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="650"/>
+        <location filename="../videopreview/videopreview.cpp" line="651"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>mplayer プロセスはビデオについての情報の取得の試行中に起動しませんでした</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="231"/>
         <source>The length of the video is 0</source>
         <translation>ビデオの長さが 0 です</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="274"/>
+        <location filename="../videopreview/videopreview.cpp" line="275"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>ファイル %1 が存在しません</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="694"/>
         <source>Images</source>
         <translation>イメージ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>No info</source>
         <translation>情報なし</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
         <location filename="../videopreview/videopreview.cpp" line="500"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="502"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="521"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Video bitrate: %1</source>
         <translation>ビデオのビットレート: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="522"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio bitrate: %1</source>
         <translation>オーディオのビットレート: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="523"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Audio rate: %1</source>
         <translation>オーディオ レート: %1</translation>
     </message>

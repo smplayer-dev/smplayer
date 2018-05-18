@@ -2853,7 +2853,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="41"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">La contrasenya del servidor intermediari. &lt;b&gt;Avís:&lt;/b&gt; la contrasenya es desarà com a text sense format al fitxer de configuració.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="43"/>
@@ -7188,7 +7188,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funció de l&apos;arrossegament</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="418"/>
@@ -8218,12 +8218,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>intentarà utilitzar la resolució seleccionada si està disponible</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>selecciona el format de pitjor qualitat disponible</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="311"/>
@@ -8263,7 +8263,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="336"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Llistat de directoris</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="337"/>
@@ -8374,7 +8374,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="376"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>La contrasenya del servidor intermediari. &lt;b&gt;Avís:&lt;/b&gt; la contrasenya es desarà com a text sense format al fitxer de configuració.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="379"/>
@@ -8665,22 +8665,22 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau: per a les sortides de vídeo vdpau i opengl.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi: per a les sortides de vídeo opengl i vaapi. Només per a les GPU d&apos;Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi-copy: copia el vídeo de nou a la RAM del sistema.  Només per a les GPU d&apos;Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"></translation>
+        <translation>dxva2-copy: copia el vídeo de nou a la RAM del sistema. Experimental.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
@@ -9250,7 +9250,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si està marcada, es mostrarà el text en &lt;b&gt;negreta&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -9260,7 +9260,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si està marcada, es mostrarà el text en &lt;i&gt;cursiva&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
@@ -9300,7 +9300,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="500"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifica l&apos;alineament horitzontal. Els valors possibles són esquerre, centre i dret.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
@@ -9994,7 +9994,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Recorda-m&apos;ho més tard</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
@@ -10452,7 +10452,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut obtenir el número de versió més recent</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
@@ -10499,7 +10499,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha produït un error mentre s&apos;intentava recuperar la informació sobre la versió més recent disponible.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
@@ -10591,163 +10591,163 @@ El voleu sobreescriure?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="530"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Video preview</source>
         <translation>Vista prèvia del vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="168"/>
+        <location filename="../videopreview/videopreview.cpp" line="169"/>
         <source>Cancel</source>
         <translation>Cancel·la</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="127"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
         <translation>Tan&amp;ca</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
         <translation>De&amp;sa</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="167"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Thumbnail Generator</source>
         <translation>Generador d&apos;imatges en miniatura</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="256"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>Creating thumbnails...</source>
         <translation>S&apos;estan creant les imatges en miniatura...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Size: %1 MB</source>
         <translation>Mida: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Length: %1</source>
         <translation>Duració: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
         <translation>FPS: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
         <translation>Format de l&apos;àudio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="692"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Save file</source>
         <translation>Desa el fitxer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="705"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>Error saving file</source>
         <translation>Error en desar el fitxer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="706"/>
+        <location filename="../videopreview/videopreview.cpp" line="707"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>No s&apos;ha pogut desar el fitxer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="212"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>S&apos;ha produït el següent error mentre es creaven les imatges en miniatura:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>No es pot crear el directori temporal (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>No funciona el procés mplayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolució: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Video format: %1</source>
         <translation>Format del vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>Aspect ratio: %1</source>
         <translation>Relació d&apos;aspecte: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>No s&apos;ha pogut carregar el fitxer %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="556"/>
+        <location filename="../videopreview/videopreview.cpp" line="557"/>
         <source>No filename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="650"/>
+        <location filename="../videopreview/videopreview.cpp" line="651"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>El procés mplayer no es va iniciar mentre s&apos;intentava obtenir la informació sobre el vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="231"/>
         <source>The length of the video is 0</source>
         <translation>La duració del vídeo és 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="274"/>
+        <location filename="../videopreview/videopreview.cpp" line="275"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>No existeix el fitxer %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="694"/>
         <source>Images</source>
         <translation>Imatges</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>No info</source>
         <translation>Sense informació</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
         <location filename="../videopreview/videopreview.cpp" line="500"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="502"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="521"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Video bitrate: %1</source>
         <translation>Taxa de bits del vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="522"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio bitrate: %1</source>
         <translation>Taxa de bits de l&apos;àudio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="523"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Audio rate: %1</source>
         <translation>Taxa de l&apos;àudio: %1</translation>
     </message>

@@ -2998,7 +2998,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>כתובית %n חולצה</numerusform>
             <numerusform>%n כתוביות חולצו</numerusform>
         </translation>
@@ -9870,7 +9870,7 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>%n שניה</numerusform>
             <numerusform>%n שניות</numerusform>
         </translation>
@@ -9879,7 +9879,7 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
+        <translation type="unfinished">
             <numerusform>%n דקה</numerusform>
             <numerusform>%n דקות</numerusform>
         </translation>
@@ -10586,163 +10586,163 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="530"/>
+        <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Video preview</source>
         <translation>תצוגה מקדימה של וידאו</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="168"/>
+        <location filename="../videopreview/videopreview.cpp" line="169"/>
         <source>Cancel</source>
         <translation>ביטול</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="127"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
         <translation type="unfinished">&amp;שמור</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="167"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Thumbnail Generator</source>
         <translation>מחולל תמונת ציפורן</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="256"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>Creating thumbnails...</source>
         <translation>יוצר כעת תמונות ציפורן...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="511"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Size: %1 MB</source>
         <translation>גודל: ‎%1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Length: %1</source>
         <translation>אורך: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="515"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="692"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Save file</source>
         <translation>שמור קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="705"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>Error saving file</source>
         <translation>שגיאה בשמירת קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="706"/>
+        <location filename="../videopreview/videopreview.cpp" line="707"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>הקובץ לא היה מסוגל להישמר</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="212"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>השגיאה הבאה אירעה בעת יצירת תמונות ציפורן:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="239"/>
+        <location filename="../videopreview/videopreview.cpp" line="240"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>התיקייה הזמנית (%1) לא ניתנת ליצירה</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="403"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>התהליך mplayer לא רץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Resolution: %1x%2</source>
         <translation>רזולוציה: ‎%1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Video format: %1</source>
         <translation>פורמט וידאו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="519"/>
+        <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>Aspect ratio: %1</source>
         <translation>יחס רוחב גובה: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>הקובץ %1 לא יכול להיטען</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="556"/>
+        <location filename="../videopreview/videopreview.cpp" line="557"/>
         <source>No filename</source>
         <translation>אין שם קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="650"/>
+        <location filename="../videopreview/videopreview.cpp" line="651"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>התהליך mplayer לא התחיל בעת ניסיון להשיג מידע אודות הוידאו</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="230"/>
+        <location filename="../videopreview/videopreview.cpp" line="231"/>
         <source>The length of the video is 0</source>
         <translation>האורך של הוידאו הוא 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="274"/>
+        <location filename="../videopreview/videopreview.cpp" line="275"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>הקובץ %1 לא קיים</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="694"/>
         <source>Images</source>
         <translation>תמונות</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="496"/>
+        <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>No info</source>
         <translation>אין מידע</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="499"/>
         <location filename="../videopreview/videopreview.cpp" line="500"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
+        <location filename="../videopreview/videopreview.cpp" line="502"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="521"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Video bitrate: %1</source>
         <translation>שיעור סיבית וידאו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="522"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio bitrate: %1</source>
         <translation>שיעור סיבית אודיו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="523"/>
+        <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Audio rate: %1</source>
         <translation>שיעור אודיו: ‎%1</translation>
     </message>
