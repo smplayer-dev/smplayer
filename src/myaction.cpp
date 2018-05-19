@@ -19,7 +19,7 @@
 #include "myaction.h"
 #include <QWidget>
 
-//#define CHANGE_SHORTCUT_CONTEXT
+#define CHANGE_SHORTCUT_CONTEXT
 
 MyAction::MyAction ( QObject * parent, const char * name, bool autoadd ) 
 	: QAction(parent)
