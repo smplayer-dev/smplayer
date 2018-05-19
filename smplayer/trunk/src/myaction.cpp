@@ -19,6 +19,8 @@
 #include "myaction.h"
 #include <QWidget>
 
+//#define CHANGE_SHORTCUT_CONTEXT
+
 MyAction::MyAction ( QObject * parent, const char * name, bool autoadd ) 
 	: QAction(parent)
 {
@@ -42,6 +44,9 @@ MyAction::MyAction(const QString & text, QKeySequence accel,
 	setObjectName(name);
 	setText(text);
 	setShortcut(accel);
+#ifdef CHANGE_SHORTCUT_CONTEXT
+	setShortcutContext(Qt::WidgetWithChildrenShortcut);
+#endif
 	if (autoadd) addActionToParent();
 }
 
@@ -51,6 +56,9 @@ MyAction::MyAction(QKeySequence accel, QObject * parent, const char * name,
 {
 	setObjectName(name);
 	setShortcut(accel);
+#ifdef CHANGE_SHORTCUT_CONTEXT
+	setShortcutContext(Qt::WidgetWithChildrenShortcut);
+#endif
 	if (autoadd) addActionToParent();
 }
 
