@@ -12,7 +12,7 @@ Version 18.5:
  * Fix compiling with Qt 5.11.
 
 (2018-05-15)
- * Now it's possible to select which multimedia keys should be use as
+ * Now it's possible to select which multimedia keys should be used as
    global shortcuts.
 
 (2018-05-01)

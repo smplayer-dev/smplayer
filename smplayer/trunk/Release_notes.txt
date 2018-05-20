@@ -1,3 +1,16 @@
+Version 18.5:
+
+ * (Windows) A problem which might prevent SMPlayer to open filenames with
+   unicode characters has been fixed.
+ * Fix: the cursor keys should now work in the playlist.
+ * Now it's possible to select which multimedia keys should be used as
+   global shortcuts (Preferences -> Keyboard and mouse).
+ * (Windows) It seems on some systems the multimedia key events are sent
+   twice, making some keys (like volume mute or play/pause) almost unusable.
+   This version tries to detect it and prevent it.
+ * "opus" has been added to to the list of audio extensions 
+
+
 Version 18.4:
 
  * Bugfix: the time displayed by a tooltip when the mouse is over the seekbar
