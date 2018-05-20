@@ -12,7 +12,7 @@ DEBIAN_FILE = debian.tar.gz
 all: $(DEBIAN_FILE) $(DSC_FILE)
 
 $(DEBIAN_FILE): Makefile
-	svn export ../debian-rvm debian
+	svn export ../debian-orig debian
 	mv debian/changelog-orig debian/changelog
 	tar -cvzf $(DEBIAN_FILE) debian/
 
