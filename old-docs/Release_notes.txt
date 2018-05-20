@@ -1,0 +1,820 @@
+Version 18.4:
+
+ * Bugfix: the time displayed by a tooltip when the mouse is over the seekbar
+   is now much more accurate.
+ * There's now an option in Preferences -> Advanced to set the position of
+   the OSD bar.
+ * Now it's possible to turn off the use of the system native file dialog in
+   Preferences -> Interface.
+
+
+Version 18.3:
+
+ * Possibility to search for subtitles using the hash and filename methods
+   at the same time.
+ * Fix a bug which prevented to play some YouTube URLs.
+
+
+Version 18.2.2:
+
+ * The option Open -> URL can now also load YouTube playlists.
+ * New option in Preferences -> Subtitles to select the opacity of the
+   background of the subtitles (available when the "border style" is set
+   to "opaque box").
+ * The options to select the preferred number of track for audio and subtitles
+   are back.
+ * (mpv) Now the direct3d is the default video output for Windows, since some
+   users reported problems with the gpu output.
+
+
+Version 18.2:
+
+ * Now it's possible to use a priority list of preferred languages for the
+   audio and subtitles.
+ * Now there's support for YouTube playlists. In the playlist window, click
+   in the Load/save icon, select "Load playlist from URL" and paste the URL of
+   the YouTube playlist.
+
+
+Version 18.1:
+
+ * Fix for YouTube.
+
+
+Version 17.12:
+
+ * Two new actions to take screenshots with or without subtitles (they only
+   work when using mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
+ * New action which displays the filename in the OSD for 2 seconds. Assigned
+   by default to Shift+O.
+ * New option osd_bar_pos for smplayer.ini. It specifies the position of
+   the OSD bar (0 = top, 100 = bottom).
+ * The support for DVD menus has been removed. It never worked well and also
+   mpv already removed support for it a long time ago.
+ * The option to open an informative page after an upgrade has been removed.
+
+
+Version 17.11.2:
+
+ * A crash that may happen on KDE when the global menus
+   are activated has been fixed.
+ * Fix: SMPlayer won't cancel logout in KDE.
+ * The seek function in the MPRIS2 code has been fixed.
+
+
+Version 17.11
+
+ * The video equalizer by software has been fixed.
+ * The thumbnail generator is now more precise with short videos.
+ * The audio quality of the audio equalizer has been improved.
+ * The option "add black borders on fullscreen" has been fixed.
+ * The option "AC3/DTS passthrough over S/PDIF" has been fixed.
+
+
+Version 17.10.2
+
+ * New option in Preferences -> Network to select the preferred quality
+   for streaming sites such as DailyMotion, Vimeo and so on (all those
+   which are handled by youtube-dl).
+ * The audio equalizer is now disabled by default on Linux to prevent a
+   no sound problem for users with old versions of mpv.
+ * Fix some problems with the letterbox filter (the 'add black borders' option).
+ * The HDPI support is now also enabled on the portable package for Windows.
+ * Fix subtitles not disappearing when using the letterbox filter with mplayer.
+ * Fix: now the time is correctly displayed in the thumbnail generator
+   pictures when SMPlayer is built with Qt 5.
+
+
+Version 17.10
+
+ * Replace the deprecated video and audio filters in mpv with new ones.
+ * The karaoke filter is available again.
+
+
+Version 17.9
+
+ * Now it's possible to the search for subtitles using the filename instead of
+   a hash.
+ * Fix for the OSD when using SMPlayer with mpv 0.26.
+
+
+Version 17.8
+
+ * New audio filter for headphone optimization.
+
+
+Version 17.7
+
+ * Add some options to configure the conversion of srt subtitles to vtt for
+   Chromecast (Preferences -> Network -> Chromecast), like the position of the
+   subtitles on screen.
+ * Fix a crash that may happen in the playlist when trying to delete selected
+   items.
+
+
+Version 17.6
+
+ * Possibility to convert automatically subtitles in srt format to vtt
+   when playing on Chromecast.
+
+
+Version 17.5
+
+ * Fix for YouTube.
+
+
+Version 17.4.2
+
+ * New option (menu View -> OSD) to display the times with milliseconds.
+ * New fix for the thumbnail generator that works also with older
+   versions of mpv.
+ * Bugfix: the position of the video is remembered when it's opened by
+   drag & drop.
+ * The Windows installer won't install mpv on Windows XP since mpv is not
+   longer compatible with Windows XP.
+ * New option to use the mplayer ffhevcvdpau decoder (Linux only).
+ * Avoid some crashes from mpv.
+
+
+Version 17.4
+ * The thumbnail generator has been fixed.
+
+
+Version 17.3
+ * Add experimental support for subtitles for Chromecast.
+ * Bug fixes.
+
+
+Version 17.2
+
+ * Fix for YouTube.
+ * The option to delete files from the disk in the playlist is back but
+   it's disabled by default (you can enable it in Preferences -> Playlist
+   -> Misc.
+ * On Linux SMPlayer now uses a different web server, included in the
+   packages, to serve files for Chromecast. If you installed the package
+   webfs you can uninstall it now since SMPlayer won't use it anymore.
+ * New translation: Norwegian Bokmål.
+
+
+Version 17.1
+
+ * Experimental support to play videos on Chromecast.
+ * Support for some of the #EXTVLCOPT options in m3u/m3u8 playlists.
+   This may help to play online streams from playlists intended for VLC.
+ * New options in the context menu of the playlist: "copy URL to clipboard",
+   "open source folder" and "play on Chromecast".
+ * Option to display bitrate information in the status bar.
+ * Possibility to display the playback time with milliseconds in the status bar.
+ * The option to add black borders on fullscreen is back
+   (preferences -> general -> video).
+ * The option to delete files from the disk in the playlist's context menu
+   has been removed.
+
+
+Version 16.11
+
+ * More options in Preferences -> Playlist to better control the
+   behaviour of the playlist. Changing some of the options makes
+   easier to use the playlist for bookmarks.
+ * New option 'Show info on OSD' in View -> OSD (shortcut Shift + I).
+   It displays info about the current media (resolution, bitrate...) on the
+   OSD.
+ * Bug fixes.
+
+
+Version 16.9
+
+ * New option to send the audio to the specified audio device.
+   It can be useful to send the audio to a TV via a HDMI cable
+   or wireless headphones via bluetooth.
+ * Some improvements on the playlist. Now it's possible to hide
+   any column (right click to see the options). The search field
+   is also hidden by default, a new search button shows/hides it.
+   This changes are intended to prevent the playlist window to
+   be too wide.
+ * Due to bugs and problems with Qt 5, the packages for Ubuntu are
+   now built again with Qt 4 by default.
+ * Bug fixes.
+
+
+Version 16.8
+
+ * The playlist has been improved. Now it's possible to sort by any
+   column. There's a new column, with the path of the file (or URL)
+   (this allows you to sort the list by folder).
+   Now it's possible to search (actually filter) in the playlist.
+   And finally there's a new option to load a playlist from internet.
+   As example, you can enter this URL: http://smplayer.info/onlinetv.php
+   It will download a playlist with some online TV streams.
+ * Bug fixes.
+
+
+Version 16.7
+
+ * Fix for YouTube.
+ * Some bug fixes mainly for Qt 5.
+
+
+Version 16.6
+
+ * Support for 2 in 1 computers with touch screens.
+   SMPlayer includes now a 'tablet mode', available in the menu Options.
+   When the option is turned on it makes some changes in the interface
+   so that it would be easier to control SMPlayer by touching the
+   screen.
+   When the user changes the tablet mode in the Windows 10 action
+   center, SMPlayer will detect it and ask if it should switch to the
+   SMPlayer's tablet mode as well.
+ * Option to send video to an external screen.
+   Now it's possible to send the video to a second screen connected to
+   the computer, while controlling the application in the computer's
+   screen.
+ * Support for high DPI screens.
+   On high DPI (dots per inch) screens SMPlayer looked very tiny. Now
+   the interface is automatically scaled so it looks correctly. There
+   are also settings in Preferences -> Interface -> High DPI where you
+   can adjust manually the scale factor or turn off this feature.
+ * Global shortcuts.
+   Now it's possible to use the media keys (play/pause, stop, volume+/-,
+   etc.) as global shortcuts. That means that those keys will work even
+   when SMPlayer is in the background. You can activate this option in
+   Preferences -> Keyboard and mouse.
+ * Settings are remembered for online streams too.
+   This means that, for example, SMPlayer can resume playback or set
+   bookmarks on YouTube videos or other online streams (as long as they
+   are seekable).
+ * SMPlayer is now built with Qt 5 by default.
+
+
+Version 16.4
+
+ * The Windows installer now includes mpv as well.
+ * Now it's easier to switch between mplayer and mpv (Preferences -> General,
+   select either mplayer or mpv as multimedia engine).
+ * The extrastereo filter works again when using mpv.
+ * Possibility to use the VLC shortcuts. (Preferences -> Keyboard and
+   mouse, click the load button, select vlc.keys)
+ * Possibility to enable mouse gestures (when the mouse is dragged up or down
+   in the video window the volume changes. If dragged left or right it
+   changes the time position).
+   You can enable this option in Preferences -> Keyboard and
+   mouse -> Mouse -> Drag function: seek and volume.
+ * A fix for saving bookmarks.
+ * The option for streaming sites in Preferences -> Network is
+   different now, and allows these values:
+     Disabled: support for video sites is turned off
+     Auto: enables the internal support for YouTube and uses mpv + youtube-dl
+     for the rest of sites
+     YouTube: only the internal support for YouTube will be used
+     mpv + youtube-dl: uses mpv + youtube-dl for all sites
+ * An animated icon has been added in the status bar to indicate when the player
+   is buffering.
+ * A new layout is used to display the media information (Options -> View info and
+   properties).
+
+
+Version 16.1
+
+ * Fix for YouTube.
+ * The screenshots work again with older versions of mplayer/mpv.
+ * Possibility to add bookmarks (menu Browse), which allows to mark your
+   favorite parts of the video for a quick access.
+ * New option 'Prevent window to get outside of screen' in
+   Preferences -> Interface.
+
+
+Version 15.11
+
+ * Fix for YouTube.
+ * (Experimental) Support for YouTube live streams.
+ * The thumbnail generator is much faster now.
+ * New options to seek to the previous or next subtitle (mpv only).
+ * New option (Preferences -> General) to select the image format for
+   screenshots (mpv only).
+ * Fix a crash when changing the GUI.
+ * New option (Preferences -> Interface) to center the window
+   automatically.
+ * Display a tooltip in the time slider with the corresponding time of
+   the mouse position.
+ * Now there's an option in the configuration of the find subtitles window
+   which allows to specify if the language code should be appended to the
+   subtitle filename.
+ * (Fix for Windows) The main window will be centered if it's partially
+   outside of the desktop after an auto resize.
+ * When adding files to the playlist the first item is moved to its
+   correct place in the list.
+ * (Experimental) New action to start/stop capturing the playback stream.
+   The captured stream will be saved to the folder specified in
+   the smplayer.ini option "capture_directory" with the name
+   capture_NNNN.dump.
+   It only works correctly with mpeg. With other formats the
+   dumped stream won't play back.
+ * Disable the extrastereo and karaoke filters when using mpv.
+
+
+Version 15.9
+
+ * Support for the 3D stereo filter.
+ * We added support for mpv, which is a player based on MPlayer with
+   new features and bug fixes.
+ * Now it's possible to select a secondary subtitle track which is
+   displayed on top of the screen (mpv only).
+ * New option to set a template for screenshots (mpv only).
+ * Now it's possible to play videos from streaming sites (besides Youtube)
+   like DailyMotion, Vimeo, Vevo and many more (mpv only).
+ * Option to step back one frame (mpv only).
+ * The Windows installer now allows to choose the playback engine to install:
+   mplayer or mpv.
+ * Better support for YouTube (VEVO videos).
+ * Possibility to set a proxy.
+ * Allow duplicate items in the playlist.
+ * New action (assigned by default to key "I") shows the current playback
+   time, total time and percentage, for 2 seconds on the OSD.
+ * Add the possibility to use the mouse buttons for "next chapter" and
+   "previous chapter".
+ * New option to delete a file in the playlist from the filesystem.
+ * Add support for MPRIS2.
+ * Possibility to compile SMPlayer without mplayer or mpv support.
+ * The new H2O theme is now the default theme.
+
+
+Version 14.9.
+
+ * Fix for Youtube.
+ * New option to shut down the computer when playback has finished.
+ * The themes and skin icons are loaded from resource files (*.rcc).
+ * New fix for searching subtitles from opensubtitles.org that should
+   return more results.
+
+
+Version 14.3.
+
+ * Possibility to play (non-protected) blu-ray discs.
+ * The control for fullscreen mode has been rewritten and improved.
+   Now it is displayed over the video.
+ * (Windows) New option in Preferences -> Subtitles to enable or
+   disable the use of the Windows font directory. Disabling this option
+   prevents the annoying font scanning.
+ * Some presets have been added to the audio equalizer.
+ * Better support for multimedia keys. This can help control SMPlayer with
+   a remote control.
+ * The option "Move the window when the video area is dragged" has been fixed.
+ * (Windows) Now it's possible to open Windows shortcuts (symlinks).
+ * Better support for Youtube.
+ * (Windows) Better screensaver disabling.
+ * Many bugfixes.
+ * Possibility to compile with Qt 5.
+
+
+Version 0.8.6.
+
+ * SMPlayer can now update its internal Youtube code so it's not necessary
+   to update smplayer everytime Youtube makes a change.
+ * A section "Updates" has been added to the preferences dialog, where 
+   it's possible to configure or disable the update checker.
+ * SMPlayer could still fail to find some subtitles from 
+   opensubtitles.org. Hopefully this is fixed.
+ * (Windows) The autoload of subtitles with non latin1 filenames has been 
+   fixed.
+ * The Windows installer gives the possibility to delete most of the
+   configuration files of smplayer. This can be useful if the configuration
+   files have been corrupted or smplayer has been misconfigured.
+   Linux users can use the command "smplayer -delete-config".
+ * Several other bugfixes. See the Changelog for details.
+
+
+Version 0.8.5.
+
+ * Due to changes in opensubtitles.org, smplayer couldn't find
+   subtitles anymore. This has been fixed.
+ * The interface with support for skins is now the default.
+ * An option to enter url(s) in the playlist has been added.
+ * The options to change the size of the main window work now 
+   even if the autoresize is set to never.
+ * Two new options for Audio -> Stereo mode: Mono and Reverse.
+ * The option "Move the window when the video area is dragged" is
+   now disabled by default because it has some issues that need to
+   be addressed.
+ * (Linux) The problem with mplayer2 and the -fontconfig option has been 
+   fixed (sort of).
+ * New translation: Malay.
+ * Some configuration options are changed to new defaults after installation
+   to ease upgrade from old versions.
+
+
+Version 0.8.4.
+
+ * New option to select the fps for external subtitles.
+ * The video equalizer dialog has been rewritten.
+ * Now smplayer checks for updates automatically and notifies the user if 
+   a new version is found.
+ * Support for encoding ISO-8859-16 for subtitles.
+ * New translations: Thai and Hebrew.
+ * Some bugfixes.
+
+
+Version 0.8.3.
+
+ * Fix for youtube playback.
+
+
+Version 0.8.2.
+
+ * A skinnable interface has been added. Several skins are included.
+ * Support for 6.1 and 7.1 audio output.
+ * A "Privacy" section in the preferences dialog has been added. You can
+   disable saving the recent files or URLs.
+ * The main window can be moved by dragging the video area.
+ * Fix for a freeze that may happen on Windows XP.
+ * (Windows) The font cache is created before showing the GUI.
+
+
+Version 0.8.1.
+
+ * Fix youtube.
+
+
+Version 0.8.0.
+
+ * A toolbar editor has been added. Now it's possible to select the buttons 
+   and controls that want to appear in the toolbars.
+ * New video filters: gradfun, blur and sharpen.
+ * Now it's possible to change the GUI (default, mini, mpc) at runtime,
+   no restart required.
+ * sub files from opensubtitles should work again.
+ * (Youtube) Recognize short urls (like this one: http://y2u.be/F5OcZBVPwOA)
+ * Better support for chapters in video files.
+ * Bug fix: remote m3u files work from the favorites menu or command line.
+ * Internal changes in the single instance option (switch to 
+   QtSingleApplication).
+
+
+Version 0.7.1.
+
+This version include some bug fixes, some of them important. It's highly
+recommended to update.
+
+Fixes:
+ * SMPlayer took more than 10 seconds to show when running for the very
+   first time.
+ * The links to download subtitles from Opensubtitles were wrong.
+ * SMPlayer crashed in the favorite editor when trying to select a file if
+   the KDE open dialog was used.
+ * Some translations were missing in the Windows package.
+
+New:
+ * By default the screenshots are saved in the user's pictures folder instead
+   of the SMPlayer's config folder.
+ * Now it's possible to change the opensubtitles server.
+ * Youtube: seeking is slow with flv videos, so now flv videos have the 
+   lowest priority.
+ * Youtube: now it's possible to search and download videos from youtube.
+   This is provided by an external application (in linux you have to install
+   an independent package: smtube).
+
+
+Version 0.7.0.
+
+Most important changes since 0.6.10:
+
+* New favorite menu, where you can add your favorite videos, music, streams,
+  youtube videos... It's also possible to add submenus.
+* Support for youtube. Now you can open urls like 
+  http://www.youtube.com/watch?v=..... using the Open -> URL dialog or 
+  dragging a link from a browser to the smplayer window.
+* Support for mplayer2 (http://www.mplayer2.org). It's a fork of mplayer with
+  interesting features like precise seeking, ordered chapters in mkv videos and
+  better pause handling (e.g. seek works while the video is paused).
+* New translation: croatian.
+
+
+Version 0.6.10.
+
+Most important changes since 0.6.9:
+
+* New vdpau configuration dialog, which allow to select the vdpau codecs to use.
+* Port for eCS, OS/2 (by Silvan Scherrer).
+* New menu to select the closed caption channel (requires mplayer >= r32607).
+* Possibility to select the seeking method (absolute or relative).
+* Possibility to sort the items of the playlist.
+
+
+Version 0.6.9.
+
+Most important changes since 0.6.8:
+
+* A serious bug has been fixed: sometimes smplayer failed to find subtitles 
+  in opensubtitles.org.
+* Implemented the possibility to mark an A-B section, to play a part of the
+  file only.
+* (Linux) smplayer doesn't use alsa as default audio driver anymore. It should
+  fix freezing problems on Ubuntu.
+* Possibility to display the video resolution and frames per second in the
+  status bar.
+* Audio: selection of left or right channel does work now.
+* (Linux) Improved support for vdpau.
+
+
+Version 0.6.8.
+
+Most important changes since 0.6.7:
+
+* Added support for TV (more info in Watching_TV.txt).
+* New option to enable a global volume.
+* (Linux) Support for vdpau.
+* New option to take consecutive screenshots.
+* Possibility to add some of the submenus to the toolbars.
+* Better support for *.ts files (requires mplayer >= r29381).
+* Added the Vietnamese translation.
+* Added the Estonian translation.
+* (Windows) New options to try to disable the screensaver.
+
+
+Version 0.6.7.
+
+Most important changes since 0.6.6:
+
+* Added experimental (and uncomplete) support for dvd menus. Requires a mplayer
+  build compiled with dvdnav support. Please read dvdmenus.txt to know how
+  to enable it.
+* Now loading an external subtitle file doesn't require to restart the mplayer
+  process (except for idx/sub subtitles).
+* (Playlist) When a file is added to the playlist, if it was already in the 
+  list, it's moved to the end of the list.
+* Options for mplayer: finally spaces in arguments between quotes are handled 
+  properly.
+* Added two options (in the audio and subtitle menus) to allow the user to 
+  enter the audio and subtitle delay (in milliseconds).
+* (ASS subtitles) The outline and shadow options now accept values with 
+  decimals.
+* (ASS subtitles) Possibility to change the color of the border and shadow.
+* Now the default value for the "correct pts" option is auto.
+* (Windows) Now the screensaver is allowed to turn on if the file is paused 
+  or it's an audio file.
+* (Windows) The direct3d video output is now the default for Windows Vista.
+
+
+Version 0.6.6.
+
+Most important changes since 0.6.5:
+
+* Added an option to generate a preview (thumbnails) of the video.
+* Added a new gui (mpcgui, a media player classic clone) developed by 
+  Matthias Petri.
+* Added some auto zoom options, to display the video without black borders.
+* Implemented a new (and optional) method to save the file settings.
+  This method uses an ini file per each played file. It's faster than the old
+  one.
+* Added a new option in Preferences->Video: add black borders on
+  fullscreen. If this option is enabled, black borders will be added to
+  the image in fullscreen mode. This allows subtitles to be displayed on
+  the black borders.
+* Increased the resolution of the seekbar. Allows a more accurate seeking.
+* Added 3 modes for the stay on top option: always, never and while playing.
+* Added a history to the open URL dialog.
+* Added new action to cycle through all aspect ratios. Assigned by default to 
+  key "A".
+* It's possible to run some specified actions every time a file is loaded.
+* Possibility to set up a proxy for internet connections (used for subtitle
+  downloading).
+
+
+Version 0.6.5.
+
+Most important changes since 0.6.4:
+
+* The subtitles when using the SSA/ASS library can now be further
+  customized. It's possible to select the font, size, colors, bold,
+  italic, outline, shadow... 
+* (Linux) Now smplayer tries to follow the XDG Base Directory
+  Specification for the config files. That means the now the configuration
+  files will be saved under the directory $XDG_CONFIG_HOME/smplayer (or 
+  $HOME/.config/smplayer if $XDG_CONFIG_HOME is not defined). 
+  If you want to keep your preferences, copy or move the files from 
+  $HOME/.smplayer to the new location.
+* Added some options in Preferences->Interface to configure the floating 
+  control.
+* The commandline option -ini-path has been removed and replaced with
+  -config-path, which specifies the directory where smplayer will store
+  its data (not only smplayer.ini).
+
+
+Version 0.6.4.
+
+Most important changes since 0.6.3:
+
+ * Now the dialog to find subtitles can also download the subtitle file and 
+   load it in smplayer automatically.
+ * (Linux) The black screen problem when using Compiz should really be fixed 
+   now.
+ * Added support for encoding autodetection for subtitle files. Requires a 
+   mplayer compiled with enca support.
+ * (Linux) Now it's possible to choose the audio device to be used with alsa 
+   (needs the application "aplay").
+ * (Windows) Now it's possible to choose the audio device to be used with 
+   dsound.
+ * (Windows) The menu Video->Screen displays now the actual available screens
+   with their names.
+ * Added the possibility to add consecutive files (video_01.avi, video_02.avi..)
+   automatically to the playlist.
+ * Bugfix: logout is not cancelled by smplayer.
+ * Now the options in preferences display a tooltip with a help message.
+ * Now it's possible to change the video track.
+ * Added the Galician translation.
+
+
+Version 0.6.3.1 (release for Windows only)
+
+This release includes a fix for an important bug in 0.6.3 which affected
+the version for Windows: the video window would be black on the first
+video played, or always if the user opened the preferences dialog before
+playing a video. In those cases "directx," was used as video driver but
+the -colorkey option was not passed to mplayer producing the problem.
+Windows Vista probably wasn't affected by this bug, as it uses a
+different video driver as default.
+
+
+Version 0.6.3.
+
+Most important changes since 0.6.2 (see the Changelog for the whole list):
+
+ * Two fixes for Windows Vista. Now IPv4 is used by default (connection to
+   networks are faster). And now it really uses "gl:yuv=2:force-pbo:ati-hack" 
+   as the default video output driver. Note: this mode could give problems 
+   with some graphic cards (specially ATI), if you experience any, try the
+   other gl variants, or just directx.
+ * (Linux) Added a fix for a black screen problem when using Compiz.
+ * Added an option to select the number of threads that mplayer will use for
+   decoding (only works for MPEG-1/2 and some H.264 videos).
+ * Added the possibility to disable the audio equalizer. Seems to be necessary
+   to use the S/PDIF output.
+ * Added some options to increase/decrease the speed by 1% and 4%. This allows
+   to play 24 fps movies at 25 fps speed and vice versa.
+ * Fix: sometimes the playlist is not shown. Added a workaround for the problem.
+ * Added some checks to avoid crashes when selecting subtitle tracks.
+ * (Windows) Added a new submenu Video->Screen to select the screen which will
+   display the video when using directx.
+ * The settings in smplayer.ini have been reorganized in several sections. 
+   (This also means most of your preferences will be lost and you will have to 
+   reconfigure smplayer again).
+ * Added an option to mirror the video. And now it's also possible to flip and
+   rotate the subtitles along with the image.
+ * Added a new shortcut set (sda.keys) which can be loaded in the shortcut 
+   editor in preferences.
+ * Added two new translations: Arabic and Kurdish.
+
+
+Version 0.6.2.
+
+Most important changes since 0.6.1:
+
+ * Added an audio equalizer (please read Audio_equalizer.txt).
+ * Added a dialog to search and download subtitles from opensubtitles.org
+   (See Finding_subtitles.txt).
+ * The toolbars can be configured. The user can remove, add or change the
+   order of the buttons. Right now it can only be done by editing manually
+   the configuration file. A graphical editor will be added in the next
+   version. See Configuring_the_toolbars.txt.
+ * The single instance port can now be chosen automatically by the application.
+ * Possibility to compile a portable version which (by default) won't write 
+   anything outside the smplayer's folder. It won't write either anything 
+   in the Windows registry. See Portable_Edition.txt for details.
+ * Added the Slovenian translation.
+
+
+Version 0.6.1.
+
+Most important changes since 0.6.0 final:
+
+ * Now compact mode resizes the window, instead of leaving black borders.
+ * Added an option in Preferences->Interface which allows the user to select
+   his/her preferred GUI. This way it's easier to use the mini GUI, for those
+   who prefer a simpler interface with few buttons.
+ * One more fix for Qt 4.4. The option FAQ in the Help menu didn't work.
+ * (Windows) Fix: zoom didn't work well (black blocks appeared) if using 
+   directx.
+ * Added the Catalan translation.
+
+
+Version 0.6.0 final.
+
+Most important changes since 0.6.0rc4:
+
+ * (Bugfix) Two mplayer processes were run when opening a file. This could
+   even make Aero in Windows Vista to be disabled.
+ * Seeking with the time slider works much better.
+ * Now it's possible to add directories recursively to the playlist.
+ * Added a preferences dialog for the playlist.
+ * The right mouse button can be configured.
+ * (Linux) File managers should now display an option to enqueue files in
+   the smplayer playlist.
+ * (Fix) The playlist was shown for a small moment on startup. This caused
+   problems if using compiz, as the window might not hide.
+ * Fix for Qt 4.4, the logo didn't show.
+ * Some translations have been updated (Simplified-Chinese, Italian, 
+   Ukrainian, Dutch, French, Romanian, Portuguese, Polish, Russian, Japanese, 
+   Spanish and German)
+ * Now the file Install.txt contains updated info about how to compile and
+   install smplayer.
+
+
+Version 0.6.0rc4.
+
+Most important changes since 0.6.0rc3:
+
+ * (Bugfix) Now DVDs start to play at chapter #1, instead of chapter #2, 
+   if using mplayer 1.0rc2 or older.
+ * (Fix) A delay could happen on startup if there were non local files in 
+   the recent's menu.
+ * (Bugfix) When using the command line options -send-action or -actions, 
+   some actions like aspect_4:3 didn't work.
+ * Initial support for edl files. If a file with the same name of the file 
+   to play but with extension .edl (or .EDL) exists, then smplayer will load 
+   it automatically. An edl file allows to skip or mute parts of the video.
+ * Possibility to automatically get info (length and name) about the files 
+   added to the playlist. This option is enabled by defaul on linux and
+   disabled on windows (it's slow in this OS).
+ * Added in Preferences->General->Video an option to select the default 
+   deinterlacer.
+ * Added support for the mouse's buttons XButton1 and XButton2.
+ * Some new options have been added to the list of available actions for
+   mouse buttons.
+ * Possibility to merge the 6 seeking buttons in the GUI into only two.
+   It would only show the "rewind 10 secs" and "forward 10 secs" buttons. 
+   Keeping them pressed for a moment would popup menu with the rest of the 
+   buttons. This option is DISABLED by default and currently it can only be 
+   enabled at compile time changing the MINI_ARROW_BUTTONS define in 
+   src/guiconfig.h before compiling.
+
+
+Version 0.6.0rc3.
+
+Most important changes since 0.6.0rc2:
+
+ * (Windows) Enqueuing multiple files in smplayer should work ok now even 
+   if smplayer is not running.
+ * Added new menu Video->Rotate, with options to rotate the image.
+ * Added new option Play->Jump to, which will show a dialog where you can 
+   enter the position (time) to jump.
+ * Added two new options in the Subtitles menu: "Enable closed caption" and 
+   "Forced subtitles only".
+ * The software equalizer should work now with gl, gl2 and directx:noaccel.
+ * Some multimedia keys should be recognized now in the shortcut editor.
+ * Added help for all options in the preferences dialog.
+ * New error dialog which will be shown if mplayer crashes, fails to start
+   or finishes unexpectedly.
+ * SMPlayer will try to use xv (or directx in windows) as default.
+ * Added two new translations: Macedonian and Basque.
+
+
+Version 0.6.0rc2.
+
+This version includes some bugfixes.
+
+Most important changes since 0.6.0rc1:
+
+ * Fix for relative paths to the mplayer binary. The problem could cause that
+   smplayer couldn't play anything if a directory or file named "mplayer"
+   existed in the home directory.
+ * The option Play -> Repeat has been improved.
+ * The selection of chapters in mkv files didn't work well if using a recent
+   mplayer from svn. This has been fixed now.
+ * (Windows) Bugfix: the buttons to select the font color in
+   Preferences->Subtitles->SSA/ASS didn't show the color.
+ * (Windows) Now the screensaver should be disabled even if protected by 
+   password (tested on Windows XP).
+ * (Windows) Bugfix: don't try to convert to 8.3 short names files that
+   don't exist. That could cause that URLs were corrupted.
+
+
+Version 0.6.0rc1.
+
+Most important changes since 0.5.62:
+
+ * Added support for pls playlist files.
+ * Better accuracy on subtitle selection. Fixes problems with mp4 embedded 
+   subtitles. Requires mplayer svn r25158 or above.
+ * Now the screensaver and powersave on Windows are really turned off, even on
+   Windows Vista.
+ * The cache setting is independent for each type of media.
+ * Added an option which allows to fix the problem of loud volume on startup
+   (requires a patched mplayer).
+ * (Windows) The file associations code has been improved. Now it should work
+   better in Windows Vista as well as other versions of Windows.
+ * New option Video->Add black borders, which replaces the letterbox options 
+   in Video->Aspect ratio.
+ * (Windows) Work-around for a mplayer bug: now filenames with characters 
+   outside the local codepage can be opened, by passing to mplayer the short 
+   version of the filename. This can be enabled in Preferences->Advanced.
+ * Now the H.264 loop filter can be disabled for High Definition videos only
+   (720p and above).
+ * Possibility to update the video while dragging the time slider.
+ * New icons for the default theme.
+ * SSA/ASS subtitles can also be resized during playback. Requires at least 
+   mplayer r25843.
+ * Now it's possible to zoom out the video image.
+ * New Help->About dialog.
+ * New option Help->FAQ which will show the FAQ.
+ * Bugfix: the colorkey is passed properly to mplayer.
+ * Added the Finnish and the Korean translations.
