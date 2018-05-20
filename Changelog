@@ -1,3 +1,31 @@
+Version 18.5:
+
+(2018-05-20)
+ * Add "opus" to the list of audio extensions and "part" to the list of
+   video extensions.
+
+(2018-05-19)
+ * The cursor keys work now in the playlist (as long as the playlist
+   is in a window and not docked).
+
+(2018-05-17)
+ * Fix compiling with Qt 5.11.
+
+(2018-05-15)
+ * Now it's possible to select which multimedia keys should be use as
+   global shortcuts.
+
+(2018-05-01)
+ * (Windows) It seems on some systems the multimedia key events are sent
+   twice by Qt, making some keys (like volume mute or play/pause) unusable.
+   Added code to try to detect this and ignore the second event.
+
+(2018-04-30)
+ * (Windows) Use the Windows GetCommandLine function to get the command line
+   arguments because it seems the Qt arguments function is not reliable to
+   get unicode characters.
+
+
 Version 18.4:
 
 (2018-04-22)
