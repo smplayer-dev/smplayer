@@ -422,10 +422,11 @@ void Preferences::reset() {
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = false;
-	global_shortcuts_grabbed_keys = GlobalShortcuts::MediaPlay | GlobalShortcuts::MediaPlay |
-                                    GlobalShortcuts::MediaStop | GlobalShortcuts::MediaPrevious |
-                                    GlobalShortcuts::MediaNext | GlobalShortcuts::MediaPause |
-                                    GlobalShortcuts::MediaRecord;
+	global_shortcuts_grabbed_keys = GlobalShortcuts::MediaPlay | GlobalShortcuts::MediaStop |
+                                    GlobalShortcuts::MediaPrevious | GlobalShortcuts::MediaNext |
+                                    GlobalShortcuts::MediaPause | GlobalShortcuts::MediaRecord |
+                                    GlobalShortcuts::VolumeMute | GlobalShortcuts::VolumeDown |
+                                    GlobalShortcuts::VolumeUp;
 #endif
 
 #if DVDNAV_SUPPORT
