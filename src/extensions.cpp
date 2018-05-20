@@ -63,9 +63,11 @@ Extensions::Extensions()
            << "rm" << "swf"
            << "ts" << "rmvb" << "dvr-ms" << "m2t" << "m2ts" << "mts" << "rec" << "wtv"
            << "f4v" << "hdmov" << "webm" << "vp8"
-           << "bik" << "smk" << "m4b" << "wtv";
+           << "bik" << "smk" << "m4b" << "wtv"
+           << "part";
 
-	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "aac" << "ac3" << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a";
+	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "aac" << "ac3"
+           << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a" << "opus";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
                << "rt" << "utf" << "aqt" << "vtt";
