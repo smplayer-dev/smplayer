@@ -8,7 +8,7 @@ Version 18.5:
  * (Windows) It seems on some systems the multimedia key events are sent
    twice, making some keys (like volume mute or play/pause) almost unusable.
    This version tries to detect it and prevent it.
- * "opus" has been added to to the list of audio extensions 
+ * "opus" has been added to to the list of audio extensions.
 
 
 Version 18.4:
