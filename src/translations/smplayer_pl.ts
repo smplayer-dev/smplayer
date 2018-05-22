@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -3001,11 +2999,7 @@ Przykład: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Rozpakowano %n napis</numerusform>
-            <numerusform>Rozpakowano %n napisy</numerusform>
-            <numerusform>Rozpakowano %n napisów</numerusform>
-        </translation>
+        <translation><numerusform>Rozpakowano %n napis</numerusform><numerusform>Rozpakowano %n napisy</numerusform><numerusform>Rozpakowano %n napisów</numerusform><numerusform>Rozpakowano %n napisów</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
@@ -3098,7 +3092,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -3141,57 +3135,57 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz klawisze multimedialne, które zastosuje SMPlayer.</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odtwórz multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wstrzymaj multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poprzednie multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Następne multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation type="unfinished"></translation>
+        <translation>Pau&amp;zuj multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Na&amp;graj multimedia</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>W&amp;ycisz głośność</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Z&amp;mniejsz głośność</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zwiększ głośność</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Globalne skróty</translation>
     </message>
 </context>
 <context>
@@ -6769,7 +6763,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz &amp;klawisze...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -9876,21 +9870,13 @@ na liście odtwarzania:</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10594,163 +10580,163 @@ na liście odtwarzania:</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="531"/>
+        <location filename="../videopreview/videopreview.cpp" line="530"/>
         <source>Video preview</source>
         <translation>Podgląd filmu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="169"/>
+        <location filename="../videopreview/videopreview.cpp" line="168"/>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="128"/>
+        <location filename="../videopreview/videopreview.cpp" line="127"/>
         <source>&amp;Close</source>
         <translation>&amp;Zamknij</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="129"/>
+        <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Save</source>
         <translation>Zapi&amp;sz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="168"/>
+        <location filename="../videopreview/videopreview.cpp" line="167"/>
         <source>Thumbnail Generator</source>
         <translation>Generator miniaturek</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="257"/>
+        <location filename="../videopreview/videopreview.cpp" line="256"/>
         <source>Creating thumbnails...</source>
         <translation>Tworzenie miniaturek...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="512"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>Size: %1 MB</source>
         <translation>Rozmiar: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="514"/>
+        <location filename="../videopreview/videopreview.cpp" line="513"/>
         <source>Length: %1</source>
         <translation>Długość: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="516"/>
+        <location filename="../videopreview/videopreview.cpp" line="515"/>
         <source>FPS: %1</source>
         <translation>FPS: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="518"/>
+        <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Audio format: %1</source>
         <translation>Format dźwięku: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="693"/>
+        <location filename="../videopreview/videopreview.cpp" line="692"/>
         <source>Save file</source>
         <translation>Zapisz plik</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="706"/>
+        <location filename="../videopreview/videopreview.cpp" line="705"/>
         <source>Error saving file</source>
         <translation>Błąd zapisu pliku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="707"/>
+        <location filename="../videopreview/videopreview.cpp" line="706"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Plik nie może zostać zapisany</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="213"/>
+        <location filename="../videopreview/videopreview.cpp" line="212"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="214"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Podczas tworzenia miniatur wystąpił następujący błąd:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="240"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Katalog tymczasowy (%1) nie może zostać utworzony</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="403"/>
+        <location filename="../videopreview/videopreview.cpp" line="402"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Proces mplayera nie wystartował</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="513"/>
+        <location filename="../videopreview/videopreview.cpp" line="512"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozdzielczość: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="517"/>
+        <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Video format: %1</source>
         <translation>Format obrazu: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="520"/>
+        <location filename="../videopreview/videopreview.cpp" line="519"/>
         <source>Aspect ratio: %1</source>
         <translation>Współczynnik proporcji: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Plik %1 nie może zostać załadowany</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="557"/>
+        <location filename="../videopreview/videopreview.cpp" line="556"/>
         <source>No filename</source>
         <translation>Brak nazwy pliku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="651"/>
+        <location filename="../videopreview/videopreview.cpp" line="650"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Proces mplayera nie wystartował podczas próby pobrania informacji o pliku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="231"/>
+        <location filename="../videopreview/videopreview.cpp" line="230"/>
         <source>The length of the video is 0</source>
         <translation>Długość pliku wideo wynosi 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="275"/>
+        <location filename="../videopreview/videopreview.cpp" line="274"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Plik %1 nie istnieje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="694"/>
+        <location filename="../videopreview/videopreview.cpp" line="693"/>
         <source>Images</source>
         <translation>Obrazki</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="497"/>
+        <location filename="../videopreview/videopreview.cpp" line="496"/>
         <source>No info</source>
         <translation>Brak informacji</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="499"/>
         <location filename="../videopreview/videopreview.cpp" line="500"/>
-        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="502"/>
+        <location filename="../videopreview/videopreview.cpp" line="501"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="522"/>
+        <location filename="../videopreview/videopreview.cpp" line="521"/>
         <source>Video bitrate: %1</source>
         <translation>Bitrate wideo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="523"/>
+        <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Audio bitrate: %1</source>
         <translation>Tempo bitowe dźwięku: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="524"/>
+        <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio rate: %1</source>
         <translation>Szybkość dźwięku: %1</translation>
     </message>
