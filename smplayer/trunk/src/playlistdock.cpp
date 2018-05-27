@@ -17,6 +17,7 @@
 */
 
 #include "playlistdock.h"
+#include <QAction>
 #include <QCloseEvent>
 
 PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
@@ -24,6 +25,14 @@ PlaylistDock::PlaylistDock(QWidget * parent, Qt::WindowFlags flags)
 {
 	//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Expanding );
 	setAcceptDrops(true); // Fix for Qt 4.4, otherwise the playlist doesn't accept drops...
+
+	/*
+	QAction * closeAct = new QAction(this);
+	closeAct->setObjectName("close_playlistdock");
+	closeAct->setShortcut(QKeySequence(Qt::SHIFT | Qt::Key_Escape));
+	connect(closeAct, SIGNAL(triggered()), this, SLOT(close()));
+	addAction(closeAct);
+	*/
 }
 
 PlaylistDock::~PlaylistDock() {

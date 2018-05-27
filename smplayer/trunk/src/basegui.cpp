@@ -860,6 +860,7 @@ void BaseGui::createActions() {
 	showPlaylistAct->setCheckable( true );
 	connect( showPlaylistAct, SIGNAL(toggled(bool)),
              this, SLOT(showPlaylist(bool)) );
+	playlist->addAction(showPlaylistAct);
 
 	showPropertiesAct = new MyAction( QKeySequence("Ctrl+I"), this, "show_file_properties" );
 	connect( showPropertiesAct, SIGNAL(triggered()),
