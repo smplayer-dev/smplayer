@@ -5,7 +5,7 @@ SOURCES = main.c mongoose.c
 CFLAGS = -O2 -W -Wall -Werror -Wno-unused-function $(CFLAGS_EXTRA) $(MODULE_CFLAGS)
 
 ifeq ($(OS), Windows_NT)
-CFLAGS += -lws2_32
+CFLAGS += -lws2_32 -Wno-format
 CC = gcc
 DEL_FILE = del
 PROG := $(PROG).exe
