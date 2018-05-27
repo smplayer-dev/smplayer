@@ -136,6 +136,8 @@ protected slots:
 
 	void stretchWindow();
 	void shrinkWindow();
+
+	void updateShortcutsContext();
 #endif
 
 #ifdef SCREENS_SUPPORT

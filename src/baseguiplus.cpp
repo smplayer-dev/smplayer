@@ -214,6 +214,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	installFilterOnActions();
 #endif
 
+#if DOCK_PLAYLIST
+	QTimer::singleShot(200, this, SLOT(updateShortcutsContext()));
+#endif
+
 	retranslateStrings();
 	loadConfig();
 }
@@ -778,6 +782,19 @@ void BaseGuiPlus::shrinkWindow() {
 	}
 }
 
+void BaseGuiPlus::updateShortcutsContext() {
+	qDebug("BaseGuiPlus::updateShortcutsContext");
+
+	QObjectList list = children();
+	for (int n = 0; n < list.count(); n++) {
+		QString classname = list[n]->metaObject()->className();
+		if (classname == "QAction") {
+			//qDebug() << "BaseGuiPlus::updateShortcutsContext: object name:" << list[n]->objectName();
+			QAction *action = static_cast<QAction *>(list[n]);
+			action->setShortcutContext(Qt::WidgetWithChildrenShortcut);
+		}
+	}
+}
 #endif
 
 #ifdef GLOBALSHORTCUTS
