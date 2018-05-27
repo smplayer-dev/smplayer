@@ -220,6 +220,7 @@ protected:
 	bool fullscreen_playlist_was_floating;
 	bool compact_playlist_was_visible;
 	bool ignore_playlist_events;
+	bool use_player_shortcuts_in_playlist;
 #endif
 };
 
