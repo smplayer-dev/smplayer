@@ -88,7 +88,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	, fullscreen_playlist_was_floating(false)
 	, compact_playlist_was_visible(false)
 	, ignore_playlist_events(false)
-	, use_player_shortcuts_in_playlist(false)
 #endif
 {
 	// Initialize variables
@@ -433,7 +432,6 @@ void BaseGuiPlus::saveConfig() {
 	set->setValue( "fullscreen_playlist_was_floating", fullscreen_playlist_was_floating );
 	set->setValue( "compact_playlist_was_visible", compact_playlist_was_visible );
 	set->setValue( "ignore_playlist_events", ignore_playlist_events );
-	set->setValue( "use_player_shortcuts_in_playlist", use_player_shortcuts_in_playlist );
 #endif
 
 /*
@@ -467,7 +465,6 @@ void BaseGuiPlus::loadConfig() {
 	fullscreen_playlist_was_floating = set->value( "fullscreen_playlist_was_floating", fullscreen_playlist_was_floating ).toBool();
 	compact_playlist_was_visible = set->value( "compact_playlist_was_visible", compact_playlist_was_visible ).toBool();
 	ignore_playlist_events = set->value( "ignore_playlist_events", ignore_playlist_events ).toBool();
-	use_player_shortcuts_in_playlist = set->value( "use_player_shortcuts_in_playlist", use_player_shortcuts_in_playlist ).toBool();
 #endif
 
 /*
@@ -787,17 +784,13 @@ void BaseGuiPlus::shrinkWindow() {
 
 void BaseGuiPlus::updateShortcutsContext() {
 	qDebug("BaseGuiPlus::updateShortcutsContext");
-
-	Qt::ShortcutContext context = Qt::WindowShortcut;
-	if (!use_player_shortcuts_in_playlist) context = Qt::WidgetWithChildrenShortcut;
-
 	QObjectList list = children();
 	for (int n = 0; n < list.count(); n++) {
 		QString classname = list[n]->metaObject()->className();
 		if (classname == "QAction") {
 			//qDebug() << "BaseGuiPlus::updateShortcutsContext: object name:" << list[n]->objectName();
 			QAction *action = static_cast<QAction *>(list[n]);
-			action->setShortcutContext(context);
+			action->setShortcutContext(pref->use_player_shortcuts_in_playlist ? Qt::WindowShortcut : Qt::WidgetWithChildrenShortcut);
 		}
 	}
 }

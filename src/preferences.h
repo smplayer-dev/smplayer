@@ -480,6 +480,12 @@ public:
 	bool auto_add_to_playlist; //!< Add files to open to playlist
 	AutoAddToPlaylistFilter media_to_add_to_playlist;
 
+	// If false, the shortcuts from the main window won't work
+	// in the playlist.
+	// This option works only when the playlist use a docked widget
+	// and the window is floating.
+	bool use_player_shortcuts_in_playlist;
+
 #if LOGO_ANIMATION
 	bool animated_logo;
 #endif
