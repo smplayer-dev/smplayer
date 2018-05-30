@@ -26,7 +26,7 @@ class QToolButton;
 
 class FileChooser : public LineEditWithIcon
 {
-    Q_OBJECT
+	Q_OBJECT
 	Q_PROPERTY(QString text READ text WRITE setText)
 	Q_PROPERTY(QString caption READ caption WRITE setCaption)
 	Q_PROPERTY(QString filter READ filter WRITE setFilter)
@@ -36,8 +36,8 @@ class FileChooser : public LineEditWithIcon
 public:
 	enum DialogType { GetFileName = 0, GetDirectory = 1 };
 
-    FileChooser( QWidget* parent = 0 );
-    ~FileChooser();
+	FileChooser( QWidget* parent = 0 );
+	~FileChooser();
 
 	QString caption() const { return _caption; };
 	QString filter() const { return _filter; };

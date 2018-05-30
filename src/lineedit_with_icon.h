@@ -25,20 +25,20 @@ class QToolButton;
 
 class LineEditWithIcon : public QLineEdit
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    LineEditWithIcon(QWidget *parent = 0);
+	LineEditWithIcon(QWidget *parent = 0);
 
 	void setIcon(const QPixmap & pixmap);
 
 protected:
-    void resizeEvent(QResizeEvent *);
+	void resizeEvent(QResizeEvent *);
 	virtual void changeEvent(QEvent *);
 	virtual void setupButton();
 
 protected:
-    QToolButton *button;
+	QToolButton *button;
 };
 
 #endif

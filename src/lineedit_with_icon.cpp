@@ -40,14 +40,14 @@ void LineEditWithIcon::setIcon(const QPixmap & pixmap) {
 	button->setIcon(p);
 	button->setStyleSheet("QToolButton { border: none; padding: 0px; }");
 
-    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
+	int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
 	//qDebug("frameWidth: %d", frameWidth);
     setStyleSheet(QString("QLineEdit { padding-right: %1px; } ").arg(button->sizeHint().width() + frameWidth + 1));
-    /*
-    QSize msz = minimumSizeHint();
-    setMinimumSize(qMax(msz.width(), button->sizeHint().height() + frameWidth * 2 + 2),
+	/*
+	QSize msz = minimumSizeHint();
+	setMinimumSize(qMax(msz.width(), button->sizeHint().height() + frameWidth * 2 + 2),
                    qMax(msz.height(), button->sizeHint().height() + frameWidth * 2 + 2));
-    */
+	*/
 }
 
 void LineEditWithIcon::resizeEvent(QResizeEvent *) {
