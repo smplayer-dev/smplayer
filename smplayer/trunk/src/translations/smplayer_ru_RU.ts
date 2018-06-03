@@ -2053,112 +2053,112 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Восстановить</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
+        <location filename="../baseguiplus.cpp" line="919"/>
         <source>Information about connected screens</source>
         <translation>Информация о подключённых экранах</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Connected screens</source>
         <translation>Подключённые экраны</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="889"/>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="967"/>
         <source>Number of screens: %1</source>
         <translation>Количество экранов: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
-        <location filename="../baseguiplus.cpp" line="932"/>
+        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="968"/>
         <source>Primary screen: %1</source>
         <translation>Первичный экран: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
-        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Information for screen %1</source>
         <translation>Информация для экрана %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
-        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Доступная геометрия: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="942"/>
         <source>Available size: %1 x %2</source>
         <translation>Доступный размер: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="907"/>
+        <location filename="../baseguiplus.cpp" line="943"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Доступная виртуальная геометрия: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="911"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Доступный виртуальный размер: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="949"/>
         <source>Depth: %1 bits</source>
         <translation>Глубина: %1 бит</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="940"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="976"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Геометрия: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Logical DPI: %1</source>
         <translation>Логическое DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="954"/>
         <source>Physical DPI: %1</source>
         <translation>Физическое DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Физический размер: %1 x %2 мм</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Частота обновления: %1 Гц</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="922"/>
+        <location filename="../baseguiplus.cpp" line="958"/>
         <source>Size: %1 x %2</source>
         <translation>Размер: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Виртуальная геометрия: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="961"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Виртуальный размер: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="978"/>
+        <location filename="../baseguiplus.cpp" line="1014"/>
         <source>Primary screen</source>
         <translation>Первичный экран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1047"/>
+        <location filename="../baseguiplus.cpp" line="1083"/>
         <source>SMPlayer external screen output</source>
         <translation>Вывод SMPlayer на внешний экран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1095"/>
+        <location filename="../baseguiplus.cpp" line="1131"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Звуковое устройство по умолчанию</translation>
     </message>
@@ -2744,7 +2744,7 @@ Example: scale=512:-2,mirror</source>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation>Аудио фильтры. Используются аналогично видео фильтрам.
+        <translation>Аудиофильтры. Используются аналогично видеофильтрам.
 Пример: extrastereo,karaoke</translation>
     </message>
     <message>
@@ -2755,7 +2755,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
-        <translation>&amp;Видео фильтры:</translation>
+        <translation>&amp;Видеофильтры:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -3059,13 +3059,9 @@ Example: extrastereo,karaoke</source>
         <translation>Найти субтитры</translation>
     </message>
     <message>
-        <source>&amp;Subtitles for</source>
-        <translation type="obsolete">&amp;Субтитры для</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Видеофайл:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
@@ -5226,7 +5222,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="377"/>
         <source>V&amp;ideo filters:</source>
-        <translation>&amp;Видео фильтры:</translation>
+        <translation>&amp;Видеофильтры:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="586"/>
@@ -5281,7 +5277,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Ограничение: действия запускаются только при открытии файла, но не при перезапуске процесса %1 (например, при выборе аудио или видео фильтра).</translation>
+        <translation>Ограничение: действия запускаются только при открытии файла, но не при перезапуске процесса %1 (например, при выборе аудио или видеофильтра).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
@@ -5506,7 +5502,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Переключает %1 в экспериментальный режим, в котором тайминг видео кадров рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
+        <translation>Переключает %1 в экспериментальный режим, в котором тайминг кадров видео рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5918,7 +5914,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation>%1 указывает имя видео-файла без расширения, %2 добавляет четырёхзначный номер.</translation>
+        <translation>%1 указывает имя видеофайла без расширения, %2 добавляет четырёхзначный номер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -6444,12 +6440,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Включает/отключает отрисовку видео слоями/полосами по 16-пикселов высотой, вместо отрисовки целого кадра за один проход. Может быть быстрее или медленнее, в зависимости от видео карты и доступного кеша. Полезно только с кодеками libmpeg2 и libavcodec.</translation>
+        <translation>Включает/отключает отрисовку видео слоями/полосами по 16-пикселов высотой, вместо отрисовки целого кадра за один проход. Может быть быстрее или медленнее, в зависимости от видеокарты и доступного кеша. Полезно только с кодеками libmpeg2 и libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>Отри&amp;совывать видео с использованием слоёв</translation>
+        <translation>Ри&amp;совать видео с использованием слоёв</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
@@ -6584,7 +6580,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Если выбрано – включается прямой рендеринг (поддерживается не всеми кодеками и модулями видео вывода)&lt;br&gt;&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Могут возникнуть проблемы с OSD/субтитрами!</translation>
+        <translation>Если выбрано – включается прямой рендеринг (поддерживается не всеми кодеками и модулями видеовывода)&lt;br&gt;&lt;b&gt;ВНИМАНИЕ:&lt;/b&gt; Могут возникнуть проблемы с OSD/субтитрами!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
@@ -8716,7 +8712,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation>Попытаться использовать несвободный CoreAVC кодек, если не указаны другие кодеки и выбран не VDPAU видео выход.</translation>
+        <translation>Попытаться использовать несвободный CoreAVC кодек, если не указаны другие кодеки и выбран не VDPAU видео-выход.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="363"/>
@@ -8751,17 +8747,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="404"/>
         <source>Cache for VCDs</source>
-        <translation>Кэшировать видео CD</translation>
+        <translation>Кэшировать видео-CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования видео CD.</translation>
+        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования видео-CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>Кэш &amp;видео CD:</translation>
+        <translation>Кэш &amp;видео-CD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
@@ -8814,7 +8810,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
         <source>Video files</source>
-        <translation>Видео файлы</translation>
+        <translation>Видеофайлы</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="52"/>
@@ -8919,7 +8915,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation>&lt;b&gt;Видео файлы&lt;/b&gt;: все видео файлы, найденные в папке, будут добавлены</translation>
+        <translation>&lt;b&gt;Видео файлы&lt;/b&gt;: все видеофайлы, найденные в папке, будут добавлены</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
