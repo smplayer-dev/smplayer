@@ -2053,112 +2053,112 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>&amp;Visszaállítás</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="883"/>
+        <location filename="../baseguiplus.cpp" line="919"/>
         <source>Information about connected screens</source>
         <translation>Információ a csatlakoztatott képernyőkről</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="886"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Connected screens</source>
         <translation>Csatlakoztatott képernyők</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="889"/>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="967"/>
         <source>Number of screens: %1</source>
         <translation>Képernyők száma: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="894"/>
-        <location filename="../baseguiplus.cpp" line="932"/>
+        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="968"/>
         <source>Primary screen: %1</source>
         <translation>Elsődleges képernyő: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="902"/>
-        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Information for screen %1</source>
         <translation>Információ a %1 képernyőnek</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="904"/>
-        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Elérhető alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
+        <location filename="../baseguiplus.cpp" line="942"/>
         <source>Available size: %1 x %2</source>
         <translation>Elérhető méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="907"/>
+        <location filename="../baseguiplus.cpp" line="943"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Elérhető virtuális alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="911"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Elérhető virtuális méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="913"/>
+        <location filename="../baseguiplus.cpp" line="949"/>
         <source>Depth: %1 bits</source>
         <translation>Mélység: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="940"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="976"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Logical DPI: %1</source>
         <translation>Logikai DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="954"/>
         <source>Physical DPI: %1</source>
         <translation>Fizikai DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fizikai méret: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="921"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Frissítési arány: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="922"/>
+        <location filename="../baseguiplus.cpp" line="958"/>
         <source>Size: %1 x %2</source>
         <translation>Méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuális alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="961"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuális méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="978"/>
+        <location filename="../baseguiplus.cpp" line="1014"/>
         <source>Primary screen</source>
         <translation>Elsődleges képernyő</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1047"/>
+        <location filename="../baseguiplus.cpp" line="1083"/>
         <source>SMPlayer external screen output</source>
         <translation>Az SMPlayer külső képernyő kimenete</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1095"/>
+        <location filename="../baseguiplus.cpp" line="1131"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Alapértelmezett hang eszköz</translation>
     </message>
@@ -3058,10 +3058,6 @@ Példa: extrastereo,karaoke </translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
         <source>Find Subtitles</source>
         <translation>Feliratok keresése</translation>
-    </message>
-    <message>
-        <source>&amp;Subtitles for</source>
-        <translation type="obsolete">&amp;Feliratok -</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
