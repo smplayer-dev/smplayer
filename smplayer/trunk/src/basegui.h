@@ -327,7 +327,7 @@ protected slots:
 	virtual void changeStyleSheet(QString style);
 #endif
 
-	void applyStyles();
+	virtual void applyStyles();
 
 	virtual void setTabletMode(bool);
 
