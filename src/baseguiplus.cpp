@@ -579,6 +579,22 @@ void BaseGuiPlus::updateMediaInfo() {
 #endif
 }
 
+#ifdef FIX_DOCKPLAYLIST_STYLE
+void BaseGuiPlus::applyStyles() {
+	static bool initialized = false;
+	bool playlist_visible = playlistdock->isVisible();
+	if (!playlist_visible && !initialized) {
+		playlistdock->show();
+		qApp->processEvents();
+	}
+
+	BaseGui::applyStyles();
+
+	if (!playlist_visible && !initialized) playlistdock->hide();
+	initialized = true;
+}
+#endif
+
 void BaseGuiPlus::setWindowCaption(const QString & title) {
 #ifdef USE_SYSTRAY
 	tray->setToolTip( title );
