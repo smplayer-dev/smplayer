@@ -45,7 +45,7 @@
 #define CHECK_SHORTCUT_EVENTS
 #endif
 
-#if !defined(Q_OS_WIN) && defined(DOCK_PLAYLIST)
+#if !defined(Q_OS_WIN) && DOCK_PLAYLIST == 1
 // For some reason the style is not correctly
 // applied to the QTableView in the dockwidget
 // if the dockwidget is not visible.
