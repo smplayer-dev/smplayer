@@ -513,6 +513,7 @@ void Preferences::reset() {
 	media_to_add_to_playlist = NoFiles;
 
 	use_player_shortcuts_in_playlist = false;
+	dockable_playlist = true;
 
 #if LOGO_ANIMATION
 	animated_logo = true;
@@ -1059,6 +1060,7 @@ void Preferences::save() {
 	set->setValue("auto_add_to_playlist", auto_add_to_playlist);
 	set->setValue("media_to_add_to_playlist", media_to_add_to_playlist);
 	set->setValue("use_player_shortcuts_in_playlist", use_player_shortcuts_in_playlist);
+	set->setValue("dockable_playlist", dockable_playlist);
 
 #if LOGO_ANIMATION
 	set->setValue("animated_logo", animated_logo);
@@ -1657,6 +1659,7 @@ void Preferences::load() {
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 	media_to_add_to_playlist = (AutoAddToPlaylistFilter) set->value("media_to_add_to_playlist", media_to_add_to_playlist).toInt();
 	use_player_shortcuts_in_playlist = set->value("use_player_shortcuts_in_playlist", use_player_shortcuts_in_playlist).toBool();
+	dockable_playlist = set->value("dockable_playlist", dockable_playlist).toBool();
 
 #if LOGO_ANIMATION
 	animated_logo = set->value("animated_logo", animated_logo).toBool();

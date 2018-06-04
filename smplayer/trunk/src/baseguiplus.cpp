@@ -119,7 +119,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #endif
 
 #ifdef PLAYLIST_DOCKABLE
-	if (1) {
+	if (pref->dockable_playlist) {
 		// Playlistdock
 		playlistdock = new PlaylistDock(this);
 		playlistdock->setObjectName("playlistdock");
