@@ -47,17 +47,6 @@
 #define CHECK_SHORTCUT_EVENTS
 #endif
 
-#if !defined(Q_OS_WIN) && defined(PLAYLIST_DOCKABLE)
-// For some reason the style is not correctly
-// applied to the QTableView in the dockwidget
-// if the dockwidget is not visible.
-// This makes the widget temporary visible
-// before appling the style.
-// The problem doesn't seem to happen on Windows
-// so it's not use on that OS.
-//#define FIX_DOCKPLAYLIST_STYLE
-#endif
-
 class QMenu;
 class PlaylistDock;
 
@@ -127,9 +116,6 @@ protected slots:
 	virtual void setWindowCaption(const QString & title);
 	virtual void resizeWindow(int w, int h);
 	virtual void updateMediaInfo();
-#ifdef FIX_DOCKPLAYLIST_STYLE
-	virtual void applyStyles();
-#endif
 
 	// New
 #ifdef USE_SYSTRAY

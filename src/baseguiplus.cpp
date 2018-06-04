@@ -578,46 +578,6 @@ void BaseGuiPlus::updateMediaInfo() {
 #endif
 }
 
-#ifdef FIX_DOCKPLAYLIST_STYLE
-void BaseGuiPlus::applyStyles() {
-	if (!playlist->isWindow() && playlistdock) {
-		static bool initialized = false;
-		bool dock_visible = playlistdock->isVisible();
-		bool dock_floating = playlistdock->isFloating();
-		qDebug() << "BaseGuiPlus::applyStyles: dock visible:" << dock_visible << "dock floating:" << dock_floating;
-
-		if (!initialized && !dock_visible) {
-			if (dock_floating) {
-				playlistdock->show();
-				qApp->processEvents();
-			} else {
-				/*
-				playlistdock->setFloating(true);
-				playlistdock->show();
-				qApp->processEvents();
-				*/
-			}
-		}
-
-		BaseGui::applyStyles();
-
-		if (!initialized && !dock_visible) {
-			if (dock_floating) {
-				playlistdock->hide();
-			} else {
-				/*
-				playlistdock->setFloating(false);
-				playlistdock->hide();
-				*/
-			}
-		}
-		initialized = true;
-	} else {
-		BaseGui::applyStyles();
-	}
-}
-#endif
-
 void BaseGuiPlus::setWindowCaption(const QString & title) {
 #ifdef USE_SYSTRAY
 	tray->setToolTip( title );
