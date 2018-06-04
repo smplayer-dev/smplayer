@@ -55,7 +55,7 @@
 // before appling the style.
 // The problem doesn't seem to happen on Windows
 // so it's not use on that OS.
-#define FIX_DOCKPLAYLIST_STYLE
+//#define FIX_DOCKPLAYLIST_STYLE
 #endif
 
 class QMenu;

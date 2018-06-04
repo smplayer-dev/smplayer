@@ -84,6 +84,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #endif
 	, widgets_size(0)
 #ifdef PLAYLIST_DOCKABLE
+	, playlistdock(0)
 	, fullscreen_playlist_was_visible(false)
 	, fullscreen_playlist_was_floating(false)
 	, compact_playlist_was_visible(false)
@@ -118,40 +119,44 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #endif
 
 #ifdef PLAYLIST_DOCKABLE
-	// Playlistdock
-	playlistdock = new PlaylistDock(this);
-	playlistdock->setObjectName("playlistdock");
-	playlistdock->setFloating(false); // To avoid that the playlist is visible for a moment
-	playlistdock->setWidget(playlist);
-	playlistdock->setWindowTitle(playlist->windowTitle());
-	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
-                                  Qt::BottomDockWidgetArea
-	#if PLAYLIST_ON_SIDES
-                                  | Qt::LeftDockWidgetArea | 
-                                  Qt::RightDockWidgetArea
-	#endif
+	if (1) {
+		// Playlistdock
+		playlistdock = new PlaylistDock(this);
+		playlistdock->setObjectName("playlistdock");
+		playlistdock->setFloating(false); // To avoid that the playlist is visible for a moment
+		playlistdock->setWidget(playlist);
+		playlistdock->setWindowTitle(playlist->windowTitle());
+		playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
+	                                  Qt::BottomDockWidgetArea
+		#if PLAYLIST_ON_SIDES
+	                                  | Qt::LeftDockWidgetArea | 
+	                                  Qt::RightDockWidgetArea
+		#endif
                                   );
-	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
-	playlistdock->hide();
-	playlistdock->setFloating(true); // Floating by default
+		addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
+		playlistdock->hide();
+		playlistdock->setFloating(true); // Floating by default
 
-	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
-	connect(playlist, SIGNAL(windowTitleChanged(const QString &)), playlistdock, SLOT(setWindowTitle(const QString &)));
-	#if USE_DOCK_TOPLEVEL_EVENT
-	connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
-             this, SLOT(dockTopLevelChanged(bool)) );
-	#else
-	connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
-             this, SLOT(dockVisibilityChanged(bool)) );
-	#endif // USE_DOCK_TOPLEVEL_EVENT
+		connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
+		connect(playlist, SIGNAL(windowTitleChanged(const QString &)), playlistdock, SLOT(setWindowTitle(const QString &)));
+		#if USE_DOCK_TOPLEVEL_EVENT
+		connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
+	             this, SLOT(dockTopLevelChanged(bool)) );
+		#else
+		connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
+	             this, SLOT(dockVisibilityChanged(bool)) );
+		#endif // USE_DOCK_TOPLEVEL_EVENT
 
-	connect(this, SIGNAL(openFileRequested()), this, SLOT(showAll()));
+		connect(this, SIGNAL(openFileRequested()), this, SLOT(showAll()));
 
-	ignore_playlist_events = false;
-#else
-	connect(playlist, SIGNAL(visibilityChanged(bool)),
-            showPlaylistAct, SLOT(setChecked(bool)) );
-#endif // PLAYLIST_DOCKABLE
+		ignore_playlist_events = false;
+
+	} else
+#endif
+	{
+		connect(playlist, SIGNAL(visibilityChanged(bool)),
+                showPlaylistAct, SLOT(setChecked(bool)) );
+	}
 
 #ifdef DETACH_VIDEO_OPTION
 	detachVideoAct = new MyAction(this, "detach_video");
@@ -575,37 +580,41 @@ void BaseGuiPlus::updateMediaInfo() {
 
 #ifdef FIX_DOCKPLAYLIST_STYLE
 void BaseGuiPlus::applyStyles() {
-	static bool initialized = false;
-	bool dock_visible = playlistdock->isVisible();
-	bool dock_floating = playlistdock->isFloating();
-	qDebug() << "BaseGuiPlus::applyStyles: dock visible:" << dock_visible << "dock floating:" << dock_floating;
+	if (!playlist->isWindow() && playlistdock) {
+		static bool initialized = false;
+		bool dock_visible = playlistdock->isVisible();
+		bool dock_floating = playlistdock->isFloating();
+		qDebug() << "BaseGuiPlus::applyStyles: dock visible:" << dock_visible << "dock floating:" << dock_floating;
 
-	if (!initialized && !dock_visible) {
-		if (dock_floating) {
-			playlistdock->show();
-			qApp->processEvents();
-		} else {
-			/*
-			playlistdock->setFloating(true);
-			playlistdock->show();
-			qApp->processEvents();
-			*/
+		if (!initialized && !dock_visible) {
+			if (dock_floating) {
+				playlistdock->show();
+				qApp->processEvents();
+			} else {
+				/*
+				playlistdock->setFloating(true);
+				playlistdock->show();
+				qApp->processEvents();
+				*/
+			}
 		}
-	}
 
-	BaseGui::applyStyles();
+		BaseGui::applyStyles();
 
-	if (!initialized && !dock_visible) {
-		if (dock_floating) {
-			playlistdock->hide();
-		} else {
-			/*
-			playlistdock->setFloating(false);
-			playlistdock->hide();
-			*/
+		if (!initialized && !dock_visible) {
+			if (dock_floating) {
+				playlistdock->hide();
+			} else {
+				/*
+				playlistdock->setFloating(false);
+				playlistdock->hide();
+				*/
+			}
 		}
+		initialized = true;
+	} else {
+		BaseGui::applyStyles();
 	}
-	initialized = true;
 }
 #endif
 
@@ -738,6 +747,8 @@ void BaseGuiPlus::showPlaylist(bool b) {
 		qDebug("BaseGuiPlus::showPlaylist (after): playlist visible: %d", playlistdock->isVisible());
 		qDebug("BaseGuiPlus::showPlaylist (after): playlist position: %d, %d", playlistdock->pos().x(), playlistdock->pos().y());
 		qDebug("BaseGuiPlus::showPlaylist (after): playlist size: %d x %d", playlistdock->size().width(), playlistdock->size().height());
+	} else {
+		BaseGui::showPlaylist(b);
 	}
 }
 
