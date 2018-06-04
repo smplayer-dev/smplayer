@@ -126,10 +126,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	playlistdock->setWindowTitle(playlist->windowTitle());
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
                                   Qt::BottomDockWidgetArea
-#if PLAYLIST_ON_SIDES
+	#if PLAYLIST_ON_SIDES
                                   | Qt::LeftDockWidgetArea | 
                                   Qt::RightDockWidgetArea
-#endif
+	#endif
                                   );
 	addDockWidget(Qt::BottomDockWidgetArea, playlistdock);
 	playlistdock->hide();
@@ -137,17 +137,20 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
 	connect(playlist, SIGNAL(windowTitleChanged(const QString &)), playlistdock, SLOT(setWindowTitle(const QString &)));
-#if USE_DOCK_TOPLEVEL_EVENT
+	#if USE_DOCK_TOPLEVEL_EVENT
 	connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
              this, SLOT(dockTopLevelChanged(bool)) );
-#else
+	#else
 	connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
              this, SLOT(dockVisibilityChanged(bool)) );
-#endif // USE_DOCK_TOPLEVEL_EVENT
+	#endif // USE_DOCK_TOPLEVEL_EVENT
 
 	connect(this, SIGNAL(openFileRequested()), this, SLOT(showAll()));
 
 	ignore_playlist_events = false;
+#else
+	connect(playlist, SIGNAL(visibilityChanged(bool)),
+            showPlaylistAct, SLOT(setChecked(bool)) );
 #endif // DOCK_PLAYLIST
 
 #ifdef DETACH_VIDEO_OPTION

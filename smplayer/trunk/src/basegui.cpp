@@ -231,11 +231,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	}
 #endif
 
-#if !DOCK_PLAYLIST
-	connect(playlist, SIGNAL(visibilityChanged(bool)),
-            showPlaylistAct, SLOT(setChecked(bool)) );
-#endif
-
 	retranslateStrings();
 
 	setAcceptDrops(true);
@@ -358,12 +353,10 @@ BaseGui::~BaseGui() {
 	delete radiolist;
 #endif
 
-//#if !DOCK_PLAYLIST
 	if (playlist) {
 		delete playlist;
 		playlist = 0;
 	}
-//#endif
 
 #ifdef FIND_SUBTITLES
 	if (find_subs_dialog) {
@@ -2459,11 +2452,7 @@ void BaseGui::createAudioEqualizer() {
 }
 
 void BaseGui::createPlaylist() {
-#if DOCK_PLAYLIST
-	playlist = new Playlist(this, 0);
-#else
 	playlist = new Playlist(0);
-#endif
 	playlist->setConfigPath(Paths::configPath());
 
 	connect( playlist, SIGNAL(playlistEnded()),
@@ -3144,9 +3133,10 @@ void BaseGui::showPreferencesDialog() {
 
 	pref_dialog->mod_input()->actions_editor->clear();
 	pref_dialog->mod_input()->actions_editor->addActions(this);
-#if !DOCK_PLAYLIST
-	pref_dialog->mod_input()->actions_editor->addActions(playlist);
-#endif
+
+	if (playlist->isWindow()) { // No dockable
+		pref_dialog->mod_input()->actions_editor->addActions(playlist);
+	}
 
 	// Set playlist preferences
 	PrefPlaylist * pl = pref_dialog->mod_playlist();
@@ -3956,13 +3946,9 @@ void BaseGui::updateWidgets() {
 	audioEqualizerAct->setChecked( audio_equalizer->isVisible() );
 
 	// Playlist
-#if !DOCK_PLAYLIST
-	//showPlaylistAct->setChecked( playlist->isVisible() );
-#endif
-
-#if DOCK_PLAYLIST
-	showPlaylistAct->setChecked( playlist->isVisible() );
-#endif
+	if (!playlist->isWindow()) { // Dockable
+		showPlaylistAct->setChecked( playlist->isVisible() );
+	}
 
 	// Compact mode
 	compactAct->setChecked( pref->compact_mode );
@@ -4058,16 +4044,6 @@ void BaseGui::changeVideoEqualizerBySoftware(bool b) {
 		core->restart();
 	}
 }
-
-/*
-void BaseGui::playlistVisibilityChanged() {
-#if !DOCK_PLAYLIST
-	bool visible = playlist->isVisible();
-
-	showPlaylistAct->setChecked( visible );
-#endif
-}
-*/
 
 /*
 void BaseGui::openRecent(int item) {
@@ -5854,23 +5830,26 @@ void BaseGui::setTabletMode(bool b) {
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");
 	ActionsEditor::loadFromConfig(this, settings);
-#if !DOCK_PLAYLIST
-	ActionsEditor::loadFromConfig(playlist, settings);
-#endif
+
+	if (playlist->isWindow()) { // No dockable
+		ActionsEditor::loadFromConfig(playlist, settings);
+	}
 
 	actions_list = ActionsEditor::actionsNames(this);
-#if !DOCK_PLAYLIST
-	actions_list += ActionsEditor::actionsNames(playlist);
-#endif
+
+	if (playlist->isWindow()) { // No dockable
+		actions_list += ActionsEditor::actionsNames(playlist);
+	}
 }
 
 void BaseGui::saveActions() {
 	qDebug("BaseGui::saveActions");
 
 	ActionsEditor::saveToConfig(this, settings);
-#if !DOCK_PLAYLIST
-	ActionsEditor::saveToConfig(playlist, settings);
-#endif
+
+	if (playlist->isWindow()) { // No dockable
+		ActionsEditor::saveToConfig(playlist, settings);
+	}
 }
 
 void BaseGui::processMouseMovedDiff(QPoint diff) {
