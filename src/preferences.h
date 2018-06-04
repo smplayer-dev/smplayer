@@ -486,6 +486,10 @@ public:
 	// and the window is floating.
 	bool use_player_shortcuts_in_playlist;
 
+	// If true, the playlist can be docked in the main window
+	// otherwise it will be just a regular window.
+	bool dockable_playlist;
+
 #if LOGO_ANIMATION
 	bool animated_logo;
 #endif
