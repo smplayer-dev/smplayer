@@ -32,10 +32,6 @@
 #include "mediabarpanel.h"
 #include "actionseditor.h"
 
-#if DOCK_PLAYLIST
-#include "playlistdock.h"
-#endif
-
 #include <QMenu>
 #include <QSettings>
 #include <QLabel>
@@ -621,12 +617,6 @@ void SkinGui::loadConfig() {
 #endif
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
-
-#if DOCK_PLAYLIST
-	qDebug("SkinGui::loadConfig: playlist visible: %d", playlistdock->isVisible());
-	qDebug("SkinGui::loadConfig: playlist position: %d, %d", playlistdock->pos().x(), playlistdock->pos().y());
-	qDebug("SkinGui::loadConfig: playlist size: %d x %d", playlistdock->size().width(), playlistdock->size().height());
-#endif
 
 	set->endGroup();
 
