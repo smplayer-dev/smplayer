@@ -24,6 +24,8 @@
 #include <QPoint>
 #include "guiconfig.h"
 
+#define DOCK_PLAYLIST 1
+
 #define USE_SYSTRAY
 #ifdef USE_SYSTRAY
 #include <QSystemTrayIcon>

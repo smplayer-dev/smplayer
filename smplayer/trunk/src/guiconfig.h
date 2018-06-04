@@ -21,13 +21,6 @@
 
 #include <QtGlobal>
 
-// DOCK_PLAYLIST
-// if 1, the playlist will be docked in the main window, instead
-// of being a top level window
-
-#define DOCK_PLAYLIST 1
-
-
 // AUTODISABLE_ACTIONS
 // if set to 1, some actions will be disabled if they are not needed
 
