@@ -24,7 +24,7 @@
 #include <QPoint>
 #include "guiconfig.h"
 
-#define DOCK_PLAYLIST 1
+#define PLAYLIST_DOCKABLE
 
 #define USE_SYSTRAY
 #ifdef USE_SYSTRAY
@@ -47,7 +47,7 @@
 #define CHECK_SHORTCUT_EVENTS
 #endif
 
-#if !defined(Q_OS_WIN) && DOCK_PLAYLIST == 1
+#if !defined(Q_OS_WIN) && defined(PLAYLIST_DOCKABLE)
 // For some reason the style is not correctly
 // applied to the QTableView in the dockwidget
 // if the dockwidget is not visible.
@@ -141,15 +141,15 @@ protected slots:
 #endif
 	virtual void quit();
 
-#if DOCK_PLAYLIST
+#ifdef PLAYLIST_DOCKABLE
 	virtual void showPlaylist(bool b);
 	void playlistClosed();
 
-#if !USE_DOCK_TOPLEVEL_EVENT
+	#if !USE_DOCK_TOPLEVEL_EVENT
 	void dockVisibilityChanged(bool visible);
-#else
+	#else
 	void dockTopLevelChanged(bool floating);
-#endif
+	#endif
 
 	void stretchWindow();
 	void shrinkWindow();
@@ -231,7 +231,7 @@ protected:
 
 	int widgets_size; // To be able to restore the original size after exiting from compact mode
 
-#if DOCK_PLAYLIST
+#ifdef PLAYLIST_DOCKABLE
 	PlaylistDock * playlistdock;
 	bool fullscreen_playlist_was_visible;
 	bool fullscreen_playlist_was_floating;
