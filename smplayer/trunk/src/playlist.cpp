@@ -305,14 +305,15 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 
 	retranslateStrings();
 
-#if !DOCK_PLAYLIST
-	setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Expanding );
-	adjustSize();
-#else
-	//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Expanding );
-	//setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
-	setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Preferred );
-#endif
+	// FIXME: check if this is really necessary
+	if (isWindow()) { // No dockable
+		setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Expanding );
+		adjustSize();
+	} else {
+		//setSizePolicy( QSizePolicy::Maximum, QSizePolicy::Expanding );
+		//setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Preferred );
+		setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Preferred );
+	}
 
 	setAcceptDrops(true);
 	setAttribute(Qt::WA_NoMousePropagation);
@@ -2230,9 +2231,9 @@ void Playlist::saveSettings() {
 
 	set->setValue( "row_spacing", row_spacing );
 
-#if !DOCK_PLAYLIST
-	set->setValue( "size", size() );
-#endif
+	if (isWindow()) { // No dockable
+		set->setValue( "size", size() );
+	}
 
 #ifdef PLAYLIST_DELETE_FROM_DISK
 	set->setValue("allow_delete_from_disk", allow_delete_from_disk);
@@ -2312,9 +2313,9 @@ void Playlist::loadSettings() {
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
 
-#if !DOCK_PLAYLIST
-	resize( set->value("size", size()).toSize() );
-#endif
+	if (isWindow()) { // No dockable
+		resize( set->value("size", size()).toSize() );
+	}
 
 #ifdef PLAYLIST_DELETE_FROM_DISK
 	allow_delete_from_disk = set->value("allow_delete_from_disk", allow_delete_from_disk).toBool();
