@@ -223,6 +223,10 @@ void PrefPlaylist::createHelp() {
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
 
+	setWhatsThis(dockable_check, tr("The playlist window is dockable"),
+		tr("If this option is checked, the playlist window can be docked inside the main window. "
+           "Otherwise the playlist would be a regular window."));
+
 	addSectionTitle(tr("Misc"));
 
 	setWhatsThis(autosort_check, tr("Auto sort"),
