@@ -3280,23 +3280,17 @@ void BaseGui::applyNewPreferences() {
 
 	emit preferencesChanged();
 
-	if (_interface->guiChanged()) {
-#ifdef GUI_CHANGE_ON_RUNTIME
-		if (core->state() != Core::Stopped) core->stop();
-		emit guiChanged(pref->gui);
-#else
-		QMessageBox::information(this, tr("Information"),
-			tr("You need to restart SMPlayer to use the new GUI.") );
-#endif
-	}
+	bool need_restart_gui = (_interface->guiChanged() || pl->dockableChanged() ||
+                             old_player_type != PlayerID::player(pref->mplayer_bin));
+	qDebug() << "BaseGui::applyNewPreferences: need_restart_gui:" << need_restart_gui;
 
-	if (old_player_type != PlayerID::player(pref->mplayer_bin)) {
-		qDebug("BaseGui::applyNewPreferences: player changed!");
-		// Hack, simulate a change of GUI to restart the interface
-		// FIXME: try to create a new Core::proc in the future
+	if (need_restart_gui) {
 		#ifdef GUI_CHANGE_ON_RUNTIME
 		if (core->state() != Core::Stopped) core->stop();
 		emit guiChanged(pref->gui);
+		#else
+		QMessageBox::information(this, tr("Information"),
+			tr("You need to restart SMPlayer in order to apply the new preferences.") );
 		#endif
 	}
 }

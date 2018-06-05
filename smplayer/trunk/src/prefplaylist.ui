@@ -145,6 +145,20 @@
         </widget>
        </item>
        <item>
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="dockable_check">
+         <property name="text">
+          <string>The playlist window is &amp;dockable</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -221,6 +235,7 @@
   <tabstop>media_to_add_combo</tabstop>
   <tabstop>recursive_check</tabstop>
   <tabstop>getinfo_check</tabstop>
+  <tabstop>dockable_check</tabstop>
   <tabstop>autosort_check</tabstop>
   <tabstop>case_sensitive_search_check</tabstop>
   <tabstop>autosave_on_exit_check</tabstop>
