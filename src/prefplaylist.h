@@ -42,7 +42,6 @@ public:
     // Apply changes
 	void getData(Preferences * pref);
 
-
 	void setDirectoryRecursion(bool b);
 	bool directoryRecursion();
 
@@ -75,6 +74,8 @@ public:
 	bool isDeleteFromDiskAllowed();
 #endif
 
+	bool dockableChanged() { return dockable_changed; };
+
 protected:
 	virtual void createHelp();
 
@@ -86,6 +87,9 @@ protected:
 
 protected:
 	virtual void retranslateStrings();
+
+private:
+	bool dockable_changed;
 };
 
 #endif

@@ -22,6 +22,7 @@
 
 PrefPlaylist::PrefPlaylist(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
+	, dockable_changed(false)
 {
 	setupUi(this);
 	retranslateStrings();
@@ -60,13 +61,21 @@ void PrefPlaylist::retranslateStrings() {
 void PrefPlaylist::setData(Preferences * pref) {
 	setAutoAddFilesToPlaylist( pref->auto_add_to_playlist );
 	setMediaToAdd( pref->media_to_add_to_playlist );
+
+	dockable_check->setChecked(pref->dockable_playlist);
 }
 
 void PrefPlaylist::getData(Preferences * pref) {
 	requires_restart = false;
+	dockable_changed = false;
 
 	pref->auto_add_to_playlist = autoAddFilesToPlaylist();
 	pref->media_to_add_to_playlist = (Preferences::AutoAddToPlaylistFilter) mediaToAdd();
+
+	if (pref->dockable_playlist != dockable_check->isChecked()) {
+		dockable_changed = true;
+		pref->dockable_playlist = dockable_check->isChecked();
+	}
 }
 
 void PrefPlaylist::setAutoAddFilesToPlaylist(bool b) {
