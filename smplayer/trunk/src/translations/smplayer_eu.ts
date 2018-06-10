@@ -1316,7 +1316,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer berrabiarazi behar duzu hobespen berriak ezartzeko.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1504,10 +1504,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../basegui.cpp" line="4028"/>
         <source>Information</source>
         <translation>Argibideak</translation>
-    </message>
-    <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">SMPlayer berrabiarazi behar duzu EIG berria erabiltzeko.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3783"/>
@@ -8868,12 +8864,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakur-zerrenda leihoa uztargarria da</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautaturik badago, irakur-zerrenda leiho leiho nagusiaren alboan uztartu daiteke. Bestela irakur-zerrenda leiho arrunt bat izango da.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9043,7 +9039,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakur-zerrenda leihoa &amp;uztargarria da</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

@@ -1507,10 +1507,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Информације</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Морате поново покренути СМПлејер да би користили нови интерфејс.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Подврдите брисање - СМПлејер</translation>

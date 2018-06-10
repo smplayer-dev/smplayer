@@ -1316,7 +1316,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda perlu restart SMPlayer untuk menerapkan preferensi baru</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1504,10 +1504,6 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
         <location filename="../basegui.cpp" line="4028"/>
         <source>Information</source>
         <translation>Informasi</translation>
-    </message>
-    <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Anda perlu menghidupkan ulang SMPlayer untuk menggunakan Antarmuka Pengguna yang baru.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3783"/>
@@ -8868,12 +8864,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Jendela daftar putar bisa disematkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika opsi ini dicentang, jendela daftar putar bisa disematkan di jendela utama. Sebaliknya, daftar putar akan menjadi jendela biasa.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9043,7 +9039,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Jendela daftar putar bisa &amp;disematkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

@@ -1316,7 +1316,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tem que reiniciar o SMPlayer para aplicar as alterações.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1504,10 +1504,6 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../basegui.cpp" line="4028"/>
         <source>Information</source>
         <translation>Informações</translation>
-    </message>
-    <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Tem que reiniciar o SMPlayer para utilizar a nova interface.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3783"/>
@@ -8868,12 +8864,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Acoplamento da janela da lista de reprodução </translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, a janela da lista de reprodução pode ser acoplada na janela principal. Caso contrário, a lista de reprodução terá a sua própria janela.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9043,7 +9039,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Acoplamento &amp;da janela da lista de reprodução </translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
