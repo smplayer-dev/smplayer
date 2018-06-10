@@ -1506,10 +1506,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Bạn cần khởi động lại SMPlayer để sử dụng GUI mới.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Xác nhận thao tác xóa - SMPlayer</translation>

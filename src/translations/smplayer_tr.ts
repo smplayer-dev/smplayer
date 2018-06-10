@@ -1506,10 +1506,6 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Bu yeni GUI kullanmak için SMPlayer&apos;ı yeniden başlatmanız gerekir.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Silmeyi onayla - SMPlayer</translation>

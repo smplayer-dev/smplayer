@@ -1506,10 +1506,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Información</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Es necesario reiniciar SMPlayer para usar el nuevo GUI.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmar el borrado - SMPlayer</translation>
@@ -1861,14 +1857,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1806"/>
         <source>Se&amp;t delay...</source>
         <translation>&amp;Especificar retraso...</translation>
-    </message>
-    <message>
-        <source>&amp;Jump to:</source>
-        <translation type="obsolete">&amp;Saltar a:</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Saltar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
@@ -3068,10 +3056,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
         <source>Find Subtitles</source>
         <translation>Buscar Subtítulos</translation>
-    </message>
-    <message>
-        <source>&amp;Subtitles for</source>
-        <translation type="obsolete">&amp;Subtítulos para</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
@@ -4821,13 +4805,6 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
-    <name>MplayerProcess</name>
-    <message>
-        <source>This option is not supported by MPlayer</source>
-        <translation type="obsolete">Esta opción no está soportada por MPlayer</translation>
-    </message>
-</context>
-<context>
     <name>MultilineInputDialog</name>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
@@ -5230,10 +5207,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
         <translation>Posición de la barra O&amp;SD:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -8009,10 +7982,6 @@ Do you want to overwrite?</source>
         <translation>Si se activa esta opción, la búsqueda será más exacta pero puede ser un poco más lenta. Puede que no funcione con todos los formatos de vídeo.</translation>
     </message>
     <message>
-        <source>Note: this option only works with MPlayer2</source>
-        <translation type="obsolete">Importante: esta opción sólo funciona con MPlayer2</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
         <translation>Búsqueda &amp;precisa</translation>
@@ -10729,10 +10698,6 @@ Do you want to overwrite?</source>
         <location filename="../videopreview/videopreview.cpp" line="517"/>
         <source>Video format: %1</source>
         <translation>Formato de vídeo: %1</translation>
-    </message>
-    <message>
-        <source>Frames per second: %1</source>
-        <translation type="obsolete">Imágenes por segundo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="520"/>

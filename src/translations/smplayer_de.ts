@@ -1507,10 +1507,6 @@ Das könnte das Problem beheben.</translation>
         <translation>Informationen</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">SMPlayer muss neu gestartet werden, um die neue Benutzeroberfläche zu benutzen.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Löschvorgang bestätigen - SMPlayer</translation>

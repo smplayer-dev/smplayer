@@ -1506,10 +1506,6 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Du skal genstarte SMPlayer for at bruge den nye grafiske brugerflade.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Bekræft sletning - SMPlayer</translation>

@@ -1506,10 +1506,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Informace</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">K zobrazení nového GUI musíte restartovat SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Potvrdit vymazání - SMPlayer</translation>

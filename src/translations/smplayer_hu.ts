@@ -1506,10 +1506,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Információ</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Újra kell indítanod az SMPlayer-t az új GUI használatához.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Törlés megerősítése - SMPlayer</translation>

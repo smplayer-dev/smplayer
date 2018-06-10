@@ -1506,10 +1506,6 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <translation>Informació</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Heu de reiniciar SMPlayer per utilitzar la nova IGU.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmació de la supressió - SMPlayer</translation>

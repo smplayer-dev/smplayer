@@ -1316,7 +1316,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Debe reiniciar o SMPlayer para que se apliquen as novas preferencias.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1504,10 +1504,6 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <location filename="../basegui.cpp" line="4028"/>
         <source>Information</source>
         <translation>Información</translation>
-    </message>
-    <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Necesitas reiniciar SMPlayer para empregar a nova interface.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3783"/>
@@ -8868,12 +8864,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>A xanela das listas de reprodución é ancorábel</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opción está marcada, a xanela das listas de reprodución poderá ancorarse dentro da xanela principal. En caso contrario, as listas de reprodución usarán unha xanela normal.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9043,7 +9039,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>A xanela das listas de repro&amp;dución é ancorábel</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

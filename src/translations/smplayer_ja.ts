@@ -1316,7 +1316,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>新しい環境設定を適用するには SMPlayer を再起動する必要があります。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1504,10 +1504,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4028"/>
         <source>Information</source>
         <translation>情報</translation>
-    </message>
-    <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">新しい GUI を使用するには SMPlayer を再起動する必要があります。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3783"/>
@@ -8867,12 +8863,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイリスト ウィンドウをドック可能にする</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、プレイリスト ウィンドウはメイン ウィンドウ内にドックできるようになります。チェックされていない場合、プレイリストは通常のウィンドウになります。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9042,7 +9038,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>プレイリスト ウィンドウをドック可能にする(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

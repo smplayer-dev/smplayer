@@ -1506,10 +1506,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Information</translation>
     </message>
     <message>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="obsolete">Un redémarrage de SMPlayer est nécessaire pour utiliser la nouvelle interface. </translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3783"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmer la suppression - SMPlayer</translation>
