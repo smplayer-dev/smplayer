@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;OK</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -989,12 +989,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1746"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SKjermbilde med undertekstar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1747"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Skjermbilde utan undertekstar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
@@ -1398,7 +1398,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../basegui.cpp" line="6060"/>
         <location filename="../basegui.cpp" line="6113"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>meir info i loggen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6066"/>
@@ -2984,7 +2984,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Koplar til…</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -3058,7 +3058,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Videofil:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
@@ -8040,7 +8040,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="233"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokal &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
@@ -8060,7 +8060,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skriv over eksisterande VTT-filer</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>

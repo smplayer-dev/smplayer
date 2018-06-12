@@ -1316,7 +1316,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musisz ponownie uruchomić SMPlayera, aby zastosować nowe ustawienia.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -3061,7 +3061,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>Plik &amp;wideo:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
@@ -8866,12 +8866,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Okno listy odtwarzania jest dokowalne</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, okno listy odtwarzania może zostać zadokowane w głównym oknie. W przeciwnym razie lista odtwarzania będzie zwykłym oknem.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9041,7 +9041,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Okno listy odtwarzania jest &amp;dokowalne</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
