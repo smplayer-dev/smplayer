@@ -1,3 +1,17 @@
+Version 18.6:
+
+(2018-06-05)
+ * Add an option in the playlist preferences to select if the playlist is
+   dockable inside the main window (old behaviour) or just a normal
+   window (new).
+
+(2018-05-27)
+ * Update the mongoose code which is used by the web server for the chromecast
+   feature. The old one failed to compiled with newer versions of gcc and
+   it seems it had several vulnerabilities.
+ * Add option use_player_shortcuts_in_playlist for smplayer.ini.
+
+
 Version 18.5:
 
 (2018-05-20)
