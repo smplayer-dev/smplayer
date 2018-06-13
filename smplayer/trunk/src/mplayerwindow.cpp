@@ -118,6 +118,12 @@ void Screen::playingStarted() {
 void Screen::playingStopped() {
 	qDebug("Screen::playingStopped");
 	setAutoHideCursor(false);
+
+#ifdef Q_OS_WIN
+	// For an unknown reason the cursor remains in the wait state after stop
+	// this sets it to normal
+	unsetCursor();
+#endif
 }
 
 /* ---------------------------------------------------------------------- */
