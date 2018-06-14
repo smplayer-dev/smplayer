@@ -1,5 +1,9 @@
 Version 18.6:
 
+(2018-06-13)
+ * Fix the "busy" cursor when using the functions play previous/next
+   on Windows 10.
+
 (2018-06-05)
  * Add an option in the playlist preferences to select if the playlist is
    dockable inside the main window (old behaviour) or just a normal
