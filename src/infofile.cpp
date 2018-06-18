@@ -125,13 +125,33 @@ QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks 
 
 	// Video info
 	if (!md.novideo) {
-		s += openPar( tr("Video") );
+		s += openPar( tr("Initial Video Stream") );
 		s += addItem( tr("Resolution"), QString("%1 x %2").arg(md.video_width).arg(md.video_height) );
 		s += addItem( tr("Aspect ratio"), QString::number(md.video_aspect) );
 		s += addItem( tr("Format"), md.video_format );
 		s += addItem( tr("Bitrate"), tr("%1 kbps").arg(md.video_bitrate / 1000) );
 		s += addItem( tr("Frames per second"), md.video_fps );
 		s += addItem( tr("Selected codec"), md.video_codec );
+		s += closePar();
+	}
+
+	// Video Tracks
+	if (videos.numItems() > 0) {
+		s += openPar( tr("Video Streams") );
+		s += addTrackColumns( QStringList() << "#" << tr("Language") << tr("Name") << "ID" );
+
+		for (int n = 0; n < videos.numItems(); n++) {
+			#ifndef INFO_SIMPLE_LAYOUT
+			row++;
+			#endif
+			s += openItem();
+			QString lang = videos.itemAt(n).lang();
+			//if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			QString name = videos.itemAt(n).name();
+			//if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			s += addTrack(n, lang, name, videos.itemAt(n).ID());
+			s += closeItem();
+		}
 		s += closePar();
 	}
 
@@ -155,9 +175,9 @@ QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks 
 			#endif
 			s += openItem();
 			QString lang = audios.itemAt(n).lang();
-			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			//if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
 			QString name = audios.itemAt(n).name();
-			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			//if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
 			s += addTrack(n, lang, name, audios.itemAt(n).ID());
 			s += closeItem();
 		}
@@ -180,9 +200,9 @@ QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks 
 				default:			t = "SUB";
 			}
 			QString lang = subs.itemAt(n).lang();
-			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			//if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
 			QString name = subs.itemAt(n).name();
-			if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
+			//if (name.isEmpty()) name = "<i>&lt;"+tr("undefined")+"&gt;</i>";
 			s += addTrack(n, lang, name, subs.itemAt(n).ID(), t);
 			s += closeItem();
 		}
@@ -228,8 +248,8 @@ QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString ty
 	QString s = "<b>" + tr("Track %1").arg(n) + "</b>";
 	#if 1
 	s += "<ul>";
-	s += "<li>" + tr("Language: %1").arg(lang) + "</li>";
-	s += "<li>" + tr("Name: %1").arg(name) + "</li>";
+	if (!lang.isEmpty()) s += "<li>" + tr("Language: %1").arg(lang) + "</li>";
+	if (!name.isEmpty()) s += "<li>" + tr("Name: %1").arg(name) + "</li>";
 	s += "<li>" + tr("ID: %1").arg(ID) + "</li>";
 	if (!type.isEmpty()) {
 		s += "<li>" + tr("Type: %1").arg(type) + "</li>";
