@@ -3227,8 +3227,9 @@ Tjek rettighederne for den mappe.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
@@ -3283,9 +3284,8 @@ Tjek rettighederne for den mappe.</translation>
         <translation>Info om klip</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="128"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="obsolete">Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -3299,19 +3299,19 @@ Tjek rettighederne for den mappe.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="140"/>
+        <location filename="../infofile.cpp" line="160"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
         <translation>Bithastighed</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
@@ -3322,85 +3322,92 @@ Tjek rettighederne for den mappe.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
         <translation>Valgt codec</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="139"/>
+        <location filename="../infofile.cpp" line="140"/>
+        <source>Video Streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
         <translation>Første lydstrøm</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
         <translation>Hastighed</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="143"/>
+        <location filename="../infofile.cpp" line="163"/>
         <source>Channels</source>
         <translation>Kanaler</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
         <translation>Lydstrøm</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Sprog</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="158"/>
-        <location filename="../infofile.cpp" line="160"/>
-        <location filename="../infofile.cpp" line="183"/>
-        <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation>udefineret</translation>
+        <translation type="obsolete">udefineret</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="228"/>
+        <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
         <translation>Spor %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="231"/>
-        <location filename="../infofile.cpp" line="239"/>
+        <location filename="../infofile.cpp" line="251"/>
+        <location filename="../infofile.cpp" line="259"/>
         <source>Language: %1</source>
         <translation>Sprog: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="232"/>
-        <location filename="../infofile.cpp" line="240"/>
+        <location filename="../infofile.cpp" line="252"/>
+        <location filename="../infofile.cpp" line="260"/>
         <source>Name: %1</source>
         <translation>Navn: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="233"/>
-        <location filename="../infofile.cpp" line="241"/>
+        <location filename="../infofile.cpp" line="253"/>
+        <location filename="../infofile.cpp" line="261"/>
         <source>ID: %1</source>
         <translation>ID: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="235"/>
-        <location filename="../infofile.cpp" line="243"/>
+        <location filename="../infofile.cpp" line="255"/>
+        <location filename="../infofile.cpp" line="263"/>
         <source>Type: %1</source>
         <translation>Type: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
         <translation>Undertekster</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="128"/>
+        <source>Initial Video Stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
