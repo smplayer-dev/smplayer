@@ -3226,8 +3226,9 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Name</source>
         <translation>İsim</translation>
     </message>
@@ -3282,9 +3283,8 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Parça hakkında bilgi</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="128"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="obsolete">Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -3298,19 +3298,19 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="140"/>
+        <location filename="../infofile.cpp" line="160"/>
         <source>Format</source>
         <translation>Biçim</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
         <translation>Bitrate</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>%1 kbps</source>
         <translation>Saniyede %1 kb</translation>
     </message>
@@ -3321,85 +3321,92 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
         <translation>Seçilen kodlayıcı</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="139"/>
+        <location filename="../infofile.cpp" line="140"/>
+        <source>Video Streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
         <translation>İlk Ses Akışı</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
         <translation>Oran</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="143"/>
+        <location filename="../infofile.cpp" line="163"/>
         <source>Channels</source>
         <translation>Kanallar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
         <translation>Ses Akımları</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Dil</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="158"/>
-        <location filename="../infofile.cpp" line="160"/>
-        <location filename="../infofile.cpp" line="183"/>
-        <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation>Tanımlanmamış</translation>
+        <translation type="obsolete">Tanımlanmamış</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="228"/>
+        <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
         <translation>Parça %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="231"/>
-        <location filename="../infofile.cpp" line="239"/>
+        <location filename="../infofile.cpp" line="251"/>
+        <location filename="../infofile.cpp" line="259"/>
         <source>Language: %1</source>
         <translation>Dil: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="232"/>
-        <location filename="../infofile.cpp" line="240"/>
+        <location filename="../infofile.cpp" line="252"/>
+        <location filename="../infofile.cpp" line="260"/>
         <source>Name: %1</source>
         <translation>Ad: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="233"/>
-        <location filename="../infofile.cpp" line="241"/>
+        <location filename="../infofile.cpp" line="253"/>
+        <location filename="../infofile.cpp" line="261"/>
         <source>ID: %1</source>
         <translation>ID: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="235"/>
-        <location filename="../infofile.cpp" line="243"/>
+        <location filename="../infofile.cpp" line="255"/>
+        <location filename="../infofile.cpp" line="263"/>
         <source>Type: %1</source>
         <translation>Tür: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
         <translation>Altyazılar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="128"/>
+        <source>Initial Video Stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Type</source>
         <translation>Tür</translation>
     </message>

@@ -3230,8 +3230,9 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Name</source>
         <translation>الاسم</translation>
     </message>
@@ -3286,9 +3287,8 @@ Please check the permissions of that folder.</source>
         <translation>معلومات المقطع</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="128"/>
         <source>Video</source>
-        <translation>الفيديو</translation>
+        <translation type="obsolete">الفيديو</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -3302,19 +3302,19 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="140"/>
+        <location filename="../infofile.cpp" line="160"/>
         <source>Format</source>
         <translation>الصيغة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
         <translation>معدل البتات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>%1 kbps</source>
         <translation>%1 ك.بت/ثا</translation>
     </message>
@@ -3325,85 +3325,92 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
         <translation>المُرمِّز المختار</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="139"/>
+        <location filename="../infofile.cpp" line="140"/>
+        <source>Video Streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
         <translation>دفق الصوت الأولي</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
         <translation>المعدل</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>%1 Hz</source>
         <translation>%1 هرتز</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="143"/>
+        <location filename="../infofile.cpp" line="163"/>
         <source>Channels</source>
         <translation>القنوات</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
         <translation>دفقات الصوت</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>اللغة</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="158"/>
-        <location filename="../infofile.cpp" line="160"/>
-        <location filename="../infofile.cpp" line="183"/>
-        <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation>غير محدد</translation>
+        <translation type="obsolete">غير محدد</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="228"/>
+        <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
         <translation>المسار %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="231"/>
-        <location filename="../infofile.cpp" line="239"/>
+        <location filename="../infofile.cpp" line="251"/>
+        <location filename="../infofile.cpp" line="259"/>
         <source>Language: %1</source>
         <translation>اللغة: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="232"/>
-        <location filename="../infofile.cpp" line="240"/>
+        <location filename="../infofile.cpp" line="252"/>
+        <location filename="../infofile.cpp" line="260"/>
         <source>Name: %1</source>
         <translation>الإسم: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="233"/>
-        <location filename="../infofile.cpp" line="241"/>
+        <location filename="../infofile.cpp" line="253"/>
+        <location filename="../infofile.cpp" line="261"/>
         <source>ID: %1</source>
         <translation>المعرِّف: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="235"/>
-        <location filename="../infofile.cpp" line="243"/>
+        <location filename="../infofile.cpp" line="255"/>
+        <location filename="../infofile.cpp" line="263"/>
         <source>Type: %1</source>
         <translation>النوع: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="128"/>
+        <source>Initial Video Stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Type</source>
         <translation>النوع</translation>
     </message>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ms_MY">
 <context>
     <name>About</name>
     <message>
@@ -2999,7 +3001,9 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
+        <translation>
+            <numerusform>%n sarikata diekstrak</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
@@ -3092,7 +3096,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -3222,8 +3226,9 @@ Sila semak keizinan folder tersebut.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Name</source>
         <translation>Nama</translation>
     </message>
@@ -3278,9 +3283,8 @@ Sila semak keizinan folder tersebut.</translation>
         <translation>Maklumat klip</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="128"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="obsolete">Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -3294,19 +3298,19 @@ Sila semak keizinan folder tersebut.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="140"/>
+        <location filename="../infofile.cpp" line="160"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
         <translation>Kadar bit</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
@@ -3317,85 +3321,92 @@ Sila semak keizinan folder tersebut.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
         <translation>Kodeks terpilih</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="139"/>
+        <location filename="../infofile.cpp" line="140"/>
+        <source>Video Streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
         <translation>Strim Audio Awalan</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
         <translation>Kadar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="143"/>
+        <location filename="../infofile.cpp" line="163"/>
         <source>Channels</source>
         <translation>Saluran</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
         <translation>Strim Audio</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Bahasa</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="158"/>
-        <location filename="../infofile.cpp" line="160"/>
-        <location filename="../infofile.cpp" line="183"/>
-        <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation>tidak ditakrif</translation>
+        <translation type="obsolete">tidak ditakrif</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="228"/>
+        <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
         <translation>Trek %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="231"/>
-        <location filename="../infofile.cpp" line="239"/>
+        <location filename="../infofile.cpp" line="251"/>
+        <location filename="../infofile.cpp" line="259"/>
         <source>Language: %1</source>
         <translation>Bahasa: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="232"/>
-        <location filename="../infofile.cpp" line="240"/>
+        <location filename="../infofile.cpp" line="252"/>
+        <location filename="../infofile.cpp" line="260"/>
         <source>Name: %1</source>
         <translation>Nama: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="233"/>
-        <location filename="../infofile.cpp" line="241"/>
+        <location filename="../infofile.cpp" line="253"/>
+        <location filename="../infofile.cpp" line="261"/>
         <source>ID: %1</source>
         <translation>ID: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="235"/>
-        <location filename="../infofile.cpp" line="243"/>
+        <location filename="../infofile.cpp" line="255"/>
+        <location filename="../infofile.cpp" line="263"/>
         <source>Type: %1</source>
         <translation>Jenis: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
         <translation>Sarikata</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="128"/>
+        <source>Initial Video Stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Type</source>
         <translation>Jenis</translation>
     </message>
@@ -9884,13 +9895,17 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n saat</numerusform></translation>
+        <translation>
+            <numerusform>%n saat</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minit</numerusform></translation>
+        <translation>
+            <numerusform>%n minit</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

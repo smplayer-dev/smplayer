@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="el">
 <context>
     <name>About</name>
     <message>
@@ -2999,7 +3001,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform><numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform></translation>
+        <translation>
+            <numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform>
+            <numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
@@ -3092,7 +3097,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Δεν ήταν δυνατό να αποθηκευτεί το ληφθέν
@@ -3222,8 +3227,9 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Name</source>
         <translation>Όνομα</translation>
     </message>
@@ -3278,9 +3284,8 @@ Please check the permissions of that folder.</source>
         <translation>Πληροφορίες κομματιού</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="128"/>
         <source>Video</source>
-        <translation>Βίντεο</translation>
+        <translation type="obsolete">Βίντεο</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -3294,19 +3299,19 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="140"/>
+        <location filename="../infofile.cpp" line="160"/>
         <source>Format</source>
         <translation>Μορφή</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
         <translation>Ανάλυση</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="141"/>
+        <location filename="../infofile.cpp" line="161"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
@@ -3317,85 +3322,92 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
         <translation>Επιλεγμένος κωδικοποιητής</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="139"/>
+        <location filename="../infofile.cpp" line="140"/>
+        <source>Video Streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
         <translation>Αρχική ροή δεδομένων ήχου</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
         <translation>Ρυθμός</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
+        <location filename="../infofile.cpp" line="162"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="143"/>
+        <location filename="../infofile.cpp" line="163"/>
         <source>Channels</source>
         <translation>Κανάλια</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="149"/>
+        <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
         <translation>Ροές ήχου</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="141"/>
         <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Γλώσσα</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="158"/>
-        <location filename="../infofile.cpp" line="160"/>
-        <location filename="../infofile.cpp" line="183"/>
-        <location filename="../infofile.cpp" line="185"/>
         <source>undefined</source>
-        <translation>ακαθόριστο</translation>
+        <translation type="obsolete">ακαθόριστο</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="228"/>
+        <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
         <translation>Κομμάτι %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="231"/>
-        <location filename="../infofile.cpp" line="239"/>
+        <location filename="../infofile.cpp" line="251"/>
+        <location filename="../infofile.cpp" line="259"/>
         <source>Language: %1</source>
         <translation>Γλώσσα: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="232"/>
-        <location filename="../infofile.cpp" line="240"/>
+        <location filename="../infofile.cpp" line="252"/>
+        <location filename="../infofile.cpp" line="260"/>
         <source>Name: %1</source>
         <translation>Όνομα: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="233"/>
-        <location filename="../infofile.cpp" line="241"/>
+        <location filename="../infofile.cpp" line="253"/>
+        <location filename="../infofile.cpp" line="261"/>
         <source>ID: %1</source>
         <translation>Αναγνωριστικό: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="235"/>
-        <location filename="../infofile.cpp" line="243"/>
+        <location filename="../infofile.cpp" line="255"/>
+        <location filename="../infofile.cpp" line="263"/>
         <source>Type: %1</source>
         <translation>Τύπος: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
         <translation>Υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="170"/>
+        <location filename="../infofile.cpp" line="128"/>
+        <source>Initial Video Stream</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="190"/>
         <source>Type</source>
         <translation>Τύπος</translation>
     </message>
@@ -9884,13 +9896,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n δευτερόλεπτο(α)</numerusform><numerusform>%n δευτερόλεπτο(α)</numerusform></translation>
+        <translation>
+            <numerusform>%n δευτερόλεπτο(α)</numerusform>
+            <numerusform>%n δευτερόλεπτο(α)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n λεπτό(ά)</numerusform><numerusform>%n λεπτό(ά)</numerusform></translation>
+        <translation>
+            <numerusform>%n λεπτό(ά)</numerusform>
+            <numerusform>%n λεπτό(ά)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
