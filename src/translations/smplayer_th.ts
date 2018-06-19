@@ -3280,10 +3280,6 @@ Please check the permissions of that folder.</source>
         <translation>ข้อมูลคลิป</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">วิดีโอ</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>ความละเอียด</translation>

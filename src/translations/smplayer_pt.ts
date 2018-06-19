@@ -999,7 +999,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Start/stop capturing stream</source>
-        <translation>Iniciar/parar a captura de fluxo</translation>
+        <translation>Iniciar/parar a captura de emissão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
@@ -3284,10 +3284,6 @@ Verifique as permissões da pasta.</translation>
         <translation>Informações do clipe</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Vídeo</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolução</translation>
@@ -3329,12 +3325,12 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Emissões de vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
-        <translation>Emissão inicial de áudio</translation>
+        <translation>Áudio inicial da emissão</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="162"/>
@@ -3354,7 +3350,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="169"/>
         <source>Audio Streams</source>
-        <translation>Emissões áudio</translation>
+        <translation>Emissões de áudio</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="141"/>
@@ -3362,10 +3358,6 @@ Verifique as permissões da pasta.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Idioma</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">não definido</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
@@ -3404,7 +3396,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Vídeo inicial da emissão</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>

@@ -3285,10 +3285,6 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <translation>Informations sur le fichier</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Vidéo</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Définition</translation>
@@ -3363,10 +3359,6 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Langue</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">Indéfini</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

@@ -1316,7 +1316,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro změnu předvoleb je nutné restartovat SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -3285,10 +3285,6 @@ Zkontrolujte přístupová práva.</translation>
         <translation>Informace o klipu</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Rozlišení</translation>
@@ -3330,7 +3326,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Video proudy</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3363,10 +3359,6 @@ Zkontrolujte přístupová práva.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Jazyk</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">nedefinovaný</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
@@ -3405,7 +3397,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Výchozí video proud</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -8874,12 +8866,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Okno playlistu je možné umístit do doku.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato volba zaškrtnuta, může být okno seznamu skladeb ukotveno uvnitř hlavního. V opačném případě by byl seznam skladeb běžným oknem.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9049,7 +9041,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Okno seznamu skladeb je &amp;dokovatelné</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

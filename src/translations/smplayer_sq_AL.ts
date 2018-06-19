@@ -3279,10 +3279,6 @@ Please check the permissions of that folder.</source>
         <translation>Clip info</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Rezolucioni</translation>

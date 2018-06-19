@@ -3281,10 +3281,6 @@ Please check the permissions of that folder.</source>
         <translation>&lt;center&gt;מידע קליפ&lt;/center&gt;</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">&lt;center&gt;וידאו&lt;/center&gt;</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>&lt;p dir=&quot;rtl&quot;&gt;רזולוציה&lt;/p&gt;</translation>

@@ -3285,10 +3285,6 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <translation>Info o klipie</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Wideo</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Rozdzielczość</translation>
@@ -3363,10 +3359,6 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Język</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">nieokreślony</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

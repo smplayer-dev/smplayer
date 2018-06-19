@@ -3280,10 +3280,6 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <translation>Thông tin Clip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Hình ảnh</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Độ phân dải</translation>

@@ -3285,10 +3285,6 @@ Controllarne i relativi permessi.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Risoluzione</translation>
@@ -3363,10 +3359,6 @@ Controllarne i relativi permessi.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Lingua</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">non definito</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

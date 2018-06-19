@@ -3283,10 +3283,6 @@ Please check the permissions of that folder.</source>
         <translation>クリップ情報</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">ビデオ</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>解像度</translation>
@@ -3361,10 +3357,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>言語</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">未定義</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

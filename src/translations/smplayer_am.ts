@@ -3283,10 +3283,6 @@ Please check the permissions of that folder.</source>
         <translation>ናሙና መረጃ</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">ቪዲዮ</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>ሪዞሊሽን</translation>
@@ -3361,10 +3357,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>ቋንቋ</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">ያልተገለጸ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
