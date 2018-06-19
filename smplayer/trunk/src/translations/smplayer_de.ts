@@ -3285,10 +3285,6 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
         <translation>Filminfo</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Auflösung</translation>
@@ -3363,10 +3359,6 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Sprache</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">unbestimmt</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

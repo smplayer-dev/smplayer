@@ -3283,10 +3283,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Parça hakkında bilgi</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Çözünürlük</translation>
@@ -3361,10 +3357,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Dil</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">Tanımlanmamış</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

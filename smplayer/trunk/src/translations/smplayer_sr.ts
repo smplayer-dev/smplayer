@@ -3286,10 +3286,6 @@ Please check the permissions of that folder.</source>
         <translation>Информација о снимку</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Видео</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Резолуција</translation>
@@ -3364,10 +3360,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Језик</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">недефинисано</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

@@ -3061,7 +3061,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxer de &amp;vídeo:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
@@ -3281,10 +3281,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="121"/>
         <source>Clip info</source>
         <translation>Informació del clip</translation>
-    </message>
-    <message>
-        <source>Video</source>
-        <translation type="obsolete">Vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>

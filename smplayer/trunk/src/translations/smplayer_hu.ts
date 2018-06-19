@@ -3284,10 +3284,6 @@ Please check the permissions of that folder.</source>
         <translation>Klipp infó</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Videó</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Felbontás</translation>
@@ -3362,10 +3358,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Nyelv</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">nem meghatározott</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

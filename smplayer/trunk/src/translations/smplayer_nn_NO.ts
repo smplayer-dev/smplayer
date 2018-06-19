@@ -3281,10 +3281,6 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <translation>Klippinfo</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Oppløysing</translation>
@@ -3359,10 +3355,6 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Språk</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">ikkje definert</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

@@ -3284,10 +3284,6 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
         <translation>Clip info</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolutie</translation>
@@ -3362,10 +3358,6 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Taal</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">ongedefinieerd</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

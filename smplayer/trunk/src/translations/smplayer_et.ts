@@ -3284,10 +3284,6 @@ Palun kontrolli kausta õigusi.</translation>
         <translation>Klipi info</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Lahutusvõime</translation>
@@ -3362,10 +3358,6 @@ Palun kontrolli kausta õigusi.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Keel</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">määramata</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

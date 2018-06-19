@@ -3283,10 +3283,6 @@ Sila semak keizinan folder tersebut.</translation>
         <translation>Maklumat klip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolusi</translation>
@@ -3361,10 +3357,6 @@ Sila semak keizinan folder tersebut.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Bahasa</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">tidak ditakrif</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

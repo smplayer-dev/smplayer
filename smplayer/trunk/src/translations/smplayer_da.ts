@@ -3284,10 +3284,6 @@ Tjek rettighederne for den mappe.</translation>
         <translation>Info om klip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Opløsning</translation>
@@ -3362,10 +3358,6 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Sprog</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">udefineret</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Gerai</translation>
+        <translation>&amp;Gerai</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -1306,7 +1306,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="2181"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Greitos prieigos meniu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2990"/>
@@ -1321,7 +1321,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4558"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Palaikykite SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4560"/>
@@ -2115,12 +2115,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="928"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Loginis DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="930"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fizinis DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="931"/>
@@ -2764,12 +2764,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
-        <translation type="unfinished">&amp;Gerai</translation>
+        <translation>&amp;Gerai</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Atsisakyti</translation>
+        <translation>&amp;Atsisakyti</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
@@ -2779,7 +2779,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 &amp;parinktys</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
@@ -2985,7 +2985,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Jungiamasi...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
@@ -3282,10 +3282,6 @@ Patikrinkite prieigos teises.</translation>
         <location filename="../infofile.cpp" line="121"/>
         <source>Clip info</source>
         <translation>Klipo informacija</translation>
-    </message>
-    <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="129"/>
@@ -10445,7 +10441,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Greitos prieigos meniu</translation>
     </message>
 </context>
 <context>

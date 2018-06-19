@@ -3284,10 +3284,6 @@ Harap periksa izin dari folder tersebut.</translation>
         <translation>Info klip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolusi</translation>
@@ -3362,10 +3358,6 @@ Harap periksa izin dari folder tersebut.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Bahasa</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">tidak ditentukan</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

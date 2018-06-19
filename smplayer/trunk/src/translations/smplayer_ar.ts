@@ -3287,10 +3287,6 @@ Please check the permissions of that folder.</source>
         <translation>معلومات المقطع</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">الفيديو</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>الدقة</translation>
@@ -3365,10 +3361,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>اللغة</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">غير محدد</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

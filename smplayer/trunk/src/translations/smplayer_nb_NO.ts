@@ -3285,10 +3285,6 @@ Vennligst sjekk mappens tillatelser.</translation>
         <translation>Klippinfo</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Oppløsning</translation>
@@ -3363,10 +3359,6 @@ Vennligst sjekk mappens tillatelser.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Språk</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">udefinert</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

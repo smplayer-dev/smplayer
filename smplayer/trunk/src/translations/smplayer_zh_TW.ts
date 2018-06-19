@@ -3283,10 +3283,6 @@ Please check the permissions of that folder.</source>
         <translation>素材資訊</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">視訊</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>解析度</translation>
@@ -3328,7 +3324,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>視訊串流</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3361,10 +3357,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>語言</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">未定義</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
@@ -3403,7 +3395,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>初始視訊串流</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>

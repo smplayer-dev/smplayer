@@ -3284,10 +3284,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Ebakin argibideak</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Bideoa</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Bereizmena</translation>
@@ -3362,10 +3358,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Hizkuntza</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">Zehaztugabea</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

@@ -3284,10 +3284,6 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <translation>Informação do clip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Vídeo</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolução</translation>
@@ -3329,7 +3325,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Transmissões de vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3362,10 +3358,6 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Idioma</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">indefinido</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
@@ -3404,7 +3396,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Transmissão inicial de vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>

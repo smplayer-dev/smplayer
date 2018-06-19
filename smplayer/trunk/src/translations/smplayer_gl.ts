@@ -3284,10 +3284,6 @@ Verifica os permisos dese cartafol.</translation>
         <translation>Información do clip</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Vídeo</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resolución</translation>
@@ -3362,10 +3358,6 @@ Verifica os permisos dese cartafol.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Idioma</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">sen definir</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

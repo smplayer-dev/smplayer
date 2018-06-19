@@ -3285,10 +3285,6 @@ Molim, provjerite dozvole te mape.</translation>
         <translation>Informacije zapisa</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Video zapis</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Razlučivost</translation>
@@ -3363,10 +3359,6 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Jezik</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">neodređeno</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>

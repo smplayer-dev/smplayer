@@ -3281,10 +3281,6 @@ Tarkista kansion oikeudet.</translation>
         <translation>Tietoja videoleikkeestä</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Kuva</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Resoluutio</translation>

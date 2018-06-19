@@ -3285,10 +3285,6 @@ Please check the permissions of that folder.</source>
         <translation>Информация о клипе</translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="obsolete">Видео</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Resolution</source>
         <translation>Разрешение экрана</translation>
@@ -3330,7 +3326,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Видео-потоки</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3363,10 +3359,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="190"/>
         <source>Language</source>
         <translation>Язык</translation>
-    </message>
-    <message>
-        <source>undefined</source>
-        <translation type="obsolete">не определено</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="248"/>
@@ -3405,7 +3397,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Первичный видео-поток</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
