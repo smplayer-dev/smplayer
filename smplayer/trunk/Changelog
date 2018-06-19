@@ -1,5 +1,8 @@
 Version 18.6:
 
+(2018-06-18)
+ * List all video tracks in the View Information dialog.
+
 (2018-06-13)
  * Fix the "busy" cursor when using the functions play previous/next
    on Windows 10.
