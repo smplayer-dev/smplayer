@@ -3325,7 +3325,7 @@ Verifica os permisos dese cartafol.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Fluxos de vídeo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3396,7 +3396,7 @@ Verifica os permisos dese cartafol.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Fluxo de vídeo inicial</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>

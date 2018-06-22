@@ -3324,7 +3324,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ ストリーム</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3395,7 +3395,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>初期ビデオ ストリーム</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
