@@ -1,3 +1,15 @@
+smplayer (18.6.0) precise; urgency=low
+
+  * On Windows 10 the key shortcuts for play next/previous left a "busy" mouse
+    cursor on the screen. This is fixed now.
+  * There's a new option in Preferences -> Playlist to choose the type of
+    window for the playlist: dockable (as before) or just a normal window.
+  * The library used by the web server for the chromecast feature has been
+    updated. It looks like the old one had several vulnerabilities so it's
+    recommended to update.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 22 Jun 2018 22:18:34 +0200
+
 smplayer (18.5.0) precise; urgency=low
 
   * (Windows) A problem which might prevent SMPlayer to open filenames with
