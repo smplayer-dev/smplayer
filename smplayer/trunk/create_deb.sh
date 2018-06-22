@@ -4,7 +4,7 @@ ln -s debian-orig debian
 cp debian-orig/changelog-orig debian-orig/changelog
 
 ./get_svn_revision.sh
-dch -v 18.5.0-`cat svn_revision` "New version"
+#dch -v 18.6.0-`cat svn_revision` "New version"
 
 #dpkg-buildpackage -rfakeroot
 
