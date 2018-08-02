@@ -357,7 +357,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Soft rock</source>
-        <translation>Mjuk rock</translation>
+        <translation>Mjuk-rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="229"/>
@@ -568,7 +568,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="2014"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Av-fletting</translation>
+        <translation>&amp;Avfletting</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1771"/>
@@ -588,7 +588,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Av&amp;ring</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1776"/>
@@ -639,12 +639,12 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="2096"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 Kringlyd</translation>
+        <translation>&amp;4.0 Kringlyd (Surround)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2097"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 Kringlyd</translation>
+        <translation>&amp;5.1 Kringlyd (Surround)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2088"/>
@@ -749,7 +749,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="2167"/>
         <source>&amp;OSD</source>
-        <translation>&amp;VPS</translation>
+        <translation>&amp;Skjermmeldingar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
@@ -974,12 +974,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>Blu-&amp;ray frå mappe …</translation>
+        <translation>Blu-&amp;ray frå mappe…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;itt bilde bakover</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1732"/>
@@ -1014,7 +1014,8 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avklistring (med &amp;gradfun)
+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
@@ -1100,7 +1101,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
         <source>OSD - Next level</source>
-        <translation>VPS - Neste nivå</translation>
+        <translation>Skjermmeldingar - Neste nivå</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1912"/>
@@ -1165,17 +1166,17 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1934"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis filnamn på skjermmeldingar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1935"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Vis &amp;info på OSD</translation>
+        <translation>Vis &amp;info på skjermmeldingar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
         <source>Show playback time on OSD</source>
-        <translation>Syn avspelingsposisjon (tid) på skjermen med OSD</translation>
+        <translation>Syn avspelingstid i skjermmeldingar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1955"/>
@@ -1236,12 +1237,13 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2098"/>
         <source>&amp;6.1 Surround</source>
-        <translation>&amp;6.1 Kringlyd</translation>
+        <translation>&amp;6.1 Kringlyd (Surround)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2099"/>
         <source>&amp;7.1 Surround</source>
-        <translation>&amp;7.1 Kringlyd</translation>
+        <translation>&amp;7.1 Kringlyd (Surround)
+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2104"/>
@@ -1316,7 +1318,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du må starte SMPlayer på nytt for å bruke dei nye innstillingane.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -1351,7 +1353,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4567"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vurder ei støtte til SMPlayer-prosjektet med ein donasjon.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4568"/>
@@ -1425,7 +1427,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="6095"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Trykk her for å skaffa deg det</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6113"/>
@@ -1452,7 +1454,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../basegui.cpp" line="6207"/>
         <location filename="../basegui.cpp" line="6219"/>
         <source>Visit %1 to get it.</source>
-        <translation>Gå til %1 for å få det.</translation>
+        <translation>Gå til %1 for å lasta ned.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6217"/>
@@ -1573,7 +1575,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1927"/>
         <source>&amp;Toggle double size</source>
-        <translation>&amp;Av/på dobbel storleik</translation>
+        <translation>&amp;Av/På dobbel storleik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
@@ -1856,7 +1858,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1806"/>
         <source>Se&amp;t delay...</source>
-        <translation>Se&amp;t forseinking...</translation>
+        <translation>V&amp;el forseinking...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
@@ -1885,7 +1887,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2074"/>
         <source>Toggle stay on top</source>
-        <translation>Av/på - ligg øvst</translation>
+        <translation>Av/På - legg øvst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5564"/>
@@ -1972,12 +1974,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;Clear A-B markers</source>
-        <translation>&amp;Fjern A-B punkta </translation>
+        <translation>&amp;Fjern A -&gt; B-punkta </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1994"/>
         <source>&amp;A-B section</source>
-        <translation>&amp;A-B sekvens</translation>
+        <translation>&amp;A -&gt; B-sekvens</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
@@ -2020,7 +2022,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="365"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Spel på &amp;Chromecast</translation>
+        <translation>Spel av med &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="369"/>
@@ -2381,7 +2383,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../core.cpp" line="2833"/>
         <source>A-B markers cleared</source>
-        <translation>A-B punkta fjerna</translation>
+        <translation>A -&gt; B-punkta fjerna</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="594"/>
@@ -2454,12 +2456,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="706"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bitfrekvens-informasjon</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="707"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Syn gjeldande tid med millisekund</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
@@ -2490,7 +2492,8 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="772"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>Video: %1 Kb/s, Lyd: %2 Kb/s
+</translation>
     </message>
 </context>
 <context>
@@ -2573,7 +2576,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Du kan redigere, slette, sortere og leggja til nye element. Dobbelklikk i cella for å redigera innhaldet.</translation>
+        <translation>Du kan redigera, sletta, sortera og leggja til nye element. Dobbelklikk i cella for å redigera innhaldet.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
@@ -2886,7 +2889,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Søkje&amp;metode:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2921,7 +2924,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tilføy språkkode til undertekstfilnamnet</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
@@ -3172,22 +3175,22 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydstyrke &amp;demp</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydstyrke &amp;ned</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydstyrke &amp;opp</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Globale snarvegar</translation>
     </message>
 </context>
 <context>
@@ -3300,7 +3303,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <location filename="../infofile.cpp" line="132"/>
         <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
-        <translation>Bitfart</translation>
+        <translation>Bitfrekvens</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
@@ -3322,7 +3325,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Videostraumar</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3332,7 +3335,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="162"/>
         <source>Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Frekvens</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="162"/>
@@ -4677,23 +4680,23 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
-        <translation type="unfinished"></translation>
+        <translation>Berekna:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="195"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Høgde/Breidde-forhold:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="196"/>
         <location filename="../mpvprocess.h" line="199"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitfrekvens</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="197"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilde hoppa over:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="198"/>
@@ -4703,7 +4706,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../mpvprocess.h" line="200"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Samplingsfrekvens:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="201"/>
@@ -4713,17 +4716,18 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/Video-synkronisering:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"></translation>
+        <translation>Snøgglagerfyll:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Used cache:</source>
-        <translation type="unfinished"></translation>
+        <translation>Brukt snøgglager:
+</translation>
     </message>
 </context>
 <context>
@@ -4926,12 +4930,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="729"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel av med Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="731"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna straum i &amp;ein nettlesar</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="746"/>
@@ -5403,7 +5407,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>Korrekt visingstidsstempel</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
@@ -5413,7 +5417,8 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Overlat korte filnamn (8+3) til %1
+</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="520"/>
@@ -5428,12 +5433,13 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld frå om %1 kra&amp;sj</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Her kan du overlate innstillinger og filter til %1.
+</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5443,7 +5449,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Over&amp;lat %1-innstillinga til MPlayer (sikkerheitsrisiko)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
@@ -5453,12 +5459,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>Stolpeplassering for skjermmeldingar</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel plasseringa på skjermen der skjermmeldingsstolpen skal visast. 0 er øvst, 100 er nedst.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -5473,7 +5479,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Meld frå om %1-krasj</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
@@ -5597,7 +5603,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis merkeinfo i vindaugstittelen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
@@ -5607,7 +5613,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis merkein&amp;fo i vindaugstittelen</translation>
     </message>
 </context>
 <context>
@@ -5744,7 +5750,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation>Vel Blu-ray-eininga som skal spela av Blu-ray-plater.</translation>
+        <translation>Vel ei Blu-ray-eining som skal spela av Blu-ray-plater.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
@@ -5759,7 +5765,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Merknad 1&lt;/b&gt;: mellomlagring vil bli slått av, og dette kan påverka yteevna.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
@@ -6161,7 +6167,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dobbel mellomlagring fiksar blafring ved å lagre to bilde i minnet, og vise eitt medan det andre vert dekoda. Om dette er slått av kan det verke negativt inn på OSD, men fjernar ofte OSD-blafring.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
@@ -6241,7 +6247,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stiller inn maksimum forsterkarnivå i prosent (standard: 110). Ein verdi på 200 vil la deg justera lydstyrken opp til eit maksimum av det doble av gjeldande lydstyrke. Med verdiar under 100, vil utgangslydstyrken (som er 100%) bli over maksimum, som skjermmeldingar ikkje kan visa korrekt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1118"/>
@@ -6396,12 +6402,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Avfletting som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel avflettingsfilteret som skal brukast på nye videoar du opnar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1041"/>
@@ -6431,7 +6437,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1156"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod videobileta stykkjevis</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1157"/>
@@ -6441,7 +6447,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod &amp;videobileta stykkevis</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
@@ -6576,7 +6582,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Om dette er valt, slår det på sanntidsattgjeving (ikkje støtta av alle kodekar eller videoutdata)&lt;br&gt;&lt;b&gt;Åtvaring:&lt;/b&gt; Dette kan valde Skjermmelding/SUB-skade!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
@@ -7611,7 +7617,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonliste</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="226"/>
@@ -7661,7 +7667,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel ikona du føretrekkjer i dette programmet</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
@@ -8887,7 +8893,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Skil mellom små og store bokstavar i søk</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="236"/>
@@ -9655,12 +9661,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Avfletting som standard for TV</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel avflettingsfilteret som skal brukast på TV-kanalar.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -10751,12 +10757,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Video bitrate: %1</source>
-        <translation>Bitfart for video: %1</translation>
+        <translation>Bitfrekvens for video: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio bitrate: %1</source>
-        <translation>Bitfart for lyd: %1</translation>
+        <translation>Bitfrekvens for lyd: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>

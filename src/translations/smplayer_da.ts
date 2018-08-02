@@ -1316,7 +1316,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du skal genstarte SMPlayer for at anvende de nye præferencer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -3325,7 +3325,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Videostrømme</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3396,7 +3396,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Første videostrøm</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -8863,12 +8863,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Spillelistevinduet kan dokkes</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis valgmuligheden er slået til, kan spillelistevinduet dokkes inden i hovedvinduet. Eller vil spillelisten være et almindeligt vindue.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9038,7 +9038,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Spillelistevinduet kan &amp;dokkes</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

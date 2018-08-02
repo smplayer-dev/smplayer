@@ -4681,7 +4681,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="194"/>
         <source>Estimated:</source>
-        <translation>Примерно:</translation>
+        <translation>Расчётная:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="195"/>
@@ -4717,7 +4717,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="202"/>
         <source>Audio/video synchronization:</source>
-        <translation>Синхронизация звука/видео:</translation>
+        <translation>Синхронизация аудио/видео:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="203"/>

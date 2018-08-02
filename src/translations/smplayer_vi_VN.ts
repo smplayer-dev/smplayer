@@ -5270,7 +5270,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Hạn chế: các hành động được chạy chỉ khi một tập tin được mở ra chứ không phải khi tiến trình %1 bắt đầu (ví dụ như khi bạn chọn một bộ lọc âm thanh hay video).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
