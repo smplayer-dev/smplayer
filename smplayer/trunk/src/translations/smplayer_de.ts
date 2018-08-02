@@ -1316,7 +1316,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3293"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer muss neu gestartet werden, um die neuen Einstellungen zu übernehmen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
@@ -3061,7 +3061,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Video-Datei:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
@@ -3326,7 +3326,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Videostreams</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3397,7 +3397,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Erster Videostream</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -8865,12 +8865,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Wiedergabelistenfenster ist andockbar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, kann das Wiedergabelistenfenster innerhalb des Hauptfensters angedockt werden. Sonst wäre die Wiedergabeliste ein reguläres Fenster.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9040,7 +9040,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Wiedergabelistenfenster ist an&amp;dockbar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>

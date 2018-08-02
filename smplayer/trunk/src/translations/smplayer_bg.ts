@@ -1019,7 +1019,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Оптимизация за слушалки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
@@ -1085,7 +1085,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Показвай времената в &amp;милисекунди</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1165,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1934"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Показвай името на файла в ЕИ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1935"/>

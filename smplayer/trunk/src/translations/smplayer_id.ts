@@ -3325,7 +3325,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Streaming Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3396,7 +3396,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Mulai Streaming Video</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
