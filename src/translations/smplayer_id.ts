@@ -1988,7 +1988,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="2122"/>
         <source>&amp;Closed captions</source>
-        <translation>Tutu&amp;p keterangan</translation>
+        <translation>&amp;Teks tertutup</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1975"/>

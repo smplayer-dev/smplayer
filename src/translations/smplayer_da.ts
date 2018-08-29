@@ -445,7 +445,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1674"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Spilleliste...</translation>
+        <translation>&amp;Afspilningsliste...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1677"/>
@@ -739,7 +739,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1844"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Spilleliste</translation>
+        <translation>&amp;Afspilningsliste</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2048"/>
@@ -786,7 +786,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="4229"/>
         <source>Playlists</source>
-        <translation>Spillelister</translation>
+        <translation>Afspilningslister</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4230"/>
@@ -4742,12 +4742,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="246"/>
         <source>Shuffle playlist</source>
-        <translation>Bland spilleliste</translation>
+        <translation>Bland afspilningsliste</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
         <source>Repeat playlist</source>
-        <translation>Gentag spilleliste</translation>
+        <translation>Gentag afspilningsliste</translation>
     </message>
 </context>
 <context>
@@ -4813,7 +4813,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation>Indtast URL-adresse(r) for at tilføje dem i spillelisten. En pr. linje.</translation>
+        <translation>Indtast URL-adresse(r) for at tilføje dem i afspilningslisten. En pr. linje.</translation>
     </message>
 </context>
 <context>
@@ -4846,12 +4846,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation>Næste fil i spilleliste</translation>
+        <translation>Næste fil i afspilningsliste</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation>Forrige fil i spilleliste</translation>
+        <translation>Forrige fil i afspilningsliste</translation>
     </message>
 </context>
 <context>
@@ -4880,7 +4880,7 @@ Vil du overskrive den?</translation>
         <location filename="../playlist.cpp" line="1377"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>Playlists</source>
-        <translation>Spillelister</translation>
+        <translation>Afspilningslister</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1375"/>
@@ -4914,7 +4914,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="372"/>
         <source>Untitled playlist</source>
-        <translation>Unavngivet spilleliste</translation>
+        <translation>Unavngivet afspilningsliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="688"/>
@@ -4924,7 +4924,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="690"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Indlæs spilleliste fra &amp;URL...</translation>
+        <translation>Indlæs afspilningsliste fra &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -4959,7 +4959,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1962"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Indtast navnet der skal vises i spillelisten for denne fil:</translation>
+        <translation>Indtast navnet der skal vises i afspilningslisten for denne fil:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="686"/>
@@ -4969,7 +4969,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>Download playlist from URL</source>
-        <translation>Download spilleliste fra URL</translation>
+        <translation>Download afspilningsliste fra URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
@@ -5126,7 +5126,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="2515"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation>Det er ikke muligt at indlæse denne spilleliste</translation>
+        <translation>Det er ikke muligt at indlæse denne afspilningsliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2515"/>
@@ -5146,12 +5146,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1456"/>
         <source>Playlist modified</source>
-        <translation>Spilleliste ændret</translation>
+        <translation>Afspilningsliste ændret</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1457"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Der er ugemte ændringer, vil du gemme spillelisten?</translation>
+        <translation>Der er ugemte ændringer, vil du gemme afspilningslisten?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1695"/>
@@ -5270,7 +5270,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Denne indstilling kan være krævet for at kunne afspille spillelistefiler (m3u, pls...). Men det kan udgøre en sikkerhedsrisiko ved afspilning af internetkilder da den måde MPlayer fortolker og bruger spillelistefiler på ikke er sikret mod filer som er lavet til ondsindet formål.</translation>
+        <translation>Denne indstilling kan være krævet for at kunne afspille afspilningslistefiler (m3u, pls...). Men det kan udgøre en sikkerhedsrisiko ved afspilning af internetkilder da den måde MPlayer fortolker og bruger afspilningslistefiler på ikke er sikret mod filer som er lavet til ondsindet formål.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
@@ -6183,7 +6183,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1095"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Hvis indstillingen er slået til, lukkes hovedvinduet automatisk når den nuværende fil/spilleliste er færdig.</translation>
+        <translation>Hvis indstillingen er slået til, lukkes hovedvinduet automatisk når den nuværende fil/afspilningsliste er færdig.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="170"/>
@@ -6945,7 +6945,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Playlist</source>
-        <translation>Spilleliste</translation>
+        <translation>Afspilningsliste</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="96"/>
@@ -8793,12 +8793,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="39"/>
         <source>Playlist</source>
-        <translation>Spilleliste</translation>
+        <translation>Afspilningsliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer først rydde spillelisten og derefter føje filen til den, hver gang en fil åbnes. Vedrørende DVD&apos;er, CD&apos;er og VCD&apos;er vil alle titler på disken blive føjet til spillelisten.</translation>
+        <translation>Hvis denne indstilling er slået til, vil SMPlayer først rydde afspilningslisten og derefter føje filen til den, hver gang en fil åbnes. Vedrørende DVD&apos;er, CD&apos;er og VCD&apos;er vil alle titler på disken blive føjet til afspilningslisten.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
@@ -8828,12 +8828,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="189"/>
         <source>Start playback after loading a playlist</source>
-        <translation>Start afspilning efter indlæsning af spilleliste</translation>
+        <translation>Start afspilning efter indlæsning af afspilningsliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="190"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation>Afspilning vil starte lige efter indlæsning af spilleliste.</translation>
+        <translation>Afspilning vil starte lige efter indlæsning af afspilningsliste.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="192"/>
@@ -8853,7 +8853,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>Add files to the playlist automatically</source>
-        <translation>Føj automatisk filer til spillesliten</translation>
+        <translation>Føj automatisk filer til afspilningslisten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="205"/>
@@ -8863,12 +8863,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation>Spillelistevinduet kan dokkes</translation>
+        <translation>Afspilningslistevinduet kan dokkes</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation>Hvis valgmuligheden er slået til, kan spillelistevinduet dokkes inden i hovedvinduet. Eller vil spillelisten være et almindeligt vindue.</translation>
+        <translation>Hvis valgmuligheden er slået til, kan afspilningslistevinduet dokkes inden i hovedvinduet. Eller vil afspilningslisten være et almindeligt vindue.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -8893,17 +8893,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="236"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation>Denne indstilling angiver hvorvidt søgningen i spillelisten skelner mellem store og små bogstaver.</translation>
+        <translation>Denne indstilling angiver hvorvidt søgningen i afspilningslisten skelner mellem store og små bogstaver.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="238"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation>Gem en kopi af spillelisten ved afslut</translation>
+        <translation>Gem en kopi af afspilningslisten ved afslut</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="239"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation>Hvis indstillingen er slået til, gemmes en kopi af spillelisten i konfigurationsfilen når SMPlayer lukkes, og den genindlæses automatisk når SMPlayer køres igen.</translation>
+        <translation>Hvis indstillingen er slået til, gemmes en kopi af afspilningslisten i konfigurationsfilen når SMPlayer lukkes, og den genindlæses automatisk når SMPlayer køres igen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="244"/>
@@ -8913,7 +8913,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="245"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation>Denne valgmulighed giver dig mulighed for at aktivere indstillingen til at slette filer fra disken i spillelistens genvejsmenu. For at undgå sletning ved et uheld er denne indstilling deaktiveret som standard.</translation>
+        <translation>Denne valgmulighed giver dig mulighed for at aktivere indstillingen til at slette filer fra disken i afspilningslistens genvejsmenu. For at undgå sletning ved et uheld er denne indstilling deaktiveret som standard.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -8948,12 +8948,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="185"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Hvis denne indstilling er slået til, vil alle filer fra spillelisten starte med at afspille fra begyndelsen i stedet for at genoptage afspilningen fra tidligere.</translation>
+        <translation>Hvis denne indstilling er slået til, vil alle filer fra afspilningslisten starte med at afspille fra begyndelsen i stedet for at genoptage afspilningen fra tidligere.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation>Denne indstilling kan bruges til automatisk at føje filer til spillelisten:</translation>
+        <translation>Denne indstilling kan bruges til automatisk at føje filer til afspilningslisten:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8963,12 +8963,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>Hvis denne indstilling er slået til, vil spillelisten ignorer fejl under afspilning fra en tidligere fil og afspille den næste fil på listen.</translation>
+        <translation>Hvis denne indstilling er slået til, vil afspilningslisten ignorer fejl under afspilning fra en tidligere fil og afspille den næste fil på listen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Spilleliste</translation>
+        <translation>&amp;Afspilningsliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="214"/>
@@ -8983,7 +8983,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Slå denne indstilling til, for at anmode filerne der bliver tilføjet i spillelisten om nogle oplysninger. Det giver mulighed for at vise titelnavnet (hvis det er tilgængeligt) og filernes varighed. Ellers vil disse oplysninger ikke være tilgængelige før filen afspilles. Vær opmærksom på at denne indstilling kan være langsom, specielt hvis du tilføjer mange filer.</translation>
+        <translation>Slå denne indstilling til, for at anmode filerne der bliver tilføjet i afspilningslisten om nogle oplysninger. Det giver mulighed for at vise titelnavnet (hvis det er tilgængeligt) og filernes varighed. Ellers vil disse oplysninger ikke være tilgængelige før filen afspilles. Vær opmærksom på at denne indstilling kan være langsom, specielt hvis du tilføjer mange filer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -9003,7 +9003,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>&amp;Start afspilning efter indlæsning af spilleliste</translation>
+        <translation>&amp;Start afspilning efter indlæsning af en afspilningsliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
@@ -9023,7 +9023,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>&amp;Føj automatisk filer til spillesliten</translation>
+        <translation>&amp;Føj automatisk filer til afspilningslisten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9038,7 +9038,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation>Spillelistevinduet kan &amp;dokkes</translation>
+        <translation>Afspilningslistevinduet kan &amp;dokkes</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
@@ -9058,7 +9058,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="198"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation>&amp;Gem en kopi af spillelisten ved afslut</translation>
+        <translation>&amp;Gem en kopi af afspilningslisten ved afslut</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
@@ -9790,7 +9790,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>hovedvinduet vil blive lukket når filen/spillelisten er færdig.</translation>
+        <translation>hovedvinduet vil blive lukket når filen/afspilningslisten er færdig.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="567"/>
@@ -9816,12 +9816,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>hvis en anden instans kører, vil mediet blive føjet til spilleliste for den instans. Hvis der ikke er nogen anden instans, vil denne indstilling blive ignoreret og filerne vil blive åbnet i en ny instans.</translation>
+        <translation>hvis en anden instans kører, vil mediet blive føjet til afspilningsliste for den instans. Hvis der ikke er nogen anden instans, vil denne indstilling blive ignoreret og filerne vil blive åbnet i en ny instans.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>hovedvinduet vil ikke blive lukket når filen/spillelisten er færdig.</translation>
+        <translation>hovedvinduet vil ikke blive lukket når filen/afspilningslisten er færdig.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
@@ -9978,7 +9978,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&quot;medie&quot; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-strøm (f.eks. mms://....) eller en lokal spilleliste i m3u-format eller pls-format.</translation>
+        <translation>&quot;medie&quot; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-strøm (f.eks. mms://....) eller en lokal afspilningsliste i m3u-format eller pls-format.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10894,7 +10894,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation>Spilleliste</translation>
+        <translation>Afspilningsliste</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
