@@ -471,7 +471,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	else
 	if (option_name == "afm") {
 		QString s = value.toString();
-		if (s == "hwac3") arg << "--audio-spdif=ac3,dts-hd";
+		if (s == "hwac3") arg << "--audio-spdif=ac3,dts-hd,truehd";
 	}
 	else
 	if (option_name == "enable_streaming_sites_support") {
