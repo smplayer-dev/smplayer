@@ -281,7 +281,7 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef CHROMECAST_SUPPORT
 	playMenu->addSeparator();
 	playMenu->addAction(playOnChromecastAct);
-	//playMenu->addAction(playOnMobileAct);
+	playMenu->addAction(playOnMobileAct);
 #endif
 
 #ifdef USE_SYSTRAY

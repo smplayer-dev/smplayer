@@ -28,7 +28,9 @@
 #include <QDebug>
 #include "helper.h"
 
-#include <QMessageBox>
+#ifdef USE_QRCODE
+#include "qrcode/openwithdevicedialog.h"
+#endif
 
 #ifdef CONVERT_TO_VTT
 #include "subreader.h"
@@ -88,10 +90,14 @@ void Chromecast::openStream(const QString & url, const QString & title) {
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 			"&url=" + url.toUtf8().toBase64()));
 	}
+#ifdef USE_QRCODE
 	else
 	if (output_device == DMobile) {
-		QMessageBox::information(0, "test", url);
+		OpenWithDeviceDialog d;
+		d.setQRCodeText(url);
+		d.exec();
 	}
+#endif
 }
 
 void Chromecast::openLocal(const QString & file, const QString & title, const QString & subtitle) {
@@ -173,10 +179,14 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 			QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 				"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
 		}
+#ifdef USE_QRCODE
 		else
 		if (output_device == DMobile) {
-			QMessageBox::information(0, "test", url);
+			OpenWithDeviceDialog d;
+			d.setQRCodeText(url);
+			d.exec();
 		}
+#endif
 		#endif
 	}
 }

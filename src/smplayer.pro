@@ -34,6 +34,7 @@ DEFINES += GLOBALSHORTCUTS
 DEFINES += ADD_BLACKBORDERS_FS
 DEFINES += INITIAL_BLACKBORDERS
 DEFINES += CHROMECAST_SUPPORT
+DEFINES += USE_QRCODE
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -553,6 +554,13 @@ contains( DEFINES, HDPI_SUPPORT ) {
 contains( DEFINES, CHROMECAST_SUPPORT ) {
 	HEADERS += chromecast.h subreader.h
 	SOURCES += chromecast.cpp subreader.cpp
+
+	contains( DEFINES, USE_QRCODE ) {
+		HEADERS += qrcode/qrcodegen.h qrcode/qrcodelabel.h qrcode/openwithdevicedialog.h
+		SOURCES += qrcode/qrcodegen.c qrcode/qrcodelabel.cpp qrcode/openwithdevicedialog.cpp
+		FORMS += qrcode/openwithdevicedialog.ui
+		QMAKE_CFLAGS += -std=c99
+	}
 }
 
 unix {
