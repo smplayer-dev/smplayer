@@ -159,7 +159,9 @@ protected slots:
 #endif
 
 #ifdef CHROMECAST_SUPPORT
+	void playOnDevice(int device);
 	void playOnChromecast();
+	void playOnMobile();
 #endif
 
 #ifdef GLOBALSHORTCUTS
@@ -178,6 +180,7 @@ protected:
 
 #ifdef CHROMECAST_SUPPORT
 	MyAction * playOnChromecastAct;
+	MyAction * playOnMobileAct;
 #endif
 
 #ifdef DETACH_VIDEO_OPTION
