@@ -168,8 +168,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	playOnChromecastAct = new MyAction(this, "play_on_chromecast");
 	connect(playOnChromecastAct, SIGNAL(triggered()), this, SLOT(playOnChromecast()));
 
+	#ifdef USE_QRCODE
 	playOnMobileAct = new MyAction(this, "play_on_mobile");
 	connect(playOnMobileAct, SIGNAL(triggered()), this, SLOT(playOnMobile()));
+	#endif
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -281,7 +283,9 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef CHROMECAST_SUPPORT
 	playMenu->addSeparator();
 	playMenu->addAction(playOnChromecastAct);
+	#ifdef USE_QRCODE
 	playMenu->addAction(playOnMobileAct);
+	#endif
 #endif
 
 #ifdef USE_SYSTRAY
@@ -317,7 +321,9 @@ void BaseGuiPlus::updateWidgets() {
 
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct->setEnabled(!core->mdat.filename.isEmpty());
+	#ifdef USE_QRCODE
 	playOnMobileAct->setEnabled(!core->mdat.filename.isEmpty());
+	#endif
 #endif
 }
 
@@ -368,7 +374,9 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct->change(Images::icon("chromecast"), tr("Play on &Chromecast"));
+	#ifdef USE_QRCODE
 	playOnMobileAct->change(tr("Play on smartphone/tablet"));
+	#endif
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -1203,11 +1211,13 @@ void BaseGuiPlus::playOnChromecast() {
 	playOnDevice(Chromecast::DChromecast);
 }
 
+#ifdef USE_QRCODE
 void BaseGuiPlus::playOnMobile() {
 	qDebug("BaseGuiPlus::playOnMobile");
 	playOnDevice(Chromecast::DMobile);
 }
 #endif
+#endif // CHROMECAST_SUPPORT
 
 #ifdef CHECK_SHORTCUT_EVENTS
 void BaseGuiPlus::installFilterOnActions() {
