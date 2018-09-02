@@ -32,8 +32,13 @@ class Chromecast : public QObject {
 	Q_OBJECT
 
 public:
+	enum Device { DChromecast = 1, DMobile = 2 };
+
 	Chromecast(QObject * parent = 0);
 	~Chromecast();
+
+	void setOutputDevice(Device d) { output_device = d; };
+	Device outputDevice() { return output_device; };
 
 	void openStream(const QString & url, const QString & title);
 	void openLocal(const QString & file, const QString & title, const QString & subtitle = QString::null);
@@ -121,6 +126,8 @@ protected:
 	bool overwrite_vtt;
 	bool use_sub_filter;
 #endif
+
+	Device output_device;
 
 private:
 	static Chromecast * instance_obj;

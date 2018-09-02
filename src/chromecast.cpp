@@ -28,6 +28,8 @@
 #include <QDebug>
 #include "helper.h"
 
+#include <QMessageBox>
+
 #ifdef CONVERT_TO_VTT
 #include "subreader.h"
 #endif
@@ -63,6 +65,7 @@ Chromecast::Chromecast(QObject * parent)
 	, server_port(8010)
 	, directory_listing(true)
 	, server_needs_restart(false)
+	, output_device(DChromecast)
 {
 #ifdef CONVERT_TO_VTT
 	autoconvert_to_vtt = true;
@@ -81,8 +84,14 @@ Chromecast::~Chromecast() {
 }
 
 void Chromecast::openStream(const QString & url, const QString & title) {
-	QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
-		"&url=" + url.toUtf8().toBase64()));
+	if (output_device == DChromecast) {
+		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
+			"&url=" + url.toUtf8().toBase64()));
+	}
+	else
+	if (output_device == DMobile) {
+		QMessageBox::information(0, "test", url);
+	}
 }
 
 void Chromecast::openLocal(const QString & file, const QString & title, const QString & subtitle) {
@@ -160,8 +169,14 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		qDebug() << "Chromecast::openLocal: sub_url:" << sub_url;
 
 		#if 1
-		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
-			"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
+		if (output_device == DChromecast) {
+			QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
+				"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
+		}
+		else
+		if (output_device == DMobile) {
+			QMessageBox::information(0, "test", url);
+		}
 		#endif
 	}
 }

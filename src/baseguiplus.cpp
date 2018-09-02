@@ -167,6 +167,9 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct = new MyAction(this, "play_on_chromecast");
 	connect(playOnChromecastAct, SIGNAL(triggered()), this, SLOT(playOnChromecast()));
+
+	playOnMobileAct = new MyAction(this, "play_on_mobile");
+	connect(playOnMobileAct, SIGNAL(triggered()), this, SLOT(playOnMobile()));
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -278,6 +281,7 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef CHROMECAST_SUPPORT
 	playMenu->addSeparator();
 	playMenu->addAction(playOnChromecastAct);
+	//playMenu->addAction(playOnMobileAct);
 #endif
 
 #ifdef USE_SYSTRAY
@@ -313,6 +317,7 @@ void BaseGuiPlus::updateWidgets() {
 
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct->setEnabled(!core->mdat.filename.isEmpty());
+	playOnMobileAct->setEnabled(!core->mdat.filename.isEmpty());
 #endif
 }
 
@@ -363,6 +368,7 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct->change(Images::icon("chromecast"), tr("Play on &Chromecast"));
+	playOnMobileAct->change(tr("Play on smartphone/tablet"));
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -1159,8 +1165,8 @@ void BaseGuiPlus::sendAudioClicked() {
 #endif
 
 #ifdef CHROMECAST_SUPPORT
-void BaseGuiPlus::playOnChromecast() {
-	qDebug("BaseGuiPlus::playOnChromecast");
+void BaseGuiPlus::playOnDevice(int device) {
+	qDebug() << "BaseGuiPlus::playOnDevice:" << device;
 
 	qDebug() << "BaseGuiPlus::playOnChromecast: type:" << core->mdat.type;
 	qDebug() << "BaseGuiPlus::playOnChromecast: filename:" << core->mdat.filename;
@@ -1168,11 +1174,14 @@ void BaseGuiPlus::playOnChromecast() {
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_title:" << core->mdat.stream_title;
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_path:" << core->mdat.stream_path;
 
+	Chromecast * cc = Chromecast::instance();
+	cc->setOutputDevice((Chromecast::Device) device);
+
 	QString title = core->mdat.displayName(true);
 	if (core->mdat.type == TYPE_STREAM) {
 		QString url = core->mdat.filename;
 		if (!core->mdat.stream_path.isEmpty()) url = core->mdat.stream_path;
-		Chromecast::instance()->openStream(url, title);
+		cc->openStream(url, title);
 	}
 	else
 	if (core->mdat.type == TYPE_FILE) {
@@ -1182,12 +1191,21 @@ void BaseGuiPlus::playOnChromecast() {
 			qDebug() << "BaseGuiPlus::playOnChromecast: current sub name:" << sub.name() << "filename:" << sub.filename();
 			if (!sub.filename().isEmpty()) subtitle = sub.filename(); else subtitle = sub.name();
 		}
-		Chromecast * cc = Chromecast::instance();
 		#ifdef CONVERT_TO_VTT
 		cc->setSubtitleEncoding(pref->subcp);
 		#endif
 		cc->openLocal(core->mdat.filename, title, subtitle);
 	}
+}
+
+void BaseGuiPlus::playOnChromecast() {
+	qDebug("BaseGuiPlus::playOnChromecast");
+	playOnDevice(Chromecast::DChromecast);
+}
+
+void BaseGuiPlus::playOnMobile() {
+	qDebug("BaseGuiPlus::playOnMobile");
+	playOnDevice(Chromecast::DMobile);
 }
 #endif
 
