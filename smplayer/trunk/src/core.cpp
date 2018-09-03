@@ -1166,6 +1166,9 @@ void Core::finishRestart() {
 			if (mdat.filename == yt->latestPreferredUrl()) {
 				mdat.filename = yt->origUrl();
 				mdat.stream_title = yt->urlTitle();
+				if (proc->isMPlayer()) {
+					mdat.stream_path = yt->latestPreferredUrl();
+				}
 			}
 		}
 	}
