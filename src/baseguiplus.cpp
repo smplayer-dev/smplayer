@@ -320,9 +320,10 @@ void BaseGuiPlus::updateWidgets() {
 	BaseGui::updateWidgets();
 
 #ifdef CHROMECAST_SUPPORT
-	playOnChromecastAct->setEnabled(!core->mdat.filename.isEmpty());
+	bool enable_cc = ((!core->mdat.filename.isEmpty()) && (core->mdat.type == TYPE_STREAM || core->mdat.type == TYPE_FILE));
+	playOnChromecastAct->setEnabled(enable_cc);
 	#ifdef USE_QRCODE
-	playOnMobileAct->setEnabled(!core->mdat.filename.isEmpty());
+	playOnMobileAct->setEnabled(enable_cc);
 	#endif
 #endif
 }
