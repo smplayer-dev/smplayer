@@ -183,6 +183,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		else
 		if (output_device == DMobile) {
 			OpenWithDeviceDialog d;
+			QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + QUrl::toPercentEncoding(filename);
 			d.setQRCodeText(url);
 			d.exec();
 		}
