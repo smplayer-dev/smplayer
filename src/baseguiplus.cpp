@@ -172,6 +172,13 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	playOnMobileAct = new MyAction(this, "play_on_mobile");
 	connect(playOnMobileAct, SIGNAL(triggered()), this, SLOT(playOnMobile()));
 	#endif
+
+	castTo_menu = new QMenu(this);
+	castTo_menu->menuAction()->setObjectName("cast_to_menu");
+	castTo_menu->addAction(playOnChromecastAct);
+	#ifdef USE_QRCODE
+	castTo_menu->addAction(playOnMobileAct);
+	#endif
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -282,10 +289,7 @@ void BaseGuiPlus::populateMainMenu() {
 
 #ifdef CHROMECAST_SUPPORT
 	playMenu->addSeparator();
-	playMenu->addAction(playOnChromecastAct);
-	#ifdef USE_QRCODE
-	playMenu->addAction(playOnMobileAct);
-	#endif
+	playMenu->addMenu(castTo_menu);
 #endif
 
 #ifdef USE_SYSTRAY
@@ -374,9 +378,12 @@ void BaseGuiPlus::retranslateStrings() {
 #endif
 
 #ifdef CHROMECAST_SUPPORT
-	playOnChromecastAct->change(Images::icon("chromecast"), tr("Play on &Chromecast"));
+	castTo_menu->menuAction()->setText( tr("&Cast to") );
+	castTo_menu->menuAction()->setIcon(Images::icon("cast_to"));
+
+	playOnChromecastAct->change(Images::icon("chromecast"), tr("&Chromecast"));
 	#ifdef USE_QRCODE
-	playOnMobileAct->change(tr("Play on smartphone/tablet"));
+	playOnMobileAct->change(tr("&Smartphone/tablet"));
 	#endif
 #endif
 

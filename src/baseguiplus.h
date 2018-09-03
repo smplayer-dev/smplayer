@@ -181,6 +181,7 @@ protected:
 	MyAction * quitAct;
 
 #ifdef CHROMECAST_SUPPORT
+	QMenu * castTo_menu;
 	MyAction * playOnChromecastAct;
 	#ifdef USE_QRCODE
 	MyAction * playOnMobileAct;
