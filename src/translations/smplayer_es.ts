@@ -4861,7 +4861,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished">Para reproducir este vídeo en un teléfono o tableta, escanea el siguiente código QR con tu dispositivo:</translation>
+        <translation>Para reproducir este vídeo en un teléfono o tableta, escanea el siguiente código QR con tu dispositivo:</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
