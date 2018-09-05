@@ -25,6 +25,8 @@
 #include <QProcess>
 #include <QDir>
 #include <QSettings>
+#include <QUdpSocket>
+#include <QHostAddress>
 #include <QDebug>
 #include "helper.h"
 
@@ -244,6 +246,7 @@ QStringList Chromecast::localAddresses() {
 	QStringList l;
 
 	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
+		qDebug() << "Chromecast::localAddresses:" << address.toString();
 		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress(QHostAddress::LocalHost)) {
 			l << address.toString();
 		}
@@ -255,18 +258,30 @@ QStringList Chromecast::localAddresses() {
 QString Chromecast::findLocalAddress() {
 	QString local_address;
 
-	QStringList addresses = localAddresses();
-	qDebug() << "Chromecast::defaultLocalAddress: all IPv4 addresses:" << addresses;
-
-	foreach(QString address, addresses) {
-		//qDebug() << "Chromecast::defaultLocalAddress: address:" << address;
-		if (address.startsWith("192.") && !address.endsWith(".1")) {
-			local_address = address;
-			break;
-		}
+	QUdpSocket s;
+	s.connectToHost("8.8.8.8", 53);
+	if (s.waitForConnected(2000)) {
+		local_address = s.localAddress().toString();
+		qDebug() << "Chromecast::findLocalAddress: connected to:" << s.peerAddress().toString() << "local address:" << local_address;
+		s.disconnectFromHost();
 	}
 
-	if (local_address.isEmpty() && !addresses.isEmpty()) local_address = addresses[0];
+	// If previous method fails...
+	if (local_address.isEmpty()) {
+		QStringList addresses = localAddresses();
+		qDebug() << "Chromecast::defaultLocalAddress: all IPv4 addresses:" << addresses;
+
+		foreach(QString address, addresses) {
+			//qDebug() << "Chromecast::defaultLocalAddress: address:" << address;
+			if (address.startsWith("192.") && !address.endsWith(".1")) {
+				local_address = address;
+				break;
+			}
+		}
+
+		if (local_address.isEmpty() && !addresses.isEmpty()) local_address = addresses[0];
+	}
+
 	return local_address;
 }
 
