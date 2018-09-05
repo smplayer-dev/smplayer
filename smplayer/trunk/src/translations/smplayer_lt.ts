@@ -2008,162 +2008,172 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="333"/>
+        <location filename="../baseguiplus.cpp" line="349"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer vis dar veikia</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="356"/>
+        <location filename="../baseguiplus.cpp" line="372"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Rody&amp;ti piktogramą sistemos dėkle</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="365"/>
-        <source>Play on &amp;Chromecast</source>
+        <location filename="../baseguiplus.cpp" line="381"/>
+        <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="369"/>
+        <location filename="../baseguiplus.cpp" line="384"/>
+        <source>&amp;Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="386"/>
+        <source>&amp;Smartphone/tablet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
         <translation>Siųsti &amp;video į ekraną</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
         <translation>Informacija apie prijungtus &amp;ekranus</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="374"/>
+        <location filename="../baseguiplus.cpp" line="396"/>
         <source>Video is sent to an external screen</source>
         <translation>Video yra siunčiamas į išorinį ekraną</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="378"/>
+        <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
         <translation>Siųsti g&amp;arsą į</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="416"/>
+        <location filename="../baseguiplus.cpp" line="438"/>
         <source>&amp;Hide</source>
         <translation>Slėp&amp;ti</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="418"/>
+        <location filename="../baseguiplus.cpp" line="440"/>
         <source>&amp;Restore</source>
         <translation>&amp;Atstatyti</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Information about connected screens</source>
         <translation>Informacija apie prijungtus ekranus</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Connected screens</source>
         <translation>Prijungti ekranai</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="901"/>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="965"/>
         <source>Number of screens: %1</source>
         <translation>Ekranų skaičius: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
-        <location filename="../baseguiplus.cpp" line="944"/>
+        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="966"/>
         <source>Primary screen: %1</source>
         <translation>Pirminis ekranas: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="970"/>
         <source>Information for screen %1</source>
         <translation>%1 ekrano informacija</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
-        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Prieinama geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
         <source>Available size: %1 x %2</source>
         <translation>Prieinamas dydis: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Prieinama virtuali geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="945"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Prieinamas virtualus dydis: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Depth: %1 bits</source>
         <translation>Gylis: %1 bitų</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="926"/>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
         <source>Logical DPI: %1</source>
         <translation>Loginis DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Physical DPI: %1</source>
         <translation>Fizinis DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="953"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fizinis dydis: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="933"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Atnaujinimo dažnis: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="934"/>
+        <location filename="../baseguiplus.cpp" line="956"/>
         <source>Size: %1 x %2</source>
         <translation>Dydis: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="935"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuali geometrija: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="937"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtualus dydis: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="990"/>
+        <location filename="../baseguiplus.cpp" line="1012"/>
         <source>Primary screen</source>
         <translation>Pirminis ekranas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1059"/>
+        <location filename="../baseguiplus.cpp" line="1081"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer išorinio ekrano išvestis</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1107"/>
+        <location filename="../baseguiplus.cpp" line="1129"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Numatytasis garso įrenginys</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="352"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>&amp;Quit</source>
         <translation>&amp;Baigti</translation>
     </message>
@@ -2194,6 +2204,19 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
         <translation>Pavadinimas</translation>
+    </message>
+</context>
+<context>
+    <name>Chromecast</name>
+    <message>
+        <location filename="../chromecast.cpp" line="91"/>
+        <source>SMPlayer web server is running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../chromecast.cpp" line="93"/>
+        <source>&amp;Stop SMPlayer server</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2243,68 +2266,68 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3183"/>
+        <location filename="../core.cpp" line="3186"/>
         <source>Brightness: %1</source>
         <translation>Ryškumas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3202"/>
         <source>Contrast: %1</source>
         <translation>Kontrastas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3217"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Hue: %1</source>
         <translation>Atspalvis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Saturation: %1</source>
         <translation>Sodrumas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3390"/>
         <source>Volume: %1</source>
         <translation>Garsas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4301"/>
+        <location filename="../core.cpp" line="4304"/>
         <source>Zoom: %1</source>
         <translation>Mastelis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3515"/>
-        <location filename="../core.cpp" line="3526"/>
+        <location filename="../core.cpp" line="3518"/>
+        <location filename="../core.cpp" line="3529"/>
         <source>Font scale: %1</source>
         <translation>Šrifto dydis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4132"/>
+        <location filename="../core.cpp" line="4135"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4539"/>
+        <location filename="../core.cpp" line="4542"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Atnaujinama šriftų atmintinė. Tai gali užtrukti keletą sekundžių...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3440"/>
+        <location filename="../core.cpp" line="3443"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Subtitrų užlaikymas: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3458"/>
+        <location filename="../core.cpp" line="3461"/>
         <source>Audio delay: %1 ms</source>
         <translation>Audio užlaikymas: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3298"/>
+        <location filename="../core.cpp" line="3301"/>
         <source>Speed: %1</source>
         <translation>Greitis %1</translation>
     </message>
@@ -2319,67 +2342,67 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nepavyko rasti video url</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3611"/>
+        <location filename="../core.cpp" line="3614"/>
         <source>Subtitles on</source>
         <translation>Subtitrai įjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3613"/>
+        <location filename="../core.cpp" line="3616"/>
         <source>Subtitles off</source>
         <translation>Subtitrai išjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4183"/>
         <source>Mouse wheel seeks now</source>
         <translation>Dabar pelės ratukas veikia prasukimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4183"/>
+        <location filename="../core.cpp" line="4186"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Dabar pelės ratukas veikia garso reguliavimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4186"/>
+        <location filename="../core.cpp" line="4189"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Dabar pelės ratukas veikia vaizdo didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4189"/>
+        <location filename="../core.cpp" line="4192"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Dabar pelės ratukas veikia greičio didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4515"/>
+        <location filename="../core.cpp" line="4518"/>
         <source>Screenshot saved as %1</source>
         <translation>Momentinis vaizdas išsaugotas kaip %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4550"/>
+        <location filename="../core.cpp" line="4553"/>
         <source>Starting...</source>
         <translation>Pradedama...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1424"/>
+        <location filename="../core.cpp" line="1427"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Momentinis vaizdas NEpadarytas, neparinktas katalogas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1437"/>
+        <location filename="../core.cpp" line="1440"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Momentiniai vaizdai NEpadaryti, neparinktas katalogas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2785"/>
+        <location filename="../core.cpp" line="2788"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Žymė „A“ nustatyta %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2810"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Žymė „B“ nustatyta %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2833"/>
+        <location filename="../core.cpp" line="2836"/>
         <source>A-B markers cleared</source>
         <translation>A-B žymės išvalytos</translation>
     </message>
@@ -4814,6 +4837,24 @@ Norite perrašyti?</translation>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation>Įveskite URL kurie bus pridėti į grojaraštį. Eilutėje po vieną.</translation>
+    </message>
+</context>
+<context>
+    <name>OpenWithDeviceDialog</name>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
+        <source>Play on device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
+        <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
+        <source>Or open this URL in your device&apos;s media player:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

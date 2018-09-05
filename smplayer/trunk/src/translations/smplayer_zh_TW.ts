@@ -2008,162 +2008,176 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="333"/>
+        <location filename="../baseguiplus.cpp" line="349"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer 仍然在這裡執行中</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="356"/>
+        <location filename="../baseguiplus.cpp" line="372"/>
         <source>S&amp;how icon in system tray</source>
         <translation>在系統匣顯示圖示(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="365"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>在 Chromecast 上播放(&amp;C)</translation>
+        <translation type="obsolete">在 Chromecast 上播放(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="369"/>
+        <location filename="../baseguiplus.cpp" line="381"/>
+        <source>&amp;Cast to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="384"/>
+        <source>&amp;Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="386"/>
+        <source>&amp;Smartphone/tablet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
         <translation>傳送影片至螢幕(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
         <translation>關於已連接螢幕的資訊(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="374"/>
+        <location filename="../baseguiplus.cpp" line="396"/>
         <source>Video is sent to an external screen</source>
         <translation>視訊已傳送至外接螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="378"/>
+        <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
         <translation>傳送音訊至(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="416"/>
+        <location filename="../baseguiplus.cpp" line="438"/>
         <source>&amp;Hide</source>
         <translation>隱藏(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="418"/>
+        <location filename="../baseguiplus.cpp" line="440"/>
         <source>&amp;Restore</source>
         <translation>恢復(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Information about connected screens</source>
         <translation>關於已連接螢幕的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Connected screens</source>
         <translation>已連接螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="901"/>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="965"/>
         <source>Number of screens: %1</source>
         <translation>螢幕數：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
-        <location filename="../baseguiplus.cpp" line="944"/>
+        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="966"/>
         <source>Primary screen: %1</source>
         <translation>主螢幕：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="970"/>
         <source>Information for screen %1</source>
         <translation>螢幕 %1 的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
-        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>可用形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
         <source>Available size: %1 x %2</source>
         <translation>可用大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>可用虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="945"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>可用虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Depth: %1 bits</source>
         <translation>深度：%1 位元</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="926"/>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
         <source>Logical DPI: %1</source>
         <translation>邏輯 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Physical DPI: %1</source>
         <translation>實際 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="953"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>實際大小：%1 x %2 毫米</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="933"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>重新整理頻率：%1 赫茲</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="934"/>
+        <location filename="../baseguiplus.cpp" line="956"/>
         <source>Size: %1 x %2</source>
         <translation>大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="935"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="937"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual size: %1 x %2</source>
         <translation>虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="990"/>
+        <location filename="../baseguiplus.cpp" line="1012"/>
         <source>Primary screen</source>
         <translation>主螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1059"/>
+        <location filename="../baseguiplus.cpp" line="1081"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer 外接螢幕輸出</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1107"/>
+        <location filename="../baseguiplus.cpp" line="1129"/>
         <source>&amp;Default audio device</source>
         <translation>預設音訊裝置(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="352"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>&amp;Quit</source>
         <translation>結束(&amp;Q)</translation>
     </message>
@@ -2194,6 +2208,19 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
         <translation>名稱</translation>
+    </message>
+</context>
+<context>
+    <name>Chromecast</name>
+    <message>
+        <location filename="../chromecast.cpp" line="91"/>
+        <source>SMPlayer web server is running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../chromecast.cpp" line="93"/>
+        <source>&amp;Stop SMPlayer server</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2243,68 +2270,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3183"/>
+        <location filename="../core.cpp" line="3186"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3202"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3390"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4301"/>
+        <location filename="../core.cpp" line="4304"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3515"/>
-        <location filename="../core.cpp" line="3526"/>
+        <location filename="../core.cpp" line="3518"/>
+        <location filename="../core.cpp" line="3529"/>
         <source>Font scale: %1</source>
         <translation>字體縮放：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4132"/>
+        <location filename="../core.cpp" line="4135"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4539"/>
+        <location filename="../core.cpp" line="4542"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字型快取，可能需要幾秒鐘時間......</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3440"/>
+        <location filename="../core.cpp" line="3443"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3458"/>
+        <location filename="../core.cpp" line="3461"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3298"/>
+        <location filename="../core.cpp" line="3301"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
@@ -2319,67 +2346,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法找到該影片的網址</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3611"/>
+        <location filename="../core.cpp" line="3614"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3613"/>
+        <location filename="../core.cpp" line="3616"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4183"/>
         <source>Mouse wheel seeks now</source>
         <translation>滑鼠滾輪尋找</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4183"/>
+        <location filename="../core.cpp" line="4186"/>
         <source>Mouse wheel changes volume now</source>
         <translation>滑鼠滾輪更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4186"/>
+        <location filename="../core.cpp" line="4189"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>滑鼠滾輪更改縮放等級</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4189"/>
+        <location filename="../core.cpp" line="4192"/>
         <source>Mouse wheel changes speed now</source>
         <translation>滑鼠滾輪更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4515"/>
+        <location filename="../core.cpp" line="4518"/>
         <source>Screenshot saved as %1</source>
         <translation>螢幕截圖已儲存於 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4550"/>
+        <location filename="../core.cpp" line="4553"/>
         <source>Starting...</source>
         <translation>正在啟動...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1424"/>
+        <location filename="../core.cpp" line="1427"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1437"/>
+        <location filename="../core.cpp" line="1440"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2785"/>
+        <location filename="../core.cpp" line="2788"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2810"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2833"/>
+        <location filename="../core.cpp" line="2836"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>
@@ -4813,6 +4840,24 @@ Do you want to overwrite?</source>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation>請輸入要加入播放清單的 URL。一行一個。</translation>
+    </message>
+</context>
+<context>
+    <name>OpenWithDeviceDialog</name>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
+        <source>Play on device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
+        <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
+        <source>Or open this URL in your device&apos;s media player:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

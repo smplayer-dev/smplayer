@@ -2008,162 +2008,176 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="333"/>
+        <location filename="../baseguiplus.cpp" line="349"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer töötab veel</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="356"/>
+        <location filename="../baseguiplus.cpp" line="372"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Näita ikooni tööribal</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="365"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Esita &amp;Chromecastiga</translation>
+        <translation type="obsolete">Esita &amp;Chromecastiga</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="369"/>
+        <location filename="../baseguiplus.cpp" line="381"/>
+        <source>&amp;Cast to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="384"/>
+        <source>&amp;Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="386"/>
+        <source>&amp;Smartphone/tablet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
         <translation>Saada &amp;video ekraanile</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
         <translation>&amp;Teave ühendatud ekraanide kohta</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="374"/>
+        <location filename="../baseguiplus.cpp" line="396"/>
         <source>Video is sent to an external screen</source>
         <translation>Video saadetakse välisele ekraanile</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="378"/>
+        <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
         <translation>Saada &amp;heli seadmele</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="416"/>
+        <location filename="../baseguiplus.cpp" line="438"/>
         <source>&amp;Hide</source>
         <translation>&amp;Peida</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="418"/>
+        <location filename="../baseguiplus.cpp" line="440"/>
         <source>&amp;Restore</source>
         <translation>&amp;Taasta</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Information about connected screens</source>
         <translation>Teave ühendatud ekraanide kohta</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Connected screens</source>
         <translation>Ühendatud ekraanid</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="901"/>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="965"/>
         <source>Number of screens: %1</source>
         <translation>Ekraane: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
-        <location filename="../baseguiplus.cpp" line="944"/>
+        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="966"/>
         <source>Primary screen: %1</source>
         <translation>Peamine ekraani: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="970"/>
         <source>Information for screen %1</source>
         <translation>Teave ekraani %1 kohta</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
-        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Kasutatavad mõõdud: %1 %2 %3×%4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
         <source>Available size: %1 x %2</source>
         <translation>Kasutatav suurus: %1×%2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Kasutatavad virtuaalsed mõõdud: %1 %2 %3×%4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="945"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Kasutatav virtuaalne suurus: %1×%2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Depth: %1 bits</source>
         <translation>Värvisügavus: %1 bitti</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="926"/>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Mõõdud: %1 %2 %3×%4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
         <source>Logical DPI: %1</source>
         <translation>Loogiline DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Physical DPI: %1</source>
         <translation>Füüsiline DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="953"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Füüsiline suurus: %1×%2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="933"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Värskendussagedus: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="934"/>
+        <location filename="../baseguiplus.cpp" line="956"/>
         <source>Size: %1 x %2</source>
         <translation>Suurus: %1×%2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="935"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuaalsed mõõtmed: %1 %2 %3×%4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="937"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuaalne suurus: %1×%2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="990"/>
+        <location filename="../baseguiplus.cpp" line="1012"/>
         <source>Primary screen</source>
         <translation>Peamine ekraan</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1059"/>
+        <location filename="../baseguiplus.cpp" line="1081"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayeri väljund välisele ekraanile</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1107"/>
+        <location filename="../baseguiplus.cpp" line="1129"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Vaikimisi heliseade</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="352"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>&amp;Quit</source>
         <translation>&amp;Välju</translation>
     </message>
@@ -2194,6 +2208,19 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
         <translation>Nimi</translation>
+    </message>
+</context>
+<context>
+    <name>Chromecast</name>
+    <message>
+        <location filename="../chromecast.cpp" line="91"/>
+        <source>SMPlayer web server is running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../chromecast.cpp" line="93"/>
+        <source>&amp;Stop SMPlayer server</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2243,68 +2270,68 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3183"/>
+        <location filename="../core.cpp" line="3186"/>
         <source>Brightness: %1</source>
         <translation>Heledus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3202"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Hue: %1</source>
         <translation>Värvitoon: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Saturation: %1</source>
         <translation>Küllastus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3390"/>
         <source>Volume: %1</source>
         <translation>Helitugevus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4301"/>
+        <location filename="../core.cpp" line="4304"/>
         <source>Zoom: %1</source>
         <translation>Suurendus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3515"/>
-        <location filename="../core.cpp" line="3526"/>
+        <location filename="../core.cpp" line="3518"/>
+        <location filename="../core.cpp" line="3529"/>
         <source>Font scale: %1</source>
         <translation>Fondi skaala: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4132"/>
+        <location filename="../core.cpp" line="4135"/>
         <source>Aspect ratio: %1</source>
         <translation>Vaate raadius: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4539"/>
+        <location filename="../core.cpp" line="4542"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Fondi vahemälu uuendamine. See võtab mõned sekundid...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3440"/>
+        <location filename="../core.cpp" line="3443"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Subtiitri viivitus: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3458"/>
+        <location filename="../core.cpp" line="3461"/>
         <source>Audio delay: %1 ms</source>
         <translation>Heli viivitus: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3298"/>
+        <location filename="../core.cpp" line="3301"/>
         <source>Speed: %1</source>
         <translation>Kiirus: %1</translation>
     </message>
@@ -2319,67 +2346,67 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Video URLi ei õnnestunud leida</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3611"/>
+        <location filename="../core.cpp" line="3614"/>
         <source>Subtitles on</source>
         <translation>Subtiitrid sees</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3613"/>
+        <location filename="../core.cpp" line="3616"/>
         <source>Subtitles off</source>
         <translation>Subtiitrid väljas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4183"/>
         <source>Mouse wheel seeks now</source>
         <translation>Hiire kerimisnupuga saab nüüd edasi kerida</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4183"/>
+        <location filename="../core.cpp" line="4186"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Hiire keriimsnupuga saab nüüd heli valjusust muuta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4186"/>
+        <location filename="../core.cpp" line="4189"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Hiire kerimisnupuga saab nüüd suurenduse taset muuta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4189"/>
+        <location filename="../core.cpp" line="4192"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Hiire kerimisnupuga saab nüüd kiirust muuta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4515"/>
+        <location filename="../core.cpp" line="4518"/>
         <source>Screenshot saved as %1</source>
         <translation>Ekraanitõmmis salvestatud faili %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4550"/>
+        <location filename="../core.cpp" line="4553"/>
         <source>Starting...</source>
         <translation>Alustamine...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1424"/>
+        <location filename="../core.cpp" line="1427"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Ekraanitõmmist EI tehtud, kaust pole seadistatud</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1437"/>
+        <location filename="../core.cpp" line="1440"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Ekraanitõmmiseid EI tehtud, kaust pole seadistatud</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2785"/>
+        <location filename="../core.cpp" line="2788"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; tähis on nüüd %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2810"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; tähis on nüüd %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2833"/>
+        <location filename="../core.cpp" line="2836"/>
         <source>A-B markers cleared</source>
         <translation>A-B tähised eemaldati</translation>
     </message>
@@ -4814,6 +4841,24 @@ Kas kirjutada see üle?</translation>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation>Sisesta ühe rea kaupa URL(id), mida esitusloendisse lisada. </translation>
+    </message>
+</context>
+<context>
+    <name>OpenWithDeviceDialog</name>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
+        <source>Play on device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
+        <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
+        <source>Or open this URL in your device&apos;s media player:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -2008,162 +2008,176 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="333"/>
+        <location filename="../baseguiplus.cpp" line="349"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer még mindig fut itt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="356"/>
+        <location filename="../baseguiplus.cpp" line="372"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Tálca&amp;ikon megjelenítése</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="365"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Lejátszás &amp;Chromecaston</translation>
+        <translation type="obsolete">Lejátszás &amp;Chromecaston</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="369"/>
+        <location filename="../baseguiplus.cpp" line="381"/>
+        <source>&amp;Cast to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="384"/>
+        <source>&amp;Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="386"/>
+        <source>&amp;Smartphone/tablet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
         <translation>&amp;Videó küldése a képernyőre</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="371"/>
+        <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
         <translation>Információ a csatlakoztatott &amp;képernyőkről</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="374"/>
+        <location filename="../baseguiplus.cpp" line="396"/>
         <source>Video is sent to an external screen</source>
         <translation>A videó egy külső képernyőre lett küldve</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="378"/>
+        <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
         <translation>&amp;Hang küldése</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="416"/>
+        <location filename="../baseguiplus.cpp" line="438"/>
         <source>&amp;Hide</source>
         <translation>&amp;Elrejt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="418"/>
+        <location filename="../baseguiplus.cpp" line="440"/>
         <source>&amp;Restore</source>
         <translation>&amp;Visszaállítás</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="895"/>
+        <location filename="../baseguiplus.cpp" line="917"/>
         <source>Information about connected screens</source>
         <translation>Információ a csatlakoztatott képernyőkről</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="898"/>
+        <location filename="../baseguiplus.cpp" line="920"/>
         <source>Connected screens</source>
         <translation>Csatlakoztatott képernyők</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="901"/>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="965"/>
         <source>Number of screens: %1</source>
         <translation>Képernyők száma: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="906"/>
-        <location filename="../baseguiplus.cpp" line="944"/>
+        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="966"/>
         <source>Primary screen: %1</source>
         <translation>Elsődleges képernyő: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="914"/>
-        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="936"/>
+        <location filename="../baseguiplus.cpp" line="970"/>
         <source>Information for screen %1</source>
         <translation>Információ a %1 képernyőnek</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="916"/>
-        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="938"/>
+        <location filename="../baseguiplus.cpp" line="972"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Elérhető alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="918"/>
+        <location filename="../baseguiplus.cpp" line="940"/>
         <source>Available size: %1 x %2</source>
         <translation>Elérhető méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Elérhető virtuális alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="923"/>
+        <location filename="../baseguiplus.cpp" line="945"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Elérhető virtuális méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="947"/>
         <source>Depth: %1 bits</source>
         <translation>Mélység: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="926"/>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="948"/>
+        <location filename="../baseguiplus.cpp" line="974"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
         <source>Logical DPI: %1</source>
         <translation>Logikai DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="930"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Physical DPI: %1</source>
         <translation>Fizikai DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="931"/>
+        <location filename="../baseguiplus.cpp" line="953"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Fizikai méret: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="933"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Frissítési arány: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="934"/>
+        <location filename="../baseguiplus.cpp" line="956"/>
         <source>Size: %1 x %2</source>
         <translation>Méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="935"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtuális alakzat: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="937"/>
+        <location filename="../baseguiplus.cpp" line="959"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Virtuális méret: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="990"/>
+        <location filename="../baseguiplus.cpp" line="1012"/>
         <source>Primary screen</source>
         <translation>Elsődleges képernyő</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1059"/>
+        <location filename="../baseguiplus.cpp" line="1081"/>
         <source>SMPlayer external screen output</source>
         <translation>Az SMPlayer külső képernyő kimenete</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1107"/>
+        <location filename="../baseguiplus.cpp" line="1129"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Alapértelmezett hang eszköz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="352"/>
+        <location filename="../baseguiplus.cpp" line="368"/>
         <source>&amp;Quit</source>
         <translation>&amp;Kilépés</translation>
     </message>
@@ -2194,6 +2208,19 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
         <translation>Név</translation>
+    </message>
+</context>
+<context>
+    <name>Chromecast</name>
+    <message>
+        <location filename="../chromecast.cpp" line="91"/>
+        <source>SMPlayer web server is running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../chromecast.cpp" line="93"/>
+        <source>&amp;Stop SMPlayer server</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2243,68 +2270,68 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3183"/>
+        <location filename="../core.cpp" line="3186"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3202"/>
         <source>Contrast: %1</source>
         <translation>Kontraszt: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3217"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Hue: %1</source>
         <translation>Színárnyalat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Saturation: %1</source>
         <translation>Telítettség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3390"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4301"/>
+        <location filename="../core.cpp" line="4304"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3515"/>
-        <location filename="../core.cpp" line="3526"/>
+        <location filename="../core.cpp" line="3518"/>
+        <location filename="../core.cpp" line="3529"/>
         <source>Font scale: %1</source>
         <translation>Betű méret: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4132"/>
+        <location filename="../core.cpp" line="4135"/>
         <source>Aspect ratio: %1</source>
         <translation>Méretarány: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4539"/>
+        <location filename="../core.cpp" line="4542"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Betűkészlet gyorsítótár frissítése. Eltarthat pár másodpercig...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3440"/>
+        <location filename="../core.cpp" line="3443"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Felirat késleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3458"/>
+        <location filename="../core.cpp" line="3461"/>
         <source>Audio delay: %1 ms</source>
         <translation>Hangkésleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3298"/>
+        <location filename="../core.cpp" line="3301"/>
         <source>Speed: %1</source>
         <translation>Sebesség: %1</translation>
     </message>
@@ -2319,67 +2346,67 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Nem érhető el a videó URL-je</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3611"/>
+        <location filename="../core.cpp" line="3614"/>
         <source>Subtitles on</source>
         <translation>Felirat be</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3613"/>
+        <location filename="../core.cpp" line="3616"/>
         <source>Subtitles off</source>
         <translation>Felirat ki</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4183"/>
         <source>Mouse wheel seeks now</source>
         <translation>Az egér görgő teker</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4183"/>
+        <location filename="../core.cpp" line="4186"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Az egér görgő hangerőt változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4186"/>
+        <location filename="../core.cpp" line="4189"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Az egér görgő nagyítást változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4189"/>
+        <location filename="../core.cpp" line="4192"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Az egér görgő sebességet változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4515"/>
+        <location filename="../core.cpp" line="4518"/>
         <source>Screenshot saved as %1</source>
         <translation>Képernyőkép lementve: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4550"/>
+        <location filename="../core.cpp" line="4553"/>
         <source>Starting...</source>
         <translation>Indul...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1424"/>
+        <location filename="../core.cpp" line="1427"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Pillanatkép NEM lett mentve, célkönyvtár nincs beállítva</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1437"/>
+        <location filename="../core.cpp" line="1440"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Pillanatképek NEM lettek mentve, célkönyvtár nincs beállítva</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2785"/>
+        <location filename="../core.cpp" line="2788"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2810"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2833"/>
+        <location filename="../core.cpp" line="2836"/>
         <source>A-B markers cleared</source>
         <translation>A-B jelölők törölve</translation>
     </message>
@@ -4814,6 +4841,24 @@ Valóban felül akarja írni?</translation>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation>Itt lehet felsorolni a lejátszási listába felvenni kívánt URL-eket (minden URL-t külön sorba).</translation>
+    </message>
+</context>
+<context>
+    <name>OpenWithDeviceDialog</name>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
+        <source>Play on device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
+        <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
+        <source>Or open this URL in your device&apos;s media player:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
