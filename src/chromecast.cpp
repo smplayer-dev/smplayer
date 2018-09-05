@@ -30,6 +30,12 @@
 #include <QDebug>
 #include "helper.h"
 
+#ifdef CC_USE_TRAY_ICON
+#include <QSystemTrayIcon>
+#include <QMenu>
+#include "images.h"
+#endif
+
 #ifdef USE_QRCODE
 #include "qrcode/openwithdevicedialog.h"
 #endif
@@ -78,6 +84,17 @@ Chromecast::Chromecast(QObject * parent)
 	overwrite_vtt = false;
 	use_sub_filter = true;
 #endif
+
+#ifdef CC_USE_TRAY_ICON
+	tray_icon = new QSystemTrayIcon(parent);
+	tray_icon->setIcon(Images::icon("pref_network")); // FIXME: change this icon
+	tray_icon->setToolTip(tr("SMPlayer web server is running"));
+	tray_menu = new QMenu;
+	QAction * stopServerAct = new QAction(Images::icon("close"), tr("&Stop SMPlayer server"), tray_menu);
+	connect(stopServerAct, SIGNAL(triggered()), this, SLOT(stopServer()));
+	tray_menu->addAction(stopServerAct);
+	tray_icon->setContextMenu(tray_menu);
+#endif
 }
 
 Chromecast::~Chromecast() {
@@ -85,6 +102,11 @@ Chromecast::~Chromecast() {
 		stopServer();
 	}
 	saveSettings();
+
+#ifdef CC_USE_TRAY_ICON
+	delete tray_icon;
+	delete tray_menu;
+#endif
 }
 
 void Chromecast::openStream(const QString & url, const QString & title) {
@@ -337,6 +359,10 @@ void Chromecast::startServer(QString doc_root) {
 
 	last_doc_root = doc_root;
 	server_needs_restart = false;
+
+#ifdef CC_USE_TRAY_ICON
+	tray_icon->show();
+#endif
 }
 
 
@@ -350,6 +376,10 @@ void Chromecast::stopServer() {
 			server_process->waitForFinished();
 		}
 	}
+
+#ifdef CC_USE_TRAY_ICON
+	tray_icon->hide();
+#endif
 }
 
 // Slots

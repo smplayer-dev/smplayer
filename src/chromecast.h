@@ -25,8 +25,11 @@
 
 #define SERVE_FILE_DIR_ONLY
 #define CONVERT_TO_VTT
+#define CC_USE_TRAY_ICON
 
 class QSettings;
+class QSystemTrayIcon;
+class QMenu;
 
 class Chromecast : public QObject {
 	Q_OBJECT
@@ -92,8 +95,6 @@ public:
 
 protected:
 	void startServer(QString doc_root);
-	void stopServer();
-
 	void loadSettings();
 	void saveSettings();
 
@@ -104,6 +105,7 @@ protected:
 	QString checkForVTT(const QString & video_path, const QString & subtitle_file);
 
 protected slots:
+	void stopServer();
 	void readProcessOutput();
 	void processFinished(int exit_code, QProcess::ExitStatus exit_status);
 	void processError(QProcess::ProcessError error);
@@ -128,6 +130,11 @@ protected:
 #endif
 
 	Device output_device;
+
+#ifdef CC_USE_TRAY_ICON
+	QSystemTrayIcon * tray_icon;
+	QMenu * tray_menu;
+#endif
 
 private:
 	static Chromecast * instance_obj;
