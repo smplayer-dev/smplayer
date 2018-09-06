@@ -2020,10 +2020,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>V&amp;is ikon i systemkorga</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Spel av med &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

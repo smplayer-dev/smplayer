@@ -2018,10 +2018,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Icône dans la barre de tâc&amp;hes</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Lire sur &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

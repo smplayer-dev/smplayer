@@ -2018,10 +2018,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Tálca&amp;ikon megjelenítése</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Lejátszás &amp;Chromecaston</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>
