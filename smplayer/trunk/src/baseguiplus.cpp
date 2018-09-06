@@ -379,7 +379,7 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef CHROMECAST_SUPPORT
 	castTo_menu->menuAction()->setText( tr("&Cast to") );
-	castTo_menu->menuAction()->setIcon(Images::icon("cast_to"));
+	castTo_menu->menuAction()->setIcon(Images::icon("cast"));
 
 	playOnChromecastAct->change(Images::icon("chromecast"), tr("&Chromecast"));
 	#ifdef USE_QRCODE
