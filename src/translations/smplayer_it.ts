@@ -2019,10 +2019,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>M&amp;ostra icona nella barra di sistema</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Riproduci su &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

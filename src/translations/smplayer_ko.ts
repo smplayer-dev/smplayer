@@ -2018,10 +2018,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>시스템 트레이에 아이콘 보이기(&amp;H)</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">크롬캐스트로 재생하기(&amp;C)</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

@@ -2018,10 +2018,6 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <translation>Pokaż ikonę w tacce systemowej (&amp;h)</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Odtwórz poprzez &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

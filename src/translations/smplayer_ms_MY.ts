@@ -2018,10 +2018,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>&amp;Papar ikon dalam talam sistem</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Mainkan di &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

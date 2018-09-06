@@ -2018,10 +2018,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>在系统托盘上显示图标(&amp;H)</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">在Chromecast上播放</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

@@ -2019,10 +2019,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>П&amp;рикажи икону у системској касети</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Пусти на &amp;Chromecast</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>

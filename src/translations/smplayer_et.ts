@@ -2018,10 +2018,6 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>&amp;Näita ikooni tööribal</translation>
     </message>
     <message>
-        <source>Play on &amp;Chromecast</source>
-        <translation type="obsolete">Esita &amp;Chromecastiga</translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
         <translation type="unfinished"></translation>
