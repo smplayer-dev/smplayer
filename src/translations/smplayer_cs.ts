@@ -3022,7 +3022,7 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Hledání selhalo</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>získány %n titulky</numerusform>
@@ -3031,7 +3031,7 @@ Příklad: extrastereo,karaoke</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Chyba při opravě řádků titulků</translation>
     </message>
@@ -3067,12 +3067,12 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Dokončeno.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
         <source>%1 files available</source>
         <translation>%1 souborů ke stažení</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="459"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
         <source>Failed to parse the received data.</source>
         <translation>Nelze přečíst přijatá data.</translation>
     </message>
@@ -3097,30 +3097,30 @@ Příklad: extrastereo,karaoke</translation>
         <translation>&amp;Obnovit</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="701"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Subtitle saved as %1</source>
         <translation>Titulky uloženy jako %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="738"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
         <source>Overwrite?</source>
         <translation>Přepsat?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Soubor %1 již existuje, přepsat?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="549"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="656"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3130,13 +3130,13 @@ Zkontrolujte přístupová práva.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="650"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
         <source>Download failed</source>
         <translation>Stahování selhalo</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="634"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
         <source>Temporary file %1</source>
         <translation>Dočasný soubor %1</translation>
     </message>

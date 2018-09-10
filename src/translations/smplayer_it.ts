@@ -3023,7 +3023,7 @@ Esempio: extrastereo,karaoke</translation>
         <translation>La ricerca non ha funzionato</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>estratti %n sottotitoli</numerusform>
@@ -3031,7 +3031,7 @@ Esempio: extrastereo,karaoke</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Errore nell&apos;aggiustare le linee dei sottotitoli</translation>
     </message>
@@ -3067,12 +3067,12 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Fatto.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
         <source>%1 files available</source>
         <translation>%1 file disponibili</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="459"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
         <source>Failed to parse the received data.</source>
         <translation>Lettura dei dati ricevuti fallita.</translation>
     </message>
@@ -3097,30 +3097,30 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Aggio&amp;rna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="701"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Subtitle saved as %1</source>
         <translation>Sottotitoli salvati come %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="738"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
         <source>Overwrite?</source>
         <translation>Sovrascrivi?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Il file %1 esiste già, sovrascrivere?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="549"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="656"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3130,13 +3130,13 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="650"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
         <source>Download failed</source>
         <translation>Download fallito</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="634"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
         <source>Temporary file %1</source>
         <translation>File temporaneo %1</translation>
     </message>
