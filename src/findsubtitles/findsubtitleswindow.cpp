@@ -426,6 +426,7 @@ void FindSubtitlesWindow::parseInfo() {
 
 			QStandardItem * i_name = new QStandardItem(title_name);
 			i_name->setData( l[n].link );
+			if (!l[n].comments.isEmpty()) i_name->setToolTip( l[n].comments );
 			#if QT_VERSION < 0x040400
 			i_name->setToolTip( l[n].link );
 			#endif
