@@ -1,3 +1,23 @@
+Version 18.9:
+
+(2018-09-08)
+  * Fix Youtube.
+
+(2018-09-05)
+ * Display an icon in the system tray when the SMPlayer web server is running.
+
+(2018-09-03)
+ * Add option Play -> Cast to -> Smartphone/tablet. It displays a QR code
+   that you can scan to play the video on your device.
+
+(2018-08-31)
+ * Add truehd to the audio-spdif option.
+
+(2018-08-29)
+ * (Chromecast) Change the default value for the position of the subtitles
+   to -1 (default position).
+
+
 Version 18.6:
 
 (2018-06-18)
