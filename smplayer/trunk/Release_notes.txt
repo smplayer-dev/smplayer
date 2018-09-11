@@ -1,6 +1,6 @@
 Version 18.9:
 
- * Fix forYoutube.
+ * Fix for YouTube.
  * (Experimental) New option in the Play menu: Cast to -> Smartphone/tablet.
    It displays a QR code that you can scan to play the video on your device.
 
