@@ -2021,7 +2021,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation>Übertr&amp;agen nach</translation>
+        <translation>Übertr&amp;agen zum</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
