@@ -11,120 +11,120 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_Is_Running "The installer is already running."
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} Installer_Is_Running "Inštalátor je už spustený."
+${LangFileString} Installer_No_Admin "Pri inštalovaní tohoto programu musíte byť prihlásení ako administrátor."
+${LangFileString} SMPlayer_Is_Running "Je spustená inštancia SMPlayer-u. Ukončite prosím SMPlayer a skúste to znova."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} OS_Not_Supported "Nepodporovaný operačný systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje aspoň systém Windows XP a nemusí fungovať správne vo vašom systéme.$\nNaozaj chcete pokračovať v inštalácii?"
+${LangFileString} OS_Not_Supported_VistaRequired "Nepodporovaný operačný systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje aspoň systém Windows Vista a nemusí fungovať správne vo vašom systéme.$\nNaozaj chcete pokračovať v inštalácii?"
+${LangFileString} Win64_Required "Na inštaláciu tohto softvéru je potrebný 64-bitový operačný systém Windows."
+${LangFileString} Existing_32bitInst "Existuje 32-bitová inštalácia SMPlayer. Najskôr musíte odinštalovať 32-bitový SMPlayer."
+${LangFileString} Existing_64bitInst "Existuje 64-bitová inštalácia SMPlayer. Najskôr musíte odinštalovať 64-bitový SMPlayer."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Nastavenie"
+${LangFileString} WelcomePage_Text "Nastavenie vás prevedie inštaláciou $(^NameDA).$\r$\n$\r$\nPred spustením inštalácie sa odporúča zavrieť všetky inštancie zariadenia SMPlayer. To umožní aktualizovať príslušné programové súbory bez toho, aby ste museli reštartovať počítač.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "Shortcuts"
-${LangFileString} MPlayerGroupTitle "MPlayer Components"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} ShortcutGroupTitle "Odkazy"
+${LangFileString} MPlayerGroupTitle "MPlayer komponenty"
+${LangFileString} MPlayerMPVGroupTitle "Multimediálny engine"
 
-${LangFileString} Section_SMPlayer "SMPlayer (required)"
-${LangFileString} Section_SMPlayer_Desc "SMPlayer, shared libraries, and documentation."
+${LangFileString} Section_SMPlayer "SMPlayer (nutné)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer, zdieľané knižnice a dokumentácia."
 
-${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} Section_DesktopShortcut "Plocha"
+${LangFileString} Section_DesktopShortcut_Desc "Vytvorí odkaz SMPlayer-u na ploche."
 
-${LangFileString} Section_StartMenu "Start Menu"
-${LangFileString} Section_StartMenu_Desc "Create a Start Menu entry for SMPlayer."
+${LangFileString} Section_StartMenu "Štart menu"
+${LangFileString} Section_StartMenu_Desc "Vytvorí odkaz SMPlayer-u v menu Štart"
 
-${LangFileString} Section_MPlayer "MPlayer (required)"
-${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
+${LangFileString} Section_MPlayer "MPlayer (nutné)"
+${LangFileString} Section_MPlayer_Desc "MPlayer; nevyhnutné pre prehrávanie"
 
-${LangFileString} Section_MPlayerCodecs "Binary Codecs"
+${LangFileString} Section_MPlayerCodecs "Binárne kodeky"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binárne kodeky nie sú v tejto verzii podporované."
 !else
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayerCodecs_Desc "Voliteľné kodeky pre MPlayer. (inštalácia vyžaduje internetové pripojenie)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Bohaté funkcie MPlayer && MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "Prídavný program k Mplayer-u, ktorý umožňuje enkódovať alebo upraviť podporované audio a video streamy."
 
-${LangFileString} Section_IconThemes "Icon Themes"
-${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."
+${LangFileString} Section_IconThemes "Témy ikon"
+${LangFileString} Section_IconThemes_Desc "Prídavné témy ikon pre SMPlayer."
 
-${LangFileString} Section_Translations "Languages"
-${LangFileString} Section_Translations_Desc "Non-English language files for SMPlayer."
+${LangFileString} Section_Translations "Jazyky"
+${LangFileString} Section_Translations_Desc "Neanglické jazykové súbory pre SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Vymazať nastavenia SMPlayer-u, kt. zanechali predchádzajúce inštalácie."
 
-${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "Balíky binárnych kodekov pridávajú podporu pre kodeky, ktoré ešte nie sú implementované natívne, ako sú novšie varianty RealVideo a veľa neobvyklých formátov. $\nVšimnite si, že nie je potrebné prehrávať väčšinu bežných formátov, ako sú DVD, MPEG-1/2/4 atď."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Select Install Type"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_Text "Vyberte typ inštalácie"
+${LangFileString} Reinstall_Header_SubText "Vyberte možnosť Prepísať alebo Odinštalovať."
 
-${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
-${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
-${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
-${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
-${LangFileString} Reinstall_Msg4 "Change Installation Settings"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg1 "Už máte existujúcu inštaláciu SMPlayer-u v priečinku:"
+${LangFileString} Reinstall_Msg2 "Prosím vyberte, ako chcete pokračovať:"
+${LangFileString} Reinstall_Overwrite "Prepísať ($Inst_Type) existujúcu inštaláciu"
+${LangFileString} Reinstall_Uninstall "Odinštalovať (odstrániť) existujúcu inštaláciu"
+${LangFileString} Reinstall_Msg3_1 "Kliknite na Spustiť, keď budete pripravený pokračovať."
+${LangFileString} Reinstall_Msg3_2 "Kliknite na Ďalej, keď budete pripravený pokračovať."
+${LangFileString} Reinstall_Msg3_3 "Kliknite na Odinštalovať, keď budete pripravený pokračovať."
+${LangFileString} Reinstall_Msg4 "Zmeniť nastavenia inštalácie"
+${LangFileString} Reinstall_Msg5 "Zresetovať konfiguráciu SMPlayeru"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Naozaj chcete obnoviť nastavenia SMPlayer? Táto akcia sa nedá zvrátiť."
 
-${LangFileString} Type_Reinstall "reinstall"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Reinstall "preinštalovať"
+${LangFileString} Type_Downgrade "nahradiť staršou verziou"
+${LangFileString} Type_Upgrade "aktualizovať"
 
-${LangFileString} StartBtn "Start"
+${LangFileString} StartBtn "Spustiť"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Downloading MPlayer codecs..."
-${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installed. Retry?"
-${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
+${LangFileString} Codecs_DL_Msg "Sťahujú sa kodeky MPlayer-u..."
+${LangFileString} Codecs_DL_Retry "MPlayer kodeky neboli úspešné nainštalované. Znovu?"
+${LangFileString} Codecs_DL_Failed "Nepodarilo sa stiahnuť kodek MPlayer: '$R0'."
+${LangFileString} Codecs_Inst_Failed "Nepodarilo sa nainštalovať kodek MPlayer."
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
-${LangFileString} Uninstaller_Aborted "Uninstall aborted by user."
-${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_No_Admin "Táto inštalácia môže byť odinštalovaná iba používateľom s oprávneniami správcu."
+${LangFileString} Uninstaller_Aborted "Odinštalovanie zrušené používateľom."
+${LangFileString} Uninstaller_NotInstalled "Zdá sa, že SMPlayer nie je nainštalovaný v adresári '$INSTDIR'.$\r$\nPokračovať napriek tomu (neodporúča sa)?"
+${LangFileString} Uninstaller_InvalidDirectory "Inštalácia SMPlayer nebola nájdená."
+${LangFileString} Uninstaller_64bitOnly "Táto inštalácia môže byť odinštalovaná len v 64-bitovom systéme Windows."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} Application_Description "SMPlayer je kompletný front-end pre MPlayer, od základných vlastností ako prehrávanie videí, DVD, VCD, po viac pokročilé vlastnosti ako MPlayer filtre, edl zoznamy, a viac."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
-${LangFileString} Info_Del_Files "Deleting Files..."
-${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
-${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
-${LangFileString} Info_Rest_Assoc "Restoring file associations..."
-${LangFileString} Info_RollBack "Rolling back changes..."
-${LangFileString} Info_Files_Extract "Extracting files..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_Codecs_Backup "Zálohovanie kodekov z predchádzajúcej inštalácie..."
+${LangFileString} Info_Codecs_Restore "Obnovenie kodekov z predchádzajúcej inštalácie..."
+${LangFileString} Info_Del_Files "Odstraňujú sa súbory..."
+${LangFileString} Info_Del_Registry "Odstraňú sa kľúče databázy Registry..."
+${LangFileString} Info_Del_Shortcuts "Odstránenie ikon..."
+${LangFileString} Info_Rest_Assoc "Obnovenie priradenie súborov..."
+${LangFileString} Info_RollBack "Prebieha vrátenie zmien..."
+${LangFileString} Info_Files_Extract "Rozbaľovanie súborov ..."
+${LangFileString} Info_SMTube_Backup "Zálohuje sa SMTube..."
+${LangFileString} Info_SMTube_Restore "Obnovenie SMTube z predchádzajúcej inštalácie..."
+${LangFileString} Info_MPV_Backup "Zálohovanie mpv..."
+${LangFileString} Info_MPV_Restore "Obnovenie mpv z predchádzajúcej inštalácie..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Sťahujem mpv..."
+${LangFileString} MPV_DL_Retry "mpv sa nepodarilo úspešne nainštalovať. Skúsiť znova?"
+${LangFileString} MPV_DL_Failed "Nepodarilo sa stiahnuť mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Nepodarilo sa nainštalovať mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl sa nepodarilo úspešne nainštalovať. Skúsiť znova?"
+${LangFileString} YTDL_DL_Failed "Nepodarilo sa prevziať youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Kontrola aktualizácií youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Čistenie fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Čistenie nastavení SMPlayer..."
