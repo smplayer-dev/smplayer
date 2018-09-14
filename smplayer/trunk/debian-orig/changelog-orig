@@ -1,3 +1,11 @@
+smplayer (18.9.0) precise; urgency=low
+
+  * Fix for YouTube.
+  * (Experimental) New option in the Play menu: Cast to -> Smartphone/tablet.
+    It displays a QR code that you can scan to play the video on your device.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 14 Sep 2018 21:06:37 +0200
+
 smplayer (18.6.0) precise; urgency=low
 
   * On Windows 10 the key shortcuts for play next/previous left a "busy" mouse
