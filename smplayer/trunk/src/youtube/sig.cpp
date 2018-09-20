@@ -25,6 +25,48 @@
 
 //#define ULTRAVERBOSE
 
+QString Sig::playerURL(const QString & player_name) {
+#ifdef SIG_FROM_SMPLAYER_SITE
+	return QString("http://updates.smplayer.info/ytsig/?p=%1").arg(player_name);
+#else
+	return QString("http://s.ytimg.com/yts/jsbin/player-%1/base.js").arg(player_name);
+#endif
+}
+
+#ifdef SIG_FROM_SMPLAYER_SITE
+QString Sig::findFunctions(const QString & text) {
+	qDebug() << "Sig::findFunctions:" << text;
+
+	sts = "";
+	function_name = "";
+	decrypt_function = "";
+
+	QRegExp rx;
+	rx.setMinimal(true);
+
+	rx.setPattern("sts:(\\d+)\n");
+	if (rx.indexIn(text) != -1) {
+		sts = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: sts:" << sts;
+
+	rx.setPattern("function_name:(.*)\n");
+	if (rx.indexIn(text) != -1) {
+		function_name = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: function_name:" << function_name;
+
+	rx.setPattern("function:(.*)\n");
+	if (rx.indexIn(text) != -1) {
+		decrypt_function = rx.cap(1);
+	}
+	qDebug() << "Sig::findFunctions: decrypt_function:" << decrypt_function;
+
+	return decrypt_function;
+}
+
+#else
+
 QString Sig::findText(const QString & text, const QString & begin, const QString & end) {
 	QString res;
 
@@ -128,6 +170,7 @@ QString Sig::findFunctions(const QString & text) {
 	decrypt_function = res;
 	return res;
 }
+#endif
 
 QString Sig::aclara(const QString & text) {
 	int dot = text.indexOf('.');
