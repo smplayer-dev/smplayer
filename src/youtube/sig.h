@@ -21,6 +21,8 @@
 
 #include <QString>
 
+#define SIG_FROM_SMPLAYER_SITE
+
 class QSettings;
 
 class Sig
@@ -36,11 +38,15 @@ public:
 	QString findFunctions(const QString & text);
 	QString aclara(const QString & text);
 
+	static QString playerURL(const QString & player_name);
+
 	void save(QSettings * set);
 	void load(QSettings * set);
 
 private:
+#ifndef SIG_FROM_SMPLAYER_SITE
 	static QString findText(const QString & text, const QString & begin, const QString & end);
+#endif
 };
 
 #endif
