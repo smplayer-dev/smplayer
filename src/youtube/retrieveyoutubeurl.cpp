@@ -57,9 +57,6 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 
 #ifdef YT_USE_SIG
 	dl_player_page = new LoadPage(manager, this);
-	#ifdef SIG_FROM_SMPLAYER_SITE
-	dl_player_page->setUserAgent("SMPlayer");
-	#endif
 	connect(dl_player_page, SIGNAL(pageLoaded(QByteArray)), this, SLOT(playerPageLoaded(QByteArray)));
 	connect(dl_player_page, SIGNAL(errorOcurred(int, QString)), this, SIGNAL(errorOcurred(int, QString)));
 #endif
@@ -220,6 +217,9 @@ void RetrieveYoutubeUrl::fetchPlayerPage(const QString & player_name) {
 	if (!player_name.isEmpty()) {
 		QString url = Sig::playerURL(player_name);
 		qDebug() << "RetrieveYoutubeUrl::fetchPlayerPage: url:" << url;
+		#ifdef SIG_FROM_SMPLAYER_SITE
+		if (dl_player_page->userAgent().isEmpty()) dl_player_page->setUserAgent("SMPlayer");
+		#endif
 		dl_player_page->fetchPage(url);
 	}
 }
