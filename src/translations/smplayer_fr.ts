@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2020,17 +2018,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Diffuser vers</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Smartphone/tablette</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2212,12 +2210,12 @@ Information concernant les écrans connectés</translation>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>Le serveur web de SMPlayer est en cours de fonctionnement</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop SMPlayer server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Arrêter le serveur de SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -3023,15 +3021,12 @@ Exemple: extrastereo,karaoke</translation>
         <translation>La recherche a échoué</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sous-titre extrait</numerusform>
-            <numerusform>%n sous-titres extraits</numerusform>
-        </translation>
+        <translation><numerusform>%n sous-titre extrait</numerusform><numerusform>%n sous-titres extraits</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Erreur lors de la réparation des lignes de sous-titres</translation>
     </message>
@@ -3067,12 +3062,12 @@ Exemple: extrastereo,karaoke</translation>
         <translation>Effectué.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
         <source>%1 files available</source>
         <translation>%1 fichiers disponibles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="459"/>
         <source>Failed to parse the received data.</source>
         <translation>Impossible de comprendre les données reçues.</translation>
     </message>
@@ -3097,31 +3092,31 @@ Exemple: extrastereo,karaoke</translation>
         <translation>&amp;Rafraichir</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="701"/>
         <source>Subtitle saved as %1</source>
         <translation>Sous-titres sauvegardés : %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="738"/>
         <source>Overwrite?</source>
         <translation>Ecraser ?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Le fichier %1 existe déjà, l&apos;écraser ?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="549"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="656"/>
         <source>Error saving file</source>
         <translation>Erreur lors de la sauvegarde</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Il n&apos;a pas été possible de sauvegarder
@@ -3130,13 +3125,13 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="650"/>
         <source>Download failed</source>
         <translation>Téléchargement échoué</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="634"/>
         <source>Temporary file %1</source>
         <translation>Fichier temporaire %1</translation>
     </message>
@@ -4845,17 +4840,17 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire sur l&apos;appareil</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pour lire cette vidéo dans un smartphone ou une tablette, veuillez scanner le code QR avec votre appareil :</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ou ouvrez cette URL dans le lecteur multimédia de votre appareil :</translation>
     </message>
 </context>
 <context>
@@ -9934,19 +9929,13 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n seconde</numerusform>
-            <numerusform>%n secondes</numerusform>
-        </translation>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n secondes</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minutes</numerusform>
-        </translation>
+        <translation><numerusform>%n minute</numerusform><numerusform>%n minutes</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

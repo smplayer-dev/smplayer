@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2020,17 +2018,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Транслювати на</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Смартфон/планшет</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2211,12 +2209,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>Web-сервер SMPlayer запущено</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop SMPlayer server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зупинити сервер SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -3022,16 +3020,12 @@ Example: extrastereo,karaoke</source>
         <translation>Пошук не дав результатів</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Помилка виправлення рядків субтитрів</translation>
     </message>
@@ -3067,12 +3061,12 @@ Example: extrastereo,karaoke</source>
         <translation>Виконано.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
         <source>%1 files available</source>
         <translation>%1 файлів доступні</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="459"/>
         <source>Failed to parse the received data.</source>
         <translation>Неможливо обробити прийняті дані.</translation>
     </message>
@@ -3097,31 +3091,31 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Оновити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="701"/>
         <source>Subtitle saved as %1</source>
         <translation>Субтитри збережені як %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="738"/>
         <source>Overwrite?</source>
         <translation>Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 вже існує, перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="549"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="656"/>
         <source>Error saving file</source>
         <translation>Помилка збереження файлу</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -3130,13 +3124,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="650"/>
         <source>Download failed</source>
         <translation>Завантаження невдале</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="634"/>
         <source>Temporary file %1</source>
         <translation>Тимчасовий файл %1</translation>
     </message>
@@ -4845,17 +4839,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворити на пристрої</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Для відтворення цього відео на смартфоні чи планшеті, відскануйте цей QR-код за допомогою пристрою:</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"></translation>
+        <translation>Або відкрийте цю URL-адресу в програвачі вашого пристрою:</translation>
     </message>
 </context>
 <context>
@@ -6808,7 +6802,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation>Вибрати клавіші…</translation>
+        <translation>Вибрати &amp;клавіші…</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -9930,21 +9924,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
