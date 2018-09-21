@@ -41,7 +41,17 @@ void QRCodeLabel::paintEvent(QPaintEvent * event) {
 
 	QPainter painter(this);
 
+	#if 0
 	char * str = qrcode_text.toUtf8().data();
+	//qDebug() << "qrcode_text:" << qrcode_text;
+	//qDebug("str: '%s'", str);
+	#else
+	QByteArray str_utf8 = qrcode_text.toUtf8();
+	char str[str_utf8.size() + 1];
+	strcpy(str, str_utf8.data());
+	//qDebug("str: '%s'", str);
+	#endif
+
 	uint8_t qrcode[qrcodegen_BUFFER_LEN_MAX];
 	uint8_t tempBuffer[qrcodegen_BUFFER_LEN_MAX];
 	bool ok = qrcodegen_encodeText(str, tempBuffer, qrcode, qrcodegen_Ecc_LOW, 
