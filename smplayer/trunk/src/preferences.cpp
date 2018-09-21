@@ -543,8 +543,8 @@ void Preferences::reset() {
 #endif
 #ifdef YOUTUBE_SUPPORT
 	yt_quality = RetrieveYoutubeUrl::MP4_720p;
-	//yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
-	yt_user_agent = "";
+	yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
+	//yt_user_agent = "";
 	yt_use_https_main = false;
 	yt_use_https_vi = false;
 #endif
@@ -1095,7 +1095,7 @@ void Preferences::save() {
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
 	set->setValue("quality", yt_quality);
-	set->setValue("user_agent", yt_user_agent);
+	set->setValue("yt_user_agent", yt_user_agent);
 	set->setValue("yt_use_https_main", yt_use_https_main);
 	set->setValue("yt_use_https_vi", yt_use_https_vi);
 	set->endGroup();
@@ -1694,7 +1694,7 @@ void Preferences::load() {
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
 	yt_quality = set->value("quality", yt_quality).toInt();
-	yt_user_agent = set->value("user_agent", yt_user_agent).toString();
+	yt_user_agent = set->value("yt_user_agent", yt_user_agent).toString();
 	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
 	yt_use_https_vi = set->value("yt_use_https_vi", yt_use_https_vi).toBool();
 	set->endGroup();
