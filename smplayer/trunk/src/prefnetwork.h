@@ -49,8 +49,8 @@ protected:
 	int proxyType();
 
 #ifdef YOUTUBE_SUPPORT
-	void setYTQuality(int q);
-	int YTQuality();
+	void setYTResolution(int r);
+	int YTResolution();
 #endif
 
 	void setStreamingType(int);

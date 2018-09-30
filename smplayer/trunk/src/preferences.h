@@ -516,7 +516,7 @@ public:
 	QString ytdl_quality;
 #endif
 	#ifdef YOUTUBE_SUPPORT
-	int yt_quality;
+	int yt_resolution;
 	QString yt_user_agent;
 	bool yt_use_https_main;
 	bool yt_use_https_vi;
