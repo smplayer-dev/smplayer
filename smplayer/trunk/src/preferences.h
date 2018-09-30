@@ -520,6 +520,7 @@ public:
 	QString yt_user_agent;
 	bool yt_use_https_main;
 	bool yt_use_https_vi;
+	bool yt_use_dash;
 	#endif
 
 	// Proxy

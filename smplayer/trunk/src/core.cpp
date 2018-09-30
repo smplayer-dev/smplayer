@@ -289,7 +289,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	yt = new RetrieveYoutubeUrl(this);
 	yt->setUseHttpsMain(pref->yt_use_https_main);
 	yt->setUseHttpsVi(pref->yt_use_https_vi);
-	//yt->setUseDASH(true);
+	#ifdef YT_DASH_SUPPORT
+	yt->setUseDASH(pref->yt_use_dash);
+	#endif
 
 	#ifdef YT_USE_SIG
 	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);
@@ -964,7 +966,12 @@ void Core::openStream(QString name, QStringList params) {
 
 	#ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
-		if (mdat.filename == yt->selectedUrl()) name = yt->origUrl();
+		if (mdat.filename == yt->selectedUrl()) {
+			name = yt->origUrl();
+			#ifdef YT_DASH_SUPPORT
+			if (pref->yt_use_dash) mset.external_audio = yt->selectedAudioUrl(); else mset.external_audio = "";
+			#endif
+		}
 	}
 	#endif
 	// Check if we already have info about this file
