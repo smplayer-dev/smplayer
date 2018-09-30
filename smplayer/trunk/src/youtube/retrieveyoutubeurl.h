@@ -30,11 +30,11 @@
 class QSettings;
 
 //#define YT_GET_VIDEOINFO
-//#define YT_DASH_SUPPORT
+#define YT_DASH_SUPPORT
 #define YT_LIVE_STREAM
 
 #ifdef YT_GET_VIDEOINFO
-#define YT_DISCARD_HTTPS
+//#define YT_DISCARD_HTTPS
 #endif
 
 typedef QMap<int,QString> UrlMap;
@@ -44,38 +44,92 @@ class RetrieveYoutubeUrl : public QObject
 	Q_OBJECT
 
 public:
-	enum Quality { FLV_240p = 5, MP4_360p = 18, MP4_720p = 22, FLV_360p = 34,
-                   FLV_480p = 35, MP4_1080p = 37, WEBM_360p = 43,
-                   WEBM_480p = 44, WEBM_720p = 45, WEBM_1080p = 46,
-                   DASH_AUDIO_MP4_48 = 139, DASH_AUDIO_MP4_128 = 140, DASH_AUDIO_MP4_256 = 141,
+	enum Quality { None = -1,
+                   FLV_240p = 5, FLV_270p = 6, FLV_360p = 34, FLV_480p = 35,
+                   MP4_360p = 18, MP4_480p = 59, MP4_480p2 = 78,
+                   MP4_720p = 22,
+                   MP4_1080p = 37, MP4_4096 = 38,
+                   WEBM_360p = 43, WEBM_480p = 44, WEBM_720p = 45,
+                   WEBM_1080p = 46,
+
+                   DASH_AUDIO_MP4_48 = 139, DASH_AUDIO_MP4_128 = 140,
+                   DASH_AUDIO_MP4_256 = 141,
                    DASH_AUDIO_WEBM_128 = 171, DASH_AUDIO_WEBM_192 = 172,
-                   DASH_VIDEO_1080p = 137, DASH_VIDEO_720p = 136,
-                   DASH_VIDEO_480p = 135, DASH_VIDEO_360p = 134,
-                   DASH_VIDEO_240p = 133 };
+
+                   DASH_VIDEO_240p = 133, DASH_VIDEO_360p = 134,
+                   DASH_VIDEO_480p = 135, DASH_VIDEO_480p2 = 212,
+                   DASH_VIDEO_720p = 136,
+                   DASH_VIDEO_720p60 = 298,
+                   DASH_VIDEO_1080p = 137,
+                   DASH_VIDEO_1080p60 = 299,
+                   DASH_VIDEO_1440p = 264,
+                   DASH_VIDEO_2160p2 = 138, DASH_VIDEO_2160p = 266,
+
+                   DASH_VIDEO_WEBM_240p = 242,
+                   DASH_VIDEO_WEBM_360p = 167,
+                   DASH_VIDEO_WEBM_360p2 = 243,
+
+                   DASH_VIDEO_WEBM_480p = 168,
+                   DASH_VIDEO_WEBM_480p2 = 218,
+                   DASH_VIDEO_WEBM_480p3 = 219,
+                   DASH_VIDEO_WEBM_480p4 = 244,
+                   DASH_VIDEO_WEBM_480p5 = 245,
+                   DASH_VIDEO_WEBM_480p6 = 246,
+                   DASH_VIDEO_WEBM_720p = 169,
+                   DASH_VIDEO_WEBM_720p2 = 247,
+                   DASH_VIDEO_WEBM_720p60 = 302,
+
+                   DASH_VIDEO_WEBM_1080p = 170,
+                   DASH_VIDEO_WEBM_1080p2 = 248,
+                   DASH_VIDEO_WEBM_1080p60 = 303,
+                   DASH_VIDEO_WEBM_1440p = 271,
+                   DASH_VIDEO_WEBM_1440p60 = 308,
+                   DASH_VIDEO_WEBM_2160p = 313,
+                   DASH_VIDEO_WEBM_2160p2 = 272,
+                   DASH_VIDEO_WEBM_2160p60 = 315,
+
+                   DASH_VIDEO_WEBM_240p60hdr = 331,
+                   DASH_VIDEO_WEBM_360p60hdr = 332,
+                   DASH_VIDEO_WEBM_480p60hdr = 333,
+                   DASH_VIDEO_WEBM_720p60hdr = 334,
+                   DASH_VIDEO_WEBM_1080p60hdr = 335,
+                   DASH_VIDEO_WEBM_1440p60hdr = 336,
+                   DASH_VIDEO_WEBM_2160p60hdr = 337 };
+
+	enum Resolution { R240p = 1, R360p = 2, R480p = 3, R720p = 4, R1080p = 5, R1440p = 6, R2160p = 7 };
 
 	RetrieveYoutubeUrl( QObject* parent = 0 );
 	~RetrieveYoutubeUrl();
 
-	void setPreferredQuality(Quality q) { preferred_quality = q; }
-	Quality preferredQuality() { return preferred_quality; }
+	void clearData();
+
+	void setPreferredResolution(Resolution r) { preferred_resolution = r; }
+	Resolution preferredResolution() { return preferred_resolution; }
 
 	void setUserAgent(const QString & s) { LoadPage::setDefaultUserAgent(s); };
 	QString userAgent() { return LoadPage::defaultUserAgent(); };
 
 	void fetchPage(const QString & url);
 
-#ifdef YT_USE_SIG
+	#ifdef YT_USE_SIG
 	void setSettings(QSettings * settings);
-#endif
-
-#ifdef YT_DASH_SUPPORT
-	static int findBestAudio(const QMap<int, QString>& url_map); // Returns the itag
-#endif
+	#endif
 
 	QString urlTitle() { return url_title; }
 	QString origUrl() { return yt_url; }
 
-	QString latestPreferredUrl() { return latest_preferred_url; }
+	QString selectedUrl() { return selected_url; }
+	Quality selectedQuality() { return selected_quality; }
+
+	#ifdef YT_DASH_SUPPORT
+	void setUseDASH(bool b) { use_dash = b; }
+	bool useDASH() { return use_dash; }
+
+	QString selectedAudioUrl() { return selected_audio_url; }
+	Quality selectedAudioQuality() { return selected_audio_quality; }
+	#endif
+
+	UrlMap urlMap() { return urlmap; }
 
 	bool isUrlSupported(const QString & url);
 	QString fullUrl(const QString & url);
@@ -85,7 +139,6 @@ public:
 	bool useHttpsMain() { return use_https_main; };
 	bool useHttpsVi() { return use_https_vi; };
 
-	static int findPreferredUrl(const UrlMap & url_map, Quality q); // Returns the itag
 	static QString extensionForItag(int itag);
 
 	void close() { /* FIXME: do something */ };
@@ -102,38 +155,47 @@ signals:
 
 protected slots:
 	void videoPageLoaded(QByteArray page);
-#ifdef YT_GET_VIDEOINFO
+	#ifdef YT_GET_VIDEOINFO
 	void videoInfoPageLoaded(QByteArray page);
-#endif
-#ifdef YT_USE_SIG
+	#endif
+	#ifdef YT_USE_SIG
 	void playerPageLoaded(QByteArray page);
-#endif
-#ifdef YT_LIVE_STREAM
+	#endif
+	#ifdef YT_LIVE_STREAM
 	void streamPageLoaded(QByteArray page);
-#endif
+	#endif
+	/* void receivedResponse303(QString); */
 
 	void processVideoPage();
 
 protected:
 	void fetchVideoPage(const QString & url);
-#ifdef YT_GET_VIDEOINFO
+	#ifdef YT_GET_VIDEOINFO
 	void fetchVideoInfoPage(const QString & url);
-#endif
-#ifdef YT_USE_SIG
+	#endif
+	#ifdef YT_USE_SIG
 	void fetchPlayerPage(const QString & player_name);
-#endif
-#ifdef YT_LIVE_STREAM
+	#endif
+	#ifdef YT_LIVE_STREAM
 	void fetchStreamPage(const QString & url);
-#endif
+	#endif
+
+	void setUrlMap(const UrlMap & map) { urlmap = map; }
 
 	QString getVideoID(QString video_url);
 	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
 
-#ifdef YT_USE_SCRIPT
+	#ifdef YT_USE_SCRIPT
 	QString aclara(const QString & text, const QString & player = "");
-#endif
+	#endif
+
+	static Quality findResolution(const UrlMap & url_map, QList<Quality> l);
+	static Quality findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash = false);
+	#ifdef YT_DASH_SUPPORT
+	static Quality findBestAudio(const QMap<int, QString>& url_map);
+	#endif
 
 	static QString sanitizeForUnicodePoint(QString string);
 
@@ -141,34 +203,42 @@ private:
 	QNetworkAccessManager* manager;
 	LoadPage * dl_video_page;
 
-#ifdef YT_GET_VIDEOINFO
+	#ifdef YT_GET_VIDEOINFO
 	LoadPage * dl_video_info_page;
-#endif
+	#endif
 
-#ifdef YT_USE_SIG
+	#ifdef YT_USE_SIG
 	LoadPage * dl_player_page;
 	Sig sig;
 	QSettings * set;
-#else
+	#else
 	QString html5_player;
-#endif
+	#endif
 
-#ifdef YT_LIVE_STREAM
+	#ifdef YT_LIVE_STREAM
 	LoadPage * dl_stream_page;
-#endif
+	#endif
 
-	QString video_page;
-	QString url_title;
+	Resolution preferred_resolution;
 
-	Quality preferred_quality;
 	bool use_https_main;
 	bool use_https_vi;
 
 	QString yt_url;
-	QString video_id;
+	QString url_title;
 
-	QString latest_preferred_url;
+	QString selected_url;
+	Quality selected_quality;
 
+	#ifdef YT_DASH_SUPPORT
+	QString selected_audio_url;
+	Quality selected_audio_quality;
+	bool use_dash;
+	#endif
+
+	UrlMap urlmap;
+
+	QString video_page;
 	bool failed_to_decrypt_signature;
 };
 
