@@ -126,12 +126,12 @@
                <string>Playback &amp;quality</string>
               </property>
               <property name="buddy">
-               <cstring>yt_quality_combo</cstring>
+               <cstring>yt_resolution_combo</cstring>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QComboBox" name="yt_quality_combo"/>
+             <widget class="QComboBox" name="yt_resolution_combo"/>
             </item>
             <item>
              <spacer>
@@ -543,7 +543,7 @@
   <tabstop>tab_widget</tabstop>
   <tabstop>streaming_type_combo</tabstop>
   <tabstop>ytdl_quality_combo</tabstop>
-  <tabstop>yt_quality_combo</tabstop>
+  <tabstop>yt_resolution_combo</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>local_ip_combo</tabstop>
   <tabstop>port_spin</tabstop>

@@ -38,20 +38,11 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	proxy_type_combo->addItem( tr("SOCKS5"), QNetworkProxy::Socks5Proxy);
 
 #ifdef YOUTUBE_SUPPORT
-	yt_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
-
-	yt_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
-	yt_quality_combo->addItem( "360p (mp4)", RetrieveYoutubeUrl::MP4_360p );
-	yt_quality_combo->addItem( "360p (webm)", RetrieveYoutubeUrl::WEBM_360p );
-
-	yt_quality_combo->addItem( "480p (flv)", RetrieveYoutubeUrl::FLV_480p );
-	yt_quality_combo->addItem( "480p (webm)", RetrieveYoutubeUrl::WEBM_480p );
-
-	yt_quality_combo->addItem( "720p (mp4)", RetrieveYoutubeUrl::MP4_720p );
-	yt_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
-
-	yt_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
-	yt_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+	yt_resolution_combo->addItem( "240p", RetrieveYoutubeUrl::R240p );
+	yt_resolution_combo->addItem( "360p", RetrieveYoutubeUrl::R360p );
+	yt_resolution_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
+	yt_resolution_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
+	yt_resolution_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
 #endif
 
 	connect(streaming_type_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(streaming_type_combo_changed(int)));
@@ -131,7 +122,7 @@ void PrefNetwork::setData(Preferences * pref) {
 
 	setStreamingType(pref->streaming_type);
 #ifdef YOUTUBE_SUPPORT
-	setYTQuality( pref->yt_quality );
+	setYTResolution( pref->yt_resolution );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
 
@@ -167,7 +158,7 @@ void PrefNetwork::getData(Preferences * pref) {
 
 	pref->streaming_type = streamingType();
 #ifdef YOUTUBE_SUPPORT
-	pref->yt_quality = YTQuality();
+	pref->yt_resolution = YTResolution();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
 
@@ -202,13 +193,13 @@ int PrefNetwork::proxyType() {
 }
 
 #ifdef YOUTUBE_SUPPORT
-void PrefNetwork::setYTQuality(int q) {
-	yt_quality_combo->setCurrentIndex(yt_quality_combo->findData(q));
+void PrefNetwork::setYTResolution(int r) {
+	yt_resolution_combo->setCurrentIndex(yt_resolution_combo->findData(r));
 }
 
-int PrefNetwork::YTQuality() {
-	int index = yt_quality_combo->currentIndex();
-    return yt_quality_combo->itemData(index).toInt();
+int PrefNetwork::YTResolution() {
+	int index = yt_resolution_combo->currentIndex();
+	return yt_resolution_combo->itemData(index).toInt();
 }
 #endif
 
@@ -308,7 +299,7 @@ void PrefNetwork::createHelp() {
 		tr("If this option is checked, SMPlayer will try to play videos from Youtube URLs.") );
 	*/
 
-	setWhatsThis(yt_quality_combo, tr("Playback quality"),
+	setWhatsThis(yt_resolution_combo, tr("Playback quality"),
 		tr("Select the preferred quality for YouTube videos.") );
 
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),

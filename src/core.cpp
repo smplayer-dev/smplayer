@@ -289,6 +289,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	yt = new RetrieveYoutubeUrl(this);
 	yt->setUseHttpsMain(pref->yt_use_https_main);
 	yt->setUseHttpsVi(pref->yt_use_https_vi);
+	//yt->setUseDASH(true);
 
 	#ifdef YT_USE_SIG
 	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);
@@ -933,7 +934,7 @@ void Core::openStream(QString name, QStringList params) {
 		if (!yt_full_url.isEmpty()) {
 			qDebug("Core::openStream: youtube url detected: %s", yt_full_url.toLatin1().constData());
 			name = yt_full_url;
-			yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
+			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
 			qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
 			/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
 			yt->setUserAgent(pref->yt_user_agent);
@@ -963,7 +964,7 @@ void Core::openStream(QString name, QStringList params) {
 
 	#ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
-		if (mdat.filename == yt->latestPreferredUrl()) name = yt->origUrl();
+		if (mdat.filename == yt->selectedUrl()) name = yt->origUrl();
 	}
 	#endif
 	// Check if we already have info about this file
@@ -1041,7 +1042,7 @@ void Core::initPlaying(int seek) {
 		// Avoid to pass to mplayer the youtube page url
 		if (mdat.type == TYPE_STREAM) {
 			if (mdat.filename == yt->origUrl()) {
-				mdat.filename = yt->latestPreferredUrl();
+				mdat.filename = yt->selectedUrl();
 			}
 		}
 	}
@@ -1163,11 +1164,11 @@ void Core::finishRestart() {
 	if (PREF_YT_ENABLED) {
 		// Change the real url with the youtube page url and set the title
 		if (mdat.type == TYPE_STREAM) {
-			if (mdat.filename == yt->latestPreferredUrl()) {
+			if (mdat.filename == yt->selectedUrl()) {
 				mdat.filename = yt->origUrl();
 				mdat.stream_title = yt->urlTitle();
 				if (proc->isMPlayer()) {
-					mdat.stream_path = yt->latestPreferredUrl();
+					mdat.stream_path = yt->selectedUrl();
 				}
 			}
 		}
@@ -2466,7 +2467,7 @@ void Core::startMplayer( QString file, double seek ) {
 		if (pref->streaming_type == Preferences::StreamingAuto) {
 			bool is_youtube = false;
 			#ifdef YOUTUBE_SUPPORT
-			if (PREF_YT_ENABLED) is_youtube = (file == yt->latestPreferredUrl());
+			if (PREF_YT_ENABLED) is_youtube = (file == yt->selectedUrl());
 			#endif
 			qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
 			bool enable_sites = !is_youtube;
