@@ -43,6 +43,8 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	yt_resolution_combo->addItem( "480p", RetrieveYoutubeUrl::R480p );
 	yt_resolution_combo->addItem( "720p", RetrieveYoutubeUrl::R720p );
 	yt_resolution_combo->addItem( "1080p", RetrieveYoutubeUrl::R1080p );
+	yt_resolution_combo->addItem( "2K", RetrieveYoutubeUrl::R1440p );
+	yt_resolution_combo->addItem( "4K", RetrieveYoutubeUrl::R2160p );
 #endif
 
 	connect(streaming_type_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(streaming_type_combo_changed(int)));

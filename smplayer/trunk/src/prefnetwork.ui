@@ -123,7 +123,7 @@
             <item>
              <widget class="QLabel" name="yt_label">
               <property name="text">
-               <string>Playback &amp;quality</string>
+               <string>Playback &amp;quality:</string>
               </property>
               <property name="buddy">
                <cstring>yt_resolution_combo</cstring>
@@ -153,7 +153,7 @@
             <item>
              <widget class="QLabel" name="yt_user_agent_label">
               <property name="text">
-               <string>&amp;User agent</string>
+               <string>&amp;User agent:</string>
               </property>
               <property name="buddy">
                <cstring>yt_user_agent_edit</cstring>
