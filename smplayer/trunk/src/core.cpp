@@ -289,9 +289,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	yt = new RetrieveYoutubeUrl(this);
 	yt->setUseHttpsMain(pref->yt_use_https_main);
 	yt->setUseHttpsVi(pref->yt_use_https_vi);
-	#ifdef YT_DASH_SUPPORT
-	yt->setUseDASH(pref->yt_use_dash);
-	#endif
 
 	#ifdef YT_USE_SIG
 	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);
@@ -940,6 +937,9 @@ void Core::openStream(QString name, QStringList params) {
 			qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
 			/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
 			yt->setUserAgent(pref->yt_user_agent);
+			#ifdef YT_DASH_SUPPORT
+			yt->setUseDASH(pref->yt_use_dash);
+			#endif
 			#ifdef YT_USE_YTSIG
 			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
 			#endif

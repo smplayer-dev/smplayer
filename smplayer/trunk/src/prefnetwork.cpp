@@ -29,6 +29,8 @@
 #include "chromecast.h"
 #endif
 
+//#define USE_YT_USER_AGENT
+
 PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -59,6 +61,11 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 
 #ifndef MPV_SUPPORT
 	ytdl_quality_frame->hide();
+#endif
+
+#ifndef USE_YT_USER_AGENT
+	yt_user_agent_label->hide();
+	yt_user_agent_edit->hide();
 #endif
 
 	retranslateStrings();
@@ -125,6 +132,7 @@ void PrefNetwork::setData(Preferences * pref) {
 	setStreamingType(pref->streaming_type);
 #ifdef YOUTUBE_SUPPORT
 	setYTResolution( pref->yt_resolution );
+	yt_dash_check->setChecked( pref->yt_use_dash );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
 
@@ -161,6 +169,7 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->streaming_type = streamingType();
 #ifdef YOUTUBE_SUPPORT
 	pref->yt_resolution = YTResolution();
+	pref->yt_use_dash = yt_dash_check->isChecked();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
 
@@ -304,8 +313,14 @@ void PrefNetwork::createHelp() {
 	setWhatsThis(yt_resolution_combo, tr("Playback quality"),
 		tr("Select the preferred quality for YouTube videos.") );
 
+
+	setWhatsThis(yt_dash_check, tr("Use adaptive streams"),
+		tr("This option enables adaptive streams which can provide videos up to 4K.") );
+
+#ifdef USE_YT_USER_AGENT
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),
 		tr("Set the user agent that SMPlayer will use when connecting to YouTube.") );
+#endif
 
 #ifdef MPV_SUPPORT
 	/*
