@@ -968,9 +968,6 @@ void Core::openStream(QString name, QStringList params) {
 	if (PREF_YT_ENABLED) {
 		if (mdat.filename == yt->selectedUrl()) {
 			name = yt->origUrl();
-			#ifdef YT_DASH_SUPPORT
-			if (pref->yt_use_dash) mset.external_audio = yt->selectedAudioUrl(); else mset.external_audio = "";
-			#endif
 		}
 	}
 	#endif
@@ -2049,14 +2046,19 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-	if (!mset.external_audio.isEmpty()) {
-		#ifdef Q_OS_WIN
-		if (pref->use_short_pathnames)
-			proc->setOption("audiofile", Helper::shortPathName(mset.external_audio));
-		else
+	{ // Audio file
+		QString audio_file = mset.external_audio;
+		#if defined(YOUTUBE_SUPPORT) && defined(YT_DASH_SUPPORT)
+		if (PREF_YT_ENABLED) {
+			if (file == yt->selectedUrl() && yt->useDASH()) audio_file = yt->selectedAudioUrl();
+		}
 		#endif
-		{
-			proc->setOption("audiofile", mset.external_audio);
+
+		if (!audio_file.isEmpty()) {
+			#ifdef Q_OS_WIN
+			if ((mdat.type == TYPE_FILE && pref->use_short_pathnames)) audio_file = Helper::shortPathName(audio_file);
+			#endif
+			proc->setOption("audiofile", audio_file);
 		}
 	}
 
