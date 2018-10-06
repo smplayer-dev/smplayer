@@ -98,10 +98,3 @@ void YTSig::reloadScriptFile() {
 
 	}
 }
-
-void YTSig::check(QString & u) {
-	if (!parsed_ts.isEmpty()) {
-		u.append(QString("&%1").arg(parsed_ts));
-	}
-}
-

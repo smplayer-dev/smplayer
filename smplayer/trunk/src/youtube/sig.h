@@ -23,29 +23,51 @@
 
 #define SIG_FROM_SMPLAYER_SITE
 
+#define SIG_USE_JSCODE
+#define SIG_USE_NO_JSCODE
+
+#ifndef SIG_FROM_SMPLAYER_SITE
+#undef SIG_USE_NO_JSCODE
+#endif
+
 class QSettings;
 
 class Sig
 {
 public:
-	void clear() { html5_player = ""; sts = ""; decrypt_function = ""; }
+	void clear() { html5_player = ""; sts = ""; decrypt_function = ""; decrypt_code = "";}
 
 	QString html5_player;
 	QString sts;
+
 	QString function_name;
-	QString decrypt_function;
+	QString decrypt_function; // javascript
+
+	QString decrypt_code; // No javascript
 
 	QString findFunctions(const QString & text);
-	QString aclara(const QString & text);
+	QString aclara(const QString & signature);
 
 	static QString playerURL(const QString & player_name);
 
 	void save(QSettings * set);
 	void load(QSettings * set);
 
+protected:
+#ifdef SIG_USE_JSCODE
+	QString aclaraJS(const QString & signature);
+#endif
+#ifdef SIG_USE_NO_JSCODE
+	QString aclaraNoJS(const QString & signature);
+#endif
+
 private:
 #ifndef SIG_FROM_SMPLAYER_SITE
 	static QString findText(const QString & text, const QString & begin, const QString & end);
+#endif
+
+#ifdef SIG_USE_NO_JSCODE
+	static QString reverseString(const QString & orig);
 #endif
 };
 

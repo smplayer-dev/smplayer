@@ -25,19 +25,14 @@ class YTSig
 {
 public:
 	static QString aclara(const QString & text, const QString & player = "", const QString & function_name = QString::null);
-
-	static void check(QString & u);
-
 	static void setScriptFile(const QString & f) { script_filename = f; reloadScriptFile(); };
+	static QString parsed_ts;
 
 private:
 	static QString script;
 	static QString default_script;
 	static QString script_filename;
 	static void reloadScriptFile();
-
-private:
-	static QString parsed_ts;
 };
 
 #endif
