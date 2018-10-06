@@ -217,7 +217,6 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 
 	QString scheme = use_https_vi ? "https" : "http";
 	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
-
 	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url.left(20);
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
@@ -227,18 +226,16 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 	}
 
 	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	YTSig::check(u);
+	u += "&" + YTSig::parsed_ts;
 	#endif
 
 	#ifdef YT_USE_SIG
-	/*
 	if (!sig.sts.isEmpty()) {
-		u = u + "&amp;sts=" + sig.sts;
+		u += "&sts=" + sig.sts;
 	}
-	*/
 	#ifdef YT_USE_YTSIG
 	else {
-		YTSig::check(u);
+		u += "&" + YTSig::parsed_ts;
 	}
 	#endif
 	#endif
