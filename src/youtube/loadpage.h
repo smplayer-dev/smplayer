@@ -46,6 +46,7 @@ public:
 signals:
 	void errorOcurred(int error_number, QString error_str);
 	void pageLoaded(QByteArray page);
+	void response303(QString);
 
 protected slots:
 	void gotResponse();
