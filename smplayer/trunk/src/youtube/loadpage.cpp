@@ -34,8 +34,8 @@ LoadPage::~LoadPage() {
 }
 
 void LoadPage::fetchPage(const QString & url) {
-	qDebug() << "LoadPage::fetchPage:" << url;
-	qDebug() << "LoadPage::fetchPage: user agent:" << userAgent();
+	//qDebug() << "LoadPage::fetchPage:" << url;
+	//qDebug() << "LoadPage::fetchPage: user agent:" << userAgent();
 
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", userAgent().toLatin1());
@@ -60,6 +60,10 @@ void LoadPage::gotResponse() {
 				r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
 				qDebug() << "LoadPage::gotResponse: redirected:" << r_url;
 				fetchPage(r_url);
+				break;
+			case 303:
+				r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
+				emit response303(r_url);
 				break;
 			default:
 				qDebug() << "LoadPage::gotResponse: emit pageLoaded";

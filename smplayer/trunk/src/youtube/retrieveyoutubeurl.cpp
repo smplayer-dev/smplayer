@@ -217,7 +217,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 
 	QString scheme = use_https_vi ? "https" : "http";
 	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
-	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url.left(20);
+	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url;
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
 		qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: no support for ssl";
@@ -285,12 +285,13 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	#ifdef YT_USE_SIG
 	QString html5_player;
 	#endif
-	QRegExp rxplayer("jsbin\\/player-([\\d\\w-]+)\\/([a-z]{2}_[A-Z]{2})\\/base\\.js");
+
+	QRegExp rxplayer("jsbin\\/player(.*)\\/base\\.js");
+	rxplayer.setMinimal(true);
 	if (rxplayer.indexIn(replyString) != -1) {
 		QString player = rxplayer.cap(1);
-		QString locale = rxplayer.cap(2);
-		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player << "locale:" << locale;
-		html5_player = player +"/"+ locale;
+		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
+		html5_player = player;
 	} else {
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";
 		//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page:" << page;
