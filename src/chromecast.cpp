@@ -88,9 +88,9 @@ Chromecast::Chromecast(QObject * parent)
 #ifdef CC_USE_TRAY_ICON
 	tray_icon = new QSystemTrayIcon(parent);
 	tray_icon->setIcon(Images::icon("cast", 22));
-	tray_icon->setToolTip(tr("SMPlayer web server is running"));
+	tray_icon->setToolTip(tr("The SMPlayer web server is running"));
 	tray_menu = new QMenu;
-	QAction * stopServerAct = new QAction(Images::icon("close"), tr("&Stop SMPlayer server"), tray_menu);
+	QAction * stopServerAct = new QAction(Images::icon("close"), tr("&Stop the SMPlayer web server"), tray_menu);
 	connect(stopServerAct, SIGNAL(triggered()), this, SLOT(stopServer()));
 	tray_menu->addAction(stopServerAct);
 	tray_icon->setContextMenu(tray_menu);
