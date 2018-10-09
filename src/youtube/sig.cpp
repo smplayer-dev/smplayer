@@ -30,7 +30,7 @@ QString Sig::playerURL(const QString & player_name) {
 	QString p = player_name.toUtf8().toBase64();
 	return QString("http://updates.smplayer.info/ytsig/?e=%1&c=1").arg(p);
 #else
-	return QString("http://s.ytimg.com/yts/jsbin/player%1/base.js").arg(player_name);
+	return QString("http://s.ytimg.com/yts/jsbin/%1/base.js").arg(player_name);
 #endif
 }
 

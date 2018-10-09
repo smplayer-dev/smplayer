@@ -291,7 +291,7 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	if (rxplayer.indexIn(replyString) != -1) {
 		QString player = rxplayer.cap(1);
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
-		html5_player = player;
+		html5_player = "player" + player;
 	} else {
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";
 		//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page:" << page;
