@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -516,7 +514,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>О&amp;тключён</translation>
+        <translation>О&amp;тключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1991"/>
@@ -805,7 +803,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1848"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>&amp;Браузер &amp;YouTube%1</translation>
+        <translation>Браузер &amp;YouTube%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1872"/>
@@ -1643,7 +1641,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
         <source>&amp;Off</source>
-        <translation>О&amp;тключён</translation>
+        <translation>О&amp;тключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2066"/>
@@ -2040,7 +2038,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
-        <translation>Информация о подключённых &amp;экранах</translation>
+        <translation>Информация о подключенных &amp;экранах</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="396"/>
@@ -2065,12 +2063,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="917"/>
         <source>Information about connected screens</source>
-        <translation>Информация о подключённых экранах</translation>
+        <translation>Информация о подключенных экранах</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="920"/>
         <source>Connected screens</source>
-        <translation>Подключённые экраны</translation>
+        <translation>Подключенные экраны</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="923"/>
@@ -3022,16 +3020,12 @@ Example: extrastereo,karaoke</source>
         <translation>Поиск завершился неудачно</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="724"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр извлечён</numerusform>
-            <numerusform>%n субтитра извлечёны</numerusform>
-            <numerusform>%n субтитров извлечено</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр извлечён</numerusform><numerusform>%n субтитра извлечёны</numerusform><numerusform>%n субтитров извлечено</numerusform><numerusform>%n субтитров извлечено</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="784"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Ошибка при исправлении строк субтитров</translation>
     </message>
@@ -3067,12 +3061,12 @@ Example: extrastereo,karaoke</source>
         <translation>Завершено.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="450"/>
         <source>%1 files available</source>
         <translation>%1 файлов доступно</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="459"/>
         <source>Failed to parse the received data.</source>
         <translation>Ошибка обработки полученных данных.</translation>
     </message>
@@ -3097,31 +3091,31 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Обновить</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="701"/>
         <source>Subtitle saved as %1</source>
         <translation>Субтитры сохранены как %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="738"/>
         <source>Overwrite?</source>
         <translation>Перезаписать?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 существует, перезаписать?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="549"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="656"/>
         <source>Error saving file</source>
         <translation>Ошибка сохранения файла</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Не удалось сохранить загруженный
@@ -3130,13 +3124,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="650"/>
         <source>Download failed</source>
         <translation>Ошибка загрузки</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="634"/>
         <source>Temporary file %1</source>
         <translation>Временный файл %1</translation>
     </message>
@@ -5447,7 +5441,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
         <source>Correct pts</source>
-        <translation>Точные метки времени</translation>
+        <translation>Корректировать метки времени</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
@@ -5502,7 +5496,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation>Указывает положение панели OSD на экране. 0 – верх, 100 – низ.</translation>
+        <translation>Указывает положение панели OSD на экране. 0 – вверху, 100 – внизу.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -5542,7 +5536,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Переключает %1 в экспериментальный режим, в котором тайминг кадров видео рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
+        <translation>Переключает %1 в экспериментальный режим, в котором метки времени для кадров видео рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие метки времени существующих. Более точные метки времени могут быть заметны, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без корректировки меток времени тайминг субтитров, как правило, будет отключен некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5616,7 +5610,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
         <source>C&amp;orrect PTS:</source>
-        <translation>Точные &amp;метки времени:</translation>
+        <translation>Корректировать &amp;метки времени:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="559"/>
@@ -5778,7 +5772,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer не выбирает устройства CDROM или DVD по умолчанию. Поэтому чтобы воспроизводить CD или DVD, выберите устройства, которые вы хотите использовать (они могут быть одним и тем же устройством).</translation>
+        <translation>SMPlayer не выбирает устройства CDROM или DVD по умолчанию. Поэтому, чтобы воспроизводить CD или DVD, выберите устройства, которые вы хотите использовать (они могут быть одним и тем же устройством).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -5803,7 +5797,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Примечание 1&lt;/b&gt;: кэш будет отключён, это может повлиять на производительность.</translation>
+        <translation>&lt;b&gt;Примечание 1&lt;/b&gt;: кэш будет отключен, это может повлиять на производительность.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
@@ -6095,7 +6089,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Попробуйте эту опцию для использования программного микшера вместо аппаратного.</translation>
+        <translation>Выберите эту опцию для использования программного микшера вместо аппаратного.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1120"/>
@@ -6105,7 +6099,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>Динамическое изменение степени постпроцессинга в зависимости от количества свободного процессорного времени. Указанное вами число будет соответствовать максимальному уровню.</translation>
+        <translation>Динамическое изменение степени постобработки в зависимости от количества свободного процессорного времени. Указанное вами число будет соответствовать максимальному уровню.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1165"/>
@@ -6135,7 +6129,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation>За&amp;помнить настройки для потоков</translation>
+        <translation>&amp;Помнить настройки для потоков</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -6180,7 +6174,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
-        <translation>Ма&amp;кс. увеличение:</translation>
+        <translation>Ма&amp;кс. усиление:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1146"/>
@@ -6330,7 +6324,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1292"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Указывает дорожку субтитров по умолчанию, используемую по умолчанию для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; опция &lt;i&gt;Предпочтительный язык субтитров&lt;/i&gt; более приоритетна.</translation>
+        <translation>Указывает дорожку субтитров по умолчанию, используемую по умолчанию для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; опция &lt;i&gt;Предпочитаемый язык субтитров&lt;/i&gt; более приоритетна.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1305"/>
@@ -6549,7 +6543,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Отметьте эту опцию, чтобы отключить хранитель экрана во время воспроизведения.&lt;br&gt; Он будет включён снова по окончании воспроизведения.</translation>
+        <translation>Отметьте эту опцию, чтобы отключить хранитель экрана во время воспроизведения.&lt;br&gt; Он будет включен снова по окончании воспроизведения.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6600,7 +6594,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation>Следующий метод может быть быстрее, если уже сохранены настройки большого количества файлов.</translation>
+        <translation>Последний метод может быть быстрее, если уже сохранены настройки большого количества файлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="128"/>
@@ -6610,7 +6604,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1054"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation>&lt;b&gt;отдельные ini файлы,&lt;b/&gt;: для каждого воспроизводимого файла будет использоваться свой ini файл. Все ini файлы будут сохранены в каталог %1</translation>
+        <translation>&lt;b&gt;отдельные ini файлы&lt;/b&gt;: для каждого воспроизводимого файла будет использоваться свой ini файл. Все ini файлы будут сохранены в каталог %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1042"/>
@@ -7255,7 +7249,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>Если эта опция включена, после двойного щелчка по области видео выполнится только функция двойного щелчка, иначе будет выполняться так же функция левой клавиши.</translation>
+        <translation>Если эта опция включена, после двойного щелчка по области видео выполнится только функция двойного щелчка, иначе будет выполняться также функция левой клавиши.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
@@ -7520,7 +7514,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>Показывать только при перемещении указателя мыши в &amp;низ экрана</translation>
+        <translation>Показывать только при перемещении указателя мыши в&amp;низ экрана</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
@@ -7650,7 +7644,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="880"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Выберите максимальное количество элементов в подменю &lt;b&gt;Открыть-&gt;Последние файлы&lt;/b&gt;. При значении 0 меню не будет показано вообще.</translation>
+        <translation>Выберите максимальное количество элементов в подменю &lt;b&gt;Открыть -&gt; Последние файлы&lt;/b&gt;. При значении 0 меню не будет показано вообще.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -7822,12 +7816,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation>Показывать только при перемещении указателя мыши в низ экрана</translation>
+        <translation>Показывать только при перемещении указателя мыши вниз экрана</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Если эта опция включена, плавающая панель будет показываться только когда мышь перемещена в низ экрана. Иначе панель будет появляться при любом движении мыши, независимо от её позиции.</translation>
+        <translation>Если эта опция включена, плавающая панель будет показываться только когда мышь перемещена вниз экрана. Иначе панель будет появляться при любом движении мыши, независимо от её позиции.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -7862,7 +7856,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="885"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Выберите максимальное число элементов, запоминаемых в диалоге &lt;b&gt;Открыть-&gt;Адрес&lt;/b&gt;. Установите в 0, если не хотите сохранять URL вообще.</translation>
+        <translation>Выберите максимальное число элементов, запоминаемых в диалоге &lt;b&gt;Открыть -&gt; Адрес&lt;/b&gt;. Установите в 0, если не хотите сохранять URL вообще.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="889"/>
@@ -7888,7 +7882,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation>По умолчанию при нажатии кнопки остановки временная позиция медиафайла запоминается, поэтому при нажатии кнопки воспроизведения, медиафайл продолжит воспроизводиться с того же места. Вы должны нажать кнопку стоп второй раз для сброса позиции, но эта опция, будучи установленной, установит временную позицию в 0 даже при однократном нажатии кнопки остановки.</translation>
+        <translation>По умолчанию при нажатии кнопки стопа временная позиция медиафайла запоминается, поэтому при нажатии кнопки воспроизведения, медиафайл продолжит воспроизводиться с того же места. Вы должны нажать кнопку стоп второй раз для сброса позиции, но эта опция, будучи установленной, установит временную позицию в 0 даже при однократном нажатии кнопки остановки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="839"/>
@@ -8310,7 +8304,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="337"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation>Когда веб-сервер работает, то любое устройство в сети может получить доступ к файлам с этого компьютера. Если эта опция включена, то любое устройство может получить список файлов в этом компьютере. Если эта опция выключена, то список не будет доступен.</translation>
+        <translation>Когда веб-сервер работает, то любое устройство в сети может получить доступ к файлам с этого компьютера. Если эта опция включена, то любое устройство может получить список файлов на этом компьютере. Если эта опция выключена, то список не будет доступен.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
@@ -8406,7 +8400,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="373"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>Если прокси требует аутентификации, укажите имя пользователя.</translation>
+        <translation>Если прокси требует аутентификации, то укажите имя пользователя.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="375"/>
@@ -8426,7 +8420,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="380"/>
         <source>Select the proxy type to be used.</source>
-        <translation>Выберите тип используемой прокси.</translation>
+        <translation>Выберите тип используемого прокси.</translation>
     </message>
 </context>
 <context>
@@ -8526,12 +8520,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>Allow hard frame drop</source>
-        <translation>Допускать жесткое выпадение кадров</translation>
+        <translation>Допускать жёсткое выпадение кадров</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Более жесткое пропускание кадров (рваное воспроизведение). Приводит к искажению картинки!</translation>
+        <translation>Более жёсткое пропускание кадров (рваное воспроизведение). Приводит к искажению картинки!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
@@ -8546,7 +8540,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Допускать &amp;жесткое выпадение кадров (изображение может исказиться)</translation>
+        <translation>Допускать &amp;жёсткое выпадение кадров (изображение может исказиться)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
@@ -8747,7 +8741,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;Включено&lt;/b&gt;: фильтр loop пропускается только для видео с высотой картинки %1 или выше.</translation>
+        <translation>&lt;b&gt;Пропускать только для HD видео&lt;/b&gt;: фильтр loop пропускается только для видео с высотой картинки %1 или выше.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
@@ -9030,7 +9024,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation>Добавить файлы из &amp;папки:</translation>
+        <translation>Добавлять файлы из &amp;папки:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
@@ -9065,7 +9059,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>&amp;Добавить файлы в плейлист автоматически</translation>
+        <translation>&amp;Добавлять файлы в плейлист автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9212,12 +9206,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Border color</source>
-        <translation>Цвет кромки</translation>
+        <translation>Цвет границы</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation>Выберите цвет кромки субтитров.</translation>
+        <translation>Выберите цвет границы субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="403"/>
@@ -9741,7 +9735,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>Проверять &amp;обновления</translation>
+        <translation>Проверить &amp;обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -9766,7 +9760,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Если этот параметр включён, то SMPlayer будет проверять обновления и покажет сообщение, когда станет доступна новая версия.</translation>
+        <translation>Если этот параметр включен, то SMPlayer будет проверять обновления и покажет сообщение, когда станет доступна новая версия.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9930,21 +9924,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунды</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минуты</numerusform>
-            <numerusform>%n минут</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минуты</numerusform><numerusform>%n минут</numerusform><numerusform>%n минут</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
