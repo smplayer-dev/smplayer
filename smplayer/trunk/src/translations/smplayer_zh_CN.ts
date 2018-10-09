@@ -2210,12 +2210,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <name>Chromecast</name>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
-        <source>SMPlayer web server is running</source>
+        <source>The SMPlayer web server is running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
-        <source>&amp;Stop SMPlayer server</source>
+        <source>&amp;Stop the SMPlayer web server</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2266,68 +2266,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3186"/>
+        <location filename="../core.cpp" line="3196"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3202"/>
+        <location filename="../core.cpp" line="3212"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3217"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Gamma: %1</source>
         <translation>伽玛: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3232"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3390"/>
+        <location filename="../core.cpp" line="3400"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4304"/>
+        <location filename="../core.cpp" line="4314"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3518"/>
-        <location filename="../core.cpp" line="3529"/>
+        <location filename="../core.cpp" line="3528"/>
+        <location filename="../core.cpp" line="3539"/>
         <source>Font scale: %1</source>
         <translation>字体缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4135"/>
+        <location filename="../core.cpp" line="4145"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4542"/>
+        <location filename="../core.cpp" line="4552"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字体缓存。这可能需要几秒钟...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3443"/>
+        <location filename="../core.cpp" line="3453"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3461"/>
+        <location filename="../core.cpp" line="3471"/>
         <source>Audio delay: %1 ms</source>
         <translation>音频延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3301"/>
+        <location filename="../core.cpp" line="3311"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2342,67 +2342,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法定位视频的URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3614"/>
+        <location filename="../core.cpp" line="3624"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3616"/>
+        <location filename="../core.cpp" line="3626"/>
         <source>Subtitles off</source>
         <translation>字幕关闭</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4183"/>
+        <location filename="../core.cpp" line="4193"/>
         <source>Mouse wheel seeks now</source>
         <translation>鼠标滚轮定位</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4186"/>
+        <location filename="../core.cpp" line="4196"/>
         <source>Mouse wheel changes volume now</source>
         <translation>鼠标滚轮更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4189"/>
+        <location filename="../core.cpp" line="4199"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>鼠标滚轮更改缩放等级</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4192"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel changes speed now</source>
         <translation>鼠标滚轮更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4518"/>
+        <location filename="../core.cpp" line="4528"/>
         <source>Screenshot saved as %1</source>
         <translation>截图已保存为 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4553"/>
+        <location filename="../core.cpp" line="4563"/>
         <source>Starting...</source>
         <translation>正在开始...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1427"/>
+        <location filename="../core.cpp" line="1432"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1440"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2788"/>
+        <location filename="../core.cpp" line="2798"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2823"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2836"/>
+        <location filename="../core.cpp" line="2846"/>
         <source>A-B markers cleared</source>
         <translation>A-B 标记已清除</translation>
     </message>
@@ -8029,14 +8029,12 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality</source>
-        <translation>播放质量 (&amp;q)</translation>
+        <translation type="obsolete">播放质量 (&amp;q)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;User agent</source>
-        <translation>用户代理 (&amp;U)</translation>
+        <translation type="obsolete">用户代理 (&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -8059,103 +8057,118 @@ Do you want to overwrite?</source>
         <translation>YouTube 选项</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="188"/>
+        <location filename="../prefnetwork.ui" line="126"/>
+        <source>Playback &amp;quality:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="154"/>
+        <source>Use a&amp;daptive streams (resolution up to 4K)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="163"/>
+        <source>&amp;User agent:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="195"/>
         <source>C&amp;hromecast</source>
         <translation>Chromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="194"/>
+        <location filename="../prefnetwork.ui" line="201"/>
         <source>Web Server</source>
         <translation>网络服务器</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="206"/>
+        <location filename="../prefnetwork.ui" line="213"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation>这里的改动将会在下次网络服务器重启的时候应用</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="226"/>
+        <location filename="../prefnetwork.ui" line="233"/>
         <source>&amp;Directory listing</source>
         <translation>列出目录</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="233"/>
+        <location filename="../prefnetwork.ui" line="240"/>
         <source>Local &amp;IP:</source>
         <translation>本地IP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="279"/>
+        <location filename="../prefnetwork.ui" line="286"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation>为了将这台电脑上的本地媒体文件提供给 Chromecast，SMPlayer 将会运行一个迷你服务器。你可以在这里进行设置。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="306"/>
+        <location filename="../prefnetwork.ui" line="313"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="312"/>
+        <location filename="../prefnetwork.ui" line="319"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation>转换 SRT 字幕到 &amp;VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="344"/>
+        <location filename="../prefnetwork.ui" line="351"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation>&amp;覆盖已有的 VTT 文件</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="358"/>
         <source>Try to &amp;remove advertisements</source>
         <translation>尝试移除广告&amp;</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="360"/>
+        <location filename="../prefnetwork.ui" line="367"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation>&amp;字幕在屏幕上的位置</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="415"/>
+        <location filename="../prefnetwork.ui" line="422"/>
         <source>&amp;Proxy</source>
         <translation>代理(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="421"/>
+        <location filename="../prefnetwork.ui" line="428"/>
         <source>&amp;Enable proxy</source>
         <translation>启用代理(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="434"/>
+        <location filename="../prefnetwork.ui" line="441"/>
         <source>&amp;Host:</source>
         <translation>主机(&amp;H)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="256"/>
-        <location filename="../prefnetwork.ui" line="447"/>
+        <location filename="../prefnetwork.ui" line="263"/>
+        <location filename="../prefnetwork.ui" line="454"/>
         <source>&amp;Port:</source>
         <translation>端口(&amp;P)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="467"/>
+        <location filename="../prefnetwork.ui" line="474"/>
         <source>&amp;Username:</source>
         <translation>用户名(&amp;U)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="480"/>
+        <location filename="../prefnetwork.ui" line="487"/>
         <source>Pa&amp;ssword:</source>
         <translation>密码(&amp;s)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="497"/>
+        <location filename="../prefnetwork.ui" line="504"/>
         <source>&amp;Type:</source>
         <translation>类型(&amp;T)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="37"/>
+        <location filename="../prefnetwork.cpp" line="39"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="38"/>
+        <location filename="../prefnetwork.cpp" line="40"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
@@ -8165,264 +8178,274 @@ Do you want to overwrite?</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation>仅在需要的网站才会使用 mpv + youtube-dl 组合</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="314"/>
+        <location filename="../prefnetwork.cpp" line="321"/>
         <source>User agent</source>
         <translation>用户代理</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="91"/>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Disabled</source>
         <translation>禁用</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
-        <location filename="../prefnetwork.cpp" line="251"/>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="253"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Auto</source>
         <translation>自动</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="107"/>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>Best video and audio</source>
         <translation>最佳视频和音频</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Worst</source>
         <translation>最差</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="278"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
         <source>YouTube</source>
         <translation>YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>Support for video sites</source>
         <translation>视频网站支持</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>support for video sites is turned off</source>
         <translation>视频网站支持功能已被关闭</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="287"/>
+        <location filename="../prefnetwork.cpp" line="289"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>仅启用内置 YouTube 播放功能</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="290"/>
+        <location filename="../prefnetwork.cpp" line="292"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>对所有视频网站使用 mpv + youtube-dl 解决方案</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="296"/>
+        <location filename="../prefnetwork.cpp" line="298"/>
         <source>Preferred quality</source>
         <translation>首选质量</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="297"/>
+        <location filename="../prefnetwork.cpp" line="299"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
         <translation>此视频质量的特定选项是由 youtube-dl 控制的。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>selects the best video and audio streams available</source>
         <translation>最佳视频和音频流的质量选择是可用的</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
-        <location filename="../prefnetwork.cpp" line="300"/>
+        <location filename="../prefnetwork.cpp" line="302"/>
         <source>Best</source>
         <translation>最佳</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="300"/>
+        <location filename="../prefnetwork.cpp" line="302"/>
         <source>selects the best quality format available as a single file</source>
         <translation>单文件的最佳质量格式选择是可用的</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>1080p, 720p...</source>
         <translation>1080p, 720p...</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>will try to use the selected resolution if available</source>
         <translation>如果可用，将会尝试已选择的尺寸</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>selects the worst quality format available</source>
         <translation>选择最差的质量格式可用</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="311"/>
+        <location filename="../prefnetwork.cpp" line="313"/>
         <source>Playback quality</source>
         <translation>播放画质</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="312"/>
+        <location filename="../prefnetwork.cpp" line="314"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>请选择优先使用的 YouTube 视频画质。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="315"/>
+        <location filename="../prefnetwork.cpp" line="317"/>
+        <source>Use adaptive streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="318"/>
+        <source>This option enables adaptive streams which can provide videos up to 4K.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="322"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation>为 SMPlayer 设置用户代理。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="327"/>
+        <location filename="../prefnetwork.cpp" line="335"/>
         <source>Chromecast</source>
         <translation>Chromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="329"/>
+        <location filename="../prefnetwork.cpp" line="337"/>
         <source>Local IP</source>
         <translation>本地IP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="330"/>
+        <location filename="../prefnetwork.cpp" line="338"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation>这台电脑的本地IP地址会传送给Chromecast，这样他就可以读取这台电脑上的文件了。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="334"/>
+        <location filename="../prefnetwork.cpp" line="342"/>
         <source>The port that the web server will use.</source>
         <translation>网络服务器会使用的端口</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="336"/>
+        <location filename="../prefnetwork.cpp" line="344"/>
         <source>Directory listing</source>
         <translation>列出目录</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="337"/>
+        <location filename="../prefnetwork.cpp" line="345"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation>网络服务器运行时，任何在你网络中的设备都可以读取这台电脑里的这些文件，如果这个选项打开，任何设备都可以获得列表，如果关闭，将不会提供列表。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="343"/>
+        <location filename="../prefnetwork.cpp" line="351"/>
         <source>Convert SRT subtitles to VTT</source>
         <translation>转换 SRT 字幕到 VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="344"/>
+        <location filename="../prefnetwork.cpp" line="352"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
         <translation>如果打开此选项，SMPlayer会自动将 SRT 格式的字幕转换为 VTT 格式，VTT 字幕将会有同样的文件名，只是扩展名变为 .vtt。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="347"/>
+        <location filename="../prefnetwork.cpp" line="355"/>
         <source>Overwrite existing VTT files</source>
         <translation>覆盖存在的 VTT 文件</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="348"/>
+        <location filename="../prefnetwork.cpp" line="356"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
         <translation>如果启用这个选项，SMPlayer会覆盖存在的 VTT 文件。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="350"/>
+        <location filename="../prefnetwork.cpp" line="358"/>
         <source>Try to remove advertisements</source>
         <translation>尝试移除广告</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="351"/>
+        <location filename="../prefnetwork.cpp" line="359"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
         <translation>如果启用这个选项，SMPlayer会尝试寻找字幕中的广告并移除。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="354"/>
+        <location filename="../prefnetwork.cpp" line="362"/>
         <source>Position of subtitles on screen</source>
         <translation>字幕在屏幕上的位置</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="355"/>
+        <location filename="../prefnetwork.cpp" line="363"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
         <translation>这个选项设置字幕在屏幕的哪个位置显示。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="356"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
         <translation>0是屏幕顶部，100是屏幕底部。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="357"/>
+        <location filename="../prefnetwork.cpp" line="365"/>
         <source>The special value -1 means the default position.</source>
         <translation>特殊值 -1 表示默认位置。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="361"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>Proxy</source>
         <translation>代理</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="363"/>
+        <location filename="../prefnetwork.cpp" line="371"/>
         <source>Enable proxy</source>
         <translation>启用代理</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="364"/>
+        <location filename="../prefnetwork.cpp" line="372"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>启用/禁用代理功能。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="366"/>
+        <location filename="../prefnetwork.cpp" line="374"/>
         <source>Host</source>
         <translation>主机</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="367"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>The host name of the proxy.</source>
         <translation>代理服务器主机名。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="333"/>
-        <location filename="../prefnetwork.cpp" line="369"/>
+        <location filename="../prefnetwork.cpp" line="341"/>
+        <location filename="../prefnetwork.cpp" line="377"/>
         <source>Port</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="370"/>
+        <location filename="../prefnetwork.cpp" line="378"/>
         <source>The port of the proxy.</source>
         <translation>代理服务器端口号。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="372"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Username</source>
         <translation>用户名</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="373"/>
+        <location filename="../prefnetwork.cpp" line="381"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>如果代理需要认证，请在这里设置用户名。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="375"/>
+        <location filename="../prefnetwork.cpp" line="383"/>
         <source>Password</source>
         <translation>密码</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="376"/>
+        <location filename="../prefnetwork.cpp" line="384"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>代理服务器密码。&lt;b&gt;注意：&lt;/b&gt;密码会以明文形式保存在配置文件中。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="379"/>
+        <location filename="../prefnetwork.cpp" line="387"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="380"/>
+        <location filename="../prefnetwork.cpp" line="388"/>
         <source>Select the proxy type to be used.</source>
         <translation>选择要使用的代理类型。</translation>
     </message>
