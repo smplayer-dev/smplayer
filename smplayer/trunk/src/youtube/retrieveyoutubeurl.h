@@ -187,7 +187,7 @@ protected:
 
 	void finish(const UrlMap & url_map);
 
-	#ifdef YT_USE_SCRIPT
+	#ifdef YT_USE_SIG
 	QString aclara(const QString & text, const QString & player = "");
 	#endif
 
@@ -211,8 +211,6 @@ private:
 	LoadPage * dl_player_page;
 	Sig sig;
 	QSettings * set;
-	#else
-	QString html5_player;
 	#endif
 
 	#ifdef YT_LIVE_STREAM

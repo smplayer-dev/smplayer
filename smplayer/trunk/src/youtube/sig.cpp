@@ -19,9 +19,12 @@
 #include "sig.h"
 #include <QRegExp>
 #include <QStringList>
-#include <QtScript>
 #include <QSettings>
 #include <QDebug>
+
+#ifdef SIG_USE_JSCODE
+#include <QtScript>
+#endif
 
 //#define ULTRAVERBOSE
 
