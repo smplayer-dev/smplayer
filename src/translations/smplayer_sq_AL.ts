@@ -2221,45 +2221,24 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Duke shkarkuar...</translation>
+        <translation type="obsolete">Duke shkarkuar...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Duke u lidhur me %1</translation>
+        <translation type="obsolete">Duke u lidhur me %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Versioni i instaluar: %1</translation>
+        <translation type="obsolete">Versioni i instaluar: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Sukses</translation>
+        <translation type="obsolete">Sukses</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Gabim</translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Gabim</translation>
     </message>
 </context>
 <context>

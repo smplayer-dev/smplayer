@@ -2222,45 +2222,36 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Atsiunčiama...</translation>
+        <translation type="obsolete">Atsiunčiama...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Jungiamasi prie %1</translation>
+        <translation type="obsolete">Jungiamasi prie %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube kodas atnaujintas sėkmingai.</translation>
+        <translation type="obsolete">Youtube kodas atnaujintas sėkmingai.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Įdiegta versija: %1</translation>
+        <translation type="obsolete">Įdiegta versija: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Sėkmingai</translation>
+        <translation type="obsolete">Sėkmingai</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Klaida</translation>
+        <translation type="obsolete">Klaida</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Rašant %1 įvyko klaida</translation>
+        <translation type="obsolete">Rašant %1 įvyko klaida</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Atsiunčiant failą įvyko klaida:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Atsiunčiant failą įvyko klaida:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8029,14 +8020,6 @@ Norite perrašyti?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Atkūrimo &amp;kokybė</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">Naudotojo agentas</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

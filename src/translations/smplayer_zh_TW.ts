@@ -2209,66 +2209,49 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Chromecast</name>
     <message>
-        <source>SMPlayer web server is running</source>
-        <translation type="obsolete">SMPlayer 網路伺服器執行中</translation>
-    </message>
-    <message>
-        <source>&amp;Stop SMPlayer server</source>
-        <translation type="obsolete">停止 SMPlayer 伺服器(&amp;S)</translation>
-    </message>
-    <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 網路伺服器執行中</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>停止 SMPlayer 網路伺服器(&amp;S)</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>下載中...</translation>
+        <translation type="obsolete">下載中...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>連接到 %1</translation>
+        <translation type="obsolete">連接到 %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube 的程式碼已更新成功。</translation>
+        <translation type="obsolete">YouTube 的程式碼已更新成功。</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>已安裝的版本：%1</translation>
+        <translation type="obsolete">已安裝的版本：%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>成功</translation>
+        <translation type="obsolete">成功</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation type="obsolete">錯誤</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>寫入 %1 發生錯誤</translation>
+        <translation type="obsolete">寫入 %1 發生錯誤</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>下載檔案時發生錯誤：&lt;br&gt;%1</translation>
+        <translation type="obsolete">下載檔案時發生錯誤：&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8037,14 +8020,6 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">播放畫質(&amp;Q)</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">使用者代理(&amp;U)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
         <translation>Youtube 及其他網站 (&amp;Y)</translation>
@@ -8067,17 +8042,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>播放畫質(&amp;Q)：</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>使用可自我調整的串流（解析度可達 4K）(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>使用者代理(&amp;U)：</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8299,12 +8274,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>使用可自我調整的串流</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個選項會啟用可提供解析度高達 4K 的可自我調整串流。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>

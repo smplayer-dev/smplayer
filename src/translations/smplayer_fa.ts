@@ -2249,45 +2249,32 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>در حال بارگزاری...</translation>
+        <translation type="obsolete">در حال بارگزاری...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>در حال اتصال به %1</translation>
+        <translation type="obsolete">در حال اتصال به %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>کد یوتیوب شما با موفقیت به روزرسانی شد</translation>
+        <translation type="obsolete">کد یوتیوب شما با موفقیت به روزرسانی شد</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>ورژن نصب شده : %1</translation>
+        <translation type="obsolete">ورژن نصب شده : %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>موفقیت</translation>
+        <translation type="obsolete">موفقیت</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>خطا</translation>
+        <translation type="obsolete">خطا</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>یک خطا در حال بارگزاری فایل اتفاق افتاده:&lt;br&gt;%1</translation>
+        <translation type="obsolete">یک خطا در حال بارگزاری فایل اتفاق افتاده:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>

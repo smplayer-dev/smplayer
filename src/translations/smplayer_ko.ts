@@ -2222,45 +2222,36 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>다운로드 중...</translation>
+        <translation type="obsolete">다운로드 중...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>%1 에 연결 중</translation>
+        <translation type="obsolete">%1 에 연결 중</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>유투브 코드를 성공적으로 업데이트했습니다.</translation>
+        <translation type="obsolete">유투브 코드를 성공적으로 업데이트했습니다.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>설치된 버전: %1</translation>
+        <translation type="obsolete">설치된 버전: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>성공</translation>
+        <translation type="obsolete">성공</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation type="obsolete">오류</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>%1 를 쓰는 도중에 오류가 발생했습니다</translation>
+        <translation type="obsolete">%1 를 쓰는 도중에 오류가 발생했습니다</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>파일 다운로드 중 오류 발생:&lt;br&gt;%1</translation>
+        <translation type="obsolete">파일 다운로드 중 오류 발생:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8029,14 +8020,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">재생 품질</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">사용자 에이전트</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
