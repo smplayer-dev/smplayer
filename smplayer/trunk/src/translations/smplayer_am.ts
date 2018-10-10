@@ -2222,45 +2222,36 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>በ ማውረድ ላይ...</translation>
+        <translation type="obsolete">በ ማውረድ ላይ...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>በ መገናኘት ላይ ወደ %1</translation>
+        <translation type="obsolete">በ መገናኘት ላይ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>የ ዩቲዩብ ኮድ ተሳክቶ ተሻሽሏል</translation>
+        <translation type="obsolete">የ ዩቲዩብ ኮድ ተሳክቶ ተሻሽሏል</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>የ ተገጠመው እትም: %1</translation>
+        <translation type="obsolete">የ ተገጠመው እትም: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>ተሳክቷል</translation>
+        <translation type="obsolete">ተሳክቷል</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>ስህተት</translation>
+        <translation type="obsolete">ስህተት</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>በ መጻፍ ላይ እንዳለ ስህተት ተፈጥሯል %1</translation>
+        <translation type="obsolete">በ መጻፍ ላይ እንዳለ ስህተት ተፈጥሯል %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>ፋይሉን በ ማውረድ ላይ እንዳለ ስህተት ተፈጥሯል:&lt;br&gt;%1</translation>
+        <translation type="obsolete">ፋይሉን በ ማውረድ ላይ እንዳለ ስህተት ተፈጥሯል:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8028,14 +8019,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">በ ድጋሚ ማጫወቻ &amp;ጥራት</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">የ &amp;ተጠቃሚ ወኪል</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2209,66 +2209,49 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
 <context>
     <name>Chromecast</name>
     <message>
-        <source>SMPlayer web server is running</source>
-        <translation type="obsolete">Servidor web do SMPlayer em execução</translation>
-    </message>
-    <message>
-        <source>&amp;Stop SMPlayer server</source>
-        <translation type="obsolete">Parar servidor web do &amp;SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>O servidor web do SMPlayer em execução</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>Parar servidor web do &amp;SMPlayer</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>A descarregar...</translation>
+        <translation type="obsolete">A descarregar...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Ligação a %1</translation>
+        <translation type="obsolete">Ligação a %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>O código Youtube foi atualizado com sucesso.</translation>
+        <translation type="obsolete">O código Youtube foi atualizado com sucesso.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Versão instalada: %1</translation>
+        <translation type="obsolete">Versão instalada: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Sucesso</translation>
+        <translation type="obsolete">Sucesso</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Erro</translation>
+        <translation type="obsolete">Erro</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Ocorreu um erro ao escrever em %1</translation>
+        <translation type="obsolete">Ocorreu um erro ao escrever em %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Ocorreu um erro ao descarregar o ficheiro:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Ocorreu um erro ao descarregar o ficheiro:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8038,14 +8021,6 @@ Substituir?</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">&amp;Qualidade de reprodução</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">Agente de &amp;utilizador</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
         <translation>&amp;YouTube (e outros sites)</translation>
@@ -8068,17 +8043,17 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Qualidade de reprodução:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar emissões a&amp;daptáveis (resolução até 4K)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>Agente de &amp;utilizador:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8300,12 +8275,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar emissões adaptáveis</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção ativa as emissões adaptáveis que podem atingir a resolução máxima de 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>

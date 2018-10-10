@@ -2209,14 +2209,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Chromecast</name>
     <message>
-        <source>SMPlayer web server is running</source>
-        <translation type="obsolete">SMPlayer Web サーバーは実行中です</translation>
-    </message>
-    <message>
-        <source>&amp;Stop SMPlayer server</source>
-        <translation type="obsolete">SMPlayer サーバーの停止(&amp;S)</translation>
-    </message>
-    <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
         <translation type="unfinished"></translation>
@@ -2230,45 +2222,36 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>ダウンロード中...</translation>
+        <translation type="obsolete">ダウンロード中...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>%1 へ接続しています</translation>
+        <translation type="obsolete">%1 へ接続しています</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube のコードは正常に更新されました。</translation>
+        <translation type="obsolete">YouTube のコードは正常に更新されました。</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>インストールされたバージョン: %1</translation>
+        <translation type="obsolete">インストールされたバージョン: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>成功</translation>
+        <translation type="obsolete">成功</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>エラー</translation>
+        <translation type="obsolete">エラー</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>書き込みエラーが発生しました: %1</translation>
+        <translation type="obsolete">書き込みエラーが発生しました: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
+        <translation type="obsolete">ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8036,14 +8019,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">再生の品質(&amp;Q)</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">ユーザー エージェント(&amp;U)</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

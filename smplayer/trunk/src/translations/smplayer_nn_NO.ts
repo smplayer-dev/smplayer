@@ -2224,45 +2224,36 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Lastar ned </translation>
+        <translation type="obsolete">Lastar ned </translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Koplar til %1</translation>
+        <translation type="obsolete">Koplar til %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube koden er oppdatert.</translation>
+        <translation type="obsolete">YouTube koden er oppdatert.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Installert versjon: %1</translation>
+        <translation type="obsolete">Installert versjon: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Vellukka</translation>
+        <translation type="obsolete">Vellukka</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation type="obsolete">Feil</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Feil under skriving av %1</translation>
+        <translation type="obsolete">Feil under skriving av %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Ein feil oppstod ved nedlasting av fila:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Ein feil oppstod ved nedlasting av fila:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8033,14 +8024,6 @@ Vil du skriva over?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Avspelings&amp;kvalitet</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;Brukaragent</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

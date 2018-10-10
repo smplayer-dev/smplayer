@@ -2223,45 +2223,36 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Scaricamento...</translation>
+        <translation type="obsolete">Scaricamento...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Connessione a %1</translation>
+        <translation type="obsolete">Connessione a %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Il codice di YouTube è stato aggiornato con successo.</translation>
+        <translation type="obsolete">Il codice di YouTube è stato aggiornato con successo.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Versione installata: %1</translation>
+        <translation type="obsolete">Versione installata: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Riuscito</translation>
+        <translation type="obsolete">Riuscito</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Errore</translation>
+        <translation type="obsolete">Errore</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Si è verificato un errore di scrittura su %1</translation>
+        <translation type="obsolete">Si è verificato un errore di scrittura su %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Si è verificato un errore scaricando il file:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Si è verificato un errore scaricando il file:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8030,14 +8021,6 @@ Vuoi sovrascriverlo?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Riproduzione &amp;qualità</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;User agent</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

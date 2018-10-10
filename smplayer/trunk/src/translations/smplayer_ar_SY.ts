@@ -2222,45 +2222,36 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>يُنزّل...</translation>
+        <translation type="obsolete">يُنزّل...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>يتصل بـ%1</translation>
+        <translation type="obsolete">يتصل بـ%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>حُدِّث النص البرمجي لـYouTube بنجاح.</translation>
+        <translation type="obsolete">حُدِّث النص البرمجي لـYouTube بنجاح.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>الإصدار المثبّت: %1</translation>
+        <translation type="obsolete">الإصدار المثبّت: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>نجحَ</translation>
+        <translation type="obsolete">نجحَ</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>خطأ</translation>
+        <translation type="obsolete">خطأ</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>وقع خطأ عند كتابة %1</translation>
+        <translation type="obsolete">وقع خطأ عند كتابة %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>وقع خطأ عند تنزيل الملف:&lt;br&gt;%1</translation>
+        <translation type="obsolete">وقع خطأ عند تنزيل الملف:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8031,14 +8022,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">نوعية ال&amp;تشغيل</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;وسيط من المستخدِم</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2223,45 +2223,36 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Mengunduh...</translation>
+        <translation type="obsolete">Mengunduh...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Menyambungkan ke %1</translation>
+        <translation type="obsolete">Menyambungkan ke %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Kode Youtube telah sukses diperbarui.</translation>
+        <translation type="obsolete">Kode Youtube telah sukses diperbarui.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Versi terpasang: %1</translation>
+        <translation type="obsolete">Versi terpasang: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Sukses</translation>
+        <translation type="obsolete">Sukses</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Galat</translation>
+        <translation type="obsolete">Galat</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Galat terjadi pada penulisan %1</translation>
+        <translation type="obsolete">Galat terjadi pada penulisan %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Galat terjadi ketika mengunduh file:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Galat terjadi ketika mengunduh file:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8029,14 +8020,6 @@ Apakah Anda ingin menimpanya?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Kualitas &amp;pemutaran</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;Agen pengguna</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

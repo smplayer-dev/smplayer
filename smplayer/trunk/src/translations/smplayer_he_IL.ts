@@ -2222,45 +2222,36 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>מוריד כעת...</translation>
+        <translation type="obsolete">מוריד כעת...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>מתחבר כעת אל %1</translation>
+        <translation type="obsolete">מתחבר כעת אל %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>הקוד של Youtube עודכן בהצלחה.</translation>
+        <translation type="obsolete">הקוד של Youtube עודכן בהצלחה.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>גרסא מותקנת: %1</translation>
+        <translation type="obsolete">גרסא מותקנת: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>הצלחה</translation>
+        <translation type="obsolete">הצלחה</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>שגיאה</translation>
+        <translation type="obsolete">שגיאה</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>אירעה שגיאה בכתיבת %1</translation>
+        <translation type="obsolete">אירעה שגיאה בכתיבת %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>אירעה שגיאה במהלך הורדת הקובץ:&lt;br&gt;%1</translation>
+        <translation type="obsolete">אירעה שגיאה במהלך הורדת הקובץ:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8025,14 +8016,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">איכות &amp;נגינה</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">סוכן &amp;משתמש</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2222,45 +2222,36 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>İndiriyor...</translation>
+        <translation type="obsolete">İndiriyor...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>%1&apos;e bağlanıyor</translation>
+        <translation type="obsolete">%1&apos;e bağlanıyor</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube kodlarını başarıyla güncellendi.</translation>
+        <translation type="obsolete">Youtube kodlarını başarıyla güncellendi.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Kurulu sürüm: %1</translation>
+        <translation type="obsolete">Kurulu sürüm: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Başarılı</translation>
+        <translation type="obsolete">Başarılı</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Hata</translation>
+        <translation type="obsolete">Hata</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Bir yazma hatası meydana geldi %1</translation>
+        <translation type="obsolete">Bir yazma hatası meydana geldi %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Dosya indirilirken bir hata meydana geldi:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Dosya indirilirken bir hata meydana geldi:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8028,10 +8019,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Oynatma &amp;kalitesi</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

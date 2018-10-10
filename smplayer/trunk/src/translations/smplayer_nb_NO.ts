@@ -2223,45 +2223,36 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Laster ned...</translation>
+        <translation type="obsolete">Laster ned...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Kobler opp til %1</translation>
+        <translation type="obsolete">Kobler opp til %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube-koden har blitt vellykket oppdatert.</translation>
+        <translation type="obsolete">YouTube-koden har blitt vellykket oppdatert.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Installert versjon: %1</translation>
+        <translation type="obsolete">Installert versjon: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Suksess</translation>
+        <translation type="obsolete">Suksess</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation type="obsolete">Feil</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>En feil oppstod ved skriving av %1</translation>
+        <translation type="obsolete">En feil oppstod ved skriving av %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>En feil oppstod ved nedlasting av filen:&lt;br&gt;%1</translation>
+        <translation type="obsolete">En feil oppstod ved nedlasting av filen:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8030,14 +8021,6 @@ Vil du overskrive den?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Avspillings&amp;kvalitet</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;Brukeragent</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2222,45 +2222,28 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Đang tải về...</translation>
+        <translation type="obsolete">Đang tải về...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Đang kết nối đến %1</translation>
+        <translation type="obsolete">Đang kết nối đến %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Mã Youtube được cập nhật thành công.</translation>
+        <translation type="obsolete">Mã Youtube được cập nhật thành công.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Phiên bản được cài đặt: %1</translation>
+        <translation type="obsolete">Phiên bản được cài đặt: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Thành công</translation>
+        <translation type="obsolete">Thành công</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Lỗi</translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Lỗi</translation>
     </message>
 </context>
 <context>

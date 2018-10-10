@@ -2222,45 +2222,24 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Ladataan...</translation>
+        <translation type="obsolete">Ladataan...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
-        <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube-koodi on päivitetty onnistuneesti.</translation>
+        <translation type="obsolete">Youtube-koodi on päivitetty onnistuneesti.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Asennettu versio: %1</translation>
+        <translation type="obsolete">Asennettu versio: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
-        <source>Success</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation type="obsolete">Virhe</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Virhe ladatessa tiedostoa:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Virhe ladatessa tiedostoa:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>

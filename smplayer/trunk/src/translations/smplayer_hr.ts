@@ -2222,45 +2222,36 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Preuzimanje...</translation>
+        <translation type="obsolete">Preuzimanje...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Povezivanje s %1</translation>
+        <translation type="obsolete">Povezivanje s %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube kôd je uspješno nadopunjen.</translation>
+        <translation type="obsolete">Youtube kôd je uspješno nadopunjen.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Instalirana inačica: %1</translation>
+        <translation type="obsolete">Instalirana inačica: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Uspješno</translation>
+        <translation type="obsolete">Uspješno</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation type="obsolete">Greška</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Greška se dogodila pri zapisivanju %1</translation>
+        <translation type="obsolete">Greška se dogodila pri zapisivanju %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Greška se dogodila pri preuzimanju datoteke:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Greška se dogodila pri preuzimanju datoteke:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8030,14 +8021,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Kvaliteta &amp;reprodukcije</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;Korisnički agent</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2222,45 +2222,36 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Bezig met downloaden...</translation>
+        <translation type="obsolete">Bezig met downloaden...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Verbinden met %1</translation>
+        <translation type="obsolete">Verbinden met %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>De YouTube-code is succesvol bijgewerkt.</translation>
+        <translation type="obsolete">De YouTube-code is succesvol bijgewerkt.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Geïnstalleerde versie: %1</translation>
+        <translation type="obsolete">Geïnstalleerde versie: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Gelukt</translation>
+        <translation type="obsolete">Gelukt</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Foutmelding</translation>
+        <translation type="obsolete">Foutmelding</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Er trad een fout op tijdens het schrijven van %1</translation>
+        <translation type="obsolete">Er trad een fout op tijdens het schrijven van %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Er trad een fout op tijdens het downloaden van het bestand:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Er trad een fout op tijdens het downloaden van het bestand:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8029,14 +8020,6 @@ Wilt u het overschrijven?</translation>
 </context>
 <context>
     <name>PrefNetwork</name>
-    <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">&amp;Afspeelkwaliteit</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;User agent</translation>
-    </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>

@@ -2209,66 +2209,49 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Chromecast</name>
     <message>
-        <source>SMPlayer web server is running</source>
-        <translation type="obsolete">Веб-сервер SMPlayer запущен</translation>
-    </message>
-    <message>
-        <source>&amp;Stop SMPlayer server</source>
-        <translation type="obsolete">&amp;Остановить сервер SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб-сервер SMPlayer запущен</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Остановить веб-сервер SMPlayer</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Скачивание…</translation>
+        <translation type="obsolete">Скачивание…</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Соединение с %1</translation>
+        <translation type="obsolete">Соединение с %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Код YouTube был успешно обновлён.</translation>
+        <translation type="obsolete">Код YouTube был успешно обновлён.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Установленная версия: %1</translation>
+        <translation type="obsolete">Установленная версия: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Успех</translation>
+        <translation type="obsolete">Успех</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation type="obsolete">Ошибка</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Произошла ошибка при записи %1</translation>
+        <translation type="obsolete">Произошла ошибка при записи %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Произошла ошибка при скачивании файла:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Произошла ошибка при скачивании файла:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2586,7 +2569,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="97"/>
         <source>Media</source>
-        <translation>Адрес</translation>
+        <translation>Медиа</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="116"/>
@@ -8039,14 +8022,6 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">Качество &amp;воспроизведения</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;User agent</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
         <translation>&amp;YouTube (и другие сайты)</translation>
@@ -8069,17 +8044,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Качество &amp;воспроизведения:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать &amp;адаптивные потоки (разрешение до 4K)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Агент пользователя:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8195,7 +8170,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="321"/>
         <source>User agent</source>
-        <translation>User agent</translation>
+        <translation>Агент пользователя</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="91"/>
@@ -8301,12 +8276,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать адаптивные потоки</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция включает адаптивные потоки, которые могут обеспечить видео до 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -9348,7 +9323,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation>Если отмечено, текст будет отображаться &lt;b&gt;наклонным&lt;/b&gt;.</translation>
+        <translation>Если отмечено, текст будет отображаться &lt;i&gt;наклонным&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
@@ -9884,7 +9859,7 @@ Do you want to overwrite?</source>
         <location filename="../clhelp.cpp" line="99"/>
         <location filename="../clhelp.cpp" line="187"/>
         <source>media</source>
-        <translation>media</translation>
+        <translation>медиа</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="181"/>

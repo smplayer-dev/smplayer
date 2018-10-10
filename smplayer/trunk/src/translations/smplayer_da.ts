@@ -2209,66 +2209,49 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>Chromecast</name>
     <message>
-        <source>SMPlayer web server is running</source>
-        <translation type="obsolete">SMPlayer-webserver kører</translation>
-    </message>
-    <message>
-        <source>&amp;Stop SMPlayer server</source>
-        <translation type="obsolete">&amp;Stop SMPlayer-server</translation>
-    </message>
-    <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer-webserveren kører</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stop SMPlayer-webserveren</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Downloader...</translation>
+        <translation type="obsolete">Downloader...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Opretter forbindelse til %1</translation>
+        <translation type="obsolete">Opretter forbindelse til %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube-koden er blevet opdateret.</translation>
+        <translation type="obsolete">YouTube-koden er blevet opdateret.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation>Installeret version: %1</translation>
+        <translation type="obsolete">Installeret version: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation>Success</translation>
+        <translation type="obsolete">Success</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation>Fejl</translation>
+        <translation type="obsolete">Fejl</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation>Der opstod en fejl ved skrivning %1</translation>
+        <translation type="obsolete">Der opstod en fejl ved skrivning %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Der opstod en fejl ved download af filen:&lt;br&gt;%1</translation>
+        <translation type="obsolete">Der opstod en fejl ved download af filen:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -8038,14 +8021,6 @@ Vil du overskrive den?</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>Playback &amp;quality</source>
-        <translation type="obsolete">&amp;Afspilningskvalitet</translation>
-    </message>
-    <message>
-        <source>&amp;User agent</source>
-        <translation type="obsolete">&amp;User agent</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
         <translation>&amp;YouTube (og andre steder)</translation>
@@ -8068,17 +8043,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afspilningskvalitet:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug &amp;adaptive strømme (opløsning op til 4K)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Brugeragent:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8300,12 +8275,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug adaptive strømme</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne indstilling aktiverer adaptive strømme som kan producere videoer op til 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -9307,7 +9282,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Denne indstilling aktivere ASS-biblioteket, hvilket giver mulighed for at vise undertekster med flere farver, skrifttyper...</translation>
+        <translation>Denne indstilling aktiverer ASS-biblioteket, hvilket giver mulighed for at vise undertekster med flere farver, skrifttyper...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
