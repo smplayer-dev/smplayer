@@ -225,19 +225,10 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 		return;
 	}
 
-	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	u += "&" + YTSig::parsed_ts;
-	#endif
-
 	#ifdef YT_USE_SIG
 	if (!sig.sts.isEmpty()) {
 		u += "&sts=" + sig.sts;
 	}
-	#ifdef YT_USE_YTSIG
-	else {
-		u += "&" + YTSig::parsed_ts;
-	}
-	#endif
 	#endif
 
 	dl_video_info_page->fetchPage(u);
@@ -291,7 +282,9 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	if (rxplayer.indexIn(replyString) != -1) {
 		QString player = rxplayer.cap(1);
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
+		#ifdef YT_USE_SIG
 		html5_player = "player" + player;
+		#endif
 	} else {
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";
 		//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page:" << page;
@@ -554,31 +547,16 @@ void RetrieveYoutubeUrl::finish(const UrlMap & url_map) {
 	}
 }
 
-#ifdef YT_USE_SCRIPT
+#ifdef YT_USE_SIG
 QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player) {
-	QString res;
+	Q_UNUSED(player);
 
-	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	if (!player.isNull()) {
-		res = YTSig::aclara(text, player);
-	} else {
-		res = YTSig::aclara(text, "", "aclara_f");
-	}
-	#endif
+	QString res;
 
 	#ifdef YT_USE_SIG
 	if (!sig.decrypt_function.isEmpty()) {
 		res = sig.aclara(text);
 	}
-	#ifdef YT_USE_YTSIG
-	else {
-		if (!player.isNull()) {
-			res = YTSig::aclara(text, player);
-		} else {
-			res = YTSig::aclara(text, "", "aclara_f");
-		}
-	}
-	#endif
 	#endif
 
 	return res;
@@ -629,19 +607,15 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			}
 			else
 			if (q->hasQueryItem("s")) {
-				#ifdef YT_USE_SCRIPT
 				#ifdef YT_USE_SIG
 				QString player = sig.html5_player;
-				#else
-				QString player = html5_player;
-				#endif
 				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
 				} else {
 					failed_to_decrypt_signature = true;
 				}
-				#else // YT_USE_SCRIPT
+				#else
 				failed_to_decrypt_signature = true;
 				#endif
 				q->removeQueryItem("s");

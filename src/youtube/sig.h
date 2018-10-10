@@ -30,6 +30,12 @@
 #undef SIG_USE_NO_JSCODE
 #endif
 
+#ifndef QT_SCRIPT_LIB
+#undef SIG_USE_JSCODE
+#define SIG_USE_NO_JSCODE
+#define SIG_FROM_SMPLAYER_SITE
+#endif
+
 class QSettings;
 
 class Sig
