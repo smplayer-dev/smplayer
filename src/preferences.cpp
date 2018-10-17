@@ -547,7 +547,7 @@ void Preferences::reset() {
 	//yt_user_agent = "";
 	yt_use_https_main = false;
 	yt_use_https_vi = false;
-	yt_use_dash = false;
+	yt_use_dash = true;
 #endif
 
 	// Proxy
