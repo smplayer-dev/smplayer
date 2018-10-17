@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2211,47 +2209,56 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer web zerbitzaria ekinean dago</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gelditu SMPlayer web zerbitzaria</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="obsolete">Jeisten...</translation>
+        <translation>Jeisten...</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="obsolete">%1-ra elkarketatzen</translation>
+        <translation>%1-ra elkarketatzen</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Youtube kodea ongi eguneratu da.</translation>
+        <translation>Youtube kodea ongi eguneratu da.</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation type="obsolete">Ezarritako bertsioa: %1</translation>
+        <translation>Ezarritako bertsioa: %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="obsolete">Ongi</translation>
+        <translation>Ongi</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation type="obsolete">Akatsa</translation>
+        <translation>Akatsa</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="obsolete">Akats bat gertatu da %1 idazterakoan</translation>
+        <translation>Akats bat gertatu da %1 idazterakoan</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
+        <translation>Akats bat gertatu da agiria jeisterakoan:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -3015,10 +3022,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
@@ -3111,7 +3115,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -8043,17 +8047,17 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurketa &amp;ontasuna:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili &amp;jario egokigarriak (4K bereizmena arte)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Erabiltzaile ordezkaria:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8275,12 +8279,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili jario egokigarriak</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera honek 4K bideoak hornitu ditzakeen jario egokigarriak gaitzen ditu.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -9935,19 +9939,13 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

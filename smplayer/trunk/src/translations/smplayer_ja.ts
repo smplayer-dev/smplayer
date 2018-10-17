@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2211,47 +2209,56 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer Web サーバーは実行中です</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer サーバーの停止(&amp;S)</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="obsolete">ダウンロード中...</translation>
+        <translation>ダウンロード中...</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="obsolete">%1 へ接続しています</translation>
+        <translation>%1 へ接続しています</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">YouTube のコードは正常に更新されました。</translation>
+        <translation>YouTube のコードは正常に更新されました。</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation type="obsolete">インストールされたバージョン: %1</translation>
+        <translation>インストールされたバージョン: %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="obsolete">成功</translation>
+        <translation>成功</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation type="obsolete">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="obsolete">書き込みエラーが発生しました: %1</translation>
+        <translation>書き込みエラーが発生しました: %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
+        <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -3015,9 +3022,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 個の字幕が抽出されました</numerusform>
-        </translation>
+        <translation><numerusform>%n 個の字幕が抽出されました</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
@@ -3110,7 +3115,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -8042,17 +8047,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の品質(&amp;Q):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>アダプティブ ストリームを使用する (解像度 4K まで)(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー エージェント(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8274,12 +8279,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>アダプティブ ストリームを使用する</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはビデオを 4K まで提供できるアダプティブ ストリームを有効にします。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -9934,17 +9939,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
