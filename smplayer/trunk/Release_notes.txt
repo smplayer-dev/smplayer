@@ -1,3 +1,9 @@
+Version 18.10:
+
+ * The internal code for YouTube now supports resolutions up to 4K. The
+   support for age restricted videos has been fixed.
+
+
 Version 18.9:
 
  * Fix for YouTube.
