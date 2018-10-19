@@ -118,13 +118,13 @@ ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 ; MPV
 ${LangFileString} MPV_DL_Msg "Se descarcă mpv..."
 ${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_DL_Failed "Nu s-a reușit descărcarea mpv: '$R0'."
 ${LangFileString} MPV_Inst_Failed "A eșuat instalarea mpv."
 
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
 ${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_Update_Check "Se verifică actualizările pentru youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
