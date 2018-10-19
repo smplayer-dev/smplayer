@@ -1,3 +1,10 @@
+smplayer (18.10.0) precise; urgency=low
+
+  * The internal code for YouTube now supports resolutions up to 4K. The
+    support for age restricted videos has been fixed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 19 Oct 2018 21:42:05 +0200
+
 smplayer (18.9.0) precise; urgency=low
 
   * Fix for YouTube.
