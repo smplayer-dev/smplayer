@@ -615,6 +615,10 @@ Section -Post
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://www.smplayer.info"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
+  
+  ${GetSize} "$INSTDIR" "/S=0K" $0 $1 $2
+  IntFmt $0 "0x%08X" $0
+  WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "EstimatedSize" "$0"
 
   DetailPrint $(Info_Cleaning_Fontconfig)
   SetDetailsPrint none
