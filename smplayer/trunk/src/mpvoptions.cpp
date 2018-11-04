@@ -128,6 +128,7 @@ void MPVProcess::setFixedOptions() {
 	//arg << "--no-osc";
 	//arg << "--msg-level=vd=v";
 	//arg << "--video-stereo-mode=no";
+	arg << "--msg-level=ffmpeg/demuxer=error";
 }
 
 void MPVProcess::disableInput() {
