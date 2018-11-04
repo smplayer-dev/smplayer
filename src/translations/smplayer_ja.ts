@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>多くの方に翻訳でご貢献いただきました。</translation>
+        <translation>多くの方々に翻訳でご貢献いただきました。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
