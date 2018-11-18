@@ -83,6 +83,8 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( file_chooser, SIGNAL(textChanged(const QString &)),
              this, SLOT(updateRefreshButton()) );
 
+	connect( search_edit, SIGNAL(returnPressed()), this, SLOT(searchTitle()) );
+
 	connect( refresh_button, SIGNAL(clicked()),
              this, SLOT(refresh()) );
 
@@ -301,7 +303,7 @@ void FindSubtitlesWindow::retranslateStrings() {
 }
 
 void FindSubtitlesWindow::setMovie(QString filename) {
-	qDebug("FindSubtitlesWindow::setMovie: '%s'", filename.toLatin1().constData());
+	qDebug() << "FindSubtitlesWindow::setMovie:" << filename;
 
 	if (filename == last_file) {
 		return;
@@ -318,8 +320,26 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 		qint64 file_size = fi.size();
 		QString basename;
 		basename = fi.completeBaseName(); // Filename without extension
+		search_edit->setText(basename);
 		osclient->search(hash, file_size, basename);
 		last_file = filename;
+	}
+}
+
+void FindSubtitlesWindow::searchTitle() {
+	QString t = search_edit->text();
+	qDebug() << "FindSubtitlesWindow::searchTitle:" << t;
+
+	QString filename = file_chooser->text();
+
+	int m = osclient->searchMethod();
+
+	if (!filename.isEmpty() && m != OSClient::Hash) {
+		QString hash = FileHash::calculateHash(filename);
+		QFileInfo fi(filename);
+		qint64 file_size = fi.size();
+
+		osclient->search(hash, file_size, t);
 	}
 }
 
