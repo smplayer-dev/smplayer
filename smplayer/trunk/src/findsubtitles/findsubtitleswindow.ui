@@ -42,6 +42,23 @@
     </layout>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="search_for_label">
+       <property name="text">
+        <string>Search for &amp;title:</string>
+       </property>
+       <property name="buddy">
+        <cstring>search_edit</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="search_edit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="QTreeView" name="view"/>
    </item>
    <item>
@@ -197,6 +214,7 @@
  </customwidgets>
  <tabstops>
   <tabstop>file_chooser</tabstop>
+  <tabstop>search_edit</tabstop>
   <tabstop>view</tabstop>
   <tabstop>language_filter</tabstop>
   <tabstop>configure_button</tabstop>
@@ -213,8 +231,8 @@
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>334</x>
-     <y>380</y>
+     <x>556</x>
+     <y>374</y>
     </hint>
     <hint type="destinationlabel">
      <x>334</x>

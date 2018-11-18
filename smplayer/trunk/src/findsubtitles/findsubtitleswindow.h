@@ -58,6 +58,7 @@ public:
 public slots:
 	void setMovie(QString filename);
 	void setLanguage(const QString & lang);
+	void searchTitle();
 	void refresh();
 	void download();
 	void copyLink();
