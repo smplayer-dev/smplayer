@@ -336,6 +336,12 @@ void FindSubtitlesWindow::searchTitle() {
 	}
 }
 
+void FindSubtitlesWindow::updateSearchTitleWidget() {
+	bool title_search_allowed = (osclient->searchMethod() != OSClient::Hash);
+	search_for_label->setEnabled(title_search_allowed);
+	search_edit->setEnabled(title_search_allowed);
+}
+
 void FindSubtitlesWindow::refresh() {
 	last_file = "";
 	setMovie(file_chooser->text());
@@ -872,6 +878,8 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		include_lang_on_filename = d.appendLang();
 		#endif
 	}
+
+	updateSearchTitleWidget();
 }
 
 #ifdef FS_USE_PROXY
@@ -954,6 +962,8 @@ void FindSubtitlesWindow::loadSettings() {
 	osclient->setSearchMethod( (OSClient::SearchMethod) set->value("search_method", osclient->searchMethod()).toInt() );
 
 	set->endGroup();
+
+	updateSearchTitleWidget();
 }
 
 #include "moc_findsubtitleswindow.cpp"

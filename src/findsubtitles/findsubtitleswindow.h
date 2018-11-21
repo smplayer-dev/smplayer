@@ -106,6 +106,8 @@ protected:
 	void saveSettings();
 	void loadSettings();
 
+	void updateSearchTitleWidget();
+
 #ifdef DOWNLOAD_SUBS
 signals:
 	void subtitleDownloaded(const QString & filename);
