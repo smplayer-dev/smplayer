@@ -330,16 +330,8 @@ void FindSubtitlesWindow::searchTitle() {
 	QString t = search_edit->text();
 	qDebug() << "FindSubtitlesWindow::searchTitle:" << t;
 
-	QString filename = file_chooser->text();
-
-	int m = osclient->searchMethod();
-
-	if (!filename.isEmpty() && m != OSClient::Hash) {
-		QString hash = FileHash::calculateHash(filename);
-		QFileInfo fi(filename);
-		qint64 file_size = fi.size();
-
-		osclient->search(hash, file_size, t);
+	if (osclient->searchMethod() != OSClient::Hash) {
+		osclient->search("", 0, t);
 	}
 }
 
@@ -552,28 +544,42 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		extension = table->item(proxy_model->mapToSource(index).row(), COL_FORMAT)->text();
 	}
 
-	QFileInfo fi(file_chooser->text());
-	QString output_name = fi.completeBaseName();
-	if (include_lang_on_filename) output_name += "_"+ lang;
-	output_name += "." + extension;
+	QString output_file;
 
-	QString output_file = fi.absolutePath() + "/" + output_name;
-	qDebug("FindSubtitlesWindow::archiveDownloaded: save subtitle as '%s'", output_file.toUtf8().constData());
+	if (!file_chooser->text().isEmpty() && QFile::exists(file_chooser->text())) {
+		QFileInfo fi(file_chooser->text());
+		QString output_name = fi.completeBaseName();
+		if (include_lang_on_filename) output_name += "_"+ lang;
+		output_name += "." + extension;
 
-	QFile file(output_file);
-	file.open(QIODevice::WriteOnly);
-	bool error = (file.write(uncompress_data) == -1);
-	file.close();
+		QString output_file = fi.absolutePath() + "/" + output_name;
+		qDebug() << "FindSubtitlesWindow::archiveDownloaded: save subtitle as" << output_file;
+	}
 
-	if (error) {
-		qWarning("FindSubtitlesWindow::archiveDownloaded: can't write subtitle file");
-		QMessageBox::warning(this, tr("Error saving file"),
+	if (output_file.isEmpty()) {
+		QString output_name = "subtitle";
+		if (!search_edit->text().isEmpty()) output_name = search_edit->text();
+		if (include_lang_on_filename) output_name += "_"+ lang;
+		output_name += "." + extension;
+		output_file = QFileDialog::getSaveFileName(this, tr("Save File"), output_name);
+	}
+
+	if (!output_file.isEmpty()) {
+		QFile file(output_file);
+		file.open(QIODevice::WriteOnly);
+		bool error = (file.write(uncompress_data) == -1);
+		file.close();
+
+		if (error) {
+			qWarning("FindSubtitlesWindow::archiveDownloaded: can't write subtitle file");
+			QMessageBox::warning(this, tr("Error saving file"),
                              tr("It wasn't possible to save the downloaded\n"
                                 "file in folder %1\n"
-                                "Please check the permissions of that folder.").arg(fi.absolutePath()));
-	} else {
-		status->setText(tr("Subtitle saved as %1").arg(output_file));
-		emit subtitleDownloaded( output_file );
+                                "Please check the permissions of that folder.").arg(QFileInfo(output_file).absolutePath()));
+		} else {
+			status->setText(tr("Subtitle saved as %1").arg(output_file));
+			emit subtitleDownloaded( output_file );
+		}
 	}
 }
 
