@@ -559,7 +559,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		if (include_lang_on_filename) output_name += "_"+ lang;
 		output_name += "." + extension;
 
-		QString output_file = fi.absolutePath() + "/" + output_name;
+		output_file = fi.absolutePath() + "/" + output_name;
 		qDebug() << "FindSubtitlesWindow::archiveDownloaded: save subtitle as" << output_file;
 	}
 
