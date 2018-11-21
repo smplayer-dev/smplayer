@@ -58,6 +58,7 @@
 
 #ifndef NO_SMPLAYER_SUPPORT
 #include "images.h"
+#include "filedialog.h"
 #endif
 
 #define COL_LANG 0
@@ -561,7 +562,11 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		if (!search_edit->text().isEmpty()) output_name = search_edit->text();
 		if (include_lang_on_filename) output_name += "_"+ lang;
 		output_name += "." + extension;
+		#ifndef NO_SMPLAYER_SUPPORT
+		output_file = MyFileDialog::getSaveFileName(this, tr("Save File"), output_name);
+		#else
 		output_file = QFileDialog::getSaveFileName(this, tr("Save File"), output_name);
+		#endif
 	}
 
 	if (!output_file.isEmpty()) {
