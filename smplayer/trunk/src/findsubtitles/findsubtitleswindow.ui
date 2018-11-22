@@ -54,7 +54,18 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="search_edit"/>
+      <widget class="QLineEdit" name="search_edit">
+       <property name="placeholderText">
+        <string>Type here a movie or TV show title</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="search_title_button">
+       <property name="text">
+        <string>&amp;Search</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -215,6 +226,7 @@
  <tabstops>
   <tabstop>file_chooser</tabstop>
   <tabstop>search_edit</tabstop>
+  <tabstop>search_title_button</tabstop>
   <tabstop>view</tabstop>
   <tabstop>language_filter</tabstop>
   <tabstop>configure_button</tabstop>

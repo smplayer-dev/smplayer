@@ -85,6 +85,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(updateRefreshButton()) );
 
 	connect( search_edit, SIGNAL(returnPressed()), this, SLOT(searchTitle()) );
+	connect( search_title_button, SIGNAL(clicked()), this, SLOT(searchTitle()) );
 
 	connect( refresh_button, SIGNAL(clicked()),
              this, SLOT(refresh()) );
@@ -340,6 +341,7 @@ void FindSubtitlesWindow::updateSearchTitleWidget() {
 	bool title_search_allowed = (osclient->searchMethod() != OSClient::Hash);
 	search_for_label->setEnabled(title_search_allowed);
 	search_edit->setEnabled(title_search_allowed);
+	search_title_button->setEnabled(title_search_allowed);
 }
 
 void FindSubtitlesWindow::refresh() {
