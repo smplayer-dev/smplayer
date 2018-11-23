@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2020,17 +2018,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2211,47 +2209,56 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>Ο SMPlayer εξυπηρέτης ιστού είναι ενεργός</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ανενεργός ο SMPlayer εξυπηρέτης ιστού</translation>
     </message>
 </context>
 <context>
     <name>CodeDownloader</name>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="obsolete">Μεταφόρτωση...</translation>
+        <translation>Μεταφόρτωση...</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="obsolete">Συνδέεται στο %1</translation>
+        <translation>Συνδέεται στο %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Ο κώδικας Youtube ενημερώθηκε επιτυχώς.</translation>
+        <translation>Ο κώδικας Youtube ενημερώθηκε επιτυχώς.</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="127"/>
         <source>Installed version: %1</source>
-        <translation type="obsolete">Εγκατεστημένη έκδοση: %1</translation>
+        <translation>Εγκατεστημένη έκδοση: %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="obsolete">Επιτυχία</translation>
+        <translation>Επιτυχία</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>Error</source>
-        <translation type="obsolete">Σφάλμα</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="obsolete">Συνέβη σφάλμα κατά την εγγραφή του %1</translation>
+        <translation>Συνέβη σφάλμα κατά την εγγραφή του %1</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Προέκυψε σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
+        <translation>Προέκυψε σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -3015,10 +3022,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform>
-            <numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform>
-        </translation>
+        <translation><numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform><numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
@@ -3111,7 +3115,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Δεν ήταν δυνατό να αποθηκευτεί το ληφθέν
@@ -3339,7 +3343,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3410,7 +3414,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -4835,17 +4839,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8043,17 +8047,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="163"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="195"/>
@@ -8275,12 +8279,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
@@ -9935,19 +9939,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-        </translation>
+        <translation><numerusform>%n δευτερόλεπτο(α)</numerusform><numerusform>%n δευτερόλεπτο(α)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n λεπτό(ά)</numerusform>
-            <numerusform>%n λεπτό(ά)</numerusform>
-        </translation>
+        <translation><numerusform>%n λεπτό(ά)</numerusform><numerusform>%n λεπτό(ά)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
