@@ -2945,72 +2945,78 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Language</source>
         <translation>שפה</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Name</source>
         <translation>שם</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Format</source>
         <translation>פורמט</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Files</source>
         <translation>קבצים</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Date</source>
         <translation>תאריך</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Uploaded by</source>
         <translation>הועלה על ידי</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>Portuguese - Brasil</source>
         <translation>פורטוגזית - ברזיל</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="267"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
         <source>All</source>
         <translation>הכל</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="276"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
         <source>Close</source>
         <translation>סגור</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Subtitles service powered by %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>התחברות אל opensubtitles.org נכשלה</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="387"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
         <source>Search has failed</source>
         <translation>חיפוש נכשל</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <source>Save File</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>כתובית %n חולצה</numerusform>
@@ -3018,48 +3024,48 @@ Example: extrastereo,karaoke</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
         <source>Error fixing the subtitle lines</source>
         <translation>שגיאה בתיקון שורות הכתובית</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="108"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
         <source>&amp;Download</source>
         <translation>&amp;הורד</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;העתק קישור אל לוח גזירה</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="367"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
         <source>Download failed: %1.</source>
         <translation>הורדה נכשלה: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
         <source>Downloading...</source>
         <translation>מוריד כעת...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
         <source>Done.</source>
         <translation>סיים.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>%1 files available</source>
         <translation>%1 קבצים זמינים</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>Failed to parse the received data.</source>
         <translation>כשל בניתוח הנתונים שהתקבלו.</translation>
     </message>
@@ -3074,40 +3080,55 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
+        <source>Search for &amp;title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
+        <source>Type here a movie or TV show title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
+        <source>&amp;Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
         <translation>&amp;שפה:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
         <translation>&amp;רענן</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
         <source>Subtitle saved as %1</source>
         <translation>כתובית נשמרה בשם %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
         <source>Overwrite?</source>
         <translation>להחליף?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>הקובץ %1 כבר קיים, להחליף?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
         <source>Error saving file</source>
         <translation>שגיאה בשמירת קובץ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3116,19 +3137,19 @@ Please check the permissions of that folder.</source>
 אנא בדוק את ההרשאות של התיקייה הזו.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
         <source>Download failed</source>
         <translation>הורדה נכשלה</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Temporary file %1</source>
         <translation>קובץ זמני %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="88"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
         <translation>&amp;אפשרויות</translation>
     </message>

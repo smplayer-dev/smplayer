@@ -2948,72 +2948,78 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Format</source>
         <translation>Формат</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Files</source>
         <translation>Файлы</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Uploaded by</source>
         <translation>Загружено</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>Portuguese - Brasil</source>
         <translation>Португальский (Бразилия)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="267"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
         <source>All</source>
         <translation>Все</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="276"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Subtitles service powered by %1</source>
         <translation>Служба субтитров предоставлена %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
         <source>Connecting...</source>
         <translation>Соединение…</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Не удалось войти в OpenSubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="387"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
         <source>Search has failed</source>
         <translation>Поиск завершился неудачно</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <source>Save File</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n субтитр извлечён</numerusform>
@@ -3022,48 +3028,48 @@ Example: extrastereo,karaoke</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Ошибка при исправлении строк субтитров</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="108"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
         <source>&amp;Download</source>
         <translation>&amp;Загрузить</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Копировать ссылку в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="367"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
         <source>Download failed: %1.</source>
         <translation>Ошибка загрузки: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
         <source>Downloading...</source>
         <translation>Загрузка…</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
         <source>Done.</source>
         <translation>Завершено.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>%1 files available</source>
         <translation>%1 файлов доступно</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>Failed to parse the received data.</source>
         <translation>Ошибка обработки полученных данных.</translation>
     </message>
@@ -3078,40 +3084,55 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Видеофайл:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
+        <source>Search for &amp;title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
+        <source>Type here a movie or TV show title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
+        <source>&amp;Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
         <translation>&amp;Язык:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
         <translation>&amp;Обновить</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
         <source>Subtitle saved as %1</source>
         <translation>Субтитры сохранены как %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
         <source>Overwrite?</source>
         <translation>Перезаписать?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 существует, перезаписать?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
         <source>Error saving file</source>
         <translation>Ошибка сохранения файла</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3120,19 +3141,19 @@ Please check the permissions of that folder.</source>
 Проверьте права на этот каталог.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
         <source>Download failed</source>
         <translation>Ошибка загрузки</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Temporary file %1</source>
         <translation>Временный файл %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="88"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
         <translation>&amp;Параметры</translation>
     </message>

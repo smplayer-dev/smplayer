@@ -2948,120 +2948,126 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Language</source>
         <translation>언어</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Name</source>
         <translation>이름</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>Format</source>
         <translation>형식</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Files</source>
         <translation>파일</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Date</source>
         <translation>날짜</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="237"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Uploaded by</source>
         <translation>업로드</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>Portuguese - Brasil</source>
         <translation>포르투갈어 - 브라질</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="267"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
         <source>All</source>
         <translation>모두</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="276"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
         <source>Close</source>
         <translation>닫기</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Subtitles service powered by %1</source>
         <translation>%1의 지원을 받는 자막 서비스</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="373"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
         <source>Connecting...</source>
         <translation>연결 중...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="383"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>opensubtitles.org에 로그인을 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="387"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
         <source>Search has failed</source>
         <translation>찾지 못했습니다</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <source>Save File</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="725"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n 자막을 추출했습니다</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="785"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
         <source>Error fixing the subtitle lines</source>
         <translation>자막의 줄을 고치는데 오류 발생</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="108"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
         <source>&amp;Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="281"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>링크를 클립보드에 복사</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="367"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
         <source>Download failed: %1.</source>
         <translation>다운로드 실패: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
         <source>Downloading...</source>
         <translation>다운로드 중...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
         <source>Done.</source>
         <translation>완료.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="451"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>%1 files available</source>
         <translation>%1 개가 있습니다</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
         <source>Failed to parse the received data.</source>
         <translation>수신 자료 해석에 실패했습니다.</translation>
     </message>
@@ -3076,40 +3082,55 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="58"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
+        <source>Search for &amp;title:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
+        <source>Type here a movie or TV show title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
+        <source>&amp;Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
         <translation>언어:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
         <translation>새로고침</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="555"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
         <source>Subtitle saved as %1</source>
         <translation>자막 저장: %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="739"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
         <source>Overwrite?</source>
         <translation>덮어 쓸까요?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="740"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>%1 이 이미 존재합니다. 덮어 쓸까요?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="550"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="657"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
         <source>Error saving file</source>
         <translation>파일 저장 오류</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="551"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="658"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3118,19 +3139,19 @@ Please check the permissions of that folder.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="365"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="651"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
         <source>Download failed</source>
         <translation>다운로드 실패</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="635"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Temporary file %1</source>
         <translation>임시 파일 %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="88"/>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
         <translation>옵션</translation>
     </message>
