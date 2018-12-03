@@ -481,8 +481,8 @@ void PrefGeneral::updateDriverCombos() {
 			vo_combo->addItem( "gl_tiled (yuv)", "gl_tiled:yuv=3");
 		}
 		else
-		if (vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" || 
-            vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct") 
+		if (vo == "libmpv" || vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" ||
+            vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct")
 		{
 			; // Nothing to do
 		}
