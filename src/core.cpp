@@ -2047,7 +2047,9 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	{ // Audio file
-		QString audio_file = mset.external_audio;
+		QString audio_file = "";
+		if (!mset.external_audio.isEmpty() && QFile::exists(mset.external_audio)) audio_file = mset.external_audio;
+
 		#if defined(YOUTUBE_SUPPORT) && defined(YT_DASH_SUPPORT)
 		if (PREF_YT_ENABLED) {
 			if (file == yt->selectedUrl() && yt->useDASH()) audio_file = yt->selectedAudioUrl();
