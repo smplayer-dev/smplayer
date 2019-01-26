@@ -27,11 +27,14 @@
 #include <QProcess>
 #include "mediadata.h"
 
+#ifdef YOUTUBE_SUPPORT
 #define PLAYLIST_DOWNLOAD
+#define YT_PLAYLIST_SUPPORT
+#endif
+
 //#define PLAYLIST_DOUBLE_TOOLBAR
 #define PLAYLIST_DELETE_FROM_DISK
 
-#define YT_PLAYLIST_SUPPORT
 
 class PLItem : public QStandardItem {
 public:
