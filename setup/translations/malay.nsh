@@ -11,7 +11,7 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_Is_Running "Pemasang sudah berjalan."
+${LangFileString} Installer_Is_Running "Pemasang sedang berlangsung."
 ${LangFileString} Installer_No_Admin "Anda mesti mendaftar masuk sebagai pentadbir bila memasang program ini."
 ${LangFileString} SMPlayer_Is_Running "Satu kejadian SMPlayer sedang berjalan. Sila keluar SMPlayer dan cuba lagi."
 
