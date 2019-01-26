@@ -2220,97 +2220,70 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Đang tải về...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Đang kết nối đến %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Mã Youtube được cập nhật thành công.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Phiên bản được cài đặt: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Thành công</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Lỗi</translation>
-    </message>
-</context>
-<context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3196"/>
+        <location filename="../core.cpp" line="3199"/>
         <source>Brightness: %1</source>
         <translation>Độ sáng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3215"/>
         <source>Contrast: %1</source>
         <translation>Độ tương phản: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3245"/>
         <source>Hue: %1</source>
         <translation>Sắc độ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3260"/>
         <source>Saturation: %1</source>
         <translation>Độ bão hòa: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Volume: %1</source>
         <translation>Âm lượng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4314"/>
+        <location filename="../core.cpp" line="4317"/>
         <source>Zoom: %1</source>
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3528"/>
-        <location filename="../core.cpp" line="3539"/>
+        <location filename="../core.cpp" line="3531"/>
+        <location filename="../core.cpp" line="3542"/>
         <source>Font scale: %1</source>
         <translation>Tỷ lệ phông: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4148"/>
         <source>Aspect ratio: %1</source>
         <translation>Tỷ lệ độ phân giải: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4552"/>
+        <location filename="../core.cpp" line="4555"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3453"/>
+        <location filename="../core.cpp" line="3456"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Độ trễ phụ đề: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3471"/>
+        <location filename="../core.cpp" line="3474"/>
         <source>Audio delay: %1 ms</source>
         <translation>Đỗ trễ âm thanh: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3311"/>
+        <location filename="../core.cpp" line="3314"/>
         <source>Speed: %1</source>
         <translation>Tốc độ: %1</translation>
     </message>
@@ -2325,67 +2298,67 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Không thể xác định vị trí đường dẫn url của video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3624"/>
+        <location filename="../core.cpp" line="3627"/>
         <source>Subtitles on</source>
         <translation>Phụ đề đang bật</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles off</source>
         <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4193"/>
+        <location filename="../core.cpp" line="4196"/>
         <source>Mouse wheel seeks now</source>
         <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4199"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4528"/>
+        <location filename="../core.cpp" line="4531"/>
         <source>Screenshot saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4563"/>
+        <location filename="../core.cpp" line="4566"/>
         <source>Starting...</source>
         <translation>Đang bắt đầu...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1432"/>
+        <location filename="../core.cpp" line="1433"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1446"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2798"/>
+        <location filename="../core.cpp" line="2801"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;A&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2823"/>
+        <location filename="../core.cpp" line="2826"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;B&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2849"/>
         <source>A-B markers cleared</source>
         <translation>Đã xóa bộ đánh dấu A-B</translation>
     </message>
@@ -8061,98 +8034,103 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="163"/>
+        <location filename="../prefnetwork.ui" line="188"/>
+        <source>Use &amp;60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="195"/>
+        <location filename="../prefnetwork.ui" line="234"/>
         <source>C&amp;hromecast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="201"/>
+        <location filename="../prefnetwork.ui" line="240"/>
         <source>Web Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="213"/>
+        <location filename="../prefnetwork.ui" line="252"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="233"/>
+        <location filename="../prefnetwork.ui" line="272"/>
         <source>&amp;Directory listing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="240"/>
+        <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="286"/>
+        <location filename="../prefnetwork.ui" line="325"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="313"/>
+        <location filename="../prefnetwork.ui" line="352"/>
         <source>Subtitles</source>
         <translation type="unfinished">Các phụ đề</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="319"/>
+        <location filename="../prefnetwork.ui" line="358"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="390"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="358"/>
+        <location filename="../prefnetwork.ui" line="397"/>
         <source>Try to &amp;remove advertisements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="367"/>
+        <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="422"/>
+        <location filename="../prefnetwork.ui" line="461"/>
         <source>&amp;Proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="428"/>
+        <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Enable proxy</source>
         <translation type="unfinished">&amp;Bật proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="441"/>
+        <location filename="../prefnetwork.ui" line="480"/>
         <source>&amp;Host:</source>
         <translation type="unfinished">&amp;Máy chủ:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="263"/>
-        <location filename="../prefnetwork.ui" line="454"/>
+        <location filename="../prefnetwork.ui" line="302"/>
+        <location filename="../prefnetwork.ui" line="493"/>
         <source>&amp;Port:</source>
         <translation type="unfinished">&amp;Cổng:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="474"/>
+        <location filename="../prefnetwork.ui" line="513"/>
         <source>&amp;Username:</source>
         <translation type="unfinished">&amp;Tên người dùng:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="487"/>
+        <location filename="../prefnetwork.ui" line="526"/>
         <source>Pa&amp;ssword:</source>
         <translation type="unfinished">Mật &amp;khẩu:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="504"/>
+        <location filename="../prefnetwork.ui" line="543"/>
         <source>&amp;Type:</source>
         <translation type="unfinished">&amp;Kiểu:</translation>
     </message>
@@ -8172,274 +8150,284 @@ Do you want to overwrite?</source>
         <translation>Mạng</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="321"/>
+        <location filename="../prefnetwork.cpp" line="327"/>
         <source>User agent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="91"/>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
-        <location filename="../prefnetwork.cpp" line="253"/>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>Auto</source>
         <translation type="unfinished">Tự động</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="107"/>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>Best video and audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>Worst</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>YouTube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Support for video sites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>support for video sites is turned off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="289"/>
+        <location filename="../prefnetwork.cpp" line="291"/>
         <source>only the internal support for YouTube will be used</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="292"/>
+        <location filename="../prefnetwork.cpp" line="294"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="298"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
         <source>Preferred quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>selects the best video and audio streams available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Best</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>selects the best quality format available as a single file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>1080p, 720p...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>will try to use the selected resolution if available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>selects the worst quality format available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="313"/>
+        <location filename="../prefnetwork.cpp" line="315"/>
         <source>Playback quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="314"/>
+        <location filename="../prefnetwork.cpp" line="316"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="317"/>
+        <location filename="../prefnetwork.cpp" line="319"/>
         <source>Use adaptive streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="318"/>
+        <location filename="../prefnetwork.cpp" line="320"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
+        <source>Use 60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="323"/>
+        <source>This option enables streams at 60 frames per second if available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="328"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="335"/>
+        <location filename="../prefnetwork.cpp" line="341"/>
         <source>Chromecast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="337"/>
+        <location filename="../prefnetwork.cpp" line="343"/>
         <source>Local IP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
+        <location filename="../prefnetwork.cpp" line="344"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="342"/>
+        <location filename="../prefnetwork.cpp" line="348"/>
         <source>The port that the web server will use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="344"/>
+        <location filename="../prefnetwork.cpp" line="350"/>
         <source>Directory listing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
+        <location filename="../prefnetwork.cpp" line="351"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="351"/>
+        <location filename="../prefnetwork.cpp" line="357"/>
         <source>Convert SRT subtitles to VTT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="352"/>
+        <location filename="../prefnetwork.cpp" line="358"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="355"/>
+        <location filename="../prefnetwork.cpp" line="361"/>
         <source>Overwrite existing VTT files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="356"/>
+        <location filename="../prefnetwork.cpp" line="362"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="358"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>Try to remove advertisements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="359"/>
+        <location filename="../prefnetwork.cpp" line="365"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="362"/>
+        <location filename="../prefnetwork.cpp" line="368"/>
         <source>Position of subtitles on screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="363"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="364"/>
+        <location filename="../prefnetwork.cpp" line="370"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="365"/>
+        <location filename="../prefnetwork.cpp" line="371"/>
         <source>The special value -1 means the default position.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="369"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>Proxy</source>
         <translation type="unfinished">Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="371"/>
+        <location filename="../prefnetwork.cpp" line="377"/>
         <source>Enable proxy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="372"/>
+        <location filename="../prefnetwork.cpp" line="378"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Bật/tắt sử dụng proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="374"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Host</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="375"/>
+        <location filename="../prefnetwork.cpp" line="381"/>
         <source>The host name of the proxy.</source>
         <translation type="unfinished">Tên máy chủ proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="341"/>
-        <location filename="../prefnetwork.cpp" line="377"/>
+        <location filename="../prefnetwork.cpp" line="347"/>
+        <location filename="../prefnetwork.cpp" line="383"/>
         <source>Port</source>
         <translation>Cổng</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="378"/>
+        <location filename="../prefnetwork.cpp" line="384"/>
         <source>The port of the proxy.</source>
         <translation type="unfinished">Cổng của proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="380"/>
+        <location filename="../prefnetwork.cpp" line="386"/>
         <source>Username</source>
         <translation>Người dùng</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="381"/>
+        <location filename="../prefnetwork.cpp" line="387"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation type="unfinished">Nếu như proxy yêu cầu xác thực, đặt tên người dùng ở đây.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="383"/>
+        <location filename="../prefnetwork.cpp" line="389"/>
         <source>Password</source>
         <translation>Mật khẩu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="384"/>
+        <location filename="../prefnetwork.cpp" line="390"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation type="unfinished">Mật khẩu của proxy. &lt;b&gt;Cảnh báo:&lt;/b&gt; mật khẩu sẽ được lưu bằng chữ trong tập tin cấu hình.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="387"/>
+        <location filename="../prefnetwork.cpp" line="393"/>
         <source>Type</source>
         <translation>Kiểu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="388"/>
+        <location filename="../prefnetwork.cpp" line="394"/>
         <source>Select the proxy type to be used.</source>
         <translation type="unfinished">Hãy chọn kiểu proxy được dùng.</translation>
     </message>
@@ -10536,7 +10524,7 @@ Do you want to overwrite?</source>
         <location filename="../updatechecker.cpp" line="198"/>
         <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Phiên bản được cài đặt: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="199"/>

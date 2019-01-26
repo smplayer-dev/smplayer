@@ -2221,105 +2221,70 @@ Das könnte das Problem beheben.</translation>
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Herunterladen …</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Zu %1 wird verbunden</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Der Youtube-Code wurde erfolgreich aktualisiert.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Installierte Version: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Erfolg</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Fehler</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Ein Fehler trat beim Schreiben von %1 auf</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Ein Fehler trat auf beim Herunterladen der Datei:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3196"/>
+        <location filename="../core.cpp" line="3199"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3215"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3245"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3260"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4314"/>
+        <location filename="../core.cpp" line="4317"/>
         <source>Zoom: %1</source>
         <translation>Vergrößerung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3528"/>
-        <location filename="../core.cpp" line="3539"/>
+        <location filename="../core.cpp" line="3531"/>
+        <location filename="../core.cpp" line="3542"/>
         <source>Font scale: %1</source>
         <translation>Schriftskalierung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4148"/>
         <source>Aspect ratio: %1</source>
         <translation>Seitenverhältnis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4552"/>
+        <location filename="../core.cpp" line="4555"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Der Schriftzwischenspeicher wird aktualisiert. Das kann einige Sekunden dauern …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3453"/>
+        <location filename="../core.cpp" line="3456"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Untertitelverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3471"/>
+        <location filename="../core.cpp" line="3474"/>
         <source>Audio delay: %1 ms</source>
         <translation>Tonverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3311"/>
+        <location filename="../core.cpp" line="3314"/>
         <source>Speed: %1</source>
         <translation>Geschwindigkeit: %1</translation>
     </message>
@@ -2334,67 +2299,67 @@ Das könnte das Problem beheben.</translation>
         <translation>Die Adresse des Videos kann nicht gefunden werden</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3624"/>
+        <location filename="../core.cpp" line="3627"/>
         <source>Subtitles on</source>
         <translation>Untertitel An</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles off</source>
         <translation>Untertitel Aus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4193"/>
+        <location filename="../core.cpp" line="4196"/>
         <source>Mouse wheel seeks now</source>
         <translation>Mausrad wird nun für das Spulen verwendet</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4199"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Mausrad ändert nun die Lautstärke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Mausrad ändert die Vergrößerungsstufe</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Mausrad ändert nun die Geschwindigkeit</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4528"/>
+        <location filename="../core.cpp" line="4531"/>
         <source>Screenshot saved as %1</source>
         <translation>Bildschirmfoto gespeichert als %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4563"/>
+        <location filename="../core.cpp" line="4566"/>
         <source>Starting...</source>
         <translation>Wird gestartet …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1432"/>
+        <location filename="../core.cpp" line="1433"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Kein Bildschirmfoto aufgenommen, da der Order nicht konfiguriert ist</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1446"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Keine Bildschirmfotos aufgenommen, da der Order nicht konfiguriert ist</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2798"/>
+        <location filename="../core.cpp" line="2801"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>„A“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2823"/>
+        <location filename="../core.cpp" line="2826"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>„B“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2849"/>
         <source>A-B markers cleared</source>
         <translation>A-B-Markierungen gelöscht</translation>
     </message>
@@ -3017,7 +2982,7 @@ Beispiel: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei speichern</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
@@ -3086,17 +3051,17 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach &amp;Titel suchen:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation type="unfinished"></translation>
+        <translation>Geben Sie hier einen Film- oder Fernsehsendungstitel ein</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suche</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -8074,98 +8039,103 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>A&amp;daptive Streams verwenden (Auflösung bis zu 4K)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="163"/>
+        <location filename="../prefnetwork.ui" line="188"/>
+        <source>Use &amp;60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
         <translation>&amp;Benutzerkennung:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="195"/>
+        <location filename="../prefnetwork.ui" line="234"/>
         <source>C&amp;hromecast</source>
         <translation>C&amp;hromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="201"/>
+        <location filename="../prefnetwork.ui" line="240"/>
         <source>Web Server</source>
         <translation>Webbrowser</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="213"/>
+        <location filename="../prefnetwork.ui" line="252"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation>Änderungen in diesem Abschnitt werden erst beim nächsten Neustart des Webservers wirksam</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="233"/>
+        <location filename="../prefnetwork.ui" line="272"/>
         <source>&amp;Directory listing</source>
         <translation>&amp;Verzeichnisauflistung</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="240"/>
+        <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
         <translation>Lokale &amp;IP-Adresse:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="286"/>
+        <location filename="../prefnetwork.ui" line="325"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation>Um lokale Medien von diesem Rechner zu Chromecast zu senden, führt SMPlayer einen kleinen Webserver aus. Hier können Sie einige Einstellungen vornehmen.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="313"/>
+        <location filename="../prefnetwork.ui" line="352"/>
         <source>Subtitles</source>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="319"/>
+        <location filename="../prefnetwork.ui" line="358"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation>SRT-Untertitel in &amp;VTT umwandeln</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="390"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation>V&amp;orhandene VTT-Dateien überschreiben</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="358"/>
+        <location filename="../prefnetwork.ui" line="397"/>
         <source>Try to &amp;remove advertisements</source>
         <translation>Versuchen, Werbung zu entfe&amp;rnen</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="367"/>
+        <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation>Position der &amp;Untertitel auf dem Bildschirm:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="422"/>
+        <location filename="../prefnetwork.ui" line="461"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Vermittlungsserver</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="428"/>
+        <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Enable proxy</source>
         <translation>Vermittlungsserver &amp;aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="441"/>
+        <location filename="../prefnetwork.ui" line="480"/>
         <source>&amp;Host:</source>
         <translation>&amp;Rechner (Host):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="263"/>
-        <location filename="../prefnetwork.ui" line="454"/>
+        <location filename="../prefnetwork.ui" line="302"/>
+        <location filename="../prefnetwork.ui" line="493"/>
         <source>&amp;Port:</source>
         <translation>&amp;Anschluss (Port):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="474"/>
+        <location filename="../prefnetwork.ui" line="513"/>
         <source>&amp;Username:</source>
         <translation>&amp;Benutzername:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="487"/>
+        <location filename="../prefnetwork.ui" line="526"/>
         <source>Pa&amp;ssword:</source>
         <translation>&amp;Passwort:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="504"/>
+        <location filename="../prefnetwork.ui" line="543"/>
         <source>&amp;Type:</source>
         <translation>&amp;Art:</translation>
     </message>
@@ -8185,274 +8155,284 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Netzwerk</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation>wird es versucht, mpv + youtube-dl nur für die Seiten zu verwenden, die es auch erfordern</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="321"/>
+        <location filename="../prefnetwork.cpp" line="327"/>
         <source>User agent</source>
         <translation>Benutzerkennung</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="91"/>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Disabled</source>
         <translation>Deaktiviert</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
-        <location filename="../prefnetwork.cpp" line="253"/>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="107"/>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>Best video and audio</source>
         <translation>Bestes Video und Audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>Worst</source>
         <translation>Schlechteste</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>YouTube</source>
         <translation>YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Support for video sites</source>
         <translation>Unterstützung für Videoseiten</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>support for video sites is turned off</source>
         <translation>Unterstützung für Videoseiten ist deaktiviert</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="289"/>
+        <location filename="../prefnetwork.cpp" line="291"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>nur die interne Unterstützung für YouTube wird verwendet</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="292"/>
+        <location filename="../prefnetwork.cpp" line="294"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>mpv + youtube-dl wird für alle Seiten verwendet</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="298"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
         <source>Preferred quality</source>
         <translation>Bevorzugte Qualität</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
         <translation>Diese Option gibt die bevorzugte Qualität für die Videostreams an, die von youtube-dl verarbeitet werden.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>selects the best video and audio streams available</source>
         <translation>wählt die besten verfügbaren Video- und Audiostreams aus</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Best</source>
         <translation>Beste</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>selects the best quality format available as a single file</source>
         <translation>wählt das beste als einzelne Datei verfügbare Qualitätsformat aus</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>1080p, 720p...</source>
         <translation>1080p, 720p, …</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>will try to use the selected resolution if available</source>
         <translation>wird versuchen, die ausgewählte Auflösung zu verwenden, falls verfügbar</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>selects the worst quality format available</source>
         <translation>wählt das schlechteste verfügbare Qualitätsformat aus</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="313"/>
+        <location filename="../prefnetwork.cpp" line="315"/>
         <source>Playback quality</source>
         <translation>Wiedergabequalität</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="314"/>
+        <location filename="../prefnetwork.cpp" line="316"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>Bitte die bevorzugte Qualität für YouTube-Videos auswählen.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="317"/>
+        <location filename="../prefnetwork.cpp" line="319"/>
         <source>Use adaptive streams</source>
         <translation>Adaptive Streams verwenden</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="318"/>
+        <location filename="../prefnetwork.cpp" line="320"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
         <translation>Diese Option aktiviert adaptive Streams, die Videos mit bis zu 4K bereitstellen können.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
+        <source>Use 60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="323"/>
+        <source>This option enables streams at 60 frames per second if available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="328"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation>Die Benutzerkennung einstellen, die benutzt werden soll, wenn SMPlayer sich mit YouTube verbindet.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="335"/>
+        <location filename="../prefnetwork.cpp" line="341"/>
         <source>Chromecast</source>
         <translation>Chromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="337"/>
+        <location filename="../prefnetwork.cpp" line="343"/>
         <source>Local IP</source>
         <translation>Lokale IP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
+        <location filename="../prefnetwork.cpp" line="344"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation>Die lokale IP-Adresse des Rechners. Sie wird an Chromecast weitergegeben, damit es auf die Dateien von diesem Rechner zugreifen kann.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="342"/>
+        <location filename="../prefnetwork.cpp" line="348"/>
         <source>The port that the web server will use.</source>
         <translation>Der Port, den der Webserver verwendet.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="344"/>
+        <location filename="../prefnetwork.cpp" line="350"/>
         <source>Directory listing</source>
         <translation>Verzeichnisliste</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
+        <location filename="../prefnetwork.cpp" line="351"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation>Wenn der Webserver ausgeführt wird, kann jedes Gerät in Ihrem Netzwerk auf die Dateien von diesem Computer zugreifen. Wenn diese Option aktiviert ist, kann jedes Gerät eine Liste der Dateien auf diesem Computer erhalten. Wenn diese Option deaktiviert ist, ist die Liste nicht verfügbar.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="351"/>
+        <location filename="../prefnetwork.cpp" line="357"/>
         <source>Convert SRT subtitles to VTT</source>
         <translation>SRT-Untertitel in VTT umwandeln</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="352"/>
+        <location filename="../prefnetwork.cpp" line="358"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
         <translation>Wenn diese Option aktiviert ist, konvertiert der SMPlayer automatisch Untertiteldateien im SRT-Format in das VTT-Format. Die VTT-Untertitel haben dann denselben Dateinamen, aber die Erweiterung .vtt</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="355"/>
+        <location filename="../prefnetwork.cpp" line="361"/>
         <source>Overwrite existing VTT files</source>
         <translation>Vorhandene VTT-Dateien überschreiben</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="356"/>
+        <location filename="../prefnetwork.cpp" line="362"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
         <translation>Wenn diese Option ausgewählt ist, wird SMPlayer vorhandene VTT-Dateien überschreiben.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="358"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>Try to remove advertisements</source>
         <translation>Versuchen, Werbung zu entfernen</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="359"/>
+        <location filename="../prefnetwork.cpp" line="365"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
         <translation>Wenn diese Option ausgewählt ist, wird SMPlayer versuchen, Werbung in den Untertiteln zu finden und zu entfernen.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="362"/>
+        <location filename="../prefnetwork.cpp" line="368"/>
         <source>Position of subtitles on screen</source>
         <translation>Position der Untertitel auf dem Bildschirm</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="363"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
         <translation>Diese Option legt die Position, wo die Untertitel auf dem Bildschirm angezeigt werden, fest.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="364"/>
+        <location filename="../prefnetwork.cpp" line="370"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
         <translation>0 ist oben am Bildschirm, 100 ist unten am Bildschirm.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="365"/>
+        <location filename="../prefnetwork.cpp" line="371"/>
         <source>The special value -1 means the default position.</source>
         <translation>Der Sonderwert -1 bedeutet die Voreinstellung.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="369"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="371"/>
+        <location filename="../prefnetwork.cpp" line="377"/>
         <source>Enable proxy</source>
         <translation>Vermittlungsserver aktivieren</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="372"/>
+        <location filename="../prefnetwork.cpp" line="378"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Die Verwendung des Vermittlungsservers (Proxy) aktivieren/deaktivieren.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="374"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Host</source>
         <translation>Rechner</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="375"/>
+        <location filename="../prefnetwork.cpp" line="381"/>
         <source>The host name of the proxy.</source>
         <translation>Der Rechnername des Vermittlungsservers</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="341"/>
-        <location filename="../prefnetwork.cpp" line="377"/>
+        <location filename="../prefnetwork.cpp" line="347"/>
+        <location filename="../prefnetwork.cpp" line="383"/>
         <source>Port</source>
         <translation>Anschluss (Port)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="378"/>
+        <location filename="../prefnetwork.cpp" line="384"/>
         <source>The port of the proxy.</source>
         <translation>Der Anschluss des Vermittlungsservers.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="380"/>
+        <location filename="../prefnetwork.cpp" line="386"/>
         <source>Username</source>
         <translation>Benutzername</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="381"/>
+        <location filename="../prefnetwork.cpp" line="387"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Wenn der Vermittlungsserver eine Legitimierung benötigt, stellt dieses den Benutzernamen ein.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="383"/>
+        <location filename="../prefnetwork.cpp" line="389"/>
         <source>Password</source>
         <translation>Passwort</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="384"/>
+        <location filename="../prefnetwork.cpp" line="390"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Das Passwort des Vermittlungsservers. &lt;b&gt;Achtung:&lt;/b&gt; das Passwort wird als einfacher Text, in der Konfigurationsdatei, gespeichert.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="387"/>
+        <location filename="../prefnetwork.cpp" line="393"/>
         <source>Type</source>
         <translation>Art</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="388"/>
+        <location filename="../prefnetwork.cpp" line="394"/>
         <source>Select the proxy type to be used.</source>
         <translation>Bitte den Typ des Vermittlungsservers auswählen, der benutzt werden soll.</translation>
     </message>
