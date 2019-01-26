@@ -939,6 +939,7 @@ void Core::openStream(QString name, QStringList params) {
 			yt->setUserAgent(pref->yt_user_agent);
 			#ifdef YT_DASH_SUPPORT
 			yt->setUseDASH(pref->yt_use_dash);
+			yt->enable60fps(pref->yt_use_60fps);
 			#endif
 			#ifdef YT_USE_YTSIG
 			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );

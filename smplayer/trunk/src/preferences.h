@@ -521,6 +521,7 @@ public:
 	bool yt_use_https_main;
 	bool yt_use_https_vi;
 	bool yt_use_dash;
+	bool yt_use_60fps;
 	#endif
 
 	// Proxy

@@ -125,6 +125,9 @@ public:
 	void setUseDASH(bool b) { use_dash = b; }
 	bool useDASH() { return use_dash; }
 
+	void enable60fps(bool b) { use_60fps = b; }
+	bool is60fpsEnabled() { return use_60fps; }
+
 	QString selectedAudioUrl() { return selected_audio_url; }
 	Quality selectedAudioQuality() { return selected_audio_quality; }
 	#endif
@@ -192,7 +195,7 @@ protected:
 	#endif
 
 	static Quality findResolution(const UrlMap & url_map, QList<Quality> l);
-	static Quality findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash = false);
+	static Quality findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash = false, bool use_60fps = false);
 	#ifdef YT_DASH_SUPPORT
 	static Quality findBestAudio(const QMap<int, QString>& url_map);
 	#endif
@@ -232,6 +235,7 @@ private:
 	QString selected_audio_url;
 	Quality selected_audio_quality;
 	bool use_dash;
+	bool use_60fps;
 	#endif
 
 	UrlMap urlmap;

@@ -54,6 +54,7 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	, use_https_vi(false)
 #ifdef YT_DASH_SUPPORT
 	, use_dash(false)
+	, use_60fps(false)
 #endif
 {
 	clearData();
@@ -519,7 +520,7 @@ void RetrieveYoutubeUrl::finish(const UrlMap & url_map) {
 	setUrlMap(url_map);
 
 	#ifdef YT_DASH_SUPPORT
-	selected_quality = findPreferredResolution(url_map, preferred_resolution, use_dash);
+	selected_quality = findPreferredResolution(url_map, preferred_resolution, use_dash, use_60fps);
 	#else
 	selected_quality = findPreferredResolution(url_map, preferred_resolution);
 	#endif
@@ -669,7 +670,7 @@ RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findResolution(const UrlMap & ur
 	return None;
 }
 
-RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash) {
+RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const UrlMap & url_map, Resolution res, bool use_dash, bool use_60fps) {
 	Quality chosen_quality = None;
 
 	QList<Quality> l2160p, l1440p, l1080p, l720p, l480p, l360p, l240p;
@@ -694,12 +695,12 @@ RetrieveYoutubeUrl::Quality RetrieveYoutubeUrl::findPreferredResolution(const Ur
 		l2160p << DASH_VIDEO_WEBM_2160p60hdr;
 		#endif
 
-		#if 0
-		l720p << DASH_VIDEO_720p60 << DASH_VIDEO_WEBM_720p60;
-		l1080p << DASH_VIDEO_1080p60 << DASH_VIDEO_WEBM_1080p60;
-		l1440p << DASH_VIDEO_WEBM_1440p60;
-		l2160p << DASH_VIDEO_WEBM_2160p60;
-		#endif
+		if (use_60fps) {
+			l720p << DASH_VIDEO_720p60 << DASH_VIDEO_WEBM_720p60;
+			l1080p << DASH_VIDEO_1080p60 << DASH_VIDEO_WEBM_1080p60;
+			l1440p << DASH_VIDEO_WEBM_1440p60;
+			l2160p << DASH_VIDEO_WEBM_2160p60;
+		}
 
 		l2160p << DASH_VIDEO_2160p << DASH_VIDEO_2160p2 << DASH_VIDEO_WEBM_2160p << DASH_VIDEO_WEBM_2160p2;
 		l1440p << DASH_VIDEO_1440p << DASH_VIDEO_WEBM_1440p;
