@@ -133,6 +133,7 @@ void PrefNetwork::setData(Preferences * pref) {
 #ifdef YOUTUBE_SUPPORT
 	setYTResolution( pref->yt_resolution );
 	yt_dash_check->setChecked( pref->yt_use_dash );
+	yt_use_60fps_check->setChecked( pref->yt_use_60fps );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
 
@@ -170,6 +171,7 @@ void PrefNetwork::getData(Preferences * pref) {
 #ifdef YOUTUBE_SUPPORT
 	pref->yt_resolution = YTResolution();
 	pref->yt_use_dash = yt_dash_check->isChecked();
+	pref->yt_use_60fps = yt_use_60fps_check->isChecked();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
 
@@ -313,9 +315,13 @@ void PrefNetwork::createHelp() {
 	setWhatsThis(yt_resolution_combo, tr("Playback quality"),
 		tr("Select the preferred quality for YouTube videos.") );
 
-
+#ifdef YOUTUBE_SUPPORT
 	setWhatsThis(yt_dash_check, tr("Use adaptive streams"),
 		tr("This option enables adaptive streams which can provide videos up to 4K.") );
+
+	setWhatsThis(yt_use_60fps_check, tr("Use 60 fps if available"),
+		tr("This option enables streams at 60 frames per second if available.") );
+#endif
 
 #ifdef USE_YT_USER_AGENT
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),

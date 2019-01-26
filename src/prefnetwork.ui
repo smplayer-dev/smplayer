@@ -156,6 +156,45 @@
            </widget>
           </item>
           <item>
+           <widget class="QWidget" name="adaptative_streams_widget" native="true">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <spacer name="horizontalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="yt_use_60fps_check">
+                 <property name="text">
+                  <string>Use &amp;60 fps if available</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
              <widget class="QLabel" name="yt_user_agent_label">
@@ -552,6 +591,7 @@
   <tabstop>ytdl_quality_combo</tabstop>
   <tabstop>yt_resolution_combo</tabstop>
   <tabstop>yt_dash_check</tabstop>
+  <tabstop>yt_use_60fps_check</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>local_ip_combo</tabstop>
   <tabstop>port_spin</tabstop>
@@ -598,6 +638,22 @@
     <hint type="destinationlabel">
      <x>243</x>
      <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yt_dash_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>adaptative_streams_widget</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>243</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>216</y>
     </hint>
    </hints>
   </connection>
