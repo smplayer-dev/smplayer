@@ -547,7 +547,8 @@ void Preferences::reset() {
 	//yt_user_agent = "";
 	yt_use_https_main = false;
 	yt_use_https_vi = false;
-	yt_use_dash = true;
+	yt_use_dash = false;
+	yt_use_60fps = true;
 #endif
 
 	// Proxy
@@ -1100,6 +1101,7 @@ void Preferences::save() {
 	set->setValue("yt_use_https_main", yt_use_https_main);
 	set->setValue("yt_use_https_vi", yt_use_https_vi);
 	set->setValue("use_dash", yt_use_dash);
+	set->setValue("use_60fps", yt_use_60fps);
 	set->endGroup();
 	#endif
 	set->endGroup(); // streaming
@@ -1700,6 +1702,7 @@ void Preferences::load() {
 	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
 	yt_use_https_vi = set->value("yt_use_https_vi", yt_use_https_vi).toBool();
 	yt_use_dash = set->value("use_dash", yt_use_dash).toBool();
+	yt_use_60fps = set->value("use_60fps", yt_use_60fps).toBool();
 	set->endGroup();
 	#endif
 	set->endGroup(); // streaming
