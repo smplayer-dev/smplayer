@@ -2220,105 +2220,70 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     </message>
 </context>
 <context>
-    <name>CodeDownloader</name>
-    <message>
-        <source>Downloading...</source>
-        <translation type="obsolete">Preuzimanje...</translation>
-    </message>
-    <message>
-        <source>Connecting to %1</source>
-        <translation type="obsolete">Povezivanje s %1</translation>
-    </message>
-    <message>
-        <source>The Youtube code has been updated successfully.</source>
-        <translation type="obsolete">Youtube kôd je uspješno nadopunjen.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Instalirana inačica: %1</translation>
-    </message>
-    <message>
-        <source>Success</source>
-        <translation type="obsolete">Uspješno</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation type="obsolete">Greška</translation>
-    </message>
-    <message>
-        <source>An error happened writing %1</source>
-        <translation type="obsolete">Greška se dogodila pri zapisivanju %1</translation>
-    </message>
-    <message>
-        <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="obsolete">Greška se dogodila pri preuzimanju datoteke:&lt;br&gt;%1</translation>
-    </message>
-</context>
-<context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3196"/>
+        <location filename="../core.cpp" line="3199"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3215"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3245"/>
         <source>Hue: %1</source>
         <translation>Ton boje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3260"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Volume: %1</source>
         <translation>Glasnoća zvuka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4314"/>
+        <location filename="../core.cpp" line="4317"/>
         <source>Zoom: %1</source>
         <translation>Zumiranje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3528"/>
-        <location filename="../core.cpp" line="3539"/>
+        <location filename="../core.cpp" line="3531"/>
+        <location filename="../core.cpp" line="3542"/>
         <source>Font scale: %1</source>
         <translation>Promjena veličine slova: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4148"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4552"/>
+        <location filename="../core.cpp" line="4555"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Nadopuna priručne memorije slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3453"/>
+        <location filename="../core.cpp" line="3456"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje podnasalova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3471"/>
+        <location filename="../core.cpp" line="3474"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3311"/>
+        <location filename="../core.cpp" line="3314"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
@@ -2333,67 +2298,67 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Nemoguće pronalažanje URL video snimke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3624"/>
+        <location filename="../core.cpp" line="3627"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles off</source>
         <translation>Podnaslovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4193"/>
+        <location filename="../core.cpp" line="4196"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša trenutno pretražuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4199"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša trenutno mijenja glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša trenutno mijenja razinu zumiranja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša trenutno mijenja brzinu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4528"/>
+        <location filename="../core.cpp" line="4531"/>
         <source>Screenshot saved as %1</source>
         <translation>Snimka zaslona spremljena kao %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4563"/>
+        <location filename="../core.cpp" line="4566"/>
         <source>Starting...</source>
         <translation>Pokretanje...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1432"/>
+        <location filename="../core.cpp" line="1433"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Snimka zaslona NIJE snimljena, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1446"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Snimke zaslona NISU snimljene, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2798"/>
+        <location filename="../core.cpp" line="2801"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2823"/>
+        <location filename="../core.cpp" line="2826"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2849"/>
         <source>A-B markers cleared</source>
         <translation>A-B odabir uklonjen</translation>
     </message>
@@ -3016,7 +2981,7 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Spremi datoteku</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
@@ -3086,17 +3051,17 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pretraži &amp;naslov:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation type="unfinished"></translation>
+        <translation>Upišite ovdje naslov filma ili TV serije</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pretraži</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -8073,98 +8038,103 @@ Do you want to overwrite?</source>
         <translation>Koristi p&amp;rilagodljiva strujanja (razlučivost do 4K)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="163"/>
+        <location filename="../prefnetwork.ui" line="188"/>
+        <source>Use &amp;60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
         <translation>&amp;Korisnički agent:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="195"/>
+        <location filename="../prefnetwork.ui" line="234"/>
         <source>C&amp;hromecast</source>
         <translation>C&amp;hromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="201"/>
+        <location filename="../prefnetwork.ui" line="240"/>
         <source>Web Server</source>
         <translation>Web poslužitelj</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="213"/>
+        <location filename="../prefnetwork.ui" line="252"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
         <translation>Promjene u ovom odjeljku će se primijeniti sljedeći puta kada se web poslužitelj ponovno pokrene</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="233"/>
+        <location filename="../prefnetwork.ui" line="272"/>
         <source>&amp;Directory listing</source>
         <translation>&amp;Popis sadržaja direktorija</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="240"/>
+        <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
         <translation>Lokalna &amp;IP adresa:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="286"/>
+        <location filename="../prefnetwork.ui" line="325"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
         <translation>Kako bi se posluživale lokalne medijske datoteke s ovog računala na Chromecast, SMPlayer će pokrenuti malen web poslužitelj. Ovdje možete prilagoditi neke od postavki.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="313"/>
+        <location filename="../prefnetwork.ui" line="352"/>
         <source>Subtitles</source>
         <translation>Podnaslovi</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="319"/>
+        <location filename="../prefnetwork.ui" line="358"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
         <translation>Pretvori SRT podnaslove u &amp;VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="351"/>
+        <location filename="../prefnetwork.ui" line="390"/>
         <source>&amp;Overwrite existing VTT files</source>
         <translation>&amp;Prebriši postojeće VTT datoteke</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="358"/>
+        <location filename="../prefnetwork.ui" line="397"/>
         <source>Try to &amp;remove advertisements</source>
         <translation>Pokušaj &amp;ukloniti oglase</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="367"/>
+        <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
         <translation>Položaj &amp;podnaslova na zaslonu:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="422"/>
+        <location filename="../prefnetwork.ui" line="461"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="428"/>
+        <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Omogući proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="441"/>
+        <location filename="../prefnetwork.ui" line="480"/>
         <source>&amp;Host:</source>
         <translation>&amp;Računalo:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="263"/>
-        <location filename="../prefnetwork.ui" line="454"/>
+        <location filename="../prefnetwork.ui" line="302"/>
+        <location filename="../prefnetwork.ui" line="493"/>
         <source>&amp;Port:</source>
         <translation>&amp;Ulaz:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="474"/>
+        <location filename="../prefnetwork.ui" line="513"/>
         <source>&amp;Username:</source>
         <translation>&amp;Korisničko ime:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="487"/>
+        <location filename="../prefnetwork.ui" line="526"/>
         <source>Pa&amp;ssword:</source>
         <translation>Lo&amp;zinka:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="504"/>
+        <location filename="../prefnetwork.ui" line="543"/>
         <source>&amp;Type:</source>
         <translation>&amp;Vrsta:</translation>
     </message>
@@ -8184,274 +8154,284 @@ Do you want to overwrite?</source>
         <translation>Mreža</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
         <translation>pokušat će se koristiti mpv + youtube-dl samo za stranice za koje je potreban.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="321"/>
+        <location filename="../prefnetwork.cpp" line="327"/>
         <source>User agent</source>
         <translation>Korisnički agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="91"/>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Disabled</source>
         <translation>Onemogućena</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
-        <location filename="../prefnetwork.cpp" line="253"/>
-        <location filename="../prefnetwork.cpp" line="286"/>
+        <location filename="../prefnetwork.cpp" line="255"/>
+        <location filename="../prefnetwork.cpp" line="288"/>
         <source>Auto</source>
         <translation>Automatska</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="107"/>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>Best video and audio</source>
         <translation>Najbolja slika i zvuk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="115"/>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>Worst</source>
         <translation>Najgore</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="280"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>YouTube</source>
         <translation>YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="282"/>
+        <location filename="../prefnetwork.cpp" line="284"/>
         <source>Support for video sites</source>
         <translation>Podrška za video stranice</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="284"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>support for video sites is turned off</source>
         <translation>podrška za video stranice je isključena</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="289"/>
+        <location filename="../prefnetwork.cpp" line="291"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>samo će unutrašnja podrška za YouTube biti korištena</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="292"/>
+        <location filename="../prefnetwork.cpp" line="294"/>
         <source>uses mpv + youtube-dl for all sites</source>
         <translation>koristi mpv + youtube-dl za sve stranice</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="298"/>
+        <location filename="../prefnetwork.cpp" line="300"/>
         <source>Preferred quality</source>
         <translation>Željena kvaliteta</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="299"/>
+        <location filename="../prefnetwork.cpp" line="301"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
         <translation>Ova mogućnost određuje željenu kvalitetu za video strujanja upravljana s youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="301"/>
+        <location filename="../prefnetwork.cpp" line="303"/>
         <source>selects the best video and audio streams available</source>
         <translation>odabire najbolje dostupno strujanje slike i zvuka</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="108"/>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>Best</source>
         <translation>Najbolje</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="302"/>
+        <location filename="../prefnetwork.cpp" line="304"/>
         <source>selects the best quality format available as a single file</source>
         <translation>odabire najbolju kvalitetu formata dostupnu za pojedinačnu datoteku</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>1080p, 720p...</source>
         <translation>1080p, 720p...</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="303"/>
+        <location filename="../prefnetwork.cpp" line="305"/>
         <source>will try to use the selected resolution if available</source>
         <translation>pokušati će koristiti odabranu razlučivost ako je dostupna</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="304"/>
+        <location filename="../prefnetwork.cpp" line="306"/>
         <source>selects the worst quality format available</source>
         <translation>odabire najlošiju dostupnu kvalitetu formata</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="313"/>
+        <location filename="../prefnetwork.cpp" line="315"/>
         <source>Playback quality</source>
         <translation>Kvaliteta reprodukcije</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="314"/>
+        <location filename="../prefnetwork.cpp" line="316"/>
         <source>Select the preferred quality for YouTube videos.</source>
         <translation>Odaberite kvalitetu prikazivanja Youtube video snimaka.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="317"/>
+        <location filename="../prefnetwork.cpp" line="319"/>
         <source>Use adaptive streams</source>
         <translation>Koristi prilagodljiva strujanja</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="318"/>
+        <location filename="../prefnetwork.cpp" line="320"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
         <translation>Ova mogućnost odabire prilagodljivo strujanje koje omogućuje razlučivost video snimaka do 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
+        <source>Use 60 fps if available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="323"/>
+        <source>This option enables streams at 60 frames per second if available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="328"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
         <translation>Postavite korisničkog agenta kojeg će SMPlayer koristiti za povezivanje na Youtube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="335"/>
+        <location filename="../prefnetwork.cpp" line="341"/>
         <source>Chromecast</source>
         <translation>Chromecast</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="337"/>
+        <location filename="../prefnetwork.cpp" line="343"/>
         <source>Local IP</source>
         <translation>Lokalna IP adresa</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
+        <location filename="../prefnetwork.cpp" line="344"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
         <translation>Lokalna IP adresa ovog računala. Biti će proslijeđena na Chromecast tako da može pristupiti datotekama na ovom računalu.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="342"/>
+        <location filename="../prefnetwork.cpp" line="348"/>
         <source>The port that the web server will use.</source>
         <translation>Ulaz koji će web poslužitelj koristiti.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="344"/>
+        <location filename="../prefnetwork.cpp" line="350"/>
         <source>Directory listing</source>
         <translation>Popis sadržaja direktorija</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
+        <location filename="../prefnetwork.cpp" line="351"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
         <translation>Kada je web poslužitelj pokrenut, bilo koji uređaj na vašoj mreži može pristupiti datotekama na ovom računalu. Ako je ova mogućnost odabrana, bilo koji uređaj može prikazati sadržaj datoteka ovog računala. Ako ova mogućnost nije odabrana, sadržaj datoteka neće biti dostupan.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="351"/>
+        <location filename="../prefnetwork.cpp" line="357"/>
         <source>Convert SRT subtitles to VTT</source>
         <translation>Pretvori SRT podnaslove u VTT</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="352"/>
+        <location filename="../prefnetwork.cpp" line="358"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
         <translation>Kada je ova mogućnost omogućena SMPlayer će automatski pretvoriti datoteke podnaslova SRT formata u VTT format. VTT podnaslov će imati isti naziv datoteke i .vtt nastavak vrste datoteke</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="355"/>
+        <location filename="../prefnetwork.cpp" line="361"/>
         <source>Overwrite existing VTT files</source>
         <translation>Prebriši postojeće VTT datoteke</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="356"/>
+        <location filename="../prefnetwork.cpp" line="362"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
         <translation>Ako je ova mogućnost odabrana, SMPlayer će prebrisati postojeće VTT datoteke.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="358"/>
+        <location filename="../prefnetwork.cpp" line="364"/>
         <source>Try to remove advertisements</source>
         <translation>Pokušaj ukloniti oglase</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="359"/>
+        <location filename="../prefnetwork.cpp" line="365"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
         <translation>Ako je ova mogućnost odabrana, SMPlayer će pokušati pronaći oglase u podnaslovima i ukloniti ih.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="362"/>
+        <location filename="../prefnetwork.cpp" line="368"/>
         <source>Position of subtitles on screen</source>
         <translation>Položaj podnaslova na zaslonu</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="363"/>
+        <location filename="../prefnetwork.cpp" line="369"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
         <translation>Ova mogućnost postavlja položaj na zaslonu gdje će podnaslovi biti prikazani.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="364"/>
+        <location filename="../prefnetwork.cpp" line="370"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
         <translation>0 je vrh zaslona, 100 je dno zaslona.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="365"/>
+        <location filename="../prefnetwork.cpp" line="371"/>
         <source>The special value -1 means the default position.</source>
         <translation>Posebna vrijednost -1 označuje zadani položaj.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="369"/>
+        <location filename="../prefnetwork.cpp" line="375"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="371"/>
+        <location filename="../prefnetwork.cpp" line="377"/>
         <source>Enable proxy</source>
         <translation>Omogući proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="372"/>
+        <location filename="../prefnetwork.cpp" line="378"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Omogući/Onemogući korištenje proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="374"/>
+        <location filename="../prefnetwork.cpp" line="380"/>
         <source>Host</source>
         <translation>Računalo</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="375"/>
+        <location filename="../prefnetwork.cpp" line="381"/>
         <source>The host name of the proxy.</source>
         <translation>Naziv računala proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="341"/>
-        <location filename="../prefnetwork.cpp" line="377"/>
+        <location filename="../prefnetwork.cpp" line="347"/>
+        <location filename="../prefnetwork.cpp" line="383"/>
         <source>Port</source>
         <translation>Ulaz</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="378"/>
+        <location filename="../prefnetwork.cpp" line="384"/>
         <source>The port of the proxy.</source>
         <translation>Ulaz proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="380"/>
+        <location filename="../prefnetwork.cpp" line="386"/>
         <source>Username</source>
         <translation>Korisničko ime</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="381"/>
+        <location filename="../prefnetwork.cpp" line="387"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Ako proxy zahtijeva autentifikaciju, ovdje upišite korisničko ime.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="383"/>
+        <location filename="../prefnetwork.cpp" line="389"/>
         <source>Password</source>
         <translation>Lozinka</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="384"/>
+        <location filename="../prefnetwork.cpp" line="390"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Lozinka za proxy. &lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao običan tekst u datoteci podešavanja.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="387"/>
+        <location filename="../prefnetwork.cpp" line="393"/>
         <source>Type</source>
         <translation>Vrsta</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="388"/>
+        <location filename="../prefnetwork.cpp" line="394"/>
         <source>Select the proxy type to be used.</source>
         <translation>Odaberite vrstu proxya koji će se koristiti.</translation>
     </message>
