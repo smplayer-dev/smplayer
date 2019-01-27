@@ -1,3 +1,18 @@
+Version 19.1:
+
+(2019-01-27)
+ * Fix pause in mpris2.
+
+(2019-01-26)
+ * Possibility to play YouTube videos at 60 fps.
+
+(2019-01-08)
+ * Don't load the external audio file if it doesn't exist.
+
+(2018-11-22)
+ * Possibility to search for subtitles by title name.
+
+
 Version 18.10:
 
 (2018-10-09)
