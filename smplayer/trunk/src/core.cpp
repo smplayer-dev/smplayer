@@ -1393,6 +1393,12 @@ void Core::pause() {
 	}
 }
 
+void Core::setPause(bool b) {
+	if (proc->isRunning()) {
+		proc->setPause(b);
+	}
+}
+
 void Core::play_or_pause() {
 	qDebug("Core::play_or_pause");
 

@@ -107,6 +107,7 @@ public slots:
 	void play_or_pause();
 	void pause_and_frame_step();
 	void pause();
+	void setPause(bool b);
 	void frameStep();
 	void frameBackStep();
 
