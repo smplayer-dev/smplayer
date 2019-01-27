@@ -129,7 +129,7 @@ QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks 
 		s += addItem( tr("Resolution"), QString("%1 x %2").arg(md.video_width).arg(md.video_height) );
 		s += addItem( tr("Aspect ratio"), QString::number(md.video_aspect) );
 		s += addItem( tr("Format"), md.video_format );
-		s += addItem( tr("Bitrate"), tr("%1 kbps").arg(md.video_bitrate / 1000) );
+		s += addItem( tr("Bitrate"), tr("%1 kbps").arg(qRound(md.video_bitrate / 1000.0)) );
 		s += addItem( tr("Frames per second"), md.video_fps );
 		s += addItem( tr("Selected codec"), md.video_codec );
 		s += closePar();
@@ -158,7 +158,7 @@ QString InfoFile::getInfo(MediaData md, Tracks videos, Tracks audios, SubTracks 
 	// Audio info
 	s += openPar( tr("Initial Audio Stream") );
 	s += addItem( tr("Format"), md.audio_format );
-	s += addItem( tr("Bitrate"), tr("%1 kbps").arg(md.audio_bitrate / 1000) );
+	s += addItem( tr("Bitrate"), tr("%1 kbps").arg(qRound(md.audio_bitrate / 1000.0)) );
 	s += addItem( tr("Rate"), tr("%1 Hz").arg(md.audio_rate) );
 	s += addItem( tr("Channels"), QString::number(md.audio_nch) );
 	s += addItem( tr("Selected codec"), md.audio_codec );
