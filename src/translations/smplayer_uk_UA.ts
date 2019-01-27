@@ -2222,68 +2222,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3205"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3215"/>
+        <location filename="../core.cpp" line="3221"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3236"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3245"/>
+        <location filename="../core.cpp" line="3251"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3260"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3403"/>
+        <location filename="../core.cpp" line="3409"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4317"/>
+        <location filename="../core.cpp" line="4323"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3531"/>
-        <location filename="../core.cpp" line="3542"/>
+        <location filename="../core.cpp" line="3537"/>
+        <location filename="../core.cpp" line="3548"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4148"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4555"/>
+        <location filename="../core.cpp" line="4561"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3456"/>
+        <location filename="../core.cpp" line="3462"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3474"/>
+        <location filename="../core.cpp" line="3480"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3314"/>
+        <location filename="../core.cpp" line="3320"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
@@ -2298,67 +2298,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Неможливо знайти URL з відео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3627"/>
+        <location filename="../core.cpp" line="3633"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3629"/>
+        <location filename="../core.cpp" line="3635"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4211"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4531"/>
+        <location filename="../core.cpp" line="4537"/>
         <source>Screenshot saved as %1</source>
         <translation>Зняток збережено як %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4566"/>
+        <location filename="../core.cpp" line="4572"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1433"/>
+        <location filename="../core.cpp" line="1439"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Знімок екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1452"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2801"/>
+        <location filename="../core.cpp" line="2807"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2826"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2849"/>
+        <location filename="../core.cpp" line="2855"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>

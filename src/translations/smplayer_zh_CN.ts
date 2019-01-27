@@ -2222,68 +2222,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3205"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3215"/>
+        <location filename="../core.cpp" line="3221"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3236"/>
         <source>Gamma: %1</source>
         <translation>伽玛: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3245"/>
+        <location filename="../core.cpp" line="3251"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3260"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3403"/>
+        <location filename="../core.cpp" line="3409"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4317"/>
+        <location filename="../core.cpp" line="4323"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3531"/>
-        <location filename="../core.cpp" line="3542"/>
+        <location filename="../core.cpp" line="3537"/>
+        <location filename="../core.cpp" line="3548"/>
         <source>Font scale: %1</source>
         <translation>字体缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4148"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4555"/>
+        <location filename="../core.cpp" line="4561"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字体缓存。这可能需要几秒钟...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3456"/>
+        <location filename="../core.cpp" line="3462"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3474"/>
+        <location filename="../core.cpp" line="3480"/>
         <source>Audio delay: %1 ms</source>
         <translation>音频延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3314"/>
+        <location filename="../core.cpp" line="3320"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2298,67 +2298,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法定位视频的URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3627"/>
+        <location filename="../core.cpp" line="3633"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3629"/>
+        <location filename="../core.cpp" line="3635"/>
         <source>Subtitles off</source>
         <translation>字幕关闭</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel seeks now</source>
         <translation>鼠标滚轮定位</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes volume now</source>
         <translation>鼠标滚轮更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>鼠标滚轮更改缩放等级</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4211"/>
         <source>Mouse wheel changes speed now</source>
         <translation>鼠标滚轮更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4531"/>
+        <location filename="../core.cpp" line="4537"/>
         <source>Screenshot saved as %1</source>
         <translation>截图已保存为 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4566"/>
+        <location filename="../core.cpp" line="4572"/>
         <source>Starting...</source>
         <translation>正在开始...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1433"/>
+        <location filename="../core.cpp" line="1439"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1452"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2801"/>
+        <location filename="../core.cpp" line="2807"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2826"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2849"/>
+        <location filename="../core.cpp" line="2855"/>
         <source>A-B markers cleared</source>
         <translation>A-B 标记已清除</translation>
     </message>

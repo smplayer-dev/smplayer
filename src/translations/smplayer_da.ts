@@ -2222,68 +2222,68 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3199"/>
+        <location filename="../core.cpp" line="3205"/>
         <source>Brightness: %1</source>
         <translation>Lysstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3215"/>
+        <location filename="../core.cpp" line="3221"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3236"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3245"/>
+        <location filename="../core.cpp" line="3251"/>
         <source>Hue: %1</source>
         <translation>Farvetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3260"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Saturation: %1</source>
         <translation>Mætning: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3403"/>
+        <location filename="../core.cpp" line="3409"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4317"/>
+        <location filename="../core.cpp" line="4323"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3531"/>
-        <location filename="../core.cpp" line="3542"/>
+        <location filename="../core.cpp" line="3537"/>
+        <location filename="../core.cpp" line="3548"/>
         <source>Font scale: %1</source>
         <translation>Skalér skrifttype: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4148"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Aspect ratio: %1</source>
         <translation>Højde-bredde-forhold: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4555"/>
+        <location filename="../core.cpp" line="4561"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Opdaterer skrifttype-mellemlager. Dette kan tage nogle sekunder...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3456"/>
+        <location filename="../core.cpp" line="3462"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Forsink undertekst: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3474"/>
+        <location filename="../core.cpp" line="3480"/>
         <source>Audio delay: %1 ms</source>
         <translation>Forsink lyd: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3314"/>
+        <location filename="../core.cpp" line="3320"/>
         <source>Speed: %1</source>
         <translation>Hastighed: %1</translation>
     </message>
@@ -2298,67 +2298,67 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Kunne ikke finde videoens URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3627"/>
+        <location filename="../core.cpp" line="3633"/>
         <source>Subtitles on</source>
         <translation>Undertekster til</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3629"/>
+        <location filename="../core.cpp" line="3635"/>
         <source>Subtitles off</source>
         <translation>Undertekster fra</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4196"/>
+        <location filename="../core.cpp" line="4202"/>
         <source>Mouse wheel seeks now</source>
         <translation>Musehjulet søger nu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4199"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Musehjulet ændrer nu lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4202"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Musehjulet ændrer nu zoom-niveau</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4211"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Musehjulet ændrer nu hastighed</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4531"/>
+        <location filename="../core.cpp" line="4537"/>
         <source>Screenshot saved as %1</source>
         <translation>Skærmbillede gemt som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4566"/>
+        <location filename="../core.cpp" line="4572"/>
         <source>Starting...</source>
         <translation>Starter...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1433"/>
+        <location filename="../core.cpp" line="1439"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Skærmbilledet blev IKKE taget, mappen er ikke konfigureret</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1452"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Skærmbillederne blev IKKE taget, mappen er ikke konfigureret</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2801"/>
+        <location filename="../core.cpp" line="2807"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;-markør sat til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2826"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;-markør sat til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2849"/>
+        <location filename="../core.cpp" line="2855"/>
         <source>A-B markers cleared</source>
         <translation>A-B markører ryddet</translation>
     </message>
@@ -8039,7 +8039,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug &amp;60 fps, hvis det er tilgængeligt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8276,12 +8276,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Brug 60 fps, hvis det er tilgængeligt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denn valgmulighed aktiverer strømme ved 60 billeder pr. sekund, hvis det er tilgængeligt.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
