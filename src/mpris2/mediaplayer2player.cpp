@@ -92,7 +92,7 @@ bool MediaPlayer2Player::CanPause() const {
 
 void MediaPlayer2Player::Pause() const {
 	qDebug("MediaPlayer2Player::Pause");
-	m_core->pause();
+	m_core->setPause(true);
 }
 
 void MediaPlayer2Player::PlayPause() const {
