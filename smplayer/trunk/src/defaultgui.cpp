@@ -769,7 +769,7 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 }
 
 void DefaultGui::displayBitrateInfo(int vbitrate, int abitrate) {
-	bitrate_info_display->setText(tr("V: %1 kbps A: %2 kbps").arg(vbitrate/1000).arg(abitrate/1000));
+	bitrate_info_display->setText(tr("V: %1 kbps A: %2 kbps").arg(qRound(vbitrate/1000.0)).arg(qRound(abitrate/1000.0)));
 }
 
 void DefaultGui::updateWidgets() {
