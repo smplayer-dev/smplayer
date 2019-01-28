@@ -3,7 +3,7 @@ Version 19.1:
  * Possibility to play 60fps videos from YouTube.
  * Now it's possible to search for subtitles typing the name of the
    movie or show.
- * Some bugfixes.
+ * Some bug fixes.
 
 
 Version 18.10:
