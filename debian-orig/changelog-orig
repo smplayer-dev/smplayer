@@ -1,3 +1,12 @@
+smplayer (19.1.0) precise; urgency=low
+
+  * Possibility to play 60fps videos from YouTube.
+  * Now it's possible to search for subtitles typing the name of the
+    movie or show.
+  * Some bug fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 28 Jan 2019 21:33:39 +0100
+
 smplayer (18.10.0) precise; urgency=low
 
   * The internal code for YouTube now supports resolutions up to 4K. The
