@@ -8039,7 +8039,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation>Usar &amp;60 fps se disponível</translation>
+        <translation>Se disponível, utilizar &amp;60 fps</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8276,12 +8276,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation>Usar 60 fps se disponível</translation>
+        <translation>Se disponível, utilizar 60 fps</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation>Esta opção permite emissões a 60 frames por segundo se estiverem disponíveis.</translation>
+        <translation>Esta opção permite emissões a 60 frames por segundo, se estiverem disponíveis.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>

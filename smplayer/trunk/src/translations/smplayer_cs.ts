@@ -8042,7 +8042,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít &amp;60 fps pokud je k dispozici</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8279,12 +8279,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít 60 fps pokud je k dispozici</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tato možnost povolí streamovat 60snímky za sekundu, jsou-li k dispozici.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>

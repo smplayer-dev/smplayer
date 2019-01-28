@@ -8038,7 +8038,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>可用時使用 60 fps (&amp;6)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8275,12 +8275,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>可用時使用 60 fps</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>此選項在可用時可讓串流達到每秒 60 張畫面。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
