@@ -73,7 +73,7 @@ using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
 	: QObject( parent )
-	, initial_position(0)
+	, initial_second(0)
 {
 	qRegisterMetaType<Core::State>("Core::State");
 
@@ -1043,10 +1043,10 @@ void Core::initPlaying(int seek) {
 	int start_sec = (int) mset.current_sec;
 	if (seek > -1) start_sec = seek;
 
-	qDebug("Core::initPlaying: initial_position: %d", initial_position);
-	if (initial_position != 0) {
-		start_sec = initial_position;
-		initial_position = 0;
+	if (initial_second != 0) {
+		qDebug("Core::initPlaying: initial_second: %d", initial_second);
+		start_sec = initial_second;
+		initial_second = 0;
 	}
 
 #ifdef YOUTUBE_SUPPORT

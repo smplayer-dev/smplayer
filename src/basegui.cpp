@@ -335,7 +335,7 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 		}
 		else
 		if (command == "start_second") {
-			setInitialPosition(arg.toInt());
+			setInitialSecond(arg.toInt());
 		}
 	}
 }
@@ -4465,9 +4465,9 @@ void BaseGui::setInitialSubtitle(const QString & subtitle_file) {
 	core->setInitialSubtitle(subtitle_file);
 }
 
-void BaseGui::setInitialPosition(int seconds) {
-	qDebug("BaseGui::setInitialPosition: %d", seconds);
-	core->setInitialPosition(seconds);
+void BaseGui::setInitialSecond(int second) {
+	qDebug("BaseGui::setInitialSecond: %d", second);
+	core->setInitialSecond(second);
 }
 
 void BaseGui::loadAudioFile() {
