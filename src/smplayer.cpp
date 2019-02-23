@@ -451,6 +451,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 					a->sendMessage("load_sub " + subtitle_file);
 				}
 
+				if (initial_position != 0) {
+					a->sendMessage("start_second " + QString::number(initial_position));
+				}
+
 				if (!media_title.isEmpty()) {
 					a->sendMessage("media_title " + files_to_play[0] + " <<sep>> " + media_title);
 				}

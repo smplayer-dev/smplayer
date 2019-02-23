@@ -333,6 +333,10 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 				core->loadSub(arg);
 			}
 		}
+		else
+		if (command == "start_second") {
+			setInitialPosition(arg.toInt());
+		}
 	}
 }
 #endif
