@@ -144,6 +144,7 @@ public slots:
 	virtual void loadAudioFile(); // Load external audio file
 
 	void setInitialSubtitle(const QString & subtitle_file);
+	void setInitialPosition(int seconds);
 
 #ifdef FIND_SUBTITLES
 	virtual void showFindSubtitlesDialog();

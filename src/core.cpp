@@ -72,7 +72,8 @@
 using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
-	: QObject( parent ) 
+	: QObject( parent )
+	, initial_position(0)
 {
 	qRegisterMetaType<Core::State>("Core::State");
 
@@ -1042,6 +1043,12 @@ void Core::initPlaying(int seek) {
 	int start_sec = (int) mset.current_sec;
 	if (seek > -1) start_sec = seek;
 
+	qDebug("Core::initPlaying: initial_position: %d", initial_position);
+	if (initial_position != 0) {
+		start_sec = initial_position;
+		initial_position = 0;
+	}
+
 #ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
 		// Avoid to pass to mplayer the youtube page url
@@ -1541,7 +1548,7 @@ void Core::goToPos(int perc) {
 
 
 void Core::startMplayer( QString file, double seek ) {
-	qDebug("Core::startMplayer");
+	qDebug() << "Core::startMplayer: file:" << file << "seek:" << seek;
 
 	if (file.isEmpty()) {
 		qWarning("Core:startMplayer: file is empty!");

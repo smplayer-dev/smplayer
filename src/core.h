@@ -96,8 +96,9 @@ public slots:
 	void unloadSub();
 
 	//! Forces to use the specified subtitle file. It's not loaded immediately but stored
-	//! and will be used for the next video. After that the variable is cleared.  
+	//! and will be used for the next video. After that the variable is cleared.
 	void setInitialSubtitle(const QString & subtitle_file) { initial_subtitle = subtitle_file; };
+	void setInitialPosition(int pos) { initial_position = pos; };
 
 	void loadAudioFile(const QString & audiofile);
 	void unloadAudioFile();
@@ -574,6 +575,7 @@ private:
 	bool change_volume_after_unpause;
 
 	QString initial_subtitle;
+	int initial_position;
 
 #if DVDNAV_SUPPORT
 	bool dvdnav_title_is_menu;
