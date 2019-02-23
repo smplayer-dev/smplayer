@@ -66,7 +66,7 @@ BaseGui * SMPlayer::main_window = 0;
 
 SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	: QObject(parent)
-	, initial_position(0)
+	, initial_second(0)
 {
 #ifdef LOG_SMPLAYER
 	#if QT_VERSION >= 0x050000
@@ -296,7 +296,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			}
 		}
 		else
-		if (argument == "-ss") {
+		if (argument == "-start") {
 			if (n+1 < args.count()) {
 				n++;
 				QString str_pos = args[n];
@@ -317,10 +317,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 					else s = str_pos.toInt();
 				}
 				//qDebug("SMPlayer::processArgs: %d:%d:%d", h, m, s);
-				initial_position = (h * 60 * 60) + (m * 60) + s;
-				qDebug("SMPlayer::processArgs: initial_position: %d", initial_position);
+				initial_second = (h * 60 * 60) + (m * 60) + s;
+				qDebug("SMPlayer::processArgs: initial_second: %d", initial_second);
 			} else {
-				printf("Error: expected parameter for -ss\r\n");
+				printf("Error: expected parameter for -start\r\n");
 				return ErrorArgument;
 			}
 		}
@@ -451,8 +451,8 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 					a->sendMessage("load_sub " + subtitle_file);
 				}
 
-				if (initial_position != 0) {
-					a->sendMessage("start_second " + QString::number(initial_position));
+				if (initial_second != 0) {
+					a->sendMessage("start_second " + QString::number(initial_second));
 				}
 
 				if (!media_title.isEmpty()) {
@@ -498,7 +498,7 @@ void SMPlayer::start() {
 	if (!files_to_play.isEmpty()) {
 		if (!subtitle_file.isEmpty()) gui()->setInitialSubtitle(subtitle_file);
 		if (!media_title.isEmpty()) gui()->getCore()->addForcedTitle(files_to_play[0], media_title);
-		gui()->setInitialPosition(initial_position);
+		gui()->setInitialSecond(initial_second);
 		gui()->openFiles(files_to_play);
 	}
 

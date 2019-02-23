@@ -65,7 +65,7 @@ private:
 	QString actions_list; //!< Actions to be run on startup
 	QString gui_to_use;
 	QString media_title; //!< Force a title for the first file
-	int initial_position; //!< Initial position in seconds
+	int initial_second; //!< Initial position in seconds
 
 	// Change position and size
 	bool move_gui;
