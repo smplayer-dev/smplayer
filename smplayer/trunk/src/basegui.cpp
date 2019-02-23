@@ -4461,6 +4461,11 @@ void BaseGui::setInitialSubtitle(const QString & subtitle_file) {
 	core->setInitialSubtitle(subtitle_file);
 }
 
+void BaseGui::setInitialPosition(int seconds) {
+	qDebug("BaseGui::setInitialPosition: %d", seconds);
+	core->setInitialPosition(seconds);
+}
+
 void BaseGui::loadAudioFile() {
 	qDebug("BaseGui::loadAudioFile");
 

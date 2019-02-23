@@ -65,7 +65,8 @@ using namespace Global;
 BaseGui * SMPlayer::main_window = 0;
 
 SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
-	: QObject(parent) 
+	: QObject(parent)
+	, initial_position(0)
 {
 #ifdef LOG_SMPLAYER
 	#if QT_VERSION >= 0x050000
@@ -295,6 +296,35 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			}
 		}
 		else
+		if (argument == "-ss") {
+			if (n+1 < args.count()) {
+				n++;
+				QString str_pos = args[n];
+				int h = 0;
+				int m = 0;
+				int s = 0;
+				QRegExp rx("(\\d+):(\\d+):(\\d+)");
+				if (rx.indexIn(str_pos) != -1) {
+					h = rx.cap(1).toInt();
+					m = rx.cap(2).toInt();
+					s = rx.cap(3).toInt();
+				} else {
+					rx.setPattern("(\\d+):(\\d+)");
+					if (rx.indexIn(str_pos) != -1) {
+						m = rx.cap(1).toInt();
+						s = rx.cap(2).toInt();
+					}
+					else s = str_pos.toInt();
+				}
+				//qDebug("SMPlayer::processArgs: %d:%d:%d", h, m, s);
+				initial_position = (h * 60 * 60) + (m * 60) + s;
+				qDebug("SMPlayer::processArgs: initial_position: %d", initial_position);
+			} else {
+				printf("Error: expected parameter for -ss\r\n");
+				return ErrorArgument;
+			}
+		}
+		else
 		if (argument == "-media-title") {
 			if (n+1 < args.count()) {
 				n++;
@@ -464,6 +494,7 @@ void SMPlayer::start() {
 	if (!files_to_play.isEmpty()) {
 		if (!subtitle_file.isEmpty()) gui()->setInitialSubtitle(subtitle_file);
 		if (!media_title.isEmpty()) gui()->getCore()->addForcedTitle(files_to_play[0], media_title);
+		gui()->setInitialPosition(initial_position);
 		gui()->openFiles(files_to_play);
 	}
 
