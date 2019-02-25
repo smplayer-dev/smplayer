@@ -618,6 +618,7 @@ protected:
 	MyAction * decGammaAct;
 	MyAction * incGammaAct;
 	MyAction * nextVideoAct;
+	MyAction * prevAudioAct;
 	MyAction * nextAudioAct;
 	MyAction * prevSubtitleAct;
 	MyAction * nextSubtitleAct;
