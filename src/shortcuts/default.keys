@@ -136,7 +136,9 @@ dec_saturation	7
 inc_saturation	8
 dec_gamma	
 inc_gamma	
+previous_video	
 next_video	
+previous_audio	Shift+K
 next_audio	K
 previous_subtitle	Shift+J
 next_subtitle	J

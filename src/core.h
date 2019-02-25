@@ -306,6 +306,7 @@ public slots:
 	void prevAudio();
 	void nextAudio();
 	void changeVideo(int ID, bool allow_restart = true);
+	void prevVideo();
 	void nextVideo();
 #if PROGRAM_SWITCH
 	void changeProgram(int ID);

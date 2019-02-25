@@ -1046,6 +1046,9 @@ void BaseGui::createActions() {
 	incGammaAct = new MyAction( this, "inc_gamma");
 	connect( incGammaAct, SIGNAL(triggered()), core, SLOT(incGamma()) );
 
+	prevVideoAct = new MyAction( this, "previous_video");
+	connect( prevVideoAct, SIGNAL(triggered()), core, SLOT(prevVideo()) );
+
 	nextVideoAct = new MyAction( this, "next_video");
 	connect( nextVideoAct, SIGNAL(triggered()), core, SLOT(nextVideo()) );
 
@@ -1456,6 +1459,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incSaturationAct->setEnabled(b);
 	decGammaAct->setEnabled(b);
 	incGammaAct->setEnabled(b);
+	prevVideoAct->setEnabled(b);
 	nextVideoAct->setEnabled(b);
 	prevAudioAct->setEnabled(b);
 	nextAudioAct->setEnabled(b);
@@ -1931,6 +1935,7 @@ void BaseGui::retranslateStrings() {
 	incSaturationAct->change( tr("Inc saturation") );
 	decGammaAct->change( tr("Dec gamma") );
 	incGammaAct->change( tr("Inc gamma") );
+	prevVideoAct->change( tr("Previous video") );
 	nextVideoAct->change( tr("Next video") );
 	prevAudioAct->change( tr("Previous audio") );
 	nextAudioAct->change( tr("Next audio") );
