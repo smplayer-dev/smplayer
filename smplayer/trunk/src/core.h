@@ -303,6 +303,7 @@ public slots:
 	void changeSecondarySubtitle(int track);
 #endif
 	void changeAudio(int ID, bool allow_restart = true);
+	void prevAudio();
 	void nextAudio();
 	void changeVideo(int ID, bool allow_restart = true);
 	void nextVideo();

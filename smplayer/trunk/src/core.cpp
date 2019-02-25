@@ -3977,6 +3977,22 @@ void Core::changeAudio(int ID, bool allow_restart) {
 	}
 }
 
+void Core::prevAudio() {
+	qDebug("Core::prevAudio");
+
+	int item = mset.audios.find( mset.current_audio_id );
+	if (item == -1) {
+		qWarning("Core::prevAudio: audio ID %d not found!", mset.current_audio_id);
+	} else {
+		qDebug( "Core::prevAudio: numItems: %d, item: %d", mset.audios.numItems(), item);
+		item--;
+		if (item < 0) item = mset.audios.numItems() - 1;
+		int ID = mset.audios.itemAt(item).ID();
+		qDebug( "Core::prevAudio: item: %d, ID: %d", item, ID);
+		changeAudio( ID );
+	}
+}
+
 void Core::nextAudio() {
 	qDebug("Core::nextAudio");
 
