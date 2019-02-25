@@ -3874,20 +3874,33 @@ void Core::changeSubtitle(int track) {
 	updateWidgets();
 }
 
+void Core::prevSubtitle() {
+	qDebug("Core::prevSubtitle");
+
+	if (mset.subs.numItems() > 0) {
+		if (mset.current_subtitle_track == MediaSettings::SubNone) {
+			changeSubtitle(mset.subs.numItems() - 1);
+		} else {
+			int item = mset.current_subtitle_track - 1;
+			if (item < 0) item = MediaSettings::SubNone;
+			changeSubtitle(item);
+		}
+	}
+}
+
 void Core::nextSubtitle() {
 	qDebug("Core::nextSubtitle");
 
-	if ( (mset.current_subtitle_track == MediaSettings::SubNone) && 
-         (mset.subs.numItems() > 0) )
-	{
-		changeSubtitle(0);
-	} 
-	else {
-		int item = mset.current_subtitle_track + 1;
-		if (item >= mset.subs.numItems()) {
-			item = MediaSettings::SubNone;
+	if (mset.subs.numItems() > 0) {
+		if (mset.current_subtitle_track == MediaSettings::SubNone) {
+			changeSubtitle(0);
+		} else {
+			int item = mset.current_subtitle_track + 1;
+			if (item >= mset.subs.numItems()) {
+				item = MediaSettings::SubNone;
+			}
+			changeSubtitle(item);
 		}
-		changeSubtitle( item );
 	}
 }
 

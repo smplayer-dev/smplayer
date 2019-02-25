@@ -297,6 +297,7 @@ public slots:
 
 	void changeDeinterlace(int);
 	void changeSubtitle(int track);
+	void prevSubtitle();
 	void nextSubtitle();
 #ifdef MPV_SUPPORT
 	void changeSecondarySubtitle(int track);

@@ -1052,6 +1052,9 @@ void BaseGui::createActions() {
 	nextAudioAct = new MyAction( Qt::Key_K, this, "next_audio");
 	connect( nextAudioAct, SIGNAL(triggered()), core, SLOT(nextAudio()) );
 
+	prevSubtitleAct = new MyAction( Qt::SHIFT | Qt::Key_J, this, "previous_subtitle");
+	connect( prevSubtitleAct, SIGNAL(triggered()), core, SLOT(prevSubtitle()) );
+
 	nextSubtitleAct = new MyAction( Qt::Key_J, this, "next_subtitle");
 	connect( nextSubtitleAct, SIGNAL(triggered()), core, SLOT(nextSubtitle()) );
 
@@ -1452,6 +1455,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incGammaAct->setEnabled(b);
 	nextVideoAct->setEnabled(b);
 	nextAudioAct->setEnabled(b);
+	prevSubtitleAct->setEnabled(b);
 	nextSubtitleAct->setEnabled(b);
 	nextChapterAct->setEnabled(b);
 	prevChapterAct->setEnabled(b);
@@ -1925,6 +1929,7 @@ void BaseGui::retranslateStrings() {
 	incGammaAct->change( tr("Inc gamma") );
 	nextVideoAct->change( tr("Next video") );
 	nextAudioAct->change( tr("Next audio") );
+	nextSubtitleAct->change( tr("Previous subtitle") );
 	nextSubtitleAct->change( tr("Next subtitle") );
 	nextChapterAct->change( tr("Next chapter") );
 	prevChapterAct->change( tr("Previous chapter") );

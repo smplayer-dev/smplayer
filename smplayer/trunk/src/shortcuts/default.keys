@@ -138,6 +138,7 @@ dec_gamma
 inc_gamma	
 next_video	
 next_audio	K
+previous_subtitle	Shift+J
 next_subtitle	J
 next_chapter	@
 prev_chapter	!
@@ -231,6 +232,20 @@ next_bookmark	Ctrl+N
 quit	Ctrl+Q
 show_tray_icon	
 restore/hide	
+play_on_chromecast	
+play_on_mobile	
+send_to_screen_1	
+screens_info	
+toggle_video_info	
+toggle_frame_counter	
+toggle_format_info	
+toggle_bitrate_info	
+use_milliseconds	
+edit_main_toolbar	
+edit_control1	
+edit_control2	
+edit_floating_control	
+show_main_toolbar	F5
 pl_open	
 pl_open_url	
 pl_save	
@@ -258,16 +273,3 @@ pl_show_position_column
 pl_show_name_column	
 pl_show_duration_column	
 pl_show_filename_column	
-play_on_chromecast	
-send_to_screen_1	
-screens_info	
-toggle_video_info	
-toggle_frame_counter	
-toggle_format_info	
-toggle_bitrate_info	
-use_milliseconds	
-edit_main_toolbar	
-edit_control1	
-edit_control2	
-edit_floating_control	
-show_main_toolbar	F5
