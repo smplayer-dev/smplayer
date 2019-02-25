@@ -4039,6 +4039,22 @@ void Core::changeVideo(int ID, bool allow_restart) {
 	}
 }
 
+void Core::prevVideo() {
+	qDebug("Core::prevVideo");
+
+	int item = mset.videos.find( mset.current_video_id );
+	if (item == -1) {
+		qWarning("Core::prevVideo: video ID %d not found!", mset.current_video_id);
+	} else {
+		qDebug( "Core::prevVideo: numItems: %d, item: %d", mset.videos.numItems(), item);
+		item--;
+		if (item < 0) item = mset.videos.numItems() - 1;
+		int ID = mset.videos.itemAt(item).ID();
+		qDebug( "Core::prevVideo: item: %d, ID: %d", item, ID);
+		changeVideo( ID );
+	}
+}
+
 void Core::nextVideo() {
 	qDebug("Core::nextVideo");
 
