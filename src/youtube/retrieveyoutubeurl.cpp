@@ -334,6 +334,18 @@ void RetrieveYoutubeUrl::processVideoPage() {
 			return;
 		}
 	}
+
+	QRegExp manifest_rx("\\\\\"hlsManifestUrl\\\\\":\\\\\"(.*)\\\\\"");
+	manifest_rx.setMinimal(true);
+	if (manifest_rx.indexIn(replyString) != -1) {
+		QString manifest_url = QUrl::fromPercentEncoding(manifest_rx.cap(1).toLatin1()).replace("\\/", "/");
+		qDebug() << "RetrieveYoutubeUrl::processVideoPage:" << manifest_url;
+
+		if (!manifest_url.isEmpty()) {
+			fetchStreamPage(manifest_url);
+			return;
+		}
+	}
 #endif
 
 	QString fmtArray;
