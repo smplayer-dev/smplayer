@@ -639,6 +639,13 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 
 			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
 
+			if (q->hasQueryItem("clen")) {
+				if (q->queryItemValue("clen") == "0") {
+					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with clen==0";
+					continue;
+				}
+			}
+
 			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
 				QString itag = q->queryItemValue("itag");
 
