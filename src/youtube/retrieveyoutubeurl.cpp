@@ -621,8 +621,12 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			}
 
 			if (q->hasQueryItem("sig")) {
-				q->addQueryItem(signature_name, q->queryItemValue("sig"));
-				q->removeQueryItem("sig");
+				if (q->hasQueryItem("lsig")) {
+					signature_name = "sig";
+				} else {
+					q->addQueryItem(signature_name, q->queryItemValue("sig"));
+					q->removeQueryItem("sig");
+				}
 			}
 			else
 			if (q->hasQueryItem("s")) {
