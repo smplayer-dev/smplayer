@@ -614,8 +614,14 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
 			#endif
 
+			QString signature_name = "signature";
+			if (q->hasQueryItem("sp")) {
+				signature_name = q->queryItemValue("sp");
+				//qDebug() << "RetrieveYoutubeUrl::extractURLs: signature field:" << signature_name;
+			}
+
 			if (q->hasQueryItem("sig")) {
-				q->addQueryItem("signature", q->queryItemValue("sig"));
+				q->addQueryItem(signature_name, q->queryItemValue("sig"));
 				q->removeQueryItem("sig");
 			}
 			else
@@ -624,7 +630,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 				QString player = sig.html5_player;
 				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
-					q->addQueryItem("signature", signature);
+					q->addQueryItem(signature_name, signature);
 				} else {
 					failed_to_decrypt_signature = true;
 				}
@@ -646,7 +652,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 				}
 			}
 
-			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
+			if ((q->hasQueryItem("itag")) && (q->hasQueryItem(signature_name))) {
 				QString itag = q->queryItemValue("itag");
 
 				// Remove duplicated queries
