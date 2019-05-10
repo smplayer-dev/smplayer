@@ -61,7 +61,7 @@ ${LangFileString} Section_Translations_Desc "File Bahasa Non-Inggris untuk SMPla
 
 ${LangFileString} Section_ResetSettings_Desc "Hapus pengaturan SMPlayer yang tersisa ada pemasangan sebelumnya."
 
-${LangFileString} MPlayer_Codec_Msg "Paket kodek binari menambah dukungan untuk kodek yang tidak diimplementasikan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.$\nCatat bahwa semua kodek itu tidak diperlukan untuk memutaar format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
+${LangFileString} MPlayer_Codec_Msg "Paket kodek binari menambah dukungan untuk kodek yang tidak dijalankan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.$\nCatat bahwa semua kodek itu tidak diperlukan untuk memutar format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Pilih Tipe Pemasangan"
