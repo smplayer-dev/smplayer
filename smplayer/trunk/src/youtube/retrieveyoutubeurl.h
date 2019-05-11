@@ -38,6 +38,7 @@ class QSettings;
 #endif
 
 typedef QMap<int,QString> UrlMap;
+typedef QMap<QString,QString> OptMap;
 
 class RetrieveYoutubeUrl : public QObject
 {
@@ -186,6 +187,7 @@ protected:
 	void setUrlMap(const UrlMap & map) { urlmap = map; }
 
 	QString getVideoID(QString video_url);
+	OptMap extractOptions(const QByteArray & urldata);
 	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
