@@ -1145,12 +1145,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreko bideoa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreko audioa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreko azpidatzia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -10011,7 +10011,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>denbora</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10046,7 +10046,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>irakurtzeko lehen agiriaren hasiera denbora (segundutan) adierazten du.  Baliozkoak ere o:m:s eta m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

@@ -1145,12 +1145,12 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video sebelumnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio sebelumnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtitle sebelumnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -10009,7 +10009,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>waktu</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10044,7 +10044,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>menentukan waktu mulai (dalam detik) file pertama yang akan diputar. Juga berlaku j:m:d dan m:d</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

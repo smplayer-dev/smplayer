@@ -1145,7 +1145,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Ankstesnis video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
@@ -1160,7 +1160,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Ankstesni subtitrai</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1331,7 +1331,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Norėdami pritaikyti naujas nuostatas, turite paleisti SMPlayer iš naujo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4582"/>
@@ -1351,7 +1351,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4588"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer reikia jūsų</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4589"/>
@@ -1425,7 +1425,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <location filename="../basegui.cpp" line="6084"/>
         <location filename="../basegui.cpp" line="6091"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 netikėtai užbaigė darbą.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6116"/>

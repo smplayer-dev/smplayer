@@ -1145,12 +1145,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednie wideo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednia ścieżka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Poprzednie napisy</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -10015,7 +10015,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>czas</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10050,7 +10050,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>Określa czas rozpoczęcia (w sekundach) pierwszego odtwarzanego pliku. Również ważne h:m:s i m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
