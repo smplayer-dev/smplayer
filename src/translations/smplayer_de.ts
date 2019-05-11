@@ -1145,12 +1145,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriges Video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorherige Tondatei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,12 +1160,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorherige Untertitel</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
         <source>Next subtitle</source>
-        <translation>Nächster Untertitel</translation>
+        <translation>Nächste Untertitel</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
@@ -10013,7 +10013,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeit</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10048,7 +10048,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>Gibt die Startzeit (in Sekunden) der ersten wiedergegebenen Datei an. Auch gültig für h:m:s und m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

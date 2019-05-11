@@ -1145,12 +1145,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущее видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущее аудио</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущие субтитры</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -10014,7 +10014,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>время</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10049,7 +10049,8 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>указывает время начала (в секундах) первого файла для воспроизведения.
+Также принимаются h:m:s и m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
