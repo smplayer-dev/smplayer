@@ -218,7 +218,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 
 	QString scheme = use_https_vi ? "https" : "http";
 	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
-	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << url;
+	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << u;
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
 		qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: no support for ssl";
@@ -576,6 +576,20 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 }
 #endif
 
+OptMap RetrieveYoutubeUrl::extractOptions(const QByteArray & urldata) {
+	OptMap data;
+	QList<QByteArray> l = urldata.split('&');
+	foreach(QByteArray o, l) {
+		QList<QByteArray> p = o.split('=');
+		if (p.count() > 1) {
+			QString tag = QUrl::fromPercentEncoding(p[0]);
+			QString value = QUrl::fromPercentEncoding(p[1]);
+			data[tag] = value;
+		}
+	}
+	return data;
+}
+
 UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool use_player) {
 	UrlMap url_map;
 
@@ -591,48 +605,35 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 	//qDebug() << "RetrieveYoutubeUrl::extractURLs: codeList.count:" << codeList.count();
 
 	foreach(QByteArray code, codeList) {
-		code = QUrl::fromPercentEncoding(code).toLatin1();
 		//qDebug() << "RetrieveYoutubeUrl::extractURLs: code:" << code;
+		OptMap opt_map = extractOptions(code);
+		//qDebug() << "RetrieveYoutubeUrl::extractURLs: opt_map:" << opt_map;
 
-		QUrl line;
-		#if QT_VERSION >= 0x050000
-		q->setQuery(code);
-		#else
-		QUrl * q = &line;
-		q->setEncodedQuery(code);
-		#endif
+		if (opt_map.contains("url")) {
+			QUrl url(opt_map["url"]);
+			//qDebug() << "RetrieveYoutubeUrl::extractURLs: url:" << url;
 
-		if (q->hasQueryItem("url")) {
-			QUrl url( q->queryItemValue("url") );
-			line.setScheme(url.scheme());
-			line.setHost(url.host());
-			line.setPath(url.path());
-			q->removeQueryItem("url");
 			#if QT_VERSION >= 0x050000
-			q->setQuery( q->query(QUrl::FullyDecoded) + "&" + url.query(QUrl::FullyDecoded) );
+			q->setQuery(url.query(QUrl::FullyDecoded));
 			#else
-			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
+			QUrl * q = &url;
 			#endif
 
 			QString signature_name = "signature";
-			if (q->hasQueryItem("sp")) {
-				signature_name = q->queryItemValue("sp");
+			if (opt_map.contains("sp")) {
+				signature_name = opt_map["sp"];
 				//qDebug() << "RetrieveYoutubeUrl::extractURLs: signature field:" << signature_name;
 			}
 
-			if (q->hasQueryItem("sig")) {
-				if (q->hasQueryItem("lsig")) {
-					signature_name = "sig";
-				} else {
-					q->addQueryItem(signature_name, q->queryItemValue("sig"));
-					q->removeQueryItem("sig");
-				}
+			if (opt_map.contains("sig")) {
+				q->addQueryItem(signature_name, opt_map["sig"]);
 			}
 			else
-			if (q->hasQueryItem("s")) {
+			if (opt_map.contains("s")) {
 				#ifdef YT_USE_SIG
 				QString player = sig.html5_player;
-				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
+				QString enc_sig = opt_map["s"];
+				QString signature = aclara(enc_sig, use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
 					q->addQueryItem(signature_name, signature);
 				} else {
@@ -649,14 +650,14 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 
 			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
 
-			if (q->hasQueryItem("clen")) {
-				if (q->queryItemValue("clen") == "0") {
-					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with clen==0";
+			if (opt_map.contains("clen")) {
+				if (opt_map["clen"] == "0") {
+					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with empty clen";
 					continue;
 				}
 			}
 
-			if ((q->hasQueryItem("itag")) && (q->hasQueryItem(signature_name))) {
+			if ((q->hasQueryItem("itag")) /*&& (q->hasQueryItem(signature_name))*/) {
 				QString itag = q->queryItemValue("itag");
 
 				// Remove duplicated queries
@@ -667,6 +668,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 					q->addQueryItem(item.first, item.second);
 				}
 
+				QUrl line = url;
 				#if QT_VERSION >= 0x050000
 				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
