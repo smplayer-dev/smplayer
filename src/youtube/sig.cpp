@@ -103,13 +103,10 @@ QString Sig::findFunctions(const QString & text) {
 	qDebug() << "Sig::findFunctions: sts:" << sts;
 
 	QString sig_name;
-	//QRegExp rx_sig("\\.sig\\|\\|([a-zA-Z0-9\\$]+)\\(");
-	//QRegExp rx_sig("([\"\'])signature\\1\\s*,\\s*([a-zA-Z0-9$]+)\\(");
-	QRegExp rx_sig("yt\\.akamaized\\.net\\/\\).*\\.set\\(.*,([a-zA-Z0-9$]+)\\(");
+	QRegExp rx_sig("akamaized\\.net.*encodeURIComponent\\((.*)\\(");
 	rx_sig.setMinimal(true);
 	if (rx_sig.indexIn(text) != -1) {
 		sig_name = rx_sig.cap(1);
-		//sig_name = rx_sig.cap(2);
 	}
 	qDebug() << "Sig::findFunctions: sig_name:" << sig_name;
 
