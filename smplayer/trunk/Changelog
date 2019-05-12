@@ -1,3 +1,22 @@
+Version 19.5:
+
+(2019-05-10)
+ * Fix for YouTube.
+
+(2019-03-18)
+ * Try to prevent to play invalid YouTube streams.
+
+(2019-03-11)
+ * Fix YouTube live streams (it seems to work only with mpv).
+
+(2019-02-25)
+ * Add actions for previous subtitle track, previous audio track
+   and previous video track.
+
+(2019-02-23)
+ * Add command line option -start.
+
+
 Version 19.1:
 
 (2019-01-27)
