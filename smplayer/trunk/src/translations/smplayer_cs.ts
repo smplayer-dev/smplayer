@@ -1145,12 +1145,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Předchozí titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -10016,7 +10016,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>čas</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10051,7 +10051,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>určuje počáteční čas (v sekundách) prvního přehrávaného souboru. Platí také h:m:s a m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

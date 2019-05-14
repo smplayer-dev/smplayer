@@ -923,12 +923,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Предыдущая фраза</translation>
+        <translation>&amp;Предыдущая строка субтитра</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>С&amp;ледующая фраза</translation>
+        <translation>С&amp;ледующая строка субтитра</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
@@ -1165,7 +1165,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
         <source>Next subtitle</source>
-        <translation>Следующая фраза</translation>
+        <translation>Следующий субтитр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
@@ -10050,7 +10050,7 @@ Do you want to overwrite?</source>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
         <translation>указывает время начала (в секундах) первого файла для воспроизведения.
-Также принимаются h:m:s и m:s</translation>
+Также принимаются ч:м:с и м:с</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
