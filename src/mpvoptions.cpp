@@ -200,7 +200,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	if (option_name == "cache") {
 		int cache = value.toInt();
 		if (cache > 31) {
-			arg << "--cache=" + value.toString();
+			if (isOptionAvailable("--demuxer-max-bytes")) {
+				int bytes = value.toString().toInt() * 1024;
+				arg << "--demuxer-max-bytes=" + QString::number(bytes);
+			} else {
+				arg << "--cache=" + value.toString();
+			}
 		} else {
 			arg << "--cache=no";
 		}
