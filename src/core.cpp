@@ -289,7 +289,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #ifdef YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
 	yt->setUseHttpsMain(pref->yt_use_https_main);
-	yt->setUseHttpsVi(pref->yt_use_https_vi);
 
 	#ifdef YT_USE_SIG
 	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);

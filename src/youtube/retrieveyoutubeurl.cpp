@@ -51,7 +51,6 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 #endif
 	, preferred_resolution(R720p)
 	, use_https_main(false)
-	, use_https_vi(false)
 #ifdef YT_DASH_SUPPORT
 	, use_dash(false)
 	, use_60fps(false)
@@ -216,8 +215,7 @@ void RetrieveYoutubeUrl::receivedResponse303(QString url) {
 void RetrieveYoutubeUrl::fetchVideoInfoPage(const QString & url) {
 	QString video_id = getVideoID(url);
 
-	QString scheme = use_https_vi ? "https" : "http";
-	QString u = QString("%2://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id).arg(scheme);
+	QString u = QString("https://www.youtube.com/get_video_info?video_id=%1&disable_polymer=true&eurl=https://youtube.googleapis.com/v/%1&gl=US&hl=en").arg(video_id);
 	qDebug() << "RetrieveYoutubeUrl::fetchVideoInfoPage: url:" << u;
 
 	if (u.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {

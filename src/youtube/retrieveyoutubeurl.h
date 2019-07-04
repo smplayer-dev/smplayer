@@ -139,9 +139,7 @@ public:
 	QString fullUrl(const QString & url);
 
 	void setUseHttpsMain(bool b) { use_https_main = b; };
-	void setUseHttpsVi(bool b) { use_https_vi = b; };
 	bool useHttpsMain() { return use_https_main; };
-	bool useHttpsVi() { return use_https_vi; };
 
 	static QString extensionForItag(int itag);
 
@@ -225,7 +223,6 @@ private:
 	Resolution preferred_resolution;
 
 	bool use_https_main;
-	bool use_https_vi;
 
 	QString yt_url;
 	QString url_title;
