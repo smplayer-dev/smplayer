@@ -66,8 +66,9 @@ Extensions::Extensions()
            << "bik" << "smk" << "m4b" << "wtv"
            << "part";
 
-	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "aac" << "ac3"
-           << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a" << "opus";
+	_audio << "mp2" << "mp3" << "mpc" << "ogg" << "oga" << "wav" << "wma" <<  "aac"
+	   << "ac3" << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a" 
+	   << "wv" << "shn" << "opus";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
                << "rt" << "utf" << "aqt" << "vtt";
