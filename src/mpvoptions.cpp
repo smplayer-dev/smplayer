@@ -1189,6 +1189,10 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	SUBOPTION(sub_align_x, "--sub-align-x", "--sub-text-align-x");
 	SUBOPTION(sub_align_y, "--sub-align-y", "--sub-text-align-y");
 
+	QString sub_margin_y = "";
+	if (isOptionAvailable("--sub-margin-y")) sub_margin_y = "--sub-margin-y";
+
+
 	if (!sub_font.isEmpty()) {
 		QString font = styles.fontname;
 		//arg << "--sub-text-font=" + font.replace(" ", "");
@@ -1247,6 +1251,10 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	
 	if (!sub_align_y.isEmpty() && !valign.isEmpty()) {
 		arg << sub_align_y + "=" + valign;
+	}
+
+	if (!sub_margin_y.isEmpty()) {
+		arg << sub_margin_y + "=" + QString::number(styles.marginv);
 	}
 }
 
