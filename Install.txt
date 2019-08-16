@@ -17,7 +17,7 @@ fakeroot, build-essential, devscripts, debhelper and g++.
 
 sudo apt-get install libqt4-dev zlib1g-dev fakeroot build-essential devscripts debhelper g++
 
-(Packages to compile with Qt5: qtbase5-dev qt5-qmake qt5-default qtscript5-dev
+(Or if you prefer to compile with Qt5: qtbase5-dev qt5-qmake qt5-default qtscript5-dev
 qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev)
 
 Now run ./create_deb.sh
