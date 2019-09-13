@@ -186,6 +186,7 @@ protected:
 
 	QString getVideoID(QString video_url);
 	OptMap extractOptions(const QByteArray & urldata);
+	QString getArrayFromStreamingData(const QString & page);
 	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
