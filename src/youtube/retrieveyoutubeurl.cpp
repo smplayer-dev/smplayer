@@ -43,6 +43,8 @@
  #endif
 #endif
 
+#define SUPPORT_OLD_FORMAT
+
 
 RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	: QObject(parent)
@@ -347,6 +349,7 @@ void RetrieveYoutubeUrl::processVideoPage() {
 #endif
 
 	QString fmtArray;
+#ifdef SUPPORT_OLD_FORMAT
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
 	if (regex.indexIn(replyString) != -1) {
 		fmtArray = regex.cap(1);
@@ -359,6 +362,9 @@ void RetrieveYoutubeUrl::processVideoPage() {
 		fmtArray += regex2.cap(1);
 	}
 	#endif
+#endif
+
+	if (fmtArray.isEmpty()) fmtArray = getArrayFromStreamingData(replyString);
 
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
@@ -383,10 +389,58 @@ void RetrieveYoutubeUrl::processVideoPage() {
 	#endif
 }
 
+QString RetrieveYoutubeUrl::getArrayFromStreamingData(const QString & page) {
+	qDebug("RetrieveYoutubeUrl::getArrayFromStreamingData");
+
+	QString fmtArray;
+
+	QStringList exps;
+	exps << "streamingData.*formats\\\\\":\\[(.*)\\]";
+	#ifdef YT_DASH_SUPPORT
+	exps << "streamingData.*adaptiveFormats\\\\\":\\[(.*)\\]";
+	#endif
+
+	foreach(QString expression, exps) {
+		QString text;
+		QRegExp rx_block(expression);
+		rx_block.setMinimal(true);
+		if (rx_block.indexIn(page) != -1) {
+			text = rx_block.cap(1);
+			//qDebug() << "text:" << text;
+
+			QRegExp regex("(cipher|url)\\\\\":\\\\\"(.*)\\\\\"");
+			regex.setMinimal(true);
+
+			int pos = 0;
+			while ((pos = regex.indexIn(text, pos)) != -1) {
+				if (!fmtArray.isEmpty()) fmtArray += ",";
+				if (regex.cap(1) == "url") {
+					QString url = regex.cap(2);
+					url = QUrl::fromPercentEncoding(url.toUtf8());
+					url = sanitizeForUnicodePoint(url);
+					url.replace(QRegExp("\\\\(.)"), "\\1");
+					url = QUrl::toPercentEncoding(url);
+					fmtArray += "url=";
+					fmtArray += url;
+				} else {
+					fmtArray += regex.cap(2);
+				}
+				pos += regex.matchedLength();
+			}
+		}
+	}
+
+	//qDebug() << "RetrieveYoutubeUrl::getArrayFromStreamingData: fmtArray:" << fmtArray;
+	return fmtArray;
+}
+
 #ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 	qDebug() << "RetrieveYoutubeUrl::videoInfoPageLoaded";
 
+	QByteArray fmtArray;
+
+#ifdef SUPPORT_OLD_FORMAT
 	#if QT_VERSION >= 0x050000
 	QUrlQuery all;
 	all.setQuery(page);
@@ -395,7 +449,6 @@ void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 	all.setEncodedQuery(page);
 	#endif
 
-	QByteArray fmtArray;
 	#if QT_VERSION >= 0x050000
 	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map", QUrl::FullyDecoded).toLatin1();
 	#else
@@ -410,6 +463,14 @@ void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
 	#endif
 #endif
+#endif
+
+	if (fmtArray.isEmpty()) {
+		QString s = QUrl::fromPercentEncoding(page);
+		s = sanitizeForUnicodePoint(s);
+		s.replace("\"", "\\\"");
+		fmtArray = getArrayFromStreamingData(s).toLatin1();
+	}
 
 	//qDebug() <<"RetrieveYoutubeUrl::videoInfoPageLoaded: fmtArray:" << fmtArray;
 
@@ -651,6 +712,11 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			if (opt_map.contains("clen")) {
 				if (opt_map["clen"] == "0") {
 					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with empty clen";
+					continue;
+				}
+			} else {
+				if (!q->hasQueryItem("clen")) {
+					qDebug() << "RetrieveYoutubeUrl::extractURLs: discarted url with no clen";
 					continue;
 				}
 			}
