@@ -80,8 +80,8 @@ Chromecast::Chromecast(QObject * parent)
 #ifdef CONVERT_TO_VTT
 	autoconvert_to_vtt = true;
 	sub_encoding = "ISO-8859-1";
-	sub_position = -1;
-	overwrite_vtt = false;
+	sub_position = 95;
+	overwrite_vtt = true;
 	use_sub_filter = true;
 #endif
 
@@ -416,7 +416,7 @@ void Chromecast::loadSettings() {
 		settings->beginGroup("chromecast/subtitles");
 		setAutoConvertToVTT(settings->value("autoconvert_to_vtt", autoConvertToVTT()).toBool());
 		//setSubtitleEncoding(settings->value("encoding", subtitleEncoding()).toString());
-		setSubtitlePosition(settings->value("position", -1).toInt());
+		setSubtitlePosition(settings->value("position", subtitlePosition()).toInt());
 		setSubtitleFilter(settings->value("text_filter", subtitleFilter()).toString());
 		setOverwriteVTT(settings->value("overwrite_vtt", overwriteVTT()).toBool());
 		enableSubtitleFilter(settings->value("use_sub_filter", isSubtitleFilterEnabled()).toBool());
