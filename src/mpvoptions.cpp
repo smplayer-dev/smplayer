@@ -1248,13 +1248,15 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	if (!sub_align_x.isEmpty() && !halign.isEmpty()) {
 		arg << sub_align_x + "=" + halign;
 	}
-	
+
 	if (!sub_align_y.isEmpty() && !valign.isEmpty()) {
 		arg << sub_align_y + "=" + valign;
 	}
 
 	if (!sub_margin_y.isEmpty()) {
-		arg << sub_margin_y + "=" + QString::number(styles.marginv);
+		int marginv = styles.marginv;
+		if (marginv < 0) marginv = 0;
+		arg << sub_margin_y + "=" + QString::number(marginv);
 	}
 }
 
