@@ -1192,6 +1192,9 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString sub_margin_y = "";
 	if (isOptionAvailable("--sub-margin-y")) sub_margin_y = "--sub-margin-y";
 
+	QString sub_margin_x = "";
+	if (isOptionAvailable("--sub-margin-x")) sub_margin_x = "--sub-margin-x";
+
 
 	if (!sub_font.isEmpty()) {
 		QString font = styles.fontname;
@@ -1257,6 +1260,12 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		int marginv = styles.marginv;
 		if (marginv < 0) marginv = 0;
 		arg << sub_margin_y + "=" + QString::number(marginv);
+	}
+
+	if (!sub_margin_x.isEmpty()) {
+		int marginx = styles.marginl;
+		if (marginx < 0) marginx = 0;
+		arg << sub_margin_x + "=" + QString::number(marginx);
 	}
 }
 
