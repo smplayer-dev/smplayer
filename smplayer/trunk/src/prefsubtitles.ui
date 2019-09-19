@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>541</width>
+    <width>613</width>
     <height>439</height>
    </rect>
   </property>
@@ -551,7 +551,11 @@
                   </widget>
                  </item>
                  <item row="0" column="1">
-                  <widget class="QSpinBox" name="style_marginl_spin"/>
+                  <widget class="QSpinBox" name="style_marginl_spin">
+                   <property name="minimum">
+                    <number>-99</number>
+                   </property>
+                  </widget>
                  </item>
                  <item row="0" column="2">
                   <widget class="QLabel" name="label_8">
@@ -567,7 +571,11 @@
                   </widget>
                  </item>
                  <item row="0" column="3">
-                  <widget class="QSpinBox" name="style_marginr_spin"/>
+                  <widget class="QSpinBox" name="style_marginr_spin">
+                   <property name="minimum">
+                    <number>-99</number>
+                   </property>
+                  </widget>
                  </item>
                  <item row="1" column="0">
                   <widget class="QLabel" name="label_9">
@@ -583,7 +591,11 @@
                   </widget>
                  </item>
                  <item row="1" column="1">
-                  <widget class="QSpinBox" name="style_marginv_spin"/>
+                  <widget class="QSpinBox" name="style_marginv_spin">
+                   <property name="minimum">
+                    <number>-99</number>
+                   </property>
+                  </widget>
                  </item>
                  <item row="1" column="2" colspan="2">
                   <spacer>
