@@ -122,7 +122,7 @@ bool MPVProcess::start() {
 
 void MPVProcess::initializeRX() {
 #ifdef CUSTOM_STATUS
-	rx_av.setPattern("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
+	rx_av.setPattern("STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
 #else
 	rx_av.setPattern("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
 #endif
@@ -197,7 +197,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 	static double last_sec = -1;
 
 	// Parse A: V: line
-	//qDebug("MPVProcess::parseLine: %s", line.toUtf8().data());
+	//qDebug() << "MPVProcess::parseLine:" << line;
 	if (rx_av.indexIn(line) > -1) {
 		#ifdef CUSTOM_STATUS
 		double sec = rx_av.cap(1).toDouble();
