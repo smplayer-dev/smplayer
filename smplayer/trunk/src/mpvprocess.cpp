@@ -124,7 +124,7 @@ void MPVProcess::initializeRX() {
 #ifdef CUSTOM_STATUS
 	rx_av.setPattern("STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
 #else
-	rx_av.setPattern("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
+	rx_av.setPattern("(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
 #endif
 
 	rx_dsize.setPattern("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
@@ -273,7 +273,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 		double length = h * 3600 + m * 60 + s;
 		if (length != md.duration) {
 			md.duration = length;
+			#if DVDNAV_SUPPORT
 			emit receivedDuration(length);
+			#endif
 		}
 
 		if (status == "Paused") {
