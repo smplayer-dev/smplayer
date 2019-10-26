@@ -63,7 +63,8 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
 			"INFO_VIDEO_WIDTH=${=width}\nINFO_VIDEO_HEIGHT=${=height}\n"
-			"INFO_VIDEO_ASPECT=${=video-aspect}\n"
+//			"INFO_VIDEO_ASPECT=${=video-aspect}\n" // old
+			"INFO_VIDEO_ASPECT=${=video-params/aspect}\n"
 //			"INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}\n"
 			"INFO_VIDEO_FPS=${=container-fps:${=fps}}\n"
 //			"INFO_VIDEO_BITRATE=${=video-bitrate}\n"
