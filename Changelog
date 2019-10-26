@@ -1,3 +1,20 @@
+Version 19.10:
+
+(2019-10-26)
+ * Fix control problem with mpv 0.30.
+ * Set minimum icon size for toolbars to 8 pixels.
+
+(2019-09-19)
+ * Allow negative margins for subtitles (mplayer only).
+ * (Chromecast) Set overwrite_vtt to true and sub_position to 95.
+
+(2019-09-13)
+ * Fix youtube.
+
+(2019-07-08)
+ * New audio extensions: mp2, mpc, wv, shn.
+
+
 Version 19.5:
 
 (2019-05-10)
