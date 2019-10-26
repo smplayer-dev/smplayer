@@ -137,7 +137,7 @@
      <item>
       <widget class="QSpinBox" name="iconsize_spin">
        <property name="minimum">
-        <number>24</number>
+        <number>8</number>
        </property>
        <property name="maximum">
         <number>256</number>
