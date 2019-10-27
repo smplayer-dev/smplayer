@@ -1,7 +1,7 @@
 Version 19.10:
 
  * Fix for YouTube.
- * Support for mpv 0.30.
+ * Fix control when using mpv 0.30.
 
 
 Version 19.5:

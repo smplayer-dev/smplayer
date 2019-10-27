@@ -1,7 +1,7 @@
 Version 19.10:
 
 (2019-10-26)
- * Fix control problem with mpv 0.30.
+ * Fix the control problem with mpv 0.30.
  * Set minimum icon size for toolbars to 8 pixels.
 
 (2019-09-19)
