@@ -1,3 +1,10 @@
+smplayer (19.10.0) precise; urgency=low
+
+  * Fix for YouTube.
+  * Fix control when using mpv 0.30.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 27 Oct 2019 20:38:21 +0100
+
 smplayer (19.5.0) precise; urgency=low
 
   * Fix for YouTube.
