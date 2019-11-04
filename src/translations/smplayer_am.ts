@@ -1145,12 +1145,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>ያለፈው ቪዲዮ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>ያለፈው ድምፅ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>ያለፈው ንዑስ አርእስት</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1331,7 +1331,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ SMPlayer እንደገና ማስጀምር ያስፈልጋል ምርጫዎቹን ለ መፈጸም</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4582"/>
@@ -1413,7 +1413,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6084"/>
         <location filename="../basegui.cpp" line="6137"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>ተጨማሪ መረጃ በ መግቢያ ላይ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6090"/>
@@ -2045,7 +2045,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ስማርት ስልክ/ታብሌት</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2226,159 +2226,159 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>የ SMPlayer ዌብ ሰርቨር እየሄደ ነው</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ማስቆሚያ የ SMPlayer ዌብ ሰርቨር</translation>
     </message>
 </context>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Brightness: %1</source>
         <translation>ብርሁነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Contrast: %1</source>
         <translation>ማነፃፀሪያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Gamma: %1</source>
         <translation>ጋማ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3272"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3416"/>
+        <location filename="../core.cpp" line="3415"/>
         <source>Volume: %1</source>
         <translation>መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4375"/>
+        <location filename="../core.cpp" line="4374"/>
         <source>Zoom: %1</source>
         <translation>ማሳያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3544"/>
-        <location filename="../core.cpp" line="3555"/>
+        <location filename="../core.cpp" line="3543"/>
+        <location filename="../core.cpp" line="3554"/>
         <source>Font scale: %1</source>
         <translation>የ ፊደል መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4206"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Aspect ratio: %1</source>
         <translation>የ መጠን አንጻር: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4612"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>የ ፊደል ማጠራቀሚያ በ ማሻሻል ላይ: ይህ ትንሽ ጊዜ ይወስዳል...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3469"/>
+        <location filename="../core.cpp" line="3468"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>ንዑስ አርእስት ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Audio delay: %1 ms</source>
         <translation>ድምፅ ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Speed: %1</source>
         <translation>ፍጥነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="599"/>
+        <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>የ ዩቲዩብ ገጽ ፈልጎ ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="603"/>
+        <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
         <translation>ለዚህ ቪዲዮ URL ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3639"/>
         <source>Subtitles on</source>
         <translation>ንዑስ አርእስት በርቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3641"/>
         <source>Subtitles off</source>
         <translation>ንዑስ አርእስት ጠፍቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4253"/>
         <source>Mouse wheel seeks now</source>
         <translation>በ አይጥ ቁልፍ አሁን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4257"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel changes volume now</source>
         <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4260"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes speed now</source>
         <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4589"/>
+        <location filename="../core.cpp" line="4588"/>
         <source>Screenshot saved as %1</source>
         <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4623"/>
         <source>Starting...</source>
         <translation>በ ማስጀመር ላይ...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1459"/>
+        <location filename="../core.cpp" line="1458"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2814"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2839"/>
+        <location filename="../core.cpp" line="2838"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>A-B markers cleared</source>
         <translation>A-B ምልክት ጸድቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="595"/>
+        <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
         <translation>በ መገናኘት ላይ ወደ %1</translation>
     </message>
@@ -8053,7 +8053,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>ይጠቀሙ &amp;60 fps ዝግጁ ከሆነ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8290,12 +8290,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>ይጠቀሙ &amp;60 fps ዝግጁ ከሆነ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ምርጫ የሚያስችለው ዝግጁ ከሆነ በ 60 ክፈፍ በ ሰከንድ ማስተላለፍ ነው</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
@@ -9452,57 +9452,57 @@ Do you want to overwrite?</source>
         <translation>በ ግ&amp;ራ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="559"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>&amp;Right:</source>
         <translation>በ &amp;ቀኝ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="575"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Verti&amp;cal:</source>
         <translation>በ ቁመ&amp;ት:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="607"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Alignment</source>
         <translation>ማሰለፊያ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="616"/>
+        <location filename="../prefsubtitles.ui" line="628"/>
         <source>&amp;Horizontal:</source>
         <translation>በ አግድም:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="632"/>
+        <location filename="../prefsubtitles.ui" line="644"/>
         <source>&amp;Vertical:</source>
         <translation>በ ቁመት:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="653"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Border st&amp;yle:</source>
         <translation>የ ድንበር ዘዴ&amp;ዎች:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="682"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
         <translation>በ ውስጡ የማያሳልፍ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="730"/>
         <source>&amp;Outline:</source>
         <translation>&amp;ረቂቅ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
+        <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
         <translation>ጥ&amp;ላ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="778"/>
+        <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation>መ&amp;ፈጸሚያ ዘዴ ለ ASS ፋይል </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
         <translation>ዘዴ ማስተካከ&amp;ያ ይጠቀሙ</translation>
     </message>
@@ -9670,7 +9670,7 @@ Do you want to overwrite?</source>
         <translation>ጥላ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="801"/>
+        <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
         <translation>ማስተ&amp;ካከያ...</translation>
     </message>
@@ -10012,7 +10012,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>ጊዜ</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>

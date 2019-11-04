@@ -2237,148 +2237,148 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Brightness: %1</source>
         <translation>ความสว่าง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Contrast: %1</source>
         <translation>ความตัดกัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Gamma: %1</source>
         <translation>แกมมา: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Hue: %1</source>
         <translation>สีสัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3272"/>
         <source>Saturation: %1</source>
         <translation>ความอิ่มตัว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3416"/>
+        <location filename="../core.cpp" line="3415"/>
         <source>Volume: %1</source>
         <translation>ความดัง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4375"/>
+        <location filename="../core.cpp" line="4374"/>
         <source>Zoom: %1</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3544"/>
-        <location filename="../core.cpp" line="3555"/>
+        <location filename="../core.cpp" line="3543"/>
+        <location filename="../core.cpp" line="3554"/>
         <source>Font scale: %1</source>
         <translation>มาตราอักษร: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4206"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Aspect ratio: %1</source>
         <translation>อัตราส่วนภาพ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4612"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>กำลังอัพเดตแคชอักษร ซึ่งอาจใช้เวลาสักครู่...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3469"/>
+        <location filename="../core.cpp" line="3468"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>หน่วงศัพท์บรรยาย: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Audio delay: %1 ms</source>
         <translation>หน่วงเสียง: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Speed: %1</source>
         <translation>ความเร็ว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="599"/>
+        <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>ไม่สามารถรับหน้าจาก Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="603"/>
+        <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
         <translation>ไม่สามารถหาที่ตั้ง URL ของวิดีโอได้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3639"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3641"/>
         <source>Subtitles off</source>
         <translation>ปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4253"/>
         <source>Mouse wheel seeks now</source>
         <translation>หมุนเมาส์เลื่อนหาตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4257"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel changes volume now</source>
         <translation>หมุนเมาส์เปลี่ยนความดังตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4260"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>หมุนเมาส์เปลี่ยนระดับขยายตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes speed now</source>
         <translation>หมุนเมาส์เปลี่ยนความเร็วตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4589"/>
+        <location filename="../core.cpp" line="4588"/>
         <source>Screenshot saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4623"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1459"/>
+        <location filename="../core.cpp" line="1458"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2814"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>จุด &quot;A&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2839"/>
+        <location filename="../core.cpp" line="2838"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>จุด &quot;B&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>A-B markers cleared</source>
         <translation>ช่วง A-B ถูกล้างแล้ว</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="595"/>
+        <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
         <translation>กำลังเชื่อมต่อ %1</translation>
     </message>
@@ -9447,57 +9447,57 @@ Do you want to overwrite?</source>
         <translation>ซ้า&amp;ย:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="559"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>&amp;Right:</source>
         <translation>&amp;ขวา:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="575"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Verti&amp;cal:</source>
         <translation>แนว&amp;ตั้ง:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="607"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Alignment</source>
         <translation>แนวจัดวาง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="616"/>
+        <location filename="../prefsubtitles.ui" line="628"/>
         <source>&amp;Horizontal:</source>
         <translation>แนว&amp;นอน:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="632"/>
+        <location filename="../prefsubtitles.ui" line="644"/>
         <source>&amp;Vertical:</source>
         <translation>แนว&amp;ตั้ง:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="653"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Border st&amp;yle:</source>
         <translation>แบบ&amp;ขอบ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="682"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="730"/>
         <source>&amp;Outline:</source>
         <translation>เ&amp;ส้นร่าง:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
+        <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
         <translation>เ&amp;งา:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="778"/>
+        <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9665,7 +9665,7 @@ Do you want to overwrite?</source>
         <translation>เงา:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="801"/>
+        <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
         <translation>&amp;ปรับแต่งค่า...</translation>
     </message>

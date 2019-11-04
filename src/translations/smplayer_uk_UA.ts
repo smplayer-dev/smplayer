@@ -1145,12 +1145,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Попереднє відео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Попереднє аудіо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередні субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -2237,148 +2237,148 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3272"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3416"/>
+        <location filename="../core.cpp" line="3415"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4375"/>
+        <location filename="../core.cpp" line="4374"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3544"/>
-        <location filename="../core.cpp" line="3555"/>
+        <location filename="../core.cpp" line="3543"/>
+        <location filename="../core.cpp" line="3554"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4206"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4612"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3469"/>
+        <location filename="../core.cpp" line="3468"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="599"/>
+        <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Не можна отримати доступ на сторінку Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="603"/>
+        <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Неможливо знайти URL з відео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3639"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3641"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4253"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4257"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4260"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4589"/>
+        <location filename="../core.cpp" line="4588"/>
         <source>Screenshot saved as %1</source>
         <translation>Зняток збережено як %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4623"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Знімок екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1459"/>
+        <location filename="../core.cpp" line="1458"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2814"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2839"/>
+        <location filename="../core.cpp" line="2838"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="595"/>
+        <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
         <translation>З&apos;єднання з %1</translation>
     </message>
@@ -9452,57 +9452,57 @@ Do you want to overwrite?</source>
         <translation>&amp;Ліворуч:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="559"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>&amp;Right:</source>
         <translation>&amp;Праворуч:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="575"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Verti&amp;cal:</source>
         <translation>По &amp;вертикалі:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="607"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Alignment</source>
         <translation>Вирівнювання</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="616"/>
+        <location filename="../prefsubtitles.ui" line="628"/>
         <source>&amp;Horizontal:</source>
         <translation>По &amp;горизонталі:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="632"/>
+        <location filename="../prefsubtitles.ui" line="644"/>
         <source>&amp;Vertical:</source>
         <translation>По вер&amp;тикалі:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="653"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Border st&amp;yle:</source>
         <translation>&amp;Стиль обрамлення:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="682"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
         <translation>Непрозорість:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="730"/>
         <source>&amp;Outline:</source>
         <translation>Об&amp;рис:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
+        <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
         <translation>&amp;Тінь:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="778"/>
+        <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation>За&amp;стосувати стилі й для файлів ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
         <translation>Використовувати &amp;інший стиль</translation>
     </message>
@@ -9670,7 +9670,7 @@ Do you want to overwrite?</source>
         <translation>Тінь:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="801"/>
+        <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
         <translation>&amp;Налаштувати...</translation>
     </message>
@@ -10014,7 +10014,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>час</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10049,7 +10049,8 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>вказує час початку (в секундах) першого файла для відтворення.
+Також приймаються г:х:с та х:с</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

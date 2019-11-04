@@ -1145,12 +1145,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidéo précédente</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio précédent</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1160,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Sous-titre précédent</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1771,7 +1771,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="4990"/>
         <source>Warning - Using old MPlayer</source>
-        <translation>Attention : vieille version de MPlayer utilisée</translation>
+        <translation>Attention : vieille version de MPlayer utilisée</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4991"/>
@@ -2237,148 +2237,148 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Brightness: %1</source>
         <translation>Luminosité : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Contrast: %1</source>
         <translation>Contraste : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Gamma: %1</source>
         <translation>Gamma : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Hue: %1</source>
         <translation>Ton : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3272"/>
         <source>Saturation: %1</source>
         <translation>Saturation : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3416"/>
+        <location filename="../core.cpp" line="3415"/>
         <source>Volume: %1</source>
         <translation>Volume : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4375"/>
+        <location filename="../core.cpp" line="4374"/>
         <source>Zoom: %1</source>
         <translation>Zoom : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3544"/>
-        <location filename="../core.cpp" line="3555"/>
+        <location filename="../core.cpp" line="3543"/>
+        <location filename="../core.cpp" line="3554"/>
         <source>Font scale: %1</source>
         <translation>Échelle de police : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4206"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Aspect ratio: %1</source>
         <translation>Rapport largeur/hauteur : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4612"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Mise à jour du cache des polices. Cela peut prendre quelques secondes...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3469"/>
+        <location filename="../core.cpp" line="3468"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Délai sous-titres : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Audio delay: %1 ms</source>
         <translation>Délai audio : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Speed: %1</source>
         <translation>Vitesse : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="599"/>
+        <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Impossible de récupérer la page Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="603"/>
+        <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Impossible de trouver l&apos;URL de la vidéo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3639"/>
         <source>Subtitles on</source>
         <translation>Sous-titres activés</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3641"/>
         <source>Subtitles off</source>
         <translation>Sous-titres désactivés</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4253"/>
         <source>Mouse wheel seeks now</source>
         <translation>La molette de la souris permet maintenand le déplacement dans le fichier</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4257"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel changes volume now</source>
         <translation>La molette de la souris change maintenand le volume audio</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4260"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>La molette de la souris change maintenand le niveau de zoom</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes speed now</source>
         <translation>La molette de la souris change maintenand la vitesse</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4589"/>
+        <location filename="../core.cpp" line="4588"/>
         <source>Screenshot saved as %1</source>
         <translation>Capture d&apos;écran sauvée sous %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4623"/>
         <source>Starting...</source>
         <translation>Démarrage…</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>La capture d&apos;écran n&apos;a pas été prise, le dossier n&apos;est pas configuré</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1459"/>
+        <location filename="../core.cpp" line="1458"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Les captures d&apos;écran n&apos;ont pas été prises, le dossier n&apos;est pas configuré</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2814"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marqueur « A » positionné à %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2839"/>
+        <location filename="../core.cpp" line="2838"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Marqueur « B » positionné à %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>A-B markers cleared</source>
         <translation>Marqueurs A et B effacés</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="595"/>
+        <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
         <translation>Connection à %1</translation>
     </message>
@@ -3091,7 +3091,7 @@ Exemple : extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
         <source>Subtitle saved as %1</source>
-        <translation>Sous-titres sauvegardés : %1</translation>
+        <translation>Sous-titres sauvegardés : %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
@@ -9453,57 +9453,57 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Gauch&amp;e :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="559"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>&amp;Right:</source>
         <translation>D&amp;roite :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="575"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Verti&amp;cal:</source>
         <translation>Verti&amp;cal :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="607"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Alignment</source>
         <translation>Alignement</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="616"/>
+        <location filename="../prefsubtitles.ui" line="628"/>
         <source>&amp;Horizontal:</source>
         <translation>&amp;Horizontal :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="632"/>
+        <location filename="../prefsubtitles.ui" line="644"/>
         <source>&amp;Vertical:</source>
         <translation>&amp;Vertical :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="653"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Border st&amp;yle:</source>
         <translation>St&amp;yle des bordures :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="682"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
         <translation>Opacité :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="730"/>
         <source>&amp;Outline:</source>
         <translation>&amp;Contour :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
+        <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
         <translation>O&amp;mbres :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="778"/>
+        <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation>A&amp;ppliquer aussi le style aux fichiers ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
         <translation>Ut&amp;iliser un thème personnalisé</translation>
     </message>
@@ -9671,7 +9671,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Ombre :</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="801"/>
+        <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
         <translation>Personnalise&amp;r...</translation>
     </message>
@@ -10013,7 +10013,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>temps</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10048,7 +10048,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>spécifie le temps de départ (en secondes) du premier fichier à lire. Sont aussi acceptés h:m:s et m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>

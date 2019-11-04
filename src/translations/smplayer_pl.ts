@@ -2237,148 +2237,148 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3212"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Brightness: %1</source>
         <translation>Jasność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3227"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Hue: %1</source>
         <translation>Odcień: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3272"/>
         <source>Saturation: %1</source>
         <translation>Nasycenie: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3416"/>
+        <location filename="../core.cpp" line="3415"/>
         <source>Volume: %1</source>
         <translation>Głośność: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4375"/>
+        <location filename="../core.cpp" line="4374"/>
         <source>Zoom: %1</source>
         <translation>Powiększenie: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3544"/>
-        <location filename="../core.cpp" line="3555"/>
+        <location filename="../core.cpp" line="3543"/>
+        <location filename="../core.cpp" line="3554"/>
         <source>Font scale: %1</source>
         <translation>Skala czcionki: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4206"/>
+        <location filename="../core.cpp" line="4205"/>
         <source>Aspect ratio: %1</source>
         <translation>Współczynnik proporcji: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4612"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Aktualizowanie cache czcionek. Może to chwilę potrwać...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3469"/>
+        <location filename="../core.cpp" line="3468"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Opóźnienie napisów: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3487"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Audio delay: %1 ms</source>
         <translation>Opóźnienie dźwięku: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Speed: %1</source>
         <translation>Prędkość: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="599"/>
+        <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Nie udało się wyszukać strony Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="603"/>
+        <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Nie udało się zlokalizować adresu URL pliku wideo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3639"/>
         <source>Subtitles on</source>
         <translation>Napisy włączone</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3641"/>
         <source>Subtitles off</source>
         <translation>Napisy wyłączone</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4253"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kółko myszy od teraz przeszukuje wideo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4257"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kółko myszy od teraz zmienia głośność</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4260"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kółko myszy od teraz zmienia powiększenie</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kółko myszy od teraz zmienia prędkość</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4589"/>
+        <location filename="../core.cpp" line="4588"/>
         <source>Screenshot saved as %1</source>
         <translation>Zrzut ekranu zapisano jako %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4623"/>
         <source>Starting...</source>
         <translation>Rozpoczynanie...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1446"/>
+        <location filename="../core.cpp" line="1445"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Zrzut ekranu NIE został wykonany, nie skonfigurowano katalogu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1459"/>
+        <location filename="../core.cpp" line="1458"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Zrzuty ekranu NIE zostały wykonane, nie skonfigurowano katalogu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2814"/>
+        <location filename="../core.cpp" line="2813"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marker &quot;A&quot; ustawiony na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2839"/>
+        <location filename="../core.cpp" line="2838"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Marker &quot;B&quot; ustawiony na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>A-B markers cleared</source>
         <translation>Markery A-B wyczyszczone</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="595"/>
+        <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
         <translation>Łączenie z %1</translation>
     </message>
@@ -9453,57 +9453,57 @@ na liście odtwarzania:</translation>
         <translation>L&amp;ewy:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="559"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>&amp;Right:</source>
         <translation>P&amp;rawy:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="575"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Verti&amp;cal:</source>
         <translation>Pionowy (&amp;c):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="607"/>
+        <location filename="../prefsubtitles.ui" line="619"/>
         <source>Alignment</source>
         <translation>Wyrównanie</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="616"/>
+        <location filename="../prefsubtitles.ui" line="628"/>
         <source>&amp;Horizontal:</source>
         <translation>Poziomo (&amp;h):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="632"/>
+        <location filename="../prefsubtitles.ui" line="644"/>
         <source>&amp;Vertical:</source>
         <translation>Pionowe (&amp;v):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="653"/>
+        <location filename="../prefsubtitles.ui" line="665"/>
         <source>Border st&amp;yle:</source>
         <translation>St&amp;yl ramki:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="682"/>
+        <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
         <translation>Nieprzezroczystość:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="718"/>
+        <location filename="../prefsubtitles.ui" line="730"/>
         <source>&amp;Outline:</source>
         <translation>&amp;Obwódka:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="738"/>
+        <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
         <translation>Cień (&amp;w):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="778"/>
+        <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
         <translation>Zastosuj style również dla &amp;plików ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="827"/>
+        <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
         <translation>Użyj włas&amp;nego stylu</translation>
     </message>
@@ -9671,7 +9671,7 @@ na liście odtwarzania:</translation>
         <translation>Cień:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="801"/>
+        <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
         <translation>Dostosuj (&amp;m)...</translation>
     </message>
