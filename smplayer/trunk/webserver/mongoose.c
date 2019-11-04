@@ -7821,7 +7821,8 @@ MG_INTERNAL int mg_uri_to_local_path(struct http_message *hm,
   }
 
 out:
-  LOG(LL_DEBUG,
+  if (hm->uri.len && remainder->len)
+    LOG(LL_DEBUG,
       ("'%.*s' -> '%s' + '%.*s'", (int) hm->uri.len, hm->uri.p,
        *local_path ? *local_path : "", (int) remainder->len, remainder->p));
   return ok;
