@@ -1,3 +1,13 @@
+Version 19.10.2:
+
+(2019-11-05)
+ * (Linux) Try to prevent the player window to be larger than the desktop
+   after a resize.
+
+(2019-11-04)
+ * Fix compiling the web server on 32 bit with gcc 9.2.0.
+
+
 Version 19.10:
 
 (2019-10-26)
