@@ -1,3 +1,9 @@
+smplayer (19.10.2) precise; urgency=low
+
+  * Fix compiling the web server on 32 bit with gcc 9.2.0.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 07 Nov 2019 21:15:25 +0100
+
 smplayer (19.10.0) precise; urgency=low
 
   * Fix for YouTube.

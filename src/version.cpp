@@ -22,12 +22,12 @@
 #define USE_SVN_VERSIONS 1
 #define DEVELOPMENT_VERSION 0
 
-#define VERSION "19.10.0"
+#define VERSION "19.10.2"
 
 #if USE_SVN_VERSIONS && DEVELOPMENT_VERSION
 #include "svn_revision.h"
 #else
-#define SVN_REVISION "9238"
+#define SVN_REVISION "9245"
 #endif
 
 #ifdef Q_OS_WIN
