@@ -5,12 +5,12 @@
 # Translators:
 # Adge Nodux <tempo.data@gmail.com>, 2016
 # tneskovic <antoine_ecuador@yahoo.fr>, 2014
-# groucho <grouchomarx.fr@gmail.com>, 2016
+# groucho <grouchomarx.fr@gmail.com>, 2016,2019
 # Sébastien Picavet <sebastien.picavet@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-09-20 00:27+0000\n"
+"PO-Revision-Date: 2019-06-12 11:24+0000\n"
 "Last-Translator: groucho <grouchomarx.fr@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/rvm/smplayer/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -38,14 +38,14 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "Système d'exploitation non supporté.[:n:]SMPlayer ${SMPLAYER_VERSION} requiert au minimum Windows XP et pourrait ne pas fonctionner correctement sur votre système.[:n:]Souhaitez-vous vraiment continuer l'installation ?"
+msgstr "Système d'exploitation non supporté.[:n:]SMPlayer ${SMPLAYER_VERSION} requiert au minimum Windows XP et pourrait ne pas fonctionner correctement sur votre système.[:n:]Souhaitez-vous vraiment continuer l'installation ?"
 
 # OS_Not_Supported_VistaRequired
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "Système d'exploitation non supporté.[:n:]SMPlayer ${SMPLAYER_VERSION} nécessite au moins Windows Vista et pourrait ne pas fontionner correctement sur votre système.[:n:]Souhaitez-vous vraiment continuer l'installation ?"
+msgstr "Système d'exploitation non supporté.[:n:]SMPlayer ${SMPLAYER_VERSION} nécessite au moins Windows Vista et pourrait ne pas fontionner correctement sur votre système.[:n:]Souhaitez-vous vraiment continuer l'installation ?"
 
 # Win64_Required
 msgid ""
@@ -166,7 +166,7 @@ msgid ""
 "implemented natively, like newer RealVideo variants and a lot of uncommon "
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
-msgstr "Les paquets de codecs binaires ajoutent le support pour les codecs qui ne sont pas encore nativement supportés, tels que les nouvelles variantes de RealVideo et d'autres formats peu communs.[:n:]Remarque : Ces codecs ne sont pas nécessaires pour lire les formats communs tels que les DVD, MPE-1/2/4, etc."
+msgstr "Les paquets de codecs binaires ajoutent le support pour les codecs qui ne sont pas encore nativement supportés, tels que les nouvelles variantes de RealVideo et d'autres formats peu communs.[:n:]Remarque : Ces codecs ne sont pas nécessaires pour lire les formats communs tels que les DVD, MPE-1/2/4, etc."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -178,11 +178,11 @@ msgstr "Sélectionnez le mode Remplacement ou Désinstallation."
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Il existe déjà une installation de SMPlayer dans le dossier suivant :"
+msgstr "Il existe déjà une installation de SMPlayer dans le dossier suivant :"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
-msgstr "Veuillez sélectionner l'opération à effectuer :"
+msgstr "Veuillez sélectionner l'opération à effectuer :"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
@@ -216,7 +216,7 @@ msgstr "Réinitialiser ma configuration de SMPlayer"
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be"
 " reversed."
-msgstr "Êtes-vous certain de vouloir réinitialiser les paramètres de SMPlayer ? Cette action n'est pas réversible."
+msgstr "Êtes-vous certain de vouloir réinitialiser les paramètres de SMPlayer ? Cette action n'est pas réversible."
 
 # Type_Reinstall
 msgid "reinstall"
@@ -240,11 +240,11 @@ msgstr "Télécharge les codecs de MPlayer..."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Les codecs de MPlayer n'ont pas été correctement installés. Réessayer ?"
+msgstr "Les codecs de MPlayer n'ont pas été correctement installés. Réessayer ?"
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Échec du téléchargement des codecs de MPlayer : '$R0'."
+msgstr "Échec du téléchargement des codecs de MPlayer : '$R0'."
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
@@ -264,7 +264,7 @@ msgstr "Désinstallation abandonnée par l'utilisateur."
 msgid ""
 "It does not appear that SMPlayer is installed in the directory "
 "'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr "Il ne semble pas que SMPlayer soit installé dans le dossier '$INSTDIR'.[:r:][:n:]Continuer quand même (déconseillé) ?"
+msgstr "Il ne semble pas que SMPlayer soit installé dans le dossier '$INSTDIR'.[:r:][:n:]Continuer quand même (déconseillé) ?"
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
@@ -339,7 +339,7 @@ msgstr "L’installation de mpv a échoué. Réessayer ?"
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr "Échec lors du téléchargement de mpv : '$R0'."
+msgstr "Échec lors du téléchargement de mpv : '$R0'."
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
@@ -351,7 +351,7 @@ msgstr "youtube-dl n’a pas été installé correctement. Réessayer ?"
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr "Échec lors du téléchargement de youtube-dl : '$R0'."
+msgstr "Échec lors du téléchargement de youtube-dl : '$R0'."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."

@@ -86,7 +86,7 @@ ${LangFileString} Type_Upgrade "opgradér"
 ${LangFileString} StartBtn "Start"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Downloader MPlayer-codecs..."
+${LangFileString} Codecs_DL_Msg "Downloader MPlayer-codecs ..."
 ${LangFileString} Codecs_DL_Retry "MPlayer codecs blev ikke installeret korrekt. Prøv igen?"
 ${LangFileString} Codecs_DL_Failed "Download af MPlayer-codecs mislykkedes: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Installation af MPlayer-codecs mislykkedes."
@@ -102,21 +102,21 @@ ${LangFileString} Uninstaller_64bitOnly "Denne installation kan kun afinstallere
 ${LangFileString} Application_Description "SMPlayer er en komplet front-end til MPlayer, fra grundlæggende funktioner såsom at afspille videoer, DVD'er, VCD'er til avanceret funktioner såsom understøttelse af MPlayer filtre, EDL lister, og andet."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Foretager backup af codecs fra tidligere installation..."
-${LangFileString} Info_Codecs_Restore "Gendanner codecs fra tidligere installation..."
-${LangFileString} Info_Del_Files "Sletter filer..."
-${LangFileString} Info_Del_Registry "Sletter nøgler i registreringsdatabase..."
-${LangFileString} Info_Del_Shortcuts "Sletter genveje..."
-${LangFileString} Info_Rest_Assoc "Gendanner filtilknytninger..."
-${LangFileString} Info_RollBack "Gendanner ændringer..."
-${LangFileString} Info_Files_Extract "Udpakker filer..."
-${LangFileString} Info_SMTube_Backup "Opretter backup af SMTube..."
-${LangFileString} Info_SMTube_Restore "Gendanner SMTube fra tidligere installation..."
-${LangFileString} Info_MPV_Backup "Opretter backup af mpv..."
-${LangFileString} Info_MPV_Restore "Genskaber mpv fra tidligere installation..."
+${LangFileString} Info_Codecs_Backup "Foretager backup af codecs fra tidligere installation ..."
+${LangFileString} Info_Codecs_Restore "Gendanner codecs fra tidligere installation ..."
+${LangFileString} Info_Del_Files "Sletter filer ..."
+${LangFileString} Info_Del_Registry "Sletter nøgler i registreringsdatabase ..."
+${LangFileString} Info_Del_Shortcuts "Sletter genveje ..."
+${LangFileString} Info_Rest_Assoc "Gendanner filtilknytninger ..."
+${LangFileString} Info_RollBack "Gendanner ændringer ..."
+${LangFileString} Info_Files_Extract "Udpakker filer ..."
+${LangFileString} Info_SMTube_Backup "Opretter backup af SMTube ..."
+${LangFileString} Info_SMTube_Restore "Gendanner SMTube fra tidligere installation ..."
+${LangFileString} Info_MPV_Backup "Opretter backup af mpv ..."
+${LangFileString} Info_MPV_Restore "Genskaber mpv fra tidligere installation ..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloader mpv..."
+${LangFileString} MPV_DL_Msg "Downloader mpv ..."
 ${LangFileString} MPV_DL_Retry "mpv blev ikke installeret. Prøv igen?"
 ${LangFileString} MPV_DL_Failed "Kunne ikke downloade mpv: '$R0'."
 ${LangFileString} MPV_Inst_Failed "Kunne ikke installere mpv."
@@ -124,7 +124,7 @@ ${LangFileString} MPV_Inst_Failed "Kunne ikke installere mpv."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "youtube-dl blev ikke installeret. Prøv igen?"
 ${LangFileString} YTDL_DL_Failed "Kunne ikke downloade youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Søger efter opdateringer til youtube-dl..."
+${LangFileString} YTDL_Update_Check "Søger efter opdateringer til youtube-dl ..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Rydder op i skrifttypekonfigurations-mellemlager..."
-${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer-indstillinger..."
+${LangFileString} Info_Cleaning_Fontconfig "Rydder op i skrifttypekonfigurations-mellemlager ..."
+${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer-indstillinger ..."
