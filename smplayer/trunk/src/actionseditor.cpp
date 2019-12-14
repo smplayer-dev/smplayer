@@ -21,7 +21,8 @@
 
 #include "actionseditor.h"
 
-#include <QTableWidget>
+#include <QTableView>
+#include <QStandardItemModel>
 #include <QHeaderView>
 
 #include <QLayout>
@@ -118,14 +119,14 @@ QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 
 	for (int n=0; n < l.count(); n++) {
 		//qDebug("%s", l[n].toUtf8().data());
-#if QT_VERSION >= 0x040300
+		#if QT_VERSION >= 0x040300
 		// Qt 4.3 and 4.4 (at least on linux) seems to have a problem when using Traditional Chinese
 		// QKeysequence deletes the arrow key names from the shortcut
 		// so this is a work-around.
 		QString s = l[n].simplified();
-#else
+		#else
 		QString s = QKeySequence( l[n].simplified() );
-#endif
+		#endif
 
 		//Work-around for Simplified-Chinese
 		s.replace( QString::fromUtf8("左"), "Left");
@@ -152,35 +153,40 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 {
 	latest_dir = Paths::shortcutsPath();
 
-	actionsTable = new QTableWidget(0, COL_NAME +1, this);
+	table = new QStandardItemModel(this);
+	table->setColumnCount(COL_NAME + 1);
+
+	actionsTable = new QTableView(this);
+	actionsTable->setModel(table);
+
 	actionsTable->setSelectionMode(QAbstractItemView::SingleSelection);
 	actionsTable->setSelectionBehavior(QAbstractItemView::SelectRows);
 	actionsTable->verticalHeader()->hide();
 
-#if QT_VERSION >= 0x050000
+	#if QT_VERSION >= 0x050000
 	MyScroller::setScroller(actionsTable->viewport());
 
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_CONFLICTS, QHeaderView::ResizeToContents);
-#else
+	#else
 	actionsTable->horizontalHeader()->setResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setResizeMode(COL_CONFLICTS, QHeaderView::ResizeToContents);
-#endif
+	#endif
 
 	actionsTable->setAlternatingRowColors(true);
 	//actionsTable->setItemDelegateForColumn( COL_SHORTCUT, new MyDelegate(actionsTable) );
 
-#if !USE_SHORTCUTGETTER
+	#if !USE_SHORTCUTGETTER
 	connect(actionsTable, SIGNAL(currentItemChanged(QTableWidgetItem *,QTableWidgetItem *)),
             this, SLOT(recordAction(QTableWidgetItem *)) );
 	connect(actionsTable, SIGNAL(itemChanged(QTableWidgetItem *)),
             this, SLOT(validateAction(QTableWidgetItem *)) );
-#else
+	#else
 	connect(actionsTable, SIGNAL(itemActivated(QTableWidgetItem *)),
             this, SLOT(editShortcut()) );
-#endif
+	#endif
 
 	saveButton = new QPushButton(this);
 	loadButton = new QPushButton(this);
@@ -188,25 +194,25 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	connect(saveButton, SIGNAL(clicked()), this, SLOT(saveActionsTable()));
 	connect(loadButton, SIGNAL(clicked()), this, SLOT(loadActionsTable()));
 
-#if USE_SHORTCUTGETTER
+	#if USE_SHORTCUTGETTER
 	editButton = new QPushButton(this);
 	connect( editButton, SIGNAL(clicked()), this, SLOT(editShortcut()) );
-#endif
+	#endif
 
-    QHBoxLayout *buttonLayout = new QHBoxLayout;
-    buttonLayout->setSpacing(8);
-#if USE_SHORTCUTGETTER
+	QHBoxLayout *buttonLayout = new QHBoxLayout;
+	buttonLayout->setSpacing(8);
+	#if USE_SHORTCUTGETTER
 	buttonLayout->addWidget(editButton);
-#endif
-    buttonLayout->addStretch(1);
+	#endif
+	buttonLayout->addStretch(1);
 	buttonLayout->addWidget(loadButton);
 	buttonLayout->addWidget(saveButton);
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
-    mainLayout->setMargin(8);
-    mainLayout->setSpacing(8);
-    mainLayout->addWidget(actionsTable);
-    mainLayout->addLayout(buttonLayout);
+	QVBoxLayout *mainLayout = new QVBoxLayout(this);
+	mainLayout->setMargin(8);
+	mainLayout->setSpacing(8);
+	mainLayout->addWidget(actionsTable);
+	mainLayout->addLayout(buttonLayout);
 
 	retranslateStrings();
 }
@@ -215,7 +221,7 @@ ActionsEditor::~ActionsEditor() {
 }
 
 void ActionsEditor::retranslateStrings() {
-	actionsTable->setHorizontalHeaderLabels( QStringList() << "" <<
+	table->setHorizontalHeaderLabels( QStringList() << "" <<
 		tr("Shortcut") << tr("Description") << tr("Name") );
 
 	saveButton->setText(tr("&Save"));
@@ -224,9 +230,9 @@ void ActionsEditor::retranslateStrings() {
 	loadButton->setText(tr("&Load"));
 	loadButton->setIcon(Images::icon("open"));
 
-#if USE_SHORTCUTGETTER
+	#if USE_SHORTCUTGETTER
 	editButton->setText(tr("&Change shortcut..."));
-#endif
+	#endif
 
 	//updateView(); // The actions are translated later, so it's useless
 }
@@ -258,67 +264,67 @@ void ActionsEditor::addActions(QWidget *widget) {
 }
 
 void ActionsEditor::updateView() {
-	actionsTable->setRowCount( actionsList.count() );
+	table->setRowCount( actionsList.count() );
 
 	QAction *action;
 	QString accelText;
 
-#if !USE_SHORTCUTGETTER
+	#if !USE_SHORTCUTGETTER
 	dont_validate = true;
-#endif
+	#endif
 	//actionsTable->setSortingEnabled(false);
 
-	for (int n=0; n < actionsList.count(); n++) {
+	for (int n = 0; n < actionsList.count(); n++) {
 		action = static_cast<QAction*> (actionsList[n]);
 
-#if USE_MULTIPLE_SHORTCUTS
+		#if USE_MULTIPLE_SHORTCUTS
 		accelText = shortcutsToString( action->shortcuts() );
-#else
+		#else
 		accelText = action->shortcut().toString();
-#endif
+		#endif
 
 		// Conflict column
-		QTableWidgetItem * i_conf = new QTableWidgetItem();
+		QStandardItem * i_conf = new QStandardItem();
 
 		// Name column
-		QTableWidgetItem * i_name = new QTableWidgetItem(action->objectName());
+		QStandardItem * i_name = new QStandardItem(action->objectName());
 
 		// Desc column
-		QTableWidgetItem * i_desc = new QTableWidgetItem(action->text().replace("&",""));
+		QStandardItem * i_desc = new QStandardItem(action->text().replace("&",""));
 		i_desc->setIcon( action->icon() );
 
 		// Shortcut column
-		QTableWidgetItem * i_shortcut = new QTableWidgetItem(accelText);
+		QStandardItem * i_shortcut = new QStandardItem(accelText);
 		int column_height = i_shortcut->sizeHint().height();
 		i_shortcut->setSizeHint(QSize(150, column_height));
 
 		// Set flags
-#if !USE_SHORTCUTGETTER
+		#if !USE_SHORTCUTGETTER
 		i_conf->setFlags(Qt::ItemIsEnabled);
 		i_name->setFlags(Qt::ItemIsEnabled);
 		i_desc->setFlags(Qt::ItemIsEnabled);
-#else
+		#else
 		i_conf->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 		i_name->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 		i_desc->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 		i_shortcut->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
-#endif
+		#endif
 
 		// Add items to table
-		actionsTable->setItem(n, COL_CONFLICTS, i_conf );
-		actionsTable->setItem(n, COL_NAME, i_name );
-		actionsTable->setItem(n, COL_DESC, i_desc );
-		actionsTable->setItem(n, COL_SHORTCUT, i_shortcut );
+		table->setItem(n, COL_CONFLICTS, i_conf );
+		table->setItem(n, COL_NAME, i_name );
+		table->setItem(n, COL_DESC, i_desc );
+		table->setItem(n, COL_SHORTCUT, i_shortcut );
 
 	}
 	hasConflicts(); // Check for conflicts
 
 	actionsTable->resizeColumnsToContents();
-	actionsTable->setCurrentCell(0, COL_SHORTCUT);
+	actionsTable->selectionModel()->setCurrentIndex(actionsTable->model()->index(0, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 
-#if !USE_SHORTCUTGETTER
+	#if !USE_SHORTCUTGETTER
 	dont_validate = false;
-#endif
+	#endif
 	//actionsTable->setSortingEnabled(true);
 }
 
@@ -328,13 +334,13 @@ void ActionsEditor::applyChanges() {
 
 	for (int row = 0; row < (int)actionsList.size(); ++row) {
 		QAction *action = actionsList[row];
-		QTableWidgetItem *i = actionsTable->item(row, COL_SHORTCUT);
+		QStandardItem *i = table->item(row, COL_SHORTCUT);
 
-#if USE_MULTIPLE_SHORTCUTS
+		#if USE_MULTIPLE_SHORTCUTS
 		action->setShortcuts( stringToShortcuts(i->text()) );
-#else
+		#else
 		action->setShortcut( QKeySequence(i->text()) );
-#endif
+		#endif
 	}
 }
 
@@ -354,17 +360,17 @@ void ActionsEditor::validateAction(QTableWidgetItem * i) {
 	if (dont_validate) return;
 
 	if (i->column() == COL_SHORTCUT) {
-	    QString accelText = QKeySequence(i->text()).toString();
+		QString accelText = QKeySequence(i->text()).toString();
 
-	    if (accelText.isEmpty() && !i->text().isEmpty()) {
+		if (accelText.isEmpty() && !i->text().isEmpty()) {
 			/*
 			QAction * action = static_cast<QAction*> (actionsList[i->row()]);
 			QString oldAccelText= action->accel().toString();
 			*/
-	        i->setText(oldAccelText);
+			i->setText(oldAccelText);
 		}
-	    else {
-	        i->setText(accelText);
+		else {
+			i->setText(accelText);
 		}
 
 		if (hasConflicts()) qApp->beep();
@@ -374,7 +380,9 @@ void ActionsEditor::validateAction(QTableWidgetItem * i) {
 #else
 
 void ActionsEditor::editShortcut() {
-	QTableWidgetItem * i = actionsTable->item( actionsTable->currentRow(), COL_SHORTCUT );
+	QModelIndex index = actionsTable->currentIndex();
+	int current = index.row();
+	QStandardItem * i = table->item(current, COL_SHORTCUT);
 	if (i) {
 		ShortcutGetter d(this);
 		QString result = d.exec( i->text() );
@@ -390,8 +398,8 @@ void ActionsEditor::editShortcut() {
 #endif
 
 int ActionsEditor::findActionName(const QString & name) {
-	for (int row=0; row < actionsTable->rowCount(); row++) {
-		if (actionsTable->item(row, COL_NAME)->text() == name) return row;
+	for (int row = 0; row < table->rowCount(); row++) {
+		if (table->item(row, COL_NAME)->text() == name) return row;
 	}
 	return -1;
 }
@@ -411,8 +419,8 @@ int ActionsEditor::findActionAccel(const QString & accel, int ignoreRow) {
 	QStringList shortcuts = accel.split(", ");
 	QString shortcut;
 
-	for (int row = 0; row < actionsTable->rowCount(); row++) {
-		QTableWidgetItem * i = actionsTable->item(row, COL_SHORTCUT);
+	for (int row = 0; row < table->rowCount(); row++) {
+		QStandardItem * i = table->item(row, COL_SHORTCUT);
 		if (i && row != ignoreRow) {
 			if (!i->text().isEmpty()) {
 				foreach(shortcut, shortcuts) {
@@ -431,14 +439,14 @@ bool ActionsEditor::hasConflicts() {
 	bool conflict = false;
 
 	QString accelText;
-	QTableWidgetItem *i;
+	QStandardItem *i;
 
-	for (int n = 0; n < actionsTable->rowCount(); n++) {
+	for (int n = 0; n < table->rowCount(); n++) {
 		//actionsTable->setText( n, COL_CONFLICTS, " ");
-		i = actionsTable->item( n, COL_CONFLICTS );
+		i = table->item( n, COL_CONFLICTS );
 		if (i) i->setIcon( QPixmap() );
 
-		i = actionsTable->item(n, COL_SHORTCUT );
+		i = table->item(n, COL_SHORTCUT );
 		if (i) {
 			accelText = i->text();
 			if (!accelText.isEmpty()) {
@@ -446,7 +454,7 @@ bool ActionsEditor::hasConflicts() {
 				if ( (found != -1) /*&& (found != n)*/ ) {
 					conflict = true;
 					//actionsTable->setText( n, COL_CONFLICTS, "!");
-					actionsTable->item( n, COL_CONFLICTS )->setIcon( Images::icon("conflict") );
+					table->item( n, COL_CONFLICTS )->setIcon( Images::icon("conflict") );
 				}
 			}
 		}
@@ -486,7 +494,7 @@ void ActionsEditor::saveActionsTable() {
                tr("The file couldn't be saved"), 
                QMessageBox::Ok, Qt::NoButton);
 		}
-	} 
+	}
 }
 
 bool ActionsEditor::saveActionsTable(const QString & filename) {
@@ -497,9 +505,9 @@ bool ActionsEditor::saveActionsTable(const QString & filename) {
 		QTextStream stream( &f );
 		stream.setCodec("UTF-8");
 
-		for (int row=0; row < actionsTable->rowCount(); row++) {
-			stream << actionsTable->item(row, COL_NAME)->text() << "\t" 
-                   << actionsTable->item(row, COL_SHORTCUT)->text() << "\n";
+		for (int row = 0; row < table->rowCount(); row++) {
+			stream << table->item(row, COL_NAME)->text() << "\t" 
+                   << table->item(row, COL_SHORTCUT)->text() << "\n";
 		}
 		f.close();
 		return true;
@@ -531,9 +539,9 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 	QFile f( filename );
 	if ( f.open( QIODevice::ReadOnly ) ) {
 
-#if !USE_SHORTCUTGETTER
+		#if !USE_SHORTCUTGETTER
 		dont_validate = true;
-#endif
+		#endif
 
 		QTextStream stream( &f );
 		stream.setCodec("UTF-8");
@@ -557,7 +565,7 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 				row = findActionName(name);
 				if (row > -1) {
 					qDebug() << "ActionsEditor::loadActions: action found!";
-					actionsTable->item(row, COL_SHORTCUT)->setText(accelText);
+					table->item(row, COL_SHORTCUT)->setText(accelText);
 				}
 			} else {
 				qDebug() << "ActionsEditor::loadActions: error in line";
@@ -566,9 +574,9 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 		f.close();
 		hasConflicts(); // Check for conflicts
 
-#if !USE_SHORTCUTGETTER
+		#if !USE_SHORTCUTGETTER
 		dont_validate = false;
-#endif
+		#endif
 
 		return true;
 	} else {
@@ -589,14 +597,14 @@ void ActionsEditor::saveToConfig(QObject *o, QSettings *set) {
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
 		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction")) {
-#if USE_MULTIPLE_SHORTCUTS
+			#if USE_MULTIPLE_SHORTCUTS
 			QString accelText = shortcutsToString(action->shortcuts());
-#else
+			#else
 			QString accelText = action->shortcut().toString();
-#endif
+			#endif
 			set->setValue(action->objectName(), accelText);
 		}
-    }
+	}
 
 	set->endGroup();
 }
@@ -614,16 +622,16 @@ void ActionsEditor::loadFromConfig(QObject *o, QSettings *set) {
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
 		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction")) {
-#if USE_MULTIPLE_SHORTCUTS
+			#if USE_MULTIPLE_SHORTCUTS
 			QString current = shortcutsToString(action->shortcuts());
 			accelText = set->value(action->objectName(), current).toString();
 			action->setShortcuts( stringToShortcuts( accelText ) );
-#else
+			#else
 			accelText = set->value(action->objectName(), action->shortcut().toString()).toString();
 			action->setShortcut(QKeySequence(accelText));
-#endif
+			#endif
 		}
-    }
+	}
 
 	set->endGroup();
 }
@@ -636,7 +644,7 @@ QAction * ActionsEditor::findAction(QObject *o, const QString & name) {
 		action = static_cast<QAction*> (actions[n]);
 		/* qDebug("ActionsEditor::findAction: %s", action->objectName().toLatin1().constData()); */
 		if (name == action->objectName()) return action;
-    }
+	}
 
 	return 0;
 }
@@ -653,7 +661,7 @@ QStringList ActionsEditor::actionsNames(QObject *o) {
 		//qDebug("action name: '%s'", action->text().toUtf8().data());
 		if (!action->objectName().isEmpty())
 			l.append( action->objectName() );
-    }
+	}
 
 	return l;
 }
