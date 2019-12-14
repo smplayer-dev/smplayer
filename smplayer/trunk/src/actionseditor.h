@@ -82,8 +82,8 @@ protected:
 
 protected slots:
 	#if !USE_SHORTCUTGETTER
-	void recordAction(QTableWidgetItem*);
-	void validateAction(QTableWidgetItem*);
+	void recordAction(QStandardItem * i);
+	void validateAction(QStandardItem * i);
 	#else
 	void editShortcut();
 	#endif

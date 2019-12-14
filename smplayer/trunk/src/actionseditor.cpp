@@ -345,17 +345,16 @@ void ActionsEditor::applyChanges() {
 }
 
 #if !USE_SHORTCUTGETTER
-void ActionsEditor::recordAction(QTableWidgetItem * i) {
+void ActionsEditor::recordAction(QStandardItem * i) {
 	//qDebug("ActionsEditor::recordAction");
 
-	//QTableWidgetItem * i = actionsTable->currentItem();
 	if (i->column() == COL_SHORTCUT) {
 		//qDebug("ActionsEditor::recordAction: %d %d %s", i->row(), i->column(), i->text().toUtf8().data());
 		oldAccelText = i->text();
 	}
 }
 
-void ActionsEditor::validateAction(QTableWidgetItem * i) {
+void ActionsEditor::validateAction(QStandardItem * i) {
 	//qDebug("ActionsEditor::validateAction");
 	if (dont_validate) return;
 
