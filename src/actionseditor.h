@@ -26,18 +26,19 @@
 #include <QStringList>
 #include "guiconfig.h"
 
-class QTableWidget;
-class QTableWidgetItem;
+class QTableView;
+class QStandardItemModel;
+class QStandardItem;
 class QAction;
 class QSettings;
 class QPushButton;
 
 class ActionsEditor : public QWidget
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    ActionsEditor( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	ActionsEditor( QWidget * parent = 0, Qt::WindowFlags f = 0 );
 	~ActionsEditor();
 
 	// Clear the actionlist
@@ -55,10 +56,10 @@ public:
 	static void saveToConfig(QObject *o, QSettings *set);
 	static void loadFromConfig(QObject *o, QSettings *set);
 
-#if USE_MULTIPLE_SHORTCUTS
+	#if USE_MULTIPLE_SHORTCUTS
 	static QString shortcutsToString(QList <QKeySequence> shortcuts_list);
 	static QList <QKeySequence> stringToShortcuts(QString shortcuts);
-#endif
+	#endif
 
 public slots:
 	void applyChanges();
@@ -80,26 +81,27 @@ protected:
 	static bool containsShortcut(const QString & accel, const QString & shortcut);
 
 protected slots:
-#if !USE_SHORTCUTGETTER
+	#if !USE_SHORTCUTGETTER
 	void recordAction(QTableWidgetItem*);
 	void validateAction(QTableWidgetItem*);
-#else
+	#else
 	void editShortcut();
-#endif
+	#endif
 
 private:
-	QTableWidget *actionsTable;
-    QList<QAction*> actionsList;
+	QTableView *actionsTable;
+	QStandardItemModel * table;
+	QList<QAction*> actionsList;
 	QPushButton *saveButton;
 	QPushButton *loadButton;
 	QString latest_dir;
 
-#if USE_SHORTCUTGETTER
+	#if USE_SHORTCUTGETTER
 	QPushButton *editButton;
-#else
+	#else
 	QString oldAccelText;
 	bool dont_validate;
-#endif
+	#endif
 };
 
 #endif
