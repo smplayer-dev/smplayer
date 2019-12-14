@@ -179,12 +179,12 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	//actionsTable->setItemDelegateForColumn( COL_SHORTCUT, new MyDelegate(actionsTable) );
 
 	#if !USE_SHORTCUTGETTER
-	connect(actionsTable, SIGNAL(currentItemChanged(QTableWidgetItem *,QTableWidgetItem *)),
-            this, SLOT(recordAction(QTableWidgetItem *)) );
-	connect(actionsTable, SIGNAL(itemChanged(QTableWidgetItem *)),
-            this, SLOT(validateAction(QTableWidgetItem *)) );
+	connect(actionsTable->selectionModel(), SIGNAL(currentChanged(const QModelIndex &, const QModelIndex &)),
+            this, SLOT(recordAction(const QModelIndex &)) );
+	connect(table, SIGNAL(itemChanged(QStandardItem *)),
+            this, SLOT(validateAction(QStandardItem *)) );
 	#else
-	connect(actionsTable, SIGNAL(itemActivated(QTableWidgetItem *)),
+	connect(actionsTable, SIGNAL(activated(const QModelIndex &)),
             this, SLOT(editShortcut()) );
 	#endif
 
@@ -345,8 +345,11 @@ void ActionsEditor::applyChanges() {
 }
 
 #if !USE_SHORTCUTGETTER
-void ActionsEditor::recordAction(QStandardItem * i) {
+void ActionsEditor::recordAction(const QModelIndex & index) {
 	//qDebug("ActionsEditor::recordAction");
+
+	int current = index.row();
+	QStandardItem * i = table->item(current, COL_SHORTCUT);
 
 	if (i->column() == COL_SHORTCUT) {
 		//qDebug("ActionsEditor::recordAction: %d %d %s", i->row(), i->column(), i->text().toUtf8().data());

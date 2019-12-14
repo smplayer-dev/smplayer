@@ -29,6 +29,7 @@
 class QTableView;
 class QStandardItemModel;
 class QStandardItem;
+class QModelIndex;
 class QAction;
 class QSettings;
 class QPushButton;
@@ -82,7 +83,7 @@ protected:
 
 protected slots:
 	#if !USE_SHORTCUTGETTER
-	void recordAction(QStandardItem * i);
+	void recordAction(const QModelIndex &);
 	void validateAction(QStandardItem * i);
 	#else
 	void editShortcut();
