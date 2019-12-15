@@ -1939,7 +1939,7 @@ void BaseGui::retranslateStrings() {
 	nextVideoAct->change( tr("Next video") );
 	prevAudioAct->change( tr("Previous audio") );
 	nextAudioAct->change( tr("Next audio") );
-	nextSubtitleAct->change( tr("Previous subtitle") );
+	prevSubtitleAct->change( tr("Previous subtitle") );
 	nextSubtitleAct->change( tr("Next subtitle") );
 	nextChapterAct->change( tr("Next chapter") );
 	prevChapterAct->change( tr("Previous chapter") );
