@@ -30,6 +30,8 @@ class QTableView;
 class QStandardItemModel;
 class QStandardItem;
 class QModelIndex;
+class QSortFilterProxyModel;
+
 class QAction;
 class QSettings;
 class QPushButton;
@@ -92,6 +94,8 @@ protected slots:
 private:
 	QTableView *actionsTable;
 	QStandardItemModel * table;
+	QSortFilterProxyModel * proxy;
+
 	QList<QAction*> actionsList;
 	QPushButton *saveButton;
 	QPushButton *loadButton;
