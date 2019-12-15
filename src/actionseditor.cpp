@@ -271,11 +271,15 @@ void ActionsEditor::addActions(QWidget *widget) {
 			qDebug("ActionsEditor::addActions: action # %d: '%s' menu: %d", n, action->objectName().toUtf8().constData(), action->menu()!=0);
 		}
 		*/
-		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction") && (action->menu()==0) )
-	        actionsList.append(action);
-    }
+		if (!action->objectName().isEmpty() && !action->inherits("QWidgetAction") && (action->menu()==0) ) {
+			actionsList.append(action);
+		}
+	}
 
 	updateView();
+	actionsTable->sortByColumn(COL_CONFLICTS, Qt::AscendingOrder);
+	//actionsTable->sortByColumn(COL_DESC, Qt::AscendingOrder);
+	//actionsTable->horizontalHeader()->setSortIndicator(COL_CONFLICTS, Qt::AscendingOrder);
 }
 
 void ActionsEditor::updateView() {
