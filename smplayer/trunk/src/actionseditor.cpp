@@ -26,7 +26,7 @@
 #include <QSortFilterProxyModel>
 
 #include <QHeaderView>
-
+#include <QLineEdit>
 #include <QLayout>
 #include <QObject>
 #include <QPushButton>
@@ -160,6 +160,9 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 
 	proxy = new QSortFilterProxyModel(this);
 	proxy->setSortRole(Qt::UserRole + 1);
+	proxy->setFilterRole(Qt::UserRole + 1);
+	proxy->setFilterKeyColumn(-1); // All columns
+	proxy->setFilterCaseSensitivity(Qt::CaseInsensitive);
 	proxy->setSourceModel(table);
 
 	actionsTable = new QTableView(this);
@@ -206,12 +209,17 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	connect( editButton, SIGNAL(clicked()), this, SLOT(editShortcut()) );
 	#endif
 
+	filterEdit = new QLineEdit(this);
+	filterEdit->setPlaceholderText(tr("Type to search"));
+	connect(filterEdit, SIGNAL(textChanged(const QString &)), this, SLOT(filterEditChanged(const QString &)));
+
 	QHBoxLayout *buttonLayout = new QHBoxLayout;
 	buttonLayout->setSpacing(8);
 	#if USE_SHORTCUTGETTER
 	buttonLayout->addWidget(editButton);
 	#endif
 	buttonLayout->addStretch(1);
+	buttonLayout->addWidget(filterEdit);
 	buttonLayout->addWidget(loadButton);
 	buttonLayout->addWidget(saveButton);
 
@@ -412,6 +420,10 @@ void ActionsEditor::editShortcut() {
 	}
 }
 #endif
+
+void ActionsEditor::filterEditChanged(const QString & filter) {
+	proxy->setFilterWildcard(filter);
+}
 
 int ActionsEditor::findActionName(const QString & name) {
 	for (int row = 0; row < table->rowCount(); row++) {

@@ -35,6 +35,7 @@ class QSortFilterProxyModel;
 class QAction;
 class QSettings;
 class QPushButton;
+class QLineEdit;
 
 class ActionsEditor : public QWidget
 {
@@ -90,6 +91,7 @@ protected slots:
 	#else
 	void editShortcut();
 	#endif
+	void filterEditChanged(const QString &);
 
 private:
 	QTableView *actionsTable;
@@ -99,6 +101,7 @@ private:
 	QList<QAction*> actionsList;
 	QPushButton *saveButton;
 	QPushButton *loadButton;
+	QLineEdit * filterEdit;
 	QString latest_dir;
 
 	#if USE_SHORTCUTGETTER
