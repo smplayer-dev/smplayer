@@ -23,6 +23,8 @@
 
 #include <QTableView>
 #include <QStandardItemModel>
+#include <QSortFilterProxyModel>
+
 #include <QHeaderView>
 
 #include <QLayout>
@@ -156,8 +158,13 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	table = new QStandardItemModel(this);
 	table->setColumnCount(COL_NAME + 1);
 
+	proxy = new QSortFilterProxyModel(this);
+	proxy->setSortRole(Qt::UserRole + 1);
+	proxy->setSourceModel(table);
+
 	actionsTable = new QTableView(this);
-	actionsTable->setModel(table);
+	actionsTable->setModel(proxy);
+	actionsTable->setSortingEnabled(true);
 
 	actionsTable->setSelectionMode(QAbstractItemView::SingleSelection);
 	actionsTable->setSelectionBehavior(QAbstractItemView::SelectRows);
@@ -310,6 +317,12 @@ void ActionsEditor::updateView() {
 		i_shortcut->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 		#endif
 
+		// Data for sorting
+		i_conf->setData(n);
+		i_name->setData(i_name->text());
+		i_desc->setData(i_desc->text());
+		i_shortcut->setData(i_shortcut->text());
+
 		// Add items to table
 		table->setItem(n, COL_CONFLICTS, i_conf );
 		table->setItem(n, COL_NAME, i_name );
@@ -383,7 +396,8 @@ void ActionsEditor::validateAction(QStandardItem * i) {
 
 void ActionsEditor::editShortcut() {
 	QModelIndex index = actionsTable->currentIndex();
-	int current = index.row();
+	QModelIndex s_index = proxy->mapToSource(index);
+	int current = s_index.row();
 	QStandardItem * i = table->item(current, COL_SHORTCUT);
 	if (i) {
 		ShortcutGetter d(this);
