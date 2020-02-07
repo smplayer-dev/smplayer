@@ -44,15 +44,15 @@ void InfoReaderMPV::getInfo() {
 	vf_list.clear();
 	mplayer_svn = -1;
 
-	vo_list = getList(run("--vo help"));
-	ao_list = getList(run("--ao help"));
+	vo_list = getList(run("--vo=help"));
+	ao_list = getList(run("--ao=help"));
 #if ALLOW_DEMUXER_CODEC_CHANGE
-	demuxer_list = getList(run("--demuxer help"));
-	vc_list = getList(run("--vd help"));
-	ac_list = getList(run("--ad help"));
+	demuxer_list = getList(run("--demuxer=help"));
+	vc_list = getList(run("--vd=help"));
+	ac_list = getList(run("--ad=help"));
 #endif
 	{
-		InfoList list = getList(run("--vf help"));
+		InfoList list = getList(run("--vf=help"));
 		for (int n = 0; n < list.count(); n++) {
 			vf_list.append(list[n].name());
 		}
