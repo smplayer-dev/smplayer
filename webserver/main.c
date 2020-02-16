@@ -1,5 +1,5 @@
 /*  simple_web_server
-    Copyright (C) 2017-2019 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2017-2020 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
