@@ -48,6 +48,8 @@
 #define VF_DEL "del"
 //#define VF_DEL "remove"
 
+#define USE_FILTER_LABELS
+
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
 
@@ -665,9 +667,13 @@ void MPVProcess::setVideoEqualizerOptions(int contrast, int brightness, int hue,
 		#else
 		current_soft_eq = SoftVideoEq(contrast, brightness, hue, saturation, gamma);
 		QString f = videoEqualizerFilter(current_soft_eq);
+		#ifndef USE_FILTER_LABELS
 		arg << "--vf-add=" + f;
 		previous_soft_eq = current_soft_eq;
-		#endif
+		#else
+		arg << "--vf-add=@equalizer:" + f;
+		#endif // USE_FILTER_LABELS
+		#endif // USE_OLD_VIDEO_EQ
 	}
 #ifndef USE_OLD_VIDEO_EQ
 	else
@@ -1465,6 +1471,7 @@ QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
 }
 
 void MPVProcess::updateSoftVideoEqualizerFilter() {
+	#ifndef USE_FILTER_LABELS
 	QString f = videoEqualizerFilter(previous_soft_eq);
 	writeToStdin("vf " VF_DEL " \"" + f + "\"");
 
@@ -1472,5 +1479,10 @@ void MPVProcess::updateSoftVideoEqualizerFilter() {
 	writeToStdin("vf add \"" + f + "\"");
 
 	previous_soft_eq = current_soft_eq;
+	#else
+	writeToStdin("vf " VF_DEL " \"@equalizer\"");
+	QString f = videoEqualizerFilter(current_soft_eq);
+	writeToStdin("vf add \"@equalizer:" + f + "\"");
+	#endif
 }
 #endif
