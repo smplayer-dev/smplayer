@@ -26,6 +26,7 @@
 
 #define OSD_WITH_TIMER
 //#define USE_OLD_VIDEO_EQ
+#define USE_FILTER_LABELS
 
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
@@ -245,13 +246,17 @@ private:
 	int dvd_current_title;
 	int br_current_title;
 
+	#ifndef USE_FILTER_LABELS
 	QString previous_eq;
 	AudioEqualizerList previous_eq_list;
+	#endif
 
 #ifndef USE_OLD_VIDEO_EQ
 	bool use_soft_eq;
 	SoftVideoEq current_soft_eq;
+	#ifndef USE_FILTER_LABELS
 	SoftVideoEq previous_soft_eq;
+	#endif
 #endif
 
 #ifdef CAPTURE_STREAM
