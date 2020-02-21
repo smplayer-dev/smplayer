@@ -268,6 +268,8 @@ private:
 #endif
 
 	bool use_osd_in_commands;
+	QString vf_delete;
+	QString af_delete;
 
 	// Regular expressions
 	QRegExp rx_av;
