@@ -172,9 +172,14 @@ QStringList InfoReaderMPV::getOptionsList(const QList<QByteArray> & lines) {
 		line.replace("\n", "");
 		line = line.simplified();
 		if (line.startsWith("--")) {
+			QString option_name;
 			int pos = line.indexOf(' ');
 			if (pos > -1) {
-				QString option_name = line.left(pos);
+				option_name = line.left(pos);
+			} else {
+				option_name = line;
+			}
+			if (!option_name.isEmpty()) {
 				//qDebug() << "InfoReaderMPV::getOptionsList: option:" << option_name;
 				l << option_name;
 			}
