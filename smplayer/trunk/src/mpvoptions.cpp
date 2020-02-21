@@ -43,11 +43,6 @@
 #define OSD_PREFIX use_osd_in_commands ? "" : "no-osd"
 //#define OSD_PREFIX ""
 
-// Option 'vf del' is deprecated,
-// but 'vf remove' requires mpv 0.26 or so
-#define VF_DEL "del"
-//#define VF_DEL "remove"
-
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -63,6 +58,16 @@ void MPVProcess::initializeOptionVars() {
 #endif
 
 	use_osd_in_commands = true;
+
+	vf_delete = "del";
+	af_delete = "del";
+
+	if (isOptionAvailable("--vf-remove")) {
+		vf_delete = "remove";
+	}
+	if (isOptionAvailable("--af-remove")) {
+		af_delete = "remove";
+	}
 }
 
 void MPVProcess::setMedia(const QString & media, bool is_playlist) {
@@ -1000,12 +1005,12 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	#ifndef USE_FILTER_LABELS
 	if (previous_eq == eq_filter) return;
 	if (!previous_eq.isEmpty()) {
-		writeToStdin("af " VF_DEL " \"" + previous_eq + "\"");
+		writeToStdin("af " + af_delete + " \"" + previous_eq + "\"");
 	}
 	writeToStdin("af add \"" + eq_filter + "\"");
 	previous_eq = eq_filter;
 	#else
-	writeToStdin("af " VF_DEL " \"@aeq\"");
+	writeToStdin("af " + af_delete + " \"@aeq\"");
 	writeToStdin("af add \"@aeq:" + eq_filter + "\"");
 	#endif
 
@@ -1142,7 +1147,7 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 
 	if (!f.isEmpty()) {
-		writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : VF_DEL).arg(f));
+		writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : vf_delete).arg(f));
 	}
 }
 
@@ -1157,7 +1162,7 @@ void MPVProcess::changeAF(const QString & filter, bool enable, const QVariant & 
 	}
 
 	if (!f.isEmpty()) {
-		writeToStdin(QString("af %1 \"%2\"").arg(enable ? "add" : VF_DEL).arg(f));
+		writeToStdin(QString("af %1 \"%2\"").arg(enable ? "add" : af_delete).arg(f));
 	}
 }
 
@@ -1169,7 +1174,7 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 	if (!out.isEmpty()) output = "out=" + out;
 
 	QString filter = "lavfi=[stereo3d=" + input + output + "]";
-	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : VF_DEL).arg(filter));
+	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : vf_delete).arg(filter));
 }
 
 #if 0
@@ -1479,12 +1484,12 @@ QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
 void MPVProcess::updateSoftVideoEqualizerFilter() {
 	#ifndef USE_FILTER_LABELS
 	QString f = videoEqualizerFilter(previous_soft_eq);
-	writeToStdin("vf " VF_DEL " \"" + f + "\"");
+	writeToStdin("vf " + vf_delete + " \"" + f + "\"");
 	f = videoEqualizerFilter(current_soft_eq);
 	writeToStdin("vf add \"" + f + "\"");
 	previous_soft_eq = current_soft_eq;
 	#else
-	writeToStdin("vf " VF_DEL " \"@veq\"");
+	writeToStdin("vf " + vf_delete + " \"@veq\"");
 	QString f = videoEqualizerFilter(current_soft_eq);
 	writeToStdin("vf add \"@veq:" + f + "\"");
 	#endif
