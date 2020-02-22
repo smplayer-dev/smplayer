@@ -34,7 +34,7 @@
 #include "inforeadermplayer.h"
 #endif
 
-#define INFOREADER_SAVE_VERSION 2
+#define INFOREADER_SAVE_VERSION 3
 
 using namespace Global;
 
