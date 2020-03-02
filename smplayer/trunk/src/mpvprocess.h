@@ -27,9 +27,7 @@
 #define OSD_WITH_TIMER
 //#define USE_OLD_VIDEO_EQ
 
-#ifdef SIMPLE_EQUALIZER
 #define USE_FILTER_LABELS
-#endif
 
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
