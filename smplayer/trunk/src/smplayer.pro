@@ -624,7 +624,8 @@ os2 {
 }
 
 
-TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
+TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
+               translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \
                translations/smplayer_fr.ts translations/smplayer_zh_CN.ts \
                translations/smplayer_ru_RU.ts translations/smplayer_hu.ts \
