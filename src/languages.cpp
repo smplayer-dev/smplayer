@@ -244,7 +244,8 @@ QMap<QString,QString> Languages::translations() {
 	m["en"] = "English";
 	m["en_GB"] = "British English";
 	m["en_US"] = "American English";
-	m["es"] =  QString::fromUtf8("Español"); //tr("Spanish");
+	m["es"] =  QString::fromUtf8("Español");
+	m["es_ES"] =  QString::fromUtf8("Español - España");
 	m["et"] = "Eesti"; //tr("Estonian");
 	m["eu"] = "Euskara"; //tr("Basque");
 	m["fa"] = QString::fromUtf8("فارسی"); //tr("Persian");
