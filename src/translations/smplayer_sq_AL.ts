@@ -150,76 +150,81 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Name</source>
         <translation>Emri</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Description</source>
         <translation>Përshkrimi</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Shortcut</source>
         <translation>Shortcut</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="221"/>
+        <location filename="../actionseditor.cpp" line="242"/>
         <source>&amp;Save</source>
         <translation>&amp;Ruaj</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="224"/>
+        <location filename="../actionseditor.cpp" line="245"/>
         <source>&amp;Load</source>
         <translation>&amp;Kariko</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="463"/>
-        <location filename="../actionseditor.cpp" line="513"/>
+        <location filename="../actionseditor.cpp" line="503"/>
+        <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
         <translation>Key file</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="461"/>
+        <location filename="../actionseditor.cpp" line="501"/>
         <source>Choose a filename</source>
         <translation>Zgjidh një emër file-i</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="472"/>
+        <location filename="../actionseditor.cpp" line="213"/>
+        <source>Type to search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../actionseditor.cpp" line="512"/>
         <source>Confirm overwrite?</source>
         <translation>Konfirmo mbishkruajtjen?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="473"/>
+        <location filename="../actionseditor.cpp" line="513"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>File-i %1 egziston.
 Deshironi ta mbishkruani?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="512"/>
+        <location filename="../actionseditor.cpp" line="552"/>
         <source>Choose a file</source>
         <translation>Zgjidh një file</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="485"/>
-        <location filename="../actionseditor.cpp" line="519"/>
+        <location filename="../actionseditor.cpp" line="525"/>
+        <location filename="../actionseditor.cpp" line="559"/>
         <source>Error</source>
         <translation>Gabim</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="486"/>
+        <location filename="../actionseditor.cpp" line="526"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>File-i nuk mund te ruhej</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="520"/>
+        <location filename="../actionseditor.cpp" line="560"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>File-i nuk mund te karikohej</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="228"/>
+        <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
         <translation>&amp;Fshij shortcut-et...</translation>
     </message>
@@ -3553,7 +3558,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Arabic</source>
         <translation>Arabishtë</translation>
     </message>
@@ -3579,7 +3584,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Bulgarian</source>
         <translation>Bullgarisht</translation>
     </message>
@@ -3620,7 +3625,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Czech</source>
         <translation>Cekisht</translation>
     </message>
@@ -3664,7 +3669,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Estonian</source>
         <translation>Estonisht</translation>
     </message>
@@ -3737,13 +3742,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Croatian</source>
         <translation>Kroate</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Hungarian</source>
         <translation>Hungarisht</translation>
     </message>
@@ -3846,13 +3851,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Lithuanian</source>
         <translation>Lituanisht</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Latvian</source>
         <translation>Latvian</translation>
     </message>
@@ -3945,7 +3950,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Polish</source>
         <translation>Polonisht</translation>
     </message>
@@ -3968,8 +3973,8 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="308"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Russian</source>
         <translation>Rusisht</translation>
     </message>
@@ -3990,7 +3995,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovak</source>
         <translation>Slovakisht</translation>
     </message>
@@ -4077,7 +4082,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Turkish</source>
         <translation>Turkish</translation>
     </message>
@@ -4103,7 +4108,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Ukrainian</source>
         <translation>Ukrainisht</translation>
     </message>
@@ -4150,7 +4155,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="339"/>
+        <location filename="../languages.cpp" line="340"/>
         <source>Chinese</source>
         <translation>Kineze</translation>
     </message>
@@ -4165,112 +4170,112 @@ Please check the permissions of that folder.</source>
         <translation>Arabisht - Siri</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages</source>
         <translation>Western European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Western European Languages with Euro</source>
         <translation>Western European Languages with Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slavic/Central European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galician, Maltese, Turkish</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Old Baltic charset</source>
         <translation>Old Baltic charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Cyrillic</source>
         <translation>Cyrillic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Modern Greek</source>
         <translation>Greqishte moderne</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Baltic</source>
         <translation>Baltik</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Celtic</source>
         <translation>Celtic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>South-Eastern European</source>
         <translation>Europa Jug-Lindore</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Hebrew charsets</source>
         <translation>Charset-i Hebrew </translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukraine, </translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Simplified Chinese charset</source>
         <translation>Simplified Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Traditional Chinese charset</source>
         <translation>Traditional Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Japanese charsets</source>
         <translation>Japanese charsets</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Korean charset</source>
         <translation>Korean charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Thai charset</source>
         <translation>Thai charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Cyrillic Windows</source>
         <translation>Cyrillic Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavic/Central European Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Arabic Windows</source>
         <translation>Windows Arabishtë</translation>
     </message>
@@ -4296,7 +4301,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Belarusian</source>
         <translation>Bjellorusisht</translation>
     </message>
@@ -4558,7 +4563,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Slovene</source>
         <translation>Slovenishtë</translation>
     </message>
@@ -4598,7 +4603,7 @@ Please check the permissions of that folder.</source>
         <translation>Walloon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="318"/>
+        <location filename="../languages.cpp" line="319"/>
         <source>Modern Greek Windows</source>
         <translation>Greqishte moderne</translation>
     </message>
@@ -4663,78 +4668,78 @@ Deshironi ta mbishkruani?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="193"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Video:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Resolution:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Frames per second:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Estimated:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Bitrate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Dropped frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Audio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Sample Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Channels:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Audio/video synchronization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Cache fill:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Used cache:</source>
         <translation type="unfinished"></translation>
     </message>

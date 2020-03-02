@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Кликните овде да видите преводиоце из transifex тимова</translation>
+        <translation>Кликните овде да видите преводиоце из Трансифекс тимова</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -114,7 +114,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
-        <translation>Преносива едиција</translation>
+        <translation>Преносиво издање</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
@@ -150,76 +150,81 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Name</source>
         <translation>ИмеИме</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Description</source>
         <translation>Опис</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Shortcut</source>
         <translation>Пречица</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="221"/>
+        <location filename="../actionseditor.cpp" line="242"/>
         <source>&amp;Save</source>
         <translation>&amp;Сачувај</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="224"/>
+        <location filename="../actionseditor.cpp" line="245"/>
         <source>&amp;Load</source>
         <translation>&amp;Учитај</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="463"/>
-        <location filename="../actionseditor.cpp" line="513"/>
+        <location filename="../actionseditor.cpp" line="503"/>
+        <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
         <translation>Кључни фајлови</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="461"/>
+        <location filename="../actionseditor.cpp" line="501"/>
         <source>Choose a filename</source>
         <translation>Изабери име фајла</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="472"/>
+        <location filename="../actionseditor.cpp" line="213"/>
+        <source>Type to search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../actionseditor.cpp" line="512"/>
         <source>Confirm overwrite?</source>
         <translation>Потврди преписивање?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="473"/>
+        <location filename="../actionseditor.cpp" line="513"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Фајл %1 већ постоји
 Да ли желите да га препишеш?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="512"/>
+        <location filename="../actionseditor.cpp" line="552"/>
         <source>Choose a file</source>
         <translation>Изабери фајл</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="485"/>
-        <location filename="../actionseditor.cpp" line="519"/>
+        <location filename="../actionseditor.cpp" line="525"/>
+        <location filename="../actionseditor.cpp" line="559"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="486"/>
+        <location filename="../actionseditor.cpp" line="526"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Фајл не може да се сачува</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="520"/>
+        <location filename="../actionseditor.cpp" line="560"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>Фајл не може да се учита</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="228"/>
+        <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
         <translation>&amp;Промени пречицу...</translation>
     </message>
@@ -1146,12 +1151,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Претходни видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Претходни звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1161,7 +1166,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Претходни титл</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1332,7 +1337,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Потребно је поново покренути СМПлејер за прихватање нових поставки.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4582"/>
@@ -1414,7 +1419,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6084"/>
         <location filename="../basegui.cpp" line="6137"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Више информација у дневнику.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6090"/>
@@ -2046,7 +2051,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Телефон/таблет</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2227,12 +2232,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>СМПлејер веб сервер је покренут</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Заустави СМПлејер веб сервер</translation>
     </message>
 </context>
 <context>
@@ -2981,7 +2986,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Повезивање...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
@@ -2997,7 +3002,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Сачувај фајл</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
@@ -3062,22 +3067,22 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Видео фајл:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Претражи за &amp;титл:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation type="unfinished"></translation>
+        <translation>Унеси овде име за филм или ТВ шоу</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тражи</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -3157,57 +3162,57 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери пречице за СМПлејер снимање.</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија &amp;Емитуј</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија &amp;Заустави</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија Прет&amp;ходно</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија &amp;Следеће</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија П&amp;ауза</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија &amp;Сними</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Медија &amp;Утишај</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Звук &amp;Смањи</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Звук &amp;Повећај</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Опште пречице</translation>
     </message>
 </context>
 <context>
@@ -3342,7 +3347,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Видео стримови</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3379,7 +3384,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="248"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Нумера %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="251"/>
@@ -3413,7 +3418,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Почетни видео стрим</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -3560,7 +3565,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Arabic</source>
         <translation>Арапски</translation>
     </message>
@@ -3586,7 +3591,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Bulgarian</source>
         <translation>Бугарски</translation>
     </message>
@@ -3627,7 +3632,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Czech</source>
         <translation>Чешки</translation>
     </message>
@@ -3671,7 +3676,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Estonian</source>
         <translation>Естонски</translation>
     </message>
@@ -3744,13 +3749,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Croatian</source>
         <translation>Хрватски</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Hungarian</source>
         <translation>Мађарски</translation>
     </message>
@@ -3853,13 +3858,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Lithuanian</source>
         <translation>Литвански</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Latvian</source>
         <translation>Латвијски</translation>
     </message>
@@ -3952,7 +3957,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Polish</source>
         <translation>Пољски</translation>
     </message>
@@ -3975,8 +3980,8 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="308"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Russian</source>
         <translation>Руски</translation>
     </message>
@@ -3997,7 +4002,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovak</source>
         <translation>Словачки</translation>
     </message>
@@ -4084,7 +4089,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Turkish</source>
         <translation>Турски</translation>
     </message>
@@ -4110,7 +4115,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Ukrainian</source>
         <translation>Украински</translation>
     </message>
@@ -4157,7 +4162,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="339"/>
+        <location filename="../languages.cpp" line="340"/>
         <source>Chinese</source>
         <translation>Кинески</translation>
     </message>
@@ -4172,112 +4177,112 @@ Please check the permissions of that folder.</source>
         <translation>Aрапски - Сирија</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Unicode</source>
         <translation>Уникод</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages</source>
         <translation>Западно Европски Језици</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Western European Languages with Euro</source>
         <translation>Западно Европски Језици са Евро Знаком</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Slavic/Central European Languages</source>
         <translation>Словенски/Централно Европски Језици</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Есперанто, Галски, Малтезе, Турски</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Old Baltic charset</source>
         <translation>Старoбалтичко кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Cyrillic</source>
         <translation>Ћирилица</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Modern Greek</source>
         <translation>Модерни грчки</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Baltic</source>
         <translation>Балтички</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Celtic</source>
         <translation>Келтски</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>South-Eastern European</source>
         <translation>Југоисточно-европски </translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Hebrew charsets</source>
         <translation>Хебрејско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Украински, Белоруски</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Simplified Chinese charset</source>
         <translation>Упрошћено кинеско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Traditional Chinese charset</source>
         <translation>Традиционално кинеско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Japanese charsets</source>
         <translation>Јапанско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Korean charset</source>
         <translation>Корејско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Thai charset</source>
         <translation>Тајландско кодирање</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Cyrillic Windows</source>
         <translation>Ћирилица Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Slavic/Central European Windows</source>
         <translation>Словенски/Централно Европски Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Arabic Windows</source>
         <translation>Арапски Windows</translation>
     </message>
@@ -4303,7 +4308,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Belarusian</source>
         <translation>Белоруски</translation>
     </message>
@@ -4565,7 +4570,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Slovene</source>
         <translation>Словеначки</translation>
     </message>
@@ -4605,7 +4610,7 @@ Please check the permissions of that folder.</source>
         <translation>Валонски</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="318"/>
+        <location filename="../languages.cpp" line="319"/>
         <source>Modern Greek Windows</source>
         <translation>Модерни грчки Windows</translation>
     </message>
@@ -4670,78 +4675,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="193"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>Филтер &apos;%1&apos; није подржан од мпв</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>File:</source>
         <translation>Фајл:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Video:</source>
         <translation>Видео:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Resolution:</source>
         <translation>Резолуција:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Frames per second:</source>
         <translation>Фрејмова по секунди:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Estimated:</source>
         <translation>Процењено:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Aspect Ratio:</source>
         <translation>Однос аспекта:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Bitrate:</source>
         <translation>Битрејт:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Dropped frames:</source>
         <translation>Испуштени фрејмови:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Audio:</source>
         <translation>Аудио:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Sample Rate:</source>
         <translation>Оцена узорка:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Channels:</source>
         <translation>Канали:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Audio/video synchronization:</source>
         <translation>Аудио/Видео синхронизација:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Used cache:</source>
         <translation>Коришћени кеш:</translation>
     </message>
@@ -4838,7 +4843,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation>Пусти на уређај</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
@@ -6801,7 +6806,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Одабери &amp;тастере...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -8047,7 +8052,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Плејбек &amp;квалитет:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
@@ -8062,7 +8067,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Кориснички агент:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="234"/>
@@ -8930,7 +8935,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Прозор са плеј листом је прикачен</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
@@ -9105,7 +9110,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Прозор са плеј листом је &amp;прикачен</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
@@ -10017,7 +10022,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>време</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10725,7 +10730,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>

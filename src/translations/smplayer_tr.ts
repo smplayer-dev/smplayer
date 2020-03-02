@@ -150,76 +150,81 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Name</source>
         <translation>İsim</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Description</source>
         <translation>Tanım</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="240"/>
         <source>Shortcut</source>
         <translation>Kısayol</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="221"/>
+        <location filename="../actionseditor.cpp" line="242"/>
         <source>&amp;Save</source>
         <translation>&amp;Kaydet</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="224"/>
+        <location filename="../actionseditor.cpp" line="245"/>
         <source>&amp;Load</source>
         <translation>&amp;Yükle</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="463"/>
-        <location filename="../actionseditor.cpp" line="513"/>
+        <location filename="../actionseditor.cpp" line="503"/>
+        <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
         <translation>Anahtar dosyaları</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="461"/>
+        <location filename="../actionseditor.cpp" line="501"/>
         <source>Choose a filename</source>
         <translation>Bir dosya ismi seçin</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="472"/>
+        <location filename="../actionseditor.cpp" line="213"/>
+        <source>Type to search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../actionseditor.cpp" line="512"/>
         <source>Confirm overwrite?</source>
         <translation>Üstüne yazmayı onaylıyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="473"/>
+        <location filename="../actionseditor.cpp" line="513"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>%1 dosyası zaten var. 
 Üstüne yazmak istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="512"/>
+        <location filename="../actionseditor.cpp" line="552"/>
         <source>Choose a file</source>
         <translation>Bir dosya seçin</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="485"/>
-        <location filename="../actionseditor.cpp" line="519"/>
+        <location filename="../actionseditor.cpp" line="525"/>
+        <location filename="../actionseditor.cpp" line="559"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="486"/>
+        <location filename="../actionseditor.cpp" line="526"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Dosya kaydedilemedi</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="520"/>
+        <location filename="../actionseditor.cpp" line="560"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>Dosya yüklenemedi</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="228"/>
+        <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
         <translation>&amp;Kısayolu değiştir...</translation>
     </message>
@@ -1085,7 +1090,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1907"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamanı %milisaniye olarak göster</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -1145,12 +1150,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1938"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Önceki video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Önceki şarkı</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1160,7 +1165,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Önceki altyazı</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1331,7 +1336,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="3312"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni tercihleri uygulamak için SMPlayer&apos;ı yeniden başlatmanız gerekir.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4582"/>
@@ -1413,7 +1418,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <location filename="../basegui.cpp" line="6084"/>
         <location filename="../basegui.cpp" line="6137"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Daha fazla bilgi günlükte.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6090"/>
@@ -1435,7 +1440,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="6117"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Microsoft Visual C ++ 2010 Yeniden Dağıtılabilir Paketi&apos;ni (x86) yüklemek sorunu çözebilir.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6119"/>
@@ -2035,17 +2040,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"></translation>
+        <translation>Şuraya &amp;yayınla</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Akıllı telefon/tablet</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2226,12 +2231,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer web sunucusu çalışıyor</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer web sunucusunu &amp;durdur</translation>
     </message>
 </context>
 <context>
@@ -2448,12 +2453,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="706"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bit oranı bilgisi</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="707"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçerli saati milisaniye olarak &amp;göster</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
@@ -2484,7 +2489,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="772"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -2882,7 +2887,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arama &amp;yöntemi:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
@@ -2975,7 +2980,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 tarafından desteklenen altyazı hizmeti</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
@@ -2996,7 +3001,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosyayı Kaydet</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
@@ -3059,7 +3064,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Video dosyası:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
@@ -3069,12 +3074,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation type="unfinished"></translation>
+        <translation>Buraya bir film veya TV gösterisi başlığı yazın</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Arama</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -3154,7 +3159,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayerin tutacağı çokluortam tuşlarını seçin</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
@@ -3189,22 +3194,22 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses düzeyi &amp;Sessiz</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses düzeyi &amp;Kıs</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses düzeyi &amp;Yükselt</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Evrensel Kısayollar</translation>
     </message>
 </context>
 <context>
@@ -3339,7 +3344,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Video Akışları</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3410,7 +3415,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>İlk Video Akışı</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -3557,7 +3562,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Arabic</source>
         <translation>Arapça</translation>
     </message>
@@ -3583,7 +3588,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Bulgarian</source>
         <translation>Bulgarca</translation>
     </message>
@@ -3624,7 +3629,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Czech</source>
         <translation>Çekçe</translation>
     </message>
@@ -3668,7 +3673,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Estonian</source>
         <translation>Estonca</translation>
     </message>
@@ -3741,13 +3746,13 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Croatian</source>
         <translation>Hırvatça</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Hungarian</source>
         <translation>Macarca</translation>
     </message>
@@ -3850,13 +3855,13 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Lithuanian</source>
         <translation>Litvanyaca</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Latvian</source>
         <translation>Letonca</translation>
     </message>
@@ -3949,7 +3954,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Polish</source>
         <translation>Lehçe</translation>
     </message>
@@ -3972,8 +3977,8 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="308"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Russian</source>
         <translation>Rusça</translation>
     </message>
@@ -3994,7 +3999,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovak</source>
         <translation>Slovakça</translation>
     </message>
@@ -4081,7 +4086,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Turkish</source>
         <translation>Türkçe</translation>
     </message>
@@ -4107,7 +4112,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Ukrainian</source>
         <translation>Ukraynaca</translation>
     </message>
@@ -4154,7 +4159,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="339"/>
+        <location filename="../languages.cpp" line="340"/>
         <source>Chinese</source>
         <translation>Çince</translation>
     </message>
@@ -4169,112 +4174,112 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Arapça - Suriye</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages</source>
         <translation>Batı Avrupa Dilleri</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Western European Languages with Euro</source>
         <translation>Batı Avrupa Dilleri (€ içeren)</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slav/Orta Avrupa Dilleri</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galiçyaca, Maltaca, Türkçe</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Old Baltic charset</source>
         <translation>Eski Baltık Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Cyrillic</source>
         <translation>Kiril Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Modern Greek</source>
         <translation>Çağdaş Yunanca</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Baltic</source>
         <translation>Baltık Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Celtic</source>
         <translation>Keltçe</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>South-Eastern European</source>
         <translation>Güney Doğu Avrupa</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Hebrew charsets</source>
         <translation>İbranice</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukraynaca, Beyaz Rusça</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Simplified Chinese charset</source>
         <translation>Basitleştirilmiş Çin Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Traditional Chinese charset</source>
         <translation>Geleneksel Çin Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Japanese charsets</source>
         <translation>Japon Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Korean charset</source>
         <translation>Kore Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Thai charset</source>
         <translation>Tay Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Cyrillic Windows</source>
         <translation>Kiril Alfabesi Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slav/Orta Avrupa Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Arabic Windows</source>
         <translation>Arapça Windows</translation>
     </message>
@@ -4300,7 +4305,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Belarusian</source>
         <translation>Belarusça</translation>
     </message>
@@ -4562,7 +4567,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Slovene</source>
         <translation>Slovence</translation>
     </message>
@@ -4602,7 +4607,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Valon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="318"/>
+        <location filename="../languages.cpp" line="319"/>
         <source>Modern Greek Windows</source>
         <translation>Modern Yunan Windows</translation>
     </message>
@@ -4667,78 +4672,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="189"/>
+        <location filename="../mpvprocess.h" line="193"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;% 1&apos; filtresi mpv tarafından desteklenmiyor</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="190"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>File:</source>
         <translation>Dosya:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="191"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="192"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Resolution:</source>
         <translation>Çözünürlük:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Frames per second:</source>
         <translation>Saniyedeki kare sayısı</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Estimated:</source>
         <translation>Tahmin edilen:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Aspect Ratio:</source>
         <translation>En/Boy Oranı</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Bitrate:</source>
         <translation>Bit oranı</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>Dropped frames:</source>
         <translation>Atlanan kare:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Audio:</source>
         <translation>Ses:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Sample Rate:</source>
         <translation>Örnekleme hızı:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Channels:</source>
         <translation>Kanallar:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Audio/video synchronization:</source>
         <translation>Ses/görüntü eşzamanlaması:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Cache fill:</source>
         <translation>Önbellek şişkin:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Used cache:</source>
         <translation>Kullanılan önbellek:</translation>
     </message>
@@ -4835,17 +4840,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation>Aygıtda oynat</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu videoyu bir akıllı telefonda veya tablette oynatmak için, bu QR kodunu aygıtınız ile tarayın:</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veya bu internet adresini aygıtınızın ortam oynatıcısında açın:</translation>
     </message>
 </context>
 <context>
@@ -4956,17 +4961,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="690"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;İnternet Adresinden çalma listesi yükle...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromec&amp;ast&apos;da çal</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="731"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Akışı &amp;web tarayıcıda aç</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="746"/>
@@ -5082,12 +5087,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="725"/>
         <location filename="../playlist.cpp" line="1521"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya yolunu panoya &amp;kopyala</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="726"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaynak klasörünü &amp;aç</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="734"/>
@@ -5118,7 +5123,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1526"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>İnternet adresini panoya &amp;kopyala</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1999"/>
@@ -5307,7 +5312,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Sınırlama: eylemler, % 1 işlemi yeniden başlatıldığında değil, yalnızca bir dosya açıldığında çalıştırılır (örn. Bir ses veya video filtresi seçerseniz).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
@@ -5417,7 +5422,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçeneği işaretlerseniz, her yeni dosya çalmaya başladığında % 1 günlüğü belirtilen dosyaya kaydedilir. Harici uygulamalar için tasarlanmıştır, böylece oynattığınız dosya hakkında bilgi alabilirler.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
@@ -5427,7 +5432,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kaydının tutulacağı dosyanın klasör yolunu ve adını girin.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
@@ -5487,7 +5492,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD çubuğu konumu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
@@ -5497,7 +5502,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>%1&apos;i kendi penceresinde çalıştır</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
@@ -5507,7 +5512,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 çökmesini bildir</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
@@ -5527,7 +5532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayerin %1 seçeneğine geç (güvenlik riski)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
@@ -7289,7 +7294,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir işlev olarak aramayı etkinleştirdiğinizi onaylayın.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="442"/>
@@ -7650,7 +7655,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="226"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasik</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="238"/>
@@ -8053,7 +8058,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Mümkünse &amp;60 fps kullan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
@@ -8063,7 +8068,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="234"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="240"/>
@@ -8083,7 +8088,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yerel &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="325"/>
@@ -8229,7 +8234,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="300"/>
         <source>Preferred quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeğlenen kalite</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="301"/>
@@ -8245,7 +8250,7 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="108"/>
         <location filename="../prefnetwork.cpp" line="304"/>
         <source>Best</source>
-        <translation type="unfinished"></translation>
+        <translation>En iyi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="304"/>
@@ -8255,7 +8260,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="305"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"></translation>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="305"/>
@@ -8290,7 +8295,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Mümkünse 60 fps kullan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="323"/>
@@ -8305,12 +8310,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="341"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Yerel IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8325,7 +8330,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Dizin listeleme</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="351"/>
@@ -8910,12 +8915,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="195"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden oynatma hatalarını yoksay</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosyaları çalma listesine otomatik olarak ekle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="205"/>
@@ -8925,7 +8930,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Çalma listesi penceresi kenetlenebilir</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
@@ -8935,7 +8940,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Çeşitli</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
@@ -8950,7 +8955,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Büyük/küçük harfe duyarlı arama</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="236"/>
@@ -8960,7 +8965,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="238"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Çıkarken çalma listesinin kopyasını kaydet</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="239"/>
@@ -8970,7 +8975,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="244"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Diskten dosyaları silme seçeneğini etkinleştir</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="245"/>
@@ -9015,7 +9020,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek  çalma listesine otomatik olarak dosya eklemek için kullanılabilir:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -9025,7 +9030,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek etkinleştirilirse, çalma listesi önceki dosyadaki çalma hatalarını yoksayacak ve listedeki bir sonraki dosyayı yürütecek.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -9075,7 +9080,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden oynatma hatalarını yok&amp;say</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -9085,7 +9090,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosyaları çalma listesine otomatik olarak &amp;ekle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9100,12 +9105,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>Çalma listesi penceresi &amp;kenetlenebilir</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Çeşitli</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
@@ -9120,12 +9125,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="198"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Çıkarken çalma listesinin kopyasını &amp;kaydet</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Diskten dosyaları silme seçeneğini etkinleştir</translation>
     </message>
 </context>
 <context>
@@ -9187,12 +9192,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Filmin adını içeren tüm altyazılar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Dizindeki tüm altyazılar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9482,7 +9487,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Donukluk:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="730"/>
@@ -9600,7 +9605,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="462"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu, birden çok satırı ayırmak için kullanılacak aralığı belirtir. Negatif değerlere sahip olabilir.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
@@ -9743,7 +9748,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek etkinleştirilirse, SMPlayer ~/.mplayer/channel.conf.ter veya ~/.mplayer/channel.conf kanallarında yeni TV ve radyo kanalları arayacaktır.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -9801,12 +9806,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Yükseltmeden sonra bir bilgilendirme sayfası aç</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek etkinleştirilirse, yükseltme işleminden sonra SMPlayer hakkında bilgilendirici bir sayfa açılır.</translation>
     </message>
 </context>
 <context>
@@ -10008,7 +10013,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>zaman</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10018,17 +10023,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>üstte kalma seçeneğini her zaman olarak ayarlar.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>üstte kalma seçeneğini hiçbir zaman olarak ayarlar.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>ilk video için ortam başlığını ayarlar.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
@@ -10059,12 +10064,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (gözden geçirme %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (gözden geçirme %2)</translation>
     </message>
 </context>
 <context>
@@ -10166,7 +10171,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden oynatma bitti. SMPlayer çıkmak üzere.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
@@ -10242,12 +10247,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"></translation>
+        <translation>Videonun 3 boyutlu biçimi:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation>&amp;Çıkış biçimi:</translation>
+        <translation>&amp;Çıktı biçimi:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -10297,47 +10302,47 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı kırmızı/mavi yarı renkli</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı kırmızı/mavi renk</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubois&apos;in en küçük kareler izdüşümü ile eniyileştirilmiş renk karışımı kırmızı / mavi renk</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı yeşil/eflatun gri</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı yeşil/eflatun yarı renkli</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı yeşil/eflatun renkli</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı sarı/mavi gri</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı sarı/mavi yarı renkli</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı sarı/mavi renkli</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
@@ -10416,7 +10421,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Arama</translation>
     </message>
 </context>
 <context>
@@ -10716,7 +10721,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>FPS: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
@@ -10746,7 +10751,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>Küçük resimler oluşturulurken aşağıdaki hata oluştu:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="240"/>
@@ -10786,7 +10791,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="651"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video hakkında bilgi almaya çalışırken mplayer işlemi başlamadı</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="231"/>
@@ -10906,12 +10911,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçeneği işaretlerseniz, oynatma süresi her küçük resmin altında görüntülenecek.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Videonun en boy oranı yanlışsa, burada farklı bir tane belirleyebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
@@ -10921,12 +10926,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek, oluşturulan ön izleme görüntüsünün sahip olacağı piksel cinsinden maksimum genişliği belirtir.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Önizlemeyi oluşturmak için bazı kareler videodan çıkarılacak. Çıkarılan kareler için görüntü formatını buradan seçebilirsiniz. PNG daha iyi kalite verebilir.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
