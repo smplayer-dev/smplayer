@@ -160,6 +160,9 @@ protected:
 	void toggleInfoOnOSD();
 #endif
 
+	QString VFDeleteCmd();
+	QString AFDeleteCmd();
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
@@ -269,8 +272,6 @@ private:
 #endif
 
 	bool use_osd_in_commands;
-	QString vf_delete;
-	QString af_delete;
 
 	// Regular expressions
 	QRegExp rx_av;
