@@ -188,7 +188,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>Rašykite norėdami atlikti paiešką</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -1418,7 +1418,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <location filename="../basegui.cpp" line="6084"/>
         <location filename="../basegui.cpp" line="6137"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Daugiau informacijos žurnale.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6090"/>
@@ -2806,17 +2806,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Maiša</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Failo pavadinimas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Maiša ir failo pavadinimas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2881,7 +2881,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>General</source>
-        <translation type="unfinished">Bendra</translation>
+        <translation>Bendra</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
@@ -4673,78 +4673,78 @@ Norite perrašyti?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>File:</source>
         <translation>Failas:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Resolution:</source>
         <translation>Raiška:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Frames per second:</source>
         <translation>Kadrų per sekundę:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Estimated:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Aspect Ratio:</source>
         <translation>Kraštinių santykis:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Bitrate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Dropped frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Sample Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Channels:</source>
         <translation>Kanalai:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Audio/video synchronization:</source>
         <translation>Audio/video sinchronizavimas:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Cache fill:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Used cache:</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es">
+<TS version="2.0" language="es_ES">
 <context>
     <name>About</name>
     <message>
@@ -4673,78 +4673,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>el filtro &apos;%1&apos; no es soportado por mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>File:</source>
         <translation>Fichero:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Video:</source>
         <translation>Vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Resolution:</source>
         <translation>Resolución:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Frames per second:</source>
         <translation>Fotogramas por segundo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Estimated:</source>
         <translation>Estimado:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Aspect Ratio:</source>
         <translation>Relación de aspecto:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Bitrate:</source>
         <translation>Tasa de bits:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Dropped frames:</source>
         <translation>Fotogramas perdidos:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Sample Rate:</source>
         <translation>Frecuencia de muestreo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Channels:</source>
         <translation>Canales:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronización audio/vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Cache fill:</source>
         <translation>Llenado de caché:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Used cache:</source>
         <translation>Caché en uso:</translation>
     </message>

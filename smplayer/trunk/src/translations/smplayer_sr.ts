@@ -4675,78 +4675,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>Филтер &apos;%1&apos; није подржан од мпв</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>File:</source>
         <translation>Фајл:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Video:</source>
         <translation>Видео:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Resolution:</source>
         <translation>Резолуција:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Frames per second:</source>
         <translation>Фрејмова по секунди:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Estimated:</source>
         <translation>Процењено:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Aspect Ratio:</source>
         <translation>Однос аспекта:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Bitrate:</source>
         <translation>Битрејт:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Dropped frames:</source>
         <translation>Испуштени фрејмови:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Audio:</source>
         <translation>Аудио:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Sample Rate:</source>
         <translation>Оцена узорка:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Channels:</source>
         <translation>Канали:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Audio/video synchronization:</source>
         <translation>Аудио/Видео синхронизација:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Cache fill:</source>
         <translation>Кеш:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Used cache:</source>
         <translation>Коришћени кеш:</translation>
     </message>

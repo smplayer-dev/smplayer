@@ -4672,78 +4672,78 @@ El voleu sobreescriure?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>File:</source>
         <translation>Fitxer:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Video:</source>
         <translation>Vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Resolution:</source>
         <translation>Resolució:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Frames per second:</source>
         <translation>Fotogrames per segon:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Estimated:</source>
         <translation>Aproximació:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Aspect Ratio:</source>
         <translation>Relació d&apos;aspecte:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Bitrate:</source>
         <translation>Taxa de bits:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Dropped frames:</source>
         <translation>Fotogrames refusats:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Audio:</source>
         <translation>Àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Sample Rate:</source>
         <translation>Freqüència de mostreig:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Channels:</source>
         <translation>Canals:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronització de vídeo/àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Cache fill:</source>
         <translation>Ompliment de la memòria cau:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Used cache:</source>
         <translation>Memòria cau utilitzada:</translation>
     </message>

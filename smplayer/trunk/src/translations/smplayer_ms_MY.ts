@@ -4672,78 +4672,78 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="193"/>
+        <location filename="../mpvprocess.h" line="194"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>penapis &apos;%1&apos; tidak sokongan oleh mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="195"/>
         <source>File:</source>
         <translation>Fail:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="196"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="197"/>
         <source>Resolution:</source>
         <translation>Resolusi:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="198"/>
         <source>Frames per second:</source>
         <translation>Bingkai sesaat:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="199"/>
         <source>Estimated:</source>
         <translation>Anggaran:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="200"/>
         <source>Aspect Ratio:</source>
         <translation>Nisbah Bidang:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Bitrate:</source>
         <translation>Kadar Bit:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>Dropped frames:</source>
         <translation>Bingkai dilepaskan:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Sample Rate:</source>
         <translation>Kadar Sampel:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Channels:</source>
         <translation>Saluran:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Audio/video synchronization:</source>
         <translation>Penyegerakan audio/video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="208"/>
         <source>Cache fill:</source>
         <translation>Isian cache:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Used cache:</source>
         <translation>Cache digunakan:</translation>
     </message>
