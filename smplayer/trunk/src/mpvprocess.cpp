@@ -94,7 +94,7 @@ MPVProcess::MPVProcess(QObject * parent)
 #ifdef USE_IPC
 	socket = new QLocalSocket(this);
 	#if QT_VERSION >= 0x050000
-	socket_name = QStandardPaths::StandardLocation(QStandardPaths::TempLocation) + "/mpv_socket";
+	socket_name = QStandardPaths::writableLocation(QStandardPaths::TempLocation) + "/mpv_socket";
 	#else
 	socket_name = QDesktopServices::storageLocation(QDesktopServices::TempLocation) + "/mpv_socket";
 	#endif
