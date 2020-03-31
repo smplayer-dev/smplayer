@@ -27,6 +27,10 @@
 #include "mplayerversion.h"
 #include "colorutils.h"
 
+#ifdef USE_IPC
+#include <QLocalSocket>
+#endif
+
 using namespace Global;
 
 #define CUSTOM_STATUS
@@ -59,6 +63,9 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
+#ifdef USE_IPC
+	, socket(0)
+#endif
 {
 	player_id = PlayerID::MPV;
 
@@ -419,7 +426,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (rx_vo.indexIn(line) > -1) {
 			emit receivedVO( rx_vo.cap(1) );
 			// Ask for window resolution
-			writeToStdin("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
+			writeToMpv("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
 		}
 		else
 		
@@ -678,7 +685,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 				}
 				#endif
 				for (int n = 0; n < md.n_chapters; n++) {
-					writeToStdin(QString("print_text INFO_CHAPTER_%1_NAME=${chapter-list/%1/title}").arg(n));
+					writeToMpv(QString("print_text INFO_CHAPTER_%1_NAME=${chapter-list/%1/title}").arg(n));
 				}
 			}
 			else
@@ -743,7 +750,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			if (tag == "INFO_TRACKS_COUNT") {
 				int tracks = value.toInt();
 				for (int n = 0; n < tracks; n++) {
-					writeToStdin(QString("print_text \"INFO_TRACK_%1: "
+					writeToMpv(QString("print_text \"INFO_TRACK_%1: "
 						"${track-list/%1/type} "
 						"${track-list/%1/id} "
 						"'${track-list/%1/lang:}' "
@@ -757,13 +764,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 }
 
 void MPVProcess::requestChapterInfo() {
-	writeToStdin("print_text \"INFO_CHAPTERS=${=chapters}\"");
+	writeToMpv("print_text \"INFO_CHAPTERS=${=chapters}\"");
 }
 
 /*
 void MPVProcess::requestBitrateInfo() {
-	writeToStdin("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
-	writeToStdin("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
+	writeToMpv("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
+	writeToMpv("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
 }
 */
 
@@ -866,6 +873,34 @@ void MPVProcess::processFinished(int exitCode, QProcess::ExitStatus exitStatus) 
 void MPVProcess::gotError(QProcess::ProcessError error) {
 	qDebug("MPVProcess::gotError: %d", (int) error);
 }
+
+void MPVProcess::writeToMpv(QString text) {
+	#ifdef USE_IPC
+	writeToSocket(text);
+	#else
+	writeToStdin(text);
+	#endif
+}
+
+#ifdef USE_IPC
+void MPVProcess::writeToSocket(QString text) {
+	qDebug() << "MPVProcess::writeToSocket:" << text;
+	qDebug() << "MPVProcess::writeToSocket: isRunning:" << isRunning();
+	if (!isRunning()) return;
+	if (!socket) {
+		socket = new QLocalSocket(this);
+	}
+	qDebug() << "MPVProcess::writeToSocket: state:" << socket->state();
+	if (socket->state() != QLocalSocket::ConnectedState) {
+		qDebug() << "MPVProcess::writeToSocket: error:" << socket->errorString();
+		socket->close();
+		socket->connectToServer("/tmp/mpv-socket", QIODevice::ReadWrite | QIODevice::Text);
+		socket->waitForConnected();
+	}
+	socket->write(text.toUtf8() +"\n");
+	socket->flush();
+}
+#endif
 
 #include "mpvoptions.cpp"
 #include "moc_mpvprocess.cpp"

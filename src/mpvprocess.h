@@ -29,6 +29,8 @@
 
 #define USE_FILTER_LABELS
 
+//#define USE_IPC
+
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
 {
@@ -42,6 +44,7 @@ public:
 #endif
 
 class QStringList;
+class QLocalSocket;
 
 class MPVProcess : public PlayerProcess
 {
@@ -52,6 +55,11 @@ public:
 	~MPVProcess();
 
 	bool start();
+
+	void writeToMpv(QString text);
+#ifdef USE_IPC
+	void writeToSocket(QString text);
+#endif
 
 	// Command line options
 	void addArgument(const QString & a);
@@ -305,6 +313,10 @@ private:
 	QRegExp rx_debug;
 
 	void initializeRX();
+
+#ifdef USE_IPC
+	QLocalSocket * socket;
+#endif
 };
 
 #endif
