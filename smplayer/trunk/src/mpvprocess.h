@@ -29,7 +29,7 @@
 
 #define USE_FILTER_LABELS
 
-//#define USE_IPC
+#define USE_IPC
 
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
@@ -59,6 +59,7 @@ public:
 	void writeToMpv(QString text);
 #ifdef USE_IPC
 	void writeToSocket(QString text);
+	QString socket_name;
 #endif
 
 	// Command line options

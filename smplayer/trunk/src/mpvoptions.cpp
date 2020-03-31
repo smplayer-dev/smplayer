@@ -127,7 +127,7 @@ void MPVProcess::setFixedOptions() {
 	arg << "--terminal";
 	arg << "--no-msg-color";
 #ifdef USE_IPC
-	arg << "--input-ipc-server=/tmp/mpv-socket";
+	arg << "--input-ipc-server=" + socket_name;
 #else
 	arg << "--input-file=/dev/stdin";
 #endif

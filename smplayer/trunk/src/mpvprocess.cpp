@@ -31,6 +31,14 @@
 #include <QLocalSocket>
 #endif
 
+#ifdef USE_IPC
+ #if QT_VERSION >= 0x050000
+ #include <QStandardPaths>
+ #else
+ #include <QDesktopServices>
+ #endif
+#endif
+
 using namespace Global;
 
 #define CUSTOM_STATUS
@@ -82,6 +90,15 @@ MPVProcess::MPVProcess(QObject * parent)
 
 	initializeOptionVars();
 	initializeRX();
+
+#ifdef USE_IPC
+	socket = new QLocalSocket(this);
+	#if QT_VERSION >= 0x050000
+	socket_name = QStandardPaths::StandardLocation(QStandardPaths::TempLocation) + "/mpv_socket";
+	#else
+	socket_name = QDesktopServices::storageLocation(QDesktopServices::TempLocation) + "/mpv_socket";
+	#endif
+#endif
 }
 
 MPVProcess::~MPVProcess() {
@@ -885,16 +902,14 @@ void MPVProcess::writeToMpv(QString text) {
 #ifdef USE_IPC
 void MPVProcess::writeToSocket(QString text) {
 	qDebug() << "MPVProcess::writeToSocket:" << text;
-	qDebug() << "MPVProcess::writeToSocket: isRunning:" << isRunning();
+
 	if (!isRunning()) return;
-	if (!socket) {
-		socket = new QLocalSocket(this);
-	}
-	qDebug() << "MPVProcess::writeToSocket: state:" << socket->state();
+
 	if (socket->state() != QLocalSocket::ConnectedState) {
+		qDebug() << "MPVProcess::writeToSocket: state:" << socket->state();
 		qDebug() << "MPVProcess::writeToSocket: error:" << socket->errorString();
 		socket->close();
-		socket->connectToServer("/tmp/mpv-socket", QIODevice::ReadWrite | QIODevice::Text);
+		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
 		socket->waitForConnected();
 	}
 	socket->write(text.toUtf8() +"\n");
