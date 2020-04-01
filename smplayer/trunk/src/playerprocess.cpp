@@ -46,9 +46,9 @@ PlayerProcess::PlayerProcess(QObject * parent)
 #endif
 }
 
-void PlayerProcess::writeToStdin(QString text) {
+void PlayerProcess::sendCommand(QString text) {
 	if (isRunning()) {
-		qDebug("PlayerProcess::writeToStdin: %s", text.toUtf8().constData());
+		qDebug() << "PlayerProcess::sendCommand:" << text;
 		#ifdef Q_OS_WIN
 		write( text.toUtf8() + "\n");
 		#else

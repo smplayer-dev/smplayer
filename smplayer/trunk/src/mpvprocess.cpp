@@ -443,7 +443,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (rx_vo.indexIn(line) > -1) {
 			emit receivedVO( rx_vo.cap(1) );
 			// Ask for window resolution
-			writeToMpv("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
+			sendCommand("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
 		}
 		else
 		
@@ -702,7 +702,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 				}
 				#endif
 				for (int n = 0; n < md.n_chapters; n++) {
-					writeToMpv(QString("print_text INFO_CHAPTER_%1_NAME=${chapter-list/%1/title}").arg(n));
+					sendCommand(QString("print_text INFO_CHAPTER_%1_NAME=${chapter-list/%1/title}").arg(n));
 				}
 			}
 			else
@@ -767,7 +767,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			if (tag == "INFO_TRACKS_COUNT") {
 				int tracks = value.toInt();
 				for (int n = 0; n < tracks; n++) {
-					writeToMpv(QString("print_text \"INFO_TRACK_%1: "
+					sendCommand(QString("print_text \"INFO_TRACK_%1: "
 						"${track-list/%1/type} "
 						"${track-list/%1/id} "
 						"'${track-list/%1/lang:}' "
@@ -781,13 +781,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 }
 
 void MPVProcess::requestChapterInfo() {
-	writeToMpv("print_text \"INFO_CHAPTERS=${=chapters}\"");
+	sendCommand("print_text \"INFO_CHAPTERS=${=chapters}\"");
 }
 
 /*
 void MPVProcess::requestBitrateInfo() {
-	writeToMpv("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
-	writeToMpv("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
+	sendCommand("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
+	sendCommand("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
 }
 */
 
@@ -891,23 +891,15 @@ void MPVProcess::gotError(QProcess::ProcessError error) {
 	qDebug("MPVProcess::gotError: %d", (int) error);
 }
 
-void MPVProcess::writeToMpv(QString text) {
-	#ifdef USE_IPC
-	writeToSocket(text);
-	#else
-	writeToStdin(text);
-	#endif
-}
-
 #ifdef USE_IPC
-void MPVProcess::writeToSocket(QString text) {
-	qDebug() << "MPVProcess::writeToSocket:" << text;
+void MPVProcess::sendCommand(QString text) {
+	qDebug() << "MPVProcess::sendCommand:" << text;
 
 	if (!isRunning()) return;
 
 	if (socket->state() != QLocalSocket::ConnectedState) {
-		qDebug() << "MPVProcess::writeToSocket: state:" << socket->state();
-		qDebug() << "MPVProcess::writeToSocket: error:" << socket->errorString();
+		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
+		qDebug() << "MPVProcess::sendCommand: error:" << socket->errorString();
 		socket->close();
 		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
 		socket->waitForConnected();

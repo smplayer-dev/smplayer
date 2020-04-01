@@ -56,9 +56,8 @@ public:
 
 	bool start();
 
-	void writeToMpv(QString text);
 #ifdef USE_IPC
-	void writeToSocket(QString text);
+	virtual void sendCommand(QString text);
 	QString socket_name;
 #endif
 
