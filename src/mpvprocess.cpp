@@ -71,9 +71,6 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
-#ifdef USE_IPC
-	, socket(0)
-#endif
 {
 	player_id = PlayerID::MPV;
 
@@ -94,10 +91,12 @@ MPVProcess::MPVProcess(QObject * parent)
 #ifdef USE_IPC
 	socket = new QLocalSocket(this);
 	#if QT_VERSION >= 0x050000
-	socket_name = QStandardPaths::writableLocation(QStandardPaths::TempLocation) + "/mpv_socket";
+	QString temp_dir = QStandardPaths::writableLocation(QStandardPaths::TempLocation);
 	#else
-	socket_name = QDesktopServices::storageLocation(QDesktopServices::TempLocation) + "/mpv_socket";
+	QString temp_dir = QDesktopServices::storageLocation(QDesktopServices::TempLocation);
 	#endif
+	socket_name = temp_dir + "/smplayer-mpv-" + QString::number(QCoreApplication::applicationPid(), 16);
+	qDebug() << "MPVProcess::MPVProcess: socket_name:" << socket_name;
 #endif
 }
 
@@ -895,7 +894,10 @@ void MPVProcess::gotError(QProcess::ProcessError error) {
 void MPVProcess::sendCommand(QString text) {
 	qDebug() << "MPVProcess::sendCommand:" << text;
 
-	if (!isRunning()) return;
+	if (!isRunning()) {
+		qWarning("MPVProcess::sendCommand: mpv is not running. Command ignored.");
+		return;
+	}
 
 	if (socket->state() != QLocalSocket::ConnectedState) {
 		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
