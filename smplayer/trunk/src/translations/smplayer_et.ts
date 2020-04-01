@@ -4673,78 +4673,78 @@ Kas kirjutada see üle?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>mpv ei toeta filtrit &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Fail:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Eraldusvõime:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Kaadreid sekundis:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Eeldatav:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Kuvasuhe:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Bitisagedus:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Vahelejäetud kaadreid:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Heli:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Diskreetimissagedus:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Kanaleid:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Heli/video sünkroonimine:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Vahemälu täitmine:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="209"/>
+        <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Kasutatav vahemälu:</translation>
     </message>

@@ -4672,78 +4672,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>ይህ &apos;%1&apos; ማጣሪያ የ ተደገፈ አይደለም በ mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>ፋይል:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>ቪዲዮ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>ሪዞሊሽን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>ክፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>የ ተገመተው:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>ማነፃፀሪያ መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>የ ተጣሉ ክፈፎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>ድምፅ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>ናሙና መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>ጣቢያዎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>ድምፅ/ቪዲዮ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>ማጠራቀሚያ መሙያ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="209"/>
+        <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>የ ተጠቀሙት ማጠራቀሚያ:</translation>
     </message>

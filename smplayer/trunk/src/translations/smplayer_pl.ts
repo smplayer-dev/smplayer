@@ -188,7 +188,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>Wpisz aby wyszukać</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -4674,78 +4674,78 @@ Czy chcesz go zastąpić?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>filtr &quot;%1&quot; nie jest obsługiwany przez mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Plik:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Wideo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Rozdzielczość:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Klatki na sekundę:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Szacowane:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Współczynnik proporcji:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Prędkość transmisji:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Pominięte klatki:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Dźwięk:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Częstotliwość próbkowania:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Kanały:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Synchronizacja audio/wideo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Wypełnienie buforu:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="209"/>
+        <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Użyty bufor:</translation>
     </message>
