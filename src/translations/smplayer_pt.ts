@@ -536,7 +536,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;Fullscreen</source>
-        <translation>Ecrã &amp;completo</translation>
+        <translation>Ecrã &amp;inteiro</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -1100,7 +1100,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1925"/>
         <source>Exit fullscreen</source>
-        <translation>Sair de ecrã completo</translation>
+        <translation>Sair de ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1927"/>
@@ -4673,78 +4673,78 @@ Substituir?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="194"/>
+        <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>O mpv não tem suporte ao filtro &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="195"/>
+        <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Ficheiro:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="196"/>
+        <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="197"/>
+        <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Resolução:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="198"/>
+        <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Frames por segundo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="199"/>
+        <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Estimado:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="200"/>
+        <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Tamanho do vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="201"/>
-        <location filename="../mpvprocess.h" line="204"/>
+        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Taxa de dados:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="202"/>
+        <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Frames descartadas:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="203"/>
+        <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Áudio:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="205"/>
+        <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Frequência:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="206"/>
+        <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Canais:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="207"/>
+        <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronização áudio/vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="208"/>
+        <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Preenchimento de cache:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="209"/>
+        <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Cache usada:</translation>
     </message>
@@ -5843,7 +5843,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Start videos in fullscreen</source>
-        <translation>Iniciar vídeos em ecrã completo</translation>
+        <translation>Iniciar vídeos em ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
@@ -6051,7 +6051,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Se ativar esta opção, todos os vídeos serão iniciados no modo de ecrã completo.</translation>
+        <translation>Se ativar esta opção, todos os vídeos serão iniciados no modo de ecrã inteiro.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1208"/>
@@ -6151,7 +6151,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Iniciar vídeos em ecrã &amp;completo</translation>
+        <translation>Iniciar vídeos em ecrã &amp;inteiro</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6556,17 +6556,17 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Adicionar contornos negros em ecrã completo</translation>
+        <translation>Adicionar contornos negros em ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1168"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de ecrã completo. Isto permite que as legendas sejam exibidas nessas margens.</translation>
+        <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de ecrã inteiro. Isto permite que as legendas sejam exibidas nessas margens.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Adicionar contornos negros em ecrã completo</translation>
+        <translation>&amp;Adicionar contornos negros em ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
@@ -6933,7 +6933,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
-        <translation>Ecrã completo</translation>
+        <translation>Ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -6963,7 +6963,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
-        <translation>Sair de ecrã completo</translation>
+        <translation>Sair de ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="97"/>
@@ -7511,7 +7511,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>O controlo flutuante aparece no modo de ecrã completo ao mover o rato.</translation>
+        <translation>O controlo flutuante aparece no modo de ecrã inteiro ao mover o rato.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -9894,7 +9894,7 @@ Substituir?</translation>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>o vídeo será reproduzido em ecrã completo.</translation>
+        <translation>o vídeo será reproduzido em ecrã inteiro.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
@@ -10977,7 +10977,7 @@ Substituir?</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>Ativar/desativar ecrã completo</translation>
+        <translation>Ativar/desativar ecrã inteiro</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
