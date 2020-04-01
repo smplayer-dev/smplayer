@@ -41,7 +41,7 @@ public:
 
 	virtual bool start() = 0;
 
-	void writeToStdin(QString text);
+	virtual void sendCommand(QString text);
 	MediaData mediaData() { return md; };
 
 	// Command line options

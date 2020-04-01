@@ -194,7 +194,7 @@ void MPVProcess::addVFIfAvailable(const QString & vf, const QString & value) {
 
 void MPVProcess::messageFilterNotSupported(const QString & filter_name) {
 	QString text = tr("the '%1' filter is not supported by mpv").arg(filter_name);
-	writeToMpv(QString("show_text \"%1\" 3000").arg(text));
+	sendCommand(QString("show_text \"%1\" 3000").arg(text));
 }
 
 void MPVProcess::enableScreenshots(const QString & dir, const QString & templ, const QString & format) {
@@ -729,44 +729,44 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 }
 
 void MPVProcess::quit() {
-	writeToMpv("quit 0");
+	sendCommand("quit 0");
 }
 
 void MPVProcess::setVolume(int v) {
-	writeToMpv("set volume " + QString::number(v));
+	sendCommand("set volume " + QString::number(v));
 }
 
 void MPVProcess::setOSD(int o) {
-	writeToMpv("no-osd set osd-level " + QString::number(o));
+	sendCommand("no-osd set osd-level " + QString::number(o));
 }
 
 void MPVProcess::setAudio(int ID) {
-	writeToMpv(QString("%1 set aid %2").arg(OSD_PREFIX).arg(ID));
+	sendCommand(QString("%1 set aid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::setVideo(int ID) {
-	writeToMpv(QString("%1 set vid %2").arg(OSD_PREFIX).arg(ID));
+	sendCommand(QString("%1 set vid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::setSubtitle(int type, int ID) {
 	Q_UNUSED(type);
-	writeToMpv(QString("%1 set sid %2").arg(OSD_PREFIX).arg(ID));
+	sendCommand(QString("%1 set sid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::disableSubtitles() {
-	writeToMpv("no-osd set sid no");
+	sendCommand("no-osd set sid no");
 }
 
 void MPVProcess::setSecondarySubtitle(int ID) {
-	writeToMpv(QString("%1 set secondary-sid %2").arg(OSD_PREFIX).arg(ID));
+	sendCommand(QString("%1 set secondary-sid %2").arg(OSD_PREFIX).arg(ID));
 }
 
 void MPVProcess::disableSecondarySubtitles() {
-	writeToMpv("no-osd set secondary-sid no");
+	sendCommand("no-osd set secondary-sid no");
 }
 
 void MPVProcess::setSubtitlesVisibility(bool b) {
-	writeToMpv(QString("no-osd set sub-visibility %1").arg(b ? "yes" : "no"));
+	sendCommand(QString("no-osd set sub-visibility %1").arg(b ? "yes" : "no"));
 }
 
 void MPVProcess::seek(double secs, int mode, bool precise) {
@@ -777,29 +777,29 @@ void MPVProcess::seek(double secs, int mode, bool precise) {
 		case 2 : s += "absolute "; break;
 	}
 	if (precise) s += "exact"; else s += "keyframes";
-	writeToMpv(s);
+	sendCommand(s);
 }
 
 void MPVProcess::mute(bool b) {
-	writeToMpv(QString("set mute %1").arg(b ? "yes" : "no"));
+	sendCommand(QString("set mute %1").arg(b ? "yes" : "no"));
 }
 
 void MPVProcess::setPause(bool b) {
-	writeToMpv(QString("set pause %1").arg(b ? "yes" : "no"));
+	sendCommand(QString("set pause %1").arg(b ? "yes" : "no"));
 }
 
 void MPVProcess::frameStep() {
-	writeToMpv("frame_step");
+	sendCommand("frame_step");
 }
 
 void MPVProcess::frameBackStep() {
-	writeToMpv("frame_back_step");
+	sendCommand("frame_back_step");
 }
 
 void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 	if (use_osd_in_commands) {
 		QString str = QString("show_text \"%1\" %2 %3").arg(text).arg(duration).arg(level);
-		writeToMpv(str);
+		sendCommand(str);
 	}
 }
 
@@ -822,7 +822,7 @@ void MPVProcess::showTimeOnOSD() {
 #ifdef OSD_WITH_TIMER
 	osd_timer->stop();
 #endif
-	writeToMpv("show_text \"${time-pos} ${?duration:/ ${duration} (${percent-pos}%)}\" 2000 0");
+	sendCommand("show_text \"${time-pos} ${?duration:/ ${duration} (${percent-pos}%)}\" 2000 0");
 }
 
 #ifdef OSD_WITH_TIMER
@@ -881,7 +881,7 @@ void MPVProcess::setContrast(int value) {
 	}
 	else
 #endif
-	writeToMpv("set contrast " + QString::number(value));
+	sendCommand("set contrast " + QString::number(value));
 }
 
 void MPVProcess::setBrightness(int value) {
@@ -892,7 +892,7 @@ void MPVProcess::setBrightness(int value) {
 	}
 	else
 #endif
-	writeToMpv("set brightness " + QString::number(value));
+	sendCommand("set brightness " + QString::number(value));
 }
 
 void MPVProcess::setHue(int value) {
@@ -903,7 +903,7 @@ void MPVProcess::setHue(int value) {
 	}
 	else
 #endif
-	writeToMpv("set hue " + QString::number(value));
+	sendCommand("set hue " + QString::number(value));
 }
 
 void MPVProcess::setSaturation(int value) {
@@ -914,7 +914,7 @@ void MPVProcess::setSaturation(int value) {
 	}
 	else
 #endif
-	writeToMpv("set saturation " + QString::number(value));
+	sendCommand("set saturation " + QString::number(value));
 }
 
 void MPVProcess::setGamma(int value) {
@@ -925,49 +925,49 @@ void MPVProcess::setGamma(int value) {
 	}
 	else
 #endif
-	writeToMpv("set gamma " + QString::number(value));
+	sendCommand("set gamma " + QString::number(value));
 }
 
 void MPVProcess::setChapter(int ID) {
-	writeToMpv("set chapter " + QString::number(ID));
+	sendCommand("set chapter " + QString::number(ID));
 }
 
 void MPVProcess::nextChapter() {
-	writeToMpv("add chapter 1");
+	sendCommand("add chapter 1");
 }
 
 void MPVProcess::previousChapter() {
-	writeToMpv("add chapter -1");
+	sendCommand("add chapter -1");
 }
 
 void MPVProcess::setExternalSubtitleFile(const QString & filename) {
-	writeToMpv("sub_add \""+ filename +"\"");
-	//writeToMpv("print_text ${track-list}");
-	writeToMpv("print_text \"INFO_TRACKS_COUNT=${=track-list/count}\"");
+	sendCommand("sub_add \""+ filename +"\"");
+	//sendCommand("print_text ${track-list}");
+	sendCommand("print_text \"INFO_TRACKS_COUNT=${=track-list/count}\"");
 }
 
 void MPVProcess::setSubPos(int pos) {
-	writeToMpv("set sub-pos " + QString::number(pos));
+	sendCommand("set sub-pos " + QString::number(pos));
 }
 
 void MPVProcess::setSubScale(double value) {
-	writeToMpv("set sub-scale " + QString::number(value));
+	sendCommand("set sub-scale " + QString::number(value));
 }
 
 void MPVProcess::setSubStep(int value) {
-	writeToMpv("sub_step " + QString::number(value));
+	sendCommand("sub_step " + QString::number(value));
 }
 
 void MPVProcess::seekSub(int value) {
-	writeToMpv("sub-seek " + QString::number(value));
+	sendCommand("sub-seek " + QString::number(value));
 }
 
 void MPVProcess::setSubForcedOnly(bool b) {
-	writeToMpv(QString("set sub-forced-only %1").arg(b ? "yes" : "no"));
+	sendCommand(QString("set sub-forced-only %1").arg(b ? "yes" : "no"));
 }
 
 void MPVProcess::setSpeed(double value) {
-	writeToMpv("set speed " + QString::number(value));
+	sendCommand("set speed " + QString::number(value));
 }
 
 void MPVProcess::enableKaraoke(bool b) {
@@ -995,7 +995,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Anequalizer);
 	foreach(QString command, commands) {
-		writeToMpv("af-command \"anequalizer\" \"change\" \"" + command + "\"");
+		sendCommand("af-command \"anequalizer\" \"change\" \"" + command + "\"");
 	}
 
 	previous_eq_list = l;
@@ -1004,7 +1004,7 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 
 	QStringList commands = AudioEqualizerHelper::equalizerListForCommand(l, previous_eq_list, AudioEqualizerHelper::Firequalizer);
 	foreach(QString command, commands) {
-		writeToMpv("af-command \"firequalizer\" \"gain_entry\" \"" + command + "\"");
+		sendCommand("af-command \"firequalizer\" \"gain_entry\" \"" + command + "\"");
 	}
 
 	previous_eq_list = l;
@@ -1015,24 +1015,24 @@ void MPVProcess::setAudioEqualizer(AudioEqualizerList l) {
 	#ifndef USE_FILTER_LABELS
 	if (previous_eq == eq_filter) return;
 	if (!previous_eq.isEmpty()) {
-		writeToMpv("af " + af_delete + " \"" + previous_eq + "\"");
+		sendCommand("af " + af_delete + " \"" + previous_eq + "\"");
 	}
-	writeToMpv("af add \"" + eq_filter + "\"");
+	sendCommand("af add \"" + eq_filter + "\"");
 	previous_eq = eq_filter;
 	#else
-	writeToMpv("af " + AFDeleteCmd() + " \"@aeq\"");
-	writeToMpv("af add \"@aeq:" + eq_filter + "\"");
+	sendCommand("af " + AFDeleteCmd() + " \"@aeq\"");
+	sendCommand("af add \"@aeq:" + eq_filter + "\"");
 	#endif
 
 #endif
 }
 
 void MPVProcess::setAudioDelay(double delay) {
-	writeToMpv("set audio-delay " + QString::number(delay));
+	sendCommand("set audio-delay " + QString::number(delay));
 }
 
 void MPVProcess::setSubDelay(double delay) {
-	writeToMpv("set sub-delay " + QString::number(delay));
+	sendCommand("set sub-delay " + QString::number(delay));
 }
 
 void MPVProcess::setLoop(int v) {
@@ -1042,24 +1042,24 @@ void MPVProcess::setLoop(int v) {
 		case 0: o = "inf"; break;
 		default: o = QString::number(v);
 	}
-	writeToMpv(QString("set loop-file %1").arg(o));
+	sendCommand(QString("set loop-file %1").arg(o));
 }
 
 void MPVProcess::setAMarker(int sec) {
-	writeToMpv(QString("set ab-loop-a %1").arg(sec));
+	sendCommand(QString("set ab-loop-a %1").arg(sec));
 }
 
 void MPVProcess::setBMarker(int sec) {
-	writeToMpv(QString("set ab-loop-b %1").arg(sec));
+	sendCommand(QString("set ab-loop-b %1").arg(sec));
 }
 
 void MPVProcess::clearABMarkers() {
-	writeToMpv("set ab-loop-a no");
-	writeToMpv("set ab-loop-b no");
+	sendCommand("set ab-loop-a no");
+	sendCommand("set ab-loop-b no");
 }
 
 void MPVProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {
-	writeToMpv(QString("screenshot %1 %2").arg(include_subtitles ? "subtitles" : "video").arg(t == Single ? "single" : "each-frame"));
+	sendCommand(QString("screenshot %1 %2").arg(include_subtitles ? "subtitles" : "video").arg(t == Single ? "single" : "each-frame"));
 }
 
 #ifdef CAPTURE_STREAM
@@ -1071,9 +1071,9 @@ void MPVProcess::switchCapturing() {
 			// I hate Windows
 			f = f.replace("\\", "\\\\");
 			#endif
-			writeToMpv("set stream-capture \"" + f + "\"");
+			sendCommand("set stream-capture \"" + f + "\"");
 		} else {
-			writeToMpv("set stream-capture \"\"");
+			sendCommand("set stream-capture \"\"");
 		}
 		capturing = !capturing;
 	}
@@ -1081,34 +1081,34 @@ void MPVProcess::switchCapturing() {
 #endif
 
 void MPVProcess::setTitle(int ID) {
-	writeToMpv("set disc-title " + QString::number(ID));
+	sendCommand("set disc-title " + QString::number(ID));
 }
 
 #if DVDNAV_SUPPORT
 void MPVProcess::discSetMousePos(int x, int y) {
 	qDebug("MPVProcess::discSetMousePos: %d %d", x, y);
-	//writeToMpv(QString("discnav mouse_move %1 %2").arg(x).arg(y));
+	//sendCommand(QString("discnav mouse_move %1 %2").arg(x).arg(y));
 	// mouse_move doesn't accept options :?
 
 	// For some reason this doesn't work either...
 	// So it's not possible to select options in the dvd menus just
 	// because there's no way to pass the mouse position to mpv, or it
 	// ignores it.
-	writeToMpv(QString("mouse %1 %2").arg(x).arg(y));
-	//writeToMpv("discnav mouse_move");
+	sendCommand(QString("mouse %1 %2").arg(x).arg(y));
+	//sendCommand("discnav mouse_move");
 }
 
 void MPVProcess::discButtonPressed(const QString & button_name) {
-	writeToMpv("discnav " + button_name);
+	sendCommand("discnav " + button_name);
 }
 #endif
 
 void MPVProcess::setAspect(double aspect) {
-	writeToMpv("set video-aspect " + QString::number(aspect));
+	sendCommand("set video-aspect " + QString::number(aspect));
 }
 
 void MPVProcess::setFullscreen(bool b) {
-	writeToMpv(QString("set fullscreen %1").arg(b ? "yes" : "no"));
+	sendCommand(QString("set fullscreen %1").arg(b ? "yes" : "no"));
 }
 
 #if PROGRAM_SWITCH
@@ -1118,19 +1118,19 @@ void MPVProcess::setTSProgram(int ID) {
 #endif
 
 void MPVProcess::toggleDeinterlace() {
-	writeToMpv("cycle deinterlace");
+	sendCommand("cycle deinterlace");
 }
 
 void MPVProcess::askForLength() {
-	writeToMpv("print_text \"INFO_LENGTH=${=length}\"");
+	sendCommand("print_text \"INFO_LENGTH=${=length}\"");
 }
 
 void MPVProcess::setOSDScale(double value) {
-	writeToMpv("set osd-scale " + QString::number(value));
+	sendCommand("set osd-scale " + QString::number(value));
 }
 
 void MPVProcess::setOSDFractions(bool active) {
-	writeToMpv(QString("no-osd set osd-fractions %1").arg(active ? "yes" : "no"));
+	sendCommand(QString("no-osd set osd-fractions %1").arg(active ? "yes" : "no"));
 }
 
 void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
@@ -1157,7 +1157,7 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 
 	if (!f.isEmpty()) {
-		writeToMpv(QString("vf %1 \"%2\"").arg(enable ? "add" : VFDeleteCmd()).arg(f));
+		sendCommand(QString("vf %1 \"%2\"").arg(enable ? "add" : VFDeleteCmd()).arg(f));
 	}
 }
 
@@ -1172,7 +1172,7 @@ void MPVProcess::changeAF(const QString & filter, bool enable, const QVariant & 
 	}
 
 	if (!f.isEmpty()) {
-		writeToMpv(QString("af %1 \"%2\"").arg(enable ? "add" : AFDeleteCmd()).arg(f));
+		sendCommand(QString("af %1 \"%2\"").arg(enable ? "add" : AFDeleteCmd()).arg(f));
 	}
 }
 
@@ -1184,7 +1184,7 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 	if (!out.isEmpty()) output = "out=" + out;
 
 	QString filter = "lavfi=[stereo3d=" + input + output + "]";
-	writeToMpv(QString("vf %1 \"%2\"").arg(enable ? "add" : VFDeleteCmd()).arg(filter));
+	sendCommand(QString("vf %1 \"%2\"").arg(enable ? "add" : VFDeleteCmd()).arg(filter));
 }
 
 #if 0
@@ -1494,14 +1494,14 @@ QString MPVProcess::videoEqualizerFilter(SoftVideoEq eq) {
 void MPVProcess::updateSoftVideoEqualizerFilter() {
 	#ifndef USE_FILTER_LABELS
 	QString f = videoEqualizerFilter(previous_soft_eq);
-	writeToMpv("vf " + vf_delete + " \"" + f + "\"");
+	sendCommand("vf " + vf_delete + " \"" + f + "\"");
 	f = videoEqualizerFilter(current_soft_eq);
-	writeToMpv("vf add \"" + f + "\"");
+	sendCommand("vf add \"" + f + "\"");
 	previous_soft_eq = current_soft_eq;
 	#else
-	writeToMpv("vf " + VFDeleteCmd() + " \"@veq\"");
+	sendCommand("vf " + VFDeleteCmd() + " \"@veq\"");
 	QString f = videoEqualizerFilter(current_soft_eq);
-	writeToMpv("vf add \"@veq:" + f + "\"");
+	sendCommand("vf add \"@veq:" + f + "\"");
 	#endif
 }
 #endif
