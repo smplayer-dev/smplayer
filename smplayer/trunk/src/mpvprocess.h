@@ -58,7 +58,6 @@ public:
 
 #ifdef USE_IPC
 	virtual void sendCommand(QString text);
-	QString socket_name;
 #endif
 
 	// Command line options
@@ -316,6 +315,7 @@ private:
 
 #ifdef USE_IPC
 	QLocalSocket * socket;
+	QString socket_name;
 #endif
 };
 
