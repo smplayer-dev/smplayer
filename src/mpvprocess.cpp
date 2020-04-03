@@ -905,6 +905,7 @@ void MPVProcess::sendCommand(QString text) {
 		socket->close();
 		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
 		socket->waitForConnected();
+		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
 	}
 	socket->write(text.toUtf8() +"\n");
 	socket->flush();
