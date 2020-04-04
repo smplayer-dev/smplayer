@@ -3633,7 +3633,10 @@ void Core::decSubStep() {
 void Core::changeSubVisibility(bool visible) {
 	qDebug("Core::changeSubVisilibity: %d", visible);
 	pref->sub_visibility = visible;
-	proc->setSubtitlesVisibility(pref->sub_visibility);
+
+	if (proc->isRunning()) {
+		proc->setSubtitlesVisibility(pref->sub_visibility);
+	}
 
 	if (pref->sub_visibility) 
 		displayMessage( tr("Subtitles on") );
