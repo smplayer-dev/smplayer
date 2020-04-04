@@ -101,6 +101,11 @@ MPVProcess::MPVProcess(QObject * parent)
 }
 
 MPVProcess::~MPVProcess() {
+#ifdef USE_IPC
+	if (QFile::exists(socket_name)) {
+		QFile::remove(socket_name);
+	}
+#endif
 }
 
 bool MPVProcess::start() {
