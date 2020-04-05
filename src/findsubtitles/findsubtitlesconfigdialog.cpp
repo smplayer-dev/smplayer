@@ -89,6 +89,22 @@ int FindSubtitlesConfigDialog::searchMethod() {
 	return search_method_combo->itemData(search_method_combo->currentIndex()).toInt();
 }
 
+void FindSubtitlesConfigDialog::setUsername(QString username) {
+	os_username_edit->setText(username);
+}
+
+QString FindSubtitlesConfigDialog::username() {
+	return os_username_edit->text();
+}
+
+void FindSubtitlesConfigDialog::setPassword(QString password) {
+	os_password_edit->setText(password);
+}
+
+QString FindSubtitlesConfigDialog::password() {
+	return os_password_edit->text();
+}
+
 #ifdef OS_SEARCH_WORKAROUND
 void FindSubtitlesConfigDialog::setRetries(int n) {
 	retries_spin->setValue(n);
