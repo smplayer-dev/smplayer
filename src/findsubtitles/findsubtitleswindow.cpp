@@ -938,8 +938,8 @@ void FindSubtitlesWindow::saveSettings() {
 
 	set->setValue("search_method", osclient->searchMethod());
 
-	set->setValue("credentials/username", osclient->username());
-	set->setValue("credentials/password", osclient->password());
+	set->setValue("credentials/username", osclient->username().toUtf8().toBase64());
+	set->setValue("credentials/password", osclient->password().toUtf8().toBase64());
 
 	set->endGroup();
 }
@@ -970,8 +970,8 @@ void FindSubtitlesWindow::loadSettings() {
 
 	osclient->setSearchMethod( (OSClient::SearchMethod) set->value("search_method", osclient->searchMethod()).toInt() );
 
-	osclient->setUsername(set->value("credentials/username", "").toString());
-	osclient->setPassword(set->value("credentials/password", "").toString());
+	osclient->setUsername(QString::fromUtf8(QByteArray::fromBase64(set->value("credentials/username", "").toByteArray())));
+	osclient->setPassword(QString::fromUtf8(QByteArray::fromBase64(set->value("credentials/password", "").toByteArray())));
 
 	set->endGroup();
 
