@@ -29,7 +29,7 @@ OSClient::OSClient(QObject* parent) :
 #endif
 	, search_method(HashAndFilename)
 {
-	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
+	rpc = new MaiaXmlRpcClient(QUrl("https://api.opensubtitles.org/xml-rpc"), this);
 }
 
 void OSClient::setServer(const QString & server) {
@@ -50,7 +50,7 @@ void OSClient::login() {
 
 	QVariantList args;
 
-	args << "" << "" << "" << user_agent;
+	args << os_username << os_password << "" << user_agent;
 
 	rpc->call("LogIn", args,
 			  this, SLOT(responseLogin(QVariant &)),

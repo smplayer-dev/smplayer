@@ -838,6 +838,8 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	d.setServer( os_server );
 	#endif
 	d.setSearchMethod(osclient->searchMethod());
+	d.setUsername(osclient->username());
+	d.setPassword(osclient->password());
 	#ifdef OS_SEARCH_WORKAROUND
 	d.setRetries(osclient->retries());
 	#endif
@@ -859,6 +861,8 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		os_server = d.server();
 		#endif
 		osclient->setSearchMethod( (OSClient::SearchMethod) d.searchMethod() );
+		osclient->setUsername(d.username());
+		osclient->setPassword(d.password());
 		#ifdef OS_SEARCH_WORKAROUND
 		osclient->setRetries( d.retries() );
 		#endif
@@ -934,6 +938,9 @@ void FindSubtitlesWindow::saveSettings() {
 
 	set->setValue("search_method", osclient->searchMethod());
 
+	set->setValue("credentials/username", osclient->username());
+	set->setValue("credentials/password", osclient->password());
+
 	set->endGroup();
 }
 
@@ -962,6 +969,9 @@ void FindSubtitlesWindow::loadSettings() {
 #endif
 
 	osclient->setSearchMethod( (OSClient::SearchMethod) set->value("search_method", osclient->searchMethod()).toInt() );
+
+	osclient->setUsername(set->value("credentials/username", "").toString());
+	osclient->setPassword(set->value("credentials/password", "").toString());
 
 	set->endGroup();
 

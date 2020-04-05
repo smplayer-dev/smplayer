@@ -49,6 +49,12 @@ public:
 	void setSearchMethod(SearchMethod m) { search_method = m; };
 	int searchMethod() { return search_method; };
 
+	void setUsername(QString username) { os_username = username; };
+	QString username() { return os_username; };
+
+	void setPassword(QString password) { os_password = password; };
+	QString password() { return os_password; };
+
 public slots:
 	void setServer(const QString & server);
 	void search(const QString & hash, qint64 file_size, const QString & filename = QString::null);
@@ -87,6 +93,8 @@ private:
 	QList <OSSubtitle> s_list;
 
 	int search_method;
+	QString os_username;
+	QString os_password;
 };
 
 #endif

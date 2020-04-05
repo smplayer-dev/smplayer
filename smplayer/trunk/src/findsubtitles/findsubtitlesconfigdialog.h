@@ -38,6 +38,12 @@ public:
 	void setSearchMethod(int m);
 	int searchMethod();
 
+	void setUsername(QString username);
+	QString username();
+
+	void setPassword(QString password);
+	QString password();
+
 #ifdef OS_SEARCH_WORKAROUND
 	void setRetries(int n);
 	int retries();
