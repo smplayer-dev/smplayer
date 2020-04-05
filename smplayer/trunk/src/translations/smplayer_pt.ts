@@ -2272,7 +2272,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4374"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Zoom: %1</source>
         <translation>Ampliação: %1</translation>
     </message>
@@ -2283,12 +2283,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Escala do tipo de letra: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Aspect ratio: %1</source>
         <translation>Rácio de aspeto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4612"/>
+        <location filename="../core.cpp" line="4615"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Atualização da cache de letras. Pode levar algum tempo...</translation>
     </message>
@@ -2318,42 +2318,42 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Não foi possível localizar o URL do vídeo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3639"/>
+        <location filename="../core.cpp" line="3642"/>
         <source>Subtitles on</source>
         <translation>Ativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3641"/>
+        <location filename="../core.cpp" line="3644"/>
         <source>Subtitles off</source>
         <translation>Desativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4253"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel seeks now</source>
         <translation>Agora, a procura é com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Agora, altera o volume com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Agora, altera o tamanho com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4265"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Agora, altera a velocidade com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4588"/>
+        <location filename="../core.cpp" line="4591"/>
         <source>Screenshot saved as %1</source>
         <translation>Captura guardada como %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4623"/>
+        <location filename="../core.cpp" line="4626"/>
         <source>Starting...</source>
         <translation>A iniciar...</translation>
     </message>
@@ -2865,17 +2865,17 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>Opções</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="180"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
         <source>Server</source>
         <translation>Servidor</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="188"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>Servidor &amp;Opensubtitles:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
@@ -2890,32 +2890,43 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>&amp;Método de pesquisa</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <source>Opensubtitles Credentials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <source>Pass&amp;word:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Ativar proxy</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Host:</source>
         <translation>S&amp;ervidor:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
         <source>&amp;Port:</source>
         <translation>&amp;Porta:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="118"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
         <source>&amp;Username:</source>
         <translation>&amp;Utilizador:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="131"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
         <source>Pa&amp;ssword:</source>
         <translation>&amp;Senha:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tipo:</translation>
     </message>
@@ -2925,7 +2936,7 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>A&amp;nexar o código do idioma ao nome do ficheiro de legenda</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
         <source>Number of &amp;retries:</source>
         <translation>Núme&amp;ro de tentativas:</translation>
     </message>

@@ -2272,7 +2272,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4374"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
@@ -2283,12 +2283,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4612"/>
+        <location filename="../core.cpp" line="4615"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
@@ -2318,42 +2318,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3639"/>
+        <location filename="../core.cpp" line="3642"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3641"/>
+        <location filename="../core.cpp" line="3644"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4253"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4265"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4588"/>
+        <location filename="../core.cpp" line="4591"/>
         <source>Screenshot saved as %1</source>
         <translation>스크린샷 저장: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4623"/>
+        <location filename="../core.cpp" line="4626"/>
         <source>Starting...</source>
         <translation>시작하는 중...</translation>
     </message>
@@ -2865,17 +2865,17 @@ Example: extrastereo,karaoke</source>
         <translation>옵션</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="180"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
         <source>Server</source>
         <translation>서버</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="188"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>자막 서버(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
         <source>Proxy</source>
         <translation>프락시</translation>
     </message>
@@ -2890,32 +2890,43 @@ Example: extrastereo,karaoke</source>
         <translation>검색 방법(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <source>Opensubtitles Credentials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <source>Pass&amp;word:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
         <source>&amp;Enable proxy</source>
         <translation>프락시 사용하기</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Host:</source>
         <translation>호스트:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
         <source>&amp;Port:</source>
         <translation>포트:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="118"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
         <source>&amp;Username:</source>
         <translation>사용자명:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="131"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
         <source>Pa&amp;ssword:</source>
         <translation>패스워드:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
         <source>&amp;Type:</source>
         <translation>형식:</translation>
     </message>
@@ -2925,7 +2936,7 @@ Example: extrastereo,karaoke</source>
         <translation>언어 코드를 자막 파일명에 덧붙이기(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
         <source>Number of &amp;retries:</source>
         <translation>재시도 횟수(&amp;R):</translation>
     </message>

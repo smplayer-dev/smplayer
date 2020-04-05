@@ -2272,7 +2272,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4374"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
@@ -2283,12 +2283,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字体缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4612"/>
+        <location filename="../core.cpp" line="4615"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字体缓存。这可能需要几秒钟...</translation>
     </message>
@@ -2318,42 +2318,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法定位视频的URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3639"/>
+        <location filename="../core.cpp" line="3642"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3641"/>
+        <location filename="../core.cpp" line="3644"/>
         <source>Subtitles off</source>
         <translation>字幕关闭</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4253"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel seeks now</source>
         <translation>鼠标滚轮定位</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes volume now</source>
         <translation>鼠标滚轮更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>鼠标滚轮更改缩放等级</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4265"/>
         <source>Mouse wheel changes speed now</source>
         <translation>鼠标滚轮更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4588"/>
+        <location filename="../core.cpp" line="4591"/>
         <source>Screenshot saved as %1</source>
         <translation>截图已保存为 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4623"/>
+        <location filename="../core.cpp" line="4626"/>
         <source>Starting...</source>
         <translation>正在开始...</translation>
     </message>
@@ -2865,17 +2865,17 @@ Example: extrastereo,karaoke</source>
         <translation>选项</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="180"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
         <source>Server</source>
         <translation>服务器</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="188"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>OpenSubtitles 服务器(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
         <source>Proxy</source>
         <translation>代理</translation>
     </message>
@@ -2890,32 +2890,43 @@ Example: extrastereo,karaoke</source>
         <translation>搜索方法(&amp;m)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <source>Opensubtitles Credentials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <source>Pass&amp;word:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
         <source>&amp;Enable proxy</source>
         <translation>启用代理(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Host:</source>
         <translation>主机(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
         <source>&amp;Port:</source>
         <translation>端口(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="118"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
         <source>&amp;Username:</source>
         <translation>用户名(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="131"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
         <source>Pa&amp;ssword:</source>
         <translation>密码(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
         <source>&amp;Type:</source>
         <translation>类型(&amp;T):</translation>
     </message>
@@ -2925,7 +2936,7 @@ Example: extrastereo,karaoke</source>
         <translation>将语言代码附加到字幕文件名中(&amp;p)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
         <source>Number of &amp;retries:</source>
         <translation>条目数(&amp;r)：</translation>
     </message>

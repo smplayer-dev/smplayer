@@ -2272,7 +2272,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Garsas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4374"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Zoom: %1</source>
         <translation>Mastelis: %1</translation>
     </message>
@@ -2283,12 +2283,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Šrifto dydis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4205"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4612"/>
+        <location filename="../core.cpp" line="4615"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Atnaujinama šriftų atmintinė. Tai gali užtrukti keletą sekundžių...</translation>
     </message>
@@ -2318,42 +2318,42 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nepavyko rasti video url</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3639"/>
+        <location filename="../core.cpp" line="3642"/>
         <source>Subtitles on</source>
         <translation>Subtitrai įjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3641"/>
+        <location filename="../core.cpp" line="3644"/>
         <source>Subtitles off</source>
         <translation>Subtitrai išjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4253"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Mouse wheel seeks now</source>
         <translation>Dabar pelės ratukas veikia prasukimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Dabar pelės ratukas veikia garso reguliavimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4262"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Dabar pelės ratukas veikia vaizdo didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4265"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Dabar pelės ratukas veikia greičio didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4588"/>
+        <location filename="../core.cpp" line="4591"/>
         <source>Screenshot saved as %1</source>
         <translation>Momentinis vaizdas išsaugotas kaip %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4623"/>
+        <location filename="../core.cpp" line="4626"/>
         <source>Starting...</source>
         <translation>Pradedama...</translation>
     </message>
@@ -2864,17 +2864,17 @@ Example: extrastereo,karaoke</source>
         <translation>Parinktys</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="180"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
         <source>Server</source>
         <translation>Serveris</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="188"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>&amp;Opensubtitles serveris:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
         <source>Proxy</source>
         <translation>Tarpinis serveris</translation>
     </message>
@@ -2889,32 +2889,43 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
+        <source>Opensubtitles Credentials</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <source>Pass&amp;word:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Įjungti tarpinį serverį</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Host:</source>
         <translation>&amp;Mazgas:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="98"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
         <source>&amp;Port:</source>
         <translation>&amp;Prievadas:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="118"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
         <source>&amp;Username:</source>
         <translation>&amp;Naudotojo vardas:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="131"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
         <source>Pa&amp;ssword:</source>
         <translation>&amp;Slaptažodis:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tipas:</translation>
     </message>
@@ -2924,7 +2935,7 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="205"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
         <source>Number of &amp;retries:</source>
         <translation>Pakartojimų iš naujo:</translation>
     </message>
