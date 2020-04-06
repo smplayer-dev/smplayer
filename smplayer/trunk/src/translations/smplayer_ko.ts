@@ -2865,17 +2865,17 @@ Example: extrastereo,karaoke</source>
         <translation>옵션</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>Server</source>
         <translation>서버</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>자막 서버(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
         <source>Proxy</source>
         <translation>프락시</translation>
     </message>
@@ -2895,38 +2895,34 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
-        <source>Pass&amp;word:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
         <translation>프락시 사용하기</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="132"/>
         <source>&amp;Host:</source>
         <translation>호스트:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="145"/>
         <source>&amp;Port:</source>
         <translation>포트:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
         <source>&amp;Username:</source>
         <translation>사용자명:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="91"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="178"/>
         <source>Pa&amp;ssword:</source>
         <translation>패스워드:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="195"/>
         <source>&amp;Type:</source>
         <translation>형식:</translation>
     </message>
@@ -2936,7 +2932,7 @@ Example: extrastereo,karaoke</source>
         <translation>언어 코드를 자막 파일명에 덧붙이기(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
         <translation>재시도 횟수(&amp;R):</translation>
     </message>

@@ -2863,17 +2863,17 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished">Options</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>Server</source>
         <translation>Server</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>&amp;OpenSubtitles server:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
@@ -2893,38 +2893,34 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
-        <source>Pass&amp;word:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Enable proxy</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="132"/>
         <source>&amp;Host:</source>
         <translation>&amp;Host:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="145"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
         <source>&amp;Username:</source>
         <translation>&amp;Username:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="91"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="178"/>
         <source>Pa&amp;ssword:</source>
         <translation>Pa&amp;ssword:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="195"/>
         <source>&amp;Type:</source>
         <translation>&amp;Type:</translation>
     </message>
@@ -2934,7 +2930,7 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
         <translation>Number of &amp;retries:</translation>
     </message>

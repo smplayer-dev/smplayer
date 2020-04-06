@@ -2865,17 +2865,17 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Pilihan</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>Server</source>
         <translation>Pelayan</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>Pelayan &amp;Opensubtitles:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
         <source>Proxy</source>
         <translation>Proksi</translation>
     </message>
@@ -2895,38 +2895,34 @@ Contoh: extrastereo,karaoke</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
-        <source>Pass&amp;word:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Benarkan proksi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="132"/>
         <source>&amp;Host:</source>
         <translation>&amp;Hos:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="145"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
         <source>&amp;Username:</source>
         <translation>&amp;Nama pengguna:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="91"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="178"/>
         <source>Pa&amp;ssword:</source>
         <translation>Ka&amp;ta laluan:</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="195"/>
         <source>&amp;Type:</source>
         <translation>&amp;Jenis:</translation>
     </message>
@@ -2936,7 +2932,7 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Ta&amp;mbah kod bahasa pada nama fail sarikata</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
         <translation>Bilangan &amp;masukan:</translation>
     </message>

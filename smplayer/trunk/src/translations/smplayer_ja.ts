@@ -2865,17 +2865,17 @@ Example: extrastereo,karaoke</source>
         <translation>オプション</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="219"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
         <source>Server</source>
         <translation>サーバー</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>OpenSubtitles のサーバー(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="105"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
         <source>Proxy</source>
         <translation>プロキシ</translation>
     </message>
@@ -2892,41 +2892,41 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles の認証情報</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="85"/>
         <source>Pass&amp;word:</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">パスワード(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="111"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
         <translation>プロキシを有効にする(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="132"/>
         <source>&amp;Host:</source>
         <translation>ホスト(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="137"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="145"/>
         <source>&amp;Port:</source>
         <translation>ポート(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="72"/>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="157"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
         <source>&amp;Username:</source>
         <translation>ユーザー名(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="170"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="91"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="178"/>
         <source>Pa&amp;ssword:</source>
         <translation>パスワード(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="187"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="195"/>
         <source>&amp;Type:</source>
         <translation>種類(&amp;T):</translation>
     </message>
@@ -2936,7 +2936,7 @@ Example: extrastereo,karaoke</source>
         <translation>字幕のファイル名に言語コードを追加する(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="244"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
         <translation>再試行の回数(&amp;R):</translation>
     </message>
