@@ -1,3 +1,19 @@
+Version 20.4.0:
+
+(2020-04-05)
+ * Possibility to enter the opensubtitles credentials.
+
+(2020-03-31)
+ * Use IPC with mpv.
+
+(2020-02-07)
+ * Fix for mpv 0.32.
+
+(2019-12-15)
+ * Possibility to search for shortcuts in the shortcut editor.
+ * Bug fix: the "previous subtitle" action didn't have a name.
+
+
 Version 19.10.2:
 
 (2019-11-05)
