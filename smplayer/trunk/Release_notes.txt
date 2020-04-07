@@ -1,3 +1,11 @@
+Version 20.4.0:
+
+ * Possibility to enter the opensubtitles.org credentials,
+   in order to prevent a login error.
+ * Now it's possible to search for shortcuts in Preferences -> Keyboard.
+ * Support for mpv 0.32.
+
+
 Version 19.10.2:
 
  * Fix compiling the web server on 32 bit with gcc 9.2.0.
