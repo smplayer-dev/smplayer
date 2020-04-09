@@ -1,3 +1,12 @@
+smplayer (20.4.0) precise; urgency=low
+
+  * Possibility to enter the opensubtitles.org credentials,
+    in order to prevent a login error.
+  * Now it's possible to search for shortcuts in Preferences -> Keyboard.
+  * Support for mpv 0.32.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 09 Apr 2020 17:04:07 +0200
+
 smplayer (19.10.2) precise; urgency=low
 
   * Fix compiling the web server on 32 bit with gcc 9.2.0.
