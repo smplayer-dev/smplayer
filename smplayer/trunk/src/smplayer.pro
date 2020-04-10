@@ -434,7 +434,7 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	contains( DEFINES, YT_USE_SIG ) {
 		HEADERS += youtube/sig.h
 		SOURCES += youtube/sig.cpp
-		QT += script # optional
+		#QT += script # optional
 	}
 }
 
