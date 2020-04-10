@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Emre FIRAT <emrefirat93@gmail.com>, 2014-2015
-# mahmut özcan <mahmutozcan65@yahoo.com>, 2016
-# Mehmet <mehmet337402@gmail.com>, 2016
+# mahmut özcan <mahmutozcan@protonmail.com>, 2016
+# mahmut özcan <mahmutozcan@protonmail.com>, 2019
+# Mehmet, 2016
 # yakup <mutouk@yandex.ru>, 2014
 # yakup <mutouk@yandex.ru>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: Mehmet <mehmet337402@gmail.com>\n"
+"PO-Revision-Date: 2019-12-31 15:16+0000\n"
+"Last-Translator: mahmut özcan <mahmutozcan@protonmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/rvm/smplayer/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -265,7 +266,7 @@ msgstr "Kaldırma kullanıcı tarafından iptal edildi."
 msgid ""
 "It does not appear that SMPlayer is installed in the directory "
 "'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
+msgstr "SMPlayerin '$INSTDIR' dizininde yüklü olduğu görülmüyor. [:r:][:n:]Her koşulda devam etsin mi (önerilmez)?"
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
@@ -280,7 +281,7 @@ msgid ""
 "SMPlayer is a complete front-end for MPlayer, from basic features like "
 "playing videos, DVDs, VCDs to more advanced features like support for "
 "MPlayer filters, edl lists, and more."
-msgstr ""
+msgstr "SMPlayer, video, DVD ve VCD oynatmak gibi temel özelliklerden, MPlayer süzgeçleri, edl listeleri ve daha çoğu için gelişmiş özelliklere sahip eksiksiz bir MPlayer ön ucudur"
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
