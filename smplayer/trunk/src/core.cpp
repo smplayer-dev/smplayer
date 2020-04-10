@@ -931,12 +931,17 @@ void Core::openStream(QString name, QStringList params) {
 		// Check if the stream is a youtube url
 		QString yt_full_url = yt->fullUrl(name);
 		if (!yt_full_url.isEmpty()) {
-			qDebug("Core::openStream: youtube url detected: %s", yt_full_url.toLatin1().constData());
+			qDebug() << "Core::openStream: youtube url detected:" << yt_full_url;
 			name = yt_full_url;
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
-			qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
-			/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
-			yt->setUserAgent(pref->yt_user_agent);
+			#ifdef Q_OS_WIN
+			QString user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0";
+			#else
+			QString user_agent = "Mozilla/5.0 (X11; Linux i686; rv:62.0) Gecko/20100101 Firefox/62.0";
+			#endif
+			if (!pref->yt_user_agent.isEmpty()) user_agent = pref->yt_user_agent;
+			qDebug() << "Core::openStream: user_agent:" << user_agent;
+			yt->setUserAgent(user_agent);
 			#ifdef YT_DASH_SUPPORT
 			yt->setUseDASH(pref->yt_use_dash);
 			yt->enable60fps(pref->yt_use_60fps);

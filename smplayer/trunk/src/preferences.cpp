@@ -543,8 +543,7 @@ void Preferences::reset() {
 #endif
 #ifdef YOUTUBE_SUPPORT
 	yt_resolution = RetrieveYoutubeUrl::R720p;
-	yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
-	//yt_user_agent = "";
+	yt_user_agent = "";
 	yt_use_https_main = false;
 	yt_use_dash = false;
 	yt_use_60fps = true;
@@ -1096,7 +1095,7 @@ void Preferences::save() {
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
 	set->setValue("resolution", yt_resolution);
-	set->setValue("yt_user_agent", yt_user_agent);
+	set->setValue("preferred_user_agent", yt_user_agent);
 	set->setValue("yt_use_https_main", yt_use_https_main);
 	set->setValue("use_dash", yt_use_dash);
 	set->setValue("use_60fps", yt_use_60fps);
@@ -1696,7 +1695,7 @@ void Preferences::load() {
 	#ifdef YOUTUBE_SUPPORT
 	set->beginGroup("streaming/youtube");
 	yt_resolution = set->value("resolution", yt_resolution).toInt();
-	yt_user_agent = set->value("yt_user_agent", yt_user_agent).toString();
+	yt_user_agent = set->value("preferred_user_agent", yt_user_agent).toString();
 	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
 	yt_use_dash = set->value("use_dash", yt_use_dash).toBool();
 	yt_use_60fps = set->value("use_60fps", yt_use_60fps).toBool();
