@@ -2242,68 +2242,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>フォント スケール: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
         <translation>アスペクト比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>フォント キャッシュを更新しています。これには数秒かかる可能性があります...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕の遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation>オーディオの遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2318,67 +2318,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>動画の URL を見つけることができません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation>字幕 オン</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation>字幕 オフ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation>今マウス ホイールするとシークします</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation>今マウス ホイールすると音量を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>今マウス ホイールすると拡大率を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation>今マウス ホイールすると速度を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation>スクリーンショットが %1 として保存されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation>開始しています...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>スクリーンショットが撮られません、フォルダーが構成されていません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>スクリーンショットが撮られません、フォルダーが構成されていません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation>A-B マーカーがクリアされました</translation>
     </message>
@@ -2893,10 +2893,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
         <translation>OpenSubtitles の認証情報</translation>
-    </message>
-    <message>
-        <source>Pass&amp;word:</source>
-        <translation type="obsolete">パスワード(&amp;W):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>

@@ -2242,68 +2242,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>‭%1 :תוריהב</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>‭%1 :תודח</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>‭%1 :המאג</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>‭%1 :ןווג</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>‭%1 :היוור</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>‭%1 :עמש תמצוע</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>‭%1 :םוז</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>‭%1 :ןפוג לש הדימ הנק</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
         <translation>‭%1 :הבוג בחור סחי</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>מעדכן כעת מטמון גופנים. זה עשוי לקחת כמה שניות...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :תויבותכ יוהיש</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :וידוא יוהיש</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation>‭%1 :תוריהמ</translation>
     </message>
@@ -2318,67 +2318,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אין אפשרות לאתר כתובת URL של וידאו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation>‭קולד :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation>‭יובכ :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation>גלגל עכבר: מחפש עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation>גלגל עכבר: משנה עוצמת שמע עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>גלגל עכבר: משנה רמת זון עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation>גלגל עכבר: משנה מהירות עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation>צילום מסך נשמר בתור %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation>כעת מתחיל...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>תצלום מסך לא נלקח, תיקייה לא מוגדרת</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>תצלומי מסך לא נלקחו, תיקייה לא מוגדרת</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>‭%1 לא העבקנ &quot;A&quot; תדוקנ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>‭%1 לא העבקנ &quot;B&quot; תדוקנ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation>‭ורהוט A-B תודוקנ</translation>
     </message>

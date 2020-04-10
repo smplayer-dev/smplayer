@@ -2244,68 +2244,68 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>Ljosstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>Fargetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>Metting: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>Skrift storleik: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
         <translation>Bildeformat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer mellomlager for skrift. Dette vil ta nokre sekund...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Undertekstforseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lydforseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation>Fart: %1</translation>
     </message>
@@ -2320,67 +2320,67 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Klarte ikkje å finna nettadressa til videoen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation>Undertekstar på</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation>Undertekstar av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation>Museskroll - navigering no</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Museskroll - endring av lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Museskroll - endring av zoom-nivå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Museskroll - endring av tempo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation>Skjermbilete lagra som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation>Startar…</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Skjermbilete ikkje teke, mappe ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Skjermbileta ikkje tekne, plassering ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>‹‹A›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>‹‹B›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation>A -&gt; B-punkta fjerna</translation>
     </message>

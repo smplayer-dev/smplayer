@@ -2461,68 +2461,68 @@ Niha wê peyama mîhengkirinê xuya bibe û hûn dikarên mîheng bikin.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>Brightness: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>Deng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>Nêzik: 1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>Mezinahiya nivîsê: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2537,67 +2537,67 @@ Niha wê peyama mîhengkirinê xuya bibe û hûn dikarên mîheng bikin.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation type="unfinished"></translation>
     </message>

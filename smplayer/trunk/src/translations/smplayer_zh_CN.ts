@@ -61,7 +61,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation>好(&amp;o)</translation>
+        <translation>确定(&amp;O)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -188,7 +188,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>输入以搜索</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -226,7 +226,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;更改快捷键...</translation>
+        <translation>更改快捷键(&amp;C)...</translation>
     </message>
 </context>
 <context>
@@ -257,7 +257,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Preset</source>
-        <translation>&amp;当前</translation>
+        <translation>当前(&amp;P)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
@@ -277,7 +277,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation>&amp;关闭</translation>
+        <translation>关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -445,7 +445,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
         <source>D&amp;irectory...</source>
-        <translation>目录(&amp;i)...</translation>
+        <translation>目录(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1690"/>
@@ -455,12 +455,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1693"/>
         <source>&amp;DVD from drive</source>
-        <translation>DVD 驱动器(&amp;D)</translation>
+        <translation>&amp;DVD 驱动器</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1694"/>
         <source>D&amp;VD from folder...</source>
-        <translation>DVD 文件夹(&amp;V)...</translation>
+        <translation>D&amp;VD 文件夹...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1699"/>
@@ -510,18 +510,18 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>Speed &amp;-10%</source>
-        <translation>速度-10%(&amp;-)</translation>
+        <translation>速度&amp;-10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>Speed &amp;+10%</source>
-        <translation>速度+10%(&amp;+)</translation>
+        <translation>速度&amp;+10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1845"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>关(&amp;O)</translation>
+        <translation>关闭(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2010"/>
@@ -563,7 +563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2070"/>
         <source>&amp;Lowpass5</source>
-        <translation>Lowpass5(&amp;L)</translation>
+        <translation>&amp;Lowpass5</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -628,7 +628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
         <source>&amp;Karaoke</source>
-        <translation>卡拉 OK(&amp;K)</translation>
+        <translation>卡拉 O&amp;K</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2104"/>
@@ -644,12 +644,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2115"/>
         <source>&amp;4.0 Surround</source>
-        <translation>4.0 环绕声(&amp;4)</translation>
+        <translation>&amp;4.0 环绕声</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2116"/>
         <source>&amp;5.1 Surround</source>
-        <translation>5.1 环绕声(&amp;5)</translation>
+        <translation>&amp;5.1 环绕声</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2107"/>
@@ -764,7 +764,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>About &amp;SMPlayer</source>
-        <translation>关于 SMPlayer(&amp;S)</translation>
+        <translation>关于 &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3613"/>
@@ -810,12 +810,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>YouTube%1 浏览器(&amp;Y)</translation>
+        <translation>&amp;YouTube%1 浏览器</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1888"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>捐赠 / 分享给您的朋友 (&amp;D)</translation>
+        <translation>捐赠 / 分享给你的朋友(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4308"/>
@@ -883,7 +883,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1691"/>
         <source>V&amp;CD</source>
-        <translation>VCD(&amp;C)</translation>
+        <translation>V&amp;CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1700"/>
@@ -923,7 +923,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Move &amp;down</source>
-        <translation>向下移动(&amp;d)</translation>
+        <translation>向下移动(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -933,7 +933,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>下一行字幕(&amp;e)</translation>
+        <translation>下一行字幕(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
@@ -950,7 +950,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
         <source>Update the &amp;YouTube code</source>
-        <translation>更新 YouTube 代码 (&amp;Y)</translation>
+        <translation>更新 &amp;YouTube 代码</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2224"/>
@@ -974,17 +974,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1696"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation>从驱动器播放 &amp;Blu-ray (&amp;B)</translation>
+        <translation>从驱动器播放蓝光(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1697"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>从文件夹播放 Blu-ray(&amp;B)...</translation>
+        <translation>从文件夹播放蓝光(&amp;R)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>Fra&amp;me back step</source>
-        <translation>逐帧步进(&amp;m)</translation>
+        <translation>逐帧步进(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1748"/>
@@ -1009,7 +1009,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>缩略图生成器…(&amp;n)</translation>
+        <translation>缩略图生成器(&amp;N)…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1773"/>
@@ -1019,12 +1019,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation>去带(Gradfun)(&amp;g)</translation>
+        <translation>去带(&amp;Gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Headphone optimization</source>
-        <translation>优化耳机(&amp;h)</translation>
+        <translation>耳机优化(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
@@ -1039,12 +1039,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>Use custo&amp;m style</source>
-        <translation>使用自定义风格 (&amp;m)</translation>
+        <translation>使用自定义风格(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>在 OpenSubtitles.org 上查找字幕(&amp;O)...</translation>
+        <translation>在 &amp;OpenSubtitles.org 上查找字幕...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1851"/>
@@ -1060,7 +1060,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
         <source>T&amp;ablet mode</source>
-        <translation>平板模式(&amp;a)</translation>
+        <translation>平板模式(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
@@ -1075,7 +1075,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
         <source>&amp;Donate</source>
-        <translation>&amp;捐赠</translation>
+        <translation>捐赠(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1903"/>
@@ -1090,7 +1090,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1907"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation>以毫秒显示时间</translation>
+        <translation>显示附有毫秒的时间(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -1190,7 +1190,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1954"/>
         <source>Show &amp;info on OSD</source>
-        <translation>在 OSD 中显示信息(&amp;i)</translation>
+        <translation>在 OSD 中显示信息(&amp;I)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1955"/>
@@ -1200,23 +1200,23 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1974"/>
         <source>Vie&amp;w</source>
-        <translation>查看(&amp;w)</translation>
+        <translation>查看(&amp;W)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2050"/>
         <source>De&amp;noise</source>
-        <translation>降噪(&amp;n)</translation>
+        <translation>降噪(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2053"/>
         <source>Blur/S&amp;harp</source>
-        <translation>模糊/锐化(&amp;h)</translation>
+        <translation>模糊/锐化(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2076"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation>关(&amp;O)</translation>
+        <translation>关闭(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2077"/>
@@ -1256,12 +1256,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2117"/>
         <source>&amp;6.1 Surround</source>
-        <translation>6.1 环绕声(&amp;6)</translation>
+        <translation>&amp;6.1 环绕声</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2118"/>
         <source>&amp;7.1 Surround</source>
-        <translation>7.1 环绕声(&amp;7)</translation>
+        <translation>&amp;7.1 环绕声</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2123"/>
@@ -1276,7 +1276,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
         <source>Prim&amp;ary track</source>
-        <translation>主轨道</translation>
+        <translation>主轨道(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2133"/>
@@ -1286,12 +1286,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2136"/>
         <source>Secondary trac&amp;k</source>
-        <translation>第二轨道(&amp;k)</translation>
+        <translation>次轨道(&amp;K)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2138"/>
         <source>Select secondary subtitle track</source>
-        <translation>选择第二字幕轨道</translation>
+        <translation>选择次字幕轨道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2144"/>
@@ -1558,12 +1558,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2074"/>
         <source>&amp;Kerndeint</source>
-        <translation>Kerndeint(&amp;K)</translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2071"/>
         <source>&amp;Yadif (normal)</source>
-        <translation>Yadif (标准)(&amp;Y)</translation>
+        <translation>&amp;Yadif (标准)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
@@ -1618,7 +1618,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>&amp;FAQ</source>
-        <translation>FAQ(&amp;F)</translation>
+        <translation>&amp;FAQ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1663,7 +1663,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2084"/>
         <source>&amp;Off</source>
-        <translation>关(&amp;O)</translation>
+        <translation>关闭(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2085"/>
@@ -1796,7 +1796,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1950"/>
         <source>Next aspect ratio</source>
-        <translation>下一个纵横比</translation>
+        <translation>下一个长宽比</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
@@ -1982,12 +1982,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>Set &amp;A marker</source>
-        <translation>设置 A 标记(&amp;A)</translation>
+        <translation>设置 &amp;A 标记</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Set &amp;B marker</source>
-        <translation>设置 B 标记(&amp;B)</translation>
+        <translation>设置 &amp;B 标记</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
@@ -1997,7 +1997,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2013"/>
         <source>&amp;A-B section</source>
-        <translation>A-B 区间(&amp;A)</translation>
+        <translation>&amp;A-B 区间</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
@@ -2040,27 +2040,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation>传送到(&amp;C)</translation>
+        <translation>投射到(&amp;C)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation>Chromecast(&amp;C)</translation>
+        <translation>&amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation>智能手机/平板(&amp;S)</translation>
+        <translation>智能手机/平板电脑(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
-        <translation>将视频发送到屏幕(&amp;v)</translation>
+        <translation>发送视频到屏幕(&amp;V)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
-        <translation>已连接屏幕信息(&amp;s)</translation>
+        <translation>已连接的各个屏幕的信息(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="396"/>
@@ -2070,7 +2070,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
-        <translation>将音频发送到(&amp;a)</translation>
+        <translation>发送音频到(&amp;A)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="438"/>
@@ -2236,74 +2236,74 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation>停止 SMPlayer 浏览器(&amp;S)</translation>
+        <translation>停止 &amp;SMPlayer 的 Web 服务器</translation>
     </message>
 </context>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>伽玛: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>字体缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
-        <translation>纵横比: %1</translation>
+        <translation>长宽比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字体缓存。这可能需要几秒钟...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation>音频延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2318,67 +2318,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法定位视频的URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation>字幕关闭</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation>鼠标滚轮定位</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation>鼠标滚轮更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>鼠标滚轮更改缩放等级</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation>鼠标滚轮更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation>截图已保存为 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation>正在开始...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation>A-B 标记已清除</translation>
     </message>
@@ -2423,7 +2423,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="705"/>
         <source>F&amp;ormat info</source>
-        <translation>格式信息(&amp;o)</translation>
+        <translation>格式信息(&amp;O)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="746"/>
@@ -2453,12 +2453,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="706"/>
         <source>&amp;Bitrate info</source>
-        <translation>&amp;位率信息</translation>
+        <translation>比特率信息(&amp;B)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="707"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation>&amp;以毫秒显示当前时间</translation>
+        <translation>显示当前时间附毫秒(&amp;S)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
@@ -2764,12 +2764,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>&amp;OK</source>
-        <translation>好(&amp;o)</translation>
+        <translation>确定(&amp;O)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;c)</translation>
+        <translation>取消(&amp;C)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
@@ -2779,7 +2779,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation>%1 的参数项 (&amp;p)</translation>
+        <translation>%1 的选项(&amp;P)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
@@ -2872,7 +2872,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation>OpenSubtitles 服务器(&amp;O):</translation>
+        <translation>&amp;OpenSubtitles 服务器:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
@@ -2887,12 +2887,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation>搜索方法(&amp;m)：</translation>
+        <translation>搜索方法(&amp;M):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"></translation>
+        <translation>Opensubtitles 证书</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -2929,12 +2929,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation>将语言代码附加到字幕文件名中(&amp;p)</translation>
+        <translation>将语言代码附加到字幕文件名中(&amp;P)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
-        <translation>条目数(&amp;r)：</translation>
+        <translation>重试次数(&amp;R):</translation>
     </message>
 </context>
 <context>
@@ -3071,12 +3071,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation>视频文件(&amp;V)：</translation>
+        <translation>视频文件(&amp;V):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation>搜索标题(&amp;t)：</translation>
+        <translation>搜索标题(&amp;T):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
@@ -3171,32 +3171,32 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation>播放(&amp;P)</translation>
+        <translation>媒体键-播放(&amp;P)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation>停止(&amp;S)</translation>
+        <translation>媒体键-停止(&amp;S)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation>上一首(&amp;v)</translation>
+        <translation>媒体键-上一个(&amp;v)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation>下一首(&amp;N)</translation>
+        <translation>媒体键-下一个(&amp;N)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation>暂停(&amp;a)</translation>
+        <translation>媒体键-暂停(&amp;A)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation>录制(&amp;R)</translation>
+        <translation>媒体键-录制(&amp;R)</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
@@ -3317,7 +3317,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="130"/>
         <source>Aspect ratio</source>
-        <translation>纵横比</translation>
+        <translation>长宽比</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
@@ -3422,7 +3422,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation>初始化视频流</translation>
+        <translation>初始视频流</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -3463,12 +3463,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation>时间(&amp;T)：</translation>
+        <translation>时间(&amp;T):</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation>名称(可选)(&amp;N)：</translation>
+        <translation>名称（可选）(&amp;N):</translation>
     </message>
 </context>
 <context>
@@ -3542,7 +3542,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="64"/>
         <source>&amp;URL:</source>
-        <translation>URL(&amp;U):</translation>
+        <translation>&amp;URL:</translation>
     </message>
 </context>
 <context>
@@ -4722,7 +4722,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
-        <translation>已丢失的画面</translation>
+        <translation>丢帧:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="210"/>
@@ -4852,12 +4852,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation>如果你想在手机或平板上播放此视频，请使用你的设备扫描二维码：</translation>
+        <translation>如要在智能手机或平板上播放此视频，使用你的设备扫描如下二维码：</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation>或者在设备的媒体播放器中打开此网址：</translation>
+        <translation>或者在设备的媒体播放器中打开此网址:</translation>
     </message>
 </context>
 <context>
@@ -4963,22 +4963,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="688"/>
         <source>&amp;Load...</source>
-        <translation>&amp;加载...</translation>
+        <translation>加载(&amp;L)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="690"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>从URL加载列表</translation>
+        <translation>从网址加载播放列表(&amp;U)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation>在Chromecast上播放</translation>
+        <translation>在 Chromecast 上播放(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="731"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation>在&amp;a网页浏览器中开启串流</translation>
+        <translation>在网页浏览器中打开串流(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="746"/>
@@ -5023,7 +5023,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="694"/>
         <source>Save &amp;as...</source>
-        <translation>保存为...</translation>
+        <translation>保存为(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="698"/>
@@ -5073,7 +5073,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Add &amp;URL(s)</source>
-        <translation>添加网址(s) (U)</translation>
+        <translation>添加网址(&amp;U)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="718"/>
@@ -5094,12 +5094,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="725"/>
         <location filename="../playlist.cpp" line="1521"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation>复制文件路径到剪贴板</translation>
+        <translation>复制文件路径到剪贴板(&amp;C)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="726"/>
         <source>&amp;Open source folder</source>
-        <translation>&amp;打开来源文件夹</translation>
+        <translation>打开来源文件夹(&amp;O)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="734"/>
@@ -5130,7 +5130,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1526"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation>复制链接到剪贴板</translation>
+        <translation>复制网址到剪贴板(&amp;C)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1999"/>
@@ -5239,22 +5239,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>显示器纵横比(&amp;M):</translation>
+        <translation>显示器长宽比(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation>默认使用lavf 分流器(&amp;v)</translation>
+        <translation>默认使用 lavf 分流器(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation>O&amp;SD 栏位置：</translation>
+        <translation>O&amp;SD 栏位置:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
         <source>Color&amp;key:</source>
-        <translation>颜色值(&amp;k):</translation>
+        <translation>颜色值(&amp;K):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="351"/>
@@ -5274,7 +5274,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="592"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>记录 SMPlayer 输出(&amp;S)</translation>
+        <translation>记录 &amp;SMPlayer 输出</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="663"/>
@@ -5294,12 +5294,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>Monitor aspect</source>
-        <translation>显示器纵横比</translation>
+        <translation>显示器长宽比</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="458"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>选择您的显示器纵横比。</translation>
+        <translation>选择您的显示器的长宽比。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
@@ -5384,12 +5384,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="484"/>
         <source>IPv&amp;4</source>
-        <translation>IPv4(&amp;4)</translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="491"/>
         <source>IPv&amp;6</source>
-        <translation>IPv6(&amp;6)</translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="515"/>
@@ -5469,12 +5469,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation>记录 %1 输出(&amp;o)</translation>
+        <translation>记录 %1 输出(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation>通知 1% 崩溃 &amp;</translation>
+        <translation>通知 1% 崩溃(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5484,12 +5484,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation>自动保存 %1 日志到文件(&amp;u)</translation>
+        <translation>自动保存 %1 日志到文件(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation>将 %1 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
+        <translation>将 %1 选项传送给 MPlayer (安全风险)(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
@@ -5595,7 +5595,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="403"/>
         <source>A&amp;udio filters:</source>
-        <translation>音频过滤器(&amp;u):</translation>
+        <translation>音频过滤器(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="466"/>
@@ -5765,17 +5765,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
-        <translation>选择您的 CD 驱动器(&amp;C):</translation>
+        <translation>选择您的 &amp;CD 驱动器:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="176"/>
         <source>Select your &amp;DVD device:</source>
-        <translation>选择您的 DVD 驱动器(&amp;D):</translation>
+        <translation>选择您的 &amp;DVD 驱动器:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="274"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation>选择您的 Blu-ray 驱动器(&amp;B):</translation>
+        <translation>选择您的蓝光驱动器(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5820,7 +5820,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation>启用 DVD 菜单(试验)(&amp;E)</translation>
+        <translation>启用 DVD 菜单(实验性)(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
@@ -5889,7 +5889,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="217"/>
         <source>%1 &amp;executable:</source>
-        <translation>%1 可执行文件(&amp;e):</translation>
+        <translation>%1 可执行文件(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="169"/>
@@ -6132,22 +6132,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>多媒体引擎(&amp;e)：</translation>
+        <translation>多媒体引擎(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation>记住对流媒体的设置(&amp;m)</translation>
+        <translation>记住对流媒体的设置(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>Temp&amp;late:</source>
-        <translation>模板(&amp;l)：</translation>
+        <translation>模板(&amp;l):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation>格式(&amp;o) :</translation>
+        <translation>格式(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -6167,12 +6167,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="768"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation>全局音频均衡器(&amp;e)</translation>
+        <translation>全局音频均衡器(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation>经由 S/PDIF 和 HDMI 透传的 AC3/DTS (&amp;a)</translation>
+        <translation>经由 S/PDIF 和 HDMI 透传的 &amp;AC3/DTS</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6207,7 +6207,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>通过在内存中存储两帧，在显示一帧的同时解码另一帧的双缓冲来修复闪烁问题。如果禁用它会对 OSD (屏幕显示)产生负面影响，但常常能去除 OSD (屏幕显示)的闪烁。</translation>
+        <translation>双缓冲通过在内存中存储两帧，显示一帧的同时解码另一帧，来解决闪烁问题。如果禁用，可能 OSD (屏幕显示)产生负面影响，但常常能去除 OSD (屏幕显示) 的闪烁。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
@@ -6377,7 +6377,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation>默认给字幕加黑边框&amp;</translation>
+        <translation>默认给字幕加黑边框(&amp;K)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6622,7 +6622,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>如果勾选，将打开直接渲染(还不被所有的编解码器和视频输出支持)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; 可能会导致 OSD (屏幕显示)/SUB 的讹误!</translation>
+        <translation>如果勾选，将开启直接渲染（并不被所有编解码器和视频输出支持）&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;可能会导致 OSD (屏幕显示)/SUB 显示异常。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
@@ -6810,7 +6810,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation>选择键(&amp;k)...</translation>
+        <translation>选择键(&amp;K)...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -6825,12 +6825,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
-        <translation>拖动功能(&amp;g)：</translation>
+        <translation>拖动功能(&amp;G):</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>不要用双击来触发左击(&amp;t)</translation>
+        <translation>双击左键不触发左击动作(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
@@ -7040,12 +7040,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="259"/>
         <source>X Button &amp;1</source>
-        <translation>X 按钮 1(&amp;1)</translation>
+        <translation>X 按钮 &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="272"/>
         <source>X Button &amp;2</source>
-        <translation>X 按钮 2(&amp;2)</translation>
+        <translation>X 按钮 &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
@@ -7467,7 +7467,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation>居中窗口(&amp;w)</translation>
+        <translation>居中窗口(&amp;W)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7522,7 +7522,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>仅在鼠标移动到屏幕底部时出现(&amp;b)</translation>
+        <translation>仅在鼠标移动到屏幕底部时出现(&amp;B)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
@@ -7567,7 +7567,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="991"/>
         <source>A&amp;uto</source>
-        <translation>自动(&amp;u)</translation>
+        <translation>自动(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1047"/>
@@ -7677,12 +7677,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
-        <translation>缩放级别(&amp;o)：</translation>
+        <translation>缩放级别(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="263"/>
         <source>Pixel rati&amp;o:</source>
-        <translation>像素比例(&amp;o)：</translation>
+        <translation>像素比例(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
@@ -8035,17 +8035,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation>&amp;YouTube (以及其他网站)</translation>
+        <translation>&amp;YouTube (及其他网站)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>视频网站支持(&amp;v)：</translation>
+        <translation>视频网站支持(&amp;V)：</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation>首选质量(&amp;r)：</translation>
+        <translation>首选质量(&amp;R):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8055,27 +8055,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation>播放质量 (&amp;q)</translation>
+        <translation>播放质量(&amp;Q):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation>使用自适应分辨率(分辨率最高4K)</translation>
+        <translation>使用自适应分辨率（分辨率最高 4K）(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation>尽量使用60帧(&amp;6)</translation>
+        <translation>可能则使用 &amp;60 帧</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
-        <translation>用户代理 (&amp;U)：</translation>
+        <translation>用户代理 (&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="234"/>
         <source>C&amp;hromecast</source>
-        <translation>Chromecast</translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="240"/>
@@ -8085,17 +8085,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="252"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation>这里的改动将会在下次网络服务器重启的时候应用</translation>
+        <translation>此页面的变更将在该网络服务器下次启动时应用</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="272"/>
         <source>&amp;Directory listing</source>
-        <translation>列出目录</translation>
+        <translation>列出目录(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
-        <translation>本地IP</translation>
+        <translation>本地 &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="325"/>
@@ -8115,17 +8115,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="390"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation>&amp;覆盖已有的 VTT 文件</translation>
+        <translation>覆盖已有的 VTT 文件(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="397"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation>尝试移除广告&amp;</translation>
+        <translation>尝试移除广告(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation>&amp;字幕在屏幕上的位置</translation>
+        <translation>字幕在屏幕上的位置(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="461"/>
@@ -8140,28 +8140,28 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="480"/>
         <source>&amp;Host:</source>
-        <translation>主机(&amp;H)：</translation>
+        <translation>主机(&amp;H):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="302"/>
         <location filename="../prefnetwork.ui" line="493"/>
         <source>&amp;Port:</source>
-        <translation>端口(&amp;P)：</translation>
+        <translation>端口(&amp;P):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="513"/>
         <source>&amp;Username:</source>
-        <translation>用户名(&amp;U)：</translation>
+        <translation>用户名(&amp;U):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="526"/>
         <source>Pa&amp;ssword:</source>
-        <translation>密码(&amp;s)：</translation>
+        <translation>密码(&amp;S):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="543"/>
         <source>&amp;Type:</source>
-        <translation>类型(&amp;T)：</translation>
+        <translation>类型(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="39"/>
@@ -8518,17 +8518,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation>解码中</translation>
+        <translation>解码</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation>硬解 (&amp;d)</translation>
+        <translation>硬件解码(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation>自动(&amp;u)</translation>
+        <translation>自动(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8543,7 +8543,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>设置缓存可能会提高慢速媒体的性能</translation>
+        <translation>设置缓存可能提升慢速媒体的性能</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -8563,7 +8563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>更加强烈的丢帧(中断解码过程)。将导致图像失真!</translation>
+        <translation>更显著的丢帧（中断解码过程）。可导致图像畸变！</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
@@ -8658,7 +8658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="448"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>DVD 缓存(&amp;D):</translation>
+        <translation>&amp;DVD 缓存:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
@@ -8668,7 +8668,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
         <source>Cache for &amp;streams:</source>
-        <translation>流缓存(&amp;S):</translation>
+        <translation>媒体流缓存(&amp;S):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="100"/>
@@ -8693,7 +8693,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>此选项允许在 H.264 解码期间跳过环路过滤器(也叫做&quot;去块&quot;)。因为经过过滤的帧会被当作解码依赖帧引用，而在质量上这比不对视频(例如 MPEG-2)进行去块的效果更差。但是去块至少对高比特率的 HDTV 提供了不损失视觉品质的大幅加速。</translation>
+        <translation>此选项允许在 H.264 解码时跳过环路过滤器（也称“去块”）。因为经过滤的帧会被当作解码相关帧的参考，因此不对视频（如 MPEG-2）进行去块的效果将会更差。但这至少对高比特率的 HDTV 来说能大幅加速，而不造成显著的品质损失。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8709,7 +8709,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>根据 Windows 下可用的预定义优先级设置 1% 进程的优先级。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; 使用实时优先级可能会导致系统锁死。</translation>
+        <translation>将 1% 进程的优先级设为指定的 Windows 下可用的预定义优先级。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;使用“实时”优先级可能导致系统死锁（电脑死机）。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -8719,7 +8719,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation>设置硬件解码 API。如果无法使用硬解，则会使用软解。</translation>
+        <translation>设置显卡硬件解码 API。如果硬件解码不能用，则将使用软件解码代替。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
@@ -8729,7 +8729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>None: only software decoding will be used.</source>
-        <translation>无：仅用软解。</translation>
+        <translation>无：仅使用软件解码。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
@@ -8739,22 +8739,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation>vdpau：用于 vdpau 以及 opengl 显示输出。</translation>
+        <translation>vdpau：vdpau 和 opengl 显示输出。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation>vaapi：用于 opengl 以及 vaapi 视频输出。仅支持 Intel GPU。</translation>
+        <translation>vaapi：opengl 和 vaapi 视频输出。仅支持 Intel GPU。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation>vaapi-copy：将视频拷贝回系统内存中。仅支持 Intel GPU。</translation>
+        <translation>vaapi-copy：将视频写回系统内存。仅支持 Intel GPU。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation>dxva2-copy：将视频拷贝回系统内存中。试验性功能。</translation>
+        <translation>dxva2-copy：将视频写回系统内存。试验性功能。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
@@ -8779,7 +8779,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;仅跳过高清视频&lt;/b&gt;: 仅在视频高度是 %1 或更高时环路过滤器将被跳过。</translation>
+        <translation>&lt;b&gt;仅跳过高清视频&lt;/b&gt;: 仅在视频高度是 %1 或更高时跳过环路过滤器。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
@@ -8829,7 +8829,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>VCD 缓存(&amp;V):</translation>
+        <translation>&amp;VCD 缓存:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
@@ -8844,7 +8844,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>解码线程(仅 MPEG-1/2 和 H.264)(&amp;T):</translation>
+        <translation>解码线程(仅限 MPEG-1/2 和 H.264)(&amp;T):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="360"/>
@@ -9062,7 +9062,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation>从文件夹添加&amp;f：</translation>
+        <translation>从文件夹添加文件(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
@@ -9077,17 +9077,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>导入列表后开始播放</translation>
+        <translation>加载播放列表后开始播放(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation>自动播放下一个文件</translation>
+        <translation>自动播放下一个文件(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation>忽略播放错误</translation>
+        <translation>忽略播放错误(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -9097,7 +9097,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>自动添加文件到播放列表</translation>
+        <translation>自动添加文件到播放列表(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9107,37 +9107,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation>自动获取文件的信息(较慢)(&amp;I)</translation>
+        <translation>自动获取新增文件的信息(较慢)(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation>播放列表窗口可以停靠(&amp;d)</translation>
+        <translation>播放列表窗口可以停靠(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
         <source>&amp;Misc</source>
-        <translation>&amp;杂项</translation>
+        <translation>杂项(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>A&amp;uto sort</source>
-        <translation>自动分类</translation>
+        <translation>自动排序(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation>&amp;区分大小写搜索</translation>
+        <translation>搜索区分大小写(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="198"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation>&amp;退出时保存播放列表复件</translation>
+        <translation>退出时保存播放列表复件(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation>启用此选项以从&amp;硬盘上删除文件</translation>
+        <translation>启用此选项则从硬盘上删除文件(&amp;D)</translation>
     </message>
 </context>
 <context>
@@ -9167,12 +9167,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation>使用 ASS 库(&amp;A)</translation>
+        <translation>使用 &amp;ASS 库</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation>启用 Windows 字体(&amp;W)</translation>
+        <translation>启用 &amp;Windows 字体</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -9319,7 +9319,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>如果启用此项那么Windows 系统字体将会用于字幕显示。不过有个不便：需要花时间创建字体缓存。</translation>
+        <translation>如果启用此选项，Windows 系统字体将可用于字幕。但这有个不便：必须创建字体缓存，这需要花些时间。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
@@ -9509,12 +9509,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation>将风格也应用到 ASS 文件(&amp;p)</translation>
+        <translation>风格也应用到 ASS 文件(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
-        <translation>使用自定义风格 (&amp;m)</translation>
+        <translation>使用自定义风格(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
@@ -9642,7 +9642,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>如果勾选此选项，字幕将出现在屏幕截图中。&lt;b&gt;注意:&lt;/b&gt; 它有时可能会引起一些故障。</translation>
+        <translation>如果勾选此选项，字幕将出现在屏幕截图中。&lt;b&gt;注意：&lt;/b&gt;它有时会导致一些困扰。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="349"/>
@@ -9778,12 +9778,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation>检查间隔(天)</translation>
+        <translation>检查间隔（天）(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>更新后打开介绍信息页面(&amp;O)</translation>
+        <translation>更新后打开介绍页面(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -10226,7 +10226,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Scroll title</source>
-        <translation>滚屏标题(&amp;S)</translation>
+        <translation>滚动标题(&amp;S)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>
@@ -10254,12 +10254,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation>视频的 3D 格式(&amp;3)：</translation>
+        <translation>此视频的 3D 格式(&amp;3):</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation>输出格式(&amp;O)：</translation>
+        <translation>输出格式(&amp;O):</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -10471,7 +10471,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation>图标大小(&amp;I)：</translation>
+        <translation>图标大小(&amp;I):</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -10563,13 +10563,13 @@ Do you want to overwrite?</source>
         <location filename="../updatechecker.cpp" line="198"/>
         <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
-        <translation>已安装版本：%1</translation>
+        <translation>已安装版本: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="199"/>
         <location filename="../updatechecker.cpp" line="216"/>
         <source>Available version: %1</source>
-        <translation>可更新版本：%1</translation>
+        <translation>可更新版本: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
@@ -10599,7 +10599,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
         <source>Error code: %1</source>
-        <translation>错误代码：%1</translation>
+        <translation>错误代码: %1</translation>
     </message>
 </context>
 <context>
@@ -10650,12 +10650,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation>&amp;Gamma</translation>
+        <translation>伽马值(&amp;G)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>软件均衡器(&amp;e)</translation>
+        <translation>软件均衡器(&amp;E)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
@@ -10698,12 +10698,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;c)</translation>
+        <translation>关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
-        <translation>保存(&amp;s)</translation>
+        <translation>保存(&amp;S)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="168"/>
@@ -10728,12 +10728,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
-        <translation>FPS：%1</translation>
+        <translation>FPS: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
-        <translation>音频格式： %1</translation>
+        <translation>音频格式: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="693"/>
@@ -10783,7 +10783,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>Aspect ratio: %1</source>
-        <translation>纵横比: %1</translation>
+        <translation>长宽比: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="423"/>
@@ -10877,7 +10877,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
-        <translation>纵横比(&amp;A):</translation>
+        <translation>长宽比(&amp;A):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
@@ -10887,12 +10887,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation>好(&amp;o)</translation>
+        <translation>好(&amp;O)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;c)</translation>
+        <translation>取消(&amp;C)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
@@ -10923,7 +10923,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>如果视频的纵横比是错误的，您可以在这里指定一个不同的。</translation>
+        <translation>如果该视频的长宽比有误，您可以在这里手动指定。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>

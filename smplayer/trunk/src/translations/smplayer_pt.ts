@@ -536,7 +536,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;Fullscreen</source>
-        <translation>Ecrã &amp;inteiro</translation>
+        <translation>Ecrã &amp;completo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -1100,7 +1100,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1925"/>
         <source>Exit fullscreen</source>
-        <translation>Sair de ecrã inteiro</translation>
+        <translation>Sair de ecrã completo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1927"/>
@@ -2242,68 +2242,68 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3216"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3247"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Hue: %1</source>
         <translation>Tom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3272"/>
+        <location filename="../core.cpp" line="3277"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3415"/>
+        <location filename="../core.cpp" line="3420"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4377"/>
+        <location filename="../core.cpp" line="4382"/>
         <source>Zoom: %1</source>
         <translation>Ampliação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3543"/>
-        <location filename="../core.cpp" line="3554"/>
+        <location filename="../core.cpp" line="3548"/>
+        <location filename="../core.cpp" line="3559"/>
         <source>Font scale: %1</source>
         <translation>Escala do tipo de letra: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4208"/>
+        <location filename="../core.cpp" line="4213"/>
         <source>Aspect ratio: %1</source>
         <translation>Rácio de aspeto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4615"/>
+        <location filename="../core.cpp" line="4620"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Atualização da cache de letras. Pode levar algum tempo...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3468"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Atraso de legendas: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3486"/>
+        <location filename="../core.cpp" line="3491"/>
         <source>Audio delay: %1 ms</source>
         <translation>Atraso de áudio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Speed: %1</source>
         <translation>Velocidade: %1</translation>
     </message>
@@ -2318,67 +2318,67 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Não foi possível localizar o URL do vídeo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3642"/>
+        <location filename="../core.cpp" line="3647"/>
         <source>Subtitles on</source>
         <translation>Ativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Subtitles off</source>
         <translation>Desativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4256"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel seeks now</source>
         <translation>Agora, a procura é com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4264"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Agora, altera o volume com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4262"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Agora, altera o tamanho com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4265"/>
+        <location filename="../core.cpp" line="4270"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Agora, altera a velocidade com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4591"/>
+        <location filename="../core.cpp" line="4596"/>
         <source>Screenshot saved as %1</source>
         <translation>Captura guardada como %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4626"/>
+        <location filename="../core.cpp" line="4631"/>
         <source>Starting...</source>
         <translation>A iniciar...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1445"/>
+        <location filename="../core.cpp" line="1450"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Imagem não capturada. Pasta não configurada.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1458"/>
+        <location filename="../core.cpp" line="1463"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Imagem não capturada. Pasta não configurada.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2813"/>
+        <location filename="../core.cpp" line="2818"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marcador &quot;A&quot; definido para %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2838"/>
+        <location filename="../core.cpp" line="2843"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Marcador &quot;B&quot; definido para %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2861"/>
+        <location filename="../core.cpp" line="2866"/>
         <source>A-B markers cleared</source>
         <translation>Marcadores A-B removidos</translation>
     </message>
@@ -2892,7 +2892,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"></translation>
+        <translation>Credenciais OpenSubtitles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -5850,7 +5850,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Start videos in fullscreen</source>
-        <translation>Iniciar vídeos em ecrã inteiro</translation>
+        <translation>Iniciar vídeos em ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
@@ -6058,7 +6058,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Se ativar esta opção, todos os vídeos serão iniciados no modo de ecrã inteiro.</translation>
+        <translation>Se ativar esta opção, todos os vídeos serão iniciados no modo de ecrã completo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1208"/>
@@ -6158,7 +6158,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Iniciar vídeos em ecrã &amp;inteiro</translation>
+        <translation>Iniciar vídeos em ecrã &amp;completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6563,17 +6563,17 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Adicionar contornos negros em ecrã inteiro</translation>
+        <translation>Adicionar contornos negros em ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1168"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de ecrã inteiro. Isto permite que as legendas sejam exibidas nessas margens.</translation>
+        <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de ecrã completo. Isto permite que as legendas sejam exibidas nessas margens.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Adicionar contornos negros em ecrã inteiro</translation>
+        <translation>&amp;Adicionar contornos negros em ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
@@ -6940,7 +6940,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
-        <translation>Ecrã inteiro</translation>
+        <translation>Ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -6970,7 +6970,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
-        <translation>Sair de ecrã inteiro</translation>
+        <translation>Sair de ecrã completo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="97"/>
@@ -7518,7 +7518,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>O controlo flutuante aparece no modo de ecrã inteiro ao mover o rato.</translation>
+        <translation>O controlo flutuante aparece no modo de ecrã completo ao mover o rato.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -9901,7 +9901,7 @@ Substituir?</translation>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>o vídeo será reproduzido em ecrã inteiro.</translation>
+        <translation>o vídeo será reproduzido em ecrã completo.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
@@ -10317,7 +10317,7 @@ Substituir?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation>Anáglifo vermelho/ciano cor</translation>
+        <translation>Anáglifo vermelho/ciano colorido</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
@@ -10984,7 +10984,7 @@ Substituir?</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>Ativar/desativar ecrã inteiro</translation>
+        <translation>Ativar/desativar ecrã completo</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
