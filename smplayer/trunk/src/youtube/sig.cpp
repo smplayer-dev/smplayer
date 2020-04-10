@@ -33,7 +33,10 @@ QString Sig::playerURL(const QString & player_name) {
 	QString p = player_name.toUtf8().toBase64();
 	return QString("http://updates.smplayer.info/ytsig/?e=%1&c=1").arg(p);
 #else
-	return QString("http://www.youtube.com/yts/jsbin/%1/base.js").arg(player_name);
+	if (player_name.startsWith("/"))
+		return QString("http://www.youtube.com/%1/base.js").arg(player_name);
+	else
+		return QString("http://www.youtube.com/yts/jsbin/%1/base.js").arg(player_name);
 #endif
 }
 

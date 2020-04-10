@@ -278,13 +278,14 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	QString html5_player;
 	#endif
 
-	QRegExp rxplayer("jsbin\\/player(.*)\\/base\\.js");
+	QRegExp rxplayer("\"js\":\"(.*)\\/player(.*)base\\.js\"");
 	rxplayer.setMinimal(true);
 	if (rxplayer.indexIn(replyString) != -1) {
-		QString player = rxplayer.cap(1);
+		QString player = rxplayer.cap(1) + "/player"+ rxplayer.cap(2);
+		player = player.replace("\\/", "/");
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
 		#ifdef YT_USE_SIG
-		html5_player = "player" + player;
+		html5_player = player;
 		#endif
 	} else {
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";

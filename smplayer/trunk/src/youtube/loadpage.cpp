@@ -39,7 +39,7 @@ void LoadPage::fetchPage(const QString & url) {
 
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", userAgent().toLatin1());
-	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
+	//req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotResponse()));
 }
