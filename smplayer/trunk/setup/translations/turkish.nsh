@@ -94,12 +94,12 @@ ${LangFileString} Codecs_Inst_Failed "MPlayer kodekleri kurulumu başarısız ol
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Bu kurulum sadece yönetici ayrıcalıklarına sahip bir kullanıcı tarafından kaldırılabilir."
 ${LangFileString} Uninstaller_Aborted "Kaldırma kullanıcı tarafından iptal edildi."
-${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+${LangFileString} Uninstaller_NotInstalled "SMPlayerin '$INSTDIR' dizininde yüklü olduğu görülmüyor. $\r$\nHer koşulda devam etsin mi (önerilmez)?"
 ${LangFileString} Uninstaller_InvalidDirectory "SMPlayer kurulumu bulunamadı."
 ${LangFileString} Uninstaller_64bitOnly "Bu yükleme yalnızca 64-bit Windows üzerinde kaldırılabilir."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} Application_Description "SMPlayer, video, DVD ve VCD oynatmak gibi temel özelliklerden, MPlayer süzgeçleri, edl listeleri ve daha çoğu için gelişmiş özelliklere sahip eksiksiz bir MPlayer ön ucudur"
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Önceki kurulumdan kodekler yedekleniyor..."
