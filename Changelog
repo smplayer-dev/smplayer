@@ -1,3 +1,10 @@
+Version 20.4.2:
+
+(2020-04-10)
+ * Fix youtube.
+ * Don't use Qt script.
+
+
 Version 20.4.0:
 
 (2020-04-05)

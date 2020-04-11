@@ -1,3 +1,8 @@
+Version 20.4.2:
+
+ * Fix for YouTube.
+
+
 Version 20.4.0:
 
  * Possibility to enter the opensubtitles.org credentials,
