@@ -33,7 +33,7 @@
 #include <QUrlQuery>
 #endif
 
-#define DEBUG_OUTPUT_PAGE
+//#define DEBUG_OUTPUT_PAGE
 #ifdef DEBUG_OUTPUT_PAGE
 #include <QFile>
  #if QT_VERSION >= 0x050000
@@ -265,28 +265,46 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 
 	QString replyString = QString::fromUtf8(page);
 
-	QRegExp rx_title(".*<title>(.*)</title>.*");
-	if (rx_title.indexIn(replyString) != -1) {
-		url_title = rx_title.cap(1).simplified();
+	// Find video title
+	url_title = "";
+	QStringList rx_title_patterns;
+	rx_title_patterns << "\"title\":\"(.*)\"" << ".*<title>(.*)</title>.*";
+	for (int n = 0; n < rx_title_patterns.count(); n++) {
+		QRegExp rx(rx_title_patterns[n]);
+		rx.setMinimal(true);
+		if (rx.indexIn(replyString) != -1) {
+			url_title = rx.cap(1);
+			qDebug("RetrieveYoutubeUrl::videoPageLoaded: title found with pattern %d", n+1);
+			break;
+		}
+	}
+
+	if (!url_title.isEmpty()) {
+		url_title = sanitizeForUnicodePoint(url_title);
+		url_title = url_title.simplified();
 		url_title = QString(url_title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<").replace("&quot;","\"").replace("&#39;","'");
-		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: title:" << url_title;
 	} else {
 		url_title = "YouTube video";
 	}
+	qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: title:" << url_title;
 
-	#ifdef YT_USE_SIG
+	// Find video player
 	QString html5_player;
-	#endif
+	QStringList rx_player_patterns;
+	rx_player_patterns << "\"(?:js|jsUrl)\":\"(\\S+)\\/player(.*)base\\.js\"" << "script\\s+src=\"(\\S+)\\/player(.*)base\\.js\"";
+	for (int n = 0; n < rx_player_patterns.count(); n++) {
+		QRegExp rx(rx_player_patterns[n]);
+		rx.setMinimal(true);
+		if (rx.indexIn(replyString) != -1) {
+			html5_player = rx.cap(1) + "/player"+ rx.cap(2);
+			qDebug("RetrieveYoutubeUrl::videoPageLoaded: player found with pattern %d", n+1);
+			break;
+		}
+	}
 
-	QRegExp rxplayer("\"js\":\"(.*)\\/player(.*)base\\.js\"");
-	rxplayer.setMinimal(true);
-	if (rxplayer.indexIn(replyString) != -1) {
-		QString player = rxplayer.cap(1) + "/player"+ rxplayer.cap(2);
-		player = player.replace("\\/", "/");
-		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << player;
-		#ifdef YT_USE_SIG
-		html5_player = player;
-		#endif
+	if (!html5_player.isEmpty()) {
+		html5_player = html5_player.replace("\\/", "/");
+		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << html5_player;
 	} else {
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: player not found!";
 		//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: page:" << page;
