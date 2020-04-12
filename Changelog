@@ -1,5 +1,8 @@
 Version 20.4.2:
 
+(2020-04-12)
+ * Fix youtube titles.
+
 (2020-04-10)
  * Fix youtube.
  * Don't use Qt script.
