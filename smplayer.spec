@@ -1,5 +1,5 @@
 Name:           smplayer
-Version:        20.4.0
+Version:        20.4.2
 %global smplayer_themes_ver 18.6.0
 %global smplayer_skins_ver 15.2.0
 #%global webfs_ver 1.21
