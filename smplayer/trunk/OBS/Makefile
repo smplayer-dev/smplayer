@@ -2,7 +2,7 @@
 # deb packages at build.opensuse.org
 
 PACKAGE = smplayer
-VERSION = 20.4.0
+VERSION = 20.4.2
 #DEPENDS = debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, qtbase5-private-dev
 DEPENDS = debhelper (>= 5), zlib1g-dev, libqt4-dev
 
