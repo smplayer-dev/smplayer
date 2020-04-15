@@ -268,7 +268,7 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	// Find video title
 	QString title;
 	QStringList rx_title_patterns;
-	rx_title_patterns << "\"title\":\"(.*)\"" << "<title>(.*)</title>";
+	rx_title_patterns << "\"og:title\"\\s+content=\"(.*)\"" << "<title>(.*)</title>";
 	int pcount = 0;
 	foreach(QString pattern, rx_title_patterns) {
 		pcount++;
