@@ -22,6 +22,7 @@ OpenWithDeviceDialog::OpenWithDeviceDialog( QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f)
 {
 	setupUi(this);
+	qrcodelabel->setStyleSheet("background-color:white;");
 }
 
 OpenWithDeviceDialog::~OpenWithDeviceDialog() {
