@@ -53,6 +53,7 @@ public:
 	void setIconURL(const QString & url);
 	void setPlayed(bool played);
 	void setPosition(int position);
+	void setShufflePosition(int position);
 	void setCurrent(bool b);
 
 	QString filename();
@@ -63,6 +64,7 @@ public:
 	QString iconURL();
 	bool played();
 	int position();
+	int shufflePosition();
 	bool isCurrent();
 
 	QList<QStandardItem *> items();
@@ -71,6 +73,7 @@ protected:
 	QStandardItem * col_num;
 	QStandardItem * col_duration;
 	QStandardItem * col_filename;
+	QStandardItem * col_shuffle;
 };
 
 
@@ -183,6 +186,8 @@ public slots:
 	void setModified(bool);
 
 	void setFilter(const QString & filter);
+
+	void shuffle();
 
 	// Slots to connect from basegui
 	void getMediaInfo(const MediaData &);
