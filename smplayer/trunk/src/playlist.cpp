@@ -94,6 +94,7 @@
 #define COL_NAME 1
 #define COL_TIME 2
 #define COL_FILENAME 3
+#define COL_SHUFFLE 4
 
 #if USE_ITEM_DELEGATE
 class PlaylistDelegate : public QStyledItemDelegate {
@@ -125,6 +126,7 @@ PLItem::PLItem() : QStandardItem() {
 	col_num = new QStandardItem();
 	col_duration = new QStandardItem();
 	col_filename = new QStandardItem();
+	col_shuffle = new QStandardItem();
 
 	setDuration(0);
 	setPlayed(false);
@@ -137,6 +139,7 @@ PLItem::PLItem(const QString filename, const QString name, double duration) : QS
 	col_num = new QStandardItem();
 	col_duration = new QStandardItem();
 	col_filename = new QStandardItem();
+	col_shuffle = new QStandardItem();
 
 	setFilename(filename);
 	setName(name);
@@ -193,6 +196,11 @@ void PLItem::setPosition(int position) {
 	col_num->setData(position);
 }
 
+void PLItem::setShufflePosition(int position) {
+	col_shuffle->setText(QString::number(position));
+	col_shuffle->setData(position);
+}
+
 void PLItem::setCurrent(bool b) {
 	setData(b, Role_Current);
 #if !USE_ITEM_DELEGATE
@@ -223,13 +231,17 @@ int PLItem::position() {
 	return col_num->data().toInt();
 }
 
+int PLItem::shufflePosition() {
+	return col_shuffle->data().toInt();
+}
+
 bool PLItem::isCurrent() {
 	return data(Role_Current).toBool();
 }
 
 QList<QStandardItem *> PLItem::items() {
 	QList<QStandardItem *> l;
-	l << col_num << this << col_duration << col_filename;
+	l << col_num << this << col_duration << col_filename << col_shuffle;
 	return l;
 }
 
@@ -393,7 +405,7 @@ void Playlist::setModified(bool mod) {
 
 void Playlist::createTable() {
 	table = new QStandardItemModel(this);
-	table->setColumnCount(COL_FILENAME + 1);
+	table->setColumnCount(COL_SHUFFLE + 1);
 	//table->setSortRole(Qt::UserRole + 1);
 
 	proxy = new QSortFilterProxyModel(this);
@@ -683,7 +695,7 @@ void Playlist::createToolbar() {
 }
 
 void Playlist::retranslateStrings() {
-	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") );
+	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") << "Shuffle" );
 
 	openAct->change( Images::icon("open"), tr("&Load...") );
 #ifdef PLAYLIST_DOWNLOAD
@@ -1037,6 +1049,8 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		setModified( false );
 
 		if (start_play_on_load) startPlay();
+
+		shuffle();
 	}
 }
 
@@ -1877,6 +1891,29 @@ int Playlist::chooseRandomItem() {
 	int selected = (qrand() % fi.count());
 	qDebug("Playlist::chooseRandomItem: selected item: %d (%d)", selected, fi[selected]);
 	return fi[selected];
+}
+
+void Playlist::shuffle() {
+	QMap<int, int> rand_pos;
+	for (int n = 0; n < count(); n++) rand_pos[n] = -1;
+
+	for (int n = 0; n < rand_pos.count(); n++) {
+		int number;
+		bool found;
+		do {
+			number = qrand() % ((count() + 1) - 1) + 1;
+			found = false;
+			for (int a = 0; a < rand_pos.count(); a++) {
+				if (rand_pos[a] == number) { found = true; break; }
+			}
+		} while (found);
+		rand_pos[n] = number;
+	}
+
+	for (int n = 0; n < count(); n++) {
+		PLItem * i = itemData(n);
+		i->setShufflePosition(rand_pos[n]);
+	}
 }
 
 void Playlist::upItem() {
