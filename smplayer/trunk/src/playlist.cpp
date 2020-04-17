@@ -508,7 +508,8 @@ void Playlist::createActions() {
 	repeatAct->setCheckable(true);
 
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
-	shuffleAct->setCheckable(true);
+	//shuffleAct->setCheckable(true);
+	connect( shuffleAct, SIGNAL(triggered()), this, SLOT(shuffle()) );
 
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
@@ -1049,8 +1050,6 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		setModified( false );
 
 		if (start_play_on_load) startPlay();
-
-		shuffle();
 	}
 }
 
@@ -1914,6 +1913,8 @@ void Playlist::shuffle() {
 		PLItem * i = itemData(n);
 		i->setShufflePosition(rand_pos[n]);
 	}
+
+	listView->sortByColumn(COL_SHUFFLE, Qt::AscendingOrder);
 }
 
 void Playlist::upItem() {
