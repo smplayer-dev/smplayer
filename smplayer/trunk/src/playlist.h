@@ -294,6 +294,7 @@ protected slots:
 	void setNameColumnVisible(bool b);
 	void setDurationColumnVisible(bool b);
 	void setFilenameColumnVisible(bool b);
+	void setShuffleColumnVisible(bool b);
 
 protected:
 	void createTable();
@@ -376,6 +377,7 @@ protected:
 	MyAction * showNameColumnAct;
 	MyAction * showDurationColumnAct;
 	MyAction * showFilenameColumnAct;
+	MyAction * showShuffleColumnAct;
 
 	QSettings * set;
 

@@ -573,6 +573,10 @@ void Playlist::createActions() {
 	showFilenameColumnAct = new MyAction(this, "pl_show_filename_column");
 	showFilenameColumnAct->setCheckable(true);
 	connect(showFilenameColumnAct, SIGNAL(toggled(bool)), this, SLOT(setFilenameColumnVisible(bool)));
+
+	showShuffleColumnAct = new MyAction(this, "pl_show_shuffle_column");
+	showShuffleColumnAct->setCheckable(true);
+	connect(showShuffleColumnAct, SIGNAL(toggled(bool)), this, SLOT(setShuffleColumnVisible(bool)));
 }
 
 void Playlist::createToolbar() {
@@ -690,6 +694,7 @@ void Playlist::createToolbar() {
 	popup->addAction(showNameColumnAct);
 	popup->addAction(showDurationColumnAct);
 	popup->addAction(showFilenameColumnAct);
+	popup->addAction(showShuffleColumnAct);
 
 	connect( listView, SIGNAL(customContextMenuRequested(const QPoint &)),
              this, SLOT(showPopup(const QPoint &)) );
@@ -750,6 +755,7 @@ void Playlist::retranslateStrings() {
 	showNameColumnAct->change(tr("Show name column"));
 	showDurationColumnAct->change(tr("Show length column"));
 	showFilenameColumnAct->change(tr("Show filename column"));
+	showShuffleColumnAct->change(tr("Show shuffle column"));
 
 	// Edit
 	editAct->change( tr("&Edit") );
@@ -2366,6 +2372,7 @@ void Playlist::loadSettings() {
 	if (!listView->isColumnHidden(COL_NAME)) showNameColumnAct->setChecked(true);
 	if (!listView->isColumnHidden(COL_TIME)) showDurationColumnAct->setChecked(true);
 	if (!listView->isColumnHidden(COL_FILENAME)) showFilenameColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_SHUFFLE)) showShuffleColumnAct->setChecked(true);
 }
 
 QString Playlist::lastDir() {
@@ -2387,6 +2394,10 @@ void Playlist::setDurationColumnVisible(bool b) {
 
 void Playlist::setFilenameColumnVisible(bool b) {
 	listView->setColumnHidden(COL_FILENAME, !b);
+}
+
+void Playlist::setShuffleColumnVisible(bool b) {
+	listView->setColumnHidden(COL_SHUFFLE, !b);
 }
 
 void Playlist::setAutoSort(bool b) {
