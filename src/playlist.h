@@ -252,7 +252,6 @@ protected:
 	void setCurrentItem(int current);
 	int findCurrentItem();
 	void clearPlayedTag();
-	int chooseRandomItem();
 	QString lastDir();
 
 	void setPlaylistFilename(const QString &);
