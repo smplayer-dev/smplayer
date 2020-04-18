@@ -1893,25 +1893,9 @@ int Playlist::chooseRandomItem() {
 }
 
 void Playlist::shuffle() {
-	QMap<int, int> rand_pos;
-	for (int n = 0; n < count(); n++) rand_pos[n] = -1;
-
-	for (int n = 0; n < rand_pos.count(); n++) {
-		int number;
-		bool found;
-		do {
-			number = qrand() % ((count() + 1) - 1) + 1;
-			found = false;
-			for (int a = 0; a < rand_pos.count(); a++) {
-				if (rand_pos[a] == number) { found = true; break; }
-			}
-		} while (found);
-		rand_pos[n] = number;
-	}
-
 	for (int n = 0; n < count(); n++) {
 		PLItem * i = itemData(n);
-		i->setShufflePosition(rand_pos[n]);
+		i->setShufflePosition( qrand() % 1000000 );
 	}
 
 	listView->sortByColumn(COL_SHUFFLE, Qt::AscendingOrder);
