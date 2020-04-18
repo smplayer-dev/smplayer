@@ -508,7 +508,7 @@ void Playlist::createActions() {
 	repeatAct->setCheckable(true);
 
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
-	//shuffleAct->setCheckable(true);
+	shuffleAct->setCheckable(false);
 	connect( shuffleAct, SIGNAL(triggered()), this, SLOT(shuffle()) );
 
 	// Add actions
@@ -696,7 +696,7 @@ void Playlist::createToolbar() {
 }
 
 void Playlist::retranslateStrings() {
-	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") << "Shuffle" );
+	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") << tr("Shuffle order") );
 
 	openAct->change( Images::icon("open"), tr("&Load...") );
 #ifdef PLAYLIST_DOWNLOAD
@@ -1551,11 +1551,7 @@ void Playlist::showPopup(const QPoint & pos) {
 }
 
 void Playlist::startPlay() {
-	// Start to play
-	if ( shuffleAct->isChecked() ) 
-		playItem( chooseRandomItem() );
-	else
-		playItem(0);
+	playItem(0);
 }
 
 void Playlist::playItem( int n ) {
@@ -1589,28 +1585,14 @@ void Playlist::playItem( int n ) {
 void Playlist::playNext() {
 	qDebug("Playlist::playNext");
 
-	if (shuffleAct->isChecked()) {
-		// Shuffle
-		int chosen_item = chooseRandomItem();
-		qDebug("Playlist::playNext: chosen_item: %d", chosen_item);
-		if (chosen_item == -1) {
-			clearPlayedTag();
-			if (repeatAct->isChecked()) {
-				chosen_item = chooseRandomItem();
-				if (chosen_item == -1) chosen_item = 0;
-			}
-		}
-		playItem(chosen_item);
-	} else {
-		int current = findCurrentItem();
-		bool finished_list = (current + 1 >= proxy->rowCount());
-		if (finished_list) clearPlayedTag();
+	int current = findCurrentItem();
+	bool finished_list = (current + 1 >= proxy->rowCount());
+	if (finished_list) clearPlayedTag();
 
-		if (repeatAct->isChecked() && finished_list) {
-			playItem(0);
-		} else {
-			playItem(current + 1);
-		}
+	if (repeatAct->isChecked() && finished_list) {
+		playItem(0);
+	} else {
+		playItem(current + 1);
 	}
 }
 
@@ -1868,28 +1850,6 @@ void Playlist::clearPlayedTag() {
 	for (int n = 0; n < count(); n++) {
 		itemData(n)->setPlayed(false);
 	}
-}
-
-int Playlist::chooseRandomItem() {
-	qDebug( "Playlist::chooseRandomItem");
-
-	QList<int> fi; //List of not played items (free items)
-	for (int n = 0; n < proxy->rowCount(); n++) {
-		if (!itemFromProxy(n)->played()) fi.append(n);
-	}
-
-	qDebug("Playlist::chooseRandomItem: free items: %d", fi.count() );
-
-	if (fi.count() == 0) return -1; // none free
-
-	qDebug("Playlist::chooseRandomItem: items: ");
-	for (int i = 0; i < fi.count(); i++) {
-		qDebug("Playlist::chooseRandomItem: * item: %d", fi[i]);
-	}
-
-	int selected = (qrand() % fi.count());
-	qDebug("Playlist::chooseRandomItem: selected item: %d (%d)", selected, fi[selected]);
-	return fi[selected];
 }
 
 void Playlist::shuffle() {
@@ -2240,7 +2200,7 @@ void Playlist::saveSettings() {
 	set->beginGroup( "playlist");
 
 	set->setValue( "repeat", repeatAct->isChecked() );
-	set->setValue( "shuffle", shuffleAct->isChecked() );
+	//set->setValue( "shuffle", shuffleAct->isChecked() );
 
 	set->setValue( "auto_get_info", automatically_get_info );
 	set->setValue( "recursive_add_directory", recursive_add_directory );
@@ -2322,7 +2282,7 @@ void Playlist::loadSettings() {
 	set->beginGroup( "playlist");
 
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
-	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
+	//shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
 	automatically_get_info = set->value( "auto_get_info", automatically_get_info ).toBool();
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
