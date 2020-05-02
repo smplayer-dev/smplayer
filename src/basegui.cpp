@@ -5417,7 +5417,7 @@ void BaseGui::playlistHasFinished() {
 void BaseGui::addToPlaylistCurrentFile() {
 	qDebug("BaseGui::addToPlaylistCurrentFile");
 	if (!core->mdat.filename.isEmpty()) {
-		playlist->addItem(core->mdat.filename, "", 0);
+		playlist->addItem(core->mdat.filename, "", 0, core->mset.A_marker, core->mset.B_marker);
 		playlist->setModified(true);
 		playlist->getMediaInfo(core->mdat);
 	}

@@ -2205,6 +2205,7 @@ void Core::startMplayer( QString file, double seek ) {
 					proc->setOption("ab-loop-b", QString::number(mset.B_marker));
 				}
 				proc->setOption("ss", QString::number(seek));
+				proc->setOption("endpos", QString::number(mset.B_marker - mset.A_marker));
 			} else
 			#endif
 			{

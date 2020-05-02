@@ -45,11 +45,14 @@ public:
 
 	PLItem();
 	PLItem(const QString filename, const QString name, double duration);
+        PLItem(const QString filename, const QString name, double duration, double markerA, double markerB);
 	~PLItem();
 
 	void setFilename(const QString filename);
 	void setName(const QString name);
 	void setDuration(double duration);
+        void setMarkerA(double markerA);
+        void setMarkerB(double markerB);
 	void setExtraParams(const QStringList & pars);
 	void setVideoURL(const QString & url);
 	void setIconURL(const QString & url);
@@ -61,6 +64,8 @@ public:
 	QString filename();
 	QString name();
 	double duration();
+        double markerA();
+        double markerB();
 	QStringList extraParams();
 	QString videoURL();
 	QString iconURL();
@@ -76,6 +81,8 @@ protected:
 	QStandardItem * col_duration;
 	QStandardItem * col_filename;
 	QStandardItem * col_shuffle;
+        QStandardItem * col_marker_a;
+        QStandardItem * col_marker_b;
 };
 
 
@@ -124,8 +131,9 @@ public:
 	*/
 
 public slots:
-	void addItem(QString filename, QString name, double duration, QStringList params = QStringList(),
-                 QString video_url = QString(), QString icon_url = QString(), int shuffle_pos = 0);
+	void addItem(QString filename, QString name, double duration, double markerA, double markerB,
+                 QStringList params = QStringList(), QString video_url = QString(), QString icon_url = QString(),
+                 int shuffle_pos = 0);
 
 	// Start playing, from item 0 if shuffle is off, or from
 	// a random item otherwise
@@ -299,6 +307,8 @@ protected slots:
 	void setDurationColumnVisible(bool b);
 	void setFilenameColumnVisible(bool b);
 	void setShuffleColumnVisible(bool b);
+        void setMarkerAColumnVisible(bool b);
+        void setMarkerBColumnVisible(bool b);
 
 #ifdef DELAYED_PLAY
 	void playItemLater();
@@ -386,6 +396,8 @@ protected:
 	MyAction * showDurationColumnAct;
 	MyAction * showFilenameColumnAct;
 	MyAction * showShuffleColumnAct;
+        MyAction * showMarkerAColumnAct;
+        MyAction * showMarkerBColumnAct;
 
 	QSettings * set;
 
