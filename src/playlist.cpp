@@ -1193,6 +1193,7 @@ void Playlist::load_pls(QString file) {
 
 void Playlist::loadXSPF(const QString & filename) {
 	qDebug() << "Playlist::loadXSPF:" << filename;
+        playlist_path = QFileInfo(filename).path();
 
 	QFile f(filename);
 	if (!f.open(QIODevice::ReadOnly)) {
@@ -1226,7 +1227,18 @@ void Playlist::loadXSPF(const QString & filename) {
                         qDebug() << "Playlist::loadXSPF: markerA:" << markerA;
                         qDebug() << "Playlist::loadXSPF: markerB:" << markerB;
 
-			addItem( location, title, (double) duration / 1000 , markerA, markerB);
+                        QString filename = location;
+			QFileInfo fi(filename);
+			if (fi.exists()) {
+				filename = fi.absoluteFilePath();
+			}
+			if (!fi.exists()) {
+				if (QFileInfo( playlist_path + "/" + filename).exists() ) {
+					filename = playlist_path + "/" + filename;
+				}
+			}
+
+			addItem(filename, title, (double) duration / 1000 , markerA, markerB);
 
 			track = track.nextSiblingElement("track");
 		}
@@ -1376,7 +1388,14 @@ bool Playlist::save_pls(QString file) {
 }
 
 bool Playlist::saveXSPF(const QString & filename) {
-	qDebug() << "Playlist::saveXSPF:" << filename;
+        QString dir_path = QFileInfo(filename).path();
+	if (!dir_path.endsWith("/")) dir_path += "/";
+
+	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	dir_path = Helper::changeSlashes(dir_path);
+	#endif
+
+	qDebug() << "Playlist::saveXSPF: dir_path:" << dir_path;
 
 	QFile f(filename);
 	if (f.open( QIODevice::WriteOnly)) {
@@ -1424,8 +1443,14 @@ bool Playlist::saveXSPF(const QString & filename) {
 			title = Qt::escape(title);
 			#endif
 
+                        QString filename = location;
+                        // Try to save the filename as relative instead of absolute
+			if (filename.startsWith("file://" + dir_path )) {
+				filename = filename.mid(("file://" + dir_path).length() );
+			}
+
 			stream << "\t\t<track>\n";
-			stream << "\t\t\t<location>" << location << "</location>\n";
+			stream << "\t\t\t<location>" << filename << "</location>\n";
 			stream << "\t\t\t<title>" << title << "</title>\n";
 			stream << "\t\t\t<duration>" << duration << "</duration>\n";
                         stream << "\t\t\t<smp:markerA>" << i->markerA() << "</smp:markerA>\n";
