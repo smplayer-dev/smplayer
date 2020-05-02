@@ -1,19 +1,19 @@
 /*  smplayer, GUI front-end for mplayer.
     Copyright (C) 2006-2023 Ricardo Villalba <ricardo@smplayer.info>
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
 #include "playlist.h"
@@ -133,14 +133,14 @@ PLItem::PLItem() : QStandardItem() {
 	col_duration = new QStandardItem();
 	col_filename = new QStandardItem();
 	col_shuffle = new QStandardItem();
-        col_marker_a = new QStandardItem();
-        col_marker_b = new QStandardItem();
+		col_marker_a = new QStandardItem();
+		col_marker_b = new QStandardItem();
 
 	setDuration(0);
 	setPlayed(false);
 	setCurrent(false);
-        setMarkerA(-1);
-        setMarkerB(-1);
+		setMarkerA(-1);
+		setMarkerB(-1);
 
 	col_num->setTextAlignment(Qt::AlignRight | Qt::AlignVCenter);
 }
@@ -150,16 +150,16 @@ PLItem::PLItem(const QString filename, const QString name, double duration) : QS
 	col_duration = new QStandardItem();
 	col_filename = new QStandardItem();
 	col_shuffle = new QStandardItem();
-        col_marker_a = new QStandardItem();
-        col_marker_b = new QStandardItem();
+		col_marker_a = new QStandardItem();
+		col_marker_b = new QStandardItem();
 
 	setFilename(filename);
 	setName(name);
 	setDuration(duration);
 	setPlayed(false);
 	setCurrent(false);
-        setMarkerA(-1);
-        setMarkerB(-1);
+		setMarkerA(-1);
+		setMarkerB(-1);
 
 	col_num->setTextAlignment(Qt::AlignRight | Qt::AlignVCenter);
 }
@@ -169,16 +169,16 @@ PLItem::PLItem(const QString filename, const QString name, double duration, doub
 	col_duration = new QStandardItem();
 	col_filename = new QStandardItem();
 	col_shuffle = new QStandardItem();
-        col_marker_a = new QStandardItem();
-        col_marker_b = new QStandardItem();
+		col_marker_a = new QStandardItem();
+		col_marker_b = new QStandardItem();
 
 	setFilename(filename);
 	setName(name);
 	setDuration(duration);
 	setPlayed(false);
 	setCurrent(false);
-        setMarkerA(markerA);
-        setMarkerB(markerB);
+		setMarkerA(markerA);
+		setMarkerB(markerB);
 
 	col_num->setTextAlignment(Qt::AlignRight | Qt::AlignVCenter);
 }
@@ -216,12 +216,12 @@ void PLItem::setDuration(double duration) {
 
 void PLItem::setMarkerA(double markerA) {
 	col_marker_a->setData(markerA);
-        col_marker_a->setText(Helper::formatTime(markerA));
+		col_marker_a->setText(Helper::formatTime(markerA));
 }
 
 void PLItem::setMarkerB(double markerB) {
 	col_marker_b->setData(markerB);
-        col_marker_b->setText(Helper::formatTime(markerB));
+		col_marker_b->setText(Helper::formatTime(markerB));
 }
 
 void PLItem::setPlayed(bool played) {
@@ -531,7 +531,7 @@ void Playlist::createTable() {
 #endif
 
 	connect(listView, SIGNAL(activated(const QModelIndex &)),
-            this, SLOT(itemActivated(const QModelIndex &)) );
+			this, SLOT(itemActivated(const QModelIndex &)) );
 
 	setFilenameColumnVisible(false);
 	setShuffleColumnVisible(false);
@@ -641,7 +641,7 @@ void Playlist::createActions() {
 	showShuffleColumnAct->setCheckable(true);
 	connect(showShuffleColumnAct, SIGNAL(toggled(bool)), this, SLOT(setShuffleColumnVisible(bool)));
 
-        showMarkerAColumnAct = new MyAction(this, "pl_show_marker_a_column");
+		showMarkerAColumnAct = new MyAction(this, "pl_show_marker_a_column");
 	showMarkerAColumnAct->setCheckable(true);
 	connect(showMarkerAColumnAct, SIGNAL(toggled(bool)), this, SLOT(setMarkerAColumnVisible(bool)));
 
@@ -766,11 +766,11 @@ void Playlist::createToolbar() {
 	popup->addAction(showDurationColumnAct);
 	popup->addAction(showFilenameColumnAct);
 	popup->addAction(showShuffleColumnAct);
-        popup->addAction(showMarkerAColumnAct);
-        popup->addAction(showMarkerBColumnAct);
+		popup->addAction(showMarkerAColumnAct);
+		popup->addAction(showMarkerBColumnAct);
 
 	connect( listView, SIGNAL(customContextMenuRequested(const QPoint &)),
-             this, SLOT(showPopup(const QPoint &)) );
+			 this, SLOT(showPopup(const QPoint &)) );
 }
 
 void Playlist::retranslateStrings() {
@@ -829,8 +829,8 @@ void Playlist::retranslateStrings() {
 	showDurationColumnAct->change(tr("Show length column"));
 	showFilenameColumnAct->change(tr("Show filename column"));
 	showShuffleColumnAct->change(tr("Show shuffle column"));
-        showMarkerAColumnAct->change(tr("Show marker A column"));
-        showMarkerBColumnAct->change(tr("Show marker B column"));
+		showMarkerAColumnAct->change(tr("Show marker A column"));
+		showMarkerBColumnAct->change(tr("Show marker B column"));
 
 	// Edit
 	editAct->change( tr("&Edit") );
@@ -1193,7 +1193,7 @@ void Playlist::load_pls(QString file) {
 
 void Playlist::loadXSPF(const QString & filename) {
 	qDebug() << "Playlist::loadXSPF:" << filename;
-        playlist_path = QFileInfo(filename).path();
+	playlist_path = QFileInfo(filename).path();
 
 	QFile f(filename);
 	if (!f.open(QIODevice::ReadOnly)) {
@@ -1218,16 +1218,16 @@ void Playlist::loadXSPF(const QString & filename) {
 			QString location = QUrl::fromPercentEncoding(track.firstChildElement("location").text().toLatin1());
 			QString title = track.firstChildElement("title").text();
 			int duration = track.firstChildElement("duration").text().toInt();
-                        int markerA = track.firstChildElement("smp:markerA").text().toInt();
-                        int markerB = track.firstChildElement("smp:markerB").text().toInt();
+			int markerA = track.firstChildElement("smp:markerA").text().toInt();
+			int markerB = track.firstChildElement("smp:markerB").text().toInt();
 
 			qDebug() << "Playlist::loadXSPF: location:" << location;
 			qDebug() << "Playlist::loadXSPF: title:" << title;
 			qDebug() << "Playlist::loadXSPF: duration:" << duration;
-                        qDebug() << "Playlist::loadXSPF: markerA:" << markerA;
-                        qDebug() << "Playlist::loadXSPF: markerB:" << markerB;
+			qDebug() << "Playlist::loadXSPF: markerA:" << markerA;
+			qDebug() << "Playlist::loadXSPF: markerB:" << markerB;
 
-                        QString filename = location;
+			QString filename = location;
 			QFileInfo fi(filename);
 			if (fi.exists()) {
 				filename = fi.absoluteFilePath();
@@ -1388,7 +1388,7 @@ bool Playlist::save_pls(QString file) {
 }
 
 bool Playlist::saveXSPF(const QString & filename) {
-        QString dir_path = QFileInfo(filename).path();
+	QString dir_path = QFileInfo(filename).path();
 	if (!dir_path.endsWith("/")) dir_path += "/";
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -1443,8 +1443,8 @@ bool Playlist::saveXSPF(const QString & filename) {
 			title = Qt::escape(title);
 			#endif
 
-                        QString filename = location;
-                        // Try to save the filename as relative instead of absolute
+			QString filename = location;
+			// Try to save the filename as relative instead of absolute
 			if (filename.startsWith("file://" + dir_path )) {
 				filename = filename.mid(("file://" + dir_path).length() );
 			}
@@ -1453,8 +1453,12 @@ bool Playlist::saveXSPF(const QString & filename) {
 			stream << "\t\t\t<location>" << filename << "</location>\n";
 			stream << "\t\t\t<title>" << title << "</title>\n";
 			stream << "\t\t\t<duration>" << duration << "</duration>\n";
-                        stream << "\t\t\t<smp:markerA>" << i->markerA() << "</smp:markerA>\n";
-                        stream << "\t\t\t<smp:markerB>" << i->markerB() << "</smp:markerB>\n";
+			if (i->markerA() > 0) {
+				stream << "\t\t\t<smp:markerA>" << i->markerA() << "</smp:markerA>\n";
+			}
+			if (i->markerB() > 0) {
+				stream << "\t\t\t<smp:markerB>" << i->markerB() << "</smp:markerB>\n";
+			}
 			stream << "\t\t</track>\n";
 		}
 
@@ -1474,9 +1478,9 @@ void Playlist::load() {
 	if (maybeSave()) {
 		Extensions e;
 		QString s = MyFileDialog::getOpenFileName(
-                    this, tr("Choose a file"), 
-                    lastDir(),
-                    tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
+					this, tr("Choose a file"),
+					lastDir(),
+					tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
 
 		if (!s.isEmpty()) {
 			latest_dir = QFileInfo(s).absolutePath();
@@ -1520,9 +1524,9 @@ bool Playlist::save(const QString & filename) {
 	if (s.isEmpty()) {
 		Extensions e;
 		s = MyFileDialog::getSaveFileName(
-                    this, tr("Choose a filename"), 
-                    lastDir(),
-                    tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
+					this, tr("Choose a filename"),
+					lastDir(),
+					tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
 	}
 
 	if (!s.isEmpty()) {
@@ -1533,13 +1537,13 @@ bool Playlist::save(const QString & filename) {
 		if (QFileInfo(s).exists()) {
 			int res = QMessageBox::question( this,
 					tr("Confirm overwrite?"),
-                    tr("The file %1 already exists.\n"
-                       "Do you want to overwrite?").arg(s),
-                    QMessageBox::Yes,
-                    QMessageBox::No,
-                    QMessageBox::NoButton);
+					tr("The file %1 already exists.\n"
+					   "Do you want to overwrite?").arg(s),
+					QMessageBox::Yes,
+					QMessageBox::No,
+					QMessageBox::NoButton);
 			if (res == QMessageBox::No ) {
-            	return false;
+				return false;
 			}
 		}
 		latest_dir = QFileInfo(s).absolutePath();
@@ -1566,10 +1570,10 @@ bool Playlist::maybeSave() {
 
 	int res = QMessageBox::question( this,
 				tr("Playlist modified"),
-                tr("There are unsaved changes, do you want to save the playlist?"),
-                QMessageBox::Yes,
-                QMessageBox::No,
-                QMessageBox::Cancel);
+				tr("There are unsaved changes, do you want to save the playlist?"),
+				QMessageBox::Yes,
+				QMessageBox::No,
+				QMessageBox::Cancel);
 
 	switch (res) {
 		case QMessageBox::No : return true; // Discard changes
@@ -1832,10 +1836,10 @@ void Playlist::addCurrentFile() {
 void Playlist::addFiles() {
 	Extensions e;
 	QStringList files = MyFileDialog::getOpenFileNames(
-                            this, tr("Select one or more files to open"), 
-                            lastDir(),
-                            tr("Multimedia") + e.multimedia().forFilter() + ";;" +
-                            tr("All files") +" (*.*)" );
+							this, tr("Select one or more files to open"),
+							lastDir(),
+							tr("Multimedia") + e.multimedia().forFilter() + ";;" +
+							tr("All files") +" (*.*)" );
 
 	if (files.count() != 0) {
 		addFiles(files);
@@ -1869,15 +1873,15 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	for (int n = 0; n < files.count(); n++) {
 		QString name = "";
 		double duration = 0;
-                double markerA = -1;
-                double markerB = -1;
+		double markerA = -1;
+		double markerB = -1;
 		#if USE_INFOPROVIDER
 		if ( (get_info) && (QFile::exists(files[n])) ) {
 			data = InfoProvider::getInfo(files[n]);
 			name = data.displayName(change_name);
 			duration = data.duration;
-                        markerA = first_item->markerA();
-                        markerB = first_item->markerB();
+                        markerA = data.markerA;
+                        markerB = data.markerB;
 			//qApp->processEvents();
 		}
 		#endif
@@ -1905,8 +1909,8 @@ void Playlist::addFile(QString file, AutoGetInfo auto_get_info) {
 
 void Playlist::addDirectory() {
 	QString s = MyFileDialog::getExistingDirectory(
-                    this, tr("Choose a directory"),
-                    lastDir() );
+					this, tr("Choose a directory"),
+					lastDir() );
 
 	if (!s.isEmpty()) {
 		addDirectory(s);
@@ -2102,10 +2106,10 @@ void Playlist::editItem(int row) {
 
 	bool ok;
 	QString text = QInputDialog::getText( this,
-            tr("Edit name"),
-            tr("Type the name that will be displayed in the playlist for this file:"),
-            QLineEdit::Normal,
-            current_name, &ok );
+			tr("Edit name"),
+			tr("Type the name that will be displayed in the playlist for this file:"),
+			QLineEdit::Normal,
+			current_name, &ok );
 	if ( ok && !text.isEmpty() ) {
 		// user entered something and pressed OK
 		i->setName(text);
@@ -2497,8 +2501,8 @@ void Playlist::loadSettings() {
 			set->setArrayIndex(n);
 			filename = set->value( QString("item_%1_filename").arg(n), "" ).toString();
 			duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
-                        markerA = set->value( QString("item_%1_marker_a").arg(n), -1 ).toDouble();
-                        markerB = set->value( QString("item_%1_marker_b").arg(n), -1 ).toDouble();
+						markerA = set->value( QString("item_%1_marker_a").arg(n), -1 ).toDouble();
+						markerB = set->value( QString("item_%1_marker_b").arg(n), -1 ).toDouble();
 			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
 			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
 			QString video_url = set->value( QString("item_%1_video_url").arg(n), "").toString();
@@ -2533,8 +2537,8 @@ void Playlist::loadSettings() {
 	if (!listView->isColumnHidden(COL_TIME)) showDurationColumnAct->setChecked(true);
 	if (!listView->isColumnHidden(COL_FILENAME)) showFilenameColumnAct->setChecked(true);
 	if (!listView->isColumnHidden(COL_SHUFFLE)) showShuffleColumnAct->setChecked(true);
-        if (!listView->isColumnHidden(COL_MARKER_A)) showMarkerAColumnAct->setChecked(true);
-        if (!listView->isColumnHidden(COL_MARKER_B)) showMarkerBColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_MARKER_A)) showMarkerAColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_MARKER_B)) showMarkerBColumnAct->setChecked(true);
 }
 
 QString Playlist::lastDir() {
