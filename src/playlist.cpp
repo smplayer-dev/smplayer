@@ -1697,8 +1697,12 @@ void Playlist::playItem(int n, bool later) {
 			} else
 			#endif
 			{
-				emit requestToPlayFile(filename, seek);
-			}
+    			        if (play_files_from_start) {
+				        emit requestToPlayFile(filename, seek);
+			        } else {
+			                emit requestToPlayFile(filename, seek, i->markerB());
+			        }
+                        }
 		}
 	}
 }

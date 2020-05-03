@@ -2517,8 +2517,8 @@ void BaseGui::createPlaylist() {
 	connect( playlist, SIGNAL(playlistEnded()),
              mplayerwindow, SLOT(showLogo()) );
 
-	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
-            core, SLOT(open(const QString &, int)));
+	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int, int)),
+            core, SLOT(open(const QString &, int, int)));
 
 	connect(playlist, SIGNAL(requestToPlayStream(const QString &, QStringList)),
             core, SLOT(openStream(const QString &, QStringList)));

@@ -446,7 +446,7 @@ void Core::displayTextOnOSD(QString text, int duration, int level, QString prefi
 }
 
 // Generic open, autodetect type
-void Core::open(QString file, int seek) {
+void Core::open(QString file, int seek, int end) {
 	qDebug("Core::open: '%s'", file.toUtf8().data());
 
 	if (file.startsWith("file:")) {
@@ -469,7 +469,7 @@ void Core::open(QString file, int seek) {
 		qDebug("Core::open: * identified as local file");
 		// Local file
 		file = QFileInfo(file).absoluteFilePath();
-		openFile(file, seek);
+		openFile(file, seek, end);
 	} 
 	else
 	if ( (fi.exists()) && (fi.isDir()) ) {
@@ -553,12 +553,12 @@ void Core::open(QString file, int seek) {
 	}
 }
 
-void Core::openFile(QString filename, int seek) {
+void Core::openFile(QString filename, int seek, int end) {
 	qDebug("Core::openFile: '%s'", filename.toUtf8().data());
 
 	QFileInfo fi(filename);
 	if (fi.exists()) {
-		playNewFile(fi.absoluteFilePath(), seek);
+		playNewFile(fi.absoluteFilePath(), seek, end);
 	} else {
 		//File doesn't exists
 		//TODO: error message
@@ -958,7 +958,7 @@ void Core::openStream(QString name, QStringList params) {
 }
 
 
-void Core::playNewFile(QString file, int seek) {
+void Core::playNewFile(QString file, int seek, int end) {
 	qDebug("Core::playNewFile: '%s'", file.toUtf8().data());
 
 	if (proc->isRunning()) {
@@ -988,7 +988,7 @@ void Core::playNewFile(QString file, int seek) {
 	/* initializeMenus(); */
 
 	qDebug("Core::playNewFile: volume: %d, old_volume: %d", mset.volume, old_volume);
-	initPlaying(seek);
+	initPlaying(seek, end);
 }
 
 
@@ -997,7 +997,7 @@ void Core::restartPlay() {
 	initPlaying();
 }
 
-void Core::initPlaying(int seek) {
+void Core::initPlaying(int seek, int end) {
 	qDebug("Core::initPlaying");
 
 	/*
@@ -1015,6 +1015,7 @@ void Core::initPlaying(int seek) {
 
 	int start_sec = (int) mset.current_sec;
 	if (seek > -1) start_sec = seek;
+	int end_sec = end;
 
 	if (initial_second != 0) {
 		qDebug("Core::initPlaying: initial_second: %d", initial_second);
@@ -1033,7 +1034,7 @@ void Core::initPlaying(int seek) {
 	}
 #endif
 
-	startMplayer( mdat.filename, start_sec );
+	startMplayer( mdat.filename, start_sec, end_sec );
 }
 
 // This is reached when a new video has just started playing
@@ -1519,9 +1520,8 @@ void Core::goToPos(int perc) {
 }
 #endif
 
-
-void Core::startMplayer( QString file, double seek ) {
-	qDebug() << "Core::startMplayer: file:" << file << "seek:" << seek;
+void Core::startMplayer( QString file, double seek, double end ) {
+	qDebug() << "Core::startMplayer: file:" << file << "seek:" << seek << "end:" << end;
 
 	if (file.isEmpty()) {
 		qWarning("Core:startMplayer: file is empty!");
@@ -2205,7 +2205,9 @@ void Core::startMplayer( QString file, double seek ) {
 					proc->setOption("ab-loop-b", QString::number(mset.B_marker));
 				}
 				proc->setOption("ss", QString::number(seek));
-				proc->setOption("endpos", QString::number(mset.B_marker - mset.A_marker));
+				if (end > 0) {
+					proc->setOption("endpos", QString::number(end - seek));
+				}
 			} else
 			#endif
 			{
@@ -2214,9 +2216,11 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 		else
-		// If seek < 5 it's better to allow the video to start from the beginning
-		if ((seek >= 5) && (!mset.loop)) {
+		if (!mset.loop) {
 			proc->setOption("ss", QString::number(seek));
+			if (end > 0) {
+				proc->setOption("endpos", QString::number(end - seek));
+			}
 		}
 	}
 
