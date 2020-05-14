@@ -591,7 +591,7 @@ void Core::openYT(const QString & url) {
 }
 
 void Core::connectingToYT(QString host) {
-	emit showMessage( tr("Connecting to %1").arg(host) );
+	emit showMessage( tr("Connecting to %1").arg(host), 10000 );
 }
 
 void Core::YTFailed(int /*error_number*/, QString /*error_str*/) {
