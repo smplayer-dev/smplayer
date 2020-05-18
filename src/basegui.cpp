@@ -127,7 +127,7 @@
 #endif
 
 #ifdef YOUTUBE_SUPPORT
-  #ifdef YT_USE_YTSIG
+  #if 0
   #include "codedownloader.h"
   #endif
 #endif
@@ -908,7 +908,7 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
-#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
+#if 0
 	updateYTAct = new MyAction( this, "update_youtube" );
 	connect( updateYTAct, SIGNAL(triggered()),
              this, SLOT(YTUpdateScript()) );
@@ -1879,7 +1879,7 @@ void BaseGui::retranslateStrings() {
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
-#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
+#if 0
 	updateYTAct->change( Images::icon("update_youtube"), tr("Update the &YouTube code") );
 #endif
 
@@ -3034,7 +3034,7 @@ void BaseGui::populateMainMenu() {
 		helpMenu->addSeparator();
 	}
 	helpMenu->addAction(showCheckUpdatesAct);
-	#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
+	#if 0
 	helpMenu->addAction(updateYTAct);
 	#endif
 	helpMenu->addSeparator();
@@ -5098,7 +5098,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 		info_text = tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t);
 	}
 
-	#ifdef YT_USE_YTSIG
+	#if 0
 	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
 				info_text + "<br><br>" +
 				tr("Do you want to update the Youtube code? This may fix the problem."),
@@ -5113,7 +5113,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 	#endif
 }
 
-#ifdef YT_USE_YTSIG
+#if 0
 void BaseGui::YTUpdateScript() {
 	static CodeDownloader * downloader = 0;
 	if (!downloader) downloader = new CodeDownloader(this);
@@ -5121,7 +5121,7 @@ void BaseGui::YTUpdateScript() {
 	downloader->show();
 	downloader->download(QUrl(URL_YT_CODE));
 }
-#endif // YT_USE_YTSIG
+#endif
 #endif //YOUTUBE_SUPPORT
 
 void BaseGui::gotForbidden() {
