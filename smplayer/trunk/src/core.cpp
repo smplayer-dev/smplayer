@@ -62,10 +62,6 @@
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
-  #ifdef YT_USE_YTSIG
-  #include "ytsig.h"
-  #endif
-
   #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
@@ -937,9 +933,6 @@ void Core::openStream(QString name, QStringList params) {
 			if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
 			yt->setUseDASH(pref->yt_use_dash);
 			yt->enable60fps(pref->yt_use_60fps);
-			#ifdef YT_USE_YTSIG
-			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
-			#endif
 			yt->fetchPage(name);
 			return;
 		}
