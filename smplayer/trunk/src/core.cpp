@@ -935,10 +935,8 @@ void Core::openStream(QString name, QStringList params) {
 			name = yt_full_url;
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
 			if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
-			#ifdef YT_DASH_SUPPORT
 			yt->setUseDASH(pref->yt_use_dash);
 			yt->enable60fps(pref->yt_use_60fps);
-			#endif
 			#ifdef YT_USE_YTSIG
 			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
 			#endif
@@ -2061,7 +2059,7 @@ void Core::startMplayer( QString file, double seek ) {
 		QString audio_file = "";
 		if (!mset.external_audio.isEmpty() && QFile::exists(mset.external_audio)) audio_file = mset.external_audio;
 
-		#if defined(YOUTUBE_SUPPORT) && defined(YT_DASH_SUPPORT)
+		#ifdef YOUTUBE_SUPPORT
 		if (PREF_YT_ENABLED) {
 			if (file == yt->selectedUrl() && yt->useDASH()) audio_file = yt->selectedAudioUrl();
 		}
