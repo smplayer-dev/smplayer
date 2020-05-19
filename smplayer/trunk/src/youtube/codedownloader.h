@@ -36,6 +36,9 @@ public:
 	void saveAs(const QString & output) { output_filename = output; };
 	void setProxy(QNetworkProxy proxy);
 
+	void setUserAgent(const QByteArray & s) { user_agent = s; }
+	QByteArray userAgent() { return user_agent; }
+
 public slots:
 	void download(QUrl url);
 	void cancelDownload();
@@ -60,6 +63,7 @@ private:
 	QNetworkReply* reply;
 
 	QString output_filename;
+	QByteArray user_agent;
 };
 
 #endif

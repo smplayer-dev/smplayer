@@ -36,6 +36,12 @@ CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
 
 	setWindowTitle(tr("Downloading..."));
+
+	#ifdef Q_OS_WIN
+	user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0";
+	#else
+	user_agent = "Mozilla/5.0 (X11; Linux i686; rv:62.0) Gecko/20100101 Firefox/62.0";
+	#endif
 }
 
 CodeDownloader::~CodeDownloader() {
@@ -50,7 +56,7 @@ void CodeDownloader::setProxy(QNetworkProxy proxy) {
 
 void CodeDownloader::download(QUrl url) {
 	QNetworkRequest req(url);
-	//req.setRawHeader("User-Agent", "SMPlayer");
+	if (!user_agent.isEmpty()) req.setRawHeader("User-Agent", user_agent);
 	reply = manager->get(req);
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
@@ -100,17 +106,16 @@ void CodeDownloader::save(QByteArray bytes) {
 
 	file.write(bytes);
 	file.close();
+
+#ifndef Q_OS_WIN
 	file.setPermissions(QFile::ReadOwner | QFile::WriteOwner | QFile::ExeOwner | QFile::ReadUser | QFile::WriteUser | QFile::ExeUser | QFile::ReadGroup | QFile::ExeGroup | QFile::ReadOther | QFile::ExeOther);
+#endif
 
-	QString version;
-
-	emit fileSaved(output_filename, version);
+	emit fileSaved(output_filename, QString());
 }
 
 void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
-#ifndef QT_NO_DEBUG_OUTPUT
 	qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
-#endif
 	if (total_bytes > -1) {
 		setMaximum(total_bytes);
 		setValue(bytes_read);
