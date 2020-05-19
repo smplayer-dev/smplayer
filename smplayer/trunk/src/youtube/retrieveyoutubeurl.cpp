@@ -37,7 +37,7 @@
 #include <QJsonObject>
 #ifdef DEBUG_OUTPUT_JSON
 #include <QFile>
-#include <QStandardPaths>
+#include <QDir>
 #endif
 #endif
 
@@ -243,8 +243,7 @@ void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exit
 	}
 
 	#ifdef DEBUG_OUTPUT_JSON
-	QString tmp_path = QStandardPaths::standardLocations(QStandardPaths::TempLocation)[0];
-	QString output = tmp_path + "/smplayer_yt.json";
+	QString output = QDir::tempPath() + "/smplayer_yt.json";
 	QFile f(output);
 	if (f.open(QIODevice::WriteOnly)) {
 		QByteArray o = "{";
