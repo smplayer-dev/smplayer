@@ -5141,12 +5141,22 @@ void BaseGui::YTUpdate() {
 	qDebug() << "BaseGui::YTUpdate: url:" << url;
 	qDebug() << "BaseGui::YTUpdate: output" << output;
 
+	int ret = QMessageBox::question(this, tr("Install YouTube support?"),
+				tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br>"+
+				tr("SMPlayer can download and install this application for you.") +" "+
+				tr("It will be downloaded from the official website and installed in %1.").arg(output_dir) + "<br><br>"+
+				tr("Would you like to proceeed?"),
+				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+
 #if 1
 	static CodeDownloader * downloader = 0;
 	if (!downloader) downloader = new CodeDownloader(this);
-	downloader->saveAs(output);
-	downloader->show();
-	downloader->download(url);
+
+	if (ret == QMessageBox::Yes) {
+		downloader->saveAs(output);
+		downloader->show();
+		downloader->download(url);
+	}
 #endif
 }
 #endif // YT_CODEDOWNLOADER
