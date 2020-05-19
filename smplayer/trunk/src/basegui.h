@@ -254,7 +254,7 @@ protected slots:
 	void YTNoSslSupport();
 	void YTNoSignature(const QString &);
 	#ifdef YT_CODEDOWNLOADER
-	void YTUpdateScript();
+	void YTUpdate();
 	#endif
 #endif
 	void gotForbidden();
