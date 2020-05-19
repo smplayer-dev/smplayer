@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2013 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,6 +19,7 @@
 #include "codedownloader.h"
 #include <QFile>
 #include <QMessageBox>
+#include <QDebug>
 
 CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 {
@@ -44,13 +45,12 @@ CodeDownloader::~CodeDownloader() {
 void CodeDownloader::setProxy(QNetworkProxy proxy) {
 	manager->setProxy(proxy);
 
-	qDebug("CodeDownloader::setProxy: host: '%s' port: %d type: %d",
-           proxy.hostName().toUtf8().constData(), proxy.port(), proxy.type());
+	qDebug() << "CodeDownloader::setProxy: host:" << proxy.hostName() << "port:" << proxy.port() << "type:" << proxy.type();
 }
 
 void CodeDownloader::download(QUrl url) {
 	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", "SMPlayer");
+	//req.setRawHeader("User-Agent", "SMPlayer");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
@@ -71,7 +71,7 @@ void CodeDownloader::gotResponse(QNetworkReply* reply) {
 			case 302:
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
-				qDebug("CodeDownloader::gotResponse: redirected: %s", r_url.toLatin1().constData());
+				qDebug() << "CodeDownloader::gotResponse: redirected:" << r_url;
 				download(r_url);
 				return;
 		}
@@ -93,20 +93,16 @@ void CodeDownloader::save(QByteArray bytes) {
 
 	QFile file(output_filename);
 	if (!file.open(QIODevice::WriteOnly))  {
-		qWarning("CodeDownloader::save: could not open %s for writing", output_filename.toUtf8().constData());
+		qWarning() << "CodeDownloader::save: could not open" << output_filename << "for writing";
 		emit saveFailed(output_filename);
 		return;
 	}
 
 	file.write(bytes);
 	file.close();
+	file.setPermissions(QFile::ReadOwner | QFile::WriteOwner | QFile::ExeOwner | QFile::ReadUser | QFile::WriteUser | QFile::ExeUser | QFile::ReadGroup | QFile::ExeGroup | QFile::ReadOther | QFile::ExeOther);
 
 	QString version;
-	QRegExp rx("Version: ([\\d,-]+)");
-	if (rx.indexIn(bytes)) {
-		version = rx.cap(1);
-		qDebug("CodeDownloader::save: version: %s", version.toLatin1().constData());
-	}
 
 	emit fileSaved(output_filename, version);
 }
