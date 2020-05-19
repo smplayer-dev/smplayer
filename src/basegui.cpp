@@ -5123,7 +5123,7 @@ void BaseGui::YTUpdateScript() {
 
 	QString user_home = QDir::homePath();
 
-	user_home = "/tmp";
+	//user_home = "/tmp";
 
 	QString output_dir = user_home + "/bin";
 	QString output_file = "youtube-dl";
