@@ -5121,16 +5121,19 @@ void BaseGui::YTUpdateScript() {
 #else
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
 
-	#if QT_VERSION >= 0x050000
-	QString user_home = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
-	#else
-	QString user_home = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
-	#endif
+	QString user_home = QDir::homePath();
+
+	user_home = "/tmp";
 
 	QString output_dir = user_home + "/bin";
 	QString output_file = "youtube-dl";
 
-	// TODO: create output dir if it doesn't exist
+	QDir d;
+	if (!d.exists(output_dir)) {
+		if (!d.mkdir(output_dir)) {
+			qDebug() << "BaseGui::YTUpdateScript: fail to create" << output_dir;
+		}
+	}
 
 	QString output = output_dir + "/" + output_file;
 #endif
@@ -5138,7 +5141,7 @@ void BaseGui::YTUpdateScript() {
 	qDebug() << "BaseGui::YTUpdateScript: url:" << url;
 	qDebug() << "BaseGui::YTUpdateScript: output" << output;
 
-#if 0
+#if 1
 	static CodeDownloader * downloader = 0;
 	if (!downloader) downloader = new CodeDownloader(this);
 	downloader->saveAs(output);
