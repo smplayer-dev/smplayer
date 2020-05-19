@@ -424,6 +424,7 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 
 # Youtube support
 contains( DEFINES, YOUTUBE_SUPPORT ) {
+	DEFINES += YT_CODEDOWNLOADER
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 
@@ -432,6 +433,11 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 
 	# FIXME: loadpage is not used by youtube anymore,
 	# but it's used by the playlist
+
+	contains( DEFINES, YT_CODEDOWNLOADER ) {
+		HEADERS += youtube/codedownloader.h
+		SOURCES += youtube/codedownloader.cpp
+	}
 }
 
 # defaultgui

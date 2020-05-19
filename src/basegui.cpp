@@ -127,7 +127,7 @@
 #endif
 
 #ifdef YOUTUBE_SUPPORT
-  #if 0
+  #ifdef YT_CODEDOWNLOADER
   #include "codedownloader.h"
   #endif
 #endif
@@ -908,7 +908,7 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
-#if 0
+#ifdef YT_CODEDOWNLOADER
 	updateYTAct = new MyAction( this, "update_youtube" );
 	connect( updateYTAct, SIGNAL(triggered()),
              this, SLOT(YTUpdateScript()) );
@@ -1879,7 +1879,7 @@ void BaseGui::retranslateStrings() {
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
-#if 0
+#ifdef YT_CODEDOWNLOADER
 	updateYTAct->change( Images::icon("update_youtube"), tr("Update the &YouTube code") );
 #endif
 
@@ -3034,7 +3034,7 @@ void BaseGui::populateMainMenu() {
 		helpMenu->addSeparator();
 	}
 	helpMenu->addAction(showCheckUpdatesAct);
-	#if 0
+	#ifdef YT_CODEDOWNLOADER
 	helpMenu->addAction(updateYTAct);
 	#endif
 	helpMenu->addSeparator();
@@ -5113,16 +5113,41 @@ void BaseGui::YTNoSignature(const QString & title) {
 	#endif
 }
 
-#if 0
+#ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdateScript() {
+#ifdef Q_OS_WIN
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+	QString output = "mpv/youtube-dl.exe";
+#else
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
+
+	#if QT_VERSION >= 0x050000
+	QString user_home = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+	#else
+	QString user_home = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
+	#endif
+
+	QString output_dir = user_home + "/bin";
+	QString output_file = "youtube-dl";
+
+	// TODO: create output dir if it doesn't exist
+
+	QString output = output_dir + "/" + output_file;
+#endif
+
+	qDebug() << "BaseGui::YTUpdateScript: url:" << url;
+	qDebug() << "BaseGui::YTUpdateScript: output" << output;
+
+#if 0
 	static CodeDownloader * downloader = 0;
 	if (!downloader) downloader = new CodeDownloader(this);
-	downloader->saveAs(Paths::configPath() + "/yt.js");
+	downloader->saveAs(output);
 	downloader->show();
-	downloader->download(QUrl(URL_YT_CODE));
-}
+	downloader->download(url);
 #endif
-#endif //YOUTUBE_SUPPORT
+}
+#endif // YT_CODEDOWNLOADER
+#endif // YOUTUBE_SUPPORT
 
 void BaseGui::gotForbidden() {
 	qDebug("BaseGui::gotForbidden");
