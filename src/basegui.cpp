@@ -911,7 +911,7 @@ void BaseGui::createActions() {
 #ifdef YT_CODEDOWNLOADER
 	updateYTAct = new MyAction( this, "update_youtube" );
 	connect( updateYTAct, SIGNAL(triggered()),
-             this, SLOT(YTUpdateScript()) );
+             this, SLOT(YTUpdate()) );
 #endif
 
 	showConfigAct = new MyAction( this, "show_config" );
@@ -1880,7 +1880,7 @@ void BaseGui::retranslateStrings() {
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
 #ifdef YT_CODEDOWNLOADER
-	updateYTAct->change( Images::icon("update_youtube"), tr("Update the &YouTube code") );
+	updateYTAct->change( Images::icon("update_youtube"), tr("Install/Update &YouTube support") );
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
@@ -5104,7 +5104,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 				tr("Do you want to update the Youtube code? This may fix the problem."),
 				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	if (ret == QMessageBox::Yes) {
-		YTUpdateScript();
+		YTUpdate();
 	}
 	#else
 	QMessageBox::warning(this, tr("Problems with Youtube"),
@@ -5114,7 +5114,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 }
 
 #ifdef YT_CODEDOWNLOADER
-void BaseGui::YTUpdateScript() {
+void BaseGui::YTUpdate() {
 #ifdef Q_OS_WIN
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
 	QString output = "mpv/youtube-dl.exe";
@@ -5131,15 +5131,15 @@ void BaseGui::YTUpdateScript() {
 	QDir d;
 	if (!d.exists(output_dir)) {
 		if (!d.mkdir(output_dir)) {
-			qDebug() << "BaseGui::YTUpdateScript: fail to create" << output_dir;
+			qDebug() << "BaseGui::YTUpdate: fail to create" << output_dir;
 		}
 	}
 
 	QString output = output_dir + "/" + output_file;
 #endif
 
-	qDebug() << "BaseGui::YTUpdateScript: url:" << url;
-	qDebug() << "BaseGui::YTUpdateScript: output" << output;
+	qDebug() << "BaseGui::YTUpdate: url:" << url;
+	qDebug() << "BaseGui::YTUpdate: output" << output;
 
 #if 1
 	static CodeDownloader * downloader = 0;
