@@ -35,7 +35,7 @@ CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 	setRange(0,0);
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
-	connect(this, SIGNAL(fileSaved(const QString &, const QString &)), this, SLOT(reportFileSaved(const QString &,const QString &)));
+	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportFileSaved(const QString &)));
 	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
 	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
 
@@ -115,27 +115,26 @@ void CodeDownloader::save(QByteArray bytes) {
 	file.setPermissions(QFile::ReadOwner | QFile::WriteOwner | QFile::ExeOwner | QFile::ReadUser | QFile::WriteUser | QFile::ExeUser | QFile::ReadGroup | QFile::ExeGroup | QFile::ReadOther | QFile::ExeOther);
 #endif
 
-	emit fileSaved(output_filename, QString());
+	emit fileSaved(output_filename);
 }
 
 void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
-	qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
+	//qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
 	if (total_bytes > -1) {
 		setMaximum(total_bytes);
 		setValue(bytes_read);
 	}
 }
 
-void CodeDownloader::reportFileSaved(const QString &, const QString & version) {
+void CodeDownloader::reportFileSaved(const QString &) {
 	hide();
-	QString t = tr("The Youtube code has been updated successfully.");
-	if (!version.isEmpty()) t += "<br>"+ tr("Installed version: %1").arg(version);
+	QString t = tr("The YouTube code has been installed successfully.");
 	QMessageBox::information(this, tr("Success"),t);
 }
 
 void CodeDownloader::reportSaveFailed(const QString & file) {
 	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened writing %1").arg(file));
+	QMessageBox::warning(this, tr("Error"), tr("It's not possible to save %1.").arg(file));
 }
 
 void CodeDownloader::reportError(int, QString error_str) {
