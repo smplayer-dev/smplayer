@@ -5115,49 +5115,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 
 #ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdate() {
-#ifdef Q_OS_WIN
-	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
-	QString output = "mpv/youtube-dl.exe";
-#else
-	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
-
-	QString user_home = QDir::homePath();
-
-	//user_home = "/tmp";
-
-	QString output_dir = user_home + "/bin";
-	QString output_file = "youtube-dl";
-
-	QDir d;
-	if (!d.exists(output_dir)) {
-		if (!d.mkdir(output_dir)) {
-			qDebug() << "BaseGui::YTUpdate: fail to create" << output_dir;
-		}
-	}
-
-	QString output = output_dir + "/" + output_file;
-#endif
-
-	qDebug() << "BaseGui::YTUpdate: url:" << url;
-	qDebug() << "BaseGui::YTUpdate: output" << output;
-
-	int ret = QMessageBox::question(this, tr("Install YouTube support?"),
-				tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br>"+
-				tr("SMPlayer can download and install this application for you.") +" "+
-				tr("It will be downloaded from the official website and installed in %1.").arg(output_dir) + "<br><br>"+
-				tr("Would you like to proceeed?"),
-				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
-
-#if 1
-	static CodeDownloader * downloader = 0;
-	if (!downloader) downloader = new CodeDownloader(this);
-
-	if (ret == QMessageBox::Yes) {
-		downloader->saveAs(output);
-		downloader->show();
-		downloader->download(url);
-	}
-#endif
+	CodeDownloader::askAndDownload(this);
 }
 #endif // YT_CODEDOWNLOADER
 #endif // YOUTUBE_SUPPORT
