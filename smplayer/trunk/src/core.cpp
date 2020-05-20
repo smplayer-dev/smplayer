@@ -284,20 +284,14 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #ifdef YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
+	#ifdef YT_OBSOLETE
 	yt->setUseHttpsMain(pref->yt_use_https_main);
-
-	#ifdef YT_USE_SIG
-	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);
-	yt->setSettings(sigset);
 	#endif
 
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
-	connect(yt, SIGNAL(processFailedToStart()), this, SIGNAL(processFailedToStart()));
+	connect(yt, SIGNAL(processFailedToStart()), this, SIGNAL(YTprocessFailedToStart()));
 	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
-	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));
-	connect(yt, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
-	connect(yt, SIGNAL(signatureNotFound(const QString&)), this, SIGNAL(signatureNotFound(const QString&)));
 #endif
 
 	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));
@@ -589,10 +583,6 @@ void Core::openYT(const QString & url) {
 
 void Core::connectingToYT(QString host) {
 	emit showMessage( tr("Connecting to %1").arg(host), 10000 );
-}
-
-void Core::YTFailed(int /*error_number*/, QString /*error_str*/) {
-	emit showMessage( tr("Unable to retrieve the Youtube page") );
 }
 
 void Core::YTNoVideoUrl() {
@@ -957,7 +947,7 @@ void Core::openStream(QString name, QStringList params) {
 
 	#ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
-		if (mdat.filename == yt->selectedUrl()) {
+		if (mdat.filename == yt->selectedVideoUrl()) {
 			name = yt->origUrl();
 		}
 	}
@@ -1043,7 +1033,7 @@ void Core::initPlaying(int seek) {
 		// Avoid to pass to mplayer the youtube page url
 		if (mdat.type == TYPE_STREAM) {
 			if (mdat.filename == yt->origUrl()) {
-				mdat.filename = yt->selectedUrl();
+				mdat.filename = yt->selectedVideoUrl();
 			}
 		}
 	}
@@ -1165,11 +1155,11 @@ void Core::finishRestart() {
 	if (PREF_YT_ENABLED) {
 		// Change the real url with the youtube page url and set the title
 		if (mdat.type == TYPE_STREAM) {
-			if (mdat.filename == yt->selectedUrl()) {
+			if (mdat.filename == yt->selectedVideoUrl()) {
 				mdat.filename = yt->origUrl();
-				mdat.stream_title = yt->urlTitle();
+				mdat.stream_title = yt->videoTitle();
 				if (proc->isMPlayer()) {
-					mdat.stream_path = yt->selectedUrl();
+					mdat.stream_path = yt->selectedVideoUrl();
 				}
 			}
 		}
@@ -2055,7 +2045,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 		#ifdef YOUTUBE_SUPPORT
 		if (PREF_YT_ENABLED) {
-			if (file == yt->selectedUrl() && yt->useDASH()) audio_file = yt->selectedAudioUrl();
+			if (file == yt->selectedVideoUrl() && yt->useDASH()) audio_file = yt->selectedAudioUrl();
 		}
 		#endif
 
@@ -2481,7 +2471,7 @@ void Core::startMplayer( QString file, double seek ) {
 		if (pref->streaming_type == Preferences::StreamingAuto) {
 			bool is_youtube = false;
 			#ifdef YOUTUBE_SUPPORT
-			if (PREF_YT_ENABLED) is_youtube = (file == yt->selectedUrl());
+			if (PREF_YT_ENABLED) is_youtube = (file == yt->selectedVideoUrl());
 			#endif
 			qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
 			bool enable_sites = !is_youtube;

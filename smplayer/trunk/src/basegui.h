@@ -255,8 +255,6 @@ protected slots:
 	void YTUpdate();
 	#endif
 	void YTFailedToStart();
-	void YTNoSslSupport();
-	void YTNoSignature(const QString &);
 #endif
 	void gotForbidden();
 
