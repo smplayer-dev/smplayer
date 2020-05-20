@@ -50,7 +50,7 @@ signals:
 	void saveFailed(const QString &);
 
 public:
-	static void askAndDownload(QWidget * parent);
+	static void askAndDownload(QWidget * parent, bool show_error_message = false);
 
 private slots:
 	void gotResponse(QNetworkReply* reply);

@@ -251,11 +251,12 @@ protected slots:
 #endif
 
 #ifdef YOUTUBE_SUPPORT
-	void YTNoSslSupport();
-	void YTNoSignature(const QString &);
 	#ifdef YT_CODEDOWNLOADER
 	void YTUpdate();
 	#endif
+	void YTFailedToStart();
+	void YTNoSslSupport();
+	void YTNoSignature(const QString &);
 #endif
 	void gotForbidden();
 

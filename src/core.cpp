@@ -293,10 +293,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
+	connect(yt, SIGNAL(processFailedToStart()), this, SIGNAL(processFailedToStart()));
+	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
 	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));
 	connect(yt, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
 	connect(yt, SIGNAL(signatureNotFound(const QString&)), this, SIGNAL(signatureNotFound(const QString&)));
-	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
 #endif
 
 	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));
