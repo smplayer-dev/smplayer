@@ -2348,11 +2348,7 @@ void BaseGui::createCore() {
 #endif
 
 #ifdef YOUTUBE_SUPPORT
-	connect(core, SIGNAL(processFailedToStart()), this, SLOT(YTFailedToStart()));
-	connect(core, SIGNAL(signatureNotFound(const QString &)),
-            this, SLOT(YTNoSignature(const QString &)));
-	connect(core, SIGNAL(noSslSupport()),
-            this, SLOT(YTNoSslSupport()));
+	connect(core, SIGNAL(YTprocessFailedToStart()), this, SLOT(YTFailedToStart()));
 #endif
 	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
 }
@@ -5076,44 +5072,6 @@ void BaseGui::checkReminder() {
 }
 #endif
 
-#ifdef YOUTUBE_SUPPORT
-void BaseGui::YTNoSslSupport() {
-	qDebug("BaseGui::YTNoSslSupport");
-	QMessageBox::warning(this, tr("Connection failed"),
-		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
-		tr("Unfortunately the OpenSSL component, required for it, is not available in your system.") +"<br>"+
-		tr("Please, visit %1 to know how to fix this problem.")
-			.arg("<a href=\"" URL_OPENSSL_INFO "\">" + tr("this link") + "</a>") );
-}
-
-void BaseGui::YTNoSignature(const QString & title) {
-	qDebug("BaseGui::YTNoSignature: %s", title.toUtf8().constData());
-
-	QString t = title;
-
-	QString info_text;
-	if (title.isEmpty()) {
-		info_text = tr("Unfortunately due to changes in the Youtube page, this video can't be played.");
-	} else {
-		t.replace(" - YouTube", "");
-		info_text = tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t);
-	}
-
-	#if 0
-	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
-				info_text + "<br><br>" +
-				tr("Do you want to update the Youtube code? This may fix the problem."),
-				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
-	if (ret == QMessageBox::Yes) {
-		YTUpdate();
-	}
-	#else
-	QMessageBox::warning(this, tr("Problems with Youtube"),
-		info_text + "<br><br>" +
-		tr("Maybe updating SMPlayer could fix the problem."));
-	#endif
-}
-
 #ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdate() {
 	CodeDownloader::askAndDownload(this);
@@ -5122,8 +5080,7 @@ void BaseGui::YTUpdate() {
 void BaseGui::YTFailedToStart() {
 	CodeDownloader::askAndDownload(this, true);
 }
-#endif // YT_CODEDOWNLOADER
-#endif // YOUTUBE_SUPPORT
+#endif
 
 void BaseGui::gotForbidden() {
 	qDebug("BaseGui::gotForbidden");
@@ -5138,7 +5095,7 @@ void BaseGui::gotForbidden() {
 	if (busy) return;
 
 	busy = true;
-#ifdef YOUTUBE_SUPPORT
+#if defined(YOUTUBE_SUPPORT) && defined(YT_OBSOLETE)
 	if (core->mdat.filename.contains("youtube.com")) {
 		YTNoSignature("");
 	} else

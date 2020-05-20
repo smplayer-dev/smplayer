@@ -22,7 +22,7 @@
 #include <QProcess>
 
 #define YT_USE_YTDL
-#define YT_OBSOLETE
+//#define YT_OBSOLETE
 
 #ifdef YT_OBSOLETE
 #define YT_DASH_SUPPORT
