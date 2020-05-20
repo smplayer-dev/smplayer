@@ -46,7 +46,7 @@ public slots:
 signals:
 	void downloadFinished();
 	void errorOcurred(int error_number, QString error_str);
-	void fileSaved(const QString &, const QString &);
+	void fileSaved(const QString &);
 	void saveFailed(const QString &);
 
 public:
@@ -57,7 +57,7 @@ private slots:
 	void updateDataReadProgress(qint64 bytes_read, qint64 total_bytes);
 	void save(QByteArray bytes);
 
-	void reportFileSaved(const QString &, const QString &);
+	void reportFileSaved(const QString &);
 	void reportSaveFailed(const QString &);
 	void reportError(int error_number, QString error_str);
 
@@ -69,6 +69,7 @@ private:
 	QByteArray user_agent;
 
 	static CodeDownloader * downloader;
+	QWidget * parent_widget;
 };
 
 #endif

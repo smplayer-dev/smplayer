@@ -25,9 +25,11 @@
 
 CodeDownloader * CodeDownloader::downloader = 0;
 
-CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
+CodeDownloader::CodeDownloader(QWidget * parent)
+	: QProgressDialog(parent)
+	, reply(0)
+	, parent_widget(parent)
 {
-	reply = 0;
 	manager = new QNetworkAccessManager(this);
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
@@ -129,17 +131,17 @@ void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_byte
 void CodeDownloader::reportFileSaved(const QString &) {
 	hide();
 	QString t = tr("The YouTube code has been installed successfully.");
-	QMessageBox::information(this, tr("Success"),t);
+	QMessageBox::information(parent_widget, tr("Success"),t);
 }
 
 void CodeDownloader::reportSaveFailed(const QString & file) {
 	hide();
-	QMessageBox::warning(this, tr("Error"), tr("It's not possible to save %1.").arg(file));
+	QMessageBox::warning(parent_widget, tr("Error"), tr("It's not possible to save %1.").arg(file));
 }
 
 void CodeDownloader::reportError(int, QString error_str) {
 	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
+	QMessageBox::warning(parent_widget, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
 }
 
 void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
