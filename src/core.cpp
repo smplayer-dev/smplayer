@@ -921,7 +921,7 @@ void Core::openStream(QString name, QStringList params) {
 			qDebug() << "Core::openStream: youtube url detected:" << yt_full_url;
 			name = yt_full_url;
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
-			if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
+			yt->setUserAgent(pref->yt_user_agent);
 			yt->setUseDASH(pref->yt_use_dash);
 			yt->enable60fps(pref->yt_use_60fps);
 			yt->fetchPage(name);
