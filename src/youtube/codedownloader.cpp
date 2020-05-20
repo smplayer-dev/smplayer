@@ -21,6 +21,10 @@
 #include <QMessageBox>
 #include <QDebug>
 
+#include <QDir>
+
+CodeDownloader * CodeDownloader::downloader = 0;
+
 CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 {
 	reply = 0;
@@ -137,6 +141,51 @@ void CodeDownloader::reportSaveFailed(const QString & file) {
 void CodeDownloader::reportError(int, QString error_str) {
 	hide();
 	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
+}
+
+void CodeDownloader::askAndDownload(QWidget * parent) {
+#ifdef Q_OS_WIN
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+	QString output = "mpv/youtube-dl.exe";
+#else
+	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
+
+	QString user_home = QDir::homePath();
+
+	user_home = "/tmp";
+
+	QString output_dir = user_home + "/bin";
+	QString output_file = "youtube-dl";
+
+	QDir d;
+	if (!d.exists(output_dir)) {
+		if (!d.mkdir(output_dir)) {
+			qDebug() << "CodeDownloader::askAndDownload: fail to create" << output_dir;
+		}
+	}
+
+	QString output = output_dir + "/" + output_file;
+#endif
+
+	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
+	qDebug() << "CodeDownloader::askAndDownload: output" << output;
+
+	int ret = QMessageBox::question(parent, tr("Install YouTube support?"),
+				tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br>"+
+				tr("SMPlayer can download and install this application for you.") +" "+
+				tr("It will be downloaded from the official website and installed in %1.").arg(output_dir) + "<br><br>"+
+				tr("Would you like to proceeed?"),
+				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+
+#if 1
+	if (!downloader) downloader = new CodeDownloader(parent);
+
+	if (ret == QMessageBox::Yes) {
+		downloader->saveAs(output);
+		downloader->show();
+		downloader->download(url);
+	}
+#endif
 }
 
 #include "moc_codedownloader.cpp"

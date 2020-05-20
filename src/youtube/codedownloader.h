@@ -49,6 +49,9 @@ signals:
 	void fileSaved(const QString &, const QString &);
 	void saveFailed(const QString &);
 
+public:
+	static void askAndDownload(QWidget * parent);
+
 private slots:
 	void gotResponse(QNetworkReply* reply);
 	void updateDataReadProgress(qint64 bytes_read, qint64 total_bytes);
@@ -64,6 +67,8 @@ private:
 
 	QString output_filename;
 	QByteArray user_agent;
+
+	static CodeDownloader * downloader;
 };
 
 #endif
