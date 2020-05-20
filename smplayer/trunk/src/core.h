@@ -547,6 +547,7 @@ signals:
 #ifdef YOUTUBE_SUPPORT
 	void signatureNotFound(const QString &);
 	void noSslSupport();
+	void processFailedToStart();
 #endif
 
 	void receivedForbidden();

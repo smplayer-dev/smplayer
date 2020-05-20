@@ -2348,6 +2348,7 @@ void BaseGui::createCore() {
 #endif
 
 #ifdef YOUTUBE_SUPPORT
+	connect(core, SIGNAL(processFailedToStart()), this, SLOT(YTFailedToStart()));
 	connect(core, SIGNAL(signatureNotFound(const QString &)),
             this, SLOT(YTNoSignature(const QString &)));
 	connect(core, SIGNAL(noSslSupport()),
@@ -5116,6 +5117,10 @@ void BaseGui::YTNoSignature(const QString & title) {
 #ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdate() {
 	CodeDownloader::askAndDownload(this);
+}
+
+void BaseGui::YTFailedToStart() {
+	CodeDownloader::askAndDownload(this, true);
 }
 #endif // YT_CODEDOWNLOADER
 #endif // YOUTUBE_SUPPORT

@@ -147,8 +147,9 @@ signals:
 	void gotPreferredUrl(const QString & url, int itag);
 	void gotEmptyList();
 	void connecting(QString host);
-	void errorOcurred(int error_number, QString error_str);
+	void processFailedToStart();
 #ifdef YT_OBSOLETE
+	void errorOcurred(int error_number, QString error_str);
 	void signatureNotFound(const QString & title);
 	void noSslSupport();
 #endif

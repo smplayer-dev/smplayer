@@ -210,6 +210,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 
 	if (!process->waitForStarted()) {
 		qDebug("RetrieveYoutubeUrl::runYtdl: error: the process didn't start");
+		emit processFailedToStart();
 	}
 }
 
