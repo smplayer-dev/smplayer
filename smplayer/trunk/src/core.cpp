@@ -920,10 +920,13 @@ void Core::openStream(QString name, QStringList params) {
 		if (!yt_full_url.isEmpty()) {
 			qDebug() << "Core::openStream: youtube url detected:" << yt_full_url;
 			name = yt_full_url;
+			if (!pref->yt_ytdl_bin.isEmpty()) yt->setYtdlBin(pref->yt_ytdl_bin);
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
 			yt->setUserAgent(pref->yt_user_agent);
+			yt->setUserFormat(pref->yt_override_format);
 			yt->setUseDASH(pref->yt_use_dash);
 			yt->enable60fps(pref->yt_use_60fps);
+			yt->enableAv1(pref->yt_use_av1);
 			yt->fetchPage(name);
 			return;
 		}

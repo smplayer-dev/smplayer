@@ -544,9 +544,11 @@ void Preferences::reset() {
 #ifdef YOUTUBE_SUPPORT
 	yt_resolution = RetrieveYoutubeUrl::R720p;
 	yt_user_agent = "";
-	yt_use_https_main = false;
+	yt_ytdl_bin = "";
+	yt_override_format = "";
 	yt_use_dash = false;
 	yt_use_60fps = true;
+	yt_use_av1 = false;
 #endif
 
 	// Proxy
@@ -1096,9 +1098,11 @@ void Preferences::save() {
 	set->beginGroup("streaming/youtube");
 	set->setValue("resolution", yt_resolution);
 	set->setValue("preferred_user_agent", yt_user_agent);
-	set->setValue("yt_use_https_main", yt_use_https_main);
+	set->setValue("ytdl_bin", yt_ytdl_bin);
+	set->setValue("override_format", yt_override_format);
 	set->setValue("use_dash", yt_use_dash);
 	set->setValue("use_60fps", yt_use_60fps);
+	set->setValue("use_av1", yt_use_av1);
 	set->endGroup();
 	#endif
 	set->endGroup(); // streaming
@@ -1696,9 +1700,11 @@ void Preferences::load() {
 	set->beginGroup("streaming/youtube");
 	yt_resolution = set->value("resolution", yt_resolution).toInt();
 	yt_user_agent = set->value("preferred_user_agent", yt_user_agent).toString();
-	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
+	yt_ytdl_bin = set->value("ytdl_bin", yt_ytdl_bin).toString();
+	yt_override_format = set->value("override_format", yt_override_format).toString();
 	yt_use_dash = set->value("use_dash", yt_use_dash).toBool();
 	yt_use_60fps = set->value("use_60fps", yt_use_60fps).toBool();
+	yt_use_av1 = set->value("use_av1", yt_use_av1).toBool();
 	set->endGroup();
 	#endif
 	set->endGroup(); // streaming
