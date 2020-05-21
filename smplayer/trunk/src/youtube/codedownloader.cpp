@@ -145,11 +145,25 @@ void CodeDownloader::reportError(int, QString error_str) {
 }
 
 void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+	QString message;
+
+	if (show_error_message) {
+		message += "<b>" + tr("SMPlayer failed to communicate with youtube-dl. "
+                             "Either it's not installed or it doesn't work correctly.") +"</b><br><br>";
+	}
+
+	message +=  tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br><br>"+
+				tr("This component needs to be updated frequently.") +" "+
+				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
+
+	QMessageBox::information(parent, tr("Install/Update YouTube support"),message);
+#else
+	#ifdef Q_OS_WIN
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
 	QString output_dir = "mpv/";
 	QString output = output_dir + "youtube-dl.exe";
-#else
+	#else
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
 
 	QString user_home = QDir::homePath();
@@ -167,7 +181,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 	}
 
 	QString output = output_dir + "/" + output_file;
-#endif
+	#endif // Q_OS_WIN
 
 	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
 	qDebug() << "CodeDownloader::askAndDownload: output" << output;
@@ -193,7 +207,6 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 				message, QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	}
 
-#if 1
 	if (!downloader) downloader = new CodeDownloader(parent);
 
 	if (ret == QMessageBox::Yes) {
