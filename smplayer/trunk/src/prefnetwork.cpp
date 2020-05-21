@@ -104,14 +104,16 @@ void PrefNetwork::retranslateStrings() {
 	int quality_item = ytdl_quality_combo->currentIndex();
 	ytdl_quality_combo->clear();
 
+	#define YTQ(QUALITY) "bestvideo[height<=?" QUALITY "]+bestaudio/best[height<=?" QUALITY "]"
+	//#define YTQ(QUALITY) "[height<=?" QUALITY "]"
 	ytdl_quality_combo->addItem(tr("Best video and audio"), "");
 	ytdl_quality_combo->addItem(tr("Best"), "best");
-	ytdl_quality_combo->addItem("1080p", "[height <=? 1080]");
-	ytdl_quality_combo->addItem("720p", "[height <=? 720]");
-	ytdl_quality_combo->addItem("480p", "[height <=? 480]");
-	ytdl_quality_combo->addItem("360p", "[height <=? 360]");
-	ytdl_quality_combo->addItem("240p", "[height <=? 240]");
-	ytdl_quality_combo->addItem("144p", "[height <=? 144]");
+	ytdl_quality_combo->addItem("1080p", YTQ("1080"));
+	ytdl_quality_combo->addItem("720p", YTQ("720"));
+	ytdl_quality_combo->addItem("480p", YTQ("480"));
+	ytdl_quality_combo->addItem("360p", YTQ("360"));
+	ytdl_quality_combo->addItem("240p", YTQ("240"));
+	ytdl_quality_combo->addItem("144p", YTQ("144"));
 	ytdl_quality_combo->addItem(tr("Worst"), "worst");
 
 	ytdl_quality_combo->setCurrentIndex(quality_item);
