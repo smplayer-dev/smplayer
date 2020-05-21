@@ -70,6 +70,7 @@ private:
 
 	static CodeDownloader * downloader;
 	QWidget * parent_widget;
+	QString version;
 };
 
 #endif

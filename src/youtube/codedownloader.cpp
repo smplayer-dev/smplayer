@@ -61,6 +61,7 @@ void CodeDownloader::setProxy(QNetworkProxy proxy) {
 }
 
 void CodeDownloader::download(QUrl url) {
+	qDebug() << "CodeDownloader::download:" << url;
 	QNetworkRequest req(url);
 	if (!user_agent.isEmpty()) req.setRawHeader("User-Agent", user_agent);
 	reply = manager->get(req);
@@ -68,6 +69,12 @@ void CodeDownloader::download(QUrl url) {
             this, SLOT(updateDataReadProgress(qint64, qint64)));
 
 	setLabelText(tr("Connecting to %1").arg(url.host()));
+
+	QRegExp rx("downloads\\/([\\d\\.]+)\\/youtube");
+	if (rx.indexIn(url.toString()) > -1) {
+		version = rx.cap(1);
+		qDebug() << "CodeDownloader::download: version:" << version;
+	}
 }
 
 void CodeDownloader::cancelDownload() {
@@ -131,6 +138,7 @@ void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_byte
 void CodeDownloader::reportFileSaved(const QString &) {
 	hide();
 	QString t = tr("The YouTube code has been installed successfully.");
+	if (!version.isEmpty()) t += "<br>"+ tr("Installed version: %1").arg(version);
 	QMessageBox::information(parent_widget, tr("Success"),t);
 }
 
