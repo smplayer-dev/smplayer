@@ -269,12 +269,12 @@ void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exit
 
 	if (lines.count() >= 3) {
 		video_title = QString::fromUtf8(lines[LINE_TITLE]);
-		selected_video_url = lines[LINE_VIDEO_URL];
+		if (lines[LINE_VIDEO_URL].startsWith("http")) selected_video_url = lines[LINE_VIDEO_URL];
 		selected_video_quality = (Quality) getItagFromFormat(lines[LINE_VIDEO_ITAG]);
 	}
 
 	if (lines.count() >= 6) {
-		selected_audio_url = lines[LINE_AUDIO_URL];
+		if (lines[LINE_AUDIO_URL].startsWith("http")) selected_audio_url = lines[LINE_AUDIO_URL];
 		selected_audio_quality = (Quality) getItagFromFormat(lines[LINE_AUDIO_ITAG]);
 	}
 #endif
