@@ -23,6 +23,9 @@
 
 #include <QDir>
 
+#define APPNAME "SMPlayer"
+//#define APPNAME "SMTube"
+
 CodeDownloader * CodeDownloader::downloader = 0;
 
 CodeDownloader::CodeDownloader(QWidget * parent)
@@ -157,11 +160,11 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 	QString message;
 
 	if (show_error_message) {
-		message += "<b>" + tr("SMPlayer failed to communicate with youtube-dl. "
-                             "Either it's not installed or it doesn't work correctly.") +"</b><br><br>";
+		message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
+                             "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
 	}
 
-	message +=  tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br><br>"+
+	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("This component needs to be updated frequently.") +" "+
 				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
 
@@ -197,12 +200,12 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 	QString message;
 
 	if (show_error_message) {
-		message += "<b>" + tr("SMPlayer failed to communicate with youtube-dl. "
-                             "Either it's not installed or it doesn't work correctly.") +"</b><br><br>";
+		message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
+                             "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
 	}
 
-	message +=  tr("In order to play YouTube videos, SMPlayer needs an external application called youtube-dl.") + "<br><br>"+
-				tr("SMPlayer can download and install this application for you.") +" "+
+	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
+				tr("%1 can download and install this application for you.").arg(APPNAME) +" "+
 				tr("It will be downloaded from the official website and installed in %1.").arg("<i>" + output_dir +"</i>") + "<br><br>"+
 				tr("Would you like to proceeed?");
 
