@@ -1880,7 +1880,7 @@ void BaseGui::retranslateStrings() {
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
 #ifdef YT_CODEDOWNLOADER
-	updateYTAct->change( Images::icon("update_youtube"), tr("Install/Update &YouTube support") );
+	updateYTAct->change( Images::icon("update_youtube"), tr("Install / Update &YouTube support") );
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
