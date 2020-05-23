@@ -2285,7 +2285,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../youtube/codedownloader.cpp" line="167"/>
         <location filename="../youtube/codedownloader.cpp" line="207"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation>Para poder reproducir vídeos %1 necesita una aplicación externa llamada youtube-dl.</translation>
+        <translation>Para poder reproducir vídeos de YouTube, %1 necesita una aplicación externa llamada youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="168"/>
@@ -2295,12 +2295,16 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation>Puedes actualizarlo reinstalador SMPlayer. El instalador descargará e instalará la última versión.</translation>
+        <translation>Puedes actualizarlo reinstalando SMPlayer. El instalador descargará e instalará la última versión.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation>Instalar / Actualizar el soporte para YouTube</translation>
+    </message>
+    <message>
+        <source>Install/Update YouTube support</source>
+        <translation type="obsolete">Instalar / Actualizar el soporte para YouTube</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="208"/>

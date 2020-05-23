@@ -2299,7 +2299,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

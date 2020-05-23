@@ -2299,7 +2299,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

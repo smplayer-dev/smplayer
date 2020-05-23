@@ -2299,7 +2299,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

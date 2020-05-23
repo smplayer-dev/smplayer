@@ -2299,7 +2299,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
