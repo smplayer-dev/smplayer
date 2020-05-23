@@ -168,7 +168,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 				tr("This component needs to be updated frequently.") +" "+
 				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
 
-	QMessageBox::information(parent, tr("Install/Update YouTube support"),message);
+	QMessageBox::information(parent, tr("Install / Update YouTube support"),message);
 #else
 	#ifdef Q_OS_WIN
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
