@@ -2299,7 +2299,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2300,7 +2300,7 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
-        <source>Install/Update YouTube support</source>
+        <source>Install / Update YouTube support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
