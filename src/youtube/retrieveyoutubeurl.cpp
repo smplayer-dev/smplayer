@@ -27,6 +27,7 @@
 #include <QDebug>
 #include <QStringList>
 #include <QProcess>
+#include <QFileInfo>
 
 #if QT_VERSION >= 0x050000
 #include <QUrlQuery>
@@ -201,6 +202,11 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	args << "-f" << format;
 	if (!user_agent.isEmpty()) args << "--user-agent" << user_agent;
 	args << url;
+
+	QFileInfo fi(ytdl_bin);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		ytdl_bin = fi.absoluteFilePath();
+	}
 
 	QString command = ytdl_bin + " " + args.join(" ");
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: command:" << command;
