@@ -204,9 +204,13 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	args << url;
 
 	QFileInfo fi(ytdl_bin);
+	#ifdef Q_OS_WIN
+	ytdl_bin = fi.absoluteFilePath();
+	#else
 	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
 		ytdl_bin = fi.absoluteFilePath();
 	}
+	#endif
 
 	QString command = ytdl_bin + " " + args.join(" ");
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: command:" << command;
