@@ -218,9 +218,8 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 				message, QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	}
 
-	if (!downloader) downloader = new CodeDownloader(parent);
-
 	if (ret == QMessageBox::Yes) {
+ 		if (!downloader) downloader = new CodeDownloader(parent);
 		downloader->saveAs(output);
 		downloader->show();
 		downloader->download(url);
