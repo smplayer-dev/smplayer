@@ -39,6 +39,8 @@ CodeDownloader::CodeDownloader(QWidget * parent)
 	setMinimumDuration(0);
 	setRange(0,0);
 
+	reset(); // Prevent the dialog to be shown on initialization (Qt 5.5)
+
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
 	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportFileSaved(const QString &)));
 	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
