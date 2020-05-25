@@ -35,6 +35,9 @@ public:
 
 	void setProxy(QNetworkProxy proxy);
 
+	void setUserAgent(const QByteArray & s) { user_agent = s; }
+	QByteArray userAgent() { return user_agent; }
+
 public slots:
 	void download(QUrl url);
 	void cancelDownload();
@@ -47,15 +50,10 @@ private slots:
 	void gotResponse(QNetworkReply* reply);
 	void updateDataReadProgress(qint64 bytes_read, qint64 total_bytes);
 
-	/*
-	void reportFileSaved(const QString &, const QString &);
-	void reportSaveFailed(const QString &);
-	void reportError(int error_number, QString error_str);
-	*/
-
 private:
 	QNetworkAccessManager* manager;
 	QNetworkReply* reply;
+	QByteArray user_agent;
 };
 
 #endif
