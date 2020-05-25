@@ -20,25 +20,27 @@
 #include <QFile>
 #include <QMessageBox>
 
-FileDownloader::FileDownloader(QWidget *parent) : QProgressDialog(parent)
+FileDownloader::FileDownloader(QWidget *parent)
+	: QProgressDialog(parent)
+	, reply(0)
 {
-	reply = 0;
 	manager = new QNetworkAccessManager(this);
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
 	setMinimumDuration(0);
 	setRange(0,0);
-	
+
 	reset(); // Prevent the dialog to be shown on initialization (Qt 5.5)
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
-	/*
-	connect(this, SIGNAL(fileSaved(const QString &, const QString &)), this, SLOT(reportFileSaved(const QString &,const QString &)));
-	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
-	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
-	*/
 
 	setWindowTitle(tr("Downloading..."));
+
+	#ifdef Q_OS_WIN
+	user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0";
+	#else
+	user_agent = "Mozilla/5.0 (X11; Linux i686; rv:62.0) Gecko/20100101 Firefox/62.0";
+	#endif
 }
 
 FileDownloader::~FileDownloader() {
@@ -48,13 +50,13 @@ FileDownloader::~FileDownloader() {
 void FileDownloader::setProxy(QNetworkProxy proxy) {
 	manager->setProxy(proxy);
 
-	qDebug("FileDownloader::setProxy: host: '%s' port: %d type: %d",
-           proxy.hostName().toUtf8().constData(), proxy.port(), proxy.type());
+	qDebug() << "FileDownloader::setProxy: host:" << proxy.hostName() << "port:" << proxy.port() << "type:" << proxy.type();
+
 }
 
 void FileDownloader::download(QUrl url) {
 	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", "SMPlayer");
+	if (!user_agent.isEmpty()) req.setRawHeader("User-Agent", user_agent);
 	reply = manager->get(req);
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
@@ -75,7 +77,7 @@ void FileDownloader::gotResponse(QNetworkReply* reply) {
 			case 302:
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
-				qDebug("FileDownloader::gotResponse: redirected: %s", r_url.toLatin1().constData());
+				qDebug() << "FileDownloader::gotResponse: redirected:" << r_url;
 				download(r_url);
 				return;
 		}
@@ -90,31 +92,12 @@ void FileDownloader::gotResponse(QNetworkReply* reply) {
 }
 
 void FileDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
-	qDebug() << "FileDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
+	//qDebug() << "FileDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
 	if (total_bytes > -1) {
 		setMaximum(total_bytes);
 		setValue(bytes_read);
 	}
 }
-
-/*
-void FileDownloader::reportFileSaved(const QString &, const QString & version) {
-	hide();
-	QString t = tr("The Youtube code has been updated successfully.");
-	if (!version.isEmpty()) t += "<br>"+ tr("Installed version: %1").arg(version);
-	QMessageBox::information(this, tr("Success"),t);
-}
-
-void FileDownloader::reportSaveFailed(const QString & file) {
-	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened writing %1").arg(file));
-}
-
-void FileDownloader::reportError(int, QString error_str) {
-	hide();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
-}
-*/
 
 #include "moc_filedownloader.cpp"
 
