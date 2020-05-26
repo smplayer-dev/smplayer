@@ -1065,7 +1065,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>更新 YouTube 支援(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
