@@ -2240,13 +2240,13 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <location filename="../youtube/codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 fallou tentando a comunicación co youtube-dl. Ou ben non está instalado ou non funciona correctamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Con fin de reproducir vídeos de YouTube, %1 precisa dunha aplicación externa chamada youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>

@@ -1065,7 +1065,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Opdater understøttelse af &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
