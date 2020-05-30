@@ -1065,7 +1065,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Pembaruan dukungan YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>

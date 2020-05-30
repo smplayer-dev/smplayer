@@ -5192,42 +5192,42 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../playlist.cpp" line="1988"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Olet POISTAMASSA tiedostoa &apos;%1&apos; asemastasi.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1989"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tätä toimintoa ei voi kumota. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2007"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Poisto epäonnistui</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2008"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohdetta &apos;%1&apos; ei voitu poistaa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2013"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe poistetessaan tiedostoa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2014"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostoa &apos;%1&apos; ei voi poistaa tiedostojärjestelmästä.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2508"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Tätä soittolistaa ei voi ladata</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2508"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tunnistamaton muoto.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="767"/>
@@ -5296,17 +5296,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä oletuksena la&amp;vf demuxer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
+        <translation>O&amp;SD-palkin sijainti:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"></translation>
+        <translation>Väri&amp;avain:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="351"/>
@@ -5356,22 +5356,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä oletuksena lavf demuxer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos vaihtoehto on valittuna, lavf demuxer käytetään kaikissa formaateissa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tätä asetusta voidaan tarvita soittolistojen toistamiseen (m3u, pls...). Tähän voi kuitenkin liittyä tietoturvariski Internet-lähteitä toistettaessa, koska tapa jolla MPlayer käsittelee ja käyttää soittolistoja ei ole turvassa haitallisilta tiedostoilta.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Rajoitus: toiminnot suoritetaan vain kun tiedosto avataan, eikä silloin kun prosessi %1 käynnistetään uudelleen (esim. ääni- tai videosuodatin valitaan).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
@@ -5466,32 +5466,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulostetaan %1 lokiin </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, SMPlayer tallentaa tulosteen %1 (se näkyy &lt;b&gt;Asetukset -&gt; Näytä lokit -&gt; %1 &lt;/b&gt;). Ongelmatilanteissa tämä loki voi sisältää tärkeätä tietoa, joten on suositeltavaa pitää tämä asetus valittuna.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna loki %1 automaattisesti</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, loki %1 tallennetaan määriteltyyn tiedostoon aina, kun uusi tiedosto alkaa toistua. Jos käytetään ulkopuolista sovellusta, niistä saadaan tieto toistetusta tiedostosta.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna %1 tiedostonimi automaattisesti</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjoita tähän polku ja tiedostonimi, jota käytetään %1 lokin tallentamiseen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
@@ -5506,92 +5506,92 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suorita %1 omassa ikkunassa</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Välitä lyhyet tiedostonimet (8+3) kohteeseen %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="520"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished">Kirjoita ne välilyönneillä erotettuina.</translation>
+        <translation>Kirjoita ne välilyönneillä erotettuina.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Tul&amp;ostetaan %1 lokiin </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Ilmoita %1 kaatumis&amp;esta</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Täällä voit välittää vaihtoehtoja ja suodattimia kohteeseen %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna %1 loki a&amp;utomaattisesti</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyväk&amp;sy %1 -vaihtoehto MPlayeriin (tietoturvariski)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämän valinnan poistaminen voi vähentää vilkkumista, mutta se voi myös tuottaa outoja merkkejä tietyissä olosuhteissa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD-palkin sijainti</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta näytön sijainti, jossa OSD-palkki näkyy. Ylhäällä 0, alhaalla 100.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Suorita %1 omassa ikkunassa</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos valitset tämän vaihtoehdon, videoikkunaa %1 ei upoteta SMPlayerin pääikkunaan, vaan se näytetään omaa ikkunaaan. Huomaa, että %1 käsittelee hiiri- ja näppäimistötapahtumat suoraan. Tämä tarkoittaa, että pikanäppäimet ja hiiren klikkaukset eivät todennäköisesti toimi kun ikkuna %1 on aktiivinen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ilmoita %1 kaatumisesta</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, näyttöön tulee ponnahdusikkuna, jossa ilmoitetaan %1 kaatumisesta. Muuten nämä jätetään hiljaisesti huomiotta.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Välitä lyhyet tiedostonimet (8+3) kohteeseen %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, SMPlayer välittää tiedostoon %1 nimen lyhyen version.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyväksy %1 -vaihtoehto MPlayeriin (tietoturvariski)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
@@ -5616,23 +5616,23 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Täällä voit antaa %1 asetuksia.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Täällä voit lisätä %1 videosuodattimia.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjoita ne pilkuilla erotettuna. Älä käytä välilyöntejä!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Täällä voit lisätä %1 äänisuodattimia.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -5695,17 +5695,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä tunnisteen tiedot ikkunan otsikossa</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on käytössä, tunnisteiden tiedot näkyvät ikkunan otsikossa. Muussa tapauksessa näytetään vain tiedostonimi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä in&amp;formaatio ikkunan otsikossa</translation>
     </message>
 </context>
 <context>
@@ -5748,12 +5748,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Huomautus:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="243"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korjaaminen ei toimi Windows Vistassa.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5842,7 +5842,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse Blu-ray-asemasi. Sitä käytetään Blu-ray-levyjen toistamiseen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
@@ -5852,7 +5852,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, SMPlayer toistaa DVD:t käyttämällä dvdnavia. Vaatii tuoreen MPlayer version dvdnav-tuella.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5921,7 +5921,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="200"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse %1 suoritettava tiedosto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
@@ -5941,7 +5941,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="217"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 suorit&amp;ettava:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="169"/>
@@ -5963,12 +5963,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse multimediamoottori käyttöön, joko MPlayer tai mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1027"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihtoehto &apos;muu&apos; antaa sinun valita manuaalisesti suoritettavan polun.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
@@ -5978,7 +5978,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tässä sinun on määritettävä suoritettava %1, jota SMPlayer käyttää.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
@@ -5988,7 +5988,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä vaihtoehto on käytössä, myös suoratoiston asetukset muistetaan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1062"/>
@@ -6023,7 +6023,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, tietokone sammuu heti kun SMPlayer suljetaan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1106"/>
@@ -6033,12 +6033,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse videon ulostulon ajuri.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, musta reuna lisätään oletusarvoisesti kuvaan uusissa avatuissa tiedostoissa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1202"/>
@@ -6073,23 +6073,23 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="165"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>Muu...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1069"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä asetus määrittää tiedostonimen mallin, jota käytetään kaappausten tallentamiseen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1073"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>Täydellinen luettelo malleista on tässä linkissä:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1077"/>
         <location filename="../prefgeneral.cpp" line="1084"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä asetus toimii vain mpv:n kanssa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1099"/>
@@ -6099,7 +6099,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1131"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää tekstityksen mustat reunat oletuksena</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1141"/>
@@ -6114,22 +6114,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Globaali äänen taajuuskorjain</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto valitaan, kaikessa mediassa käytetään äänen taajuuskorjausta.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1210"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä ei ole valittuna, äänen taajuuskorjaimen arvot tallennetaan jokaiseen tiedostoon ja ladataan takaisin kun sitä toistetaan myöhemmin.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1213"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS-läpivienti S/PDIF- ja HDMI-liitännän kautta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
@@ -6139,7 +6139,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1230"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mahdollistaa toistonopeuden muuttamisen muuttamatta sävelkorkeutta.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1238"/>
@@ -6184,27 +6184,27 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation>Multim&amp;edia moottori:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muista suoratoiston asetukset</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ma&amp;lli:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;ormaatti:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sammuta tietokone</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
@@ -6219,12 +6219,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="768"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Globaali äänen taa&amp;juuskorjain</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;AC3/DTS-läpivienti S/PDIF- ja HDMI-liitännän kautta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6289,12 +6289,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="171"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished">8 (7.1 Surround) {4 (4.0 ?}</translation>
+        <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="172"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished">8 (7.1 Surround) {6 (5.1 ?}</translation>
+        <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="792"/>
@@ -6349,22 +6349,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Voit tässä määrittää ensisijaisen äänen kielikoodien luettelon pilkuin erotettuna. Esimerkiksi: spa,eng,fin</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä kenttä hyväksyy säännölliset lauseet. Esimerkki: &lt;b&gt;es|esp|spa&lt;/b&gt; valitsee ääniraidan, jos se vastaa &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; tai &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Voit tässä määrittää ensisijaisen tekstityksen kielikoodien luettelon pilkuin erotettuna. Esimerkiksi: spa,eng,fin</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä kenttä hyväksyy säännölliset lauseet. Esimerkki: &lt;b&gt;es|esp|spa&lt;/b&gt; valitsee tekstityksen, jos se vastaa &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; tai &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -6429,7 +6429,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää tekstity&amp;ksen mustat reunat oletuksena</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6469,7 +6469,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Alipäästö5</translation>
+        <translation>Alipäästö5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="180"/>
@@ -6834,7 +6834,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="445"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>hitaampi dive-moodi</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -6857,12 +6857,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä m&amp;ultimedianäppäimiä yleisinä pikanäppäiminä</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse &amp;näppäimet...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -6877,12 +6877,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve&amp;dä toiminto:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä käynnis&amp;tä vasenta napsautusta kaksoisnapsautuksella</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
@@ -7269,12 +7269,12 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../prefinput.cpp" line="177"/>
         <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Haku ja äänenvoimakkuus</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä multimedianäppäimiä yleisinä pikanäppäiminä</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="393"/>
@@ -7284,37 +7284,37 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Vedä toiminto</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä vaihtoehto määrittää mitä tehdään kun hiirtä liikutetaan samalla kun vasenta painiketta painetaan.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="419"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>pääikkunaa siirretään</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="422"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation>vaakasuuntainen liike muuttaa aika-asentoa, kun pystysuuntainen liike muuttaa äänenvoimakkuutta</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Älä käynnistä vasenta napsautusta kaksoisnapsautuksella</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, kaksoisnapsautat videoaluetta niin vain kaksoisnapsautustoiminto käynnistyy. Vasemman napsautuksen toimintaa ei aktivoida.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä vaihtoehto otetaan käyttöön, vasen napsautus viivästyy %1 millisekuntia. Jotta aika tietää, onko napsautus tapahtunut vai ei.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="103"/>
@@ -7459,7 +7459,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="173"/>
         <source>System language</source>
-        <translation type="unfinished"></translation>
+        <translation>Järjestelmän kieli</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="203"/>
@@ -7514,12 +7514,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Estä ikkunaa pääsemästä näytön ulkopuolelle</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskitä &amp;ikkuna</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7529,7 +7529,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ul&amp;koasu:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
@@ -7544,7 +7544,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä järjestel&amp;män tiedostojen valintaikkunaa</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7564,22 +7564,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Pysäytyspai&amp;nikkeen painaminen nollaa aika-asennon</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kelluva hallintapalkki tulee esiin kokoruututilassa kun hiireen on koskettu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä vain, kun siirrät hii&amp;ren näytön alareunaan</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aika (millis&amp;ekunteina) hallintapalkin piilottamiseen:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
@@ -7589,7 +7589,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="899"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maks. kohteita</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="938"/>
@@ -7599,17 +7599,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="959"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>High &amp;DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer voi skaalata käyttöliittymän High DPI -näytöissä. Voit poistaa tämän ominaisuuden käytöstä tai muuttaa skaalauskerrointa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota käyttöön tuki High DPI-näytöill&amp;e</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="985"/>
@@ -7624,7 +7624,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="1047"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämän osan muutokset edellyttävät SMPlayerin käynnistämistä uudelleen, jotta se tulee voimaan</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
@@ -7639,12 +7639,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="563"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ehdoton etsiminen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="576"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suhteellinen etsiminen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
@@ -7674,27 +7674,27 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse sovellukselle haluamasi graafinen käyttöliittymä.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Perus GUI&lt;/b&gt; tarjoaa perinteisen käyttöliittymän, jossa työkalurivi ja ohjauspalkki.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Mini GUI&lt;/b&gt; tarjoaa yksinkertaisen käyttöliittymän ilman työkaluriviä, sekä ohjauspalkin, jossa on vain muutamia painikkeita.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Tuunattava GUI&lt;/b&gt; tarjoaa käyttöliittymän, jossa on saatavana useita ulkoasuja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Mpc GUI&lt;/b&gt; käyttöliittymä näyttää samalta kuin Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="877"/>
@@ -7724,37 +7724,37 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="247"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuunattava GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skaalauskerr&amp;oin:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="263"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pikselisuh&amp;de:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Estää ikkunaa pääsemästä näytön ulkopuolelle</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos pääikkuna pääsee automaattisen koon jälkeen näytön ulkopuolelle, tämä vaihtoehto estää sen ja keskittää ikkunan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>Keskitä ikkuna</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä vaihtoehto on käytössä, pääikkuna keskittyy työpöydälle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
@@ -7764,12 +7764,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Ulkoasu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse ulkoasu, jota haluat käyttää. Saatavana vain tuunattavalla käyttöliittymällä.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
@@ -7794,12 +7794,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä järjestelmän tiedostojen valintaikkunaa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä vaihtoehto on käytössä, SMPlayer yrittää käyttää järjestelmän alkuperäistä tiedostojen valintaikkunaa. Muuten se käyttää sisäistä.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7866,17 +7866,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Huomaa: tämä vaihtoehto toimii vain käytettäessä MPV -multimediamoottoria.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Pysäytys -painikkeen painaminen nollaa aika-asennon</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä vain, kun siirrät hiiren näytön alareunaan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
@@ -7886,37 +7886,37 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, kelluva säädin näkyy myös kompaktitilassa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä vaihtoehto toimii vain Perus GUI:n kanssa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Varoitus:&lt;/b&gt; Ohjausobjektia ei ole suunniteltu kompaktiin tilaan, eikä se välttämättä toimi oikein.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="874"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"></translation>
+        <translation>Aika piilottaa hallintapalkin</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Määrittää ajan (millisekunteina), jolloin ohjaimet piilotetaan kun hiiri on siirtynyt pois ohjauspalkista.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="884"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksimi verkko-osoitteet</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="885"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse niiden kohteiden enimmäismäärä, jotka &lt;b&gt;Avaa-&gt;verkko-osoite&lt;/b&gt; valintaikkuna muistaa. Määritä arvoksi 0, jos et halua tallentaa niitä.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="889"/>
@@ -7926,23 +7926,23 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="890"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on valittuna, SMPlayer muistaa viimeisen kansion, jota käytit tiedoston avaamiseen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="551"/>
         <location filename="../prefinterface.cpp" line="820"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Haku menettely</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Asettaa menetelmän, jota käytetään liukusäätimessä. Absoluuttinen etsiminen voi olla hiukan tarkempi, kun taas suhteellinen voi toimia paremmin väärän pituisten tiedostojen kanssa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oletusarvoisesti kun pysäytys -painiketta painetaan, aika muistetaan, joten jos painat toisto -painiketta, media jatkuu samasta kohdasta. Sinun on painettava pysäytys -painiketta kahdesti nollataksesi ajan. Jos tämä vaihtoehto on jo valittuna, aika asetetaan 0:ksi vain yhdellä painikkeen painalluksella.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="839"/>
@@ -8059,7 +8059,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, videoikkuna piilotetaan äänitiedostoja toistettaessa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
@@ -8069,17 +8069,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkka haku</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä vaihtoehto on käytössä, etsinnät ovat tarkempia, mutta ne voivat olla hiukan hitaampia. Jotkin videomuodot eivät välttämättä toimi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tarkka haku</translation>
     </message>
 </context>
 <context>
@@ -8087,42 +8087,42 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube (ja muut sivustot)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sivuston tuki &amp;videolle:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>H&amp;aluttu laatu:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTuben asetukset</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>Toiston &amp;laatu</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä m&amp;ukautuvaa suoratoistoa (tarkkuus jopa 4K)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä &amp;60 fps, jos saatavilla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Asiakas ohjelma:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="234"/>
@@ -8137,17 +8137,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="252"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämän osan muutokset otetaan käyttöön seuraavan kerran kun web-palvelin käynnistetään uudelleen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="272"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hakemiston luettelo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="279"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Paikallinen &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="325"/>
@@ -8811,7 +8811,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tämä asetus toimii vain mpv:n kanssa.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>

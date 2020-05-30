@@ -1065,12 +1065,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Atualizar suporte ao &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation>Instalar / Atualizar suporte ao &amp;YouTube</translation>
+        <translation>Instalar/Atualizar suporte ao &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -2198,17 +2198,17 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation>A transferir...</translation>
+        <translation>A descarregar...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation>A estabelecer ligação a %1</translation>
+        <translation>Ligação a %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>O código YouTube foi instalado com sucesso.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
@@ -2229,60 +2229,60 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível guardar %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao descarregar o ficheiro:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <location filename="../youtube/codedownloader.cpp" line="205"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 não conseguiu comunicar com youtube-dl. Ou não está instalada ou não está a funcionar corretamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Para poder reproduzir vídeos do YouTube, %1 necessita de uma aplicação externa com o nome youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este componente tem que ser atualizado frequentemente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode atualizar o componente se reinstalar SMPlayer. O instalador irá descarregar e instalar a versão mais recente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation>Instalar / Atualizar suporte ao YouTube</translation>
+        <translation>Instalar/Atualizar suporte ao YouTube</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 pode descarregar e instalar a aplicação por si.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Será descarregada do site oficial e instalada em %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="212"/>
         <source>Would you like to proceeed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Como deseja proceder?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="216"/>
         <location filename="../youtube/codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Instalar suporte a YouTube?</translation>
     </message>
 </context>
 <context>
@@ -5055,7 +5055,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordem de mistura</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5177,7 +5177,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar coluna Mistura</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>

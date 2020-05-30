@@ -1065,7 +1065,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Обновить поддержку YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -2266,7 +2266,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>%1 can download and install this application for you.</source>
-        <translation>%1 можете загрузить и установить это приложение для вас.</translation>
+        <translation>%1 может загрузить и установить это приложение для вас.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
