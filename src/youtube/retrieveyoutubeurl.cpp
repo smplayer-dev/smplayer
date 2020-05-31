@@ -199,7 +199,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	#else
 	args << "--get-title" << "--get-format" << "-g";
 	#endif
-	args << "-f" << format;
+	args << "-f" << format << "--no-playlist";
 	if (!user_agent.isEmpty()) args << "--user-agent" << user_agent;
 	args << url;
 
