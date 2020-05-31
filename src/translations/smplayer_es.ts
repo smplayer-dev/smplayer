@@ -948,10 +948,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Registro de SMPlayer</translation>
     </message>
     <message>
-        <source>Update the &amp;YouTube code</source>
-        <translation type="obsolete">Actualizar el código de &amp;YouTube</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2228"/>
         <location filename="../basegui.cpp" line="2229"/>
         <location filename="../basegui.cpp" line="2230"/>
@@ -1069,12 +1065,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation>Actualizar el soporte para &amp;YouTube</translation>
+        <translation>Actualizar la compatibilidad con &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation>Instalar / Actualizar el soporte para &amp;YouTube</translation>
+        <translation>Instalar/actualizar la compatibilidad con &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -1388,34 +1384,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Incluso la cantidad más pequeña sería de mucha ayuda.</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">Error en la conexión</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">El vídeo que has solicitado necesita abrir una conexión HTTPS.</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Lamentablemente el componente OpenSSL, que es necesario para ello, no se encuentra en el sistema.</translation>
-    </message>
-    <message>
-        <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="obsolete">Visita %1 para saber cómo solucionar este problema.</translation>
-    </message>
-    <message>
-        <source>this link</source>
-        <translation type="obsolete">este enlace</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="obsolete">Lamentablemente, debido a cambios en Youtube, no se puede reproducir este vídeo.</translation>
-    </message>
-    <message>
-        <source>Problems with Youtube</source>
-        <translation type="obsolete">Problemas con Youtube</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="6046"/>
         <location filename="../basegui.cpp" line="6099"/>
         <source>More info in the log.</source>
@@ -1499,18 +1467,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="6376"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Recordar mi decisión y no volver a preguntar</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">Lamentablemente, debido a cambios en Youtube, no se puede reproducir el vídeo «%1».</translation>
-    </message>
-    <message>
-        <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="obsolete">¿Quieres actualizar el código de Youtube? Esto podría solucionar el problema.</translation>
-    </message>
-    <message>
-        <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="obsolete">Quizás el problema se podría solucionar actualizando SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2194"/>
@@ -2290,12 +2246,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation>Para poder reproducir vídeos de YouTube %1, necesita una aplicación externa llamada youtube-dl.</translation>
+        <translation>Para poder reproducir vídeos de YouTube, %1 necesita una aplicación externa llamada youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>This component needs to be updated frequently.</source>
-        <translation>Este componente hay que actualizarlo con frecuencia.</translation>
+        <translation>Hay que actualizar este componente con frecuencia.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
@@ -2305,11 +2261,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="173"/>
         <source>Install / Update YouTube support</source>
-        <translation>Instalar / Actualizar el soporte para YouTube</translation>
-    </message>
-    <message>
-        <source>Install/Update YouTube support</source>
-        <translation type="obsolete">Instalar / Actualizar el soporte para YouTube</translation>
+        <translation>Instalar/actualizar la compatibilidad con YouTube</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
@@ -2330,7 +2282,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../youtube/codedownloader.cpp" line="216"/>
         <location filename="../youtube/codedownloader.cpp" line="219"/>
         <source>Install YouTube support?</source>
-        <translation>¿Instalar el soporte para YouTube?</translation>
+        <translation>¿Instalar la compatibilidad con YouTube?</translation>
     </message>
 </context>
 <context>
@@ -2400,10 +2352,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../core.cpp" line="3309"/>
         <source>Speed: %1</source>
         <translation>Velocidad: %1</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve the Youtube page</source>
-        <translation type="obsolete">No se puede cargar la página de Youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="589"/>
@@ -4854,7 +4802,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Formulario</translation>
     </message>
 </context>
 <context>
@@ -5102,7 +5050,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Filename / URL</source>
-        <translation>Nombre del archivo/URL</translation>
+        <translation>Nombre del archivo o URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="704"/>

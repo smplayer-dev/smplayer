@@ -76,7 +76,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation>Sobre o SMPlayer</translation>
+        <translation>Acerca de SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -764,7 +764,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Sobre o &amp;SMPlayer</translation>
+        <translation>Acerca de &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3614"/>
