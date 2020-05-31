@@ -4800,9 +4800,8 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Űrlap</translation>
+        <translation type="obsolete">Űrlap</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>MediaPanel</translation>
+        <translation type="obsolete">MediaPanel</translation>
     </message>
 </context>
 <context>

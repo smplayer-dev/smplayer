@@ -4800,9 +4800,8 @@ Substituir?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Formulário</translation>
+        <translation type="obsolete">Formulário</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Substituir?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Painel multimédia</translation>
+        <translation type="obsolete">Painel multimédia</translation>
     </message>
 </context>
 <context>

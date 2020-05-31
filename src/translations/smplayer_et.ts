@@ -4800,9 +4800,8 @@ Kas kirjutada see üle?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Vorm</translation>
+        <translation type="obsolete">Vorm</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Kas kirjutada see üle?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>MeediaPaneel</translation>
+        <translation type="obsolete">MeediaPaneel</translation>
     </message>
 </context>
 <context>

@@ -4801,9 +4801,8 @@ Chcete jej opravdu přepsat?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Formulář</translation>
+        <translation type="obsolete">Formulář</translation>
     </message>
 </context>
 <context>
@@ -4822,9 +4821,8 @@ Chcete jej opravdu přepsat?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Panel médií</translation>
+        <translation type="obsolete">Panel médií</translation>
     </message>
 </context>
 <context>

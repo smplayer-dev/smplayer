@@ -4802,9 +4802,8 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Modulo</translation>
+        <translation type="obsolete">Modulo</translation>
     </message>
 </context>
 <context>
@@ -4823,9 +4822,8 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Pannello Media</translation>
+        <translation type="obsolete">Pannello Media</translation>
     </message>
 </context>
 <context>

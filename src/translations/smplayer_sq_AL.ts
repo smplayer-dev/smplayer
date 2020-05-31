@@ -4795,9 +4795,8 @@ Deshironi ta mbishkruani?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
 </context>
 <context>
@@ -4816,9 +4815,8 @@ Deshironi ta mbishkruani?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Paneli i medias</translation>
+        <translation type="obsolete">Paneli i medias</translation>
     </message>
 </context>
 <context>

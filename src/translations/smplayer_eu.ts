@@ -4800,9 +4800,8 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Galdekizuna</translation>
+        <translation type="obsolete">Galdekizuna</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Multimedia-Panela</translation>
+        <translation type="obsolete">Multimedia-Panela</translation>
     </message>
 </context>
 <context>

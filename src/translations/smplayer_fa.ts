@@ -4887,9 +4887,8 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>فرم</translation>
+        <translation type="obsolete">فرم</translation>
     </message>
 </context>
 <context>
@@ -4903,14 +4902,6 @@ Do you want to overwrite?</source>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
         <source>Repeat playlist</source>
         <translation>تکرار لیست پخش</translation>
-    </message>
-</context>
-<context>
-    <name>MediaPanelClass</name>
-    <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
-        <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

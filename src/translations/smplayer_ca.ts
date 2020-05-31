@@ -4799,9 +4799,8 @@ El voleu sobreescriure?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Formulari</translation>
+        <translation type="obsolete">Formulari</translation>
     </message>
 </context>
 <context>
@@ -4815,14 +4814,6 @@ El voleu sobreescriure?</translation>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
         <source>Repeat playlist</source>
         <translation>Repeteix la llista de reproducció</translation>
-    </message>
-</context>
-<context>
-    <name>MediaPanelClass</name>
-    <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
-        <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -4801,9 +4801,8 @@ Vil du overskrive den?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Skjema</translation>
+        <translation type="obsolete">Skjema</translation>
     </message>
 </context>
 <context>
@@ -4822,9 +4821,8 @@ Vil du overskrive den?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Mediepanel</translation>
+        <translation type="obsolete">Mediepanel</translation>
     </message>
 </context>
 <context>
