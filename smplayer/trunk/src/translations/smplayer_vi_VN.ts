@@ -4796,9 +4796,8 @@ Bạn có muốn ghi đè lên?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Mẫu</translation>
+        <translation type="obsolete">Mẫu</translation>
     </message>
 </context>
 <context>
@@ -4817,9 +4816,8 @@ Bạn có muốn ghi đè lên?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Khung điều khiển Media</translation>
+        <translation type="obsolete">Khung điều khiển Media</translation>
     </message>
 </context>
 <context>

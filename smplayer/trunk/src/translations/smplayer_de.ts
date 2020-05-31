@@ -4800,9 +4800,8 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation type="obsolete">Formular</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>MediaPanel</translation>
+        <translation type="obsolete">MediaPanel</translation>
     </message>
 </context>
 <context>

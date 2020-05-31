@@ -4800,9 +4800,8 @@ Voulez-vous le remplacer ?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Formulaire</translation>
+        <translation type="obsolete">Formulaire</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Voulez-vous le remplacer ?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Panneau Médias</translation>
+        <translation type="obsolete">Panneau Médias</translation>
     </message>
 </context>
 <context>

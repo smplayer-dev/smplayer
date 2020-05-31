@@ -4800,9 +4800,8 @@ Haluatko kirjoittaa sen päälle?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Muoto</translation>
+        <translation type="obsolete">Muoto</translation>
     </message>
 </context>
 <context>
@@ -4821,9 +4820,8 @@ Haluatko kirjoittaa sen päälle?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Mediapaneeli</translation>
+        <translation type="obsolete">Mediapaneeli</translation>
     </message>
 </context>
 <context>

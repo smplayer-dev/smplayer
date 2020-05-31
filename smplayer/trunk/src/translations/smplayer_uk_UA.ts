@@ -4801,9 +4801,8 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
 </context>
 <context>
@@ -4822,9 +4821,8 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Медіапанель</translation>
+        <translation type="obsolete">Медіапанель</translation>
     </message>
 </context>
 <context>

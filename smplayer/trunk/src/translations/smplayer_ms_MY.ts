@@ -4799,9 +4799,8 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>MediaBarPanel</name>
     <message>
-        <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation>Bentuk</translation>
+        <translation type="obsolete">Bentuk</translation>
     </message>
 </context>
 <context>
@@ -4820,9 +4819,8 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>MediaPanelClass</name>
     <message>
-        <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Panel Media</translation>
+        <translation type="obsolete">Panel Media</translation>
     </message>
 </context>
 <context>
