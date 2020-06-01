@@ -107,7 +107,7 @@ public:
 	bool isAv1Enabled() { return use_av1; }
 
 	void setYtdlBin(const QString & path) { ytdl_bin = path; };
-	QString ytdlBin() { return ytdl_bin; };
+	QString ytdlBin();
 
 	void setUserAgent(const QString & s) { user_agent = s; }
 	QString userAgent() { return user_agent; };

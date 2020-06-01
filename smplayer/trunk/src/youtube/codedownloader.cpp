@@ -157,15 +157,21 @@ void CodeDownloader::reportError(int, QString error_str) {
 	QMessageBox::warning(parent_widget, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
 }
 
-void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
-#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e) {
 	QString message;
 
-	if (show_error_message) {
-		message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
+	switch (e) {
+		case FailedToRun:
+			message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
                              "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
+			break;
+		case UrlNotFound:
+			message += "<b>" + tr("It wasn't possible to find the URL for this video.") + " "+
+							tr("Maybe you need to update youtube-dl.") +"</b><br><br>";
+		case NoError: ;
 	}
 
+#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
 	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("This component needs to be updated frequently.") +" "+
 				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
@@ -199,20 +205,13 @@ void CodeDownloader::askAndDownload(QWidget * parent, bool show_error_message) {
 	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
 	qDebug() << "CodeDownloader::askAndDownload: output" << output;
 
-	QString message;
-
-	if (show_error_message) {
-		message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
-                             "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
-	}
-
 	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("%1 can download and install this application for you.").arg(APPNAME) +" "+
 				tr("It will be downloaded from the official website and installed in %1.").arg("<i>" + output_dir +"</i>") + "<br><br>"+
 				tr("Would you like to proceeed?");
 
 	int ret = 0;
-	if (show_error_message) {
+	if (e != NoError) {
 		ret = QMessageBox::warning(parent, tr("Install YouTube support?"),
 				message, QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	} else {
