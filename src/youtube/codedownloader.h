@@ -30,6 +30,8 @@ class CodeDownloader : public QProgressDialog
 	Q_OBJECT
 
 public:
+	enum ErrorMessage { NoError = 0, FailedToRun = 1, UrlNotFound = 2 };
+
 	CodeDownloader(QWidget *parent = 0);
 	~CodeDownloader();
 
@@ -50,7 +52,7 @@ signals:
 	void saveFailed(const QString &);
 
 public:
-	static void askAndDownload(QWidget * parent, bool show_error_message = false);
+	static void askAndDownload(QWidget * parent, ErrorMessage e = NoError);
 
 private slots:
 	void gotResponse(QNetworkReply* reply);

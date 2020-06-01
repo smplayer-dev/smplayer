@@ -28,6 +28,7 @@
 #include <QStringList>
 #include <QProcess>
 #include <QFileInfo>
+#include <QDir>
 
 #if QT_VERSION >= 0x050000
 #include <QUrlQuery>
@@ -38,7 +39,6 @@
 #include <QJsonObject>
 #ifdef DEBUG_OUTPUT_JSON
 #include <QFile>
-#include <QDir>
 #endif
 #endif
 
@@ -56,16 +56,27 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	connect(process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
 	connect(process, SIGNAL(error(QProcess::ProcessError)), this, SLOT(processError(QProcess::ProcessError)));
 
-#ifdef Q_OS_WIN
-	ytdl_bin = "mpv/youtube-dl.exe";
-#else
-	ytdl_bin = "youtube-dl";
-#endif
-
 	clearData();
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
+}
+
+QString RetrieveYoutubeUrl::ytdlBin() {
+	if (!ytdl_bin.isEmpty()) {
+		return ytdl_bin;
+	}
+
+#ifdef Q_OS_WIN
+	ytdl_bin = "mpv/youtube-dl.exe";
+#else
+	ytdl_bin = QDir::homePath() + "/bin/youtube-dl";
+	QFileInfo fi(ytdl_bin);
+	if (!fi.exists() || !fi.isExecutable()) {
+		ytdl_bin = "youtube-dl";
+	}
+#endif
+	return ytdl_bin;
 }
 
 void RetrieveYoutubeUrl::close() {
@@ -203,20 +214,21 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	if (!user_agent.isEmpty()) args << "--user-agent" << user_agent;
 	args << url;
 
-	QFileInfo fi(ytdl_bin);
+	QString app_bin = ytdlBin();
+	QFileInfo fi(app_bin);
 	#ifdef Q_OS_WIN
-	ytdl_bin = fi.absoluteFilePath();
+	app_bin = fi.absoluteFilePath();
 	#else
 	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-		ytdl_bin = fi.absoluteFilePath();
+		app_bin = fi.absoluteFilePath();
 	}
 	#endif
 
-	QString command = ytdl_bin + " " + args.join(" ");
+	QString command = app_bin + " " + args.join(" ");
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: command:" << command;
 
 	//process->setWorkingDirectory(full_output_dir);
-	process->start(ytdl_bin, args);
+	process->start(app_bin, args);
 
 	if (!process->waitForStarted()) {
 		qDebug("RetrieveYoutubeUrl::runYtdl: error: the process didn't start");
