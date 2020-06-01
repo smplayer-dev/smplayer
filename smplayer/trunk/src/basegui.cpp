@@ -2352,8 +2352,10 @@ void BaseGui::createCore() {
 #endif
 
 #ifdef YOUTUBE_SUPPORT
+	#ifdef YT_CODEDOWNLOADER
 	connect(core, SIGNAL(YTprocessFailedToStart()), this, SLOT(YTFailedToStart()));
 	connect(core, SIGNAL(YTUrlNotFound()), this, SLOT(YTUrlNotFound()));
+	#endif
 #endif
 	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
 }
