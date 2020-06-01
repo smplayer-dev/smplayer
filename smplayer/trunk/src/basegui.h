@@ -253,8 +253,9 @@ protected slots:
 #ifdef YOUTUBE_SUPPORT
 	#ifdef YT_CODEDOWNLOADER
 	void YTUpdate();
-	#endif
 	void YTFailedToStart();
+	void YTUrlNotFound();
+	#endif
 #endif
 	void gotForbidden();
 

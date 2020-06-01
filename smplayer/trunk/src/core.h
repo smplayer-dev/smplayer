@@ -545,6 +545,7 @@ signals:
 
 #ifdef YOUTUBE_SUPPORT
 	void YTprocessFailedToStart();
+	void YTUrlNotFound();
 #endif
 
 	void receivedForbidden();

@@ -2353,6 +2353,7 @@ void BaseGui::createCore() {
 
 #ifdef YOUTUBE_SUPPORT
 	connect(core, SIGNAL(YTprocessFailedToStart()), this, SLOT(YTFailedToStart()));
+	connect(core, SIGNAL(YTUrlNotFound()), this, SLOT(YTUrlNotFound()));
 #endif
 	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
 }
@@ -5082,7 +5083,11 @@ void BaseGui::YTUpdate() {
 }
 
 void BaseGui::YTFailedToStart() {
-	CodeDownloader::askAndDownload(this, true);
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun);
+}
+
+void BaseGui::YTUrlNotFound() {
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
 }
 #endif
 
