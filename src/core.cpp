@@ -587,6 +587,7 @@ void Core::connectingToYT(QString host) {
 
 void Core::YTNoVideoUrl() {
 	emit showMessage( tr("Unable to locate the URL of the video") );
+	emit YTUrlNotFound();
 }
 #endif
 
