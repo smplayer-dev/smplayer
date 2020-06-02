@@ -68,15 +68,15 @@ QString RetrieveYoutubeUrl::ytdlBin() {
 	}
 
 #ifdef Q_OS_WIN
-	ytdl_bin = "mpv/youtube-dl.exe";
+	return "mpv/youtube-dl.exe";
 #else
-	ytdl_bin = QDir::homePath() + "/bin/youtube-dl";
-	QFileInfo fi(ytdl_bin);
+	QString bin = QDir::homePath() + "/bin/youtube-dl";
+	QFileInfo fi(bin);
 	if (!fi.exists() || !fi.isExecutable()) {
-		ytdl_bin = "youtube-dl";
+		bin = "youtube-dl";
 	}
+	return bin;
 #endif
-	return ytdl_bin;
 }
 
 void RetrieveYoutubeUrl::close() {
