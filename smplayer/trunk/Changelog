@@ -1,3 +1,19 @@
+Version 20.6:
+
+(2020-05-19)
+ * New option in the help menu to help install youtube-dl.
+
+(2020-05-18)
+ * The internal youtube code has been removed and now smplayer just
+   uses youtube-dl to get the video urls.
+
+(2020-04-18)
+ * The shuffle option in the playlist does shuffle the items.
+
+(2020-04-15)
+ * Set a white background in the qr code label.
+
+
 Version 20.4.2:
 
 (2020-04-12)
