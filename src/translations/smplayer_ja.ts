@@ -2244,12 +2244,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>youtube-dl を更新する必要がある可能性があります。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
