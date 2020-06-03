@@ -8307,7 +8307,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="306"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>valitsee parhaan laadun, joka on saatavilla yhtenä tiedostona</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="307"/>
@@ -8317,12 +8317,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="307"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>yrittää käyttää valittua tarkkuutta, jos se on saatavilla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="308"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>valitsee huonoimman laadun saatavilla olevista</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
@@ -8332,32 +8332,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse Youtube-videoissa käytettävä laatuasetus.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="321"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä mukautuvaa suoratoistoa</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä asetus mahdollistaa suoratoiston, jotka voivat tarjota jopa 4K-videoita.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="324"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä 60 fps, jos saatavilla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="325"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä asetus mahdollistaa suoratoiston 60 kuvaa sekunnissa, jos saatavilla.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aseta sovellus, jota SMPlayer käyttää muodostettaessa yhteyttä YouTubeen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
@@ -8372,17 +8372,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="346"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietokoneen paikallinen IP-osoite välitetään Chromecastille, jotta se voi käyttää tämän tietokoneen tiedostoja.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portti, jota verkkopalvelin käyttää.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="352"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakemiston luettelo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="353"/>
@@ -8392,52 +8392,52 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>Muunna SRT tekstitykseen VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä asetus on käytössä SMPlayer muuntaa automaattisesti tekstityksen tiedostot SRT-muodosta VTT-muotoon. VTT tiedostonimi on sama, mutta laajennus .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>Korvaa olemassa olevat VTT-tiedostot</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on käytössä, SMPlayer korvaa olemassa olevat VTT-tiedostot.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Yritä poistaa mainoksia</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on käytössä, SMPlayer yrittää löytää mainoksia tekstityksistä ja poistaa ne.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="370"/>
         <source>Position of subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstityksen sijainti näytöllä</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tämä asetus asettaa sijainnin näytöllä, jossa tekstitykset näytetään.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 on näytön yläosa, 100 on näytön alaosa.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="373"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erikoisarvo -1 tarkoittaa oletussijaintia.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="377"/>
@@ -8452,17 +8452,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="380"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Käytä/älä käytä välityspalvelinta.</translation>
+        <translation>Käytä/älä käytä välityspalvelinta.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="382"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkolaite</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="383"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Välityspalvelimen isäntänimi.</translation>
+        <translation>Välityspalvelimen nimi.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -8473,7 +8473,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="386"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Välityspalvelimen portti.</translation>
+        <translation>Välityspalvelimen portti.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="388"/>
@@ -8483,7 +8483,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="389"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Jos välityspalvelin vaatii tunnistautumisen, tämä asettaa käyttäjänimen.</translation>
+        <translation>Jos välityspalvelin vaatii tunnistautumisen, tämä asettaa käyttäjänimen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="391"/>
@@ -8493,7 +8493,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="392"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Välityspalvelimen salasana. &lt;b&gt;Varoitus:&lt;/b&gt; salasana tallennetaan normaalina tekstinä asetustiedostoon.</translation>
+        <translation>Välityspalvelimen salasana. &lt;b&gt;Varoitus:&lt;/b&gt; salasana tallennetaan normaalina tekstinä asetustiedostoon.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="395"/>
@@ -8503,7 +8503,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="396"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Valitse käytettävän välityspalvelimen tyyppi.</translation>
+        <translation>Valitse käytettävän välityspalvelimen tyyppi.</translation>
     </message>
 </context>
 <context>
@@ -8563,17 +8563,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Purkukoodaus</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Laitteiston purkukoo&amp;daus</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished">A&amp;utomaattinen</translation>
+        <translation>A&amp;utomaattinen</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8754,37 +8754,37 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Määritä prosessiprioriteetti kohteelle %1 ennalta määritettyjen prioriteettien mukaan. &lt;br&gt;&lt;b&gt;Varoitus:&lt;/b&gt; Reaaliaikaisen prioriteetin käyttäminen voi aiheuttaa järjestelmän lukituksen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Laitteiston purkukoodaus</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Määrittää laitteistopohjaisen videon purkukoodauksen. Jos laitteistopohjainen ei ole mahdollinen, käytetään ohjelmistopohjaista purkukoodausta.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Saatavilla vaihtoehdot:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei mitään: vain ohjelmiston purkukoodausta käytetään.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto: se yrittää ottaa käyttöön laitteistopohjaisen purkukoodauksen käyttämällä ensimmäistä käytettävissä olevaa menetelmää.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau: vdpau ja opengl videon ulostulot.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="332"/>

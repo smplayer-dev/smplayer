@@ -2244,12 +2244,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось найти ссылку для данного видео.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Возможно вам стоит обновить youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2622,7 +2622,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые элементы. Дважды щёлкните по ячейке для редактирования её содержимого.</translation>
+        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые элементы. Дважды щёлкните по ячейке для изменения её содержимого.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
