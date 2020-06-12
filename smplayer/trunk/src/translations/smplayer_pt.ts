@@ -4811,7 +4811,7 @@ Substituir?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="246"/>
         <source>Shuffle playlist</source>
-        <translation>Baralhar lista de reprodução</translation>
+        <translation>Lista de reprodução aleatória</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
@@ -5048,7 +5048,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation>Ordem de mistura</translation>
+        <translation>Ordem de aleatoriedade</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5093,7 +5093,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="727"/>
         <source>S&amp;huffle</source>
-        <translation>A&amp;leatório</translation>
+        <translation>A&amp;leatória</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="730"/>
@@ -5170,7 +5170,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation>Mostrar coluna Mistura</translation>
+        <translation>Mostrar coluna Aleatória</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>
