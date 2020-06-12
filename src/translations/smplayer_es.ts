@@ -1065,12 +1065,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation>Actualizar la compatibilidad con &amp;YouTube</translation>
+        <translation>Actualizar el código de &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation>Instalar/actualizar la compatibilidad con &amp;YouTube</translation>
+        <translation>Instalar/actualizar el código de &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -1376,7 +1376,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="4595"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>Por favor, considera ayudar al proyecto SMPlayer enviando un donativo.</translation>
+        <translation>Considera ayudar al proyecto SMPlayer enviando un donativo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4596"/>
@@ -2229,7 +2229,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation>No es posible guardar %1.</translation>
+        <translation>No se puede guardar %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
@@ -2244,12 +2244,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation>No ha sido posible encontrar la URL de este vídeo.</translation>
+        <translation>No se puede encontrar el URL de este vídeo.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Quizás sea necesario actualizar youtube-dl.</translation>
+        <translation>Quizás haya que actualizar youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2270,7 +2270,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation>Instalar/actualizar la compatibilidad con YouTube</translation>
+        <translation>Instalar/actualizar el código de YouTube</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
@@ -2291,7 +2291,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
         <location filename="../youtube/codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation>¿Instalar la compatibilidad con YouTube?</translation>
+        <translation>¿Instalar el código de YouTube?</translation>
     </message>
 </context>
 <context>
@@ -5150,17 +5150,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="754"/>
         <source>Show position column</source>
-        <translation>Mostrar columna de posición</translation>
+        <translation>Mostrar la columna de posición</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="755"/>
         <source>Show name column</source>
-        <translation>Mostrar columna del nombre</translation>
+        <translation>Mostrar la columna del nombre</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="756"/>
         <source>Show length column</source>
-        <translation>Mostrar columna de duración</translation>
+        <translation>Mostrar la columna de duración</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="757"/>
@@ -5170,7 +5170,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation>Mostrar columna de desorden</translation>
+        <translation>Mostrar la columna de desorden</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>
@@ -8276,7 +8276,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="293"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation>solo se usará el componente interno de YouTube</translation>
+        <translation>solo se usará el código interno de YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
