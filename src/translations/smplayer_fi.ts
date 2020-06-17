@@ -1512,7 +1512,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
         <source>&amp;Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lisääjä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2075"/>
@@ -4385,7 +4385,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>Cree</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
@@ -5589,7 +5589,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kytkee %1 kokeelliseen tilaan, jossa kuvan aikaleimat lasketaan toisin ja tuetaan suodattimia, jotka lisäävät uusia kehyksiä tai muokkaavat olemassa olevien aikaleimoja. Tarkemmat aikaleimat voivat näkyä esimerkiksi silloin kun tekstitystä ajetaan elokuvaan SSA/ASS-kirjaston päällä. Ilman kunnollista pts:ä tekstityksen ajastus menee tyypillisesti joidenkin kehysten ohi. Tämä vaihtoehto ei toimi oikein joidenkin demuxerien ja koodekkien kanssa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5946,7 +5946,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Täällä voit antaa haluamasi kielen äänelle ja tekstitykselle. Kun löytyy media, jossa on useita ääni- tai tekstitysraitoja, SMPlayer pyrkii käyttämään haluamaasi kieltä. Tämä toimii vain sellaisten medioiden kanssa, jotka tarjoavat tiedot ääni- ja tekstitysraitojen kielestä, kuten DVD- tai mkv-tiedostot.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6127,7 +6127,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Pyytää toistokanavien määrää. %1 pyytää dekooderia purkamaan äänen niin moneen kanavaan kuin on määritetty. Sitten dekooderi täyttää vaatimuksen. Tämä vain kun toistat videoita AC3-äänellä (kuten DVD-levyillä). Siinä tapauksessa liba52 suorittaa dekoodauksen oletuksena ja sekoittaa äänen oikeikeaan määrään kanavia. &lt;b&gt;Huomaa&lt;/b&gt;: Tätä asetusta kunnioittavat koodekit ovat (vain AC3), suodattimet (surround) ja äänilähdön ohjaimet (ainakin OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1230"/>
@@ -6482,7 +6482,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="183"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisääjä</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
@@ -6822,7 +6822,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="444"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>napsautustila</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="445"/>
@@ -7272,7 +7272,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä asetus on käytössä, näppäimet (Toista, Pysäytä, Voimakkuus +/-, Mykistä jne.) toimivat myös silloin kun SMPlayer on käynnissä taustalla.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
@@ -7874,7 +7874,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos tämä asetus on valittuna, kelluva säädin näkyy vain, kun hiiri siirretään näytön alareunaan. Muuten säädin tulee näkyviin aina kun hiirtä siirretään, riippumatta sen sijainnista.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -8145,7 +8145,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="325"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pieni SMPlayer web-palvelin mahdollistaa paikallista mediaa tästä tietokoneesta Chromecastiin. Voit säätää sen asetuksia täällä.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="352"/>
@@ -8387,7 +8387,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="353"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun verkkopalvelin on käynnissä, kaikki verkon laitteet voivat käyttää tämän tietokoneen tiedostoja. Jos tämä asetus on käytössä, mikä tahansa laite voi saada luettelon tämän tietokoneen tiedostoista. Jos tämä asetus ei ole käytössä, luetteloa ei ole saatavana.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
@@ -9617,12 +9617,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kun tämä asetus on päällä, tekstityksen kooditus yrittää havaita automaattisesti annetun kielen. Palataan takasin oletuskoodaukseen mikäli automaattinen havaitseminen epäonnistuu. Tämä asetus vaatii %1 ENCA-tuella.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaalisti tätä asetusta ei pitäisi kytkeä pois. Tee se vain mikäli %1 on laadittu ilman freetype -tukea. &lt;b&gt;Tämän asetuksen poiskytkeminen voi aiheuttaa tekstitysten toimimattomuuden!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -9770,7 +9770,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisääjä</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -10518,22 +10518,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kuvakkeen koko:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Li&amp;sää erotin</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Aika liukusäädin</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="257"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Voimakkuuden liukusäädin</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
@@ -10543,32 +10543,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>Nykyinen aika</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Kokonaisaika</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aikaa jäljellä</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3/1 kelaus taaksepäin</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="269"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3/1 kelaus eteenpäin</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished">Pikavalikko</translation>
+        <translation>Pikavalikko</translation>
     </message>
 </context>
 <context>
@@ -10594,44 +10594,44 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusimman version nouto epäonnistui</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi versio saatavilla</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi versio SMPlayerista on saatavilla.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="198"/>
         <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Asennettu versio: %1</translation>
+        <translation>Asennettu versio: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="199"/>
         <location filename="../updatechecker.cpp" line="216"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Saatavilla oleva versio: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko lisätietoja uudesta versiosta?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkistetaan päivitykset</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hienoa, SMPlayer on ajan tasalla.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
@@ -10641,12 +10641,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe yritettäessä hakea tietoja uusimmasta saatavilla olevasta versiosta.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhekoodi: %1</translation>
     </message>
 </context>
 <context>
@@ -10659,12 +10659,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse vdpau-koodekit. Kaikki eivät välttämättä toimi.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poista käytöstä ohjelmistopohjaiset videosuodattimet.</translation>
     </message>
 </context>
 <context>
@@ -10702,12 +10702,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohjelmiston &amp;taajuuskorjain</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aseta oletusarvoiksi</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -10722,12 +10722,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Käytä nykyisiä arvoja uusien videoiden oletusarvoina.</translation>
+        <translation>Käytä nykyisiä arvoja oletuksena uusille videoille.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Aseta kaikki säädöt nollille.</translation>
+        <translation>Aseta kaikki säädöt nollille.</translation>
     </message>
 </context>
 <context>
@@ -10780,7 +10780,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Äänen muoto: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="693"/>
@@ -10995,7 +10995,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alusta &amp;hypättävät sekunnit: </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
