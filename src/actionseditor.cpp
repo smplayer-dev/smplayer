@@ -426,7 +426,7 @@ void ActionsEditor::editShortcut() {
 #endif
 
 void ActionsEditor::filterEditChanged(const QString & filter) {
-	proxy->setFilterWildcard(filter);
+	proxy->setFilterWildcard(filter.trimmed());
 }
 
 int ActionsEditor::findActionName(const QString & name) {
