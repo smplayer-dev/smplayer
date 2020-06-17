@@ -92,7 +92,7 @@ ${LangFileString} Codecs_DL_Failed "无法下载 MPlayer 编解码器: 『$R0』
 ${LangFileString} Codecs_Inst_Failed "无法安装 MPlayer 编解码器。"
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "安装只能由拥有管理员权限的用户卸载。"
+${LangFileString} Uninstaller_No_Admin "卸载只能由管理员用户进行。"
 ${LangFileString} Uninstaller_Aborted "卸载被用户终止。"
 ${LangFileString} Uninstaller_NotInstalled "没有发现 SMPlayer 被安装在目录『$INSTDIR』中。$\r$\n仍然继续吗(不推荐)?"
 ${LangFileString} Uninstaller_InvalidDirectory "SMPlayer 安装未找到"
