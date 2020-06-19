@@ -481,6 +481,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
   File /r /x mpv64.exe /x mpv64.com /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
 
+/*
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
     CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
 
@@ -488,6 +489,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
     NsExec::ExecToLog '"$INSTDIR\mpv\youtube-dl.exe" -U'
 
     Goto check_ytdl
+*/
 
   YTDL:
   INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "https://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
