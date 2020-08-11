@@ -2284,7 +2284,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
-        <source>Would you like to proceeed?</source>
+        <source>Would you like to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

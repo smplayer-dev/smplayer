@@ -2284,8 +2284,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Would you like to proceeed?</source>
-        <translation>Desexa continuar?</translation>
+        <translation type="obsolete">Desexa continuar?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>

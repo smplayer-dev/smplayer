@@ -2285,7 +2285,7 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
-        <source>Would you like to proceeed?</source>
+        <source>Would you like to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

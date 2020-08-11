@@ -2284,8 +2284,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Would you like to proceeed?</source>
-        <translation>Haluatko jatkaa?</translation>
+        <translation type="obsolete">Haluatko jatkaa?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
