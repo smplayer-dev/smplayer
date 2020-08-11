@@ -2284,7 +2284,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
-        <source>Would you like to proceeed?</source>
+        <source>Would you like to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2284,8 +2284,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Would you like to proceeed?</source>
-        <translation>您想要繼續嗎？</translation>
+        <translation type="obsolete">您想要繼續嗎？</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>

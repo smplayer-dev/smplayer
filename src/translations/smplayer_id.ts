@@ -178,12 +178,12 @@
         <location filename="../actionseditor.cpp" line="503"/>
         <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
-        <translation>File kunci</translation>
+        <translation>Berkas kunci</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="501"/>
         <source>Choose a filename</source>
-        <translation>Pilih nama file</translation>
+        <translation>Pilih nama berkas</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
@@ -199,13 +199,13 @@
         <location filename="../actionseditor.cpp" line="513"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>File %1 sudah ada.
+        <translation>Berkas %1 sudah ada.
 Apakah anda ingin menimpanya?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="552"/>
         <source>Choose a file</source>
-        <translation>Pilih file</translation>
+        <translation>Pilih berkas</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="525"/>
@@ -216,12 +216,12 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="526"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>File tidak dapat disimpan</translation>
+        <translation>Berkas tidak dapat disimpan</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="560"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>File tidak dapat dimuat</translation>
+        <translation>Berkas tidak dapat dimuat</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="249"/>
@@ -234,7 +234,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="189"/>
         <source>Audio Equalizer</source>
-        <translation>Equalizer Audio</translation>
+        <translation>Ekualiser Audio</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="192"/>
@@ -382,7 +382,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
         <source>Set all controls to zero.</source>
-        <translation>Setel semua kendali ke nol.</translation>
+        <translation>Setel semua kontrol ke nol.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="252"/>
@@ -430,7 +430,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
         <source>Op&amp;tions</source>
-        <translation>&amp;Pilihan</translation>
+        <translation>&amp;Opsi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1980"/>
@@ -440,7 +440,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
         <source>&amp;File...</source>
-        <translation>&amp;File...</translation>
+        <translation>&amp;Berkas...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
@@ -475,7 +475,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1994"/>
         <source>&amp;Recent files</source>
-        <translation>&amp;File terakhir</translation>
+        <translation>Berkas&amp; terakhir</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1723"/>
@@ -608,7 +608,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Equalizer</source>
-        <translation>&amp;Equalizer</translation>
+        <translation>&amp;Ekualiser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -798,14 +798,14 @@ Apakah anda ingin menimpanya?</translation>
         <location filename="../basegui.cpp" line="4476"/>
         <location filename="../basegui.cpp" line="4502"/>
         <source>All files</source>
-        <translation>Semua file</translation>
+        <translation>Semua berkas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4248"/>
         <location filename="../basegui.cpp" line="4473"/>
         <location filename="../basegui.cpp" line="4499"/>
         <source>Choose a file</source>
-        <translation>Pilih file</translation>
+        <translation>Pilih berkas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -979,7 +979,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>Fra&amp;me back step</source>
-        <translation>Lompati fra&amp;me kebelakang</translation>
+        <translation>Lompati fra&amp;me ke belakang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1748"/>
@@ -1507,7 +1507,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;Load external file...</source>
-        <translation>Muat file eksterna&amp;l...</translation>
+        <translation>&amp;Muat berkas eksternal...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
@@ -1593,7 +1593,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1951"/>
         <source>Reset video equalizer</source>
-        <translation>Setel ulang equalizer video</translation>
+        <translation>Setel ulang ekualiser video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5117"/>
@@ -1663,7 +1663,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../basegui.cpp" line="1952"/>
         <source>Reset audio equalizer</source>
-        <translation>Setel ulang audio equalizer</translation>
+        <translation>Setel ulang audio ekualiser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
@@ -2245,12 +2245,12 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>URL untuk video ini tidak mungkin ditemukan.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mungkin anda perlu memperbarui youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2285,8 +2285,12 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Would you like to proceeed?</source>
-        <translation>Apakah anda ingin memproses?</translation>
+        <translation type="obsolete">Apakah anda ingin memproses?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -2519,17 +2523,17 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>Edit &amp;control bar</source>
-        <translation>Sunting bilah &amp;kendali</translation>
+        <translation>Sunting bilah &amp;kontrol</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Sunting bilah kendali m&amp;ini</translation>
+        <translation>Sunting bilah kontrol m&amp;ini</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="713"/>
         <source>Edit &amp;floating control</source>
-        <translation>Sunting kendali &amp;melayang</translation>
+        <translation>Sunting kontrol &amp;melayang</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="760"/>
@@ -2628,7 +2632,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
         <source>Select an icon file</source>
-        <translation>Pilih sebuah file ikon</translation>
+        <translation>Pilih berkas ikon</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="352"/>
@@ -2716,7 +2720,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../filechooser.cpp" line="55"/>
         <source>Click to select a file or folder</source>
-        <translation>Klik untuk memilih file atau folder</translation>
+        <translation>Klik untuk memilih berkas atau folder</translation>
     </message>
 </context>
 <context>
@@ -2737,7 +2741,7 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
     <message>
         <location filename="../filepropertiesdialog.ui" line="15"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer - Properti file</translation>
+        <translation>SMPlayer - Properti berkas</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="34"/>
@@ -2903,7 +2907,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="41"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>Kata sandi untuk proksi. &lt;b&gt;Peringatan:&lt;/b&gt; kata sandi akan disimpan dalam teks biasa di file konfigurasi.</translation>
+        <translation>Kata sandi untuk proksi. &lt;b&gt;Peringatan:&lt;/b&gt; kata sandi akan disimpan dalam teks biasa di dalam berkas konfigurasi.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="43"/>
@@ -3008,7 +3012,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Files</source>
-        <translation>File</translation>
+        <translation>Berkas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
@@ -3107,7 +3111,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
         <source>%1 files available</source>
-        <translation>%1 file tersedia</translation>
+        <translation>%1 berkas tersedia</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
@@ -3163,13 +3167,13 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation>File %1 sudah ada, timpa?</translation>
+        <translation>Berkas %1 sudah ada, timpa?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
         <source>Error saving file</source>
-        <translation>Galat menyimpan file</translation>
+        <translation>Galat saat menyimpan berkas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
@@ -3177,8 +3181,8 @@ Contoh: extrastereo,karaoke</translation>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation>Jika tidak memungkinkan untuk menyimpan file yang diunduh
-file pada folder %1
+        <translation>Tidak dapat menyimpan berkas yang diunduh
+pada folder %1
 Harap periksa izin dari folder tersebut.</translation>
     </message>
     <message>
@@ -3191,7 +3195,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Temporary file %1</source>
-        <translation>File temporer %1</translation>
+        <translation>Berkas temporer %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -3295,7 +3299,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="93"/>
         <source>Length</source>
-        <translation>Panjang</translation>
+        <translation>Durasi</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="94"/>
@@ -3493,7 +3497,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="81"/>
         <source>File</source>
-        <translation>File</translation>
+        <translation>Berkas</translation>
     </message>
 </context>
 <context>
@@ -4675,7 +4679,7 @@ Harap periksa izin dari folder tersebut.</translation>
     <message>
         <location filename="../logwindow.cpp" line="107"/>
         <source>Choose a filename to save under</source>
-        <translation>Pilih nama file untuk menyimpan dibawah ini</translation>
+        <translation>Pilih nama berkas untuk menyimpan dibawah ini</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="113"/>
@@ -4686,13 +4690,13 @@ Harap periksa izin dari folder tersebut.</translation>
         <location filename="../logwindow.cpp" line="114"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
-        <translation>File telah ada.
+        <translation>Berkas telah ada.
 Apakah Anda ingin menimpanya?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="133"/>
         <source>Error saving file</source>
-        <translation>Galat menyimpan file</translation>
+        <translation>Terjadi kesalahan saat menyimpan berkas</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="134"/>
@@ -4824,12 +4828,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../minigui.cpp" line="172"/>
         <source>Control bar</source>
-        <translation>Bilah kendali</translation>
+        <translation>Bilah kontrol</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation>Sunting &amp;bilah kendali</translation>
+        <translation>Sunting &amp;bilah kontrol</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
@@ -4842,7 +4846,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Control bar</source>
-        <translation>Bilah kendali</translation>
+        <translation>Bilah kontrol</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="151"/>
@@ -4925,12 +4929,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation>File selanjutnya di daftar-putar</translation>
+        <translation>Berkas selanjutnya di daftar putar</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation>File sebelumnya di daftar-putar</translation>
+        <translation>Berkas sebelumnya di daftar putar</translation>
     </message>
 </context>
 <context>
@@ -4943,7 +4947,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Length</source>
-        <translation>Panjang</translation>
+        <translation>Durasi</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
@@ -4964,12 +4968,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="1394"/>
         <source>Choose a file</source>
-        <translation>Pilih file</translation>
+        <translation>Pilih berkas</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1430"/>
         <source>Choose a filename</source>
-        <translation>Pilih nama file</translation>
+        <translation>Pilih nama berkas</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1442"/>
@@ -4980,7 +4984,7 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../playlist.cpp" line="1443"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>File %1 telah ada.
+        <translation>Berkas %1 telah ada.
 Apakah Anda ingin menimpanya?</translation>
     </message>
     <message>
@@ -4988,7 +4992,7 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../playlist.cpp" line="1432"/>
         <location filename="../playlist.cpp" line="1697"/>
         <source>All files</source>
-        <translation>Semua file</translation>
+        <translation>Semua berkas</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="384"/>
@@ -5023,7 +5027,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="1694"/>
         <source>Select one or more files to open</source>
-        <translation>Pilih satu atau lebih file untuk dibuka</translation>
+        <translation>Pilih satu atau lebih berkas untuk dibuka</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1764"/>
@@ -5038,7 +5042,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="1950"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Tuliskan nama yang akan ditampilkan pada daftar-putar untuk file tersebut</translation>
+        <translation>Tuliskan nama yang akan ditampilkan pada daftar putar untuk berkas tersebut</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="704"/>
@@ -5098,7 +5102,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="730"/>
         <source>Add &amp;current file</source>
-        <translation>Tambah file saa&amp;t ini</translation>
+        <translation>Tambah berkas saa&amp;t ini</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="731"/>
@@ -5160,7 +5164,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="756"/>
         <source>Show length column</source>
-        <translation>Tampilkan kolom panjang</translation>
+        <translation>Tampilkan kolom durasi</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="757"/>
@@ -5170,7 +5174,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation>Menampilkan kolom acak</translation>
+        <translation>Tampilkan kolom acak</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>
@@ -5519,7 +5523,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation>Beritahukan %1 &amp;crash</translation>
+        <translation>Beritahukan %1 &amp;macet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5559,17 +5563,17 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>JIka Anda mencentang opsi ini, jendela video %1 tidak akan tertanam pada jendela utama SMPlayer namun menggunakan jendela tersendiri. Catat bahwa mouse dan keyboard akan secara langsung dikendalikan oleh %1, yang artinya tombol pintasan dan klik mouse mungkin saja tidak akan bekerja seperti ketika jendela %1 telah fokus.</translation>
+        <translation>JIka Anda mencentang opsi ini, jendela video %1 tidak akan tertanam pada jendela utama SMPlayer namun menggunakan jendela tersendiri. Catat bahwa mouse dan keyboard akan secara langsung dikontrol oleh %1, yang artinya tombol pintasan dan klik mouse mungkin tidak akan bekerja seperti ketika jendela %1 telah fokus.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation>Beritahukan %1 crash</translation>
+        <translation>Beritahukan %1 macet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Bila opsi ini dicentang, jendela popup akan ditampilkan untuk menginformasikan tentang %1 crash. Kalau tidak, kegagalannya akan diabaikan secara diam-diam.</translation>
+        <translation>Bila opsi ini dicentang, jendela popup akan ditampilkan untuk menginformasikan tentang %1 macet. Kalau tidak, kegagalannya akan diabaikan secara diam-diam.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
@@ -5599,7 +5603,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="489"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Di sini Anda dapat menentukan daftar dari &lt;i&gt;aksi&lt;/i&gt; yang akan dijalankan setiap file dibuka. Anda akan menemukan semua aksi yang tersedia pada penyunting tombol pintasan pada bagian &lt;b&gt;Keyboard dan mouse&lt;/b&gt;. Aksi harus dipisahkan dengan spasi. Aksi yang diisi dapat diikuti dengan &lt;i&gt;true&lt;/i&gt; atau &lt;i&gt;false&lt;/i&gt; untuk mengaktifkan atau menonaktifkan aksi tersebut.</translation>
+        <translation>Di sini Anda dapat menentukan daftar dari &lt;i&gt;tindakan&lt;/i&gt; yang akan dijalankan setiap kali berkas dibuka. Anda akan menemukan semua tindakan yang tersedia pada penyunting tombol pintasan pada bagian &lt;b&gt;Keyboard dan mouse&lt;/b&gt;. Tindakan harus dipisahkan dengan spasi. Tindakan yang diisi dapat diikuti dengan &lt;i&gt;true&lt;/i&gt; atau &lt;i&gt;false&lt;/i&gt; untuk mengaktifkan atau menonaktifkan tindakan tersebut.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5635,7 +5639,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="169"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation>Jalan&amp;kan aksi yang diikuti setiap sebuah file dibuka. Aksi ini harus dipisahkan dengan spasi:</translation>
+        <translation>Jalan&amp;kan tindakan yang diikuti setiap kali berkas dibuka. Tindakan ini harus dipisahkan dengan spasi:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="403"/>
@@ -5658,7 +5662,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Pembangunan ulang indeks file jika tidak ada indeks yang ditemukan, membolehkan penjangkaan. Berguna ketika unduhan rusak/tidak lengkap, atau penciptaan file yang buruk. Opsi ini hanya bekerja pada inti media yang mendukung penjangkaan (yaitu tidak dengan stdin, pipe, dll).&lt;br&gt; &lt;b&gt;Catatan:&lt;/b&gt; penciptaan indeks mungkin memerlukan beberapa waktu.</translation>
+        <translation>Membangun ulang indeks berkas jika tidak ada indeks yang ditemukan, membolehkan penjangkaan. Berguna ketika unduhan rusak/tidak lengkap, atau pembuatan berkas yang buruk. Opsi ini hanya bekerja pada inti media yang mendukung penjangkaan (yaitu tidak dengan stdin, pipe, dll).&lt;br&gt; &lt;b&gt;Catatan:&lt;/b&gt; pembuatan indeks mungkin membutuhkan waktu.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -5673,7 +5677,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
         <source>Save SMPlayer log to file</source>
-        <translation>SImpan catatan SMPlayer ke file</translation>
+        <translation>SImpan catatan SMPlayer ke berkas</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
@@ -5683,7 +5687,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation>Si&amp;mpan catatan SMPlayer ke sebuah file</translation>
+        <translation>Si&amp;mpan catatan SMPlayer ke sebuah berkas</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
@@ -5693,7 +5697,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>JIka opsi ini diaktifkan, informasi dari penanda akan ditampilkan pada judul jendela. Selain itu hanya nama file yang akan ditampilkan.</translation>
+        <translation>JIka opsi ini diaktifkan, informasi dari penanda akan ditampilkan pada judul jendela. Selain itu hanya nama berkas yang akan ditampilkan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
@@ -5711,12 +5715,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefassociations.cpp" line="205"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>Tidak semua file dapat diasosiasikan. Harap periksa perizinan keamanan Anda dan ulangi lagi.</translation>
+        <translation>Tidak semua berkas dapat diasosiasikan. Harap periksa perizinan keamanan Anda dan coba lagi.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="215"/>
         <source>File Types</source>
-        <translation>Jenis File</translation>
+        <translation>Tipe Berkas</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="232"/>
@@ -5726,17 +5730,17 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefassociations.cpp" line="233"/>
         <source>Check all file types in the list</source>
-        <translation>Pilih semua jenis file pada daftar</translation>
+        <translation>Pilih semua tipe berkas pada daftar</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
         <source>Uncheck all file types in the list</source>
-        <translation>Tidak memilih semua jenis file pada daftar</translation>
+        <translation>Hapus pilihan semua tipe berkas pada daftar</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="238"/>
         <source>List of file types</source>
-        <translation>Daftar dari jenis file</translation>
+        <translation>Daftar dari tipe berkas</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
@@ -5751,12 +5755,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
-        <translation>Jenis file</translation>
+        <translation>Tipe berkas</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Media file yang ditangani oleh SMPlayer:</translation>
+        <translation>Berkas media yang ditangani oleh SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5771,7 +5775,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Periksa ekstensi file media yang Anda inginkan untuk ditangani SMPlayer. Ketika Anda mengklik Terapkan, file yang diisi akan diasosiasikan dengan SMPlayer. JIka Anda tidak mengisi sebuah jenis file, file yang diasosiasikan akan dikembalikan seperti semula.</translation>
+        <translation>Centang ekstensi berkas media yang Anda inginkan untuk ditangani oleh SMPlayer. Saat Anda mengklik Terapkan, berkas yang dicentang akan dikaitkan dengan SMPlayer. Jika Anda menghapus centang tipe media, asosiasi berkas akan dipulihkan.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -6061,7 +6065,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Software video equalizer</source>
-        <translation>Perangkat-lunak equalizer video</translation>
+        <translation>Ekualiser video perangkat lunak</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="165"/>
@@ -6097,7 +6101,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1141"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Anda dapat mengisi opsi ini apabila equalizer video tidak didukung oleh katru grafis Anda atau perangkat keluaran video yang dipilih.&lt;br&gt;&lt;b&gt;Catatan:&lt;/b&gt; opsi ini bisa saja tidak kompatibel terhadap beberapa perangkat keluaran video.</translation>
+        <translation>Anda dapat mengisi opsi ini apabila ekualiser video tidak didukung oleh katru grafis Anda atau perangkat keluaran video yang dipilih.&lt;br&gt;&lt;b&gt;Catatan:&lt;/b&gt; opsi ini bisa saja tidak kompatibel dengan beberapa perangkat keluaran video.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6107,7 +6111,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Global audio equalizer</source>
-        <translation>Equalizer audio umum</translation>
+        <translation>Ekualiser audio global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
@@ -6117,7 +6121,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1210"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation>Jika tidak, nilai tetapan equalizer audio akan disimpan selama file masih ada dan dimuat kembali ketika file diputar suatu saat.</translation>
+        <translation>Jika tidak, nilai tetapan ekualiser audio akan disimpan selama berkas masih ada dan dimuat kembali ketika berkas diputar suatu saat.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1213"/>
@@ -6137,7 +6141,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Software volume control</source>
-        <translation>Kendali perangkat lunak volume</translation>
+        <translation>Kontrol volume perangkat lunak</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1239"/>
@@ -6427,7 +6431,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Gunakan equalizer perangkat lunak vide&amp;o</translation>
+        <translation>Gunakan ekualiser &amp;video perangkat lunak</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="678"/>
@@ -6507,17 +6511,17 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Enable the audio equalizer</source>
-        <translation>Aktifkan equalizer audio</translation>
+        <translation>Aktifkan ekualiser audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation>Centang opsi ini apabila Anda ingin menggunakan equalizer audio.</translation>
+        <translation>Centang opsi ini apabila Anda ingin menggunakan ekualiser audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="745"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>Aktifkan &amp;equalizer audio</translation>
+        <translation>Aktifkan &amp;ekualiser audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1156"/>
@@ -6712,7 +6716,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1236"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Opsi ini juga dapat diterapkan untuk kendali bungkam suara.</translation>
+        <translation>Opsi ini juga dapat diterapkan untuk kontrol bungkam suara.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="872"/>
@@ -6887,7 +6891,7 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefinput.cpp" line="162"/>
         <location filename="../prefinput.cpp" line="441"/>
         <source>Volume control</source>
-        <translation>Kendali volume</translation>
+        <translation>Kontrol volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="163"/>
@@ -7170,12 +7174,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
-        <translation>Tampilkan equalizer video</translation>
+        <translation>Tampilkan ekualiser video</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
-        <translation>Tampilkan equalizer audio</translation>
+        <translation>Tampilkan ekualiser audio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
@@ -7330,7 +7334,7 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefinput.ui" line="466"/>
         <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
-        <translation>Kendali &amp;volume</translation>
+        <translation>Kontrol &amp;volume</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="480"/>
@@ -7395,7 +7399,7 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefinterface.cpp" line="158"/>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>Interface</source>
-        <translation>Tampilan</translation>
+        <translation>Antarmuka</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="228"/>
@@ -7562,7 +7566,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Kendali melayang muncul pada mode layar-penuh ketika mouse bergeser.</translation>
+        <translation>Kontrol melayang muncul pada mode layar penuh ketika mouse bergeser.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -7572,7 +7576,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation>Waktu (dalam milid&amp;etik) untuk menyembunyikan kendali:</translation>
+        <translation>Waktu (dalam milid&amp;etik) untuk menyembunyikan kontrol:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="887"/>
@@ -7672,12 +7676,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Antarmuka umum biasa&lt;/b&gt; menyediakan tampilan biasa, dengan bilah-alat dan bilah kendali.</translation>
+        <translation>&lt;b&gt;Antarmuka umum biasa&lt;/b&gt; menyediakan tampilan biasa, dengan bilah alat dan bilah kontrol.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;Antarmuka pengguna Mini&lt;/b&gt; menyediakan tampilan lebih sederhana, tanpa bilah-alat dan sebuah bilah kendali dengan sedikit tombol.</translation>
+        <translation>&lt;b&gt;Antarmuka pengguna Mini&lt;/b&gt; menyediakan tampilan lebih sederhana, tanpa bilah alat dan sebuah bilah kontrol dengan sedikit tombol.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
@@ -7874,12 +7878,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Jika opsi ini dicentang, kendali melayang hanya akan nampak apabila mouse berpindah ke dasar layar. Kendali melayang tidak akan tampak selain memindahkan mouse ke dasar layar.</translation>
+        <translation>Jika opsi ini dicentang, kontrol melayang hanya akan muncul apabila mouse berpindah ke dasar layar. Kontrol melayang tidak akan muncul selain memindahkan mouse ke dasar layar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>Jika opsi ini diaktifkan, kendali melayang juga akan muncul pada mode ringkas.</translation>
+        <translation>Jika opsi ini diaktifkan, kontrolopsi melayang akan muncul pada mode ringkas juga.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
@@ -7889,17 +7893,17 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kendali melayang tidak dibuat untuk mode ringkas dan mungkin saja tidak dapat bekerja dengan baik.</translation>
+        <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kontrol melayang tidak dibuat untuk mode ringkas dan mungkin tidak dapat bekerja dengan baik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="874"/>
         <source>Time to hide the control</source>
-        <translation>Waktu untuk menyembunyikan kendali</translation>
+        <translation>Waktu untuk menyembunyikan kontrol</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation>Tetapan waktu (dalam milidetik) untuk menyembunyikan kendali setelah mouse menjauh dari kendali.</translation>
+        <translation>Tetapan waktu (dalam milidetik) untuk menyembunyikan kontrol setelah mouse menjauh dari kontrol.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="884"/>
@@ -7930,7 +7934,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Setel metode yang akan digunakan ketika penjangkaan dengan penggeser. Penjangkaan mutlak mungkin lebih sedikit akurat, selama penjangkaan relativ mungkin bekerja lebih baik dengan file yang memiliki panjang waktu yang salah.</translation>
+        <translation>Setel metode yang akan digunakan ketika penjangkaan dengan penggeser. Penjangkaan mutlak mungkin lebih sedikit akurat, sementara penjangkaan relatif mungkin bekerja lebih baik dengan berkas yang memiliki durasi waktu yang salah.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
@@ -7970,7 +7974,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
         <source>Floating control</source>
-        <translation>Kendali melayang</translation>
+        <translation>Kontrol melayang</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="849"/>
@@ -7980,7 +7984,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Jika opsi ini diaktifkan, kendali melayang akan muncul dengan animasi.</translation>
+        <translation>Jika opsi ini diaktifkan, kontrol melayang akan muncul dengan animasi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="853"/>
@@ -7990,7 +7994,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="854"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>Rincikan lebar pada kendali (dengan presentase).</translation>
+        <translation>Rincikan lebar pada kontroli (dengan presentase).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="856"/>
@@ -8000,7 +8004,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Opsi ini menyetel jumlah dari piksel pada kendali melayang untuk menjauh dari dasar tampilan. Berguna ketika tampilan tersebut adalah TV, sama seperti pemindaian berlebihan yang mungkin mencegah kendali untuk terlihat.</translation>
+        <translation>Opsi ini menetapkan jumlah piksel yang akan menjauhkan kontrol melayang dari bagian bawah layar. Berguna jika layarnya adalah TV, karena overscan dapat mencegah kontrol terlihat.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8010,7 +8014,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.ui" line="672"/>
         <source>&amp;Floating control</source>
-        <translation>Kendali mela&amp;yang</translation>
+        <translation>Kontrol mela&amp;yang</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="688"/>
@@ -9102,7 +9106,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Centang opsi ini untuk menanyakan file yang akan ditambahkan ke daftar-putar untuk beberapa info. Hal ini membolehkan Anda untuk melihat judul nama (jika tersedia) dan panjang file. Selain itu informasi tersebut tidak akan tersedia hingga file benar-benar diputar. Hati-hati: opsi ini juga bisa memperlambat kinerja, terutama jika Anda menambahkan banyak file.</translation>
+        <translation>Centang opsi ini untuk menanyakan berkas yang akan ditambahkan ke daftar putar untuk menyediakan info. Ini dapat menampilkan nama judul (jika tersedia) dan durasi berkas. Jika tidak, info ini tidak akan tersedia hingga berkas benar-benar dimainkan. Hati-hati: opsi ini bisa lambat, khususnya jika Anda menambahkan banyak berkas.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -10261,7 +10265,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>Sunting kendali mela&amp;yang</translation>
+        <translation>Sunting kontrol mela&amp;yang</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -10670,7 +10674,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Equalizer Video</translation>
+        <translation>Ekualiser Video</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
@@ -10700,7 +10704,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>&amp;Equalizer perangkat lunak</translation>
+        <translation>&amp;Ekualiser perangkat lunak</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
@@ -10725,7 +10729,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Tetapkan semua kendali pada nilai nol.</translation>
+        <translation>Setel semua kontrol ke nol.</translation>
     </message>
 </context>
 <context>
@@ -10768,7 +10772,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="514"/>
         <source>Length: %1</source>
-        <translation>Panjang: %1</translation>
+        <translation>Durasi: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
@@ -10848,7 +10852,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="231"/>
         <source>The length of the video is 0</source>
-        <translation>Panjang dari video adalah 0</translation>
+        <translation>Durasi dari video adalah 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="275"/>
@@ -11031,7 +11035,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation>Equalizer video</translation>
+        <translation>Ekualiser video</translation>
     </message>
 </context>
 <context>

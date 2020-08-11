@@ -2317,6 +2317,11 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Instalar / Actualizar el soporte para YouTube</translation>
     </message>
     <message>
+        <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation>¿Quieres continuar?</translation>
+    </message>
+    <message>
         <source>Install/Update YouTube support</source>
         <translation type="obsolete">Instalar / Actualizar el soporte para YouTube</translation>
     </message>
@@ -2331,9 +2336,8 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Se descargará de la web oficial y se instalará en %1.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceeed?</source>
-        <translation>¿Quieres continuar?</translation>
+        <translation type="obsolete">¿Quieres continuar?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>

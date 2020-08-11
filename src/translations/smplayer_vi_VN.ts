@@ -2284,7 +2284,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
-        <source>Would you like to proceeed?</source>
+        <source>Would you like to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
