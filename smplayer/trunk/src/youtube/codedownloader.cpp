@@ -208,7 +208,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e) {
 	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("%1 can download and install this application for you.").arg(APPNAME) +" "+
 				tr("It will be downloaded from the official website and installed in %1.").arg("<i>" + output_dir +"</i>") + "<br><br>"+
-				tr("Would you like to proceeed?");
+				tr("Would you like to proceed?");
 
 	int ret = 0;
 	if (e != NoError) {
