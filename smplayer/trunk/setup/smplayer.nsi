@@ -915,7 +915,9 @@ Function .onInstSuccess
 
   ${MementoSectionSave}
   
-  ExecShell "open" "http://www.smplayer.info/post-install.php?version=${SMPLAYER_VERSION}"
+  ${IfNot} ${Silent}
+    ExecShell "open" "http://www.smplayer.info/post-install.php?version=${SMPLAYER_VERSION}"
+  ${Endif}
 
 FunctionEnd
 
