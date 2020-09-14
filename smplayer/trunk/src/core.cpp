@@ -1744,14 +1744,16 @@ void Core::startMplayer( QString file, double seek ) {
 		QString vo = pref->vo;
 		if (!vo.endsWith(",")) vo += ",";
 		proc->setOption("vo", vo);
-	}
-	#ifdef Q_OS_WIN
-	else {
+	} else {
+		#ifdef Q_OS_WIN
 		if ((proc->isMPlayer() && QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) || proc->isMPV()) {
 			proc->setOption("vo", "direct3d,");
 		}
+		#else
+		// Linux
+		if (qgetenv("XDG_SESSION_TYPE") != "x11") proc->setOption("vo", "xv,");
+		#endif
 	}
-	#endif
 
 #if USE_ADAPTER
 	if (pref->adapter > -1) {
