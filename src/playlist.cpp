@@ -893,7 +893,7 @@ void Playlist::changeItem(int row, const QString & filename, const QString name,
 }
 */
 
-void Playlist::addItem(QString filename, QString name, double duration, QStringList params, QString video_url, QString icon_url) {
+void Playlist::addItem(QString filename, QString name, double duration, QStringList params, QString video_url, QString icon_url, int shuffle_pos) {
 	//qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -917,6 +917,7 @@ void Playlist::addItem(QString filename, QString name, double duration, QStringL
 	i->setVideoURL(video_url);
 	i->setIconURL(icon_url);
 	i->setPosition(count()+1);
+	i->setShufflePosition(shuffle_pos);
 	table->appendRow(i->items());
 
 	if (findCurrentItem() == -1) setCurrentItem(0);
@@ -1055,6 +1056,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		setPlaylistFilename(file);
 		setModified( false );
 
+		if (shuffleAct->isChecked()) shuffle(true);
 		if (start_play_on_load) startPlay();
 	}
 }
@@ -1110,6 +1112,7 @@ void Playlist::load_pls(QString file) {
 	setPlaylistFilename(file);
 	setModified( false );
 
+	if (shuffleAct->isChecked()) shuffle(true);
 	if (set.status() == QSettings::NoError && start_play_on_load) startPlay();
 }
 
@@ -1152,6 +1155,8 @@ void Playlist::loadXSPF(const QString & filename) {
 		//list();
 		setPlaylistFilename(filename);
 		setModified( false );
+
+		if (shuffleAct->isChecked()) shuffle(true);
 		if (start_play_on_load) startPlay();
 	}
 }
@@ -1193,6 +1198,8 @@ void Playlist::loadYoutubeList(QByteArray & data) {
 		//list();
 		setPlaylistFilename(root.firstChildElement("title").text());
 		setModified( false );
+
+		if (shuffleAct->isChecked()) shuffle(true);
 		if (start_play_on_load) startPlay();
 	}
 }
@@ -2262,6 +2269,7 @@ void Playlist::saveSettings() {
 			set->setValue( QString("item_%1_params").arg(n), i->extraParams() );
 			set->setValue( QString("item_%1_video_url").arg(n), i->videoURL() );
 			set->setValue( QString("item_%1_icon_url").arg(n), i->iconURL() );
+			set->setValue( QString("item_%1_shuffle").arg(n), i->shufflePosition() );
 		}
 		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
@@ -2347,7 +2355,8 @@ void Playlist::loadSettings() {
 			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
 			QString video_url = set->value( QString("item_%1_video_url").arg(n), "").toString();
 			QString icon_url = set->value( QString("item_%1_icon_url").arg(n), "").toString();
-			addItem( filename, name, duration, params, video_url, icon_url );
+			int shuffle_pos = set->value( QString("item_%1_shuffle").arg(n), "").toInt();
+			addItem( filename, name, duration, params, video_url, icon_url, shuffle_pos );
 		}
 		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
