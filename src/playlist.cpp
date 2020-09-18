@@ -2355,7 +2355,7 @@ void Playlist::loadSettings() {
 			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
 			QString video_url = set->value( QString("item_%1_video_url").arg(n), "").toString();
 			QString icon_url = set->value( QString("item_%1_icon_url").arg(n), "").toString();
-			int shuffle_pos = set->value( QString("item_%1_shuffle").arg(n), "").toInt();
+			int shuffle_pos = set->value( QString("item_%1_shuffle").arg(n), n).toInt();
 			addItem( filename, name, duration, params, video_url, icon_url, shuffle_pos );
 		}
 		set->endArray();
