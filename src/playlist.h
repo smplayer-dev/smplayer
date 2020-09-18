@@ -187,7 +187,7 @@ public slots:
 
 	void setFilter(const QString & filter);
 
-	void shuffle();
+	void shuffle(bool enable);
 
 	// Slots to connect from basegui
 	void getMediaInfo(const MediaData &);
