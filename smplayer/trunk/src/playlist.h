@@ -123,7 +123,7 @@ public:
 
 public slots:
 	void addItem(QString filename, QString name, double duration, QStringList params = QStringList(),
-                 QString video_url = QString::null, QString icon_url = QString::null);
+                 QString video_url = QString::null, QString icon_url = QString::null, int shuffle_pos = 0);
 
 	// Start playing, from item 0 if shuffle is off, or from
 	// a random item otherwise
