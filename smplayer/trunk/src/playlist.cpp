@@ -508,8 +508,8 @@ void Playlist::createActions() {
 	repeatAct->setCheckable(true);
 
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
-	shuffleAct->setCheckable(false);
-	connect( shuffleAct, SIGNAL(triggered()), this, SLOT(shuffle()) );
+	shuffleAct->setCheckable(true);
+	connect( shuffleAct, SIGNAL(toggled(bool)), this, SLOT(shuffle(bool)) );
 
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
@@ -1858,13 +1858,16 @@ void Playlist::clearPlayedTag() {
 	}
 }
 
-void Playlist::shuffle() {
-	for (int n = 0; n < count(); n++) {
-		PLItem * i = itemData(n);
-		i->setShufflePosition( qrand() % 1000000 );
+void Playlist::shuffle(bool enable) {
+	if (enable) {
+		for (int n = 0; n < count(); n++) {
+			PLItem * i = itemData(n);
+			i->setShufflePosition( qrand() % 1000000 );
+		}
+		listView->sortByColumn(COL_SHUFFLE, Qt::AscendingOrder);
+	} else {
+		listView->sortByColumn(COL_NUM, Qt::AscendingOrder);
 	}
-
-	listView->sortByColumn(COL_SHUFFLE, Qt::AscendingOrder);
 }
 
 void Playlist::upItem() {
@@ -2206,7 +2209,7 @@ void Playlist::saveSettings() {
 	set->beginGroup( "playlist");
 
 	set->setValue( "repeat", repeatAct->isChecked() );
-	//set->setValue( "shuffle", shuffleAct->isChecked() );
+	set->setValue( "shuffle", shuffleAct->isChecked() );
 
 	set->setValue( "auto_get_info", automatically_get_info );
 	set->setValue( "recursive_add_directory", recursive_add_directory );
@@ -2288,7 +2291,7 @@ void Playlist::loadSettings() {
 	set->beginGroup( "playlist");
 
 	repeatAct->setChecked( set->value( "repeat", repeatAct->isChecked() ).toBool() );
-	//shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
+	shuffleAct->setChecked( set->value( "shuffle", shuffleAct->isChecked() ).toBool() );
 
 	automatically_get_info = set->value( "auto_get_info", automatically_get_info ).toBool();
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
