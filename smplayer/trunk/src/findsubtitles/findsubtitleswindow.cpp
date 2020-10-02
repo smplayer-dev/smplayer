@@ -254,6 +254,8 @@ void FindSubtitlesWindow::retranslateStrings() {
 		language_filter->addItem( i1.value() + " (" + i1.key() + ")", i1.key() );
 	}
 	language_filter->addItem( tr("Portuguese - Brasil") + " (pb)", "pb");
+	language_filter->addItem( tr("Spanish - Spain") + " (sp)", "sp");
+	language_filter->addItem( tr("Spanish - Latin America") + " (ea)", "ea");
 	language_filter->model()->sort(0);
 	#if QT_VERSION >= 0x040400
 	language_filter->insertSeparator(language_filter->count());
