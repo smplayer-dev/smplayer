@@ -1751,7 +1751,8 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 		#else
 		// Linux
-		if (qgetenv("XDG_SESSION_TYPE") != "x11") proc->setOption("vo", "xv,");
+		// Use by default xv or x11 on Wayland, otherwise the video is outside the application window
+		if (qgetenv("XDG_SESSION_TYPE") != "x11") proc->setOption("vo", "xv,x11,");
 		#endif
 	}
 
