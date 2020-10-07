@@ -118,7 +118,7 @@ void Preferences::reset() {
 
 	remember_media_settings = true;
 	remember_time_pos = true;
-	remember_stream_settings = true;
+	remember_stream_settings = false;
 
 #if SIMPLE_TRACK_SELECTION
 	alang = "";
@@ -457,7 +457,7 @@ void Preferences::reset() {
 #if SEEKBAR_RESOLUTION
 	relative_seeking = false;
 #endif
-	precise_seeking = true;
+	precise_seeking = false;
 
 	reset_stop = false;
 	delay_left_click = false;
