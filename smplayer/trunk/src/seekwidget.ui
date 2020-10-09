@@ -18,7 +18,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QLabel" name="_image">
+    <widget class="QLabel" name="icon_label">
      <property name="text">
       <string notr="true">icon</string>
      </property>
@@ -28,7 +28,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="_label">
+    <widget class="QLabel" name="text_label">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -50,22 +50,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QTimeEdit" name="time_edit">
-     <property name="maximumTime">
-      <time>
-       <hour>0</hour>
-       <minute>59</minute>
-       <second>59</second>
-      </time>
-     </property>
-     <property name="minimumTime">
-      <time>
-       <hour>0</hour>
-       <minute>0</minute>
-       <second>1</second>
-      </time>
-     </property>
-    </widget>
+    <widget class="QTimeEdit" name="time_edit"/>
    </item>
   </layout>
  </widget>

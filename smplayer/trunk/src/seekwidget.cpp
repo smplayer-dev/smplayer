@@ -25,26 +25,28 @@ SeekWidget::SeekWidget( QWidget* parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 	time_edit->setDisplayFormat("mm:ss");
+	time_edit->setMinimumTime(QTime(0,0,1));
+	time_edit->setMaximumTime(QTime(0,59,59));
 }
 
 SeekWidget::~SeekWidget() {
 }
 
 void SeekWidget::setIcon(QPixmap icon) {
-	_image->setText("");
-	_image->setPixmap(icon);
+	icon_label->setText("");
+	icon_label->setPixmap(icon);
 }
 
 const QPixmap * SeekWidget::icon() const {
-	return _image->pixmap();
+	return icon_label->pixmap();
 }
 
 void SeekWidget::setLabel(QString text) {
-	_label->setText(text);
+	text_label->setText(text);
 }
 
 QString SeekWidget::label() const {
-	return _label->text();
+	return text_label->text();
 }
 
 void SeekWidget::setTime(int secs) {
