@@ -194,6 +194,9 @@ void DefaultGui::createActions() {
 	useMillisecondsAct = new MyAction( this, "use_milliseconds" );
 	useMillisecondsAct->setCheckable( true );
 
+	displayRemainingTimeAct = new MyAction( this, "display_remaining_time" );
+	displayRemainingTimeAct->setCheckable( true );
+
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
 	editControl1Act = new MyAction( this, "edit_control1" );
@@ -252,6 +255,7 @@ void DefaultGui::createMenus() {
 	statusbar_menu->addAction(viewBitrateInfoAct);
 	statusbar_menu->addAction(viewFrameCounterAct);
 	statusbar_menu->addAction(useMillisecondsAct);
+	statusbar_menu->addAction(displayRemainingTimeAct);
 
 	populateMainMenu();
 }
@@ -705,6 +709,7 @@ void DefaultGui::retranslateStrings() {
 	viewFormatInfoAct->change( Images::icon("view_format_info"), tr("F&ormat info") );
 	viewBitrateInfoAct->change( Images::icon("view_bitrate_info"), tr("&Bitrate info") );
 	useMillisecondsAct->change( Images::icon("use_milliseconds"), tr("&Show the current time with milliseconds") );
+	displayRemainingTimeAct->change( Images::icon("display_remaining_time"), tr("Display &remaining time") );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );
@@ -726,11 +731,19 @@ void DefaultGui::displayTime(double sec) {
 	QString time;
 
 	if (useMillisecondsAct->isChecked()) {
-		time = Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
+		time = Helper::formatTime2(sec);
 	} else {
 		if (qFloor(sec) == last_second) return; // Update only once per second
 		last_second = qFloor(sec);
-		time = Helper::formatTime( (int) sec ) + " / " + Helper::formatTime( (int) core->mdat.duration );
+		time = Helper::formatTime( (int) sec );
+	}
+
+	time += " / ";
+
+	if (!displayRemainingTimeAct->isChecked()) {
+		time += Helper::formatTime( (int) core->mdat.duration );
+	} else {
+		time += Helper::formatTime( (int) core->mdat.duration - sec);
 	}
 	time_display->setText(time);
 }
@@ -978,6 +991,7 @@ void DefaultGui::saveConfig() {
 	set->setValue("format_info", viewFormatInfoAct->isChecked());
 	set->setValue("bitrate_info", viewBitrateInfoAct->isChecked());
 	set->setValue("use_milliseconds", useMillisecondsAct->isChecked());
+	set->setValue("display_remaining_time", displayRemainingTimeAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -1027,6 +1041,7 @@ void DefaultGui::loadConfig() {
 	viewFormatInfoAct->setChecked(set->value("format_info", false).toBool());
 	viewBitrateInfoAct->setChecked(set->value("bitrate_info", false).toBool());
 	useMillisecondsAct->setChecked(set->value("use_milliseconds", false).toBool());
+	displayRemainingTimeAct->setChecked(set->value("display_remaining_time", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();

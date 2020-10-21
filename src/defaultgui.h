@@ -154,6 +154,7 @@ protected:
 	MyAction * viewFormatInfoAct;
 	MyAction * viewBitrateInfoAct;
 	MyAction * useMillisecondsAct;
+	MyAction * displayRemainingTimeAct;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
