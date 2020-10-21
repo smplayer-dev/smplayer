@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -188,7 +186,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>أكتب لتبحث</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -989,12 +987,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1762"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>لقطة مع الترجمات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1763"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>لقطة بدون الترجمات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
@@ -1019,7 +1017,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;حسين سماعة الأذن</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
@@ -1065,12 +1063,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;‍حديث داعم يوتيوب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>تثبيت / تحديث داعم يوتي‍&amp;وب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -1095,7 +1093,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;ظهار الأوقات بالملي ثانية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1926"/>
@@ -1155,12 +1153,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>الفيديو السابق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>الصوتي السابق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1945"/>
@@ -1170,7 +1168,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمة السابقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
@@ -1190,7 +1188,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>إظهار إسم الملف على شاشاة العَرض</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1958"/>
@@ -1341,7 +1339,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>عليك إعادة تشغيل SMPlayer لتطبيق التفضيلات الجديدة.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4586"/>
@@ -1387,7 +1385,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6053"/>
         <location filename="../basegui.cpp" line="6106"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>مزيد من المعلومات في السجلّ.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6059"/>
@@ -1994,17 +1992,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"></translation>
+        <translation>العَ&amp;رض في</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>عارض &amp;كروم</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;هاتف ذكي/لوحي</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
@@ -2185,12 +2183,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"></translation>
+        <translation>خادوم وب SMPlayer مشتغل</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"></translation>
+        <translation>إي‍&amp;قاف خادوم وب المشغل SMplayer</translation>
     </message>
 </context>
 <context>
@@ -2198,100 +2196,100 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>يجري التحميل...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">يتصل بـ%1</translation>
+        <translation>يجري الإرتباط بـ %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>تُبّتت شفرة يوتيوب بنجاح.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">الإصدار المثبَّت: %1</translation>
+        <translation>الإصدار المثبّت: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>نجاح</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>خطأ</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ليس ممكناً حفظ %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>حصل خطأ عند تحميل الملف: &lt;br&gt;%1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 فشل في الإتصال بمكتبة يوتيوب youtube-dl. إمّا أنّها غير مثبّتة أو أنها لا تعمل بصورة صحيحة.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>لم يكن ممكناً إيجاد رابط URL لهذا الفيديو.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>ربما عليك تحديث مكتبة اليوتيوب youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
         <location filename="../youtube/codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>لتشغيل فيديوات يوتيوب، يحتاج %1 تطبيقا خارجيا يدعى youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا المكوّن يحتاج التحديث باستمرار.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك تحديثه بمجرد إعادة تثبيت SMPlayer. المثبّت سيحمّل ويثبّت آخر إصدار.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>ثبّت / حدّث دعم يوتيوب</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكن لـ %1 تحميل وتثبيت هذا التطبيق لك.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>سينزّل من الموقع الرسمي ويثبّت في %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>أترغب في المواصلة؟</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
         <location filename="../youtube/codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>تثبيت دعم يوتيوب؟</translation>
     </message>
 </context>
 <context>
@@ -2857,7 +2855,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>التلبيد</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
@@ -2867,7 +2865,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Hash and filename</source>
-        <translation type="unfinished"></translation>
+        <translation>التلبيد واسم الملف</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2937,12 +2935,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation>البحث و الطرق</translation>
+        <translation>طريقة ال&amp;بحث:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"></translation>
+        <translation>استيثاق موقع ترجمات Opensubtitles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -3037,12 +3035,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خدمة الترجمات توفرها %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
         <source>Connecting...</source>
-        <translation type="unfinished"></translation>
+        <translation>يجري الإتصال...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
@@ -3058,19 +3056,12 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>حفظ الملف</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>لم تُستخرَج أية ترجمة(0)</numerusform>
-            <numerusform>استُخرجت ترجمة واحدة(1)</numerusform>
-            <numerusform>استُخرجت ترجمتان(2)</numerusform>
-            <numerusform>استُخرجت %n ترجمات(ترجمات)</numerusform>
-            <numerusform>استُخرجت %n ترجمةً(ترجمات)</numerusform>
-            <numerusform>استُخرجت %n ترجمة(ترجمات)</numerusform>
-        </translation>
+        <translation><numerusform>لم تُستخرَج أية ترجمة(0)</numerusform><numerusform>استُخرجت ترجمة واحدة(1)</numerusform><numerusform>استُخرجت ترجمتان(2)</numerusform><numerusform>استُخرجت %n ترجمات(ترجمات)</numerusform><numerusform>استُخرجت %n ترجمةً(ترجمات)</numerusform><numerusform>استُخرجت %n ترجمة(ترجمات)</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
@@ -3126,22 +3117,22 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"></translation>
+        <translation>نلف ال&amp;فيديو:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation type="unfinished"></translation>
+        <translation>ابحث عن &amp;عنوان:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتب هنا إسم فيلم أو عرض تلفزيوني</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>ابح‍&amp;ث</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -3178,7 +3169,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -3220,57 +3211,57 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"></translation>
+        <translation>حدّد مفاتيح الوسائط التي سيحاكيها المشغل SMPlayer.</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation type="unfinished"></translation>
+        <translation>تش&amp;‍غيل الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>إي&amp;‍قاف الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف ال‍&amp;‍سابق</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف التا&amp;‍لي</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation type="unfinished"></translation>
+        <translation>ل&amp;‍بث الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation type="unfinished"></translation>
+        <translation>تس‍&amp;‍جيل الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
         <source>Volume &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;‍كتم الصوت</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="111"/>
         <source>Volume &amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>تقل‍&amp;يل الصوت</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="118"/>
         <source>Volume &amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;علاء الصوت</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>الإختصارات العمومية</translation>
     </message>
 </context>
 <context>
@@ -3405,7 +3396,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>دفقات الفيديو</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
@@ -3476,7 +3467,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>دفق الفيديو الأولي</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -4884,17 +4875,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="14"/>
         <source>Play on device</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيل في الجهاز</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أردت تشغيل هذا الفيديو في هاتف ذكي أو جهاز لوحي، فامسح شفرة QR التالية بجهازك:</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"></translation>
+        <translation>او افتح هذا الرابط URL في مشغل الوسائط في جهازك:</translation>
     </message>
 </context>
 <context>
@@ -5050,7 +5041,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"></translation>
+        <translation>ترتيب الخلط</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5172,7 +5163,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"></translation>
+        <translation>أظهر عمود الخلط</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>
@@ -5296,7 +5287,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"></translation>
+        <translation>مو&amp;ضع شريط العرض على الشاشة OSD:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5521,7 +5512,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>نبّه عن ا&amp;نهيارات %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5546,12 +5537,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"></translation>
+        <translation>موضع شريط العرض على الشاشة OSD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>اضبط موضع الشاشة حيث يُعرَض شريط العَرض OSD. الصفر للأعلى، 100 للأسفل.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -5566,12 +5557,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>نبّه عن انهيارات %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشِّر هذا الخيار، فستظهر نافذة للإعلام عن انهيارات %1. خلافا لذلك ستُهمَل حالات الفشل هذه بصمت.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
@@ -5948,7 +5939,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا كتابة لغتك المفضلة لدفقات الصوت والترجمة. عندما يُوجد لوسيط دفقات متعددة للصوت أو الترجمة، سيحاول SMPlayer استخدام لغتك المفضلة. هذا سيُفلح فقط مع الوسائط التي تتوفر على معلومات عن لغة دفقات الصوت والترجمة، كأقراص DVD أو ملفات MKV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6124,7 +6115,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1213"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>تمرير صوت AC3/DTS عبر S/PDIF و HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
@@ -6219,7 +6210,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تمرير صوت AC3/DTS عبر S/PDIF و HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
@@ -6344,22 +6335,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكن أن تعيّن هنا فائمة أولويات لرموز لغة الصوت، مفصولة بفوارز. مثلا: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الحقل يقبل التعابير النظامية. مثلا: &lt;b&gt;es|esp|spa&lt;/b&gt; سيحدّد مسار الصوت إذا تطابق مع &lt;i&gt;es&lt;/i&gt;، &lt;i&gt;esp&lt;/i&gt; أو &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكن أن تعيّن هنا فائمة أولويات لرموز لغة الترجمة، مفصولة بفوارز. مثلا: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الحقل يقبل التعابير النظامية. مثلا: &lt;b&gt;es|esp|spa&lt;/b&gt; سيحدّد دفق الترجمة إذا طابق &lt;i&gt;es&lt;/i&gt;,،&lt;i&gt;esp&lt;/i&gt; أو &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -6857,7 +6848,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>حدّد المفا&amp;تيح...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -7539,7 +7530,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم مربع حوار الملف المحلي للن‍&amp;ظام</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7789,12 +7780,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم حوار الملف المحلي للنظام</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>عند يكون هذا الخيار ممكّناً، فسيحاول المشغل  استخدام مربع حوار الملف المحلي. وإلا سيستخدم الحوار الداخلي.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7861,7 +7852,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"></translation>
+        <translation>ملاحظة: هذا الخيار يعمل فقط عند استخدام mpv كمحرك وسائط.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -8092,7 +8083,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>الجودة المفض‍&amp;لة:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8102,22 +8093,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
         <source>Playback &amp;quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جودة التشغيل:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم الدفقات المتوا&amp;ئمة (دقة لغاية 4ك)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدام &amp;60 إطار/ثا إن توفر</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;وسيط من المستخدِم:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="234"/>
@@ -8157,22 +8148,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="358"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>تحويل &amp;ترجمات SRT إلى VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="390"/>
         <source>&amp;Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>الكتابة على ملفات VTT ال‍&amp;موجودة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="397"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>محاولة إ&amp;زالة الإعلانات</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>مو&amp;ضع الترجمات على الشاشة:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="461"/>
@@ -8252,13 +8243,13 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="109"/>
         <location filename="../prefnetwork.cpp" line="305"/>
         <source>Best video and audio</source>
-        <translation type="unfinished"></translation>
+        <translation>أفضل فيديو وصوت</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="117"/>
         <location filename="../prefnetwork.cpp" line="308"/>
         <source>Worst</source>
-        <translation type="unfinished"></translation>
+        <translation>الأردأ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="284"/>
@@ -8293,12 +8284,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="303"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يحدد النوعية المفضلة لدفقات الفيديو التي يتولاها مساعد يوتيوب youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="305"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>يختار أفضل دفقات فيديو وصوت متوفرة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8309,7 +8300,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="306"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>يختار أفضل صيغة جودة متوفرة كملف واحد</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="307"/>
@@ -8324,7 +8315,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="308"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>يختار أردأ دفقات فيديو وصوت متوفرة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="317"/>
@@ -8339,22 +8330,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="321"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدام الدفقات المتوائمة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يمكّن الدفقات المتوائمة والتي يمكنها تزويد فيديوات لغاية 4ك.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="324"/>
         <source>Use 60 fps if available</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدام 60 إطار/ثا إن توفر</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="325"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يمكّن الدفقات ذات 60 إطارا في الثانية إن توفرت.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
@@ -8394,32 +8385,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"></translation>
+        <translation>تحويل ترجمات SRT إلى VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>عند تمكين هذا الخيار فسيحوّل SMPlayer ملفات الترجمة تلقائيا من صيغة SRT إلى صيغة VTT. سيكون لترجمة VTT نفس إسم الملف لكن الإمتداد سيكون .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
         <source>Overwrite existing VTT files</source>
-        <translation type="unfinished"></translation>
+        <translation>الكتابة على ملفات VTT ال‍موجودة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مُكّن هذا الخيار فإن SMPlayer سيكتب على ملفات VTT الموجودة.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
         <source>Try to remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>حاول إزالة الإعلانات</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مُكّن هذا الخيار فإن SMPlayer سيحاول إيجاد الإعلانات في الترجمات ويزيلها.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="370"/>
@@ -8429,17 +8420,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يضبط الموضع على الشاشة والذي ستُعرض فيه الترجمات.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>الصفر هو أعلى الشاشة و 100 هو أسفل الشاشة.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="373"/>
         <source>The special value -1 means the default position.</source>
-        <translation type="unfinished"></translation>
+        <translation>القيمة الخاصة -1 تعني الموضع الإفتراضي.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="377"/>
@@ -8984,12 +8975,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>نافذة قائمة التشغيل قابلة للإرساء</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشّر هذا الخيار، فيمكن تعويم نافذة قائمة التشغيل داخل النافذة الرئيسية, خلاف ذلك ستكون قائمة التشغيل نافذة اعتيادية.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
@@ -9159,7 +9150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>نافذة قائمة التشغيل قابلة للإ&amp;رساء</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
@@ -9246,12 +9237,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>كل الترجمات التي تحوي إسم الفيلم</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>كل الترجمات في المجلد</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9541,7 +9532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="694"/>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>العتامة:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="730"/>
@@ -10009,27 +10000,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10077,7 +10054,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"></translation>
+        <translation>وقت</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
@@ -10112,7 +10089,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>بيعيّن وقت البدء (بالثواني) لأول ملف يراد تشغيله. يصلح أيضاً بالصيغ h:m:s و m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
@@ -10485,7 +10462,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>المشغّل  SMPlayer  - تنقّل</translation>
     </message>
 </context>
 <context>
@@ -10755,12 +10732,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;غلاق</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">احف&amp;ظ</translation>
+        <translation>ح‍&amp;فظ</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="168"/>
@@ -10785,12 +10762,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>إطار/ثا: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>صيغة الصوت: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="693"/>
@@ -10944,12 +10921,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>مواف‍&amp;ق</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>إل‍&amp;غاء</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
