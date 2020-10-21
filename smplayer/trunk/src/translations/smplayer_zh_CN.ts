@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -979,7 +977,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>Fra&amp;me back step</source>
-        <translation>逐帧步进(&amp;M)</translation>
+        <translation>逐帧步退(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1748"/>
@@ -1009,7 +1007,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1773"/>
         <source>Stereo &amp;3D filter</source>
-        <translation>Stereo &amp;3D 滤镜</translation>
+        <translation>&amp;3D 立体滤镜</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
@@ -1039,7 +1037,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>在 &amp;OpenSubtitles.org 上查找字幕...</translation>
+        <translation>查找字幕于 &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1851"/>
@@ -1065,12 +1063,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>更新 YouTube 支持(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>安装/更新 YouTube 支持(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -1572,7 +1570,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;FAQ</translation>
+        <translation>常见问题解答(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -2009,7 +2007,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
         <source>Send &amp;video to screen</source>
-        <translation>发送视频到屏幕(&amp;V)</translation>
+        <translation>视频送至屏幕(&amp;V)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="393"/>
@@ -2024,7 +2022,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
-        <translation>发送音频到(&amp;A)</translation>
+        <translation>音频送至(&amp;A)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="438"/>
@@ -2198,100 +2196,100 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished">正在下载...</translation>
+        <translation>正在下载...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">正在连接到 %1</translation>
+        <translation>正在连接 %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube 代码已成功安装。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">已安装版本: %1</translation>
+        <translation>已安装版本: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>成功</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished">错误</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法保存 1%。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>下载文件时出错：&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 未能与 youtube-dl 通信。是否未安装或者运行异常。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>无法找到此视频的 URL。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>您也许需要更新 youtube-dl。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
         <location filename="../youtube/codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>若要播放 YouTube 视频，%1 需要外部应用程序 youtube-dl。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>此组件需要经常更新。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>重新安装 SMPlayer 即可更新它。安装程序会下载并安装最新版本。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>安装/更新 YouTube 支持</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 可以为您下载和安装此应用程序。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>将从官方网站下载和安装 %1。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>是否继续？</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
         <location filename="../youtube/codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>安装 YouTube 支持？</translation>
     </message>
 </context>
 <context>
@@ -3047,7 +3045,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>登陆到opensubtitles.org失败</translation>
+        <translation>登录 opensubtitles.org 失败</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
@@ -3063,9 +3061,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
@@ -3173,7 +3169,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -5047,7 +5043,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"></translation>
+        <translation>打乱顺序</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5169,7 +5165,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"></translation>
+        <translation>显示随机播放列</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1545"/>
@@ -10006,17 +10002,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10293,7 +10285,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation>Stereo 3D 滤镜</translation>
+        <translation>3D 立体滤镜</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
