@@ -2301,68 +2301,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3198"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3214"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3226"/>
+        <location filename="../core.cpp" line="3229"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3241"/>
+        <location filename="../core.cpp" line="3244"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3259"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3402"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4361"/>
+        <location filename="../core.cpp" line="4364"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3527"/>
-        <location filename="../core.cpp" line="3538"/>
+        <location filename="../core.cpp" line="3530"/>
+        <location filename="../core.cpp" line="3541"/>
         <source>Font scale: %1</source>
         <translation>フォント スケール: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4192"/>
+        <location filename="../core.cpp" line="4195"/>
         <source>Aspect ratio: %1</source>
         <translation>アスペクト比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4599"/>
+        <location filename="../core.cpp" line="4602"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>フォント キャッシュを更新しています。これには数秒かかる可能性があります...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3452"/>
+        <location filename="../core.cpp" line="3455"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕の遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3470"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Audio delay: %1 ms</source>
         <translation>オーディオの遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3313"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2372,42 +2372,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>動画の URL を見つけることができません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles on</source>
         <translation>字幕 オン</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3628"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Subtitles off</source>
         <translation>字幕 オフ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4240"/>
+        <location filename="../core.cpp" line="4243"/>
         <source>Mouse wheel seeks now</source>
         <translation>今マウス ホイールするとシークします</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4246"/>
         <source>Mouse wheel changes volume now</source>
         <translation>今マウス ホイールすると音量を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4249"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>今マウス ホイールすると拡大率を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel changes speed now</source>
         <translation>今マウス ホイールすると速度を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4575"/>
+        <location filename="../core.cpp" line="4578"/>
         <source>Screenshot saved as %1</source>
         <translation>スクリーンショットが %1 として保存されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4610"/>
+        <location filename="../core.cpp" line="4613"/>
         <source>Starting...</source>
         <translation>開始しています...</translation>
     </message>
@@ -2422,17 +2422,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>スクリーンショットが撮られません、フォルダーが構成されていません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2797"/>
+        <location filename="../core.cpp" line="2800"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2822"/>
+        <location filename="../core.cpp" line="2825"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2845"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>A-B markers cleared</source>
         <translation>A-B マーカーがクリアされました</translation>
     </message>
@@ -2445,103 +2445,118 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="699"/>
+        <location filename="../defaultgui.cpp" line="711"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="700"/>
+        <location filename="../defaultgui.cpp" line="712"/>
         <source>Subtitle</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="692"/>
+        <location filename="../defaultgui.cpp" line="704"/>
         <source>&amp;Main toolbar</source>
         <translation>メイン ツール バー(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="696"/>
+        <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Language toolbar</source>
         <translation>言語ツール バー(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="686"/>
+        <location filename="../defaultgui.cpp" line="698"/>
         <source>&amp;Toolbars</source>
         <translation>ツール バー(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="665"/>
+        <location filename="../defaultgui.cpp" line="677"/>
         <source>Ready</source>
         <translation>準備完了</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="705"/>
+        <location filename="../defaultgui.cpp" line="717"/>
         <source>F&amp;ormat info</source>
         <translation>形式情報(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="746"/>
+        <location filename="../defaultgui.cpp" line="760"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="750"/>
+        <location filename="../defaultgui.cpp" line="764"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="689"/>
+        <location filename="../defaultgui.cpp" line="701"/>
         <source>Status&amp;bar</source>
         <translation>ステータス バー(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="703"/>
+        <location filename="../defaultgui.cpp" line="264"/>
+        <source>Time format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="715"/>
         <source>&amp;Video info</source>
         <translation>ビデオ情報(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="704"/>
+        <location filename="../defaultgui.cpp" line="716"/>
         <source>&amp;Frame counter</source>
         <translation>フレーム数(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="706"/>
+        <location filename="../defaultgui.cpp" line="718"/>
         <source>&amp;Bitrate info</source>
         <translation>ビットレート情報(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="707"/>
+        <location filename="../defaultgui.cpp" line="719"/>
         <source>&amp;Show the current time with milliseconds</source>
         <translation>現在の時間をミリ秒で表示する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="710"/>
+        <location filename="../defaultgui.cpp" line="721"/>
+        <source>Display &amp;total time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="722"/>
+        <source>Display &amp;remaining time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
         <translation>メイン ツール バーの編集(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="711"/>
+        <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
         <translation>コントロール バーの編集(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="712"/>
+        <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>ミニ コントロール バーの編集(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="713"/>
+        <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
         <translation>フローティング コントロールの編集(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="760"/>
+        <location filename="../defaultgui.cpp" line="774"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="772"/>
+        <location filename="../defaultgui.cpp" line="786"/>
         <source>V: %1 kbps A: %2 kbps</source>
         <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
@@ -3029,91 +3044,101 @@ Example: extrastereo,karaoke</source>
         <translation>ポルトガル語 - ブラジル</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <source>Spanish - Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <source>Spanish - Latin America</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
         <source>Subtitles service powered by %1</source>
         <translation>字幕サービスは %1 によって提供されています</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Connecting...</source>
         <translation>接続しています...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>opensubtitles.org へのログインに失敗しました</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
         <source>Search has failed</source>
         <translation>検索に失敗しました</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
         <source>Save File</source>
         <translation>ファイルの保存</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n 個の字幕が抽出されました</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
         <source>Error fixing the subtitle lines</source>
         <translation>字幕の行の修正エラー</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
         <source>&amp;Download</source>
         <translation>ダウンロード(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>クリップボードへリンクをコピー(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
         <source>Download failed: %1.</source>
         <translation>ダウンロードに失敗しました: %1。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
         <source>Downloading...</source>
         <translation>ダウンロードしています...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
         <source>Done.</source>
         <translation>完了しました。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 files available</source>
         <translation>%1 個のファイルが利用可能です</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
         <source>Failed to parse the received data.</source>
         <translation>受信されたデータの解析に失敗しました。</translation>
     </message>
@@ -3153,30 +3178,30 @@ Example: extrastereo,karaoke</source>
         <translation>更新(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
         <source>Subtitle saved as %1</source>
         <translation>字幕が %1 として保存されました</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
         <source>Overwrite?</source>
         <translation>上書きしますか?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>ファイル %1 はすでに存在します、上書きしますか?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
         <source>Error saving file</source>
         <translation>ファイルの保存エラー</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3185,14 +3210,14 @@ Please check the permissions of that folder.</source>
 そのフォルダーの権限を確認してください。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
         <source>Download failed</source>
         <translation>ダウンロードに失敗しました</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
         <source>Temporary file %1</source>
         <translation>一時ファイル %1</translation>
     </message>
@@ -4733,77 +4758,93 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
+        <location filename="../mpvoptions.cpp" line="196"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>&apos;%1&apos; フィルターは mpv によってサポートされていません</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="846"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>ファイル:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="849"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>ビデオ:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>解像度:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>1 秒あたりのフレーム数:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>推定:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="853"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>アスペクト比:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="854"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>ビットレート:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="855"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>ドロップされたフレーム:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="858"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>オーディオ:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>サンプル レート</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>チャンネル:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="864"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>オーディオ/ビデオの同期:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>キャッシュ読み込み:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>使用されたキャッシュ:</translation>
@@ -4865,6 +4906,15 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>MplayerProcess</name>
+    <message>
+        <location filename="../mplayeroptions.cpp" line="383"/>
+        <location filename="../mplayeroptions.cpp" line="460"/>
+        <source>This option is not supported by MPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4959,37 +5009,37 @@ Do you want to overwrite?</source>
         <translation>編集(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1394"/>
+        <location filename="../playlist.cpp" line="1401"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1430"/>
+        <location filename="../playlist.cpp" line="1437"/>
         <source>Choose a filename</source>
         <translation>ファイル名の選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1442"/>
+        <location filename="../playlist.cpp" line="1449"/>
         <source>Confirm overwrite?</source>
         <translation>上書きを確認しますか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1443"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ファイル %1 はすでに存在します。
 上書きしますか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
-        <location filename="../playlist.cpp" line="1697"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
+        <location filename="../playlist.cpp" line="1704"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
@@ -5024,22 +5074,22 @@ Do you want to overwrite?</source>
         <translation>読み込み/保存</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1694"/>
+        <location filename="../playlist.cpp" line="1701"/>
         <source>Select one or more files to open</source>
         <translation>1 つまたは複数の開くファイルを選択します</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1764"/>
+        <location filename="../playlist.cpp" line="1771"/>
         <source>Choose a directory</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1959"/>
         <source>Edit name</source>
         <translation>名前の編集</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1950"/>
+        <location filename="../playlist.cpp" line="1960"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>このファイルのプレイリストに表示される名前を入力します:</translation>
     </message>
@@ -5135,7 +5185,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../playlist.cpp" line="743"/>
-        <location filename="../playlist.cpp" line="1540"/>
+        <location filename="../playlist.cpp" line="1547"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>クリップボードへファイル パスをコピー(&amp;C)</translation>
     </message>
@@ -5176,52 +5226,52 @@ Do you want to overwrite?</source>
         <translation>ランダム再生列の表示</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1545"/>
+        <location filename="../playlist.cpp" line="1552"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>クリップボードへ URL をコピー(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1987"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Confirm deletion</source>
         <translation>削除の確認</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1988"/>
+        <location filename="../playlist.cpp" line="1998"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>ドライブからファイル &apos;%1&apos; を削除しようとしています。</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1989"/>
+        <location filename="../playlist.cpp" line="1999"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>この動作は元に戻すことができません。続行してもよろしいですか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2007"/>
+        <location filename="../playlist.cpp" line="2017"/>
         <source>Deletion failed</source>
         <translation>削除に失敗しました</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2008"/>
+        <location filename="../playlist.cpp" line="2018"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>&apos;%1&apos; を削除することができませんでした</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2013"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Error deleting the file</source>
         <translation>ファイルの削除エラー</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2014"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>ファイル システムから &apos;%1&apos; を削除することができません</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>このプレイリストを読み込むことができません</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>Unrecognized format.</source>
         <translation>認識されない形式です。</translation>
     </message>
@@ -5236,17 +5286,17 @@ Do you want to overwrite?</source>
         <translation>削除...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1475"/>
+        <location filename="../playlist.cpp" line="1482"/>
         <source>Playlist modified</source>
         <translation>プレイリストが変更されました</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1476"/>
+        <location filename="../playlist.cpp" line="1483"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>未保存の変更があります、プレイリストを保存しますか?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1696"/>
+        <location filename="../playlist.cpp" line="1703"/>
         <source>Multimedia</source>
         <translation>マルチメディア</translation>
     </message>
@@ -10007,23 +10057,23 @@ Do you want to overwrite?</source>
         <translation>最初のビデオに読み込まれる字幕ファイルを指定します。</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="101"/>
-        <location filename="../helper.cpp" line="107"/>
+        <location filename="../helper.cpp" line="125"/>
+        <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n 秒</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="104"/>
-        <location filename="../helper.cpp" line="106"/>
+        <location filename="../helper.cpp" line="128"/>
+        <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
         <translation>
             <numerusform>%n 分</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="108"/>
+        <location filename="../helper.cpp" line="132"/>
         <source>%1 and %2</source>
         <translation>%1 と %2</translation>
     </message>

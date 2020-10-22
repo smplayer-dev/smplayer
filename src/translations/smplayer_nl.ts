@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="nl">
 <context>
     <name>About</name>
     <message>
@@ -2237,7 +2239,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2253,7 +2255,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../youtube/codedownloader.cpp" line="175"/>
         <location filename="../youtube/codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
@@ -2263,7 +2265,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
@@ -2273,12 +2275,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
@@ -2295,68 +2297,68 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3198"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3214"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3226"/>
+        <location filename="../core.cpp" line="3229"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3241"/>
+        <location filename="../core.cpp" line="3244"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3259"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3402"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4361"/>
+        <location filename="../core.cpp" line="4364"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3527"/>
-        <location filename="../core.cpp" line="3538"/>
+        <location filename="../core.cpp" line="3530"/>
+        <location filename="../core.cpp" line="3541"/>
         <source>Font scale: %1</source>
         <translation>Lettertype-schaal: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4192"/>
+        <location filename="../core.cpp" line="4195"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspectverhouding: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4599"/>
+        <location filename="../core.cpp" line="4602"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Lettertypebuffer bijwerken. Dit kan even duren...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3452"/>
+        <location filename="../core.cpp" line="3455"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Ondertitelvertraging: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3470"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Audio delay: %1 ms</source>
         <translation>Geluidsvertraging: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3313"/>
         <source>Speed: %1</source>
         <translation>Snelheid: %1</translation>
     </message>
@@ -2366,42 +2368,42 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>Niet in staat om de URL van de video vast te stellen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles on</source>
         <translation>Ondertiteling aan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3628"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Subtitles off</source>
         <translation>Ondertiteling uit</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4240"/>
+        <location filename="../core.cpp" line="4243"/>
         <source>Mouse wheel seeks now</source>
         <translation>Muiswiel zoekt nu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4246"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Muiswiel wijzigt nu het volume</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4249"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Muiswiel wijzigt nu het zoomniveau</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Muiswiel wijzigt nu de snelheid</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4575"/>
+        <location filename="../core.cpp" line="4578"/>
         <source>Screenshot saved as %1</source>
         <translation>Schermafdruk opgeslagen als %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4610"/>
+        <location filename="../core.cpp" line="4613"/>
         <source>Starting...</source>
         <translation>Beginnen...</translation>
     </message>
@@ -2416,17 +2418,17 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <translation>Schermafdrukken NIET genomen, map niet geconfigureerd</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2797"/>
+        <location filename="../core.cpp" line="2800"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Stel &quot;A&quot; markering in naar %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2822"/>
+        <location filename="../core.cpp" line="2825"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Stel &quot;B&quot; markering in naar %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2845"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>A-B markers cleared</source>
         <translation>A-B markering leeggemaakt</translation>
     </message>
@@ -2439,103 +2441,118 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="699"/>
+        <location filename="../defaultgui.cpp" line="711"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="700"/>
+        <location filename="../defaultgui.cpp" line="712"/>
         <source>Subtitle</source>
         <translation>Ondertiteling</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="692"/>
+        <location filename="../defaultgui.cpp" line="704"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hoofdwerkbalk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="696"/>
+        <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Taalwerkbalk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="686"/>
+        <location filename="../defaultgui.cpp" line="698"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkbalken</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="665"/>
+        <location filename="../defaultgui.cpp" line="677"/>
         <source>Ready</source>
         <translation>Klaar</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="705"/>
+        <location filename="../defaultgui.cpp" line="717"/>
         <source>F&amp;ormat info</source>
         <translation>&amp;Opmaak info</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="746"/>
+        <location filename="../defaultgui.cpp" line="760"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="750"/>
+        <location filename="../defaultgui.cpp" line="764"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="689"/>
+        <location filename="../defaultgui.cpp" line="701"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;balk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="703"/>
+        <location filename="../defaultgui.cpp" line="264"/>
+        <source>Time format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="715"/>
         <source>&amp;Video info</source>
         <translation>&amp;Video info</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="704"/>
+        <location filename="../defaultgui.cpp" line="716"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Frameteller</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="706"/>
+        <location filename="../defaultgui.cpp" line="718"/>
         <source>&amp;Bitrate info</source>
         <translation>&amp;Bitsnelheid informatie</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="707"/>
+        <location filename="../defaultgui.cpp" line="719"/>
         <source>&amp;Show the current time with milliseconds</source>
         <translation>&amp;Toon de huidige tijd in milliseconden</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="710"/>
+        <location filename="../defaultgui.cpp" line="721"/>
+        <source>Display &amp;total time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="722"/>
+        <source>Display &amp;remaining time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Hoofdwerkblad wijzigen</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="711"/>
+        <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
         <translation>&amp;Controlebalk wijzigen</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="712"/>
+        <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>M&amp;ini controlebalk wijzigen </translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="713"/>
+        <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
         <translation>&amp;Drijvende controle wijzigen</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="760"/>
+        <location filename="../defaultgui.cpp" line="774"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="772"/>
+        <location filename="../defaultgui.cpp" line="786"/>
         <source>V: %1 kbps A: %2 kbps</source>
         <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
@@ -3023,89 +3040,102 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Portugees - Brazilië</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <source>Spanish - Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <source>Spanish - Latin America</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
         <source>All</source>
         <translation>Alles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Close</source>
         <translation>Sluiten</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
         <source>Subtitles service powered by %1</source>
         <translation>Ondertitelingsdienst mede mogelijk gemaakt door %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Connecting...</source>
         <translation>Verbinden...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Inloggen op opensubtitles.org is mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
         <source>Search has failed</source>
         <translation>Zoeken is mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
         <source>Save File</source>
         <translation>Bestand opslaan</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ondertiteling(en) uitgepakt</numerusform><numerusform>%n ondertiteling(en) uitgepakt</numerusform></translation>
+        <translation>
+            <numerusform>%n ondertiteling(en) uitgepakt</numerusform>
+            <numerusform>%n ondertiteling(en) uitgepakt</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Het repareren van de ondertiteling is mislukt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
         <source>&amp;Download</source>
         <translation>&amp;Downloaden</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>Link naar klembord &amp;kopiëren</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
         <source>Error</source>
         <translation>Foutmelding</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
         <source>Download failed: %1.</source>
         <translation>Downloaden mislukt: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
         <source>Downloading...</source>
         <translation>Bezig met downloaden...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
         <source>Done.</source>
         <translation>Klaar.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 files available</source>
         <translation>%1 bestanden beschikbaar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
         <source>Failed to parse the received data.</source>
         <translation>Gedownloade gegevens verwerken mislukt.</translation>
     </message>
@@ -3145,31 +3175,31 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Ve&amp;rnieuwen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
         <source>Subtitle saved as %1</source>
         <translation>Ondertitel opgeslagen als %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
         <source>Overwrite?</source>
         <translation>Overschrijven?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Het bestand %1 bestaat al, wilt u het overschrijven?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
         <source>Error saving file</source>
         <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
-        <source>It wasn't possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Het was niet mogelijk om het gedownload bestand
@@ -3177,14 +3207,14 @@ in de map %1 op te slaan
 Controleer a.u.b. de toegangsrechten van die map.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
         <source>Download failed</source>
         <translation>Downloaden mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
         <source>Temporary file %1</source>
         <translation>Tijdelijk bestand %1</translation>
     </message>
@@ -4725,77 +4755,93 @@ Wilt u het overschrijven?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
+        <location filename="../mpvoptions.cpp" line="196"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>De &apos;%1&apos; filter wordt niet ondersteund door mpv</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="846"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Bestand:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="849"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Resolutie:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Beelden per seconde:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Geschatte:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="853"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Aspect Ratio:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="854"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Bitsnelheid:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="855"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Achterwegen gelaten beelden:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="858"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Voorbeeld snelheid:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Kanalen:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="864"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Audio/video synchronisatie:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Cache gevuld:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Gebruikte cache:</translation>
@@ -4857,6 +4903,15 @@ Wilt u het overschrijven?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>MplayerProcess</name>
+    <message>
+        <location filename="../mplayeroptions.cpp" line="383"/>
+        <location filename="../mplayeroptions.cpp" line="460"/>
+        <source>This option is not supported by MPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4951,37 +5006,37 @@ Wilt u het overschrijven?</translation>
         <translation>B&amp;ewerken</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
         <source>Playlists</source>
         <translation>Afspeellijsten</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1394"/>
+        <location filename="../playlist.cpp" line="1401"/>
         <source>Choose a file</source>
         <translation>Kies een bestand</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1430"/>
+        <location filename="../playlist.cpp" line="1437"/>
         <source>Choose a filename</source>
         <translation>Kies een bestandsnaam</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1442"/>
+        <location filename="../playlist.cpp" line="1449"/>
         <source>Confirm overwrite?</source>
         <translation>Bevestig overschrijven?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1443"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Het bestand %1 bestaat al.
 Wilt u het overschrijven?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
-        <location filename="../playlist.cpp" line="1697"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
+        <location filename="../playlist.cpp" line="1704"/>
         <source>All files</source>
         <translation>Alle bestanden</translation>
     </message>
@@ -5016,22 +5071,22 @@ Wilt u het overschrijven?</translation>
         <translation>Laden/Opslaan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1694"/>
+        <location filename="../playlist.cpp" line="1701"/>
         <source>Select one or more files to open</source>
         <translation>Kies één of meerdere bestanden om te openen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1764"/>
+        <location filename="../playlist.cpp" line="1771"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1959"/>
         <source>Edit name</source>
         <translation>Naam bewerken</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1950"/>
+        <location filename="../playlist.cpp" line="1960"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Voer de naam in die in de afspeellijst voor dit bestand moet worden weergegeven:</translation>
     </message>
@@ -5043,7 +5098,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5127,7 +5182,7 @@ Wilt u het overschrijven?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="743"/>
-        <location filename="../playlist.cpp" line="1540"/>
+        <location filename="../playlist.cpp" line="1547"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Kopieer bestandspad naar klembord</translation>
     </message>
@@ -5165,55 +5220,55 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1545"/>
+        <location filename="../playlist.cpp" line="1552"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Kopieer URL naar klembord</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1987"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Confirm deletion</source>
         <translation>Bevestig verwijderen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1988"/>
+        <location filename="../playlist.cpp" line="1998"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>U staat op het punt om het bestand &apos;%1&apos; van uw schijf te verwijderen.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1989"/>
+        <location filename="../playlist.cpp" line="1999"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Deze actie kan niet ongedaan gemaakt worden. Weet u zeker dat u wilt doorgaan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2007"/>
+        <location filename="../playlist.cpp" line="2017"/>
         <source>Deletion failed</source>
         <translation>Het verwijderen is mislukt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2008"/>
+        <location filename="../playlist.cpp" line="2018"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Het was niet mogelijk om &apos;%1&apos; te verwijderen.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2013"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Error deleting the file</source>
         <translation>Fout tijdens het verwijderen van het bestand</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2014"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Het is niet mogelijk om &apos;%1&apos; van het bestandssysteem te verwijderen.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Het is niet mogelijk om deze speellijst te laden.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>Unrecognized format.</source>
         <translation>Onbekende opmaak.</translation>
     </message>
@@ -5228,17 +5283,17 @@ Wilt u het overschrijven?</translation>
         <translation>Verwijderen...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1475"/>
+        <location filename="../playlist.cpp" line="1482"/>
         <source>Playlist modified</source>
         <translation>Afspeellijst aangepast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1476"/>
+        <location filename="../playlist.cpp" line="1483"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Er zijn niet-opgeslagen wijzigingen, wilt u de afspeellijst opslaan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1696"/>
+        <location filename="../playlist.cpp" line="1703"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -9999,19 +10054,25 @@ Wilt u het overschrijven?</translation>
         <translation>specifieert het te laden ondertitelbestand voor de eerste video.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="101"/>
-        <location filename="../helper.cpp" line="107"/>
+        <location filename="../helper.cpp" line="125"/>
+        <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
+        <translation>
+            <numerusform>%n seconde</numerusform>
+            <numerusform>%n seconden</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="104"/>
-        <location filename="../helper.cpp" line="106"/>
+        <location filename="../helper.cpp" line="128"/>
+        <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
+        <translation>
+            <numerusform>%n minuut</numerusform>
+            <numerusform>%n minuten</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="108"/>
+        <location filename="../helper.cpp" line="132"/>
         <source>%1 and %2</source>
         <translation>%1 en %2</translation>
     </message>

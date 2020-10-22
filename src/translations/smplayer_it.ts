@@ -2303,68 +2303,68 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3198"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3214"/>
         <source>Contrast: %1</source>
         <translation>Contrasto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3226"/>
+        <location filename="../core.cpp" line="3229"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3241"/>
+        <location filename="../core.cpp" line="3244"/>
         <source>Hue: %1</source>
         <translation>Tonalità: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3259"/>
         <source>Saturation: %1</source>
         <translation>Saturazione: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3402"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4361"/>
+        <location filename="../core.cpp" line="4364"/>
         <source>Zoom: %1</source>
         <translation>Zoom %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3527"/>
-        <location filename="../core.cpp" line="3538"/>
+        <location filename="../core.cpp" line="3530"/>
+        <location filename="../core.cpp" line="3541"/>
         <source>Font scale: %1</source>
         <translation>Dimensione carattere: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4192"/>
+        <location filename="../core.cpp" line="4195"/>
         <source>Aspect ratio: %1</source>
         <translation>Rapporto d&apos;aspetto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4599"/>
+        <location filename="../core.cpp" line="4602"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Aggiornamento della cache dei font. Può richiedere alcuni secondi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3452"/>
+        <location filename="../core.cpp" line="3455"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Ritardo sottotitoli: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3470"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Audio delay: %1 ms</source>
         <translation>Ritardo audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3313"/>
         <source>Speed: %1</source>
         <translation>Velocità: %1</translation>
     </message>
@@ -2374,42 +2374,42 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Impossibile recuperare l&apos;indirizzo internet del video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles on</source>
         <translation>Sottotitoli attivi</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3628"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Subtitles off</source>
         <translation>Sottotitoli disabilitati</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4240"/>
+        <location filename="../core.cpp" line="4243"/>
         <source>Mouse wheel seeks now</source>
         <translation>Ora la rotellina fa la ricerca</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4246"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Ora la rotellina cambia il volume</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4249"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Ora la rotellina cambia l&apos;ingrandimento</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Ora la rotellina cambia la velocità</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4575"/>
+        <location filename="../core.cpp" line="4578"/>
         <source>Screenshot saved as %1</source>
         <translation>Schermata salvata come %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4610"/>
+        <location filename="../core.cpp" line="4613"/>
         <source>Starting...</source>
         <translation>Avvio...</translation>
     </message>
@@ -2424,17 +2424,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Schermate NON acquisite, cartella non configurata</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2797"/>
+        <location filename="../core.cpp" line="2800"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marcatore &quot;A&quot; impostato a %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2822"/>
+        <location filename="../core.cpp" line="2825"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Marcatore &quot;B&quot; impostato a %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2845"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>A-B markers cleared</source>
         <translation>Marcatori A-B rimossi</translation>
     </message>
@@ -2447,103 +2447,118 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="699"/>
+        <location filename="../defaultgui.cpp" line="711"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="700"/>
+        <location filename="../defaultgui.cpp" line="712"/>
         <source>Subtitle</source>
         <translation>Sottotitoli</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="692"/>
+        <location filename="../defaultgui.cpp" line="704"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra strumenti &amp;principale</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="696"/>
+        <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra strumenti per le &amp;lingue</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="686"/>
+        <location filename="../defaultgui.cpp" line="698"/>
         <source>&amp;Toolbars</source>
         <translation>Barre s&amp;trumenti</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="665"/>
+        <location filename="../defaultgui.cpp" line="677"/>
         <source>Ready</source>
         <translation>Pronto</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="705"/>
+        <location filename="../defaultgui.cpp" line="717"/>
         <source>F&amp;ormat info</source>
         <translation>Info F&amp;ormato</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="746"/>
+        <location filename="../defaultgui.cpp" line="760"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="750"/>
+        <location filename="../defaultgui.cpp" line="764"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="689"/>
+        <location filename="../defaultgui.cpp" line="701"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Barra di stato</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="703"/>
+        <location filename="../defaultgui.cpp" line="264"/>
+        <source>Time format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="715"/>
         <source>&amp;Video info</source>
         <translation>Info &amp;Video</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="704"/>
+        <location filename="../defaultgui.cpp" line="716"/>
         <source>&amp;Frame counter</source>
         <translation>Contatore di &amp;Fotogrammi</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="706"/>
+        <location filename="../defaultgui.cpp" line="718"/>
         <source>&amp;Bitrate info</source>
         <translation>Info &amp;Bitrate</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="707"/>
+        <location filename="../defaultgui.cpp" line="719"/>
         <source>&amp;Show the current time with milliseconds</source>
         <translation>&amp;Mostra tempo corrente con millisecondi</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="710"/>
+        <location filename="../defaultgui.cpp" line="721"/>
+        <source>Display &amp;total time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="722"/>
+        <source>Display &amp;remaining time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Modifica barra strumenti &amp;principale</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="711"/>
+        <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
         <translation>Modifica barra dei &amp;controlli</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="712"/>
+        <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Modifica barra dei controlli m&amp;ini</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="713"/>
+        <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
         <translation>Modifica controllo &amp;fluttuante</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="760"/>
+        <location filename="../defaultgui.cpp" line="774"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="772"/>
+        <location filename="../defaultgui.cpp" line="786"/>
         <source>V: %1 kbps A: %2 kbps</source>
         <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
@@ -3031,43 +3046,53 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Portoghese - Brasile</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <source>Spanish - Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <source>Spanish - Latin America</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
         <source>All</source>
         <translation>Tutti</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Close</source>
         <translation>Chiudi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
         <source>Subtitles service powered by %1</source>
         <translation>Servizio sottotitoli a cura di %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Connecting...</source>
         <translation>Connessione...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>L&apos;accesso a opensubtitles.org non è riuscito</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
         <source>Search has failed</source>
         <translation>La ricerca non ha funzionato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
         <source>Save File</source>
         <translation>Salva file</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>estratti %n sottotitoli</numerusform>
@@ -3075,48 +3100,48 @@ Esempio: extrastereo,karaoke</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Errore nell&apos;aggiustare le linee dei sottotitoli</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
         <source>&amp;Download</source>
         <translation>&amp;Scarica</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copia link negli appunti</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
         <source>Download failed: %1.</source>
         <translation>Scaricamento fallito: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
         <source>Downloading...</source>
         <translation>Scaricamento...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
         <source>Done.</source>
         <translation>Fatto.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 files available</source>
         <translation>%1 file disponibili</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
         <source>Failed to parse the received data.</source>
         <translation>Lettura dei dati ricevuti fallita.</translation>
     </message>
@@ -3156,30 +3181,30 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Aggio&amp;rna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
         <source>Subtitle saved as %1</source>
         <translation>Sottotitoli salvati come %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
         <source>Overwrite?</source>
         <translation>Sovrascrivi?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Il file %1 esiste già, sovrascrivere?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
         <source>Error saving file</source>
         <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3188,14 +3213,14 @@ nella directory %1
 Controllarne i relativi permessi.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
         <source>Download failed</source>
         <translation>Download fallito</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
         <source>Temporary file %1</source>
         <translation>File temporaneo %1</translation>
     </message>
@@ -4736,77 +4761,93 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
+        <location filename="../mpvoptions.cpp" line="196"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>il filtro &apos;%1&apos; non è supportato da mpv</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="846"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>File:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="849"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Risoluzione:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Fotogrammi per secondo:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Stimato:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="853"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Rapporto d&apos;aspetto:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="854"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="855"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Fotogrammi saltati:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="858"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Velocità di campionamento:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Canali:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="864"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronizzazione audio/video:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Riempimento cache:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Cache usata:</translation>
@@ -4868,6 +4909,15 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>MplayerProcess</name>
+    <message>
+        <location filename="../mplayeroptions.cpp" line="383"/>
+        <location filename="../mplayeroptions.cpp" line="460"/>
+        <source>This option is not supported by MPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4962,37 +5012,37 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Modifica</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
         <source>Playlists</source>
         <translation>Liste di riproduzione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1394"/>
+        <location filename="../playlist.cpp" line="1401"/>
         <source>Choose a file</source>
         <translation>Scegli un file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1430"/>
+        <location filename="../playlist.cpp" line="1437"/>
         <source>Choose a filename</source>
         <translation>Scegli il nome del file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1442"/>
+        <location filename="../playlist.cpp" line="1449"/>
         <source>Confirm overwrite?</source>
         <translation>Confermi sovrascrittura?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1443"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Il file  %1 esiste già.
 Vuoi sovrascriverlo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
-        <location filename="../playlist.cpp" line="1697"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
+        <location filename="../playlist.cpp" line="1704"/>
         <source>All files</source>
         <translation>Tutti i file</translation>
     </message>
@@ -5027,22 +5077,22 @@ Vuoi sovrascriverlo?</translation>
         <translation>Carica/Salva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1694"/>
+        <location filename="../playlist.cpp" line="1701"/>
         <source>Select one or more files to open</source>
         <translation>Selezionare uno o più file da aprire</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1764"/>
+        <location filename="../playlist.cpp" line="1771"/>
         <source>Choose a directory</source>
         <translation>Scegli una cartella</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1959"/>
         <source>Edit name</source>
         <translation>Modifica nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1950"/>
+        <location filename="../playlist.cpp" line="1960"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Inserisci il nome per questo file che sarà visualizzato nella lista di riproduzione:</translation>
     </message>
@@ -5138,7 +5188,7 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="743"/>
-        <location filename="../playlist.cpp" line="1540"/>
+        <location filename="../playlist.cpp" line="1547"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Copia percorso file negli appunti</translation>
     </message>
@@ -5179,52 +5229,52 @@ Vuoi sovrascriverlo?</translation>
         <translation>Ordine casuale colonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1545"/>
+        <location filename="../playlist.cpp" line="1552"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Copia URL negli appunti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1987"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Confirm deletion</source>
         <translation>Conferma eliminazione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1988"/>
+        <location filename="../playlist.cpp" line="1998"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Stai per ELIMINARE il file &apos;%1&apos; dal dispositivo.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1989"/>
+        <location filename="../playlist.cpp" line="1999"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Questa operazione non può essere annullata. Sei sicuro di voler proseguire?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2007"/>
+        <location filename="../playlist.cpp" line="2017"/>
         <source>Deletion failed</source>
         <translation>Eliminazione non riuscita</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2008"/>
+        <location filename="../playlist.cpp" line="2018"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Non è stato possibile eliminare &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2013"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Error deleting the file</source>
         <translation>Errore nell&apos;eliminazione del file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2014"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Non è possibile eliminare &apos;%1&apos; dal file system.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Non è possibile caricare questa playlist</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>Unrecognized format.</source>
         <translation>Formato non riconosciuto</translation>
     </message>
@@ -5239,17 +5289,17 @@ Vuoi sovrascriverlo?</translation>
         <translation>Rimuovi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1475"/>
+        <location filename="../playlist.cpp" line="1482"/>
         <source>Playlist modified</source>
         <translation>Lista di riproduzione modificata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1476"/>
+        <location filename="../playlist.cpp" line="1483"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Ci sono modifiche non salvate. Vuoi salvare la lista di riproduzione?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1696"/>
+        <location filename="../playlist.cpp" line="1703"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -10010,8 +10060,8 @@ Vuoi sovrascriverlo?</translation>
         <translation>specifica il file dei sottotitoli da caricare per il primo video.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="101"/>
-        <location filename="../helper.cpp" line="107"/>
+        <location filename="../helper.cpp" line="125"/>
+        <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n secondo</numerusform>
@@ -10019,8 +10069,8 @@ Vuoi sovrascriverlo?</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="104"/>
-        <location filename="../helper.cpp" line="106"/>
+        <location filename="../helper.cpp" line="128"/>
+        <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
         <translation>
             <numerusform>%n minuto</numerusform>
@@ -10028,7 +10078,7 @@ Vuoi sovrascriverlo?</translation>
         </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="108"/>
+        <location filename="../helper.cpp" line="132"/>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
     </message>

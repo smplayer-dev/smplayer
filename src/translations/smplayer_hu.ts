@@ -2297,68 +2297,68 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3198"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3211"/>
+        <location filename="../core.cpp" line="3214"/>
         <source>Contrast: %1</source>
         <translation>Kontraszt: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3226"/>
+        <location filename="../core.cpp" line="3229"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3241"/>
+        <location filename="../core.cpp" line="3244"/>
         <source>Hue: %1</source>
         <translation>Színárnyalat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3259"/>
         <source>Saturation: %1</source>
         <translation>Telítettség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3399"/>
+        <location filename="../core.cpp" line="3402"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4361"/>
+        <location filename="../core.cpp" line="4364"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3527"/>
-        <location filename="../core.cpp" line="3538"/>
+        <location filename="../core.cpp" line="3530"/>
+        <location filename="../core.cpp" line="3541"/>
         <source>Font scale: %1</source>
         <translation>Betű méret: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4192"/>
+        <location filename="../core.cpp" line="4195"/>
         <source>Aspect ratio: %1</source>
         <translation>Méretarány: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4599"/>
+        <location filename="../core.cpp" line="4602"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Betűkészlet gyorsítótár frissítése. Eltarthat pár másodpercig...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3452"/>
+        <location filename="../core.cpp" line="3455"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Felirat késleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3470"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Audio delay: %1 ms</source>
         <translation>Hangkésleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3313"/>
         <source>Speed: %1</source>
         <translation>Sebesség: %1</translation>
     </message>
@@ -2368,42 +2368,42 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Nem érhető el a videó URL-je</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3626"/>
+        <location filename="../core.cpp" line="3629"/>
         <source>Subtitles on</source>
         <translation>Felirat be</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3628"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Subtitles off</source>
         <translation>Felirat ki</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4240"/>
+        <location filename="../core.cpp" line="4243"/>
         <source>Mouse wheel seeks now</source>
         <translation>Az egér görgő teker</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4246"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Az egér görgő hangerőt változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4249"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Az egér görgő nagyítást változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Az egér görgő sebességet változtat</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4575"/>
+        <location filename="../core.cpp" line="4578"/>
         <source>Screenshot saved as %1</source>
         <translation>Képernyőkép lementve: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4610"/>
+        <location filename="../core.cpp" line="4613"/>
         <source>Starting...</source>
         <translation>Indul...</translation>
     </message>
@@ -2418,17 +2418,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Pillanatképek NEM lettek mentve, célkönyvtár nincs beállítva</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2797"/>
+        <location filename="../core.cpp" line="2800"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2822"/>
+        <location filename="../core.cpp" line="2825"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2845"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>A-B markers cleared</source>
         <translation>A-B jelölők törölve</translation>
     </message>
@@ -2441,103 +2441,118 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="699"/>
+        <location filename="../defaultgui.cpp" line="711"/>
         <source>Audio</source>
         <translation>Hang</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="700"/>
+        <location filename="../defaultgui.cpp" line="712"/>
         <source>Subtitle</source>
         <translation>Felirat</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="692"/>
+        <location filename="../defaultgui.cpp" line="704"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Fő eszköztár</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="696"/>
+        <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Nyelvi eszköztár</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="686"/>
+        <location filename="../defaultgui.cpp" line="698"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Eszköztárak</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="665"/>
+        <location filename="../defaultgui.cpp" line="677"/>
         <source>Ready</source>
         <translation>Kész</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="705"/>
+        <location filename="../defaultgui.cpp" line="717"/>
         <source>F&amp;ormat info</source>
         <translation>F&amp;ormátum információ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="746"/>
+        <location filename="../defaultgui.cpp" line="760"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="750"/>
+        <location filename="../defaultgui.cpp" line="764"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="689"/>
+        <location filename="../defaultgui.cpp" line="701"/>
         <source>Status&amp;bar</source>
         <translation>Álla&amp;potsáv</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="703"/>
+        <location filename="../defaultgui.cpp" line="264"/>
+        <source>Time format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="715"/>
         <source>&amp;Video info</source>
         <translation>&amp;Videó infó</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="704"/>
+        <location filename="../defaultgui.cpp" line="716"/>
         <source>&amp;Frame counter</source>
         <translation>Képko&amp;ckaszámláló</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="706"/>
+        <location filename="../defaultgui.cpp" line="718"/>
         <source>&amp;Bitrate info</source>
         <translation>&amp;Bitráta információ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="707"/>
+        <location filename="../defaultgui.cpp" line="719"/>
         <source>&amp;Show the current time with milliseconds</source>
         <translation>Mutassa az időt &amp;milliszekundumban</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="710"/>
+        <location filename="../defaultgui.cpp" line="721"/>
+        <source>Display &amp;total time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="722"/>
+        <source>Display &amp;remaining time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Fő &amp;eszköztár szerkesztése</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="711"/>
+        <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
         <translation>&amp;Vezérlési sáv szerkesztése</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="712"/>
+        <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>M&amp;ini vezérlősáv szerkesztése</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="713"/>
+        <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
         <translation>A &amp;lebegő sáv szerkesztése</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="760"/>
+        <location filename="../defaultgui.cpp" line="774"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="772"/>
+        <location filename="../defaultgui.cpp" line="786"/>
         <source>V: %1 kbps A: %2 kbps</source>
         <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
@@ -3028,91 +3043,101 @@ Példa: extrastereo,karaoke </translation>
         <translation>Portugál - Brazil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <source>Spanish - Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <source>Spanish - Latin America</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
         <source>All</source>
         <translation>Mind</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="280"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Close</source>
         <translation>Bezár</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
         <source>Subtitles service powered by %1</source>
         <translation>A feliratokat biztosítja a %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="394"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Connecting...</source>
         <translation>Kapcsolódás...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Nem sikerült bejelentkezni az opensubtitles.org kiszolgálóra</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
         <source>Search has failed</source>
         <translation>A keresés nem sikerült</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="574"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
         <source>Save File</source>
         <translation>Fájl mentése</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="764"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n felirat kinyerve</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="824"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Nem sikerült kijavítani a feliratsorokat</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="284"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
         <source>&amp;Download</source>
         <translation>&amp;Letöltés</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Hivatkozás másolása vágólapra</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
         <source>Error</source>
         <translation>Hiba</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="389"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
         <source>Download failed: %1.</source>
         <translation>Letöltési hiba: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="418"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
         <source>Downloading...</source>
         <translation>Letöltés...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="426"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
         <source>Done.</source>
         <translation>Kész.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="472"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>%1 files available</source>
         <translation>%1 fájl érhető el</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
         <source>Failed to parse the received data.</source>
         <translation>Hiba az érkezett adatok olvasása közben.</translation>
     </message>
@@ -3152,44 +3177,44 @@ Példa: extrastereo,karaoke </translation>
         <translation>F&amp;rissítés</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="741"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
         <source>Subtitle saved as %1</source>
         <translation>Felirat elmentve %1 néven</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="778"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
         <source>Overwrite?</source>
         <translation>Felülírja?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="779"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>%1 fájl már létezik, felül akarja írni?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="588"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="696"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
         <source>Error saving file</source>
         <translation>Hiba a fájl mentése közben</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="589"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nem sikerült elmenteni a letöltött fájlt a %1 könyvtárba. Ellenőrizze a könyvtár jogosultságait.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="690"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
         <source>Download failed</source>
         <translation>Letöltés sikertelen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
         <source>Temporary file %1</source>
         <translation>Átmeneti fájl: %1</translation>
     </message>
@@ -4730,77 +4755,93 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>MPVProcess</name>
     <message>
+        <location filename="../mpvoptions.cpp" line="196"/>
         <location filename="../mpvprocess.h" line="201"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>A &apos;%1&apos; szűrőt nem támogatja az mpv</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="846"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Fájl:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="849"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Videó:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Felbontás:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Képkocka per másodperc:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Becsült idő:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="853"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Méretarány:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="854"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Bitráta:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="855"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Eldobott képkockák:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="858"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Audió:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Mintavétel:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Csatornák:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="864"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Audió/videó szinkronizáció:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Gyorstárfeltöltés:</translation>
     </message>
     <message>
+        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Felhasznált gyorstár:</translation>
@@ -4862,6 +4903,15 @@ Valóban felül akarja írni?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>MplayerProcess</name>
+    <message>
+        <location filename="../mplayeroptions.cpp" line="383"/>
+        <location filename="../mplayeroptions.cpp" line="460"/>
+        <source>This option is not supported by MPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4956,37 +5006,37 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Szerkesztés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
         <source>Playlists</source>
         <translation>Lejátszási listák</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1394"/>
+        <location filename="../playlist.cpp" line="1401"/>
         <source>Choose a file</source>
         <translation>Válasszon egy fájlt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1430"/>
+        <location filename="../playlist.cpp" line="1437"/>
         <source>Choose a filename</source>
         <translation>Válasszon egy fájlnevet</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1442"/>
+        <location filename="../playlist.cpp" line="1449"/>
         <source>Confirm overwrite?</source>
         <translation>Valóban felülírja?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1443"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>%1 fájl már létezik.
 Valóban felül akarja írni?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1396"/>
-        <location filename="../playlist.cpp" line="1432"/>
-        <location filename="../playlist.cpp" line="1697"/>
+        <location filename="../playlist.cpp" line="1403"/>
+        <location filename="../playlist.cpp" line="1439"/>
+        <location filename="../playlist.cpp" line="1704"/>
         <source>All files</source>
         <translation>Minden fájl</translation>
     </message>
@@ -5021,22 +5071,22 @@ Valóban felül akarja írni?</translation>
         <translation>Betöltés/Mentés</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1694"/>
+        <location filename="../playlist.cpp" line="1701"/>
         <source>Select one or more files to open</source>
         <translation>Válasszon ki egy vagy több megnyitandó fájlt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1764"/>
+        <location filename="../playlist.cpp" line="1771"/>
         <source>Choose a directory</source>
         <translation>Válasszon egy könyvtárat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1949"/>
+        <location filename="../playlist.cpp" line="1959"/>
         <source>Edit name</source>
         <translation>Név szerkesztése</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1950"/>
+        <location filename="../playlist.cpp" line="1960"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Írjon be egy nevet ami a lejátszási listában meg lesz jelenítve ehhez a fájlhoz:</translation>
     </message>
@@ -5132,7 +5182,7 @@ Valóban felül akarja írni?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="743"/>
-        <location filename="../playlist.cpp" line="1540"/>
+        <location filename="../playlist.cpp" line="1547"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Fájl elérési útvonalának kimásolása</translation>
     </message>
@@ -5173,52 +5223,52 @@ Valóban felül akarja írni?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1545"/>
+        <location filename="../playlist.cpp" line="1552"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;URL vágólapra másolása</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1987"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Confirm deletion</source>
         <translation>Törlés megerősítése</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1988"/>
+        <location filename="../playlist.cpp" line="1998"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>A következő fájl törlésére készül: &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1989"/>
+        <location filename="../playlist.cpp" line="1999"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Ezt a művelet nem lehet utólag visszavonni. Biztosan folytatni szeretné?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2007"/>
+        <location filename="../playlist.cpp" line="2017"/>
         <source>Deletion failed</source>
         <translation>A törlés nem sikerült</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2008"/>
+        <location filename="../playlist.cpp" line="2018"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Nem sikerült törölni: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2013"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Error deleting the file</source>
         <translation>A fájl törlése nem sikerült</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2014"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Nem sikerült törölni ezt a fájlt: &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Nem sikerült betölteni ezt a lejátszási listát</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2508"/>
+        <location filename="../playlist.cpp" line="2520"/>
         <source>Unrecognized format.</source>
         <translation>Ismeretlen formátum</translation>
     </message>
@@ -5233,17 +5283,17 @@ Valóban felül akarja írni?</translation>
         <translation>Eltávolítás...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1475"/>
+        <location filename="../playlist.cpp" line="1482"/>
         <source>Playlist modified</source>
         <translation>Lejátszási lista módosítva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1476"/>
+        <location filename="../playlist.cpp" line="1483"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Vannak el nem mentett változások, el akarja menteni a listát?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1696"/>
+        <location filename="../playlist.cpp" line="1703"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
@@ -10004,23 +10054,23 @@ Valóban felül akarja írni?</translation>
         <translation>meghatározza az első videóhoz betöltendő felirat fájlt.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="101"/>
-        <location filename="../helper.cpp" line="107"/>
+        <location filename="../helper.cpp" line="125"/>
+        <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n másodperc</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="104"/>
-        <location filename="../helper.cpp" line="106"/>
+        <location filename="../helper.cpp" line="128"/>
+        <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
         <translation>
             <numerusform>%n perc</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="108"/>
+        <location filename="../helper.cpp" line="132"/>
         <source>%1 and %2</source>
         <translation>%1 és %2</translation>
     </message>
