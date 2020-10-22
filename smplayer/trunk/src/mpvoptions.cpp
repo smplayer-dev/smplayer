@@ -862,8 +862,10 @@ void MPVProcess::displayInfoOnOSD() {
 		nl +
 
 		b1 + tr("Audio/video synchronization:") + b0 + " ${avsync}" + nl +
-		b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
-		b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl;
+		//b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
+		//b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl
+		b1 + tr("Cache (in seconds):") + b0 + " ${demuxer-cache-time:0}" + nl +
+		b1 + tr("Cache speed:") + b0 + " ${cache-speed:0}" + nl;
 
 	if (!osd_media_info.isEmpty()) s = osd_media_info;
 
