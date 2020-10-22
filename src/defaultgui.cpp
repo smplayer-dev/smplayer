@@ -194,8 +194,15 @@ void DefaultGui::createActions() {
 	useMillisecondsAct = new MyAction( this, "use_milliseconds" );
 	useMillisecondsAct->setCheckable( true );
 
-	displayRemainingTimeAct = new MyAction( this, "display_remaining_time" );
+	displayTotalTimeAct = new MyAction( this, "statusbar_total_time" );
+	displayTotalTimeAct->setCheckable( true );
+
+	displayRemainingTimeAct = new MyAction( this, "statusbar_remaining_time" );
 	displayRemainingTimeAct->setCheckable( true );
+
+	timeGroup = new QActionGroup(this);
+	timeGroup->addAction(displayTotalTimeAct);
+	timeGroup->addAction(displayRemainingTimeAct);
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
@@ -254,8 +261,9 @@ void DefaultGui::createMenus() {
 	statusbar_menu->addAction(viewFormatInfoAct);
 	statusbar_menu->addAction(viewBitrateInfoAct);
 	statusbar_menu->addAction(viewFrameCounterAct);
+	statusbar_menu->addSeparator()->setText(tr("Time format"));
+	statusbar_menu->addActions(timeGroup->actions());
 	statusbar_menu->addAction(useMillisecondsAct);
-	statusbar_menu->addAction(displayRemainingTimeAct);
 
 	populateMainMenu();
 }
@@ -709,7 +717,9 @@ void DefaultGui::retranslateStrings() {
 	viewFormatInfoAct->change( Images::icon("view_format_info"), tr("F&ormat info") );
 	viewBitrateInfoAct->change( Images::icon("view_bitrate_info"), tr("&Bitrate info") );
 	useMillisecondsAct->change( Images::icon("use_milliseconds"), tr("&Show the current time with milliseconds") );
-	displayRemainingTimeAct->change( Images::icon("display_remaining_time"), tr("Display &remaining time") );
+
+	displayTotalTimeAct->change( Images::icon("statusbar_total_time"), tr("Display &total time") );
+	displayRemainingTimeAct->change( Images::icon("status_remaining_time"), tr("Display &remaining time") );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );

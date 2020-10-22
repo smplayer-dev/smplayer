@@ -154,6 +154,9 @@ protected:
 	MyAction * viewFormatInfoAct;
 	MyAction * viewBitrateInfoAct;
 	MyAction * useMillisecondsAct;
+
+	QActionGroup * timeGroup;
+	MyAction * displayTotalTimeAct;
 	MyAction * displayRemainingTimeAct;
 
 #if USE_CONFIGURABLE_TOOLBARS
