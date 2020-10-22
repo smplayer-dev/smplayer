@@ -93,6 +93,30 @@ QString Helper::formatTime2(double secs) {
 	return QString("%1%2:%3:%4.%5").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0')).arg(milliseconds, 3, 10, QChar('0'));
 }
 
+QString Helper::formatTimes(double current_sec, double total_time, bool use_milliseconds, bool use_remaining_time) {
+	QString time;
+
+	if (use_milliseconds) {
+		time = formatTime2(current_sec);
+	} else {
+		time = formatTime((int) current_sec);
+	}
+
+	time += " / ";
+
+	if (!use_remaining_time) {
+		time += formatTime((int) total_time);
+	} else {
+		int remaining_time = (int) total_time - current_sec;
+		if (remaining_time < 0) remaining_time = 0;
+		time += formatTime(remaining_time);
+	}
+
+	//qDebug() << "Helper::formatTimes:" << time;
+
+	return time;
+}
+
 QString Helper::timeForJumps(int secs) {
     int minutes = (int) secs / 60;
 	int seconds = secs % 60;

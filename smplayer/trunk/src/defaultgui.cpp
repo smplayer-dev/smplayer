@@ -730,21 +730,12 @@ void DefaultGui::displayTime(double sec) {
 	static int last_second = 0;
 	QString time;
 
-	if (useMillisecondsAct->isChecked()) {
-		time = Helper::formatTime2(sec);
-	} else {
+	if (!useMillisecondsAct->isChecked()) {
 		if (qFloor(sec) == last_second) return; // Update only once per second
 		last_second = qFloor(sec);
-		time = Helper::formatTime( (int) sec );
 	}
 
-	time += " / ";
-
-	if (!displayRemainingTimeAct->isChecked()) {
-		time += Helper::formatTime( (int) core->mdat.duration );
-	} else {
-		time += Helper::formatTime( (int) core->mdat.duration - sec);
-	}
+	time = Helper::formatTimes(sec, core->mdat.duration, useMillisecondsAct->isChecked(), displayRemainingTimeAct->isChecked());
 	time_display->setText(time);
 }
 

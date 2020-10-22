@@ -39,6 +39,8 @@ public:
 	// Format a time (hh:mm:ss.cc)
 	static QString formatTime2(double secs);
 
+	static QString formatTimes(double current_sec, double total_time, bool use_milliseconds, bool use_remaining_time);
+
 	static QString timeForJumps(int secs);
 
 	// Give a name for config (group name) based on dvd id
