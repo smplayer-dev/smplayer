@@ -1043,6 +1043,7 @@ void DefaultGui::loadConfig() {
 	viewBitrateInfoAct->setChecked(set->value("bitrate_info", false).toBool());
 	useMillisecondsAct->setChecked(set->value("use_milliseconds", false).toBool());
 	displayRemainingTimeAct->setChecked(set->value("display_remaining_time", false).toBool());
+	displayTotalTimeAct->setChecked(!displayRemainingTimeAct->isChecked());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
