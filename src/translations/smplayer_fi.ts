@@ -2285,11 +2285,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Haluatko jatkaa?</translation>
+        <translation>Haluatko jatkaa?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -2497,7 +2493,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajan muoto</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2522,12 +2518,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä &amp;kokonaisaika</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä &amp;aikaa jäljellä</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3046,12 +3042,12 @@ Esimerkki: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Espanja - Espanja</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Espanja - Latinalainen Amerikka</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
@@ -4839,13 +4835,21 @@ Haluatko kirjoittaa sen päälle?</translation>
         <translation>Äänen/videon synkronointi:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="865"/>
+        <location filename="../mpvoptions.cpp" line="867"/>
+        <source>Cache (in seconds):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mpvoptions.cpp" line="868"/>
+        <source>Cache speed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Puskurin täyttyminen:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Käytetty puskuri:</translation>
@@ -4915,7 +4919,7 @@ Haluatko kirjoittaa sen päälle?</translation>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer ei tue tätä</translation>
     </message>
 </context>
 <context>

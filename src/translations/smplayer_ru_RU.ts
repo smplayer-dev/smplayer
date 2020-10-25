@@ -2285,11 +2285,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Хотите продолжить?</translation>
+        <translation>Хотите продолжить?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -2497,7 +2493,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат времени</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2522,12 +2518,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать &amp;общее время</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать ос&amp;тавшееся время</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3046,12 +3042,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Испанский - Испания</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Испанский - Латинская Америка</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
@@ -4840,13 +4836,21 @@ Do you want to overwrite?</source>
         <translation>Синхронизация аудио/видео:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="865"/>
+        <location filename="../mpvoptions.cpp" line="867"/>
+        <source>Cache (in seconds):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mpvoptions.cpp" line="868"/>
+        <source>Cache speed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Заполнение кэша:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Использованный кэш:</translation>
@@ -4916,7 +4920,7 @@ Do you want to overwrite?</source>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот параметр не поддерживается в MPlayer</translation>
     </message>
 </context>
 <context>

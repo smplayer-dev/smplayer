@@ -2285,11 +2285,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Möchten Sie fortfahren?</translation>
+        <translation>Möchten Sie fortfahren?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -4839,13 +4835,21 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Audio/Video-Synchronisation:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="865"/>
+        <location filename="../mpvoptions.cpp" line="867"/>
+        <source>Cache (in seconds):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mpvoptions.cpp" line="868"/>
+        <source>Cache speed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Zwischenspeicherbelegung:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Belegter Zwischenspeicher:</translation>

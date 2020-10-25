@@ -2285,11 +2285,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">Czy chcesz kontynuować?</translation>
+        <translation>Czy chcesz kontynuować?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -4840,13 +4836,21 @@ Czy chcesz go zastąpić?</translation>
         <translation>Synchronizacja audio/wideo:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="865"/>
+        <location filename="../mpvoptions.cpp" line="867"/>
+        <source>Cache (in seconds):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mpvoptions.cpp" line="868"/>
+        <source>Cache speed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Cache fill:</source>
         <translation>Wypełnienie buforu:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="866"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Used cache:</source>
         <translation>Użyty bufor:</translation>
