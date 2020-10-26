@@ -948,10 +948,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Log del SMPlayer</translation>
     </message>
     <message>
-        <source>Update the &amp;YouTube code</source>
-        <translation type="obsolete">Actualizar el código de &amp;YouTube</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2228"/>
         <location filename="../basegui.cpp" line="2229"/>
         <location filename="../basegui.cpp" line="2230"/>
@@ -1388,34 +1384,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Incluso la cantidad más pequeña sería de mucha ayuda.</translation>
     </message>
     <message>
-        <source>Connection failed</source>
-        <translation type="obsolete">Error en la conexión</translation>
-    </message>
-    <message>
-        <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="obsolete">El vídeo que has solicitado necesita abrir una conexión HTTPS.</translation>
-    </message>
-    <message>
-        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Lamentablemente el componente OpenSSL, que es necesario para ello, no se encuentra en tu sistema.</translation>
-    </message>
-    <message>
-        <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="obsolete">Por favor visita %1 para obtener información para solucionar el problema.</translation>
-    </message>
-    <message>
-        <source>this link</source>
-        <translation type="obsolete">este enlace</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="obsolete">Lamentablemente debido a cambios en Youtube, no es posible reproducir este vídeo.</translation>
-    </message>
-    <message>
-        <source>Problems with Youtube</source>
-        <translation type="obsolete">Problemas con Youtube</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="6053"/>
         <location filename="../basegui.cpp" line="6106"/>
         <source>More info in the log.</source>
@@ -1499,18 +1467,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="6383"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Recordar mi decisión y no volver a preguntar</translation>
-    </message>
-    <message>
-        <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="obsolete">Lamentablemente debido a cambios en Youtube, no es posible reproducir el vídeo &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="obsolete">¿Quieres actualizar el código de Youtube? Esto podría solucionar el problema.</translation>
-    </message>
-    <message>
-        <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="obsolete">Quizás el problema se podría solucionar actualizando el SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2194"/>
@@ -2317,15 +2273,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Instalar / Actualizar el soporte para YouTube</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="211"/>
-        <source>Would you like to proceed?</source>
-        <translation>¿Quieres continuar?</translation>
-    </message>
-    <message>
-        <source>Install/Update YouTube support</source>
-        <translation type="obsolete">Instalar / Actualizar el soporte para YouTube</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 puede descargar e instalar esta aplicación.</translation>
@@ -2336,8 +2283,9 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Se descargará de la web oficial y se instalará en %1.</translation>
     </message>
     <message>
-        <source>Would you like to proceeed?</source>
-        <translation type="obsolete">¿Quieres continuar?</translation>
+        <location filename="../youtube/codedownloader.cpp" line="211"/>
+        <source>Would you like to proceed?</source>
+        <translation>¿Quieres continuar?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -2413,10 +2361,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../core.cpp" line="3313"/>
         <source>Speed: %1</source>
         <translation>Velocidad: %1</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve the Youtube page</source>
-        <translation type="obsolete">No es posible cargar la página de Youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="589"/>
@@ -3016,10 +2960,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>Credenciales de Opensubtitles</translation>
     </message>
     <message>
-        <source>Pass&amp;word:</source>
-        <translation type="obsolete">Contra&amp;seña:</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
         <translation>Acti&amp;var proxy</translation>
@@ -3095,58 +3035,68 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>Subido por</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugués - Brasil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
         <translation>Español - España</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
+        <source>Spanish</source>
+        <translation>Español</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
+        <source>Portuguese</source>
+        <translation>Portugués</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
         <translation>Español - Latinoamérica</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>All</source>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
         <source>Close</source>
         <translation>Cerrar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="322"/>
         <source>Subtitles service powered by %1</source>
         <translation>Servicio de subtítulos proporcionado por %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
         <source>Connecting...</source>
         <translation>Conectando...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="423"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>No se ha podido iniciar sesión en opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="427"/>
         <source>Search has failed</source>
         <translation>La búsqueda ha fallado</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
         <source>Save File</source>
         <translation>Guardar fichero</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n subtítulo extraido</numerusform>
@@ -3154,48 +3104,48 @@ Ejemplo: extrastereo,karaoke</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Error al reparar las líneas del subtítulo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>&amp;Download</source>
         <translation>&amp;Descargar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="304"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copiar enlace al portapapeles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="407"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
         <source>Download failed: %1.</source>
         <translation>La descarga ha fallado: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="437"/>
         <source>Downloading...</source>
         <translation>Descargando...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="445"/>
         <source>Done.</source>
         <translation>Hecho.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
         <source>%1 files available</source>
         <translation>%1 ficheros disponibles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="500"/>
         <source>Failed to parse the received data.</source>
         <translation>No se ha podido interpretar los datos recibidos.</translation>
     </message>
@@ -3235,30 +3185,30 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>&amp;Refrescar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="612"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="760"/>
         <source>Subtitle saved as %1</source>
         <translation>Subtítulo grabado como %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="797"/>
         <source>Overwrite?</source>
         <translation>¿Sobreescribir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="798"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>El fichero %1 ya existe, ¿sobreescribir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="607"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>Error saving file</source>
         <translation>Error al grabar el fichero</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3267,14 +3217,14 @@ en la carpeta %1
 Por favor verifica los permisos de esa carpeta.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="563"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
         <source>Download failed</source>
         <translation>La descarga ha fallado</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="693"/>
         <source>Temporary file %1</source>
         <translation>Fichero temporal %1</translation>
     </message>
@@ -4916,13 +4866,6 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
-    <name>MediaBarPanel</name>
-    <message>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
-</context>
-<context>
     <name>MediaPanel</name>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="246"/>
@@ -4933,13 +4876,6 @@ Do you want to overwrite?</source>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
         <source>Repeat playlist</source>
         <translation>Repetir la lista de reproducción</translation>
-    </message>
-</context>
-<context>
-    <name>MediaPanelClass</name>
-    <message>
-        <source>MediaPanel</source>
-        <translation type="obsolete">MediaPanel</translation>
     </message>
 </context>
 <context>

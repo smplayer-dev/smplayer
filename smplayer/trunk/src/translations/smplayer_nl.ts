@@ -3035,58 +3035,68 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Geupload door</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugees - Brazilië</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
+        <source>Spanish</source>
+        <translation type="unfinished">Spaans</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
+        <source>Portuguese</source>
+        <translation type="unfinished">Portugees</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="273"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
         <source>All</source>
         <translation>Alles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="299"/>
         <source>Close</source>
         <translation>Sluiten</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="322"/>
         <source>Subtitles service powered by %1</source>
         <translation>Ondertitelingsdienst mede mogelijk gemaakt door %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
         <source>Connecting...</source>
         <translation>Verbinden...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="406"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="423"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Inloggen op opensubtitles.org is mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="410"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="427"/>
         <source>Search has failed</source>
         <translation>Zoeken is mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="576"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
         <source>Save File</source>
         <translation>Bestand opslaan</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="766"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n ondertiteling(en) uitgepakt</numerusform>
@@ -3094,48 +3104,48 @@ Voorbeeld: extrastereo,karaoke</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="826"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Het repareren van de ondertiteling is mislukt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="286"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>&amp;Download</source>
         <translation>&amp;Downloaden</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="304"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>Link naar klembord &amp;kopiëren</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="390"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="407"/>
         <source>Error</source>
         <translation>Foutmelding</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="408"/>
         <source>Download failed: %1.</source>
         <translation>Downloaden mislukt: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="420"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="437"/>
         <source>Downloading...</source>
         <translation>Bezig met downloaden...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="428"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="445"/>
         <source>Done.</source>
         <translation>Klaar.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
         <source>%1 files available</source>
         <translation>%1 bestanden beschikbaar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="483"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="500"/>
         <source>Failed to parse the received data.</source>
         <translation>Gedownloade gegevens verwerken mislukt.</translation>
     </message>
@@ -3175,30 +3185,30 @@ Voorbeeld: extrastereo,karaoke</translation>
         <translation>Ve&amp;rnieuwen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="743"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="612"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="760"/>
         <source>Subtitle saved as %1</source>
         <translation>Ondertitel opgeslagen als %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="780"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="797"/>
         <source>Overwrite?</source>
         <translation>Overschrijven?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="781"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="798"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Het bestand %1 bestaat al, wilt u het overschrijven?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="590"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="698"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="607"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="715"/>
         <source>Error saving file</source>
         <translation>Fout bij opslaan van het bestand</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="591"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="699"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3207,14 +3217,14 @@ in de map %1 op te slaan
 Controleer a.u.b. de toegangsrechten van die map.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="388"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="692"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="563"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
         <source>Download failed</source>
         <translation>Downloaden mislukt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="676"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="693"/>
         <source>Temporary file %1</source>
         <translation>Tijdelijk bestand %1</translation>
     </message>
