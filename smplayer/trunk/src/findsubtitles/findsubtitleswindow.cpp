@@ -251,11 +251,18 @@ void FindSubtitlesWindow::retranslateStrings() {
 	QMapIterator<QString, QString> i1(l1);
 	while (i1.hasNext()) {
 		i1.next();
-		language_filter->addItem( i1.value() + " (" + i1.key() + ")", i1.key() );
+		if (i1.key() == "es") {
+			language_filter->addItem( tr("Spanish") + " (es,sp,ea)", "es|sp|ea");
+		}
+		else
+		if (i1.key() == "pt") {
+			language_filter->addItem( tr("Portuguese") + " (pt,pb,pm)", "pt|pb|pm");
+		}
+		else {
+			language_filter->addItem( i1.value() + " (" + i1.key() + ")", i1.key() );
+		}
 	}
-	language_filter->addItem( tr("Portuguese - Brasil") + " (pb)", "pb");
-	language_filter->addItem( tr("Spanish - Spain") + " (sp)", "sp");
-	language_filter->addItem( tr("Spanish - Latin America") + " (ea)", "ea");
+
 	language_filter->model()->sort(0);
 	#if QT_VERSION >= 0x040400
 	language_filter->insertSeparator(language_filter->count());
@@ -266,7 +273,17 @@ void FindSubtitlesWindow::retranslateStrings() {
 	while (i2.hasNext()) {
 		i2.next();
 		if (language_filter->findData(i2.key()) == -1) {
-			language_filter->addItem( i2.value() + " (" + i2.key() + ")", i2.key() );
+			if (i2.key() == "es") {
+				language_filter->addItem( tr("Spanish - Spain") + " (sp)", "sp");
+				language_filter->addItem( tr("Spanish - Latin America") + " (ea)", "ea");
+			}
+			else
+			if (i2.key() == "pt") {
+				language_filter->addItem( tr("Portuguese - Brasil") + " (pb)", "pb");
+			}
+			else {
+				language_filter->addItem( i2.value() + " (" + i2.key() + ")", i2.key() );
+			}
 		}
 	}
 	//language_filter->model()->sort(0);
@@ -364,7 +381,7 @@ void FindSubtitlesWindow::currentItemChanged(const QModelIndex & current, const 
 }
 
 void FindSubtitlesWindow::applyFilter(const QString & filter) {
-	proxy_model->setFilterWildcard(filter);
+	proxy_model->setFilterRegExp(filter);
 }
 
 void FindSubtitlesWindow::applyCurrentFilter() {
