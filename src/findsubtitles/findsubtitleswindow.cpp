@@ -287,7 +287,7 @@ void FindSubtitlesWindow::retranslateStrings() {
 		}
 	}
 	//language_filter->model()->sort(0);
-	language_filter->insertItem( 0, tr("All"), "*" );
+	language_filter->insertItem( 0, tr("All"), "" );
 	#if QT_VERSION >= 0x040400
 	language_filter->insertSeparator(1);
 	#endif
