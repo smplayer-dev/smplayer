@@ -229,7 +229,7 @@ void TimeLabelAction::updateText() {
 	QString ct = Helper::formatTime(current_time);
 	QString tt = Helper::formatTime(total_time);
 	QString rt;
-	if (total_time < 1) rt = "00:00:00"; else rt = "-" + Helper::formatTime(total_time - current_time);
+	if (total_time < 1) rt = "00:00:00"; else rt = Helper::formatTime(total_time - current_time);
 
 	switch (label_type) {
 		case CurrentTime: setText(ct); break;
