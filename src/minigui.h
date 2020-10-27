@@ -81,6 +81,9 @@ protected:
 	VolumeSliderAction * volumeslider_action;
 #endif
 	TimeLabelAction * time_label_action;
+	TimeLabelAction * current_time_label_action;
+	TimeLabelAction * total_time_label_action;
+	TimeLabelAction * remaining_time_label_action;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editControlAct;
