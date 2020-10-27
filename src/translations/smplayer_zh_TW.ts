@@ -3047,12 +3047,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">西班牙文</translation>
+        <translation>西班牙文</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">葡萄牙文</translation>
+        <translation>葡萄牙文</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
@@ -4880,17 +4880,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>控制列</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>編輯控制列(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>編輯浮動控制列(&amp;F)</translation>
     </message>

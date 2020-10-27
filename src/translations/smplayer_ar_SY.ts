@@ -4883,17 +4883,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>شريط التحكم</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>عدّل شريط المتح&amp;كمات</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>عدّل المتحكمات ال&amp;طافية</translation>
     </message>

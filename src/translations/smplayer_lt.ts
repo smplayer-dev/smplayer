@@ -4881,17 +4881,17 @@ Norite perrašyti?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>Kontrolinė juosta</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>Keisti &amp;valdymo juostą</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>

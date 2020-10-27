@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Fai clic qui per conoscere la squadra di traduttori su transifex</translation>
+        <translation>Fai click qui per conoscere la squadra dei traduttori su transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Vai su %1 e unisciti al gruppo di traduzione.</translation>
+        <translation>Vai su %1 e unisciti al gruppo dei traduttori.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../about.ui" line="94"/>
         <source>&amp;Contributions</source>
-        <translation>&amp;Contributi</translation>
+        <translation>&amp;Contributori</translation>
     </message>
     <message>
         <location filename="../about.ui" line="150"/>
@@ -1821,7 +1821,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2186"/>
         <source>DVD menu, mouse click</source>
-        <translation>Menu DVD, clic del mouse</translation>
+        <translation>Menu DVD, click del mouse</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1805"/>
@@ -2732,7 +2732,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../filechooser.cpp" line="55"/>
         <source>Click to select a file or folder</source>
-        <translation>Fai clic per selezionare un file o una cartella</translation>
+        <translation>Fai click per selezionare un file o una cartella</translation>
     </message>
 </context>
 <context>
@@ -3049,12 +3049,12 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spagnolo</translation>
+        <translation>Spagnolo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portoghese</translation>
+        <translation>Portoghese</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
@@ -4883,17 +4883,17 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>Barra dei controlli</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>Modifica barra dei &amp;controlli</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>Modifica controlli &amp;fluttuanti</translation>
     </message>
@@ -5629,7 +5629,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>Se selezioni questa opzione, la finestra video di %1 non sarà incorporata nella finestra principale di SMPlayer ma invece userà una finestra separata. Notare che gli eventi mouse e tastiera verranno gestiti direttamente da %1, vale a dire che probabilmente le scorciatoie e i clic del mouse non funzioneranno come previsto quando la finestra %1 è attiva.</translation>
+        <translation>Se selezioni questa opzione, la finestra video di %1 non sarà incorporata nella finestra principale di SMPlayer ma invece userà una finestra separata. Notare che gli eventi mouse e tastiera verranno gestiti direttamente da %1, vale a dire che probabilmente le scorciatoie e i click del mouse non funzioneranno come previsto quando la finestra %1 è attiva.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
@@ -6945,7 +6945,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>Non &amp;innescare l&apos;azione clic sinistro con un doppio clic</translation>
+        <translation>Non &amp;innescare l&apos;azione click sinistro con un doppio click</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
@@ -6979,17 +6979,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Qui è possibile cambiare le scorciatoie da tastiera. Per farlo, fare doppio clic o scrivere nella cella corrispondente. Opzionalmente, salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
+        <translation>Qui è possibile cambiare le scorciatoie da tastiera. Per farlo, fare doppio click o scrivere nella cella corrispondente. Opzionalmente, salvare la lista per condividerla con altre persone o utilizzarla su un altro computer.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="177"/>
         <source>&amp;Left click</source>
-        <translation>Clic &amp;sinistro</translation>
+        <translation>Click &amp;sinistro</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="200"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Doppio clic</translation>
+        <translation>&amp;Doppio click</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="321"/>
@@ -7009,22 +7009,22 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Left click</source>
-        <translation>Clic sinistro</translation>
+        <translation>Click sinistro</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Selezionare l&apos;azione per il clic sinistro del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il click sinistro del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="402"/>
         <source>Double click</source>
-        <translation>Doppio clic</translation>
+        <translation>Doppio click</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Selezionare l&apos;azione per il doppio clic del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il doppio click del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="414"/>
@@ -7140,17 +7140,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="405"/>
         <source>Middle click</source>
-        <translation>Clic centrale</translation>
+        <translation>Click centrale</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Selezionare l&apos;azione per il clic centrale del mouse.</translation>
+        <translation>Selezionare l&apos;azione per il click centrale del mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="246"/>
         <source>M&amp;iddle click</source>
-        <translation>Cl&amp;ic centrale</translation>
+        <translation>Cl&amp;ick centrale</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="259"/>
@@ -7205,7 +7205,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.ui" line="223"/>
         <source>&amp;Right click</source>
-        <translation>Clic dest&amp;ro</translation>
+        <translation>Click dest&amp;ro</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
@@ -7367,17 +7367,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation>Non innescare la funzione clic sinistro con un doppio clic</translation>
+        <translation>Non innescare la funzione click sinistro con un doppio click</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>Se questa opzione è abilitata, quando fai doppio clic sull&apos;area video verrà innescata solo la funzione doppio clic. L&apos;azione clic sinistro non verrà attivata.</translation>
+        <translation>Se questa opzione è abilitata, quando fai doppio click sull&apos;area video verrà innescata solo la funzione doppio click. L&apos;azione click sinistro non verrà attivata.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation>Abilitando questa opzione il clic sinistro viene rallentato di %1 millisecondi perché è necessario aspettare questo tempo per sapere se c&apos;è o meno un doppio clic.</translation>
+        <translation>Abilitando questa opzione il click sinistro viene rallentato di %1 millisecondi perché è necessario aspettare questo tempo per sapere se c&apos;è o meno un doppio click.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="103"/>

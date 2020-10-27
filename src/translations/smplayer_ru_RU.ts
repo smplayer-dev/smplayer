@@ -3047,12 +3047,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">Испанский</translation>
+        <translation>Испанский</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Португальский</translation>
+        <translation>Португальский</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
@@ -4882,17 +4882,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>Панель управления</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>Редактировать панель &amp;управления</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>Редактировать &amp;плавающую панель</translation>
     </message>

@@ -2493,7 +2493,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Denbora heuskarria</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2518,12 +2518,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi &amp;denbora guztira</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi &amp;gelditzen den denbora</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3042,22 +3042,22 @@ Adibidez: estrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Espainiera - Espainia</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">Espainiera</translation>
+        <translation>Espainiera</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugalera</translation>
+        <translation>Portugalera</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Espainiera - Latin Amerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
@@ -4847,12 +4847,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="867"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Katxea (segundutan)</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Katxe abiadura:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>
@@ -4881,17 +4881,17 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="181"/>
         <source>Control bar</source>
         <translation>Aginte barra</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
         <translation>Editatu &amp;aginte barra</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
         <translation>Editatu &amp;gaineko agintea</translation>
     </message>
@@ -4929,7 +4929,7 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau ez dago sostengatua MPlayer-en</translation>
     </message>
 </context>
 <context>
