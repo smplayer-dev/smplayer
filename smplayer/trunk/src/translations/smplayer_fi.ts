@@ -3047,12 +3047,12 @@ Esimerkki: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">espanjan kieli</translation>
+        <translation>Espanja</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">portugalin kieli</translation>
+        <translation>Portugali</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
@@ -4847,12 +4847,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="867"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Välimuisti (sekunteina):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Välimuistin nopeus:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>

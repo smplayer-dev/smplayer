@@ -3047,12 +3047,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">西班牙语</translation>
+        <translation>西班牙语</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">葡萄牙语</translation>
+        <translation>葡萄牙语</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>

@@ -2493,7 +2493,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeitformat</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2518,12 +2518,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesam&amp;tzeit anzeigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ve&amp;rbleibende Zeit anzeigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3042,22 +3042,22 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanisch - Spanien</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spanisch</translation>
+        <translation>Spanisch</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugiesisch</translation>
+        <translation>Portugiesisch</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanisch - Lateinamerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
@@ -4847,12 +4847,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="867"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache (in Sekunden):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache-Geschwindigkeit:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>
@@ -4929,7 +4929,7 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option wird nicht unterstützt von MPlayer</translation>
     </message>
 </context>
 <context>

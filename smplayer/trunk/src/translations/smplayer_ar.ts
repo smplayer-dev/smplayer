@@ -1994,7 +1994,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
         <source>&amp;Cast to</source>
-        <translation>العَ&amp;رض في</translation>
+        <translation>العَ‍&amp;رض في</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="384"/>
@@ -2493,7 +2493,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>صيغة الوقت</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2518,12 +2518,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>عَرض الوقت ال‍&amp;كلي</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>عَرض الوقت ال‍&amp;متبقي</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3042,22 +3042,22 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>الإسبانية - اسبانيا</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">الإسبانية</translation>
+        <translation>الإسبانية</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">البرتغالية</translation>
+        <translation>البرتغالية</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>الإسبانية - أمريكا اللاتينية</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
@@ -3270,12 +3270,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation>الملف ال‍&amp;‍سابق</translation>
+        <translation>ال‍&amp;‍س‍ابق بأزرار الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation>الملف التا&amp;‍لي</translation>
+        <translation>التا&amp;‍لي بأزرار الوسائط</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
@@ -4849,12 +4849,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvoptions.cpp" line="867"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>الخبيئة (بالثواني):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>سرعة الخبيئة:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>
@@ -4931,7 +4931,7 @@ Do you want to overwrite?</source>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>لا يدعم MPlayer هذا الخيار</translation>
     </message>
 </context>
 <context>

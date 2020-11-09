@@ -188,7 +188,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>ይጻፉ ለ መፈለግ</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -2198,12 +2198,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished">በ ማውረድ ላይ...</translation>
+        <translation>በ ማውረድ ላይ...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">በ መገናኘት ላይ ወደ %1</translation>
+        <translation>በ መገናኘት ላይ ወደ %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
@@ -2213,23 +2213,23 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">የ ተገጠመው እትም: %1</translation>
+        <translation>የ ተገጠመው እትም: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>ተሳክቷል</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished">ስህተት</translation>
+        <translation>ስህተት</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ማስቀመጥ አይቻልም %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
@@ -2493,7 +2493,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ሰአት አቀራረብ</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>

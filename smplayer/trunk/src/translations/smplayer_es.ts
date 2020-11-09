@@ -46,12 +46,12 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Tú también puedes ayudar a traducir SMPlayer a tu propio idioma.</translation>
+        <translation>También puede ayudar a traducir SMPlayer a su propio idioma.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Visita %1 y únete a un equipo de traducción.</translation>
+        <translation>Visite %1 y únase a un equipo de traducción.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -144,7 +144,7 @@
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Muchas personas han contribuido con parches. Consulta el registro de cambios para obtener más detalles.</translation>
+        <translation>Muchas personas han contribuido con parches. Consulte el registro de cambios para obtener más detalles.</translation>
     </message>
 </context>
 <context>
@@ -183,7 +183,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="501"/>
         <source>Choose a filename</source>
-        <translation>Elija un nombre de archivo</translation>
+        <translation>Elegir un nombre de archivo</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
@@ -205,7 +205,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="552"/>
         <source>Choose a file</source>
-        <translation>Elija un archivo</translation>
+        <translation>Elegir un archivo</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="525"/>
@@ -805,7 +805,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4473"/>
         <location filename="../basegui.cpp" line="4499"/>
         <source>Choose a file</source>
-        <translation>Elija un archivo</translation>
+        <translation>Elegir un archivo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -815,7 +815,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>&amp;Donar o recomendar SMPlayer a tus amigos</translation>
+        <translation>&amp;Donar o recomendar SMPlayer a sus amigos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4312"/>
@@ -826,18 +826,18 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4313"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>No se han configurado todavía las unidades de CD-ROM/DVD.
+        <translation>Todavía no se han configurado las unidades de CD-ROM/DVD.
 A continuación se mostrará el diálogo de configuración.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4426"/>
         <source>Select the Blu-ray folder</source>
-        <translation>Selecciona la carpeta del Blu-ray</translation>
+        <translation>Seleccione la carpeta del Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4439"/>
         <source>Choose a directory</source>
-        <translation>Elige una carpeta</translation>
+        <translation>Elegir una carpeta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4475"/>
@@ -1341,7 +1341,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="3316"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation>Debes reiniciar SMPlayer para aplicar los cambios.</translation>
+        <translation>Debe reiniciar SMPlayer para aplicar los cambios.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4586"/>
@@ -1361,7 +1361,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
         <source>SMPlayer needs you</source>
-        <translation>SMPlayer te necesita</translation>
+        <translation>SMPlayer le necesita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4593"/>
@@ -1371,12 +1371,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Para poder continuar mejorándolo necesitamos tu ayuda.</translation>
+        <translation>Para seguir mejorando SMPlayer necesitamos su ayuda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4595"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>Considera ayudar al proyecto SMPlayer enviando un donativo.</translation>
+        <translation>Considere la posibilidad de ayudar al proyecto SMPlayer enviando un donativo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4596"/>
@@ -1471,7 +1471,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="2194"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>Co&amp;mparte SMPlayer con tus amigos</translation>
+        <translation>Co&amp;mparta SMPlayer con tus amigos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3315"/>
@@ -1735,12 +1735,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="4995"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>La versión del MPlayer (%1) instalada es obsoleta. SMPlayer no puede funcionar correctamente con esta versión: algunas opciones no funcionarán, la selección de subtítulos puede fallar...</translation>
+        <translation>La versión de MPlayer (%1) instalada es obsoleta. SMPlayer no puede funcionar correctamente con esta versión: algunas opciones no funcionarán, la selección de subtítulos puede fallar...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5000"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Actualiza MPlayer.</translation>
+        <translation>Actualice MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5002"/>
@@ -2265,7 +2265,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation>Puedes actualizarlo reinstalando SMPlayer. El instalador descargará e instalará la última versión.</translation>
+        <translation>Puede actualizarlo reinstalando SMPlayer. El instalador descargará e instalará la última versión.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
@@ -2285,7 +2285,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation>¿Quieres continuar?</translation>
+        <translation>¿Quiere continuar?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
@@ -2493,7 +2493,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation>Formato del tiempo</translation>
+        <translation>Formato de tiempo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2518,7 +2518,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation>Mostrar &amp;tiempo total</translation>
+        <translation>Mostrar el &amp;tiempo total</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
@@ -2637,12 +2637,12 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Puedes editar, borrar, ordenar o añadir elementos nuevos. Haz doble clic en una celda para editar su contenido.</translation>
+        <translation>Puede editar, borrar, ordenar o añadir elementos nuevos. Haga doble clic en una celda para editar su contenido.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
         <source>Select an icon file</source>
-        <translation>Selecciona una imagen para el icono</translation>
+        <translation>Seleccione una imagen para el icono</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="352"/>
@@ -2697,7 +2697,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../favorites.cpp" line="375"/>
         <location filename="../favorites.cpp" line="379"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Introduce el número de la entrada de la lista a la que quieres saltar:</translation>
+        <translation>Escriba el número de la entrada de la lista a la que quiere saltar:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2783,7 +2783,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="128"/>
         <source>&amp;Select the video codec:</source>
-        <translation>&amp;Selecciona el códec de vídeo:</translation>
+        <translation>&amp;Seleccione el códec de vídeo:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="178"/>
@@ -2793,15 +2793,15 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="190"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>&amp;Selecciona el códec de audio:</translation>
+        <translation>&amp;Seleccione el códec de audio:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="324"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation>También puedes pasar filtros de vídeo adicionales.
-Sepáralos con «,». ¡No uses espacios!
+        <translation>También puede pasar filtros de vídeo adicionales.
+Sepárelos con «,». ¡No use espacios!
 Ejemplo: scale=512:-2,mirror</translation>
     </message>
     <message>
@@ -2854,7 +2854,7 @@ Ejemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation>Aquí puedes pasar opciones extra a %1.</translation>
+        <translation>Aquí puede pasar opciones extra a %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2922,7 +2922,7 @@ Ejemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="43"/>
         <source>Select the proxy type to be used.</source>
-        <translation>Selecciona el tipo de proxy que se usará.</translation>
+        <translation>Seleccione el tipo de proxy que se usará.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -3167,7 +3167,7 @@ Ejemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation>Escribe el título de una película o una serie</translation>
+        <translation>Escribir el título de una película o una serie</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
@@ -3252,7 +3252,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation>Selecciona las teclas multimedia que SMPlayer controlará.</translation>
+        <translation>Seleccionar las teclas multimedia que SMPlayer controlará.</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
@@ -3562,7 +3562,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation>Elige una carpeta</translation>
+        <translation>Elija una carpeta</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
@@ -3572,7 +3572,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Es posible reproducir un DVD desde el disco duro. Simplemente selecciona la carpeta que contiene las carpetas VIDEO_TS y AUDIO_TS.</translation>
+        <translation>Es posible reproducir un DVD desde el disco duro. Seleccione la carpeta que contiene las carpetas VIDEO_TS y AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3585,12 +3585,12 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation>SMPlayer - Introduce la versión de MPlayer</translation>
+        <translation>SMPlayer - Introducir la versión de MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation>SMPlayer no ha podido identificar la version de MPlayer que estás usando.</translation>
+        <translation>SMPlayer no ha podido identificar la version de MPlayer que está usando.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="58"/>
@@ -3600,7 +3600,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>&amp;Selecciona la versión correcta:</translation>
+        <translation>&amp;Seleccione la versión correcta:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -3623,7 +3623,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - Introduce un URL</translation>
+        <translation>SMPlayer - Escriba un URL</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -4852,7 +4852,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache speed:</source>
-        <translation>Velocidad caché:</translation>
+        <translation>Velocidad de la caché:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>
@@ -4870,7 +4870,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="246"/>
         <source>Shuffle playlist</source>
-        <translation>Desordenar la lista de reproducción</translation>
+        <translation>Barajar la lista de reproducción</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="247"/>
@@ -4929,7 +4929,7 @@ Do you want to overwrite?</source>
         <location filename="../mplayeroptions.cpp" line="383"/>
         <location filename="../mplayeroptions.cpp" line="460"/>
         <source>This option is not supported by MPlayer</source>
-        <translation>Opción no soportada por MPlayer</translation>
+        <translation>MPlayer no admite esta opción</translation>
     </message>
 </context>
 <context>
@@ -4937,12 +4937,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation>Introducir URL</translation>
+        <translation>Escriba una URL</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation>Introduce los URL que quieres añadir a la lista de reproducción. Uno por línea.</translation>
+        <translation>Escriba los URL que quiere añadir a la lista de reproducción. Uno por línea.</translation>
     </message>
 </context>
 <context>
@@ -4955,12 +4955,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation>Para reproducir este vídeo en un teléfono o una tableta, escanea el siguiente código QR con el dispositivo:</translation>
+        <translation>Para reproducir este vídeo en un teléfono o una tableta, escanee el siguiente código QR con el dispositivo:</translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation>O abre este URL en el reproductor multimedia del dispositivo:</translation>
+        <translation>O abra este URL en el reproductor multimedia del dispositivo:</translation>
     </message>
 </context>
 <context>
@@ -5032,12 +5032,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1401"/>
         <source>Choose a file</source>
-        <translation>Elija un archivo</translation>
+        <translation>Elegir un archivo</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1437"/>
         <source>Choose a filename</source>
-        <translation>Elija un nombre de archivo</translation>
+        <translation>Elegir un nombre de archivo</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1449"/>
@@ -5091,12 +5091,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1701"/>
         <source>Select one or more files to open</source>
-        <translation>Selecciona uno o más archivos</translation>
+        <translation>Seleccionar uno o más archivos</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1771"/>
         <source>Choose a directory</source>
-        <translation>Elige una carpeta</translation>
+        <translation>Elegir una carpeta</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1959"/>
@@ -5106,7 +5106,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1960"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Escribe el nombre que se mostrará en la lista de reproducción para este archivo:</translation>
+        <translation>Escriba el nombre que se mostrará en la lista de reproducción para este archivo:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="704"/>
@@ -5116,7 +5116,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="704"/>
         <source>Shuffle order</source>
-        <translation>Desorden</translation>
+        <translation>Orden aleatorio</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
@@ -5238,7 +5238,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Show shuffle column</source>
-        <translation>Mostrar la columna de desorden</translation>
+        <translation>Mostrar la columna de orden aleatorio</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1552"/>
@@ -5253,12 +5253,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1998"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation>Estás a punto de ELIMINAR el archivo «%1» del disco.</translation>
+        <translation>Está a punto de ELIMINAR el archivo «%1» del disco.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1999"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation>Esta acción no se puede deshacer. ¿Estás seguro de que deseas continuar?</translation>
+        <translation>Esta acción no se puede deshacer. ¿Está seguro de que quiere continuar?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2017"/>
@@ -5308,7 +5308,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1483"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Hay cambios sin guardar. ¿Quieres guardar la lista de reproducción?</translation>
+        <translation>Hay cambios sin guardar. ¿Quiere guardar la lista de reproducción?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1703"/>
@@ -5412,7 +5412,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="458"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Selecciona la relación de aspecto del monitor.</translation>
+        <translation>Seleccione la relación de aspecto del monitor.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
@@ -5442,7 +5442,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Si ves partes del vídeo sobre otra ventana puedes cambiar el colorkey para solucionarlo. Intenta seleccionar un color cercano al negro.</translation>
+        <translation>Si ve partes del vídeo sobre otra ventana puede cambiar la clave de color para solucionarlo. Pruebe a seleccionar un color cercano al negro.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5522,7 +5522,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Si se marca esta opción, SMPlayer almacenará los mensajes de depuración que emita (puedes consultar el registro en &lt;b&gt;Opciones -&gt; Ver registros -&gt; SMPlayer&lt;/b&gt;). Esta información puede ser muy útil para el programador en caso de que encuentres algún error.</translation>
+        <translation>Si se marca esta opción, SMPlayer almacenará los mensajes de depuración que emita (puede consultar el registro en &lt;b&gt;Opciones -&gt; Ver registros -&gt; SMPlayer&lt;/b&gt;). Esta información puede ser muy útil para el programador en caso de que encuentre algún error.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
@@ -5532,7 +5532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Si se marca, SMPlayer almacenará la salida de %1 (la puedes ver en &lt;b&gt;Opciones -&gt; Ver registros -&gt; %1&lt;/b&gt;). En caso de problemas, este registro puede contener información importante, por lo que es recomendable mantener marcada esta opción.</translation>
+        <translation>Si se marca, SMPlayer almacenará la salida de %1 (la puede ver en &lt;b&gt;Opciones -&gt; Ver registros -&gt; %1&lt;/b&gt;). En caso de problemas, este registro puede contener información importante, por lo que es recomendable mantener marcada esta opción.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
@@ -5552,12 +5552,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation>Introduce la ruta y el nombre de archivo que se usará para guardar el registro de %1.</translation>
+        <translation>Escriba la ruta y el nombre de archivo que se usará para guardar el registro de %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Esta opción permite filtrar los mensajes que se almacenarán en el registro. Aquí puedes escribir cualquier expresión regular.&lt;br&gt;Por ejemplo: &lt;i&gt;^Core::.*&lt;/i&gt; mostrará solo las líneas que comiencen por &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Esta opción permite filtrar los mensajes que se almacenarán en el registro. Aquí puede escribir cualquier expresión regular.&lt;br&gt;Por ejemplo: &lt;i&gt;^Core::.*&lt;/i&gt; mostrará solo las líneas que comiencen por &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5592,7 +5592,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation>Aquí puedes pasar opciones y filtros a %1.</translation>
+        <translation>Aquí puede pasar opciones y filtros a %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5627,7 +5627,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>Si se marca esta opción, la ventana de vídeo de %1 no se incrustará en la ventana principal de SMPlayer, sino que usará su propia ventana. Ten en cuenta que, en ese caso, %1 manejará directamente los eventos del ratón y del teclado, lo que significa que los atajos de teclado y los clics del ratón probablemente no funcionarán del modo esperado cuando la ventana de %1 obtenga el foco.</translation>
+        <translation>Si se marca esta opción, la ventana de vídeo de %1 no se incrustará en la ventana principal de SMPlayer, sino que usará su propia ventana. Tenga en cuenta que, en ese caso, %1 manejará directamente los eventos del ratón y del teclado, lo que significa que los atajos de teclado y los clics del ratón probablemente no funcionarán del modo esperado cuando la ventana de %1 obtenga el foco.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
@@ -5667,7 +5667,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="489"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Aquí puedes especificar una lista de &lt;i&gt;acciones&lt;/i&gt; que se ejecutarán cada vez que se abra un archivo. Encontrarás las acciones disponibles en el editor de atajos en la sección &lt;b&gt;Teclado y ratón&lt;/b&gt;. Las acciones deben separarse con espacios. Aquellas acciones que se pueden activar o desactivar pueden ir seguidas de &lt;i&gt;true&lt;/i&gt; o &lt;i&gt;false&lt;/i&gt;.</translation>
+        <translation>Aquí puede especificar una lista de &lt;i&gt;acciones&lt;/i&gt; que se ejecutarán cada vez que se abra un archivo. Encontrará las acciones disponibles en el editor de atajos en la sección &lt;b&gt;Teclado y ratón&lt;/b&gt;. Las acciones deben separarse con espacios. Aquellas acciones que se pueden activar o desactivar pueden ir seguidas de &lt;i&gt;true&lt;/i&gt; o &lt;i&gt;false&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5677,12 +5677,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Here you can type options for %1.</source>
-        <translation>Aquí puedes escribir opciones para %1.</translation>
+        <translation>Aquí puede escribir opciones para %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
         <source>Here you can add video filters for %1.</source>
-        <translation>Aquí puedes añadir filtros de vídeo para %1.</translation>
+        <translation>Aquí puede añadir filtros de vídeo para %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
@@ -5693,7 +5693,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation>Aquí puedes añadir filtros de audio para %1.</translation>
+        <translation>Aquí puede añadir filtros de audio para %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -5779,7 +5779,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="205"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>No se han podido asociar todos los archivos. Comprueba los permisos de seguridad y reinténtalo.</translation>
+        <translation>No se han podido asociar todos los archivos. Compruebe los permisos de seguridad y reinténtelo.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="215"/>
@@ -5794,7 +5794,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="233"/>
         <source>Check all file types in the list</source>
-        <translation>Marca todos los tipos de archivo de la lista</translation>
+        <translation>Marcar todos los tipos de archivo de la lista</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="236"/>
@@ -5839,7 +5839,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Marca los tipos de archivo que deseas que maneje SMPlayer. Al hacer clic en Aplicar, los archivos marcados se asociarán a SMPlayer. Si desmarcas un tipo de archivo, se recuperará la asociación previa.</translation>
+        <translation>Marque los tipos de archivo que quiera que maneje SMPlayer. Al hacer clic en Aplicar, los archivos marcados se asociarán a SMPlayer. Si desmarca un tipo de archivo, se recuperará la asociación previa.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -5863,7 +5863,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="220"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>Selecciona el dispositivo de CD-ROM. Se usará para reproducir los VCD y los CD de audio.</translation>
+        <translation>Seleccione el dispositivo de CD-ROM. Se usará para reproducir los VCD y los CD de audio.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
@@ -5873,27 +5873,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="224"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation>Selecciona el dispositivo de DVD. Se usará para reproducir los DVD.</translation>
+        <translation>Seleccione el dispositivo de DVD. Se usará para reproducir los DVD.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
-        <translation>Selecciona el dispositivo de &amp;CD:</translation>
+        <translation>Seleccione el dispositivo de &amp;CD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="176"/>
         <source>Select your &amp;DVD device:</source>
-        <translation>Selecciona el dispositivo de &amp;DVD:</translation>
+        <translation>Seleccione el dispositivo de &amp;DVD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="274"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation>Selecciona el dispositivo de &amp;Blu-ray:</translation>
+        <translation>Seleccione el dispositivo de &amp;Blu-ray:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer no selecciona ningún dispositivo de CD-ROM o DVD por defecto. Por lo tanto, antes de poder reproducir un CD o un DVD, debes seleccionar los dispositivos que deseas usar (pueden ser el mismo).</translation>
+        <translation>SMPlayer no selecciona ningún dispositivo de CD-ROM o DVD por defecto. Por lo tanto, antes de poder reproducir un CD o un DVD, debe seleccionar los dispositivos que quiera usar (pueden ser el mismo).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -5903,7 +5903,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation>Selecciona el dispositivo de Blu-ray. Se usará para reproducir discos Blu-ray.</translation>
+        <translation>Seleccione el dispositivo de Blu-ray. Se usará para reproducir discos Blu-ray.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
@@ -5923,7 +5923,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;Nota 2&lt;/b&gt;: es posible que quieras asignar la acción de activar la opción en los menús del DVD a uno de los botones del ratón.</translation>
+        <translation>&lt;b&gt;Nota 2&lt;/b&gt;: es posible que quiera asignar la acción de activar la opción en los menús del DVD a uno de los botones del ratón.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
@@ -5982,7 +5982,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="200"/>
         <source>Select the %1 executable</source>
-        <translation>Selecciona el ejecutable de %1</translation>
+        <translation>Seleccionar el ejecutable de %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
@@ -6014,7 +6014,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="209"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation>Aquí puedes escribir el idioma preferido para las pistas de audio y de subtítulos. Al reproducir un vídeo con múltiples pistas de audio o de subtítulos, SMPlayer intentará usar el idioma preferido. Esta opción solo funcionará con medios que ofrezcan información sobre los idiomas de las pistas de audio o de subtítulos, como los DVD o los archivos MKV.</translation>
+        <translation>Aquí puede escribir el idioma preferido para las pistas de audio y de subtítulos. Al reproducir un vídeo con múltiples pistas de audio o de subtítulos, SMPlayer intentará usar el idioma preferido. Esta opción solo funcionará con medios que ofrezcan información sobre los idiomas de las pistas de audio o de subtítulos, como los DVD o los archivos MKV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -6024,12 +6024,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation>Selecciona el motor multimedia que quieres usar, MPlayer o mpv.</translation>
+        <translation>Seleccione el motor multimedia que quiere usar, MPlayer o mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1027"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation>La opción &apos;otro&apos; permite seleccionar manualmente la ruta del ejecutable.</translation>
+        <translation>La opción «otro» permite seleccionar manualmente la ruta del ejecutable.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
@@ -6039,7 +6039,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation>Aquí debes especificar el ejecutable de %1 que usará SMPlayer.</translation>
+        <translation>Aquí debe especificar el ejecutable de %1 que usará SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
@@ -6094,7 +6094,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Select the video output driver.</source>
-        <translation>Selecciona el controlador de salida de vídeo.</translation>
+        <translation>Seleccionar el controlador de salida de vídeo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
@@ -6109,7 +6109,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Select the audio output driver.</source>
-        <translation>Selecciona el controlador de salida de audio.</translation>
+        <translation>Seleccione el controlador de salida de audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
@@ -6165,7 +6165,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1141"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Puedes marcar esta opción si el ecualizador de vídeo no es compatible con la tarjeta gráfica o con el controlador de salida de vídeo seleccionado. &lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opción puede ser incompatible con algunos controladores de salida de vídeo.</translation>
+        <translation>Puede marcar esta opción si el ecualizador de vídeo no es compatible con la tarjeta gráfica o con el controlador de salida de vídeo seleccionado. &lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opción puede ser incompatible con algunos controladores de salida de vídeo.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6210,7 +6210,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1239"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Marca esta opción para usar el mezclador por software, en lugar del mezclador de la tarjeta de sonido.</translation>
+        <translation>Marque esta opción para usar el mezclador por software, en lugar del mezclador de la tarjeta de sonido.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1120"/>
@@ -6410,7 +6410,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Aquí puedes especificar una lista de prioridad de códigos de idiomas para el audio, separados por espacios. Por ejemplo: spa,eng,jpn</translation>
+        <translation>Aquí puede especificar una lista de prioridad de códigos de idiomas para el audio, separados por espacios. Por ejemplo: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
@@ -6420,7 +6420,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Aquí puedes especificar una lista de prioridad de códigos de idiomas para los subtítulos, separados por espacios. Por ejemplo: spa,eng,jpn</translation>
+        <translation>Aquí puede especificar una lista de prioridad de códigos de idiomas para los subtítulos, separados por espacios. Por ejemplo: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
@@ -6450,7 +6450,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1305"/>
         <source>Or choose a track number:</source>
-        <translation>O selecciona un número de pista:</translation>
+        <translation>O seleccionar un número de pista:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1246"/>
@@ -6560,7 +6560,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Selecciona el filtro de desentrelazado que se usará para los vídeos nuevos que se abran.</translation>
+        <translation>Seleccione el filtro de desentrelazado que se usará para los vídeos nuevos que se abran.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1041"/>
@@ -6580,7 +6580,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation>Marca esta opción para poder usar el ecualizador de audio.</translation>
+        <translation>Marque esta opción para poder usar el ecualizador de audio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="745"/>
@@ -6654,7 +6654,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalmente SMPlayer recordará las opciones para cada archivo que reproduzcas (la pista de audio seleccionada, el volumen, los filtros...). Desmarca esta opción si no te gusta que haga esto.</translation>
+        <translation>Normalmente SMPlayer recordará las opciones para cada archivo que se reproduzca (la pista de audio seleccionada, el volumen, los filtros...). Desactive esta opción si no le gusta esta característica.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1090"/>
@@ -6664,7 +6664,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Marca esta opción para desactivar el salvapantallas durante la reproducción.&lt;br&gt;El salvapantallas se volverá a activar cuando finalice la reproducción.</translation>
+        <translation>Marque esta opción para desactivar el salvapantallas durante la reproducción.&lt;br&gt;El salvapantallas se volverá a activar cuando finalice la reproducción.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6745,12 +6745,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Puedes usar esta opción para activar o desactivar la posibilidad de hacer capturas de pantalla.</translation>
+        <translation>Puede usar esta opción para activar o desactivar la posibilidad de hacer capturas de pantalla.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Aquí puedes especificar la carpeta donde se guardarán las capturas de pantalla. Si la carpeta es inválida no se realizarán capturas de pantalla.</translation>
+        <translation>Aquí puede especificar la carpeta donde se guardarán las capturas de pantalla. Si la carpeta no es válida no se realizarán capturas de pantalla.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -6972,12 +6972,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aquí puedes cambiar los atajos de teclado. Para hacerlo haz doble clic o pulsa Intro sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro equipo.</translation>
+        <translation>Aquí puede cambiar los atajos de teclado. Haga doble clic o pulse Intro sobre un atajo. Opcionalmente también puede guardar la lista para compartirla con otras personas o usarla en otro equipo.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aquí puedes cambiar los atajos de teclado. Puedes hacer doble clic o pulsar Intro sobre un atajo. Opcionalmente también puedes guardar la lista para compartirla con otras personas o usarla en otro equipo.</translation>
+        <translation>Aquí puede cambiar los atajos de teclado. Puede hacer doble clic o pulsar Intro sobre un atajo. Opcionalmente también puede guardar la lista para compartirla con otras personas o usarla en otro equipo.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="177"/>
@@ -7002,7 +7002,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Esta tabla te permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haz doble clic o pulsa Intro sobre una acción, o pulsa el botón &lt;b&gt;Modificar el atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar el atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, entonces simplemente presiona la tecla nueva o combinación de teclas que desees asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado entonces puedes teclear el nombre completo de la tecla.</translation>
+        <translation>Esta tabla le permite cambiar los atajos del teclado para la mayoría de las acciones disponibles. Haga doble clic o pulse Intro sobre una acción, o pulse el botón &lt;b&gt;Modificar el atajo&lt;/b&gt; para abrir el diálogo &lt;i&gt;Modificar el atajo&lt;/i&gt;. Hay dos maneras de cambiar un atajo: si el botón &lt;b&gt;Capturar&lt;/b&gt; está activado, pulse la tecla o combinación de teclas que quiera asignar para la acción (desafortunadamente no funciona con todas las teclas). Si el botón &lt;b&gt;Capturar&lt;/b&gt; está desactivado, puede escribir el nombre completo de la tecla.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="399"/>
@@ -7012,7 +7012,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Selecciona la acción para el clic izquierdo del ratón.</translation>
+        <translation>Seleccionar la acción para el clic izquierdo del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="402"/>
@@ -7022,7 +7022,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="403"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Selecciona la acción para el doble clic del ratón.</translation>
+        <translation>Seleccionar la acción para el doble clic del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="414"/>
@@ -7032,7 +7032,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="415"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation>Selecciona la acción para la rueda del ratón.</translation>
+        <translation>Seleccionar la acción para la rueda del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="68"/>
@@ -7143,7 +7143,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="406"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Selecciona la acción para el clic central del ratón.</translation>
+        <translation>Seleccionar la acción para el clic central del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="246"/>
@@ -7223,7 +7223,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
-        <translation>Selecciona la acción para el Botón X 1.</translation>
+        <translation>Seleccione la acción para el Botón X 1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
@@ -7233,7 +7233,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
-        <translation>Selecciona la acción para el botón X 2.</translation>
+        <translation>Seleccione la acción para el botón X 2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="100"/>
@@ -7350,7 +7350,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation>Esta opción controla qué hacer al mover el ratón a la vez que se presiona el botón izquierdo.</translation>
+        <translation>Esta opción controla qué hacer al mover el ratón a la vez que se pulsa el botón izquierdo.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="419"/>
@@ -7439,7 +7439,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Selecciona las acciones que se irán seleccionando al usar la opción de cambiar la función de la rueda del ratón.</translation>
+        <translation>Seleccione las acciones que se irán seleccionando al usar la opción de cambiar la función de la rueda del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="433"/>
@@ -7510,7 +7510,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Aquí puedes cambiar el idioma de la aplicación.</translation>
+        <translation>Aquí puede cambiar el idioma de la aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="202"/>
@@ -7665,7 +7665,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation>SMPlayer puede escalar la interfaz en pantallas de alta densidad de píxeles (HiDPI). Aquí puedes desactivar esta función o modificar el factor de escala.</translation>
+        <translation>SMPlayer puede escalar la interfaz en pantallas de alta densidad de píxeles (HiDPI). Aquí puede desactivar esta función o modificar el factor de escala.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
@@ -7720,7 +7720,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation>La ventana principal puede cambiar de tamaño automáticamente. Selecciona la opción que prefieras.</translation>
+        <translation>La ventana principal puede cambiar de tamaño automáticamente. Seleccione la opción que prefiera.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -7730,12 +7730,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>Si se marca esta opción, se guardarán la posición y el tamaño de la ventana principal y se restaurarán cuando vuelvas a ejecutar SMPlayer.</translation>
+        <translation>Si se marca esta opción, se guardarán la posición y el tamaño de la ventana principal y se restaurarán cuando vuelva a ejecutar SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation>Selecciona la interfaz gráfica que prefieras para la aplicación.</translation>
+        <translation>Seleccione la interfaz gráfica que prefiera para la aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
@@ -7765,7 +7765,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="880"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Selecciona el máximo número de elementos que se mostrarán en el submenú &lt;b&gt;Abrir-&gt;Archivos recientes&lt;/b&gt;. Si lo pones a 0, no aparecerá el menú.</translation>
+        <translation>Seleccione el máximo número de elementos que se mostrarán en el submenú &lt;b&gt;Abrir-&gt;Archivos recientes&lt;/b&gt;. Si lo pone a 0, no aparecerá el menú.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -7820,7 +7820,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation>Selecciona el juego de iconos que prefieras para la aplicación.</translation>
+        <translation>Seleccione el juego de iconos que prefiera para la aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
@@ -7830,7 +7830,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Selecciona la piel que prefieras para la aplicación. Disponible solo con la interfaz personalizable.</translation>
+        <translation>Seleccione la piel que prefiera para la aplicación. Solo disponible con la interfaz personalizable.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
@@ -7840,7 +7840,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
         <source>Select the style you prefer for the application.</source>
-        <translation>Selecciona el estilo que prefieras para la aplicación.</translation>
+        <translation>Seleccione el estilo que prefiera para la aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="792"/>
@@ -7850,7 +7850,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="793"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>Aquí puedes cambiar el tipo de letra de la aplicación.</translation>
+        <translation>Aquí puede cambiar el tipo de letra de la aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
@@ -7877,7 +7877,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="805"/>
         <location filename="../prefinterface.cpp" line="809"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation>Selecciona el tiempo que se avanzará o retrocederá al seleccionar la acción %1.</translation>
+        <translation>Seleccione el tiempo que se avanzará o retrocederá al seleccionar la acción %1.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="802"/>
@@ -7912,7 +7912,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="813"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation>Selecciona el tiempo que se avanzará o retrocederá al mover la rueda del ratón.</translation>
+        <translation>Seleccione el tiempo que se avanzará o retrocederá al mover la rueda del ratón.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="816"/>
@@ -7922,7 +7922,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="817"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation>Selecciona qué hacer al arrastrar el control deslizante.</translation>
+        <translation>Seleccione qué hacer al arrastrar el control deslizante.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
@@ -7977,7 +7977,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="885"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Selecciona el número máximo de elementos que recordará el diálogo de &lt;b&gt;Abrir-&gt;URL&lt;/b&gt;. Ponlo a 0 si no quieres que se almacene ningún URL.</translation>
+        <translation>Seleccione el número máximo de elementos que recordará el diálogo de &lt;b&gt;Abrir-&gt;URL&lt;/b&gt;. Póngalo a 0 si no quiere que se almacene ningún URL.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="889"/>
@@ -8018,7 +8018,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="843"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Marca esta opción si quieres usar una misma instancia de SMPlayer para todos los archivos que abras.</translation>
+        <translation>Marque esta opción si quiere usar una misma instancia de SMPlayer para abrir todos los archivos.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="241"/>
@@ -8213,7 +8213,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="325"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation>Para poder servir vídeos locales desde este equipo a Chromecast, SMPlayer ejecutará un pequeño servidor web. Aquí puedes ajustar algunas de las opciones.</translation>
+        <translation>Para poder servir vídeos locales desde este equipo a Chromecast, SMPlayer ejecutará un pequeño servidor web. Aquí puede ajustar algunas de las opciones.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="352"/>
@@ -8400,7 +8400,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="318"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation>Selecciona la calidad preferida para los vídeos de YouTube.</translation>
+        <translation>Seleccionar la calidad preferida para los vídeos de YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="321"/>
@@ -8425,7 +8425,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation>Establece el agente de usuario que usará SMPlayer al conectarse a YouTube.</translation>
+        <translation>Establecer el agente de usuario que usará SMPlayer al conectarse a YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="343"/>
@@ -8571,7 +8571,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="396"/>
         <source>Select the proxy type to be used.</source>
-        <translation>Selecciona el tipo de proxy que se usará.</translation>
+        <translation>Seleccionar el tipo de proxy que se usará.</translation>
     </message>
 </context>
 <context>
@@ -8596,7 +8596,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Selecciona la prioridad con la que se ejecutará el MPlayer.</translation>
+        <translation>Seleccione la prioridad con la que se ejecutará el MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
@@ -8716,7 +8716,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Si la opción está marcada. se intentará usar el método más rápido para buscar capítulos, pero puede que no funcione con algunos discos.</translation>
+        <translation>Si se marca esta opción, se intentará usar el método más rápido para buscar los capítulos, pero es posible que no funcione con algunos discos.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
@@ -8761,7 +8761,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Esta opción especifica cuánta memoria (en kBytes) se usará para el caché de reproducción de los DVD.&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; cuando se usa una caché para la reproducción de los DVD, la búsqueda podría no funcionar correctamente (incluyendo la selección de capítulos).</translation>
+        <translation>Esta opción especifica cuánta memoria (en kBytes) se usará para la caché de reproducción de los DVD.&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; cuando se usa una caché para la reproducción de los DVD, la búsqueda podría no funcionar correctamente (incluyendo la selección de capítulos).</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -9100,7 +9100,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="245"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation>Esta opción permite activar la opción del menú contextual de la lista de reproducción para eliminar archivos del disco. Para evitar eliminaciones accidentales esta opción está desactivada por defecto.</translation>
+        <translation>Esta opción permite activar la opción del menú contextual de la lista de reproducción para eliminar archivos del disco. Para evitar eliminaciones accidentales, esta opción está desactivada por defecto.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -9165,12 +9165,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="215"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Marca esta opción si quieres que, al añadir una carpeta, se añadan los archivos de las subcarpetas recursivamente. De lo contrario, solo se añadirán los archivos de la carpeta seleccionada.</translation>
+        <translation>Marque esta opción si quiere que, al añadir una carpeta, se añadan los archivos de las subcarpetas recursivamente. De lo contrario, solo se añadirán los archivos de la carpeta seleccionada.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Marca esta opción para obtener información sobre los archivos que se añadirán a la lista de reproducción. Esto permite mostrar el título (si está disponible) y la duración de los archivos. De lo contrario, esta información no estará disponible hasta que se reproduzca el archivo. Cuidado: esta opción puede ser lenta, especialmente si se añaden muchos archivos.</translation>
+        <translation>Marque esta opción para obtener información sobre los archivos que se añadirán a la lista de reproducción. Esto permite mostrar el título (si está disponible) y la duración de los archivos. De lo contrario, esta información no estará disponible hasta que se reproduzca el archivo. Cuidado: esta opción puede ser lenta, especialmente si se añaden muchos archivos.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -9352,7 +9352,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation>Selecciona el color del texto de los subtítulos.</translation>
+        <translation>Seleccione el color del texto de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
@@ -9367,7 +9367,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="403"/>
         <source>Select the subtitle autoload method.</source>
-        <translation>Selecciona el método de carga automática de los subtítulos.</translation>
+        <translation>Seleccione el método de carga automática de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
@@ -9377,7 +9377,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>Selecciona la codificación que se usará por defecto para los archivos de subtítulos.</translation>
+        <translation>Seleccione la codificación que se usará por defecto para los archivos de subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
@@ -9392,7 +9392,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation>Seleccione el idioma para el que quieras que la codificación detecte automáticamente.</translation>
+        <translation>Seleccione el idioma para el que quiera que la codificación se detecte automáticamente.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
@@ -9412,7 +9412,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Select the font for the subtitles.</source>
-        <translation>Selecciona el tipo de letra para los subtítulos.</translation>
+        <translation>Seleccione el tipo de letra para los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
@@ -9432,7 +9432,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>Si se activa esta opción estarán disponibles los tipos de letra de Windows para los subtítulos. Tiene el inconveniente de que se debe crear una caché de todos los tipos de letra instalados en el sistema y eso puede llevar algún tiempo.</translation>
+        <translation>Si se activa esta opción, los tipos de letra de Windows estarán disponibles para los subtítulos. Hay un inconveniente: hay que crear una caché de los tipos de letra que puede llevar algún tiempo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
@@ -9632,7 +9632,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation>Las siguientes opciones permiten definir el estilo que se usará para subtítulos sin estilo (SRT, SUB...).</translation>
+        <translation>Las opciones siguientes permiten definir el estilo que se usará para los subtítulos sin estilo (SRT, SUB...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9690,7 +9690,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Normalmente no deberías desactivar esta opción. Hazlo solamente si %1 se ha compilado sin compatibilidad con FreeType. &lt;b&gt;¡Al desactivar esta opción, es posible que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
+        <translation>Normalmente no debería desactivar esta opción. Hágalo solamente si %1 se ha compilado sin compatibilidad con FreeType. &lt;b&gt;¡Al desactivar esta opción es posible que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -9765,7 +9765,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>Aquí puedes introducir un estilo SSA/ASS personalizado.</translation>
+        <translation>Aquí puede introducir un estilo SSA/ASS personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
@@ -9848,7 +9848,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Selecciona el filtro de desentrelazado que se usará por defecto para canales de TV.</translation>
+        <translation>Seleccione el filtro de desentrelazado que se usará por defecto para canales de TV.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -9921,7 +9921,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>Puedes seleccionar aquí el intervalo (en días) en el que se realizarán las comprobaciones de actualización.</translation>
+        <translation>Puede seleccionar aquí el intervalo (en días) para las comprobaciones de actualización.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -10215,7 +10215,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>Puedes ayudar a mejorar SMPlayer enviando un donativo o recomendándolo a tus amigos.</translation>
+        <translation>Puede ayudar a mejorar SMPlayer enviando un donativo o recomendándolo a sus amigos.</translation>
     </message>
 </context>
 <context>
@@ -10243,7 +10243,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Donar o recomendar SMPlayer a tus amigos</translation>
+        <translation>Hacer un donativo o recomendar SMPlayer a sus amigos</translation>
     </message>
 </context>
 <context>
@@ -10261,7 +10261,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation>Pulsa la combinación de teclas que deseas asignar</translation>
+        <translation>Pulse la combinación de teclas que quiere asignar</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -10304,7 +10304,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation>Pulsa &lt;b&gt;Cancelar&lt;/b&gt; si no quieres que se apague.</translation>
+        <translation>Pulse &lt;b&gt;Cancelar&lt;/b&gt; si no quiere que se apague.</translation>
     </message>
 </context>
 <context>
@@ -10508,7 +10508,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Este archivador contiene más de un archivo de subtítulos. Elige los que quieres extraer.</translation>
+        <translation>Este archivador contiene más de un archivo de subtítulos. Elija los que quiere extraer.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -10690,7 +10690,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
-        <translation>¿Quieres más información sobre esta versión nueva?</translation>
+        <translation>¿Quiere más información sobre esta nueva versión?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
@@ -10728,7 +10728,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation>Selecciona los códecs vdpau que quieras usar. Puede que no todos funcionen.</translation>
+        <translation>Seleccionar los códecs vdpau que quieras usar. Puede que no todos funcionen.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
@@ -11013,7 +11013,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation>Se creará una vista previa para el vídeo que especifique aquí.</translation>
+        <translation>La vista previa se creará para el vídeo que especifique aquí.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
@@ -11039,7 +11039,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>En caso de que la relación de aspecto de vídeo sea errónea, puedes seleccionar aquí una diferente.</translation>
+        <translation>En caso de que la relación de aspecto de vídeo sea errónea, puede seleccionar aquí una diferente.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
@@ -11054,7 +11054,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Se extraerán algunos fotogramas del vídeo para crear la vista previa. Aquí puedes elegir el formato de imagen para los fotogramas extraídos. El formato PNG puede dar una mejor calidad.</translation>
+        <translation>Se extraerán algunos fotogramas del vídeo para crear la vista previa. Aquí puede elegir el formato de imagen para los fotogramas extraídos. El formato PNG puede dar una mejor calidad.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
@@ -11074,7 +11074,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Introduce aquí el dispositivo de DVD o la carpeta con una imagen de DVD.</translation>
+        <translation>Escriba aquí el dispositivo de DVD o la carpeta con una imagen de DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>

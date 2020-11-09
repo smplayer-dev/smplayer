@@ -188,7 +188,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>Aramak için yazın</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
