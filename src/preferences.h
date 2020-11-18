@@ -121,6 +121,7 @@ public:
 	#endif
 #else
 	bool disable_screensaver;
+	bool wayland_workarounds;
 #endif
 
 #ifndef Q_OS_WIN

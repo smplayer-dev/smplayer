@@ -402,6 +402,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="wayland_check">
+         <property name="text">
+          <string>Wa&amp;yland support</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="Line" name="line_5">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -1360,6 +1367,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
   <tabstop>vdpau_button</tabstop>
+  <tabstop>wayland_check</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
   <tabstop>deinterlace_combo</tabstop>
