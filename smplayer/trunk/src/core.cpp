@@ -1749,12 +1749,21 @@ void Core::startMplayer( QString file, double seek ) {
 		if ((proc->isMPlayer() && QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) || proc->isMPV()) {
 			proc->setOption("vo", "direct3d,");
 		}
-		#else
-		// Linux
-		// Use by default xv or x11 on Wayland, otherwise the video is outside the application window
-		if (qgetenv("XDG_SESSION_TYPE") != "x11") proc->setOption("vo", "xv,x11,");
 		#endif
 	}
+
+#ifndef Q_OS_WIN
+	// If using Wayland
+	if (qgetenv("XDG_SESSION_TYPE") != "x11") {
+		// Trying to prevent the video to be outside the application window
+		if (pref->vo.isEmpty()) proc->setOption("vo", "xv,x11,");
+		if (proc->isMPV()) {
+			if (pref->vo.startsWith("gpu")) {
+				proc->setOption("gpu-context", "x11");
+			}
+		}
+	}
+#endif
 
 #if USE_ADAPTER
 	if (pref->adapter > -1) {
