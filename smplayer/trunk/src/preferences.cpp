@@ -148,6 +148,7 @@ void Preferences::reset() {
 	#endif
 #else
 	disable_screensaver = true;
+	wayland_workarounds = true;
 #endif
 
 #ifndef Q_OS_WIN
@@ -728,6 +729,7 @@ void Preferences::save() {
 	#endif
 #else
 	set->setValue("disable_screensaver", disable_screensaver);
+	set->setValue("wayland_workarounds", wayland_workarounds);
 #endif
 
 #ifndef Q_OS_WIN
@@ -1323,6 +1325,7 @@ void Preferences::load() {
 	#endif
 #else
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
+	wayland_workarounds = set->value("wayland_workarounds", wayland_workarounds).toBool();
 #endif
 
 #ifndef Q_OS_WIN

@@ -84,6 +84,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	#ifndef AVOID_SCREENSAVER
 	avoid_screensaver_check->hide();
 	#endif
+	wayland_check->hide();
 #else
 	screensaver_group->hide();
 #endif
@@ -292,6 +293,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	#endif
 #else
 	setDisableScreensaver( pref->disable_screensaver );
+	wayland_check->setChecked(pref->wayland_workarounds);
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
@@ -402,6 +404,10 @@ void PrefGeneral::getData(Preferences * pref) {
 	#endif
 #else
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
+	if (pref->wayland_workarounds != wayland_check->isChecked()) {
+		requires_restart = true;
+		pref->wayland_workarounds = wayland_check->isChecked();
+	}
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
@@ -966,6 +972,10 @@ void PrefGeneral::player_combo_changed(int idx) {
 		player_spacer->changeSize(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 		mplayerbin_edit->setVisible(false);
 	}
+
+	#ifndef Q_OS_WIN
+	wayland_check->setVisible(mplayerPath().contains("mpv"));
+	#endif
 }
 #endif
 
@@ -1112,6 +1122,11 @@ void PrefGeneral::createHelp() {
 		tr("Usually video filters won't work when using vdpau as video output "
            "driver, so it's wise to keep this option checked.") );
 	*/
+#endif
+
+#ifndef Q_OS_WIN
+	setWhatsThis(wayland_check, tr("Wayland support"),
+		tr("This activates some options to prevent the video being displayed outside the main window."));
 #endif
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),

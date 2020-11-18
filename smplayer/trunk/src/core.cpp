@@ -1754,7 +1754,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifndef Q_OS_WIN
 	// If using Wayland
-	if (qgetenv("XDG_SESSION_TYPE") != "x11") {
+	if (pref->wayland_workarounds && qgetenv("XDG_SESSION_TYPE") != "x11") {
 		// Trying to prevent the video to be outside the application window
 		if (pref->vo.isEmpty()) proc->setOption("vo", "xv,x11,");
 		if (proc->isMPV()) {
