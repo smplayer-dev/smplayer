@@ -2297,68 +2297,68 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3198"/>
+        <location filename="../core.cpp" line="3207"/>
         <source>Brightness: %1</source>
         <translation>Kecerahan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3223"/>
         <source>Contrast: %1</source>
         <translation>Beza jelas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Hue: %1</source>
         <translation>Rona: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3259"/>
+        <location filename="../core.cpp" line="3268"/>
         <source>Saturation: %1</source>
         <translation>Ketepuan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3402"/>
+        <location filename="../core.cpp" line="3411"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4364"/>
+        <location filename="../core.cpp" line="4373"/>
         <source>Zoom: %1</source>
         <translation>Zum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3530"/>
-        <location filename="../core.cpp" line="3541"/>
+        <location filename="../core.cpp" line="3539"/>
+        <location filename="../core.cpp" line="3550"/>
         <source>Font scale: %1</source>
         <translation>Skala fon: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4195"/>
+        <location filename="../core.cpp" line="4204"/>
         <source>Aspect ratio: %1</source>
         <translation>Nisbah bidang: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4602"/>
+        <location filename="../core.cpp" line="4611"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Mengemaskini cache fon. Ia mungkin mengambil masa beberapa saat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3455"/>
+        <location filename="../core.cpp" line="3464"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Lengahan sarikata: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3473"/>
+        <location filename="../core.cpp" line="3482"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lengahan audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3313"/>
+        <location filename="../core.cpp" line="3322"/>
         <source>Speed: %1</source>
         <translation>Kelajuan: %1</translation>
     </message>
@@ -2368,42 +2368,42 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Tidak dapat cari URL video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3629"/>
+        <location filename="../core.cpp" line="3638"/>
         <source>Subtitles on</source>
         <translation>Sarikata dihidupkan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3631"/>
+        <location filename="../core.cpp" line="3640"/>
         <source>Subtitles off</source>
         <translation>Sarikata dimatikan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kini jangkau roda tetikus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4255"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kini roda tetikus mengubah volum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kini roda tetikus mengubah aras zum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4252"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kini roda tetikus mengubah kelajuan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4578"/>
+        <location filename="../core.cpp" line="4587"/>
         <source>Screenshot saved as %1</source>
         <translation>Cekupan skrin disimpan sebagai %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4622"/>
         <source>Starting...</source>
         <translation>Memulakan...</translation>
     </message>
@@ -2418,17 +2418,17 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Cekupan skrin TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2800"/>
+        <location filename="../core.cpp" line="2809"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Penanda &quot;A&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2825"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Penanda &quot;B&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2857"/>
         <source>A-B markers cleared</source>
         <translation>Penanda A-B dikosongkan</translation>
     </message>
@@ -4770,86 +4770,86 @@ Anda hendak tulis-ganti?</translation>
         <translation>penapis &apos;%1&apos; tidak sokongan oleh mpv</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="846"/>
+        <location filename="../mpvoptions.cpp" line="847"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>Fail:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="849"/>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="850"/>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>Resolusi:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="851"/>
+        <location filename="../mpvoptions.cpp" line="852"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>Bingkai sesaat:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="851"/>
+        <location filename="../mpvoptions.cpp" line="852"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>Anggaran:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="853"/>
+        <location filename="../mpvoptions.cpp" line="854"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>Nisbah Bidang:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="854"/>
-        <location filename="../mpvoptions.cpp" line="859"/>
+        <location filename="../mpvoptions.cpp" line="855"/>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>Kadar Bit:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="855"/>
+        <location filename="../mpvoptions.cpp" line="856"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>Bingkai dilepaskan:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="858"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="860"/>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>Kadar Sampel:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="861"/>
+        <location filename="../mpvoptions.cpp" line="862"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>Saluran:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="864"/>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>Penyegerakan audio/video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="867"/>
+        <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache (in seconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="868"/>
+        <location filename="../mpvoptions.cpp" line="869"/>
         <source>Cache speed:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5943,8 +5943,8 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="150"/>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="151"/>
+        <location filename="../prefgeneral.cpp" line="1032"/>
         <source>General</source>
         <translation>Am</translation>
     </message>
@@ -5959,270 +5959,280 @@ Anda hendak tulis-ganti?</translation>
         <translation>Tetapan media</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1177"/>
         <source>Start videos in fullscreen</source>
         <translation>Mula video dalam mod skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Disable screensaver</source>
         <translation>Lumpuhkan penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="173"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (Sekeliling 6.1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="174"/>
+        <location filename="../prefgeneral.cpp" line="175"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (Sekeliling 7.1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="200"/>
+        <location filename="../prefgeneral.cpp" line="201"/>
         <source>Select the %1 executable</source>
         <translation>Pilih bolehlaku %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="202"/>
+        <location filename="../prefgeneral.cpp" line="203"/>
         <source>Executables</source>
         <translation>Bolehlaku</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="204"/>
+        <location filename="../prefgeneral.cpp" line="205"/>
         <source>All files</source>
         <translation>Semua fail</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="206"/>
+        <location filename="../prefgeneral.cpp" line="207"/>
         <source>Select a directory</source>
         <translation>Pilih satu direktori</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="217"/>
+        <location filename="../prefgeneral.cpp" line="218"/>
         <source>%1 &amp;executable:</source>
         <translation>&amp;Bolehlaku %1:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="169"/>
-        <location filename="../prefgeneral.cpp" line="428"/>
-        <location filename="../prefgeneral.cpp" line="429"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
+        <location filename="../prefgeneral.cpp" line="434"/>
+        <location filename="../prefgeneral.cpp" line="435"/>
         <source>Default</source>
         <translation>Lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="209"/>
+        <location filename="../prefgeneral.cpp" line="210"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
         <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Multimedia engine</source>
         <translation>Enjin multimedia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Pilih enjin multimedia yang anda mahu gunakan, sama ada MPlayer atau mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1037"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Pilihan &apos;lain&apos; membolehkan anda pilih laluan bolehlaku secara manual.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>%1 executable</source>
         <translation>Bolehlaku %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1031"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Di sini anda mesti nyatakan bolehlaku %1 yang mana SMPlayer akan gunakan.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>Remember settings for streams</source>
         <translation>Ingat tetapan untuk strim</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Bila pilihan ini dibenarkan tetapan untuk strim atas-talian akan diingati jua.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Screenshots folder</source>
         <translation>Folder cekupan skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Template for screenshots</source>
         <translation>Templat untuk cekupan skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1080"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Contohnya %1 akan menyimpan cekupan skrin sebagai &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1071"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 menyatakan nama fail video tanpa sambungan, %2 tambah 4 nombor digit yang dipadatkan dengan sifar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Format for screenshots</source>
         <translation>Format untuk cekupan skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Pilihan ini membolehkan pemilihan jenis fail imej yang digunakan untuk menyimpan cekupan skrin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1110"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Jika pilihan ini dibenarkan, komputer akan dimatikan selepas SMPlayer ditutup.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Video output driver</source>
         <translation>Pemacu output video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Select the video output driver.</source>
         <translation>Pilih pemacu output video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
+        <source>Wayland support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1129"/>
+        <source>This activates some options to prevent the video being displayed outside the main window.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Jika pilihan ini dibenarkan, sempadan hitam akan ditambah pada imej secara lalai pada fail yang baharu dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1217"/>
         <source>Audio output driver</source>
         <translation>Pemacu output audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Select the audio output driver.</source>
         <translation>Pilih pemacu output audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Remember settings</source>
         <translation>Ingat tetapan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1261"/>
+        <location filename="../prefgeneral.cpp" line="1276"/>
         <source>Preferred audio language</source>
         <translation>Bahasa audio digemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1273"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Preferred subtitle language</source>
         <translation>Bahasa sarikata digemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>Software video equalizer</source>
         <translation>Penyama video perisian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="165"/>
+        <location filename="../prefgeneral.cpp" line="166"/>
         <source>Other...</source>
         <translation>Lain...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1079"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan cekupan skrin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Untuk senarai penuh penerang templat lawati pautan ini:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>This option only works with mpv.</source>
         <translation>Pilihan ini hanya berfungsi dengan mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1099"/>
+        <location filename="../prefgeneral.cpp" line="1109"/>
         <source>Shut down computer</source>
         <translation>Matikan komputer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Add black borders for subtitles by default</source>
         <translation>Tambah sempadan hitam pada sarikata secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1156"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Anda boleh semak pilihan ini jika penyama video tidak disokong oleh kad grafik anda atau pemacu output video terpilih.&lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; pilihan ini boleh menjadi tidak serasi dengan beberapa pemacu output video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Jika pilihan ini ditanda, semua video akan mula dimainkan dalam mod skrin penuh.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1208"/>
+        <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Global audio equalizer</source>
         <translation>Penyama audio sejagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1224"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Jika pilihan ini ditanda, semua fail media berkongsi penyama audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1225"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Jika ia tidak ditanda, nilai penyama audio disimpan bersama-sama setiap fail dan dimuat kembali bila fail tersebut dimain kemudian.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1213"/>
+        <location filename="../prefgeneral.cpp" line="1228"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS melalui ke S/PDIF dan HDMI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1234"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Pinta sejumlah saluran main balik. %1 menanya penyahkod untuk menyahkod audio pada sebanyak mana saluran yang dinyatakan. Kemudian ia bergantung pada penyahkod untuk memenuhi keperluan tersebut. Ia biasanya hanya penting bila memainkan video dengan audio AC3 (seperti DVD). Dalam kes liba52 menyahkod secara lalai dan membetulkan downmix audio ke dalam sejumlah saluran yang dipinta. &lt;b&gt;Perhatian&lt;/b&gt;: Pilihan ini diutamakan oleh kodeks (AC3 hanya), penapis (keliling) dan pemacu output audio (OSS sekurang-kurangnya).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1245"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Benarkan ubah kelajuan main balik tanpa mengubah pic.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1238"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>Software volume control</source>
         <translation>Kawalan volum perisian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Tanda pilihan ini untuk guna pengadun perisian, selain dari menggunakan pengadun kad bunyi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1135"/>
         <source>Postprocessing quality</source>
         <translation>Kualiti pos-pemprosesan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Ubah secara dinamik aras pos-pemprosesan yang bergantung pada masa CPU ganti yang ada. Nombor yang anda tentukan akan menjadi aras maksimum yang digunakan. Biasanya anda boleh guna nombor besar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1165"/>
+        <location filename="../prefgeneral.ui" line="1172"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Audio:</translation>
     </message>
@@ -6232,12 +6242,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Ingat tetapan untuk semua fail (trek audio, sarikata...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1184"/>
+        <location filename="../prefgeneral.ui" line="1191"/>
         <source>Su&amp;btitles:</source>
         <translation>Sa&amp;rikata:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="448"/>
+        <location filename="../prefgeneral.ui" line="455"/>
         <source>&amp;Quality:</source>
         <translation>K&amp;ualiti:</translation>
     </message>
@@ -6267,97 +6277,102 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Matikan komputer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="620"/>
+        <location filename="../prefgeneral.ui" line="407"/>
+        <source>Wa&amp;yland support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="627"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Mula video dalam mod skrin &amp;penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="634"/>
+        <location filename="../prefgeneral.ui" line="641"/>
         <source>Disable &amp;screensaver</source>
         <translation>Lumpuhkan pen&amp;yelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="768"/>
+        <location filename="../prefgeneral.ui" line="775"/>
         <source>Global audio e&amp;qualizer</source>
         <translation>Pen&amp;yama audio sejagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="777"/>
+        <location filename="../prefgeneral.ui" line="784"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>&amp;AC3/DTS melalui ke S/PDIF dan HDMI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="887"/>
+        <location filename="../prefgeneral.ui" line="894"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Guna kawalan v&amp;olum perisian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="910"/>
+        <location filename="../prefgeneral.ui" line="917"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Penguatan Ma&amp;ks.:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1146"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Direct rendering</source>
         <translation>Penerapan langsung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1166"/>
         <source>Double buffering</source>
         <translation>Penimbalan dubel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="593"/>
         <source>D&amp;irect rendering</source>
         <translation>Penerapan lan&amp;gsung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="593"/>
+        <location filename="../prefgeneral.ui" line="600"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Penim&amp;balan dubel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1152"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Penimbalan dubel membaiki kerlipan dengan menyimpan dua bingkai di dalam ingatan, dan memaparkan satu semasa menyahkod yang lain. Jika dilumpuhkan ia dapat menjejaskan OSD secara negatif, tetapi biasanya membuang kerlipan OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="428"/>
+        <location filename="../prefgeneral.ui" line="435"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>B&amp;enarkan pos-pemprosesan secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="938"/>
+        <location filename="../prefgeneral.ui" line="945"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Penormalan &amp;volum secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1094"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Close when finished</source>
         <translation>Tutup bila selesai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1095"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Jika pilihan ini ditanda, tetingkap utama akan ditutup secara automatik bila fail/senarai main semasa selesai.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="170"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="171"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (Sekeliling 4.0)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="172"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (Sekeliling 5.1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="792"/>
+        <location filename="../prefgeneral.ui" line="799"/>
         <source>C&amp;hannels by default:</source>
         <translation>Sa&amp;luran secara lalai:</translation>
     </message>
@@ -6367,117 +6382,117 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Jeda bila diminimumkan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1089"/>
+        <location filename="../prefgeneral.cpp" line="1099"/>
         <source>Pause when minimized</source>
         <translation>Jeda bila diminimumkan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Enable postprocessing by default</source>
         <translation>Benarkan pos-pemprosesan secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1242"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Max. Amplification</source>
         <translation>Penguatan Ma&amp;ks.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1249"/>
+        <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Volume normalization by default</source>
         <translation>Penormalan volum secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1250"/>
+        <location filename="../prefgeneral.cpp" line="1265"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maksimumkan volum tanpa mengherotkan bunyi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1218"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Channels by default</source>
         <translation>Saluran secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1243"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Tetakan aras penguatan maksimum dalam peratus (lalai: 110). Nilai 200 akan membolehkan anda laras volum sehingga nilai maksimum ganda dua aras semasa. Dengan nilai dibawah 100 volum awal (iaitu 100%) akan berada diatas nilai maksimum, iaitu OSD tidak dipaparkan dengan baik.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Pos-pemprosesan akan digunakan secara lalai pada fail yang baru dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1263"/>
+        <location filename="../prefgeneral.cpp" line="1278"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>Anda boleh nyatakan di sini senarai prioriti kod bahasa audio, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1267"/>
+        <location filename="../prefgeneral.cpp" line="1282"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek audio jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1290"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>Anda boleh nyatakan di sini senarai kod bahasa sarikata, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1278"/>
+        <location filename="../prefgeneral.cpp" line="1293"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih strim sarikata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1285"/>
+        <location filename="../prefgeneral.cpp" line="1300"/>
         <source>Audio track</source>
         <translation>Trek audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1286"/>
+        <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Nyatakan trek audio lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa audio digemari&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1291"/>
+        <location filename="../prefgeneral.cpp" line="1306"/>
         <source>Subtitle track</source>
         <translation>Trek sarikata</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1292"/>
+        <location filename="../prefgeneral.cpp" line="1307"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Nyatakan trek sarikata lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa sarikata digemari&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1305"/>
+        <location filename="../prefgeneral.ui" line="1312"/>
         <source>Or choose a track number:</source>
         <translation>Atau pilih nombor trek:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1246"/>
+        <location filename="../prefgeneral.ui" line="1253"/>
         <source>Audi&amp;o:</source>
         <translation>Audi&amp;o:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1200"/>
+        <location filename="../prefgeneral.ui" line="1207"/>
         <source>Preferred language:</source>
         <translation>Bahasa digemari:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1089"/>
+        <location filename="../prefgeneral.ui" line="1096"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Audio dan sarikata di&amp;gemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1259"/>
+        <location filename="../prefgeneral.ui" line="1266"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Sarikata:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="835"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>&amp;Main balik kelajuan tinggi tanpa mengubah pic</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1244"/>
         <source>High speed playback without altering pitch</source>
         <translation>Main balik kelajuan tinggi tanpa mengubah pic</translation>
     </message>
@@ -6487,82 +6502,82 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="516"/>
+        <location filename="../prefgeneral.ui" line="523"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
         <translation>Tambah sempadan &amp;hitam pada sarikata secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="579"/>
+        <location filename="../prefgeneral.ui" line="586"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>Guna penyama video per&amp;isian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="685"/>
         <source>A&amp;udio</source>
         <translation>A&amp;udio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="863"/>
+        <location filename="../prefgeneral.ui" line="870"/>
         <source>Volume</source>
         <translation>Volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1259"/>
+        <location filename="../prefgeneral.cpp" line="1274"/>
         <source>Preferred audio and subtitles</source>
         <translation>Audio dan sarikata digemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="178"/>
+        <location filename="../prefgeneral.cpp" line="179"/>
         <source>None</source>
         <translation>Tiada</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="179"/>
+        <location filename="../prefgeneral.cpp" line="180"/>
         <source>Lowpass5</source>
         <translation>Laluanrendah5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="180"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (biasa)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="181"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Yadif (double framerate)</source>
         <translation>Y&amp;adif (kadar bingkai dubel)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="182"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Linear Blend</source>
         <translation>Adun Linear</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="184"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Deinterlace by default</source>
         <translation>Nyahselang-seli secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Pilih penapis nyah-antarjalinan yang anda mahu gunakan untuk video yang baru dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1041"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>Remember time position</source>
         <translation>Ingat kedudukan masa</translation>
     </message>
@@ -6572,32 +6587,32 @@ Anda hendak tulis-ganti?</translation>
         <translation>Ingat kedudukan &amp;masa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Enable the audio equalizer</source>
         <translation>Benarkan penyama audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1206"/>
+        <location filename="../prefgeneral.cpp" line="1221"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Tanda pilihan ini jika anda mahu guna penyama audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="745"/>
+        <location filename="../prefgeneral.ui" line="752"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>B&amp;enarkan penyama audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Draw video using slices</source>
         <translation>Lukis video menggunakan hirisan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Benar/lumpuhkan melukis video dengan hirisan/jalur berketinggian 16-piksel. Jika dilumpuhkan, keseluruhan bingkai dilukis dengan sekali jalan. Mungkin lebih pantas atau sebaliknya, bergantung pada kad video atau cache yang ada. Ia hanya berkesan dengan kodeks libmpeg2 dan libavcodec.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="600"/>
+        <location filename="../prefgeneral.ui" line="607"/>
         <source>Dra&amp;w video using slices</source>
         <translation>&amp;Lukis video menggunakan hirisan</translation>
     </message>
@@ -6607,112 +6622,112 @@ Anda hendak tulis-ganti?</translation>
         <translation>T&amp;utup bila main balik selesai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="436"/>
-        <location filename="../prefgeneral.cpp" line="443"/>
-        <location filename="../prefgeneral.cpp" line="469"/>
+        <location filename="../prefgeneral.cpp" line="442"/>
+        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="475"/>
         <source>fast</source>
         <translation>pantas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="437"/>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>slow</source>
         <translation>perlahan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="470"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>fast - ATI cards</source>
         <translation>pantas - kad ATI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="492"/>
-        <location filename="../prefgeneral.cpp" line="535"/>
+        <location filename="../prefgeneral.cpp" line="498"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>User defined...</source>
         <translation>Ditakrif pengguna...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Default zoom</source>
         <translation>Zum lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Pilihan ini tetapkan zum lalai yang mana akan digunakan untuk video baru.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="525"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Default &amp;zoom:</source>
         <translation>&amp;Zum lalai:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Jika tetapan ini salah, SMPlayer tidak dapat memainkan apa-apa!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Biasanya SMPlayer akan mengingati tetapan bagi setiap fail yang anda main (trek audio terpilih, volum, penapis...). Lumpuhkan pilihan ini jika anda tidak mahu fitur ini.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Jika pilihan ini dibenarkan, fail akan dijeda bila tetingkap utama disembunyikan. Bila tetingkap dipulihkan, main balik akan disambung semula.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Tanda pilihan ini untuk lumpuhkan penyelamat skrin, semasa dimainkan. &lt;br&gt;Penyelamatan akan dibenarkan sekali lagi bila selesai main.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="693"/>
         <source>Ou&amp;tput driver:</source>
         <translation>Pemacu ou&amp;tput:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Add black borders on fullscreen</source>
         <translation>Tambah sempadan hitam pada skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1168"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Jika pilihan ini dibenarkan, sempadan hitam akan ditambah ke imej dalam mod skrin penuh. Ia membolehkan sarikata dipaparkan pada sempadan hitam.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="627"/>
+        <location filename="../prefgeneral.ui" line="634"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>T&amp;ambah sempadan hitam pada skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="188"/>
+        <location filename="../prefgeneral.cpp" line="189"/>
         <source>one ini file</source>
         <translation>satu fail ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="189"/>
+        <location filename="../prefgeneral.cpp" line="190"/>
         <source>multiple ini files</source>
         <translation>berbilang fail ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Method to store the file settings</source>
         <translation>Kaedah untuk menyimpan tetapan fail</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Pilihan ini memberi perubahan cara tetapan fail dipulihkan. Pilihan berikut yang tersedia:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1052"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;satu fail ini&lt;/b&gt;: Tetapan untuk semua fail yang dimainkan akan disimpan dalam satu fail ini (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Kaedah terkemudian lebih pantas jika terdapat maklumat untuk banyak fail.</translation>
     </message>
@@ -6722,32 +6737,32 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Simpan tetapan dalam</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1064"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;berbilang fail ini&lt;/b&gt;: satu fail ini akan digunakan bagi setiap fail yang dimainkan. Fail ini ini akan disimpan di dalam folder %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1042"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Jika anda tanda pilihan ini, SMPlayer akan ingat kedudukan terakhir fail bila anda buka ia sekali lagi. Pilihan ini hanya berfungsi dengan fail biasa (bukan dengan DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Jika ditanda, hidupkan penerapan langsung (tidak disokong oleh semua kodeks dan output video)&lt;br&gt;&lt;b&gt;Amaran:&lt;/b&gt; Mungkin menyebabkan kerosakan pada OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1058"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Enable screenshots</source>
         <translation>Benarkan cekupan skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1069"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Anda boleh guna pilihan ini untuk benar atau lumpuhkan kebarangkalian mengambil cekupan skrin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Di sini anda boleh nyatakan folder dimana cekupan skrin yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur cekupan skrin akan dilumpuhkan.</translation>
     </message>
@@ -6767,132 +6782,132 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Folder:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1232"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Global volume</source>
         <translation>Volum sejagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1248"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Jika pilihan ini ditanda, volum yang sama akan digunakan untuk semua fail yang anda main. Jika pilihan ini tidak ditanda setiap fail akan menggunakan volumnya sendiri.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1251"/>
         <source>This option also applies for the mute control.</source>
         <translation>Pilihan ini juga laksana kawalan senyap.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="872"/>
+        <location filename="../prefgeneral.ui" line="879"/>
         <source>Glo&amp;bal volume</source>
         <translation>Volum se&amp;jagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Switch screensaver off</source>
         <translation>Matikan penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Pilihan ini mematikan penyelamat skrin sebelum mula memainkan fail dan hidupkannya kembali bila main balik selesai. Jika pilihan ini dibenarkan. penyelamat skrin tidak akan muncul walaupun memainkan fail audio atau bila fail dijeda.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Avoid screensaver</source>
         <translation>Hindari penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Bila pilihan ini ditanda, SMPlayer akan cuba hindari penyelamat skrin dipaparkan bila memainkan fail video. Penyelamat skrin akan dipaparkan jika memainkan fail audio atau dalam mod jeda. Pilihan ini hanya berfungsi jika tetingkap SMPlayer berada dibelakang.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="641"/>
+        <location filename="../prefgeneral.ui" line="648"/>
         <source>Screensaver</source>
         <translation>Penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="647"/>
+        <location filename="../prefgeneral.ui" line="654"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>Matikan pen&amp;yelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="654"/>
+        <location filename="../prefgeneral.ui" line="661"/>
         <source>Avoid &amp;screensaver</source>
         <translation>Hindari penyelamat &amp;skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>Audio/video auto synchronization</source>
         <translation>Penyegerakan sendiri audio/video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1253"/>
+        <location filename="../prefgeneral.cpp" line="1268"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Laras secara beransur-ansur segerak A/V yang berasaskan pada pengukuran lengahan audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1256"/>
+        <location filename="../prefgeneral.cpp" line="1271"/>
         <source>A-V sync correction</source>
         <translation>Pembetulan segerak A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1257"/>
+        <location filename="../prefgeneral.cpp" line="1272"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Pembetulan segerak A-V maksimum per bingkai (dalam saat)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="948"/>
+        <location filename="../prefgeneral.ui" line="955"/>
         <source>Synchronization</source>
         <translation>Penyegerakan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="959"/>
+        <location filename="../prefgeneral.ui" line="966"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>Penyegerakan &amp;sendiri audio/video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="985"/>
+        <location filename="../prefgeneral.ui" line="992"/>
         <source>&amp;Factor:</source>
         <translation>&amp;Faktor:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1021"/>
+        <location filename="../prefgeneral.ui" line="1028"/>
         <source>A-V sync &amp;correction</source>
         <translation>Pem&amp;betulan segerak A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1044"/>
+        <location filename="../prefgeneral.ui" line="1051"/>
         <source>&amp;Max. correction:</source>
         <translation>Pembetulan &amp;maks.:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Perhatian:&lt;/b&gt; Pilihan ini tidak diguna untuk saluran TV.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="481"/>
+        <location filename="../prefgeneral.ui" line="488"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
         <translation>Nyahse&amp;lang secara lalai (kecuali untuk TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1214"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Guna lalaun perkakasan AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1215"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Perhatian:&lt;/b&gt; tiada penapis audio akan digunakan bila pilihan ini dibenarkan.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>snap mode</source>
         <translation>mod lekat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="445"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>slower dive mode</source>
         <translation>mod junam lebih perlahan</translation>
     </message>

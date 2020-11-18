@@ -2297,68 +2297,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3198"/>
+        <location filename="../core.cpp" line="3207"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3223"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3244"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Hue: %1</source>
         <translation>색상: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3259"/>
+        <location filename="../core.cpp" line="3268"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3402"/>
+        <location filename="../core.cpp" line="3411"/>
         <source>Volume: %1</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4364"/>
+        <location filename="../core.cpp" line="4373"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3530"/>
-        <location filename="../core.cpp" line="3541"/>
+        <location filename="../core.cpp" line="3539"/>
+        <location filename="../core.cpp" line="3550"/>
         <source>Font scale: %1</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4195"/>
+        <location filename="../core.cpp" line="4204"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4602"/>
+        <location filename="../core.cpp" line="4611"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3455"/>
+        <location filename="../core.cpp" line="3464"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3473"/>
+        <location filename="../core.cpp" line="3482"/>
         <source>Audio delay: %1 ms</source>
         <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3313"/>
+        <location filename="../core.cpp" line="3322"/>
         <source>Speed: %1</source>
         <translation>속도: %1</translation>
     </message>
@@ -2368,42 +2368,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3629"/>
+        <location filename="../core.cpp" line="3638"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3631"/>
+        <location filename="../core.cpp" line="3640"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4243"/>
+        <location filename="../core.cpp" line="4252"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4246"/>
+        <location filename="../core.cpp" line="4255"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4249"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4252"/>
+        <location filename="../core.cpp" line="4261"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4578"/>
+        <location filename="../core.cpp" line="4587"/>
         <source>Screenshot saved as %1</source>
         <translation>스크린샷 저장: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4613"/>
+        <location filename="../core.cpp" line="4622"/>
         <source>Starting...</source>
         <translation>시작하는 중...</translation>
     </message>
@@ -2418,17 +2418,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2800"/>
+        <location filename="../core.cpp" line="2809"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2825"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2857"/>
         <source>A-B markers cleared</source>
         <translation>A-B 표시를 지웠습니다</translation>
     </message>
@@ -4770,86 +4770,86 @@ Do you want to overwrite?</source>
         <translation> &apos;%1&apos; 필터는 mpv에서 지원되지 않습니다</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="846"/>
+        <location filename="../mpvoptions.cpp" line="847"/>
         <location filename="../mpvprocess.h" line="202"/>
         <source>File:</source>
         <translation>파일:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="849"/>
+        <location filename="../mpvoptions.cpp" line="850"/>
         <location filename="../mpvprocess.h" line="203"/>
         <source>Video:</source>
         <translation>비디오:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="850"/>
+        <location filename="../mpvoptions.cpp" line="851"/>
         <location filename="../mpvprocess.h" line="204"/>
         <source>Resolution:</source>
         <translation>해상도:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="851"/>
+        <location filename="../mpvoptions.cpp" line="852"/>
         <location filename="../mpvprocess.h" line="205"/>
         <source>Frames per second:</source>
         <translation>초당 프레임:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="851"/>
+        <location filename="../mpvoptions.cpp" line="852"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>Estimated:</source>
         <translation>추정:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="853"/>
+        <location filename="../mpvoptions.cpp" line="854"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>Aspect Ratio:</source>
         <translation>화면 비율:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="854"/>
-        <location filename="../mpvoptions.cpp" line="859"/>
+        <location filename="../mpvoptions.cpp" line="855"/>
+        <location filename="../mpvoptions.cpp" line="860"/>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
         <translation>비트레이트:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="855"/>
+        <location filename="../mpvoptions.cpp" line="856"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Dropped frames:</source>
         <translation>빠진 프레임:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="858"/>
+        <location filename="../mpvoptions.cpp" line="859"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Audio:</source>
         <translation>오디오:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="860"/>
+        <location filename="../mpvoptions.cpp" line="861"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Sample Rate:</source>
         <translation>샘플 레이트:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="861"/>
+        <location filename="../mpvoptions.cpp" line="862"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Channels:</source>
         <translation>채널:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="864"/>
+        <location filename="../mpvoptions.cpp" line="865"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Audio/video synchronization:</source>
         <translation>오디오/비디오  동기화:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="867"/>
+        <location filename="../mpvoptions.cpp" line="868"/>
         <source>Cache (in seconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="868"/>
+        <location filename="../mpvoptions.cpp" line="869"/>
         <source>Cache speed:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5943,8 +5943,8 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="150"/>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="151"/>
+        <location filename="../prefgeneral.cpp" line="1032"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -5959,270 +5959,280 @@ Do you want to overwrite?</source>
         <translation>미디어 설정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1177"/>
         <source>Start videos in fullscreen</source>
         <translation>전체 화면에서 재생 시작하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Disable screensaver</source>
         <translation>화면 보호기 끄기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="173"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>7 (6.1 Surround)</source>
         <translation>7개 (6.1 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="174"/>
+        <location filename="../prefgeneral.cpp" line="175"/>
         <source>8 (7.1 Surround)</source>
         <translation>8개 (7.1 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="200"/>
+        <location filename="../prefgeneral.cpp" line="201"/>
         <source>Select the %1 executable</source>
         <translation>%1 실행 파일 선택하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="202"/>
+        <location filename="../prefgeneral.cpp" line="203"/>
         <source>Executables</source>
         <translation>실행 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="204"/>
+        <location filename="../prefgeneral.cpp" line="205"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="206"/>
+        <location filename="../prefgeneral.cpp" line="207"/>
         <source>Select a directory</source>
         <translation>폴더 선택하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="217"/>
+        <location filename="../prefgeneral.cpp" line="218"/>
         <source>%1 &amp;executable:</source>
         <translation>%1 실행 파일:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="169"/>
-        <location filename="../prefgeneral.cpp" line="428"/>
-        <location filename="../prefgeneral.cpp" line="429"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
+        <location filename="../prefgeneral.cpp" line="434"/>
+        <location filename="../prefgeneral.cpp" line="435"/>
         <source>Default</source>
         <translation>기본</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="209"/>
+        <location filename="../prefgeneral.cpp" line="210"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
         <translation>여기에서 오디오와 자막 스트림에 선호하는 언어를 지정할 수 있습니다. 오디오나 자막 스트림이 여러 개 있는 미디어인 경우 SMPlayer는 선호하는 언어를 먼저 사용합니다. 이것은 DVD나 mkv 파일처럼 오디오와 자막 스트림의 정보를 제공하는 미디어에서만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Multimedia engine</source>
         <translation>멀티미디어 엔진</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>MPlayer나 mpv 중에서 사용할 멀티미디어 엔진을 고르세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1037"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>&apos;기타&apos; 옵션에서 실행파일의 경로를 직접 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>%1 executable</source>
         <translation>%1 실행 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1031"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>여기에 SMPlayer가 사용할 %1 실행파일의 위치를 지정해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>Remember settings for streams</source>
         <translation>스트림의 설정 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>이 옵션 사용시 온라인 스트림의 설정 또한 기억할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Screenshots folder</source>
         <translation>스크린샷 폴더</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Template for screenshots</source>
         <translation>스크린샷 템플릿</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1080"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>예를 들어 %1 은 스크린샷을 &apos;moviename_0001.png&apos; 로 저장합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1071"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 은 확장자 없는 동영상의 파일명이고, %2는 0으로 채운 네자리 숫자를 파일명 뒤에 추가합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Format for screenshots</source>
         <translation>스크린샷 형식</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>이 옵션으로 스크린샷을 저장하는데 사용하는 이미지 파일 형식을 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1110"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>이 옵션 사용시 SMPlayer 종료 후 즉시 컴퓨터를 종료합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Video output driver</source>
         <translation>비디오 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Select the video output driver.</source>
         <translation>비디오 출력 드라이버를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
+        <source>Wayland support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1129"/>
+        <source>This activates some options to prevent the video being displayed outside the main window.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>이 옵션을 사용하면,  새로 여는 파일의 영상에 검은색 여백를 기본적으로 추가할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1217"/>
         <source>Audio output driver</source>
         <translation>오디오 출력 드라이버</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Select the audio output driver.</source>
         <translation>오디오 출력 드라이버를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Remember settings</source>
         <translation>설정 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1261"/>
+        <location filename="../prefgeneral.cpp" line="1276"/>
         <source>Preferred audio language</source>
         <translation>선호하는 오디오 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1273"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Preferred subtitle language</source>
         <translation>선호하는 자막 언어</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>Software video equalizer</source>
         <translation>소프트웨어 비디오 이퀄라이저</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="165"/>
+        <location filename="../prefgeneral.cpp" line="166"/>
         <source>Other...</source>
         <translation>기타...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1079"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>이 옵션은 스크린샷을 저장하는데 사용되는 파일명 템플릿을 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>템플릿 지정자의 전체목록은 이 링크를 방문하세요:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>This option only works with mpv.</source>
         <translation>이 옵션은 MPV에서만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1099"/>
+        <location filename="../prefgeneral.cpp" line="1109"/>
         <source>Shut down computer</source>
         <translation>컴퓨터 종료하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Add black borders for subtitles by default</source>
         <translation>자막용 검은색 여백을 기본적으로 추가하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1156"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>그래픽 카드나 영상 출력 드라이버에서 비디오 이퀄라이저를 지원하지 않는 경우, 이 옵션을 선택할 수 있습니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 일부 영상 출력 드라이버와 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>만약 이 옵션을 선택하면, 모든 동영상은 전체 화면에서 재생을 시작됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1208"/>
+        <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Global audio equalizer</source>
         <translation>전역 오디오 이퀄라이저</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1224"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>이 옵션에 체크하면 모든 파일에서 오디오 이퀄라이저를 공유합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1225"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>이 옵션을 해제하면, 오디오 이퀄라이저 값은 각각의 파일마다 저장이 되고 나중에 재생시 다시 불러옵니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1213"/>
+        <location filename="../prefgeneral.cpp" line="1228"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>S/PDIF 및 HDMI로 AC3/DTS 패스쓰루</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1234"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>재생 채널의 숫자가 필요합니다. %1는 디코더가 지정한 대로 가능한 많은 채널로 오디오를 디코딩하도록 요청합니다. 그 요구사항을 충족시킬지는 디코더에게 달려 있습니다. 이것은 보통은 AC3 오디오 (DVD 같은) 가 있는 동영상 재생시에만 의미가 있습니다. 이 경우 liba52은 기본적으로 디코딩을 한 후에 요구한 채널 숫자대로 오디오를 바르게 다운믹스합니다.  &lt;b&gt;참고&lt;/b&gt;: 이 옵션은 코덱 (AC3만), 필터 (서라운드) 와 오디오 출력 드라이버 (최소한 OSS) 에서 통용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1245"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>음의 높이를 변경하지 않고 재생 속도를 바꿀 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1238"/>
+        <location filename="../prefgeneral.cpp" line="1253"/>
         <source>Software volume control</source>
         <translation>소프트웨어 볼륨 조절</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>사운드 카드 믹서 대신 소프트웨어 믹서를 사용하려면 이 옵션에 체크하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1135"/>
         <source>Postprocessing quality</source>
         <translation>후처리 품질</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>사용 가능한 여분의 CPU 시간에 따라 후처리 단계를 동적으로 변경합니다. 여기에 지정하는 숫자는 사용되는 최대 후처리 단계입니다. 보통 다소 큰 숫자를 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1165"/>
+        <location filename="../prefgeneral.ui" line="1172"/>
         <source>&amp;Audio:</source>
         <translation>오디오:</translation>
     </message>
@@ -6232,12 +6242,12 @@ Do you want to overwrite?</source>
         <translation>모든 파일에 대해 설정(오디오 트랙, 자막...)을 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1184"/>
+        <location filename="../prefgeneral.ui" line="1191"/>
         <source>Su&amp;btitles:</source>
         <translation>자막:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="448"/>
+        <location filename="../prefgeneral.ui" line="455"/>
         <source>&amp;Quality:</source>
         <translation>품질:</translation>
     </message>
@@ -6267,97 +6277,102 @@ Do you want to overwrite?</source>
         <translation>컴퓨터 종료하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="620"/>
+        <location filename="../prefgeneral.ui" line="407"/>
+        <source>Wa&amp;yland support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="627"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>전체 화면에서 재생 시작하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="634"/>
+        <location filename="../prefgeneral.ui" line="641"/>
         <source>Disable &amp;screensaver</source>
         <translation>화면 보호기 끄기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="768"/>
+        <location filename="../prefgeneral.ui" line="775"/>
         <source>Global audio e&amp;qualizer</source>
         <translation>전역 오디오 이퀄라이저</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="777"/>
+        <location filename="../prefgeneral.ui" line="784"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>S/PDIF 및 HDMI로 AC3/DTS 패스쓰루</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="887"/>
+        <location filename="../prefgeneral.ui" line="894"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>소프트웨어 볼륨 조절 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="910"/>
+        <location filename="../prefgeneral.ui" line="917"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>최대 증폭:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1146"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Direct rendering</source>
         <translation>직접 렌더링하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1166"/>
         <source>Double buffering</source>
         <translation>더블 버퍼링하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="593"/>
         <source>D&amp;irect rendering</source>
         <translation>직접 렌더링하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="593"/>
+        <location filename="../prefgeneral.ui" line="600"/>
         <source>Dou&amp;ble buffering</source>
         <translation>더블 버퍼링하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1152"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>더블 버퍼링은 메모리에 2개의 프레임을 저장하고 하나를 디코딩하는 동안 다른 하나를 표시해서 깜빡임을 고칩니다. 사용하지 않으면 OSD에 부정적인 영향을 미칠 수 있지만 대게 OSD 깜빡임을 제거합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="428"/>
+        <location filename="../prefgeneral.ui" line="435"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>기본으로 후처리를 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="938"/>
+        <location filename="../prefgeneral.ui" line="945"/>
         <source>Volume &amp;normalization by default</source>
         <translation>기본으로 볼륨 노멀라이즈 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1094"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Close when finished</source>
         <translation>재생이 끝나면 닫기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1095"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>이 옵션 사용시, 현재 파일이나 재생 목록이 끝날 때 메인 창이 자동으로 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="170"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>2 (Stereo)</source>
         <translation>2 (스테레오)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="171"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="172"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 서라운드)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="792"/>
+        <location filename="../prefgeneral.ui" line="799"/>
         <source>C&amp;hannels by default:</source>
         <translation>기본 채널:</translation>
     </message>
@@ -6367,118 +6382,118 @@ Do you want to overwrite?</source>
         <translation>최소화할 때 일시 중지하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1089"/>
+        <location filename="../prefgeneral.cpp" line="1099"/>
         <source>Pause when minimized</source>
         <translation>최소화할 때 일시 중지하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Enable postprocessing by default</source>
         <translation>기본으로 후처리 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1242"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Max. Amplification</source>
         <translation>최대 증폭</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1249"/>
+        <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Volume normalization by default</source>
         <translation>기본으로 볼륨 노멀라이즈 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1250"/>
+        <location filename="../prefgeneral.cpp" line="1265"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>소리 왜곡 없이 볼륨을 최대로 증폭합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1218"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Channels by default</source>
         <translation>기본 채널</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1243"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>백분율 단위로 최대 증폭률을 설정하세요 (기본값: 110). 200을 입력하면 음량을 최대 현재의 2배까지 조정할 수 있게 해 줍니다. 100 미만의 값은 초기 음량(=100%)이 최대값을 초과하도록 하므로, OSD를 제대로 표시할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>기본적으로 후처리는 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1263"/>
+        <location filename="../prefgeneral.cpp" line="1278"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>여기에 오디오 언어 코드의 우선 순위 목록을 쉼표로 구분하여 지정할 수 있습니다. 예: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1267"/>
+        <location filename="../prefgeneral.cpp" line="1282"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>이 필드에는 정규식을 사용할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt;는 만약 &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 또는 &lt;i&gt;spa&lt;/i&gt;와 일치하면 해당 오디오 트랙을 선택합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1290"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>여기에 자막 언어 코드의 우선 순위 목록을 쉼표로 구분하여 지정할 수 있습니다. 예: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1278"/>
+        <location filename="../prefgeneral.cpp" line="1293"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>이 필드에는 정규식을 사용할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt;는 만약 &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 또는 &lt;i&gt;spa&lt;/i&gt;와 일치하면 해당 자막 스트림을 선택합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1285"/>
+        <location filename="../prefgeneral.cpp" line="1300"/>
         <source>Audio track</source>
         <translation>오디오 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1286"/>
+        <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새 파일을 재생시 사용할 기본 오디오 트랙을 지정하세요. 트랙이 존재하지 않으면, 첫번째 트랙이 사용됩니다. 
 &lt;br&gt;&lt;b&gt;참고:&lt;/b&gt; &quot;선호하는 오디오 언어&quot; 가 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1291"/>
+        <location filename="../prefgeneral.cpp" line="1306"/>
         <source>Subtitle track</source>
         <translation>자막 트랙</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1292"/>
+        <location filename="../prefgeneral.cpp" line="1307"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>새 파일을 재생할 때 사용할 기본 자막 트랙을 지정합니다. 트랙이 존재하지 않으면, 첫번째 트랙이 사용됩니다.&lt;br&gt;&lt;b&gt;참고:&lt;/b&gt; &quot;선호하는 자막 언어&quot; 가 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1305"/>
+        <location filename="../prefgeneral.ui" line="1312"/>
         <source>Or choose a track number:</source>
         <translation>또는 트랙 번호를 선택하세요:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1246"/>
+        <location filename="../prefgeneral.ui" line="1253"/>
         <source>Audi&amp;o:</source>
         <translation>오디오:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1200"/>
+        <location filename="../prefgeneral.ui" line="1207"/>
         <source>Preferred language:</source>
         <translation>선호하는 언어:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1089"/>
+        <location filename="../prefgeneral.ui" line="1096"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>선호하는 오디오와 자막</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1259"/>
+        <location filename="../prefgeneral.ui" line="1266"/>
         <source>&amp;Subtitle:</source>
         <translation>자막:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="828"/>
+        <location filename="../prefgeneral.ui" line="835"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>음높이 변경 없이 빠르게 재생하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1244"/>
         <source>High speed playback without altering pitch</source>
         <translation>음높이 변경 없이 빠르게 재생하기</translation>
     </message>
@@ -6488,82 +6503,82 @@ Do you want to overwrite?</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="516"/>
+        <location filename="../prefgeneral.ui" line="523"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
         <translation>자막용 검은색 여백을 기본적으로 추가하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="579"/>
+        <location filename="../prefgeneral.ui" line="586"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>소프트웨어 비디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="678"/>
+        <location filename="../prefgeneral.ui" line="685"/>
         <source>A&amp;udio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="863"/>
+        <location filename="../prefgeneral.ui" line="870"/>
         <source>Volume</source>
         <translation>볼륨</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Video</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1259"/>
+        <location filename="../prefgeneral.cpp" line="1274"/>
         <source>Preferred audio and subtitles</source>
         <translation>선호하는 오디오와 자막</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="178"/>
+        <location filename="../prefgeneral.cpp" line="179"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="179"/>
+        <location filename="../prefgeneral.cpp" line="180"/>
         <source>Lowpass5</source>
         <translation>Lowpass5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="180"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (보통)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="181"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (2x 프레임 재생)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="182"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Linear Blend</source>
         <translation>Linear Blend (선형 혼합)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="184"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Deinterlace by default</source>
         <translation>기본 디인터레이스</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>동영상을 새로 열었을 때 사용하려는 디인터레이스 필터를 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1041"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>Remember time position</source>
         <translation>시간 위치 기억합니다</translation>
     </message>
@@ -6573,32 +6588,32 @@ Do you want to overwrite?</source>
         <translation>시간 위치 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Enable the audio equalizer</source>
         <translation>오디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1206"/>
+        <location filename="../prefgeneral.cpp" line="1221"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>오디오 이퀄라이저를 사용하려면 이 옵션에 체크하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="745"/>
+        <location filename="../prefgeneral.ui" line="752"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>오디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Draw video using slices</source>
         <translation>조각을 이용해 비디오 그리기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>16 픽셀 크기의 조각으로 비디오를 그립니다. 만약 사용하지 않으면 전체 프레임은 한번에 그려집니다. 비디오카드와 캐쉬량에 따라서 빠르거나 느려질 수 있습니다. libmpeg2와 libavcodec 코덱에만 효과가 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="600"/>
+        <location filename="../prefgeneral.ui" line="607"/>
         <source>Dra&amp;w video using slices</source>
         <translation>조각을 이용해 비디오 그리기</translation>
     </message>
@@ -6608,112 +6623,112 @@ Do you want to overwrite?</source>
         <translation>재생 완료시 닫기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="436"/>
-        <location filename="../prefgeneral.cpp" line="443"/>
-        <location filename="../prefgeneral.cpp" line="469"/>
+        <location filename="../prefgeneral.cpp" line="442"/>
+        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="475"/>
         <source>fast</source>
         <translation>빠르게</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="437"/>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="443"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>slow</source>
         <translation>느리게</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="470"/>
+        <location filename="../prefgeneral.cpp" line="476"/>
         <source>fast - ATI cards</source>
         <translation>빠르게 - ATI 카드</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="492"/>
-        <location filename="../prefgeneral.cpp" line="535"/>
+        <location filename="../prefgeneral.cpp" line="498"/>
+        <location filename="../prefgeneral.cpp" line="541"/>
         <source>User defined...</source>
         <translation>사용자 정의...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Default zoom</source>
         <translation>기본 확대</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>이 옵션은 새 동영상을 열 때 사용되는 기본 확대율을 설정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="525"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Default &amp;zoom:</source>
         <translation>기본 확대:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>이 설정을 잘못하면, SMPlayer가 재생을 아무것도 못할 수 있습니다!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>일반적으로 SMPlayer는 재생하는 파일마다 설정을 각각 기억할 것입니다. (선택한 오디오 트랙, 볼륨, 필터 등...) 이 기능이 마음에 들지 않으면 이 옵션을 해제하세요.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>이 옵션을 사용하면 메인 창을 숨겼을 때 재생이 일시 중지됩니다. 창이 복구되면 재생을 다시 시작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>재생 중에 화면 보호기를 끄려면 이 옵션을 사용하세요. 화면 보호기는 재생이 끝나면 다시 활성화 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
-        <location filename="../prefgeneral.ui" line="686"/>
+        <location filename="../prefgeneral.ui" line="693"/>
         <source>Ou&amp;tput driver:</source>
         <translation>출력 드라이버:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Add black borders on fullscreen</source>
         <translation>전체 화면에 검정 여백 넣기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1168"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>이 옵션 사용시 전체 화면에서 영상에 검은 여백이 추가될 것입니다. 검은 여백에 자막을 표시할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="627"/>
+        <location filename="../prefgeneral.ui" line="634"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>전체 화면에 검은 여백 넣기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="188"/>
+        <location filename="../prefgeneral.cpp" line="189"/>
         <source>one ini file</source>
         <translation>단일 ini 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="189"/>
+        <location filename="../prefgeneral.cpp" line="190"/>
         <source>multiple ini files</source>
         <translation>다수의 ini 파일</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Method to store the file settings</source>
         <translation>파일 설정 저장 방식</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>이 옵션은 파일 설정이 저장되는 방식을 바꿀 수 있도록 해 줍니다. 다음 옵션을 사용할 수 있습니다:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1052"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>단일 ini 파일: 재생했던 모든 파일의 설정을 하나의 ini 파일 (%1) 에 저장합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>많은 파일의 정보에 대해서는 후자의 방식이 더 빠릅니다.</translation>
     </message>
@@ -6723,32 +6738,32 @@ Do you want to overwrite?</source>
         <translation>설정 저장:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1064"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>다중 ini 파일: 재생한 파일마다 ini 파일을 사용합니다. 이 ini 파일들은 %1 폴더에 저장됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1042"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>이 옵션에 체크하면 SMPlayer는 파일의 마지막 위치를 기억해서 열어줍니다. 이 옵션은 일반적인 파일에서만 동작합니다. (DVD나 CD, 주소 등에는 적용되지 않습니다)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>체크하면 직접 렌더링하는 방식을 사용합니다. (모든 코덱과 비디오 출력이 지원되지 않습니다)&lt;br&gt;경고: OSD/자막이 깨질 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1058"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Enable screenshots</source>
         <translation>스크린샷 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1069"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>이 옵션으로 스크린샷을 활성화/비활성화 할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>여기에 SMPlayer가 찍은 스크린샷을 저장할 폴더를 지정할 수 있습니다. 지정한 폴더가 없으면 스크린샷 기능은 동작하지 않습니다.</translation>
     </message>
@@ -6768,132 +6783,132 @@ Do you want to overwrite?</source>
         <translation>폴더:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1232"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Global volume</source>
         <translation>전체 볼륨</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1248"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>이 옵션에 체크하면 재생하는 모든 파일에 동일한 볼륨을 사용합니다. 이 옵션을 사용하지 않으면, 각 파일은 자신의 볼륨을 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1251"/>
         <source>This option also applies for the mute control.</source>
         <translation>이 옵션은 음소거시에도 동일하게 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="872"/>
+        <location filename="../prefgeneral.ui" line="879"/>
         <source>Glo&amp;bal volume</source>
         <translation>전체 볼륨</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Switch screensaver off</source>
         <translation>화면 보호기 끄기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>이 옵션은 재생을 시작하기 전에 화면 보호기를 끄고 재생이 끝났을 때 다시 켭니다. 이 옵션을 사용하면, 오디오 파일 재생시나 일지 중지 상태에서도 화면 보호기가 나타나지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Avoid screensaver</source>
         <translation>화면 보호기 막기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>이 옵션을 체크하면 SMPlayer는 동영상 재생시에 화면 보호기가 실행되지 않도록 합니다. 화면 보호기는 오디오 파일 재생시나 일시 중지 모드에서만 실행됩니다. 이 옵션은 SMPlayer 창이 활성화된 경우에만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="641"/>
+        <location filename="../prefgeneral.ui" line="648"/>
         <source>Screensaver</source>
         <translation>화면 보호기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="647"/>
+        <location filename="../prefgeneral.ui" line="654"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>화면 보호기 끄기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="654"/>
+        <location filename="../prefgeneral.ui" line="661"/>
         <source>Avoid &amp;screensaver</source>
         <translation>화면 보호기 막기</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>Audio/video auto synchronization</source>
         <translation>오디오/비디오 자동 동기화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1253"/>
+        <location filename="../prefgeneral.cpp" line="1268"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>오디오 지연 측정값을 기반으로 오디오/비디오 동기화를 단계적으로 조정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1256"/>
+        <location filename="../prefgeneral.cpp" line="1271"/>
         <source>A-V sync correction</source>
         <translation>오디오-비디오 동기화 보정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1257"/>
+        <location filename="../prefgeneral.cpp" line="1272"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>프레임당 최대 오디오-비디오 보정 (몇 초 이내)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="948"/>
+        <location filename="../prefgeneral.ui" line="955"/>
         <source>Synchronization</source>
         <translation>동기화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="959"/>
+        <location filename="../prefgeneral.ui" line="966"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>오디오/비디오 자동 동기화</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="985"/>
+        <location filename="../prefgeneral.ui" line="992"/>
         <source>&amp;Factor:</source>
         <translation>증감량:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1021"/>
+        <location filename="../prefgeneral.ui" line="1028"/>
         <source>A-V sync &amp;correction</source>
         <translation>오디오-비디오 동기화 보정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1044"/>
+        <location filename="../prefgeneral.ui" line="1051"/>
         <source>&amp;Max. correction:</source>
         <translation>최대 보정:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>참고: 이 옵션은 TV 채널에서는 사용되지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="481"/>
+        <location filename="../prefgeneral.ui" line="488"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
         <translation>기본 디인터레이스 (TV제외):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1214"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>하드웨어 AC3 패스쓰루를 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1215"/>
+        <location filename="../prefgeneral.cpp" line="1230"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>참고: 이 옵션을 사용하면 어떤 오디오 필터도 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>snap mode</source>
         <translation>snap 모드</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="445"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>slower dive mode</source>
         <translation>slower dive 모드</translation>
     </message>
