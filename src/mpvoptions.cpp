@@ -570,7 +570,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "demuxer" ||
 	    option_name == "frames" ||
 	    option_name == "user-agent" || option_name == "referrer" ||
-	    option_name == "ab-loop-a" || option_name == "ab-loop-b")
+	    option_name == "ab-loop-a" || option_name == "ab-loop-b" ||
+	    option_name == "gpu-context")
 	{
 		QString s = "--" + option_name;
 		if (!value.isNull()) s += "=" + value.toString();
