@@ -472,6 +472,7 @@ void Playlist::createTable() {
             this, SLOT(itemActivated(const QModelIndex &)) );
 
 	setFilenameColumnVisible(false);
+	setShuffleColumnVisible(false);
 }
 
 void Playlist::createActions() {
