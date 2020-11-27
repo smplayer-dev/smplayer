@@ -1723,8 +1723,14 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	#endif
 
 	QString initial_file;
-	if (count() == 1) initial_file = itemData(0)->filename();
 	int new_current_item = -1;
+	if (count() == 1) {
+		initial_file = itemData(0)->filename();
+		for (int n = 0; n < files.count(); n++) {
+			if (files[n] == initial_file) new_current_item = n;
+		}
+		if (new_current_item != -1) clear();
+	}
 
 	for (int n = 0; n < files.count(); n++) {
 		QString name = "";
@@ -1740,13 +1746,6 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 
 		//qDebug() << "Playlist::addFiles: comparing:" << initial_file << "with" << files[n];
 
-		if (!initial_file.isEmpty() && files[n] == initial_file) {
-			PLItem * first_item = itemData(0);
-			name = first_item->name();
-			duration = first_item->duration();
-			table->removeRow(0);
-			new_current_item = n;
-		}
 		addItem(files[n], name, duration);
 
 		if (QFile::exists(files[n])) {
