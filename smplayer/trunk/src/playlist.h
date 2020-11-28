@@ -35,6 +35,7 @@
 //#define PLAYLIST_DOUBLE_TOOLBAR
 #define PLAYLIST_DELETE_FROM_DISK
 
+#define DELAYED_PLAY
 
 class PLItem : public QStandardItem {
 public:
@@ -129,7 +130,7 @@ public slots:
 	// a random item otherwise
 	void startPlay();
 
-	void playItem(int n);
+	void playItem(int n, bool later = false);
 
 	void playNext();
 	void playPrev();
@@ -296,6 +297,10 @@ protected slots:
 	void setFilenameColumnVisible(bool b);
 	void setShuffleColumnVisible(bool b);
 
+#ifdef DELAYED_PLAY
+	void playItemLater();
+#endif
+
 protected:
 	void createTable();
 	void createActions();
@@ -386,6 +391,15 @@ protected:
 	URLHistory * history_urls;
 	QMovie * animation;
 	QAction * loading_label_action;
+#endif
+
+#ifdef DELAYED_PLAY
+	QTimer * play_later_timer;
+	struct {
+		QString filename;
+		QStringList params;
+		int seek;
+	} play_later;
 #endif
 
 private:

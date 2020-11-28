@@ -350,6 +350,14 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	history_urls = new URLHistory;
 	history_urls->addUrl("http://smplayer.info/sample.m3u8");
 #endif
+
+#ifdef DELAYED_PLAY
+	play_later.seek = -1;
+	play_later_timer = new QTimer(this);
+	play_later_timer->setInterval(1000);
+	play_later_timer->setSingleShot(true);
+	connect(play_later_timer, SIGNAL(timeout()), this, SLOT(playItemLater()));
+#endif
 }
 
 Playlist::~Playlist() {
@@ -1568,7 +1576,7 @@ void Playlist::startPlay() {
 	playItem(0);
 }
 
-void Playlist::playItem( int n ) {
+void Playlist::playItem(int n, bool later) {
 	qDebug("Playlist::playItem: %d (count: %d)", n, proxy->rowCount());
 
 	if ( (n >= proxy->rowCount()) || (n < 0) ) {
@@ -1585,12 +1593,33 @@ void Playlist::playItem( int n ) {
 		setCurrentItem(n);
 
 		if (!params.isEmpty()) {
-			emit requestToPlayStream(filename, params);
+			#ifdef DELAYED_PLAY
+			if (later) {
+				play_later.filename = filename;
+				play_later.seek = -1;
+				play_later.params = params;
+				play_later_timer->start();
+			} else
+			#endif
+			{
+				emit requestToPlayStream(filename, params);
+			}
 		} else {
-			if (play_files_from_start) {
-				emit requestToPlayFile(filename, 0);
-			} else {
-				emit requestToPlayFile(filename);
+			#ifdef DELAYED_PLAY
+			if (later) {
+				play_later.filename = filename;
+				play_later.seek = -1;
+				play_later.params.clear();
+				if (play_files_from_start) play_later.seek = 0;
+				play_later_timer->start();
+			} else
+			#endif
+			{
+				if (play_files_from_start) {
+					emit requestToPlayFile(filename, 0);
+				} else {
+					emit requestToPlayFile(filename);
+				}
 			}
 		}
 	}
@@ -1604,9 +1633,9 @@ void Playlist::playNext() {
 	if (finished_list) clearPlayedTag();
 
 	if (repeatAct->isChecked() && finished_list) {
-		playItem(0);
+		playItem(0, true);
 	} else {
-		playItem(current + 1);
+		playItem(current + 1, true);
 	}
 }
 
@@ -1614,9 +1643,9 @@ void Playlist::playPrev() {
 	qDebug("Playlist::playPrev");
 	int current = findCurrentItem() - 1;
 	if (current >= 0) {
-		playItem(current);
+		playItem(current, true);
 	} else {
-		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1);
+		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1, true);
 	}
 }
 
@@ -1628,6 +1657,17 @@ void Playlist::playNextAuto() {
 		emit playlistEnded();
 	}
 }
+
+#ifdef DELAYED_PLAY
+void Playlist::playItemLater() {
+	qDebug() << "Playlist::playItemLater" << play_later.filename << play_later.seek << play_later.params;
+	if (!play_later.params.isEmpty()) {
+		emit requestToPlayStream(play_later.filename, play_later.params);
+	} else {
+		emit requestToPlayFile(play_later.filename, play_later.seek);
+	}
+}
+#endif
 
 void Playlist::resumePlay() {
 	qDebug("Playlist::resumePlay");
