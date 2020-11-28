@@ -1605,21 +1605,18 @@ void Playlist::playItem(int n, bool later) {
 				emit requestToPlayStream(filename, params);
 			}
 		} else {
+			int seek = -1;
+			if (play_files_from_start) seek = 0;
 			#ifdef DELAYED_PLAY
 			if (later) {
 				play_later.filename = filename;
-				play_later.seek = -1;
+				play_later.seek = seek;
 				play_later.params.clear();
-				if (play_files_from_start) play_later.seek = 0;
 				play_later_timer->start();
 			} else
 			#endif
 			{
-				if (play_files_from_start) {
-					emit requestToPlayFile(filename, 0);
-				} else {
-					emit requestToPlayFile(filename);
-				}
+				emit requestToPlayFile(filename, seek);
 			}
 		}
 	}
