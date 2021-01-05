@@ -23,7 +23,7 @@ ${LangFileString} Existing_64bitInst "SMPlayer 64-bit masih terpasang. Anda haru
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) Wisaya"
-${LangFileString} WelcomePage_Text "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui file program tanpa harus memulai ulang komputer Anda.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Wisaya ini akan memandu Anda melalui pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus memulai ulang komputer Anda.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Pintasan"
@@ -57,11 +57,11 @@ ${LangFileString} Section_IconThemes "Tema Ikon"
 ${LangFileString} Section_IconThemes_Desc "Tema ikon tambahan untuk SMPlayer."
 
 ${LangFileString} Section_Translations "Bahasa"
-${LangFileString} Section_Translations_Desc "File Bahasa Non-Inggris untuk SMPlayer."
+${LangFileString} Section_Translations_Desc "Berkas Bahasa Non-Inggris untuk SMPlayer."
 
 ${LangFileString} Section_ResetSettings_Desc "Hapus pengaturan SMPlayer yang tersisa ada pemasangan sebelumnya."
 
-${LangFileString} MPlayer_Codec_Msg "Paket kodek binari menambah dukungan untuk kodek yang tidak dijalankan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.$\nCatat bahwa semua kodek itu tidak diperlukan untuk memutar format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
+${LangFileString} MPlayer_Codec_Msg "Paket kodek binari menambahkan dukungan untuk kodek yang tidak dijalankan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.$\nCatat bahwa semua kodek itu tidak diperlukan untuk memainkan format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Pilih Tipe Pemasangan"
@@ -104,12 +104,12 @@ ${LangFileString} Application_Description "SMplayer adalah aplikasi antarmuka le
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Mencadangkan kodek dari pemasangan sebelumnya..."
 ${LangFileString} Info_Codecs_Restore "Mengembalikan kodek dari pemasangan sebelumnya..."
-${LangFileString} Info_Del_Files "Menghapus file..."
+${LangFileString} Info_Del_Files "Menghapus berkas..."
 ${LangFileString} Info_Del_Registry "Menghapus Kunci Registri..."
 ${LangFileString} Info_Del_Shortcuts "Menghapus Pintasan..."
-${LangFileString} Info_Rest_Assoc "Mengembalikan asosiasi file..."
+${LangFileString} Info_Rest_Assoc "Mengembalikan asosiasi berkas..."
 ${LangFileString} Info_RollBack "Mengembalikan pengubahan..."
-${LangFileString} Info_Files_Extract "Mengekstrak file..."
+${LangFileString} Info_Files_Extract "Mengekstrak berkas..."
 ${LangFileString} Info_SMTube_Backup "Mencadangkan SMTube..."
 ${LangFileString} Info_SMTube_Restore "Mengembalikan SMTube dari pemasangan sebelumnya..."
 ${LangFileString} Info_MPV_Backup "Mencadangkan mpv..."
