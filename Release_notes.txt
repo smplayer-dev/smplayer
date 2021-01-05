@@ -1,3 +1,10 @@
+Version 21.1:
+
+ * Initial support for Wayland.
+ * Some fixes and improvements in the playlist.
+ * Show cache info in the OSD (Shift + I).
+
+
 Version 20.6:
 
  * The internal YouTube code has been removed. Now SMPlayer uses
