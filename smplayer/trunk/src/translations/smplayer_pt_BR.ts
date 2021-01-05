@@ -5004,314 +5004,314 @@ Deseja substituí-lo?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Length</source>
         <translation>Duração</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="715"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>&amp;Play</source>
         <translation>&amp;Reproduzir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="762"/>
+        <location filename="../playlist.cpp" line="770"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
         <source>Playlists</source>
         <translation>Listas de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1402"/>
+        <location filename="../playlist.cpp" line="1410"/>
         <source>Choose a file</source>
         <translation>Escolha um arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1438"/>
+        <location filename="../playlist.cpp" line="1446"/>
         <source>Choose a filename</source>
         <translation>Escolha um nome de arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>Confirm overwrite?</source>
         <translation>Confirma substituição?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1451"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>O arquivo %1 já existe.
 Deseja substituí-lo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
-        <location filename="../playlist.cpp" line="1705"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
+        <location filename="../playlist.cpp" line="1742"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="384"/>
+        <location filename="../playlist.cpp" line="392"/>
         <source>Untitled playlist</source>
         <translation>Lista de reprodução sem nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>&amp;Load...</source>
         <translation>&amp;Carregar...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Carregar a lista de reprodução a partir da &amp;URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="756"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Reproduzir no Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="750"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>&amp;Abrir fluxo num navegador web</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="766"/>
+        <location filename="../playlist.cpp" line="774"/>
         <source>Load/Save</source>
         <translation>Carregar/Salvar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1702"/>
+        <location filename="../playlist.cpp" line="1739"/>
         <source>Select one or more files to open</source>
         <translation>Selecione um ou mais arquivos para abrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1771"/>
+        <location filename="../playlist.cpp" line="1808"/>
         <source>Choose a directory</source>
         <translation>Escolha uma pasta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1959"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>Edit name</source>
         <translation>Editar nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1960"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escreva o nome que este arquivo terá na lista de reprodução:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Filename / URL</source>
         <translation>Arquivo / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Shuffle order</source>
         <translation>Aleatório</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="710"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Download playlist from URL</source>
         <translation>Baixar a lista de reprodução da URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Save</source>
         <translation>&amp;Guardar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>Save &amp;as...</source>
         <translation>S&amp;alvar como...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Next</source>
         <translation>&amp;Seguinte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="718"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Anterior</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Move &amp;up</source>
         <translation>Para &amp;cima</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Move &amp;down</source>
         <translation>Para &amp;baixo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Repetir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>S&amp;huffle</source>
         <translation>A&amp;leatório</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>Add &amp;current file</source>
         <translation>Adicionar arquivo a&amp;ctual</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Add &amp;file(s)</source>
         <translation>Adicionar &amp;arquivo(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>Add &amp;directory</source>
         <translation>Adicionar &amp;pasta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>Add &amp;URL(s)</source>
         <translation>Adicionar &amp;URL(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Remove &amp;selected</source>
         <translation>Remover &amp;seleção</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="738"/>
+        <location filename="../playlist.cpp" line="746"/>
         <source>Remove &amp;all</source>
         <translation>Remover &amp;tudo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="741"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Deletar o arquivo no HD</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="1556"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Copiar a localização do arquivo para a área de transferência</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="745"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Abrir pasta fonte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Search</source>
         <translation>Busca</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="755"/>
+        <location filename="../playlist.cpp" line="763"/>
         <source>Show position column</source>
         <translation>Exibir a coluna posição</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Show name column</source>
         <translation>Exibir a coluna nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Show length column</source>
         <translation>Exibir a coluna duração</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="758"/>
+        <location filename="../playlist.cpp" line="766"/>
         <source>Show filename column</source>
         <translation>Exibir a coluna nome do arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
+        <location filename="../playlist.cpp" line="767"/>
         <source>Show shuffle column</source>
         <translation>Exibir coluna aleatória</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1553"/>
+        <location filename="../playlist.cpp" line="1561"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Copiar URL para a área de transferência</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1997"/>
+        <location filename="../playlist.cpp" line="2034"/>
         <source>Confirm deletion</source>
         <translation>Confirmar deleção</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1998"/>
+        <location filename="../playlist.cpp" line="2035"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Você está prestes a DELETAR o arquivo &apos;%1&apos; do seu HD.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1999"/>
+        <location filename="../playlist.cpp" line="2036"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Essa ação não pode ser desfeita. Tem certeza que deseja continuar?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2017"/>
+        <location filename="../playlist.cpp" line="2054"/>
         <source>Deletion failed</source>
         <translation>Falha ao deletar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2018"/>
+        <location filename="../playlist.cpp" line="2055"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Não foi possível deletar &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2023"/>
+        <location filename="../playlist.cpp" line="2060"/>
         <source>Error deleting the file</source>
         <translation>Erro ao deletar o arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2024"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Não foi possível deletar o arquivo &apos;%1&apos; do sistema de arquivos.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Não foi possível carregar essa lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>Unrecognized format.</source>
         <translation>Formato não reconhecido.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
+        <location filename="../playlist.cpp" line="776"/>
         <source>Add...</source>
         <translation>Adicionar...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="778"/>
         <source>Remove...</source>
         <translation>Remover...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1483"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>Playlist modified</source>
         <translation>Lista de reprodução modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1484"/>
+        <location filename="../playlist.cpp" line="1492"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Existem alterações por gravar, deseja guardar a lista de reprodução?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1704"/>
+        <location filename="../playlist.cpp" line="1741"/>
         <source>Multimedia</source>
         <translation>Multimídia</translation>
     </message>

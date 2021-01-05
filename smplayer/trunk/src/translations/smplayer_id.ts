@@ -5004,314 +5004,314 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Name</source>
         <translation>Nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Length</source>
         <translation>Durasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="715"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>&amp;Play</source>
         <translation>&amp;Putar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="762"/>
+        <location filename="../playlist.cpp" line="770"/>
         <source>&amp;Edit</source>
         <translation>&amp;Sunting</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
         <source>Playlists</source>
         <translation>Daftar-putar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1402"/>
+        <location filename="../playlist.cpp" line="1410"/>
         <source>Choose a file</source>
         <translation>Pilih berkas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1438"/>
+        <location filename="../playlist.cpp" line="1446"/>
         <source>Choose a filename</source>
         <translation>Pilih nama berkas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>Confirm overwrite?</source>
         <translation>Konfirmasi timpa?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1451"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Berkas %1 telah ada.
 Apakah Anda ingin menimpanya?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
-        <location filename="../playlist.cpp" line="1705"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
+        <location filename="../playlist.cpp" line="1742"/>
         <source>All files</source>
         <translation>Semua berkas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="384"/>
+        <location filename="../playlist.cpp" line="392"/>
         <source>Untitled playlist</source>
         <translation>Daftar putar tanpa judul</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>&amp;Load...</source>
         <translation>&amp;Muat...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Muat daftar putar dari &amp;URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="756"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Putar di Chrome&amp;cast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="750"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Buka stream di &amp;penjelajah web</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="766"/>
+        <location filename="../playlist.cpp" line="774"/>
         <source>Load/Save</source>
         <translation>Muat/Simpan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1702"/>
+        <location filename="../playlist.cpp" line="1739"/>
         <source>Select one or more files to open</source>
         <translation>Pilih satu atau lebih berkas untuk dibuka</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1771"/>
+        <location filename="../playlist.cpp" line="1808"/>
         <source>Choose a directory</source>
         <translation>PIlih direktor</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1959"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>Edit name</source>
         <translation>Sunting nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1960"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Tuliskan nama yang akan ditampilkan pada daftar putar untuk berkas tersebut</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Filename / URL</source>
         <translation>Nama file / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Shuffle order</source>
         <translation>Urutan acak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="710"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Download playlist from URL</source>
         <translation>Unduh daftar putar dari URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Save</source>
         <translation>&amp;Simpan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>Save &amp;as...</source>
         <translation>Simpan &amp;sebagai...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Next</source>
         <translation>S&amp;elanjutnya</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="718"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>Pre&amp;vious</source>
         <translation>Se&amp;belumnya</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Move &amp;up</source>
         <translation>Pindah &amp;naik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Move &amp;down</source>
         <translation>Pindah &amp;turun</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ulangi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>S&amp;huffle</source>
         <translation>K&amp;ocok</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>Add &amp;current file</source>
         <translation>Tambah berkas saa&amp;t ini</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Add &amp;file(s)</source>
         <translation>Tambah ber&amp;kas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>Add &amp;directory</source>
         <translation>Tambah &amp;direktori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>Add &amp;URL(s)</source>
         <translation>Tambah &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Remove &amp;selected</source>
         <translation>Buang &amp;yang terpilih</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="738"/>
+        <location filename="../playlist.cpp" line="746"/>
         <source>Remove &amp;all</source>
         <translation>Buang semu&amp;a</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="741"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Hapus file dari diska</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="1556"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Salin jalur file ke papan klip</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="745"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Buka folder sumber</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Search</source>
         <translation>Cari</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="755"/>
+        <location filename="../playlist.cpp" line="763"/>
         <source>Show position column</source>
         <translation>Tampilkan kolom posisi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Show name column</source>
         <translation>Tampilkan kolom nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Show length column</source>
         <translation>Tampilkan kolom durasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="758"/>
+        <location filename="../playlist.cpp" line="766"/>
         <source>Show filename column</source>
         <translation>Tampilkan kolom nama file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
+        <location filename="../playlist.cpp" line="767"/>
         <source>Show shuffle column</source>
         <translation>Tampilkan kolom acak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1553"/>
+        <location filename="../playlist.cpp" line="1561"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Salin URL ke papan klip</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1997"/>
+        <location filename="../playlist.cpp" line="2034"/>
         <source>Confirm deletion</source>
         <translation>Konfirmasi penghapusan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1998"/>
+        <location filename="../playlist.cpp" line="2035"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Anda akan MENGHAPUS file &apos;%1&quot; dari perangkat Anda.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1999"/>
+        <location filename="../playlist.cpp" line="2036"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Tindakan ini tidak dapat diselesaikan. Apakah Anda yakin untuk memrosesnya?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2017"/>
+        <location filename="../playlist.cpp" line="2054"/>
         <source>Deletion failed</source>
         <translation>Penghapusan gagal</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2018"/>
+        <location filename="../playlist.cpp" line="2055"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Tidak memungkinkan untuk menghapus &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2023"/>
+        <location filename="../playlist.cpp" line="2060"/>
         <source>Error deleting the file</source>
         <translation>Galat menghapus file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2024"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Tidak memungkinkan untuk menghapus &apos;%1&apos; dari file sistem.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Tidak dapat memuat daftar putar ini</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>Unrecognized format.</source>
         <translation>Format tidak dikenal.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
+        <location filename="../playlist.cpp" line="776"/>
         <source>Add...</source>
         <translation>Tambah...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="778"/>
         <source>Remove...</source>
         <translation>Buang...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1483"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>Playlist modified</source>
         <translation>Daftar-putar dimodifikasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1484"/>
+        <location filename="../playlist.cpp" line="1492"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Di sini ada perubahan yang tidak tersimpan, apakah Anda ingin menyimpan daftar-putar ini?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1704"/>
+        <location filename="../playlist.cpp" line="1741"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>

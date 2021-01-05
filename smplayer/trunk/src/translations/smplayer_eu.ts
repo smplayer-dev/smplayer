@@ -5004,314 +5004,314 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Name</source>
         <translation>Izena</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Length</source>
         <translation>Iraupena</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="715"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>&amp;Play</source>
         <translation>&amp;Irakurri</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="762"/>
+        <location filename="../playlist.cpp" line="770"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editatu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
         <source>Playlists</source>
         <translation>Irakur-zerrendak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1402"/>
+        <location filename="../playlist.cpp" line="1410"/>
         <source>Choose a file</source>
         <translation>Hautatu agiri bat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1438"/>
+        <location filename="../playlist.cpp" line="1446"/>
         <source>Choose a filename</source>
         <translation>Hautatu agirizen bat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>Confirm overwrite?</source>
         <translation>Gainidazketa baieztatu?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1451"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>%1 agiria jadanik badago. 
 Gainidaztea nahi duzu?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
-        <location filename="../playlist.cpp" line="1705"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
+        <location filename="../playlist.cpp" line="1742"/>
         <source>All files</source>
         <translation>Agiri denak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="384"/>
+        <location filename="../playlist.cpp" line="392"/>
         <source>Untitled playlist</source>
         <translation>Izenburu gabeko irakur-zerrenda</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>&amp;Load...</source>
         <translation>Gertatu&amp;...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Gertatu irakur-zerrenda URL-tik...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="756"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Irakurri Chro&amp;mecast-en</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="750"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Ireki jarioa &amp;web nabigatzaile batean</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="766"/>
+        <location filename="../playlist.cpp" line="774"/>
         <source>Load/Save</source>
         <translation>Gertatu/Gorde</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1702"/>
+        <location filename="../playlist.cpp" line="1739"/>
         <source>Select one or more files to open</source>
         <translation>Hautatu irekitzeko agiri bat edo gehiago</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1771"/>
+        <location filename="../playlist.cpp" line="1808"/>
         <source>Choose a directory</source>
         <translation>Hautatu zuzenbide bat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1959"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>Edit name</source>
         <translation>Editatu izena</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1960"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Idatzi agiri honentzat irakur-zerrendan ikusiko den izena:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Filename / URL</source>
         <translation>Agirizena / URL-a</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Shuffle order</source>
         <translation>Nahasketa hurrenkera</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="710"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Download playlist from URL</source>
         <translation>Jeitsi irakur-zerrenda URL-tik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Save</source>
         <translation>&amp;Gorde</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>Save &amp;as...</source>
         <translation>Gorde &amp;honela...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Next</source>
         <translation>&amp;Hurrengoa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="718"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>Pre&amp;vious</source>
         <translation>Au&amp;rrekoa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Move &amp;up</source>
         <translation>&amp;Mugitu gora</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Move &amp;down</source>
         <translation>M&amp;ugitu behera</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>&amp;Repeat</source>
         <translation>Be&amp;rrirakurri</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>S&amp;huffle</source>
         <translation>Na&amp;hastu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>Add &amp;current file</source>
         <translation>Gehitu &amp;oraingo agiria</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Add &amp;file(s)</source>
         <translation>Gehi&amp;tu agiria(k)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>Add &amp;directory</source>
         <translation>Gehitu &amp;zuzenbidea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>Add &amp;URL(s)</source>
         <translation>Gehitu &amp;URL-a(k)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Remove &amp;selected</source>
         <translation>Ezabatu &amp;hautaturikoa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="738"/>
+        <location filename="../playlist.cpp" line="746"/>
         <source>Remove &amp;all</source>
         <translation>K&amp;endu denak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="741"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>&amp;Delete file from disk</source>
         <translation>E&amp;zabatu agiria diskatik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="1556"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Kopiatu agiri helburua gakora</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="745"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>&amp;Open source folder</source>
         <translation>Ireki iturburu &amp;agiritegia</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Search</source>
         <translation>Bilatu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="755"/>
+        <location filename="../playlist.cpp" line="763"/>
         <source>Show position column</source>
         <translation>Erakutsi kokapen zutabea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Show name column</source>
         <translation>Erakutsi izen zutabea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Show length column</source>
         <translation>Erakutsi luzera zutabea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="758"/>
+        <location filename="../playlist.cpp" line="766"/>
         <source>Show filename column</source>
         <translation>Erakutsi agirizen zutabea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
+        <location filename="../playlist.cpp" line="767"/>
         <source>Show shuffle column</source>
         <translation>Erakutsi nahasketa zutabea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1553"/>
+        <location filename="../playlist.cpp" line="1561"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>Kopiatu &amp;URL-a gakora</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1997"/>
+        <location filename="../playlist.cpp" line="2034"/>
         <source>Confirm deletion</source>
         <translation>Baieztatu ezabapena</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1998"/>
+        <location filename="../playlist.cpp" line="2035"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>&apos;%1&apos; agiria zure gidagailutik EZABATZEAR zaude.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1999"/>
+        <location filename="../playlist.cpp" line="2036"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Ekintza hau ezin da desegin. Zihur zaude aurrera jarraitzea nahi duzula?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2017"/>
+        <location filename="../playlist.cpp" line="2054"/>
         <source>Deletion failed</source>
         <translation>Ezabapen hutsegitea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2018"/>
+        <location filename="../playlist.cpp" line="2055"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Ezinezkoa izan da &apos;%1&apos; agiria ezabatzea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2023"/>
+        <location filename="../playlist.cpp" line="2060"/>
         <source>Error deleting the file</source>
         <translation>Akatsa agiria ezabatzerakoan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2024"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Ezinezkoa izan da &apos;%1&apos; agiria ezabatzea agiri-sistematik.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Ezinezkoa da irakur-zerrenda hau gertatzea</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>Unrecognized format.</source>
         <translation>Heuskarri ezezaguna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
+        <location filename="../playlist.cpp" line="776"/>
         <source>Add...</source>
         <translation>Gehitu...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="778"/>
         <source>Remove...</source>
         <translation>Kendu...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1483"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>Playlist modified</source>
         <translation>Irakur-zerrenda aldatuta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1484"/>
+        <location filename="../playlist.cpp" line="1492"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Gorde gabeko aldaketak daude, irakur-zerrenda gordetzea nahi duzu?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1704"/>
+        <location filename="../playlist.cpp" line="1741"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>

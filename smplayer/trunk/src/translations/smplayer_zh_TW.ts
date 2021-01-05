@@ -5003,314 +5003,314 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Name</source>
         <translation>名稱</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Length</source>
         <translation>長度</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="715"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="762"/>
+        <location filename="../playlist.cpp" line="770"/>
         <source>&amp;Edit</source>
         <translation>編輯(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
         <source>Playlists</source>
         <translation>播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1402"/>
+        <location filename="../playlist.cpp" line="1410"/>
         <source>Choose a file</source>
         <translation>選取一個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1438"/>
+        <location filename="../playlist.cpp" line="1446"/>
         <source>Choose a filename</source>
         <translation>選取一個檔名</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>Confirm overwrite?</source>
         <translation>確定要覆寫？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1451"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
 是否覆寫？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1404"/>
-        <location filename="../playlist.cpp" line="1440"/>
-        <location filename="../playlist.cpp" line="1705"/>
+        <location filename="../playlist.cpp" line="1412"/>
+        <location filename="../playlist.cpp" line="1448"/>
+        <location filename="../playlist.cpp" line="1742"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="384"/>
+        <location filename="../playlist.cpp" line="392"/>
         <source>Untitled playlist</source>
         <translation>未命名的播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="707"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>&amp;Load...</source>
         <translation>載入(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>從 URL 載入播放清單(&amp;U)...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="756"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>在 Chromecast 上播放(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="750"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>在網頁瀏覽器中開啟串流(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="766"/>
+        <location filename="../playlist.cpp" line="774"/>
         <source>Load/Save</source>
         <translation>載入／儲存</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1702"/>
+        <location filename="../playlist.cpp" line="1739"/>
         <source>Select one or more files to open</source>
         <translation>選擇開啟一個或多個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1771"/>
+        <location filename="../playlist.cpp" line="1808"/>
         <source>Choose a directory</source>
         <translation>選取一個目錄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1959"/>
+        <location filename="../playlist.cpp" line="1996"/>
         <source>Edit name</source>
         <translation>編輯名稱</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1960"/>
+        <location filename="../playlist.cpp" line="1997"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>給這個檔案輸入一個顯示於播放清單上的名稱：</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Filename / URL</source>
         <translation>檔案名稱／URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="713"/>
         <source>Shuffle order</source>
         <translation>隨機順序</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="710"/>
+        <location filename="../playlist.cpp" line="718"/>
         <source>Download playlist from URL</source>
         <translation>從 URL 下載播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="720"/>
         <source>&amp;Save</source>
         <translation>儲存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="713"/>
+        <location filename="../playlist.cpp" line="721"/>
         <source>Save &amp;as...</source>
         <translation>另存為(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>&amp;Next</source>
         <translation>下一個(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="718"/>
+        <location filename="../playlist.cpp" line="726"/>
         <source>Pre&amp;vious</source>
         <translation>上一個(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Move &amp;up</source>
         <translation>上移(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="733"/>
         <source>Move &amp;down</source>
         <translation>下移(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="735"/>
         <source>&amp;Repeat</source>
         <translation>重複 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>S&amp;huffle</source>
         <translation>隨機(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>Add &amp;current file</source>
         <translation>加入目前的檔案(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Add &amp;file(s)</source>
         <translation>加入檔案(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="741"/>
         <source>Add &amp;directory</source>
         <translation>加入目錄(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>Add &amp;URL(s)</source>
         <translation>新增 &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Remove &amp;selected</source>
         <translation>移除已選取的(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="738"/>
+        <location filename="../playlist.cpp" line="746"/>
         <source>Remove &amp;all</source>
         <translation>全部移除(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="741"/>
+        <location filename="../playlist.cpp" line="749"/>
         <source>&amp;Delete file from disk</source>
         <translation>從硬碟刪除檔案(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="1556"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>複製路徑到剪貼簿中(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="745"/>
+        <location filename="../playlist.cpp" line="753"/>
         <source>&amp;Open source folder</source>
         <translation>開啟來源資料夾(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Search</source>
         <translation>搜尋</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="755"/>
+        <location filename="../playlist.cpp" line="763"/>
         <source>Show position column</source>
         <translation>顯示位置欄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Show name column</source>
         <translation>顯示名稱欄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="757"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Show length column</source>
         <translation>顯示長度欄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="758"/>
+        <location filename="../playlist.cpp" line="766"/>
         <source>Show filename column</source>
         <translation>顯示檔案名稱欄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
+        <location filename="../playlist.cpp" line="767"/>
         <source>Show shuffle column</source>
         <translation>顯示隨機欄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1553"/>
+        <location filename="../playlist.cpp" line="1561"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>複製 URL 到剪貼簿(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1997"/>
+        <location filename="../playlist.cpp" line="2034"/>
         <source>Confirm deletion</source>
         <translation>確認刪除</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1998"/>
+        <location filename="../playlist.cpp" line="2035"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>您將要從您的硬碟上刪除檔案「%1」。</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1999"/>
+        <location filename="../playlist.cpp" line="2036"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>此動作無法復原。您想要繼續嗎？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2017"/>
+        <location filename="../playlist.cpp" line="2054"/>
         <source>Deletion failed</source>
         <translation>刪除失敗</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2018"/>
+        <location filename="../playlist.cpp" line="2055"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>刪除「%1」是不可能的</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2023"/>
+        <location filename="../playlist.cpp" line="2060"/>
         <source>Error deleting the file</source>
         <translation>刪除檔案時錯誤</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2024"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>從您的檔案系統上刪除「%1」是不可能的。</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>無法載入此播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2520"/>
+        <location filename="../playlist.cpp" line="2557"/>
         <source>Unrecognized format.</source>
         <translation>無法識別的格式。</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
+        <location filename="../playlist.cpp" line="776"/>
         <source>Add...</source>
         <translation>加入...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="778"/>
         <source>Remove...</source>
         <translation>移除...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1483"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>Playlist modified</source>
         <translation>播放清單己修改</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1484"/>
+        <location filename="../playlist.cpp" line="1492"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>修改尚未儲存，您想儲存播放清單嗎？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1704"/>
+        <location filename="../playlist.cpp" line="1741"/>
         <source>Multimedia</source>
         <translation>多媒體</translation>
     </message>
