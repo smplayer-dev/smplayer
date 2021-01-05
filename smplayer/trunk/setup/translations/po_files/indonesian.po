@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Aulia Firdaus Simbolon <dausbajing@hotmail.co.id>, 2014
-# D_onlyme 219 <dayat219onlyme@gmail.com>, 2019
-# se7entime <se7entime@openmailbox.org>, 2014
+# D_onlyme 219 <dayat219onlyme@gmail.com>, 2019-2020
+# se7entime <se7entime@disroot.org>, 2014
 # Rendiyono Wahyu Saputro <rendi.7936@gmail.com>, 2015
-# wantoyo <inactive+wantoyo@transifex.com>, 2015-2016
+# f4fa50e1921fb4273a514899ed633fda_b9e907e <fb7ca61b730a9d06962cf5749dc9f4d6_202334>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2019-03-23 04:36+0000\n"
+"PO-Revision-Date: 2020-08-11 09:30+0000\n"
 "Last-Translator: D_onlyme 219 <dayat219onlyme@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/rvm/smplayer/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgid ""
 "instances of SMPlayer before starting setup. This will make it possible to "
 "update relevant program files without having to reboot your "
 "computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).[:r:][:n:][:r:][:n:] Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui file program tanpa harus memulai ulang komputer Anda.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Wisaya ini akan memandu Anda melalui pemasangan $(^NameDA).[:r:][:n:][:r:][:n:] Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus memulai ulang komputer Anda.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
@@ -155,7 +155,7 @@ msgstr "Bahasa"
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
-msgstr "File Bahasa Non-Inggris untuk SMPlayer."
+msgstr "Berkas Bahasa Non-Inggris untuk SMPlayer."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
@@ -167,7 +167,7 @@ msgid ""
 "implemented natively, like newer RealVideo variants and a lot of uncommon "
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
-msgstr "Paket kodek binari menambah dukungan untuk kodek yang tidak dijalankan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.[:n:]Catat bahwa semua kodek itu tidak diperlukan untuk memutar format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
+msgstr "Paket kodek binari menambahkan dukungan untuk kodek yang tidak dijalankan secara umum, seperti varian terbaru RealVideo dan berbagai format lainnya yang belum dapat diputar.[:n:]Catat bahwa semua kodek itu tidak diperlukan untuk memainkan format yang sering dipakai seperti DVD, MPEG-1/2/4, dsb."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -292,7 +292,7 @@ msgstr "Mengembalikan kodek dari pemasangan sebelumnya..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
-msgstr "Menghapus file..."
+msgstr "Menghapus berkas..."
 
 # Info_Del_Registry
 msgid "Deleting Registry Keys..."
@@ -304,7 +304,7 @@ msgstr "Menghapus Pintasan..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr "Mengembalikan asosiasi file..."
+msgstr "Mengembalikan asosiasi berkas..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
@@ -312,7 +312,7 @@ msgstr "Mengembalikan pengubahan..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
-msgstr "Mengekstrak file..."
+msgstr "Mengekstrak berkas..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
