@@ -5296,7 +5296,7 @@ void BaseGui::enterFullscreenOnPlay() {
 	qDebug("BaseGui::enterFullscreenOnPlay: arg_start_in_fullscreen: %d, pref->start_in_fullscreen: %d", arg_start_in_fullscreen, pref->start_in_fullscreen);
 
 	if (arg_start_in_fullscreen != 0) {
-		if ( (arg_start_in_fullscreen == 1) || (pref->start_in_fullscreen) ) {
+		if ((arg_start_in_fullscreen == 1 || pref->start_in_fullscreen) && !core->mdat.novideo) {
 			if (!pref->fullscreen) toggleFullscreen(true);
 		}
 	}
