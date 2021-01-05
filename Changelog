@@ -1,3 +1,36 @@
+Version 21.1:
+
+(2020-11-28)
+ * Try to prevent a crash when using the actions play next/prev very fast.
+
+(2020-11-27)
+ * (Playlist) Fix position number after adding files.
+ * Hide the shuffle column by default.
+
+(2020-11-18)
+ * Pass the option gpu-context when using wayland.
+ 
+(2020-11-09)
+ * Add mpsub to the extension list.
+ 
+(2020-10-26)
+ * (Find subtitles) Add filters for Spanish and Portuguese languages.
+
+(2020-10-22)
+ * Add cache in seconds and cache speed to the OSD info.
+
+(2020-10-21)
+ * Add option to display the remaining time in the status bar.
+
+(2020-10-07)
+ * Add the packages youtube-dl and python-is-python3 to the "recommends"
+   section in the deb package.
+
+(2020-09-14)
+ * Try to prevent the video outside the GUI when using Wayland.
+ * The shuffle button in the playlist window can be turned on/off.
+
+
 Version 20.6:
 
 (2020-05-19)
