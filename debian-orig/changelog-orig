@@ -4,7 +4,7 @@ smplayer (21.1.0) xenial; urgency=low
   * Some fixes and improvements in the playlist.
   * Show cache info in the OSD (Shift + I).
 
- -- Ricardo Villalba <vm@users.sourceforge.net>  Wed, 06 Jan 2021 14:51:51 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 06 Jan 2021 14:51:51 +0100
 
 smplayer (20.6.0) precise; urgency=low
 
