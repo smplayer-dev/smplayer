@@ -71,6 +71,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 //			"INFO_VIDEO_BITRATE=${=video-bitrate}\n"
 			"INFO_VIDEO_FORMAT=${=video-format}\n"
 			"INFO_VIDEO_CODEC=${=video-codec}\n"
+			"INFO_DEMUX_ROTATION=${=track-list/0/demux-rotation}\n"
 
 //			"INFO_AUDIO_BITRATE=${=audio-bitrate}\n"
 //			"INFO_AUDIO_FORMAT=${=audio-format}\n" // old
@@ -135,6 +136,7 @@ void MPVProcess::setFixedOptions() {
 	//arg << "--msg-level=vd=v";
 	//arg << "--video-stereo-mode=no";
 	arg << "--msg-level=ffmpeg/demuxer=error";
+	arg << "--video-rotate=no";
 }
 
 void MPVProcess::disableInput() {
