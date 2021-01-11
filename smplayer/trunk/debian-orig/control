@@ -2,14 +2,14 @@ Source: smplayer
 Section: graphics
 Priority: extra
 Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
-Standards-Version: 3.7.2
-Build-Depends: debhelper (>= 5), zlib1g-dev, libqt4-dev
-#Build-Depends: debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, qtbase5-private-dev
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9), zlib1g-dev, libqt4-dev
+#Build-Depends: debhelper (>= 9), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, qtbase5-private-dev
 
 Package: smplayer
 Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mpv (>= 0.6.2)
+Depends: ${misc:Depends}, ${shlibs:Depends}, mplayer | mplayer-nogui | mpv (>= 0.6.2)
 Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils, pulseaudio-utils, youtube-dl, python-is-python2 | python-is-python3
 Replaces: smplayer-translations, smplayer-l10n
 Provides: smplayer-translations, smplayer-l10n

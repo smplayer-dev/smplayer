@@ -1,26 +1,3878 @@
-This is smplayer, written and maintained by ricardo <rvm@users.sourceforge.net>
-on Fri, 25 May 2007 01:48:41 +0200.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: smplayer
+Source: <url://example.com>
 
-The original source can always be found at:
-	ftp://ftp.debian.org/dists/unstable/main/source/
+Files:     Readme.txt
+           dxlist/main.cpp
+           src/about.cpp
+           src/about.h
+           src/assstyles.cpp
+           src/assstyles.h
+           src/audioequalizer.cpp
+           src/audioequalizer.h
+           src/audioequalizerlist.cpp
+           src/audioequalizerlist.h
+           src/autohidewidget.cpp
+           src/autohidewidget.h
+           src/basegui.cpp
+           src/basegui.h
+           src/baseguiplus.cpp
+           src/baseguiplus.h
+           src/bookmarkdialog.cpp
+           src/bookmarkdialog.h
+           src/chapters.cpp
+           src/chapters.h
+           src/chromecast.cpp
+           src/chromecast.h
+           src/clhelp.cpp
+           src/clhelp.h
+           src/colorutils.cpp
+           src/colorutils.h
+           src/config.h
+           src/constants.h
+           src/core.cpp
+           src/core.h
+           src/defaultgui.cpp
+           src/defaultgui.h
+           src/desktopinfo.cpp
+           src/desktopinfo.h
+           src/deviceinfo.cpp
+           src/deviceinfo.h
+           src/discname.cpp
+           src/discname.h
+           src/editabletoolbar.cpp
+           src/editabletoolbar.h
+           src/eqslider.cpp
+           src/eqslider.h
+           src/errordialog.cpp
+           src/errordialog.h
+           src/extensions.cpp
+           src/extensions.h
+           src/favoriteeditor.cpp
+           src/favoriteeditor.h
+           src/favorites.cpp
+           src/favorites.h
+           src/filechooser.cpp
+           src/filechooser.h
+           src/filedialog.cpp
+           src/filedialog.h
+           src/filehash.cpp
+           src/filehash.h
+           src/filepropertiesdialog.cpp
+           src/filepropertiesdialog.h
+           src/filesettings.cpp
+           src/filesettings.h
+           src/filesettingsbase.cpp
+           src/filesettingsbase.h
+           src/filesettingshash.cpp
+           src/filesettingshash.h
+           src/filters.cpp
+           src/findsubtitles/filedownloader/filedownloader.cpp
+           src/findsubtitles/filedownloader/filedownloader.h
+           src/findsubtitles/findsubtitlesconfigdialog.cpp
+           src/findsubtitles/findsubtitlesconfigdialog.h
+           src/findsubtitles/findsubtitleswindow.cpp
+           src/findsubtitles/findsubtitleswindow.h
+           src/findsubtitles/fixsubs.cpp
+           src/findsubtitles/fixsubs.h
+           src/findsubtitles/main.cpp
+           src/findsubtitles/osclient.cpp
+           src/findsubtitles/osclient.h
+           src/findsubtitles/osparser.cpp
+           src/findsubtitles/osparser.h
+           src/findsubtitles/subchooserdialog.cpp
+           src/findsubtitles/subchooserdialog.h
+           src/fontcache.cpp
+           src/fontcache.h
+           src/global.cpp
+           src/global.h
+           src/globalshortcuts/globalshortcuts.cpp
+           src/globalshortcuts/globalshortcuts.h
+           src/globalshortcuts/globalshortcuts_linux.cpp
+           src/globalshortcuts/globalshortcuts_win.cpp
+           src/globalshortcuts/globalshortcutsdialog.cpp
+           src/globalshortcuts/globalshortcutsdialog.h
+           src/guiconfig.h
+           src/hdpisupport.cpp
+           src/hdpisupport.h
+           src/helper.cpp
+           src/helper.h
+           src/images.cpp
+           src/images.h
+           src/infofile.cpp
+           src/infofile.h
+           src/infoprovider.cpp
+           src/infoprovider.h
+           src/inforeader.cpp
+           src/inforeader.h
+           src/inforeadermplayer.cpp
+           src/inforeadermplayer.h
+           src/inforeadermpv.cpp
+           src/inforeadermpv.h
+           src/infowindow.cpp
+           src/infowindow.h
+           src/inputbookmark.cpp
+           src/inputbookmark.h
+           src/inputdvddirectory.cpp
+           src/inputdvddirectory.h
+           src/inputmplayerversion.cpp
+           src/inputmplayerversion.h
+           src/inputurl.cpp
+           src/inputurl.h
+           src/languages.cpp
+           src/languages.h
+           src/lineedit_with_icon.cpp
+           src/lineedit_with_icon.h
+           src/links.h
+           src/logwindow.cpp
+           src/logwindow.h
+           src/main.cpp
+           src/mediadata.cpp
+           src/mediadata.h
+           src/mediasettings.cpp
+           src/mediasettings.h
+           src/minigui.cpp
+           src/minigui.h
+           src/mpcgui/mpcgui.cpp
+           src/mpcgui/mpcgui.h
+           src/mpcgui/mpcstyles.cpp
+           src/mpcgui/mpcstyles.h
+           src/mplayeroptions.cpp
+           src/mplayerprocess.cpp
+           src/mplayerprocess.h
+           src/mplayerversion.cpp
+           src/mplayerversion.h
+           src/mplayerwindow.cpp
+           src/mplayerwindow.h
+           src/mpvoptions.cpp
+           src/mpvprocess.cpp
+           src/mpvprocess.h
+           src/multilineinputdialog.cpp
+           src/multilineinputdialog.h
+           src/myaction.cpp
+           src/myaction.h
+           src/myactiongroup.cpp
+           src/myactiongroup.h
+           src/myapplication.cpp
+           src/myapplication.h
+           src/mycombobox.cpp
+           src/mycombobox.h
+           src/mylineedit.cpp
+           src/mylineedit.h
+           src/myprocess.cpp
+           src/myprocess.h
+           src/myscroller.cpp
+           src/myscroller.h
+           src/mytablewidget.cpp
+           src/mytablewidget.h
+           src/old/floatingwidget.cpp
+           src/old/floatingwidget.h
+           src/old/images.cpp
+           src/old/images.h
+           src/old/videoequalizer.cpp
+           src/old/videoequalizer.h
+           src/paths.cpp
+           src/paths.h
+           src/playerid.cpp
+           src/playerid.h
+           src/playerprocess.cpp
+           src/playerprocess.h
+           src/playlist.cpp
+           src/playlist.h
+           src/playlistdock.cpp
+           src/playlistdock.h
+           src/prefadvanced.cpp
+           src/prefadvanced.h
+           src/prefdrives.cpp
+           src/prefdrives.h
+           src/preferences.cpp
+           src/preferences.h
+           src/preferencesdialog.cpp
+           src/preferencesdialog.h
+           src/prefgeneral.cpp
+           src/prefgeneral.h
+           src/prefinput.cpp
+           src/prefinput.h
+           src/prefinterface.cpp
+           src/prefinterface.h
+           src/prefnetwork.cpp
+           src/prefnetwork.h
+           src/prefperformance.cpp
+           src/prefperformance.h
+           src/prefplaylist.cpp
+           src/prefplaylist.h
+           src/prefsubtitles.cpp
+           src/prefsubtitles.h
+           src/preftv.cpp
+           src/preftv.h
+           src/prefupdates.cpp
+           src/prefupdates.h
+           src/prefwidget.cpp
+           src/prefwidget.h
+           src/qrcode/openwithdevicedialog.cpp
+           src/qrcode/openwithdevicedialog.h
+           src/qrcode/qrcodelabel.cpp
+           src/qrcode/qrcodelabel.h
+           src/recents.cpp
+           src/recents.h
+           src/reminderdialog.cpp
+           src/reminderdialog.h
+           src/screensaver.cpp
+           src/screensaver.h
+           src/seekwidget.cpp
+           src/seekwidget.h
+           src/selectcolorbutton.cpp
+           src/selectcolorbutton.h
+           src/sharedata.cpp
+           src/sharedata.h
+           src/sharedialog.cpp
+           src/sharedialog.h
+           src/sharewidget.cpp
+           src/sharewidget.h
+           src/shutdown.cpp
+           src/shutdown.h
+           src/shutdowndialog.cpp
+           src/shutdowndialog.h
+           src/skingui/actiontools.cpp
+           src/skingui/actiontools.h
+           src/skingui/mediabarpanel.cpp
+           src/skingui/mediabarpanel.h
+           src/skingui/mediapanel.cpp
+           src/skingui/mediapanel.h
+           src/skingui/mybutton.cpp
+           src/skingui/mybutton.h
+           src/skingui/myicon.cpp
+           src/skingui/myicon.h
+           src/skingui/panelseeker.cpp
+           src/skingui/panelseeker.h
+           src/skingui/playcontrol.cpp
+           src/skingui/playcontrol.h
+           src/skingui/qpropertysetter.cpp
+           src/skingui/qpropertysetter.h
+           src/skingui/skingui.cpp
+           src/skingui/skingui.h
+           src/skingui/volumecontrolpanel.cpp
+           src/skingui/volumecontrolpanel.h
+           src/smplayer.cpp
+           src/smplayer.h
+           src/statewidget.cpp
+           src/statewidget.h
+           src/stereo3ddialog.cpp
+           src/stereo3ddialog.h
+           src/subreader.cpp
+           src/subreader.h
+           src/subtracks.cpp
+           src/subtracks.h
+           src/timedialog.cpp
+           src/timedialog.h
+           src/timeslider.cpp
+           src/timeslider.h
+           src/titletracks.cpp
+           src/titletracks.h
+           src/toolbareditor.cpp
+           src/toolbareditor.h
+           src/tracks.cpp
+           src/tracks.h
+           src/translator.cpp
+           src/translator.h
+           src/tristatecombo.cpp
+           src/tvlist.cpp
+           src/tvlist.h
+           src/tvsettings.cpp
+           src/tvsettings.h
+           src/updatechecker.cpp
+           src/updatechecker.h
+           src/updatecheckerdata.cpp
+           src/updatecheckerdata.h
+           src/urlhistory.cpp
+           src/urlhistory.h
+           src/vdpauproperties.cpp
+           src/vdpauproperties.h
+           src/version.cpp
+           src/version.h
+           src/videoequalizer.cpp
+           src/videoequalizer.h
+           src/videopreview/main.cpp
+           src/videopreview/videopreview.cpp
+           src/videopreview/videopreview.h
+           src/videopreview/videopreviewconfigdialog.cpp
+           src/videopreview/videopreviewconfigdialog.h
+           src/widgetactions.cpp
+           src/widgetactions.h
+           src/youtube/codedownloader.cpp
+           src/youtube/codedownloader.h
+           src/youtube/loadpage.cpp
+           src/youtube/loadpage.h
+           src/youtube/retrieveyoutubeurl.cpp
+           src/youtube/retrieveyoutubeurl.h
+           webserver/main.c
+Copyright: 2006-2020 Ricardo Villalba <rvm@escomposlinux.org>
+           2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+           2008 matt_ <matt@endboss.org>
+           2010 Ori Rejwan
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
-Copyright Holder:  Ricardo Villalba
+Files:     Changelog
+           Copying_BSD.txt
+           Finding_subtitles.txt
+           Install.txt
+           Makefile
+           Not_so_obvious_things.txt
+           OBS/Makefile
+           Portable_Edition.txt
+           Release_notes.txt
+           Watching_TV.txt
+           build_os2.cmd
+           clean_windows.cmd
+           clean_windows2.cmd
+           compile_all.cmd
+           compile_windows.cmd
+           compile_windows2.cmd
+           compile_windows_portable.cmd
+           create_deb.sh
+           create_rpm.sh
+           debian-orig/README
+           debian-orig/README.Debian
+           debian-orig/changelog-orig
+           debian-orig/compat
+           debian-orig/control
+           debian-orig/dirs
+           debian-orig/docs
+           debian-orig/menu
+           debian-orig/rules
+           dvdmenus.txt
+           dxlist/README.txt
+           dxlist/directx/README.txt
+           dxlist/dxlist.pro
+           get_svn_revision.sh
+           getrev.cmd
+           getrev2.cmd
+           old-docs/Changelog
+           old-docs/Release_notes.txt
+           setup/scripts/install_smplayer2.cmd
+           setup/scripts/make_pkgs.cmd
+           setup/smplayer.nsi
+           setup/translations/albanian.nsh
+           setup/translations/amharic.nsh
+           setup/translations/arabic.nsh
+           setup/translations/basque.nsh
+           setup/translations/bulgarian.nsh
+           setup/translations/catalan.nsh
+           setup/translations/croatian.nsh
+           setup/translations/czech.nsh
+           setup/translations/danish.nsh
+           setup/translations/dutch.nsh
+           setup/translations/english.nsh
+           setup/translations/farsi.nsh
+           setup/translations/finnish.nsh
+           setup/translations/french.nsh
+           setup/translations/galician.nsh
+           setup/translations/german.nsh
+           setup/translations/greek.nsh
+           setup/translations/hebrew.nsh
+           setup/translations/hungarian.nsh
+           setup/translations/indonesian.nsh
+           setup/translations/italian.nsh
+           setup/translations/japanese.nsh
+           setup/translations/korean.nsh
+           setup/translations/malay.nsh
+           setup/translations/norwegian_nb.nsh
+           setup/translations/norwegian_nn.nsh
+           setup/translations/po_files/.tx/config
+           setup/translations/po_files/Makefile
+           setup/translations/po_files/norwegian_nn.po
+           setup/translations/po_files/slovak.po
+           setup/translations/po_files/slovenian.po
+           setup/translations/po_files/spanish.po
+           setup/translations/polish.nsh
+           setup/translations/portuguese.nsh
+           setup/translations/portuguesebrazil.nsh
+           setup/translations/romanian.nsh
+           setup/translations/russian.nsh
+           setup/translations/serbian.nsh
+           setup/translations/simpchinese.nsh
+           setup/translations/slovak.nsh
+           setup/translations/slovenian.nsh
+           setup/translations/spanish.nsh
+           setup/translations/thai.nsh
+           setup/translations/tradchinese.nsh
+           setup/translations/turkish.nsh
+           setup/translations/ukrainian.nsh
+           setup/translations/vietnamese.nsh
+           smplayer.desktop
+           smplayer.spec
+           smplayer_enqueue.desktop
+           src/H2O/README.txt
+           src/H2O/infofile.css
+           src/H2O/style.qss
+           src/H2O/tabletmode.css
+           src/cleanconfig.cpp
+           src/cleanconfig.h
+           src/default-theme/style.qss
+           src/default-theme/tabletmode.css
+           src/deviceinfo_pulse.cpp
+           src/findsubtitles/filedownloader/filedownloader.pro
+           src/findsubtitles/filedownloader/main.cpp
+           src/findsubtitles/findsubtitles.pro
+           src/findsubtitles/maia/Changelog
+           src/findsubtitles/maia/README.md
+           src/findsubtitles/maia/maia.pri
+           src/findsubtitles/maia/maia.pro
+           src/input.conf
+           src/languages/list.txt
+           src/languages/main.cpp
+           src/languages/process_list.pro
+           src/qtsingleapplication/QtLockedFile
+           src/qtsingleapplication/QtSingleApplication
+           src/qtsingleapplication/qtlocalpeer.cpp
+           src/qtsingleapplication/qtlocalpeer.h
+           src/qtsingleapplication/qtlockedfile.cpp
+           src/qtsingleapplication/qtlockedfile.h
+           src/qtsingleapplication/qtlockedfile_unix.cpp
+           src/qtsingleapplication/qtlockedfile_win.cpp
+           src/qtsingleapplication/qtsingleapplication.cpp
+           src/qtsingleapplication/qtsingleapplication.h
+           src/qtsingleapplication/qtsingleapplication.pri
+           src/qtsingleapplication/qtsinglecoreapplication.cpp
+           src/qtsingleapplication/qtsinglecoreapplication.h
+           src/qtsingleapplication/qtsinglecoreapplication.pri
+           src/shortcuts/default.keys
+           src/shortcuts/euskara.keys
+           src/shortcuts/vlc.keys
+           src/smplayer.pro
+           src/smplayer.rc
+           src/smplayer_os2.rc
+           src/translations/.tx/config
+           src/verticaltext.h
+           src/videopreview/async.diff
+           src/videopreview/videopreview.pro
+           webserver/Makefile
+           webserver/README.txt
+           webserver/mongoose.c
+           webserver/mongoose.h
+           zlib/CMakeLists.txt
+           zlib/FAQ
+           zlib/INDEX
+           zlib/Makefile
+           zlib/amiga/Makefile.pup
+           zlib/amiga/Makefile.sas
+           zlib/as400/bndsrc
+           zlib/as400/compile.clp
+           zlib/as400/readme.txt
+           zlib/as400/zlib.inc
+           zlib/configure
+           zlib/contrib/README.contrib
+           zlib/contrib/ada/readme.txt
+           zlib/contrib/ada/zlib.gpr
+           zlib/contrib/amd64/amd64-match.S
+           zlib/contrib/asm686/README.686
+           zlib/contrib/blast/Makefile
+           zlib/contrib/blast/README
+           zlib/contrib/blast/test.txt
+           zlib/contrib/delphi/ZLibConst.pas
+           zlib/contrib/delphi/zlibd32.mak
+           zlib/contrib/dotzlib/DotZLib.build
+           zlib/contrib/dotzlib/DotZLib.sln
+           zlib/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+           zlib/contrib/gcc_gvmat64/gvmat64.S
+           zlib/contrib/infback9/README
+           zlib/contrib/infback9/infback9.c
+           zlib/contrib/infback9/inffix9.h
+           zlib/contrib/infback9/inftree9.c
+           zlib/contrib/inflate86/inffast.S
+           zlib/contrib/iostream/test.cpp
+           zlib/contrib/iostream/zfstream.cpp
+           zlib/contrib/iostream/zfstream.h
+           zlib/contrib/iostream2/zstream_test.cpp
+           zlib/contrib/iostream3/README
+           zlib/contrib/iostream3/TODO
+           zlib/contrib/iostream3/test.cc
+           zlib/contrib/iostream3/zfstream.cc
+           zlib/contrib/iostream3/zfstream.h
+           zlib/contrib/masmx64/bld_ml64.bat
+           zlib/contrib/masmx64/gvmat64.asm
+           zlib/contrib/masmx64/inffasx64.asm
+           zlib/contrib/masmx64/readme.txt
+           zlib/contrib/masmx86/bld_ml32.bat
+           zlib/contrib/masmx86/match686.asm
+           zlib/contrib/masmx86/readme.txt
+           zlib/contrib/minizip/Makefile
+           zlib/contrib/minizip/Makefile.am
+           zlib/contrib/minizip/MiniZip64_Changes.txt
+           zlib/contrib/minizip/configure.ac
+           zlib/contrib/minizip/make_vms.com
+           zlib/contrib/minizip/minizip.pc.in
+           zlib/contrib/minizip/mztools.c
+           zlib/contrib/minizip/mztools.h
+           zlib/contrib/pascal/zlibd32.mak
+           zlib/contrib/puff/Makefile
+           zlib/contrib/puff/README
+           zlib/contrib/testzlib/testzlib.c
+           zlib/contrib/testzlib/testzlib.txt
+           zlib/contrib/untgz/Makefile
+           zlib/contrib/untgz/Makefile.msc
+           zlib/contrib/untgz/untgz.c
+           zlib/contrib/vstudio/readme.txt
+           zlib/contrib/vstudio/vc10/miniunz.vcxproj
+           zlib/contrib/vstudio/vc10/miniunz.vcxproj.filters
+           zlib/contrib/vstudio/vc10/miniunz.vcxproj.user
+           zlib/contrib/vstudio/vc10/minizip.vcxproj
+           zlib/contrib/vstudio/vc10/minizip.vcxproj.filters
+           zlib/contrib/vstudio/vc10/minizip.vcxproj.user
+           zlib/contrib/vstudio/vc10/testzlib.vcxproj
+           zlib/contrib/vstudio/vc10/testzlib.vcxproj.filters
+           zlib/contrib/vstudio/vc10/testzlib.vcxproj.user
+           zlib/contrib/vstudio/vc10/testzlibdll.vcxproj
+           zlib/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
+           zlib/contrib/vstudio/vc10/testzlibdll.vcxproj.user
+           zlib/contrib/vstudio/vc10/zlib.rc
+           zlib/contrib/vstudio/vc10/zlibstat.vcxproj
+           zlib/contrib/vstudio/vc10/zlibstat.vcxproj.filters
+           zlib/contrib/vstudio/vc10/zlibstat.vcxproj.user
+           zlib/contrib/vstudio/vc10/zlibvc.def
+           zlib/contrib/vstudio/vc10/zlibvc.sln
+           zlib/contrib/vstudio/vc10/zlibvc.vcxproj
+           zlib/contrib/vstudio/vc10/zlibvc.vcxproj.filters
+           zlib/contrib/vstudio/vc10/zlibvc.vcxproj.user
+           zlib/contrib/vstudio/vc9/zlib.rc
+           zlib/contrib/vstudio/vc9/zlibvc.def
+           zlib/contrib/vstudio/vc9/zlibvc.sln
+           zlib/crc32.h
+           zlib/doc/algorithm.txt
+           zlib/doc/txtvsbin.txt
+           zlib/examples/README.examples
+           zlib/examples/fitblk.c
+           zlib/examples/zpipe.c
+           zlib/examples/zran.c
+           zlib/gzclose.c
+           zlib/gzguts.h
+           zlib/gzlib.c
+           zlib/gzread.c
+           zlib/gzwrite.c
+           zlib/inffast.c
+           zlib/inffixed.h
+           zlib/inftrees.c
+           zlib/make_vms.com
+           zlib/msdos/Makefile.bor
+           zlib/msdos/Makefile.msc
+           zlib/msdos/Makefile.tc
+           zlib/nintendods/Makefile
+           zlib/nintendods/README
+           zlib/old/Makefile.riscos
+           zlib/old/README
+           zlib/old/descrip.mms
+           zlib/old/os2/Makefile.os2
+           zlib/old/os2/zlib.def
+           zlib/old/visual-basic.txt
+           zlib/trees.c
+           zlib/trees.h
+           zlib/watcom/watcom_f.mak
+           zlib/watcom/watcom_l.mak
+           zlib/win32/DLL_FAQ.txt
+           zlib/win32/Makefile.bor
+           zlib/win32/Makefile.msc
+           zlib/win32/VisualC.txt
+           zlib/win32/zlib.def
+           zlib/win32/zlib1.rc
+           zlib/zlib.map
+           zlib/zlib.pc.cmakein
+           zlib/zlib.pc.in
+Copyright: 1995-1996 Jean-loup Gailly, Brian Raiter and Gilles Vollant. File
+           1995-2006 Jean-loup Gailly and Mark Adler
+           1995-2010 Jean-loup Gailly, Brian Raiter and Gilles Vollant.
+           1995-2010 Jean-loup Gailly, Brian Raiter and Gilles Vollant. ;
+           1995-2012 Jean-loup Gailly
+           1995-2012 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           1998 Andreas R. Kleinert
+           2003 Chris Anderson <christop@charm.net> Please use the copyright conditions above.
+           2003-2004 Christian Esken <esken@kde.org>
+           2004 Henrik Ravn")] [assembly: AssemblyTrademark("")] [assembly: AssemblyCulture("")]
+           2004-2008 Trolltech ASA.
+           2004-2013 Sergey Lyubka
+           2005 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.0  29 May 2005  Mark Adler
+           2013 Digia Plc and/or its subsidiary(-ies).
+           2013-2015 Cesanta Software Limited
+           Jean-loup Gailly Osma Ahvenlampi <Osma.Ahvenlampi@hut.fi> Amiga, SAS/C 6.56 & Smake
+           __NO_COPYRIGHT_NOR_LICENSE__
+           rgio Marques <contatica@netcabo.pt>
+License:   __UNKNOWN__
 
-License:
+Files:     setup/translations/po_files/albanian.po
+           setup/translations/po_files/amharic.po
+           setup/translations/po_files/arabic.po
+           setup/translations/po_files/basque.po
+           setup/translations/po_files/bulgarian.po
+           setup/translations/po_files/catalan.po
+           setup/translations/po_files/croatian.po
+           setup/translations/po_files/czech.po
+           setup/translations/po_files/danish.po
+           setup/translations/po_files/dutch.po
+           setup/translations/po_files/english.pot
+           setup/translations/po_files/farsi.po
+           setup/translations/po_files/finnish.po
+           setup/translations/po_files/french.po
+           setup/translations/po_files/galician.po
+           setup/translations/po_files/german.po
+           setup/translations/po_files/greek.po
+           setup/translations/po_files/hebrew.po
+           setup/translations/po_files/hungarian.po
+           setup/translations/po_files/indonesian.po
+           setup/translations/po_files/italian.po
+           setup/translations/po_files/japanese.po
+           setup/translations/po_files/korean.po
+           setup/translations/po_files/malay.po
+           setup/translations/po_files/norwegian_nb.po
+           setup/translations/po_files/polish.po
+           setup/translations/po_files/portuguese.po
+           setup/translations/po_files/portuguesebrazil.po
+           setup/translations/po_files/romanian.po
+           setup/translations/po_files/russian.po
+           setup/translations/po_files/serbian.po
+           setup/translations/po_files/simpchinese.po
+           setup/translations/po_files/thai.po
+           setup/translations/po_files/tradchinese.po
+           setup/translations/po_files/turkish.po
+           setup/translations/po_files/ukrainian.po
+           setup/translations/po_files/vietnamese.po
+Copyright: __NO_COPYRIGHT__
+License:   _SAME_
+ This file is distributed under the same license as the PACKAGE package.
 
-  This program is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation; either version 2 of the License, or
-  (at your option) any later version.
+Files:     src/findsubtitles/maia/maiaFault.cpp
+           src/findsubtitles/maia/maiaFault.h
+           src/findsubtitles/maia/maiaObject.cpp
+           src/findsubtitles/maia/maiaObject.h
+           src/findsubtitles/maia/maiaXmlRpcClient.cpp
+           src/findsubtitles/maia/maiaXmlRpcClient.h
+           src/findsubtitles/maia/maiaXmlRpcServer.cpp
+           src/findsubtitles/maia/maiaXmlRpcServer.h
+           src/findsubtitles/maia/maiaXmlRpcServerConnection.cpp
+           src/findsubtitles/maia/maiaXmlRpcServerConnection.h
+Copyright: 2003 Frerich Raabe <raabe@kde.org> and Ian Reinhart Geiser <geiseri@kde.org>
+           2007 Sebastian Wiedenroth <wiedi@frubar.net>
+           2007 Sebastian Wiedenroth <wiedi@frubar.net> and Karl Glatz
+License:   BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+Files:     zlib/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+           zlib/contrib/dotzlib/DotZLib/CircularBuffer.cs
+           zlib/contrib/dotzlib/DotZLib/CodecBase.cs
+           zlib/contrib/dotzlib/DotZLib/Deflater.cs
+           zlib/contrib/dotzlib/DotZLib/DotZLib.cs
+           zlib/contrib/dotzlib/DotZLib/GZipStream.cs
+           zlib/contrib/dotzlib/DotZLib/Inflater.cs
+           zlib/contrib/dotzlib/DotZLib/UnitTests.cs
+           zlib/contrib/dotzlib/readme.txt
+Copyright: 2004 Henrik Ravn
+License:   __UNKNOWN__
+ Use, modification and distribution are subject to the Boost Software License, Version 1.0.
 
-  You should have received a copy of the GNU General Public License
-  along with this package; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+Files:     zlib/adler32.c
+           zlib/compress.c
+           zlib/test/example.c
+           zlib/uncompr.c
+           zlib/zconf.h
+           zlib/zconf.h.cmakein
+           zlib/zconf.h.in
+           zlib/zutil.c
+Copyright: 1995-2011 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           1995-2012 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ @(#) $Id$
 
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
+Files:     zlib/contrib/minizip/ioapi.c
+           zlib/contrib/minizip/ioapi.h
+           zlib/contrib/minizip/iowin32.c
+           zlib/contrib/minizip/iowin32.h
+           zlib/contrib/minizip/zip.c
+           zlib/contrib/minizip/zip.h
+Copyright: 1998-2010 Gilles Vollant (minizip) ( http://www.winimage.com/zLibDll/minizip.html )
+License:   __UNKNOWN__
+ Modifications for Zip64 support
+ Copyright (C) 2009-2010 Mathias Svensson ( http://result42.com )
+
+Files:     zlib/contrib/minizip/miniunz.c
+           zlib/contrib/minizip/minizip.c
+           zlib/contrib/minizip/unzip.c
+           zlib/contrib/minizip/unzip.h
+Copyright: 1998-2010 Gilles Vollant (minizip) ( http://www.winimage.com/zLibDll/minizip.html )
+License:   __UNKNOWN__
+ Modifications of Unzip for Zip64
+ Copyright (C) 2007-2008 Even Rouault
+ .
+ Modifications for Zip64 support on both zip and unzip
+ Copyright (C) 2009-2010 Mathias Svensson ( http://result42.com )
+
+Files:     src/mpris2/mediaplayer2.h
+           src/mpris2/mediaplayer2player.h
+           src/mpris2/mpris2.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ .
+ Copyright 2012  Eike Hein <hein@kde.org>
+ .
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/mpris2/mediaplayer2.cpp
+           src/mpris2/mediaplayer2player.cpp
+           src/mpris2/mpris2.cpp
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ .
+ Copyright 2012  Eike Hein <hein@kde.org>
+ Copyright 2012  Bernd Buschinski <b.buschinski@googlemail.com>
+ .
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     zlib/README
+           zlib/win32/README-WIN32.txt
+Copyright: 1995-2012 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .
+ If you use the zlib library in a product, we would appreciate *not* receiving
+ lengthy legal documents to sign.  The sources are provided for free but without
+ warranty of any kind.  The library has been entirely written by Jean-loup
+ Gailly and Mark Adler; it does not include third-party code.
+ .
+ If you redistribute modified sources, we would appreciate that you include in
+ the file ChangeLog history information documenting your changes.  Please read
+ the FAQ for more information on the distribution of modified source versions.
+
+Files:     src/shortcutgetter.cpp
+           src/shortcutgetter.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ Note: The ShortcutGetter class is taken from the source code of Edyuk
+ (http://www.edyuk.org/), from file 3rdparty/qcumber/qshortcutdialog.cpp
+ .
+ Copyright (C) 2006 FullMetalCoder
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/actionseditor.cpp
+           src/actionseditor.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ This is based on qq14-actioneditor-code.zip from Qt
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/myslider.cpp
+           src/myslider.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   LGPL-2.1
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), Trolltech ASA
+ (or its successors, if any) and the KDE Free Qt Foundation, which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+Files:     src/qrcode/qrcodegen.c
+           src/qrcode/qrcodegen.h
+Copyright: Project Nayuki. (MIT License) https://www.nayuki.io/page/qr-code-generator-library
+           QR Code generator library ©
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person obtaining a copy of
+ this software and associated documentation files (the "Software"), to deal in
+ the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ the Software, and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ - The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ - The Software is provided "as is", without warranty of any kind, express or
+ implied, including but not limited to the warranties of merchantability,
+ fitness for a particular purpose and noninfringement. In no event shall the
+
+Files:     zlib/contrib/infback9/inftree9.h
+           zlib/inftrees.h
+Copyright: 1995-2010 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ .
+ Structure for decoding tables.  Each entry provides either the
+ information needed to do the operation requested by the code that
+ indexed that table entry, or it provides a pointer to another
+ table that indexes more bits of the code.  op indicates whether
+ the entry is a pointer to another table, a literal, a length or
+ distance, an end-of-block, or an invalid code.  For a table
+ pointer, the low four bits of op is the number of index bits of
+ that table.  For a length or distance, the low four bits of op
+ is the number of extra bits to get after the code.  bits is
+ the number of bits in this code or part of the code to drop off
+ of the bit buffer.  val is the actual byte to output in the case
+ of a literal, the base length or distance, or the offset from
+ the current table to the next table.  Each entry is four bytes.
+
+Files:     zlib/inffast.h
+           zlib/inflate.h
+Copyright: 1995-2010 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+
+Files:     zlib/msdos/Makefile.emx
+           zlib/old/Makefile.emx
+Copyright: 1995-1998 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type:
+ .
+ make -fmakefile.emx;  make test -fmakefile.emx
+
+Files:     zlib/deflate.h
+           zlib/zutil.h
+Copyright: 1995-2012 Jean-loup Gailly For conditions of distribution and use, see copyright notice in zlib.h
+           1995-2012 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ .
+ @(#) $Id$
+
+Files:     Copying.txt
+           setup/license.txt
+Copyright: 1989-1991 Free Software Foundation, Inc.
+License:   __TOO_LONG_TYPE3__
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ .
+ Preamble
+ .
+ The licenses for most software are designed to take away your
+ freedom to share and change it.  By contrast, the GNU General Public
+ License is intended to guarantee your freedom to share and change free
+ software--to make sure the software is free for all its users.  This
+ General Public License applies to most of the Free Software
+ Foundation's software and to any other program whose authors commit to
+ using it.  (Some other Free Software Foundation software is covered by
+ the GNU Lesser General Public License instead.)  You can apply it to
+ your programs, too.
+ .
+ When we speak of free software, we are referring to freedom, not
+ price.  Our General Public Licenses are designed to make sure that you
+ have the freedom to distribute copies of free software (and charge for
+ this service if you wish), that you receive source code or can get it
+ if you want it, that you can change the software or use pieces of it
+ in new free programs; and that you know you can do these things.
+ .
+ To protect your rights, we need to make restrictions that forbid
+ anyone to deny you these rights or to ask you to surrender the rights.
+ These restrictions translate to certain responsibilities for you if you
+ distribute copies of the software, or if you modify it.
+ .
+ For example, if you distribute copies of such a program, whether
+ gratis or for a fee, you must give the recipients all the rights that
+ you have.  You must make sure that they, too, receive or can get the
+ source code.  And you must show them these terms so they know their
+ rights.
+ .
+ We protect your rights with two steps: (1) copyright the software, and
+ (2) offer you this license which gives you legal permission to copy,
+ distribute and/or modify the software.
+ .
+ Also, for each author's protection and ours, we want to make certain
+ that everyone understands that there is no warranty for this free
+ software.  If the software is modified by someone else and passed on, we
+ want its recipients to know that what they have is not the original, so
+ that any problems introduced by others will not reflect on the original
+ Finally, any free program is threatened constantly by software
+ patents.  We wish to avoid the danger that redistributors of a free
+ program will individually obtain patent licenses, in effect making the
+ program proprietary.  To prevent this, we have made it clear that any
+ patent must be licensed for everyone's free use or not licensed at all.
+ .
+ The precise terms and conditions for copying, distribution and
+ modification follow.
+ .
+ GNU GENERAL PUBLIC LICENSE
+ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+ 0. This License applies to any program or other work which contains
+ a notice placed by the copyright holder saying it may be distributed
+ under the terms of this General Public License.  The "Program", below,
+ refers to any such program or work, and a "work based on the Program"
+ means either the Program or any derivative work under copyright law:
+ that is to say, a work containing the Program or a portion of it,
+ either verbatim or with modifications and/or translated into another
+ language.  (Hereinafter, translation is included without limitation in
+ the term "modification".)  Each licensee is addressed as "you".
+ .
+ Activities other than copying, distribution and modification are not
+ covered by this License; they are outside its scope.  The act of
+ running the Program is not restricted, and the output from the Program
+ is covered only if its contents constitute a work based on the
+ Program (independent of having been made by running the Program).
+ Whether that is true depends on what the Program does.
+ .
+ 1. You may copy and distribute verbatim copies of the Program's
+ source code as you receive it, in any medium, provided that you
+ conspicuously and appropriately publish on each copy an appropriate
+ copyright notice and disclaimer of warranty; keep intact all the
+ notices that refer to this License and to the absence of any warranty;
+ and give any other recipients of the Program a copy of this License
+ along with the Program.
+ .
+ You may charge a fee for the physical act of transferring a copy, and
+ you may at your option offer warranty protection in exchange for a fee.
+ .
+ 2. You may modify your copy or copies of the Program or any portion
+ of it, thus forming a work based on the Program, and copy and
+ distribute such modifications or work under the terms of Section 1
+ above, provided that you also meet all of these conditions:
+ .
+ a) You must cause the modified files to carry prominent notices
+ stating that you changed the files and the date of any change.
+ .
+ b) You must cause any work that you distribute or publish, that in
+ whole or in part contains or is derived from the Program or any
+ part thereof, to be licensed as a whole at no charge to all third
+ parties under the terms of this License.
+ .
+ c) If the modified program normally reads commands interactively
+ when run, you must cause it, when started running for such
+ interactive use in the most ordinary way, to print or display an
+ announcement including an appropriate copyright notice and a
+ notice that there is no warranty (or else, saying that you provide
+ a warranty) and that users may redistribute the program under
+ these conditions, and telling the user how to view a copy of this
+ License.  (Exception: if the Program itself is interactive but
+ does not normally print such an announcement, your work based on
+ the Program is not required to print an announcement.)
+ .
+ These requirements apply to the modified work as a whole.  If
+ identifiable sections of that work are not derived from the Program,
+ and can be reasonably considered independent and separate works in
+ themselves, then this License, and its terms, do not apply to those
+ sections when you distribute them as separate works.  But when you
+ distribute the same sections as part of a whole which is a work based
+ on the Program, the distribution of the whole must be on the terms of
+ this License, whose permissions for other licensees extend to the
+ entire whole, and thus to each and every part regardless of who wrote it.
+ .
+ Thus, it is not the intent of this section to claim rights or contest
+ your rights to work written entirely by you; rather, the intent is to
+ exercise the right to control the distribution of derivative or
+ collective works based on the Program.
+ .
+ In addition, mere aggregation of another work not based on the Program
+ with the Program (or with a work based on the Program) on a volume of
+ a storage or distribution medium does not bring the other work under
+ the scope of this License.
+ .
+ 3. You may copy and distribute the Program (or a work based on it,
+ under Section 2) in object code or executable form under the terms of
+ Sections 1 and 2 above provided that you also do one of the following:
+ .
+ a) Accompany it with the complete corresponding machine-readable
+ source code, which must be distributed under the terms of Sections
+ 1 and 2 above on a medium customarily used for software interchange; or,
+ .
+ b) Accompany it with a written offer, valid for at least three
+ years, to give any third party, for a charge no more than your
+ cost of physically performing source distribution, a complete
+ machine-readable copy of the corresponding source code, to be
+ distributed under the terms of Sections 1 and 2 above on a medium
+ customarily used for software interchange; or,
+ .
+ c) Accompany it with the information you received as to the offer
+ to distribute corresponding source code.  (This alternative is
+ allowed only for noncommercial distribution and only if you
+ received the program in object code or executable form with such
+ an offer, in accord with Subsection b above.)
+ .
+ The source code for a work means the preferred form of the work for
+ making modifications to it.  For an executable work, complete source
+ code means all the source code for all modules it contains, plus any
+ associated interface definition files, plus the scripts used to
+ control compilation and installation of the executable.  However, as a
+ special exception, the source code distributed need not include
+ anything that is normally distributed (in either source or binary
+ form) with the major components (compiler, kernel, and so on) of the
+ operating system on which the executable runs, unless that component
+ itself accompanies the executable.
+ .
+ If distribution of executable or object code is made by offering
+ access to copy from a designated place, then offering equivalent
+ access to copy the source code from the same place counts as
+ distribution of the source code, even though third parties are not
+ compelled to copy the source along with the object code.
+ .
+ 4. You may not copy, modify, sublicense, or distribute the Program
+ except as expressly provided under this License.  Any attempt
+ otherwise to copy, modify, sublicense or distribute the Program is
+ void, and will automatically terminate your rights under this License.
+ However, parties who have received copies, or rights, from you under
+ this License will not have their licenses terminated so long as such
+ parties remain in full compliance.
+ .
+ 5. You are not required to accept this License, since you have not
+ signed it.  However, nothing else grants you permission to modify or
+ distribute the Program or its derivative works.  These actions are
+ prohibited by law if you do not accept this License.  Therefore, by
+ modifying or distributing the Program (or any work based on the
+ Program), you indicate your acceptance of this License to do so, and
+ all its terms and conditions for copying, distributing or modifying
+ the Program or works based on it.
+ .
+ 6. Each time you redistribute the Program (or any work based on the
+ Program), the recipient automatically receives a license from the
+ original licensor to copy, distribute or modify the Program subject to
+ these terms and conditions.  You may not impose any further
+ restrictions on the recipients' exercise of the rights granted herein.
+ You are not responsible for enforcing compliance by third parties to
+ this License.
+ .
+ 7. If, as a consequence of a court judgment or allegation of patent
+ infringement or for any other reason (not limited to patent issues),
+ conditions are imposed on you (whether by court order, agreement or
+ otherwise) that contradict the conditions of this License, they do not
+ excuse you from the conditions of this License.  If you cannot
+ distribute so as to satisfy simultaneously your obligations under this
+ License and any other pertinent obligations, then as a consequence you
+ may not distribute the Program at all.  For example, if a patent
+ license would not permit royalty-free redistribution of the Program by
+ all those who receive copies directly or indirectly through you, then
+ the only way you could satisfy both it and this License would be to
+ refrain entirely from distribution of the Program.
+ .
+ If any portion of this section is held invalid or unenforceable under
+ any particular circumstance, the balance of the section is intended to
+ apply and the section as a whole is intended to apply in other
+ circumstances.
+ .
+ It is not the purpose of this section to induce you to infringe any
+ patents or other property right claims or to contest validity of any
+ such claims; this section has the sole purpose of protecting the
+ integrity of the free software distribution system, which is
+ implemented by public license practices.  Many people have made
+ generous contributions to the wide range of software distributed
+ through that system in reliance on consistent application of that
+ system; it is up to the author/donor to decide if he or she is willing
+ to distribute software through any other system and a licensee cannot
+ impose that choice.
+ .
+ This section is intended to make thoroughly clear what is believed to
+ be a consequence of the rest of this License.
+ .
+ 8. If the distribution and/or use of the Program is restricted in
+ certain countries either by patents or by copyrighted interfaces, the
+ original copyright holder who places the Program under this License
+ may add an explicit geographical distribution limitation excluding
+ those countries, so that distribution is permitted only in or among
+ countries not thus excluded.  In such case, this License incorporates
+ the limitation as if written in the body of this License.
+ .
+ 9. The Free Software Foundation may publish revised and/or new versions
+ of the General Public License from time to time.  Such new versions will
+ be similar in spirit to the present version, but may differ in detail to
+ address new problems or concerns.
+ .
+ Each version is given a distinguishing version number.  If the Program
+ specifies a version number of this License which applies to it and "any
+ later version", you have the option of following the terms and conditions
+ either of that version or of any later version published by the Free
+ Software Foundation.  If the Program does not specify a version number of
+ this License, you may choose any version ever published by the Free Software
+ Foundation.
+ .
+ 10. If you wish to incorporate parts of the Program into other free
+ programs whose distribution conditions are different, write to the author
+ to ask for permission.  For software which is copyrighted by the Free
+ Software Foundation, write to the Free Software Foundation; we sometimes
+ make exceptions for this.  Our decision will be guided by the two goals
+ of preserving the free status of all derivatives of our free software and
+ of promoting the sharing and reuse of software generally.
+ .
+ NO WARRANTY
+ .
+ 11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+ FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+ OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+ PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+ OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+ TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+ PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+ REPAIR OR CORRECTION.
+ .
+ 12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+ WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+ REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+ INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+ OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+ TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+ YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+ PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGES.
+ .
+ END OF TERMS AND CONDITIONS
+ .
+ How to Apply These Terms to Your New Programs
+ .
+ If you develop a new program, and you want it to be of the greatest
+ possible use to the public, the best way to achieve this is to make it
+ free software which everyone can redistribute and change under these terms.
+ .
+ To do so, attach the following notices to the program.  It is safest
+ to attach them to the start of each source file to most effectively
+ convey the exclusion of warranty; and each file should have at least
+ the "copyright" line and a pointer to where the full notice is found.
+ .
+ <one line to give the program's name and a brief idea of what it does.>
+ Copyright (C) <year>  <name of author>
+ .
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ Also add information on how to contact you by electronic and paper mail.
+ .
+ If the program is interactive, make it output a short notice like this
+ when it starts in an interactive mode:
+ .
+ Gnomovision version 69, Copyright (C) year name of author
+ Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+ This is free software, and you are welcome to redistribute it
+ under certain conditions; type `show c' for details.
+ .
+ The hypothetical commands `show w' and `show c' should show the appropriate
+ parts of the General Public License.  Of course, the commands you use may
+ be called something other than `show w' and `show c'; they could even be
+ mouse-clicks or menu items--whatever suits your program.
+ .
+ You should also get your employer (if you work as a programmer) or your
+ school, if any, to sign a "copyright disclaimer" for the program, if
+ necessary.  Here is a sample; alter the names:
+ .
+ Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+ `Gnomovision' (which makes passes at compilers) written by James Hacker.
+ .
+ <signature of Ty Coon>, 1 April 1989
+ Ty Coon, President of Vice
+ .
+ This General Public License does not permit incorporating your program into
+ proprietary programs.  If your program is a subroutine library, you may
+ consider it more useful to permit linking proprietary applications with the
+ library.  If this is what you want to do, use the GNU Lesser General
+ Public License instead of this License.
+
+Files:     zlib/zlib.h
+Copyright: 1995-2012 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .
+ .
+ The data format used by the zlib library is described by RFCs (Request for
+ Comments) 1950 to 1952 in the files http://tools.ietf.org/html/rfc1950
+ (zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
+
+Files:     src/winfileassoc.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ Winfileassoc.h
+ Handles file associations in Windows
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/filters.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ Default options for the video and audio filters
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/tristatecombo.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ !
+ This class is to replace some QCheckBox with a combo with three possible
+ values: true, false or autodetect
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     debian-orig/copyright
+Copyright: __NO_COPYRIGHT__
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL'.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/prefassociations.h
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ prefassociations.h
+ Handles file associations in Windows
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/prefassociations.cpp
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ .
+ prefassociations.cpp
+ Handles file associations in Windows
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/winfileassoc.cpp
+Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ .
+ Winfileassoc.cpp
+ .
+ Handles file associations in Windows 7/Vista/XP/2000.
+ We assume that the code is run without administrator privileges, so the associations are done for current user only.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     man/smplayer.1
+Copyright: __NO_COPYRIGHT__
+License:   GPL-2.0+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU General Public License, Version 2 or any later
+ version published by the Free Software Foundation. On Debian systems, the
+ complete text of the GNU General Public License can be found in
+ \fB/usr/share/common-licenses/GPL\fR.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/verticaltext.cpp
+Copyright: 2003-2004 Christian Esken <esken@kde.org>
+License:   LGPL-2.0+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the Free
+ Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ Version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+Files:     zlib/examples/gzjoin.c
+Copyright: 2004 2004 Mark Adler,  version 1.0, 11 Dec
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ .
+ .
+ Change history:
+ .
+ 1.0  11 Dec 2004     - First version
+
+Files:     zlib/contrib/puff/pufftest.c
+Copyright: 2010 2002-2010 Mark Adler For conditions of distribution and use, see copyright notice in puff.h version 2.2, 25 Apr
+License:   __UNKNOWN__
+ Example of how to use puff().
+
+Files:     zlib/test/minigzip.c
+Copyright: 1995-2011 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ minigzip is a minimal implementation of the gzip utility. This is
+ only an example of using zlib and isn't meant to replace the
+ full-featured gzip. No attempt is made to deal with file systems
+ limiting names to 14 or 8+3 characters, etc... Error checking is
+ very limited. So use minigzip only for testing; use gzip for the
+ real thing. On MSDOS, use only on file names without extension
+ or in pipe mode.
+ .
+ .
+ @(#) $Id$
+
+Files:     zlib/contrib/minizip/MiniZip64_info.txt
+Copyright: 1998-2010 Gilles Vollant - version 1.1 64 bits from Mathias Svensson
+License:   __UNKNOWN__
+ Introduction
+
+Files:     zlib/contrib/infback9/infback9.h
+Copyright: 2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ This header file and associated patches provide a decoder for PKWare's
+ undocumented deflate64 compression method (method 9).  Use with infback9.c,
+ inftree9.h, inftree9.c, and inffix9.h.  These patches are not supported.
+ This should be compiled with zlib, since it uses zutil.h and zutil.o.
+ This code has not yet been tested on 16-bit architectures.  See the
+ comments in zlib.h for inflateBack() usage.  These functions are used
+ identically, except that there is no windowBits parameter, and a 64K
+ window must be provided.  Also if int's are 16 bits, then a zero for
+ the third parameter of the "out" function actually means 65536UL.
+ zlib.h must be included before this header file.
+
+Files:     Copying_openssl.txt
+Copyright: 1998-2011 The OpenSSL Project.
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in
+ the documentation and/or other materials provided with the
+ distribution.
+ .
+ 3. All advertising materials mentioning features or use of this
+ software must display the following acknowledgment:
+ "This product includes software developed by the OpenSSL Project
+ for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ .
+ 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+ endorse or promote products derived from this software without
+ prior written permission. For written permission, please contact
+ openssl-core@openssl.org.
+ .
+ 5. Products derived from this software may not be called "OpenSSL"
+ nor may "OpenSSL" appear in their names without prior written
+ permission of the OpenSSL Project.
+ .
+ 6. Redistributions of any form whatsoever must retain the following
+ acknowledgment:
+ "This product includes software developed by the OpenSSL Project
+ for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ .
+ THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files:     zlib/contrib/ada/read.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: read.adb,v 1.8 2004/05/31 10:53:40 vagul Exp $
+ .
+ Test/demo program for the generic read interface.
+
+Files:     zlib/zlib2ansi
+Copyright: __NO_COPYRIGHT__
+License:   __UNKNOWN__
+ Asumes no function pointer parameters. unless they are typedefed.
+ Assumes no literal strings that look like function definitions
+ Assumes functions start at the beginning of a line
+
+Files:     zlib/contrib/pascal/zlibpas.pas
+Copyright: 2003 Cosmin Truta. * Derived from original sources by Bob Dellaca. * For conditions of distribution and use, see copyright notice in readme.txt *)
+License:   __UNKNOWN__
+ unit zlibpas;
+ .
+ interface
+ .
+ const
+
+Files:     zlib/contrib/ada/zlib-streams.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: zlib-streams.adb,v 1.10 2004/05/31 10:53:40 vagul Exp $
+
+Files:     os2/liesmich.os2
+Copyright: 2006-2013 RVM <rvm@users.sourceforge.net>.
+           2008-2012 Silvan Scherrer.
+License:   __UNKNOWN__
+ Dieses Programm ist freie Software; Sie knnen es unter den Bedingungen
+ der GNU General Public License, wie in der Datei COPYING im
+ Installationsverzeichnis enthalten, weiterverbreiten und/oder
+ modifizieren.
+ .
+ Der Original-Quelltext ist erhltlich unter:
+ .
+ http://smplayer.sourceforge.net
+ .
+ Dieses Programm wird in der Hoffnung vertrieben, daá es ntzlich ist,
+ aber OHNE JEDWEDE HAFTUNG und ohne implizite Garantie der
+ MARKFHIGKEIT oder der BENUTZBARKEIT FR EINEN BESTIMMTEN ZWECK.
+ .
+ Einzelheiten entnehmen Sie bitte der Datei COPYING.
+ .
+ .
+ 5. KONTAKT
+
+Files:     zlib/msdos/Makefile.dj2
+Copyright: 1995-1998 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type:
+ .
+ make -fmakefile.dj2;  make test -fmakefile.dj2
+ .
+ To install libz.a, zconf.h and zlib.h in the djgpp directories, type:
+ .
+ make install -fmakefile.dj2
+
+Files:     zlib/contrib/pascal/example.pas
+Copyright: 1995-2003 Jean-loup Gailly. * For conditions of distribution and use, see copyright notice in zlib.h * * Pascal translation
+           1998 Jacques Nomssi Nzali. * For conditions of distribution and use, see copyright notice in readme.txt * * Adaptation to the zlibpas interface
+           2003 Cosmin Truta. * For conditions of distribution and use, see copyright notice in readme.txt *)
+License:   __UNKNOWN__
+ program example;
+
+Files:     zlib/examples/enough.c
+Copyright: 2007-2008 Mark Adler Version 1.3  17 February 2008  Mark Adler
+License:   __UNKNOWN__
+ Version history:
+ 1.0   3 Jan 2007  First version (derived from codecount.c version 1.4)
+ 1.1   4 Jan 2007  Use faster incremental table usage computation
+ Prune examine() search on previously visited states
+ 1.2   5 Jan 2007  Comments clean up
+ As inflate does, decrease root for short codes
+ Refuse cases where inflate would increase root
+ 1.3  17 Feb 2008  Add argument for initial root table size
+
+Files:     zlib/examples/gzlog.h
+Copyright: 2008 2004, 2008 Mark Adler,  version 2.0, 25 Apr
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ .
+ Version History:
+ 1.0  26 Nov 2004  First version
+ 2.0  25 Apr 2008  Complete redesign for recovery of interrupted operations
+ Interface changed slightly in that now path is a prefix
+
+Files:     zlib/win32/Makefile.gcc
+Copyright: 1995-2003 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type from the top level zlib directory:
+ .
+ make -fwin32/Makefile.gcc;  make test testdll -fwin32/Makefile.gcc
+ .
+ To use the asm code, type:
+
+Files:     zlib/contrib/ada/zlib.adb
+Copyright: 2002-2004 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: zlib.adb,v 1.31 2004/09/06 06:53:19 vagul Exp $
+
+Files:     zlib/crc32.c
+Copyright: 1995-2012 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ Thanks to Rodney Brown <rbrown64@csc.com.au> for his contribution of faster
+ CRC methods: exclusive-oring 32 bits of data at a time, and pre-computing
+ tables for updating the shift register in one step with three exclusive-ors
+ instead of four steps with four exclusive-ors.  This results in about a
+ factor of two increase in speed on a Power PC G4 (PPC7455) using gcc -O3.
+ .
+ .
+ @(#) $Id$
+
+Files:     zlib/contrib/dotzlib/LICENSE_1_0.txt
+Copyright: __NO_COPYRIGHT__
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files:     zlib/contrib/puff/puff.c
+Copyright: 2010 2002-2010 Mark Adler For conditions of distribution and use, see copyright notice in puff.h version 2.2, 25 Apr
+License:   __UNKNOWN__
+ puff.c is a simple inflate written to be an unambiguous way to specify the
+ deflate format.  It is not written for speed but rather simplicity.  As a
+ side benefit, this code might actually be useful when small code is more
+ important than speed, such as bootstrap applications.  For typical deflate
+ data, zlib's inflate() is about four times as fast as puff().  zlib's
+ inflate compiles to around 20K on my machine, whereas puff.c compiles to
+ around 4K on my machine (a PowerPC using GNU cc).  If the faster decode()
+ function here is used, then puff() is only twice as slow as zlib's
+ inflate().
+ .
+ All dynamically allocated memory comes from the stack.  The stack required
+ is less than 2K bytes.  This code is compatible with 16-bit int's and
+ assumes that long's are at least 32 bits.  puff.c uses the short data type,
+ assumed to be 16 bits, for arrays in order to to conserve memory.  The code
+ works whether integers are stored big endian or little endian.
+ .
+ In the comments below are "Format notes" that describe the inflate process
+ and document some of the less obvious aspects of the format.  This source
+ code is meant to supplement RFC 1951, which formally describes the deflate
+ format:
+ .
+ http://www.zlib.org/rfc-deflate.html
+ .
+ .
+ .
+ Change history:
+ .
+ 1.0  10 Feb 2002     - First version
+ 1.1  17 Feb 2002     - Clarifications of some comments and notes
+ - Update puff() dest and source pointers on negative
+ errors to facilitate debugging deflators
+ - Remove longest from struct huffman -- not needed
+ - Simplify offs[] index in construct()
+ - Add input size and checking, using longjmp() to
+ maintain easy readability
+ - Use short data type for large arrays
+ - Use pointers instead of long to specify source and
+ destination sizes to avoid arbitrary 4 GB limits
+ 1.2  17 Mar 2002     - Add faster version of decode(), doubles speed (!),
+ but leave simple version for readabilty
+ - Make sure invalid distances detected if pointers
+ are 16 bits
+ - Fix fixed codes table error
+ - Provide a scanning mode for determining size of
+ uncompressed data
+ 1.3  20 Mar 2002     - Go back to lengths for puff() parameters [Gailly]
+ - Add a puff.h file for the interface
+ - Add braces in puff() for else do [Gailly]
+ - Use indexes instead of pointers for readability
+ 1.4  31 Mar 2002     - Simplify construct() code set check
+ - Fix some comments
+ - Add FIXLCODES #define
+ 1.5   6 Apr 2002     - Minor comment fixes
+ 1.6   7 Aug 2002     - Minor format changes
+ 1.7   3 Mar 2003     - Added test code for distribution
+ - Added zlib-like license
+ 1.8   9 Jan 2004     - Added some comments on no distance codes case
+ 1.9  21 Feb 2008     - Fix bug on 16-bit integer architectures [Pohland]
+ - Catch missing end-of-block symbol error
+ 2.0  25 Jul 2008     - Add #define to permit distance too far back
+ - Add option in TEST code for puff to write the data
+ - Add option in TEST code to skip input bytes
+ - Allow TEST code to read from piped stdin
+ 2.1   4 Apr 2010     - Avoid variable initialization for happier compilers
+ - Avoid unsigned comparisons for even happier compilers
+ 2.2  25 Apr 2010     - Fix bug in variable initializations [Oberhumer]
+ - Add const where appropriate [Oberhumer]
+
+Files:     zlib/inflate.c
+Copyright: 1995-2012 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ Change history:
+ .
+ 1.2.beta0    24 Nov 2002
+ - First version -- complete rewrite of inflate to simplify code, avoid
+ creation of window when not needed, minimize use of window when it is
+ needed, make inffast.c even faster, implement gzip decoding, and to
+ improve code readability and style over the previous zlib inflate code
+ .
+ 1.2.beta1    25 Nov 2002
+ - Use pointers for available input and output checking in inffast.c
+ - Remove input and output counters in inffast.c
+
+Files:     zlib/contrib/masmx86/inffas32.asm
+Copyright: 1995-2003 Mark Adler * For conditions of distribution and use, see copyright notice in zlib.h *
+           2003 Chris Anderson <christop@charm.net> * Please use the copyright conditions above. *
+License:   __UNKNOWN__
+ * Mar-13-2003 -- Most of this is derived from inffast.S which is derived from
+ * the gcc -S output of zlib-1.2.0/inffast.c.  Zlib-1.2.0 is in beta release at
+ * the moment.  I have successfully compiled and tested this code with gcc2.96,
+ * gcc3.2, icc5.0, msvc6.0.  It is very close to the speed of inffast.S
+
+Files:     zlib/contrib/ada/zlib-streams.ads
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: zlib-streams.ads,v 1.12 2004/05/31 10:53:40 vagul Exp $
+
+Files:     zlib/test/infcover.c
+Copyright: 2011 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ to use, do: ./configure --cover && make cover
+
+Files:     zlib/contrib/iostream2/zstream.h
+Copyright: 1997 Christian Michelsen Research AS Advanced Computing Fantoftvegen 38, 5036 BERGEN, Norway http://www.cmr.no
+License:   __UNKNOWN__
+ Permission to use, copy, modify, distribute and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that the above copyright notice appear in all copies and
+ that both that copyright notice and this permission notice appear
+ in supporting documentation.  Christian Michelsen Research AS makes no
+ representations about the suitability of this software for any
+ purpose.  It is provided "as is" without express or implied warranty.
+
+Files:     zlib/contrib/puff/puff.h
+Copyright: 2010 2002-2010 Mark Adler,  version 2.2, 25 Apr
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ .
+ .
+ .
+ See puff.c for purpose and usage.
+
+Files:     os2/readme.os2
+Copyright: 200-2013 RVM <rvm@users.sourceforge.net>.
+           2008-2012 Silvan Scherrer.
+License:   __UNKNOWN__
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as contained in
+ the file COPYING in the installation directory.
+ .
+ The original source code is available at:
+ .
+ http://smplayer.sourceforge.net
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ For details, refer to the file COPYING.
+ .
+ .
+ 5. CONTACT
+
+Files:     zlib/contrib/ada/test.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: test.adb,v 1.17 2003/08/12 12:13:30 vagul Exp $
+ .
+ The program has a few aims.
+ 1. Test ZLib.Ada95 thick binding functionality.
+ 2. Show the example of use main functionality of the ZLib.Ada95 binding.
+ 3. Build this program automatically compile all ZLib.Ada95 packages under
+ GNAT Ada95 compiler.
+
+Files:     zlib/infback.c
+Copyright: 1995-2011 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ This code is largely copied from inflate.c.  Normally either infback.o or
+ inflate.o would be linked into an application--not both.  The interface
+ with inffast.c is retained so that optimized assembler-coded versions of
+
+Files:     zlib/contrib/blast/blast.h
+Copyright: 2003 2003 Mark Adler version 1.1, 16 Feb
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ .
+ .
+ .
+ blast() decompresses the PKWare Data Compression Library (DCL) compressed
+ format.  It provides the same functionality as the explode() function in
+ that library.  (Note: PKWare overused the "implode" verb, and the format
+ used by their library implode() function is completely different and
+ incompatible with the implode compression method supported by PKZIP.)
+
+Files:     zlib/examples/gzappend.c
+Copyright: 2003 2003 Mark Adler,  version 1.1, 4 Nov
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ .
+ .
+ Change history:
+ .
+ 1.0  19 Oct 2003     - First version
+ 1.1   4 Nov 2003     - Expand and clarify some comments and notes
+ - Add version and copyright to help
+ - Send help to stdout instead of stderr
+ - Add some preemptive typecasts
+ - Add L to constants in lseek() calls
+ - Remove some debugging information in error messages
+
+Files:     zlib/contrib/ada/mtest.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ Continuous test for ZLib multithreading. If the test would fail
+
+Files:     zlib/contrib/minizip/crypt.h
+Copyright: 1998-2005 Gilles Vollant
+License:   __UNKNOWN__
+ This code is a modified version of crypting code in Infozip distribution
+ .
+ The encryption/decryption parts of this source code (as opposed to the
+ non-echoing password parts) were originally written in Europe.  The
+ whole source package can be freely distributed, including from the USA.
+ (Prior to January 2000, re-export from the US was a violation of US law.)
+ .
+ This encryption code is a direct transcription of the algorithm from
+ Roger Schlafly, described by Phil Katz in the file appnote.txt.  This
+ file (appnote.txt) is distributed with the PKZIP program (even in the
+ version without encryption capabilities).
+ .
+ If you don't need crypting in your application, just define symbols
+ NOCRYPT and NOUNCRYPT.
+ .
+ This code support the "Traditional PKWARE Encryption".
+ .
+ The new AES encryption added on Zip format by Winzip (see the page
+
+Files:     zlib/contrib/ada/zlib-thin.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: zlib-thin.adb,v 1.8 2003/12/14 18:27:31 vagul Exp $
+
+Files:     zlib/examples/gun.c
+Copyright: 2003-2010 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.6  17 January 2010  Mark Adler
+License:   __UNKNOWN__
+ Version history:
+ 1.0  16 Feb 2003  First version for testing of inflateBack()
+ 1.1  21 Feb 2005  Decompress concatenated gzip streams
+ Remove use of "this" variable (C++ keyword)
+ Fix return value for in()
+ Improve allocation failure checking
+ Add typecasting for void * structures
+ Add -h option for command version and usage
+ Add a bunch of comments
+ 1.2  20 Mar 2005  Add Unix compress (LZW) decompression
+ Copy file attributes from input file to output file
+ 1.3  12 Jun 2005  Add casts for error messages [Oberhumer]
+ 1.4   8 Dec 2006  LZW decompression speed improvements
+ 1.5   9 Feb 2008  Avoid warning in latest version of gcc
+ 1.6  17 Jan 2010  Avoid signed/unsigned comparison warnings
+ .
+ .
+ .
+ gun [ -t ] [ name ... ]
+ .
+ decompresses the data in the named gzip files.  If no arguments are given,
+ gun will decompress from stdin to stdout.  The names must end in .gz, -gz,
+
+Files:     zlib/contrib/pascal/readme.txt
+Copyright: 1995-2003 Jean-loup Gailly and Mark Adler.
+           1998 Bob Dellaca.
+           2003 Cosmin Truta.
+License:   __UNKNOWN__
+ The example program is:
+ Copyright (C) 1995-2003 by Jean-loup Gailly.
+ Copyright (C) 1998,1999,2000 by Jacques Nomssi Nzali.
+ Copyright (C) 2003 by Cosmin Truta.
+ .
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files:     zlib/contrib/inflate86/inffas86.c
+Copyright: 1995-2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           2003 Chris Anderson <christop@charm.net> Please use the copyright conditions above.
+License:   __UNKNOWN__
+ Dec-29-2003 -- I added AMD64 inflate asm support.  This version is also
+ slightly quicker on x86 systems because, instead of using rep movsb to copy
+ data, it uses rep movsw, which moves data in 2-byte chunks instead of single
+
+Files:     zlib/contrib/asm686/match.S
+Copyright: 1998-2007 Brian Raiter <breadbox@muppetlabs.com>
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files:     zlib/contrib/ada/zlib-thin.ads
+Copyright: 2002-2003 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ .
+ $Id: zlib-thin.ads,v 1.11 2004/07/23 06:33:11 vagul Exp $
+
+Files:     zlib/contrib/ada/buffer_demo.adb
+Copyright: 2002-2004 Dmitriy Anisimkov                 ---
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+
+Files:     zlib/contrib/blast/blast.c
+Copyright: 2003 2003 Mark Adler For conditions of distribution and use, see copyright notice in blast.h version 1.1, 16 Feb
+License:   __UNKNOWN__
+ blast.c decompresses data compressed by the PKWare Compression Library.
+ This function provides functionality similar to the explode() function of
+ the PKWare library, hence the name "blast".
+ .
+ This decompressor is based on the excellent format description provided by
+ Ben Rudiak-Gould in comp.compression on August 13, 2001.  Interestingly, the
+ example Ben provided in the post is incorrect.  The distance 110001 should
+ instead be 111000.  When corrected, the example byte stream becomes:
+ .
+ 00 04 82 24 25 8f 80 7f
+ .
+ which decompresses to "AIAIAIAIAIAIA" (without the quotes).
+ .
+ .
+ .
+ Change history:
+ .
+ 1.0  12 Feb 2003     - First version
+ 1.1  16 Feb 2003     - Fixed distance check for > 4 GB uncompressed data
+
+Files:     zlib/contrib/delphi/readme.txt
+Copyright: 1997-1999 Borland Corp.,
+License:   __UNKNOWN__
+ and is based on zlib version 1.0.4.  There are a series of bugs
+ and security problems associated with that old zlib version, and
+ we recommend the users to update their ZLib unit.
+ .
+ .
+ Summary of modifications
+
+Files:     zlib/deflate.c
+Copyright: 1995-2012 Jean-loup Gailly and Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ ALGORITHM
+ .
+ The "deflation" process depends on being able to identify portions
+ of the input text which are identical to earlier input (within a
+ sliding window trailing behind the input currently being processed).
+ .
+ The most straightforward technique turns out to be the fastest for
+ most input files: try all possible matches and select the longest.
+ The key feature of this algorithm is that insertions into the string
+ dictionary are very simple and thus fast, and deletions are avoided
+ completely. Insertions are performed at each input character, whereas
+ string matches are performed only when the previous match ends. So it
+ is preferable to spend more time in matches to allow very fast string
+ insertions and avoid deletions. The matching algorithm for small
+ strings is inspired from that of Rabin & Karp. A brute force approach
+ is used to find longer strings when a small match has been found.
+ A similar algorithm is used in comic (by Jan-Mark Wams) and freeze
+ (by Leonid Broukhis).
+ A previous version of this file used a more sophisticated algorithm
+ (by Fiala and Greene) which is guaranteed to run in linear amortized
+ time, but has a larger average cost, uses more memory and is patented.
+ However the F&G algorithm may be faster for some highly redundant
+
+Files:     zlib/contrib/infback9/inflate9.h
+Copyright: 1995-2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ .
+ Possible inflate modes between inflate() calls
+
+Files:     zlib/zlib.3
+Copyright: 1995-2012 Jean-loup Gailly (jloup@gzip.org) and Mark Adler (madler@alumni.caltech.edu). .LP
+License:   __UNKNOWN__
+ This software is provided "as-is,"
+ without any express or implied warranty.
+ In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ See the distribution directory with respect to requirements
+ governing redistribution.
+ The deflate format used by
+ .I zlib
+ was defined by Phil Katz.
+ The deflate and
+ .I zlib
+ specifications were written by L. Peter Deutsch.
+ Thanks to all the people who reported problems and suggested various
+ improvements in
+ .IR zlib ;
+ who are too numerous to cite here.
+ .LP
+ UNIX manual page by R. P. C. Rodgers,
+ U.S. National Library of Medicine (rodgers@nlm.nih.gov).
+
+Files:     os2/lisezmoi.os2
+Copyright: 2006-2013 de RVM <rvm@users.sourceforge.net>.
+           2008-2012 de Silvan Scherrer.
+License:   __UNKNOWN__
+ Ce programme est un gratuiciel ; vous pouvez le redistribuer et/ou
+ le modifier selon les termes de la licence Publique Gnrale GNU
+ contenue dans le fichier COPYING situ dans rpertoire d'installation.
+ .
+ Le code source original est disponible sur :
+ .
+ http://smplayer.sourceforge.net
+ .
+ Ce programme est distribu dans l'espoir qu'il sera utile  quelque
+ chose, mais SANS AUCUNE GARANTIE ; sans mme la garantie implicite de
+ COMMERCIALISATION ou d'ADQUATION · UN BUT PARTICULIER.
+ .
+ Pour plus de dtails, veuillez vous rfrer au fichier COPYING.
+ .
+ .
+ 5. CONTACT
+
+Files:     zlib/contrib/delphi/ZLib.pas
+Copyright: 1997-1999 Borland Corporation       } {                                                       } {*******************************************************}
+License:   __UNKNOWN__
+ { Updated for zlib 1.2.x by Cosmin Truta <cosmint@cs.ubbcluj.ro> }
+ .
+ unit ZLib;
+ .
+ interface
+ .
+ uses SysUtils, Classes;
+ .
+ type
+
+Files:     zlib/contrib/masmx64/inffas8664.c
+Copyright: 1995-2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           2003 Chris Anderson <christop@charm.net> Please use the copyright conditions above.
+License:   __UNKNOWN__
+ 2005 - Adaptation to Microsoft C Compiler for AMD64 by Gilles Vollant
+ .
+ inffas8664.c call function inffas8664fnc in inffasx64.asm
+ inffasx64.asm is automatically convert from AMD64 portion of inffas86.c
+ .
+ Dec-29-2003 -- I added AMD64 inflate asm support.  This version is also
+ slightly quicker on x86 systems because, instead of using rep movsb to copy
+ data, it uses rep movsw, which moves data in 2-byte chunks instead of single
+
+Files:     zlib/Makefile.in
+Copyright: 1995-2011 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile and test, type:
+ ./configure; make test
+ Normally configure builds both a static and a shared library.
+ If you want to build just a static library, use: ./configure --static
+ .
+ To use the asm code, type:
+
+Files:     Copying_libmaia.txt
+Copyright: 2010 Sebastian Wiedenroth.
+License:   BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without modification, are
+ permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this list of
+ conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice, this list
+ of conditions and the following disclaimer in the documentation and/or other materials
+ provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ The views and conclusions contained in the software and documentation are those of the
+
+Files:     zlib/doc/rfc1952.txt
+Copyright: 1996 L. Peter Deutsch
+License:   __TOO_LONG_TYPE3__
+ Permission is granted to copy and distribute this document for any
+ purpose and without charge, including translations into other
+ languages and incorporation into compilations, provided that the
+ copyright notice and this notice are preserved, and that any
+ substantive changes or deletions from the original are clearly
+ marked.
+ .
+ A pointer to the latest version of this and related documentation in
+ HTML format can be found at the URL
+ <ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html>.
+ .
+ Abstract
+ .
+ This specification defines a lossless compressed data format that is
+ compatible with the widely used GZIP utility.  The format includes a
+ cyclic redundancy check value for detecting data corruption.  The
+ format presently uses the DEFLATE method of compression but can be
+ easily extended to use other compression methods.  The format can be
+ implemented readily in a manner not covered by patents.
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ Deutsch                      Informational                      [Page 1]
+ .
+ RFC 1952             GZIP File Format Specification             May 1996
+ .
+ .
+ Table of Contents
+ .
+ 1. Introduction ................................................... 2
+ 1.1. Purpose ................................................... 2
+ 1.2. Intended audience ......................................... 3
+ 1.3. Scope ..................................................... 3
+ 1.4. Compliance ................................................ 3
+ 1.5. Definitions of terms and conventions used ................. 3
+ 1.6. Changes from previous versions ............................ 3
+ 2. Detailed specification ......................................... 4
+ 2.1. Overall conventions ....................................... 4
+ 2.2. File format ............................................... 5
+ 2.3. Member format ............................................. 5
+ 2.3.1. Member header and trailer ........................... 6
+ 2.3.1.1. Extra field ................................... 8
+ 2.3.1.2. Compliance .................................... 9
+ 3. References .................................................. 9
+ 4. Security Considerations .................................... 10
+ 5. Acknowledgements ........................................... 10
+ 6. Author's Address ........................................... 10
+ 7. Appendix: Jean-Loup Gailly's gzip utility .................. 11
+ 8. Appendix: Sample CRC Code .................................. 11
+ .
+ 1. Introduction
+ .
+ 1.1. Purpose
+ .
+ The purpose of this specification is to define a lossless
+ compressed data format that:
+ .
+ * Is independent of CPU type, operating system, file system,
+ and character set, and hence can be used for interchange;
+ * Can compress or decompress a data stream (as opposed to a
+ randomly accessible file) to produce another data stream,
+ using only an a priori bounded amount of intermediate
+ storage, and hence can be used in data communications or
+ similar structures such as Unix filters;
+ * Compresses data with efficiency comparable to the best
+ currently available general-purpose compression methods,
+ and in particular considerably better than the "compress"
+ program;
+ * Can be implemented readily in a manner not covered by
+ patents, and hence can be practiced freely;
+ * Is compatible with the file format produced by the current
+ widely used gzip utility, in that conforming decompressors
+ will be able to read data produced by the existing gzip
+ compressor.
+ .
+ .
+ .
+ .
+ Deutsch                      Informational                      [Page 2]
+ .
+ RFC 1952             GZIP File Format Specification             May 1996
+ .
+ .
+ The data format defined by this specification does not attempt to:
+ .
+ * Provide random access to compressed data;
+ * Compress specialized data (e.g., raster graphics) as well as
+ the best currently available specialized algorithms.
+ .
+ 1.2. Intended audience
+ .
+ This specification is intended for use by implementors of software
+ to compress data into gzip format and/or decompress data from gzip
+ format.
+ .
+ The text of the specification assumes a basic background in
+ programming at the level of bits and other primitive data
+ representations.
+ .
+ 1.3. Scope
+ .
+ The specification specifies a compression method and a file format
+ (the latter assuming only that a file can store a sequence of
+ arbitrary bytes).  It does not specify any particular interface to
+ a file system or anything about character sets or encodings
+ (except for file names and comments, which are optional).
+ .
+ 1.4. Compliance
+ .
+ Unless otherwise indicated below, a compliant decompressor must be
+ able to accept and decompress any file that conforms to all the
+ specifications presented here; a compliant compressor must produce
+ files that conform to all the specifications presented here.  The
+ material in the appendices is not part of the specification per se
+ and is not relevant to compliance.
+ .
+ 1.5. Definitions of terms and conventions used
+ .
+ byte: 8 bits stored or transmitted as a unit (same as an octet).
+ (For this specification, a byte is exactly 8 bits, even on
+ machines which store a character on a number of bits different
+ from 8.)  See below for the numbering of bits within a byte.
+ .
+ 1.6. Changes from previous versions
+ .
+ There have been no technical changes to the gzip format since
+ version 4.1 of this specification.  In version 4.2, some
+ terminology was changed, and the sample CRC code was rewritten for
+ clarity and to eliminate the requirement for the caller to do pre-
+ and post-conditioning.  Version 4.3 is a conversion of the
+ specification to RFC style.
+ .
+ .
+ .
+ Deutsch                      Informational                      [Page 3]
+ .
+ RFC 1952             GZIP File Format Specification             May 1996
+ .
+ .
+ 2. Detailed specification
+ .
+ 2.1. Overall conventions
+ .
+ In the diagrams below, a box like this:
+
+Files:     zlib/doc/rfc1950.txt
+Copyright: 1996 L. Peter Deutsch and Jean-Loup Gailly
+License:   __TOO_LONG_TYPE3__
+ Permission is granted to copy and distribute this document for any
+ purpose and without charge, including translations into other
+ languages and incorporation into compilations, provided that the
+ copyright notice and this notice are preserved, and that any
+ substantive changes or deletions from the original are clearly
+ marked.
+ .
+ A pointer to the latest version of this and related documentation in
+ HTML format can be found at the URL
+ <ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html>.
+ .
+ Abstract
+ .
+ This specification defines a lossless compressed data format.  The
+ data can be produced or consumed, even for an arbitrarily long
+ sequentially presented input data stream, using only an a priori
+ bounded amount of intermediate storage.  The format presently uses
+ the DEFLATE compression method but can be easily extended to use
+ other compression methods.  It can be implemented readily in a manner
+ not covered by patents.  This specification also defines the ADLER-32
+ checksum (an extension and improvement of the Fletcher checksum),
+ used for detection of data corruption, and provides an algorithm for
+ computing it.
+ .
+ .
+ .
+ .
+ Deutsch & Gailly             Informational                      [Page 1]
+ .
+ RFC 1950       ZLIB Compressed Data Format Specification        May 1996
+ .
+ .
+ Table of Contents
+ .
+ 1. Introduction ................................................... 2
+ 1.1. Purpose ................................................... 2
+ 1.2. Intended audience ......................................... 3
+ 1.3. Scope ..................................................... 3
+ 1.4. Compliance ................................................ 3
+ 1.5.  Definitions of terms and conventions used ................ 3
+ 1.6. Changes from previous versions ............................ 3
+ 2. Detailed specification ......................................... 3
+ 2.1. Overall conventions ....................................... 3
+ 2.2. Data format ............................................... 4
+ 2.3. Compliance ................................................ 7
+ 3. References ..................................................... 7
+ 4. Source code .................................................... 8
+ 5. Security Considerations ........................................ 8
+ 6. Acknowledgements ............................................... 8
+ 7. Authors' Addresses ............................................. 8
+ 8. Appendix: Rationale ............................................ 9
+ 9. Appendix: Sample code ..........................................10
+ .
+ 1. Introduction
+ .
+ 1.1. Purpose
+ .
+ The purpose of this specification is to define a lossless
+ compressed data format that:
+ .
+ * Is independent of CPU type, operating system, file system,
+ and character set, and hence can be used for interchange;
+ .
+ * Can be produced or consumed, even for an arbitrarily long
+ sequentially presented input data stream, using only an a
+ priori bounded amount of intermediate storage, and hence can
+ be used in data communications or similar structures such as
+ Unix filters;
+ .
+ * Can use a number of different compression methods;
+ .
+ * Can be implemented readily in a manner not covered by
+ patents, and hence can be practiced freely.
+ .
+ The data format defined by this specification does not attempt to
+ allow random access to compressed data.
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ Deutsch & Gailly             Informational                      [Page 2]
+ .
+ RFC 1950       ZLIB Compressed Data Format Specification        May 1996
+ .
+ .
+ 1.2. Intended audience
+ .
+ This specification is intended for use by implementors of software
+ to compress data into zlib format and/or decompress data from zlib
+ format.
+ .
+ The text of the specification assumes a basic background in
+ programming at the level of bits and other primitive data
+ representations.
+ .
+ 1.3. Scope
+ .
+ The specification specifies a compressed data format that can be
+ used for in-memory compression of a sequence of arbitrary bytes.
+ .
+ 1.4. Compliance
+ .
+ Unless otherwise indicated below, a compliant decompressor must be
+ able to accept and decompress any data set that conforms to all
+ the specifications presented here; a compliant compressor must
+ produce data sets that conform to all the specifications presented
+ here.
+ .
+ 1.5.  Definitions of terms and conventions used
+ .
+ byte: 8 bits stored or transmitted as a unit (same as an octet).
+ (For this specification, a byte is exactly 8 bits, even on
+ machines which store a character on a number of bits different
+ from 8.) See below, for the numbering of bits within a byte.
+ .
+ 1.6. Changes from previous versions
+ .
+ Version 3.1 was the first public release of this specification.
+ In version 3.2, some terminology was changed and the Adler-32
+ sample code was rewritten for clarity.  In version 3.3, the
+ support for a preset dictionary was introduced, and the
+ specification was converted to RFC style.
+ .
+ 2. Detailed specification
+ .
+ 2.1. Overall conventions
+ .
+ In the diagrams below, a box like this:
+
+Files:     zlib/doc/rfc1951.txt
+Copyright: 1996 L. Peter Deutsch
+License:   __TOO_LONG_TYPE3__
+ Permission is granted to copy and distribute this document for any
+ purpose and without charge, including translations into other
+ languages and incorporation into compilations, provided that the
+ copyright notice and this notice are preserved, and that any
+ substantive changes or deletions from the original are clearly
+ marked.
+ .
+ A pointer to the latest version of this and related documentation in
+ HTML format can be found at the URL
+ <ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html>.
+ .
+ Abstract
+ .
+ This specification defines a lossless compressed data format that
+ compresses data using a combination of the LZ77 algorithm and Huffman
+ coding, with efficiency comparable to the best currently available
+ general-purpose compression methods.  The data can be produced or
+ consumed, even for an arbitrarily long sequentially presented input
+ data stream, using only an a priori bounded amount of intermediate
+ storage.  The format can be implemented readily in a manner not
+ covered by patents.
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ .
+ Deutsch                      Informational                      [Page 1]
+ .
+ RFC 1951      DEFLATE Compressed Data Format Specification      May 1996
+ .
+ .
+ Table of Contents
+ .
+ 1. Introduction ................................................... 2
+ 1.1. Purpose ................................................... 2
+ 1.2. Intended audience ......................................... 3
+ 1.3. Scope ..................................................... 3
+ 1.4. Compliance ................................................ 3
+ 1.5.  Definitions of terms and conventions used ................ 3
+ 1.6. Changes from previous versions ............................ 4
+ 2. Compressed representation overview ............................. 4
+ 3. Detailed specification ......................................... 5
+ 3.1. Overall conventions ....................................... 5
+ 3.1.1. Packing into bytes .................................. 5
+ 3.2. Compressed block format ................................... 6
+ 3.2.1. Synopsis of prefix and Huffman coding ............... 6
+ 3.2.2. Use of Huffman coding in the "deflate" format ....... 7
+ 3.2.3. Details of block format ............................. 9
+
+Files:     zlib/examples/gzlog.c
+Copyright: 2008 2004, 2008 Mark Adler,  For conditions of distribution and use, see copyright notice in gzlog.h version 2.0, 25 Apr
+License:   __TOO_LONG_TYPE3__
+ gzlog provides a mechanism for frequently appending short strings to a gzip
+ file that is efficient both in execution time and compression ratio.  The
+ strategy is to write the short strings in an uncompressed form to the end of
+ the gzip file, only compressing when the amount of uncompressed data has
+ reached a given threshold.
+ .
+ gzlog also provides protection against interruptions in the process due to
+ system crashes.  The status of the operation is recorded in an extra field
+ in the gzip file, and is only updated once the gzip file is brought to a
+ valid state.  The last data to be appended or compressed is saved in an
+ auxiliary file, so that if the operation is interrupted, it can be completed
+ the next time an append operation is attempted.
+ .
+ gzlog maintains another auxiliary file with the last 32K of data from the
+ compressed portion, which is preloaded for the compression of the subsequent
+ data.  This minimizes the impact to the compression ratio of appending.
+ .
+ .
+ .
+ Operations Concept:
+ .
+ Files (log name "foo"):
+ foo.gz -- gzip file with the complete log
+ foo.add -- last message to append or last data to compress
+ foo.dict -- dictionary of the last 32K of data for next compression
+ foo.temp -- temporary dictionary file for compression after this one
+ foo.lock -- lock file for reading and writing the other files
+ foo.repairs -- log file for log file recovery operations (not compressed)
+ .
+ gzip file structure:
+ - fixed-length (no file name) header with extra field (see below)
+ - compressed data ending initially with empty stored block
+ - uncompressed data filling out originally empty stored block and
+ subsequent stored blocks as needed (16K max each)
+ - gzip trailer
+ - no junk at end (no other gzip streams)
+ .
+ When appending data, the information in the first three items above plus the
+ foo.add file are sufficient to recover an interrupted append operation.  The
+ extra field has the necessary information to restore the start of the last
+ stored block and determine where to append the data in the foo.add file, as
+ well as the crc and length of the gzip data before the append operation.
+ .
+ The foo.add file is created before the gzip file is marked for append, and
+ deleted after the gzip file is marked as complete.  So if the append
+ operation is interrupted, the data to add will still be there.  If due to
+ some external force, the foo.add file gets deleted between when the append
+ operation was interrupted and when recovery is attempted, the gzip file will
+ still be restored, but without the appended data.
+ .
+ When compressing data, the information in the first two items above plus the
+ foo.add file are sufficient to recover an interrupted compress operation.
+ The extra field has the necessary information to find the end of the
+ compressed data, and contains both the crc and length of just the compressed
+ data and of the complete set of data including the contents of the foo.add
+ file.
+ .
+ Again, the foo.add file is maintained during the compress operation in case
+ of an interruption.  If in the unlikely event the foo.add file with the data
+ to be compressed is missing due to some external force, a gzip file with
+ just the previous compressed data will be reconstructed.  In this case, all
+ of the data that was to be compressed is lost (approximately one megabyte).
+ This will not occur if all that happened was an interruption of the compress
+ operation.
+ .
+ The third state that is marked is the replacement of the old dictionary with
+ the new dictionary after a compress operation.  Once compression is
+ complete, the gzip file is marked as being in the replace state.  This
+ completes the gzip file, so an interrupt after being so marked does not
+ result in recompression.  Then the dictionary file is replaced, and the gzip
+ file is marked as completed.  This state prevents the possibility of
+ restarting compression with the wrong dictionary file.
+ .
+ All three operations are wrapped by a lock/unlock procedure.  In order to
+ gain exclusive access to the log files, first a foo.lock file must be
+ exclusively created.  When all operations are complete, the lock is
+ released by deleting the foo.lock file.  If when attempting to create the
+ lock file, it already exists and the modify time of the lock file is more
+ than five minutes old (set by the PATIENCE define below), then the old
+ lock file is considered stale and deleted, and the exclusive creation of
+ the lock file is retried.  To assure that there are no false assessments
+ of the staleness of the lock file, the operations periodically touch the
+ lock file to update the modified date.
+ .
+ Following is the definition of the extra field with all of the information
+ required to enable the above append and compress operations and their
+ recovery if interrupted.  Multi-byte values are stored little endian
+ (consistent with the gzip format).  File pointers are eight bytes long.
+ The crc's and lengths for the gzip trailer are four bytes long.  (Note that
+ the length at the end of a gzip file is used for error checking only, and
+ for large files is actually the length modulo 2^32.)  The stored block
+ length is two bytes long.  The gzip extra field two-byte identification is
+ "ap" for append.  It is assumed that writing the extra field to the file is
+ an "atomic" operation.  That is, either all of the extra field is written
+ to the file, or none of it is, if the operation is interrupted right at the
+ point of updating the extra field.  This is a reasonable assumption, since
+ the extra field is within the first 52 bytes of the file, which is smaller
+ than any expected block size for a mass storage device (usually 512 bytes or
+ larger).
+ .
+ Extra field (35 bytes):
+ - Pointer to first stored block length -- this points to the two-byte length
+ of the first stored block, which is followed by the two-byte, one's
+ complement of that length.  The stored block length is preceded by the
+ three-bit header of the stored block, which is the actual start of the
+ stored block in the deflate format.  See the bit offset field below.
+ - Pointer to the last stored block length.  This is the same as above, but
+ for the last stored block of the uncompressed data in the gzip file.
+ Initially this is the same as the first stored block length pointer.
+
+Files:     zlib/contrib/ada/zlib.ads
+Copyright: 2002-2004 Dmitriy Anisimkov                   ---
+License:   __UNKNOWN__ with unknown exception XXX FIXME XXX
+ This library is free software; you can redistribute it and/or modify    --
+ it under the terms of the GNU General Public License as published by    --
+ the Free Software Foundation; either version 2 of the License, or (at   --
+ your option) any later version.                                         --
+ --
+ This library is distributed in the hope that it will be useful, but     --
+ WITHOUT ANY WARRANTY; without even the implied warranty of              --
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU       --
+ General Public License for more details.                                --
+ --
+ You should have received a copy of the GNU General Public License       --
+ along with this library; if not, write to the Free Software Foundation, --
+ Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.          --
+ --
+ As a special exception, if other files instantiate generics from this   --
+ unit, or you link this unit with other files to produce an executable,  --
+ this  unit  does not  by itself cause  the resulting executable to be   --
+ covered by the GNU General Public License. This exception does not      --
+ however invalidate any other reasons why the executable file  might be  --
+ covered by the  GNU Public License.                                     --
+ .
+ .
+ $Id: zlib.ads,v 1.26 2004/09/06 06:53:19 vagul Exp $
+ .
+ The FSF address in the above text is the old one.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         icons/smplayer.svg
+#         qt-translations/qtbase_es.ts
+#         qt-translations/qt_eu.ts
+#         qt-translations/qt_ja.qm
+#         qt-translations/qt_eu.qm
+#         qt-translations/qtbase_es.qm
+#         qt-translations/qt_ja.ts
+#         zlib/treebuild.xml
+#         zlib/examples/zlib_how.html
+#         zlib/qnx/package.qpg
+#         zlib/contrib/dotzlib/DotZLib/DotZLib.csproj
+#         zlib/contrib/vstudio/vc9/testzlib.vcproj
+#         zlib/contrib/vstudio/vc9/minizip.vcproj
+#         zlib/contrib/vstudio/vc9/testzlibdll.vcproj
+#         zlib/contrib/vstudio/vc9/zlibvc.vcproj
+#         zlib/contrib/vstudio/vc9/miniunz.vcproj
+#         zlib/contrib/vstudio/vc9/zlibstat.vcproj
+#         src/favoriteeditor.ui
+#         src/prefinput.ui
+#         src/filepropertiesdialog.ui
+#         src/about.ui
+#         src/inputmplayerversion.ui
+#         src/inputbookmark.ui
+#         src/errordialog.ui
+#         src/multilineinputdialog.ui
+#         src/shutdowndialog.ui
+#         src/videoequalizer.ui
+#         src/inputdvddirectory.ui
+#         src/toolbareditor.ui
+#         src/prefassociations.ui
+#         src/inputurl.ui
+#         src/prefupdates.ui
+#         src/infowindow.ui
+#         src/preftv.ui
+#         src/prefplaylist.ui
+#         src/vdpauproperties.ui
+#         src/stereo3ddialog.ui
+#         src/prefperformance.ui
+#         src/prefdrives.ui
+#         src/reminderdialog.ui
+#         src/prefnetwork.ui
+#         src/timedialog.ui
+#         src/prefgeneral.ui
+#         src/H2O.qrc
+#         src/prefadvanced.ui
+#         src/eqslider.ui
+#         src/bookmarkdialog.ui
+#         src/prefinterface.ui
+#         src/icons.qrc
+#         src/sharedialog.ui
+#         src/preferencesdialog.ui
+#         src/prefsubtitles.ui
+#         src/logwindow.ui
+#         src/seekwidget.ui
+#         src/qrcode/openwithdevicedialog.ui
+#         src/findsubtitles/findsubtitleswindow.ui
+#         src/findsubtitles/findsubtitlesconfigdialog.ui
+#         src/findsubtitles/subchooserdialog.ui
+#         src/translations/smplayer_ku.ts
+#         src/translations/smplayer_sl_SI.ts
+#         src/translations/smplayer_fa.ts
+#         src/translations/smplayer_hr.ts
+#         src/translations/smplayer_ar.ts
+#         src/translations/smplayer_cs.ts
+#         src/translations/smplayer_ka.ts
+#         src/translations/smplayer_hu.ts
+#         src/translations/smplayer_sk.ts
+#         src/translations/smplayer_it.ts
+#         src/translations/smplayer_sr.ts
+#         src/translations/smplayer_ru_RU.ts
+#         src/translations/smplayer_eu.ts
+#         src/translations/smplayer_mk.ts
+#         src/translations/smplayer_vi_VN.ts
+#         src/translations/smplayer_id.ts
+#         src/translations/smplayer_de.ts
+#         src/translations/smplayer_ar_SY.ts
+#         src/translations/smplayer_zh_TW.ts
+#         src/translations/smplayer_et.ts
+#         src/translations/smplayer_sv.ts
+#         src/translations/smplayer_fi.ts
+#         src/translations/smplayer_th.ts
+#         src/translations/smplayer_pt.ts
+#         src/translations/smplayer_tr.ts
+#         src/translations/smplayer_he_IL.ts
+#         src/translations/smplayer_nb_NO.ts
+#         src/translations/smplayer_da.ts
+#         src/translations/smplayer_ja.ts
+#         src/translations/smplayer_uz.ts
+#         src/translations/smplayer_sq_AL.ts
+#         src/translations/smplayer_ca.ts
+#         src/translations/smplayer_en.ts
+#         src/translations/smplayer_gl.ts
+#         src/translations/smplayer_zh_CN.ts
+#         src/translations/smplayer_el.ts
+#         src/translations/smplayer_bg.ts
+#         src/translations/smplayer_pl.ts
+#         src/translations/smplayer_ms_MY.ts
+#         src/translations/smplayer_lt.ts
+#         src/translations/smplayer_nn_NO.ts
+#         src/translations/smplayer_pt_BR.ts
+#         src/translations/smplayer_ko.ts
+#         src/translations/smplayer_am.ts
+#         src/translations/smplayer_ro_RO.ts
+#         src/translations/smplayer_en_US.ts
+#         src/translations/smplayer_es.ts
+#         src/translations/smplayer_fr.ts
+#         src/translations/smplayer_nl.ts
+#         src/translations/smplayer_es_ES.ts
+#         src/translations/smplayer_uk_UA.ts
+#         src/translations/smplayer_en_GB.ts
+#         src/skingui/mediapanel.ui
+#         src/skingui/mediabarpanel.ui
+#         src/videopreview/videopreviewconfigdialog.ui
+#         src/globalshortcuts/globalshortcutsdialog.ui
+#         docs/cs/gpl.html
+#         docs/es/gpl.html
+#         docs/fr/gpl.html
+#         docs/ru/gpl.html
+#         docs/en/gpl.html
+#         docs/ro/gpl.html
+#         docs/it/gpl.html
+#         docs/nl/gpl.html
+#         docs/zh_CN/gpl.html
+#         docs/ja/gpl.html
+#         docs/de/gpl.html
+#         docs/hu/gpl.html
+
+#----------------------------------------------------------------------------
+# binary files (skipped):
+#         icons/smplayer_icon192.png
+#         icons/smplayer_icon256.png
+#         icons/smplayer_icon22.png
+#         icons/smplayer_icon64.png
+#         icons/smplayer_icon16.png
+#         icons/smplayer_icon512.png
+#         icons/smplayer_icon128.png
+#         icons/smplayer_icon32.png
+#         setup/smplayer-orange-wizard-un.bmp
+#         setup/sample.avi
+#         setup/smplayer-orange-uninstaller.ico
+#         setup/smplayer-orange-installer.ico
+#         setup/smplayer-orange-wizard.bmp
+#         zlib/zlib.3.pdf
+#         zlib/contrib/dotzlib/DotZLib.chm
+#         zlib/contrib/blast/test.pk
+#         zlib/contrib/puff/zeros.raw
+#         os2/smplayer_closed.ICO
+#         os2/smplayer.ico
+#         os2/smplayer_open.ICO
+#         src/smplayer_associations.ico
+#         src/smplayer.ico
+#         src/default-theme/instance2.png
+#         src/default-theme/shuffle.png
+#         src/default-theme/video_filters.png
+#         src/default-theme/next_aspect.png
+#         src/default-theme/open.png
+#         src/default-theme/audio_filters.png
+#         src/default-theme/conflict.png
+#         src/default-theme/translators.png
+#         src/default-theme/bola.xcf
+#         src/default-theme/show_config.png
+#         src/default-theme/resize_window.png
+#         src/default-theme/instance1.png
+#         src/default-theme/ok.png
+#         src/default-theme/mirror.png
+#         src/default-theme/tablet_mode.png
+#         src/default-theme/cdda.png
+#         src/default-theme/rewind1m.png
+#         src/default-theme/crash.png
+#         src/default-theme/pref_performance.png
+#         src/default-theme/compact.png
+#         src/default-theme/aspect.png
+#         src/default-theme/pref_subtitles.png
+#         src/default-theme/screenshot.png
+#         src/default-theme/empty_icon.png
+#         src/default-theme/favorite-folder.png
+#         src/default-theme/cl_help.png
+#         src/default-theme/pause.png
+#         src/default-theme/pref_playlist.png
+#         src/default-theme/repeat.png
+#         src/default-theme/guide.png
+#         src/default-theme/open_disc.png
+#         src/default-theme/openfolder.png
+#         src/default-theme/type_url.png
+#         src/default-theme/type_cdda.png
+#         src/default-theme/stop.png
+#         src/default-theme/social_twitter.png
+#         src/default-theme/download_subs.png
+#         src/default-theme/audio_equalizer.png
+#         src/default-theme/bluray_drive.png
+#         src/default-theme/send_to_screen.png
+#         src/default-theme/logo.png
+#         src/default-theme/mute.png
+#         src/default-theme/down.png
+#         src/default-theme/info.png
+#         src/default-theme/unload.png
+#         src/default-theme/a_marker.png
+#         src/default-theme/type_vcd.png
+#         src/default-theme/favorite.png
+#         src/default-theme/osd.png
+#         src/default-theme/update_youtube.png
+#         src/default-theme/donate_big.png
+#         src/default-theme/keyboard.png
+#         src/default-theme/speaker.png
+#         src/default-theme/bookmarks.png
+#         src/default-theme/title.png
+#         src/default-theme/pref_associations.png
+#         src/default-theme/prefs.png
+#         src/default-theme/plus.png
+#         src/default-theme/cast.png
+#         src/default-theme/saturation.png
+#         src/default-theme/dvd.png
+#         src/default-theme/faq.png
+#         src/default-theme/2.xcf
+#         src/default-theme/type_dvd.png
+#         src/default-theme/warning.png
+#         src/default-theme/social_facebook.png
+#         src/default-theme/forward10m.png
+#         src/default-theme/url.png
+#         src/default-theme/vcd.png
+#         src/default-theme/type_tv.png
+#         src/default-theme/share.png
+#         src/default-theme/video_track.png
+#         src/default-theme/open_playlist.png
+#         src/default-theme/angle.png
+#         src/default-theme/previous.png
+#         src/default-theme/open_tv.png
+#         src/default-theme/buffering.gif
+#         src/default-theme/find.png
+#         src/default-theme/playlist.png
+#         src/default-theme/pl_loading.gif
+#         src/default-theme/equalizer.png
+#         src/default-theme/contributors.png
+#         src/default-theme/bluray.png
+#         src/default-theme/up.png
+#         src/default-theme/monitor.png
+#         src/default-theme/type_video.png
+#         src/default-theme/screenshots.png
+#         src/default-theme/url_big.png
+#         src/default-theme/stereo3d.png
+#         src/default-theme/recents.png
+#         src/default-theme/video_size.png
+#         src/default-theme/type_audio.png
+#         src/default-theme/favorite-add.png
+#         src/default-theme/trash.png
+#         src/default-theme/sub.png
+#         src/default-theme/background.png
+#         src/default-theme/cdrom_drive.png
+#         src/default-theme/next.png
+#         src/default-theme/secondary_sub.png
+#         src/default-theme/qt.png
+#         src/default-theme/flecha.xcf
+#         src/default-theme/shutdown.png
+#         src/default-theme/mouse.png
+#         src/default-theme/hue.png
+#         src/default-theme/pref_gui.png
+#         src/default-theme/b_marker.png
+#         src/default-theme/save.png
+#         src/default-theme/dvd_drive.png
+#         src/default-theme/forward10s.png
+#         src/default-theme/clear_left.png
+#         src/default-theme/pref_general.png
+#         src/default-theme/send_audio.png
+#         src/default-theme/open_favorites.png
+#         src/default-theme/open_radio.png
+#         src/default-theme/audio_track.png
+#         src/default-theme/copy.png
+#         src/default-theme/license.png
+#         src/default-theme/record.png
+#         src/default-theme/exit.png
+#         src/default-theme/dvd_hd.png
+#         src/default-theme/chapter.png
+#         src/default-theme/input_devices.png
+#         src/default-theme/close.png
+#         src/default-theme/rotate.png
+#         src/default-theme/check_updates.png
+#         src/default-theme/donate.png
+#         src/default-theme/brightness.png
+#         src/default-theme/download.png
+#         src/default-theme/delete.png
+#         src/default-theme/folder_open.png
+#         src/default-theme/speed.png
+#         src/default-theme/stereo_mode.png
+#         src/default-theme/pref_devices.png
+#         src/default-theme/toolbars.png
+#         src/default-theme/tubebrowser.png
+#         src/default-theme/paypal.png
+#         src/default-theme/pref_network.png
+#         src/default-theme/type_bluray.png
+#         src/default-theme/contrast.png
+#         src/default-theme/forward1m.png
+#         src/default-theme/type_unknown.png
+#         src/default-theme/add_bookmark.png
+#         src/default-theme/play.png
+#         src/default-theme/audio_channels.png
+#         src/default-theme/refresh.png
+#         src/default-theme/video_preview.png
+#         src/default-theme/play_pause.png
+#         src/default-theme/quick_access_menu.png
+#         src/default-theme/gamma.png
+#         src/default-theme/pref_advanced.png
+#         src/default-theme/volume.png
+#         src/default-theme/minus.png
+#         src/default-theme/rewind10m.png
+#         src/default-theme/logs.png
+#         src/default-theme/fullscreen.png
+#         src/default-theme/pref_tv.png
+#         src/default-theme/pref_updates.png
+#         src/default-theme/rewind10s.png
+#         src/default-theme/chromecast.png
+#         src/default-theme/flip.png
+#         src/default-theme/ontop.png
+#         src/H2O/video_filters.png
+#         src/H2O/open.png
+#         src/H2O/audio_filters.png
+#         src/H2O/show_config.png
+#         src/H2O/mirror.png
+#         src/H2O/cdda.png
+#         src/H2O/rewind1m.png
+#         src/H2O/pref_performance.png
+#         src/H2O/compact.png
+#         src/H2O/pref_subtitles.png
+#         src/H2O/screenshot.png
+#         src/H2O/favorite-folder.png
+#         src/H2O/cl_help.png
+#         src/H2O/pause.png
+#         src/H2O/pref_playlist.png
+#         src/H2O/guide.png
+#         src/H2O/open_disc.png
+#         src/H2O/openfolder.png
+#         src/H2O/stop.png
+#         src/H2O/download_subs.png
+#         src/H2O/audio_equalizer.png
+#         src/H2O/bluray_drive.png
+#         src/H2O/send_to_screen.png
+#         src/H2O/arrow-down.png
+#         src/H2O/mute.png
+#         src/H2O/down.png
+#         src/H2O/info.png
+#         src/H2O/unload.png
+#         src/H2O/favorite.png
+#         src/H2O/osd.png
+#         src/H2O/update_youtube.png
+#         src/H2O/keyboard.png
+#         src/H2O/bookmarks.png
+#         src/H2O/title.png
+#         src/H2O/pref_associations.png
+#         src/H2O/prefs.png
+#         src/H2O/plus.png
+#         src/H2O/dvd.png
+#         src/H2O/faq.png
+#         src/H2O/forward10m.png
+#         src/H2O/url.png
+#         src/H2O/vcd.png
+#         src/H2O/video_track.png
+#         src/H2O/open_playlist.png
+#         src/H2O/previous.png
+#         src/H2O/open_tv.png
+#         src/H2O/find.png
+#         src/H2O/playlist.png
+#         src/H2O/check_mark_disabled.png
+#         src/H2O/equalizer.png
+#         src/H2O/bluray.png
+#         src/H2O/up.png
+#         src/H2O/monitor.png
+#         src/H2O/screenshots.png
+#         src/H2O/url_big.png
+#         src/H2O/recents.png
+#         src/H2O/video_size.png
+#         src/H2O/favorite-add.png
+#         src/H2O/trash.png
+#         src/H2O/cdrom_drive.png
+#         src/H2O/next.png
+#         src/H2O/mouse.png
+#         src/H2O/pref_gui.png
+#         src/H2O/save.png
+#         src/H2O/dvd_drive.png
+#         src/H2O/forward10s.png
+#         src/H2O/pref_general.png
+#         src/H2O/send_audio.png
+#         src/H2O/open_favorites.png
+#         src/H2O/open_radio.png
+#         src/H2O/copy.png
+#         src/H2O/record.png
+#         src/H2O/exit.png
+#         src/H2O/chapter.png
+#         src/H2O/input_devices.png
+#         src/H2O/close.png
+#         src/H2O/rotate.png
+#         src/H2O/check_updates.png
+#         src/H2O/donate.png
+#         src/H2O/delete.png
+#         src/H2O/speed.png
+#         src/H2O/stereo_mode.png
+#         src/H2O/pref_devices.png
+#         src/H2O/toolbars.png
+#         src/H2O/pref_network.png
+#         src/H2O/forward1m.png
+#         src/H2O/add_bookmark.png
+#         src/H2O/play.png
+#         src/H2O/audio_channels.png
+#         src/H2O/video_preview.png
+#         src/H2O/play_pause.png
+#         src/H2O/check_mark.png
+#         src/H2O/pref_advanced.png
+#         src/H2O/volume.png
+#         src/H2O/minus.png
+#         src/H2O/rewind10m.png
+#         src/H2O/zoom.png
+#         src/H2O/fullscreen.png
+#         src/H2O/pref_tv.png
+#         src/H2O/pref_updates.png
+#         src/H2O/rewind10s.png
+#         src/H2O/flip.png
+#         src/H2O/ontop.png
+#         src/mpcgui/mpc_stereo.png
+#         src/mpcgui/mpc_mono.png
+#         src/mpcgui/mpc_toolbar.png
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: Copying_BSD.txt
+ This is the license of the QtSingleApplication files (src/qtsingleapplication):
+ .
+ /****************************************************************************
+ **
+ ** Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+ ** Contact: http://www.qt-project.org/legal
+ **
+ ** This file is part of the Qt Solutions component.
+ **
+ ** You may use this file under the terms of the BSD license as follows:
+ **
+ ** "Redistribution and use in source and binary forms, with or without
+ ** modification, are permitted provided that the following conditions are
+ ** met:
+ **   * Redistributions of source code must retain the above copyright
+ **     notice, this list of conditions and the following disclaimer.
+ **   * Redistributions in binary form must reproduce the above copyright
+ **     notice, this list of conditions and the following disclaimer in
+ **     the documentation and/or other materials provided with the
+ **     distribution.
+ **   * Neither the name of Digia Plc and its Subsidiary(-ies) nor the names
+ **     of its contributors may be used to endorse or promote products derived
+ **     from this software without specific prior written permission.
+ **
+ **
+ ** THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ** "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ ** LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ ** A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ ** OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ ** SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ ** LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ ** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ ** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ ** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ ** OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+ **
+ **
+ ****************************************************************************/
+
+#----------------------------------------------------------------------------
+# License file: Copying_openssl.txt
+   The Windows binary packages of SMPlayer include the OpenSSL libraries.
+   The license is the following:
+ .
+ .
+   LICENSE ISSUES
+   ==============
+ .
+   The OpenSSL toolkit stays under a dual license, i.e. both the conditions of
+   the OpenSSL License and the original SSLeay license apply to the toolkit.
+   See below for the actual license texts. Actually both licenses are BSD-style
+   Open Source licenses. In case of any license issues related to OpenSSL
+   please contact openssl-core@openssl.org.
+ .
+   OpenSSL License
+   ---------------
+ .
+ /* ====================================================================
+  * Copyright (c) 1998-2011 The OpenSSL Project.  All rights reserved.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions
+  * are met:
+  *
+  * 1. Redistributions of source code must retain the above copyright
+  *    notice, this list of conditions and the following disclaimer.
+  *
+  * 2. Redistributions in binary form must reproduce the above copyright
+  *    notice, this list of conditions and the following disclaimer in
+  *    the documentation and/or other materials provided with the
+  *    distribution.
+  *
+  * 3. All advertising materials mentioning features or use of this
+  *    software must display the following acknowledgment:
+  *    "This product includes software developed by the OpenSSL Project
+  *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+  *
+  * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+  *    endorse or promote products derived from this software without
+  *    prior written permission. For written permission, please contact
+  *    openssl-core@openssl.org.
+  *
+  * 5. Products derived from this software may not be called "OpenSSL"
+  *    nor may "OpenSSL" appear in their names without prior written
+  *    permission of the OpenSSL Project.
+  *
+  * 6. Redistributions of any form whatsoever must retain the following
+  *    acknowledgment:
+  *    "This product includes software developed by the OpenSSL Project
+  *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+  *
+  * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+  * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+  * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+  * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+  * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+  * OF THE POSSIBILITY OF SUCH DAMAGE.
+  * ====================================================================
+  *
+  * This product includes cryptographic software written by Eric Young
+  * (eay@cryptsoft.com).  This product includes software written by Tim
+  * Hudson (tjh@cryptsoft.com).
+  *
+  */
+ .
+  Original SSLeay License
+  -----------------------
+ .
+ /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+  * All rights reserved.
+  *
+  * This package is an SSL implementation written
+  * by Eric Young (eay@cryptsoft.com).
+  * The implementation was written so as to conform with Netscapes SSL.
+  *
+  * This library is free for commercial and non-commercial use as long as
+  * the following conditions are aheared to.  The following conditions
+  * apply to all code found in this distribution, be it the RC4, RSA,
+  * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+  * included with this distribution is covered by the same copyright terms
+  * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+  *
+  * Copyright remains Eric Young's, and as such any Copyright notices in
+  * the code are not to be removed.
+  * If this package is used in a product, Eric Young should be given attribution
+  * as the author of the parts of the library used.
+  * This can be in the form of a textual message at program startup or
+  * in documentation (online or textual) provided with the package.
+  *
+  * Redistribution and use in source and binary forms, with or without
+  * modification, are permitted provided that the following conditions
+  * are met:
+  * 1. Redistributions of source code must retain the copyright
+  *    notice, this list of conditions and the following disclaimer.
+  * 2. Redistributions in binary form must reproduce the above copyright
+  *    notice, this list of conditions and the following disclaimer in the
+  *    documentation and/or other materials provided with the distribution.
+  * 3. All advertising materials mentioning features or use of this software
+  *    must display the following acknowledgement:
+  *    "This product includes cryptographic software written by
+  *     Eric Young (eay@cryptsoft.com)"
+  *    The word 'cryptographic' can be left out if the rouines from the library
+  *    being used are not cryptographic related :-).
+  * 4. If you include any Windows specific code (or a derivative thereof) from
+  *    the apps directory (application code) you must include an acknowledgement:
+  *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+  *
+  * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+  * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+  * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  * SUCH DAMAGE.
+  *
+  * The licence and distribution terms for any publically available version or
+  * derivative of this code cannot be changed.  i.e. this code cannot simply be
+  * copied and put under another distribution licence
+  * [including the GNU Public Licence.]
+  */
+ .
+
+#----------------------------------------------------------------------------
+# License file: Copying.txt
+ 		    GNU GENERAL PUBLIC LICENSE
+ 		       Version 2, June 1991
+ .
+  Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+  Everyone is permitted to copy and distribute verbatim copies
+  of this license document, but changing it is not allowed.
+ .
+ 			    Preamble
+ .
+   The licenses for most software are designed to take away your
+ freedom to share and change it.  By contrast, the GNU General Public
+ License is intended to guarantee your freedom to share and change free
+ software--to make sure the software is free for all its users.  This
+ General Public License applies to most of the Free Software
+ Foundation's software and to any other program whose authors commit to
+ using it.  (Some other Free Software Foundation software is covered by
+ the GNU Lesser General Public License instead.)  You can apply it to
+ your programs, too.
+ .
+   When we speak of free software, we are referring to freedom, not
+ price.  Our General Public Licenses are designed to make sure that you
+ have the freedom to distribute copies of free software (and charge for
+ this service if you wish), that you receive source code or can get it
+ if you want it, that you can change the software or use pieces of it
+ in new free programs; and that you know you can do these things.
+ .
+   To protect your rights, we need to make restrictions that forbid
+ anyone to deny you these rights or to ask you to surrender the rights.
+ These restrictions translate to certain responsibilities for you if you
+ distribute copies of the software, or if you modify it.
+ .
+   For example, if you distribute copies of such a program, whether
+ gratis or for a fee, you must give the recipients all the rights that
+ you have.  You must make sure that they, too, receive or can get the
+ source code.  And you must show them these terms so they know their
+ rights.
+ .
+   We protect your rights with two steps: (1) copyright the software, and
+ (2) offer you this license which gives you legal permission to copy,
+ distribute and/or modify the software.
+ .
+   Also, for each author's protection and ours, we want to make certain
+ that everyone understands that there is no warranty for this free
+ software.  If the software is modified by someone else and passed on, we
+ want its recipients to know that what they have is not the original, so
+ that any problems introduced by others will not reflect on the original
+ authors' reputations.
+ .
+   Finally, any free program is threatened constantly by software
+ patents.  We wish to avoid the danger that redistributors of a free
+ program will individually obtain patent licenses, in effect making the
+ program proprietary.  To prevent this, we have made it clear that any
+ patent must be licensed for everyone's free use or not licensed at all.
+ .
+   The precise terms and conditions for copying, distribution and
+ modification follow.
+ .
+ 		    GNU GENERAL PUBLIC LICENSE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+   0. This License applies to any program or other work which contains
+ a notice placed by the copyright holder saying it may be distributed
+ under the terms of this General Public License.  The "Program", below,
+ refers to any such program or work, and a "work based on the Program"
+ means either the Program or any derivative work under copyright law:
+ that is to say, a work containing the Program or a portion of it,
+ either verbatim or with modifications and/or translated into another
+ language.  (Hereinafter, translation is included without limitation in
+ the term "modification".)  Each licensee is addressed as "you".
+ .
+ Activities other than copying, distribution and modification are not
+ covered by this License; they are outside its scope.  The act of
+ running the Program is not restricted, and the output from the Program
+ is covered only if its contents constitute a work based on the
+ Program (independent of having been made by running the Program).
+ Whether that is true depends on what the Program does.
+ .
+   1. You may copy and distribute verbatim copies of the Program's
+ source code as you receive it, in any medium, provided that you
+ conspicuously and appropriately publish on each copy an appropriate
+ copyright notice and disclaimer of warranty; keep intact all the
+ notices that refer to this License and to the absence of any warranty;
+ and give any other recipients of the Program a copy of this License
+ along with the Program.
+ .
+ You may charge a fee for the physical act of transferring a copy, and
+ you may at your option offer warranty protection in exchange for a fee.
+ .
+   2. You may modify your copy or copies of the Program or any portion
+ of it, thus forming a work based on the Program, and copy and
+ distribute such modifications or work under the terms of Section 1
+ above, provided that you also meet all of these conditions:
+ .
+     a) You must cause the modified files to carry prominent notices
+     stating that you changed the files and the date of any change.
+ .
+     b) You must cause any work that you distribute or publish, that in
+     whole or in part contains or is derived from the Program or any
+     part thereof, to be licensed as a whole at no charge to all third
+     parties under the terms of this License.
+ .
+     c) If the modified program normally reads commands interactively
+     when run, you must cause it, when started running for such
+     interactive use in the most ordinary way, to print or display an
+     announcement including an appropriate copyright notice and a
+     notice that there is no warranty (or else, saying that you provide
+     a warranty) and that users may redistribute the program under
+     these conditions, and telling the user how to view a copy of this
+     License.  (Exception: if the Program itself is interactive but
+     does not normally print such an announcement, your work based on
+     the Program is not required to print an announcement.)
+ .
+ These requirements apply to the modified work as a whole.  If
+ identifiable sections of that work are not derived from the Program,
+ and can be reasonably considered independent and separate works in
+ themselves, then this License, and its terms, do not apply to those
+ sections when you distribute them as separate works.  But when you
+ distribute the same sections as part of a whole which is a work based
+ on the Program, the distribution of the whole must be on the terms of
+ this License, whose permissions for other licensees extend to the
+ entire whole, and thus to each and every part regardless of who wrote it.
+ .
+ Thus, it is not the intent of this section to claim rights or contest
+ your rights to work written entirely by you; rather, the intent is to
+ exercise the right to control the distribution of derivative or
+ collective works based on the Program.
+ .
+ In addition, mere aggregation of another work not based on the Program
+ with the Program (or with a work based on the Program) on a volume of
+ a storage or distribution medium does not bring the other work under
+ the scope of this License.
+ .
+   3. You may copy and distribute the Program (or a work based on it,
+ under Section 2) in object code or executable form under the terms of
+ Sections 1 and 2 above provided that you also do one of the following:
+ .
+     a) Accompany it with the complete corresponding machine-readable
+     source code, which must be distributed under the terms of Sections
+     1 and 2 above on a medium customarily used for software interchange; or,
+ .
+     b) Accompany it with a written offer, valid for at least three
+     years, to give any third party, for a charge no more than your
+     cost of physically performing source distribution, a complete
+     machine-readable copy of the corresponding source code, to be
+     distributed under the terms of Sections 1 and 2 above on a medium
+     customarily used for software interchange; or,
+ .
+     c) Accompany it with the information you received as to the offer
+     to distribute corresponding source code.  (This alternative is
+     allowed only for noncommercial distribution and only if you
+     received the program in object code or executable form with such
+     an offer, in accord with Subsection b above.)
+ .
+ The source code for a work means the preferred form of the work for
+ making modifications to it.  For an executable work, complete source
+ code means all the source code for all modules it contains, plus any
+ associated interface definition files, plus the scripts used to
+ control compilation and installation of the executable.  However, as a
+ special exception, the source code distributed need not include
+ anything that is normally distributed (in either source or binary
+ form) with the major components (compiler, kernel, and so on) of the
+ operating system on which the executable runs, unless that component
+ itself accompanies the executable.
+ .
+ If distribution of executable or object code is made by offering
+ access to copy from a designated place, then offering equivalent
+ access to copy the source code from the same place counts as
+ distribution of the source code, even though third parties are not
+ compelled to copy the source along with the object code.
+ .
+   4. You may not copy, modify, sublicense, or distribute the Program
+ except as expressly provided under this License.  Any attempt
+ otherwise to copy, modify, sublicense or distribute the Program is
+ void, and will automatically terminate your rights under this License.
+ However, parties who have received copies, or rights, from you under
+ this License will not have their licenses terminated so long as such
+ parties remain in full compliance.
+ .
+   5. You are not required to accept this License, since you have not
+ signed it.  However, nothing else grants you permission to modify or
+ distribute the Program or its derivative works.  These actions are
+ prohibited by law if you do not accept this License.  Therefore, by
+ modifying or distributing the Program (or any work based on the
+ Program), you indicate your acceptance of this License to do so, and
+ all its terms and conditions for copying, distributing or modifying
+ the Program or works based on it.
+ .
+   6. Each time you redistribute the Program (or any work based on the
+ Program), the recipient automatically receives a license from the
+ original licensor to copy, distribute or modify the Program subject to
+ these terms and conditions.  You may not impose any further
+ restrictions on the recipients' exercise of the rights granted herein.
+ You are not responsible for enforcing compliance by third parties to
+ this License.
+ .
+   7. If, as a consequence of a court judgment or allegation of patent
+ infringement or for any other reason (not limited to patent issues),
+ conditions are imposed on you (whether by court order, agreement or
+ otherwise) that contradict the conditions of this License, they do not
+ excuse you from the conditions of this License.  If you cannot
+ distribute so as to satisfy simultaneously your obligations under this
+ License and any other pertinent obligations, then as a consequence you
+ may not distribute the Program at all.  For example, if a patent
+ license would not permit royalty-free redistribution of the Program by
+ all those who receive copies directly or indirectly through you, then
+ the only way you could satisfy both it and this License would be to
+ refrain entirely from distribution of the Program.
+ .
+ If any portion of this section is held invalid or unenforceable under
+ any particular circumstance, the balance of the section is intended to
+ apply and the section as a whole is intended to apply in other
+ circumstances.
+ .
+ It is not the purpose of this section to induce you to infringe any
+ patents or other property right claims or to contest validity of any
+ such claims; this section has the sole purpose of protecting the
+ integrity of the free software distribution system, which is
+ implemented by public license practices.  Many people have made
+ generous contributions to the wide range of software distributed
+ through that system in reliance on consistent application of that
+ system; it is up to the author/donor to decide if he or she is willing
+ to distribute software through any other system and a licensee cannot
+ impose that choice.
+ .
+ This section is intended to make thoroughly clear what is believed to
+ be a consequence of the rest of this License.
+ .
+   8. If the distribution and/or use of the Program is restricted in
+ certain countries either by patents or by copyrighted interfaces, the
+ original copyright holder who places the Program under this License
+ may add an explicit geographical distribution limitation excluding
+ those countries, so that distribution is permitted only in or among
+ countries not thus excluded.  In such case, this License incorporates
+ the limitation as if written in the body of this License.
+ .
+   9. The Free Software Foundation may publish revised and/or new versions
+ of the General Public License from time to time.  Such new versions will
+ be similar in spirit to the present version, but may differ in detail to
+ address new problems or concerns.
+ .
+ Each version is given a distinguishing version number.  If the Program
+ specifies a version number of this License which applies to it and "any
+ later version", you have the option of following the terms and conditions
+ either of that version or of any later version published by the Free
+ Software Foundation.  If the Program does not specify a version number of
+ this License, you may choose any version ever published by the Free Software
+ Foundation.
+ .
+   10. If you wish to incorporate parts of the Program into other free
+ programs whose distribution conditions are different, write to the author
+ to ask for permission.  For software which is copyrighted by the Free
+ Software Foundation, write to the Free Software Foundation; we sometimes
+ make exceptions for this.  Our decision will be guided by the two goals
+ of preserving the free status of all derivatives of our free software and
+ of promoting the sharing and reuse of software generally.
+ .
+ 			    NO WARRANTY
+ .
+   11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+ FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+ OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+ PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+ OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+ TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+ PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+ REPAIR OR CORRECTION.
+ .
+   12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+ WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+ REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+ INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+ OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+ TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+ YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+ PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGES.
+ .
+ 		     END OF TERMS AND CONDITIONS
+ .
+ 	    How to Apply These Terms to Your New Programs
+ .
+   If you develop a new program, and you want it to be of the greatest
+ possible use to the public, the best way to achieve this is to make it
+ free software which everyone can redistribute and change under these terms.
+ .
+   To do so, attach the following notices to the program.  It is safest
+ to attach them to the start of each source file to most effectively
+ convey the exclusion of warranty; and each file should have at least
+ the "copyright" line and a pointer to where the full notice is found.
+ .
+     <one line to give the program's name and a brief idea of what it does.>
+     Copyright (C) <year>  <name of author>
+ .
+     This program is free software; you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation; either version 2 of the License, or
+     (at your option) any later version.
+ .
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+ .
+     You should have received a copy of the GNU General Public License along
+     with this program; if not, write to the Free Software Foundation, Inc.,
+     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ Also add information on how to contact you by electronic and paper mail.
+ .
+ If the program is interactive, make it output a short notice like this
+ when it starts in an interactive mode:
+ .
+     Gnomovision version 69, Copyright (C) year name of author
+     Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+     This is free software, and you are welcome to redistribute it
+     under certain conditions; type `show c' for details.
+ .
+ The hypothetical commands `show w' and `show c' should show the appropriate
+ parts of the General Public License.  Of course, the commands you use may
+ be called something other than `show w' and `show c'; they could even be
+ mouse-clicks or menu items--whatever suits your program.
+ .
+ You should also get your employer (if you work as a programmer) or your
+ school, if any, to sign a "copyright disclaimer" for the program, if
+ necessary.  Here is a sample; alter the names:
+ .
+   Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+   `Gnomovision' (which makes passes at compilers) written by James Hacker.
+ .
+   <signature of Ty Coon>, 1 April 1989
+   Ty Coon, President of Vice
+ .
+ This General Public License does not permit incorporating your program into
+ proprietary programs.  If your program is a subroutine library, you may
+ consider it more useful to permit linking proprietary applications with the
+ library.  If this is what you want to do, use the GNU Lesser General
+ Public License instead of this License.
+ .
+
+#----------------------------------------------------------------------------
+# License file: Copying_libmaia.txt
+ This is the license of the maia library (src/findsubtitles/maia):
+ .
+ Copyright 2010 Sebastian Wiedenroth. All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without modification, are
+ permitted provided that the following conditions are met:
+ .
+    1. Redistributions of source code must retain the above copyright notice, this list of
+       conditions and the following disclaimer.
+ .
+    2. Redistributions in binary form must reproduce the above copyright notice, this list
+       of conditions and the following disclaimer in the documentation and/or other materials
+       provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ The views and conclusions contained in the software and documentation are those of the
+ authors and should not be interpreted as representing official policies, either expressed
+ or implied, of the author.
