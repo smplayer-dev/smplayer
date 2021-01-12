@@ -211,6 +211,8 @@ signals:
 	void receivedVideoBitrate(int);
 	void receivedAudioBitrate(int);
 
+	void receivedDemuxRotation(int);
+
 protected:
 	virtual void initializeOptionVars() {};
 

@@ -195,6 +195,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedVideoBitrate(int)), this, SLOT(gotVideoBitrate(int)) );
 	connect( proc, SIGNAL(receivedAudioBitrate(int)), this, SLOT(gotAudioBitrate(int)) );
 
+	connect( proc, SIGNAL(receivedDemuxRotation(int)), this, SLOT(gotDemuxRotation(int)) );
+
 	connect( proc, SIGNAL(receivedStreamTitle(QString)),
              this, SLOT(streamTitleChanged(QString)) );
 
@@ -3800,6 +3802,13 @@ void Core::gotAudioBitrate(int b) {
 	//qDebug("Core::gotAudioBitrate: %d", b);
 	mdat.audio_bitrate = b;
 	emit bitrateChanged(mdat.video_bitrate, mdat.audio_bitrate);
+}
+
+void Core::gotDemuxRotation(int r) {
+	qDebug("Core::gotDemuxRotation: %d", r);
+	if (proc->isMPV() && r == 90 && mset.rotate == MediaSettings::NoRotate) {
+		proc->changeVF("rotate", true,  "1");
+	}
 }
 
 void Core::changePause() {
