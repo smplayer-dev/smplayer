@@ -400,8 +400,8 @@ protected:
 	void seek_cmd(double secs, int mode);
 
 protected slots:
-    void changeCurrentSec(double sec);
-    void changePause();
+	void changeCurrentSec(double sec);
+	void changePause();
 	void gotWindowResolution( int w, int h );
 	void gotNoVideo();
 	void gotVO(QString);
@@ -409,6 +409,7 @@ protected slots:
 	void gotStartingTime(double);
 	void gotVideoBitrate(int);
 	void gotAudioBitrate(int);
+	void gotDemuxRotation(int);
 
 	void finishRestart();
     void processFinished();

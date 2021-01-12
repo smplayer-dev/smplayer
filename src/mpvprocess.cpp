@@ -679,6 +679,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 			}
 			else
 			*/
+			if (tag == "INFO_DEMUX_ROTATION") {
+				emit receivedDemuxRotation(value.toInt());
+			}
+			else
 			if (tag == "INFO_AUDIO_BITRATE") {
 				int bitrate = value.toInt();
 				emit receivedAudioBitrate(bitrate);
