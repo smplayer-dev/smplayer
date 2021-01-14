@@ -395,6 +395,7 @@ protected:
 
 #ifdef DELAYED_PLAY
 	QTimer * play_later_timer;
+	qint64 last_timestamp;
 	struct {
 		QString filename;
 		QStringList params;
