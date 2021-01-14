@@ -352,6 +352,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #ifdef DELAYED_PLAY
+	last_timestamp = 0;
 	play_later.seek = -1;
 	play_later_timer = new QTimer(this);
 	play_later_timer->setInterval(1000);
@@ -1625,24 +1626,43 @@ void Playlist::playItem(int n, bool later) {
 void Playlist::playNext() {
 	qDebug("Playlist::playNext");
 
+	bool delayed_play = false;
+	#ifdef DELAYED_PLAY
+	qint64 t_now = QDateTime::currentMSecsSinceEpoch();
+	qint64 diff_time = t_now - last_timestamp;
+	if (diff_time < 1000) delayed_play = true;
+	last_timestamp = t_now;
+	//qDebug() << "Playlist::playNext: diff:" << diff_time << "delayed_play:" << delayed_play;
+	#endif
+
 	int current = findCurrentItem();
 	bool finished_list = (current + 1 >= proxy->rowCount());
 	if (finished_list) clearPlayedTag();
 
 	if (repeatAct->isChecked() && finished_list) {
-		playItem(0, true);
+		playItem(0, delayed_play);
 	} else {
-		playItem(current + 1, true);
+		playItem(current + 1, delayed_play);
 	}
 }
 
 void Playlist::playPrev() {
 	qDebug("Playlist::playPrev");
+
+	bool delayed_play = false;
+	#ifdef DELAYED_PLAY
+	qint64 t_now = QDateTime::currentMSecsSinceEpoch();
+	qint64 diff_time = t_now - last_timestamp;
+	if (diff_time < 1000) delayed_play = true;
+	last_timestamp = t_now;
+	//qDebug() << "Playlist::playPrev: diff:" << diff_time << "delayed_play:" << delayed_play;
+	#endif
+
 	int current = findCurrentItem() - 1;
 	if (current >= 0) {
-		playItem(current, true);
+		playItem(current, delayed_play);
 	} else {
-		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1, true);
+		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1, delayed_play);
 	}
 }
 
