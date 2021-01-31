@@ -230,6 +230,8 @@ protected slots:
 	virtual void setDefaultValuesFromVideoEqualizer();
 	virtual void changeVideoEqualizerBySoftware(bool b);
 
+	virtual void changeSpeed(int);
+
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
 
@@ -649,6 +651,16 @@ protected:
 	MyAction * autoZoom169Act;
 	MyAction * autoZoom235Act;
 
+
+	// Speed Action Group
+	MyActionGroup * speedGroup;
+	MyAction * speed025Act; // 0.25x
+	MyAction * speed050Act; // 0.5x
+	MyAction * speed075Act; // 0.75x
+	MyAction * speed125Act; // 1.25x
+	MyAction * speed150Act; // 1.5x
+	MyAction * speed175Act; // 1.75x
+	MyAction * speed200Act; // 2.0x
 
 	// OSD Action Group 
 	MyActionGroup * osdGroup;

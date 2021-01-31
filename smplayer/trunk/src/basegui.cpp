@@ -1106,6 +1106,16 @@ void BaseGui::createActions() {
 
 	// Group actions
 
+	speedGroup = new MyActionGroup(this);
+	speed025Act = new MyActionGroupItem(this, speedGroup, "speed_0.25x", 25);
+	speed050Act = new MyActionGroupItem(this, speedGroup, "speed_0.5x", 50);
+	speed075Act = new MyActionGroupItem(this, speedGroup, "speed_0.75x", 75);
+	speed125Act = new MyActionGroupItem(this, speedGroup, "speed_1.25x", 125);
+	speed150Act = new MyActionGroupItem(this, speedGroup, "speed_1.5x", 150);
+	speed175Act = new MyActionGroupItem(this, speedGroup, "speed_1.75x", 175);
+	speed200Act = new MyActionGroupItem(this, speedGroup, "speed_2x", 200);
+	connect( speedGroup, SIGNAL(activated(int)), this, SLOT(changeSpeed(int)) );
+
 	// OSD
 	osdGroup = new MyActionGroup(this);
 	osdNoneAct = new MyActionGroupItem(this, osdGroup, "osd_none", Preferences::None);
@@ -1388,6 +1398,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incSpeed4Act->setEnabled(b);
 	decSpeed1Act->setEnabled(b);
 	incSpeed1Act->setEnabled(b);
+	speedGroup->setEnabled(b);
 
 	// Menu Video
 	videoEqualizerAct->setEnabled(b);
@@ -1962,6 +1973,14 @@ void BaseGui::retranslateStrings() {
 
 
 	// Action groups
+	speed025Act->change("0.25x");
+	speed050Act->change("0.5x");
+	speed075Act->change("0.75x");
+	speed125Act->change("1.25x");
+	speed150Act->change("1.5x");
+	speed175Act->change("1.75x");
+	speed200Act->change("2x");
+
 	osdNoneAct->change( tr("Subtitles onl&y") );
 	osdSeekAct->change( tr("Volume + &Seek") );
 	osdTimerAct->change( tr("Volume + Seek + &Timer") );
@@ -2565,6 +2584,7 @@ void BaseGui::createMenus() {
 	speed_menu = new QMenu(this);
 	speed_menu->menuAction()->setObjectName("speed_menu");
 	speed_menu->addAction(normalSpeedAct);
+	speed_menu->addActions(speedGroup->actions());
 	speed_menu->addSeparator();
 	speed_menu->addAction(halveSpeedAct);
 	speed_menu->addAction(doubleSpeedAct);
@@ -4060,6 +4080,10 @@ void BaseGui::changeVideoEqualizerBySoftware(bool b) {
 		pref->use_soft_video_eq = b;
 		core->restart();
 	}
+}
+
+void BaseGui::changeSpeed(int speed) {
+	core->setSpeed((float) speed / 100);
 }
 
 /*
