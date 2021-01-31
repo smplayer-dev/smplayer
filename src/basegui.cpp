@@ -595,6 +595,15 @@ void BaseGui::createActions() {
 	connect( incSpeed1Act, SIGNAL(triggered()),
              core, SLOT(incSpeed1()) );
 
+	for (double speed = 0.25; speed < 2; speed += 0.25) {
+		if (speed == 1.0) continue;
+		QByteArray action_name = "speed_" + QByteArray::number(speed) + "x";
+		MyAction * a = new MyAction(this, action_name.constData());
+		a->setText(QString::number(speed) + "x");
+		a->setData(speed);
+		connect(a, SIGNAL(triggered()), this, SLOT(setSpeed()));
+		speed_acts.append(a);
+	}
 
 	// Menu Video
 	fullscreenAct = new MyAction( Qt::Key_F, this, "fullscreen" );
@@ -1106,16 +1115,6 @@ void BaseGui::createActions() {
 
 	// Group actions
 
-	speedGroup = new MyActionGroup(this);
-	speed025Act = new MyActionGroupItem(this, speedGroup, "speed_0.25x", 25);
-	speed050Act = new MyActionGroupItem(this, speedGroup, "speed_0.5x", 50);
-	speed075Act = new MyActionGroupItem(this, speedGroup, "speed_0.75x", 75);
-	speed125Act = new MyActionGroupItem(this, speedGroup, "speed_1.25x", 125);
-	speed150Act = new MyActionGroupItem(this, speedGroup, "speed_1.5x", 150);
-	speed175Act = new MyActionGroupItem(this, speedGroup, "speed_1.75x", 175);
-	speed200Act = new MyActionGroupItem(this, speedGroup, "speed_2x", 200);
-	connect( speedGroup, SIGNAL(activated(int)), this, SLOT(changeSpeed(int)) );
-
 	// OSD
 	osdGroup = new MyActionGroup(this);
 	osdNoneAct = new MyActionGroupItem(this, osdGroup, "osd_none", Preferences::None);
@@ -1398,7 +1397,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	incSpeed4Act->setEnabled(b);
 	decSpeed1Act->setEnabled(b);
 	incSpeed1Act->setEnabled(b);
-	speedGroup->setEnabled(b);
+	foreach(QAction *a, speed_acts) a->setEnabled(b);
 
 	// Menu Video
 	videoEqualizerAct->setEnabled(b);
@@ -1973,13 +1972,6 @@ void BaseGui::retranslateStrings() {
 
 
 	// Action groups
-	speed025Act->change("0.25x");
-	speed050Act->change("0.5x");
-	speed075Act->change("0.75x");
-	speed125Act->change("1.25x");
-	speed150Act->change("1.5x");
-	speed175Act->change("1.75x");
-	speed200Act->change("2x");
 
 	osdNoneAct->change( tr("Subtitles onl&y") );
 	osdSeekAct->change( tr("Volume + &Seek") );
@@ -2584,7 +2576,7 @@ void BaseGui::createMenus() {
 	speed_menu = new QMenu(this);
 	speed_menu->menuAction()->setObjectName("speed_menu");
 	speed_menu->addAction(normalSpeedAct);
-	speed_menu->addActions(speedGroup->actions());
+	foreach(QAction *a, speed_acts) speed_menu->addAction(a);
 	speed_menu->addSeparator();
 	speed_menu->addAction(halveSpeedAct);
 	speed_menu->addAction(doubleSpeedAct);
@@ -4082,8 +4074,12 @@ void BaseGui::changeVideoEqualizerBySoftware(bool b) {
 	}
 }
 
-void BaseGui::changeSpeed(int speed) {
-	core->setSpeed((float) speed / 100);
+void BaseGui::setSpeed() {
+	QAction *a = qobject_cast<QAction *> (sender());
+	if (a) {
+		double speed = a->data().toDouble();
+		core->setSpeed(speed);
+	}
 }
 
 /*
