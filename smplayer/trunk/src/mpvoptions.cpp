@@ -1399,6 +1399,10 @@ QString MPVProcess::lavfi(const QString & filter_name, const QVariant & option) 
 		if (o == "3") {
 			f = "rotate=PI/2:ih:iw,vflip";
 		}
+		else
+		if (o == "4") {
+			f = "hflip,vflip";
+		}
 	}
 	else
 	if (filter_name == "volnorm") {

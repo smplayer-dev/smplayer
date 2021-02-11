@@ -715,6 +715,7 @@ protected:
 	MyAction * rotateClockwiseAct;
 	MyAction * rotateCounterclockwiseAct;
 	MyAction * rotateCounterclockwiseFlipAct;
+	MyAction * rotate180Act;
 
 	// Menu StayOnTop
 	MyActionGroup * onTopActionGroup;
