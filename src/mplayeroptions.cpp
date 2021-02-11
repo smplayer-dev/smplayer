@@ -246,6 +246,14 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		arg << "-vf-add" << "harddup,flip";
 	}
 	else
+	if (filter_name == "rotate") {
+		if (option == "4") {
+			arg << "-vf-add" << "mirror,flip";
+		} else {
+			arg << "-vf-add" << "rotate=" + option;
+		}
+	}
+	else
 	if (filter_name == "letterbox") {
 		QSize desktop_size = value.toSize();
 		double aspect = (double) desktop_size.width() / desktop_size.height();

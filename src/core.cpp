@@ -4323,6 +4323,7 @@ void Core::changeRotate(int r) {
 				case MediaSettings::Clockwise: proc->changeVF("rotate", false, MediaSettings::Clockwise); break;
 				case MediaSettings::Counterclockwise: proc->changeVF("rotate", false, MediaSettings::Counterclockwise); break;
 				case MediaSettings::Counterclockwise_flip: proc->changeVF("rotate", false, MediaSettings::Counterclockwise_flip); break;
+				case MediaSettings::Rotate_180: proc->changeVF("rotate", false, MediaSettings::Rotate_180); break;
 			}
 			mset.rotate = r;
 			// New filter
@@ -4331,6 +4332,7 @@ void Core::changeRotate(int r) {
 				case MediaSettings::Clockwise: proc->changeVF("rotate", true, MediaSettings::Clockwise); break;
 				case MediaSettings::Counterclockwise: proc->changeVF("rotate", true, MediaSettings::Counterclockwise); break;
 				case MediaSettings::Counterclockwise_flip: proc->changeVF("rotate", true, MediaSettings::Counterclockwise_flip); break;
+				case MediaSettings::Rotate_180: proc->changeVF("rotate", true, MediaSettings::Rotate_180); break;
 			}
 		}
 	}

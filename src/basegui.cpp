@@ -1218,6 +1218,7 @@ void BaseGui::createActions() {
 	rotateClockwiseAct = new MyActionGroupItem(this, rotateGroup, "rotate_clockwise", MediaSettings::Clockwise);
 	rotateCounterclockwiseAct = new MyActionGroupItem(this, rotateGroup, "rotate_counterclockwise", MediaSettings::Counterclockwise);
 	rotateCounterclockwiseFlipAct = new MyActionGroupItem(this, rotateGroup, "rotate_counterclockwise_flip", MediaSettings::Counterclockwise_flip);
+	rotate180Act = new MyActionGroupItem(this, rotateGroup, "rotate_180", MediaSettings::Rotate_180);
 	connect( rotateGroup, SIGNAL(activated(int)),
              core, SLOT(changeRotate(int)) );
 
@@ -2101,6 +2102,7 @@ void BaseGui::retranslateStrings() {
 	rotateClockwiseAct->change( tr("Rotate by 90 degrees &clockwise") );
 	rotateCounterclockwiseAct->change( tr("Rotate by 90 degrees counterclock&wise") );
 	rotateCounterclockwiseFlipAct->change( tr("Rotate by 90 degrees counterclockwise and &flip") );
+	rotate180Act->change( tr("Rotate by 1&80 degrees") );
 
 	onTopAlwaysAct->change( tr("&Always") );
 	onTopNeverAct->change( tr("&Never") );
