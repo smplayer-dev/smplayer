@@ -406,8 +406,8 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 		#ifdef YT_USE_JSON
 		doc = QJsonDocument::fromJson(lines[n]);
 		json = doc.object();
-		qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: json:" << json;
-		QMap<QString, QString> item;
+		//qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: json:" << json;
+		itemMap item;
 		item["title"] = json["title"].toString();
 		item["duration"] = QString::number(json["duration"].toInt());
 		item["id"] = json["id"].toString();
