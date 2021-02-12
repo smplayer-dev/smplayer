@@ -30,6 +30,7 @@
 #ifdef YOUTUBE_SUPPORT
 #define PLAYLIST_DOWNLOAD
 #define YT_PLAYLIST_SUPPORT
+#include "youtube/retrieveyoutubeurl.h"
 #endif
 
 //#define PLAYLIST_DOUBLE_TOOLBAR
@@ -181,7 +182,7 @@ public slots:
 	bool saveXSPF(const QString & filename);
 
 #ifdef YT_PLAYLIST_SUPPORT
-	void loadYoutubeList(QByteArray & data);
+	void loadYoutubeList(QList<itemMap> list);
 #endif
 
 	void setModified(bool);
