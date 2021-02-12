@@ -21,6 +21,9 @@
 #if QT_VERSION >= 0x050000
 #define YT_USE_JSON
 #define DEBUG_OUTPUT_JSON
+#include <QUrlQuery>
+#else
+#include <QRegExp>
 #endif
 
 #include <QUrl>
@@ -29,10 +32,6 @@
 #include <QProcess>
 #include <QFileInfo>
 #include <QDir>
-
-#if QT_VERSION >= 0x050000
-#include <QUrlQuery>
-#endif
 
 #ifdef YT_USE_JSON
 #include <QJsonDocument>
@@ -177,6 +176,18 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	runYtdl(url);
 }
 
+QString RetrieveYoutubeUrl::absoluteFilePath(QString app_bin) {
+	QFileInfo fi(app_bin);
+	#ifdef Q_OS_WIN
+	app_bin = fi.absoluteFilePath();
+	#else
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		app_bin = fi.absoluteFilePath();
+	}
+	#endif
+	return app_bin;
+}
+
 void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	clearData();
 
@@ -214,15 +225,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	if (!user_agent.isEmpty()) args << "--user-agent" << user_agent;
 	args << url;
 
-	QString app_bin = ytdlBin();
-	QFileInfo fi(app_bin);
-	#ifdef Q_OS_WIN
-	app_bin = fi.absoluteFilePath();
-	#else
-	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-		app_bin = fi.absoluteFilePath();
-	}
-	#endif
+	QString app_bin = absoluteFilePath(ytdlBin());
 
 	QString command = app_bin + " " + args.join(" ");
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: command:" << command;
@@ -252,7 +255,7 @@ void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exit
 
 	if (lines.count() >= 1) {
 		doc = QJsonDocument::fromJson(lines[0]);
-		QJsonObject json = doc.object();
+		json = doc.object();
 		video_title = json["title"].toString();
 		selected_video_url = json["url"].toString();
 		selected_video_quality = (Quality) json["format_id"].toString().toInt();
@@ -260,7 +263,7 @@ void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exit
 
 	if (lines.count() >= 2) {
 		doc = QJsonDocument::fromJson(lines[1]);
-		QJsonObject json = doc.object();
+		json = doc.object();
 		selected_audio_url = json["url"].toString();
 		selected_audio_quality = (Quality) json["format_id"].toString().toInt();
 	}
@@ -368,6 +371,65 @@ int RetrieveYoutubeUrl::getItagFromFormat(const QByteArray & t) {
 		itag = l[0].toInt();
 	}
 	return itag;
+}
+
+QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
+	QProcess proc(this);
+	proc.setProcessChannelMode( QProcess::MergedChannels );
+
+	QStringList args;
+
+	args << "-j" << "--flat-playlist";
+	if (!user_agent.isEmpty()) args << "--user-agent" << user_agent;
+	args << url;
+
+	QString app_bin = absoluteFilePath(ytdlBin());
+
+	QString command = app_bin + " " + args.join(" ");
+	qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: command:" << command;
+
+	proc.start(app_bin, args);
+	proc.waitForFinished();
+	
+	QByteArray data = proc.readAll().replace("\r", "").trimmed();
+	QList<QByteArray> lines = data.split('\n');
+
+	QList<itemMap> list;
+
+	#ifdef YT_USE_JSON
+	QJsonDocument doc;
+	QJsonObject json;
+	#endif
+
+	for (int n = 0; n < lines.count(); n++) {
+		qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: item:" << n << "data:" << lines[n];
+		#ifdef YT_USE_JSON
+		doc = QJsonDocument::fromJson(lines[n]);
+		json = doc.object();
+		qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: json:" << json;
+		QMap<QString, QString> item;
+		item["title"] = json["title"].toString();
+		item["duration"] = QString::number(json["duration"].toInt());
+		item["id"] = json["id"].toString();
+		item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
+		list << item;
+		#else
+		QString line = lines[n].replace("\\\"", "\"");
+		QRegExp rx("\"duration\": ([\\.?\\d.]+),.*\"title\": \"(.*)\", \"u.*\"id\": \"(.*)\"");
+		rx.setMinimal(true);
+		if (rx.indexIn(line) != -1) {
+			itemMap item;
+			item["title"] = rx.cap(2);
+			item["duration"] = rx.cap(1);
+			item["id"] = rx.cap(3);
+			item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
+			list << item;
+		}
+		#endif
+	}
+
+	qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: list:" << list;
+	return list;
 }
 
 #include "moc_retrieveyoutubeurl.cpp"
