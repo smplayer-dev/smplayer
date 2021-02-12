@@ -419,7 +419,11 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 		rx.setMinimal(true);
 		if (rx.indexIn(line) != -1) {
 			itemMap item;
-			item["title"] = rx.cap(2);
+			QString title = rx.cap(2);
+			title = unescapeUnicode(title);
+			title = title.simplified();
+			title = QString(title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<").replace("&quot;","\"").replace("&#39;","'");
+			item["title"] = title;
 			item["duration"] = rx.cap(1);
 			item["id"] = rx.cap(3);
 			item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
@@ -430,6 +434,15 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 
 	qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: list:" << list;
 	return list;
+}
+
+QString RetrieveYoutubeUrl::unescapeUnicode(QString str) {
+	QRegExp rx("(\\\\u[0-9a-fA-F]{4})");
+	int pos = 0;
+	while ((pos = rx.indexIn(str, pos)) != -1) {
+		str.replace(pos++, 6, QChar(rx.cap(1).right(4).toUShort(0, 16)));
+	}
+	return str;
 }
 
 #include "moc_retrieveyoutubeurl.cpp"
