@@ -29,6 +29,8 @@
 class QSettings;
 #endif
 
+typedef QMap<QString, QString> itemMap;
+
 class RetrieveYoutubeUrl : public QObject
 {
 	Q_OBJECT
@@ -130,6 +132,8 @@ public:
 
 	static QString extensionForItag(int itag);
 
+	QList<itemMap> getPlaylistItems(const QString & url);
+
 #ifdef YT_OBSOLETE
 	#ifdef YT_USE_SIG
 	void setSettings(QSettings * /*settings*/) {};
@@ -160,6 +164,7 @@ protected slots:
 
 protected:
 	void clearData();
+	QString absoluteFilePath(QString app_bin);
 	void runYtdl(const QString & url);
 	static QString getVideoID(QString video_url);
 	static QString resolutionToText(Resolution r);
