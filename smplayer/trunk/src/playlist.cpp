@@ -1172,46 +1172,16 @@ void Playlist::loadXSPF(const QString & filename) {
 }
 
 #ifdef YT_PLAYLIST_SUPPORT
-/// youtube list support
-void Playlist::loadYoutubeList(QByteArray & data) {
-	qDebug() << "Playlist::loadYoutubeList:";
-
-	QDomDocument dom_document;
-	bool ok = dom_document.setContent(data);
-	qDebug() << "Playlist::loadYoutubeList: success:" << ok;
-	if (!ok) return;
-
-	QDomNode root = dom_document.documentElement();
-	if (!root.isNull()) {
-		clear();
-
-		QDomNode track = root.firstChildElement("video");
-		while (!track.isNull()) {
-			QString filename;
-			QStringList extra_params;
-
-			QString title = track.firstChildElement("title").text(); // toCDATASection().data();
-			QString video_url = QString("https://www.youtube.com/watch?v=").append(track.firstChildElement("encrypted_id").text().toLatin1());
-			QString icon_url  = track.firstChildElement("thumbnail").text().toLatin1();
-			int duration = track.firstChildElement("length_seconds").text().toInt();
-
-			qDebug() << "Playlist::loadYoutubeList: title:" << title;
-			qDebug() << "Playlist::loadYoutubeList: video_url:" << video_url;
-			qDebug() << "Playlist::loadYoutubeList: icon_url:" << icon_url;
-			qDebug() << "Playlist::loadYoutubeList: duration:" << duration;
-
-			addItem( video_url, title, duration, extra_params, video_url, icon_url );
-
-			track = track.nextSiblingElement("video");
-		}
-
-		//list();
-		setPlaylistFilename(root.firstChildElement("title").text());
-		setModified( false );
-
-		if (shuffleAct->isChecked()) shuffle(true);
-		if (start_play_on_load) startPlay();
+void Playlist::loadYoutubeList(QList<itemMap> list) {
+	qDebug() << "Playlist::loadYoutubeList: list:" << list;
+	clear();
+	foreach(itemMap item, list) {
+		addItem(item["url"], item["title"], item["duration"].toDouble());
 	}
+	setModified( false );
+
+	if (shuffleAct->isChecked()) shuffle(true);
+	if (start_play_on_load) startPlay();
 }
 
 bool Playlist::isYTPlaylist(const QString & url) {
@@ -2526,16 +2496,13 @@ void Playlist::openUrl(const QString & orig_url) {
 	qDebug() << "Playlist::openUrl:" << url;
 
 #ifdef YT_PLAYLIST_SUPPORT
-	// if youtube list then convert to ajax call
 	if (isYTPlaylist(url)) {
-		QUrl qurl = QUrl(url);
-		#if QT_VERSION >= 0x050000
-		QUrlQuery query = QUrlQuery(qurl);
-		QString lst = query.queryItemValue("list"); // QString("RDQ4DphMfcOOM"); // todo
-		#else
-		QString lst = qurl.queryItemValue("list");
-		#endif
-		url = QString("https://www.youtube.com/list_ajax?action_get_list=1&style=xml&list=").append(lst);
+		setCursor(QCursor(Qt::WaitCursor));
+		RetrieveYoutubeUrl yt(this);
+		QList<itemMap> list = yt.getPlaylistItems(url);
+		loadYoutubeList(list);
+		unsetCursor();
+		return;
 	}
 #endif
 
@@ -2553,12 +2520,6 @@ void Playlist::playlistDownloaded(QByteArray data) {
 	QString tfile = tf.fileName();
 	qDebug() << "Playlist::playlistDownloaded: tfile:" << tfile;
 
-#ifdef YT_PLAYLIST_SUPPORT
-	if (data.contains("<?xml")) {
-		loadYoutubeList(data);
-	}
-	else
-#endif
 	if (data.contains("#EXTM3U")) {
 		load_m3u(tfile, M3U8);
 		setPlaylistFilename("");
