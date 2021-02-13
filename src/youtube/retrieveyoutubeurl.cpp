@@ -18,12 +18,20 @@
 
 #include "retrieveyoutubeurl.h"
 
-#if QT_VERSION >= 0x050000
 #define YT_USE_JSON
 #define DEBUG_OUTPUT_JSON
-#include <QUrlQuery>
+
+#if QT_VERSION >= 0x050000
+  #include <QJsonDocument>
+  #include <QJsonObject>
+  #include <QUrlQuery>
 #else
-#include <QRegExp>
+  #include <QRegExp>
+  #include "qt-json/json.h"
+#endif
+
+#ifdef DEBUG_OUTPUT_JSON
+#include <QFile>
 #endif
 
 #include <QUrl>
@@ -32,14 +40,6 @@
 #include <QProcess>
 #include <QFileInfo>
 #include <QDir>
-
-#ifdef YT_USE_JSON
-#include <QJsonDocument>
-#include <QJsonObject>
-#ifdef DEBUG_OUTPUT_JSON
-#include <QFile>
-#endif
-#endif
 
 RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	: QObject(parent)
@@ -250,20 +250,23 @@ void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exit
 	qDebug() << "RetrieveYoutubeUrl::fetchPage: lines:" << lines.count();
 
 #ifdef YT_USE_JSON
-	QJsonDocument doc;
-	QJsonObject json;
-
 	if (lines.count() >= 1) {
-		doc = QJsonDocument::fromJson(lines[0]);
-		json = doc.object();
+		#if QT_VERSION >= 0x050000
+		QJsonObject json = QJsonDocument::fromJson(lines[0]).object();
+		#else
+		QtJson::JsonObject json = QtJson::parse(lines[0]).toMap();
+		#endif
 		video_title = json["title"].toString();
 		selected_video_url = json["url"].toString();
 		selected_video_quality = (Quality) json["format_id"].toString().toInt();
 	}
 
 	if (lines.count() >= 2) {
-		doc = QJsonDocument::fromJson(lines[1]);
-		json = doc.object();
+		#if QT_VERSION >= 0x050000
+		QJsonObject json = QJsonDocument::fromJson(lines[1]).object();
+		#else
+		QtJson::JsonObject json = QtJson::parse(lines[1]).toMap();
+		#endif
 		selected_audio_url = json["url"].toString();
 		selected_audio_quality = (Quality) json["format_id"].toString().toInt();
 	}
@@ -396,53 +399,26 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 
 	QList<itemMap> list;
 
-	#ifdef YT_USE_JSON
-	QJsonDocument doc;
-	QJsonObject json;
-	#endif
-
 	for (int n = 0; n < lines.count(); n++) {
 		qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: item:" << n << "data:" << lines[n];
-		#ifdef YT_USE_JSON
-		doc = QJsonDocument::fromJson(lines[n]);
-		json = doc.object();
-		//qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: json:" << json;
 		itemMap item;
+		#if QT_VERSION >= 0x050000
+		QJsonObject json = QJsonDocument::fromJson(lines[n]).object();
+		#else
+		QtJson::JsonObject json = QtJson::parse(lines[n]).toMap();
+		#endif
+
+		qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: json:" << json;
+
 		item["title"] = json["title"].toString();
 		item["duration"] = QString::number(json["duration"].toInt());
 		item["id"] = json["id"].toString();
 		item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
 		list << item;
-		#else
-		QString line = lines[n].replace("\\\"", "\"");
-		QRegExp rx("\"duration\": ([\\.?\\d.]+),.*\"title\": \"(.*)\", \"u.*\"id\": \"(.*)\"");
-		rx.setMinimal(true);
-		if (rx.indexIn(line) != -1) {
-			itemMap item;
-			QString title = rx.cap(2);
-			title = unescapeUnicode(title);
-			title = title.simplified();
-			title = QString(title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<").replace("&quot;","\"").replace("&#39;","'");
-			item["title"] = title;
-			item["duration"] = rx.cap(1);
-			item["id"] = rx.cap(3);
-			item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
-			list << item;
-		}
-		#endif
 	}
 
 	qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: list:" << list;
 	return list;
-}
-
-QString RetrieveYoutubeUrl::unescapeUnicode(QString str) {
-	QRegExp rx("(\\\\u[0-9a-fA-F]{4})");
-	int pos = 0;
-	while ((pos = rx.indexIn(str, pos)) != -1) {
-		str.replace(pos++, 6, QChar(rx.cap(1).right(4).toUShort(0, 16)));
-	}
-	return str;
 }
 
 #include "moc_retrieveyoutubeurl.cpp"

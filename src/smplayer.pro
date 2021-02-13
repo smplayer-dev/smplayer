@@ -438,6 +438,11 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/codedownloader.h
 		SOURCES += youtube/codedownloader.cpp
 	}
+
+	isEqual(QT_MAJOR_VERSION, 4) {
+		HEADERS += youtube/qt-json/json.h
+		SOURCES += youtube/qt-json/json.cpp
+	}
 }
 
 # defaultgui
