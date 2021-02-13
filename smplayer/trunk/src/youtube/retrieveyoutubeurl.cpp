@@ -414,7 +414,9 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 		item["duration"] = QString::number(json["duration"].toInt());
 		item["id"] = json["id"].toString();
 		item["url"] = "https://www.youtube.com/watch?v=" + item["id"];
-		list << item;
+		if (!item["id"].isEmpty()) {
+			list << item;
+		}
 	}
 
 	qDebug() << "RetrieveYoutubeUrl::getPlaylistItems: list:" << list;
