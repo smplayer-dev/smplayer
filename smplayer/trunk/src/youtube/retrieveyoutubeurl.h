@@ -169,7 +169,6 @@ protected:
 	static QString getVideoID(QString video_url);
 	static QString resolutionToText(Resolution r);
 	static int getItagFromFormat(const QByteArray & t);
-	static QString unescapeUnicode(QString str);
 
 private:
 	Resolution preferred_resolution;
