@@ -28,7 +28,6 @@
     that you install them too.
 
     Visit the web for updates:
-    http://smplayer.sourceforge.net
     http://www.smplayer.info
 
     Support forum:
@@ -45,6 +44,10 @@
      * libmaia by Sebastian Wiedenroth
        url: https://github.com/wiedi/libmaia
        license: Simplified BSD License (see src/findsubtitles/maia/LICENSE)
+
+     * qt-json
+       url: https://github.com/qt-json/qt-json
+       license: GPL 3 (see src/youtube/qt-json/LICENSE)
 
     Some icons were taken from:
 
