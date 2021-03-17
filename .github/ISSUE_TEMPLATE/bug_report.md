@@ -26,9 +26,12 @@ If applicable, add screenshots to help explain your problem.
 **Your Enviroment**
  - SMPlayer version:
  - OS: [e.g. Windows 10]
+ - Multimedia engine you're using with SMPlayer (preferences -> general):
+ [ ] MPlayer
+ [ ] MPV
 
 **Logs**
-Reproduce the bug in your computer and send the smplayer log (menu View) to https://pastebin.com (or similar) and copy the link here.
+Reproduce the bug in your computer and attach the smplayer log (menu View) here.
 
 **Additional context**
 Add any other context about the problem here.
