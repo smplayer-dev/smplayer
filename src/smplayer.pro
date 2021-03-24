@@ -595,9 +595,6 @@ win32 {
 	#DEFINES += FONTCACHE_DIALOG
 	#DEFINES += FONTS_HACK
 
-	contains( DEFINES, SCREENSAVER_OFF ) {
-	}
-
 	contains( DEFINES, FONTCACHE_DIALOG ) {
 		HEADERS += fontcache.h
 		SOURCES += fontcache.cpp
