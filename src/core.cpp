@@ -48,8 +48,13 @@
 #include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
 #endif
+
 #ifdef SCREENSAVER_OFF
+#ifdef Q_OS_WIN
 #include "screensaver.h"
+#else
+#include "powersaving.h"
+#endif
 #endif
 
 #include "filesettings.h"
@@ -277,8 +282,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
 #ifdef SCREENSAVER_OFF
-	// Windows or OS2 screensaver
+	#ifdef Q_OS_WIN
 	win_screensaver = new WinScreenSaver();
+	#else
+	power_saving = new PowerSaving(this);
+	#endif
 	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
 	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
 	connect( proc, SIGNAL(error(QProcess::ProcessError)), this, SLOT(enableScreensaver()) );
@@ -312,7 +320,7 @@ Core::~Core() {
 	delete tv_settings;
 #endif
 
-#ifdef SCREENSAVER_OFF
+#if defined(SCREENSAVER_OFF) && defined(Q_OS_WIN)
 	delete win_screensaver;
 #endif
 
@@ -596,16 +604,28 @@ void Core::YTNoVideoUrl() {
 #ifdef SCREENSAVER_OFF
 void Core::enableScreensaver() {
 	qDebug("Core::enableScreensaver");
+	#ifdef Q_OS_WIN
 	if (pref->turn_screensaver_off) {
 		win_screensaver->enable();
 	}
+	#else
+	if (pref->disable_screensaver) {
+		power_saving->uninhibit();
+	}
+	#endif
 }
 
 void Core::disableScreensaver() {
 	qDebug("Core::disableScreensaver");
+	#ifdef Q_OS_WIN
 	if (pref->turn_screensaver_off) {
 		win_screensaver->disable();
 	}
+	#else
+	if (pref->disable_screensaver) {
+		power_saving->inhibit();
+	}
+	#endif
 }
 #endif
 

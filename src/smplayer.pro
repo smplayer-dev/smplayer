@@ -35,6 +35,7 @@ DEFINES += ADD_BLACKBORDERS_FS
 DEFINES += INITIAL_BLACKBORDERS
 DEFINES += CHROMECAST_SUPPORT
 DEFINES += USE_QRCODE
+DEFINES += SCREENSAVER_OFF
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -560,6 +561,18 @@ contains( DEFINES, CHROMECAST_SUPPORT ) {
 	}
 }
 
+contains( DEFINES, SCREENSAVER_OFF ) {
+	unix {
+		QT += dbus
+		HEADERS += powersaving.h
+		SOURCES += powersaving.cpp
+	}
+	win32 {
+		HEADERS += screensaver.h
+		SOURCES += screensaver.cpp
+	}
+}
+
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
@@ -578,14 +591,11 @@ unix {
 }
 
 win32 {
-	DEFINES += SCREENSAVER_OFF
 	DEFINES += AVOID_SCREENSAVER
 	#DEFINES += FONTCACHE_DIALOG
 	#DEFINES += FONTS_HACK
 
 	contains( DEFINES, SCREENSAVER_OFF ) {
-		HEADERS += screensaver.h
-		SOURCES += screensaver.cpp
 	}
 
 	contains( DEFINES, FONTCACHE_DIALOG ) {
@@ -621,7 +631,6 @@ win32 {
 }
 
 os2 {
-	DEFINES += SCREENSAVER_OFF
 	INCLUDEPATH += .
 	contains( DEFINES, SCREENSAVER_OFF ) {
 		HEADERS += screensaver.h
