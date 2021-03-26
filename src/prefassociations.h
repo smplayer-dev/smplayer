@@ -34,7 +34,7 @@ class PrefAssociations : public PrefWidget, public Ui::PrefAssociations
 	Q_OBJECT
 
 public:
-	PrefAssociations( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefAssociations( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefAssociations();
 
 	virtual QString sectionName();

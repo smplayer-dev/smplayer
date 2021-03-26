@@ -31,7 +31,7 @@ class SeekWidget : public QWidget, public Ui::SeekWidget
 	Q_PROPERTY(int time READ time WRITE setTime)
 
 public:
-	SeekWidget( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	SeekWidget( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~SeekWidget();
 
 	int time() const;

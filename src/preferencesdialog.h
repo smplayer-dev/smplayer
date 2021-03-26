@@ -56,7 +56,7 @@ public:
 	enum Section { General=0, Drives=1, Performance=2,
                    Subtitles=3, Gui=4, Mouse=5, Advanced=6, Associations=7 };
 
-	PreferencesDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PreferencesDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PreferencesDialog();
 
 	PrefGeneral * mod_general() { return page_general; };

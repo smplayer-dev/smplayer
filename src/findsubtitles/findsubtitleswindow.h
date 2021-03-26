@@ -44,7 +44,7 @@ class FindSubtitlesWindow : public QWidget, public Ui::FindSubtitlesWindow
 	Q_OBJECT
 
 public:
-	FindSubtitlesWindow( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	FindSubtitlesWindow( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~FindSubtitlesWindow();
 
 	QString language();

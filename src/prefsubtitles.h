@@ -30,7 +30,7 @@ class PrefSubtitles : public PrefWidget, public Ui::PrefSubtitles
 	Q_OBJECT
 
 public:
-	PrefSubtitles( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefSubtitles( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefSubtitles();
 
 	virtual QString sectionName();

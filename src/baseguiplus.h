@@ -61,7 +61,7 @@ class BaseGuiPlus : public BaseGui
 	Q_OBJECT
 
 public:
-	BaseGuiPlus( QWidget* parent = 0, Qt::WindowFlags flags = 0);
+	BaseGuiPlus( QWidget* parent = 0, Qt::WindowFlags flags = QFlag(0));
 	~BaseGuiPlus();
 
 	virtual bool startHidden();

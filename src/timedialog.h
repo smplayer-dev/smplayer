@@ -26,7 +26,7 @@ class TimeDialog : public QDialog, public Ui::TimeDialog
 	Q_OBJECT
 
 public:
-	TimeDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	TimeDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~TimeDialog();
 
 	int time();

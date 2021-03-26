@@ -30,7 +30,7 @@ class PrefInterface : public PrefWidget, public Ui::PrefInterface
 	Q_OBJECT
 
 public:
-	PrefInterface( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefInterface( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefInterface();
 
 	virtual QString sectionName();

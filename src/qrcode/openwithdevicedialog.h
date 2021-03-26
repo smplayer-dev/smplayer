@@ -28,7 +28,7 @@ class OpenWithDeviceDialog : public QDialog, public Ui::OpenWithDeviceDialog
 	Q_OBJECT
 
 public:
-	OpenWithDeviceDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	OpenWithDeviceDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~OpenWithDeviceDialog();
 
 	void setQRCodeText(const QString & text);

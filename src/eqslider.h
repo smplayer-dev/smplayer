@@ -31,7 +31,7 @@ class EqSlider : public QWidget, public Ui::EqSlider
 	Q_PROPERTY(int value READ value WRITE setValue)
 
 public:
-	EqSlider( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	EqSlider( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~EqSlider();
 
 public slots:

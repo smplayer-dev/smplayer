@@ -27,7 +27,7 @@ class InputBookmark : public QDialog, public Ui::InputBookmark
 	Q_OBJECT
 
 public:
-	InputBookmark( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	InputBookmark( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~InputBookmark();
 
 	void setTime(int time);

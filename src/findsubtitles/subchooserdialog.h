@@ -27,7 +27,7 @@ class SubChooserDialog : public QDialog, public Ui::SubChooserDialog
 	Q_OBJECT
 
 public:
-	SubChooserDialog( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	SubChooserDialog( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~SubChooserDialog();
 
 	void addFile(QString filename); 

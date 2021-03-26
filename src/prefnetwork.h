@@ -30,7 +30,7 @@ class PrefNetwork : public PrefWidget, public Ui::PrefNetwork
 	Q_OBJECT
 
 public:
-	PrefNetwork( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefNetwork( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefNetwork();
 
 	virtual QString sectionName();

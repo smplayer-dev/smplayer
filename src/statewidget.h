@@ -29,7 +29,7 @@ class StateWidget : public QLabel
 	Q_OBJECT
 
 public:
-	StateWidget(QWidget * parent = 0, Qt::WindowFlags f = 0);
+	StateWidget(QWidget * parent = 0, Qt::WindowFlags f = QFlag(0));
 	~StateWidget();
 
 	void setAnimation(const QString & filename);

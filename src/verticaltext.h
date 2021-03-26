@@ -11,7 +11,7 @@
 class VerticalText : public QWidget
 {
 public:
-    VerticalText(QWidget * parent, Qt::WindowFlags f = 0);
+    VerticalText(QWidget * parent, Qt::WindowFlags f = QFlag(0));
     ~VerticalText();
 
 	void setText(QString s) { _label = s; };

@@ -31,7 +31,7 @@ class PrefInput : public PrefWidget, public Ui::PrefInput
 	Q_OBJECT
 
 public:
-	PrefInput( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefInput( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefInput();
 
 	virtual QString sectionName();

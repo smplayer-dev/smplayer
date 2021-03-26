@@ -28,7 +28,7 @@ class PlaylistDock : public QDockWidget
 	Q_OBJECT
 
 public:
-	PlaylistDock ( QWidget * parent = 0, Qt::WindowFlags flags = 0 );
+	PlaylistDock ( QWidget * parent = 0, Qt::WindowFlags flags = QFlag(0) );
 	~PlaylistDock();
 
 signals:

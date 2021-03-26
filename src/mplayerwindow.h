@@ -54,7 +54,7 @@ class Screen : public QWidget
 	Q_OBJECT
 
 public:
-	Screen(QWidget* parent = 0, Qt::WindowFlags f = 0);
+	Screen(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~Screen();
 
 	void setAutoHideCursor(bool b);
@@ -93,7 +93,7 @@ class MplayerLayer : public Screen
 	Q_OBJECT
 
 public:
-	MplayerLayer(QWidget* parent = 0, Qt::WindowFlags f = 0);
+	MplayerLayer(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~MplayerLayer();
 
 #if REPAINT_BACKGROUND_OPTION
@@ -125,7 +125,7 @@ class MplayerWindow : public Screen
 	Q_OBJECT
 
 public:
-	MplayerWindow(QWidget* parent = 0, Qt::WindowFlags f = 0);
+	MplayerWindow(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~MplayerWindow();
 
 	MplayerLayer * videoLayer() { return mplayerlayer; };

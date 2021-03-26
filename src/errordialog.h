@@ -26,7 +26,7 @@ class ErrorDialog : public QDialog, public Ui::ErrorDialog
 	Q_OBJECT
 
 public:
-	ErrorDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	ErrorDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~ErrorDialog();
 
 public slots:

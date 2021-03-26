@@ -33,7 +33,7 @@ class PrefWidget : public QWidget
 {
 
 public:
-	PrefWidget(QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefWidget(QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefWidget();
 
 	// Return the name of the section

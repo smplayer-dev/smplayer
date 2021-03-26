@@ -29,7 +29,7 @@ class PrefTV : public PrefWidget, public Ui::PrefTV
 	Q_OBJECT
 
 public:
-	PrefTV( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefTV( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefTV();
 
 	virtual QString sectionName();

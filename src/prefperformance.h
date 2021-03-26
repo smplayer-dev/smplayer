@@ -30,7 +30,7 @@ class PrefPerformance : public PrefWidget, public Ui::PrefPerformance
 	Q_OBJECT
 
 public:
-	PrefPerformance( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefPerformance( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefPerformance();
 
 	virtual QString sectionName();

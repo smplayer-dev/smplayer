@@ -49,7 +49,7 @@ class ShareWidget : public QWidget
 public:
 	enum Display { Never = 0, Random = 1, Always = 2 };
 
-	ShareWidget(QSettings * settings, QWidget * parent = 0, Qt::WindowFlags f = 0);
+	ShareWidget(QSettings * settings, QWidget * parent = 0, Qt::WindowFlags f = QFlag(0));
 	~ShareWidget();
 
 	virtual void setVisible(bool visible);

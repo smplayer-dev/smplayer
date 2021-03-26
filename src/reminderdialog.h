@@ -29,7 +29,7 @@ class ReminderDialog : public QDialog, public Ui::ReminderDialog
 
 public:
 	enum Button { Donate = 1, Share = 2, Close = 0 };
-	ReminderDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	ReminderDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~ReminderDialog();
 
 	bool isRemindChecked();

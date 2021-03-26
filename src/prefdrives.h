@@ -30,7 +30,7 @@ class PrefDrives : public PrefWidget, public Ui::PrefDrives
 	Q_OBJECT
 
 public:
-	PrefDrives( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefDrives( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefDrives();
 
 	virtual QString sectionName();

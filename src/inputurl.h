@@ -27,7 +27,7 @@ class InputURL : public QDialog, public Ui::InputURL
 	Q_OBJECT
 
 public:
-	InputURL( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	InputURL( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~InputURL();
 
 	void setURL(QString url);

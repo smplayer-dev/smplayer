@@ -29,7 +29,7 @@ class PrefUpdates : public PrefWidget, public Ui::PrefUpdates
 	Q_OBJECT
 
 public:
-	PrefUpdates( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefUpdates( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefUpdates();
 
 	virtual QString sectionName();

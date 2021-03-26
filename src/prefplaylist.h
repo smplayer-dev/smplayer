@@ -30,7 +30,7 @@ class PrefPlaylist : public PrefWidget, public Ui::PrefPlaylist
 	Q_OBJECT
 
 public:
-	PrefPlaylist( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefPlaylist( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefPlaylist();
 
 	virtual QString sectionName();

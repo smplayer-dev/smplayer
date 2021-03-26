@@ -28,7 +28,7 @@ class QRCodeLabel : public QFrame
 	Q_OBJECT
 
 public:
-	QRCodeLabel(QWidget * parent = 0, Qt::WindowFlags f = 0);
+	QRCodeLabel(QWidget * parent = 0, Qt::WindowFlags f = QFlag(0));
 	~QRCodeLabel();
 
 	QString text() { return qrcode_text; };

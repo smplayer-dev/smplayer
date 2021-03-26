@@ -42,7 +42,7 @@ class ActionsEditor : public QWidget
 	Q_OBJECT
 
 public:
-	ActionsEditor( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	ActionsEditor( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~ActionsEditor();
 
 	// Clear the actionlist

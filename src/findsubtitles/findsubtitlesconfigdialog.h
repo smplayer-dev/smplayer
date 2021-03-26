@@ -26,7 +26,7 @@ class FindSubtitlesConfigDialog : public QDialog, public Ui::FindSubtitlesConfig
 	Q_OBJECT
 
 public:
-	FindSubtitlesConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	FindSubtitlesConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~FindSubtitlesConfigDialog();
 
 #ifdef FS_USE_SERVER_CONFIG

@@ -26,7 +26,7 @@ class InputDVDDirectory : public QDialog, public Ui::InputDVDDirectory
 	Q_OBJECT
 
 public:
-	InputDVDDirectory( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	InputDVDDirectory( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~InputDVDDirectory();
 
 	void setFolder(QString folder);

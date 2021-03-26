@@ -30,7 +30,7 @@ class PrefAdvanced : public PrefWidget, public Ui::PrefAdvanced
 	Q_OBJECT
 
 public:
-	PrefAdvanced( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefAdvanced( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefAdvanced();
 
 	virtual QString sectionName();

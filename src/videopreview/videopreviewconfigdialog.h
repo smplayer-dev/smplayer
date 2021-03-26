@@ -27,7 +27,7 @@ class VideoPreviewConfigDialog : public QDialog, public Ui::VideoPreviewConfigDi
 	Q_OBJECT
 
 public:
-	VideoPreviewConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	VideoPreviewConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~VideoPreviewConfigDialog();
 
 	void setVideoFile(const QString & video_file);

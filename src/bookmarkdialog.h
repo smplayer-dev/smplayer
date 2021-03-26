@@ -28,7 +28,7 @@ class BookmarkDialog : public QDialog, public Ui::BookmarkDialog
 	Q_OBJECT
 
 public:
-	BookmarkDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	BookmarkDialog( QWidget* parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~BookmarkDialog();
 
 	void setBookmarks(QMap<int, QString>);

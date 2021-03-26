@@ -38,7 +38,7 @@ class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 	Q_OBJECT
 
 public:
-	PrefGeneral( QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	PrefGeneral( QWidget * parent = 0, Qt::WindowFlags f = QFlag(0) );
 	~PrefGeneral();
 
 	// Return the name of the section
