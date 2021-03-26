@@ -85,7 +85,7 @@ void MediaSettings::reset() {
 	current_unsharp = 0;
 
 	stereo3d_in = "none";
-	stereo3d_out = QString::null;
+	stereo3d_out = QString();
 
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;

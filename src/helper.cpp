@@ -359,6 +359,6 @@ QString Helper::findExecutable(const QString & name) {
 			return candidate;
 		}
 	}
-	return QString::null;
+	return QString();
 }
 #endif

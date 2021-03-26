@@ -387,7 +387,7 @@ public slots:
 
 	//! Wrapper for the osd_show_text slave command
 	void displayTextOnOSD(QString text, int duration = 3000, int level = 1, 
-                          QString prefix = QString::null);
+                          QString prefix = QString());
 
 public:
 	//! Returns the number of the first chapter in 

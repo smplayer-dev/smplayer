@@ -44,7 +44,7 @@ public:
 	Device outputDevice() { return output_device; };
 
 	void openStream(const QString & url, const QString & title);
-	void openLocal(const QString & file, const QString & title, const QString & subtitle = QString::null);
+	void openLocal(const QString & file, const QString & title, const QString & subtitle = QString());
 
 	static Chromecast * instance();
 	static void deleteInstance();

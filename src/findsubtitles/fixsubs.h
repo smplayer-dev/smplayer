@@ -25,7 +25,7 @@ class FixSubtitles
 {
 public:
 	enum ErrorCode { NoError = 0, ReadError = 1, WriteError = 2 };
-	static ErrorCode fix(const QString & in_file, const QString & out_file = QString::null);
+	static ErrorCode fix(const QString & in_file, const QString & out_file = QString());
 };
 
 #endif

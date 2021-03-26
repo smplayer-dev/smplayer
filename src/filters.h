@@ -30,7 +30,7 @@ class QSettings;
 class Filter {
 public:
 	Filter() {};
-	Filter(QString tr_name, QString name, QString options = QString::null) { _tr_name = tr_name; _name = name; _options = options; };
+	Filter(QString tr_name, QString name, QString options = QString()) { _tr_name = tr_name; _name = name; _options = options; };
 
 	void setTrName(QString tr_name) { _tr_name = tr_name; };
 	void setName(QString name) { _name = name; };

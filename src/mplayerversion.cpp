@@ -52,7 +52,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	int mplayer_svn = 0;
 	is_mpv = false;
 #ifdef MPLAYER2_SUPPORT
-	mplayer2_version = QString::null;
+	mplayer2_version = QString();
 	is_mplayer2 = false;
 #endif
 

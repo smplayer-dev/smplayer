@@ -57,7 +57,7 @@ public:
 
 public slots:
 	void setServer(const QString & server);
-	void search(const QString & hash, qint64 file_size, const QString & filename = QString::null);
+	void search(const QString & hash, qint64 file_size, const QString & filename = QString());
 
 private slots:
 	void login();

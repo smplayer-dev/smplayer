@@ -72,7 +72,7 @@ public:
 
 #ifndef Q_OS_WIN
 	//! Tries to find the executable in the path.
-	//! Returns the path if found or QString::null if not.
+	//! Returns the path if found or QString() if not.
 	static QString findExecutable(const QString & name);
 #endif
 

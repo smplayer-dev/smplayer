@@ -90,7 +90,7 @@ public:
 
 	//! Returns an InfoReader object. If it didn't exist before, one
 	//! is created.
-	static InfoReader * obj(const QString & mplayer_bin = QString::null);
+	static InfoReader * obj(const QString & mplayer_bin = QString());
 
 protected:
 	QString mplayerbin;

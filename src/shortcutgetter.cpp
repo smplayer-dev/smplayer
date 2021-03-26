@@ -219,7 +219,7 @@ static QString keyToString(int k)
 {
 	if (	k == Qt::Key_Shift || k == Qt::Key_Control || k == Qt::Key_Meta ||
 			k == Qt::Key_Alt || k == Qt::Key_AltGr )
-		return QString::null;
+		return QString();
 
 	initKeyMap();
 	
@@ -232,7 +232,7 @@ static QString keyToString(int k)
 {
 	if (	k == Qt::Key_Shift || k == Qt::Key_Control || k == Qt::Key_Meta ||
 			k == Qt::Key_Alt || k == Qt::Key_AltGr )
-		return QString::null;
+		return QString();
 
 	return QKeySequence(k).toString();
 }

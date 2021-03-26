@@ -34,7 +34,7 @@ public:
 	static QString themesPath();
 	static QString shortcutsPath();
 	static QString qtTranslationPath();
-	static QString doc(QString file, QString locale = QString::null, bool english_fallback = true);
+	static QString doc(QString file, QString locale = QString(), bool english_fallback = true);
 
 	//! Forces to use a different path for the config files
 	static void setConfigPath(QString path);

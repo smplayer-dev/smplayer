@@ -374,7 +374,7 @@ void PrefSubtitles::on_windowsfontdir_check_toggled(bool b) {
 	qDebug("PrefSubtitles::on_windowsfontdir_check_toggled: %d", b);
 
 	if (b) {
-		style_font_combo->setFontsFromDir(QString::null);
+		style_font_combo->setFontsFromDir(QString());
 	} else {
 		QString fontdir = Paths::fontPath();
 		//QString fontdir = "/tmp/fonts/";

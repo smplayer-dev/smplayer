@@ -53,7 +53,7 @@ public:
 	virtual void addVF(const QString & filter_name, const QVariant & value = QVariant()) = 0;
 	virtual void addAF(const QString & filter_name, const QVariant & value = QVariant()) = 0;
 	virtual void addStereo3DFilter(const QString & in, const QString & out) = 0;
-	virtual void setSubStyles(const AssStyles & styles, const QString & assStylesFile = QString::null) = 0;
+	virtual void setSubStyles(const AssStyles & styles, const QString & assStylesFile = QString()) = 0;
 	virtual void setSubEncoding(const QString & codepage, const QString & enca_lang) = 0;
 	virtual void setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq) = 0;
 
@@ -132,7 +132,7 @@ public:
 	virtual void setOSDFractions(bool active) = 0;
 	virtual void setChannelsFile(const QString &) = 0;
 
-	virtual void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null) = 0;
+	virtual void enableScreenshots(const QString & dir, const QString & templ = QString(), const QString & format = QString()) = 0;
 
 	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 

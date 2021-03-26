@@ -30,7 +30,7 @@ class Favorite
 {
 public:
 	Favorite() { is_subentry = false; }
-	Favorite(QString name, QString file, QString icon = QString::null, bool subentry = false) 
+	Favorite(QString name, QString file, QString icon = QString(), bool subentry = false) 
 	{ 
 		_name = name; _file = file; _icon = icon; is_subentry = subentry;
 	};

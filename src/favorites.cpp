@@ -35,7 +35,7 @@ Favorites::Favorites(QString filename, QWidget * parent) : QMenu(parent)
 
 	parent_widget = parent;
 
-	current_file = QString::null;
+	current_file = QString();
 	last_item = 1;
 
 	edit_act = new QAction( "Edit...", this);

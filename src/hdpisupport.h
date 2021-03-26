@@ -30,7 +30,7 @@ class QSettings;
 class HDPISupport {
 
 public:
-	HDPISupport(const QString & config_path = QString::null);
+	HDPISupport(const QString & config_path = QString());
 	~HDPISupport();
 
 #ifdef HDPI_STORE_DATA

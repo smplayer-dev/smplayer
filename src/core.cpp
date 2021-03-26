@@ -5147,7 +5147,7 @@ QString Core::pausing_prefix() {
 
 #ifdef MPLAYER2_SUPPORT
 	if (MplayerVersion::isMplayer2()) {
-		return QString::null;
+		return QString();
 	}
 	else
 #endif

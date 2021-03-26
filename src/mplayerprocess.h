@@ -45,7 +45,7 @@ public:
 	void addVF(const QString & filter_name, const QVariant & value = QVariant());
 	void addAF(const QString & filter_name, const QVariant & value = QVariant());
 	void addStereo3DFilter(const QString & in, const QString & out);
-	void setSubStyles(const AssStyles & styles, const QString & assStylesFile = QString::null);
+	void setSubStyles(const AssStyles & styles, const QString & assStylesFile = QString());
 	void setSubEncoding(const QString & codepage, const QString & enca_lang);
 	void setVideoEqualizerOptions(int contrast, int brightness, int hue, int saturation, int gamma, bool soft_eq);
 
@@ -124,7 +124,7 @@ public:
 	void setOSDFractions(bool) {};
 	void setChannelsFile(const QString &) {};
 
-	void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null);
+	void enableScreenshots(const QString & dir, const QString & templ = QString(), const QString & format = QString());
 
 #ifdef CAPTURE_STREAM
 	void setCaptureDirectory(const QString & dir);

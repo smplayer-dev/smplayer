@@ -613,7 +613,7 @@ void Preferences::reset() {
 	mplayer_user_supplied_version = -1;
 #ifdef MPLAYER2_SUPPORT
 	mplayer_is_mplayer2 = false;
-	mplayer2_detected_version = QString::null;
+	mplayer2_detected_version = QString();
 #endif
 
 

@@ -28,7 +28,7 @@ EqSlider::EqSlider( QWidget* parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
-	_icon->setText( QString::null );
+	_icon->setText( QString() );
 	_slider->setFocusPolicy( Qt::StrongFocus );
 	_slider->setTickPosition( QSlider::TicksRight );
 	_slider->setTickInterval( 10 );

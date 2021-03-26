@@ -123,7 +123,7 @@ QString Paths::doc(QString file, QString locale, bool english_fallback) {
 		return f;
 	}
 
-	return QString::null;
+	return QString();
 }
 
 void Paths::setConfigPath(QString path) {

@@ -1089,7 +1089,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 
 			detached_label->hide();
 
-			mplayerwindow->setWindowTitle(QString::null);
+			mplayerwindow->setWindowTitle(QString());
 			mplayerwindow->setParent(panel);
 			#if QT_VERSION >= 0x050000 && defined(Q_OS_LINUX)
 			qApp->processEvents();
