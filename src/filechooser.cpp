@@ -35,7 +35,7 @@ QString FileChooser::last_dir;
 FileChooser::FileChooser(QWidget * parent) : LineEditWithIcon(parent) 
 {
 	setDialogType(GetFileName);
-	setOptions(0);
+	setOptions(QFlag(0));
 
 	setupButton();
 	button->setCursor( Qt::PointingHandCursor );
