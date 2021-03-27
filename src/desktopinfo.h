@@ -24,6 +24,7 @@
 #include <QPoint>
 
 class QWidget;
+class QScreen;
 
 class DesktopInfo
 {
@@ -35,6 +36,11 @@ public:
 	static bool isInsideScreen(QWidget *w);
 
 	static QPoint topLeftPrimaryScreen();
+
+protected:
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
+	static QScreen * find_screen(QWidget *w);
+#endif
 };
 
 #endif
