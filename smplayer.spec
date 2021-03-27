@@ -131,7 +131,7 @@ update-desktop-database &> /dev/null || :
 %{_bindir}/simple_web_server
 
 %changelog
-* Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net> - 16.1.0
+* Thu Feb 25 2016 Ricardo Villalba <ricardo@smplayer.info> - 16.1.0
 - Remove smtube
 - Remove some patches
 - Install smplayer-themes and smplayer-skins

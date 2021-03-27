@@ -4,7 +4,7 @@ smplayer (21.1.0) xenial; urgency=low
   * Some fixes and improvements in the playlist.
   * Show cache info in the OSD (Shift + I).
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 06 Jan 2021 14:51:51 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 06 Jan 2021 14:51:51 +0100
 
 smplayer (20.6.0) precise; urgency=low
 
@@ -13,13 +13,13 @@ smplayer (20.6.0) precise; urgency=low
   * The shuffle option in the playlist does shuffle the items of
     the playlist.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 17 Jun 2020 16:17:09 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 17 Jun 2020 16:17:09 +0200
 
 smplayer (20.4.2) precise; urgency=low
 
   * Fix for YouTube.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 13 Apr 2020 16:01:59 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 13 Apr 2020 16:01:59 +0200
 
 smplayer (20.4.0) precise; urgency=low
 
@@ -28,20 +28,20 @@ smplayer (20.4.0) precise; urgency=low
   * Now it's possible to search for shortcuts in Preferences -> Keyboard.
   * Support for mpv 0.32.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 09 Apr 2020 17:04:07 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 09 Apr 2020 17:04:07 +0200
 
 smplayer (19.10.2) precise; urgency=low
 
   * Fix compiling the web server on 32 bit with gcc 9.2.0.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 07 Nov 2019 21:15:25 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 07 Nov 2019 21:15:25 +0100
 
 smplayer (19.10.0) precise; urgency=low
 
   * Fix for YouTube.
   * Fix control when using mpv 0.30.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 27 Oct 2019 20:38:21 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 27 Oct 2019 20:38:21 +0100
 
 smplayer (19.5.0) precise; urgency=low
 
@@ -51,7 +51,7 @@ smplayer (19.5.0) precise; urgency=low
     and previous video track.
   * New command line option -start.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 14 May 2019 21:07:11 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 14 May 2019 21:07:11 +0200
 
 smplayer (19.1.0) precise; urgency=low
 
@@ -60,14 +60,14 @@ smplayer (19.1.0) precise; urgency=low
     movie or show.
   * Some bug fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 28 Jan 2019 21:33:39 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 28 Jan 2019 21:33:39 +0100
 
 smplayer (18.10.0) precise; urgency=low
 
   * The internal code for YouTube now supports resolutions up to 4K. The
     support for age restricted videos has been fixed.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 19 Oct 2018 21:42:05 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 19 Oct 2018 21:42:05 +0200
 
 smplayer (18.9.0) precise; urgency=low
 
@@ -75,7 +75,7 @@ smplayer (18.9.0) precise; urgency=low
   * (Experimental) New option in the Play menu: Cast to -> Smartphone/tablet.
     It displays a QR code that you can scan to play the video on your device.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 14 Sep 2018 21:06:37 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 14 Sep 2018 21:06:37 +0200
 
 smplayer (18.6.0) precise; urgency=low
 
@@ -87,7 +87,7 @@ smplayer (18.6.0) precise; urgency=low
     updated. It looks like the old one had several vulnerabilities so it's
     recommended to update.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 22 Jun 2018 22:18:34 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 22 Jun 2018 22:18:34 +0200
 
 smplayer (18.5.0) precise; urgency=low
 
@@ -101,7 +101,7 @@ smplayer (18.5.0) precise; urgency=low
     This version tries to detect it and prevent it.
   * "opus" has been added to to the list of audio extensions.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 22 May 2018 19:02:36 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 22 May 2018 19:02:36 +0200
 
 smplayer (18.4.0) precise; urgency=low
 
@@ -112,7 +112,7 @@ smplayer (18.4.0) precise; urgency=low
   * Now it's possible to turn off the use of the system native file
     dialog in Preferences -> Interface.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 23 Apr 2018 21:29:56 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 23 Apr 2018 21:29:56 +0200
 
 smplayer (18.3.0) precise; urgency=low
 
@@ -120,7 +120,7 @@ smplayer (18.3.0) precise; urgency=low
     at the same time.
   * Fix a bug which prevented to play some YouTube URLs.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 20 Mar 2018 21:29:14 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 20 Mar 2018 21:29:14 +0100
 
 smplayer (18.2.2) precise; urgency=low
 
@@ -133,7 +133,7 @@ smplayer (18.2.2) precise; urgency=low
   * (mpv) Now direct3d is the default video output for Windows, since some
     users reported problems with the gpu output.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 17 Feb 2018 21:46:13 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 17 Feb 2018 21:46:13 +0100
 
 smplayer (18.2.0) precise; urgency=low
 
@@ -143,13 +143,13 @@ smplayer (18.2.0) precise; urgency=low
     in the Load/save icon, select "Load playlist from URL" and paste the URL of
     the YouTube playlist.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 23 Jan 2018 21:19:06 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 23 Jan 2018 21:19:06 +0100
 
 smplayer (18.1.0) precise; urgency=low
 
   * Fix for YouTube.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 09 Jan 2018 22:28:00 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 09 Jan 2018 22:28:00 +0100
 
 smplayer (17.12.0) precise; urgency=low
 
@@ -163,7 +163,7 @@ smplayer (17.12.0) precise; urgency=low
     mpv already removed support for it some time ago.
   * The option to open an informative page after an upgrade has been removed.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 21 Dec 2017 18:46:33 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 21 Dec 2017 18:46:33 +0100
 
 smplayer (17.11.2) precise; urgency=low
 
@@ -172,7 +172,7 @@ smplayer (17.11.2) precise; urgency=low
   * Fix: SMPlayer won't cancel logout in KDE.
   * The seek function in the MPRIS2 code has been fixed.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 15 Nov 2017 22:09:42 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 15 Nov 2017 22:09:42 +0100
 
 smplayer (17.11.0) precise; urgency=low
 
@@ -182,7 +182,7 @@ smplayer (17.11.0) precise; urgency=low
   * The option "add black borders on fullscreen" has been fixed.
   * The option "AC3/DTS passthrough over S/PDIF" has been fixed.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 02 Nov 2017 22:21:07 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 02 Nov 2017 22:21:07 +0100
 
 smplayer (17.10.2) precise; urgency=low
 
@@ -197,14 +197,14 @@ smplayer (17.10.2) precise; urgency=low
   * Fix: now the time is correctly displayed in the thumbnail generator
     pictures when SMPlayer is built with Qt 5.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 16 Oct 2017 18:33:29 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 16 Oct 2017 18:33:29 +0200
 
 smplayer (17.10.0) precise; urgency=low
 
   * Replace the deprecated video and audio filters by mpv with new ones.
   * The karaoke filter is available again when using mpv.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 29 Sep 2017 21:51:59 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 29 Sep 2017 21:51:59 +0200
 
 smplayer (17.9.0) precise; urgency=medium
 
@@ -212,13 +212,13 @@ smplayer (17.9.0) precise; urgency=medium
     a hash.
   * Fix for the OSD when using SMPlayer with mpv 0.26.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 01 Sep 2017 10:56:14 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 01 Sep 2017 10:56:14 +0200
 
 smplayer (17.8.0) precise; urgency=low
 
   * New audio filter for headphone optimization.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 09 Aug 2017 23:04:13 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 09 Aug 2017 23:04:13 +0200
 
 smplayer (17.7.0) precise; urgency=low
 
@@ -228,20 +228,20 @@ smplayer (17.7.0) precise; urgency=low
   * Fix a crash that may happen in the playlist when trying to delete selected
     items.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 04 Jul 2017 22:03:22 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 04 Jul 2017 22:03:22 +0200
 
 smplayer (17.6.0) precise; urgency=low
 
   * Possibility to convert automatically subtitles in srt format to vtt
     when playing on Chromecast.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 30 May 2017 23:59:06 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 30 May 2017 23:59:06 +0200
 
 smplayer (17.5.0) precise; urgency=medium
 
   * Fix for YouTube.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 08 May 2017 11:30:51 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 08 May 2017 11:30:51 +0200
 
 smplayer (17.4.2) precise; urgency=low
 
@@ -255,21 +255,21 @@ smplayer (17.4.2) precise; urgency=low
   * New option to use the mplayer ffhevcvdpau decoder (Linux only).
   * Avoid some crashes from mpv.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 22 Apr 2017 22:14:53 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 22 Apr 2017 22:14:53 +0200
 
 smplayer (17.4.0) precise; urgency=low
 
   * The thumbnail generator has been fixed.
   * The H2O theme is now included in the binary.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 02 Apr 2017 23:10:49 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 02 Apr 2017 23:10:49 +0200
 
 smplayer (17.3.0) precise; urgency=low
 
   * Add experimental support for subtitles for Chromecast.
   * Bug fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 05 Mar 2017 23:04:42 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 05 Mar 2017 23:04:42 +0100
 
 smplayer (17.2.0) precise; urgency=low
 
@@ -282,7 +282,7 @@ smplayer (17.2.0) precise; urgency=low
     webfs you can uninstall it now since SMPlayer won't use it anymore.
   * New translation: Norwegian Bokmål.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 02 Feb 2017 22:20:52 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 02 Feb 2017 22:20:52 +0100
 
 smplayer (17.1.0) precise; urgency=medium
 
@@ -298,7 +298,7 @@ smplayer (17.1.0) precise; urgency=medium
   * The option to delete files from the disk in the playlist's context menu
     has been removed.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 20 Jan 2017 10:37:39 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 20 Jan 2017 10:37:39 +0100
 
 smplayer (16.11.0) precise; urgency=low
 
@@ -310,7 +310,7 @@ smplayer (16.11.0) precise; urgency=low
     OSD.
   * Bug fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 05 Nov 2016 23:56:20 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 05 Nov 2016 23:56:20 +0100
 
 smplayer (16.9.0) precise; urgency=low
 
@@ -326,7 +326,7 @@ smplayer (16.9.0) precise; urgency=low
     now built again with Qt 4 by default.
   * Bug fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 09 Sep 2016 22:33:16 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 09 Sep 2016 22:33:16 +0200
 
 smplayer (16.8.0) precise; urgency=low
 
@@ -337,14 +337,14 @@ smplayer (16.8.0) precise; urgency=low
     And finally there's a new option to load a playlist from internet.
   * Bug fixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 02 Aug 2016 22:55:15 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 02 Aug 2016 22:55:15 +0200
 
 smplayer (16.7.0) precise; urgency=low
 
   * Fix for YouTube.
   * Some bug fixes mainly for Qt 5.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 03 Jul 2016 00:52:31 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 03 Jul 2016 00:52:31 +0200
 
 smplayer (16.6.0) precise; urgency=low
 
@@ -376,7 +376,7 @@ smplayer (16.6.0) precise; urgency=low
     are seekable).
   * SMPlayer is now built with Qt 5 by default.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 09 Jun 2016 23:00:32 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 09 Jun 2016 23:00:32 +0200
 
 smplayer (16.4.0) precise; urgency=low
 
@@ -404,7 +404,7 @@ smplayer (16.4.0) precise; urgency=low
   * A new layout is used to display the media information (Options -> View info and
     properties).
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 29 Mar 2016 00:22:02 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 29 Mar 2016 00:22:02 +0200
 
 smplayer (16.1.0) trusty; urgency=low
 
@@ -415,7 +415,7 @@ smplayer (16.1.0) trusty; urgency=low
   * New option 'Prevent window to get outside of screen' in
     Preferences -> Interface.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 11 Jan 2016 19:18:43 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 11 Jan 2016 19:18:43 +0100
 
 smplayer (15.11.0) precise; urgency=low
 
@@ -440,7 +440,7 @@ smplayer (15.11.0) precise; urgency=low
   * (Experimental) New action to start/stop capturing the playback stream.
   * Disable the extrastereo and karaoke filters when using mpv.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 29 Nov 2015 01:08:58 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 29 Nov 2015 01:08:58 +0100
 
 smplayer (15.9.0) precise; urgency=low
 
@@ -467,7 +467,7 @@ smplayer (15.9.0) precise; urgency=low
   * Possibility to compile SMPlayer without mplayer or mpv support.
   * The new H2O theme is now the default theme.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 28 Sep 2015 23:58:00 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 28 Sep 2015 23:58:00 +0200
 
 smplayer (14.9.0) precise; urgency=low
 
@@ -477,7 +477,7 @@ smplayer (14.9.0) precise; urgency=low
   * New fix for searching subtitles from opensubtitles.org that should
     return more results.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 06 Sep 2014 01:03:22 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 06 Sep 2014 01:03:22 +0200
 
 smplayer (14.3.0) precise; urgency=low
 
@@ -497,7 +497,7 @@ smplayer (14.3.0) precise; urgency=low
   * Many bugfixes.
   * Possibility to compile with Qt 5.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 30 Mar 2014 23:51:29 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 30 Mar 2014 23:51:29 +0200
 
 smplayer (0.8.6) precise; urgency=low
 
@@ -515,7 +515,7 @@ smplayer (0.8.6) precise; urgency=low
     Linux users can use the command "smplayer -delete-config".
   * Several other bugfixes. See the Changelog for details.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 12 Aug 2013 22:59:56 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 12 Aug 2013 22:59:56 +0200
 
 smplayer (0.8.5) precise; urgency=low
 
@@ -535,7 +535,7 @@ smplayer (0.8.5) precise; urgency=low
   * Some configuration options are changed to new defaults after installation
     to ease upgrade from old versions.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 09 May 2013 02:46:06 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 09 May 2013 02:46:06 +0200
 
 smplayer (0.8.4) precise; urgency=low
 
@@ -547,166 +547,166 @@ smplayer (0.8.4) precise; urgency=low
   * New translations: Thai and Hebrew.
   * Some bugfixes.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 23 Mar 2013 00:36:48 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 23 Mar 2013 00:36:48 +0100
 
 smplayer (0.8.3) precise; urgency=low
 
   * Fix for youtube playback.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 22 Dec 2012 00:38:41 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 22 Dec 2012 00:38:41 +0100
 
 smplayer (0.8.2.1) precise; urgency=low
 
   * Add info about youtube in the about dialog.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 26 Nov 2012 10:57:08 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 26 Nov 2012 10:57:08 +0100
 
 smplayer (0.8.2) precise; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 21 Nov 2012 01:24:56 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 21 Nov 2012 01:24:56 +0100
 
 smplayer (0.8.1) oneiric; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 19 Sep 2012 17:47:06 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 19 Sep 2012 17:47:06 +0200
 
 smplayer (0.8.0) oneiric; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 05 Apr 2012 00:18:32 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 05 Apr 2012 00:18:32 +0200
 
 smplayer (0.7.1) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 02 Mar 2012 13:31:32 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 02 Mar 2012 13:31:32 +0100
 
 smplayer (0.7.0) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 30 Jan 2012 12:13:17 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 30 Jan 2012 12:13:17 +0100
 
 smplayer (0.6.10) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 27 Dec 2011 23:52:32 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 27 Dec 2011 23:52:32 +0100
 
 smplayer (0.6.9) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 22 Feb 2010 11:59:41 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 22 Feb 2010 11:59:41 +0100
 
 smplayer (0.6.8) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 20 Jul 2009 12:32:59 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 20 Jul 2009 12:32:59 +0200
 
 smplayer (0.6.7) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 10 Mar 2009 00:35:35 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Tue, 10 Mar 2009 00:35:35 +0100
 
 smplayer (0.6.6) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 31 Dec 2008 13:56:36 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 31 Dec 2008 13:56:36 +0100
 
 smplayer (0.6.5.1) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 13 Nov 2008 02:11:24 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Thu, 13 Nov 2008 02:11:24 +0100
 
 smplayer (0.6.5) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 12 Nov 2008 02:35:29 +0100
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 12 Nov 2008 02:35:29 +0100
 
 smplayer (0.6.4) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 24 Oct 2008 17:45:16 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 24 Oct 2008 17:45:16 +0200
 
 smplayer (0.6.3) hardy; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Thu, 25 Sep 2008 00:11:17 +0200
+ -- ricardo <ricardo@smplayer.info>  Thu, 25 Sep 2008 00:11:17 +0200
 
 smplayer (0.6.2) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Wed, 13 Aug 2008 23:49:11 +0200
+ -- ricardo <ricardo@smplayer.info>  Wed, 13 Aug 2008 23:49:11 +0200
 
 smplayer (0.6.1) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Wed, 28 May 2008 02:05:23 +0200
+ -- ricardo <ricardo@smplayer.info>  Wed, 28 May 2008 02:05:23 +0200
 
 smplayer (0.6.0final) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Tue, 13 May 2008 01:07:20 +0200
+ -- ricardo <ricardo@smplayer.info>  Tue, 13 May 2008 01:07:20 +0200
 
 smplayer (0.6.0rc4) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Tue, 15 Apr 2008 01:17:56 +0200
+ -- ricardo <ricardo@smplayer.info>  Tue, 15 Apr 2008 01:17:56 +0200
 
 smplayer (0.6.0rc3) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Sat, 22 Mar 2008 13:16:15 +0100
+ -- ricardo <ricardo@smplayer.info>  Sat, 22 Mar 2008 13:16:15 +0100
 
 smplayer (0.6.0rc2) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Wed, 13 Feb 2008 01:17:06 +0100
+ -- ricardo <ricardo@smplayer.info>  Wed, 13 Feb 2008 01:17:06 +0100
 
 smplayer (0.6.0rc1) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Thu, 31 Jan 2008 00:54:26 +0100
+ -- ricardo <ricardo@smplayer.info>  Thu, 31 Jan 2008 00:54:26 +0100
 
 smplayer (0.5.62) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Sat, 17 Nov 2007 00:35:49 +0100
+ -- ricardo <ricardo@smplayer.info>  Sat, 17 Nov 2007 00:35:49 +0100
 
 smplayer (0.5.61) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Wed, 10 Oct 2007 01:10:40 +0200
+ -- ricardo <ricardo@smplayer.info>  Wed, 10 Oct 2007 01:10:40 +0200
 
 smplayer (0.5.60) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@users.sourceforge.net>  Wed, 19 Sep 2007 22:29:06 +0200
+ -- ricardo <ricardo@smplayer.info>  Wed, 19 Sep 2007 22:29:06 +0200
 
 smplayer (0.5.59) unstable; urgency=low
 
   * Initial Release.
 
- -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 08 Aug 2007 01:02:48 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Wed, 08 Aug 2007 01:02:48 +0200

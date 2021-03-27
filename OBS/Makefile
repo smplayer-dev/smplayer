@@ -22,7 +22,7 @@ $(DSC_FILE): Makefile
 	echo "Binary: $(PACKAGE)" >> $(DSC_FILE)
 	echo "Architecture: any" >> $(DSC_FILE)
 	echo "Version: $(VERSION)" >> $(DSC_FILE)
-	echo "Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>" >> $(DSC_FILE)
+	echo "Maintainer: Ricardo Villalba <ricardo@smplayer.info>" >> $(DSC_FILE)
 	echo "Standards-Version: 3.9.7" >> $(DSC_FILE)
 	echo "Build-Depends: $(DEPENDS)" >> $(DSC_FILE)
 	echo "DEBTRANSFORM-TAR: $(PACKAGE)-$(VERSION).tar.bz2" >> $(DSC_FILE)

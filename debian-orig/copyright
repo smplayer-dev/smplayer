@@ -306,8 +306,7 @@ Files:     Readme.txt
            src/youtube/retrieveyoutubeurl.cpp
            src/youtube/retrieveyoutubeurl.h
            webserver/main.c
-Copyright: 2006-2020 Ricardo Villalba <rvm@escomposlinux.org>
-           2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
            2008 matt_ <matt@endboss.org>
            2010 Ori Rejwan
 License:   GPL-2.0+
@@ -743,7 +742,7 @@ License:   __UNKNOWN__
 Files:     src/mpris2/mediaplayer2.h
            src/mpris2/mediaplayer2player.h
            src/mpris2/mpris2.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -787,7 +786,7 @@ License:   GPL-2.0
 Files:     src/mpris2/mediaplayer2.cpp
            src/mpris2/mediaplayer2player.cpp
            src/mpris2/mpris2.cpp
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -863,7 +862,7 @@ License:   Zlib
 
 Files:     src/shortcutgetter.cpp
            src/shortcutgetter.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -891,7 +890,7 @@ License:   GPL-2.0+
 
 Files:     src/actionseditor.cpp
            src/actionseditor.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -917,7 +916,7 @@ License:   GPL-2.0+
 
 Files:     src/myslider.cpp
            src/myslider.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   LGPL-2.1
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -1372,7 +1371,7 @@ License:   Zlib
  (zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
 
 Files:     src/winfileassoc.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1398,7 +1397,7 @@ License:   GPL-2.0+
  Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files:     src/filters.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1423,7 +1422,7 @@ License:   GPL-2.0+
  Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files:     src/tristatecombo.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1473,7 +1472,7 @@ License:   GPL-2.0+
  Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files:     src/prefassociations.h
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1499,7 +1498,7 @@ License:   GPL-2.0+
  Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files:     src/prefassociations.cpp
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1525,7 +1524,7 @@ License:   GPL-2.0+
  Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 Files:     src/winfileassoc.cpp
-Copyright: 2006-2020 Ricardo Villalba <rvm@users.sourceforge.net>
+Copyright: 2006-2020 Ricardo Villalba <ricardo@smplayer.info>
 License:   GPL-2.0+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -1732,7 +1731,7 @@ License:   __UNKNOWN__
  $Id: zlib-streams.adb,v 1.10 2004/05/31 10:53:40 vagul Exp $
 
 Files:     os2/liesmich.os2
-Copyright: 2006-2013 RVM <rvm@users.sourceforge.net>.
+Copyright: 2006-2013 RVM <ricardo@smplayer.info>.
            2008-2012 Silvan Scherrer.
 License:   __UNKNOWN__
  Dieses Programm ist freie Software; Sie knnen es unter den Bedingungen
@@ -2010,7 +2009,7 @@ License:   __UNKNOWN__
  See puff.c for purpose and usage.
 
 Files:     os2/readme.os2
-Copyright: 200-2013 RVM <rvm@users.sourceforge.net>.
+Copyright: 200-2013 RVM <ricardo@smplayer.info>.
            2008-2012 Silvan Scherrer.
 License:   __UNKNOWN__
  This program is free software; you can redistribute it and/or modify
@@ -2336,7 +2335,7 @@ License:   __UNKNOWN__
  U.S. National Library of Medicine (rodgers@nlm.nih.gov).
 
 Files:     os2/lisezmoi.os2
-Copyright: 2006-2013 de RVM <rvm@users.sourceforge.net>.
+Copyright: 2006-2013 de RVM <ricardo@smplayer.info>.
            2008-2012 de Silvan Scherrer.
 License:   __UNKNOWN__
  Ce programme est un gratuiciel ; vous pouvez le redistribuer et/ou
