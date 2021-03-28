@@ -33,6 +33,8 @@ void MediaData::reset() {
 	dvd_id="";
 	type = TYPE_UNKNOWN;
 	duration=0;
+        markerA=-1;
+        markerB=-1;
 
 	extra_params.clear();
 
@@ -108,6 +110,8 @@ void MediaData::list() {
 
 	qDebug("  filename: '%s'", filename.toUtf8().data());
 	qDebug("  duration: %f", duration);
+        qDebug("  markerA: %f", markerA);
+        qDebug("  markerB: %f", markerB);
 
 	qDebug("  video_width: %d", video_width); 
 	qDebug("  video_height: %d", video_height); 

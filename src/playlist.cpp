@@ -1257,7 +1257,7 @@ void Playlist::loadYoutubeList(QList<itemMap> list) {
 	qDebug() << "Playlist::loadYoutubeList: list:" << list;
 	clear();
 	foreach(itemMap item, list) {
-		addItem(item["url"], item["title"], item["duration"].toDouble());
+		addItem(item["url"], item["title"], item["duration"].toDouble(), -1, -1);
 	}
 	setModified( false );
 
