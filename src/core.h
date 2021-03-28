@@ -34,11 +34,7 @@ class MplayerWindow;
 class QSettings;
 
 #ifdef SCREENSAVER_OFF
-#ifdef Q_OS_WIN
-class WinScreenSaver;
-#else
-class PowerSaving;
-#endif
+class ScreenSaver;
 #endif
 
 #ifdef YOUTUBE_SUPPORT
@@ -565,11 +561,7 @@ protected:
 #endif
 
 #ifdef SCREENSAVER_OFF
-	#ifdef Q_OS_WIN
-	WinScreenSaver * win_screensaver;
-	#else
-	PowerSaving * power_saving;
-	#endif
+	ScreenSaver * screensaver;
 #endif
 
 #ifdef YOUTUBE_SUPPORT

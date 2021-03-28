@@ -50,11 +50,7 @@
 #endif
 
 #ifdef SCREENSAVER_OFF
-#ifdef Q_OS_WIN
 #include "screensaver.h"
-#else
-#include "powersaving.h"
-#endif
 #endif
 
 #include "filesettings.h"
@@ -282,11 +278,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
 #ifdef SCREENSAVER_OFF
-	#ifdef Q_OS_WIN
-	win_screensaver = new WinScreenSaver();
-	#else
-	power_saving = new PowerSaving(this);
-	#endif
+	screensaver = new ScreenSaver(this);
 	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
 	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
 	connect( proc, SIGNAL(error(QProcess::ProcessError)), this, SLOT(enableScreensaver()) );
@@ -318,10 +310,6 @@ Core::~Core() {
 	delete file_settings;
 #ifdef TV_SUPPORT
 	delete tv_settings;
-#endif
-
-#if defined(SCREENSAVER_OFF) && defined(Q_OS_WIN)
-	delete win_screensaver;
 #endif
 
 #ifdef YOUTUBE_SUPPORT
@@ -605,27 +593,25 @@ void Core::YTNoVideoUrl() {
 void Core::enableScreensaver() {
 	qDebug("Core::enableScreensaver");
 	#ifdef Q_OS_WIN
-	if (pref->turn_screensaver_off) {
-		win_screensaver->enable();
-	}
+	bool change_screensaver = pref->turn_screensaver_off;
 	#else
-	if (pref->disable_screensaver) {
-		power_saving->uninhibit();
-	}
+	bool change_screensaver = pref->disable_screensaver;
 	#endif
+	if (change_screensaver) {
+		screensaver->enable();
+	}
 }
 
 void Core::disableScreensaver() {
 	qDebug("Core::disableScreensaver");
 	#ifdef Q_OS_WIN
-	if (pref->turn_screensaver_off) {
-		win_screensaver->disable();
-	}
+	bool change_screensaver = pref->turn_screensaver_off;
 	#else
-	if (pref->disable_screensaver) {
-		power_saving->inhibit();
-	}
+	bool change_screensaver = pref->disable_screensaver;
 	#endif
+	if (change_screensaver) {
+		screensaver->disable();
+	}
 }
 #endif
 
