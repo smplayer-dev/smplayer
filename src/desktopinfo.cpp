@@ -76,24 +76,14 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 
 	qDebug() << "DesktopInfo::isInsideScreen: center point of window:" << p;
 
-	bool inside_screen = false;
-
 #if QT_VERSION >= 0x050000
-	foreach (QScreen * screen, QApplication::screens()) {
-		QRect r = screen->geometry();
-		qDebug() << "DesktopInfo::isInsideScreen: screen:" << screen << r;
-		if (r.contains(p)) inside_screen = true;
-	}
+	QRect r = QApplication::primaryScreen()->availableVirtualGeometry();
 #else
-	QDesktopWidget * dw = QApplication::desktop();
-	for (int n = 0; n < dw->screenCount(); n++) {
-		QRect r =  dw->screenGeometry(n);
-		qDebug() << "DesktopInfo::isInsideScreen: screen:" << n+1 << r;
-		if (r.contains(p)) inside_screen = true;
-	}
+	QRect r = QApplication::desktop()->geometry();
 #endif
 
-	return inside_screen;
+	qDebug() << "DesktopInfo::isInsideScreen: virtual geometry:" << r;
+	return r.contains(p);
 }
 
 QPoint DesktopInfo::topLeftPrimaryScreen() {
