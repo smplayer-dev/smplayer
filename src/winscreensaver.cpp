@@ -18,7 +18,7 @@
 
 #include <Qt>
 #include <QSysInfo>
-#include "screensaver.h"
+#include "winscreensaver.h"
 #ifndef Q_OS_OS2
 #include <windows.h>
 #endif
