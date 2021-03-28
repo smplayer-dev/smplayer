@@ -562,14 +562,16 @@ contains( DEFINES, CHROMECAST_SUPPORT ) {
 }
 
 contains( DEFINES, SCREENSAVER_OFF ) {
+	HEADERS += screensaver.h
+	SOURCES += screensaver.cpp
 	unix {
 		QT += dbus
 		HEADERS += powersaving.h
 		SOURCES += powersaving.cpp
 	}
 	win32 {
-		HEADERS += screensaver.h
-		SOURCES += screensaver.cpp
+		HEADERS += winscreensaver.h
+		SOURCES += winscreensaver.cpp
 	}
 }
 
