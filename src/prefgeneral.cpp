@@ -86,6 +86,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	#endif
 	wayland_check->hide();
 #else
+	#ifndef SCREENSAVER_OFF
+	screensaver_check->hide();
+	#endif
 	screensaver_group->hide();
 #endif
 
@@ -292,7 +295,9 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAvoidScreensaver( pref->avoid_screensaver );
 	#endif
 #else
+	#ifdef SCREENSAVER_OFF
 	setDisableScreensaver( pref->disable_screensaver );
+	#endif
 	wayland_check->setChecked(pref->wayland_workarounds);
 #endif
 
@@ -403,7 +408,9 @@ void PrefGeneral::getData(Preferences * pref) {
 	pref->avoid_screensaver = avoidScreensaver();
 	#endif
 #else
+	#ifdef SCREENSAVER_OFF
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
+	#endif
 	if (pref->wayland_workarounds != wayland_check->isChecked()) {
 		requires_restart = true;
 		pref->wayland_workarounds = wayland_check->isChecked();

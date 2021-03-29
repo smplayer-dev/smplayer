@@ -1832,7 +1832,7 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->setOption("dr", pref->use_direct_rendering);
 	proc->setOption("double", pref->use_double_buffer);
 
-#ifdef Q_WS_X11
+#if defined(Q_WS_X11) && defined(SCREENSAVER_OFF)
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
 #endif
 
