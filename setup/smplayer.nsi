@@ -379,7 +379,7 @@ Section $(Section_SMPlayer) SecSMPlayer
       Call Backup_Codecs
 !endif
       Call Backup_YTDL
-      Call Backup_SMTube
+      ;Call Backup_SMTube
 
       ${If} "$INSTDIR" == "$SMPlayer_Path"
         ExecWait '"$SMPlayer_UnStrPath" /S /R _?=$SMPlayer_Path'
@@ -791,6 +791,7 @@ ${MementoSectionDone}
   Delete "$INSTDIR\Qt*.dll"
   Delete "$INSTDIR\libeay32.dll"
   Delete "$INSTDIR\ssleay32.dll"
+  Delete "$INSTDIR\lib*.dll"
   Delete "$INSTDIR\sample.avi"
 
   ;Delete registry keys
