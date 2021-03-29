@@ -115,15 +115,13 @@ public:
 #ifdef SCREENSAVER_OFF
 	bool disable_screensaver;
 #endif
-#ifdef Q_OS_WIN
-	#ifdef AVOID_SCREENSAVER
+#if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	bool avoid_screensaver;
-	#endif
-#else
-	bool wayland_workarounds;
 #endif
 
 #ifndef Q_OS_WIN
+	bool wayland_workarounds;
+
 	struct VDPAU_settings {
 		bool ffh264vdpau;
 		bool ffmpeg12vdpau;

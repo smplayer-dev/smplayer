@@ -142,15 +142,13 @@ void Preferences::reset() {
 #ifdef SCREENSAVER_OFF
 	disable_screensaver = true;
 #endif
-#ifdef Q_OS_WIN
-	#ifdef AVOID_SCREENSAVER
+#if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	avoid_screensaver = true;
-	#endif
-#else
-	wayland_workarounds = true;
 #endif
 
 #ifndef Q_OS_WIN
+	wayland_workarounds = true;
+
 	vdpau.ffh264vdpau = true;
 	vdpau.ffmpeg12vdpau = true;
 	vdpau.ffwmv3vdpau = true;
@@ -722,15 +720,13 @@ void Preferences::save() {
 #ifdef SCREENSAVER_OFF
 	set->setValue("disable_screensaver", disable_screensaver);
 #endif
-#ifdef Q_OS_WIN
-	#ifdef AVOID_SCREENSAVER
+#if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	set->setValue("avoid_screensaver", avoid_screensaver);
-	#endif
-#else
-	set->setValue("wayland_workarounds", wayland_workarounds);
 #endif
 
 #ifndef Q_OS_WIN
+	set->setValue("wayland_workarounds", wayland_workarounds);
+
 	set->setValue("vdpau_ffh264vdpau", vdpau.ffh264vdpau);
 	set->setValue("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau);
 	set->setValue("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau);
@@ -1317,15 +1313,13 @@ void Preferences::load() {
 #ifdef SCREENSAVER_OFF
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
 #endif
-#ifdef Q_OS_WIN
-	#ifdef AVOID_SCREENSAVER
+#if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
-	#endif
-#else
-	wayland_workarounds = set->value("wayland_workarounds", wayland_workarounds).toBool();
 #endif
 
 #ifndef Q_OS_WIN
+	wayland_workarounds = set->value("wayland_workarounds", wayland_workarounds).toBool();
+
 	vdpau.ffh264vdpau = set->value("vdpau_ffh264vdpau", vdpau.ffh264vdpau).toBool();
 	vdpau.ffmpeg12vdpau = set->value("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau).toBool();
 	vdpau.ffwmv3vdpau = set->value("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau).toBool();
