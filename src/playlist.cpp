@@ -1218,8 +1218,13 @@ void Playlist::loadXSPF(const QString & filename) {
 			QString location = QUrl::fromPercentEncoding(track.firstChildElement("location").text().toLatin1());
 			QString title = track.firstChildElement("title").text();
 			int duration = track.firstChildElement("duration").text().toInt();
-			int markerA = track.firstChildElement("smp:markerA").text().toInt();
-			int markerB = track.firstChildElement("smp:markerB").text().toInt();
+                        QDomNode extension = track.firstChildElement("extension");
+                        int markerA = -1;
+                        int markerB = -1;
+                        if (!extension.isNull()) {
+			   markerA = extension.firstChildElement("smp:markerA").text().toInt();
+			   markerB = extension.firstChildElement("smp:markerB").text().toInt();
+                        }
 
 			qDebug() << "Playlist::loadXSPF: location:" << location;
 			qDebug() << "Playlist::loadXSPF: title:" << title;
@@ -1453,12 +1458,16 @@ bool Playlist::saveXSPF(const QString & filename) {
 			stream << "\t\t\t<location>" << filename << "</location>\n";
 			stream << "\t\t\t<title>" << title << "</title>\n";
 			stream << "\t\t\t<duration>" << duration << "</duration>\n";
-			if (i->markerA() > 0) {
-				stream << "\t\t\t<smp:markerA>" << i->markerA() << "</smp:markerA>\n";
-			}
-			if (i->markerB() > 0) {
-				stream << "\t\t\t<smp:markerB>" << i->markerB() << "</smp:markerB>\n";
-			}
+                        if (i->markerA() > 0 || i->markerB() > 0) {
+                                stream << "\t\t\t<extension application=\"http://smplayer.info\">\n";
+			        if (i->markerA() > 0) {
+				        stream << "\t\t\t\t<smp:markerA>" << i->markerA() << "</smp:markerA>\n";
+			        }
+			        if (i->markerB() > 0) {
+				        stream << "\t\t\t\t<smp:markerB>" << i->markerB() << "</smp:markerB>\n";
+			        }
+                                stream << "\t\t\t</extension>\n";
+                        }
 			stream << "\t\t</track>\n";
 		}
 
