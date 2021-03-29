@@ -112,15 +112,14 @@ public:
 	bool add_blackborders_on_fullscreen;
 #endif
 
+#ifdef SCREENSAVER_OFF
+	bool disable_screensaver;
+#endif
 #ifdef Q_OS_WIN
-	#ifdef SCREENSAVER_OFF
-	bool turn_screensaver_off;
-	#endif
 	#ifdef AVOID_SCREENSAVER
 	bool avoid_screensaver;
 	#endif
 #else
-	bool disable_screensaver;
 	bool wayland_workarounds;
 #endif
 

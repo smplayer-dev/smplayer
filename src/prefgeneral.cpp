@@ -286,7 +286,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
-	setTurnScreensaverOff( pref->turn_screensaver_off );
+	setTurnScreensaverOff( pref->disable_screensaver );
 	#endif
 	#ifdef AVOID_SCREENSAVER
 	setAvoidScreensaver( pref->avoid_screensaver );
@@ -397,7 +397,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
-	TEST_AND_SET(pref->turn_screensaver_off, turnScreensaverOff());
+	TEST_AND_SET(pref->disable_screensaver, turnScreensaverOff());
 	#endif
 	#ifdef AVOID_SCREENSAVER
 	pref->avoid_screensaver = avoidScreensaver();

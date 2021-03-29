@@ -592,24 +592,14 @@ void Core::YTNoVideoUrl() {
 #ifdef SCREENSAVER_OFF
 void Core::enableScreensaver() {
 	qDebug("Core::enableScreensaver");
-	#ifdef Q_OS_WIN
-	bool change_screensaver = pref->turn_screensaver_off;
-	#else
-	bool change_screensaver = pref->disable_screensaver;
-	#endif
-	if (change_screensaver) {
+	if (pref->disable_screensaver) {
 		screensaver->enable();
 	}
 }
 
 void Core::disableScreensaver() {
 	qDebug("Core::disableScreensaver");
-	#ifdef Q_OS_WIN
-	bool change_screensaver = pref->turn_screensaver_off;
-	#else
-	bool change_screensaver = pref->disable_screensaver;
-	#endif
-	if (change_screensaver) {
+	if (pref->disable_screensaver) {
 		screensaver->disable();
 	}
 }
