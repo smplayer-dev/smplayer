@@ -133,7 +133,11 @@ QMap<QString,QString> Languages::list() {
 	l["mt"] = tr("Maltese");
 	l["my"] = tr("Burmese");
 	l["na"] = tr("Nauru");
+#if QT_VERSION >= 0x050000
+	l["nb"] = tr("Bokmål");
+#else
 	l["nb"] = trUtf8("Bokmål");
+#endif
 	l["nd"] = tr("Ndebele");
 	l["ne"] = tr("Nepali");
 	l["ng"] = tr("Ndonga");
@@ -197,7 +201,11 @@ QMap<QString,QString> Languages::list() {
 	l["uz"] = tr("Uzbek");
 	l["ve"] = tr("Venda");
 	l["vi"] = tr("Vietnamese");
+#if QT_VERSION >= 0x050000
+	l["vo"] = tr("Volapük");
+#else
 	l["vo"] = trUtf8("Volapük");
+#endif
 	l["wa"] = tr("Walloon");
 	l["wo"] = tr("Wolof");
 	l["xh"] = tr("Xhosa");
