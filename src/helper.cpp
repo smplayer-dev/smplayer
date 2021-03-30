@@ -27,6 +27,7 @@
 #include <QDebug>
 #include "config.h"
 #include "extensions.h"
+#include "qtcompat.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // For the screensaver stuff
@@ -349,7 +350,7 @@ QStringList Helper::resolveSymlinks(const QStringList & files) {
 #ifndef Q_OS_WIN
 QString Helper::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
-	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QString::SkipEmptyParts);
+	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
 	for (int n = 0; n < search_paths.count(); n++) {
 		QString candidate = search_paths[n] + "/" + name;
 		qDebug("Helper::findExecutable: candidate: %s", candidate.toUtf8().constData());
