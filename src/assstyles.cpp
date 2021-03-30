@@ -21,6 +21,7 @@
 #include <QFile>
 #include <QTextStream>
 #include "colorutils.h"
+#include "qtcompat.h"
 
 AssStyles::AssStyles() {
 	fontname = "Arial";
@@ -109,12 +110,12 @@ bool AssStyles::exportStyles(const QString & filename) const {
 		QColor bgcolor = outlinecolor;
 		if (is_opaque) bgcolor = backgroundcolor;
 
-		out << "[Script Info]" << endl;
-		out << "ScriptType: v4.00+" << endl;
-		out << "Collisions: Normal" << endl;
-		out << endl;
-		out << "[V4+ Styles]" << endl;
-		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, OutlineColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << endl;
+		out << "[Script Info]" << QTC_endl;
+		out << "ScriptType: v4.00+" << QTC_endl;
+		out << "Collisions: Normal" << QTC_endl;
+		out << QTC_endl;
+		out << "[V4+ Styles]" << QTC_endl;
+		out << "Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, OutlineColour, Bold, Italic, Alignment, BorderStyle, Outline, Shadow, MarginL, MarginR, MarginV" << QTC_endl;
 		out << "Style: Default,";
 		out << fontname << "," ;
 		out << fontsize << "," ;
@@ -130,7 +131,7 @@ bool AssStyles::exportStyles(const QString & filename) const {
 		out << marginl << "," ;
 		out << marginr << "," ;
 		out << marginv;
-		out << endl;
+		out << QTC_endl;
 
 		f.close();
 		return true;

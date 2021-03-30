@@ -23,8 +23,10 @@
 
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 14, 0))
 #define QTC_SkipEmptyParts Qt::SkipEmptyParts
+#define QTC_endl Qt::endl
 #else
 #define QTC_SkipEmptyParts QString::SkipEmptyParts
+#define QTC_endl endl
 #endif
 
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 5, 0))
