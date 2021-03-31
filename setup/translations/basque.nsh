@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayer-entzat. 
 
 ${LangFileString} Section_MPV_Desc "MPlayer eta MPlayer2-ren ezaugarri-aberatseko adar bat"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
 ${LangFileString} Section_IconThemes "Ikur Azalgaiak"

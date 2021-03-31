@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "給 MPlayer 使用的非必須解�
 
 ${LangFileString} Section_MPV_Desc "MPlayer 與 MPlayer2 一個功能豐富的分支"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "一個伴隨安裝的程式 MPlayer，可以用來解碼或轉換支援的聲音檔或影片檔。"
 
 ${LangFileString} Section_IconThemes "圖示主題"

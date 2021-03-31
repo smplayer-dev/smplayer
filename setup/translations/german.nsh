@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer. (In
 
 ${LangFileString} Section_MPV_Desc "Eine funktionsreiche Abspaltung von MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Ein Begleiterprogramm zum MPlayer, das zum codieren oder zum transformieren von unterstützten Ton- oder Video-Strömen verwendet werden kann."
 
 ${LangFileString} Section_IconThemes "Symbolthemen"

@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选解码�
 
 ${LangFileString} Section_MPV_Desc "MPlayer 和 MPlayer2 的一个特性增强分支"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "MPlayer 的配套程序，可以用来编码或转换支持的音频/视频流。"
 
 ${LangFileString} Section_IconThemes "图标主题"

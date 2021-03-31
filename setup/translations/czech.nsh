@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro 
 
 ${LangFileString} Section_MPV_Desc "Funkcemi nabitý fork MPlayeru && MPlayeru2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."
 
 ${LangFileString} Section_IconThemes "Témata ikon"

@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Valinnaiset koodekit MPlayerille (
 
 ${LangFileString} Section_MPV_Desc "Monipuolinen työkalu ohjelmille MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "MPlayer-kumppaniohjelma, jota voidaan käyttää tuettujen ääni- tai videosuoratoiston purkamiseen tai muuntamiseen."
 
 ${LangFileString} Section_IconThemes "Kuvaketeemat"

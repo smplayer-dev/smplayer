@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodek tambahan untuk MPlayer. (Kon
 
 ${LangFileString} Section_MPV_Desc "Sebuah cabang yang kaya fitur dari MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Teman Aplikasi dari MPlater yang dapat menggunakan encode atau transformasi audio yang didukung atau video streaming."
 
 ${LangFileString} Section_IconThemes "Tema Ikon"

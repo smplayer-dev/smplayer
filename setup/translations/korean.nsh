@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer용 추가 코덱. (설치�
 
 ${LangFileString} Section_MPV_Desc "다기능의 MPlayer && MPlayer2를 이용한 개발"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "지원하는 오디오 비디오 스트림을 인코딩하거나 변환하는데 사용할 수 있는 MPlayer의 추가 프로그램."
 
 ${LangFileString} Section_IconThemes "아이콘 테마"

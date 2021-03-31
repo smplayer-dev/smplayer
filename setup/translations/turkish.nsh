@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer için isteğe bağlı kode
 
 ${LangFileString} Section_MPV_Desc "Özellik açısından zengin bir MPlayer && MPlayer2 çatallaması"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Desteklenen ses veya video yayınlarını çözmek veya dönüştürmek için kullanılabilen, MPlayer'a eşlik eden bir program."
 
 ${LangFileString} Section_IconThemes "Simge Temaları"

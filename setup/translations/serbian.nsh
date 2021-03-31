@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Опциони кодеци за �
 
 ${LangFileString} Section_MPV_Desc "Могућностима богат наследник МПлејера2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Пратећи програм за МПлејер који се може користити за кодирање или трансформацију подржаних звучних или видео токова."
 
 ${LangFileString} Section_IconThemes "Теме икона"

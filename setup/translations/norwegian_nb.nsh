@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Valgfrie kodeker for MPlayer. (Int
 
 ${LangFileString} Section_MPV_Desc "En funksjonsrik avsporing av MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Et følgesprogram til MPlayer som kan brukes til å omkode eller transformere støttede lyd- eller videostrømmer."
 
 ${LangFileString} Section_IconThemes "Ikonstiler"

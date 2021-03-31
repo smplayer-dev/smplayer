@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Допълнителни коде�
 
 ${LangFileString} Section_MPV_Desc "Обогатена обвивка за MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Допълваща програма на MPlayer, която може да кодира или пренася поддържани звукови или видео потоци."
 
 ${LangFileString} Section_IconThemes "Теми с икони"

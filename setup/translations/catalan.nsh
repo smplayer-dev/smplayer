@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Còdecs opcionals per a MPlayer. (
 
 ${LangFileString} Section_MPV_Desc "Un fork ric en característiques de MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Un programa que acompanya MPlayer que es pot utilitzar per codificar o transformar els fluxos compatibles d'àudio o de vídeo."
 
 ${LangFileString} Section_IconThemes "Temes d'icones"

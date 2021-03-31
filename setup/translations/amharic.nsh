@@ -86,6 +86,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "በ ምርጫ codecs ለ MPlayer. 
 
 ${LangFileString} Section_MPV_Desc "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "አጋር ፕሮግራም ለ MPlayer መጠቀም ይችላሉ ለ encode ወይንም መቀየር የ ተደገፉ ድምፅ ወይንም ቪዲዮዎች ለማስተላለፍ"
 
 ${LangFileString} Section_IconThemes "የ ምልክት ገጽታዎች"

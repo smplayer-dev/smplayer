@@ -481,7 +481,16 @@ SectionGroup $(MPlayerMPVGroupTitle)
   File /r /x mpv64.exe /x mpv64.com /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
 
-/*
+  ${MementoSectionEnd}
+
+SectionGroupEnd
+
+;--------------------------------
+;Youtube-dl
+${MementoSection} $(Section_YTDL) SecYTDL
+
+  SetOutPath "$INSTDIR\mpv"
+
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
     CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
 
@@ -489,7 +498,6 @@ SectionGroup $(MPlayerMPVGroupTitle)
     NsExec::ExecToLog '"$INSTDIR\mpv\youtube-dl.exe" -U'
 
     Goto check_ytdl
-*/
 
   YTDL:
   INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "https://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
@@ -513,9 +521,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
   skip_ytdl:
 
-  ${MementoSectionEnd}
-
-SectionGroupEnd
+${MementoSectionEnd}
 
 ;--------------------------------
 ;Icon themes
@@ -655,6 +661,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} $(Section_MPV_Desc)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecYTDL} $(Section_YTDL_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END

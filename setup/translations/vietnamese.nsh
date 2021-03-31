@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Những bộ mã tuỳ chọn cho 
 
 ${LangFileString} Section_MPV_Desc "Một bản sao đa tính năng của MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Một chương trình đi kèm với MPlayer, có thể dùng để chuyển mã hoặc chuyển đổi dòng dữ liệu âm thanh hoặc video được hỗ trợ."
 
 ${LangFileString} Section_IconThemes "Chủ đề biểu tượng"

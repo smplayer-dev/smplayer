@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Codecs ทางเลือกส
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "โปรแกรมสหายของ MPlayer ที่สามารถใช้เข้ารหัสหรือแปลงกระแสเสียงหรือวิดีโอที่รองรับ"
 
 ${LangFileString} Section_IconThemes "รูปลักษณ์ไอคอน"

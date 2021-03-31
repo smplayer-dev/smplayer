@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks pilihan untuk MPlayer. (Sam
 
 ${LangFileString} Section_MPV_Desc "Cabang kaya-fitur bagi MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod atau jelma audio disokong atau strim video."
 
 ${LangFileString} Section_IconThemes "Tema Ikon"

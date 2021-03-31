@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Voliteľné kodeky pre MPlayer. (i
 
 ${LangFileString} Section_MPV_Desc "Bohaté funkcie MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Prídavný program k Mplayer-u, ktorý umožňuje enkódovať alebo upraviť podporované audio a video streamy."
 
 ${LangFileString} Section_IconThemes "Témy ikon"

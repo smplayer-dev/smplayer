@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Codecuri suplimentare pentru MPlay
 
 ${LangFileString} Section_MPV_Desc "O versiune îmbunătățită a MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Un program însoțitor pentru MPlayer care poate fi utilizat să codeze sau să transforme fluxurile audio sau video suportate."
 
 ${LangFileString} Section_IconThemes "Tematici pictograme"

@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Προαιρετικοί κωδι�
 
 ${LangFileString} Section_MPV_Desc "Μια πλούσια σε χαρακτηριστικά δικράνωση του MPlayer && MPlayer2"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Ένα συνοδευτικό πρόγραμμα στο MPlayer το οποίο μπορεί να χρησιμοποιηθεί για την κωδικοποίηση ή την μεταμόρφωση των υποστηριζόμενων ροών ήχου ή βίντεο."
 
 ${LangFileString} Section_IconThemes "Θέματα εικονιδίων"

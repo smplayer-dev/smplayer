@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "További kodekek az MPlayer szám�
 
 ${LangFileString} Section_MPV_Desc "Az MPlayer && MPlayer2 funkciókban gazdag forkja"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "Az MPlayer segédprogramja, mely audió- és videó sugárzások átkódolására és átalakítására használható."
 
 ${LangFileString} Section_IconThemes "Ikontémák"

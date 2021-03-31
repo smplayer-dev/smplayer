@@ -51,6 +51,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コー�
 
 ${LangFileString} Section_MPV_Desc "MPlayer と MPlayer2 の機能豊富なフォークです。"
 
+${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
 ${LangFileString} Section_IconThemes "アイコン テーマ"
