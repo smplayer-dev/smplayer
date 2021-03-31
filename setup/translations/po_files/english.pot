@@ -345,3 +345,6 @@ msgstr ""
 msgid "Cleaning SMPlayer settings..."
 msgstr ""
 
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr ""

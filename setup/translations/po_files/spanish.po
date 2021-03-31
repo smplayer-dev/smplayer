@@ -1,3 +1,7 @@
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr "Los códecs binarios no están disponibles en esta versión."
+
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
 msgstr "Borrando la configuración de SMPlayer..."
@@ -23,7 +27,8 @@ msgstr "Se necesita Visual C++ 2010 Runtime (x86) para youtube-dl."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr "Aviso: youtube-dl ha finalizado anormalmente con código: $YTDL_Exit_code"
+msgstr ""
+"Aviso: youtube-dl ha finalizado anormalmente con código: $YTDL_Exit_code"
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
@@ -264,11 +269,11 @@ msgstr "Un programa opcional que puede ser usado para recodificar vídeos."
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
-msgstr ""
+msgstr "Proporciona la posibilidad de reproducir vídeos de Youtube."
 
 # Section_YTDL
 msgid "Youtube support"
-msgstr ""
+msgstr "Soporte para Youtube"
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
@@ -404,38 +409,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "No se ha podido descargar Youtube-DL: '$R0'."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "No se ha podido instalar MPV."
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "No se ha podido descargar MPV: '$R0'."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "MPV no se ha instalado correctamente. ¿Reintentar?"
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "Descargando MPV..."
+# Info_MPV_Backup
+#~ msgid "Backing up MPV..."
+#~ msgstr "Creando una copia de MPV..."
 
 # Info_MPV_Restore
 #~ msgid "Restoring MPV from previous installation..."
 #~ msgstr "Restaurando MPV desde una instalación anterior..."
 
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "Creando una copia de MPV..."
+# MPV_DL_Msg
+#~ msgid "Downloading MPV..."
+#~ msgstr "Descargando MPV..."
 
-# Section_MPlayerCodecs_Desc
-#~ msgid "Binary codecs are not supported in this version."
-#~ msgstr "Los códecs binarios no están disponibles en esta versión."
+# MPV_DL_Retry
+#~ msgid "MPV was not successfully installed. Retry?"
+#~ msgstr "MPV no se ha instalado correctamente. ¿Reintentar?"
+
+# MPV_DL_Failed
+#~ msgid "Failed to download MPV: '$R0'."
+#~ msgstr "No se ha podido descargar MPV: '$R0'."
+
+# MPV_Inst_Failed
+#~ msgid "Failed to install MPV."
+#~ msgstr "No se ha podido instalar MPV."
+
+# YTDL_DL_Retry
+#~ msgid "YouTube-DL was not successfully installed. Retry?"
+#~ msgstr "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
+
+# YTDL_DL_Failed
+#~ msgid "Failed to download Youtube-DL: '$R0'."
+#~ msgstr "No se ha podido descargar Youtube-DL: '$R0'."
