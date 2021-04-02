@@ -1,0 +1,27 @@
+# Controls when the action will run. 
+on:
+  pull_request:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Build application
+      - name: Install development packages
+        run: sudo apt-get install zlib1g-dev fakeroot build-essential devscripts debhelper g++ qtbase5-dev qt5-qmake qt5-default qtscript5-dev qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev
+      - name: Build smplayer
+        #run: |
+        #  ./get_svn_revision.sh
+        #  cd src
+        #  qmake
+        #  make
+        run: ./create_deb.sh
