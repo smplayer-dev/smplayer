@@ -1,3 +1,5 @@
+name: Build SMPlayer on Linux
+
 # Controls when the action will run. 
 on:
   pull_request:
