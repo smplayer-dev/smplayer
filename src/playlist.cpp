@@ -53,6 +53,10 @@
 #include "myscroller.h"
 #endif
 
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 10, 0))
+#include <QRandomGenerator>
+#endif
+
 #include "myaction.h"
 #include "mylineedit.h"
 #include "filedialog.h"
@@ -330,9 +334,11 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	setAcceptDrops(true);
 	setAttribute(Qt::WA_NoMousePropagation);
 
+#if (QT_VERSION < QT_VERSION_CHECK(5, 10, 0))
 	// Random seed
 	QTime now = QTime::currentTime();
 	qsrand(now.msec());
+#endif
 
 	//loadSettings();
 
@@ -1896,7 +1902,11 @@ void Playlist::shuffle(bool enable) {
 	if (enable) {
 		for (int n = 0; n < count(); n++) {
 			PLItem * i = itemData(n);
+			#if (QT_VERSION >= QT_VERSION_CHECK(5, 10, 0))
+			i->setShufflePosition( QRandomGenerator::global()->generate() % 1000000 );
+			#else
 			i->setShufflePosition( qrand() % 1000000 );
+			#endif
 		}
 		listView->sortByColumn(COL_SHUFFLE, Qt::AscendingOrder);
 	} else {
