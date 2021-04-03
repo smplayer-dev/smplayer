@@ -21,6 +21,7 @@
 #include <QLineEdit>
 #include <QTextEdit>
 #include <QPushButton>
+#include <algorithm> // std::sort
 #include "images.h"
 #include "infofile.h"
 #include "playerid.h"
@@ -122,9 +123,9 @@ void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer)
 	aclist = ac;
 	demuxerlist = demuxer;
 
-	qSort(vclist);
-	qSort(aclist);
-	qSort(demuxerlist);
+	std::sort(vclist.begin(), vclist.end());
+	std::sort(aclist.begin(), aclist.end());
+	std::sort(demuxerlist.begin(), demuxerlist.end());
 
 	vc_listbox->clear();
 	ac_listbox->clear();
