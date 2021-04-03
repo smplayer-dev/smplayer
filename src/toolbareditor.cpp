@@ -20,7 +20,7 @@
 
 #include <QToolBar>
 #include <QToolButton>
-#include <QMatrix>
+#include <QTransform>
 
 #include "images.h"
 
@@ -32,11 +32,11 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 	up_button->setIcon(Images::icon("up"));
 	down_button->setIcon(Images::icon("down"));
 
-	QMatrix matrix;
-	matrix.rotate(90);
+	QTransform transform;
+	transform.rotate(90);
 
-	right_button->setIcon( Images::icon("up").transformed(matrix) );
-	left_button->setIcon( Images::icon("down").transformed(matrix) );
+	right_button->setIcon( Images::icon("up").transformed(transform) );
+	left_button->setIcon( Images::icon("down").transformed(transform) );
 
 	QPushButton * restore = buttonBox->button(QDialogButtonBox::RestoreDefaults);
 	connect(restore, SIGNAL(clicked()), this, SLOT(restoreDefaults()));
