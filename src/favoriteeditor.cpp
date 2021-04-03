@@ -151,8 +151,12 @@ void FavoriteEditor::setDialogIcon( const QPixmap & icon ) {
 	dialog_icon->setPixmap(icon);
 }
 
-const QPixmap * FavoriteEditor::dialogIcon() const {
-	return dialog_icon->pixmap();
+QPixmap FavoriteEditor::dialogIcon() const {
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 15, 0))
+	return dialog_icon->pixmap(Qt::ReturnByValue);
+#else
+	return QPixmap(*dialog_icon->pixmap());
+#endif
 }
 
 void FavoriteEditor::setData( FavoriteList list ) {

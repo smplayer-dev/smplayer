@@ -41,7 +41,7 @@ public slots:
 
 public:
 	int value() const;
-	const QPixmap * icon() const;
+	QPixmap icon() const;
 	QString label() const;
 
 	QSlider * sliderWidget() { return _slider; };

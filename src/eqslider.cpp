@@ -51,8 +51,12 @@ void EqSlider::setIcon( QPixmap i) {
 	_icon->setPixmap(i);
 }
 
-const QPixmap * EqSlider::icon() const {
-	return _icon->pixmap();
+QPixmap EqSlider::icon() const {
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 15, 0))
+	return _icon->pixmap(Qt::ReturnByValue);
+#else
+	return QPixmap(*_icon->pixmap());
+#endif
 }
 
 void EqSlider::setLabel( QString s) {

@@ -35,7 +35,7 @@ public:
 	~SeekWidget();
 
 	int time() const;
-	const QPixmap * icon() const;
+	QPixmap icon() const;
 	QString label() const;
 
 public slots:

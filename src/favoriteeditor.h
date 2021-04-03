@@ -42,7 +42,7 @@ public:
 	FavoriteList data();
 
 	void setDialogIcon( const QPixmap & icon );
-	const QPixmap * dialogIcon() const;
+	QPixmap dialogIcon() const;
 
 	//! The editor will give a filename to subentries (submenus), using this path.
 	void setStorePath(const QString & path) { store_path = path; }

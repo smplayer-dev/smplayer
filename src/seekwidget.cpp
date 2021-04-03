@@ -37,8 +37,12 @@ void SeekWidget::setIcon(QPixmap icon) {
 	icon_label->setPixmap(icon);
 }
 
-const QPixmap * SeekWidget::icon() const {
-	return icon_label->pixmap();
+QPixmap SeekWidget::icon() const {
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 15, 0))
+	return icon_label->pixmap(Qt::ReturnByValue);
+#else
+	return QPixmap(*icon_label->pixmap());
+#endif
 }
 
 void SeekWidget::setLabel(QString text) {
