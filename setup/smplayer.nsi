@@ -54,12 +54,7 @@
   !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.0"
 !endif
 
-!ifdef WIN64
-  !define SMPLAYER_BUILD_DIR "smplayer-build64"
-!else
   !define SMPLAYER_BUILD_DIR "smplayer-build"
-!endif
-
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
   !define SMPLAYER_APP_PATHS_KEY "Software\Microsoft\Windows\CurrentVersion\App Paths\smplayer.exe"
   !define SMPLAYER_DEF_PROGS_KEY "Software\Clients\Media\SMPlayer"
@@ -455,31 +450,14 @@ SectionGroup $(MPlayerMPVGroupTitle)
   ${MementoSection} "MPlayer" SecMPlayer
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x gdb.exe /x gdb64.exe /x vfw2menc.exe /x buildinfo /x buildinfo64 /x buildinfo-mencoder-32 /x buildinfo-mencoder-debug-32 /x buildinfo-mplayer-32 /x buildinfo-mplayer-debug-32 /x buildinfo-mencoder-64 /x buildinfo-mencoder-debug-64 /x buildinfo-mplayer-64 /x buildinfo-mplayer-debug-64 /x libaacs.dll /x libaacs64.dll /x libbdplus.dll /x libbdplus64.dll "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
-!ifdef WIN64
-    File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
-    File /nonfatal /oname=libaacs.dll "${SMPLAYER_BUILD_DIR}\mplayer\libaacs64.dll"
-    File /nonfatal /oname=libbdplus.dll "${SMPLAYER_BUILD_DIR}\mplayer\libbdplus64.dll"
-    RMDir "$INSTDIR\mplayer\codecs"
-!else
-    File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
-    File /nonfatal "${SMPLAYER_BUILD_DIR}\mplayer\libaacs.dll"
-    File /nonfatal "${SMPLAYER_BUILD_DIR}\mplayer\libbdplus.dll"
-!endif
+    File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 
   ${MementoSectionEnd}
 
   ${MementoSection} "MPV" SecMPV
 
   SetOutPath "$INSTDIR\mpv"
-!ifdef WIN64
-  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com /x d3dcompiler_43.dll /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
-  File /oname=d3dcompiler_43.dll "${SMPLAYER_BUILD_DIR}\mpv\d3dcompiler_43-64.dll"
-  File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mpv\mpv64.exe"
-  File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mpv\mpv64.com"
-!else
-  File /r /x mpv64.exe /x mpv64.com /x d3dcompiler_43-64.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
-!endif
+  File /r "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 
   ${MementoSectionEnd}
 
