@@ -420,8 +420,8 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	LIBS += -lz
 	
 	win32 {
-		INCLUDEPATH += ..\\zlib
-		LIBS += -L..\\zlib
+		#INCLUDEPATH += ..\\zlib
+		#LIBS += -L..\\zlib
 	}
 }
 

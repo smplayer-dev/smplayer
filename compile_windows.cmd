@@ -50,16 +50,18 @@ goto arg_loop
 
 call getrev.cmd
 
-cd zlib
-mingw32-make -fwin32\makefile.gcc
+rem cd zlib
+rem mingw32-make -fwin32\makefile.gcc
+rem cd ..
 
-cd ..\webserver
+cd webserver
 mingw32-make
+cd ..
 
-cd ..\src
+cd src
 lrelease smplayer.pro
 qmake "DEFINES += %qmake_defs%"
-mingw32-make
+mingw32-make -j2
 
 if [%errorlevel%]==[0] (
   if [%build_smtube%]==[true] (
