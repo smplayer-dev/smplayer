@@ -454,7 +454,11 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 
 		// Set background
 		QFontMetrics fm(font);
+		#if (QT_VERSION >= QT_VERSION_CHECK(5, 11, 0))
+		int px_wide = fm.horizontalAdvance(stime);
+		#else
 		int px_wide = fm.width(stime);
+		#endif
 		int px_high = fm.height();
 		QRect rect(scaled_picture.rect());
 		rect.setX(rect.width() - px_wide);
