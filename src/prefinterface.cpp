@@ -84,7 +84,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	}
 
 	// Global
-	icon_dir = Paths::themesPath();
+	icon_dir.setPath(Paths::themesPath());
 	qDebug() << "PrefInterface::PrefInterface: icon_dir:" << icon_dir.absolutePath();
 	iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
