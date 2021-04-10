@@ -1,0 +1,16 @@
+name: Build SMPlayer with Qt 4
+
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install development packages
+        run: sudo apt-get install libqt4-dev zlib1g-dev fakeroot build-essential devscripts debhelper g++
+
+      - name: Build smplayer
+        run: ./create_deb.sh
