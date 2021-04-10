@@ -166,7 +166,7 @@ DeviceList DeviceInfo::paDevices() {
 	QStringList env = QProcess::systemEnvironment();
 	env << "LC_ALL=C";
 	p.setEnvironment(env);
-	p.start("pacmd list-sinks");
+	p.start("pacmd list-sinks", QStringList());
 
 	int index = -1;
 	QString name;
@@ -264,7 +264,7 @@ DeviceList DeviceInfo::xvAdaptors() {
 	QProcess p;
 	p.setProcessChannelMode( QProcess::MergedChannels );
 	p.setEnvironment( QProcess::systemEnvironment() << "LC_ALL=C" );
-	p.start("xvinfo");
+	p.start("xvinfo", QStringList());
 
 	if (p.waitForFinished()) {
 		QByteArray line;
