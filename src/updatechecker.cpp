@@ -69,7 +69,13 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 
 	QDate now = QDate::currentDate();
 	//now = now.addDays(27);
+	//d->last_checked = d->last_checked.addDays(-10);
+
+	#if (QT_VERSION >= QT_VERSION_CHECK(5, 14, 0))
+	int days = d->last_checked.startOfDay().daysTo(now.startOfDay());
+	#else
 	int days = QDateTime(d->last_checked).daysTo(QDateTime(now));
+	#endif
 
 	qDebug() << "UpdateChecker::UpdateChecker: enabled:" << d->enabled;
 	qDebug() << "UpdateChecker::UpdateChecker: days_to_check:" << d->days_to_check;
