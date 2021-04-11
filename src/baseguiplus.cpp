@@ -36,6 +36,7 @@
 #include <QCloseEvent>
 #include <QApplication>
 #include <QDesktopWidget>
+#include <QTime>
 
 #ifdef PLAYLIST_DOCKABLE
 #include <QDockWidget>
