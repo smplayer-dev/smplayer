@@ -12,6 +12,9 @@ jobs:
 
       - name: Install Qt
         uses: jurplel/install-qt-action@v2
+        with:
+          version: 5.15.2
+          arch: win64_msvc2019_64
 
       - name: Install Developer Command Prompt for Microsoft Visual C++
         uses: ilammy/msvc-dev-cmd@v1
@@ -19,8 +22,10 @@ jobs:
       - name: Build smplayer
         run: |
             .\getrev.cmd
+            cd zlib
+            nmake -f win32/Makefile.msc
+            cd ..
             cd src
             lrelease smplayer.pro
             qmake
             nmake
-            
