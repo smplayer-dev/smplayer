@@ -415,13 +415,21 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 		           quazipnewinfo.cpp \
 		           unzip.c \
 		           zip.c
-}
+	}
 
-	LIBS += -lz
-	
+	unix {
+		LIBS += -lz
+	}
+
 	win32 {
-		#INCLUDEPATH += ..\\zlib
-		#LIBS += -L..\\zlib
+		INCLUDEPATH += ..\zlib
+		LIBS += -L..\zlib
+		
+		win32-msvc* {
+			LIBS += -lzlib
+		} else {
+			LIBS += -lz
+		}
 	}
 }
 
@@ -616,8 +624,8 @@ win32 {
 		FORMS += prefassociations.ui
 	}
 
-	contains(TEMPLATE,vcapp) {
-		LIBS += ole32.lib user32.lib
+	win32-msvc* {
+		LIBS += -luser32 -lole32
 	} else {
 		LIBS += libole32
 	}
