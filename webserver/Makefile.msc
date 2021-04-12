@@ -1,0 +1,16 @@
+PROG = simple_web_server
+MODULE_CFLAGS=-DMG_DISABLE_DAV_AUTH -DMG_ENABLE_HTTP_CGI=0 -DMG_ENABLE_THREADS=0 -DMG_ENABLE_HTTP_SSI=0
+
+SOURCES = main.c mongoose.c
+CFLAGS = /nologo /W3 /O2 $(CFLAGS_EXTRA) $(MODULE_CFLAGS)
+CC = cl
+DEL_FILE = del
+PROG = $(PROG).exe
+
+all: $(PROG)
+
+$(PROG): $(SOURCES) Makefile
+	$(CC) $(SOURCES) $(CFLAGS) kernel32.lib user32.lib advapi32.lib /Fe$(PROG)
+
+clean:
+	$(DEL_FILE) $(PROG)
