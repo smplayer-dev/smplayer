@@ -1803,6 +1803,7 @@ void Core::startMplayer( QString file, double seek ) {
 		default: 						p = "normal";
 	}
 	proc->setOption("priority", p);
+	Q_UNUSED(app_p);
 	/*
 	SetPriorityClass(GetCurrentProcess(), app_p);
 	qDebug("Core::startMplayer: priority of smplayer process set to %d", app_p);
