@@ -27,6 +27,7 @@ MultilineInputDialog::~MultilineInputDialog() {
 }
 
 void MultilineInputDialog::setLines(const QStringList & lines) {
+	Q_UNUSED(lines);
 }
 
 QStringList MultilineInputDialog::lines() {
