@@ -36,7 +36,6 @@ class QSettings;
 #ifdef DOWNLOAD_SUBS
 class FileDownloader;
 class QBuffer;
-class QuaZip;
 #endif
 
 class FindSubtitlesWindow : public QWidget, public Ui::FindSubtitlesWindow
@@ -113,12 +112,7 @@ signals:
 	void subtitleDownloaded(const QString & filename);
 
 protected:
-	#ifdef USE_QUAZIP
-	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name);
-	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
-	#else
 	QByteArray gUncompress(const QByteArray &data);
-	#endif
 
 protected slots:
 	void fixSubtitles(const QString & filename);

@@ -369,7 +369,6 @@ contains( DEFINES, SINGLE_INSTANCE ) {
 contains( DEFINES, FIND_SUBTITLES ) {
 	DEFINES += DOWNLOAD_SUBS
 	#DEFINES += OS_SEARCH_WORKAROUND
-	#DEFINES += USE_QUAZIP
 
 	INCLUDEPATH += findsubtitles
 	DEPENDPATH += findsubtitles
@@ -395,27 +394,6 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	SOURCES += findsubtitles/filedownloader/filedownloader.cpp findsubtitles/subchooserdialog.cpp findsubtitles/fixsubs.cpp
 
 	FORMS += findsubtitles/subchooserdialog.ui
-
-	contains( DEFINES, USE_QUAZIP ) {
-		INCLUDEPATH += findsubtitles/quazip
-		DEPENDPATH += findsubtitles/quazip
-
-		HEADERS += crypt.h \
-		           ioapi.h \
-		           quazip.h \
-		           quazipfile.h \
-		           quazipfileinfo.h \
-		           quazipnewinfo.h \
-		           unzip.h \
-		           zip.h
-
-		SOURCES += ioapi.c \
-		           quazip.cpp \
-		           quazipfile.cpp \
-		           quazipnewinfo.cpp \
-		           unzip.c \
-		           zip.c
-	}
 
 	unix {
 		LIBS += -lz

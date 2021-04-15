@@ -42,7 +42,6 @@ FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += DOWNLOAD_SUBS
-#DEFINES += USE_QUAZIP
 #DEFINES += FS_USE_PROXY
 #DEFINES += OS_SEARCH_WORKAROUND
 #DEFINES += FS_USE_SERVER_CONFIG
@@ -55,29 +54,8 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 
 	FORMS += subchooserdialog.ui
 
-	contains( DEFINES, USE_QUAZIP ) {
-		INCLUDEPATH += quazip
-		DEPENDPATH += quazip
-
-		HEADERS += crypt.h \
-		           ioapi.h \
-		           quazip.h \
-		           quazipfile.h \
-		           quazipfileinfo.h \
-		           quazipnewinfo.h \
-		           unzip.h \
-		           zip.h
-
-		SOURCES += ioapi.c \
-		           quazip.cpp \
-		           quazipfile.cpp \
-		           quazipnewinfo.cpp \
-		           unzip.c \
-		           zip.c
-	}
-
 	LIBS += -lz
-	
+
 	win32 {
 		INCLUDEPATH += ..\\..\\zlib
 		LIBS += -L..\\..\\zlib
