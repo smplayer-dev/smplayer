@@ -27,7 +27,10 @@
 TVList::TVList(bool check_channels_conf, Services services, QString filename, QWidget * parent) 
 	: Favorites(filename,parent)
 {
-#ifndef Q_OS_WIN
+#ifdef Q_OS_WIN
+	Q_UNUSED(check_channels_conf);
+	Q_UNUSED(services);
+#else
 	if (check_channels_conf) {
 		/* f_list.clear(); */
 		parse_channels_conf(services);
