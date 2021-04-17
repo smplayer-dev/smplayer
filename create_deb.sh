@@ -3,8 +3,8 @@
 ln -s debian-orig debian
 cp debian-orig/changelog-orig debian-orig/changelog
 
-./get_svn_revision.sh
-dch -v 21.1.0-`cat svn_revision` "New version"
+./get_version.sh
+dch -v `cat version` "Development version"
 
 #dpkg-buildpackage -rfakeroot
 
