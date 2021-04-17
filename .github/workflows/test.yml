@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
       
       - name: Install sources
         run: .\download_packages.cmd
