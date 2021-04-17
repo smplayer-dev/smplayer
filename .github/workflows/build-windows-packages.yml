@@ -1,0 +1,162 @@
+name: Create Windows Packages
+
+on: workflow_dispatch
+
+jobs:
+  build-32:
+    name: Build 32 bit
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+
+      - name: Install sources
+        run: .\download_packages.cmd
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'
+          arch: 'win32_mingw81'
+          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
+
+      - name: Set mingw32 path
+        run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: .\compile_smplayer.cmd
+
+      - name: Install
+        run: .\install.cmd
+
+      - name: Create installer
+        run: |
+           .\nsis.cmd
+           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
+           echo "INSTALLERFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.INSTALLERFILENAME }}
+          path: packages\BUILD\output\${{ env.INSTALLERFILENAME }}
+
+  build-64:
+    name: Build 64 bit
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+
+      - name: Install sources
+        run: .\download_packages.cmd
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'
+          arch: 'win64_mingw81'
+          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: .\compile_smplayer.cmd
+
+      - name: Install
+        run: .\install.cmd
+
+      - name: Create installer
+        run: |
+           .\nsis.cmd
+           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
+           echo "INSTALLERFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.INSTALLERFILENAME }}
+          path: packages\BUILD\output\${{ env.INSTALLERFILENAME }}
+
+  build-32-portable:
+    name: Build 32 bit portable
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+
+      - name: Install sources
+        run: .\download_packages.cmd
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'
+          arch: 'win32_mingw81'
+          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
+
+      - name: Set mingw32 path
+        run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: .\compile_smplayer.cmd pe
+
+      - name: Install
+        run: .\install.cmd pe
+
+      - name: Create 7z package
+        run: |
+           .\create_portable_package.cmd
+           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+
+  build-64-portable:
+    name: Build 64 bit portable
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+
+      - name: Install sources
+        run: .\download_packages.cmd
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'
+          arch: 'win64_mingw81'
+          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: .\compile_smplayer.cmd pe
+
+      - name: Install
+        run: .\install.cmd pe
+
+      - name: Create 7z package
+        run: |
+           .\create_portable_package.cmd
+           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
