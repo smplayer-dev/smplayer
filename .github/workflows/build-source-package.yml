@@ -1,0 +1,49 @@
+name: Create src package
+env:
+  app-name: 'smplayer'
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          path: ${{ env.app-name }}
+          fetch-depth: 0
+
+      - name: Get version
+        run: |
+            cd ${{ env.app-name }}
+            ./get_version.sh
+            VERSION=`cat version`
+            rm version svn_revision
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+            echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
+
+      - name: Create package
+        run: |
+            mv ${{ env.app-name }} $PACKAGENAME
+            tar --exclude=.svn --exclude=.git --exclude=.github -cvjf $PACKAGENAME.tar.bz2 $PACKAGENAME/
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGENAME }}.tar.bz2
+          path: ./${{ env.PACKAGENAME }}.tar.bz2
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ env.PACKAGENAME }}.tar.bz2
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
