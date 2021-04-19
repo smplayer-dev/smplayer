@@ -403,10 +403,13 @@ Section $(Section_SMPlayer) SecSMPlayer
   ; SetOutPath "$INSTDIR\open-fonts"
   ; File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
 
-  ;Qt platforms (Qt 5+)
+  ;Qt platforms and styles (Qt 5+)
 !ifndef COMPILED_WITH_QT4
   SetOutPath "$INSTDIR\platforms"
   File /nonfatal /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
+  
+  SetOutPath "$INSTDIR\styles"
+  File /nonfatal /r "${SMPLAYER_BUILD_DIR}\styles\*.*"
 !endif
 
   ;SMPlayer key shortcuts
