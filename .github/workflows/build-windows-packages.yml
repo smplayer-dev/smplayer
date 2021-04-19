@@ -1,11 +1,25 @@
 name: Create Windows Packages
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
-  build-32:
-    name: Build 32 bit
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { arch: 'x64', 'portable': false }
+          - { arch: 'win32', 'portable': false }
+          - { arch: 'x64', 'portable': true }
+          - { arch: 'win32', 'portable': true }          
+
     runs-on: windows-latest
+    env:
+      PORTABLE: ${{ matrix.config.portable }}
+      
     steps:
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
@@ -13,7 +27,8 @@ jobs:
       - name: Install sources
         run: .\download_packages.cmd
 
-      - name: Install Qt
+      - name: Install Qt (32 bit)
+        if: ${{ matrix.config.arch == 'win32' }}
         uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
@@ -21,40 +36,11 @@ jobs:
           tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
 
       - name: Set mingw32 path
+        if: ${{ matrix.config.arch == 'win32' }}
         run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
-      - name: Compile themes
-        run: .\compile_themes.cmd
-
-      - name: Compile smplayer
-        run: .\compile_smplayer.cmd
-
-      - name: Install
-        run: .\install.cmd
-
-      - name: Create installer
-        run: |
-           .\nsis.cmd
-           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
-           echo "INSTALLERFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-
-      - name: Create artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.INSTALLERFILENAME }}
-          path: packages\BUILD\output\${{ env.INSTALLERFILENAME }}
-
-  build-64:
-    name: Build 64 bit
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
-
-      - name: Install sources
-        run: .\download_packages.cmd
-
-      - name: Install Qt
+      - name: Install Qt (64 bit)
+        if: ${{ matrix.config.arch == 'x64' }}
         uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
@@ -65,53 +51,30 @@ jobs:
         run: .\compile_themes.cmd
 
       - name: Compile smplayer
-        run: .\compile_smplayer.cmd
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\compile_smplayer.cmd pe
+            } else {
+              .\compile_smplayer.cmd
+            }
 
       - name: Install
-        run: .\install.cmd
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\install.cmd pe
+            } else {
+              .\install.cmd
+            }
 
       - name: Create installer
+        if: ${{ matrix.config.portable == false }}
         run: |
            .\nsis.cmd
            $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
-           echo "INSTALLERFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-
-      - name: Create artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.INSTALLERFILENAME }}
-          path: packages\BUILD\output\${{ env.INSTALLERFILENAME }}
-
-  build-32-portable:
-    name: Build 32 bit portable
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
-
-      - name: Install sources
-        run: .\download_packages.cmd
-
-      - name: Install Qt
-        uses: jurplel/install-qt-action@v2
-        with:
-          version: '5.15.2'
-          arch: 'win32_mingw81'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
-
-      - name: Set mingw32 path
-        run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-
-      - name: Compile themes
-        run: .\compile_themes.cmd
-
-      - name: Compile smplayer
-        run: .\compile_smplayer.cmd pe
-
-      - name: Install
-        run: .\install.cmd pe
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Create 7z package
+        if: ${{ matrix.config.portable == true }}
         run: |
            .\create_portable_package.cmd
            $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
@@ -123,40 +86,12 @@ jobs:
           name: ${{ env.PACKAGEFILENAME }}
           path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
 
-  build-64-portable:
-    name: Build 64 bit portable
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
-
-      - name: Install sources
-        run: .\download_packages.cmd
-
-      - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
         with:
-          version: '5.15.2'
-          arch: 'win64_mingw81'
-          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
-
-      - name: Compile themes
-        run: .\compile_themes.cmd
-
-      - name: Compile smplayer
-        run: .\compile_smplayer.cmd pe
-
-      - name: Install
-        run: .\install.cmd pe
-
-      - name: Create 7z package
-        run: |
-           .\create_portable_package.cmd
-           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
-           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-
-      - name: Create artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.PACKAGEFILENAME }}
-          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
