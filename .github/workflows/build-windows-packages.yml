@@ -36,6 +36,16 @@ jobs:
       - name: Install sources (portable)
         run: xcopy packages\smplayer packages\smplayer-portable\ /E
 
+      - name: List
+        run: |
+            ls -l -R packages\smplayer
+            ls -l -R packages\smplayer-portable
+
+      - name: Install themes
+        run: |
+            svn co https://github.com/smplayer-dev/smplayer-themes.git/trunk packages\smplayer-themes
+            svn co https://github.com/smplayer-dev/smplayer-skins.git/trunk packages\smplayer-skins
+
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
         uses: jurplel/install-qt-action@v2
