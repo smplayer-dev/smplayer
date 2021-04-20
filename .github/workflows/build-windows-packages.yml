@@ -39,8 +39,8 @@ jobs:
       - name: List
         shell: bash
         run: |
-            ls -l -R packages\smplayer
-            ls -l -R packages\smplayer-portable
+            ls -l -R packages/smplayer
+            ls -l -R packages/smplayer-portable
 
       - name: Install themes
         run: |
