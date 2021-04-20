@@ -24,8 +24,17 @@ jobs:
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
 
-      - name: Install sources
-        run: .\download_packages.cmd
+      #- name: Install sources
+      #  run: .\download_packages.cmd
+
+      - name: Install sources (normal)
+        uses: actions/checkout@v2
+        with:
+          path: packages/smplayer
+          fetch-depth: 0
+
+      - name: Install sources (portable)
+        run: xcopy packages\smplayer packages\smplayer-portable\ /E
 
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
