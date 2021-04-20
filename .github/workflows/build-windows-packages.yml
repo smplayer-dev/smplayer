@@ -46,6 +46,9 @@ jobs:
             svn co https://github.com/smplayer-dev/smplayer-themes.git/trunk packages\smplayer-themes
             svn co https://github.com/smplayer-dev/smplayer-skins.git/trunk packages\smplayer-skins
 
+      - name: Install mplayer and mpv
+        run: .\uncompress_players.cmd
+        
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
         uses: jurplel/install-qt-action@v2
