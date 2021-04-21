@@ -53,12 +53,16 @@ jobs:
         run: cd ${{ env.app-name }} && fakeroot debian/rules build
 
       - name: Build package
-        run: cd ${{ env.app-name }} && fakeroot debian/rules binary
+        run: |
+            cd ${{ env.app-name }} && fakeroot debian/rules binary
+            cd ..
+            PACKAGEFILENAME=`ls ${{ env.app-name }}*.deb`
+            echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.app-name }}-${{ env.VERSION }}.deb
+          name: ${{ env.PACKAGEFILENAME }}
           path: ./*.deb
 
       - name: Upload package to release
