@@ -27,7 +27,7 @@
 
 #ifdef PORTABLE_APP
 #ifdef Q_OS_WIN
-QString windowsApplicationPath() {
+QString applicationPath() {
 	wchar_t my_path[_MAX_PATH+1];
 	GetModuleFileName(NULL, my_path,_MAX_PATH);
 	QString app_path = QString::fromWCharArray(my_path);
@@ -36,7 +36,7 @@ QString windowsApplicationPath() {
 	return fi.absolutePath();
 }
 #else
-QString linuxApplicationPath() {
+QString applicationPath() {
 	QString exe_file = QFile::symLinkTarget(QString("/proc/%1/exe").arg(QCoreApplication::applicationPid()));
 	return QFileInfo(exe_file).absolutePath();
 }
@@ -45,11 +45,8 @@ QString linuxApplicationPath() {
 
 QString hdpiConfig() {
 #ifdef PORTABLE_APP
-	#ifdef Q_OS_WIN
-	return windowsApplicationPath();
-	#else
-	return linuxApplicationPath();
-	#endif // Q_OS_WIN
+	// We can't use QCoreApplication::applicationDirPath() here
+	return applicationPath();
 #else
 	return Paths::configPath();
 #endif // PORTABLE_APP
