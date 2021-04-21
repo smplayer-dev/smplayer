@@ -25,7 +25,8 @@
 #include "paths.h"
 #include "hdpisupport.h"
 
-#if defined(PORTABLE_APP) && defined(Q_OS_WIN)
+#ifdef PORTABLE_APP
+#ifdef Q_OS_WIN
 QString windowsApplicationPath() {
 	wchar_t my_path[_MAX_PATH+1];
 	GetModuleFileName(NULL, my_path,_MAX_PATH);
@@ -34,14 +35,23 @@ QString windowsApplicationPath() {
 	QFileInfo fi(app_path);
 	return fi.absolutePath();
 }
+#else
+QString linuxApplicationPath() {
+	return QFile::symLinkTarget(QString("/proc/%1/exe").arg(QCoreApplication::applicationPid()));
+}
 #endif
+#endif // PORTABLE_APP
 
 QString hdpiConfig() {
-	#ifdef PORTABLE_APP
+#ifdef PORTABLE_APP
+	#ifdef Q_OS_WIN
 	return windowsApplicationPath();
 	#else
+	return linuxApplicationPath();
+	#endif // Q_OS_WIN
+#else
 	return Paths::configPath();
-	#endif
+#endif // PORTABLE_APP
 }
 #endif // HDPI_SUPPORT
 
