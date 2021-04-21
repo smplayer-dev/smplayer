@@ -37,7 +37,8 @@ QString windowsApplicationPath() {
 }
 #else
 QString linuxApplicationPath() {
-	return QFile::symLinkTarget(QString("/proc/%1/exe").arg(QCoreApplication::applicationPid()));
+	QString exe_file = QFile::symLinkTarget(QString("/proc/%1/exe").arg(QCoreApplication::applicationPid()));
+	return QFileInfo(exe_file).absolutePath();
 }
 #endif
 #endif // PORTABLE_APP
