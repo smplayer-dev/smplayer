@@ -5468,6 +5468,28 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	int diff_width = this->width() - panel->width();
 	int diff_height = this->height() - panel->height();
 
+#if 1
+	QRect desktop_rect = QApplication::desktop()->availableGeometry(this);
+	QSize desktop_size = QSize(desktop_rect.width(), desktop_rect.height());
+
+	if (w + diff_width > desktop_size.width() || h + diff_height > desktop_size.height()) {
+		qDebug("BaseGui::resizeWindow: video size is larger than desktop");
+		qDebug() << "BaseGui::resizeWindow: desktop size:" << desktop_size;
+		int spacing =  desktop_size.width() * 0.05;
+		int max_width = desktop_size.width() - diff_width - spacing;
+		int max_height = desktop_size.height() - diff_height - spacing;
+		qDebug("BaseGui::resizeWindow: max_size: %d %d", max_width, max_height);
+		double wr = (double) w / max_width;
+		double hr = (double) h / max_height;
+		double m = wr;
+		if (hr > wr) m = hr;
+		qDebug("BaseGui::resizeWindow: wr: %f hr: %f m: %f", wr, hr, m);
+		w =  w / m;
+		h = h / m;
+		qDebug("BaseGui::resizeWindow: new size to scale: %d, %d", w, h);
+	}
+#endif
+
 	int new_width = w + diff_width;
 	int new_height = h + diff_height;
 
@@ -5482,7 +5504,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 
 	qDebug("BaseGui::resizeWindow: new_width: %d new_height: %d", new_width, new_height);
 
-#if 1
+#if 0
 	QRect desktop_rect = QApplication::desktop()->availableGeometry(this);
 	QSize desktop_size = QSize(desktop_rect.width(), desktop_rect.height());
 	//desktop_size.setWidth(1000); desktop_size.setHeight(1000); // test
@@ -5505,10 +5527,10 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	resize(new_width, new_height);
 
 	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
-	qDebug("BaseGui::resizeWindow: done: panel->size: %d, %d", 
-           panel->size().width(),  
+	qDebug("BaseGui::resizeWindow: done: panel->size: %d, %d",
+           panel->size().width(),
            panel->size().height() );
-	qDebug("BaseGui::resizeWindow: done: mplayerwindow->size: %d, %d", 
+	qDebug("BaseGui::resizeWindow: done: mplayerwindow->size: %d, %d",
            mplayerwindow->size().width(),
            mplayerwindow->size().height() );
 
