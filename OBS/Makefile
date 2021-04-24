@@ -3,7 +3,7 @@
 
 PACKAGE = smplayer
 VERSION = 21.1.0
-#DEPENDS = debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, qtbase5-private-dev
+#DEPENDS = debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qtbase5-private-dev
 DEPENDS = debhelper (>= 5), zlib1g-dev, libqt4-dev
 
 DSC_FILE = $(PACKAGE).dsc
