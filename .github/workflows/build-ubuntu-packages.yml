@@ -32,11 +32,13 @@ jobs:
             sudo apt-get install zlib1g-dev fakeroot build-essential devscripts debhelper g++
 
       - name: Install Qt 4
-        run: sudo apt-get install libqt4-dev libqtwebkit-dev
+        run: sudo apt-get install libqt4-dev
         if: ${{ matrix.config.qt == 4 }}
 
       - name: Install Qt 5
-        run: sudo apt-get install qtbase5-dev qt5-qmake qt5-default qtscript5-dev qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev
+        run: |
+            sudo apt-get install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev
+            echo "QT_SELECT=qt5" >> $GITHUB_ENV
         if: ${{ matrix.config.qt == 5 }}
 
       - name: Prepare sources
