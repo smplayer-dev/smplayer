@@ -1,6 +1,16 @@
 # Changelog
 
 ## [Unreleased]
+ * Better automatic resizing of the main window, trying to prevent
+   black borders.
+ * Fix loading YouTube playlists.
+ * Add an option to rotate the video by 180 degrees.
+ * Playlist: try to prevent a one second delay when using play prev/next.
+### Windows
+ * Using Qt 5.15.2.
+### Linux
+ * Disable power saving on Wayland during playback.
+ * Remove KDE from the categories in the *.desktop files.
 
 ## [21.1] - 2021-01-06
  * Initial support for Wayland.
