@@ -1,3 +1,380 @@
+Version 21.1:
+
+ * Initial support for Wayland.
+ * Some fixes and improvements in the playlist.
+ * Show cache info in the OSD (Shift + I).
+
+
+Version 20.6:
+
+ * The internal YouTube code has been removed. Now SMPlayer uses
+   an external application to get the video URLs.
+ * The shuffle option in the playlist does shuffle the items of
+   the playlist.
+
+
+Version 20.4.2:
+
+ * Fix for YouTube.
+
+
+Version 20.4.0:
+
+ * Possibility to enter the opensubtitles.org credentials,
+   in order to prevent a login error.
+ * Now it's possible to search for shortcuts in Preferences -> Keyboard.
+ * Support for mpv 0.32.
+
+
+Version 19.10.2:
+
+ * Fix compiling the web server on 32 bit with gcc 9.2.0.
+
+
+Version 19.10:
+
+ * Fix for YouTube.
+ * Fix control when using mpv 0.30.
+
+
+Version 19.5:
+
+ * Fix for YouTube.
+ * Fix YouTube live streams (works only with mpv).
+ * New actions available for previous subtitle track, previous audio track
+   and previous video track.
+ * New command line option -start.
+
+
+Version 19.1:
+
+ * Possibility to play 60fps videos from YouTube.
+ * Now it's possible to search for subtitles typing the name of the
+   movie or show.
+ * Some bug fixes.
+
+
+Version 18.10:
+
+ * The internal code for YouTube now supports resolutions up to 4K. The
+   support for age restricted videos has been fixed.
+
+
+Version 18.9:
+
+ * Fix for YouTube.
+ * (Experimental) New option in the Play menu: Cast to -> Smartphone/tablet.
+   It displays a QR code that you can scan to play the video on your device.
+
+
+Version 18.6:
+
+ * On Windows 10 the key shortcuts for play next/previous left a "busy" mouse
+   cursor on the screen. This is fixed now.
+ * There's a new option in Preferences -> Playlist to choose the type of
+   window for the playlist: dockable (as before) or just a normal window.
+ * The library used by the web server for the chromecast feature has been
+   updated. It looks like the old one had several vulnerabilities so it's
+   recommended to update.
+
+
+Version 18.5:
+
+ * (Windows) A problem which might prevent SMPlayer to open filenames with
+   unicode characters has been fixed.
+ * Fix: the cursor keys should now work in the playlist.
+ * Now it's possible to select which multimedia keys should be used as
+   global shortcuts (Preferences -> Keyboard and mouse).
+ * (Windows) It seems on some systems the multimedia key events are sent
+   twice, making some keys (like volume mute or play/pause) almost unusable.
+   This version tries to detect it and prevent it.
+ * "opus" has been added to to the list of audio extensions.
+
+
+Version 18.4:
+
+ * Bugfix: the time displayed by a tooltip when the mouse is over the seekbar
+   is now much more accurate.
+ * There's now an option in Preferences -> Advanced to set the position of
+   the OSD bar.
+ * Now it's possible to turn off the use of the system native file dialog in
+   Preferences -> Interface.
+
+
+Version 18.3:
+
+ * Possibility to search for subtitles using the hash and filename methods
+   at the same time.
+ * Fix a bug which prevented to play some YouTube URLs.
+
+
+Version 18.2.2:
+
+ * The option Open -> URL can now also load YouTube playlists.
+ * New option in Preferences -> Subtitles to select the opacity of the
+   background of the subtitles (available when the "border style" is set
+   to "opaque box").
+ * The options to select the preferred number of track for audio and subtitles
+   are back.
+ * (mpv) Now the direct3d is the default video output for Windows, since some
+   users reported problems with the gpu output.
+
+
+Version 18.2:
+
+ * Now it's possible to use a priority list of preferred languages for the
+   audio and subtitles.
+ * Now there's support for YouTube playlists. In the playlist window, click
+   in the Load/save icon, select "Load playlist from URL" and paste the URL of
+   the YouTube playlist.
+
+
+Version 18.1:
+
+ * Fix for YouTube.
+
+
+Version 17.12:
+
+ * Two new actions to take screenshots with or without subtitles (they only
+   work when using mpv). Assigned by default to Ctrl+Shift+S and Ctrl+Alt+S.
+ * New action which displays the filename in the OSD for 2 seconds. Assigned
+   by default to Shift+O.
+ * New option osd_bar_pos for smplayer.ini. It specifies the position of
+   the OSD bar (0 = top, 100 = bottom).
+ * The support for DVD menus has been removed. It never worked well and also
+   mpv already removed support for it a long time ago.
+ * The option to open an informative page after an upgrade has been removed.
+
+
+Version 17.11.2:
+
+ * A crash that may happen on KDE when the global menus
+   are activated has been fixed.
+ * Fix: SMPlayer won't cancel logout in KDE.
+ * The seek function in the MPRIS2 code has been fixed.
+
+
+Version 17.11
+
+ * The video equalizer by software has been fixed.
+ * The thumbnail generator is now more precise with short videos.
+ * The audio quality of the audio equalizer has been improved.
+ * The option "add black borders on fullscreen" has been fixed.
+ * The option "AC3/DTS passthrough over S/PDIF" has been fixed.
+
+
+Version 17.10.2
+
+ * New option in Preferences -> Network to select the preferred quality
+   for streaming sites such as DailyMotion, Vimeo and so on (all those
+   which are handled by youtube-dl).
+ * The audio equalizer is now disabled by default on Linux to prevent a
+   no sound problem for users with old versions of mpv.
+ * Fix some problems with the letterbox filter (the 'add black borders' option).
+ * The HDPI support is now also enabled on the portable package for Windows.
+ * Fix subtitles not disappearing when using the letterbox filter with mplayer.
+ * Fix: now the time is correctly displayed in the thumbnail generator
+   pictures when SMPlayer is built with Qt 5.
+
+
+Version 17.10
+
+ * Replace the deprecated video and audio filters in mpv with new ones.
+ * The karaoke filter is available again.
+
+
+Version 17.9
+
+ * Now it's possible to the search for subtitles using the filename instead of
+   a hash.
+ * Fix for the OSD when using SMPlayer with mpv 0.26.
+
+
+Version 17.8
+
+ * New audio filter for headphone optimization.
+
+
+Version 17.7
+
+ * Add some options to configure the conversion of srt subtitles to vtt for
+   Chromecast (Preferences -> Network -> Chromecast), like the position of the
+   subtitles on screen.
+ * Fix a crash that may happen in the playlist when trying to delete selected
+   items.
+
+
+Version 17.6
+
+ * Possibility to convert automatically subtitles in srt format to vtt
+   when playing on Chromecast.
+
+
+Version 17.5
+
+ * Fix for YouTube.
+
+
+Version 17.4.2
+
+ * New option (menu View -> OSD) to display the times with milliseconds.
+ * New fix for the thumbnail generator that works also with older
+   versions of mpv.
+ * Bugfix: the position of the video is remembered when it's opened by
+   drag & drop.
+ * The Windows installer won't install mpv on Windows XP since mpv is not
+   longer compatible with Windows XP.
+ * New option to use the mplayer ffhevcvdpau decoder (Linux only).
+ * Avoid some crashes from mpv.
+
+
+Version 17.4
+ * The thumbnail generator has been fixed.
+
+
+Version 17.3
+ * Add experimental support for subtitles for Chromecast.
+ * Bug fixes.
+
+
+Version 17.2
+
+ * Fix for YouTube.
+ * The option to delete files from the disk in the playlist is back but
+   it's disabled by default (you can enable it in Preferences -> Playlist
+   -> Misc.
+ * On Linux SMPlayer now uses a different web server, included in the
+   packages, to serve files for Chromecast. If you installed the package
+   webfs you can uninstall it now since SMPlayer won't use it anymore.
+ * New translation: Norwegian Bokmål.
+
+
+Version 17.1
+
+ * Experimental support to play videos on Chromecast.
+ * Support for some of the #EXTVLCOPT options in m3u/m3u8 playlists.
+   This may help to play online streams from playlists intended for VLC.
+ * New options in the context menu of the playlist: "copy URL to clipboard",
+   "open source folder" and "play on Chromecast".
+ * Option to display bitrate information in the status bar.
+ * Possibility to display the playback time with milliseconds in the status bar.
+ * The option to add black borders on fullscreen is back
+   (preferences -> general -> video).
+ * The option to delete files from the disk in the playlist's context menu
+   has been removed.
+
+
+Version 16.11
+
+ * More options in Preferences -> Playlist to better control the
+   behaviour of the playlist. Changing some of the options makes
+   easier to use the playlist for bookmarks.
+ * New option 'Show info on OSD' in View -> OSD (shortcut Shift + I).
+   It displays info about the current media (resolution, bitrate...) on the
+   OSD.
+ * Bug fixes.
+
+
+Version 16.9
+
+ * New option to send the audio to the specified audio device.
+   It can be useful to send the audio to a TV via a HDMI cable
+   or wireless headphones via bluetooth.
+ * Some improvements on the playlist. Now it's possible to hide
+   any column (right click to see the options). The search field
+   is also hidden by default, a new search button shows/hides it.
+   This changes are intended to prevent the playlist window to
+   be too wide.
+ * Due to bugs and problems with Qt 5, the packages for Ubuntu are
+   now built again with Qt 4 by default.
+ * Bug fixes.
+
+
+Version 16.8
+
+ * The playlist has been improved. Now it's possible to sort by any
+   column. There's a new column, with the path of the file (or URL)
+   (this allows you to sort the list by folder).
+   Now it's possible to search (actually filter) in the playlist.
+   And finally there's a new option to load a playlist from internet.
+   As example, you can enter this URL: http://smplayer.info/onlinetv.php
+   It will download a playlist with some online TV streams.
+ * Bug fixes.
+
+
+Version 16.7
+
+ * Fix for YouTube.
+ * Some bug fixes mainly for Qt 5.
+
+
+Version 16.6
+
+ * Support for 2 in 1 computers with touch screens.
+   SMPlayer includes now a 'tablet mode', available in the menu Options.
+   When the option is turned on it makes some changes in the interface
+   so that it would be easier to control SMPlayer by touching the
+   screen.
+   When the user changes the tablet mode in the Windows 10 action
+   center, SMPlayer will detect it and ask if it should switch to the
+   SMPlayer's tablet mode as well.
+ * Option to send video to an external screen.
+   Now it's possible to send the video to a second screen connected to
+   the computer, while controlling the application in the computer's
+   screen.
+ * Support for high DPI screens.
+   On high DPI (dots per inch) screens SMPlayer looked very tiny. Now
+   the interface is automatically scaled so it looks correctly. There
+   are also settings in Preferences -> Interface -> High DPI where you
+   can adjust manually the scale factor or turn off this feature.
+ * Global shortcuts.
+   Now it's possible to use the media keys (play/pause, stop, volume+/-,
+   etc.) as global shortcuts. That means that those keys will work even
+   when SMPlayer is in the background. You can activate this option in
+   Preferences -> Keyboard and mouse.
+ * Settings are remembered for online streams too.
+   This means that, for example, SMPlayer can resume playback or set
+   bookmarks on YouTube videos or other online streams (as long as they
+   are seekable).
+ * SMPlayer is now built with Qt 5 by default.
+
+
+Version 16.4
+
+ * The Windows installer now includes mpv as well.
+ * Now it's easier to switch between mplayer and mpv (Preferences -> General,
+   select either mplayer or mpv as multimedia engine).
+ * The extrastereo filter works again when using mpv.
+ * Possibility to use the VLC shortcuts. (Preferences -> Keyboard and
+   mouse, click the load button, select vlc.keys)
+ * Possibility to enable mouse gestures (when the mouse is dragged up or down
+   in the video window the volume changes. If dragged left or right it
+   changes the time position).
+   You can enable this option in Preferences -> Keyboard and
+   mouse -> Mouse -> Drag function: seek and volume.
+ * A fix for saving bookmarks.
+ * The option for streaming sites in Preferences -> Network is
+   different now, and allows these values:
+     Disabled: support for video sites is turned off
+     Auto: enables the internal support for YouTube and uses mpv + youtube-dl
+     for the rest of sites
+     YouTube: only the internal support for YouTube will be used
+     mpv + youtube-dl: uses mpv + youtube-dl for all sites
+ * An animated icon has been added in the status bar to indicate when the player
+   is buffering.
+ * A new layout is used to display the media information (Options -> View info and
+   properties).
+
+
+Version 16.1
+
+ * Fix for YouTube.
+ * The screenshots work again with older versions of mplayer/mpv.
+ * Possibility to add bookmarks (menu Browse), which allows to mark your
+   favorite parts of the video for a quick access.
+ * New option 'Prevent window to get outside of screen' in
+   Preferences -> Interface.
 Version 18.4:
 
  * Bugfix: the time displayed by a tooltip when the mouse is over the seekbar
