@@ -373,7 +373,7 @@ Section $(Section_SMPlayer) SecSMPlayer
 !ifndef WIN64
       Call Backup_Codecs
 !endif
-      Call Backup_YTDL
+      ;Call Backup_YTDL
       ;Call Backup_SMTube
 
       ${If} "$INSTDIR" == "$SMPlayer_Path"
