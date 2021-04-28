@@ -47,7 +47,7 @@ jobs:
             ln -s debian-orig debian
             cp debian-orig/changelog-orig debian-orig/changelog
             ./get_version.sh
-            VERSION=`cat version`~${{ matrix.config.name }}
+            VERSION=`cat version`~`lsb_release -cs`
             dch -v $VERSION "Development version"
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
