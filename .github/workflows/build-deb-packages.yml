@@ -1,0 +1,69 @@
+name: Build deb packages
+env:
+  app-name: 'smplayer'
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { container: 'wachii/debian-qt:10.9', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
+
+    runs-on: ubuntu-latest
+    container: ${{ matrix.config.container }}
+
+    steps:
+      - name: Install sources
+        uses: actions/checkout@v2
+        with:
+          path: ${{ env.app-name }}
+          fetch-depth: 0
+
+      - name: Setup Qt 5
+        run: echo "QT_SELECT=qt5" >> $GITHUB_ENV
+        if: ${{ matrix.config.qt == 5 }}
+
+      - name: Prepare sources
+        run: |
+            cd ${{ env.app-name }}
+            ln -s debian-orig debian
+            cp debian-orig/changelog-orig debian-orig/changelog
+            ./get_version.sh
+            VERSION=`cat version`-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
+            dch -v $VERSION "Development version"
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Compile ${{ env.app-name }}
+        run: cd ${{ env.app-name }} && fakeroot debian/rules build
+
+      - name: Build package
+        run: |
+            cd ${{ env.app-name }} && fakeroot debian/rules binary
+            cd ..
+            PACKAGEFILENAME=`ls ${{ env.app-name }}_*.deb`
+            echo $PACKAGEFILENAME
+            echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: ./*.deb
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./*.deb
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
