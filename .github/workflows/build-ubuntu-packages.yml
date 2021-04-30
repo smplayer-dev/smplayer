@@ -47,7 +47,8 @@ jobs:
             ln -s debian-orig debian
             cp debian-orig/changelog-orig debian-orig/changelog
             ./get_version.sh
-            VERSION=`cat version`~`lsb_release -cs`
+            VERSION=`cat version`-1~`lsb_release -is`-`lsb_release -cs`
+            VERSION=`echo $VERSION | tr '[:upper:]' '[:lower:]'`
             dch -v $VERSION "Development version"
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
@@ -58,7 +59,7 @@ jobs:
         run: |
             cd ${{ env.app-name }} && fakeroot debian/rules binary
             cd ..
-            PACKAGEFILENAME=`ls ${{ env.app-name }}*.deb`
+            PACKAGEFILENAME=`ls ${{ env.app-name }}_*.deb`
             echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
       - name: Create artifact
