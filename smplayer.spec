@@ -103,6 +103,8 @@ popd
 #cp webfsd %{buildroot}/usr/bin/webfsd
 #popd
 
+install -m 0644 -D %{name}.appdata.xml %{buildroot}%{_metainfodir}/%{name}.appdata.xml
+
 %post
 touch --no-create %{_datadir}/icons/hicolor
 if [ -x %{_bindir}/gtk-update-icon-cache ]; then
@@ -127,8 +129,9 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/smplayer/
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
-#%{_bindir}/webfsd
+#{_bindir}/webfsd
 %{_bindir}/simple_web_server
+%{_metainfodir}/%{name}.appdata.xml
 
 %changelog
 * Thu Feb 25 2016 Ricardo Villalba <ricardo@smplayer.info> - 16.1.0

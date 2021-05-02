@@ -1,0 +1,62 @@
+<!-- Copyright 2015 Ankur Sinha <ankursinha AT fedoraproject DOT org> -->
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>smplayer</id>
+  
+  <name>smplayer</name>
+  <summary>A graphical frontend for mpv and mplayer</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  
+  <description>
+    <p>
+        SMPlayer is a free media player for Windows and Linux with built-in
+        codecs that can play virtually all video and audio formats. It doesn't
+        need any external codecs. Just install SMPlayer and you'll be able to
+        play all formats without the hassle to find and install codec packs.
+    </p>
+
+    <p>
+        One of the most interesting features of SMPlayer: it remembers the
+        settings of all files you play. So you start to watch a movie but you
+        have to leave... don't worry, when you open that movie again it will be
+        resumed at the same point you left it, and with the same settings:
+        audio track, subtitles, volume...
+    </p>
+
+    <p>
+        SMPlayer is a graphical user interface (GUI) for the award-winning
+        MPlayer, which is capable of playing almost all known video and audio
+        formats. But apart from providing access for the most common and useful
+        options of MPlayer, SMPlayer adds other interesting features like the
+        possibility to play Youtube videos or download subtitles. 
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">smplayer.desktop</launchable>
+  <categories>
+        <category>AudioVideo</category>
+        <category>Video</category>
+  </categories>
+  <url type="homepage">https://www.smplayer.info/</url>
+  <update_contact>https://www.smplayer.info/en/contact</update_contact>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://smplayer.sourceforge.net/images/screenshots/mainwindow.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://smplayer.sourceforge.net/images/screenshots/thumbnail_generator_en.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://smplayer.sourceforge.net/images/screenshots/find_subtitles.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://smplayer.sourceforge.net/images/screenshots/smplayer_skin_modern3.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+    <releases>
+       <release version="21.1.0" date="2021-01-06"/>
+  </releases>
+</component>
