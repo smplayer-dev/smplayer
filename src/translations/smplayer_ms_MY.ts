@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -420,7 +418,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>&amp;Subtitles</source>
-        <translation>&amp;Sarikata</translation>
+        <translation>&amp;Sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -613,7 +611,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Cekupan skrin</translation>
+        <translation>&amp;Tangkap Layar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2058"/>
@@ -842,7 +840,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>Subtitles</source>
-        <translation>Sarikata</translation>
+        <translation>Sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5137"/>
@@ -928,12 +926,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>Baris te&amp;rdahulu dalam sarikata</translation>
+        <translation>Baris te&amp;rdahulu dalam sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>Baris ber&amp;ikutnya dalam sarikata</translation>
+        <translation>Baris ber&amp;ikutnya dalam sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -989,12 +987,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1773"/>
         <source>Screenshot with subtitles</source>
-        <translation>Cekupan Skrin dengan sarikata</translation>
+        <translation>Tangkap layar dengan sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>Screenshot without subtitles</source>
-        <translation>Cekupan Skrin tanpa sarikata</translation>
+        <translation>Tangkap layar tanpa sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1777"/>
@@ -1024,12 +1022,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1843"/>
         <source>Seek to next subtitle</source>
-        <translation>Jangkau sarikata berikutnya</translation>
+        <translation>Jangkau sari kata berikutnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1844"/>
         <source>Seek to previous subtitle</source>
-        <translation>Jangkau sarikata terdahulu</translation>
+        <translation>Jangkau sari kata terdahulu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
@@ -1039,7 +1037,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1852"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Cari sarikata di &amp;OpenSubtitles.org...</translation>
+        <translation>Cari sari kata di &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1170,12 +1168,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1957"/>
         <source>Previous subtitle</source>
-        <translation>Sarikata terdahulu</translation>
+        <translation>Sari kata terdahulu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1958"/>
         <source>Next subtitle</source>
-        <translation>Sarikata berikutnya</translation>
+        <translation>Sari kata berikutnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1959"/>
@@ -1256,7 +1254,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="2105"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Putar sebanyak 1&amp;80 darjah</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
@@ -1291,7 +1289,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="2150"/>
         <source>Select subtitle track</source>
-        <translation>Pilih trek sarikata</translation>
+        <translation>Pilih trek sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2153"/>
@@ -1301,7 +1299,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="2155"/>
         <source>Select secondary subtitle track</source>
-        <translation>Pilih trek sarikata kedua</translation>
+        <translation>Pilih trek sari kata kedua</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2161"/>
@@ -1592,7 +1590,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>Pa&amp;ksa sarikata sahaja</translation>
+        <translation>Sari kata dipaksa sahaja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1962"/>
@@ -1672,7 +1670,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1853"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Muat naik sarikata ke &amp;OpenSubtitles.org...</translation>
+        <translation>Muat naik sari kata ke &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
@@ -1740,7 +1738,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="5017"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Version MPlayer (%1) yang dipasang pada sistem anda sudah lapok. SMPlayer tidak dapat berfungsi baik dengannya: sesetengah pilihan tidak akan berfungsi, pemilihan sarikata akan mengalami kegagalan...</translation>
+        <translation>Version MPlayer (%1) yang dipasang pada sistem anda sudah lapok. SMPlayer tidak dapat berfungsi baik dengannya: sesetengah pilihan tidak akan berfungsi, pemilihan sari kata akan mengalami kegagalan...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5022"/>
@@ -1853,13 +1851,13 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../basegui.cpp" line="4696"/>
         <location filename="../basegui.cpp" line="4700"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer - Lengahan sarikata</translation>
+        <translation>SMPlayer - Lengah sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4697"/>
         <location filename="../basegui.cpp" line="4701"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Lengahan sarikata (dalam milisaat):</translation>
+        <translation>Lengah sari kata (dalam milisaat):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2110"/>
@@ -1875,12 +1873,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Mula/henti men&amp;gambil cekupan skrin</translation>
+        <translation>Mula/henti men&amp;gambil tangkap layar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>Keta&amp;mpakan sarikata</translation>
+        <translation>Keta&amp;mpakan sari kata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1966"/>
@@ -1906,7 +1904,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1977"/>
         <source>Subtitles onl&amp;y</source>
-        <translation>Sarikata saha&amp;ja</translation>
+        <translation>Sari kata saha&amp;ja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
@@ -2355,7 +2353,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../core.cpp" line="3466"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation>Lengahan sarikata: %1 ms</translation>
+        <translation>Lengah sari kata: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3484"/>
@@ -2375,12 +2373,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../core.cpp" line="3640"/>
         <source>Subtitles on</source>
-        <translation>Sarikata dihidupkan</translation>
+        <translation>Sari kata hidup</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3642"/>
         <source>Subtitles off</source>
-        <translation>Sarikata dimatikan</translation>
+        <translation>Sari kata mati</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4261"/>
@@ -2405,7 +2403,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../core.cpp" line="4598"/>
         <source>Screenshot saved as %1</source>
-        <translation>Cekupan skrin disimpan sebagai %1</translation>
+        <translation>Tangkap layar disimpan sebagai %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4633"/>
@@ -2415,12 +2413,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../core.cpp" line="1431"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Cekupan skrin TIDAK diambil, folder tidak dikonfigur</translation>
+        <translation>Tangkap layar TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1444"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Cekupan skrin TIDAK diambil, folder tidak dikonfigur</translation>
+        <translation>Tangkap layar TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2811"/>
@@ -2453,7 +2451,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
         <source>Subtitle</source>
-        <translation>Sarikata</translation>
+        <translation>Sari kata</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="704"/>
@@ -2902,7 +2900,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation>Benar/lumpuhkan penggunaan proksi.</translation>
+        <translation>Daya/lumpuhkan penggunaan proksi.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
@@ -2967,7 +2965,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
         <source>&amp;Enable proxy</source>
-        <translation>&amp;Benarkan proksi</translation>
+        <translation>&amp;Dayakan proksi</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="132"/>
@@ -2999,7 +2997,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation>Ta&amp;mbah kod bahasa pada nama fail sarikata</translation>
+        <translation>Ta&amp;mbah kod bahasa pada nama fail sari kata</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
@@ -3077,7 +3075,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="322"/>
         <source>Subtitles service powered by %1</source>
-        <translation>Perkhidmatan sarikata diperkasakan oleh %1</translation>
+        <translation>Perkhidmatan sari kata diperkasa oleh %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
@@ -3087,7 +3085,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="423"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Daftar masuk ke opensubtitles.org telah gagal</translation>
+        <translation>Daftar masuk ke opensubtitles.org  mengalami kegagalan</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="427"/>
@@ -3103,14 +3101,12 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sari kata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
         <source>Error fixing the subtitle lines</source>
-        <translation>Ralat membaiki baris sarikata</translation>
+        <translation>Ralat membaiki baris sari kata</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3156,7 +3152,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
         <source>Find Subtitles</source>
-        <translation>Cari Sarikata</translation>
+        <translation>Cari Sari kata</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
@@ -3192,7 +3188,7 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="612"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="760"/>
         <source>Subtitle saved as %1</source>
-        <translation>Sarikata disimpan sebagai %1</translation>
+        <translation>Sari kata disimpan sebagai %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="797"/>
@@ -3213,7 +3209,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -3507,7 +3503,7 @@ Sila semak keizinan folder tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="189"/>
         <source>Subtitles</source>
-        <translation>Sarikata</translation>
+        <translation>Sari kata</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="128"/>
@@ -5661,7 +5657,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Tukar %1 dimana setem masa bagi bingkai video dikiran secara berasingan dan penapis video ditambah bingkai baru atau diubahsuai setem masa sedia ada yang tersokong. Lebih tepat setem masa boleh dikelihatankan contohnya bila memainkan sarikata bermasa pada adegan yang berubah dengan pustaka SSA/ASS dibenarkan. Tanpa pts yang dibetulkan pemasaan sarikata akan dimatikan oleh sesetengah bingkai. Pilihaan ini tidak berfungsi baik dengan beberapa jenis demuxer dan kodeks.</translation>
+        <translation>Tukar %1 dimana setem masa bagi bingkai video dikira secara berasingan dan penapis video ditambah bingkai baru atau diubah suai setem masa sedia ada yang tersokong. Lebih tepat setem masa boleh ditampakkan, contohnya bila memainkan sari kata bermasa pada adegan yang berubah dengan pustaka SSA/ASS didayakan. Tanpa pts yang dibetulkan pemasaan sari kata akan dimatikan oleh sesetengah bingkai. Pilihan ini tidak berfungsi baik dengan beberapa jenis demuxer dan kodeks.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5671,7 +5667,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="489"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Disini anda boleh nyatakan senarai &lt;i&gt;tindakan&lt;/i&gt; yang akan dijalankan setiap kali fail dibuka. Anda akan temui semua tindakan tersedia di dalam penyunting pintasan kekunci dalam seksyen &lt;b&gt;Papan kekunci dan tetikus&lt;/b&gt;. Tindakan mestilah dipisah dengan tanda jarak. Tindakan boleh tanda seperti berikut iaitu &lt;i&gt;benar&lt;/i&gt; atau &lt;i&gt;palsu&lt;/i&gt; untuk benar atau lumpuhkan tindakan.</translation>
+        <translation>Disini anda boleh nyatakan senarai &lt;i&gt;tindakan&lt;/i&gt; yang akan dijalankan setiap kali fail dibuka. Anda akan temui semua tindakan tersedia di dalam penyunting pintasan kekunci dalam seksyen &lt;b&gt;Papan kekunci dan tetikus&lt;/b&gt;. Tindakan mestilah dipisah dengan tanda jarak. Tindakan boleh tanda seperti berikut iaitu &lt;i&gt;benar&lt;/i&gt; atau &lt;i&gt;palsu&lt;/i&gt; untuk daya atau lumpuhkan tindakan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5765,7 +5761,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>Jika pilihan ini dibenarkan, maklumat dari tag akan dipaparkan dalam tajuk tetingkap. Jika tidak hanya nama fail akan dipaparkan.</translation>
+        <translation>Jika pilihan ini didayakan, maklumat dari tag akan dipaparkan dalam tajuk tetingkap. Jika tidak hanya nama fail akan dipaparkan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
@@ -5912,7 +5908,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
         <source>Enable DVD menus</source>
-        <translation>Benarkan menu DVD</translation>
+        <translation>Dayakan menu DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
@@ -5937,7 +5933,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation>B&amp;enarkan menu DVD (eksprimental)</translation>
+        <translation>&amp;Dayakan menu DVD (eksperimental)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
@@ -6018,7 +6014,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="210"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv.</translation>
+        <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sari kata. Bila media dengan strim audio atau sari kata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sari kata, seperti fail DVD atau mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1035"/>
@@ -6053,22 +6049,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation>Bila pilihan ini dibenarkan tetapan untuk strim atas-talian akan diingati jua.</translation>
+        <translation>Bila pilihan ini didayakan tetapan untuk strim atas-talian akan diingati jua.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Screenshots folder</source>
-        <translation>Folder cekupan skrin</translation>
+        <translation>Folder tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Template for screenshots</source>
-        <translation>Templat untuk cekupan skrin</translation>
+        <translation>Templat untuk tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1080"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation>Contohnya %1 akan menyimpan cekupan skrin sebagai &apos;moviename_0001.png&apos;.</translation>
+        <translation>Contohnya %1 akan menyimpan tangkap layar sebagai &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -6078,17 +6074,17 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Format for screenshots</source>
-        <translation>Format untuk cekupan skrin</translation>
+        <translation>Format untuk tangkap layar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation>Pilihan ini membolehkan pemilihan jenis fail imej yang digunakan untuk menyimpan cekupan skrin.</translation>
+        <translation>Pilihan ini membolehkan pemilihan jenis fail imej yang digunakan untuk menyimpan tangkap layar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1110"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation>Jika pilihan ini dibenarkan, komputer akan dimatikan selepas SMPlayer ditutup.</translation>
+        <translation>Jika pilihan ini didayakan, komputer akan dimatikan selepas SMPlayer ditutup.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1116"/>
@@ -6113,7 +6109,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation>Jika pilihan ini dibenarkan, sempadan hitam akan ditambah pada imej secara lalai pada fail yang baharu dibuka.</translation>
+        <translation>Jika pilihan ini didayakan, sempadan hitam akan ditambah pada imej secara lalai pada fail yang baharu dibuka.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1217"/>
@@ -6138,7 +6134,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Preferred subtitle language</source>
-        <translation>Bahasa sarikata digemari</translation>
+        <translation>Bahasa sari kata dikehendaki</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
@@ -6153,7 +6149,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan cekupan skrin.</translation>
+        <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan tangkap layar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
@@ -6174,7 +6170,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Add black borders for subtitles by default</source>
-        <translation>Tambah sempadan hitam pada sarikata secara lalai</translation>
+        <translation>Tambah sempadan hitam pada sari kata secara lalai</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1156"/>
@@ -6244,7 +6240,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>&amp;Ingat tetapan untuk semua fail (trek audio, sarikata...)</translation>
+        <translation>&amp;Ingat tetapan untuk semua fail (trek audio, sari kata...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1191"/>
@@ -6344,7 +6340,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="435"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>B&amp;enarkan pos-pemprosesan secara lalai</translation>
+        <translation>&amp;Dayakan pos-pemprosesan secara lalai</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
@@ -6394,7 +6390,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Enable postprocessing by default</source>
-        <translation>Benarkan pos-pemprosesan secara lalai</translation>
+        <translation>Dayakan pos-pemprosesan secara lalai</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1257"/>
@@ -6439,12 +6435,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1290"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Anda boleh nyatakan di sini senarai kod bahasa sarikata, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
+        <translation>Anda boleh nyatakan di sini senarai kod bahasa sari kata, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1293"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih strim sarikata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan memilih strim sari kata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1300"/>
@@ -6459,12 +6455,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1306"/>
         <source>Subtitle track</source>
-        <translation>Trek sarikata</translation>
+        <translation>Trek sari kata</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1307"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Nyatakan trek sarikata lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa sarikata digemari&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
+        <translation>Nyatakan trek sari kata lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa sari kata dikehendaki&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1312"/>
@@ -6484,12 +6480,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1096"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation>Audio dan sarikata di&amp;gemari</translation>
+        <translation>Audio dan sari kata di&amp;kehendaki</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1266"/>
         <source>&amp;Subtitle:</source>
-        <translation>&amp;Sarikata:</translation>
+        <translation>&amp;Sari kata:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="835"/>
@@ -6509,7 +6505,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation>Tambah sempadan &amp;hitam pada sarikata secara lalai</translation>
+        <translation>Tambah sempadan &amp;hitam pada sari kata secara lalai</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="586"/>
@@ -6539,7 +6535,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1274"/>
         <source>Preferred audio and subtitles</source>
-        <translation>Audio dan sarikata digemari</translation>
+        <translation>Audio dan sari kata digemari</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
@@ -6594,7 +6590,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Enable the audio equalizer</source>
-        <translation>Benarkan penyama audio</translation>
+        <translation>Dayakan penyama audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1221"/>
@@ -6604,7 +6600,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="752"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>B&amp;enarkan penyama audio</translation>
+        <translation>&amp;Dayakan penyama audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
@@ -6614,7 +6610,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Benar/lumpuhkan melukis video dengan hirisan/jalur berketinggian 16-piksel. Jika dilumpuhkan, keseluruhan bingkai dilukis dengan sekali jalan. Mungkin lebih pantas atau sebaliknya, bergantung pada kad video atau cache yang ada. Ia hanya berkesan dengan kodeks libmpeg2 dan libavcodec.</translation>
+        <translation>Daya/lumpuhkan melukis video dengan hirisan/jalur berketinggian 16-piksel. Jika dilumpuhkan, keseluruhan bingkai dilukis dengan sekali jalan. Mungkin lebih pantas atau sebaliknya, bergantung pada kad video atau cache yang ada. Ia hanya berkesan dengan kodeks libmpeg2 dan libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="607"/>
@@ -6678,12 +6674,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Jika pilihan ini dibenarkan, fail akan dijeda bila tetingkap utama disembunyikan. Bila tetingkap dipulihkan, main balik akan disambung semula.</translation>
+        <translation>Jika pilihan ini didayakan, fail akan dijeda bila tetingkap utama disembunyikan. Bila tetingkap dipulihkan, main balik akan disambung semula.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Tanda pilihan ini untuk lumpuhkan penyelamat skrin, semasa dimainkan. &lt;br&gt;Penyelamatan akan dibenarkan sekali lagi bila selesai main.</translation>
+        <translation>Tanda pilihan ini untuk lumpuhkan penyelamat skrin, semasa dimainkan. &lt;br&gt;Penyelamatan akan didayakan sekali lagi bila selesai main.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6699,7 +6695,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1183"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Jika pilihan ini dibenarkan, sempadan hitam akan ditambah ke imej dalam mod skrin penuh. Ia membolehkan sarikata dipaparkan pada sempadan hitam.</translation>
+        <translation>Jika pilihan ini didayakan, sempadan hitam akan ditambah ke imej dalam mod skrin penuh. Ia membolehkan sari kata dipaparkan pada sempadan hitam.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6759,27 +6755,27 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Enable screenshots</source>
-        <translation>Benarkan cekupan skrin</translation>
+        <translation>Dayakan tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1069"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Anda boleh guna pilihan ini untuk benar atau lumpuhkan kebarangkalian mengambil cekupan skrin.</translation>
+        <translation>Anda boleh guna pilihan ini untuk daya atau lumpuhkan kebarangkalian mengambil tangkap layar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Di sini anda boleh nyatakan folder dimana cekupan skrin yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur cekupan skrin akan dilumpuhkan.</translation>
+        <translation>Di sini anda boleh menyatakan folder iaitu tangkap layar yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur tangkap layar akan dilumpuhkan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
         <source>Screenshots</source>
-        <translation>Cekupan skrin</translation>
+        <translation>Tangkap Layar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Enable screenshots</source>
-        <translation>B&amp;enarkan cekupan skrin</translation>
+        <translation>&amp;Dayakan tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="193"/>
@@ -6814,7 +6810,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation>Pilihan ini mematikan penyelamat skrin sebelum mula memainkan fail dan hidupkannya kembali bila main balik selesai. Jika pilihan ini dibenarkan. penyelamat skrin tidak akan muncul walaupun memainkan fail audio atau bila fail dijeda.</translation>
+        <translation>Pilihan ini mematikan penyelamat skrin sebelum mula memainkan fail dan hidupkannya kembali bila main balik selesai. Jika pilihan ini didayakan. penyelamat skrin tidak akan muncul walaupun memainkan fail audio atau bila fail dijeda.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1200"/>
@@ -6904,7 +6900,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1230"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation>&lt;b&gt;Perhatian:&lt;/b&gt; tiada penapis audio akan digunakan bila pilihan ini dibenarkan.</translation>
+        <translation>&lt;b&gt;Perhatian:&lt;/b&gt; tiada penapis audio akan digunakan bila pilihan ini didayakan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="450"/>
@@ -7081,7 +7077,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
-        <translation>Cekupan skrin</translation>
+        <translation>Tangkap Layar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -7359,7 +7355,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation>Bila pilihan ini dibenarkan kekunci multimedia (Main, Henti, Volum+/-, Senyap, dan lain-lain) akan berfungsi walaupun ketika SMPlayer berjalan disebalik tabir.</translation>
+        <translation>Bila pilihan ini didayakan kekunci multimedia (Main, Henti, Volum+/-, Senyap, dan lain-lain) akan berfungsi walaupun ketika SMPlayer berjalan disebalik tabir.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
@@ -7389,7 +7385,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>Jika pilihan ini dibenarkan bila anda dwi-klik pada kawasan video sahaja, fungsi dwi-klik akan dipicu. Tindakan klik kiri tidak akan diaktifkan.</translation>
+        <translation>Jika pilihan ini didayakan bila anda dwi-klik pada kawasan video sahaja, fungsi dwi-klik akan dipicu. Tindakan klik kiri tidak akan diaktifkan.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
@@ -7433,22 +7429,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation>Tandakannya untuk benarkan penjangkauan sebagai satu fungsi.</translation>
+        <translation>Tandakannya untuk dayakan penjangkauan sebagai satu fungsi.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation>Tandakannya untuk benarkan pengubahan volum sebagai satu fungsi.</translation>
+        <translation>Tandakannya untuk dayakan pengubahan volum sebagai satu fungsi.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation>Tandakannya untuk benarkan pengezuman sebagai satu fungsi.</translation>
+        <translation>Tandakannya untuk dayakan pengezuman sebagai satu fungsi.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation>Tandakannya untuk benarkan pengubahan kelajuan sebagai satu fungsi.</translation>
+        <translation>Tandakannya untuk dayakan pengubahan kelajuan sebagai satu fungsi.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="437"/>
@@ -7689,7 +7685,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation>B&amp;enarkan sokongan untuk skrin DPI tinggi</translation>
+        <translation>&amp;Dayakan sokongan untuk skrin DPI tinggi</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="985"/>
@@ -7834,7 +7830,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation>Bila pilihan ini dibenarkan, tetingkap utama akan ditengahkan pada dekstop.</translation>
+        <translation>Bila pilihan ini didayakan, tetingkap utama akan ditengahkan di atas meja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
@@ -7879,7 +7875,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation>Jika pilihan ini dibenarkan, SMPlayer akan menggunakan dialog fail tabii sistem. Jika sebaliknya ia akan gunakan sistem dalamannya.</translation>
+        <translation>Jika pilihan ini didayakan, SMPlayer akan menggunakan dialog fail tabii sistem. Jika sebaliknya ia akan gunakan sistem dalamannya.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7966,7 +7962,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>Jika pilihan ini dibenarkan, kawalan terapung akan muncul dalam mod padat jua.</translation>
+        <translation>Jika pilihan ini didayakan, kawalan terapung akan muncul dalam mod padat jua.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
@@ -8067,7 +8063,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Jika pilihan ini dibenarkan, kawalan terapung akan muncul dengan animasi.</translation>
+        <translation>Jika pilihan ini didayakan, kawalan terapung akan muncul dengan animasi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="853"/>
@@ -8139,7 +8135,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>Jika pilihan ini dibenarkan tetingkap akan disembunyikan bila memainkan fail audio.</translation>
+        <translation>Jika pilihan ini didayakan tetingkap akan disembunyikan bila memainkan fail audio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
@@ -8154,7 +8150,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation>Jika pilihan ini dibenarkan, jangkau lebih tepat tetapi ia boleh menjadi perlahan. Mungkin tidak berfungsi dengan beberapa format video.</translation>
+        <translation>Jika pilihan ini didayakan, jangkau lebih tepat tetapi ia boleh menjadi perlahan. Mungkin tidak berfungsi dengan beberapa format video.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
@@ -8237,12 +8233,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="352"/>
         <source>Subtitles</source>
-        <translation>Sarikata</translation>
+        <translation>Sari kata</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="358"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation>Tukar sarikata SRT menjadi &amp;VTT</translation>
+        <translation>Tukar sari kata berformat SRT menjadi &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="390"/>
@@ -8257,7 +8253,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="406"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation>Kedudukan &amp;sarikata di atas skrin:</translation>
+        <translation>Kedudukan &amp;sari kata atas skrin:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="461"/>
@@ -8267,7 +8263,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="467"/>
         <source>&amp;Enable proxy</source>
-        <translation>B&amp;enarkan proksi</translation>
+        <translation>&amp;Dayakan proksi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="480"/>
@@ -8429,7 +8425,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation>Pilihan ini membenarkan strim boleh suai yang dapat menyediakan video sehingga 4K.</translation>
+        <translation>Pilihan ini mendayakan strim boleh suai yang dapat menyediakan video sehingga 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="324"/>
@@ -8439,7 +8435,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="325"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation>Pilihan ini membenarkan strim pada 60 bingkai sesaat jika ada.</translation>
+        <translation>Pilihan ini mendayakan strim pada 60 bingkai sesaat jika ada.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
@@ -8479,12 +8475,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation>Tukar sarikata SRT menjadi VTT</translation>
+        <translation>Tukar sari kata berfomat SRT menjadi VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation>Bila pilihan ini  dibenarkan SMPlayer akan tukarkan fail sarikata secara automatik dari format SRT ke format VTT. Sarikata VTT akan mempunyai nama yang sama tetapi sambungannya .vtt</translation>
+        <translation>Bila pilihan ini  didayakan SMPlayer akan tukarkan fail sari kata secara automatik dari format SRT ke format VTT. Sari kata VTT akan mempunyai nama yang sama tetapi sambungannya .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
@@ -8494,7 +8490,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation>Jika pilihan ini dibenarkan, SMPlayer akan ditulis-ganti fail VTT sedia ada.</translation>
+        <translation>Jika pilihan ini didayakan, SMPlayer akan ditulis-ganti fail VTT sedia ada.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
@@ -8504,17 +8500,17 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation>Jika pilihan ini dibenarkan, SMPlayer akan cuba cari iklan dalam sarikata dan buangkannya.</translation>
+        <translation>Jika pilihan ini didayakan, SMPlayer akan cuba cari iklan dalam sari kata dan buangkannya.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="370"/>
         <source>Position of subtitles on screen</source>
-        <translation>Kedudukan sarikata di atas skrin</translation>
+        <translation>Kedudukan sari kata atas skrin</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation>Pilihan ini tetapkan kedudukan di atas skrin yang mana sarikata dipaparkan.</translation>
+        <translation>Pilihan ini tetapkan kedudukan di atas skrin yang mana sari kata dipaparkan.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
@@ -8534,12 +8530,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="379"/>
         <source>Enable proxy</source>
-        <translation>Benarkan proksi</translation>
+        <translation>Dayakan proksi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="380"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation>Benar/lumpuhkan penggunaan proksi.</translation>
+        <translation>Daya/lumpuhkan penggunaan proksi.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="382"/>
@@ -8805,7 +8801,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="100"/>
         <source>Enabled</source>
-        <translation>Dibenarkan</translation>
+        <translation>Didayakan</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="101"/>
@@ -8866,7 +8862,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation>Auto: ia cuba benarkan penyahkodan perkakasan secara automatik menggunakan kaedah pertama yang tersedia.</translation>
+        <translation>Auto: ia cuba mendayakan penyahkodan perkakasan secara automatik menggunakan kaedah pertama yang tersedia.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
@@ -8901,7 +8897,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation>&lt;b&gt;Dibenarkan&lt;/b&gt;: penapis gelung tidak dilangkau</translation>
+        <translation>&lt;b&gt;Didayakan&lt;/b&gt;: penapis gelung tidak dilangkau</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
@@ -8931,7 +8927,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation>Biasanya pilihan ini akan benarkan cache bila perlu.</translation>
+        <translation>Biasanya pilihan ini akan mendayakan cache bila perlu.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="400"/>
@@ -9004,7 +9000,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Jika pilihan ini dibenarkan, setiap kali fail dibuka, SMPlayer akan mengosongkan senarai main dan kemudian tambah fail ke dalamnya. Dalam kes DVD, CD dan VCD, semua tajuk dalam cakera akan ditambah ke dalam senarai main.</translation>
+        <translation>Jika pilihan ini didayakan, setiap kali fail dibuka, SMPlayer akan mengosongkan senarai main dan kemudian tambah fail ke dalamnya. Dalam kes DVD, CD dan VCD, semua tajuk dalam cakera akan ditambah ke dalam senarai main.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
@@ -9089,7 +9085,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="233"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation>Jika pilihan ini dibenarkan, senarai akan diisih secara automatik selepas menambah fail.</translation>
+        <translation>Jika pilihan ini didayakan, senarai akan diisih secara automatik selepas menambah fail.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
@@ -9114,12 +9110,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="244"/>
         <source>Enable the option to delete files from disk</source>
-        <translation>Benarkan pilihan untuk memadam fail dari cakera</translation>
+        <translation>Dayakan pilihan untuk memadam fail dari cakera</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="245"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation>Pilihan ini membolehkan anda benarkan pilihan memadam fail dari cakera dalam menu konteks senarai main. Untuk menghindari pemadaman secara tidak sengaja, maka pilihan ini dilumpuhkan secara lalai.</translation>
+        <translation>Pilihan ini membolehkan anda mendayakan pilihan memadam fail dari cakera dalam menu konteks senarai main. Untuk menghindari pemadaman secara tidak sengaja, maka pilihan ini dilumpuhkan secara lalai.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -9154,7 +9150,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="185"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Jika pilihan ini dibenarkan, semua fail dari senarai main akan mula dimainkan dari permulaan selain dari sambung dari main balik terdahulu.</translation>
+        <translation>Jika pilihan ini didayakan, semua fail dari senarai main akan mula dimainkan dari permulaan selain dari sambung dari main balik terdahulu.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
@@ -9169,7 +9165,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>Jika pilihan ini dibenarkan, senarai main akan abaikan ralat main balik daripada fail terdahulu dan akan main fail berikutnya yang ada di dalam senarai.</translation>
+        <translation>Jika pilihan ini didayakan, senarai main akan abaikan ralat main balik daripada fail terdahulu dan akan main fail berikutnya yang ada di dalam senarai.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -9269,7 +9265,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation>Benarkan pilihan untuk memadam fail dari &amp;cakera</translation>
+        <translation>Dayakan pilihan untuk memadam fail dari &amp;cakera</translation>
     </message>
 </context>
 <context>
@@ -9278,12 +9274,12 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../prefsubtitles.cpp" line="61"/>
         <location filename="../prefsubtitles.cpp" line="400"/>
         <source>Subtitles</source>
-        <translation>Sarikata</translation>
+        <translation>Sari kata</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="30"/>
         <source>&amp;Subtitles</source>
-        <translation>&amp;Sarikata</translation>
+        <translation>&amp;Sari kata</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
@@ -9304,7 +9300,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation>Benarkan fon &amp;Windows</translation>
+        <translation>Dayakan fon &amp;Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -9321,47 +9317,47 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>Muat-se&amp;ndiri fail sarikata (*.srt, *.sub...):</translation>
+        <translation>Au&amp;to-muat fail sari kata (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation>P&amp;ilih sarikata tersedia dahulu</translation>
+        <translation>P&amp;ilih sari kata tersedia dahulu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation>Semua sarikata mengandungi nama cereka</translation>
+        <translation>Semua sari kata mengandungi nama cereka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation>Semua sarikata dalam direktori</translation>
+        <translation>Semua sari kata dalam direktori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>Pengekodan sarikata &amp;lalai:</translation>
+        <translation>Pengekodan sari kata &amp;lalai:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="210"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>S&amp;ertakan sarikata pada cekupan skrin</translation>
+        <translation>S&amp;ertakan sari kata dalam tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select first available subtitle</source>
-        <translation>Pilih sarikata pertama tersedia dahulu</translation>
+        <translation>Pilih sari kata pertama tersedia dahulu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Default subtitle encoding</source>
-        <translation>Pengekodan sarikata lalai</translation>
+        <translation>Pengekodan sari kata lalai</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>Include subtitles on screenshots</source>
-        <translation>Sertakan sarikata pada cekupan skrin</translation>
+        <translation>Sertakan sari kata dalam tangkap layar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
@@ -9371,7 +9367,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation>Pilih warna bagi teks sarikata.</translation>
+        <translation>Pilih warna bagi teks sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
@@ -9381,22 +9377,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation>Pilih warna bagi sempadan sarikata.</translation>
+        <translation>Pilih warna bagi sempadan sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="403"/>
         <source>Select the subtitle autoload method.</source>
-        <translation>Pilih kaedah muat-sendiri sarikata.</translation>
+        <translation>Pilih kaedah auto-muat sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Jika terdapat satu atau lebih trek sarikata tersedia, salah satu darinya akan dipilih secara automatik, biasanya yang pertama, walaupun jika salah satu darinya sepadan dengan bahasa digemari pengguna ia akan digunakan dahulu.</translation>
+        <translation>Jika terdapat satu atau lebih trek sari kata tersedia, salah satu darinya akan dipilih secara automatik, biasanya yang pertama, walaupun jika salah satu darinya sepadan dengan bahasa digemari pengguna ia akan digunakan dahulu.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>Pilih pengekodan yang akan digunakan untuk fail sarikata secara lalai.</translation>
+        <translation>Pilih pengekodan yang akan digunakan untuk fail sari kata secara lalai.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
@@ -9406,7 +9402,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Subtitle language</source>
-        <translation>Bahasa sarikata</translation>
+        <translation>Bahasa sari kata</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
@@ -9431,7 +9427,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Select the font for the subtitles.</source>
-        <translation>Pilih fon untuk sarikata.</translation>
+        <translation>Pilih fon untuk sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
@@ -9441,17 +9437,17 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Pilihan ini membolehkan pustaka Ass, yang membolehkan pemaparan sarikata dengan warna, fon berbilang...</translation>
+        <translation>Pilihan ini mendayakan pustaka Ass, yang membolehkan pemaparan sari kata dengan warna, fon berbilang...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Enable Windows fonts</source>
-        <translation>Benarkan fon Windows</translation>
+        <translation>Dayakan fon Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>Jika pilihan ini dibenarkan fon sistem Windows akan tersedia untuk sarikata. Tetapi ada ketidakselesaan: cache fon perlu dicipta yang mana ia mengambil masa.</translation>
+        <translation>Jika pilihan ini didayakan fon sistem Windows akan tersedia untuk sari kata. Tetapi ada ketidakselesaan: cache fon perlu dicipta yang mana ia mengambil masa.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
@@ -9651,7 +9647,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation>Pilihan berikut membolehkan anda takrifkan gaya yang digunakan untuk sarikata bukan-gaya (srt, sub...).</translation>
+        <translation>Pilihan berikut membolehkan anda takrifkan gaya yang digunakan untuk sari kata tanpa-gaya (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9704,12 +9700,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>Bila pilihan ini dihidupkan, pengekodan sarikata akan cuba dikesan-sendiri mengikut bahasa yang diberi. Ia akan dijatuh-balik ke pengekodan lalai jika pengesanan-sendiri mengalami kegagalan. Pilihan ini memerlukan %1 dengan sokongan ENCA.</translation>
+        <translation>Bila pilihan ini dihidupkan, pengekodan sari kata akan cuba diauto-kesan mengikut bahasa yang diberi. Ia akan dijatuh-balik ke pengekodan lalai jika pengesanan-sendiri mengalami kegagalan. Pilihan ini memerlukan %1 dengan sokongan ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Kebiasaannya, anda sepatutnya tidak lumpuhkan pilihan ini. Hanya dibuat jika %1 anda dikompil tanpa sokongan freetype. &lt;b&gt;Melumpuhkan pilihan ini menjadikan sarikata tidak berfungsi langsung!&lt;/b&gt;</translation>
+        <translation>Kebiasaannya, anda sepatutnya tidak lumpuhkan pilihan ini. Hanya dibuat jika %1 anda dikompil tanpa sokongan freetype. &lt;b&gt;Melumpuhkan pilihan ini boleh menyebabkan sari kata tidak berfungsi langsung!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -9724,7 +9720,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation>Pilihan ini TIDAK menukar saiz sarikata dalam video semasa. Untuk membuatnya guna pilihan &lt;i&gt;Saiz+&lt;/i&gt; and &lt;i&gt;Saiz-&lt;/i&gt; dalam menu sarikata.</translation>
+        <translation>Pilihan ini TIDAK menukar saiz sari kata dalam video semasa. Untuk membuatnya guna pilihan &lt;i&gt;Saiz+&lt;/i&gt; and &lt;i&gt;Saiz-&lt;/i&gt; dalam menu sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9734,7 +9730,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Pilihan ini tentukan skala fon lalai untuk sarikata SSA/ASS yang mana akan digunakan untuk fail yang baru dibuka.</translation>
+        <translation>Pilihan ini tentukan skala fon lalai untuk sari kata SSA/ASS yang mana akan digunakan untuk fail yang baru dibuka.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
@@ -9774,7 +9770,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>Jika pilihan ini ditanda, sarikata akan muncul di dalam cekupan skrin. &lt;b&gt;Perhatian:&lt;/b&gt; ia kadangkala menyebabkan masalah.</translation>
+        <translation>Jika pilihan ini ditanda, sari kata akan muncul di dalam tangkap layar. &lt;b&gt;Perhatian:&lt;/b&gt; ia kadang kala boleh menyebabkan masalah.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="349"/>
@@ -9804,7 +9800,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation>Warni ini akan digunakan untuk bayang sarikata.</translation>
+        <translation>Warni ini akan digunakan untuk bayang sari kata.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
@@ -9819,7 +9815,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Jika pilihan ini ditanda, gaya yang ditakrif juga akan dilaksana pada sarikata ass.</translation>
+        <translation>Jika pilihan ini ditanda, gaya yang ditakrif juga akan dilaksana pada sari kata ass.</translation>
     </message>
 </context>
 <context>
@@ -9887,7 +9883,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation>Jika pilihan ini dibenarkan, SMPlayer akan mencari saluran TV dan radio baru pada ~/.mplayer/channels.conf.ter atau pada ~/.mplayer/channels.conf.</translation>
+        <translation>Jika pilihan ini didayakan, SMPlayer akan mencari saluran TV dan radio baru pada ~/.mplayer/channels.conf.ter atau pada ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -9930,7 +9926,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Jika pilihan ini dibenarkan, SMPlayer akan memeriksa kemaskini dan paparkan pemberitahuan jika ada versi baru tersedia.</translation>
+        <translation>Jika pilihan ini didayakan, SMPlayer akan memeriksa kemaskini dan paparkan pemberitahuan jika ada versi baru tersedia.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9950,7 +9946,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation>Jika pilihan ini dibenarkan, satu halaman bermaklumat mengenai SMPlayer akan dibuka selepas ditatar.</translation>
+        <translation>Jika pilihan ini didayakan, satu halaman bermaklumat mengenai SMPlayer akan dibuka selepas ditatar.</translation>
     </message>
 </context>
 <context>
@@ -10088,23 +10084,19 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../clhelp.cpp" line="168"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation>tentukan fail sarikata yang dimuatkan untuk video pertama.</translation>
+        <translation>tentukan fail sari kata yang dimuatkan untuk video pertama.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="125"/>
         <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="128"/>
         <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="132"/>
@@ -10519,12 +10511,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation>Pemilihan sarikata</translation>
+        <translation>Pemilihan sari kata</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Arkib ini mengandungi lebih dari satu fail sarikata. Sila pilih yang mana hendak diekstrakkan.</translation>
+        <translation>Arkib ini mengandungi lebih dari satu fail sari kata. Sila pilih yang mana hendak diekstrak.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
