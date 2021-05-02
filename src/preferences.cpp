@@ -544,7 +544,7 @@ void Preferences::reset() {
 	yt_user_agent = "";
 	yt_ytdl_bin = "";
 	yt_override_format = "";
-	yt_use_dash = false;
+	yt_use_dash = true;
 	yt_use_60fps = true;
 	yt_use_av1 = false;
 #endif
