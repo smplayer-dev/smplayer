@@ -2643,7 +2643,7 @@ void Core::startMplayer( QString file, double seek ) {
 	QString line_for_log = commandline + "\n";
 	emit logLineAvailable(line_for_log);
 
-	QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+	QProcessEnvironment env = proc->processEnvironment();
 	if ((pref->use_proxy) && (pref->proxy_type == QNetworkProxy::HttpProxy) && (!pref->proxy_host.isEmpty())) {
 		QString proxy = QString("http://%1:%2@%3:%4").arg(pref->proxy_username).arg(pref->proxy_password).arg(pref->proxy_host).arg(pref->proxy_port);
 		env.insert("http_proxy", proxy);
