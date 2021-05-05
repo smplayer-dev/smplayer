@@ -8,9 +8,9 @@ Summary:        A great media player
 Group:          Applications/Multimedia
 License:        GPL-2.0+
 URL:            http://smplayer.sourceforge.net/
-Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
-Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
-Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
+Source0:        https://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
+Source3:        https://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
+Source4:        https://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
 
 %if 0%{?suse_version}
 BuildRequires:  hicolor-icon-theme
@@ -35,7 +35,6 @@ BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5Xml)
 
 Requires:       mpv
-%{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
 SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
