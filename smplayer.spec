@@ -1,7 +1,7 @@
 Name:           smplayer
 Version:        21.1.0
-%global smplayer_themes_ver 18.6.0
-%global smplayer_skins_ver 15.2.0
+%global smplayer_themes_ver 20.11.0
+%global smplayer_skins_ver 20.11.0
 Release:        1%{?dist}
 Summary:        A great media player
 
@@ -19,17 +19,16 @@ BuildRequires:  libQt5Gui-private-headers-devel
 %else
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  qt5-qttools-devel
+BuildRequires:  qt5-qtbase-private-devel
 %endif
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
-#BuildRequires:  pkgconfig(libpulse) >= 0.9
 BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Network)
 BuildRequires:  pkgconfig(Qt5PrintSupport)
-BuildRequires:  pkgconfig(Qt5Script)
 BuildRequires:  pkgconfig(Qt5Sql)
 BuildRequires:  pkgconfig(Qt5WebKitWidgets)
 BuildRequires:  pkgconfig(Qt5Widgets)
@@ -55,9 +54,6 @@ and with the same settings.
 
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
-# fix files which are not UTF-8 
-iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog
-mv Changelog.utf8 Changelog
 
 # change rcc binary
 %{__sed} -e 's/rcc -binary/rcc-qt5 -binary/' -i smplayer-themes-%{smplayer_themes_ver}/themes/Makefile
