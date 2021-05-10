@@ -1,6 +1,7 @@
 name: Build rpm packages
 env:
   app-name: 'smplayer'
+  output_dir: 'RPM/x86_64'
 
 on:
   workflow_dispatch:
@@ -14,6 +15,7 @@ jobs:
       matrix:
         config:
           - { container: 'wachii/fedora-qt:35', qt: 5 }
+          - { container: 'wachii/opensuse-qt:15.3', qt: 5 }
 
     runs-on: ubuntu-latest
     container: ${{ matrix.config.container }}
@@ -47,11 +49,9 @@ jobs:
 
       - name: Build
         run: |
-            rpmbuild -tb ${{ env.app-name }}-$VERSION.tar.bz2
-            ls -lR ~/rpmbuild/RPMS
-            mkdir RPM
-            mv ~/rpmbuild/RPMS/x86_64/*.rpm RPM/
-            cd RPM
+            rpmbuild -tb ${{ env.app-name }}-$VERSION.tar.bz2 --define "_rpmdir $(pwd)/RPM"
+            ls -l ${{ env.output_dir }}
+            cd ${{ env.output_dir }}
             PACKAGEFILENAME=`ls ${{ env.app-name }}*.rpm`
             echo "PACKAGEFILENAME=$PACKAGEFILENAME" >> $GITHUB_ENV
 
@@ -59,14 +59,14 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.PACKAGEFILENAME }}
-          path: RPM/*.rpm
+          path: ${{ env.output_dir }}/*.rpm
 
       - name: Upload package to release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: RPM/*.rpm
+          file: ${{ env.output_dir }}/*.rpm
           tag: ${{ github.ref }}
           overwrite: true
           file_glob: true
