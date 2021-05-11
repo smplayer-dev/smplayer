@@ -602,6 +602,18 @@ void MPVProcess::addUserOption(const QString & option) {
 
 	qDebug() << "MPVProcess::addUserOption: s:" << s;
 
+#ifdef USE_IPC
+	// Check if the user passed the option --input-ipc-server, in that case use that socket
+	if (s.startsWith("--input-ipc-server")) {
+		QStringList l = s.split("=");
+		if (l.count() == 2) {
+			QString socket_name = l[1];
+			qDebug() << "MPVProcess::addUserOption: socket_name:" << socket_name;
+			setSocketName(socket_name);
+		}
+	}
+#endif
+
 	arg << s;
 	if (option == "-v") {
 		verbose = true;

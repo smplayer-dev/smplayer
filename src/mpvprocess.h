@@ -194,6 +194,11 @@ protected:
 	void updateSubtitleTrack(int ID, const QString & name, const QString & lang, bool selected);
 #endif
 
+#ifdef USE_IPC
+	void setSocketName(const QString & name);
+	QString socketName() { return socket_name; }
+#endif
+
 private:
 	#if 0
 	// For some reason lupdate doesn't get the translations from mpvoptions.cpp

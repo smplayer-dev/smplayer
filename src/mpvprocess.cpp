@@ -108,6 +108,17 @@ MPVProcess::~MPVProcess() {
 #endif
 }
 
+#ifdef USE_IPC
+void MPVProcess::setSocketName(const QString & name) {
+	// Remove old socket
+	if (!socket_name.isEmpty() && QFile::exists(socket_name)) {
+		QFile::remove(socket_name);
+	}
+	socket_name = name;
+	qDebug() << "MPVProcess::setSocketName:" << socket_name;
+}
+#endif
+
 bool MPVProcess::start() {
 	md.reset();
 	notified_mplayer_is_running = false;
