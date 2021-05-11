@@ -2,13 +2,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>smplayer</id>
-  
+
   <name>smplayer</name>
   <summary>A graphical frontend for mpv and mplayer</summary>
-  
+
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
-  
+
   <description>
     <p>
         SMPlayer is a free media player for Windows and Linux with built-in
@@ -33,7 +33,7 @@
         possibility to play Youtube videos or download subtitles. 
     </p>
   </description>
-  
+
   <launchable type="desktop-id">smplayer.desktop</launchable>
   <categories>
         <category>AudioVideo</category>
@@ -43,16 +43,16 @@
   <update_contact>https://www.smplayer.info/en/contact</update_contact>
   <screenshots>
     <screenshot type="default">
-      <image>http://smplayer.sourceforge.net/images/screenshots/mainwindow.png</image>
+      <image>https://smplayer.info/images/screenshots/mainwindow.png</image>
     </screenshot>
     <screenshot>
-      <image>http://smplayer.sourceforge.net/images/screenshots/thumbnail_generator_en.png</image>
+      <image>https://smplayer.info/images/screenshots/thumbnail_generator_en.png</image>
     </screenshot>
     <screenshot>
-      <image>http://smplayer.sourceforge.net/images/screenshots/find_subtitles.png</image>
+      <image>https://smplayer.info/images/screenshots/find_subtitles.png</image>
     </screenshot>
     <screenshot>
-      <image>http://smplayer.sourceforge.net/images/screenshots/smplayer_skin_modern3.png</image>
+      <image>https://smplayer.info/images/screenshots/smplayer_skin_modern3.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>

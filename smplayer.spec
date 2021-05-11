@@ -7,7 +7,7 @@ Summary:        A great media player
 
 Group:          Applications/Multimedia
 License:        GPL-2.0+
-URL:            http://smplayer.sourceforge.net/
+URL:            https://smplayer.info/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
 Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
