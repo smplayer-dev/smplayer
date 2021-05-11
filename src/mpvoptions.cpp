@@ -239,6 +239,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--cache=auto";
 	}
 	else
+	if (option_name == "start_chapter") {
+		arg << "--start=#" + value.toString();
+	}
+	else
 	if (option_name == "ss") {
 		arg << "--start=" + value.toString();
 	}

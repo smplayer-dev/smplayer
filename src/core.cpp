@@ -2203,6 +2203,16 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	#ifdef MPV_SUPPORT
+	// Fix Audio CD
+	if (proc->isMPV()) {
+		if (file.startsWith("cdda:")) {
+			file = "cdda://";
+			proc->setOption("start_chapter",  mset.current_title_id);
+		}
+	}
+	#endif
+
 	if (pref->use_idx) {
 		proc->setOption("idx");
 	}
