@@ -89,7 +89,7 @@ pushd smplayer-skins-%{smplayer_skins_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
 popd
 
-install -m 0644 -D %{name}.appdata.xml %{buildroot}%{_metainfodir}/%{name}.appdata.xml
+install -m 0644 -D %{name}.appdata.xml %{buildroot}%{_datadir}/metainfo/%{name}.appdata.xml
 
 %post
 touch --no-create %{_datadir}/icons/hicolor
@@ -116,7 +116,7 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
 %{_bindir}/simple_web_server
-%{_metainfodir}/%{name}.appdata.xml
+%{_datadir}/metainfo/%{name}.appdata.xml
 
 %changelog
 * Thu Feb 25 2016 Ricardo Villalba <ricardo@smplayer.info> - 16.1.0
