@@ -105,6 +105,8 @@ int MplayerVersion::mplayerVersion(QString string) {
 		qDebug() << "MplayerVersion::mplayerVersion: MPlayer version found:" << version;
 		mplayer_svn = 0;
 
+		if (version == "1.4") mplayer_svn = MPLAYER_1_4;
+		else
 		if (version == "1.2") mplayer_svn = MPLAYER_1_2;
 		else
 		if (version == "1.1") mplayer_svn = MPLAYER_1_1;
