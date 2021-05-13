@@ -1,0 +1,33 @@
+name: Build SMPlayer on Mac OS
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: macos-10.15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: '5.15.2'
+          host: 'mac'
+
+      - name: Compile
+        run: |
+            ./get_svn_revision.sh
+            cd src
+            qmake
+            make -j8
+            macdeployqt smplayer.app -dmg
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: smplayer-mac
+          path: ./src/smplayer.dmg
