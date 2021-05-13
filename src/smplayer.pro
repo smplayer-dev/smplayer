@@ -140,6 +140,11 @@ contains( DEFINES, GLOBALSHORTCUTS ) {
 	}
 }
 
+macx {
+	DEFINES -= GLOBALSHORTCUTS
+	message("GLOBALSHORTCUTS not supported on macx. Disabled.")
+}
+
 HEADERS += guiconfig.h \
 	config.h \
 	constants.h \
