@@ -69,6 +69,15 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 }
 
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
+#ifdef USE_COREVIDEO_BUFFER
+	if (option_name == "vo") {
+		QString vo = value.toString();
+		if (vo == "corevideo") {
+			value = QString("corevideo:buffer_name=%1").arg(buffer_name);
+		}
+	}
+#endif
+
 	if (option_name == "ao") {
 		QString ao = value.toString();
 		if (ao.contains(":")) {

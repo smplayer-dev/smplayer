@@ -21,7 +21,6 @@
 
 #import "mplayerconnection.h"
 //#import <debug/debug.h>
-//#import <AppKit/NSOpenGL.h>
 #import <OpenGL/gl.h>
 #include <fcntl.h>
 #include <sys/mman.h>

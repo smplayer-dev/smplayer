@@ -53,7 +53,7 @@ enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
-class Screen : 
+class Screen :
 #ifdef USE_COREVIDEO_BUFFER
 public QGLWidget
 #else
@@ -113,10 +113,10 @@ public:
 	//! Return true if repainting the background is allowed.
 	bool repaintBackground() { return repaint_background; };
 	#ifdef USE_COREVIDEO_BUFFER
-    void updateView();
-    void setSharedMemory(QString memoryName);
-    void stopOpengl();
-    #endif
+	void updateView();
+	void setSharedMemory(QString memoryName);
+	void stopOpengl();
+	#endif
 #endif
 
 public slots:

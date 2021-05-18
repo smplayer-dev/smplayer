@@ -50,6 +50,7 @@
 #ifdef USE_COREVIDEO_BUFFER
 #include "mac/objc_bridge.h"
 #include "mac/globaldataclass.h"
+GlobalDataClass globaldata;
 #endif
 
 Screen::Screen(QWidget* parent, Qt::WindowFlags f)
