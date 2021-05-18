@@ -196,6 +196,7 @@ void MplayerLayer::updateView()
 
 void MplayerLayer::setSharedMemory(QString memoryName)
 {
+	qDebug() << "MplayerLayer::setSharedMemory:" << memoryName;
 	makeCurrent();
 	startObjcFunction(memoryName.toLatin1().data());
 	//cleararea_bridge();

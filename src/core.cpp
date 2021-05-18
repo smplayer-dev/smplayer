@@ -49,6 +49,10 @@
 #include <QSysInfo> // To get Windows version
 #endif
 
+#ifdef USE_COREVIDEO_BUFFER
+#include "mplayerprocess.h"
+#endif
+
 #ifdef SCREENSAVER_OFF
 #include "screensaver.h"
 #endif
@@ -300,7 +304,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #ifdef USE_COREVIDEO_BUFFER
 	if (proc->isMPlayer()) {
-		MplayerProcess * mplayer_proc = static_cast<MplayerProcess>(proc);
+		MplayerProcess * mplayer_proc = dynamic_cast<MplayerProcess*>(proc);
 		mplayerwindow->videoLayer()->setSharedMemory(mplayer_proc->buffer_name);
 	}
 #endif

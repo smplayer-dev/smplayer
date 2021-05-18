@@ -72,8 +72,19 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 #ifdef USE_COREVIDEO_BUFFER
 	if (option_name == "vo") {
 		QString vo = value.toString();
-		if (vo == "corevideo") {
-			value = QString("corevideo:buffer_name=%1").arg(buffer_name);
+		qDebug() << "MplayerProcess::setOption: vo:" << vo;
+		if (vo.startsWith("corevideo")) {
+			vo = QString("corevideo:buffer_name=%1").arg(buffer_name);
+			arg << "-vo" << vo;
+			return;
+		}
+	}
+	else
+	if (option_name == "wid") {
+		QStringList s = arg.filter("corevideo");
+		if (s.count() > 0) { 
+			// Ignore
+			return;
 		}
 	}
 #endif
