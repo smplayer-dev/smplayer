@@ -228,7 +228,7 @@
             //SwapBuffers();
 
             CVOpenGLTextureRelease(texture);
-            //globaldata.gl->updateView();
+            globaldata.gl->updateView();
 
     } else {
             glClearColor(0,0,0,0);
@@ -347,7 +347,7 @@
     [context makeCurrentContext];
      glClear(GL_COLOR_BUFFER_BIT);
     CGLUnlockContext(ctx);
-    //globaldata.gl->updateView();
+    globaldata.gl->updateView();
 
 
 }
