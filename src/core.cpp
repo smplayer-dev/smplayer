@@ -24,6 +24,10 @@
 #include <QUrl>
 #include <QNetworkProxy>
 
+#ifdef USE_COREVIDEO_BUFFER
+#include <QCoreApplication>
+#endif
+
 #ifdef Q_OS_OS2
 #include <QEventLoop>
 #endif
@@ -297,6 +301,11 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 
 	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));
+
+#ifdef USE_COREVIDEO_BUFFER
+	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
+	mplayerwindow->videoLayer()->setSharedMemory(buffer_name);
+#endif
 }
 
 
@@ -305,6 +314,9 @@ Core::~Core() {
 
 	if (proc->isRunning()) stopMplayer();
 	proc->terminate();
+#ifdef USE_COREVIDEO_BUFFER
+	mplayerwindow->videoLayer()->stopOpengl();
+#endif
 	delete proc;
 
 	delete file_settings;
@@ -1749,6 +1761,12 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 		#endif
 	}
+
+#ifdef USE_COREVIDEO_BUFFER
+	if (pref->vo == "corevideo") {
+		proc->setOption("vo", QString("corevideo:buffer_name=%1").arg(buffer_name));
+	}
+#endif
 
 #ifndef Q_OS_WIN
 	// If using Wayland

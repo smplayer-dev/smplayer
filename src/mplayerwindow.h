@@ -30,6 +30,10 @@
 #include <QKeyEvent>
 #include <QPaintEvent>
 
+#ifdef USE_COREVIDEO_BUFFER
+#include <QGLWidget>
+#endif
+
 #include "config.h"
 
 class QWidget;
@@ -49,7 +53,12 @@ enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
-class Screen : public QWidget
+class Screen : 
+#ifdef USE_COREVIDEO_BUFFER
+public QGLWidget
+#else
+public QWidget
+#endif
 {
 	Q_OBJECT
 
@@ -103,6 +112,11 @@ public:
 
 	//! Return true if repainting the background is allowed.
 	bool repaintBackground() { return repaint_background; };
+	#ifdef USE_COREVIDEO_BUFFER
+    void updateView();
+    void setSharedMemory(QString memoryName);
+    void stopOpengl();
+    #endif
 #endif
 
 public slots:
@@ -111,6 +125,9 @@ public slots:
 	virtual void playingStarted();
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
+	#ifdef USE_COREVIDEO_BUFFER
+	void cleararea_slot();
+	#endif
 
 private:
 #if REPAINT_BACKGROUND_OPTION

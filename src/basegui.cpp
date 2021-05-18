@@ -122,6 +122,11 @@
 #include <QSysInfo>
 #endif
 
+#ifdef USE_COREVIDEO_BUFFER
+#include "mac/globaldataclass.h"
+GlobalDataClass globaldata;
+#endif
+
 #ifdef UPDATE_CHECKER
 #include "updatechecker.h"
 #endif

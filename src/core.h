@@ -585,6 +585,10 @@ private:
 #endif
 
 	QMap<QString,QString> forced_titles;
+
+#ifdef USE_COREVIDEO_BUFFER
+	QString buffer_name;
+#endif
 };
 
 #endif

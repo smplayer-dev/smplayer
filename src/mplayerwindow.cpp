@@ -47,8 +47,17 @@
 #include <QTapGesture>
 #endif
 
+#ifdef USE_COREVIDEO_BUFFER
+#include "mac/objc_bridge.h"
+#include "mac/globaldataclass.h"
+#endif
+
 Screen::Screen(QWidget* parent, Qt::WindowFlags f)
+#ifdef USE_COREVIDEO_BUFFER
+	: QGLWidget(parent, 0, f)
+#else
 	: QWidget(parent, f )
+#endif
 	, check_mouse_timer(0)
 	, mouse_last_position(QPoint(0,0))
 	, autohide_cursor(false)
@@ -135,6 +144,9 @@ MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
 #endif
 	, playing(false)
 {
+#ifdef USE_COREVIDEO_BUFFER
+	globaldata.gl = this;
+#endif
 }
 
 MplayerLayer::~MplayerLayer() {
@@ -170,6 +182,30 @@ void MplayerLayer::playingStopped() {
 //	repaint();
 	Screen::playingStopped();
 }
+
+#ifdef USE_COREVIDEO_BUFFER
+void MplayerLayer::cleararea_slot() {
+	cleararea_bridge();
+}
+
+void MplayerLayer::updateView()
+{
+	updateGL();
+}
+
+void MplayerLayer::setSharedMemory(QString memoryName)
+{
+	makeCurrent();
+	startObjcFunction(memoryName.toLatin1().data());
+	//cleararea_bridge();
+	QTimer::singleShot(0, this, SLOT(cleararea_slot()));
+}
+
+void MplayerLayer::stopOpengl()
+{
+	stopObjcFunction();
+}
+#endif
 
 /* ---------------------------------------------------------------------- */
 

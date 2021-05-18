@@ -640,6 +640,16 @@ os2 {
 	RC_FILE = smplayer_os2.rc
 }
 
+mac {
+ 	DEFINES += USE_COREVIDEO_BUFFER
+	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
+		 HEADERS += mac/mplayerconnection.h mac/objc_bridge.h mac/globaldataclass.h
+		OBJECTIVE_SOURCES += mac/mplayerconnection.mm mac/objc_bridge.mm
+		SOURCES += mac/globaldataclass.cpp
+		LIBS += -framework Cocoa -framework QuartzCore
+		QT += opengl
+	}
+}
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
                translations/smplayer_de.ts \
