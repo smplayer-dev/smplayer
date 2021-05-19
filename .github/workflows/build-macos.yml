@@ -19,12 +19,16 @@ jobs:
           host: 'mac'
 
       - name: Compile
+        if: ${{false}}
         run: |
             ./get_svn_revision.sh
             cd src
             qmake
             make -j8
             macdeployqt smplayer.app -dmg
+
+      - name: Compile
+        run: ./compile_mac.sh
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
