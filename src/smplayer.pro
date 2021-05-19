@@ -649,6 +649,7 @@ mac {
 		LIBS += -framework Cocoa -framework QuartzCore
 		QT += opengl
 	}
+	ICON = smplayer.icns
 }
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
