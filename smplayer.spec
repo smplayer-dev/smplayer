@@ -1,3 +1,7 @@
+%if 0%{?suse_version}
+ %define dist .opensuse
+%endif
+
 Name:           smplayer
 Version:        21.1.0
 %global smplayer_themes_ver 20.11.0
