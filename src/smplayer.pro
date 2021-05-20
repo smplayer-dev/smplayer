@@ -142,7 +142,9 @@ contains( DEFINES, GLOBALSHORTCUTS ) {
 
 macx {
 	DEFINES -= GLOBALSHORTCUTS
-	message("GLOBALSHORTCUTS not supported on macx. Disabled.")
+	DEFINES -= SCREENSAVER_OFF
+	DEFINES -= AUTO_SHUTDOWN_PC
+	message("Some features are disabled on macx.")
 }
 
 HEADERS += guiconfig.h \
@@ -641,7 +643,7 @@ os2 {
 }
 
 mac {
- 	DEFINES += USE_COREVIDEO_BUFFER
+ 	#DEFINES += USE_COREVIDEO_BUFFER
 	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 		 HEADERS += mac/mplayerconnection.h mac/objc_bridge.h mac/globaldataclass.h
 		OBJECTIVE_SOURCES += mac/mplayerconnection.mm mac/objc_bridge.mm
