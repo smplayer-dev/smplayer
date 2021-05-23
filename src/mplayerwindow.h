@@ -40,6 +40,7 @@ class QWidget;
 class QLabel;
 class QKeyEvent;
 class QTimer;
+class ScreenHelper;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -51,53 +52,8 @@ class QTimer;
 
 enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
 
-//! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
-class Screen :
-#ifdef USE_COREVIDEO_BUFFER
-public QGLWidget
-#else
-public QWidget
-#endif
-{
-	Q_OBJECT
-
-public:
-	Screen(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
-	~Screen();
-
-	void setAutoHideCursor(bool b);
-	bool autoHideCursor() { return autohide_cursor; };
-
-	void setAutoHideInterval(int milliseconds) { autohide_interval = milliseconds; };
-	int autoHideInterval() { return autohide_interval; };
-
-public slots:
-	//! Should be called when a file has started. 
-	virtual void playingStarted();
-
-	//! Should be called when a file has stopped.
-	virtual void playingStopped();
-
-signals:
-	void mouseMoved(QPoint);
-
-protected:
-	virtual void mouseMoveEvent( QMouseEvent * e );
-
-protected slots:
-	virtual void checkMousePos();
-
-private:
-	QTimer * check_mouse_timer;
-	QPoint mouse_last_position;
-	bool autohide_cursor;
-	int autohide_interval;
-};
-
-//! MplayerLayer can be instructed to not delete the background.
-
-class MplayerLayer : public Screen
+class MplayerLayer : public QWidget
 {
 	Q_OBJECT
 
@@ -120,7 +76,7 @@ public:
 #endif
 
 public slots:
-	//! Should be called when a file has started. 
+	//! Should be called when a file has started.
 	/*! It's needed to know if the background has to be cleared or not. */
 	virtual void playingStarted();
 	//! Should be called when a file has stopped.
@@ -137,7 +93,7 @@ private:
 };
 
 
-class MplayerWindow : public Screen
+class MplayerWindow : public QWidget
 {
 	Q_OBJECT
 
@@ -184,6 +140,12 @@ public:
 	QWidget * cornerWidget() { return corner_widget; };
 
 public slots:
+	//! Should be called when a file has started.
+	virtual void playingStarted();
+
+	//! Should be called when a file has stopped.
+	virtual void playingStopped();
+
 	void setLogoVisible(bool b);
 	void showLogo() { setLogoVisible(true); };
 	void hideLogo() { setLogoVisible(false); };
@@ -234,6 +196,7 @@ protected:
 	double aspect;
 	double monitoraspect;
 
+	ScreenHelper * helper;
 	MplayerLayer * mplayerlayer;
 	QLabel * logo;
 

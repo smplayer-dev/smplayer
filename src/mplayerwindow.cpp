@@ -20,6 +20,7 @@
 #include "global.h"
 #include "desktopinfo.h"
 #include "colorutils.h"
+#include "screenhelper.h"
 
 #ifndef MINILIB
 #include "images.h"
@@ -53,93 +54,10 @@
 GlobalDataClass globaldata;
 #endif
 
-Screen::Screen(QWidget* parent, Qt::WindowFlags f)
-#ifdef USE_COREVIDEO_BUFFER
-	: QGLWidget(parent, 0, f)
-#else
-	: QWidget(parent, f )
-#endif
-	, check_mouse_timer(0)
-	, mouse_last_position(QPoint(0,0))
-	, autohide_cursor(false)
-	, autohide_interval(0)
-{
-	setMouseTracking(true);
-	setFocusPolicy( Qt::NoFocus );
-	setMinimumSize( QSize(0,0) );
-
-	check_mouse_timer = new QTimer(this);
-	connect( check_mouse_timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
-
-	setAutoHideInterval(1000);
-	setAutoHideCursor(false);
-}
-
-Screen::~Screen() {
-}
-
-void Screen::setAutoHideCursor(bool b) {
-	qDebug("Screen::setAutoHideCursor: %d", b);
-
-	autohide_cursor = b;
-	if (autohide_cursor) {
-		check_mouse_timer->setInterval(autohide_interval);
-		check_mouse_timer->start();
-	} else {
-		check_mouse_timer->stop();
-	}
-}
-
-void Screen::checkMousePos() {
-	//qDebug("Screen::checkMousePos");
-
-	if (!autohide_cursor) {
-		setCursor(QCursor(Qt::ArrowCursor));
-		return;
-	}
-
-	QPoint pos = mapFromGlobal(QCursor::pos());
-
-	//qDebug("Screen::checkMousePos: x: %d, y: %d", pos.x(), pos.y());
-
-	if (mouse_last_position != pos) {
-		setCursor(QCursor(Qt::ArrowCursor));
-	} else {
-		setCursor(QCursor(Qt::BlankCursor));
-	}
-	mouse_last_position = pos;
-}
-
-void Screen::mouseMoveEvent( QMouseEvent * e ) {
-	//qDebug("Screen::mouseMoveEvent");
-	emit mouseMoved(e->pos());
-
-	if (cursor().shape() != Qt::ArrowCursor) {
-		//qDebug(" showing mouse cursor" );
-		setCursor(QCursor(Qt::ArrowCursor));
-	}
-}
-
-void Screen::playingStarted() {
-	qDebug("Screen::playingStarted");
-	setAutoHideCursor(true);
-}
-
-void Screen::playingStopped() {
-	qDebug("Screen::playingStopped");
-	setAutoHideCursor(false);
-
-#ifdef Q_OS_WIN
-	// For an unknown reason the cursor remains in the wait state after stop
-	// this sets it to normal
-	unsetCursor();
-#endif
-}
-
 /* ---------------------------------------------------------------------- */
 
 MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
-	: Screen(parent, f)
+	: QWidget(parent, f)
 #if REPAINT_BACKGROUND_OPTION
 	, repaint_background(false)
 #endif
@@ -169,7 +87,7 @@ void MplayerLayer::playingStarted() {
 	if (!repaint_background) setUpdatesEnabled(false);
 #endif
 
-	Screen::playingStarted();
+	//Screen::playingStarted();
 }
 
 void MplayerLayer::playingStopped() {
@@ -181,7 +99,7 @@ void MplayerLayer::playingStopped() {
 #endif
 
 //	repaint();
-	Screen::playingStopped();
+	//Screen::playingStopped();
 }
 
 #ifdef USE_COREVIDEO_BUFFER
@@ -212,7 +130,7 @@ void MplayerLayer::stopOpengl()
 /* ---------------------------------------------------------------------- */
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
-	: Screen(parent, f)
+	: QWidget(parent, f)
 	, video_width(0)
 	, video_height(0)
 	, aspect((double) 4/3)
@@ -241,6 +159,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
     , start_drag(QPoint(0,0))
     , mouse_drag_tracking(false)
 {
+	helper = new ScreenHelper(this);
 	mplayerlayer = new MplayerLayer(this);
 	mplayerlayer->setObjectName("mplayerlayer");
 
@@ -316,6 +235,16 @@ void MplayerWindow::retranslateStrings() {
 #ifndef MINILIB
 	logo->setPixmap( Images::icon("background") );
 #endif
+}
+
+void MplayerWindow::playingStarted() {
+	helper->playingStarted();
+	mplayerlayer->playingStarted();
+}
+
+void MplayerWindow::playingStopped() {
+	helper->playingStopped();
+	mplayerlayer->playingStopped();
 }
 
 void MplayerWindow::setLogoVisible( bool b) {
@@ -704,7 +633,7 @@ void MplayerWindow::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		Screen::changeEvent(e);
+		QWidget::changeEvent(e);
 	}
 }
 
