@@ -44,6 +44,7 @@
 #include <QtCore/qmath.h>
 
 #include "mplayerwindow.h"
+#include "videolayer.h"
 #include "desktopinfo.h"
 #include "helper.h"
 #include "paths.h"

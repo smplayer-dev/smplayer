@@ -30,10 +30,6 @@
 #include <QKeyEvent>
 #include <QPaintEvent>
 
-#ifdef USE_COREVIDEO_BUFFER
-#include <QGLWidget>
-#endif
-
 #include "config.h"
 
 class QWidget;
@@ -41,6 +37,7 @@ class QLabel;
 class QKeyEvent;
 class QTimer;
 class ScreenHelper;
+class VideoLayer;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -52,47 +49,6 @@ class ScreenHelper;
 
 enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
 
-
-class MplayerLayer : public QWidget
-{
-	Q_OBJECT
-
-public:
-	MplayerLayer(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
-	~MplayerLayer();
-
-#if REPAINT_BACKGROUND_OPTION
-	//! If b is true, the background of the widget will be repainted as usual.
-	/*! Otherwise the background will not repainted when a video is playing. */
-	void setRepaintBackground(bool b);
-
-	//! Return true if repainting the background is allowed.
-	bool repaintBackground() { return repaint_background; };
-	#ifdef USE_COREVIDEO_BUFFER
-	void updateView();
-	void setSharedMemory(QString memoryName);
-	void stopOpengl();
-	#endif
-#endif
-
-public slots:
-	//! Should be called when a file has started.
-	/*! It's needed to know if the background has to be cleared or not. */
-	virtual void playingStarted();
-	//! Should be called when a file has stopped.
-	virtual void playingStopped();
-	#ifdef USE_COREVIDEO_BUFFER
-	void cleararea_slot();
-	#endif
-
-private:
-#if REPAINT_BACKGROUND_OPTION
-	bool repaint_background;
-#endif
-	bool playing;
-};
-
-
 class MplayerWindow : public QWidget
 {
 	Q_OBJECT
@@ -101,7 +57,7 @@ public:
 	MplayerWindow(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~MplayerWindow();
 
-	MplayerLayer * videoLayer() { return mplayerlayer; };
+	VideoLayer * videoLayer() { return videolayer; };
 
 	void setResolution( int w, int h);
 	void setAspect( double asp);
@@ -197,14 +153,14 @@ protected:
 	double monitoraspect;
 
 	ScreenHelper * helper;
-	MplayerLayer * mplayerlayer;
+	VideoLayer * videolayer;
 	QLabel * logo;
 
 	// Zoom and moving
 	int offset_x, offset_y;
 	double zoom_factor;
 
-	// Original pos and dimensions of the mplayerlayer
+	// Original pos and dimensions of the videolayer
 	// before zooming or moving
 	int orig_x, orig_y;
 	int orig_width, orig_height;

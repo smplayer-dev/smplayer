@@ -21,6 +21,7 @@
 #include "desktopinfo.h"
 #include "colorutils.h"
 #include "screenhelper.h"
+#include "videolayer.h"
 
 #ifndef MINILIB
 #include "images.h"
@@ -48,94 +49,13 @@
 #include <QTapGesture>
 #endif
 
-#ifdef USE_COREVIDEO_BUFFER
-#include "mac/objc_bridge.h"
-#include "mac/globaldataclass.h"
-GlobalDataClass globaldata;
-#endif
-
-/* ---------------------------------------------------------------------- */
-
-MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
-	: QWidget(parent, f)
-#if REPAINT_BACKGROUND_OPTION
-	, repaint_background(false)
-#endif
-	, playing(false)
-{
-#ifdef USE_COREVIDEO_BUFFER
-	globaldata.gl = this;
-#endif
-}
-
-MplayerLayer::~MplayerLayer() {
-}
-
-#if REPAINT_BACKGROUND_OPTION
-void MplayerLayer::setRepaintBackground(bool b) {
-	qDebug("MplayerLayer::setRepaintBackground: %d", b);
-	repaint_background = b;
-}
-#endif
-
-void MplayerLayer::playingStarted() {
-	qDebug("MplayerLayer::playingStarted");
-//	repaint();
-	playing = true;
-
-#ifndef Q_OS_WIN
-	if (!repaint_background) setUpdatesEnabled(false);
-#endif
-
-	//Screen::playingStarted();
-}
-
-void MplayerLayer::playingStopped() {
-	qDebug("MplayerLayer::playingStopped");
-	playing = false;
-
-#ifndef Q_OS_WIN
-	setUpdatesEnabled(true);
-#endif
-
-//	repaint();
-	//Screen::playingStopped();
-}
-
-#ifdef USE_COREVIDEO_BUFFER
-void MplayerLayer::cleararea_slot() {
-	cleararea_bridge();
-}
-
-void MplayerLayer::updateView()
-{
-	updateGL();
-}
-
-void MplayerLayer::setSharedMemory(QString memoryName)
-{
-	qDebug() << "MplayerLayer::setSharedMemory:" << memoryName;
-	makeCurrent();
-	startObjcFunction(memoryName.toLatin1().data());
-	//cleararea_bridge();
-	QTimer::singleShot(0, this, SLOT(cleararea_slot()));
-}
-
-void MplayerLayer::stopOpengl()
-{
-	stopObjcFunction();
-}
-#endif
-
-/* ---------------------------------------------------------------------- */
-
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 	, video_width(0)
 	, video_height(0)
 	, aspect((double) 4/3)
 	, monitoraspect(0)
-	, mplayerlayer(0)
+	, videolayer(0)
 	, logo(0)
 	, offset_x(0)
 	, offset_y(0)
@@ -160,26 +80,26 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
     , mouse_drag_tracking(false)
 {
 	helper = new ScreenHelper(this);
-	mplayerlayer = new MplayerLayer(this);
-	mplayerlayer->setObjectName("mplayerlayer");
+	videolayer = new VideoLayer(this);
+	videolayer->setObjectName("videolayer");
 
-	logo = new QLabel( mplayerlayer );
+	logo = new QLabel( videolayer );
 	logo->setObjectName("mplayerwindowlogo");
 
 	// Set colors
 #ifdef CHANGE_WIDGET_COLOR
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
-	mplayerlayer->setAutoFillBackground(true);
+	videolayer->setAutoFillBackground(true);
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 #else
 	setStyleSheet("MplayerWindow { background-color: black;}");
-	mplayerlayer->setStyleSheet("background-color: black;");
+	videolayer->setStyleSheet("background-color: black;");
 #endif
 
-	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
-	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
+	QVBoxLayout * videolayerLayout = new QVBoxLayout( videolayer );
+	videolayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
 
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
@@ -189,7 +109,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 //#endif
 
 	installEventFilter(this);
-	mplayerlayer->installEventFilter(this);
+	videolayer->installEventFilter(this);
 	//logo->installEventFilter(this);
 
 #if DELAYED_RESIZE
@@ -225,7 +145,7 @@ void MplayerWindow::setCornerWidget(QWidget * w) {
 #if USE_COLORKEY
 void MplayerWindow::setColorKey( QColor c ) {
 	#ifdef CHANGE_WIDGET_COLOR
-	ColorUtils::setBackgroundColor( mplayerlayer, c );
+	ColorUtils::setBackgroundColor( videolayer, c );
 	#endif
 }
 #endif
@@ -239,19 +159,19 @@ void MplayerWindow::retranslateStrings() {
 
 void MplayerWindow::playingStarted() {
 	helper->playingStarted();
-	mplayerlayer->playingStarted();
+	videolayer->playingStarted();
 }
 
 void MplayerWindow::playingStopped() {
 	helper->playingStopped();
-	mplayerlayer->playingStopped();
+	videolayer->playingStopped();
 }
 
 void MplayerWindow::setLogoVisible( bool b) {
 	qDebug() << "MplayerWindow::setLogoVisible:" << b;
 
 #if REPAINT_BACKGROUND_OPTION
-	if (b) mplayerlayer->setUpdatesEnabled(true);
+	if (b) videolayer->setUpdatesEnabled(true);
 #endif
 
 	if (corner_widget) {
@@ -297,7 +217,7 @@ void MplayerWindow::setResolution( int w, int h)
     video_width = w;
     video_height = h;
     
-    //mplayerlayer->move(1,1);
+    //videolayer->move(1,1);
     updateVideoWindow();
 }
 
@@ -380,8 +300,8 @@ void MplayerWindow::updateVideoWindow()
 	    }
 	}
 
-    mplayerlayer->move(x,y);
-    mplayerlayer->resize(w, h);
+    videolayer->move(x,y);
+    videolayer->resize(w, h);
 
 	orig_x = x;
 	orig_y = y;
@@ -554,14 +474,14 @@ QSize MplayerWindow::minimumSizeHint () const {
 
 void MplayerWindow::setOffsetX( int d) {
 	offset_x = d;
-	mplayerlayer->move( orig_x + offset_x, mplayerlayer->y() );
+	videolayer->move( orig_x + offset_x, videolayer->y() );
 }
 
 int MplayerWindow::offsetX() { return offset_x; }
 
 void MplayerWindow::setOffsetY( int d) {
 	offset_y = d;
-	mplayerlayer->move( mplayerlayer->x(), orig_y + offset_y );
+	videolayer->move( videolayer->x(), orig_y + offset_y );
 }
 
 int MplayerWindow::offsetY() { return offset_y; }
@@ -585,36 +505,36 @@ void MplayerWindow::setZoom( double d) {
 		y = (height() -h) / 2;
 	}
 
-	mplayerlayer->move(x,y);
-	mplayerlayer->resize(w,h);
+	videolayer->move(x,y);
+	videolayer->resize(w,h);
 }
 
 double MplayerWindow::zoom() { return zoom_factor; }
 
 void MplayerWindow::moveLayer( int offset_x, int offset_y ) {
-	int x = mplayerlayer->x();
-	int y = mplayerlayer->y();
+	int x = videolayer->x();
+	int y = videolayer->y();
 
-	mplayerlayer->move( x + offset_x, y + offset_y );
+	videolayer->move( x + offset_x, y + offset_y );
 }
 
 void MplayerWindow::moveLeft() {
-	if ((allow_video_movement) || (mplayerlayer->x()+mplayerlayer->width() > width() ))
+	if ((allow_video_movement) || (videolayer->x()+videolayer->width() > width() ))
 		moveLayer( -16, 0 );
 }
 
 void MplayerWindow::moveRight() {
-	if ((allow_video_movement) || ( mplayerlayer->x() < 0 ))
+	if ((allow_video_movement) || ( videolayer->x() < 0 ))
 		moveLayer( +16, 0 );
 }
 
 void MplayerWindow::moveUp() {
-	if ((allow_video_movement) || (mplayerlayer->y()+mplayerlayer->height() > height() ))
+	if ((allow_video_movement) || (videolayer->y()+videolayer->height() > height() ))
 		moveLayer( 0, -16 );
 }
 
 void MplayerWindow::moveDown() {
-	if ((allow_video_movement) || ( mplayerlayer->y() < 0 ))
+	if ((allow_video_movement) || ( videolayer->y() < 0 ))
 		moveLayer( 0, +16 );
 }
 

@@ -171,6 +171,7 @@ HEADERS += guiconfig.h \
 	playerprocess.h \
 	infoprovider.h \
 	screenhelper.h \
+	videolayer.h \
 	mplayerwindow.h \
 	mediadata.h \
 	audioequalizerlist.h \
@@ -270,6 +271,7 @@ SOURCES	+= version.cpp \
 	playerprocess.cpp \
 	infoprovider.cpp \
 	screenhelper.cpp \
+	videolayer.cpp \
 	mplayerwindow.cpp \
 	mediadata.cpp \
 	audioequalizerlist.cpp \
