@@ -1,13 +1,13 @@
 #ifndef GLOBALDATACLASS_H
 #define GLOBALDATACLASS_H
 #include <QPointer>
-#include "mplayerwindow.h"
+#include "videolayermac.h"
 
 class GlobalDataClass
 {
 public:
     GlobalDataClass();
-    QPointer<MplayerLayer> gl;
+    QPointer<VideoLayerMac> gl;
 };
 
 extern GlobalDataClass globaldata;

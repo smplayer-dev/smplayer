@@ -21,10 +21,6 @@
 
 #include "config.h"
 
-#ifdef USE_COREVIDEO_BUFFER
-#define USE_GLWIDGET
-#endif
-
 #ifdef USE_GLWIDGET
 #include <QGLWidget>
 #else
@@ -50,11 +46,6 @@ public:
 
 	//! Return true if repainting the background is allowed.
 	bool repaintBackground() { return repaint_background; };
-	#ifdef USE_COREVIDEO_BUFFER
-	void updateView();
-	void setSharedMemory(QString memoryName);
-	void stopOpengl();
-	#endif
 #endif
 
 public slots:
@@ -63,9 +54,6 @@ public slots:
 	virtual void playingStarted();
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
-	#ifdef USE_COREVIDEO_BUFFER
-	void cleararea_slot();
-	#endif
 
 private:
 #if REPAINT_BACKGROUND_OPTION

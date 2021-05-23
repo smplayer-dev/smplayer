@@ -647,10 +647,11 @@ os2 {
 }
 
 mac {
- 	#DEFINES += USE_COREVIDEO_BUFFER
+ 	DEFINES += USE_COREVIDEO_BUFFER
 	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
-		 HEADERS += mac/mplayerconnection.h mac/objc_bridge.h mac/globaldataclass.h
-		OBJECTIVE_SOURCES += mac/mplayerconnection.mm mac/objc_bridge.mm
+		DEFINES += USE_GLWIDGET
+		HEADERS += videolayermac.h mac/mplayerconnection.h mac/objc_bridge.h mac/globaldataclass.h
+		OBJECTIVE_SOURCES += videolayermac.mm mac/mplayerconnection.mm mac/objc_bridge.mm
 		SOURCES += mac/globaldataclass.cpp
 		LIBS += -framework Cocoa -framework QuartzCore
 		QT += opengl

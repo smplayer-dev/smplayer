@@ -17,12 +17,7 @@
 */
 
 #include "videolayer.h"
-
-#ifdef USE_COREVIDEO_BUFFER
-#include "mac/objc_bridge.h"
-#include "mac/globaldataclass.h"
-GlobalDataClass globaldata;
-#endif
+#include <QDebug>
 
 VideoLayer::VideoLayer(QWidget* parent, Qt::WindowFlags f)
 #ifdef USE_GLWIDGET
@@ -35,9 +30,6 @@ VideoLayer::VideoLayer(QWidget* parent, Qt::WindowFlags f)
 #endif
 	, playing(false)
 {
-#ifdef USE_COREVIDEO_BUFFER
-	globaldata.gl = this;
-#endif
 }
 
 VideoLayer::~VideoLayer() {
@@ -75,30 +67,5 @@ void VideoLayer::playingStopped() {
 //	repaint();
 	//Screen::playingStopped();
 }
-
-#ifdef USE_COREVIDEO_BUFFER
-void VideoLayer::cleararea_slot() {
-	cleararea_bridge();
-}
-
-void VideoLayer::updateView()
-{
-	updateGL();
-}
-
-void VideoLayer::setSharedMemory(QString memoryName)
-{
-	qDebug() << "VideoLayer::setSharedMemory:" << memoryName;
-	makeCurrent();
-	startObjcFunction(memoryName.toLatin1().data());
-	//cleararea_bridge();
-	QTimer::singleShot(0, this, SLOT(cleararea_slot()));
-}
-
-void VideoLayer::stopOpengl()
-{
-	stopObjcFunction();
-}
-#endif
 
 #include "moc_videolayer.cpp"

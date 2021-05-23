@@ -52,6 +52,7 @@
 
 #ifdef USE_COREVIDEO_BUFFER
 #include "mplayerprocess.h"
+#include "videolayermac.h"
 #endif
 
 #ifdef SCREENSAVER_OFF
@@ -306,7 +307,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #ifdef USE_COREVIDEO_BUFFER
 	if (proc->isMPlayer()) {
 		MplayerProcess * mplayer_proc = dynamic_cast<MplayerProcess*>(proc);
-		mplayerwindow->videoLayer()->setSharedMemory(mplayer_proc->buffer_name);
+		VideoLayerMac * vl = dynamic_cast<VideoLayerMac*>(mplayerwindow->videoLayer());
+		vl->setSharedMemory(mplayer_proc->buffer_name);
 	}
 #endif
 }
@@ -318,7 +320,7 @@ Core::~Core() {
 	if (proc->isRunning()) stopMplayer();
 	proc->terminate();
 #ifdef USE_COREVIDEO_BUFFER
-	mplayerwindow->videoLayer()->stopOpengl();
+	//mplayerwindow->videoLayer()->stopOpengl();
 #endif
 	delete proc;
 

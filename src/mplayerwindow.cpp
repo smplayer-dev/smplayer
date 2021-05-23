@@ -49,6 +49,10 @@
 #include <QTapGesture>
 #endif
 
+#ifdef USE_COREVIDEO_BUFFER
+#include "videolayermac.h"
+#endif
+
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 	, video_width(0)
@@ -82,7 +86,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
+#ifdef USE_COREVIDEO_BUFFER
+	videolayer = new VideoLayerMac(this);
+#else
 	videolayer = new VideoLayer(this);
+#endif
 	videolayer->setObjectName("videolayer");
 
 	logo = new QLabel( videolayer );
