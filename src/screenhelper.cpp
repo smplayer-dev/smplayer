@@ -102,7 +102,7 @@ void ScreenHelper::playingStopped() {
 #ifdef Q_OS_WIN
 	// For an unknown reason the cursor remains in the wait state after stop
 	// this sets it to normal
-	unsetCursor();
+	widget->unsetCursor();
 #endif
 }
 
