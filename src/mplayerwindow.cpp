@@ -80,6 +80,8 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
     , mouse_drag_tracking(false)
 {
 	helper = new ScreenHelper(this);
+	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
+
 	videolayer = new VideoLayer(this);
 	videolayer->setObjectName("videolayer");
 

@@ -146,6 +146,7 @@ signals:
 	void wheelUp();
 	void wheelDown();
 	void mouseMovedDiff(QPoint);
+	void mouseMoved(QPoint);
 
 protected:
 	int video_width, video_height;
