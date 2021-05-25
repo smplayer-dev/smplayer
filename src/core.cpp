@@ -308,7 +308,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	if (proc->isMPlayer()) {
 		MplayerProcess * mplayer_proc = dynamic_cast<MplayerProcess*>(proc);
 		VideoLayerMac * vl = dynamic_cast<VideoLayerMac*>(mplayerwindow->videoLayer());
-		vl->setSharedMemory(mplayer_proc->buffer_name);
+		vl->setBufferName(mplayer_proc->buffer_name);
 	}
 #endif
 }

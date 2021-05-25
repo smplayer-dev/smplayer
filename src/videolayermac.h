@@ -29,14 +29,33 @@ public:
 	VideoLayerMac(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~VideoLayerMac();
 
-	void updateView();
-	void setSharedMemory(QString memoryName);
-	void stopOpengl();
+	void setBufferName(const QString & name) { buffer_name = name; }
+	QString bufferName() { return buffer_name; }
 
 public slots:
-	#ifdef USE_COREVIDEO_BUFFER
-	void cleararea_slot();
-	#endif
+	virtual void playingStarted();
+	virtual void playingStopped();
+
+	void init_slot(int width, int height, int bytes, int aspect);
+	void render_slot();
+	void stop_slot();
+
+protected:
+	void start_connection();
+	void stop_connection();
+	QString buffer_name;
+	bool playing;
+
+	int shm_fd;
+	int image_width;
+	int image_height;
+	int image_bytes;
+	unsigned char * image_data;
+	unsigned char * image_buffer;
+
+protected:
+	virtual void paintEvent(QPaintEvent *event);
+	QPixmap frame;
 };
 
 #endif
