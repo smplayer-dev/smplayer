@@ -50,11 +50,6 @@
 #include <QSysInfo> // To get Windows version
 #endif
 
-#ifdef USE_COREVIDEO_BUFFER
-#include "mplayerprocess.h"
-#include "videolayermac.h"
-#endif
-
 #ifdef SCREENSAVER_OFF
 #include "screensaver.h"
 #endif
