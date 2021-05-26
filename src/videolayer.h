@@ -22,16 +22,19 @@
 #include "config.h"
 
 #ifdef USE_GLWIDGET
-#include <QGLWidget>
+ #if QT_VERSION < 0x050000
+  #include <QGLWidget>
+  #define VIDEOLAYER_PARENT QGLWidget
+ #else
+  #include <QOpenGLWidget>
+  #define VIDEOLAYER_PARENT QOpenGLWidget
+ #endif
 #else
-#include <QWidget>
+ #include <QWidget>
+ #define VIDEOLAYER_PARENT QWidget
 #endif
 
-#ifdef USE_GLWIDGET
-class VideoLayer : public QGLWidget
-#else
-class VideoLayer : public QWidget
-#endif
+class VideoLayer : public VIDEOLAYER_PARENT
 {
 	Q_OBJECT
 
@@ -55,7 +58,9 @@ public slots:
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
 
-private:
+	virtual void gotVO(QString);
+
+protected:
 #if REPAINT_BACKGROUND_OPTION
 	bool repaint_background;
 #endif

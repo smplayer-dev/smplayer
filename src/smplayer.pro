@@ -583,6 +583,16 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 	}
 }
 
+#DEFINES += USE_SHM
+contains( DEFINES, USE_SHM ) {
+	HEADERS += videolayershm.h
+	SOURCES += videolayershm.cpp
+	LIBS += -lrt
+
+	#DEFINES += USE_GLWIDGET
+	#QT += opengl
+}
+
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
@@ -650,8 +660,8 @@ mac {
  	DEFINES += USE_COREVIDEO_BUFFER
 	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 		#DEFINES += USE_GLWIDGET
-		HEADERS += videolayermac.h 
-		OBJECTIVE_SOURCES += videolayermac.mm
+		HEADERS += videolayercv.h 
+		OBJECTIVE_SOURCES += videolayercv.mm
 	}
 	ICON = smplayer.icns
 }

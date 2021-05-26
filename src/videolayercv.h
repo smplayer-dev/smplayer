@@ -16,25 +16,23 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef VIDEOLAYERMAC_H
-#define VIDEOLAYERMAC_H
+#ifndef VIDEOLAYERCV_H
+#define VIDEOLAYERCV_H
 
 #include "videolayer.h"
 
-class VideoLayerMac : public VideoLayer
+class VideoLayerCV : public VideoLayer
 {
 	Q_OBJECT
 
 public:
-	VideoLayerMac(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
-	~VideoLayerMac();
-
-	void setBufferName(const QString & name) { buffer_name = name; }
-	QString bufferName() { return buffer_name; }
+	VideoLayerCV(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
+	~VideoLayerCV();
 
 public slots:
 	virtual void playingStarted();
 	virtual void playingStopped();
+	virtual void gotVO(QString);
 
 	void init_slot(int width, int height, int bytes, int aspect);
 	void render_slot();
@@ -44,7 +42,7 @@ protected:
 	void start_connection();
 	void stop_connection();
 	QString buffer_name;
-	bool playing;
+	bool is_corevideo;
 
 	int shm_fd;
 	int image_width;

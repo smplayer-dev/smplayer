@@ -118,6 +118,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(error(QProcess::ProcessError)),
              mplayerwindow, SLOT(playingStopped()) );
 
+	connect( proc, SIGNAL(receivedVO(QString)),
+             mplayerwindow->videoLayer(), SLOT(gotVO(QString)) );
 
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
              this, SLOT(changeCurrentSec(double)) );
@@ -303,14 +305,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 
 	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));
-
-#ifdef USE_COREVIDEO_BUFFER
-	if (proc->isMPlayer()) {
-		MplayerProcess * mplayer_proc = dynamic_cast<MplayerProcess*>(proc);
-		VideoLayerMac * vl = dynamic_cast<VideoLayerMac*>(mplayerwindow->videoLayer());
-		vl->setBufferName(mplayer_proc->buffer_name);
-	}
-#endif
 }
 
 

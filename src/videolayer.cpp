@@ -20,10 +20,10 @@
 #include <QDebug>
 
 VideoLayer::VideoLayer(QWidget* parent, Qt::WindowFlags f)
-#ifdef USE_GLWIDGET
+#if defined(USE_GLWIDGET) && (QT_VERSION < 0x050000)
 	: QGLWidget(parent, 0, f)
 #else
-	: QWidget(parent, f)
+	: VIDEOLAYER_PARENT(parent, f)
 #endif
 #if REPAINT_BACKGROUND_OPTION
 	, repaint_background(false)
@@ -66,6 +66,10 @@ void VideoLayer::playingStopped() {
 
 //	repaint();
 	//Screen::playingStopped();
+}
+
+void VideoLayer::gotVO(QString vo) {
+	qDebug() << "VideoLayer::gotVO:" << vo;
 }
 
 #include "moc_videolayer.cpp"

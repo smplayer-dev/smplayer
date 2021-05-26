@@ -50,7 +50,10 @@
 #endif
 
 #ifdef USE_COREVIDEO_BUFFER
-#include "videolayermac.h"
+#include "videolayercv.h"
+#endif
+#ifdef USE_SHM
+#include "videolayershm.h"
 #endif
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
@@ -87,9 +90,13 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
 #ifdef USE_COREVIDEO_BUFFER
-	videolayer = new VideoLayerMac(this);
+	videolayer = new VideoLayerCV(this);
 #else
+  #ifdef USE_SHM
+	videolayer = new VideoLayerShm(this);
+  #else
 	videolayer = new VideoLayer(this);
+  #endif
 #endif
 	videolayer->setObjectName("videolayer");
 
@@ -169,12 +176,10 @@ void MplayerWindow::retranslateStrings() {
 
 void MplayerWindow::playingStarted() {
 	helper->playingStarted();
-	videolayer->playingStarted();
 }
 
 void MplayerWindow::playingStopped() {
 	helper->playingStopped();
-	videolayer->playingStopped();
 }
 
 void MplayerWindow::setLogoVisible( bool b) {

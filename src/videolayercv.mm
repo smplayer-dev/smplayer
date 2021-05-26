@@ -16,15 +16,17 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videolayermac.h"
-#include <QDebug>
+#include "videolayercv.h"
+#include <QCoreApplication>
 #include <QTimer>
 #include <QMetaObject>
 #include <QPainter>
+#include <QDebug>
+
 #include <stdio.h>
 #include <Cocoa/Cocoa.h>
 
-VideoLayerMac * vl_obj = 0;
+VideoLayerCV * vl_obj = 0;
 
 // MPlayer OS X VO Protocol
 @protocol MPlayerOSXVOProto
@@ -48,31 +50,41 @@ VideoLayerMac * vl_obj = 0;
 MPlayerConnection* mpc = 0;
 
 
-VideoLayerMac::VideoLayerMac(QWidget* parent, Qt::WindowFlags f)
+VideoLayerCV::VideoLayerCV(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
-	, playing(false)
+	, is_corevideo(false)
 {
 	vl_obj = this;
+	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 }
 
-VideoLayerMac::~VideoLayerMac() {
+VideoLayerCV::~VideoLayerCV() {
 }
 
-void VideoLayerMac::playingStarted() {
-	qDebug("VideoLayerMac::playingStarted");
+void VideoLayerCV::playingStarted() {
+	qDebug("VideoLayerCV::playingStarted");
 	VideoLayer::playingStarted();
-	start_connection();
-	playing = true;
 }
 
-void VideoLayerMac::playingStopped() {
-	qDebug("VideoLayerMac::playingStopped");
+void VideoLayerCV::playingStopped() {
+	qDebug("VideoLayerCV::playingStopped");
 	VideoLayer::playingStopped();
-	playing = false;
+	is_corevideo = false;
 }
 
-void VideoLayerMac::init_slot(int width, int height, int bytes, int aspect) {
-	qDebug("VideoLayerMac::init_slot: %d %d %d %d", width, height, bytes, aspect);
+void VideoLayerCV::gotVO(QString vo) {
+	qDebug() << "VideoLayerCV::gotVO:" << vo;
+	if (vo == "corevideo") {
+		is_corevideo = true;
+		start_connection(); 
+	} else {
+		is_corevideo = false;
+		stop_connection();
+	}
+}
+
+void VideoLayerCV::init_slot(int width, int height, int bytes, int aspect) {
+	qDebug("VideoLayerCV::init_slot: %d %d %d %d", width, height, bytes, aspect);
 
 	image_width = width;
 	image_height = height;
@@ -80,7 +92,7 @@ void VideoLayerMac::init_slot(int width, int height, int bytes, int aspect) {
 
 	shm_fd = shm_open(buffer_name.toLatin1().constData(), O_RDONLY, S_IRUSR);
 	if (shm_fd == -1) {
-		qDebug("VideoLayerMac::init_slot: shm_open failed");
+		qDebug("VideoLayerCV::init_slot: shm_open failed");
 		return;
 	}
 
@@ -88,16 +100,16 @@ void VideoLayerMac::init_slot(int width, int height, int bytes, int aspect) {
                                   PROT_READ, MAP_SHARED, shm_fd, 0);
 
 	if (image_data == MAP_FAILED) {
-		qDebug("VideoLayerMac::init_slot: mmap failed");
+		qDebug("VideoLayerCV::init_slot: mmap failed");
 		return;
 	}
 
 	image_buffer = (unsigned char*) malloc(image_width*image_height*image_bytes);
-	//qDebug() << "VideoLayerMac::init_slot: image_data:" << image_data;
+	//qDebug() << "VideoLayerCV::init_slot: image_data:" << image_data;
 }
 
-void VideoLayerMac::render_slot() {
-	//qDebug("VideoLayerMac::render_slot");
+void VideoLayerCV::render_slot() {
+	//qDebug("VideoLayerCV::render_slot");
 	memcpy(image_buffer, image_data, image_width*image_height*image_bytes);
 
 	QImage i(image_buffer, image_width, image_height, image_width * image_bytes, QImage::Format_RGB888);
@@ -105,25 +117,25 @@ void VideoLayerMac::render_slot() {
 	update();
 }
 
-void VideoLayerMac::stop_slot() {
-	qDebug("VideoLayerMac::stop_slot");
+void VideoLayerCV::stop_slot() {
+	qDebug("VideoLayerCV::stop_slot");
 }
 
-void VideoLayerMac::paintEvent(QPaintEvent *event) {
-	if (playing && !frame.isNull()) {
+void VideoLayerCV::paintEvent(QPaintEvent *event) {
+	if (playing && is_corevideo && !frame.isNull()) {
 		QPainter painter(this);
 		painter.drawPixmap(0,0,frame.scaled(size()));
 	} else {
-		QWidget::paintEvent(event);
+		VIDEOLAYER_PARENT::paintEvent(event);
 	}
 }
 
-void VideoLayerMac::start_connection() {
+void VideoLayerCV::start_connection() {
 	char *name = buffer_name.toLatin1().data();
 	mpc = [[MPlayerConnection alloc]initWithName:[[NSString stringWithCString:name] autorelease]];
 }
 
-void VideoLayerMac::stop_connection() {
+void VideoLayerCV::stop_connection() {
 	if (mpc) {
 		[mpc abort];
 		mpc = 0;
@@ -179,4 +191,4 @@ void VideoLayerMac::stop_connection() {
 
 @end
 
-#include "moc_videolayermac.cpp"
+#include "moc_videolayercv.cpp"
