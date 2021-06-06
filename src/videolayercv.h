@@ -19,9 +19,12 @@
 #ifndef VIDEOLAYERCV_H
 #define VIDEOLAYERCV_H
 
-#include "videolayer.h"
+#include "videolayerrender.h"
+//#include <QThread>
 
-class VideoLayerCV : public VideoLayer
+class MConnection;
+
+class VideoLayerCV : public VideoLayerRender
 {
 	Q_OBJECT
 
@@ -30,7 +33,6 @@ public:
 	~VideoLayerCV();
 
 public slots:
-	virtual void playingStarted();
 	virtual void playingStopped();
 	virtual void gotVO(QString);
 
@@ -41,19 +43,14 @@ public slots:
 protected:
 	void start_connection();
 	void stop_connection();
+
+	MConnection * mconnection;
 	QString buffer_name;
-	bool is_corevideo;
-
 	int shm_fd;
-	int image_width;
-	int image_height;
-	int image_bytes;
-	unsigned char * image_data;
 	unsigned char * image_buffer;
+	int buffer_size;
 
-protected:
-	virtual void paintEvent(QPaintEvent *event);
-	QPixmap frame;
+//	QThread thread;
 };
 
 #endif

@@ -20,11 +20,7 @@
 #include <QDebug>
 
 VideoLayer::VideoLayer(QWidget* parent, Qt::WindowFlags f)
-#if defined(USE_GLWIDGET) && (QT_VERSION < 0x050000)
-	: QGLWidget(parent, 0, f)
-#else
 	: VIDEOLAYER_PARENT(parent, f)
-#endif
 #if REPAINT_BACKGROUND_OPTION
 	, repaint_background(false)
 #endif

@@ -16,46 +16,25 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef VIDEOLAYERSHM_H
-#define VIDEOLAYERSHM_H
+#ifndef MCONNECTION_H
+#define MCONNECTION_H
 
-#include "videolayerrender.h"
+#include <QObject>
+#include <QString>
 
-//#define USE_IMG_BUFFER
+class VideoLayerCV;
 
-class QTimer;
-
-class VideoLayerShm : public VideoLayerRender
+class MConnection : public QObject
 {
 	Q_OBJECT
-
+	
 public:
-	VideoLayerShm(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
-	~VideoLayerShm();
-
-public slots:
-	virtual void playingStopped();
-	virtual void gotVO(QString);
-
-	virtual void render_slot();
-	virtual void stop_slot();
-
-protected slots:
-	virtual void start_connection();
-	virtual void stop_connection();
+	MConnection(VideoLayerCV * w, const QString & name);
+	void startConnection();
+	void stopConnection();
 
 protected:
 	QString buffer_name;
-
-	QTimer * render_timer;
-	QTimer * connect_timer;
-
-	int shm_fd;
-	int buffer_size;
-	unsigned char* image_data;
-#ifdef USE_IMG_BUFFER
-	unsigned char* copy_buffer;
-#endif
 };
 
 #endif

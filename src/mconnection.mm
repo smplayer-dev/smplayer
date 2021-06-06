@@ -16,17 +16,14 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videolayercv.h"
-#include <QCoreApplication>
-#include <QTimer>
+#include "mconnection.h"
+
 #include <QMetaObject>
-#include <QPainter>
-#include <QDebug>
+#include "videolayercv.h"
 
 #include <stdio.h>
 #include <Cocoa/Cocoa.h>
-
-VideoLayerCV * vl_obj = 0;
+//#include <QuartzCore/QuartzCore.h>
 
 // MPlayer OS X VO Protocol
 @protocol MPlayerOSXVOProto
@@ -47,95 +44,20 @@ VideoLayerCV * vl_obj = 0;
 - (id)initWithName:(NSString *)name;
 @end
 
-MPlayerConnection* mpc = 0;
+static VideoLayerCV * vl_obj = 0;
+static MPlayerConnection * mpc = 0;
 
-
-VideoLayerCV::VideoLayerCV(QWidget* parent, Qt::WindowFlags f)
-	: VideoLayer(parent, f)
-	, is_corevideo(false)
-{
-	vl_obj = this;
-	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
+MConnection::MConnection(VideoLayerCV * w, const QString & name) {
+	vl_obj = w;
+	buffer_name = name;
 }
 
-VideoLayerCV::~VideoLayerCV() {
-}
-
-void VideoLayerCV::playingStarted() {
-	qDebug("VideoLayerCV::playingStarted");
-	VideoLayer::playingStarted();
-}
-
-void VideoLayerCV::playingStopped() {
-	qDebug("VideoLayerCV::playingStopped");
-	VideoLayer::playingStopped();
-	is_corevideo = false;
-}
-
-void VideoLayerCV::gotVO(QString vo) {
-	qDebug() << "VideoLayerCV::gotVO:" << vo;
-	if (vo == "corevideo") {
-		is_corevideo = true;
-		start_connection(); 
-	} else {
-		is_corevideo = false;
-		stop_connection();
-	}
-}
-
-void VideoLayerCV::init_slot(int width, int height, int bytes, int aspect) {
-	qDebug("VideoLayerCV::init_slot: %d %d %d %d", width, height, bytes, aspect);
-
-	image_width = width;
-	image_height = height;
-	image_bytes = bytes;
-
-	shm_fd = shm_open(buffer_name.toLatin1().constData(), O_RDONLY, S_IRUSR);
-	if (shm_fd == -1) {
-		qDebug("VideoLayerCV::init_slot: shm_open failed");
-		return;
-	}
-
-	image_data = (unsigned char*) mmap(NULL, image_width*image_height*image_bytes,
-                                  PROT_READ, MAP_SHARED, shm_fd, 0);
-
-	if (image_data == MAP_FAILED) {
-		qDebug("VideoLayerCV::init_slot: mmap failed");
-		return;
-	}
-
-	image_buffer = (unsigned char*) malloc(image_width*image_height*image_bytes);
-	//qDebug() << "VideoLayerCV::init_slot: image_data:" << image_data;
-}
-
-void VideoLayerCV::render_slot() {
-	//qDebug("VideoLayerCV::render_slot");
-	memcpy(image_buffer, image_data, image_width*image_height*image_bytes);
-
-	QImage i(image_buffer, image_width, image_height, image_width * image_bytes, QImage::Format_RGB888);
-	frame = QPixmap::fromImage(i);
-	update();
-}
-
-void VideoLayerCV::stop_slot() {
-	qDebug("VideoLayerCV::stop_slot");
-}
-
-void VideoLayerCV::paintEvent(QPaintEvent *event) {
-	if (playing && is_corevideo && !frame.isNull()) {
-		QPainter painter(this);
-		painter.drawPixmap(0,0,frame.scaled(size()));
-	} else {
-		VIDEOLAYER_PARENT::paintEvent(event);
-	}
-}
-
-void VideoLayerCV::start_connection() {
+void MConnection::startConnection() {
 	char *name = buffer_name.toLatin1().data();
 	mpc = [[MPlayerConnection alloc]initWithName:[[NSString stringWithCString:name] autorelease]];
 }
 
-void VideoLayerCV::stop_connection() {
+void MConnection::stopConnection() {
 	if (mpc) {
 		[mpc abort];
 		mpc = 0;
@@ -147,7 +69,7 @@ void VideoLayerCV::stop_connection() {
 - (id)initWithName:(NSString *)name {
 	self = [super init];
 	printf("initWithName: %s\n", [name UTF8String]);
-	if (self != nil) {        
+	if (self != nil) {
 	connectionName = [name retain];
 		NSConnection * conn = [[NSConnection new] autorelease];
 		[conn setRootObject:self];
@@ -191,4 +113,4 @@ void VideoLayerCV::stop_connection() {
 
 @end
 
-#include "moc_videolayercv.cpp"
+#include "moc_mconnection.cpp"

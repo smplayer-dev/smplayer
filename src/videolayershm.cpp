@@ -19,26 +19,36 @@
 #include "videolayershm.h"
 #include <QCoreApplication>
 #include <QTimer>
-#include <QMetaObject>
-#include <QPainter>
 #include <QDebug>
 
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <stdint.h>
+#include <errno.h>
+#include <math.h>
 
-struct header_t {
+static struct header_t {
+	uint32_t header_size;
+	uint32_t video_buffer_size;
 	uint32_t width;
 	uint32_t height;
 	uint32_t bytes;
 	uint32_t stride;
+	uint32_t planes;
 	uint32_t format;
 	uint32_t frame_count;
-	unsigned char * image_buffer;
+	uint32_t busy;
+	float fps;
+	//unsigned char * image_buffer;
 } * header;
 
+
 VideoLayerShm::VideoLayerShm(QWidget* parent, Qt::WindowFlags f)
-	: VideoLayer(parent, f)
+	: VideoLayerRender(parent, f)
+	, buffer_size(0)
+#ifdef USE_IMG_BUFFER
+	, copy_buffer(0)
+#endif
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 
@@ -49,25 +59,25 @@ VideoLayerShm::VideoLayerShm(QWidget* parent, Qt::WindowFlags f)
 	connect_timer = new QTimer(this);
 	connect(connect_timer, SIGNAL(timeout()), this, SLOT(start_connection()));
 	connect_timer->setInterval(10);
+
+	setVOToRender("shm");
 }
 
 VideoLayerShm::~VideoLayerShm() {
-}
-
-void VideoLayerShm::playingStarted() {
-	qDebug("VideoLayerShm::playingStarted");
-	VideoLayer::playingStarted();
+#ifdef USE_IMG_BUFFER
+	if (copy_buffer) free(copy_buffer);
+#endif
 }
 
 void VideoLayerShm::playingStopped() {
 	qDebug("VideoLayerShm::playingStopped");
-	VideoLayer::playingStopped();
+	VideoLayerRender::playingStopped();
 	stop_connection();
-	update();
 }
 
 void VideoLayerShm::gotVO(QString vo) {
 	qDebug() << "VideoLayerShm::gotVO:" << vo;
+	VideoLayerRender::gotVO(vo);
 	if (vo == "shm") connect_timer->start(); else stop_connection();
 }
 
@@ -76,33 +86,34 @@ void VideoLayerShm::render_slot() {
 	//qDebug("VideoLayerShm::render_slot");
 
 	if (header->frame_count == last_frame) return;
-
 	last_frame = header->frame_count;
+
+#ifdef USE_IMG_BUFFER
+	if (copy_buffer == 0) return;
+#endif
 
 	//qDebug("VideoLayerShm::render_slot: frame_count: %d", header->frame_count);
 	//qDebug("VideoLayerShm::render_slot: %d %d", header->width, header->height);
-	//qDebug("VideoLayerShm::render_slot: %p %p", header, &header->image_buffer);
+	//qDebug("VideoLayerShm::render_slot: header size: %d busy: %d", header->header_size, header->busy);
+	//qDebug("VideoLayerShm::render_slot: %p %p", header, image_data);
 
-	memcpy(image_buffer, &header->image_buffer, image_width * image_height * image_bytes);
-	//image_buffer = (unsigned char*) &header->image_buffer;
+	uint32_t count = 0;
+	while (header->busy == 1 && count < 1000000) { count++; }
+	/*
+	if (count != 0) {
+		qDebug("VideoLayerShm::render_slot: count: %d", count);
+	}
+	*/
 
-	QImage i(image_buffer, image_width, image_height, image_width * image_bytes, QImage::Format_RGB888);
-	frame = QPixmap::fromImage(i);
-	update();
+#ifdef USE_IMG_BUFFER
+	memcpy(copy_buffer, image_data, buffer_size);
+#endif
+
+	render();
 }
 
 void VideoLayerShm::stop_slot() {
 	qDebug("VideoLayerShm::stop_slot");
-}
-
-void VideoLayerShm::paintEvent(QPaintEvent *event) {
-	//qDebug("VideoLayerShm::paintEvent");
-	if (playing && !frame.isNull()) {
-		QPainter painter(this);
-		painter.drawPixmap(0,0,frame.scaled(size()));
-	} else {
-		VIDEOLAYER_PARENT::paintEvent(event);
-	}
 }
 
 void VideoLayerShm::start_connection() {
@@ -115,37 +126,59 @@ void VideoLayerShm::start_connection() {
 		return;
 	}
 
-	header = (header_t *) mmap(NULL, sizeof(header),
-                                  PROT_READ, MAP_SHARED, shm_fd, 0);
+	header = (header_t *) mmap(NULL, sizeof(header), PROT_READ, MAP_SHARED, shm_fd, 0);
 
 	if (header == MAP_FAILED) {
 		qDebug("VideoLayerShm::start_connection: mmap failed");
 		return;
 	}
 
-	image_width = header->width;
-	image_height = header->height;
-	image_bytes = header->bytes;
-	qDebug("VideoLayerShm::start_connection: %d %d %d", image_width, image_height, image_bytes);
+	qDebug("VideoLayerShm::start_connection: bytes: %d stride: %d planes: %d", header->bytes, header->stride, header->planes);
+	qDebug("VideoLayerShm::start_connection: header size: %d videobuffer size: %d", header->header_size, header->video_buffer_size);
 
-	header = (header_t *) mmap(NULL, image_width * image_height * image_bytes,
-                                  PROT_READ, MAP_SHARED, shm_fd, 0);
+	int image_width = header->width;
+	int image_height = header->height;
+	int image_bytes = header->bytes;
+	//buffer_size = sizeof(header) + image_width * image_height * image_bytes;
+	buffer_size =  header->header_size + header->video_buffer_size;
+	qDebug("VideoLayerShm::start_connection: %d %d %d %f", image_width, image_height, image_bytes, header->fps);
+
+	header = (header_t *) mmap(NULL, buffer_size, PROT_READ, MAP_SHARED, shm_fd, 0);
 
 	if (header == MAP_FAILED) {
 		qDebug("VideoLayerShm::start_connection: mmap failed");
 		return;
 	}
 
-	image_buffer = (unsigned char*) malloc(image_width * image_height * image_bytes);
+	if (image_width == 0 || image_height == 0) {
+		qDebug("VideoLayerShm::start_connection: wrong image size");
+		return;
+	}
+
+	image_data = (unsigned char*) header + header->header_size;
+	qDebug("VideoLayerShm::start_connection: header: %p image_data: %p", header, image_data);
+#ifdef USE_IMG_BUFFER
+	copy_buffer = (unsigned char*) malloc(header->video_buffer_size);
+	init(image_width, image_height, image_bytes, header->format, copy_buffer);
+#else
+	init(image_width, image_height, image_bytes, header->format, image_data);
+#endif
+	qDebug("VideoLayerShm::start_connection: header_size: %d format: %d", header->header_size, header->format);
 
 	connect_timer->stop();
+	render_timer->setInterval(1000 / ceil(header->fps));
 	render_timer->start();
+	qDebug("VideoLayerShm::start_connection: timer interval: %d", render_timer->interval());
 }
 
 void VideoLayerShm::stop_connection() {
 	render_timer->stop();
 	connect_timer->stop();
 
+	// Destroy the shared buffer
+	if (munmap(header, buffer_size) == -1) {
+		qDebug("VideoLayerShm::stop_connection: munmap failed");
+	}
 }
 
 #include "moc_videolayershm.cpp"

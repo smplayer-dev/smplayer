@@ -21,14 +21,9 @@
 
 #include "config.h"
 
-#ifdef USE_GLWIDGET
- #if QT_VERSION < 0x050000
-  #include <QGLWidget>
-  #define VIDEOLAYER_PARENT QGLWidget
- #else
+#ifdef USE_GL_WINDOW
   #include <QOpenGLWidget>
   #define VIDEOLAYER_PARENT QOpenGLWidget
- #endif
 #else
  #include <QWidget>
  #define VIDEOLAYER_PARENT QWidget

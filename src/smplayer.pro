@@ -585,12 +585,22 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 
 #DEFINES += USE_SHM
 contains( DEFINES, USE_SHM ) {
-	HEADERS += videolayershm.h
-	SOURCES += videolayershm.cpp
-	LIBS += -lrt
+	HEADERS += videolayerrender.h videolayershm.h
+	SOURCES += videolayerrender.cpp videolayershm.cpp
 
-	#DEFINES += USE_GLWIDGET
-	#QT += opengl
+	isEqual(QT_MAJOR_VERSION, 5) {
+		DEFINES += USE_GL_WINDOW
+	}
+
+	contains( DEFINES, USE_GL_WINDOW ) {
+		QT += opengl
+	} else {
+		LIBS += -lswscale
+	}
+
+	unix:!macx {
+		LIBS += -lrt
+	}
 }
 
 unix {
@@ -657,11 +667,14 @@ os2 {
 }
 
 mac {
- 	DEFINES += USE_COREVIDEO_BUFFER
+ 	#DEFINES += USE_COREVIDEO_BUFFER
 	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
-		#DEFINES += USE_GLWIDGET
-		HEADERS += videolayercv.h 
-		OBJECTIVE_SOURCES += videolayercv.mm
+		#DEFINES += USE_GL_WINDOW
+		HEADERS += videolayerrender.h videolayercv.h mconnection.h
+		SOURCES += videolayerrender.cpp videolayercv.cpp
+		OBJECTIVE_SOURCES += mconnection.mm
+		#LIBS += -framework Cocoa -framework QuartzCore
+		#QT += opengl
 	}
 	ICON = smplayer.icns
 }
