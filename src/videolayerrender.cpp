@@ -89,14 +89,12 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 
 void VideoLayerRender::playingStarted() {
 	qDebug("VideoLayerRender::playingStarted");
-	//VideoLayer::playingStarted();
-	playing = true;
+	VideoLayer::playingStarted();
 }
 
 void VideoLayerRender::playingStopped() {
 	qDebug("VideoLayerRender::playingStopped");
-	//VideoLayer::playingStopped();
-	playing = false;
+	VideoLayer::playingStopped();
 	is_vo_to_render = false;
 	update();
 }
@@ -105,6 +103,7 @@ void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
 	VideoLayer::gotVO(vo);
 	is_vo_to_render = (vo == target_vo);
+	if (is_vo_to_render) setUpdatesEnabled(true);
 }
 
 void VideoLayerRender::render() {
@@ -289,7 +288,11 @@ void VideoLayerRender::initializeYUV() {
 	vshader->compileSourceCode(vsrc);
 
 	QOpenGLShader *fshader = new QOpenGLShader(QOpenGLShader::Fragment,this);
-	const char *fsrc = "varying vec2 textureOut; \
+	QString rgb_bt_601 = "mat3(1,1,1, 0, -0.39,2.03, 1.14, -0.58,0) * yuv;";
+	QString rgb_bt_709 = "mat3(1,1,1, 0, -0.21,2.13, 1.28, -0.38,0) * yuv;";
+	QString rgb_jpeg   = "mat3(1,1,1, 0, -0.34,1.77, 1.40, -0.72,0) * yuv;";
+	QString rgb_conv = rgb_bt_601;
+	QString fsrc = "varying vec2 textureOut; \
     uniform sampler2D tex_y; \
     uniform sampler2D tex_u; \
     uniform sampler2D tex_v; \
@@ -300,10 +303,8 @@ void VideoLayerRender::initializeYUV() {
         yuv.x = texture2D(tex_y, textureOut).r - (16.0/255.0); \
         yuv.y = texture2D(tex_u, textureOut).r - 0.5; \
         yuv.z = texture2D(tex_v, textureOut).r - 0.5; \
-        rgb = mat3( 1,       1,         1, \
-                    0,       -0.39465,  2.03211, \
-                    1.13983, -0.58060,  0) * yuv; \
-        gl_FragColor = vec4(rgb, 1); \
+        rgb = " + rgb_conv +
+       "gl_FragColor = vec4(rgb, 1); \
     }";
 	fshader->compileSourceCode(fsrc);
 
