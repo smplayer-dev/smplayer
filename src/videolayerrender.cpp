@@ -45,10 +45,12 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	, conv_buffer(0)
 {
 #ifdef USE_GL_WINDOW
-	QSurfaceFormat glFmt;
-	glFmt.setSwapInterval(1);
-	glFmt.setSwapBehavior(QSurfaceFormat::DoubleBuffer);
-	QSurfaceFormat::setDefaultFormat(glFmt);
+	QSurfaceFormat fmt;
+	fmt.setSwapInterval(1);
+	fmt.setSwapBehavior(QSurfaceFormat::DoubleBuffer);
+	//fmt.setColorSpace(QSurfaceFormat::sRGBColorSpace);
+	setFormat(fmt);
+	qDebug() << "VideoLayerRender::VideoLayerRender: format:" << format();
 
 	#ifdef USE_YUV
 	supported_formats << I420;
