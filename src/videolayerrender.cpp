@@ -81,6 +81,10 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 	image_bytes = bytes_per_pixel;
 	image_format = format;
 	image_buffer = buffer;
+
+	if (!isFormatSupported(image_format)) {
+		qDebug("VideoLayerRender::init: error: format %d is not supported", image_format);
+	}
 }
 
 void VideoLayerRender::playingStarted() {
@@ -107,7 +111,7 @@ void VideoLayerRender::render() {
 	//qDebug("VideoLayerRender::render: buffer: %p, w: %d h: %d, bytes: %d", image_buffer, image_width, image_width, image_bytes);
 
 	if (!isFormatSupported(image_format)) {
-		qDebug("VideoLayerRender::render: format %d not supported", image_format);
+		//qDebug("VideoLayerRender::render: format %d not supported", image_format);
 		return;
 	}
 
