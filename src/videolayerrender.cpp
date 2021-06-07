@@ -85,12 +85,14 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 
 void VideoLayerRender::playingStarted() {
 	qDebug("VideoLayerRender::playingStarted");
-	VideoLayer::playingStarted();
+	//VideoLayer::playingStarted();
+	playing = true;
 }
 
 void VideoLayerRender::playingStopped() {
 	qDebug("VideoLayerRender::playingStopped");
-	VideoLayer::playingStopped();
+	//VideoLayer::playingStopped();
+	playing = false;
 	is_vo_to_render = false;
 	update();
 }
