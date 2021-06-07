@@ -96,7 +96,8 @@ void VideoLayerRender::playingStopped() {
 	qDebug("VideoLayerRender::playingStopped");
 	VideoLayer::playingStopped();
 	is_vo_to_render = false;
-	update();
+	image_buffer = 0;
+	//update();
 }
 
 void VideoLayerRender::gotVO(QString vo) {
@@ -149,6 +150,8 @@ void VideoLayerRender::paintEvent(QPaintEvent *event) {
 
 #ifdef USE_GL_WINDOW
 void VideoLayerRender::paintGL() {
+	if (image_buffer == 0) return;
+
 	if (playing && is_vo_to_render) {
 	#ifdef USE_YUV
 		if (image_format == I420) {
@@ -168,6 +171,8 @@ void VideoLayerRender::paintGL() {
 
 void VideoLayerRender::resizeGL(int w, int h) {
 	qDebug("VideoLayerRender::resizeGL: w: %d h: %d", w, h);
+
+	if (image_buffer == 0) return;
 
 	glViewport(0, 0, w, h);
 
@@ -291,7 +296,7 @@ void VideoLayerRender::initializeYUV() {
 	QString rgb_bt_601 = "mat3(1,1,1, 0, -0.39,2.03, 1.14, -0.58,0) * yuv;";
 	QString rgb_bt_709 = "mat3(1,1,1, 0, -0.21,2.13, 1.28, -0.38,0) * yuv;";
 	QString rgb_jpeg   = "mat3(1,1,1, 0, -0.34,1.77, 1.40, -0.72,0) * yuv;";
-	QString rgb_conv = rgb_bt_601;
+	QString rgb_conv = rgb_bt_709;
 	QString fsrc = "varying vec2 textureOut; \
     uniform sampler2D tex_y; \
     uniform sampler2D tex_u; \

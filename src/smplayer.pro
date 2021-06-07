@@ -583,7 +583,7 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 	}
 }
 
-DEFINES += USE_SHM
+#DEFINES += USE_SHM
 contains( DEFINES, USE_SHM ) {
 	HEADERS += videolayerrender.h videolayershm.h
 	SOURCES += videolayerrender.cpp videolayershm.cpp
