@@ -46,9 +46,6 @@ static struct header_t {
 VideoLayerShm::VideoLayerShm(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayerRender(parent, f)
 	, buffer_size(0)
-#ifdef USE_IMG_BUFFER
-	, copy_buffer(0)
-#endif
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 
@@ -64,9 +61,6 @@ VideoLayerShm::VideoLayerShm(QWidget* parent, Qt::WindowFlags f)
 }
 
 VideoLayerShm::~VideoLayerShm() {
-#ifdef USE_IMG_BUFFER
-	if (copy_buffer) free(copy_buffer);
-#endif
 }
 
 void VideoLayerShm::playingStopped() {
@@ -88,10 +82,6 @@ void VideoLayerShm::render_slot() {
 	if (header->frame_count == last_frame) return;
 	last_frame = header->frame_count;
 
-#ifdef USE_IMG_BUFFER
-	if (copy_buffer == 0) return;
-#endif
-
 	//qDebug("VideoLayerShm::render_slot: frame_count: %d", header->frame_count);
 	//qDebug("VideoLayerShm::render_slot: %d %d", header->width, header->height);
 	//qDebug("VideoLayerShm::render_slot: header size: %d busy: %d", header->header_size, header->busy);
@@ -104,10 +94,6 @@ void VideoLayerShm::render_slot() {
 		qDebug("VideoLayerShm::render_slot: count: %d", count);
 	}
 	*/
-
-#ifdef USE_IMG_BUFFER
-	memcpy(copy_buffer, image_data, buffer_size);
-#endif
 
 	render();
 }
@@ -157,12 +143,8 @@ void VideoLayerShm::start_connection() {
 
 	image_data = (unsigned char*) header + header->header_size;
 	qDebug("VideoLayerShm::start_connection: header: %p image_data: %p", header, image_data);
-#ifdef USE_IMG_BUFFER
-	copy_buffer = (unsigned char*) malloc(header->video_buffer_size);
-	init(image_width, image_height, image_bytes, header->format, copy_buffer);
-#else
+
 	init(image_width, image_height, image_bytes, header->format, image_data);
-#endif
 	qDebug("VideoLayerShm::start_connection: header_size: %d format: %d", header->header_size, header->format);
 
 	connect_timer->stop();

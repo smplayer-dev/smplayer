@@ -100,8 +100,10 @@ void VideoLayerRender::playingStopped() {
 	is_vo_to_render = false;
 	image_buffer = 0;
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
-	free(conv_buffer);
-	conv_buffer = 0;
+	if (conv_buffer != 0) {
+		free(conv_buffer);
+		conv_buffer = 0;
+	}
 #endif
 	VideoLayer::playingStopped();
 	update();

@@ -21,8 +21,6 @@
 
 #include "videolayerrender.h"
 
-//#define USE_IMG_BUFFER
-
 class QTimer;
 
 class VideoLayerShm : public VideoLayerRender
@@ -53,9 +51,6 @@ protected:
 	int shm_fd;
 	int buffer_size;
 	unsigned char* image_data;
-#ifdef USE_IMG_BUFFER
-	unsigned char* copy_buffer;
-#endif
 };
 
 #endif
