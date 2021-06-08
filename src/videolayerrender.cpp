@@ -42,7 +42,9 @@
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
 	, is_vo_to_render(false)
+#if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	, conv_buffer(0)
+#endif
 {
 #ifdef USE_GL_WINDOW
 	QSurfaceFormat fmt;
@@ -94,19 +96,24 @@ void VideoLayerRender::playingStarted() {
 
 void VideoLayerRender::playingStopped() {
 	qDebug("VideoLayerRender::playingStopped");
-	VideoLayer::playingStopped();
+
 	is_vo_to_render = false;
 	image_buffer = 0;
+#if !defined(USE_GL_WINDOW) && defined(USE_YUV)
+	free(conv_buffer);
+	conv_buffer = 0;
+#endif
+	VideoLayer::playingStopped();
 	update();
 }
 
 void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
-	VideoLayer::gotVO(vo);
 	is_vo_to_render = (vo == target_vo);
 #if REPAINT_BACKGROUND_OPTION
 	if (is_vo_to_render) setUpdatesEnabled(true);
 #endif
+	VideoLayer::gotVO(vo);
 }
 
 void VideoLayerRender::render() {
@@ -120,12 +127,11 @@ void VideoLayerRender::render() {
 	}
 
 #ifndef USE_GL_WINDOW
+	#ifdef USE_YUV
 	if (conv_buffer == 0) {
 		conv_buffer = (unsigned char*) malloc(image_width * image_height * 3);
 		qDebug("VideoLayerRender::render: %d %d conv_buffer: %p", image_width, image_height, conv_buffer);
 	}
-
-	#ifdef USE_YUV
 	if (image_format == I420) {
 		YUV420PtoRGB24(image_buffer, conv_buffer, image_width, image_height);
 		QImage i(conv_buffer, image_width, image_height, image_width * 3, QImage::Format_RGB888);

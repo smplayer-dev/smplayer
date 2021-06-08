@@ -77,7 +77,9 @@ protected:
 	int image_bytes;
 	uint32_t image_format;
 	unsigned char* image_buffer;
+#if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	unsigned char* conv_buffer;
+#endif
 
 protected:
 #ifdef USE_GL_WINDOW
