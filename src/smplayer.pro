@@ -589,7 +589,7 @@ contains( DEFINES, USE_SHM ) {
 	SOURCES += videolayerrender.cpp videolayershm.cpp
 
 	isEqual(QT_MAJOR_VERSION, 5) {
-		DEFINES += USE_GL_WINDOW
+		#DEFINES += USE_GL_WINDOW
 	}
 
 	contains( DEFINES, USE_GL_WINDOW ) {
