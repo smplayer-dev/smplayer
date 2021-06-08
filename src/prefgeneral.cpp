@@ -475,27 +475,27 @@ void PrefGeneral::updateDriverCombos() {
 		#endif // USE_XV_ADAPTORS
 		#endif
 		#endif
-		if (vo == "x11") vo_combo->addItem( "x11 (" + tr("slow") + ")", vo);
-		else
 		if (vo == "gl") {
 			vo_combo->addItem( vo, vo);
+			/*
 			vo_combo->addItem( "gl (" + tr("fast") + ")", "gl:yuv=2:force-pbo");
 			vo_combo->addItem( "gl (" + tr("fast - ATI cards") + ")", "gl:yuv=2:force-pbo:ati-hack");
 			vo_combo->addItem( "gl (yuv)", "gl:yuv=3");
+			*/
 		}
 		else
 		if (vo == "gl2") {
 			vo_combo->addItem( vo, vo);
-			vo_combo->addItem( "gl2 (yuv)", "gl2:yuv=3");
+			//vo_combo->addItem( "gl2 (yuv)", "gl2:yuv=3");
 		}
 		else
 		if (vo == "gl_tiled") {
 			vo_combo->addItem( vo, vo);
-			vo_combo->addItem( "gl_tiled (yuv)", "gl_tiled:yuv=3");
+			//vo_combo->addItem( "gl_tiled (yuv)", "gl_tiled:yuv=3");
 		}
 		else
 		if (vo == "libmpv" || vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" ||
-            vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct")
+            vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct" || vo == "yuv4mpeg")
 		{
 			; // Nothing to do
 		}
