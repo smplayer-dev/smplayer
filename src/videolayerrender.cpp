@@ -97,18 +97,22 @@ void VideoLayerRender::playingStopped() {
 	VideoLayer::playingStopped();
 	is_vo_to_render = false;
 	image_buffer = 0;
-	//update();
+	update();
 }
 
 void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
 	VideoLayer::gotVO(vo);
 	is_vo_to_render = (vo == target_vo);
+#if REPAINT_BACKGROUND_OPTION
 	if (is_vo_to_render) setUpdatesEnabled(true);
+#endif
 }
 
 void VideoLayerRender::render() {
 	//qDebug("VideoLayerRender::render: buffer: %p, w: %d h: %d, bytes: %d", image_buffer, image_width, image_width, image_bytes);
+
+	if (image_buffer == 0) return;
 
 	if (!isFormatSupported(image_format)) {
 		//qDebug("VideoLayerRender::render: format %d not supported", image_format);
@@ -150,7 +154,10 @@ void VideoLayerRender::paintEvent(QPaintEvent *event) {
 
 #ifdef USE_GL_WINDOW
 void VideoLayerRender::paintGL() {
-	if (image_buffer == 0) return;
+	if (image_buffer == 0) {
+		VideoLayer::paintGL();
+		return;
+	}
 
 	if (playing && is_vo_to_render) {
 	#ifdef USE_YUV
@@ -172,7 +179,10 @@ void VideoLayerRender::paintGL() {
 void VideoLayerRender::resizeGL(int w, int h) {
 	qDebug("VideoLayerRender::resizeGL: w: %d h: %d", w, h);
 
-	if (image_buffer == 0) return;
+	if (image_buffer == 0) {
+		VideoLayer::resizeGL(w, h);
+		return;
+	}
 
 	glViewport(0, 0, w, h);
 
