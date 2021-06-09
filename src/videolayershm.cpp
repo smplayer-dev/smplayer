@@ -40,12 +40,13 @@ static struct header_t {
 	uint32_t busy;
 	float fps;
 	//unsigned char * image_buffer;
-} * header;
+} * header = 0;
 
 
 VideoLayerShm::VideoLayerShm(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayerRender(parent, f)
 	, buffer_size(0)
+	, image_data(0)
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 
@@ -161,6 +162,8 @@ void VideoLayerShm::stop_connection() {
 	if (munmap(header, buffer_size) == -1) {
 		qDebug("VideoLayerShm::stop_connection: munmap failed");
 	}
+	header = 0;
+	image_data = 0;
 }
 
 #include "moc_videolayershm.cpp"

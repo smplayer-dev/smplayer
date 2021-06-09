@@ -42,6 +42,11 @@
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
 	, is_vo_to_render(false)
+	, image_width(0)
+	, image_height(0)
+	, image_bytes(0)
+	, image_format(0)
+	, image_buffer(0)
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	, conv_buffer(0)
 #endif
