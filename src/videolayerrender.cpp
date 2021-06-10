@@ -220,6 +220,8 @@ void VideoLayerRender::initializeGL() {
 
 	initializeOpenGLFunctions();
 
+	glClearColor(0.0, 0.0, 0.0, 1.0);
+
 #ifdef USE_YUV
 	initializeYUV();
 #endif
@@ -232,7 +234,6 @@ void VideoLayerRender::initializeGL() {
 void VideoLayerRender::initializeRGB() {
 	textureRGB = 0;
 
-	glClearColor(0.0, 0.0, 0.0, 1.0);
 	glDisable(GL_DEPTH_TEST);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -360,7 +361,6 @@ void VideoLayerRender::initializeYUV() {
 	idY = textureY->textureId();
 	idU = textureU->textureId();
 	idV = textureV->textureId();
-	glClearColor(0.0, 0.0, 0.0, 0.0);
 }
 
 void VideoLayerRender::paintYUV() {
