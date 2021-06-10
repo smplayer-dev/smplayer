@@ -167,35 +167,24 @@ void VideoLayerRender::paintEvent(QPaintEvent *event) {
 
 #ifdef USE_GL_WINDOW
 void VideoLayerRender::paintGL() {
-	if (image_buffer == 0) {
-		VideoLayer::paintGL();
-		return;
-	}
-
-	if (playing && is_vo_to_render) {
-	#ifdef USE_YUV
+	if (image_buffer && playing && is_vo_to_render) {
+		#ifdef USE_YUV
 		if (image_format == I420) {
 			paintYUV();
 		}
-	#endif
-	#ifdef USE_RGB
+		#endif
+		#ifdef USE_RGB
 		if (image_format == RGB24 || image_format == RGB16) {
 			paintRGB();
 		}
-	#endif
+		#endif
 	} else {
 		glClear(GL_COLOR_BUFFER_BIT);
 	}
-	glFlush();
 }
 
 void VideoLayerRender::resizeGL(int w, int h) {
 	qDebug("VideoLayerRender::resizeGL: w: %d h: %d", w, h);
-
-	if (image_buffer == 0) {
-		VideoLayer::resizeGL(w, h);
-		return;
-	}
 
 	glViewport(0, 0, w, h);
 
@@ -280,6 +269,7 @@ void VideoLayerRender::paintRGB() {
 		glTexCoord2i(1,0); glVertex2i(width(), height());
 		glEnd();
 	}
+	glFlush();
 }
 #endif
 
