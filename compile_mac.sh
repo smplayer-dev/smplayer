@@ -11,7 +11,7 @@ qmake && make
 cd ../src
 
 echo Compiling smplayer
-qmake DEFINES+="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW"
+qmake DEFINES+="NO_DEBUG_ON_CONSOLE"
 make -j4
 lrelease smplayer.pro
 mkdir smplayer.app/Contents/MacOS/translations
