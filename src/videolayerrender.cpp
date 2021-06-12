@@ -251,6 +251,7 @@ void VideoLayerRender::paintRGB() {
 	glActiveTexture(GL_TEXTURE0);
 #endif
 
+	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	Gformat f = format_to_gl[image_format];
 	glBindTexture(GL_TEXTURE_2D, textureRGB);
 	glTexImage2D(GL_TEXTURE_2D, 0, f.internal_format, image_width, image_height, 0, f.format, f.type, image_buffer);
@@ -360,6 +361,7 @@ void VideoLayerRender::paintYUV() {
 	program->bind();
 #endif
 
+	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, idY);
 
