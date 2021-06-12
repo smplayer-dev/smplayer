@@ -23,8 +23,16 @@
 
 #ifdef SINGLE_INSTANCE
 #include "QtSingleApplication"
+#else
+#include <QApplication>
+#endif
 
-class MyApplication : public QtSingleApplication
+class MyApplication
+#ifdef SINGLE_INSTANCE
+	: public QtSingleApplication
+#else
+	: public QApplication
+#endif
 {
 	Q_OBJECT
 
@@ -35,44 +43,20 @@ public:
 	virtual void commitData(QSessionManager & manager);
 	#endif
 
+	#ifdef SINGLE_INSTANCE
 	inline static MyApplication * instance() {
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
-	
-#ifdef Q_OS_WIN
-	QStringList winArguments();
-#endif
-	
-#if QT_VERSION >= 0x050000
-protected slots:
-	void commitData(QSessionManager & manager);
-#endif
-};
-
-#else // SINGLE_INSTANCE
-#include <QApplication>
-
-class MyApplication : public QApplication
-{
-	Q_OBJECT
-
-public:
-	MyApplication (const QString & appId, int & argc, char ** argv);
-
-	#if QT_VERSION < 0x050000
-	virtual void commitData(QSessionManager & manager);
 	#endif
 
-#ifdef Q_OS_WIN
+	#ifdef Q_OS_WIN
 	QStringList winArguments();
-#endif
+	#endif
 
 #if QT_VERSION >= 0x050000
 protected slots:
 	void commitData(QSessionManager & manager);
 #endif
 };
-#endif // SINGLE_INSTANCE
 
 #endif
-
