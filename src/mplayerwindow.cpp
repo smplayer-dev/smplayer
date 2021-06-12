@@ -93,7 +93,14 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	videolayer = new VideoLayerCV(this);
 #else
   #ifdef USE_SHM
-	videolayer = new VideoLayerShm(this);
+	#ifdef USE_GL_WINDOW
+	if (!qgetenv("NO_OPENGL").isEmpty()) {
+		videolayer = new VideoLayer(this);
+	} else
+	#endif
+	{
+		videolayer = new VideoLayerShm(this);
+	}
   #else
 	videolayer = new VideoLayer(this);
   #endif
