@@ -27,6 +27,8 @@
 #include <QApplication>
 #endif
 
+class QEvent;
+
 class MyApplication
 #ifdef SINGLE_INSTANCE
 	: public QtSingleApplication
@@ -52,6 +54,9 @@ public:
 	#ifdef Q_OS_WIN
 	QStringList winArguments();
 	#endif
+
+protected:
+	virtual bool event(QEvent *e);
 
 #if QT_VERSION >= 0x050000
 protected slots:
