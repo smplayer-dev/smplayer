@@ -688,7 +688,7 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
 			#endif
 			line2 = "FATAL: " + orig_line;
-			abort();                    // deliberately core dump
+			break;
 		case QtCriticalMsg:
 			#ifndef NO_DEBUG_ON_CONSOLE
 			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
