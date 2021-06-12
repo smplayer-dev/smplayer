@@ -81,7 +81,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		qDebug() << "MplayerProcess::setOption: vo:" << vo;
 		if (vo.startsWith(TVO)) {
 			vo = QString(TVO ":buffer_name=%1").arg(buffer_name);
-			arg << "-vo" << vo;
+			arg << "-vo" << vo + ",";
 			#ifdef USE_COREVIDEO_BUFFER
 			arg << "-vf-add" << "format=rgb24";
 			#endif
