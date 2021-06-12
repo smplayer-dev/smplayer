@@ -19,6 +19,10 @@
 #include "myapplication.h"
 #include <QSessionManager>
 
+#include <QEvent>
+#include <QFileOpenEvent>
+#include <QDebug>
+
 #ifdef Q_OS_WIN
 #include <windows.h>
 #endif
@@ -42,6 +46,20 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 
 void MyApplication::commitData(QSessionManager & manager) {
 	manager.release();
+}
+
+bool MyApplication::event(QEvent *e) {
+	//qDebug() << "MyApplication::event:" << e;
+
+	if (e->type() == QEvent::FileOpen) {
+		QFileOpenEvent * open_event = static_cast<QFileOpenEvent *>(e);
+		qDebug() << "MyApplication::event: open file:" << open_event->file();
+	}
+#ifdef SINGLE_INSTANCE
+	return QtSingleApplication::event(e);
+#else
+	return QApplication::event(e);
+#endif
 }
 
 #ifdef Q_OS_WIN
