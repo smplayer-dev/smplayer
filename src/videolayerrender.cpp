@@ -208,6 +208,7 @@ void VideoLayerRender::initializeGL() {
 	qDebug("VideoLayerRender::initializeGL: w: %d h: %d", width(), height());
 
 	initializeOpenGLFunctions();
+	qDebug("VideoLayerRender::initializeGL: GL_VERSION: %s", glGetString(GL_VERSION));
 
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 
