@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1256,7 +1254,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2105"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotér 180 grader m&amp;ed uret</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
@@ -2498,7 +2496,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsformat</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2523,12 +2521,12 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis &amp;samlet tid</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis &amp;resterende tid</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3047,22 +3045,22 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="277"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Spansk - Spanien</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="255"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spansk</translation>
+        <translation>Spansk</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugisisk</translation>
+        <translation>Portugisisk</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Spansk - Latinamerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="290"/>
@@ -3103,10 +3101,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n undertekst udpakket</numerusform>
-            <numerusform>%n undertekster udpakket</numerusform>
-        </translation>
+        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
@@ -3214,7 +3209,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -4852,12 +4847,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="870"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mellemlager (i sekunder):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="871"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hastighed for mellemlager:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="215"/>
@@ -4934,7 +4929,7 @@ Vil du overskrive den?</translation>
         <location filename="../mplayeroptions.cpp" line="391"/>
         <location filename="../mplayeroptions.cpp" line="468"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Valgmuligheden understøttes ikke af MPlayer</translation>
     </message>
 </context>
 <context>
@@ -6104,12 +6099,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Wayland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Understøttelse af Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1129"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det aktiverer visse valgmuligheder for at forhindre videoen i at blive vist uden for hovedvinduet.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
@@ -6285,7 +6280,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="407"/>
         <source>Wa&amp;yland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Understøttelse af &amp;Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -10095,19 +10090,13 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="125"/>
         <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="128"/>
         <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="132"/>

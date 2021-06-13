@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -36,7 +34,7 @@
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Натисніть сюди, щоб ознайомитися з переліком перекладачів з команди Transifex</translation>
+        <translation>Натисніть сюди, щоб ознайомитися з переліком перекладачів із команди Transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -51,7 +49,7 @@
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Відвідайте %1 і приєднайтеся до команди перекладачів.</translation>
+        <translation>Відвідайте %1 та приєднайтеся до команди перекладачів.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -66,7 +64,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation>SMPlayer - це графічний інтерфейс для %1 і %2.</translation>
+        <translation>SMPlayer — це графічний інтерфейс для %1 і %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
@@ -114,7 +112,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
-        <translation>Портативна редакція</translation>
+        <translation>Портативне видання</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
@@ -162,7 +160,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="240"/>
         <source>Shortcut</source>
-        <translation>Сполучення клавіш</translation>
+        <translation>Сполучення клавішів</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="242"/>
@@ -178,7 +176,7 @@
         <location filename="../actionseditor.cpp" line="503"/>
         <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
-        <translation>Файли клавіш</translation>
+        <translation>Файли клавішів</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="501"/>
@@ -226,7 +224,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Змінити сполучення клавіш...</translation>
+        <translation>&amp;Змінити сполучення клавішів...</translation>
     </message>
 </context>
 <context>
@@ -377,7 +375,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="235"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Використовувати поточні значення як типові для нових кліпів.</translation>
+        <translation>Використовувати поточні значення як типові для нових відео.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
@@ -392,7 +390,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="253"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Поточні значення збережені, щоб використовуватися як типові.</translation>
+        <translation>Поточні значення збережено, щоб використовуватись як усталені.</translation>
     </message>
 </context>
 <context>
@@ -455,7 +453,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD з диску</translation>
+        <translation>&amp;DVD з диска</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
@@ -536,7 +534,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Fullscreen</source>
-        <translation>Н&amp;а весь екран</translation>
+        <translation>По&amp;вноекранно</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
@@ -558,7 +556,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3594"/>
         <location filename="../basegui.cpp" line="3608"/>
         <source>&amp;None</source>
-        <translation>&amp;Немає</translation>
+        <translation>&amp;Нема</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2086"/>
@@ -578,7 +576,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Постобробка</translation>
+        <translation>&amp;Постопрацювання</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1799"/>
@@ -613,12 +611,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Screenshot</source>
-        <translation>Знімок екран&amp;у</translation>
+        <translation>Зняток екран&amp;у</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2058"/>
         <source>S&amp;tay on top</source>
-        <translation>З&amp;алишатись зверху</translation>
+        <translation>З&amp;алишатися зверху</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
@@ -644,12 +642,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2132"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 оточення</translation>
+        <translation>&amp;4.0 Оточення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2133"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 оточення</translation>
+        <translation>&amp;5.1 Оточення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2124"/>
@@ -669,7 +667,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2127"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Стерео режим</translation>
+        <translation>&amp;Стереорежим</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -699,7 +697,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2147"/>
         <source>&amp;Select</source>
-        <translation>&amp;Вибрати</translation>
+        <translation>&amp;Обрати</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -719,12 +717,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Up</source>
-        <translation>В&amp;гору</translation>
+        <translation>У&amp;гору</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>&amp;Down</source>
-        <translation>Вн&amp;из</translation>
+        <translation>Ун&amp;из</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2165"/>
@@ -739,7 +737,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
         <source>&amp;Angle</source>
-        <translation>Р&amp;акурс</translation>
+        <translation>К&amp;ут</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1871"/>
@@ -775,7 +773,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3732"/>
         <location filename="../basegui.cpp" line="3808"/>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;немає&gt;</translation>
+        <translation>&lt;нема&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4272"/>
@@ -820,13 +818,13 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="4334"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Відомості</translation>
+        <translation>SMPlayer — Відомості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4335"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>Пристрої CD/DVD ще не налаштовано.
+        <translation>Пристрої КД/DVD ще не налаштовано.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
@@ -939,13 +937,13 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1880"/>
         <location filename="../basegui.cpp" line="2225"/>
         <source>%1 log</source>
-        <translation>Журнал %1</translation>
+        <translation>Дієпис %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
         <location filename="../basegui.cpp" line="2228"/>
         <source>SMPlayer log</source>
-        <translation>Журнал SMPlayer</translation>
+        <translation>Дієпис SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2241"/>
@@ -1034,7 +1032,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
         <source>Use custo&amp;m style</source>
-        <translation>Використовувати &amp;інший стиль</translation>
+        <translation>Використовувати &amp;инший стиль</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1852"/>
@@ -1110,7 +1108,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>OSD - Next level</source>
-        <translation>Екранна індікація - наступний рівень</translation>
+        <translation>Екранна індикація — наступний рівень</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
@@ -1165,7 +1163,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1956"/>
         <source>Next audio</source>
-        <translation>Наступне аудіо</translation>
+        <translation>Наступне авдіо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
@@ -1239,7 +1237,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="2096"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Немає</translation>
+        <translation>&amp;Нема</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2097"/>
@@ -1256,7 +1254,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2105"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернути на 1&amp;80 градусів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
@@ -1266,12 +1264,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2134"/>
         <source>&amp;6.1 Surround</source>
-        <translation>&amp;5.1 оточення {6.1 ?}</translation>
+        <translation>&amp;5.1 Оточення {6.1 ?}</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2135"/>
         <source>&amp;7.1 Surround</source>
-        <translation>&amp;5.1 оточення {7.1 ?}</translation>
+        <translation>&amp;5.1 Оточення {7.1 ?}</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2140"/>
@@ -1471,7 +1469,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6405"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation>Запам’ятати моє рішення й не питати знову</translation>
+        <translation>Запам’ятати моє рішення та не питати знову</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2207"/>
@@ -1487,7 +1485,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3820"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation>Підтвердіть вилучення - SMPlayer</translation>
+        <translation>Підтвердіть вилучення — SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3821"/>
@@ -1497,7 +1495,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4066"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Поточні значення було збережено як типові.</translation>
+        <translation>Поточні значення було збережено, як типові.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1950"/>
@@ -1547,7 +1545,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>&amp;Audio CD</source>
-        <translation>&amp;Звуковий CD</translation>
+        <translation>&amp;Звуковий КД</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1961"/>
@@ -1612,7 +1610,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6140"/>
         <source>See the log for more info.</source>
-        <translation>Дивіться журнал для докладніших відомостей.</translation>
+        <translation>Дивіться дієпис для докладніших відомостей.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2055"/>
@@ -1667,7 +1665,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1963"/>
         <source>Reset audio equalizer</source>
-        <translation>Скинути аудіоеквалайзер</translation>
+        <translation>Скинути еквалайзер авдіо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1853"/>
@@ -1800,12 +1798,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2192"/>
         <source>DVD menu, move up</source>
-        <translation>Меню DVD, вгору</translation>
+        <translation>Меню DVD, угору</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2193"/>
         <source>DVD menu, move down</source>
-        <translation>Меню DVD, вниз</translation>
+        <translation>Меню DVD, униз</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2194"/>
@@ -1820,7 +1818,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2197"/>
         <source>DVD menu, select option</source>
-        <translation>Меню DVD, обрати опцію</translation>
+        <translation>Меню DVD, обрати параметр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2199"/>
@@ -1841,7 +1839,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4680"/>
         <location filename="../basegui.cpp" line="4684"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer - затримка звуку</translation>
+        <translation>SMPlayer — затримка звуку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4681"/>
@@ -1853,7 +1851,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4696"/>
         <location filename="../basegui.cpp" line="4700"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer - затримка субтитрів</translation>
+        <translation>SMPlayer — затримка субтитрів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4697"/>
@@ -1875,7 +1873,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Розпочати/зупинити робити &amp;знімки екрану</translation>
+        <translation>Розпочати/зупинити робити &amp;знятки екрану</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
@@ -1994,7 +1992,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="372"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>По&amp;казувати піктограму у системній таці</translation>
+        <translation>По&amp;казувати піктограму в системній таці</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="381"/>
@@ -2029,7 +2027,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="400"/>
         <source>Send &amp;audio to</source>
-        <translation>Відправити &amp;аудіо до</translation>
+        <translation>Відправити &amp;авдіо до</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="438"/>
@@ -2149,7 +2147,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="1129"/>
         <source>&amp;Default audio device</source>
-        <translation>&amp;Типовий аудіо пристрій</translation>
+        <translation>&amp;Типовий авдіопристрій</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="368"/>
@@ -2162,7 +2160,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation>Редагувати закладки</translation>
+        <translation>Змінити закладки</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
@@ -2415,12 +2413,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1431"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Знімок екрану не було зроблено, оскільки теку не налаштовано</translation>
+        <translation>Зняток екрану не було зроблено, оскільки теку не налаштовано</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1444"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Знімки екрану не було зроблено, оскільки теку не налаштовано</translation>
+        <translation>Знятки екрану не було зроблено, оскільки теку не налаштовано</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2811"/>
@@ -2533,22 +2531,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>&amp;Редагувати головну панель</translation>
+        <translation>&amp;Змінити головну панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
-        <translation>Редагувати панель &amp;керування</translation>
+        <translation>Змінити панель &amp;керування</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Редагувати &amp;мініпанель керування</translation>
+        <translation>Змінити &amp;мініпанель керування</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
-        <translation>Р&amp;едагувати виринну панель</translation>
+        <translation>З&amp;мінити виринну панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="774"/>
@@ -2575,18 +2573,18 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation>Йой, трапилось щось не те</translation>
+        <translation>Йой, трапилося щось не те</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
         <source>Hide log</source>
-        <translation>Сховати журнал</translation>
+        <translation>Сховати дієпис</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="91"/>
         <location filename="../errordialog.cpp" line="69"/>
         <source>Show log</source>
-        <translation>Показати журнал</translation>
+        <translation>Показати дієпис</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="14"/>
@@ -2629,7 +2627,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="116"/>
         <source>Favorite editor</source>
-        <translation>Редактор улюблених</translation>
+        <translation>Редагувач улюблених</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2672,12 +2670,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation>В&amp;гору</translation>
+        <translation>У&amp;гору</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation>Вн&amp;из</translation>
+        <translation>Ун&amp;из</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
@@ -2756,7 +2754,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="15"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer - Властивості файлу</translation>
+        <translation>SMPlayer — Властивості файлу</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="34"/>
@@ -2819,7 +2817,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Опції:</translation>
+        <translation>&amp;Параметри:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
@@ -2849,17 +2847,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation>Оп&amp;ції для %1</translation>
+        <translation>Па&amp;раметри для %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
-        <translation>Додаткові опції для %1</translation>
+        <translation>Додаткові параметри для %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation>Тут ви можете вказати додаткові опції %1.</translation>
+        <translation>Тут ви можете вказати додаткові параметри %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2932,7 +2930,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation>Опції</translation>
+        <translation>Параметри</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="227"/>
@@ -2999,7 +2997,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation>&amp;Додати код мови до імені файлу субтитрів</translation>
+        <translation>&amp;Додати код мови до ім&apos;я файлу субтитрів</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
@@ -3087,7 +3085,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="423"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Не вдалося увійти до opensubtitles.org</translation>
+        <translation>Не вдалося ввійти до opensubtitles.org</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="427"/>
@@ -3103,11 +3101,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
@@ -3123,7 +3117,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="304"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation>&amp;Скопіювати посилання до буферу обміну</translation>
+        <translation>&amp;Скопіювати посилання до буфера обміну</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="407"/>
@@ -3173,7 +3167,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
         <source>Type here a movie or TV show title</source>
-        <translation>Уведіть назву фільму або телешоу</translation>
+        <translation>Уведіть назву фільму або теледійства</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
@@ -3215,7 +3209,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -3237,7 +3231,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation>&amp;Опції</translation>
+        <translation>&amp;Параметри</translation>
     </message>
 </context>
 <context>
@@ -3308,7 +3302,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.cpp" line="26"/>
         <source>Global Shortcuts</source>
-        <translation>Глобальні сполучення клавіш</translation>
+        <translation>Глобальні сполучення клавішів</translation>
     </message>
 </context>
 <context>
@@ -3573,7 +3567,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - Відтворити DVD з теки</translation>
+        <translation>SMPlayer — Відтворити DVD з теки</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
@@ -3591,7 +3585,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation>SMPlayer - Вкажіть версію MPlayer</translation>
+        <translation>SMPlayer — Вкажіть версію MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
@@ -3606,7 +3600,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>Будь ласка, &amp;оберіть правильну збірку:</translation>
+        <translation>Будь ласка, &amp;виберіть правильну збірку:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -3629,7 +3623,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - Уведіть URL-адресу</translation>
+        <translation>SMPlayer — Уведіть URL-адресу</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -4079,7 +4073,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="309"/>
         <location filename="../languages.cpp" line="336"/>
         <source>Russian</source>
-        <translation>Російська</translation>
+        <translation>Москвинська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
@@ -4270,7 +4264,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="237"/>
         <source>Arabic - Syria</source>
-        <translation>Арабська - Сирія</translation>
+        <translation>Арабська — Сирія</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="294"/>
@@ -4496,7 +4490,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation>Ігбо</translation>
+        <translation>Іґбо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
@@ -4556,7 +4550,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation>Луганда</translation>
+        <translation>Луґанда</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
@@ -4743,7 +4737,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.cpp" line="108"/>
         <source>Logs</source>
-        <translation>Журнали</translation>
+        <translation>Дієписи</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="58"/>
@@ -4818,7 +4812,7 @@ Do you want to overwrite?</source>
         <location filename="../mpvprocess.h" line="208"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Bitrate:</source>
-        <translation>Бітрейт:</translation>
+        <translation>Швидкість потоку:</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="858"/>
@@ -4894,12 +4888,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
-        <translation>Редагувати панель &amp;керування</translation>
+        <translation>Змінити панель &amp;керування</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
-        <translation>Р&amp;едагувати виринну панель</translation>
+        <translation>З&amp;мінити виринну панель</translation>
     </message>
 </context>
 <context>
@@ -4979,7 +4973,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation>Вперед</translation>
+        <translation>Уперед</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
@@ -5027,7 +5021,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="771"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Редагувати</translation>
+        <translation>&amp;Змінити</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1383"/>
@@ -5112,7 +5106,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1987"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Уведіть назву, яка буде відображатися у переліку для цього файлу:</translation>
+        <translation>Уведіть назву, яка буде показуватися у переліку для цього файлу:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
@@ -5192,7 +5186,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="746"/>
         <source>Remove &amp;selected</source>
-        <translation>Вилучити &amp;обране</translation>
+        <translation>Вилучити &amp;вибране</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="747"/>
@@ -5224,7 +5218,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="764"/>
         <source>Show position column</source>
-        <translation>Показати положення стовпця</translation>
+        <translation>Показати позицію стовпця</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="765"/>
@@ -5343,17 +5337,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="569"/>
         <source>Log SMPlayer output</source>
-        <translation>Вихідний журнал SMPlayer</translation>
+        <translation>Дієпис виводу SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="653"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Ці опції, головним чином, потрібні щоб зневадити програму.</translation>
+        <translation>Ці параметри, головним чином, потрібні для зневадження програми.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="600"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>Фільтр для журналів SMPlayer</translation>
+        <translation>Фільтр для дієписів SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
@@ -5363,7 +5357,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation>Типово використовувати la&amp;vf демультиплексор</translation>
+        <translation>Усталено використовувати la&amp;vf демультиплексор</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
@@ -5393,12 +5387,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="592"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Вести часопис виведення &amp;SMPlayer</translation>
+        <translation>Вести дієпис виведення &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="663"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Фільтр для журналів SMPlayer:</translation>
+        <translation>&amp;Фільтр для дієписів SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="276"/>
@@ -5408,7 +5402,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Logs</source>
-        <translation>Журнали</translation>
+        <translation>Дієписи</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5428,17 +5422,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation>Якщо цю опцію увімкнено, демультплексор lavf буде використовуватися для усіх форматів.</translation>
+        <translation>Якщо цей параметр увімкнено, демультплексор lavf буде використовуватися для всіх форматів.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Даний параметр може бути потрібний для відтворення переліків відтворення (m3u, pls та ін). Однак, це може бути небезпечним, бо MPlayer практично беззахистний коли читає та використовує різні переліки відтворення з тенет.</translation>
+        <translation>Цей параметр може знадобитися для відтворення грайлистів (m3u, pls та ин). Однак, це може бути небезпечним, бо MPlayer практично беззахисний коли читає та використовує різні грайлисти з тенет.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Обмеження: дії запускаються тільки при відкритті файлу, але не при перезапуску процесу %1 (наприклад, при обранні звукового чи відеофільтру).</translation>
+        <translation>Обмеження: дії запускаються тільки при відкритті файлу, але не при перезапуску процесу %1 (наприклад, при вибиранні звукового чи відеофільтру).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
@@ -5448,12 +5442,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Якщо ви бачите частини відео по будь-яких інших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
+        <translation>Якщо ви бачите частини відео по будь-яких инших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Options</source>
-        <translation>Опції</translation>
+        <translation>Параметри</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -5468,12 +5462,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
         <source>Repaint the background of the video window</source>
-        <translation>Перемалювати тло вікна із зображенням</translation>
+        <translation>Перемалювати тло вікна з зображенням</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Перемалювати &amp;тло вікна із зображенням</translation>
+        <translation>Перемалювати &amp;тло вікна з зображенням</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
@@ -5513,7 +5507,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="515"/>
         <source>Lo&amp;gs</source>
-        <translation>&amp;Журнали</translation>
+        <translation>&amp;Дієписи</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
@@ -5528,7 +5522,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення зневадження (ви можете переглянути журнал у &lt;b&gt;Налаштування -&gt; Дивитись журнали -&gt; SMPlayer&lt;/b&gt;). Ці відомості можуть бути корисними для розробників у випадку, коли ви знайдете помилку.</translation>
+        <translation>Якщо ввімкнено, SMPlayer зберігатиме повідомлення зневадження (ви можете переглянути дієпис у &lt;b&gt;Налаштування -&gt; Дивитись дієписи -&gt; SMPlayer&lt;/b&gt;). Ці відомості можуть бути корисними для розробників у випадку, коли ви знайдете помилку.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
@@ -5538,7 +5532,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення %1 (їх можна переглянути і &lt;b&gt;Налаштування -&gt; Дивитись журнали -&gt; %1&lt;/b&gt;). Ці звіти містять важливу інформацію про проблеми, що виникли, тому рекомендується увімкнути цю опцію.</translation>
+        <translation>Якщо ввімкнено, SMPlayer буде зберігати повідомлення %1 (їх можна переглянути у &lt;b&gt;Налаштування -&gt; Дивитися дієписи -&gt; %1&lt;/b&gt;). Ці звіти містять важливі відомості про виниклі проблеми, тому радиться ввімкнути цей параметр.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
@@ -5548,12 +5542,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Якщо увімкнено, звіт %1 буде збережено у спеціальний файл щораз коли почнеться відтворення нового файлу. Це може бути необхідним для зовнішніх додатків, які отримують інформацію про файл, що відтворюється.</translation>
+        <translation>Якщо ввімкнено, звіт %1 буде збережено у спеціальний файл щораз коли почнеться відтворення нового файлу. Це може бути необхідним для зовнішніх додатків, які отримують інформацію про відтворюваний файл.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
         <source>Autosave %1 log filename</source>
-        <translation>Автозбереження імені файлу звіту %1</translation>
+        <translation>Автозбереження ім&apos;я файлу звіту %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
@@ -5563,7 +5557,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Ця опція дозволяє фільтрувати повідомлення SMPlayer, які будуть збережені у журналі. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; відобразить лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Цей параметр дозволяє фільтрувати повідомлення SMPlayer, які будуть збережені у дієписі. Тут Ви можете написати будь-який регулярний вираз.&lt;br&gt;Наприклад: &lt;i&gt;^Core::.*&lt;/i&gt; покаже лише рядки, що починаються з &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5573,7 +5567,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation>&amp;Запускати %1 у окремому вікні</translation>
+        <translation>&amp;Запускати %1 в окремому вікні</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
@@ -5593,27 +5587,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation>Повідомляти про ава&amp;рії %1</translation>
+        <translation>Повідомляти про тро&amp;щі %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation>Тут Ви можете вказати параметри і фільтри %1.</translation>
+        <translation>Тут Ви можете вказати параметри та фільтри %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation>А&amp;втозбереження звіту %1 у файл</translation>
+        <translation>А&amp;втозбереження звіту %1 в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation>&amp;Передавати параметр %1 в MPlayer (небезпечно)</translation>
+        <translation>&amp;Передавати параметр %1 у MPlayer (небезпечно)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation>Знявши цю опцію може зменшитися мерехтіння, але вона також може призвисти до дивних артефактів за певних обставин.</translation>
+        <translation>Зняття цього параметру може зменшити мерехтіння, але це також може призвести до дивних артефактів за певних обставин.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5628,7 +5622,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Run %1 in its own window</source>
-        <translation>Запускати %1 у окремому вікні</translation>
+        <translation>Запускати %1 в окремому вікні</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
@@ -5638,12 +5632,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Notify %1 crashes</source>
-        <translation>Повідомляти про аварії %1</translation>
+        <translation>Повідомляти про трощі %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Якщо цю опцію увімкнено, спливне вікно буде відображати повідомлення про %1 аварії. В іншому випадку ці збої будуть нехтуватися.</translation>
+        <translation>Якщо цей параметр увімкнено, виринне вікно буде показувати повідомлення про %1 трощі. В иншому випадку ці збої будуть нехтуватися.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
@@ -5653,17 +5647,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation>Якщо цю опція увімкнено, SMPlayer передаватиме короткі назви файлів до %1.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer передаватиме короткі назви файлів до %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation>Передавати параметр %1 в MPlayer (небезпечно)</translation>
+        <translation>Передавати параметр %1 у MPlayer (небезпечно)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Перемикає %1 в експериментальний режим, в якому тайминг відео кадрів розраховується незалежно, і тим самим підтримуються відео фільтри, що додають нові кадри чи міняють тайминг існуючих. Більш точний тайминг може бути помітний, наприклад, при відтворенні з опцією −ass субтитрів, прив&apos;язаних до зміни сцени, Без −correct−pts тайминг субтитрів, зазвичай, буде вимкнений деякими кадрами. З деякими демультиплексорами та кодеками ця опція працює некоректно.</translation>
+        <translation>Перемикає %1 в експериментальний режим, у якому тайминг відео кадрів розраховується незалежно, та тим самим підтримуються відеофільтри, що додають нові кадри чи змінюють тайминг наявних. Більш точний тайминг може бути помітним, наприклад, при відтворенні з параметром −ass субтитрів, прив&apos;язаних до зміни сцени, Без −correct−pts тайминг субтитрів, зазвичай, буде вимкнений деякими кадрами. З деякими демультиплексорами та кодеками цей параметр працює некоректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5678,12 +5672,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>Options for %1</source>
-        <translation>Опції для %1</translation>
+        <translation>Параметри для %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Here you can type options for %1.</source>
-        <translation>Тут ви можете увести опції %1.</translation>
+        <translation>Тут ви можете ввести параметри %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
@@ -5709,7 +5703,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="169"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation>З&amp;апустити такі дії щораз як був відкритий файл. Дії мають бути розділені пробілами:</translation>
+        <translation>З&amp;апустити такі дії щораз коли був відкритий файл. Дії мають бути розділені пробілами:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="403"/>
@@ -5747,32 +5741,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
         <source>Save SMPlayer log to file</source>
-        <translation>Зберегти журнал SMPlayer у файл</translation>
+        <translation>Зберегти дієпис SMPlayer у файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation>Якщо опцію увімкнено, журнал SMPlayer записуватиметься до %1</translation>
+        <translation>Якщо параметр увімкнено, дієпис SMPlayer записуватиметься до %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation>&amp;Зберегти журнал SMPlayer у файл</translation>
+        <translation>&amp;Зберегти дієпис SMPlayer у файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation>Відображати інформацію з тегів у заголовку вікна</translation>
+        <translation>Показувати інформацію з теґів у заголовку вікна</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>Якщо ця опція увімкнена, у заголовку вікна буде відображена інформація з тегів. Якщо ні - буде показано лише ім&apos;я файлу.</translation>
+        <translation>Якщо цей параметр увімкнено, в заголовку вікна буде показано інформацію з теґів. Якщо ні — буде показано лише ім&apos;я файлу.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>Відображати інформацію з тегів у &amp;заголовку вікна</translation>
+        <translation>Показувати інформацію з теґів у &amp;заголовку вікна</translation>
     </message>
 </context>
 <context>
@@ -5795,7 +5789,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="232"/>
         <source>Select all</source>
-        <translation>Вибрати всі</translation>
+        <translation>Обрати всі</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="233"/>
@@ -5835,12 +5829,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
         <source>Select All</source>
-        <translation>Вибрати усе</translation>
+        <translation>Обрати все</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="98"/>
         <source>Select None</source>
-        <translation>Не обирати жодного</translation>
+        <translation>Не вибирати жодного</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
@@ -5850,7 +5844,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Select none</source>
-        <translation>Не обирати жодного</translation>
+        <translation>Не вибирати жодного</translation>
     </message>
 </context>
 <context>
@@ -5869,7 +5863,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="220"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>Вкажіть Ваш пристрій CDROM. Це потрібно для програвання звукових та VCD дисків.</translation>
+        <translation>Вкажіть Ваш пристрій CDROM. Це потрібно для програвання звукових і VCD дисків.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
@@ -5919,17 +5913,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer буде програвати DVD за допомогою dvdnav. Потрібна версія MPlayer, скомпільована з підтримкою dvdnav.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer буде програвати DVD за допомогою dvdnav. Потрібна версія MPlayer, скомпільована з підтримкою dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Нотатка 1&lt;/b&gt;: кеш буде вимкнений, це може вплинути на швидкодію.</translation>
+        <translation>&lt;b&gt;Нотатка 1&lt;/b&gt;: кеш буде вимкнено, це може вплинути на швидкодію.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;Нотатка 2&lt;/b&gt;: можливо ви бажаєте призначити дію &quot;увімкнути опцію в меню DVD&quot; одній з клавіш миші.</translation>
+        <translation>&lt;b&gt;Нотатка 2&lt;/b&gt;: можливо ви бажаєте призначити дію &quot;увімкнути параметр у меню DVD&quot; одному з клавішів миші.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
@@ -6035,7 +6029,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation>Опція &apos;Інший&apos; дозволяє Вам вручну обрати шлях виконуваного файлу.</translation>
+        <translation>Параметр &apos;Инший&apos; дозволяє Вам вручну вибрати шлях виконуваного файлу.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1040"/>
@@ -6045,7 +6039,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation>Тут ви повинні вказати виконуваний файл %1, який буде використаний у SMPlayer.</translation>
+        <translation>Тут ви маєте вказати виконуваний файл %1, який буде використано в SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
@@ -6055,7 +6049,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation>Якщо обрана ця опція, то налаштування для мережевих потоків будуть запам’ятовуватися.</translation>
+        <translation>Якщо вибрано цей параметр, то налаштування для мережевих потоків будуть запам’ятовуватися.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
@@ -6090,7 +6084,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1110"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation>Якщо цю опцію увімкнено, комп&apos;ютер вимикається одразу після закриття SMPlayer.</translation>
+        <translation>Якщо цей параметр увімкнено, комп&apos;ютер вимикається одразу після закриття SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1116"/>
@@ -6110,12 +6104,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1129"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation>Активуються деякі параметри, що попереджують показ відео за межами головного вікна.</translation>
+        <translation>Активуються деякі параметри, що запобігають показу відео за межами головного вікна.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1147"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation>Якщо цю опцію увімкнено, чорні смуги будуть додані до зображення типово у нових відкритих файлах.</translation>
+        <translation>Якщо цей параметр увімкнено, чорні смуги буде додано до зображення усталено в нових відкритих файлах.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1217"/>
@@ -6135,7 +6129,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1276"/>
         <source>Preferred audio language</source>
-        <translation>Бажана мова аудіо</translation>
+        <translation>Бажана мова авдіо</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1288"/>
@@ -6150,7 +6144,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="166"/>
         <source>Other...</source>
-        <translation>Інший...</translation>
+        <translation>Инший...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
@@ -6166,7 +6160,7 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="1087"/>
         <location filename="../prefgeneral.cpp" line="1094"/>
         <source>This option only works with mpv.</source>
-        <translation>Ця опція працює лише з MPV.</translation>
+        <translation>Цей параметр працює лише з MPV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1109"/>
@@ -6176,22 +6170,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Add black borders for subtitles by default</source>
-        <translation>Додати типово чорні смуги для субтирів</translation>
+        <translation>Додати усталено чорні смуги для субтитрів</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1156"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується вашою відеокарткою чи обраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
+        <translation>Ви можете спробувати ці параметри, якщо відеоеквалайзер не підтримується вашою відеокарткою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці параметри можуть бути несумісними з деякими драйверами виведення відео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1178"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Якщо Ви оберете цю опцію, усі відеофайли будуть стартувати на увесь екран.</translation>
+        <translation>Якщо Ви виберете цей параметр, усі відеофайли будуть стартувати повноекранно.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Global audio equalizer</source>
-        <translation>Глобальний аудіо еквалайзер</translation>
+        <translation>Глобальний авдіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1224"/>
@@ -6201,7 +6195,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1225"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation>Якщо не активована, налаштування аудіоеквалайзера будуть збережені разом з кожним файлом і будуть завантажуватися пізніше при кожному відтворенні файлу.</translation>
+        <translation>Якщо не активована, налаштування авдіоеквалайзера будуть збережені разом з кожним файлом і будуть завантажуватися пізніше при кожному відтворенні файлу.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1228"/>
@@ -6211,12 +6205,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1234"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Запит кількости каналів відтворення. %1 просить декодер декодувати звук у вказану кількість каналів. Виконання завдання покладається на декодер. Зазвичай це необхідно лише при відтворенні відео з AC3 звуком (наприклад DVD). У цьому випадку liba52 здійснює декодування як зазвичай і коректно зводить аудіо в необхідну кількість каналів. &lt;b&gt;ПРИМІТКА&lt;/b&gt;: Ця опція враховується кодеками (AC3), фільтрами (об&apos;єм) та драйверами виведення звуку (принаймні OSS).</translation>
+        <translation>Запит кількости каналів відтворення. %1 просить декодер декодувати звук у вказану кількість каналів. Виконання завдання покладається на декодер. Зазвичай це необхідно лише при відтворенні відео з AC3-звуком (наприклад DVD). У цьому випадку liba52 здійснює декодування як зазвичай і коректно зводить авдіо в необхідну кількість каналів. &lt;b&gt;НОТАТКА&lt;/b&gt;: Цей параметр враховується кодеками (AC3), фільтрами (об&apos;єм) та драйверами виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1245"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation>Дозволяє змінити швидкість відтворення без пітч-ефекту.</translation>
+        <translation>Дозволяє змінити швидкість відтворення без пітчефекту.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1253"/>
@@ -6226,7 +6220,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Перевірте ці опції для використання програмного мікшера замість апаратного мікшера звукової картки.</translation>
+        <translation>Перевірте ці параметри для використання програмного мікшера замість апаратного мікшера звукової картки.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1135"/>
@@ -6236,7 +6230,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>Динамічна зміна рівню післяопрацювання залежно від вільного процесорного часу. Число, яке Ви вкажете, буде використане як максимальний рівень. Зазвичай можна вказати досить велике значення.</translation>
+        <translation>Динамічна зміна рівню післяопрацювання залежно від вільного процесорного часу. Число, яке Ви вкажете, буде використано як щонайбільший рівень. Зазвичай можна вказати досить велике значення.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1172"/>
@@ -6246,7 +6240,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>З&amp;апам&apos;ятовувати налаштування для усіх файлів (звукові доріжки, субтитри...)</translation>
+        <translation>З&amp;апам&apos;ятовувати налаштування для всіх файлів (звукові доріжки, субтитри...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1191"/>
@@ -6301,7 +6295,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="775"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation>Глобальний аудіо е&amp;квалайзер</translation>
+        <translation>Глобальний авдіое&amp;квалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="784"/>
@@ -6341,12 +6335,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Подвійне буферування виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
+        <translation>Подвійне буферування виправляє мерехтіння тримаючи два кадри у пам&apos;яті, та показує один, декодує инший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="435"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Т&amp;ипово увімкнути післяопрацювання</translation>
+        <translation>У&amp;вімкнути післяопрацювання усталено</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
@@ -6361,7 +6355,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1105"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи переліку.</translation>
+        <translation>Цей параметр активує автоматичний вихід з програми по закінченню відтворення файлу чи грайлиста.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="171"/>
@@ -6396,7 +6390,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Enable postprocessing by default</source>
-        <translation>Типово увімкнути післяопрацювання</translation>
+        <translation>Увімкнути післяопрацювання усталено</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1257"/>
@@ -6421,12 +6415,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Встановлює щонайбільший рівень підсилення у відсотках (типово: 110). Значення 200 дозволить Вам збільшити гучність вдвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище найбільшого значення, яке неправильно відображається екранною індикацією.</translation>
+        <translation>Встановлює щонайбільший рівень підсилення у відсотках (типово: 110). Значення 200 дозволить Вам збільшити гучність удвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище найбільшого значення, яке неправильно показується екранною індикацією.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Післяопрацювання буде використовуватися для усіх нових файлів.</translation>
+        <translation>Післяопрацювання буде використовуватися для всіх нових файлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1278"/>
@@ -6456,7 +6450,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Задає звукову доріжку, яка буде використовуватися при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова звуку&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
+        <translation>Задає звукову доріжку, яка буде використовуватися при відкритті нових файлів. Якщо доріжки не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова звуку&quot;&lt;/i&gt; має перевагу над цим параметром.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1306"/>
@@ -6466,17 +6460,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1307"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Задає доріжку субтитрів, яка буде використовуватися при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова субтитрів&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
+        <translation>Задає доріжку субтитрів, яка буде використовуватися при відкритті нових файлів. Якщо доріжки не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова субтитрів&quot;&lt;/i&gt; має перевагу над цим параметром.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1312"/>
         <source>Or choose a track number:</source>
-        <translation>Або оберіть номер доріжки:</translation>
+        <translation>Або виберіть номер доріжки:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1253"/>
         <source>Audi&amp;o:</source>
-        <translation>Ауді&amp;о:</translation>
+        <translation>Авді&amp;о:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1207"/>
@@ -6486,7 +6480,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1096"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation>Бажа&amp;ні звук та субтитри</translation>
+        <translation>Бажа&amp;ні звук і субтитри</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1266"/>
@@ -6541,12 +6535,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1274"/>
         <source>Preferred audio and subtitles</source>
-        <translation>Бажані звук та субтитри</translation>
+        <translation>Бажані звук і субтитри</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>None</source>
-        <translation>Немає</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="180"/>
@@ -6581,7 +6575,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Виберіть фільтр деінтерлейсингу, який буде застосовано до нових відео при відкритті.</translation>
+        <translation>Оберіть фільтр деінтерлейсингу, який буде застосовано до нових відео при відкритті.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1051"/>
@@ -6596,17 +6590,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Enable the audio equalizer</source>
-        <translation>Увімкнути аудіоеквалайзер</translation>
+        <translation>Увімкнути авдіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1221"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation>Оберіть цю опцію, якщо ви бажаєте використовувати аудіоеквалайзер.</translation>
+        <translation>Оберіть цей параметр, якщо ви бажаєте використовувати еквалайзер авдіо.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="752"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>Уві&amp;мкнути аудіоеквалайзер</translation>
+        <translation>Уві&amp;мкнути авдіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
@@ -6644,7 +6638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="476"/>
         <source>fast - ATI cards</source>
-        <translation>швидко - картки ATI</translation>
+        <translation>швидко — картки ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="498"/>
@@ -6660,7 +6654,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1152"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Ця опція встановлює типовий масштаб, який буде застосовуватись для нових відеофайлів.</translation>
+        <translation>Цей параметр встановлює типовий масштаб, який буде застосовуватися для нових відеофайлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -6675,17 +6669,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цю опцію, якщо Вам це не подобається.</translation>
+        <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цей параметр, якщо Вам це не подобається.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Якщо ця опція увімкнена, файл буде призупинено, коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
+        <translation>Якщо цей параметр увімкнено, файл буде призупинено коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Встановіть цю опцію, щоб вимкнути зберігач екрану під час відтворення.&lt;br&gt;Зберігач екрану увімкнеться знову, коли відтворення завершиться.</translation>
+        <translation>Встановіть цей параметр, аби вимкнути зберігач екрану під час відтворення. &lt;br&gt;Зберігач екрану ввімкнеться знову, коли відтворення завершиться.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6701,7 +6695,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1183"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Ящо ця опція увімкнена, межі будуть додані до зображення при повному екрані. Це дозволить відображати субтитри на чорних межах.</translation>
+        <translation>Якщо цей параметр увімкнено, межі буде додано до зображення при повному екрані. Це дозволить показувати субтитри на чорних межах.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6726,12 +6720,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Ця опція дозволить змінити спосіб, у який будуть зберігатися файли налаштувань. Доступні такі опції:</translation>
+        <translation>Цей параметр дозволить змінити спосіб у який будуть зберігатися файли налаштувань. Доступні такі параметри:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1062"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation>&lt;b&gt;один файл ini&lt;/b&gt;: налаштування усіх відтворюваних файлів зберігатимуться в одному файлі ini (%1)</translation>
+        <translation>&lt;b&gt;один файл ini&lt;/b&gt;: налаштування всіх відтворюваних файлів зберігатимуться в одному файлі ini (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1066"/>
@@ -6751,37 +6745,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Якщо Ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює лише зі звичайними файлами (не з DVD, КД, URL...).</translation>
+        <translation>Якщо Ви виберете цей параметр, SMPlayer пам&apos;ятатиме останню позицію файлу, коли ви відкриєте його знову. Цей параметр працює лише зі звичайними файлами (не з DVD, КД, URL...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не усіма кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
+        <translation>Якщо ввімкнено, вмикається пряме відтворення (підтримується не всіма кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Enable screenshots</source>
-        <translation>Увімкнути знімки екрану</translation>
+        <translation>Увімкнути знятки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1069"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Ви можете використати цю опцію, щоб увімкнути чи вимкнути можливість робити знімки екрану.</translation>
+        <translation>Ви можете використати цей параметр, аби ввімкнути чи вимкнути можливість робити знятки екрану.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Тут ви можете вказати теку, де будуть зберігатися знятки екрану, зроблені SMPlayer. Якщо тека вказана невірно, знятки екрану будуть вимкнені.</translation>
+        <translation>Тут ви можете вказати теку де будуть зберігатися знятки екрану зроблені SMPlayer. Якщо теку вказано невірно, знятки екрану буде вимкнено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
         <source>Screenshots</source>
-        <translation>Знімки екрану</translation>
+        <translation>Знятки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Enable screenshots</source>
-        <translation>Уві&amp;мкнути знімки екрану</translation>
+        <translation>Уві&amp;мкнути знятки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="193"/>
@@ -6796,12 +6790,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1248"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation>Якщо ця опція увімкнена, один і той же рівень гучности буде використаний для відтворення усіх файлів. Якщо вимкнена, кожен файл буде мати свою гучність.</translation>
+        <translation>Якщо цей параметр увімкнено, один і той же рівень гучности буде використано для відтворення всіх файлів. Якщо вимкнено, кожен файл буде мати свою гучність.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1251"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Ця опція також застосовується для керування вимкненням звуку.</translation>
+        <translation>Цей параметр також застосовується для керування вимкненням звуку.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
@@ -6816,17 +6810,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation>Ця опція вимикає зберігач екрану лише перед програванням файлу та вмикає його, коли програвання буде завершене. Якщо ця опція увімкнена, зберігач екрану не з&apos;являтиметься навіть коли програються аудіофайли або програвання призупинене.</translation>
+        <translation>Цей параметр вимикає зберігач екрану лише перед програванням файлу та вмикає його, коли програвання буде завершено. Якщо цей параметр ввімкнено, зберігач екрану не з&apos;являтиметься навіть коли програються авдіофайли або програвання призупинене.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Avoid screensaver</source>
-        <translation>Уникати запуск зберігача екрану</translation>
+        <translation>Запобігати запуску зберігача екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1201"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює лише якщо вікно SMPlayer розрорнуте.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволено, якщо відтворюється авдіофайл або відтворення призупинено. Цей параметр працює лише, якщо вікно SMPlayer розгорнуте.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="648"/>
@@ -6841,7 +6835,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="661"/>
         <source>Avoid &amp;screensaver</source>
-        <translation>&amp;Уникати запуск зберігача екрану</translation>
+        <translation>&amp;Запобігати запуску зберігача екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1267"/>
@@ -6851,17 +6845,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1268"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation>Поступове регулювання синхронізації аудіо-відео, основане на розмірах звукових затримок.</translation>
+        <translation>Поступове регулювання синхронізації авдіо-відео, основане на розмірах звукових затримок.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1271"/>
         <source>A-V sync correction</source>
-        <translation>Коригування синхронізації аудіо-відео</translation>
+        <translation>Коригування синхронізації авдіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1272"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>Найбільше значення коригування аудіо-відео на кадр (с)</translation>
+        <translation>Найбільше значення коригування авдіо-відео на кадр (с)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="955"/>
@@ -6871,7 +6865,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="966"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>&amp;Автосинхронізація аудіо-відео</translation>
+        <translation>&amp;Автосинхронізація авдіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="992"/>
@@ -6881,7 +6875,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1028"/>
         <source>A-V sync &amp;correction</source>
-        <translation>&amp;Коригування синхронізації аудіо-відео</translation>
+        <translation>&amp;Коригування синхронізації авдіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1051"/>
@@ -6891,7 +6885,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1143"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation>&lt;b&gt;Нотатка:&lt;/b&gt; Ця опція не буде використана для каналів ТБ.</translation>
+        <translation>&lt;b&gt;Нотатка:&lt;/b&gt; Цей параметр не буде використано для каналів ТБ.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="488"/>
@@ -6906,12 +6900,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1230"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation>&lt;b&gt;Нотатка:&lt;/b&gt; жоден з фільтрів звуку не буде використовуватися, коли ця опція увімкнена.</translation>
+        <translation>&lt;b&gt;Нотатка:&lt;/b&gt; жоден з фільтрів звуку не буде використовуватися, коли цей параметр увімкнено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="450"/>
         <source>snap mode</source>
-        <translation>режим знімків</translation>
+        <translation>режим знятків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="451"/>
@@ -6934,7 +6928,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
-        <translation>&amp;Клавіатура</translation>
+        <translation>&amp;Набірниця</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="84"/>
@@ -6964,7 +6958,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>За&amp;бороняється застосовувати дію лівого клацання миші разом з подвійним клацанням</translation>
+        <translation>За&amp;бороняється застосовувати дію лівого клацання миші разом з подвійним клацом</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
@@ -6982,18 +6976,18 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="163"/>
         <location filename="../prefinput.cpp" line="444"/>
         <source>Zoom video</source>
-        <translation>Масштаб відео</translation>
+        <translation>Мірило відео</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <location filename="../prefinput.cpp" line="174"/>
         <source>None</source>
-        <translation>Немає</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Тут Ви можете змінити будь-яку комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації. Додатково Ви можете зберегти перелік комбінацій для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
+        <translation>Тут Ви можете змінити будь-яку комбінацію клавішів. Двічі клацніть або натисніть ENTER на чарунку комбінації. Додатково Ви можете зберегти перелік комбінацій для розповсюдження иншим або завантаження на иншому комп&apos;ютері.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="183"/>
@@ -7018,12 +7012,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
         <source>Shortcut editor</source>
-        <translation>Редактор гарячих клавіш</translation>
+        <translation>Редактор гарячих клавішів</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (на жаль, не працює для всіх клавіш), або просто написати повну назву клавіш.</translation>
+        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавішів. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавішів&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; та просто натиснути потрібну комбінацію клавішів (на жаль, не працює для всіх клавішів), або просто написати повну назву клавішів.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="399"/>
@@ -7063,7 +7057,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>Pause</source>
-        <translation>Призупинка</translation>
+        <translation>Павза</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
@@ -7073,7 +7067,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Fullscreen</source>
-        <translation>На увесь екран</translation>
+        <translation>На весь екран</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -7083,7 +7077,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Screenshot</source>
-        <translation>Знімок екрану</translation>
+        <translation>Зняток екрану</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -7133,7 +7127,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="160"/>
         <source>No function</source>
-        <translation>Немає функції</translation>
+        <translation>Нема функції</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="164"/>
@@ -7149,7 +7143,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="378"/>
         <source>Keyboard</source>
-        <translation>Клавіатура</translation>
+        <translation>Набірниця</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
@@ -7199,22 +7193,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
-        <translation>Крок вперед (короткий)</translation>
+        <translation>Крок уперед (короткий)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
         <source>Go forward (medium)</source>
-        <translation>Крок вперед (середній)</translation>
+        <translation>Крок уперед (середній)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="78"/>
         <source>Go forward (long)</source>
-        <translation>Крок вперед (довгий)</translation>
+        <translation>Крок уперед (довгий)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
-        <translation>Екранна індікація - наступний рівень</translation>
+        <translation>Екранна індикація — наступний рівень</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="102"/>
@@ -7264,12 +7258,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
-        <translation>Показати аудіоеквалайзер</translation>
+        <translation>Показати авдіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
         <source>Always on top</source>
-        <translation>Завжди зверху</translation>
+        <translation>Завжди поверх</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
@@ -7284,12 +7278,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Never on top</source>
-        <translation>Ніколи зверху</translation>
+        <translation>Ніколи поверх</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
-        <translation>Зверху коли відтворюється</translation>
+        <translation>Поверх коли відтворюється</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="98"/>
@@ -7304,22 +7298,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="105"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation>Увімкнути опцію меню DVD під мишкою</translation>
+        <translation>Увімкнути параметр меню DVD під мишкою</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="106"/>
         <source>Return to main DVD menu</source>
-        <translation>Повернутися в головне меню DVD</translation>
+        <translation>Повернутися до головного меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="107"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation>Повернутися в попереднє меню DVD</translation>
+        <translation>Повернутися до попереднього меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="108"/>
         <source>Move cursor up in DVD menus</source>
-        <translation>Вказівник вгору в меню DVD</translation>
+        <translation>Вказівник угору в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="109"/>
@@ -7339,7 +7333,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="112"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation>Увімкнути опцію підсвічування в меню DVD</translation>
+        <translation>Увімкнути параметр підсвічування в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="175"/>
@@ -7371,7 +7365,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation>Ця опція контролює, що робити, коли миша пересунута при натисненій лівій кнопці.</translation>
+        <translation>Цей параметр визначає, що робити, коли миша пересунута при натисненій лівій кнопці.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="419"/>
@@ -7386,17 +7380,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="426"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation>Забороняється застосовувати функцію лівого клацання миші разом з подвійним клацанням</translation>
+        <translation>Забороняється застосовувати функцію лівого клацання миші разом з подвійним клацом</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>Якщо цю опцію увімкнено, то коли ви двічі клацнете на області відео, спрацює лише функція подвійного клацання миші. Дію лівого клацання не буде активовано.</translation>
+        <translation>Якщо цей параметр увімкнено, то коли ви двічі клацнете на області відео, спрацює лише функція подвійного клацу миші. Дію лівого клацу не буде активовано.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation>При увімкненні цієї опції, ліве клацання миші затримується на %1 мілісекунд для визначення, було це подвійним клацанням чи ні.</translation>
+        <translation>При ввімкненні цього параметру, лівий клац миші затримується на %1 мілісекунд для визначення, було це подвійним клацом чи ні.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="103"/>
@@ -7435,22 +7429,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation>Оберіть, щоб увімкнути переміщення як одне з призначень.</translation>
+        <translation>Оберіть, аби ввімкнути переміщення як одне з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="442"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation>Оберіть, щоб увімкнути зміну гучности як одне з призначень.</translation>
+        <translation>Оберіть, аби ввімкнути зміну гучности як одне з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="445"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation>Оберіть, щоб увімкнути зміну масштабу як одну з призначень.</translation>
+        <translation>Оберіть, аби ввімкнути зміну мірила як одне з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="448"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation>Оберіть, щоб увімкнути зміну швидкости як одне з призначень.</translation>
+        <translation>Оберіть, аби ввімкнути зміну швидкости як одне з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="437"/>
@@ -7460,7 +7454,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Оберіть дію, яка буде змінюватися, коли використовується опція &quot;Змінити призначення коліща&quot;.</translation>
+        <translation>Оберіть дію, яка буде змінюватися, коли використовується параметр &quot;Змінити призначення коліща&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="433"/>
@@ -7470,7 +7464,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation>Оберіть, щоб пересуватися у зворотньому напрямку.</translation>
+        <translation>Оберіть, аби пересуватися у зворотньому напрямку.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="413"/>
@@ -7596,7 +7590,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>&amp;Попереджувати потрапляння вікна за межі екрану</translation>
+        <translation>&amp;Запобігати потраплянню вікна за межі екрану</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7646,7 +7640,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>Одноразове &amp;натиснення кнопки зупинки скидає положення</translation>
+        <translation>Одноразове &amp;натиснення кнопки зупинки скидає позицію</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -7686,7 +7680,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation>SMPlayer може масштабувати інтерфейс на високих роздільностях. Тут Ви можете відімкнути цю опцію або змінити коефіцієнт масштабування.</translation>
+        <translation>SMPlayer може масштабувати інтерфейс на високих роздільностях. Тут Ви можете відімкнути цей параметр або змінити множник масштабування.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
@@ -7706,7 +7700,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1047"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation>Зміни у цій секції потребують перезапуску SMPlayer для застосування</translation>
+        <translation>Для набуття чинности, зміни у цій секції потребують перезапуску SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
@@ -7751,7 +7745,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>Якщо ця опція увімкнена, розмір та позицію головного вікна буде збережено та відновлено при наступному старті SMPlayer.</translation>
+        <translation>Якщо цей параметр увімкнено, розмір та позицію головного вікна буде збережено та відновлено при наступному запуску SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -7761,7 +7755,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Базовий інтерфейс&lt;/b&gt; надає традиційний інтерфейс з панеллю знарядь та контрольною панеллю.</translation>
+        <translation>&lt;b&gt;Базовий інтерфейс&lt;/b&gt; надає традиційний інтерфейс з панеллю знарядь і контрольною панеллю.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
@@ -7771,7 +7765,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>&lt;b&gt;Інтерфейс із шкурками&lt;/b&gt; надає інтерфейс, в якому можна міняти шкурки.</translation>
+        <translation>&lt;b&gt;Інтерфейс із шкурками&lt;/b&gt; надає інтерфейс, у якому можна міняти шкурки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
@@ -7786,7 +7780,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="880"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Вкажіть щонайбільшу кількість пунктів, яку буде відображено в підменю &lt;b&gt;Відкрити-&gt;Останні файли&lt;/b&gt;. Якщо вказано 0, це меню відображатися не буде.</translation>
+        <translation>Вкажіть щонайбільшу кількість пунктів, яку буде відображено в підменю &lt;b&gt;Відкрити-&gt;Останні файли&lt;/b&gt;. Якщо вказано 0, це меню показуватися не буде.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -7826,7 +7820,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation>Якщо після автоматичного підналаштування розміру головне вікно потрапить за межі екрану, дана опція попередить це центруванням.</translation>
+        <translation>Якщо після автоматичного підналаштування розміру головне вікно потрапить за межі екрану, даний параметр попередить це центруванням.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
@@ -7836,7 +7830,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation>Якщо ця опція увімкнена, то головне вікно буде відцентроване на стільниці.</translation>
+        <translation>Якщо цей параметр увімкнено, то головне вікно буде відцентроване на стільниці.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
@@ -7943,7 +7937,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="817"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation>Виберіть дію для переміщення повзунка часу.</translation>
+        <translation>Оберіть дію для переміщення повзунка часу.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
@@ -7963,7 +7957,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Якщо ця опція активована, виринна панель буде показуватися лише коли миша пересунена униз екрану. Інакше панель буде з&apos;являтися при будь-якому руху миші, незалежно від її позиції.</translation>
+        <translation>Якщо цей параметр активовано, виринна панель буде показуватися лише коли миша пересунена донизу екрану. Інакше панель буде з&apos;являтися при будь-якому рухові миші, незалежно від її позиції.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -7973,12 +7967,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
         <source>This option only works with the basic GUI.</source>
-        <translation>Ця опція працює лише з основним графічним інтерфейсом.</translation>
+        <translation>Цей параметр працює лише з основним графічним інтерфейсом.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Попередження:&lt;/b&gt; виринне керування не розраховувалося для стислого режиму і може працювати некоректно.</translation>
+        <translation>&lt;b&gt;Попередження:&lt;/b&gt; виринне керування не розраховувалося для стислого режиму та може працювати некоректно.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="874"/>
@@ -7998,7 +7992,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="885"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Вкажіть щонайбільшу кількість адрес, яку буде пам&apos;ятати діалог &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0 щоб не зберігалось жодної.</translation>
+        <translation>Вкажіть щонайбільшу кількість адрес, яку буде пам&apos;ятати діалог &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0, щоб не зберігалося жодної.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="889"/>
@@ -8008,7 +8002,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="890"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation>При увімкненні цієї опції SMPlayer запам&apos;ятає останню теку, з якої відкривалися файли.</translation>
+        <translation>При ввімкненні цього параметру SMPlayer запам&apos;ятає останню теку, з якої відкривалися файли.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="551"/>
@@ -8039,7 +8033,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="843"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Вкажіть цю опцію, якщо Ви бажаєте використовувати вже наявний примірник SMPlayer, відкриваючи інші файли.</translation>
+        <translation>Вкажіть цей параметр, якщо Ви бажаєте використовувати вже наявний примірник SMPlayer, відкриваючи инші файли.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="241"/>
@@ -8069,7 +8063,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Якщо ця опція увімкнена, виринне керування з&apos;являтиметься з анімацією.</translation>
+        <translation>Якщо цей параметр увімкнено, виринне керування з&apos;являтиметься з анімацією.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="853"/>
@@ -8089,7 +8083,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Ця опція встановлює кількість пікселів, на яку виринне керування буде віддалене від низу екрану. Корисно, коли екраном є телевізор, оскільки краї можуть унеможливлювати видимість керування.</translation>
+        <translation>Цей параметр встановлює кількість пікселів, на яку виринне керування буде віддалене від низу екрану. Корисно, коли екраном є телевізор, оскільки краї можуть унеможливлювати видимість керування.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8136,17 +8130,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="757"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Ховати вікно відео при відтворенні аудіофайлів</translation>
+        <translation>Ховати вікно відео при відтворенні авдіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>При увімкненні цієї опції при відтворенні аудіофайлу вікно відео буде сховано.</translation>
+        <translation>При ввімкненні цього параметру, при відтворенні авдіофайлу вікно відео буде сховано.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>&amp;Ховати вікно відео при відтворенні аудіофайлів</translation>
+        <translation>&amp;Ховати вікно відео при відтворенні авдіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
@@ -8156,7 +8150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation>При увімкненні цієї опції, перемотка буде більш точною, але може бути трішки повільнішою. Може не працювати з деякими форматами відео.</translation>
+        <translation>При ввімкненні цього параметру, перемотка буде більш точною, але може бути трішки повільнішою. Може не працювати з деякими форматами відео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
@@ -8169,7 +8163,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation>&amp;YouTube (та інші сайти)</translation>
+        <translation>&amp;YouTube (та инші сайти)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
@@ -8315,7 +8309,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="290"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation>він буде намагатися використовувати MPV + YouTube-DL тільки для сайтів, які вимагають цього</translation>
+        <translation>він буде намагатися використовувати MPV + YouTube-DL тільки для сайтів, які потребують цього</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="329"/>
@@ -8370,7 +8364,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="296"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation>використовує mpv + youtube-dl для усіх сайтів</translation>
+        <translation>використовує mpv + youtube-dl для всіх сайтів</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="302"/>
@@ -8431,7 +8425,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="322"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation>Ця опція вмикає адаптивні потоки, які можуть забезпечити відео до 4K.</translation>
+        <translation>Цей параметр вмикає адаптивні потоки, які можуть забезпечити відео до 4K.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="324"/>
@@ -8441,7 +8435,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="325"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation>Ця опція дозволяє здіювати потоки зі швидкістю 60 кадрів на секунду, якщо вони доступні.</translation>
+        <translation>Цей параметр дозволяє задіювати потоки зі швидкістю 60 кадрів на секунду, якщо вони доступні.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
@@ -8496,7 +8490,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation>Якщо цю опцію увімкнено, SMPlayer перезаписуватиме наявні VTT-файли.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer перезаписуватиме наявні VTT-файли.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
@@ -8506,7 +8500,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation>Якщо цю опцію увімкнено, SMPlayer спробує знайти та вилучити рекламу у субтитрах.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer спробує знайти та вилучити рекламу в субтитрах.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="370"/>
@@ -8516,7 +8510,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation>Ця опція встановлює позицію відображених на екрані субтитрів.</translation>
+        <translation>Цей параметр встановлює позицію показуваних на екрані субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
@@ -8582,7 +8576,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="392"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>Пароль для проксі. &lt;b&gt;Увага:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
+        <translation>Пароль для проксі. &lt;b&gt;Увага:&lt;/b&gt; пароль буде збережено як звичайний текст у файлі налаштувань.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="395"/>
@@ -8737,7 +8731,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Якщо увімкнено, буде використовуватися найшвидший метод для переміщення розділами, але може не працювати з деякими дисками.</translation>
+        <translation>Якщо ввімкнено, буде використовуватися найшвидший метод для переміщення розділами, але може не працювати з деякими дисками.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
@@ -8752,7 +8746,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Можливі значення:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: спроба використати найшвидший метод вибору звукової доріжки (може не працювати на деяких форматах).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: MPlayer буде перезапускатися при кожній зміні звукової доріжки.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer вирішить як вчинити відповідно до версії MPlayer.</translation>
+        <translation>Можливі значення:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: спроба використати найшвидший метод обрання звукової доріжки (може не працювати на деяких форматах).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: MPlayer буде перезапускатися при кожній зміні звукової доріжки.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer вирішить як вчинити відповідно до версії MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="387"/>
@@ -8762,7 +8756,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="388"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яти використовувати для прекешування файлу.</translation>
+        <translation>Цей параметр вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування файлу.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="391"/>
@@ -8772,7 +8766,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Ця опція вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування URL.</translation>
+        <translation>Цей параметр вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="395"/>
@@ -8782,7 +8776,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Ця опція вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування DVD.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Переміщення може не працювати правильно (включаючи перемикання розділів) при використанні кешу для DVD.</translation>
+        <translation>Цей параметр вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування DVD.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Переміщення може не працювати правильно (включаючи перемикання розділів) при використанні кешу для DVD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -8827,12 +8821,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація кадрів підтримується для декодування залежних кадрів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якости.</translation>
+        <translation>Цей параметр дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація кадрів підтримується для декодування залежних кадрів, це гірше впливає на якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше пришвидшення без видимого погіршення якости.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
-        <translation>Немає</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
@@ -8858,7 +8852,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
-        <translation>Доступні опції:</translation>
+        <translation>Доступні параметри:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
@@ -8873,27 +8867,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation>vdpau: вивід через vdpau та opengl відео виходи.</translation>
+        <translation>vdpau: вивід через vdpau та opengl виходи відео .</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation>vaapi: вивід через opengl та vaapi відео виходи. Лише для відеокарток від Intel.</translation>
+        <translation>vaapi: вивід через opengl і vaapi виходи відео. Лише для відеокарток від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation>vaapi-copy: копіює відео у системну пам&apos;ять. Лише для відеокарток від Intel.</translation>
+        <translation>vaapi-copy: копіює відео до системної пам&apos;яти. Лише для відеокарток від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation>dxva2-copy: копіює відео у системну пам&apos;ять. Експериментальна функція.</translation>
+        <translation>dxva2-copy: копіює відео до системної пам&apos;яти. Експериментальна функція.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
         <source>This option only works with mpv.</source>
-        <translation>Ця опція працює лише з MPV.</translation>
+        <translation>Цей параметр працює лише з MPV.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -8908,7 +8902,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Пропускати (завжди)&lt;/b&gt;: фільт петлі пропущений незалежно від роздільності відео</translation>
+        <translation>&lt;b&gt;Пропускати (завжди)&lt;/b&gt;: фільтр петлі пропущений незалежно від роздільности відео</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
@@ -8918,7 +8912,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation>Спробувати використовувати невільний CoreAVC кодек, якщо не вказані інші кодеки і обраний не VDPAU відео вихід.</translation>
+        <translation>Спробувати використовувати невільний CoreAVC кодек, якщо не вказані инші кодеки й обрано не VDPAU вихід відео.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="363"/>
@@ -8933,22 +8927,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation>Зазвичай ця опція дозволить кеш, коли це необхідно.</translation>
+        <translation>Зазвичай цей параметр дозволить кеш коли це необхідно.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="400"/>
         <source>Cache for audio CDs</source>
-        <translation>Кеш для аудіо КД</translation>
+        <translation>Кеш для авдіо КД</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прикешування аудіо КД.</translation>
+        <translation>Цей параметр вказує (у кілобайтах) скільки пам&apos;яти використовувати для прикешування авдіо КД.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Кеш для &amp;аудіо КД:</translation>
+        <translation>Кеш для &amp;авдіо КД:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="404"/>
@@ -8958,7 +8952,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування VCD.</translation>
+        <translation>Цей параметр вказує (у кілобайтах) скільки пам&apos;яти використовувати для прекешування VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
@@ -8983,12 +8977,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="360"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation>Використовувати CoreAVC, якщо не визначено жодного іншого кодеку</translation>
+        <translation>Використовувати CoreAVC, якщо не визначено жодного иншого кодеку</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation>&amp;Використовувати CoreAVC, якщо не визначено жодного іншого</translation>
+        <translation>&amp;Використовувати CoreAVC, якщо не визначено жодного иншого</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="559"/>
@@ -9011,7 +9005,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
         <source>None</source>
-        <translation>Немає</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="52"/>
@@ -9021,7 +9015,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="53"/>
         <source>Audio files</source>
-        <translation>звукофайли</translation>
+        <translation>Звукофайли</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="54"/>
@@ -9051,7 +9045,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="193"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation>Коли файл досягає кінця, наступний файл буде відтворюватися автоматично.</translation>
+        <translation>Коли файл досягає кінця, наступний файл буде відтворюватись автоматично.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="195"/>
@@ -9076,22 +9070,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation>Якщо ця опція позначена, вікно грайлиста можна закріпити в головному вікні. В іншому випадку грайлист буде окремим вікном.</translation>
+        <translation>Якщо цей параметр позначено, вікно грайлиста можна закріпити у головному вікні. В иншому випадку грайлист буде окремим вікном.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="230"/>
         <source>Misc</source>
-        <translation>Інше</translation>
+        <translation>Инше</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>Auto sort</source>
-        <translation>Автосортування</translation>
+        <translation>Автоґатункування</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="233"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation>Якщо ця опція включена перелік буде відсортований автоматично після додавання файлів.</translation>
+        <translation>Якщо цей параметр увімкнено перелік буде відґатунковано автоматично після додавання файлів.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
@@ -9126,27 +9120,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation>&lt;b&gt;Нічого&lt;/b&gt;: ніякі файли не будуть додані</translation>
+        <translation>&lt;b&gt;Нічого&lt;/b&gt;: ніякі файли не буде додано</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="208"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation>&lt;b&gt;Відеофайли&lt;/b&gt;: усі відеофайли, знайдені у теці, будуть додані</translation>
+        <translation>&lt;b&gt;Відеофайли&lt;/b&gt;: всі відеофайли, знайдені у теці, буде додано</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Аудіофайли&lt;/b&gt;: усі аудіофайли, знайдені у теці, будуть додані</translation>
+        <translation>&lt;b&gt;Авдіофайли&lt;/b&gt;: всі аудіофайли, знайдені у теці, буде додано</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Відео- та аудіофайли&lt;/b&gt;: усі відео- та аудіофайли, знайдені у теці, будуть додані</translation>
+        <translation>&lt;b&gt;Відео- та авдіофайли&lt;/b&gt;: всі відео- та авдіофайли, знайдені у теці, буде додано</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="211"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation>&lt;b&gt;Послідовні файли&lt;/b&gt;: послідовні файли (такі як video_1.avi, video_2.avi) будуть додані</translation>
+        <translation>&lt;b&gt;Послідовні файли&lt;/b&gt;: послідовні файли (такі як video_1.avi, video_2.avi) буде додано</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -9156,7 +9150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="185"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Якщо ця опція увімкнена, усі файли з переліку почнуть відтворюватися з початку, а не з позиції попереднього відтворення.</translation>
+        <translation>Якщо цей параметр увімкнено, всі файли з переліку почнуть відтворюватися з початку, а не з позиції попереднього відтворення.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
@@ -9181,12 +9175,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="214"/>
         <source>Add files in directories recursively</source>
-        <translation>Додати файли в теці рекурсивно</translation>
+        <translation>Додати файли до теки рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="215"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Виберіть цю опцію, якщо бажаєте, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
+        <translation>Оберіть цей параметр, якщо бажаєте, щоб додавання теки також додавало файли у підтеках рекурсивно. Інакше будуть додані лише файли в обраній теці.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
@@ -9236,7 +9230,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>Додати файли в теках &amp;рекурсивно</translation>
+        <translation>Додати файли до тек &amp;рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
@@ -9251,12 +9245,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
         <source>&amp;Misc</source>
-        <translation>&amp;Інше</translation>
+        <translation>&amp;Инше</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>A&amp;uto sort</source>
-        <translation>Автосо&amp;ртування</translation>
+        <translation>Автоґа&amp;тункування</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
@@ -9266,7 +9260,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="198"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation>&amp;Зберегти копію переліку програвання під час виходу</translation>
+        <translation>&amp;Зберегти копію грайлиста під час виходу</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
@@ -9333,7 +9327,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation>Усі субтитри, які містять назву фільму</translation>
+        <translation>Усі субтитри, що містять назву фільму</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -9393,7 +9387,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Якщо один чи більше субтитрів доступні, один з них буде обраний автоматично, як правило перший, хоча якщо один з них буде відповідати бажаній мові користувача, вона буде використана.</translation>
+        <translation>Якщо один чи більше субтитрів доступні, один з них буде вибрано автоматично, зазвичай перший, хоча якщо один з них буде відповідати бажаній мові користувача, її буде використано.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
@@ -9413,7 +9407,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation>Вкажіть мову, для якої Ви б хотіли застосовувати автовизначення кодування.</translation>
+        <translation>Вкажіть мову, для якої Ви б воліли застосовувати автовизначення кодування.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
@@ -9443,7 +9437,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Дана опція активує бібліотеку ASS, що дозволяє використовувати субтитри з різними кольорами, шрифтами...</translation>
+        <translation>Цей параметр активує бібліотеку ASS, яка дозволяє використовувати субтитри з різними кольорами, шрифтами...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
@@ -9453,12 +9447,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>Якщо ця опція активована, системні шрифти Windows будуть доступні для субтитрів. Але є незручність: повинен бути створений кеш шрифтів, це може зайняти деякий час.</translation>
+        <translation>Якщо цей параметр активовано, системні шрифти Windows будуть доступні для субтитрів. Але є незручність: повинен бути створений кеш шрифтів, це може потребувати часу.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation>Якщо ця опція активована, буде використано лише декілька шрифтів, що входять до складу SMPlayer, але це швидше.</translation>
+        <translation>Якщо цей параметр активовано, буде використано лише декілька шрифтів, які входять до складу SMPlayer, але це швидше.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
@@ -9473,7 +9467,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation>Якщо обрано, текст буде відображено &lt;b&gt;жирним&lt;/b&gt;.</translation>
+        <translation>Якщо вибрано, текст буде показано &lt;b&gt;жирним&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -9483,7 +9477,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation>Якщо обрано, текст буде відображено &lt;b&gt;нахилом&lt;/b&gt;.</translation>
+        <translation>Якщо вибрано, текст буде показано &lt;b&gt;нахилом&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
@@ -9533,7 +9527,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="504"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation>Визначає вирівнювання по вертикалі. Можливі значення: знизу, посередині, зверху.</translation>
+        <translation>Визначає вирівнювання по вертикалі. Можливі значення: знизу, посередині, згори.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
@@ -9648,12 +9642,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
-        <translation>Використовувати &amp;інший стиль</translation>
+        <translation>Використовувати &amp;инший стиль</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation>Наступна опція дозволяє вам визначити стиль, що буде використовуватися в нестилізованих субтитрах (srt, sub...).</translation>
+        <translation>Цей параметр дозволяє вам визначити стиль, який буде використовуватися в нестилізованих субтитрах (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9706,27 +9700,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>Якщо опція активована, буде здійснена спроба автоматично визначити кодування для вказаної мови. При помилці буде використано типове кодування. Опція потребує %1, скомпільованого з підтримкою ENCA.</translation>
+        <translation>Якщо параметр активовано, буде здійснено спробу автоматично визначити кодування для вказаної мови. При помилці буде використано типове кодування. Параметр потребує %1, скомпільованого з підтримкою ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Зазвичай вимкнення цієї опції не потрібне. Вимикайте її лише якщо %1 зібрано без підтримки freetype. &lt;b&gt;Вимкнення цієї опції може призвести до непрацездатности субтитрів!&lt;/b&gt;</translation>
+        <translation>Зазвичай вимкнення цього параметру не потрібне. Вимикайте його лише якщо %1 зібрано без підтримки freetype. &lt;b&gt;Вимкнення цього параметру може призвести до непрацездатности субтитрів!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation>Якщо стиль обрамлення встановлений як &lt;i&gt;обрис&lt;/i&gt;, ця опція визначає ширину обрамлення навкруги тексту в пікселях.</translation>
+        <translation>Якщо стиль обрамлення встановлено як &lt;i&gt;обрис&lt;/i&gt;, цей параметр визначає ширину обрамлення навкруги тексту в пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation>Якщо стиль обрамлення встановлений як &lt;i&gt;обрис&lt;/i&gt;, ця опція визначає глибину тіні, що падає за текстом у пікселях.</translation>
+        <translation>Якщо стиль обрамлення встановлений як &lt;i&gt;обрис&lt;/i&gt;, цей параметр визначає глибину тіні, що падає за текстом у пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation>Ця опція НЕ змінює розмір субтитрів в поточному відео. Щоб це зробити, використовуйте опції &lt;i&gt;Розмір+&lt;/i&gt; та &lt;i&gt;Розмір-&lt;/i&gt; в меню субтитрів.</translation>
+        <translation>Цей параметр НЕ змінює розмір субтитрів у поточному відео. Щоб це зробити, використовуйте параметри &lt;i&gt;Розмір+&lt;/i&gt; і &lt;i&gt;Розмір-&lt;/i&gt; у меню субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9736,7 +9730,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Ця опція визначає типовий масштаб шрифту для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
+        <translation>Цей параметр визначає усталений масштаб шрифту для субтитрів SSA/ASS, який буде застосовано для нових відкритих файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
@@ -9751,7 +9745,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
         <source>&amp;Font and colors</source>
-        <translation>&amp;Шрифт та кольори</translation>
+        <translation>&amp;Шрифт і кольори</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
@@ -9776,7 +9770,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>Якщо ця опція увімкнена, субтитри буде показано у знімках екрану. &lt;b&gt;Примітка:&lt;/b&gt; іноді це може створити незручності.</translation>
+        <translation>Якщо цей параметр увімкнено, субтитри буде показано у знятках екрану. &lt;b&gt;Нотатка:&lt;/b&gt; іноді це може створити незручності.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="349"/>
@@ -9786,7 +9780,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="350"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>Тут ви можете увести ваш налаштований стиль SSA/ASS.</translation>
+        <translation>Тут ви можете ввести ваш налаштований стиль SSA/ASS.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="351"/>
@@ -9806,7 +9800,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation>Цей колір буде використаний для тіні субитирів.</translation>
+        <translation>Цей колір буде використано для тіні субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
@@ -9821,7 +9815,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Якщо ця опція увімкнена, стиль визначений нижче буде застосований також до ass файлів.</translation>
+        <translation>Якщо цей параметр увімкнено, стиль визначений нижче буде застосовано також до ass файлів.</translation>
     </message>
 </context>
 <context>
@@ -9829,12 +9823,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation>ТБ та радіо</translation>
+        <translation>ТБ і радіо</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation>Немає</translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
@@ -9869,7 +9863,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Оберіть фільтр деінтерлейсингу, який Ви волієте використати для каналів ТБ.</translation>
+        <translation>Оберіть фільтр деінтерлейсингу, що Ви волієте використати для каналів ТБ.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -9879,7 +9873,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation>&amp;ТБ та радіо</translation>
+        <translation>&amp;ТБ і радіо</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
@@ -9889,7 +9883,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer шукатиме нові канали ТБ та радіо у ~/.mplayer/channels.conf.ter або у ~/.mplayer/channels.conf.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer шукатиме нові канали ТБ і радіо у ~/.mplayer/channels.conf.ter або у ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -9912,7 +9906,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation>Період перевірки (в &amp;днях)</translation>
+        <translation>Період перевірки (у &amp;днях)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
@@ -9932,7 +9926,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer буде перевіряти наявність оновлень і відображати повідомлення, якщо доступна нова версія.</translation>
+        <translation>Якщо цей параметр увімкнено, SMPlayer буде перевіряти наявність оновлень і показувати повідомлення, якщо доступна нова версія.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9952,7 +9946,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation>Якщо ця опція увімкнена, після оновлення буде відкрито інформаційну сторінку про SMPlayer.</translation>
+        <translation>Якщо цей параметр увімкнено, після оновлення буде відкрито інформаційну сторінку про SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -9960,7 +9954,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preferencesdialog.cpp" line="171"/>
         <source>SMPlayer - Help</source>
-        <translation>SMPlayer - Допомога</translation>
+        <translation>SMPlayer — Допомога</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
@@ -9985,7 +9979,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation>SMPlayer - Налаштування</translation>
+        <translation>SMPlayer — Налаштування</translation>
     </message>
 </context>
 <context>
@@ -10008,12 +10002,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="135"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>спробувати з&apos;єднатися з віддаленою програмою та передати їй вказану дію. Наприклад: -send-action pause. Інша частина опцій (чи іншого) буде знухтувана і програма закриється. Буде повернено 0 при вдалому виконанні чи -1 при помилці.</translation>
+        <translation>спробувати з&apos;єднатися з віддаленою програмою та передати їй вказану дію. Наприклад: -send-action pause. Иншу частину параметрів (чи иншого) буде знухтувано і програма закриється. Буде повернено 0 при вдалому виконанні чи -1 при помилці.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list - перелік дій, розділених пробілами. Дії будуть виконані лише після завантаження файлу (чи іншого) у порядку, вказаному Вами. Для перевірки дії Ви можете передати переметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Лапки потрібні, якщо Ви передаєте більше ніж один параметр.</translation>
+        <translation>action_list - перелік дій, розділених пробілами. Дії буде виконано лише після завантаження файлу (чи иншого) у порядку вказаному Вами. Для перевірки дії Ви можете передати пераметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Лапки потрібні, якщо Ви передаєте більше ніж один параметр.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="100"/>
@@ -10024,17 +10018,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="186"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>якщо вже працює інший процес, медія будуть додані до переліку відтворення. Якщо не буде ніякого іншого процесу, ця опція ігнорується та файли відкриються в новому примірнику.</translation>
+        <translation>якщо вже працює инший процес, медія буде додано до грайлиста. Якщо не буде ніякого иншого процесу, цей параметр нехтується та файли відкриються в новому примірнику.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="153"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>не закривати головне вікно після закінчення відтворення файлу чи переліку.</translation>
+        <translation>не закривати головне вікно після закінчення відтворення файлу чи грайлиста.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>відтворювати відео на повний екран.</translation>
+        <translation>відтворювати відео повноекранно.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
@@ -10096,21 +10090,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="125"/>
         <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="128"/>
         <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="132"/>
@@ -10168,12 +10154,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>sets the stay on top option to always.</source>
-        <translation>встановлює опцію завжди поверх усіх вікон.</translation>
+        <translation>встановлює параметр &quot;Завжди поверх усіх вікон&quot;.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>sets the stay on top option to never.</source>
-        <translation>вимикає опцію поверх усіх вікон.</translation>
+        <translation>вимикає параметр &quot;Поверх усіх вікон&quot;.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
@@ -10183,7 +10169,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation>визначає координати, де буде відображене головне вікно.</translation>
+        <translation>визначає координати, де буде показано головне вікно.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
@@ -10199,7 +10185,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&apos;елемент&apos; – будь-який тип файлу, який може відкрити SMPlayer. Це може бути файл, DVD (напр. dvd://1), інтернет-потік (напр. mms://....) чи локальний перелік у форматі m3u чи pls.</translation>
+        <translation>&apos;елемент&apos; – будь-який тип файлу, що може відкрити SMPlayer. Це може бути файл, DVD (напр. dvd://1), інтернет-потік (напр. mms://....) чи локальний грайлист у форматі m3u чи pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10210,12 +10196,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation>%1 (ревізія %2) %3</translation>
+        <translation>%1 (перевірка %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation>%1 (ревізія %2)</translation>
+        <translation>%1 (перевірка %2)</translation>
     </message>
 </context>
 <context>
@@ -10284,7 +10270,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation>Натисніть сполучення клавіш, яке ви бажаєте задати</translation>
+        <translation>Натисніть сполучення клавішів, яке ви бажаєте задати</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -10304,7 +10290,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
         <source>Capture keystrokes</source>
-        <translation>Сполучення клавіш захоплення</translation>
+        <translation>Сполучення клавішів захоплення</translation>
     </message>
 </context>
 <context>
@@ -10350,12 +10336,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Редагувати головну &amp;панель</translation>
+        <translation>Змінити головну &amp;панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>Р&amp;едагувати виринну панель</translation>
+        <translation>З&amp;мінити виринну панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -10365,7 +10351,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Scroll title</source>
-        <translation>&amp;Прокручувати назву</translation>
+        <translation>&amp;Гортати назву</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>
@@ -10493,12 +10479,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation>Черезрядкова стереопара (горішній рядок для лівого ока, наступний - для правого)</translation>
+        <translation>Черезрядкова стереопара (горішній рядок для лівого ока, наступний — для правого)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation>Черезрядкова стереопара (горішній рядок для правого ока, наступний - для лівого)</translation>
+        <translation>Черезрядкова стереопара (горішній рядок для правого ока, наступний — для лівого)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
@@ -10526,22 +10512,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation>Вибір субтитрів</translation>
+        <translation>Обрання субтитрів</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Цей архів містить більш ніж один файл субтитрів. Будь ласка, оберіть один, який волієте витягти.</translation>
+        <translation>Цей архів містить більш ніж один файл субтитрів. Будь ласка, виберіть один, який волієте витягти.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation>Обрати усі</translation>
+        <translation>Обрати всі</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation>Не обирати жодного</translation>
+        <translation>Не вибирати жодного</translation>
     </message>
 </context>
 <context>
@@ -10549,7 +10535,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../tvlist.cpp" line="112"/>
         <source>Channel editor</source>
-        <translation>Редактор каналів</translation>
+        <translation>Редагувач каналів</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="113"/>
@@ -10595,12 +10581,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation>Вн&amp;из</translation>
+        <translation>До&amp;низу</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation>В&amp;гору</translation>
+        <translation>До&amp;гори</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
@@ -10630,7 +10616,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
         <source>Display time</source>
-        <translation>Відображення часу</translation>
+        <translation>Показ часу</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
@@ -10723,7 +10709,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation>Вітаємо! У вас остання версія SMPlayer.</translation>
+        <translation>Вітаємо! Ви маєте останню версію SMPlayer.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
@@ -10733,7 +10719,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation>Виникла помилка при отриманні інформації про останню доступну версію.</translation>
+        <translation>Виникла помилка при отриманні відомостей про останню доступну версію.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
@@ -10827,7 +10813,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Video preview</source>
-        <translation>Передогляд відео</translation>
+        <translation>Передпрогляд відео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="169"/>
@@ -10897,7 +10883,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="214"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation>Трапилась така помилка під час створення мініатюр:</translation>
+        <translation>Трапилася така помилка під час створення мініатюр:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="240"/>
@@ -10932,7 +10918,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="557"/>
         <source>No filename</source>
-        <translation>Немає назви файлу</translation>
+        <translation>Нема назви файлу</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="651"/>
@@ -10957,7 +10943,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="497"/>
         <source>No info</source>
-        <translation>Немає відомостей</translation>
+        <translation>Нема відомостей</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="500"/>
@@ -10978,12 +10964,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Audio bitrate: %1</source>
-        <translation>Бітрейт аудіо: %1</translation>
+        <translation>Бітрейт авдіо: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Audio rate: %1</source>
-        <translation>Частота аудіо: %1</translation>
+        <translation>Частота авдіо: %1</translation>
     </message>
 </context>
 <context>
@@ -11036,7 +11022,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation>Передогляд буде створено для відео, яке ви вкажете тут.</translation>
+        <translation>Передпрогляд буде створено для відео, яке ви вкажете тут.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
@@ -11047,37 +11033,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation>Ця опція визначає кількість стовпців таблиці.</translation>
+        <translation>Цей параметр визначає кількість стовпців таблиці.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation>Ця опція визначає кількість рядків таблиці.</translation>
+        <translation>Цей параметр визначає кількість рядків таблиці.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation>Якщо ви оберете цю опцію, час програвання буде відображений знизу кожної мініатюри.</translation>
+        <translation>Якщо ви виберете цей параметр, час програвання буде показано знизу кожної мініатюри.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>Якщо співвідношення сторін відео невірне, Ви тут можете визначити інше.</translation>
+        <translation>Якщо співвідношення сторін відео невірне, Ви тут можете визначити инше.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку відео. Ця опція дозволяє визначити скільки секунд буде пропущено.</translation>
+        <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку відео. Цей параметр дозволяє визначити скільки секунд буде пропущено.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation>Ця опція визначає найбільшу ширину у пікселях, що будуть мати створені мініатюри.</translation>
+        <translation>Цей параметр визначає найбільшу ширину в пікселях, яку будуть мати створені мініатюри.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Деякі кадри будуть видобуті з відео у порядку створення передогляду. Тут Ви можете обрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
+        <translation>Деякі кадри буде видобуто з відео у порядку створення передпрогляду. Тут Ви можете вибрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
@@ -11120,7 +11106,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>На увесь екран увімк/вимк</translation>
+        <translation>На весь екран увімк/вимк</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>

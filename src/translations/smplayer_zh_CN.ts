@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1256,7 +1254,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2105"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>旋转 1&amp;80 度</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
@@ -2019,7 +2017,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="393"/>
         <source>Information about connected &amp;screens</source>
-        <translation>已连接的各个屏幕的信息(&amp;S)</translation>
+        <translation>已连接屏幕的信息(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="396"/>
@@ -2234,7 +2232,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation>无法保存 1%。</translation>
+        <translation>无法保存 %1。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
@@ -3103,9 +3101,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="783"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="843"/>
@@ -3213,7 +3209,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="716"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -5591,7 +5587,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation>通知 1% 崩溃(&amp;E)</translation>
+        <translation>通知 %1 崩溃(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5641,7 +5637,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>启用这个选项，当 1% 崩溃时会弹窗提示，否则会被静默忽略</translation>
+        <translation>启用这个选项，当 %1 崩溃时会弹窗提示，否则会被静默忽略</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
@@ -8841,7 +8837,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>将 1% 进程的优先级设为指定的 Windows 下可用的预定义优先级。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;使用“实时”优先级可能导致系统死锁（电脑死机）。</translation>
+        <translation>将 %1 进程的优先级设为指定的 Windows 下可用的预定义优先级。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;使用“实时”优先级可能导致系统死锁（电脑死机）。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -10094,17 +10090,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="125"/>
         <location filename="../helper.cpp" line="131"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="128"/>
         <location filename="../helper.cpp" line="130"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="132"/>
