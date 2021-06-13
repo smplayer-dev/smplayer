@@ -21,6 +21,7 @@
 
 #include <QEvent>
 #include <QFileOpenEvent>
+#include <QTimer>
 #include <QDebug>
 
 #ifdef Q_OS_WIN
@@ -54,12 +55,20 @@ bool MyApplication::event(QEvent *e) {
 	if (e->type() == QEvent::FileOpen) {
 		QFileOpenEvent * open_event = static_cast<QFileOpenEvent *>(e);
 		qDebug() << "MyApplication::event: open file:" << open_event->file();
+		files_to_open << open_event->file();
+		QTimer::singleShot(1000, this, SLOT(sendFilesToOpen()));
+		return true;
 	}
 #ifdef SINGLE_INSTANCE
 	return QtSingleApplication::event(e);
 #else
 	return QApplication::event(e);
 #endif
+}
+
+void MyApplication::sendFilesToOpen() {
+	emit openFiles(files_to_open);
+	files_to_open.clear();
 }
 
 #ifdef Q_OS_WIN

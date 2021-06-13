@@ -190,8 +190,9 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 	connect(gui, SIGNAL(guiChanged(QString)), this, SLOT(changeGUI(QString)));
 #endif
 
-#if SINGLE_INSTANCE
 	MyApplication * app = MyApplication::instance();
+	connect(app, SIGNAL(openFiles(QStringList)), gui, SLOT(openFiles(QStringList)));
+#if SINGLE_INSTANCE
 	connect(app, SIGNAL(messageReceived(const QString&)),
             gui, SLOT(handleMessageFromOtherInstances(const QString&)));
 	app->setActivationWindow(gui);

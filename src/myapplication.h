@@ -45,15 +45,18 @@ public:
 	virtual void commitData(QSessionManager & manager);
 	#endif
 
-	#ifdef SINGLE_INSTANCE
+	//#ifdef SINGLE_INSTANCE
 	inline static MyApplication * instance() {
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
-	#endif
+	//#endif
 
 	#ifdef Q_OS_WIN
 	QStringList winArguments();
 	#endif
+
+signals:
+	void openFiles(QStringList);
 
 protected:
 	virtual bool event(QEvent *e);
@@ -62,6 +65,12 @@ protected:
 protected slots:
 	void commitData(QSessionManager & manager);
 #endif
+
+protected slots:
+	void sendFilesToOpen();
+
+protected:
+	QStringList files_to_open;
 };
 
 #endif
