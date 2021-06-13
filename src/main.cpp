@@ -81,7 +81,7 @@ int main( int argc, char ** argv )
 #if QT_VERSION >= 0x040400
 	// Enable icons in menus
 	QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, false);
-	QCoreApplication::setAttribute(Qt::AA_DontUseNativeMenuBar, true);
+	//QCoreApplication::setAttribute(Qt::AA_DontUseNativeMenuBar, true);
 #endif
 
 	// Sets the config path
