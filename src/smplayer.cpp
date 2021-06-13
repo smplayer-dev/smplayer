@@ -191,7 +191,9 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 #endif
 
 	MyApplication * app = MyApplication::instance();
+#ifdef Q_OS_MACX
 	connect(app, SIGNAL(openFiles(QStringList)), gui, SLOT(openFiles(QStringList)));
+#endif
 #if SINGLE_INSTANCE
 	connect(app, SIGNAL(messageReceived(const QString&)),
             gui, SLOT(handleMessageFromOtherInstances(const QString&)));

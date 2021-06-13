@@ -55,22 +55,22 @@ public:
 	QStringList winArguments();
 	#endif
 
-signals:
-	void openFiles(QStringList);
-
-protected:
-	virtual bool event(QEvent *e);
-
 #if QT_VERSION >= 0x050000
 protected slots:
 	void commitData(QSessionManager & manager);
 #endif
 
+#ifdef Q_OS_MACX
+signals:
+	void openFiles(QStringList);
+
 protected slots:
 	void sendFilesToOpen();
 
 protected:
+	virtual bool event(QEvent *e);
 	QStringList files_to_open;
+#endif
 };
 
 #endif

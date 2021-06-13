@@ -49,6 +49,7 @@ void MyApplication::commitData(QSessionManager & manager) {
 	manager.release();
 }
 
+#ifdef Q_OS_MACX
 bool MyApplication::event(QEvent *e) {
 	//qDebug() << "MyApplication::event:" << e;
 
@@ -59,17 +60,18 @@ bool MyApplication::event(QEvent *e) {
 		QTimer::singleShot(1000, this, SLOT(sendFilesToOpen()));
 		return true;
 	}
-#ifdef SINGLE_INSTANCE
+	#ifdef SINGLE_INSTANCE
 	return QtSingleApplication::event(e);
-#else
+	#else
 	return QApplication::event(e);
-#endif
+	#endif
 }
 
 void MyApplication::sendFilesToOpen() {
 	emit openFiles(files_to_open);
 	files_to_open.clear();
 }
+#endif
 
 #ifdef Q_OS_WIN
 // TODO: the arguments for Qt (like -style) shouldn't be returned
