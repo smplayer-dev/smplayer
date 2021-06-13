@@ -57,7 +57,7 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	fmt.setSwapBehavior(QSurfaceFormat::DoubleBuffer);
 	//fmt.setColorSpace(QSurfaceFormat::sRGBColorSpace);
 	setFormat(fmt);
-	qDebug() << "VideoLayerRender::VideoLayerRender: format:" << format();
+	//qDebug() << "VideoLayerRender::VideoLayerRender: format:" << format();
 
 	#ifdef USE_YUV
 	supported_formats << I420;
