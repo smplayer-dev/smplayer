@@ -80,6 +80,8 @@ void VideoLayerShm::render_slot() {
 	static uint32_t last_frame = 0;
 	//qDebug("VideoLayerShm::render_slot");
 
+	if (header == 0) return;
+
 	if (header->frame_count == last_frame) return;
 	last_frame = header->frame_count;
 
