@@ -21,10 +21,8 @@ void print_key(const QString & key, const QString & value, int spaces = 4) {
 	print_stringlist(QStringList() << QString("<key>%1</key>").arg(key) << QString("<string>%1</string>").arg(value), spaces);
 }
 
-void print_list(const QString & name, const QStringList & list, const QString & key = "CFBundleDocumentTypes", int spaces = 4) {
+void print_list(const QString & name, const QStringList & list, int spaces = 4) {
 	print_stringlist(QStringList()
-		<< QString("<key>%1</key>").arg(key)
-		<< "<array>"
 		<< "<dict>", spaces);
 
 	print_stringlist(QStringList()
@@ -47,7 +45,6 @@ void print_list(const QString & name, const QStringList & list, const QString & 
 
 	print_string("</array>", spaces + 4);
 	print_string("</dict>", spaces);
-	print_string("</array>", spaces);
 }
 
 int main( int argc, char ** argv )
@@ -61,9 +58,13 @@ int main( int argc, char ** argv )
            "<dict>\n");
 	print_key("CFBundleDevelopmentRegion", "English");
 
+	printf("    <key>CFBundleDocumentTypes</key>\n    <array>\n");
+	
 	Extensions e;
 	print_list("Video file", e.video());
 	print_list("Audio file", e.audio());
+
+	printf("    </array>\n");
 
 	print_key("CFBundleExecutable", "smplayer");
 	print_key("CFBundleHomepage", "https://www.smplayer.info");
