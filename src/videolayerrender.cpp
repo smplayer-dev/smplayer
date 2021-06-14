@@ -376,7 +376,11 @@ void VideoLayerRender::paintYUV() {
 	glActiveTexture(GL_TEXTURE1);
 	glBindTexture(GL_TEXTURE1, idU);
 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + image_width * image_height);
+	uint32_t plane_size[2];
+	plane_size[0] = image_width * image_height;
+	plane_size[1] = (image_width * image_height) / 2;
+
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + plane_size[0]);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
@@ -385,7 +389,7 @@ void VideoLayerRender::paintYUV() {
 	glActiveTexture(GL_TEXTURE2);
 	glBindTexture(GL_TEXTURE_2D, idV);
 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + image_width * image_height * 5 /4);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + plane_size[0] + plane_size[1]);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
@@ -404,9 +408,9 @@ extern "C" {
 #include <libswscale/swscale.h>
 }
 void VideoLayerRender::YUV420PtoRGB24(unsigned char* yuv_src, unsigned char* rgb_dst, int w, int h) {
-	//qDebug("VideoLayerRender::YUV420PtoRGB24: %p %p", yuv_src, rgb_dst);
+	//qDebug("VideoLayerRender::YUV420PtoRGB24: %d %d, %p %p", w, h, yuv_src, rgb_dst);
 
-	struct SwsContext *sws_ctx = NULL;
+	struct SwsContext * sws_ctx = NULL;
 	sws_ctx = sws_getContext(w, h, AV_PIX_FMT_YUV420P, w, h, AV_PIX_FMT_RGB24, SWS_BILINEAR, NULL, NULL, NULL);
 
 	uint8_t * rgb24[1] = { rgb_dst };
@@ -415,7 +419,7 @@ void VideoLayerRender::YUV420PtoRGB24(unsigned char* yuv_src, unsigned char* rgb
 	uint8_t * yuv[3];
 	yuv[0] = { yuv_src };
 	yuv[1] = { yuv_src + w * h };
-	yuv[2] = { yuv_src + w * h *5 / 4 };
+	yuv[2] = { yuv_src + (w * h) + ((w * h) / 2) };
 
 	int yuv_stride[3];
 	yuv_stride[0] = { w };
