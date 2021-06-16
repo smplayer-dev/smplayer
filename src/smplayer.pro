@@ -146,6 +146,7 @@ macx {
 	DEFINES -= AUTO_SHUTDOWN_PC
 	DEFINES -= SINGLE_INSTANCE
 	DEFINES -= MPRIS2
+	DEFINES -= MPV_SUPPORT
 	DEFINES += USE_SHM
 	DEFINES += USE_GL_WINDOW
 	message("Some features are disabled on macx.")
