@@ -29,6 +29,9 @@
 
 VideoLayerCV::VideoLayerCV(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayerRender(parent, f)
+	, shm_fd(0)
+	, image_buffer(0)
+	, buffer_size(0)
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 	mconnection = new MConnection(this, buffer_name);
@@ -81,7 +84,9 @@ void VideoLayerCV::init_slot(int width, int height, int bytes, int aspect) {
 
 void VideoLayerCV::render_slot() {
 	//qDebug("VideoLayerCV::render_slot");
-	render();
+	if (image_buffer) {
+		render();
+	}
 }
 
 void VideoLayerCV::stop_slot() {
@@ -99,6 +104,7 @@ void VideoLayerCV::stop_connection() {
 	if (munmap(image_buffer, buffer_size) == -1) {
 		qDebug("VideoLayerCV::stop_connection: munmap failed");
 	}
+	image_buffer = 0;
 }
 
 #include "moc_videolayercv.cpp"
