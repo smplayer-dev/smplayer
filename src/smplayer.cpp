@@ -603,7 +603,7 @@ void SMPlayer::showInfo() {
 	}
 #endif
 	QString s = QObject::tr("This is SMPlayer v. %1 running on %2")
-            .arg(Version::printable())
+           .arg(Version::printable())
 #ifdef Q_OS_LINUX
            .arg("Linux")
 #else
@@ -613,7 +613,11 @@ void SMPlayer::showInfo() {
 #ifdef Q_OS_OS2
            .arg("eCS (OS/2)")
 #else
-		   .arg("Other OS")
+#ifdef Q_OS_MACX
+           .arg("Mac OS")
+#else
+           .arg("Another OS")
+#endif
 #endif
 #endif
 #endif
