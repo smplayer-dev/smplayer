@@ -57,7 +57,7 @@ bool MyApplication::event(QEvent *e) {
 		QFileOpenEvent * open_event = static_cast<QFileOpenEvent *>(e);
 		qDebug() << "MyApplication::event: open file:" << open_event->file();
 		files_to_open << open_event->file();
-		QTimer::singleShot(1000, this, SLOT(sendFilesToOpen()));
+		QTimer::singleShot(100, this, SLOT(sendFilesToOpen()));
 		return true;
 	}
 	#ifdef SINGLE_INSTANCE
