@@ -145,8 +145,9 @@ macx {
 	DEFINES -= SCREENSAVER_OFF
 	DEFINES -= AUTO_SHUTDOWN_PC
 	DEFINES -= SINGLE_INSTANCE
-	#DEFINES += USE_SHM
-	#DEFINES += USE_GL_WINDOW
+	DEFINES -= MPRIS2
+	DEFINES += USE_SHM
+	DEFINES += USE_GL_WINDOW
 	message("Some features are disabled on macx.")
 }
 
@@ -670,7 +671,7 @@ os2 {
 }
 
 mac {
-	DEFINES += USE_COREVIDEO_BUFFER
+        #DEFINES += USE_COREVIDEO_BUFFER
 	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 		DEFINES += USE_GL_WINDOW
 		HEADERS += videolayerrender.h videolayercv.h mconnection.h
