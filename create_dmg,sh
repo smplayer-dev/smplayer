@@ -1,0 +1,15 @@
+#! /bin/sh
+
+rm package/SMPlayer.dmg
+
+create-dmg \
+  --volname "SMPlayer" \
+  --background "Mac/installer_background.png" \
+  --window-pos 200 120 \
+  --window-size 600 400 \
+  --icon-size 100 \
+  --icon "SMPlayer.app" 128 190 \
+  --hide-extension "SMPlayer.app" \
+  --app-drop-link 472 185 \
+  "package/SMPlayer.dmg" \
+  "package/SMPlayer.app/"
