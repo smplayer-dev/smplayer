@@ -609,6 +609,34 @@ contains( DEFINES, USE_SHM ) {
 	}
 }
 
+#DEFINES += USE_COREVIDEO_BUFFER
+contains( DEFINES, USE_COREVIDEO_BUFFER ) {
+	#DEFINES += USE_GL_WINDOW
+
+	HEADERS += videolayercv.h mconnection.h
+	SOURCES += videolayercv.cpp
+	OBJECTIVE_SOURCES += mconnection.mm
+
+	HEADERS *= videolayerrender.h
+	SOURCES *= videolayerrender.cpp
+
+	LIBS += -framework Cocoa
+
+	contains( DEFINES, USE_GL_WINDOW ) {
+		QT += opengl
+		#LIBS += -framework QuartzCore
+	} else {
+		INCLUDEPATH += /usr/local/Cellar/ffmpeg/4.4_2/include/
+		LIBPATH += /usr/local/Cellar/ffmpeg/4.4_2/lib/
+		LIBS += -lswscale
+	}
+}
+
+contains( DEFINES, USE_GL_WINDOW ) {
+	HEADERS += renderer.h rendererrgb.h rendereryuv.h
+	SOURCES += rendererrgb.cpp rendereryuv.cpp
+}
+
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
@@ -673,36 +701,7 @@ os2 {
 }
 
 mac {
-	#DEFINES += USE_COREVIDEO_BUFFER
-	contains( DEFINES, USE_COREVIDEO_BUFFER ) {
-		#DEFINES += USE_GL_WINDOW
-
-		HEADERS += videolayercv.h mconnection.h
-		SOURCES += videolayercv.cpp
-		OBJECTIVE_SOURCES += mconnection.mm
-
-		!contains( DEFINES, USE_SHM ) {
-			HEADERS += videolayerrender.h
-			SOURCES += videolayerrender.cpp
-		}
-
-		LIBS += -framework Cocoa
-
-		contains( DEFINES, USE_GL_WINDOW ) {
-			QT += opengl
-			#LIBS += -framework QuartzCore
-		} else {
-			INCLUDEPATH += /usr/local/Cellar/ffmpeg/4.4_2/include/
-			LIBPATH += /usr/local/Cellar/ffmpeg/4.4_2/lib/
-			LIBS += -lswscale
-		}
-	}
 	ICON = smplayer.icns
-}
-
-contains( DEFINES, USE_GL_WINDOW ) {
-	HEADERS += renderer.h rendererrgb.h rendereryuv.h
-	SOURCES += rendererrgb.cpp rendereryuv.cpp
 }
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
