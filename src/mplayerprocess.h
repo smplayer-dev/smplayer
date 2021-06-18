@@ -133,10 +133,6 @@ public:
 	void enableOSDInCommands(bool) {};
 	bool isOSDInCommandsEnabled() { return true; };
 
-#ifdef USE_COREVIDEO_BUFFER
-	QString buffer_name;
-#endif
-
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);

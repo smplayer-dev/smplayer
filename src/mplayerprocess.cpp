@@ -61,10 +61,6 @@ MplayerProcess::MplayerProcess(QObject * parent)
              this, SLOT(gotError(QProcess::ProcessError)) );
 
 	initializeOptionVars();
-
-#ifdef USE_COREVIDEO_BUFFER
-	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
-#endif
 }
 
 MplayerProcess::~MplayerProcess() {

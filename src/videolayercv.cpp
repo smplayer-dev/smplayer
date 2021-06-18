@@ -42,6 +42,7 @@ VideoLayerCV::VideoLayerCV(QWidget* parent, Qt::WindowFlags f)
 }
 
 VideoLayerCV::~VideoLayerCV() {
+	delete mconnection;
 }
 
 void VideoLayerCV::playingStopped() {
