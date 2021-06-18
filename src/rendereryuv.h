@@ -16,28 +16,31 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef RENDERERRGB_H
-#define RENDERERRGB_H
+#ifndef RENDERERYUV_H
+#define RENDERERYUV_H
 
 #include "renderer.h"
-#include <QMap>
+#include <QOpenGLBuffer>
 
-class RendererRGB : public Renderer
+class QOpenGLShaderProgram;
+class QOpenGLTexture;
+
+class RendererYUV : public Renderer
 {
-	Q_OBJECT
-
 public:
-	RendererRGB(QObject * parent = 0);
-	~RendererRGB();
+	RendererYUV(QObject * parent);
+	~RendererYUV();
 
 	virtual void initializeGL(int window_width, int window_height);
-	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer);
+	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * buffer);
 	virtual void resizeGL(int w, int h);
 
 protected:
-	GLuint textureRGB;
-	typedef struct Gformat { GLint internal_format; GLenum format; GLenum type; } Gformat;
-	QMap<uint32_t, Gformat> format_to_gl;
+	QOpenGLShaderProgram * program;
+	QOpenGLBuffer vbo;
+	GLuint textureUniformY, textureUniformU, textureUniformV;
+	QOpenGLTexture * textureY = nullptr, * textureU = nullptr, * textureV = nullptr;
+	GLuint idY,idU,idV;
 };
 
 #endif

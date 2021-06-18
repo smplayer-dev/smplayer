@@ -23,19 +23,14 @@
 #include <QMap>
 #include <stdint.h>
 
-//#define USE_YUV
+#define USE_YUV
 #define USE_RGB
 
 #ifdef USE_GL_WINDOW
-class RendererRGB;
 #include <QOpenGLFunctions>
 
-#ifdef USE_YUV
-#include <QOpenGLBuffer>
-class QOpenGLShaderProgram;
-class QOpenGLTexture;
-#endif // USE_YUV
-
+class RendererYUV;
+class RendererRGB;
 #endif // USE_GL_WINDOW
 
 class QTimer;
@@ -89,16 +84,8 @@ protected:
 	virtual void resizeGL(int w, int h);
 
 	#ifdef USE_YUV
-	void initializeYUV();
-	void paintYUV();
-
-	QOpenGLShaderProgram *program;
-	QOpenGLBuffer vbo;
-	GLuint textureUniformY, textureUniformU, textureUniformV;
-	QOpenGLTexture *textureY = nullptr,*textureU = nullptr,*textureV = nullptr;
-	GLuint idY,idU,idV;
+	RendererYUV * renderer_yuv;
 	#endif
-
 	#ifdef USE_RGB
 	RendererRGB * renderer_rgb;
 	#endif

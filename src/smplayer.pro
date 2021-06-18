@@ -701,8 +701,8 @@ mac {
 }
 
 contains( DEFINES, USE_GL_WINDOW ) {
-	HEADERS += renderer.h rendererrgb.h
-	SOURCES += rendererrgb.cpp
+	HEADERS += renderer.h rendererrgb.h rendereryuv.h
+	SOURCES += rendererrgb.cpp rendereryuv.cpp
 }
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \

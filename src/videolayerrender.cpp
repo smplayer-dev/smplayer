@@ -28,17 +28,15 @@
 #include <stdint.h>
 
 #ifdef USE_GL_WINDOW
-#include "rendererrgb.h"
-
 #include <QSurfaceFormat>
 
 #ifdef USE_YUV
-#include <QOpenGLShaderProgram>
-#include <QOpenGLTexture>
-#define VERTEXIN 0
-#define TEXTUREIN 1
-#endif // USE_YUV
+#include "rendereryuv.h"
+#endif
 
+#ifdef USE_RGB
+#include "rendererrgb.h"
+#endif
 #endif // USE_GL_WINDOW
 
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
@@ -63,10 +61,11 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 
 	#ifdef USE_YUV
 	supported_formats << I420;
+	renderer_yuv = new RendererYUV(this);
 	#endif
 	#ifdef USE_RGB
 	supported_formats << RGB24 << RGB16;
-	renderer_rgb = new RendererRGB();
+	renderer_rgb = new RendererRGB(this);
 	#endif
 #else
 	supported_formats << RGB24 << RGB16;
@@ -79,6 +78,9 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 }
 
 VideoLayerRender::~VideoLayerRender() {
+#ifdef USE_YUV
+	delete renderer_yuv;
+#endif
 #ifdef USE_RGB
 	delete renderer_rgb;
 #endif
@@ -181,12 +183,11 @@ void VideoLayerRender::paintGL() {
 	if (image_buffer && playing && is_vo_to_render) {
 		#ifdef USE_YUV
 		if (image_format == I420) {
-			paintYUV();
+			renderer_yuv->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
 		}
 		#endif
 		#ifdef USE_RGB
 		if (image_format == RGB24 || image_format == RGB16) {
-			//paintRGB();
 			renderer_rgb->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
 		}
 		#endif
@@ -200,6 +201,9 @@ void VideoLayerRender::resizeGL(int w, int h) {
 
 	glViewport(0, 0, w, h);
 
+#ifdef USE_YUV
+	renderer_yuv->resizeGL(w, h);
+#endif
 #ifdef USE_RGB
 	renderer_rgb->resizeGL(w, h);
 #endif
@@ -214,144 +218,13 @@ void VideoLayerRender::initializeGL() {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 
 #ifdef USE_YUV
-	initializeYUV();
+	renderer_yuv->initializeGL(width(), height());
 #endif
 #ifdef USE_RGB
 	renderer_rgb->initializeGL(width(), height());
 #endif
 }
-
-#ifdef USE_YUV
-void VideoLayerRender::initializeYUV() {
-	glEnable(GL_DEPTH_TEST);
-
-	static const GLfloat vertices[]{
-		//Vertex coordinates
-		-1.0f,-1.0f,
-		-1.0f,+1.0f,
-		+1.0f,+1.0f,
-		+1.0f,-1.0f,
-		//Texture coordinates
-		0.0f,1.0f,
-		0.0f,0.0f,
-		1.0f,0.0f,
-		1.0f,1.0f,
-	};
-
-	vbo.create();
-	vbo.bind();
-	vbo.allocate(vertices, sizeof(vertices));
-
-	QOpenGLShader *vshader = new QOpenGLShader(QOpenGLShader::Vertex,this);
-	const char *vsrc =
-   "attribute vec4 vertexIn; \
-    attribute vec2 textureIn; \
-    varying vec2 textureOut;  \
-    void main(void)           \
-    {                         \
-        gl_Position = vertexIn; \
-        textureOut = textureIn; \
-    }";
-	vshader->compileSourceCode(vsrc);
-
-	QOpenGLShader *fshader = new QOpenGLShader(QOpenGLShader::Fragment,this);
-	QString rgb_bt_601 = "mat3(1,1,1, 0, -0.39,2.03, 1.14, -0.58,0) * yuv;";
-	QString rgb_bt_709 = "mat3(1,1,1, 0, -0.21,2.13, 1.28, -0.38,0) * yuv;";
-	QString rgb_jpeg   = "mat3(1,1,1, 0, -0.34,1.77, 1.40, -0.72,0) * yuv;";
-
-	//QString rgb_conv = rgb_bt_601;
-	//QString rgb_conv = rgb_bt_709;
-	QString rgb_conv = rgb_jpeg;
-
-	QString fsrc = "varying vec2 textureOut; \
-    uniform sampler2D tex_y; \
-    uniform sampler2D tex_u; \
-    uniform sampler2D tex_v; \
-    void main(void) \
-    { \
-        vec3 yuv; \
-        vec3 rgb; \
-        yuv.x = texture2D(tex_y, textureOut).r - (16.0/255.0); \
-        yuv.y = texture2D(tex_u, textureOut).r - 0.5; \
-        yuv.z = texture2D(tex_v, textureOut).r - 0.5; \
-        rgb = " + rgb_conv +
-       "gl_FragColor = vec4(rgb, 1); \
-    }";
-	fshader->compileSourceCode(fsrc);
-
-	program = new QOpenGLShaderProgram(this);
-	program->addShader(vshader);
-	program->addShader(fshader);
-	program->bindAttributeLocation("vertexIn", VERTEXIN);
-	program->bindAttributeLocation("textureIn", TEXTUREIN);
-	program->link();
-	program->bind();
-	program->enableAttributeArray(VERTEXIN);
-	program->enableAttributeArray(TEXTUREIN);
-	program->setAttributeBuffer(VERTEXIN, GL_FLOAT, 0, 2, 2 * sizeof(GLfloat));
-	program->setAttributeBuffer(TEXTUREIN, GL_FLOAT, 8 * sizeof(GLfloat), 2, 2 * sizeof(GLfloat));
-
-	textureUniformY = program->uniformLocation("tex_y");
-	textureUniformU = program->uniformLocation("tex_u");
-	textureUniformV = program->uniformLocation("tex_v");
-	textureY = new QOpenGLTexture(QOpenGLTexture::Target2D);
-	textureU = new QOpenGLTexture(QOpenGLTexture::Target2D);
-	textureV = new QOpenGLTexture(QOpenGLTexture::Target2D);
-	textureY->create();
-	textureU->create();
-	textureV->create();
-	idY = textureY->textureId();
-	idU = textureU->textureId();
-	idV = textureV->textureId();
-}
-
-void VideoLayerRender::paintYUV() {
-	//qDebug("VideoLayerRender::paintYUV");
-
-#ifdef USE_RGB
-	program->bind();
-#endif
-
-	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
-	glActiveTexture(GL_TEXTURE0);
-	glBindTexture(GL_TEXTURE_2D, idY);
-
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width, image_height, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer);
-
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-	glActiveTexture(GL_TEXTURE1);
-	glBindTexture(GL_TEXTURE1, idU);
-
-	uint32_t plane_size[2];
-	plane_size[0] = image_width * image_height;
-	plane_size[1] = (image_width * image_height) / 2;
-
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + plane_size[0]);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-	glActiveTexture(GL_TEXTURE2);
-	glBindTexture(GL_TEXTURE_2D, idV);
-
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, image_width >> 1, image_height >> 1, 0, GL_RED, GL_UNSIGNED_BYTE, image_buffer + plane_size[0] + plane_size[1]);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-	glUniform1i(textureUniformY, 0);
-	glUniform1i(textureUniformU, 1);
-	glUniform1i(textureUniformV, 2);
-	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
-}
-#endif
-#endif
+#endif // USE_GL_WINDOW
 
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 extern "C" {
@@ -393,7 +266,6 @@ void VideoLayerRender::YUY2toRGB24(unsigned char* yuv_src, unsigned char* rgb_ds
 
 	sws_scale(sws_ctx, yuv, yuv_stride, 0, h, rgb24, rgb24_stride);
 }
-
 #endif
 
 #include "moc_videolayerrender.cpp"

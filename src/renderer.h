@@ -19,13 +19,19 @@
 #ifndef RENDERER_H
 #define RENDERER_H
 
+#include <QObject>
 #include <QOpenGLFunctions>
 
-class Renderer : protected QOpenGLFunctions
+class Renderer : public QObject, protected QOpenGLFunctions
 {
+	Q_OBJECT
+
 public:
+	Renderer(QObject * parent = 0) : QObject(parent) {}
+	~Renderer() {}
+
 	virtual void initializeGL(int window_width, int window_height) = 0;
-	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * buffer) = 0;
+	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) = 0;
 	virtual void resizeGL(int w, int h) = 0;
 };
 

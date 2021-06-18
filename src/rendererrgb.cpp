@@ -20,7 +20,8 @@
 #include "videolayerrender.h"
 #include <QDebug>
 
-RendererRGB::RendererRGB() {
+RendererRGB::RendererRGB(QObject * parent) : Renderer(parent)
+{
 	format_to_gl[VideoLayerRender::RGB24] = { GL_RGB, GL_RGB, GL_UNSIGNED_BYTE };
 	format_to_gl[VideoLayerRender::RGB16] = { GL_RGB565, GL_RGB, GL_UNSIGNED_SHORT_5_6_5_REV };
 }
@@ -53,7 +54,7 @@ void RendererRGB::initializeGL(int window_width, int window_height) {
 //	glDisable(GL_TEXTURE_2D);
 }
 
-void RendererRGB::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * buffer) {
+void RendererRGB::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) {
 #ifdef USE_YUV
 	glUseProgram(0);
 	glActiveTexture(GL_TEXTURE0);
@@ -62,8 +63,8 @@ void RendererRGB::paintGL(int window_width, int window_height, int image_width, 
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
 	Gformat f = format_to_gl[image_format];
 	glBindTexture(GL_TEXTURE_2D, textureRGB);
-	glTexImage2D(GL_TEXTURE_2D, 0, f.internal_format, image_width, image_height, 0, f.format, f.type, buffer);
-	glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image_width, image_height, f.format, f.type, buffer);
+	glTexImage2D(GL_TEXTURE_2D, 0, f.internal_format, image_width, image_height, 0, f.format, f.type, image_buffer);
+	glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image_width, image_height, f.format, f.type, image_buffer);
 
 	GLenum error_code = glGetError();
 	if (error_code != GL_NO_ERROR) {
@@ -96,3 +97,4 @@ void RendererRGB::resizeGL(int w, int h) {
 //	glEnable(GL_TEXTURE_2D);
 //	glBindTexture(GL_TEXTURE_2D, texture);
 }
+
