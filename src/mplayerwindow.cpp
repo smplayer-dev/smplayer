@@ -61,8 +61,8 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	, video_height(0)
 	, aspect((double) 4/3)
 	, monitoraspect(0)
-	, videolayer(0)
 	, logo(0)
+	, videolayer(0)
 	, offset_x(0)
 	, offset_y(0)
 	, zoom_factor(1.0)
@@ -88,6 +88,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
+/*
 #ifdef USE_COREVIDEO_BUFFER
 	videolayer = new VideoLayerCV(this);
 #else
@@ -97,9 +98,23 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	videolayer = new VideoLayer(this);
   #endif
 #endif
-	videolayer->setObjectName("videolayer");
+*/
 
-	logo = new QLabel( videolayer );
+#ifndef MULTIPLE_VIDEOLAYERS
+	videolayer = new VideoLayer(this);
+	videolayer->setObjectName("videolayer");
+#else
+	videolayer_normal = new VideoLayer(this);
+	videolayer_normal->setObjectName("videolayer");
+	#ifdef USE_SHM
+	videolayer_shm = new VideoLayerShm(this);
+	videolayer_shm->hide();
+	videolayer_shm->setObjectName("videolayer_shm");
+	#endif
+	videolayer = videolayer_normal;
+#endif
+
+	logo = new QLabel( this );
 	logo->setObjectName("mplayerwindowlogo");
 
 	// Set colors
@@ -114,18 +129,18 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	videolayer->setStyleSheet("background-color: black;");
 #endif
 
-	QVBoxLayout * videolayerLayout = new QVBoxLayout( videolayer );
+	QVBoxLayout * videolayerLayout = new QVBoxLayout( this );
 	videolayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
 
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
-	
+
 //#ifdef HANDLE_GESTURES
 	grabGesture(Qt::TapGesture);
 //#endif
 
 	installEventFilter(this);
-	videolayer->installEventFilter(this);
+	//videolayer->installEventFilter(this);
 	//logo->installEventFilter(this);
 
 #if DELAYED_RESIZE
@@ -184,8 +199,27 @@ void MplayerWindow::playingStopped() {
 }
 
 void MplayerWindow::gotVO(QString vo) {
+#ifdef MULTIPLE_VIDEOLAYERS
+	#ifdef USE_SHM
+	if (vo == "shm" && videolayer->objectName() != "videolayer_shm") {
+		switchVideoLayer(videolayer_shm);
+	}
+	#endif
+#endif
 	videolayer->gotVO(vo);
 }
+
+#ifdef MULTIPLE_VIDEOLAYERS
+void MplayerWindow::switchVideoLayer(VideoLayer * new_videolayer) {
+	qDebug() << "MplayerWindow::switchVideoLayer:" << new_videolayer->objectName();
+
+	videolayer->playingStopped();
+	videolayer->hide();
+	videolayer = new_videolayer;
+	videolayer->show();
+	videolayer->playingStarted();
+}
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 void MplayerWindow::setRepaintBackground(bool b) {
@@ -243,7 +277,7 @@ void MplayerWindow::setResolution( int w, int h)
 {
     video_width = w;
     video_height = h;
-    
+
     //videolayer->move(1,1);
     updateVideoWindow();
 }
