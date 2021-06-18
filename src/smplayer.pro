@@ -686,11 +686,14 @@ mac {
 			SOURCES += videolayerrender.cpp
 		}
 
+		LIBS += -framework Cocoa
+
 		contains( DEFINES, USE_GL_WINDOW ) {
 			QT += opengl
-			LIBS += -framework Cocoa
 			#LIBS += -framework QuartzCore
 		} else {
+			INCLUDEPATH += /usr/local/Cellar/ffmpeg/4.4_2/include/
+			LIBPATH += /usr/local/Cellar/ffmpeg/4.4_2/lib/
 			LIBS += -lswscale
 		}
 	}

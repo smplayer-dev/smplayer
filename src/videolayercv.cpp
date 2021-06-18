@@ -81,6 +81,7 @@ void VideoLayerCV::init_slot(int width, int height, int bytes, int aspect) {
 	}
 
 	init(image_width, image_height, image_bytes, VideoLayerRender::RGB24, image_buffer);
+	//init(image_width, image_height, image_bytes, VideoLayerRender::YUY2, image_buffer);
 }
 
 void VideoLayerCV::render_slot() {
