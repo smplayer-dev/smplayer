@@ -23,10 +23,11 @@
 #include <QMap>
 #include <stdint.h>
 
-#define USE_YUV
+//#define USE_YUV
 #define USE_RGB
 
 #ifdef USE_GL_WINDOW
+class RendererRGB;
 #include <QOpenGLFunctions>
 
 #ifdef USE_YUV
@@ -99,12 +100,7 @@ protected:
 	#endif
 
 	#ifdef USE_RGB
-	void initializeRGB();
-	void paintRGB();
-
-	GLuint textureRGB;
-	typedef struct Gformat { GLint internal_format; GLenum format; GLenum type; } Gformat;
-	QMap<uint32_t, Gformat> format_to_gl;
+	RendererRGB * renderer_rgb;
 	#endif
 #else
 	virtual void paintEvent(QPaintEvent *event);

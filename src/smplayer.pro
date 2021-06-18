@@ -700,6 +700,11 @@ mac {
 	ICON = smplayer.icns
 }
 
+contains( DEFINES, USE_GL_WINDOW ) {
+	HEADERS += renderer.h rendererrgb.h
+	SOURCES += rendererrgb.cpp
+}
+
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
                translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \

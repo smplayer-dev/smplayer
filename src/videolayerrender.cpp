@@ -28,6 +28,8 @@
 #include <stdint.h>
 
 #ifdef USE_GL_WINDOW
+#include "rendererrgb.h"
+
 #include <QSurfaceFormat>
 
 #ifdef USE_YUV
@@ -64,8 +66,7 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	#endif
 	#ifdef USE_RGB
 	supported_formats << RGB24 << RGB16;
-	format_to_gl[RGB24] = { GL_RGB, GL_RGB, GL_UNSIGNED_BYTE };
-	format_to_gl[RGB16] = { GL_RGB565, GL_RGB, GL_UNSIGNED_SHORT_5_6_5_REV };
+	renderer_rgb = new RendererRGB();
 	#endif
 #else
 	supported_formats << RGB24 << RGB16;
@@ -78,6 +79,9 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 }
 
 VideoLayerRender::~VideoLayerRender() {
+#ifdef USE_RGB
+	delete renderer_rgb;
+#endif
 }
 
 void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t format, unsigned char* buffer) {
@@ -182,7 +186,8 @@ void VideoLayerRender::paintGL() {
 		#endif
 		#ifdef USE_RGB
 		if (image_format == RGB24 || image_format == RGB16) {
-			paintRGB();
+			//paintRGB();
+			renderer_rgb->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
 		}
 		#endif
 	} else {
@@ -196,18 +201,7 @@ void VideoLayerRender::resizeGL(int w, int h) {
 	glViewport(0, 0, w, h);
 
 #ifdef USE_RGB
-//	glClear(GL_COLOR_BUFFER_BIT);
-
-//	glDisable(GL_DEPTH_TEST);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	//gluOrtho2D(0, w, 0, h);
-	glOrtho(0, w, 0, h, -1.0, 1.0);
-//	glMatrixMode(GL_MODELVIEW);
-//	glLoadIdentity();
-
-//	glEnable(GL_TEXTURE_2D);
-//	glBindTexture(GL_TEXTURE_2D, texture);
+	renderer_rgb->resizeGL(w, h);
 #endif
 }
 
@@ -223,64 +217,9 @@ void VideoLayerRender::initializeGL() {
 	initializeYUV();
 #endif
 #ifdef USE_RGB
-	initializeRGB();
+	renderer_rgb->initializeGL(width(), height());
 #endif
 }
-
-#ifdef USE_RGB
-void VideoLayerRender::initializeRGB() {
-	textureRGB = 0;
-
-	glDisable(GL_DEPTH_TEST);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	//gluOrtho2D(0, width(), 0, height());
-	glOrtho(0, width(), 0, height(), -1.0, 1.0);
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
-
-	glEnable(GL_TEXTURE_2D);
-//	glGenTextures(3, &textureRGB);
-	glBindTexture(GL_TEXTURE_2D, textureRGB);
-
-//	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-//	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-
-	glBindTexture(GL_TEXTURE_2D, textureRGB);
-//	glDisable(GL_TEXTURE_2D);
-}
-
-void VideoLayerRender::paintRGB() {
-	//qDebug("VideoLayerRender::paintRGB");
-#ifdef USE_YUV
-	glUseProgram(0);
-	glActiveTexture(GL_TEXTURE0);
-#endif
-
-	glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
-	Gformat f = format_to_gl[image_format];
-	glBindTexture(GL_TEXTURE_2D, textureRGB);
-	glTexImage2D(GL_TEXTURE_2D, 0, f.internal_format, image_width, image_height, 0, f.format, f.type, image_buffer);
-	glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image_width, image_height, f.format, f.type, image_buffer);
-
-	GLenum error_code = glGetError();
-	if (error_code != GL_NO_ERROR) {
-		qDebug() << "VideoLayerRender::paintRGB: glTexSubImage2D: error:" << error_code;
-	}
-
-	if (error_code == GL_NO_ERROR) {
-		glBegin(GL_QUADS);
-		glTexCoord2i(0,0); glVertex2i(0, height());
-		glTexCoord2i(0,1); glVertex2i(0,0);
-		glTexCoord2i(1,1); glVertex2i( width(), 0);
-		glTexCoord2i(1,0); glVertex2i(width(), height());
-		glEnd();
-	}
-	glFlush();
-}
-#endif
 
 #ifdef USE_YUV
 void VideoLayerRender::initializeYUV() {
