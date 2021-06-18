@@ -78,11 +78,13 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 }
 
 VideoLayerRender::~VideoLayerRender() {
-#ifdef USE_YUV
+#ifdef USE_GL_WINDOW
+	#ifdef USE_YUV
 	delete renderer_yuv;
-#endif
-#ifdef USE_RGB
+	#endif
+	#ifdef USE_RGB
 	delete renderer_rgb;
+	#endif
 #endif
 }
 
