@@ -21,7 +21,6 @@
 #include "desktopinfo.h"
 #include "colorutils.h"
 #include "screenhelper.h"
-#include "videolayer.h"
 
 #ifndef MINILIB
 #include "images.h"
@@ -176,11 +175,24 @@ void MplayerWindow::retranslateStrings() {
 
 void MplayerWindow::playingStarted() {
 	helper->playingStarted();
+	videolayer->playingStarted();
 }
 
 void MplayerWindow::playingStopped() {
 	helper->playingStopped();
+	videolayer->playingStopped();
 }
+
+void MplayerWindow::gotVO(QString vo) {
+	videolayer->gotVO(vo);
+}
+
+#if REPAINT_BACKGROUND_OPTION
+void MplayerWindow::setRepaintBackground(bool b) {
+	repaint_background = b;
+	videolayer->setRepaintBackground(b);
+}
+#endif
 
 void MplayerWindow::setLogoVisible( bool b) {
 	qDebug() << "MplayerWindow::setLogoVisible:" << b;

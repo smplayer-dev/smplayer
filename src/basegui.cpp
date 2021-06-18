@@ -44,7 +44,6 @@
 #include <QtCore/qmath.h>
 
 #include "mplayerwindow.h"
-#include "videolayer.h"
 #include "desktopinfo.h"
 #include "helper.h"
 #include "paths.h"
@@ -3254,7 +3253,7 @@ void BaseGui::applyNewPreferences() {
 	PrefAdvanced *advanced = pref_dialog->mod_advanced();
 #if REPAINT_BACKGROUND_OPTION
 	if (advanced->repaintVideoBackgroundChanged()) {
-		mplayerwindow->videoLayer()->setRepaintBackground(pref->repaint_video_background);
+		mplayerwindow->setRepaintBackground(pref->repaint_video_background);
 	}
 #endif
 #if USE_COLORKEY

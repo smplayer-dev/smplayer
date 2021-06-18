@@ -31,7 +31,6 @@
 #include <cmath>
 
 #include "mplayerwindow.h"
-#include "videolayer.h"
 #include "desktopinfo.h"
 #include "helper.h"
 #include "paths.h"
@@ -99,14 +98,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	proc = PlayerProcess::createPlayerProcess(pref->mplayer_bin);
 
-	// Do this the first
-	connect( proc, SIGNAL(processExited()),
-             mplayerwindow->videoLayer(), SLOT(playingStopped()) );
-
-	connect( proc, SIGNAL(error(QProcess::ProcessError)),
-             mplayerwindow->videoLayer(), SLOT(playingStopped()) );
-
-	// Necessary to hide/unhide mouse cursor on black borders
 	connect( proc, SIGNAL(processExited()),
              mplayerwindow, SLOT(playingStopped()) );
 
@@ -114,7 +105,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              mplayerwindow, SLOT(playingStopped()) );
 
 	connect( proc, SIGNAL(receivedVO(QString)),
-             mplayerwindow->videoLayer(), SLOT(gotVO(QString)) );
+             mplayerwindow, SLOT(gotVO(QString)) );
 
 	connect( proc, SIGNAL(receivedCurrentSec(double)),
              this, SLOT(changeCurrentSec(double)) );
@@ -262,11 +253,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	//pref->load();
 	mset.reset();
 
-	// Mplayerwindow
-	connect( this, SIGNAL(aboutToStartPlaying()),
-             mplayerwindow->videoLayer(), SLOT(playingStarted()) );
-
-	// Necessary to hide/unhide mouse cursor on black borders
 	connect( this, SIGNAL(aboutToStartPlaying()),
              mplayerwindow, SLOT(playingStarted()) );
 
@@ -276,7 +262,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 
 #if REPAINT_BACKGROUND_OPTION
-	mplayerwindow->videoLayer()->setRepaintBackground(pref->repaint_video_background);
+	mplayerwindow->setRepaintBackground(pref->repaint_video_background);
 #endif
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
@@ -308,9 +294,6 @@ Core::~Core() {
 
 	if (proc->isRunning()) stopMplayer();
 	proc->terminate();
-#ifdef USE_COREVIDEO_BUFFER
-	//mplayerwindow->videoLayer()->stopOpengl();
-#endif
 	delete proc;
 
 	delete file_settings;

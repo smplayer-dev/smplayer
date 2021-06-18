@@ -30,6 +30,7 @@
 #include <QKeyEvent>
 #include <QPaintEvent>
 
+#include "videolayer.h"
 #include "config.h"
 
 class QWidget;
@@ -37,7 +38,6 @@ class QLabel;
 class QKeyEvent;
 class QTimer;
 class ScreenHelper;
-class VideoLayer;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -57,7 +57,7 @@ public:
 	MplayerWindow(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~MplayerWindow();
 
-	VideoLayer * videoLayer() { return videolayer; };
+	QWidget * videoLayer() { return videolayer; };
 
 	void setResolution( int w, int h);
 	void setAspect( double asp);
@@ -95,12 +95,19 @@ public:
 	void setCornerWidget(QWidget * w);
 	QWidget * cornerWidget() { return corner_widget; };
 
+#if REPAINT_BACKGROUND_OPTION
+	void setRepaintBackground(bool b);
+	bool repaintBackground() { return repaint_background; }
+#endif
+
 public slots:
 	//! Should be called when a file has started.
 	virtual void playingStarted();
 
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
+
+	virtual void gotVO(QString);
 
 	void setLogoVisible(bool b);
 	void showLogo() { setLogoVisible(true); };
@@ -182,6 +189,10 @@ protected:
 #endif
 
 	QWidget * corner_widget;
+
+#if REPAINT_BACKGROUND_OPTION
+	bool repaint_background;
+#endif
 
 private:
 	TDragState drag_state;
