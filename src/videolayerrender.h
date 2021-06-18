@@ -47,7 +47,7 @@ class VideoLayerRender : public VideoLayer
 	Q_OBJECT
 
 public:
-	enum ImageFormat { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553 };
+	enum ImageFormat { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353 };
 
 	VideoLayerRender(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~VideoLayerRender();
@@ -110,6 +110,7 @@ protected:
 	virtual void paintEvent(QPaintEvent *event);
 	#ifdef USE_YUV
 	void YUV420PtoRGB24(unsigned char* yuv_src, unsigned char* rgb_dst, int w, int h);
+	void YUY2toRGB24(unsigned char* yuv_src, unsigned char* rgb_dst, int w, int h);
 	#endif
 	QPixmap frame;
 	QMap<uint32_t, int> format_to_image;

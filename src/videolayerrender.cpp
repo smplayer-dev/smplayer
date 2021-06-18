@@ -70,7 +70,7 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #else
 	supported_formats << RGB24 << RGB16;
 	#ifdef USE_YUV
-	supported_formats << I420;
+	supported_formats << I420 << YUY2;
 	#endif
 	format_to_image[RGB24] = QImage::Format_RGB888;
 	format_to_image[RGB16] = QImage::Format_RGB16;
@@ -143,7 +143,14 @@ void VideoLayerRender::render() {
 		YUV420PtoRGB24(image_buffer, conv_buffer, image_width, image_height);
 		QImage i(conv_buffer, image_width, image_height, image_width * 3, QImage::Format_RGB888);
 		frame = QPixmap::fromImage(i);
-	} else
+	}
+	else
+	if (image_format == YUY2) {
+		YUY2toRGB24(image_buffer, conv_buffer, image_width, image_height);
+		QImage i(conv_buffer, image_width, image_height, image_width * 3, QImage::Format_RGB888);
+		frame = QPixmap::fromImage(i);
+	}
+	else
 	#endif
 	{
 		QImage i(image_buffer, image_width, image_height, image_width * image_bytes, (QImage::Format) format_to_image[image_format]);
@@ -432,6 +439,22 @@ void VideoLayerRender::YUV420PtoRGB24(unsigned char* yuv_src, unsigned char* rgb
 
 	sws_scale(sws_ctx, yuv, yuv_stride, 0, h, rgb24, rgb24_stride);
 }
+
+void VideoLayerRender::YUY2toRGB24(unsigned char* yuv_src, unsigned char* rgb_dst, int w, int h) {
+	//qDebug("VideoLayerRender::YUY2toRGB24: %d %d, %p %p", w, h, yuv_src, rgb_dst);
+
+	struct SwsContext * sws_ctx = NULL;
+	sws_ctx = sws_getContext(w, h, AV_PIX_FMT_YUYV422, w, h, AV_PIX_FMT_RGB24, SWS_BILINEAR, NULL, NULL, NULL);
+
+	uint8_t * rgb24[1] = { rgb_dst };
+	int rgb24_stride[1] = { w * 3 };
+
+	uint8_t * yuv[1] = { yuv_src };
+	int yuv_stride[1] = { w * 2 };
+
+	sws_scale(sws_ctx, yuv, yuv_stride, 0, h, rgb24, rgb24_stride);
+}
+
 #endif
 
 #include "moc_videolayerrender.cpp"
