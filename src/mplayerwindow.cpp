@@ -88,18 +88,6 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
-/*
-#ifdef USE_COREVIDEO_BUFFER
-	videolayer = new VideoLayerCV(this);
-#else
-  #ifdef USE_SHM
-	videolayer = new VideoLayerShm(this);
-  #else
-	videolayer = new VideoLayer(this);
-  #endif
-#endif
-*/
-
 #ifndef MULTIPLE_VIDEOLAYERS
 	videolayer = new VideoLayer(this);
 	videolayer->setObjectName("videolayer");
@@ -110,6 +98,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	videolayer_shm = new VideoLayerShm(this);
 	videolayer_shm->hide();
 	videolayer_shm->setObjectName("videolayer_shm");
+	#endif
+	#ifdef USE_COREVIDEO_BUFFER
+	videolayer_cv = new VideoLayerCV(this);
+	videolayer_cv->hide();
+	videolayer_cv->setObjectName("videolayer_cv");
 	#endif
 	videolayer = videolayer_normal;
 #endif
@@ -203,6 +196,11 @@ void MplayerWindow::gotVO(QString vo) {
 	#ifdef USE_SHM
 	if (vo == "shm" && videolayer->objectName() != "videolayer_shm") {
 		switchVideoLayer(videolayer_shm);
+	}
+	#endif
+	#ifdef USE_COREVIDEO_BUFFER
+	if (vo == "corevideo" && videolayer->objectName() != "videolayer_cv") {
+		switchVideoLayer(videolayer_cv);
 	}
 	#endif
 #endif

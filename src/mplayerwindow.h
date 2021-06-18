@@ -33,7 +33,7 @@
 #include "videolayer.h"
 #include "config.h"
 
-#if defined(USE_SHM)
+#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
 #define MULTIPLE_VIDEOLAYERS
 #endif
 
@@ -43,6 +43,7 @@ class QKeyEvent;
 class QTimer;
 class ScreenHelper;
 class VideoLayerShm;
+class VideoLayerCV;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -177,6 +178,9 @@ protected:
 	VideoLayer * videolayer_normal;
 	#ifdef USE_SHM
 	VideoLayerShm * videolayer_shm;
+	#endif
+	#ifdef USE_COREVIDEO_BUFFER
+	VideoLayerCV * videolayer_cv;
 	#endif
 #endif
 

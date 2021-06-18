@@ -70,27 +70,29 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
 #if defined(USE_COREVIDEO_BUFFER) || defined(USE_SHM)
-	#ifdef USE_COREVIDEO_BUFFER
-	#define TVO "corevideo"
-	#else
-	#define TVO "shm"
-	#endif
 	if (option_name == "vo") {
 		QString buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 		QString vo = value.toString();
 		qDebug() << "MplayerProcess::setOption: vo:" << vo;
-		if (vo.startsWith(TVO)) {
-			vo = QString(TVO ":buffer_name=%1").arg(buffer_name);
+		#ifdef USE_COREVIDEO_BUFFER
+		if (vo.startsWith("corevideo")) {
+			vo = QString("corevideo:buffer_name=%1").arg(buffer_name);
 			arg << "-vo" << vo + ",";
-			#ifdef USE_COREVIDEO_BUFFER
 			arg << "-vf-add" << "format=rgb24";
-			#endif
 			return;
 		}
+		#endif
+		#ifdef USE_SHM
+		if (vo.startsWith("shm")) {
+			vo = QString("shm:buffer_name=%1").arg(buffer_name);
+			arg << "-vo" << vo + ",";
+			return;
+		}
+		#endif
 	}
 	else
 	if (option_name == "wid") {
-		QStringList s = arg.filter(TVO);
+		QStringList s = arg.filter("corevideo|shm");
 		if (s.count() > 0) {
 			// Ignore
 			return;
