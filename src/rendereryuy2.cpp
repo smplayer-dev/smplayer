@@ -113,6 +113,10 @@ void RendererYUY2::initializeGL(int window_width, int window_height) {
 void RendererYUY2::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) {
 	//qDebug("RendererYUY2::paintGL");
 
+#if defined(USE_YUV) || defined(USE_RGB)
+	program->bind();
+#endif
+
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image_width / 2, image_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
 
 	GLenum error_code = glGetError();

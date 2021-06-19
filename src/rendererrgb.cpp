@@ -55,7 +55,7 @@ void RendererRGB::initializeGL(int window_width, int window_height) {
 }
 
 void RendererRGB::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) {
-#ifdef USE_YUV
+#if defined(USE_YUV) || defined(USE_YUY2)
 	glUseProgram(0);
 	glActiveTexture(GL_TEXTURE0);
 #endif

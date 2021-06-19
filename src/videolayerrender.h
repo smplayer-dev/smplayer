@@ -23,9 +23,9 @@
 #include <QMap>
 #include <stdint.h>
 
-//#define USE_YUV
+#define USE_YUV
 #define USE_YUY2
-//#define USE_RGB
+#define USE_RGB
 
 #ifdef USE_GL_WINDOW
 #include <QOpenGLFunctions>

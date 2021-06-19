@@ -119,7 +119,7 @@ void RendererYUV::initializeGL(int window_width, int window_height) {
 }
 
 void RendererYUV::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) {
-#ifdef USE_RGB
+#if defined(USE_RGB) || defined(USE_YUY2)
 	program->bind();
 #endif
 
