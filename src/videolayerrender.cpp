@@ -34,6 +34,10 @@
 #include "rendereryuv.h"
 #endif
 
+#ifdef USE_YUY2
+#include "rendereryuy2.h"
+#endif
+
 #ifdef USE_RGB
 #include "rendererrgb.h"
 #endif
@@ -63,6 +67,10 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	supported_formats << I420;
 	renderer_yuv = new RendererYUV(this);
 	#endif
+	#ifdef USE_YUY2
+	supported_formats << YUY2;
+	renderer_yuy2 = new RendererYUY2(this);
+	#endif
 	#ifdef USE_RGB
 	supported_formats << RGB24 << RGB16;
 	renderer_rgb = new RendererRGB(this);
@@ -81,6 +89,9 @@ VideoLayerRender::~VideoLayerRender() {
 #ifdef USE_GL_WINDOW
 	#ifdef USE_YUV
 	delete renderer_yuv;
+	#endif
+	#ifdef USE_YUY2
+	delete renderer_yuy2;
 	#endif
 	#ifdef USE_RGB
 	delete renderer_rgb;
@@ -188,6 +199,11 @@ void VideoLayerRender::paintGL() {
 			renderer_yuv->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
 		}
 		#endif
+		#ifdef USE_YUY2
+		if (image_format == YUY2) {
+			renderer_yuy2->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
+		}
+		#endif
 		#ifdef USE_RGB
 		if (image_format == RGB24 || image_format == RGB16) {
 			renderer_rgb->paintGL(width(), height(), image_width, image_height, image_format, image_buffer);
@@ -206,6 +222,9 @@ void VideoLayerRender::resizeGL(int w, int h) {
 #ifdef USE_YUV
 	renderer_yuv->resizeGL(w, h);
 #endif
+#ifdef USE_YUY2
+	renderer_yuy2->resizeGL(w, h);
+#endif
 #ifdef USE_RGB
 	renderer_rgb->resizeGL(w, h);
 #endif
@@ -221,6 +240,9 @@ void VideoLayerRender::initializeGL() {
 
 #ifdef USE_YUV
 	renderer_yuv->initializeGL(width(), height());
+#endif
+#ifdef USE_YUY2
+	renderer_yuy2->initializeGL(width(), height());
 #endif
 #ifdef USE_RGB
 	renderer_rgb->initializeGL(width(), height());

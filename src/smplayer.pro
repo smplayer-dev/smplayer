@@ -633,8 +633,8 @@ contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 }
 
 contains( DEFINES, USE_GL_WINDOW ) {
-	HEADERS += renderer.h rendererrgb.h rendereryuv.h
-	SOURCES += rendererrgb.cpp rendereryuv.cpp
+	HEADERS += renderer.h rendererrgb.h rendereryuv.h rendereryuy2.h
+	SOURCES += rendererrgb.cpp rendereryuv.cpp rendereryuy2.cpp
 }
 
 unix {

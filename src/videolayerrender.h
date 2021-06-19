@@ -23,13 +23,15 @@
 #include <QMap>
 #include <stdint.h>
 
-#define USE_YUV
-#define USE_RGB
+//#define USE_YUV
+#define USE_YUY2
+//#define USE_RGB
 
 #ifdef USE_GL_WINDOW
 #include <QOpenGLFunctions>
 
 class RendererYUV;
+class RendererYUY2;
 class RendererRGB;
 #endif // USE_GL_WINDOW
 
@@ -85,6 +87,9 @@ protected:
 
 	#ifdef USE_YUV
 	RendererYUV * renderer_yuv;
+	#endif
+	#ifdef USE_YUY2
+	RendererYUY2 * renderer_yuy2;
 	#endif
 	#ifdef USE_RGB
 	RendererRGB * renderer_rgb;
