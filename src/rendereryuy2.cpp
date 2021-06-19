@@ -44,10 +44,10 @@ void RendererYUY2::initializeGL(int window_width, int window_height) {
 	glGenTextures(1, screen_texture);
 
 	glBindTexture(GL_TEXTURE_2D, screen_texture[0]);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
 	QString code = QString("uniform sampler2D tex;"
 				   "uniform float texl_w;"
@@ -80,13 +80,17 @@ void RendererYUY2::initializeGL(int window_width, int window_height) {
 			       );
 
 	// YUV to RGB
+	/*
 	code += QString("   float r = y + 1.5701 * v;"
 			       "   float g = y - 0.1870 * u - 0.4664 * v;"
 			       "   float b = y + 1.8556 * u;"
 			       );
-
-	// Transform to linear
+	*/
+	code += QString("   float r = y + 1.77 * v;"
+				   "   float g = y - 0.34 * u - 0.72 * v;"
+				   "   float b = y + 1.40 * u;");
 	#if 0
+	// Transform to linear
 	code += QString("   r = (r <= -0.081) ? -pow((r - 0.099) / -1.099, 1.0 / 0.45) : "
 			       "        ((r < 0.081) ? r / 4.5 : pow((r + 0.099) / 1.099, 1.0 / 0.45));"
 			       "   g = (g <= -0.081) ? -pow((g - 0.099) / -1.099, 1.0 / 0.45) : "
