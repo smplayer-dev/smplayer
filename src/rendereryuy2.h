@@ -21,6 +21,8 @@
 
 #include "renderer.h"
 
+class QGLShaderProgram;
+
 class RendererYUY2 : public Renderer
 {
 	Q_OBJECT
@@ -34,6 +36,8 @@ public:
 	virtual void resizeGL(int w, int h);
 
 protected:
+	GLuint screen_texture[1];
+	QGLShaderProgram * program;
 };
 
 #endif
