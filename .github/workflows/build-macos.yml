@@ -11,21 +11,42 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          path: packages/smplayer
+
+      - name: Get version
+        run: |
+            cd packages/smplayer
+            ./get_version.sh
+            VERSION=`cat version`-1~macos
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Install build dependencies
+        run: brew install create-dmg
 
       - name: Install Qt
         uses: jurplel/install-qt-action@v2
         with:
-          version: '5.15.2'
+          version: '5.12.11'
           host: 'mac'
 
       - name: Compile
-        run: ./compile_mac.sh
+        run: |
+            cd packages/smplayer
+            ./compile_mac.sh
 
-      - name: List
-        run: ls src
+      - name: Install mplayer
+        run: |
+            wget https://github.com/smplayer-dev/mplayer/releases/download/v1.4-67/mplayer.tar.bz2
+            tar -xvf mplayer.tar.bz2 -C packages/smplayer/package/SMPlayer.app --strip-components=1
+
+      - name: Create dmg
+        run: |
+            cd packages/smplayer
+            ./create_dmg,sh
+            ls -l package/
 
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: smplayer-mac
-          path: ./src/*.dmg
+          name: smplayer-${{env.VERSION}}
+          path: packages/smplayer/package/SMPlayer.dmg
