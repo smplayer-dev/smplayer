@@ -1,6 +1,9 @@
 name: Build SMPlayer on Mac OS
 
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -50,3 +53,13 @@ jobs:
         with:
           name: smplayer-${{env.VERSION}}
           path: packages/smplayer/package/SMPlayer.dmg
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./packages/smplayer/package/SMPlayer.dmg
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
