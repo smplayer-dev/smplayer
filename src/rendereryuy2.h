@@ -21,7 +21,11 @@
 
 #include "renderer.h"
 
-class QGLShaderProgram;
+#include <QOpenGLBuffer>
+#include <QOpenGLFunctions>
+#include <QOpenGLShader>
+#include <QOpenGLShaderProgram>
+#include <QOpenGLTexture>
 
 class RendererYUY2 : public Renderer
 {
@@ -36,8 +40,16 @@ public:
 	virtual void resizeGL(int w, int h);
 
 protected:
-	GLuint screen_texture[1];
-	QGLShaderProgram * program;
+	QOpenGLTexture * texture;
+	QOpenGLBuffer vertex_buffer;
+	QOpenGLShader * vertex_shader;
+	QOpenGLShader * fragment_shader;
+	QOpenGLShaderProgram program;
+
+	GLuint textureUniformU;
+	GLuint textureUniformV;
+	GLuint textureUniformY;
+	GLuint textureUniformStepX;
 };
 
 #endif

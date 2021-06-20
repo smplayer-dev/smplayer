@@ -22,9 +22,10 @@
 #include <QGLShaderProgram>
 #include <QDebug>
 
-RendererYUY2::RendererYUY2(QObject * parent) : Renderer(parent)
+RendererYUY2::RendererYUY2(QObject * parent)
+	: Renderer(parent)
+	, vertex_buffer(QOpenGLBuffer::VertexBuffer)
 {
-	program = new QGLShaderProgram(this);
 }
 
 RendererYUY2::~RendererYUY2() {
@@ -34,142 +35,164 @@ void RendererYUY2::initializeGL(int window_width, int window_height) {
 	qDebug("RendererYUY2::initializeGL");
 	initializeOpenGLFunctions();
 
-	glShadeModel(GL_FLAT);
 	glEnable(GL_TEXTURE_2D);
-	glEnable(GL_BLEND);
 	glDisable(GL_DEPTH_TEST);
 
-	glBlendFunc(GL_ONE, GL_ZERO);
+	static const GLfloat coordinates[2][4][2]{
+		{
+			/* Vertex coordinates */
+			{ -1.0f, -1.0f },
+			{ -1.0f, +1.0f },
+			{ +1.0f, +1.0f },
+			{ +1.0f, -1.0f },
+		},
+		{
+			/* Texture coordinates */
+			{ 0.0f, 1.0f },
+			{ 0.0f, 0.0f },
+			{ 1.0f, 0.0f },
+			{ 1.0f, 1.0f },
+		},
+	};
 
-	glGenTextures(1, screen_texture);
+	vertex_buffer.create();
+	vertex_buffer.bind();
+	vertex_buffer.allocate(coordinates, sizeof(coordinates));
 
-	glBindTexture(GL_TEXTURE_2D, screen_texture[0]);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	/* Create Vertex Shader */
+	vertex_shader = new QOpenGLShader(QOpenGLShader::Vertex, this);
+	QString code = QString(
+		"attribute vec4 vertexIn;"
+		"attribute vec2 textureIn;"
+		"varying vec2 textureOut;"
+		"void main(void)"
+		"{"
+		"gl_Position = vertexIn;"
+		"textureOut = textureIn;"
+		"}");
+	if (!vertex_shader->compileSourceCode(code)) {
+		qWarning() << "RendererYUY2::initializeGL:" << vertex_shader->log();
+	}
+	program.addShader(vertex_shader);
 
-	QString code = QString("uniform sampler2D tex;"
-				   "uniform float texl_w;"
-				   "uniform float tex_w;"
-				   "uniform float tex_h;"
-				   "void main()"
-				   "{"
-				   "   float y, u, v;"
-				   "   vec4 luma_chroma;"
-				   "   vec2 xy = vec2(gl_TexCoord[0].xy);"
-				   "   float xcoord = floor(xy.x * tex_w);"
-				   "   float ycoord = floor(xy.y * tex_h);");
+	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
 
-	// Invariant
-	code += QString("if (mod(xcoord, 2.0) == 0.0) {"
-			       "   luma_chroma = texture2D(tex, xy);"
-			       "   y = luma_chroma.r;"
-			       "} else {"
-			       "   luma_chroma = texture2D(tex, vec2(xy.x - texl_w, xy.y));"
-			       "   y = luma_chroma.b;"
-			       "}"
-			       "u = luma_chroma.g - 0.5;"
-			       "v = luma_chroma.a - 0.5;"
-			       );
+	/* Create the fragment shader */
+	int attributeVertex;
+	int attributeTexture;
 
-	// YUV normalize
-	code += QString("   y = (255.0 / 219.0) * (y - (16.0 / 255.0));"
-			       "   u = (255.0 / 224.0) * u;"
-			       "   v = (255.0 / 224.0) * v;"
-			       );
+	fragment_shader = new QOpenGLShader(QOpenGLShader::Fragment, this);
 
-	// YUV to RGB
-	/*
-	code += QString("   float r = y + 1.5701 * v;"
-			       "   float g = y - 0.1870 * u - 0.4664 * v;"
-			       "   float b = y + 1.8556 * u;"
-			       );
-	*/
-	code += QString("   float r = y + 1.77 * v;"
-				   "   float g = y - 0.34 * u - 0.72 * v;"
-				   "   float b = y + 1.40 * u;");
-	#if 0
-	// Transform to linear
-	code += QString("   r = (r <= -0.081) ? -pow((r - 0.099) / -1.099, 1.0 / 0.45) : "
-			       "        ((r < 0.081) ? r / 4.5 : pow((r + 0.099) / 1.099, 1.0 / 0.45));"
-			       "   g = (g <= -0.081) ? -pow((g - 0.099) / -1.099, 1.0 / 0.45) : "
-			       "        ((g < 0.081) ? g / 4.5 : pow((g + 0.099) / 1.099, 1.0 / 0.45));"
-			       "   b = (b <= -0.081) ? -pow((b - 0.099) / -1.099, 1.0 / 0.45) : "
-			       "        ((b < 0.081) ? b / 4.5 : pow((b + 0.099) / 1.099, 1.0 / 0.45));"
-			       );
+	code = QString(
+		"varying vec2 textureOut;"
+		"uniform sampler2D tex_y;"
+		"uniform float tex_stepx;"
+		"void main(void)"
+		"{"
+		"mat3 yuv2rgb_bt601_mat = mat3("
+		"vec3(1.164,  1.164, 1.164),"
+		"vec3(0.000, -0.392, 2.017),"
+		"vec3(1.596, -0.813, 0.000)"
+		");"
+		"vec3 yuv2rgb_bt601_offset = vec3(0.063, 0.500, 0.500);"
+		"vec2 pos = textureOut;"
+		"float f_x = fract(pos.x / tex_stepx);"
+		"vec4 left = texture2D(tex_y, vec2(pos.x - f_x * tex_stepx, pos.y));"
+		"vec4 right = texture2D(tex_y, vec2(pos.x + (1.0 - f_x) * tex_stepx , pos.y));"
+	);
 
-	// Colorspace conversion
+	// YUV_PATTERN_YUYV
+	code += QString(
+		"float y_left = mix(left.r, left.b, f_x * 2.0);"
+		"float y_right = mix(left.b, right.r, f_x * 2.0 - 1.0);"
+		"vec2 uv = mix(left.ga, right.ga, f_x);"
+	);
 
-	// Transform to non linear
-	code += QString("   r = (r < -0.0031308) ? -1.055 * pow(-r, 1.0 / 2.4) + 0.055 : "
-		       "        ((r <= 0.0031308) ? r * 12.92 : 1.055 * pow(r, 1.0 / 2.4) - 0.055);"
-		       "   g = (g < -0.0031308) ? -1.055 * pow(-g, 1.0 / 2.4) + 0.055 : "
-		       "        ((g <= 0.0031308) ? g * 12.92 : 1.055 * pow(g, 1.0 / 2.4) - 0.055);"
-		       "   b = (b < -0.0031308) ? -1.055 * pow(-b, 1.0 / 2.4) + 0.055 : "
-		       "        ((b <= 0.0031308) ? b * 12.92 : 1.055 * pow(b, 1.0 / 2.4) - 0.055);"
-		       );
-	#endif
+	code += QString(
+		"float y = mix(y_left, y_right, step(0.5, f_x));"
+		"vec3 rgb = yuv2rgb_bt601_mat * (vec3(y, uv) - yuv2rgb_bt601_offset);"
+		"gl_FragColor = vec4(rgb, 1.0);"
+		"}"
+	);
 
-	code += QString ("   gl_FragColor = vec4(r, g, b, 0.0);"
-			  "}");
-
-	bool src_ok = program->addShaderFromSourceCode(QGLShader::Fragment, code);
-
-	if (!src_ok) {
-		qDebug("RendererYUY2::initializeGL: YUY2 shader compilation failed.\n");
+	if (!fragment_shader->compileSourceCode(code)) {
+		qWarning() << "RendererYUY2::initializeGL:" << fragment_shader->log();
 	}
 
-	program->bind();
+	program.addShader(fragment_shader);
+	program.link();
+	program.bind();
+
+	attributeVertex = program.attributeLocation("vertexIn");
+	attributeTexture = program.attributeLocation("textureIn");
+
+	program.enableAttributeArray(attributeVertex);
+	program.setAttributeBuffer(attributeVertex,
+					  GL_FLOAT,
+					  0,
+					  2,
+					  2 * sizeof(GLfloat));
+
+	program.enableAttributeArray(attributeTexture);
+	program.setAttributeBuffer(attributeTexture,
+					  GL_FLOAT,
+					  8 * sizeof(GLfloat),
+					  2,
+					  2 * sizeof(GLfloat));
+
+	textureUniformY = program.uniformLocation("tex_y");
+	textureUniformU = program.uniformLocation("tex_u");
+	textureUniformV = program.uniformLocation("tex_v");
+	textureUniformStepX = program.uniformLocation("tex_stepx");
+
+	texture = new QOpenGLTexture(QOpenGLTexture::Target2D);
+	texture->create();
 }
 
 void RendererYUY2::paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer) {
 	//qDebug("RendererYUY2::paintGL");
 
 #if defined(USE_YUV) || defined(USE_RGB)
-	program->bind();
+	program.bind();
 #endif
 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image_width / 2, image_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
+	glClearColor(0.0, 0.0, 0.0, 1.0);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	GLenum error_code = glGetError();
-	if (error_code != GL_NO_ERROR) {
-		qDebug() << "RendererYUY2::paintGL: glTexImage2D: error:" << error_code;
-	}
-
-	int idx;
-	idx = glGetUniformLocation(program->programId(), "texl_w"); // Texel width
-	glUniform1f(idx, 1.0 / image_width);
-	idx = glGetUniformLocation(program->programId(), "tex_w"); // Texture width
-	glUniform1f(idx, image_width);
-	idx = glGetUniformLocation(program->programId(), "tex_h"); // Texture height
-	glUniform1f(idx, image_height);
-
+	// Render
 	glActiveTexture(GL_TEXTURE0);
-	glBindTexture(GL_TEXTURE_2D, screen_texture[0]);
-	GLint Y = glGetUniformLocation(program->programId(), "tex");
-	glUniform1i(Y, 0);
 
-	glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, image_width / 2, image_height, GL_RGBA, GL_UNSIGNED_BYTE, image_buffer);
+	glBindTexture(GL_TEXTURE_2D, texture->textureId());
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
-	error_code = glGetError();
-	if (error_code != GL_NO_ERROR) {
-		qDebug() << "RendererYUY2::paintGL: glTexSubImage2D: error:" << error_code;
-	}
 
-	glBegin(GL_QUADS);
-	glTexCoord2i(0,0); glVertex2i(0, window_height);
-	glTexCoord2i(0,1); glVertex2i(0,0);
-	glTexCoord2i(1,1); glVertex2i(window_width, 0);
-	glTexCoord2i(1,0); glVertex2i(window_width, window_height);
-	glEnd();
+	glTexImage2D(GL_TEXTURE_2D,
+			     0,
+			     GL_RGBA,
+			     image_width / 2,
+			     image_height,
+			     0,
+			     GL_RGBA,
+			     GL_UNSIGNED_BYTE,
+			     image_buffer);
+	program.setUniformValue(textureUniformY, 0);
+
+	/*
+	 * The shader needs the step between two texture pixels in the
+	 * horizontal direction, expressed in texture coordinate units
+	 * ([0, 1]). There are exactly width - 1 steps between the
+	 * leftmost and rightmost texels.
+	 */
+	program.setUniformValue(textureUniformStepX,
+					       1.0f / (image_width / 2 - 1));
+
+	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 }
 
 void RendererYUY2::resizeGL(int w, int h) {
 	qDebug("RendererYUY2::resizeGL");
-
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	glOrtho(0, w, 0, h, -1.0, 1.0);
 }
 
