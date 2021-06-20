@@ -1737,9 +1737,14 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("vo", "direct3d,");
 		}
 		#endif
+		#ifdef USE_COREVIDEO_BUFFER
+		if (proc->isMPlayer()) {
+			proc->setOption("vo", "corevideo,");
+		}
+		#endif
 	}
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	// If using Wayland
 	if (pref->wayland_workarounds && qgetenv("XDG_SESSION_TYPE") != "x11") {
 		// Trying to prevent the video to be outside the application window
