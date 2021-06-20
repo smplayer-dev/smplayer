@@ -89,7 +89,15 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
 #ifndef MULTIPLE_VIDEOLAYERS
+	#ifdef USE_COREVIDEO_BUFFER
+	videolayer = new VideoLayerCV(this);
+	#else
+	#ifdef USE_SHM
+	videolayer = new VideoLayerShm(this);
+	#else
 	videolayer = new VideoLayer(this);
+	#endif
+	#endif
 	videolayer->setObjectName("videolayer");
 #else
 	videolayer_normal = new VideoLayer(this);

@@ -75,7 +75,7 @@ void RendererYUY2::initializeGL(int window_width, int window_height) {
 	}
 	program.addShader(vertex_shader);
 
-	glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
+	//glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
 
 	/* Create the fragment shader */
 	int attributeVertex;
