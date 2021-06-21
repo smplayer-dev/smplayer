@@ -52,14 +52,14 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: smplayer-${{env.VERSION}}
-          path: packages/smplayer/package/SMPlayer.dmg
+          path: packages/smplayer/package/*.dmg
 
       - name: Upload package to release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./packages/smplayer/package/SMPlayer.dmg
+          file: ./packages/smplayer/package/*.dmg
           tag: ${{ github.ref }}
           overwrite: true
           file_glob: true
