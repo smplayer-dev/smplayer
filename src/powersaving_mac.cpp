@@ -16,46 +16,27 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "screensaver.h"
-
-#ifdef Q_OS_WIN
-#include "winscreensaver.h"
-#endif
-#ifdef Q_OS_LINUX
-#include "powersaving.h"
-#endif
-#ifdef Q_OS_MACX
 #include "powersaving_mac.h"
-#endif
 
-ScreenSaver::ScreenSaver(QObject * parent) : QObject(parent) {
-#ifdef Q_OS_WIN
-	win_screensaver = new WinScreenSaver();
-#else
-	power_saving = new PowerSaving(this);
-#endif
+#include <IOKit/pwr_mgt/IOPMLib.h>
+#include <QDebug>
+
+static IOPMAssertionID assertion_id;
+
+PowerSaving::PowerSaving(QObject * parent)
+	: QObject(parent)
+{
 }
 
-ScreenSaver::~ScreenSaver() {
-#ifdef Q_OS_WIN
-	delete win_screensaver;
-#endif
+PowerSaving::~PowerSaving() {
 }
 
-void ScreenSaver::enable() {
-#ifdef Q_OS_WIN
-	win_screensaver->enable();
-#else
-	power_saving->uninhibit();
-#endif
+void PowerSaving::inhibit() {
+	qDebug("PowerSaving (mac)::inhibit");
 }
 
-void ScreenSaver::disable() {
-#ifdef Q_OS_WIN
-	win_screensaver->disable();
-#else
-	power_saving->inhibit();
-#endif
+void PowerSaving::uninhibit() {
+	qDebug("PowerSaving (mac)::uninhibit");
 }
 
-#include "moc_screensaver.cpp"
+#include "moc_powersaving_mac.cpp"

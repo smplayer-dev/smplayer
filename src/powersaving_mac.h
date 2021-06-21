@@ -16,46 +16,22 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "screensaver.h"
+#ifndef POWER_SAVING_MAC_H
+#define POWER_SAVING_MAC_H
 
-#ifdef Q_OS_WIN
-#include "winscreensaver.h"
-#endif
-#ifdef Q_OS_LINUX
-#include "powersaving.h"
-#endif
-#ifdef Q_OS_MACX
-#include "powersaving_mac.h"
-#endif
+#include <QObject>
 
-ScreenSaver::ScreenSaver(QObject * parent) : QObject(parent) {
-#ifdef Q_OS_WIN
-	win_screensaver = new WinScreenSaver();
-#else
-	power_saving = new PowerSaving(this);
-#endif
-}
+class PowerSaving : public QObject
+{
+	Q_OBJECT
 
-ScreenSaver::~ScreenSaver() {
-#ifdef Q_OS_WIN
-	delete win_screensaver;
-#endif
-}
+public:
+	PowerSaving(QObject * parent = 0);
+	~PowerSaving();
 
-void ScreenSaver::enable() {
-#ifdef Q_OS_WIN
-	win_screensaver->enable();
-#else
-	power_saving->uninhibit();
-#endif
-}
+public slots:
+	void inhibit();
+	void uninhibit();
+};
 
-void ScreenSaver::disable() {
-#ifdef Q_OS_WIN
-	win_screensaver->disable();
-#else
-	power_saving->inhibit();
 #endif
-}
-
-#include "moc_screensaver.cpp"

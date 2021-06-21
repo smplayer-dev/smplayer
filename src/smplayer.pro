@@ -142,7 +142,7 @@ contains( DEFINES, GLOBALSHORTCUTS ) {
 
 macx {
 	DEFINES -= GLOBALSHORTCUTS
-	DEFINES -= SCREENSAVER_OFF
+	#DEFINES -= SCREENSAVER_OFF
 	DEFINES -= AUTO_SHUTDOWN_PC
 	DEFINES -= SINGLE_INSTANCE
 	DEFINES -= MPRIS2
@@ -578,7 +578,7 @@ contains( DEFINES, CHROMECAST_SUPPORT ) {
 contains( DEFINES, SCREENSAVER_OFF ) {
 	HEADERS += screensaver.h
 	SOURCES += screensaver.cpp
-	unix {
+	unix:!macx {
 		QT += dbus
 		HEADERS += powersaving.h
 		SOURCES += powersaving.cpp
@@ -586,6 +586,10 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 	win32 {
 		HEADERS += winscreensaver.h
 		SOURCES += winscreensaver.cpp
+	}
+	mac {
+		HEADERS += powersaving_mac.h
+		SOURCES += powersaving_mac.cpp
 	}
 }
 
