@@ -21,7 +21,7 @@
 #include <IOKit/pwr_mgt/IOPMLib.h>
 #include <QDebug>
 
-static IOPMAssertionID assertion_id;
+static IOPMAssertionID assertion_id = 0;
 
 PowerSaving::PowerSaving(QObject * parent)
 	: QObject(parent)
@@ -33,10 +33,18 @@ PowerSaving::~PowerSaving() {
 
 void PowerSaving::inhibit() {
 	qDebug("PowerSaving (mac)::inhibit");
+
+	CFStringRef assertion_type = kIOPMAssertionTypeNoDisplaySleep;
+	IOPMAssertionCreateWithName(assertion_type,
+								kIOPMAssertionLevelOn,
+								CFSTR("Playing media content"),
+								&assertion_id);
 }
 
 void PowerSaving::uninhibit() {
 	qDebug("PowerSaving (mac)::uninhibit");
+
+	IOPMAssertionRelease(assertion_id);
 }
 
 #include "moc_powersaving_mac.cpp"
