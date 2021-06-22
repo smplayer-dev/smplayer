@@ -39,7 +39,7 @@ void PowerSaving::inhibit() {
 								CFSTR("Playing media content"),
 								&assertion_id);
 	if (r == kIOReturnSuccess) {
-		qDebug() << "PowerSaving (mac)::inhibit: assertion_id:" << assertion_id;
+		qDebug() << "PowerSaving::inhibit: adding assertion_id:" << assertion_id;
 		assertions << assertion_id;
 	}
 
@@ -49,7 +49,7 @@ void PowerSaving::uninhibit() {
 	qDebug("PowerSaving::uninhibit");
 
 	foreach (IOPMAssertionID assertion_id, assertions) {
-		qDebug() << "PowerSaving::uninhibit: assertion_id:" << assertion_id;
+		qDebug() << "PowerSaving::uninhibit: removing assertion_id:" << assertion_id;
 		IOPMAssertionRelease(assertion_id);
 	}
 	assertions.clear();
