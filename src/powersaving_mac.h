@@ -20,6 +20,8 @@
 #define POWER_SAVING_MAC_H
 
 #include <QObject>
+#include <QList>
+#include <IOKit/pwr_mgt/IOPMLib.h>
 
 class PowerSaving : public QObject
 {
@@ -32,6 +34,9 @@ public:
 public slots:
 	void inhibit();
 	void uninhibit();
+
+protected:
+	QList<IOPMAssertionID> assertions;
 };
 
 #endif
