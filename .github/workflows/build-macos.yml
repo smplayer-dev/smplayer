@@ -20,7 +20,7 @@ jobs:
         run: |
             cd packages/smplayer
             ./get_version.sh
-            VERSION=`cat version`-1~macos
+            VERSION=`cat version`-macos
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Install build dependencies
