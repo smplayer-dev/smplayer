@@ -1872,11 +1872,15 @@ void Playlist::removeSelected() {
 	qDebug() << "Playlist::removeSelected: count:" << count;
 	if (count < 1) return;
 
-	for (int n = count; n > 0; n--) {
-		QModelIndex s_index = proxy->mapToSource(indexes.at(n-1));
-		table->removeRow(s_index.row());
-		setModified(true);
+	std::sort(indexes.begin(), indexes.end());
+	for (int n = indexes.count() - 1; n > -1; --n) {
+		QModelIndex s_index = proxy->mapToSource(indexes.at(n));
+		int selected_row = indexes.at(n).row();
+		int actual_row = s_index.row();
+		qDebug() << "Playlist::removeSelected: selected row:" << selected_row << "actual row:" << actual_row;
+		table->removeRow(actual_row);
 	}
+	setModified(true);
 
 	if (isEmpty()) setModified(false);
 
