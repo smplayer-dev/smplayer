@@ -82,7 +82,9 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 	if (!isFormatSupported(image_format)) {
 		qDebug("VideoLayerRender::init: error: format %d is not supported", image_format);
 	}
+#ifdef USE_GL_WINDOW
 	renderer->setFormat((ImageFormat) image_format);
+#endif
 }
 
 void VideoLayerRender::playingStarted() {
