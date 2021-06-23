@@ -1,0 +1,56 @@
+name: Build flatpak package
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { name: 'normal', options: 'DEFINES+=USE_SHM' }
+          - { name: 'opengl', options: 'DEFINES+=USE_SHM DEFINES+=USE_GL_WINDOW' }
+
+    runs-on: ubuntu-latest
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:kde-5.15
+      options: --privileged
+
+    steps:
+      - name: Checkout smplayer
+        uses: actions/checkout@v2
+
+      - name: Get version
+        run: |
+            ./get_version.sh
+            VERSION=`cat version`
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Checkout flatpack files
+        uses: actions/checkout@v2
+        with:
+           repository: 'smplayer-dev/flatpak-builds'
+
+      - name: Patch
+        run: sed -e 's/NO_DEBUG_ON_CONSOLE/NO_DEBUG_ON_CONSOLE ${{matrix.config.options}}/' -i info.smplayer.SMPlayer.yml
+        
+      - name: Build
+        uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
+        with:
+          bundle: smplayer-${{env.VERSION}}-${{matrix.config.name}}.flatpak
+          manifest-path: info.smplayer.SMPlayer.yml
+          cache: true
+          cache-key: smplayer-build
+    
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./smplayer-${{env.VERSION}}-${{matrix.config.name}}.flatpak
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
