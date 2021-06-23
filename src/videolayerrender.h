@@ -24,15 +24,10 @@
 #include <stdint.h>
 
 #define USE_YUV
-#define USE_YUY2
-#define USE_RGB
 
 #ifdef USE_GL_WINDOW
 #include <QOpenGLFunctions>
-
-class RendererYUV;
-class RendererYUY2;
-class RendererRGB;
+class OpenGLRenderer;
 #endif // USE_GL_WINDOW
 
 class QTimer;
@@ -45,7 +40,7 @@ class VideoLayerRender : public VideoLayer
 	Q_OBJECT
 
 public:
-	enum ImageFormat { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353 };
+	enum ImageFormat { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353, UYVY = 1498831189 };
 
 	VideoLayerRender(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~VideoLayerRender();
@@ -85,15 +80,7 @@ protected:
 	virtual void paintGL();
 	virtual void resizeGL(int w, int h);
 
-	#ifdef USE_YUV
-	RendererYUV * renderer_yuv;
-	#endif
-	#ifdef USE_YUY2
-	RendererYUY2 * renderer_yuy2;
-	#endif
-	#ifdef USE_RGB
-	RendererRGB * renderer_rgb;
-	#endif
+	OpenGLRenderer * renderer;
 #else
 	virtual void paintEvent(QPaintEvent *event);
 	#ifdef USE_YUV

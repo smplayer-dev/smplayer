@@ -603,6 +603,8 @@ contains( DEFINES, USE_SHM ) {
 	}
 
 	contains( DEFINES, USE_GL_WINDOW ) {
+		HEADERS += openglrenderer.h
+		SOURCES += openglrenderer.cpp
 		QT += opengl
 	} else {
 		LIBS += -lswscale
@@ -627,6 +629,8 @@ contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 	LIBS += -framework Cocoa
 
 	contains( DEFINES, USE_GL_WINDOW ) {
+		HEADERS *= openglrenderer.h
+		SOURCES *= openglrenderer.cpp
 		QT += opengl
 		#LIBS += -framework QuartzCore
 	} else {
@@ -634,11 +638,6 @@ contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 		LIBPATH += /usr/local/Cellar/ffmpeg/4.4_2/lib/
 		LIBS += -lswscale
 	}
-}
-
-contains( DEFINES, USE_GL_WINDOW ) {
-	HEADERS += renderer.h rendererrgb.h rendereryuv.h rendereryuy2.h
-	SOURCES += rendererrgb.cpp rendereryuv.cpp rendereryuy2.cpp
 }
 
 unix {

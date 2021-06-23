@@ -16,28 +16,56 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef RENDERERRGB_H
-#define RENDERERRGB_H
+#ifndef OPENGLRENDERER_H
+#define OPENGLRENDERER_H
 
-#include "renderer.h"
-#include <QMap>
+#include "videolayerrender.h"
 
-class RendererRGB : public Renderer
+#include <QOpenGLBuffer>
+#include <QOpenGLFunctions>
+#include <QOpenGLShader>
+#include <QOpenGLShaderProgram>
+#include <QOpenGLTexture>
+
+class OpenGLRenderer : public QObject, protected QOpenGLFunctions
 {
 	Q_OBJECT
 
 public:
-	RendererRGB(QObject * parent = 0);
-	~RendererRGB();
+	enum PackedPattern { UYVY = 1, YUYV = 3 };
+
+	OpenGLRenderer(QObject * parent = 0);
+	~OpenGLRenderer();
+
+	void setFormat(VideoLayerRender::ImageFormat format);
+	int format() { return current_format; };
 
 	virtual void initializeGL(int window_width, int window_height);
 	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer);
 	virtual void resizeGL(int w, int h);
 
 protected:
-	GLuint textureRGB;
-	typedef struct Gformat { GLint internal_format; GLenum format; GLenum type; } Gformat;
-	QMap<uint32_t, Gformat> format_to_gl;
+	void configureTexture(QOpenGLTexture &texture);
+	void createFragmentShader();
+
+	QString rgbShader();
+	QString yuv420Shader();
+	QString packedShader(PackedPattern p = YUYV);
+
+	QOpenGLBuffer vertex_buffer;
+
+	QOpenGLTexture * textures[3];
+
+	QOpenGLShader * vertex_shader;
+	QOpenGLShader * fragment_shader;
+	QOpenGLShaderProgram program;
+
+	GLuint textureUniformU;
+	GLuint textureUniformV;
+	GLuint textureUniformY;
+	GLuint textureUniformStepX;
+
+	int current_format;
 };
 
 #endif
