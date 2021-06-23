@@ -146,7 +146,7 @@ void Preferences::reset() {
 	avoid_screensaver = true;
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	wayland_workarounds = true;
 
 	vdpau.ffh264vdpau = true;
@@ -724,7 +724,7 @@ void Preferences::save() {
 	set->setValue("avoid_screensaver", avoid_screensaver);
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	set->setValue("wayland_workarounds", wayland_workarounds);
 
 	set->setValue("vdpau_ffh264vdpau", vdpau.ffh264vdpau);
@@ -1317,7 +1317,7 @@ void Preferences::load() {
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	wayland_workarounds = set->value("wayland_workarounds", wayland_workarounds).toBool();
 
 	vdpau.ffh264vdpau = set->value("vdpau_ffh264vdpau", vdpau.ffh264vdpau).toBool();

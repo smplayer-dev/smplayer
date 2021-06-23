@@ -84,7 +84,6 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	#ifndef AVOID_SCREENSAVER
 	avoid_screensaver_check->hide();
 	#endif
-	wayland_check->hide();
 #else
 	#ifndef SCREENSAVER_OFF
 	screensaver_check->hide();
@@ -92,7 +91,8 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	screensaver_group->hide();
 #endif
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifndef Q_OS_LINUX
+	wayland_check->hide();
 	vdpau_button->hide();
 #endif
 
@@ -298,10 +298,12 @@ void PrefGeneral::setData(Preferences * pref) {
 	#ifdef SCREENSAVER_OFF
 	setDisableScreensaver( pref->disable_screensaver );
 	#endif
+	#ifdef Q_OS_LINUX
 	wayland_check->setChecked(pref->wayland_workarounds);
+	#endif
 #endif
 
-#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+#ifdef Q_OS_LINUX
 	vdpau = pref->vdpau;
 #endif
 
@@ -411,13 +413,15 @@ void PrefGeneral::getData(Preferences * pref) {
 	#ifdef SCREENSAVER_OFF
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 	#endif
+	#ifdef Q_OS_LINUX
 	if (pref->wayland_workarounds != wayland_check->isChecked()) {
 		requires_restart = true;
 		pref->wayland_workarounds = wayland_check->isChecked();
 	}
+	#endif
 #endif
 
-#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+#ifdef Q_OS_LINUX
 	pref->vdpau = vdpau;
 #endif
 
@@ -980,7 +984,7 @@ void PrefGeneral::player_combo_changed(int idx) {
 		mplayerbin_edit->setVisible(false);
 	}
 
-	#ifndef Q_OS_WIN
+	#ifdef Q_OS_LINUX
 	wayland_check->setVisible(mplayerPath().contains("mpv"));
 	#endif
 }
@@ -992,7 +996,7 @@ void PrefGeneral::vo_combo_changed(int idx) {
 	vo_user_defined_edit->setVisible(visible);
 	vo_user_defined_edit->setFocus();
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau" && mplayerPath().contains("mplayer"));
 	vdpau_button->setVisible(vdpau_button_visible);
 #endif
@@ -1005,7 +1009,7 @@ void PrefGeneral::ao_combo_changed(int idx) {
 	ao_user_defined_edit->setFocus();
 }
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 void PrefGeneral::on_vdpau_button_clicked() {
 	qDebug("PrefGeneral::on_vdpau_button_clicked");
 
@@ -1123,15 +1127,13 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(vo_combo, tr("Video output driver"),
 		tr("Select the video output driver."));
 
-#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+#ifdef Q_OS_LINUX
 	/*
 	setWhatsThis(vdpau_filters_check, tr("Disable video filters when using vdpau"),
 		tr("Usually video filters won't work when using vdpau as video output "
            "driver, so it's wise to keep this option checked.") );
 	*/
-#endif
 
-#ifndef Q_OS_WIN
 	setWhatsThis(wayland_check, tr("Wayland support"),
 		tr("This activates some options to prevent the video being displayed outside the main window."));
 #endif

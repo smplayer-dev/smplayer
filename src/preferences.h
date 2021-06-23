@@ -119,7 +119,7 @@ public:
 	bool avoid_screensaver;
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	bool wayland_workarounds;
 
 	struct VDPAU_settings {

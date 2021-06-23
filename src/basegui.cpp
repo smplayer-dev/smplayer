@@ -1613,7 +1613,7 @@ void BaseGui::enableActionsOnPlaying() {
 	screenGroup->setActionsEnabled(pref->vo.startsWith(OVERLAY_VO));
 #endif
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_LINUX
 	// Disable video filters if using vdpau
 	if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 		/*

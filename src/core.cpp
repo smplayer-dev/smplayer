@@ -1659,7 +1659,7 @@ void Core::startMplayer( QString file, double seek ) {
 	else
 #endif
 	{
-		#ifndef Q_OS_WIN
+		#ifdef Q_OS_LINUX
 		/* if (pref->vo.startsWith("x11")) { */ // My card doesn't support vdpau, I use x11 to test
 		if (pref->vo.startsWith("vdpau")) {
 			QString c;
@@ -1678,7 +1678,7 @@ void Core::startMplayer( QString file, double seek ) {
 			if (pref->coreavc) {
 				proc->setOption("vc", "coreserve,");
 			}
-		#ifndef Q_OS_WIN
+		#ifdef Q_OS_LINUX
 		}
 		#endif
 	}
@@ -2227,10 +2227,12 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifndef Q_OS_WIN
 	if (proc->isMPlayer()) {
+		#ifdef Q_OS_LINUX
 		if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 			qDebug("Core::startMplayer: using vdpau, video filters are ignored");
 			goto end_video_filters;
 		}
+		#endif
 	} else {
 		// MPV
 		if (!pref->hwdec.isEmpty() && pref->hwdec != "no") {
