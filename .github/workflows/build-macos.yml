@@ -1,6 +1,6 @@
 name: Build SMPlayer on Mac OS
 env:
-  mplayer-url: https://github.com/smplayer-dev/mplayer/releases/download/v1.4-69/mplayer.tar.bz2
+  mplayer-url: https://github.com/smplayer-dev/mplayer/releases/download/v1.4-71/mplayer.tar.bz2
 
 on: 
   workflow_dispatch:
