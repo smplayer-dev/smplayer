@@ -20,6 +20,7 @@
 #define VIDEOLAYERRENDER_H
 
 #include "videolayer.h"
+#include <QList>
 #include <QMap>
 #include <stdint.h>
 
@@ -28,10 +29,9 @@
 #ifdef USE_GL_WINDOW
 #include <QOpenGLFunctions>
 class OpenGLRenderer;
-#endif // USE_GL_WINDOW
+#endif
 
-class ConnectionShm;
-class ConnectionCV;
+class ConnectionBase;
 
 class VideoLayerRender : public VideoLayer
 #ifdef USE_GL_WINDOW
@@ -60,8 +60,9 @@ public slots:
 	virtual void render();
 
 protected:
-	bool is_vo_to_render;
+	QList<ConnectionBase *> connections;
 	QList<uint32_t> supported_formats;
+	bool is_vo_to_render;
 
 	int image_width;
 	int image_height;
@@ -70,12 +71,6 @@ protected:
 	unsigned char* image_buffer;
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	unsigned char* conv_buffer;
-#endif
-#ifdef USE_SHM
-	ConnectionShm * shm;
-#endif
-#ifdef USE_COREVIDEO_BUFFER
-	ConnectionCV * cv;
 #endif
 
 protected:

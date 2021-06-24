@@ -71,10 +71,10 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #endif
 
 #ifdef USE_SHM
-	shm = new ConnectionShm(this);
+	connections << new ConnectionShm(this);
 #endif
 #ifdef USE_COREVIDEO_BUFFER
-	cv = new ConnectionCV(this);
+	connections << new ConnectionCV(this);
 #endif
 }
 
@@ -118,12 +118,9 @@ void VideoLayerRender::playingStopped() {
 	}
 #endif
 	VideoLayer::playingStopped();
-#ifdef USE_SHM
-	shm->stop();
-#endif
-#ifdef USE_COREVIDEO_BUFFER
-	cv->stop();
-#endif
+
+	foreach(ConnectionBase * conn, connections) conn->stop();
+
 	update();
 }
 
@@ -131,22 +128,14 @@ void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
 
 	is_vo_to_render = false;
-#ifdef USE_SHM
-	if (vo == "shm") {
-		shm->start();
-		is_vo_to_render = true;
-	} else {
-		shm->stop();
+
+	foreach(ConnectionBase * conn, connections) {
+		conn->stop();
+		if (conn->isVOSupported((vo))) {
+			conn->start();
+			is_vo_to_render = true;
+		}
 	}
-#endif
-#ifdef USE_COREVIDEO_BUFFER
-	if (vo == "corevideo") {
-		cv->start();
-		is_vo_to_render = true;
-	} else {
-		cv->stop();
-	}
-#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	if (is_vo_to_render) setUpdatesEnabled(true);
