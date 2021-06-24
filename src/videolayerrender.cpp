@@ -35,6 +35,9 @@
 #ifdef USE_SHM
 #include "connectionshm.h"
 #endif
+#ifdef USE_COREVIDEO_BUFFER
+#include "connectioncv.h"
+#endif
 
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
@@ -69,6 +72,9 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 
 #ifdef USE_SHM
 	shm = new ConnectionShm(this);
+#endif
+#ifdef USE_COREVIDEO_BUFFER
+	cv = new ConnectionCV(this);
 #endif
 }
 
@@ -115,6 +121,9 @@ void VideoLayerRender::playingStopped() {
 #ifdef USE_SHM
 	shm->stop();
 #endif
+#ifdef USE_COREVIDEO_BUFFER
+	cv->stop();
+#endif
 	update();
 }
 
@@ -135,6 +144,15 @@ void VideoLayerRender::gotVO(QString vo) {
 		shm->stop();
 	}
 #endif
+#ifdef USE_COREVIDEO_BUFFER
+	if (vo == "corevideo") {
+		cv->start();
+		is_vo_to_render = true;
+	} else {
+		cv->stop();
+	}
+#endif
+
 }
 
 void VideoLayerRender::render() {

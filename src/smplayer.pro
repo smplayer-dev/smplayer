@@ -619,8 +619,8 @@ contains( DEFINES, USE_SHM ) {
 contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 	#DEFINES += USE_GL_WINDOW
 
-	HEADERS += videolayercv.h mconnection.h
-	SOURCES += videolayercv.cpp
+	HEADERS += connectioncv.h mconnection.h
+	SOURCES += connectioncv.cpp
 	OBJECTIVE_SOURCES += mconnection.mm
 
 	HEADERS *= videolayerrender.h

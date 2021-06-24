@@ -30,9 +30,8 @@
 class OpenGLRenderer;
 #endif // USE_GL_WINDOW
 
-#ifdef USE_SHM
 class ConnectionShm;
-#endif
+class ConnectionCV;
 
 class VideoLayerRender : public VideoLayer
 #ifdef USE_GL_WINDOW
@@ -77,6 +76,9 @@ protected:
 #endif
 #ifdef USE_SHM
 	ConnectionShm * shm;
+#endif
+#ifdef USE_COREVIDEO_BUFFER
+	ConnectionCV * cv;
 #endif
 
 protected:

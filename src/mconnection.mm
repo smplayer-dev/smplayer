@@ -19,7 +19,7 @@
 #include "mconnection.h"
 
 #include <QMetaObject>
-#include "videolayercv.h"
+#include "connectioncv.h"
 
 #include <stdio.h>
 #include <Cocoa/Cocoa.h>
@@ -44,10 +44,10 @@
 - (id)initWithName:(NSString *)name;
 @end
 
-static VideoLayerCV * vl_obj = 0;
+static ConnectionCV * vl_obj = 0;
 static MPlayerConnection * mpc = 0;
 
-MConnection::MConnection(VideoLayerCV * w, const QString & name) {
+MConnection::MConnection(ConnectionCV * w, const QString & name) {
 	vl_obj = w;
 	buffer_name = name;
 }

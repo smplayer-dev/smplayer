@@ -90,7 +90,8 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 #ifndef MULTIPLE_VIDEOLAYERS
 	#ifdef USE_COREVIDEO_BUFFER
-	videolayer = new VideoLayerCV(this);
+	//videolayer = new VideoLayerCV(this);
+	videolayer = new VideoLayerRender(this);
 	#else
 	#ifdef USE_SHM
 	//videolayer = new VideoLayerShm(this);

@@ -16,25 +16,40 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef MCONNECTION_H
-#define MCONNECTION_H
+#ifndef CONNECTIONCV_H
+#define CONNECTIONCV_H
 
-#include <QObject>
-#include <QString>
+#include "videolayerrender.h"
 
-class ConnectionCV;
+class MConnection;
 
-class MConnection : public QObject
+class ConnectionCV : public QObject
 {
 	Q_OBJECT
-	
+
 public:
-	MConnection(ConnectionCV * w, const QString & name);
-	void startConnection();
-	void stopConnection();
+	ConnectionCV(VideoLayerRender * parent = 0);
+	~ConnectionCV();
+
+public slots:
+	void start();
+	void stop();
+
+protected slots:
+	void init_slot(int width, int height, int bytes, int aspect);
+	void render_slot();
+	void stop_slot();
 
 protected:
+	void start_connection();
+	void stop_connection();
+
+	VideoLayerRender * video_window;
+	MConnection * mconnection;
 	QString buffer_name;
+	int shm_fd;
+	unsigned char * image_buffer;
+	int buffer_size;
 };
 
 #endif
