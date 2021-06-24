@@ -32,6 +32,10 @@
 #include "openglrenderer.h"
 #endif // USE_GL_WINDOW
 
+#ifdef USE_SHM
+#include "connectionshm.h"
+#endif
+
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
 	, is_vo_to_render(false)
@@ -61,6 +65,10 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	#endif
 	format_to_image[RGB24] = QImage::Format_RGB888;
 	format_to_image[RGB16] = QImage::Format_RGB16;
+#endif
+
+#ifdef USE_SHM
+	shm = new ConnectionShm(this);
 #endif
 }
 
@@ -104,6 +112,9 @@ void VideoLayerRender::playingStopped() {
 	}
 #endif
 	VideoLayer::playingStopped();
+#ifdef USE_SHM
+	shm->stop();
+#endif
 	update();
 }
 
@@ -114,6 +125,16 @@ void VideoLayerRender::gotVO(QString vo) {
 	if (is_vo_to_render) setUpdatesEnabled(true);
 #endif
 	VideoLayer::gotVO(vo);
+
+	is_vo_to_render = false;
+#ifdef USE_SHM
+	if (vo == "shm") {
+		shm->start();
+		is_vo_to_render = true;
+	} else {
+		shm->stop();
+	}
+#endif
 }
 
 void VideoLayerRender::render() {

@@ -595,8 +595,8 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 
 #DEFINES += USE_SHM
 contains( DEFINES, USE_SHM ) {
-	HEADERS += videolayerrender.h videolayershm.h
-	SOURCES += videolayerrender.cpp videolayershm.cpp
+	HEADERS += videolayerrender.h connectionshm.h
+	SOURCES += videolayerrender.cpp connectionshm.cpp
 
 	isEqual(QT_MAJOR_VERSION, 5) {
 		#DEFINES += USE_GL_WINDOW

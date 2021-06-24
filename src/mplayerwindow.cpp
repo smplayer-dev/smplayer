@@ -93,7 +93,8 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	videolayer = new VideoLayerCV(this);
 	#else
 	#ifdef USE_SHM
-	videolayer = new VideoLayerShm(this);
+	//videolayer = new VideoLayerShm(this);
+	videolayer = new VideoLayerRender(this);
 	#else
 	videolayer = new VideoLayer(this);
 	#endif

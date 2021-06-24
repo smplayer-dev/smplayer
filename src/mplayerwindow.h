@@ -34,7 +34,7 @@
 #include "config.h"
 
 #if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
-#define MULTIPLE_VIDEOLAYERS
+//#define MULTIPLE_VIDEOLAYERS
 #endif
 
 class QWidget;

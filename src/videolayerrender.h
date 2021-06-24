@@ -30,7 +30,9 @@
 class OpenGLRenderer;
 #endif // USE_GL_WINDOW
 
-class QTimer;
+#ifdef USE_SHM
+class ConnectionShm;
+#endif
 
 class VideoLayerRender : public VideoLayer
 #ifdef USE_GL_WINDOW
@@ -72,6 +74,9 @@ protected:
 	unsigned char* image_buffer;
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	unsigned char* conv_buffer;
+#endif
+#ifdef USE_SHM
+	ConnectionShm * shm;
 #endif
 
 protected:
