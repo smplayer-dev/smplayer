@@ -129,11 +129,6 @@ void VideoLayerRender::playingStopped() {
 
 void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
-	is_vo_to_render = (vo == target_vo);
-#if REPAINT_BACKGROUND_OPTION
-	if (is_vo_to_render) setUpdatesEnabled(true);
-#endif
-	VideoLayer::gotVO(vo);
 
 	is_vo_to_render = false;
 #ifdef USE_SHM
@@ -153,6 +148,10 @@ void VideoLayerRender::gotVO(QString vo) {
 	}
 #endif
 
+#if REPAINT_BACKGROUND_OPTION
+	if (is_vo_to_render) setUpdatesEnabled(true);
+#endif
+	VideoLayer::gotVO(vo);
 }
 
 void VideoLayerRender::render() {

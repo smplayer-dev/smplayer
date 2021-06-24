@@ -47,8 +47,6 @@ public:
 	~VideoLayerRender();
 
 	void init(int width, int height, int bytes_per_pixel, uint32_t format, unsigned char* buffer);
-	void setVOToRender(const QString & vo) { target_vo = vo; }
-	QString VOToRender() { return target_vo; }
 
 	bool isFormatSupported(uint32_t format) {
 		return supported_formats.contains(format);
@@ -62,7 +60,6 @@ public slots:
 	virtual void render();
 
 protected:
-	QString target_vo;
 	bool is_vo_to_render;
 	QList<uint32_t> supported_formats;
 
