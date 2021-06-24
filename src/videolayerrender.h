@@ -41,8 +41,6 @@ class VideoLayerRender : public VideoLayer
 	Q_OBJECT
 
 public:
-	enum ImageFormat { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353, UYVY = 1498831189 };
-
 	VideoLayerRender(QWidget* parent = 0, Qt::WindowFlags f = QFlag(0));
 	~VideoLayerRender();
 

@@ -18,6 +18,7 @@
 
 #include "connectioncv.h"
 #include "mconnection.h"
+#include "videoformats.h"
 
 #include <QCoreApplication>
 #include <QDebug>
@@ -71,7 +72,7 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 		return;
 	}
 
-	video_window->init(image_width, image_height, image_bytes, VideoLayerRender::YUY2, image_buffer);
+	video_window->init(image_width, image_height, image_bytes, VideoFormats::YUY2, image_buffer);
 }
 
 void ConnectionCV::render_slot() {

@@ -17,6 +17,7 @@
 */
 
 #include "videolayerrender.h"
+#include "videoformats.h"
 #include <QCoreApplication>
 #include <QTimer>
 #include <QMetaObject>
@@ -38,6 +39,8 @@
 #ifdef USE_COREVIDEO_BUFFER
 #include "connectioncv.h"
 #endif
+
+using namespace VideoFormats;
 
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
@@ -97,7 +100,7 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 		qDebug("VideoLayerRender::init: error: format %d is not supported", image_format);
 	}
 #ifdef USE_GL_WINDOW
-	renderer->setFormat((ImageFormat) image_format);
+	renderer->setFormat((VideoFormats::Format) image_format);
 #endif
 }
 
