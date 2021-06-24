@@ -19,11 +19,12 @@
 #ifndef CONNECTIONSHM_H
 #define CONNECTIONSHM_H
 
+#include "connectionbase.h"
 #include "videolayerrender.h"
 
 class QTimer;
 
-class ConnectionShm : public QObject
+class ConnectionShm : public ConnectionBase
 {
 	Q_OBJECT
 
@@ -31,9 +32,11 @@ public:
 	ConnectionShm(VideoLayerRender * parent);
 	~ConnectionShm();
 
+	bool isVOSupported(const QString & vo) { return vo == "shm"; }
+
 public slots:
-	void start();
-	void stop();
+	virtual void start();
+	virtual void stop();
 
 protected slots:
 	virtual void render_slot();
@@ -42,8 +45,6 @@ protected slots:
 	virtual void stop_connection();
 
 protected:
-	VideoLayerRender * video_window;
-
 	QString buffer_name;
 
 	QTimer * render_timer;

@@ -28,15 +28,13 @@
 #include <errno.h>
 
 ConnectionCV::ConnectionCV(VideoLayerRender * parent)
-	: QObject(parent)
-	, video_window(parent)
+	: ConnectionBase(parent)
 	, shm_fd(0)
 	, image_buffer(0)
 	, buffer_size(0)
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 	mconnection = new MConnection(this, buffer_name);
-	//setVOToRender("corevideo");
 }
 
 ConnectionCV::~ConnectionCV() {

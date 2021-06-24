@@ -19,11 +19,12 @@
 #ifndef CONNECTIONCV_H
 #define CONNECTIONCV_H
 
+#include "connectionbase.h"
 #include "videolayerrender.h"
 
 class MConnection;
 
-class ConnectionCV : public QObject
+class ConnectionCV : public ConnectionBase
 {
 	Q_OBJECT
 
@@ -31,9 +32,11 @@ public:
 	ConnectionCV(VideoLayerRender * parent = 0);
 	~ConnectionCV();
 
+	bool isVOSupported(const QString & vo) { return vo == "corevideo"; }
+
 public slots:
-	void start();
-	void stop();
+	virtual void start();
+	virtual void stop();
 
 protected slots:
 	void init_slot(int width, int height, int bytes, int aspect);
@@ -44,7 +47,6 @@ protected:
 	void start_connection();
 	void stop_connection();
 
-	VideoLayerRender * video_window;
 	MConnection * mconnection;
 	QString buffer_name;
 	int shm_fd;
