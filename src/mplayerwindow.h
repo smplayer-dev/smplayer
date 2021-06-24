@@ -33,10 +33,6 @@
 #include "videolayer.h"
 #include "config.h"
 
-#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
-//#define MULTIPLE_VIDEOLAYERS
-#endif
-
 class QWidget;
 class QLabel;
 class QKeyEvent;
@@ -147,10 +143,6 @@ protected:
 	virtual void wheelEvent( QWheelEvent * e );
 	void moveLayer( int offset_x, int offset_y );
 
-#ifdef MULTIPLE_VIDEOLAYERS
-	void switchVideoLayer(VideoLayer * new_videolayer);
-#endif
-
 signals:
     //void rightButtonReleased( QPoint p );
 	void doubleClicked();
@@ -174,15 +166,6 @@ protected:
 	QLabel * logo;
 
 	VideoLayer * videolayer;
-#ifdef MULTIPLE_VIDEOLAYERS
-	VideoLayer * videolayer_normal;
-	#ifdef USE_SHM
-	VideoLayerShm * videolayer_shm;
-	#endif
-	#ifdef USE_COREVIDEO_BUFFER
-	VideoLayerCV * videolayer_cv;
-	#endif
-#endif
 
 	// Zoom and moving
 	int offset_x, offset_y;

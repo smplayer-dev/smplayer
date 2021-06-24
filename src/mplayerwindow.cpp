@@ -48,11 +48,8 @@
 #include <QTapGesture>
 #endif
 
-#ifdef USE_COREVIDEO_BUFFER
-#include "videolayercv.h"
-#endif
-#ifdef USE_SHM
-#include "videolayershm.h"
+#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
+#include "videolayerrender.h"
 #endif
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
@@ -88,33 +85,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
-#ifndef MULTIPLE_VIDEOLAYERS
-	#ifdef USE_COREVIDEO_BUFFER
-	//videolayer = new VideoLayerCV(this);
+#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
 	videolayer = new VideoLayerRender(this);
-	#else
-	#ifdef USE_SHM
-	//videolayer = new VideoLayerShm(this);
-	videolayer = new VideoLayerRender(this);
-	#else
-	videolayer = new VideoLayer(this);
-	#endif
-	#endif
-	videolayer->setObjectName("videolayer");
 #else
-	videolayer_normal = new VideoLayer(this);
-	videolayer_normal->setObjectName("videolayer");
-	#ifdef USE_SHM
-	videolayer_shm = new VideoLayerShm(this);
-	videolayer_shm->hide();
-	videolayer_shm->setObjectName("videolayer_shm");
-	#endif
-	#ifdef USE_COREVIDEO_BUFFER
-	videolayer_cv = new VideoLayerCV(this);
-	videolayer_cv->hide();
-	videolayer_cv->setObjectName("videolayer_cv");
-	#endif
-	videolayer = videolayer_normal;
+	videolayer = new VideoLayer(this);
 #endif
 
 	logo = new QLabel( this );
@@ -202,32 +176,8 @@ void MplayerWindow::playingStopped() {
 }
 
 void MplayerWindow::gotVO(QString vo) {
-#ifdef MULTIPLE_VIDEOLAYERS
-	#ifdef USE_SHM
-	if (vo == "shm" && videolayer->objectName() != "videolayer_shm") {
-		switchVideoLayer(videolayer_shm);
-	}
-	#endif
-	#ifdef USE_COREVIDEO_BUFFER
-	if (vo == "corevideo" && videolayer->objectName() != "videolayer_cv") {
-		switchVideoLayer(videolayer_cv);
-	}
-	#endif
-#endif
 	videolayer->gotVO(vo);
 }
-
-#ifdef MULTIPLE_VIDEOLAYERS
-void MplayerWindow::switchVideoLayer(VideoLayer * new_videolayer) {
-	qDebug() << "MplayerWindow::switchVideoLayer:" << new_videolayer->objectName();
-
-	videolayer->playingStopped();
-	videolayer->hide();
-	videolayer = new_videolayer;
-	videolayer->show();
-	videolayer->playingStarted();
-}
-#endif
 
 #if REPAINT_BACKGROUND_OPTION
 void MplayerWindow::setRepaintBackground(bool b) {
