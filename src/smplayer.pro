@@ -595,8 +595,8 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 
 #DEFINES += USE_SHM
 contains( DEFINES, USE_SHM ) {
-	HEADERS += videoformats.h videolayerrender.h connectionbase.h connectionshm.h
-	SOURCES += videolayerrender.cpp connectionshm.cpp
+	HEADERS += videolayerrender.h connectionbase.h connectionshm.h
+	SOURCES += videolayerrender.cpp connectionbase.cpp connectionshm.cpp
 
 	isEqual(QT_MAJOR_VERSION, 5) {
 		#DEFINES += USE_GL_WINDOW
@@ -623,8 +623,8 @@ contains( DEFINES, USE_COREVIDEO_BUFFER ) {
 	SOURCES += connectioncv.cpp
 	OBJECTIVE_SOURCES += mconnection.mm
 
-	HEADERS *= videoformats.h videolayerrender.h connectionbase.h
-	SOURCES *= videolayerrender.cpp
+	HEADERS *= videolayerrender.h connectionbase.h
+	SOURCES *= videolayerrender.cpp connectionbase.cpp
 
 	LIBS += -framework Cocoa
 

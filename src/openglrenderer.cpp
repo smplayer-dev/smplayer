@@ -36,7 +36,7 @@ OpenGLRenderer::OpenGLRenderer(QObject * parent)
 OpenGLRenderer::~OpenGLRenderer() {
 }
 
-void OpenGLRenderer::setFormat(VideoFormats::Format format) {
+void OpenGLRenderer::setFormat(ConnectionBase::Format format) {
 	qDebug("OpenGLRenderer::setFormat: %d", format);
 
 	if (format != current_format) {
@@ -59,11 +59,11 @@ void OpenGLRenderer::createFragmentShader() {
 	QString code;
 
 	switch(current_format) {
-		case VideoFormats::RGB24:
-		case VideoFormats::RGB16: code = rgbShader(); break;
-		case VideoFormats::YUY2:  code = packedShader(YUYV); break;
-		case VideoFormats::UYVY:  code = packedShader(UYVY); break;
-		case VideoFormats::I420:  code = yuv420Shader(); break;
+		case ConnectionBase::RGB24:
+		case ConnectionBase::RGB16: code = rgbShader(); break;
+		case ConnectionBase::YUY2:  code = packedShader(YUYV); break;
+		case ConnectionBase::UYVY:  code = packedShader(UYVY); break;
+		case ConnectionBase::I420:  code = yuv420Shader(); break;
 	}
 
 	//qDebug() << "OpenGLRenderer::createFragmentShader: code:" << code;
@@ -169,7 +169,7 @@ void OpenGLRenderer::paintGL(int window_width, int window_height, int image_widt
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	// Render
-	if (current_format == VideoFormats::YUY2 || current_format == VideoFormats::UYVY) {
+	if (current_format == ConnectionBase::YUY2 || current_format == ConnectionBase::UYVY) {
 		glActiveTexture(GL_TEXTURE0);
 		configureTexture(*textures[0]);
 
@@ -186,7 +186,7 @@ void OpenGLRenderer::paintGL(int window_width, int window_height, int image_widt
 		program.setUniformValue(textureUniformStepX, 1.0f / (image_width / 2 - 1));
 	}
 	else
-	if (current_format == VideoFormats::RGB24) {
+	if (current_format == ConnectionBase::RGB24) {
 		glActiveTexture(GL_TEXTURE0);
 		configureTexture(*textures[0]);
 		glTexImage2D(GL_TEXTURE_2D,
@@ -201,7 +201,7 @@ void OpenGLRenderer::paintGL(int window_width, int window_height, int image_widt
 		program.setUniformValue(textureUniformY, 0);
 	}
 	else
-	if (current_format == VideoFormats::RGB16) {
+	if (current_format == ConnectionBase::RGB16) {
 		glActiveTexture(GL_TEXTURE0);
 		configureTexture(*textures[0]);
 		glTexImage2D(GL_TEXTURE_2D,
@@ -216,7 +216,7 @@ void OpenGLRenderer::paintGL(int window_width, int window_height, int image_widt
 		program.setUniformValue(textureUniformY, 0);
 	}
 	else
-	if (current_format == VideoFormats::I420) {
+	if (current_format == ConnectionBase::I420) {
 		uint32_t plane_size[2];
 		plane_size[0] = image_width * image_height;
 		plane_size[1] = (image_width * image_height) / 2;

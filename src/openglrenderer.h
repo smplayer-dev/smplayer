@@ -19,7 +19,7 @@
 #ifndef OPENGLRENDERER_H
 #define OPENGLRENDERER_H
 
-#include "videoformats.h"
+#include "connectionbase.h"
 
 #include <QOpenGLBuffer>
 #include <QOpenGLFunctions>
@@ -37,7 +37,7 @@ public:
 	OpenGLRenderer(QObject * parent = 0);
 	~OpenGLRenderer();
 
-	void setFormat(VideoFormats::Format format);
+	void setFormat(ConnectionBase::Format format);
 	int format() { return current_format; };
 
 	virtual void initializeGL(int window_width, int window_height);

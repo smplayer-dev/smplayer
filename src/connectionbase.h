@@ -27,10 +27,14 @@ class ConnectionBase : public QObject
 	Q_OBJECT
 
 public:
+	enum Format { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353, UYVY = 1498831189 };
+
 	ConnectionBase(VideoLayerRender * parent) : QObject(parent), video_window(parent) {}
 	~ConnectionBase() {}
 
 	virtual bool isVOSupported(const QString & vo) = 0;
+
+	QString formatToString(Format f);
 
 public slots:
 	virtual void start() = 0;

@@ -17,7 +17,6 @@
 */
 
 #include "videolayerrender.h"
-#include "videoformats.h"
 #include <QCoreApplication>
 #include <QTimer>
 #include <QMetaObject>
@@ -33,14 +32,13 @@
 #include "openglrenderer.h"
 #endif // USE_GL_WINDOW
 
+#include "connectionbase.h"
 #ifdef USE_SHM
 #include "connectionshm.h"
 #endif
 #ifdef USE_COREVIDEO_BUFFER
 #include "connectioncv.h"
 #endif
-
-using namespace VideoFormats;
 
 VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	: VideoLayer(parent, f)
@@ -63,11 +61,12 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	//qDebug() << "VideoLayerRender::VideoLayerRender: format:" << format();
 
 	renderer = new OpenGLRenderer(this);
-	supported_formats << RGB24 << RGB16 << I420 << YUY2 << UYVY;
+	supported_formats << ConnectionBase::RGB24 << ConnectionBase::RGB16
+					  << ConnectionBase::I420 << ConnectionBase::YUY2 << ConnectionBase::UYVY;
 #else
-	supported_formats << RGB24 << RGB16;
+	supported_formats << ConnectionBase::RGB24 << ConnectionBase::RGB16;
 	#ifdef USE_YUV
-	supported_formats << I420 << YUY2;
+	supported_formats << ConnectionBase::I420 << ConnectionBase::YUY2;
 	#endif
 	format_to_image[RGB24] = QImage::Format_RGB888;
 	format_to_image[RGB16] = QImage::Format_RGB16;
@@ -100,7 +99,7 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 		qDebug("VideoLayerRender::init: error: format %d is not supported", image_format);
 	}
 #ifdef USE_GL_WINDOW
-	renderer->setFormat((VideoFormats::Format) image_format);
+	renderer->setFormat((ConnectionBase::Format) image_format);
 #endif
 }
 
