@@ -19,14 +19,14 @@
 #include "connectionbase.h"
 
 QString ConnectionBase::formatToString(Format f) {
-    switch (f) {
-        case RGB24: return "RGB24";
-        case RGB16: return "RGB16";
-        case I420: return "I420";
-        case YUY2: return "YUY2";
-        case UYVY: return "UYVY";
-    }
-    return QString("unknown (%1)").arg(f);
+	switch (f) {
+		case RGB24: return "RGB24";
+		case RGB16: return "RGB16";
+		case I420: return "I420";
+		case YUY2: return "YUY2";
+		case UYVY: return "UYVY";
+	}
+	return QString("unknown (%1)").arg(f);
 }
 
 #include "moc_connectionbase.cpp"

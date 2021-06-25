@@ -594,16 +594,16 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 }
 
 contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
-    HEADERS += videolayerrender.h connectionbase.h
+	HEADERS += videolayerrender.h connectionbase.h
 	SOURCES += videolayerrender.cpp connectionbase.cpp
 
-    contains( DEFINES, USE_SHM ) {
-	    HEADERS += connectionshm.h
+	contains( DEFINES, USE_SHM ) {
+		HEADERS += connectionshm.h
 		SOURCES += connectionshm.cpp
 	}
 
-    contains( DEFINES, USE_COREVIDEO_BUFFER) {
-	    HEADERS += connectioncv.h mconnection.h
+	contains( DEFINES, USE_COREVIDEO_BUFFER) {
+		HEADERS += connectioncv.h mconnection.h
 		SOURCES += connectioncv.cpp
 		OBJECTIVE_SOURCES += mconnection.mm
 		LIBS += -framework Cocoa
