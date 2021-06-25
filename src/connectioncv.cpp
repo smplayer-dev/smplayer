@@ -43,7 +43,7 @@ ConnectionCV::~ConnectionCV() {
 
 void ConnectionCV::stop() {
 	qDebug("ConnectionCV::stop");
-	//stop_connection();
+	stop_connection();
 }
 
 void ConnectionCV::start() {
