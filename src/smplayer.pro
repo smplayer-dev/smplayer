@@ -36,6 +36,7 @@ DEFINES += INITIAL_BLACKBORDERS
 DEFINES += CHROMECAST_SUPPORT
 DEFINES += USE_QRCODE
 DEFINES += SCREENSAVER_OFF
+#DEFINES += USE_SHM
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -142,14 +143,13 @@ contains( DEFINES, GLOBALSHORTCUTS ) {
 
 macx {
 	DEFINES -= GLOBALSHORTCUTS
-	#DEFINES -= SCREENSAVER_OFF
 	DEFINES -= AUTO_SHUTDOWN_PC
 	DEFINES -= SINGLE_INSTANCE
 	DEFINES -= MPRIS2
 	DEFINES -= MPV_SUPPORT
 	DEFINES += USE_SHM
 	DEFINES += USE_COREVIDEO_BUFFER
-	#DEFINES += USE_GL_WINDOW
+	DEFINES += USE_GL_WINDOW
 	message("Some features are disabled on macx.")
 }
 
@@ -593,10 +593,21 @@ contains( DEFINES, SCREENSAVER_OFF ) {
 	}
 }
 
-#DEFINES += USE_SHM
-contains( DEFINES, USE_SHM ) {
-	HEADERS += videolayerrender.h connectionbase.h connectionshm.h
-	SOURCES += videolayerrender.cpp connectionbase.cpp connectionshm.cpp
+contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
+    HEADERS += videolayerrender.h connectionbase.h
+	SOURCES += videolayerrender.cpp connectionbase.cpp
+
+    contains( DEFINES, USE_SHM ) {
+	    HEADERS += connectionshm.h
+		SOURCES += connectionshm.cpp
+	}
+
+    contains( DEFINES, USE_COREVIDEO_BUFFER) {
+	    HEADERS += connectioncv.h mconnection.h
+		SOURCES += connectioncv.cpp
+		OBJECTIVE_SOURCES += mconnection.mm
+		LIBS += -framework Cocoa
+	}
 
 	isEqual(QT_MAJOR_VERSION, 5) {
 		#DEFINES += USE_GL_WINDOW
@@ -608,35 +619,14 @@ contains( DEFINES, USE_SHM ) {
 		QT += opengl
 	} else {
 		LIBS += -lswscale
+		mac {
+		    INCLUDEPATH += /usr/local/Cellar/ffmpeg/4.4_2/include/
+			LIBS += -L/usr/local/Cellar/ffmpeg/4.4_2/lib/
+		}
 	}
 
 	unix:!macx {
 		LIBS += -lrt
-	}
-}
-
-#DEFINES += USE_COREVIDEO_BUFFER
-contains( DEFINES, USE_COREVIDEO_BUFFER ) {
-	#DEFINES += USE_GL_WINDOW
-
-	HEADERS += connectioncv.h mconnection.h
-	SOURCES += connectioncv.cpp
-	OBJECTIVE_SOURCES += mconnection.mm
-
-	HEADERS *= videolayerrender.h connectionbase.h
-	SOURCES *= videolayerrender.cpp connectionbase.cpp
-
-	LIBS += -framework Cocoa
-
-	contains( DEFINES, USE_GL_WINDOW ) {
-		HEADERS *= openglrenderer.h
-		SOURCES *= openglrenderer.cpp
-		QT += opengl
-		#LIBS += -framework QuartzCore
-	} else {
-		INCLUDEPATH += /usr/local/Cellar/ffmpeg/4.4_2/include/
-		LIBPATH += /usr/local/Cellar/ffmpeg/4.4_2/lib/
-		LIBS += -lswscale
 	}
 }
 
