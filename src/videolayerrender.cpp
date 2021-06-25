@@ -87,7 +87,8 @@ VideoLayerRender::~VideoLayerRender() {
 }
 
 void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t format, unsigned char* buffer) {
-	qDebug("VideoLayerRender::init: w: %d h: %d bytes: %d format: %d", width, height, bytes_per_pixel, format);
+	qDebug("VideoLayerRender::init: w: %d h: %d bytes: %d format: %s", width, height, bytes_per_pixel,
+		   ConnectionBase::formatToString((ConnectionBase::Format) format).toLatin1().constData());
 
 	image_width = width;
 	image_height = height;
