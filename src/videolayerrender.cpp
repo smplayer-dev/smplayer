@@ -68,8 +68,8 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 	#ifdef USE_YUV
 	supported_formats << ConnectionBase::I420 << ConnectionBase::YUY2;
 	#endif
-	format_to_image[RGB24] = QImage::Format_RGB888;
-	format_to_image[RGB16] = QImage::Format_RGB16;
+	format_to_image[ConnectionBase::RGB24] = QImage::Format_RGB888;
+	format_to_image[ConnectionBase::RGB16] = QImage::Format_RGB16;
 #endif
 
 #ifdef USE_SHM
@@ -161,13 +161,13 @@ void VideoLayerRender::render() {
 		conv_buffer = (unsigned char*) malloc(image_width * image_height * 3);
 		qDebug("VideoLayerRender::render: %d %d conv_buffer: %p", image_width, image_height, conv_buffer);
 	}
-	if (image_format == I420) {
+	if (image_format == ConnectionBase::I420) {
 		YUV420PtoRGB24(image_buffer, conv_buffer, image_width, image_height);
 		QImage i(conv_buffer, image_width, image_height, image_width * 3, QImage::Format_RGB888);
 		frame = QPixmap::fromImage(i);
 	}
 	else
-	if (image_format == YUY2) {
+	if (image_format == ConnectionBase::YUY2) {
 		YUY2toRGB24(image_buffer, conv_buffer, image_width, image_height);
 		QImage i(conv_buffer, image_width, image_height, image_width * 3, QImage::Format_RGB888);
 		frame = QPixmap::fromImage(i);
