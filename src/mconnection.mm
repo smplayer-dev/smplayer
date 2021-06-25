@@ -53,14 +53,14 @@ MConnection::MConnection(ConnectionCV * w, const QString & name) {
 }
 
 void MConnection::startConnection() {
-	char *name = buffer_name.toLatin1().data();
-	mpc = [[MPlayerConnection alloc]initWithName:[[NSString stringWithCString:name] autorelease]];
+	NSString * name = buffer_name.toNSString();
+	mpc = [[MPlayerConnection alloc] initWithName:name];
 }
 
 void MConnection::stopConnection() {
 	if (mpc) {
 		//[mpc abort];
-		mpc = 0;
+		mpc = nil;
 	}
 }
 
