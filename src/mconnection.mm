@@ -59,7 +59,7 @@ void MConnection::startConnection() {
 
 void MConnection::stopConnection() {
 	if (mpc) {
-		[mpc abort];
+		//[mpc abort];
 		mpc = 0;
 	}
 }
