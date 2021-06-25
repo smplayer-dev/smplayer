@@ -236,14 +236,14 @@ void VideoLayerRender::YUV420PtoRGB24(unsigned char* yuv_src, unsigned char* rgb
 	int rgb24_stride[1] = { w * 3 };
 
 	uint8_t * yuv[3];
-	yuv[0] = { yuv_src };
-	yuv[1] = { yuv_src + w * h };
-	yuv[2] = { yuv_src + (w * h) + ((w * h) / 2) };
+	yuv[0] = yuv_src;
+	yuv[1] = yuv_src + w * h;
+	yuv[2] = yuv_src + (w * h) + ((w * h) / 2);
 
 	int yuv_stride[3];
-	yuv_stride[0] = { w };
-	yuv_stride[1] = { w / 2 };
-	yuv_stride[2] = { w / 2 };
+	yuv_stride[0] = w;
+	yuv_stride[1] = w / 2;
+	yuv_stride[2] = w / 2;
 
 	sws_scale(sws_ctx, yuv, yuv_stride, 0, h, rgb24, rgb24_stride);
 }

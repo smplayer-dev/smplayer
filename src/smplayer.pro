@@ -149,7 +149,7 @@ macx {
 	DEFINES -= MPV_SUPPORT
 	DEFINES += USE_SHM
 	DEFINES += USE_COREVIDEO_BUFFER
-	DEFINES += USE_GL_WINDOW
+	#DEFINES += USE_GL_WINDOW
 	message("Some features are disabled on macx.")
 }
 
