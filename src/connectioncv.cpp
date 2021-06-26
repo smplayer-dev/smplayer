@@ -35,6 +35,7 @@ ConnectionCV::ConnectionCV(VideoLayerRender * parent)
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 	mconnection = new MConnection(this, buffer_name);
+	start_connection();
 }
 
 ConnectionCV::~ConnectionCV() {
@@ -43,12 +44,12 @@ ConnectionCV::~ConnectionCV() {
 
 void ConnectionCV::stop() {
 	qDebug("ConnectionCV::stop");
-	stop_connection();
+	//stop_connection();
 }
 
 void ConnectionCV::start() {
 	qDebug("ConnectionCV::start");
-	start_connection();
+	//start_connection();
 }
 
 void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
@@ -71,7 +72,11 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 		return;
 	}
 
-	video_window->init(image_width, image_height, image_bytes, ConnectionBase::YUY2, image_buffer);
+	if (current_vo == "sharedbuffer") {
+		video_window->init(image_width, image_height, image_bytes, ConnectionBase::RGB24, image_buffer);
+	} else {
+		video_window->init(image_width, image_height, image_bytes, ConnectionBase::YUY2, image_buffer);
+	}
 }
 
 void ConnectionCV::render_slot() {
