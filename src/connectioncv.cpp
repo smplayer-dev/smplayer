@@ -72,11 +72,8 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 		return;
 	}
 
-	if (current_vo == "sharedbuffer") {
-		video_window->init(image_width, image_height, image_bytes, ConnectionBase::RGB24, image_buffer);
-	} else {
-		video_window->init(image_width, image_height, image_bytes, ConnectionBase::YUY2, image_buffer);
-	}
+	uint32_t format = ConnectionBase::UYVY;
+	video_window->init(image_width, image_height, image_bytes, format, image_buffer);
 }
 
 void ConnectionCV::render_slot() {

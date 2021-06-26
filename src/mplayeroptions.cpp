@@ -78,7 +78,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		if (vo.startsWith("corevideo")) {
 			vo = QString("corevideo:buffer_name=%1").arg(buffer_name);
 			arg << "-vo" << vo + ",";
-			//arg << "-vf-add" << "format=rgb24";
+			arg << "-vf-add" << "format=UYVY";
 			return;
 		}
 		#endif
