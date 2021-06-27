@@ -1737,11 +1737,17 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("vo", "direct3d,");
 		}
 		#endif
+		#ifdef Q_OS_MACX
+		#ifdef USE_SHM
+		proc->setOption("vo", "shm,");
+		#else
 		#ifdef USE_COREVIDEO_BUFFER
 		if (proc->isMPlayer()) {
 			proc->setOption("vo", "corevideo,");
 		}
 		#endif
+		#endif // USE_SHM
+		#endif // Q_OS_MACX
 	}
 
 #ifdef Q_OS_LINUX
