@@ -32,7 +32,7 @@ public:
 	ConnectionCV(VideoLayerRender * parent = 0);
 	~ConnectionCV();
 
-	bool isVOSupported(const QString & vo) { return (vo == "corevideo" || vo == "cocoashm"); }
+	bool isVOSupported(const QString & vo) { return (vo == "corevideo" || vo == "sharedbuffer"); }
 
 public slots:
 	virtual void start();

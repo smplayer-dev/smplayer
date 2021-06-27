@@ -58,7 +58,14 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 	int image_width = width;
 	int image_height = height;
 	int image_bytes = bytes;
-	buffer_size = image_width * image_height * image_bytes;
+
+	uint32_t format = ConnectionBase::UYVY;
+	if (bytes == 1) {
+		buffer_size = image_width * image_height * 2;
+		format = ConnectionBase::I420;
+	} else {
+		buffer_size = image_width * image_height * image_bytes;
+	}
 
 	shm_fd = shm_open(buffer_name.toLatin1().constData(), O_RDONLY, S_IRUSR);
 	if (shm_fd == -1) {
@@ -72,7 +79,6 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 		return;
 	}
 
-	uint32_t format = ConnectionBase::UYVY;
 	video_window->init(image_width, image_height, image_bytes, format, image_buffer);
 }
 

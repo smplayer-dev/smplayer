@@ -437,12 +437,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		#endif
 
 		#if defined(USE_COREVIDEO_BUFFER) || defined(USE_SHM)
-		if (vo.startsWith("shm") || vo.startsWith("cocoashm")) {
+		if (vo.startsWith("shm") || vo.startsWith("sharedbuffer")) {
 			QString buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 			if (vo.startsWith("shm"))
 				arg << "--shm-buffer-name=" + buffer_name;
 			else
-				arg << "--cocoashm-buffer-name=" + buffer_name;
+				arg << "--sharedbuffer-name=" + buffer_name;
 		}
 		#endif
 
