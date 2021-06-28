@@ -40,6 +40,20 @@ jobs:
             cd packages/smplayer
             ./compile_mac.sh
 
+      - name: Install themes
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-themes.git packages/smplayer-themes
+            cd packages/smplayer-themes
+            make
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/MacOS/themes
+
+      - name: Install skins
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-skins.git packages/smplayer-skins
+            cd packages/smplayer-skins
+            make
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/MacOS/themes
+
       - name: Install mplayer
         run: |
             wget ${{ env.mplayer-url }}
