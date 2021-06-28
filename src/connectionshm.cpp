@@ -143,8 +143,16 @@ void ConnectionShm::start_connection() {
 	image_data = (unsigned char*) header + header->header_size;
 	qDebug("ConnectionShm::start_connection: header: %p image_data: %p", header, image_data);
 
-	video_window->init(image_width, image_height, image_bytes, header->format, image_data);
-	qDebug("ConnectionShm::start_connection: header_size: %d format: %d", header->header_size, header->format);
+	// Convert formats from mpv
+	uint32_t format = header->format;
+	switch (format) {
+		case ConnectionBase::MP_YUV420P: format = ConnectionBase::I420; break;
+		case ConnectionBase::MP_UYVY422: format = ConnectionBase::UYVY; break;
+		case ConnectionBase::MP_RGB24: format = ConnectionBase::RGB24; break;
+	}
+
+	video_window->init(image_width, image_height, image_bytes, format, image_data);
+	qDebug("ConnectionShm::start_connection: header_size: %d format: %d", header->header_size, format);
 
 	connect_timer->stop();
 	render_timer->setInterval(1000 / ceil(header->fps));

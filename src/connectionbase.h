@@ -27,7 +27,9 @@ class ConnectionBase : public QObject
 	Q_OBJECT
 
 public:
-	enum Format { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553, YUY2 = 844715353, UYVY = 1498831189 };
+	enum Format { RGB24 = 1380401688, RGB16 = 1380401680, I420 = 808596553,
+                  YUY2 = 844715353, UYVY = 1498831189,
+                  MP_YUV420P = 1002, MP_UYVY422 = 1005, MP_RGB24 = 1013 };
 
 	ConnectionBase(VideoLayerRender * parent) : QObject(parent), video_window(parent) {}
 	~ConnectionBase() {}
