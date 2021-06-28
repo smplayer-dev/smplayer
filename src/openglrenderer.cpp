@@ -37,7 +37,7 @@ OpenGLRenderer::~OpenGLRenderer() {
 }
 
 void OpenGLRenderer::setFormat(ConnectionBase::Format format) {
-	qDebug("OpenGLRenderer::setFormat: %d", format);
+	qDebug() << "OpenGLRenderer::setFormat:" << ConnectionBase::formatToString(format);
 
 	if (format != current_format) {
 		if (program.isLinked()) {
