@@ -22,6 +22,8 @@
 #include "connectionbase.h"
 #include "videolayerrender.h"
 
+#define COPY_BUFFER
+
 class MConnection;
 
 class ConnectionCV : public ConnectionBase
@@ -52,6 +54,11 @@ protected:
 	int shm_fd;
 	unsigned char * image_buffer;
 	int buffer_size;
+
+#ifdef COPY_BUFFER
+	unsigned char * copy_buffer;
+	int copy_buffer_size;
+#endif
 };
 
 #endif

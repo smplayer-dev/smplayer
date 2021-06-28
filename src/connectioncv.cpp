@@ -32,6 +32,10 @@ ConnectionCV::ConnectionCV(VideoLayerRender * parent)
 	, shm_fd(0)
 	, image_buffer(0)
 	, buffer_size(0)
+#ifdef COPY_BUFFER
+	, copy_buffer(0)
+	, copy_buffer_size(0)
+#endif
 {
 	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
 	mconnection = new MConnection(this, buffer_name);
@@ -40,6 +44,13 @@ ConnectionCV::ConnectionCV(VideoLayerRender * parent)
 
 ConnectionCV::~ConnectionCV() {
 	delete mconnection;
+	stop_connection();
+
+#ifdef COPY_BUFFER
+	if (copy_buffer != 0) {
+		free(copy_buffer);
+	}
+#endif
 }
 
 void ConnectionCV::stop() {
@@ -85,6 +96,16 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 void ConnectionCV::render_slot() {
 	//qDebug("ConnectionCV::render_slot");
 	if (image_buffer) {
+		#ifdef COPY_BUFFER
+		if (copy_buffer == 0 || copy_buffer_size < buffer_size) {
+			qDebug("ConnectionCV::render_slot: creating copy_buffer");
+			if (copy_buffer != 0) free(copy_buffer);
+			copy_buffer = (unsigned char *) malloc(buffer_size);
+			copy_buffer_size = buffer_size;
+			video_window->setImageBuffer(copy_buffer);
+		}
+		memcpy(copy_buffer, image_buffer, buffer_size);
+		#endif
 		video_window->render();
 	}
 }
