@@ -483,7 +483,7 @@ void PrefGeneral::updateDriverCombos() {
 			vo_combo->addItem( "Shared memory", vo);
 		}
 		else
-		if (vo == "libmpv" || vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" ||
+		if (/*vo == "libmpv" ||*/ vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" ||
             vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct" || vo == "yuv4mpeg")
 		{
 			; // Nothing to do
