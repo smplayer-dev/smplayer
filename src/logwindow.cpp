@@ -36,7 +36,7 @@ LogWindow::LogWindow( QWidget* parent )
 {
 	setupUi(this);
 
-	browser->setFont( QFont("fixed") );
+	browser->setFont( QFont("courier") );
 
 #if QT_VERSION >= 0x050000
 	MyScroller::setScroller(browser);
