@@ -18,7 +18,7 @@
 
 #include "connectionbase.h"
 
-QString ConnectionBase::formatToString(Format f) {
+QString ConnectionBase::formatToString(uint32_t f) {
 	switch (f) {
 		case RGB24: return "RGB24";
 		case RGB16: return "RGB16";

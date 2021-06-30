@@ -36,7 +36,7 @@ public:
 
 	virtual bool isVOSupported(const QString & vo) = 0;
 
-	static QString formatToString(Format f);
+	static QString formatToString(uint32_t f);
 
 public slots:
 	virtual void start() = 0;

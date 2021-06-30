@@ -148,7 +148,7 @@ void ConnectionShm::start_connection() {
 	}
 
 	image_data = (unsigned char*) header + header->header_size;
-	qDebug("ConnectionShm::start_connection: header: %p image_data: %p", header, image_data);
+	//qDebug("ConnectionShm::start_connection: header: %p image_data: %p", header, image_data);
 
 	// Convert formats from mpv
 	uint32_t format = header->format;
@@ -159,7 +159,8 @@ void ConnectionShm::start_connection() {
 	}
 
 	video_window->init(image_width, image_height, image_bytes, format, image_data);
-	qDebug("ConnectionShm::start_connection: header_size: %d format: %d", header->header_size, format);
+	qDebug("ConnectionShm::start_connection: header_size: %d format: %s", header->header_size,
+           formatToString(format).toLatin1().constData());
 
 	connect_timer->stop();
 
