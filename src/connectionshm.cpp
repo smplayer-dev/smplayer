@@ -25,7 +25,6 @@
 #include <sys/mman.h>
 #include <stdint.h>
 #include <errno.h>
-#include <math.h>
 
 static struct header_t {
 	uint32_t header_size;
@@ -79,22 +78,30 @@ void ConnectionShm::render_slot() {
 	if (header == 0) return;
 
 	if (header->frame_count == last_frame) return;
-	last_frame = header->frame_count;
 
 	//qDebug("ConnectionShm::render_slot: frame_count: %d", header->frame_count);
 	//qDebug("ConnectionShm::render_slot: %d %d", header->width, header->height);
 	//qDebug("ConnectionShm::render_slot: header size: %d busy: %d", header->header_size, header->busy);
 	//qDebug("ConnectionShm::render_slot: %p %p", header, image_data);
 
+	
+	if (header->busy == 1) {
+		//qDebug("ConnectionShm::render_slot: busy (f: %d)", header->frame_count);
+		return;
+	}
+	//qDebug("ConnectionShm::render_slot: frame_count: %d", header->frame_count);
+
+
+	/*
 	uint32_t count = 0;
 	while (header->busy == 1 && count < 1000000) { count++; }
-	/*
 	if (count != 0) {
 		qDebug("ConnectionShm::render_slot: count: %d", count);
 	}
 	*/
 
 	video_window->render();
+	last_frame = header->frame_count;
 }
 
 void ConnectionShm::stop_slot() {
@@ -124,7 +131,7 @@ void ConnectionShm::start_connection() {
 	int image_width = header->width;
 	int image_height = header->height;
 	int image_bytes = header->bytes;
-	//buffer_size = sizeof(header) + image_width * image_height * image_bytes;
+
 	buffer_size =  header->header_size + header->video_buffer_size;
 	qDebug("ConnectionShm::start_connection: %d %d %d %f", image_width, image_height, image_bytes, header->fps);
 
@@ -155,7 +162,10 @@ void ConnectionShm::start_connection() {
 	qDebug("ConnectionShm::start_connection: header_size: %d format: %d", header->header_size, format);
 
 	connect_timer->stop();
-	render_timer->setInterval(1000 / ceil(header->fps));
+
+	int fps = header->fps;
+	if (fps < 10) fps = 60;
+	render_timer->setInterval(1000 / fps / 2);
 	render_timer->start();
 	qDebug("ConnectionShm::start_connection: timer interval: %d", render_timer->interval());
 }
@@ -163,6 +173,8 @@ void ConnectionShm::start_connection() {
 void ConnectionShm::stop_connection() {
 	render_timer->stop();
 	connect_timer->stop();
+
+	if (header == 0) return;
 
 	// Destroy the shared buffer
 	if (munmap(header, buffer_size) == -1) {
