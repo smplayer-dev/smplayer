@@ -31,7 +31,10 @@
 class OpenGLRenderer;
 #endif
 
+class QTimer;
 class ConnectionBase;
+
+//#define COUNT_FPS
 
 class VideoLayerRender : public VideoLayer
 #ifdef USE_GL_WINDOW
@@ -87,6 +90,19 @@ protected:
 	#endif
 	QPixmap frame;
 	QMap<uint32_t, int> format_to_image;
+#endif
+
+#ifdef COUNT_FPS
+public:
+	int renderedFps() { return last_fps; }
+
+protected slots:
+	void updateFps();
+
+protected:
+	QTimer * fps_timer;
+	int current_fps;
+	int last_fps;
 #endif
 };
 

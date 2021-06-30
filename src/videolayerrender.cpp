@@ -51,6 +51,10 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #if !defined(USE_GL_WINDOW) && defined(USE_YUV)
 	, conv_buffer(0)
 #endif
+#ifdef COUNT_FPS
+	, current_fps(0)
+	, last_fps(0)
+#endif
 {
 #ifdef USE_GL_WINDOW
 	QSurfaceFormat fmt;
@@ -77,6 +81,12 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #endif
 #ifdef USE_COREVIDEO_BUFFER
 	connections << new ConnectionCV(this);
+#endif
+
+#ifdef COUNT_FPS
+	fps_timer = new QTimer(this);
+	fps_timer->setInterval(1000);
+	connect(fps_timer, SIGNAL(timeout()), this, SLOT(updateFps()));
 #endif
 }
 
@@ -107,6 +117,9 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 void VideoLayerRender::playingStarted() {
 	qDebug("VideoLayerRender::playingStarted");
 	VideoLayer::playingStarted();
+#ifdef COUNT_FPS
+	fps_timer->start();
+#endif
 }
 
 void VideoLayerRender::playingStopped() {
@@ -125,6 +138,11 @@ void VideoLayerRender::playingStopped() {
 	foreach(ConnectionBase * conn, connections) conn->stop();
 
 	update();
+
+#ifdef COUNT_FPS
+	fps_timer->stop();
+#endif
+
 }
 
 void VideoLayerRender::gotVO(QString vo) {
@@ -181,7 +199,20 @@ void VideoLayerRender::render() {
 	}
 #endif
 	update();
+
+#ifdef COUNT_FPS
+	current_fps++;
+#endif
 }
+
+#ifdef COUNT_FPS
+void VideoLayerRender::updateFps() {
+	if (!is_vo_to_render) return;
+	last_fps = current_fps;
+	current_fps = 0;
+	qDebug("VideoLayerRender::updateFps: %d", last_fps);
+}
+#endif
 
 #ifndef USE_GL_WINDOW
 void VideoLayerRender::paintEvent(QPaintEvent *event) {
