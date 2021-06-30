@@ -93,8 +93,8 @@ protected:
 #endif
 
 #ifdef COUNT_FPS
-public:
-	int renderedFps() { return last_fps; }
+signals:
+	void renderedFps(int);
 
 protected slots:
 	void updateFps();
@@ -102,7 +102,6 @@ protected slots:
 protected:
 	QTimer * fps_timer;
 	int current_fps;
-	int last_fps;
 #endif
 };
 

@@ -53,7 +53,6 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #endif
 #ifdef COUNT_FPS
 	, current_fps(0)
-	, last_fps(0)
 #endif
 {
 #ifdef USE_GL_WINDOW
@@ -207,10 +206,11 @@ void VideoLayerRender::render() {
 
 #ifdef COUNT_FPS
 void VideoLayerRender::updateFps() {
-	if (!is_vo_to_render) return;
-	last_fps = current_fps;
-	current_fps = 0;
-	qDebug("VideoLayerRender::updateFps: %d", last_fps);
+	if (is_vo_to_render) {
+		qDebug("VideoLayerRender::updateFps: %d", current_fps);
+		emit renderedFps(current_fps);
+		current_fps = 0;
+	}
 }
 #endif
 
