@@ -6235,7 +6235,11 @@ void BaseGui::showTubeBrowser() {
 	#ifdef Q_OS_WIN
 	QString exec = Paths::appPath() + "/smtube.exe";
 	#else
+	#ifdef Q_OS_MACX
+	QString exec = Paths::appPath() + "/smtube";
+	#else
 	QString exec = Helper::findExecutable("smtube");
+	#endif
 	#endif
 
 	if (exec.isEmpty() || !QFile::exists(exec)) {
