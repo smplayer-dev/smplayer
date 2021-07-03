@@ -37,6 +37,7 @@ DEFINES += CHROMECAST_SUPPORT
 DEFINES += USE_QRCODE
 DEFINES += SCREENSAVER_OFF
 #DEFINES += USE_SHM
+#DEFINES += USE_SMTUBE_LIB
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -626,6 +627,15 @@ contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
 
 	unix:!macx {
 		LIBS += -lrt
+	}
+}
+
+contains(DEFINES, USE_SMTUBE_LIB) {
+	LIBS += -L../smtube -lsmtube
+	isEqual(QT_MAJOR_VERSION, 5) {
+		QT += webkitwidgets widgets gui
+	} else {
+		QT += webkit
 	}
 }
 

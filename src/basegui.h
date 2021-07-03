@@ -62,6 +62,10 @@ class FindSubtitlesWindow;
 class VideoPreview;
 #endif
 
+#ifdef USE_SMTUBE_LIB
+class BrowserWindow;
+#endif
+
 class MyAction;
 class MyActionGroup;
 class PreferencesDialog;
@@ -907,6 +911,10 @@ protected:
 #ifdef MG_DELAYED_SEEK
 	QTimer * delayed_seek_timer;
 	int delayed_seek_value;
+#endif
+
+#ifdef USE_SMTUBE_LIB
+	BrowserWindow * browser_window;
 #endif
 
 private:

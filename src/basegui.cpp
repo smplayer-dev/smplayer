@@ -132,6 +132,10 @@
   #endif
 #endif
 
+#ifdef USE_SMTUBE_LIB
+#include "../smtube/browserwindow.h"
+#endif
+
 #ifdef SHARE_ACTIONS
 #include "sharedialog.h"
 #endif
@@ -170,6 +174,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef MG_DELAYED_SEEK
 	, delayed_seek_timer(0)
 	, delayed_seek_value(0)
+#endif
+#ifdef USE_SMTUBE_LIB
+	, browser_window(0)
 #endif
 	, was_maximized(false)
 #ifdef AVOID_SCREENSAVER
@@ -6232,6 +6239,13 @@ void BaseGui::showVideoPreviewDialog() {
 #ifdef YOUTUBE_SUPPORT
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
+#ifdef USE_SMTUBE_LIB
+	if (browser_window == 0) {
+		browser_window = new BrowserWindow(Paths::configPath(), this);
+	}
+	browser_window->show();
+	browser_window->loadHomePage();
+#else
 	#ifdef Q_OS_WIN
 	QString exec = Paths::appPath() + "/smtube.exe";
 	#else
@@ -6259,6 +6273,7 @@ void BaseGui::showTubeBrowser() {
 			tr("Be sure it's installed correctly.") +"<br>"+
 			tr("Visit %1 to get it.").arg("<a href=http://www.smtube.org>http://www.smtube.org</a>"));
 	}
+#endif
 }
 #endif
 
