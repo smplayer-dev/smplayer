@@ -36,8 +36,11 @@ protected:
 
 	QTranslator app_trans;
 	QTranslator qt_trans;
-	#if QT_VERSION >= 0x050000
+#if QT_VERSION >= 0x050000
 	QTranslator qtbase_trans;
+#endif
+#ifdef USE_SMTUBE_LIB
+	QTranslator smtube_trans;
 #endif
 };
 

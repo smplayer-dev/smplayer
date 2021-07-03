@@ -28,6 +28,9 @@ Translator::Translator() {
 	#if QT_VERSION >= 0x050000
 	qApp->installTranslator( &qtbase_trans );
 	#endif
+	#ifdef USE_SMTUBE_LIB
+	qApp->installTranslator( &smtube_trans );
+	#endif
 }
 
 Translator::~Translator() {
@@ -44,16 +47,16 @@ bool Translator::loadCatalog(QTranslator & t, QString name, QString locale, QStr
 }
 
 void Translator::load(QString locale) {
-    if (locale.isEmpty()) {
-        locale = QLocale::system().name();
-    }
+	if (locale.isEmpty()) {
+		locale = QLocale::system().name();
+	}
 
 	QString trans_path = Paths::translationPath();
 	QString qt_trans_path = Paths::qtTranslationPath();
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	// In windows and OS2 try to load the qt translation from the app path, as
-    // most users won't have Qt installed.
+	// most users won't have Qt installed.
 	loadCatalog(qt_trans, "qt", locale, trans_path );
 	#if QT_VERSION >= 0x050000
 	loadCatalog(qtbase_trans, "qtbase", locale, trans_path);
@@ -61,17 +64,17 @@ void Translator::load(QString locale) {
 #else
 	// In linux try to load it first from app path (in case there's an updated
     // translation), if it fails it will try then from the Qt path.
-	if (! loadCatalog(qt_trans, "qt", locale, trans_path ) ) {
+	if (!loadCatalog(qt_trans, "qt", locale, trans_path ) ) {
 		loadCatalog(qt_trans, "qt", locale, qt_trans_path);
 	}
 	#if QT_VERSION >= 0x050000
-	if (! loadCatalog(qtbase_trans, "qtbase", locale, trans_path ) ) {
+	if (!loadCatalog(qtbase_trans, "qtbase", locale, trans_path ) ) {
 		loadCatalog(qtbase_trans, "qtbase", locale, qt_trans_path);
 	}
 	#endif
 #endif
 	loadCatalog(app_trans, "smplayer", locale, trans_path);
 #ifdef USE_SMTUBE_LIB
-	loadCatalog(app_trans, "smtube", locale, trans_path);
+	loadCatalog(smtube_trans, "smtube", locale, trans_path);
 #endif
 }
