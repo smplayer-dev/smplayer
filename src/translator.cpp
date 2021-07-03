@@ -71,4 +71,7 @@ void Translator::load(QString locale) {
 	#endif
 #endif
 	loadCatalog(app_trans, "smplayer", locale, trans_path);
+#ifdef USE_SMTUBE_LIB
+	loadCatalog(app_trans, "smtube", locale, trans_path);
+#endif
 }
