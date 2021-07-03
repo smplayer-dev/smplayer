@@ -8,14 +8,23 @@ cd ..
 echo Compiling create_plist
 cd Mac
 qmake && make
+cd ..
+
+echo Compiling smtube
+ln -sf ../smtube/src smtube
+cd smtube
+qmake DEFINES+="NO_DEBUG_ON_CONSOLE SMTUBE_LIB"
+make -j4
+lrelease smtube.pro
 cd ../src
 
 echo Compiling smplayer
-qmake DEFINES+="NO_DEBUG_ON_CONSOLE"
+qmake DEFINES+="NO_DEBUG_ON_CONSOLE USE_SMTUBE_LIB"
 make -j4
 lrelease smplayer.pro
 mkdir smplayer.app/Contents/MacOS/translations
 cp translations/*.qm smplayer.app/Contents/MacOS/translations/
+cp ../smtube/translations/*.qm smplayer.app/Contents/MacOS/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/
 ../Mac/create_plist > smplayer.app/Contents/Info.plist
 cd ..
