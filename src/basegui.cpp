@@ -6242,6 +6242,8 @@ void BaseGui::showTubeBrowser() {
 #ifdef USE_SMTUBE_LIB
 	if (browser_window == 0) {
 		browser_window = new BrowserWindow(Paths::configPath(), this);
+		connect(browser_window, SIGNAL(requestOpenUrl(const QString &)),
+                this, SLOT(open(QString)));
 	}
 	browser_window->show();
 	browser_window->loadHomePage();
