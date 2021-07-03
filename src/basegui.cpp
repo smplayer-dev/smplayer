@@ -6244,9 +6244,9 @@ void BaseGui::showTubeBrowser() {
 		browser_window = new BrowserWindow(Paths::configPath(), this);
 		connect(browser_window, SIGNAL(requestOpenUrl(const QString &)),
                 this, SLOT(open(QString)));
+		browser_window->loadHomePage();
 	}
 	browser_window->show();
-	browser_window->loadHomePage();
 #else
 	#ifdef Q_OS_WIN
 	QString exec = Paths::appPath() + "/smtube.exe";
