@@ -41,61 +41,65 @@ QString Paths::appPath() {
 QString Paths::dataPath() {
 #ifdef DATA_PATH
 	QString path = QString(DATA_PATH);
-	if (!path.isEmpty())
+	if (!path.isEmpty()) {
 		return path;
-	else
-		return appPath();
-#else
-	return appPath();
+	} else
 #endif
+	{
+		return appPath();
+	}
 }
 
 QString Paths::translationPath() {
+#ifdef Q_OS_MACX
+	return appPath() + "/../Resources/translations";
+#else
 #ifdef TRANSLATION_PATH
 	QString path = QString(TRANSLATION_PATH);
-	if (!path.isEmpty())
+	if (!path.isEmpty()) {
 		return path;
-	else
+	} else
+#endif
+	{
 		return appPath() + "/translations";
-#else
-	return appPath() + "/translations";
+	}
 #endif
 }
 
 QString Paths::docPath() {
 #ifdef DOC_PATH
 	QString path = QString(DOC_PATH);
-	if (!path.isEmpty())
+	if (!path.isEmpty()) {
 		return path;
-	else
-		return appPath() + "/docs";
-#else
-	return appPath() + "/docs";
+	} else
 #endif
+	{
+		return appPath() + "/docs";
+	}
 }
 
 QString Paths::themesPath() {
 #ifdef THEMES_PATH
 	QString path = QString(THEMES_PATH);
-	if (!path.isEmpty())
+	if (!path.isEmpty()) {
 		return path;
-	else
-		return appPath() + "/themes";
-#else
-	return appPath() + "/themes";
+	} else
 #endif
+	{
+		return appPath() + "/themes";
+	}
 }
 
 QString Paths::shortcutsPath() {
 #ifdef SHORTCUTS_PATH
 	QString path = QString(SHORTCUTS_PATH);
-	if (!path.isEmpty())
+	if (!path.isEmpty()) {
 		return path;
-	else
-		return appPath() + "/shortcuts";
-#else
-	return appPath() + "/shortcuts";
+	} else
 #endif
+	{
+		return appPath() + "/shortcuts";
+	}
 }
 
 QString Paths::qtTranslationPath() {

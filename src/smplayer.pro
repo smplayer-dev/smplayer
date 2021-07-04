@@ -704,6 +704,9 @@ os2 {
 
 mac {
 	ICON = smplayer.icns
+	translations.files += $$files(translations/*.qm)
+	translations.path = Contents/Resources/translations
+	QMAKE_BUNDLE_DATA += translations
 }
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
