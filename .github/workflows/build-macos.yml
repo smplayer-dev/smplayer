@@ -40,18 +40,9 @@ jobs:
         run: |
             wget https://github.com/qtwebkit/qtwebkit/releases/download/qtwebkit-5.212.0-alpha4/qtwebkit-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64.7z -O qtwebkit.7z
             7z x qtwebkit.7z -o$Qt5_Dir
- 
-      - name: Build smtube
-        run: |
-            git clone https://github.com/smplayer-dev/smtube.git packages/smtube
-            cd packages/smtube
-            ./compile_mac.sh
 
-      - name: Install smtube            
-        run: |
-            mkdir -p packages/smplayer/src/smplayer.app/Contents/MacOS/
-            cp -R packages/smtube/src/smtube.app/ packages/smplayer/src/smplayer.app/
-            ls -lR packages/smplayer/src/smplayer.app/
+      - name: Install smtube
+        run: git clone https://github.com/smplayer-dev/smtube.git packages/smtube
 
       - name: Compile
         run: |
@@ -63,14 +54,14 @@ jobs:
             git clone https://github.com/smplayer-dev/smplayer-themes.git packages/smplayer-themes
             cd packages/smplayer-themes
             make
-            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/MacOS/themes
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/Resources/themes
 
       - name: Install skins
         run: |
             git clone https://github.com/smplayer-dev/smplayer-skins.git packages/smplayer-skins
             cd packages/smplayer-skins
             make
-            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/MacOS/themes
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/Resources/themes
 
       - name: Install mplayer
         run: |
