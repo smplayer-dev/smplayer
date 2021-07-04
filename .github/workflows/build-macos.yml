@@ -41,7 +41,7 @@ jobs:
             wget https://github.com/qtwebkit/qtwebkit/releases/download/qtwebkit-5.212.0-alpha4/qtwebkit-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64.7z -O qtwebkit.7z
             7z x qtwebkit.7z -o$Qt5_Dir
 
-      - name: Install smtube
+      - name: Install smtube sources
         run: git clone https://github.com/smplayer-dev/smtube.git packages/smtube
 
       - name: Compile
