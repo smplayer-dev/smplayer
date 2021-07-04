@@ -706,7 +706,9 @@ mac {
 	ICON = smplayer.icns
 	translations.files += $$files(translations/*.qm)
 	translations.path = Contents/Resources/translations
-	QMAKE_BUNDLE_DATA += translations
+	shortcuts.files += $$files(shortcuts/*.keys)
+	shortcuts.path = Contents/Resources/shortcuts
+	QMAKE_BUNDLE_DATA += translations shortcuts
 }
 
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \

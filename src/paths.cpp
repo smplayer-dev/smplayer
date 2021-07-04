@@ -79,6 +79,9 @@ QString Paths::docPath() {
 }
 
 QString Paths::themesPath() {
+#ifdef Q_OS_MACX
+	return appPath() + "/../Resources/themes";
+#else
 #ifdef THEMES_PATH
 	QString path = QString(THEMES_PATH);
 	if (!path.isEmpty()) {
@@ -88,9 +91,13 @@ QString Paths::themesPath() {
 	{
 		return appPath() + "/themes";
 	}
+#endif
 }
 
 QString Paths::shortcutsPath() {
+#ifdef Q_OS_MACX
+	return appPath() + "/../Resources/shortcuts";
+#else
 #ifdef SHORTCUTS_PATH
 	QString path = QString(SHORTCUTS_PATH);
 	if (!path.isEmpty()) {
@@ -100,6 +107,7 @@ QString Paths::shortcutsPath() {
 	{
 		return appPath() + "/shortcuts";
 	}
+#endif
 }
 
 QString Paths::qtTranslationPath() {
