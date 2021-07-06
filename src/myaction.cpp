@@ -27,6 +27,7 @@ MyAction::MyAction ( QObject * parent, const char * name, bool autoadd )
 	//qDebug("MyAction::MyAction: name: '%s'", name);
 	setObjectName(name);
 	if (autoadd) addActionToParent();
+	setMenuRole(QAction::NoRole);
 }
 
 
@@ -35,6 +36,7 @@ MyAction::MyAction( QObject * parent, bool autoadd )
 {
 	//qDebug("MyAction::MyAction: QObject, bool");
 	if (autoadd) addActionToParent();
+	setMenuRole(QAction::NoRole);
 }
 
 MyAction::MyAction(const QString & text, QKeySequence accel, 
@@ -48,6 +50,7 @@ MyAction::MyAction(const QString & text, QKeySequence accel,
 	setShortcutContext(Qt::WidgetWithChildrenShortcut);
 #endif
 	if (autoadd) addActionToParent();
+	setMenuRole(QAction::NoRole);
 }
 
 MyAction::MyAction(QKeySequence accel, QObject * parent, const char * name, 
@@ -60,6 +63,7 @@ MyAction::MyAction(QKeySequence accel, QObject * parent, const char * name,
 	setShortcutContext(Qt::WidgetWithChildrenShortcut);
 #endif
 	if (autoadd) addActionToParent();
+	setMenuRole(QAction::NoRole);
 }
 
 MyAction::~MyAction() {

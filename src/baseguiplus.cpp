@@ -97,6 +97,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	mainwindow_pos = pos();
 
 	quitAct = new MyAction(QKeySequence("Ctrl+Q"), this, "quit");
+	quitAct->setMenuRole(QAction::QuitRole);
 	connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
 
 #ifdef USE_SYSTRAY

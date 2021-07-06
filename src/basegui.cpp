@@ -880,6 +880,7 @@ void BaseGui::createActions() {
              this, SLOT(showFilePropertiesDialog()) );
 
 	showPreferencesAct = new MyAction( QKeySequence("Ctrl+P"), this, "show_preferences" );
+	showPreferencesAct->setMenuRole(QAction::PreferencesRole);
 	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
 
@@ -939,6 +940,7 @@ void BaseGui::createActions() {
              this, SLOT(helpDonate()) );
 
 	aboutThisAct = new MyAction( this, "about_smplayer" );
+	aboutThisAct->setMenuRole(QAction::AboutRole);
 	connect( aboutThisAct, SIGNAL(triggered()),
              this, SLOT(helpAbout()) );
 
