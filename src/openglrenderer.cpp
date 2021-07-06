@@ -27,6 +27,7 @@ OpenGLRenderer::OpenGLRenderer(QObject * parent)
 	, vertex_shader(0)
 	, fragment_shader(0)
 	, current_format(0)
+	, color_conversion(BT709)
 {
 	for (int n = 0; n < 3; n++) {
 		textures[n] = 0;
@@ -291,7 +292,7 @@ QString OpenGLRenderer::rgbShader() {
 }
 
 QString OpenGLRenderer::yuv420Shader() {
-	return QString(
+	QString code = QString(
 		"varying vec2 textureOut;"
 		"uniform sampler2D tex_y;"
 		"uniform sampler2D tex_u;"
@@ -300,18 +301,20 @@ QString OpenGLRenderer::yuv420Shader() {
 		"{"
 			"vec3 yuv;"
 			"vec3 rgb;"
-			"mat3 yuv2rgb_bt601_mat = mat3("
-				"vec3(1.164,  1.164, 1.164),"
-				"vec3(0.000, -0.392, 2.017),"
-				"vec3(1.596, -0.813, 0.000)"
-			");"
+		);
+
+	code += colorConversionMat();
+
+	code += QString(
 			"yuv.x = texture2D(tex_y, textureOut).r - 0.063;"
 			"yuv.y = texture2D(tex_u, textureOut).r - 0.500;"
 			"yuv.z = texture2D(tex_v, textureOut).r - 0.500;"
-			"rgb = yuv2rgb_bt601_mat * yuv;"
+			"rgb = yuv2rgb_mat * yuv;"
 			"gl_FragColor = vec4(rgb, 1.0);"
 		"}"
 	);
+
+	return code;
 }
 
 QString OpenGLRenderer::packedShader(PackedPattern p) {
@@ -357,6 +360,29 @@ QString OpenGLRenderer::packedShader(PackedPattern p) {
 	);
 
 	return code;
+}
+
+QString OpenGLRenderer::colorConversionMat() {
+	qDebug("OpenGLRenderer::colorConversionMat: %d", color_conversion);
+
+	QString bt601 = QString(
+			"mat3 yuv2rgb_mat = mat3("
+				"vec3(1.164,  1.164, 1.164),"
+				"vec3(0.000, -0.392, 2.017),"
+				"vec3(1.596, -0.813, 0.000)"
+			");");
+
+	QString bt709 = QString(
+			"mat3 yuv2rgb_mat = mat3("
+				"vec3(1.164,  1.164, 1.164),"
+				"vec3(0.000, -0.213, 2.112),"
+				"vec3(1.793, -0.533, 0.000)"
+			");");
+
+	if (color_conversion == BT601)
+		return bt601;
+	else
+		return bt709;
 }
 
 #include "moc_openglrenderer.cpp"

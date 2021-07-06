@@ -33,12 +33,16 @@ class OpenGLRenderer : public QObject, protected QOpenGLFunctions
 
 public:
 	enum PackedPattern { UYVY = 1, YUYV = 3 };
+	enum ColorSp { BT601 = 1, BT709 = 2 };
 
 	OpenGLRenderer(QObject * parent = 0);
 	~OpenGLRenderer();
 
 	void setFormat(ConnectionBase::Format format);
 	int format() { return current_format; };
+
+	void setColorConversion(ColorSp c) { color_conversion = c; }
+	int colorConversion() { return color_conversion; }
 
 	virtual void initializeGL(int window_width, int window_height);
 	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer);
@@ -51,6 +55,7 @@ protected:
 	QString rgbShader();
 	QString yuv420Shader();
 	QString packedShader(PackedPattern p = YUYV);
+	QString colorConversionMat();
 
 	QOpenGLBuffer vertex_buffer;
 
@@ -66,6 +71,7 @@ protected:
 	GLuint textureUniformStepX;
 
 	int current_format;
+	int color_conversion;
 };
 
 #endif
