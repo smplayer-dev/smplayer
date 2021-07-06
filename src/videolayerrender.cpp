@@ -148,6 +148,7 @@ void VideoLayerRender::gotVO(QString vo) {
 	qDebug() << "VideoLayerRender::gotVO:" << vo;
 
 	is_vo_to_render = false;
+	image_buffer = 0;
 
 	foreach(ConnectionBase * conn, connections) {
 		conn->stop();
