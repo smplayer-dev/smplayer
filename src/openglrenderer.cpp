@@ -379,6 +379,27 @@ QString OpenGLRenderer::colorConversionMat() {
 				"vec3(1.793, -0.533, 0.000)"
 			");");
 
+	QString jpeg = QString(
+			"mat3 yuv2rgb_mat = mat3("
+				"vec3(1.000,  1.000, 1.000),"
+				"vec3(0.000, -0.343, 1.765),"
+				"vec3(1.400, -0.711, 0.000)"
+			");");
+
+	QString bt2020ncl = QString(
+			"mat3 yuv2rgb_mat = mat3("
+				"vec3(1.164,  1.164, 1.164),"
+				"vec3(0.000, -0.187, 2.141),"
+				"vec3(1.679, -0.650, 0.000)"
+			");");
+
+	QString bt2020cl = QString(
+			"mat3 yuv2rgb_mat = mat3("
+				"vec3(0.000, 1.164, 0.000),"
+				"vec3(0.000, 0.000, 1.138),"
+				"vec3(1.138, 0.000, 0.000)"
+			");");
+
 	if (color_conversion == BT601)
 		return bt601;
 	else
