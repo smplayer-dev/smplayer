@@ -324,12 +324,12 @@ QString OpenGLRenderer::packedShader(PackedPattern p) {
 		"uniform float tex_stepx;"
 		"void main(void)"
 		"{"
-			"mat3 yuv2rgb_bt601_mat = mat3("
-				"vec3(1.164,  1.164, 1.164),"
-				"vec3(0.000, -0.392, 2.017),"
-				"vec3(1.596, -0.813, 0.000)"
-			");"
-			"vec3 yuv2rgb_bt601_offset = vec3(0.063, 0.500, 0.500);"
+	);
+
+	code += colorConversionMat();
+
+	code += QString(
+			"vec3 yuv2rgb_offset = vec3(0.063, 0.500, 0.500);"
 			"vec2 pos = textureOut;"
 			"float f_x = fract(pos.x / tex_stepx);"
 			"vec4 left = texture2D(tex_y, vec2(pos.x - f_x * tex_stepx, pos.y));"
@@ -354,7 +354,7 @@ QString OpenGLRenderer::packedShader(PackedPattern p) {
 
 	code += QString(
 			"float y = mix(y_left, y_right, step(0.5, f_x));"
-			"vec3 rgb = yuv2rgb_bt601_mat * (vec3(y, uv) - yuv2rgb_bt601_offset);"
+			"vec3 rgb = yuv2rgb_mat * (vec3(y, uv) - yuv2rgb_offset);"
 			"gl_FragColor = vec4(rgb, 1.0);"
 		"}"
 	);
