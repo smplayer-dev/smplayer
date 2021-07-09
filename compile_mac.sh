@@ -25,6 +25,7 @@ make -j4
 cp ../smtube/translations/*.qm smplayer.app/Contents/Resources/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/
 ../Mac/create_plist > smplayer.app/Contents/Info.plist
+cp ../Mac/smplayer-document.icns smplayer.app/Contents/Resources/
 cd ..
 
 echo Creating package

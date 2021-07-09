@@ -21,13 +21,13 @@ void print_key(const QString & key, const QString & value, int spaces = 4) {
 	print_stringlist(QStringList() << QString("<key>%1</key>").arg(key) << QString("<string>%1</string>").arg(value), spaces);
 }
 
-void print_list(const QString & name, const QStringList & list, int spaces = 4) {
+void print_list(const QString & name, const QStringList & list, const QString & icon_name, int spaces = 4) {
 	print_stringlist(QStringList()
 		<< "<dict>", spaces);
 
 	print_stringlist(QStringList()
 		<< "<key>CFBundleTypeIconFile</key>"
-		<< "<string>smplayer.icns</string>"
+		<< QString("<string>%1</string>").arg(icon_name)
 		<< "<key>CFBundleTypeName</key>"
 		<< QString("<string>%1</string>").arg(name)
 		<< "<key>CFBundleTypeRole</key>"
@@ -61,8 +61,8 @@ int main( int argc, char ** argv )
 	printf("    <key>CFBundleDocumentTypes</key>\n    <array>\n");
 	
 	Extensions e;
-	print_list("Video file", e.video());
-	print_list("Audio file", e.audio());
+	print_list("Video file", e.video(), "smplayer-document.icns");
+	print_list("Audio file", e.audio(), "smplayer-document.icns");
 
 	printf("    </array>\n");
 
