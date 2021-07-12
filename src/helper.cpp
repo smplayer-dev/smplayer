@@ -27,6 +27,7 @@
 #include <QDebug>
 #include "config.h"
 #include "extensions.h"
+#include "paths.h"
 #include "qtcompat.h"
 
 #ifdef Q_OS_WIN
@@ -351,6 +352,8 @@ QStringList Helper::resolveSymlinks(const QStringList & files) {
 QString Helper::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
 	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
+	search_paths.prepend(Paths::appPath());
+
 	for (int n = 0; n < search_paths.count(); n++) {
 		QString candidate = search_paths[n] + "/" + name;
 		qDebug("Helper::findExecutable: candidate: %s", candidate.toUtf8().constData());
