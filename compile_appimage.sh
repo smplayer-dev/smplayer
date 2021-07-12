@@ -8,7 +8,7 @@ cd ..
 echo Compiling smplayer
 cd src
 lrelease smplayer.pro
-qmake DEFINES+="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW NO_MPLAYER"
+qmake DEFINES+="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW"
 make -j4
 cd ..
 
