@@ -1,0 +1,87 @@
+name: Build appimage
+env:
+  qt-env: '/opt/qt515/bin/qt515-env.sh'
+  
+on: workflow_dispatch
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    #container: wachii/xenial-qt:5.12
+    container: wachii/xenial-qt:5.15.2
+    #runs-on: ubuntu-18.04
+
+    steps:
+      - name: Install sources
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          path: smplayer
+
+      - name: Install linuxdeployqt
+        run: |
+            wget https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage -O linuxdeployqt.AppImage 
+            chmod 755 linuxdeployqt.AppImage
+
+      - name: Install development packages
+        if: ${{false}}
+        run: |
+            sudo apt-get update
+            sudo apt-get install qtbase5-dev qt5-qmake qt5-default libqt5opengl5-dev qttools5-dev-tools qtbase5-private-dev
+            sudo apt-get -y install libxcb-xinerama0 libgl1-mesa-dev
+
+      - name: Get version
+        run: |
+            cd smplayer
+            ./get_version.sh
+            VERSION=`cat version`
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Compile smplayer
+        shell: bash
+        run: |
+            test -x ${{env.qt-env}} && source ${{env.qt-env}} || true
+            cd smplayer
+            ./compile_appimage.sh
+
+      - name: Install mpv
+        run: |
+            sudo add-apt-repository -y ppa:jonathonf/ffmpeg-4
+            sudo apt-get update
+            wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-52/mpv_0.33.1-1.xenial_amd64.deb
+            sudo apt-get -y install ./mpv_0.33.1-1.xenial_amd64.deb
+            cp /usr/bin/mpv smplayer/appdir/usr/bin/
+
+      - name: Install mplayer
+        run: |
+            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer_1.4-1.xenial_amd64.deb
+            sudo apt-get -y install ./mplayer_1.4-1.xenial_amd64.deb
+            cp /usr/bin/mplayer smplayer/appdir/usr/bin
+
+      - name: Create package
+        shell: bash
+        run: |
+            test -x ${{env.qt-env}} && source ${{env.qt-env}} || true
+            cd smplayer
+            ../linuxdeployqt.AppImage appdir/usr/share/applications/smplayer.desktop \
+                                     -executable=appdir/usr/bin/mpv \
+                                     -executable=appdir/usr/bin/mplayer \
+                                     -bundle-non-qt-libs \
+                                     -appimage --appimage-extract-and-run
+    
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: smplayer-${{env.VERSION}}
+          path: smplayer/*.AppImage
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./smplayer/*.AppImage
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true          
