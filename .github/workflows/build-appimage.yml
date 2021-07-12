@@ -1,11 +1,13 @@
-name: Build appimage
+name: Build Appimage
 env:
   qt-env: '/opt/qt515/bin/qt515-env.sh'
   
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     #container: wachii/xenial-qt:5.12
