@@ -40,5 +40,5 @@ install -d appdir/usr/share/icons/hicolor/scalable/apps/
 install -m 644 icons/smplayer.svg appdir/usr/share/icons/hicolor/scalable/apps/smplayer.svg
 
 if [ -n "$USE_SMTUBE_LIB" ]; then
-  cp ../smtube/translations/*.qm appdir/usr/bin/translations/
+  cp smtube/translations/*.qm appdir/usr/bin/translations/
 fi
