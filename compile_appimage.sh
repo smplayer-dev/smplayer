@@ -9,7 +9,7 @@ SM_DEFINES="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW"
 
 echo $USE_SMTUBE_LIB
 if [ -n "$USE_SMTUBE_LIB" ]; then
-  SM_DEFINES="${SM_DEFINES} SMTUBE_LIB"
+  SM_DEFINES="${SM_DEFINES} USE_SMTUBE_LIB"
 
   echo Compiling smtube
   ln -sf ../smtube/src smtube
