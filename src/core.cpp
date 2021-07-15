@@ -1843,26 +1843,27 @@ void Core::startMplayer( QString file, double seek ) {
 		#endif
 		proc->setOption("keepaspect", false);
 
-#if defined(Q_OS_OS2)
+		#ifdef Q_OS_OS2
 		#define WINIDFROMHWND(hwnd) ( ( hwnd ) - 0x80000000UL )
 		proc->setOption("wid", QString::number( WINIDFROMHWND( (int) mplayerwindow->videoLayer()->winId() ) ));
-#else
+		#else
+		#ifndef Q_OS_MACX
 		proc->setOption("wid", QString::number( (qint64) mplayerwindow->videoLayer()->winId() ) );
-#endif
+		#endif
+		#endif
 
 #if USE_COLORKEY
 		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		if ((pref->vo.startsWith("directx")) || (pref->vo.startsWith("kva")) || (pref->vo.isEmpty())) {
 			proc->setOption("colorkey", ColorUtils::colorToRGB(pref->color_key));
-		} else {
+		} else
 		#endif
+		{
 			/*
 			qDebug("Core::startMplayer: * not using -colorkey for %s", pref->vo.toUtf8().data());
 			qDebug("Core::startMplayer: * report if you can't see the video"); 
 			*/
-		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		}
-		#endif
 #endif
 
 		// Square pixels
