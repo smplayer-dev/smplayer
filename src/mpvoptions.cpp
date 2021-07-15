@@ -456,6 +456,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "wid") {
+		#ifndef Q_OS_MACX
 		#if defined(USE_COREVIDEO_BUFFER) || defined(USE_SHM)
 		foreach(QString s, arg) {
 			if (s.contains("vo=sharedbuffer") || s.contains("vo=shm")) {
@@ -465,6 +466,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		}
 		#endif
 		arg << "--wid=" + value.toString();
+		#endif // Q_OS_MACX
 	}
 	else
 	if (option_name == "ao") {
@@ -579,8 +581,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << QString("--%1=%2").arg(option_name).arg(v > -1 ? value.toString() : "no");
 	}
 	else
-	if (option_name == "wid" ||
-	    option_name == "alang" || option_name == "slang" ||
+	if (option_name == "alang" || option_name == "slang" ||
 	    option_name == "volume" ||
 	    option_name == "ass-styles" ||
 	    option_name == "embeddedfonts" ||
