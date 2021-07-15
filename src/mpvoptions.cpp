@@ -455,6 +455,18 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--vo=" + vo + ",";
 	}
 	else
+	if (option_name == "wid") {
+		#if defined(USE_COREVIDEO_BUFFER) || defined(USE_SHM)
+		foreach(QString s, arg) {
+			if (s.contains("vo=sharedbuffer") || s.contains("vo=shm")) {
+				qDebug("MPVProcess::setOption: wid ignored");
+				return;
+			}
+		}
+		#endif
+		arg << "--wid=" + value.toString();
+	}
+	else
 	if (option_name == "ao") {
 		QString ao = value.toString();
 

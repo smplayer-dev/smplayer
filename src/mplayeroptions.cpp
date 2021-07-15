@@ -92,10 +92,11 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	}
 	else
 	if (option_name == "wid") {
-		QStringList s = arg.filter("corevideo|shm");
-		if (s.count() > 0) {
-			// Ignore
-			return;
+		foreach(QString s, arg) {
+			if (s.contains("corevideo") || s.contains("shm")) {
+				qDebug("MplayerProcess::setOption: wid ignored");
+				return;
+			}
 		}
 	}
 #endif
