@@ -5,7 +5,7 @@ echo Compiling web server
 cd webserver && make
 cd ..
 
-SM_DEFINES="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW"
+SM_DEFINES="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW NO_MPLAYER"
 
 echo $USE_SMTUBE_LIB
 if [ -n "$USE_SMTUBE_LIB" ]; then
