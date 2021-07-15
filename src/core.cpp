@@ -1838,7 +1838,9 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 
 	if (!pref->use_mplayer_window) {
+		#ifndef Q_OS_MACX
 		proc->disableInput();
+		#endif
 		proc->setOption("keepaspect", false);
 
 #if defined(Q_OS_OS2)
