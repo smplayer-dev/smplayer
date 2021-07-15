@@ -1931,8 +1931,11 @@ void Preferences::load() {
 	#endif
 	#ifdef Q_OS_LINUX
 	if (!QFile::exists(mplayer_bin)) {
+		/*
 		QString player = "mpv";
 		if (mplayer_bin.contains("mplayer")) player = "mplayer";
+		*/
+		QString player = QFileInfo(mplayer_bin).fileName();
 		QString app_path = Helper::findExecutable(player);
 		//qDebug("Preferences::load: app_path: %s", app_path.toUtf8().constData());
 		if (!app_path.isEmpty()) {
