@@ -169,6 +169,9 @@ protected:
 	static QString getVideoID(QString video_url);
 	static QString resolutionToText(Resolution r);
 	static int getItagFromFormat(const QByteArray & t);
+#ifndef Q_OS_WIN
+	static QString findExecutable(const QString & name);
+#endif
 
 private:
 	Resolution preferred_resolution;
