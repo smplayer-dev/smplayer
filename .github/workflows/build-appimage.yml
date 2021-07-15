@@ -7,8 +7,15 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    container: wachii/xenial-qt:5.14.0
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
+          - { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
+          
+    runs-on: ${{matrix.config.os}}
+    container: ${{matrix.config.container}}
 
     steps:
       - name: Install sources
@@ -16,6 +23,21 @@ jobs:
         with:
           fetch-depth: 0
           path: smplayer
+
+      - name: Install linuxdeployqt
+        if: ${{ matrix.config.os == 'ubuntu-18.04' }}
+        run: |
+            wget https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage -O linuxdeployqt
+            sudo mv linuxdeployqt /usr/local/bin/
+            sudo chmod 755 /usr/local/bin/linuxdeployqt
+
+      - name: Install development packages
+        if: ${{ matrix.config.os == 'ubuntu-18.04' }}
+        run: |
+            sudo apt-get update
+            sudo apt-get -y install qtbase5-dev qt5-qmake qt5-default libqt5opengl5-dev qttools5-dev-tools qtbase5-private-dev
+            sudo apt-get -y install libqt5webkit5-dev
+            sudo apt-get -y install libxcb-xinerama0 libgl1-mesa-dev
 
       - name: Get version
         run: |
@@ -35,6 +57,7 @@ jobs:
             ./compile_appimage.sh
 
       - name: Install mpv
+        if: ${{ matrix.config.distro == 'xenial' }}
         run: |
             sudo add-apt-repository -y ppa:jonathonf/ffmpeg-4
             sudo apt-get update
@@ -43,12 +66,14 @@ jobs:
             cp /usr/bin/mpv smplayer/appdir/usr/bin/
 
       - name: Install mplayer
+        if: ${{ matrix.config.distro == 'xenial' }}
         run: |
             wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer_1.4-1.xenial_amd64.deb
             sudo apt-get -y install ./mplayer_1.4-1.xenial_amd64.deb --no-install-recommends
             cp /usr/bin/mplayer smplayer/appdir/usr/bin
 
       - name: Install openssl
+        if: ${{ matrix.config.distro == 'xenial' }}
         run: |
             mkdir -p smplayer/appdir/usr/lib/
             cp -a /usr/local/ssl/lib/lib*.so* smplayer/appdir/usr/lib/
@@ -65,7 +90,7 @@ jobs:
       - name: Create artifact
         uses: actions/upload-artifact@v2
         with:
-          name: smplayer-${{env.VERSION}}
+          name: smplayer-${{env.VERSION}}-qt${{matrix.config.qt}}
           path: smplayer/*.AppImage
 
       - name: Upload package to release
