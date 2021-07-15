@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          #- { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
+          - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
           - { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
           
     runs-on: ${{matrix.config.os}}
@@ -57,35 +57,17 @@ jobs:
             ./compile_appimage.sh
 
       - name: Install mpv
-        if: ${{ matrix.config.distro == 'xenial' }}
         run: |
             sudo add-apt-repository -y ppa:jonathonf/ffmpeg-4
             sudo apt-get update
-            wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-52/mpv_0.33.1-1.xenial_amd64.deb
-            sudo apt-get -y install ./mpv_0.33.1-1.xenial_amd64.deb --no-install-recommends
+            wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-52/mpv_0.33.1-1.${{matrix.config.distro}}_amd64.deb
+            sudo apt-get -y install ./mpv_*.deb --no-install-recommends
             cp /usr/bin/mpv smplayer/appdir/usr/bin/
 
       - name: Install mplayer
-        if: ${{ matrix.config.distro == 'xenial' }}
         run: |
-            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer_1.4-1.xenial_amd64.deb
-            sudo apt-get -y install ./mplayer_1.4-1.xenial_amd64.deb --no-install-recommends
-            cp /usr/bin/mplayer smplayer/appdir/usr/bin
-
-      - name: Install mpv
-        if: ${{ matrix.config.distro == 'bionic' }}
-        run: |
-            sudo add-apt-repository -y ppa:jonathonf/ffmpeg-4
-            sudo apt-get update
-            wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-52/mpv_0.33.1-1.bionic_amd64.deb
-            sudo apt-get -y install ./mpv_0.33.1-1.bionic_amd64.deb --no-install-recommends
-            cp /usr/bin/mpv smplayer/appdir/usr/bin/
-
-      - name: Install mplayer
-        if: ${{ matrix.config.distro == 'bionic' }}
-        run: |
-            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer_1.4-1.bionic_amd64.deb
-            sudo apt-get -y install ./mplayer_1.4-1.bionic_amd64.deb --no-install-recommends
+            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer_1.4-1.${{matrix.config.distro}}_amd64.deb
+            sudo apt-get -y install ./mplayer_*.deb --no-install-recommends
             cp /usr/bin/mplayer smplayer/appdir/usr/bin
             
       - name: Install openssl
