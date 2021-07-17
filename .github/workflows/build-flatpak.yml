@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { name: 'normal', options: 'DEFINES+=USE_SHM' }
-          - { name: 'opengl', options: 'DEFINES+=USE_SHM DEFINES+=USE_GL_WINDOW' }
+          - { name: 'normal', tag: '-noopengl', options: ''}
+          - { name: 'opengl', tag: '', options: 'DEFINES+=USE_GL_WINDOW' }
 
     runs-on: ubuntu-latest
     container:
@@ -37,12 +37,13 @@ jobs:
            repository: 'smplayer-dev/flatpak-builds'
 
       - name: Patch
+        if: ${{matrix.config.name == 'opengl'}}
         run: sed -e 's/NO_DEBUG_ON_CONSOLE/NO_DEBUG_ON_CONSOLE ${{matrix.config.options}}/' -i info.smplayer.SMPlayer.yml
         
       - name: Build
         uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
         with:
-          bundle: smplayer-${{env.VERSION}}-${{matrix.config.name}}.flatpak
+          bundle: smplayer-${{env.VERSION}}${{matrix.config.tag}}.flatpak
           manifest-path: info.smplayer.SMPlayer.yml
           cache: true
           cache-key: smplayer-build
@@ -52,7 +53,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./smplayer-${{env.VERSION}}-${{matrix.config.name}}.flatpak
+          file: ./smplayer-${{env.VERSION}}${{matrix.config.tag}}.flatpak
           tag: ${{ github.ref }}
           overwrite: true
           file_glob: true
