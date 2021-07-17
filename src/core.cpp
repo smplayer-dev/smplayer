@@ -1754,7 +1754,13 @@ void Core::startMplayer( QString file, double seek ) {
 	// If using Wayland
 	if (pref->wayland_workarounds && qgetenv("XDG_SESSION_TYPE") != "x11") {
 		// Trying to prevent the video to be outside the application window
-		if (pref->vo.isEmpty()) proc->setOption("vo", "xv,x11,");
+		if (pref->vo.isEmpty()) {
+			#ifdef USE_SHM
+			proc->setOption("vo", "shm,");
+			#else
+			proc->setOption("vo", "xv,x11,");
+			#endif
+		}
 		if (proc->isMPV()) {
 			if (pref->vo.startsWith("gpu")) {
 				proc->setOption("gpu-context", "x11");
