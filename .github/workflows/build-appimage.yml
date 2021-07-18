@@ -61,14 +61,14 @@ jobs:
             sudo add-apt-repository -y ppa:jonathonf/ffmpeg-4
             sudo apt-get update
             wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-54/mpv-mod_0.33.1-1.${{matrix.config.distro}}_amd64.deb
-            sudo apt-get -y install ./mpv_*.deb --no-install-recommends
+            sudo apt-get -y install ./mpv*.deb --no-install-recommends
             cp /usr/bin/mpv smplayer/appdir/usr/bin/
 
       - name: Install mplayer
         #if: ${{false}}
         run: |
             wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-79/mplayer-mod_1.4-1.${{matrix.config.distro}}_amd64.deb
-            sudo apt-get -y install ./mplayer_*.deb --no-install-recommends
+            sudo apt-get -y install ./mplayer*.deb --no-install-recommends
             cp /usr/bin/mplayer smplayer/appdir/usr/bin
             
       - name: Install openssl
