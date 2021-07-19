@@ -12,7 +12,7 @@ jobs:
       matrix:
         config:
           - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
-          - { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
+          #- { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
           
     runs-on: ${{matrix.config.os}}
     container: ${{matrix.config.container}}
@@ -50,7 +50,21 @@ jobs:
         run: |
             git clone https://github.com/smplayer-dev/smtube.git smtube
             echo "USE_SMTUBE_LIB=1" >> $GITHUB_ENV
-            
+
+      - name: Install themes
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-themes.git smplayer-themes
+            cd smplayer-themes
+            make
+            make install THEMES_PATH=../smplayer/appdir/usr/bin/themes
+
+      - name: Install skins
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-skins.git smplayer-skins
+            cd smplayer-skins
+            make
+            make install THEMES_PATH=../smplayer/appdir/usr/bin/themes
+
       - name: Compile smplayer
         run: |
             cd smplayer
