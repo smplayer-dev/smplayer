@@ -23,7 +23,7 @@ jobs:
             cd ${{ env.app-name }}
             ./get_version.sh
             VERSION=`cat version`
-            rm version svn_revision
+            rm version svn_revision || true
             echo "VERSION=$VERSION" >> $GITHUB_ENV
             echo "PACKAGENAME=${{ env.app-name }}-$VERSION" >> $GITHUB_ENV
 
