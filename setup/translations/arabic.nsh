@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer. مطلوب للتشغيل."
 
 ${LangFileString} Section_MPlayerCodecs "مرمِّزات ثنائية"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "المرمِّزات الثنائية غير مدعومة في هذا الإصدار."
+${LangFileString} Section_MPlayerCodecs_Desc "مشفرات تشغيل الوسائط الثنائية Binary codecs غير مدعومة في هذا الإصدار."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "مرمِّزات اختيارية لـ MPlayer. (تتطلب اتصال انترنت للتثبيت)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "اقتسام غني الخواص من MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "دعم يوتيوب"
+${LangFileString} Section_YTDL_Desc "يتيح إمكانية تشغيل فيديوات يوتيوب."
 
 ${LangFileString} Section_MEncoder_Desc "برنامج مُرافِق لـ MPlayer و يمكن استخدامه لترميز أو تحويل دفقات الصوت أو الفيديو المدعومة."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "فشل تثبيت mpv."
 ${LangFileString} YTDL_DL_Retry "لم تُبَّت مكتبة اليوتيوب youtube-dl بنجاح. إعادة المحاولة؟"
 ${LangFileString} YTDL_DL_Failed "فشل تنزيل مكتبة اليوتيوب youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "التحري عن تحديثات مكتبة اليوتيوب youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "تحذير: خرجت مكتبة youtube-dl بصورة غير طبيعية بشفرة الخروج: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "مكتبة وقت التشغيل Visual C++ 2010 Runtime (x86) مطلوبة لمكتبة youtube-dl."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "تثبيت SMTube الحالي غير متوافق مع هذا الإصدار من المشغل SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "لطفا أجرِ الترقية إلى إصدار أحدث من SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "تنظيف مخبئية إعدادات الخطوط ..."

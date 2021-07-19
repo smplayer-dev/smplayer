@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-03-16 13:57+0000\n"
+"PO-Revision-Date: 2021-06-07 17:45+0000\n"
 "Last-Translator: Микола Ткач <chistomov@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Встановлювач вже працює."
 # Installer_No_Admin
 msgid ""
 "You must be logged in as an administrator when installing this program."
-msgstr "Ви повинні увійти до системи в якості адміністратора під час встановлення цієї програми."
+msgstr "Ви повинні увійти до системи в якості розпорядника під час встановлення цієї програми."
 
 # SMPlayer_Is_Running
 msgid ""
@@ -135,6 +135,14 @@ msgstr "Додаткові кодеки для MPlayer. (Необхідне зє
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr "Багате можливостями відгалуження(форк) MPlayer і MPlayer2"
+
+# Section_YTDL
+msgid "Youtube support"
+msgstr "Підтримка Youtube"
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr "Дозволяє відтворювати відео з Youtube."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -256,7 +264,7 @@ msgstr "Встановити MPlayer кодеки не вийшло."
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr "Це встановлення може бути вилучено лише користувачем із правами адміністратора."
+msgstr "Це встановлення може бути вилучено лише користувачем із правами розпорядника."
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
@@ -266,7 +274,7 @@ msgstr "Вилучення перервано користувачем."
 msgid ""
 "It does not appear that SMPlayer is installed in the directory "
 "'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr "Не схоже, що SMPlayer встановлено в каталог '$INSTDIR'.[:r:][:n:]Продовжити все одно(не радиться)?"
+msgstr "Не схоже, що SMPlayer встановлено в каталог '$INSTDIR'.[:r:][:n:]Продовжити попри все(не радиться)?"
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
@@ -281,7 +289,7 @@ msgid ""
 "SMPlayer is a complete front-end for MPlayer, from basic features like "
 "playing videos, DVDs, VCDs to more advanced features like support for "
 "MPlayer filters, edl lists, and more."
-msgstr "SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення відеофайлів, DVD, VCD і закінчуючи просунутішими, типу підтримки фільтрів MPlayer, переліків тощо."
+msgstr "SMPlayer — повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення відеофайлів, DVD, VCD і закінчуючи просунутішими, типу підтримки фільтрів MPlayer, переліків тощо."
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
@@ -359,6 +367,24 @@ msgstr "Завантажити Youtube-DL: '$R0' не вийшло."
 msgid "Checking for youtube-dl updates..."
 msgstr "Перевірка наявности оновлень Youtube-DL..."
 
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr "Попередження: ненормальний вихід youtube-dl з кодом: $YTDL_Exit_code"
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr "Для youtube-dl потрібен Visual C++ 2010 Runtime (x86)."
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr "Поточне встановлення SMTube несумісне з цією версією SMPlayer."
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr "Будь ласка, оновіться до нової версії SMTube."
+
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
 msgstr "Очищення кешу шрифтів..."
@@ -369,4 +395,4 @@ msgstr "Очищення налаштувань SMPlayer..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr "Двійкові кодеки цією версією не підтримується."
+msgstr "Двійкові кодеки не підтримуються у цій версії."

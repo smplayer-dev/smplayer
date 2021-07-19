@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2020
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2020-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2020-06-17 22:05+0000\n"
+"PO-Revision-Date: 2021-04-05 09:43+0000\n"
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/rvm/smplayer/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -130,6 +130,14 @@ msgstr "Valinnaiset koodekit MPlayerille (Internet-yhteys tarvitaan asennukseen)
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr "Monipuolinen työkalu ohjelmille MPlayer && MPlayer2"
+
+# Section_YTDL
+msgid "Youtube support"
+msgstr "Youtube-tuki"
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr "Tarjoaa mahdollisuuden toistaa Youtube-videoita."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -353,6 +361,24 @@ msgstr "YouTube-dl:n lataus epäonnistui: '$R0'."
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
 msgstr "Tarkistetaan youtube-dl päivityksiä..."
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr "Varoitus: youtube-dl poistui epänormaalisti koodilla: $YTDL_Exit_code"
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr "Visual C++ 2010 Runtime (x86) vaaditaan youtube-dl:lle."
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr "Nykyinen SMTube ei ole yhteensopiva tämän SMPlayer-version kanssa."
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr "Päivitä SMTube uusimpaan versioon."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."

@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2015-2017
+# samson <sambelet@yahoo.com>, 2015-2017,2021
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-01-26 23:55+0000\n"
+"PO-Revision-Date: 2021-06-20 15:28+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -130,6 +130,14 @@ msgstr "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔ�
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
+
+# Section_YTDL
+msgid "Youtube support"
+msgstr "የ ዩቲዩብ ድጋፍ"
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr ""
 
 # Section_MEncoder_Desc
 msgid ""
@@ -354,6 +362,24 @@ msgstr "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
 msgid "Checking for youtube-dl updates..."
 msgstr "የ ዩቲዩብ-dl ማሻሻያ በ መመርመር ላይ..."
 
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr ""
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr ""
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr "እባክዎን ወደ አዲሱ እትም SMTube. ማሻሻያ"
+
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
 msgstr "የ ፊደል ማሰናጃን በ ማጽዳት ላይ..."
@@ -364,4 +390,4 @@ msgstr "በማጽዳት ላይ የ SMPlayer ማሰናጃ"
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr "Binary codecs በዚህ እትም ውስጥ አልተደገፈም"
+msgstr ""

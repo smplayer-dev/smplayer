@@ -79,14 +79,14 @@ ${LangFileString} Section_MPlayer_Desc "SMP ማጫወቻ; ያስፈልጋል በ
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs በዚህ እትም ውስጥ አልተደገፈም"
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "የ ዩቲዩብ ድጋፍ"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "አጋር ፕሮግራም ለ MPlayer መጠቀም ይችላሉ ለ encode ወይንም መቀየር የ ተደገፉ ድምፅ ወይንም ቪዲዮዎች ለማስተላለፍ"
@@ -168,7 +168,7 @@ ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for
 
 ; SMTube
 ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg2 "እባክዎን ወደ አዲሱ እትም SMTube. ማሻሻያ"
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "የ ፊደል ማሰናጃን በ ማጽዳት ላይ..."

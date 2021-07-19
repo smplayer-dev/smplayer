@@ -12,7 +12,7 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Встановлювач вже працює."
-${LangFileString} Installer_No_Admin "Ви повинні увійти до системи в якості адміністратора під час встановлення цієї програми."
+${LangFileString} Installer_No_Admin "Ви повинні увійти до системи в якості розпорядника під час встановлення цієї програми."
 ${LangFileString} SMPlayer_Is_Running "Примірник SMPlayer працює. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
 ${LangFileString} OS_Not_Supported "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує щонайменш Windows XP і може працювати неправильно у Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; необхідний для в�
 
 ${LangFileString} Section_MPlayerCodecs "Двійкові кодеки"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Двійкові кодеки цією версією не підтримується."
+${LangFileString} Section_MPlayerCodecs_Desc "Двійкові кодеки не підтримуються у цій версії."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Додаткові кодеки для MPlayer. (Необхідне зєднання з Інтернетом для встановлення)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Багате можливостями відгалуження(форк) MPlayer і MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Підтримка Youtube"
+${LangFileString} Section_YTDL_Desc "Дозволяє відтворювати відео з Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Супутня MPlayer програма, яку можна використовувати для кодування та перетворення підтримуваних звукових і відеопотоків."
 
@@ -95,14 +95,14 @@ ${LangFileString} Codecs_DL_Failed "Завантажити кодеки MPlayer:
 ${LangFileString} Codecs_Inst_Failed "Встановити MPlayer кодеки не вийшло."
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "Це встановлення може бути вилучено лише користувачем із правами адміністратора."
+${LangFileString} Uninstaller_No_Admin "Це встановлення може бути вилучено лише користувачем із правами розпорядника."
 ${LangFileString} Uninstaller_Aborted "Вилучення перервано користувачем."
-${LangFileString} Uninstaller_NotInstalled "Не схоже, що SMPlayer встановлено в каталог '$INSTDIR'.$\r$\nПродовжити все одно(не радиться)?"
+${LangFileString} Uninstaller_NotInstalled "Не схоже, що SMPlayer встановлено в каталог '$INSTDIR'.$\r$\nПродовжити попри все(не радиться)?"
 ${LangFileString} Uninstaller_InvalidDirectory "Встановлення SMPlayer не виявлено."
 ${LangFileString} Uninstaller_64bitOnly "Це встановлення може бути вилучено лише на 64-бітовій Windows."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення відеофайлів, DVD, VCD і закінчуючи просунутішими, типу підтримки фільтрів MPlayer, переліків тощо."
+${LangFileString} Application_Description "SMPlayer — повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення відеофайлів, DVD, VCD і закінчуючи просунутішими, типу підтримки фільтрів MPlayer, переліків тощо."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Виконується резервне копіювання кодеків із попереднього встановлення..."
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Помилка при встановленн�
 ${LangFileString} YTDL_DL_Retry "Встановити YouTube-DL не вийшло. Спробувати ще раз?"
 ${LangFileString} YTDL_DL_Failed "Завантажити Youtube-DL: '$R0' не вийшло."
 ${LangFileString} YTDL_Update_Check "Перевірка наявности оновлень Youtube-DL..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Попередження: ненормальний вихід youtube-dl з кодом: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Для youtube-dl потрібен Visual C++ 2010 Runtime (x86)."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "Поточне встановлення SMTube несумісне з цією версією SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Будь ласка, оновіться до нової версії SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Очищення кешу шрифтів..."

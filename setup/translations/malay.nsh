@@ -33,8 +33,8 @@ ${LangFileString} MPlayerMPVGroupTitle "Enjin Multimedia"
 ${LangFileString} Section_SMPlayer "SMPlayer (diperlukan)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, pustaka terkongsi, dan dokumentasi."
 
-${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Cipta pintasan pada SMPlayer pada desktop."
+${LangFileString} Section_DesktopShortcut "Atas Meja"
+${LangFileString} Section_DesktopShortcut_Desc "Cipta satu pintasan SMPlayer di atas meja."
 
 ${LangFileString} Section_StartMenu "Menu Mula"
 ${LangFileString} Section_StartMenu_Desc "Cipta masukan Menu Mula untuk SMPlayer."
@@ -51,8 +51,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks pilihan untuk MPlayer. (Sam
 
 ${LangFileString} Section_MPV_Desc "Cabang kaya-fitur bagi MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Sokongan Youtube"
+${LangFileString} Section_YTDL_Desc "Menyediakan kemungkinan untuk dapat memainkan video-video Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod atau jelma audio disokong atau strim video."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Gagal memasang mpv."
 ${LangFileString} YTDL_DL_Retry "youtube-dl gagal dipasang. Cuba lagi?"
 ${LangFileString} YTDL_DL_Failed "Gagal memuat turun youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Memeriksa kemaskini youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Amaran: youtube-dl keluar secara abnormal dengan kod keluar: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Masa Jalan Visual C++ 2010 (x86) diperlukan untuk youtube-dl."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "Pemasangan SMTube semasa tidak serasi dengan versi SMPlayer ini."
+${LangFileString} SMTube_Incompatible_Msg2 "Sila tatar ke versi SMTube yang lebih baharu."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Membersihkan cache konfig fon..."

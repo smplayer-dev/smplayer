@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; oynatmak için gerekli."
 
 ${LangFileString} Section_MPlayerCodecs "İkili Kodekleri"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "İkili Kodekler bu sürüm için desteklenmiyor."
+${LangFileString} Section_MPlayerCodecs_Desc "Bu sürümde ikili kodekler desteklenmemektedir."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer için isteğe bağlı kodekler. (Kurulum için internet bağlantısı gereklidir)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Özellik açısından zengin bir MPlayer && MPlayer2 çatallaması"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Youtube desteği"
+${LangFileString} Section_YTDL_Desc "Youtube videolarını oynatma imkanı sağlar."
 
 ${LangFileString} Section_MEncoder_Desc "Desteklenen ses veya video yayınlarını çözmek veya dönüştürmek için kullanılabilen, MPlayer'a eşlik eden bir program."
 
@@ -64,7 +64,7 @@ ${LangFileString} Section_Translations_Desc "SMPlayer için ingilizce olmayan di
 
 ${LangFileString} Section_ResetSettings_Desc "SMPlayer'in önceki kurulum tercihleri silinir."
 
-${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "İkili kodek paketleri, daha yeni RealVideo varyantları ve pek çok yaygın olmayan format gibi henüz yerel olarak uygulanmayan kodekler için destek ekler.$\nDVD'ler, MPEG-1/2/4, vb. Gibi en yaygın formatları oynatmak için gerekli olmadıklarını unutmayın."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Kurulum Tipini Seç"
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Mpv kurulamadı."
 ${LangFileString} YTDL_DL_Retry "youtube-dl kurulamadı. Tekrar denemek ister misiniz?"
 ${LangFileString} YTDL_DL_Failed "Youtube-dl indirilemedi : '$R0'."
 ${LangFileString} YTDL_Update_Check "Youtube-dl için güncelleme kontrolü... "
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Uyarı: youtube-dl, çıkış koduyla anormal şekilde çıktı: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Youtube-dl için Visual C++ 2010 Runtime (x86) gereklidir."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "Mevcut SMTube kurulumu, SMPlayer'ın bu sürümüyle uyumlu değil."
+${LangFileString} SMTube_Incompatible_Msg2 "Lütfen daha yeni bir SMTube sürümüne yükseltin."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Yazı türü yapılandırma önbelleğini temizleme"

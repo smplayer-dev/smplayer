@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2014-2016,2018
+# abuyop <abuyop@gmail.com>, 2014-2016,2018,2021
 # Muhd. Syah <wanmuhammadsyahmiz@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2018-12-24 06:01+0000\n"
+"PO-Revision-Date: 2021-04-09 21:36+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/rvm/smplayer/language/ms_MY/)\n"
 "MIME-Version: 1.0\n"
@@ -97,11 +97,11 @@ msgstr "SMPlayer, pustaka terkongsi, dan dokumentasi."
 
 # Section_DesktopShortcut
 msgid "Desktop"
-msgstr "Desktop"
+msgstr "Atas Meja"
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Cipta pintasan pada SMPlayer pada desktop."
+msgstr "Cipta satu pintasan SMPlayer di atas meja."
 
 # Section_StartMenu
 msgid "Start Menu"
@@ -131,6 +131,14 @@ msgstr "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemas
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr "Cabang kaya-fitur bagi MPlayer && MPlayer2"
+
+# Section_YTDL
+msgid "Youtube support"
+msgstr "Sokongan Youtube"
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr "Menyediakan kemungkinan untuk dapat memainkan video-video Youtube."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -354,6 +362,24 @@ msgstr "Gagal memuat turun youtube-dl: '$R0'."
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
 msgstr "Memeriksa kemaskini youtube-dl..."
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr "Amaran: youtube-dl keluar secara abnormal dengan kod keluar: $YTDL_Exit_code"
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr "Masa Jalan Visual C++ 2010 (x86) diperlukan untuk youtube-dl."
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr "Pemasangan SMTube semasa tidak serasi dengan versi SMPlayer ini."
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr "Sila tatar ke versi SMTube yang lebih baharu."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
