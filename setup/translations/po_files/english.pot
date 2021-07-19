@@ -106,7 +106,7 @@ msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr ""
 
 # Section_YTDL
-msgid "Youtube support"
+msgid "Youtube support (download required)"
 msgstr ""
 
 # Section_YTDL_Desc

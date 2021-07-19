@@ -10,6 +10,24 @@ msgstr ""
 msgid "Cleaning fontconfig cache..."
 msgstr ""
 
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr ""
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr ""
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
 msgstr ""
@@ -231,6 +249,14 @@ msgstr ""
 msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
+msgstr ""
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr ""
+
+# Section_YTDL
+msgid "Youtube support (download required)"
 msgstr ""
 
 # Section_MPV_Desc

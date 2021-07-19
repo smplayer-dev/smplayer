@@ -10,6 +10,24 @@ msgstr "Čistenie nastavení SMPlayer..."
 msgid "Cleaning fontconfig cache..."
 msgstr "Čistenie fontconfig cache..."
 
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr ""
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr ""
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
 msgstr "Kontrola aktualizácií youtube-dl..."
@@ -110,8 +128,8 @@ msgid ""
 "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
 "r:][:n:]Continue anyway (not recommended)?"
 msgstr ""
-"Zdá sa, že SMPlayer nie je nainštalovaný v adresári '$INSTDIR'.[:r:][:n:]"
-"Pokračovať napriek tomu (neodporúča sa)?"
+"Zdá sa, že SMPlayer nie je nainštalovaný v adresári '$INSTDIR'.[:r:][:"
+"n:]Pokračovať napriek tomu (neodporúča sa)?"
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
@@ -248,6 +266,14 @@ msgstr ""
 "Prídavný program k Mplayer-u, ktorý umožňuje enkódovať alebo upraviť "
 "podporované audio a video streamy."
 
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr ""
+
+# Section_YTDL
+msgid "Youtube support (download required)"
+msgstr ""
+
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr "Bohaté funkcie MPlayer && MPlayer2"
@@ -350,8 +376,8 @@ msgid ""
 "really want to continue with the installation?"
 msgstr ""
 "Nepodporovaný operačný systém.[:n:]SMPlayer ${SMPLAYER_VERSION} vyžaduje "
-"aspoň systém Windows Vista a nemusí fungovať správne vo vašom systéme.[:n:]"
-"Naozaj chcete pokračovať v inštalácii?"
+"aspoň systém Windows Vista a nemusí fungovať správne vo vašom systéme.[:"
+"n:]Naozaj chcete pokračovať v inštalácii?"
 
 # OS_Not_Supported
 msgid ""
@@ -360,8 +386,8 @@ msgid ""
 "really want to continue with the installation?"
 msgstr ""
 "Nepodporovaný operačný systém.[:n:]SMPlayer ${SMPLAYER_VERSION} vyžaduje "
-"aspoň systém Windows XP a nemusí fungovať správne vo vašom systéme.[:n:]"
-"Naozaj chcete pokračovať v inštalácii?"
+"aspoň systém Windows XP a nemusí fungovať správne vo vašom systéme.[:"
+"n:]Naozaj chcete pokračovať v inštalácii?"
 
 # SMPlayer_Is_Running
 msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."

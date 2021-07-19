@@ -1,7 +1,412 @@
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr "Binäärisiä koodekkeja ei tueta tässä versiossa."
+
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "Siivotaan SMPlayer-asetuksia..."
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr "Siivotaan fontconfig-välimuistia..."
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr "Päivitä SMTube uusimpaan versioon."
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr "Nykyinen SMTube ei ole yhteensopiva tämän SMPlayer-version kanssa."
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr "Visual C++ 2010 Runtime (x86) vaaditaan youtube-dl:lle."
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr "Varoitus: youtube-dl poistui epänormaalisti koodilla: $YTDL_Exit_code"
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "Tarkistetaan youtube-dl päivityksiä..."
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr "YouTube-dl:n lataus epäonnistui: '$R0'."
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr "Youtube-dl:n asentaminen ei onnistunut. Yritä uudelleen?"
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "Mpv:n asentaminen epäonnistui."
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "Lataaminen epäonnistui, mpv: '$R0'."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr "Yritä uudelleen? mpv-asennus ei onnistu."
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "Ladataan mpv..."
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr "Palautetaan mpv edellisestä asennuksesta..."
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr "Varmuuskopioidaan mpv..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "Palautetaan SMTube aiemmasta asennuksesta..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "Varmuuskopioidaan SMTube..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Puretaan tiedostoja..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Peruutetaan muutoksia..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Palautetaan tiedostokytkennät..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Poistetaan pikakuvakkeita..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Poistetaan rekisteriavaimia..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Poistetaan tiedostoja..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Palautetaan koodekit aiemmasta asennuksesta..."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Varmuuskopioidaan koodekit aiemmasta asennuksesta..."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr ""
+"SMPlayer on täydellinen käyttöliittymä MPlayerille, perusominaisuudet, kuten "
+"toistaa videoita, DVD- ja VCD-levyjen kehittyneempiä ominaisuuksia, kuten "
+"tuki MPlayer suodattimille, edl-luettelot ja paljon enemmän."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Tämän asennus voidaan poistaa vain 64-bittisessä Windowsissa."
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "SMPlayer-asennusta ei löydy."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
+"r:][:n:]Continue anyway (not recommended)?"
+msgstr ""
+"Vaikuttaa siltä, että SMPlayer ei ole asennettu hakemistoon '$INSTDIR'.[:r:]"
+"[:n:]Jatkako tästä huolimatta (ei suositella)?"
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Poisto keskeytettiin käyttäjän toimesta."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr ""
+"Tämän asennuksen voi poistaa vain käyttäjä, jolla on järjestelmänvalvojan "
+"oikeudet."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "MPlayer-koodekkien asennus epäonnistui."
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "MPlayer-koodekkien lataus epäonnistui: '$R0'."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "MPlayer-koodekkeja ei asennettu. Yritä uudelleen?"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Ladataan MPlayer-koodekkeja..."
+
+# StartBtn
+msgid "Start"
+msgstr "Käynnistä"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "päivitys"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "paluu aiempaan"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "asenna uudelleen"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
+msgstr ""
+"Haluatko varmasti nollata SMPlayer-asetukset? Tätä toimintoa ei voi "
+"peruuttaa."
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Palauta minun SMPlayer-määritykset"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Muuta asennuksen asetuksia"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Napsauta Poista asennus, kun olet valmis jatkamaan."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Napsauta Seuraava, kun olet valmis jatkamaan."
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Napsauta Käynnistä, kun olet valmis jatkamaan."
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Poista olemassa oleva asennus (poista)"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Korvaa ($Inst_Type) nykyinen asennus"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Valitse miten edetä:"
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Sinulla on jo asennettu SMPlayer seuraavassa kansiossa:"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Valitse ylikirjoitus tai asennuksen poisto."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Valitse asennustyyppi"
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr ""
+"Binääriset koodekkit lisäävät tukea koodekeille, joita ei ole vielä "
+"toteutettu alkuperäisessä muodossa, kuten uudemmat RealVideo-variantit ja "
+"muita epätavallisia muotoja.[:n:]Huomaa, että niitä ei tarvitse toistaa "
+"yleisissä muodoissa, kuten DVD, MPEG-1/2/4, jne."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Poistaa SMPlayer-asetusten jäämät aiemmista asennuksista."
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Muut kuin englanninkieliset tiedostot SMPlayerille."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Kielet"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Lisää kuvakeiden teemoja SMPlayerille."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Kuvaketeemat"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr ""
+"MPlayer-kumppaniohjelma, jota voidaan käyttää tuettujen ääni- tai "
+"videosuoratoiston purkamiseen tai muuntamiseen."
+
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr "Tarjoaa mahdollisuuden toistaa Youtube-videoita."
+
+# Section_YTDL
+msgid "Youtube support (download required)"
+msgstr ""
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "Monipuolinen työkalu ohjelmille MPlayer && MPlayer2"
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr ""
+"Valinnaiset koodekit MPlayerille (Internet-yhteys tarvitaan asennukseen)."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Binaariset koodekit"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; tarvitaan toistossa."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (vaaditaan)"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Luo SMPlayer käynnistä-valikkoon."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Käynnistys-valikko"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Luo pikakuvakkeen SMPlayer työpöydälle."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Työpöytä"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, jaetut kirjastot ja dokumentaatio."
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (vaaditaan)"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Multimedia moottori"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "MPlayer-osat"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMPlayer before "
+"starting setup. This will make it possible to update relevant program files "
+"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"Asennusohjelma opastaa sinua $(^NameDA).[:r:][:n:][:r:][:n:]On suositeltavaa "
+"sulkea kaikki SMPlayer-osat ennen asennuksen aloittamista. Tämä mahdollistaa "
+"ohjelmatiedostojen päivittämisen ilman, että tietokonetta tarvitsee "
+"käynnistää uudelleen.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Asennus"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
+"bit SMPlayer first."
+msgstr ""
+"SMPlayer 64-bittinen asennus on jo olemassa. Sinun on ensin poistettava 64-"
+"bittinen SMPlayer."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
+"bit SMPlayer first."
+msgstr ""
+"SMPlayer 32-bittinen asennus on jo olemassa. Sinun on ensin poistettava 32-"
+"bittinen SMPlayer."
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"Tämän ohjelmiston asentaminen edellyttää 64-bittistä käyttöjärjestelmää."
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"Ei tuettu käyttöjärjestelmä.[:n:]SMPlayer ${SMPLAYER_VERSION} vaatii "
+"vähintään Windows Vistan, eikä välttämättä toimi oikein järjestelmässäsi.[:"
+"n:]Haluatko todella jatkaa asennusta?"
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"Ei tuettu käyttöjärjestelmä.[:n:]SMPlayer ${SMPLAYER_VERSION} vaatii "
+"vähintään Windows XP:n, eikä välttämättä toimi oikein järjestelmässäsi.[:"
+"n:]Haluatko todella jatkaa asennusta?"
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "SMPlayer on jo käynnissä. Sulje SMPlayer ja yritä uudelleen."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr ""
+"Sinun on oltava kirjautuneena järjestelmänvalvojana kun asennat tätä "
+"ohjelmaa."
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Asennusohjelma on jo käynnissä."
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Kimmo Kujansuu <mrkujansuu@gmail.com>, 2020-2021
 msgid ""
@@ -10,384 +415,12 @@ msgstr ""
 "PO-Revision-Date: 2021-04-05 09:43+0000\n"
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/rvm/smplayer/language/fi/)\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Asennusohjelma on jo käynnissä."
-
-# Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "Sinun on oltava kirjautuneena järjestelmänvalvojana kun asennat tätä ohjelmaa."
-
-# SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "SMPlayer on jo käynnissä. Sulje SMPlayer ja yritä uudelleen."
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr "Ei tuettu käyttöjärjestelmä.[:n:]SMPlayer ${SMPLAYER_VERSION} vaatii vähintään Windows XP:n, eikä välttämättä toimi oikein järjestelmässäsi.[:n:]Haluatko todella jatkaa asennusta?"
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr "Ei tuettu käyttöjärjestelmä.[:n:]SMPlayer ${SMPLAYER_VERSION} vaatii vähintään Windows Vistan, eikä välttämättä toimi oikein järjestelmässäsi.[:n:]Haluatko todella jatkaa asennusta?"
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "Tämän ohjelmiston asentaminen edellyttää 64-bittistä käyttöjärjestelmää."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
-msgstr "SMPlayer 32-bittinen asennus on jo olemassa. Sinun on ensin poistettava 32-bittinen SMPlayer."
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
-msgstr "SMPlayer 64-bittinen asennus on jo olemassa. Sinun on ensin poistettava 64-bittinen SMPlayer."
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Asennus"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Asennusohjelma opastaa sinua $(^NameDA).[:r:][:n:][:r:][:n:]On suositeltavaa sulkea kaikki SMPlayer-osat ennen asennuksen aloittamista. Tämä mahdollistaa ohjelmatiedostojen päivittämisen ilman, että tietokonetta tarvitsee käynnistää uudelleen.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Pikanäppäimet"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "MPlayer-osat"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Multimedia moottori"
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (vaaditaan)"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, jaetut kirjastot ja dokumentaatio."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Työpöytä"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Luo pikakuvakkeen SMPlayer työpöydälle."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Käynnistys-valikko"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Luo SMPlayer käynnistä-valikkoon."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (vaaditaan)"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; tarvitaan toistossa."
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Binaariset koodekit"
-
-# Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr "Valinnaiset koodekit MPlayerille (Internet-yhteys tarvitaan asennukseen)."
-
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Monipuolinen työkalu ohjelmille MPlayer && MPlayer2"
-
 # Section_YTDL
-msgid "Youtube support"
-msgstr "Youtube-tuki"
-
-# Section_YTDL_Desc
-msgid "Provides the possibility to play Youtube videos."
-msgstr "Tarjoaa mahdollisuuden toistaa Youtube-videoita."
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr "MPlayer-kumppaniohjelma, jota voidaan käyttää tuettujen ääni- tai videosuoratoiston purkamiseen tai muuntamiseen."
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Kuvaketeemat"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Lisää kuvakeiden teemoja SMPlayerille."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Kielet"
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Muut kuin englanninkieliset tiedostot SMPlayerille."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Poistaa SMPlayer-asetusten jäämät aiemmista asennuksista."
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
-msgstr "Binääriset koodekkit lisäävät tukea koodekeille, joita ei ole vielä toteutettu alkuperäisessä muodossa, kuten uudemmat RealVideo-variantit ja muita epätavallisia muotoja.[:n:]Huomaa, että niitä ei tarvitse toistaa yleisissä muodoissa, kuten DVD, MPEG-1/2/4, jne."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Valitse asennustyyppi"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Valitse ylikirjoitus tai asennuksen poisto."
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Sinulla on jo asennettu SMPlayer seuraavassa kansiossa:"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Valitse miten edetä:"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Korvaa ($Inst_Type) nykyinen asennus"
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Poista olemassa oleva asennus (poista)"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Napsauta Käynnistä, kun olet valmis jatkamaan."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Napsauta Seuraava, kun olet valmis jatkamaan."
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Napsauta Poista asennus, kun olet valmis jatkamaan."
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Muuta asennuksen asetuksia"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Palauta minun SMPlayer-määritykset"
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be"
-" reversed."
-msgstr "Haluatko varmasti nollata SMPlayer-asetukset? Tätä toimintoa ei voi peruuttaa."
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "asenna uudelleen"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "paluu aiempaan"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "päivitys"
-
-# StartBtn
-msgid "Start"
-msgstr "Käynnistä"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Ladataan MPlayer-koodekkeja..."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "MPlayer-koodekkeja ei asennettu. Yritä uudelleen?"
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "MPlayer-koodekkien lataus epäonnistui: '$R0'."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "MPlayer-koodekkien asennus epäonnistui."
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr "Tämän asennuksen voi poistaa vain käyttäjä, jolla on järjestelmänvalvojan oikeudet."
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Poisto keskeytettiin käyttäjän toimesta."
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr "Vaikuttaa siltä, että SMPlayer ei ole asennettu hakemistoon '$INSTDIR'.[:r:][:n:]Jatkako tästä huolimatta (ei suositella)?"
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "SMPlayer-asennusta ei löydy."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "Tämän asennus voidaan poistaa vain 64-bittisessä Windowsissa."
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr "SMPlayer on täydellinen käyttöliittymä MPlayerille, perusominaisuudet, kuten toistaa videoita, DVD- ja VCD-levyjen kehittyneempiä ominaisuuksia, kuten tuki MPlayer suodattimille, edl-luettelot ja paljon enemmän."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "Varmuuskopioidaan koodekit aiemmasta asennuksesta..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "Palautetaan koodekit aiemmasta asennuksesta..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Poistetaan tiedostoja..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Poistetaan rekisteriavaimia..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Poistetaan pikakuvakkeita..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "Palautetaan tiedostokytkennät..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "Peruutetaan muutoksia..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Puretaan tiedostoja..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr "Varmuuskopioidaan SMTube..."
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr "Palautetaan SMTube aiemmasta asennuksesta..."
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr "Varmuuskopioidaan mpv..."
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr "Palautetaan mpv edellisestä asennuksesta..."
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "Ladataan mpv..."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr "Yritä uudelleen? mpv-asennus ei onnistu."
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "Lataaminen epäonnistui, mpv: '$R0'."
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "Mpv:n asentaminen epäonnistui."
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr "Youtube-dl:n asentaminen ei onnistunut. Yritä uudelleen?"
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
-msgstr "YouTube-dl:n lataus epäonnistui: '$R0'."
-
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr "Tarkistetaan youtube-dl päivityksiä..."
-
-# YTDL_Error_Msg1
-msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr "Varoitus: youtube-dl poistui epänormaalisti koodilla: $YTDL_Exit_code"
-
-# YTDL_Error_Msg2
-msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
-msgstr "Visual C++ 2010 Runtime (x86) vaaditaan youtube-dl:lle."
-
-# SMTube_Incompatible_Msg1
-msgid ""
-"The current SMTube installation is incompatible with this version of "
-"SMPlayer."
-msgstr "Nykyinen SMTube ei ole yhteensopiva tämän SMPlayer-version kanssa."
-
-# SMTube_Incompatible_Msg2
-msgid "Please upgrade to a newer version of SMTube."
-msgstr "Päivitä SMTube uusimpaan versioon."
-
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
-msgstr "Siivotaan fontconfig-välimuistia..."
-
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
-msgstr "Siivotaan SMPlayer-asetuksia..."
-
-# Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Binäärisiä koodekkeja ei tueta tässä versiossa."
+#~ msgid "Youtube support"
+#~ msgstr "Youtube-tuki"
