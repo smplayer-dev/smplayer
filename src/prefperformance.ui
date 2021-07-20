@@ -42,7 +42,7 @@
           <item>
            <widget class="QLabel" name="priority_intro_label">
             <property name="text">
-             <string>Select the priority for the MPlayer process.</string>
+             <string>Select the priority for the player process.</string>
             </property>
             <property name="wordWrap">
              <bool>false</bool>
