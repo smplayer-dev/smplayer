@@ -450,11 +450,11 @@ void PrefGeneral::updateDriverCombos() {
 		vo = vo_list[n].name();
 		#ifdef Q_OS_WIN
 		if ( vo == "directx" ) {
-			vo_combo->addItem( "directx (" + tr("fast") + ")", "directx" );
-			vo_combo->addItem( "directx (" + tr("slow") + ")", "directx:noaccel" );
+			vo_combo->addItem( "directx (" + tr("hardware") + ")", "directx" );
+			vo_combo->addItem( "directx (" + tr("software") + ")", "directx:noaccel" );
 		}
 		else
-		#else
+		#endif
 		#ifdef Q_OS_OS2
 		if ( vo == "kva") {
 			vo_combo->addItem( "kva (" + tr("fast") + ")", "kva" );
@@ -462,11 +462,7 @@ void PrefGeneral::updateDriverCombos() {
 			vo_combo->addItem( "kva (" + tr("slower dive mode") + ")", "kva:dive" );
 		}
 		else
-		#else
-		/*
-		if (vo == "xv") vo_combo->addItem( "xv (" + tr("fastest") + ")", vo);
-		else
-		*/
+		#endif
 		#if USE_XV_ADAPTORS
 		if ((vo == "xv") && (!xv_adaptors.isEmpty())) {
 			vo_combo->addItem(vo, vo);
@@ -476,13 +472,19 @@ void PrefGeneral::updateDriverCombos() {
 			}
 		}
 		else
-		#endif // USE_XV_ADAPTORS
 		#endif
-		#endif
+		#ifdef USE_SHM
 		if (vo == "shm") {
 			vo_combo->addItem( "Shared memory", vo);
 		}
 		else
+		#endif
+		#ifdef Q_OS_MACX
+		if (vo == "sharedbuffer") {
+			vo_combo->addItem( "Cocoa shared buffer", vo);
+		}
+		else
+		#endif
 		if (/*vo == "libmpv" ||*/ vo == "null" || vo == "png" || vo == "jpeg" || vo == "gif89a" ||
             vo == "tga" || vo == "pnm" || vo == "md5sum" || vo == "image" || vo == "tct" || vo == "yuv4mpeg")
 		{
