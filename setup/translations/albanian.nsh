@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; nevojitet per leximin/shikimin 
 
 ${LangFileString} Section_MPlayerCodecs "Codec-et binare."
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Codec-ët binary nuk suportohen në këtë version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codec-ët shtesë për MPlayer. (Nevojitet Lidhje në Internet për instalimin)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Nje program qe perdor MPlayer mund te perdoret per te enkoduar ose transformuar file audio ose video te suportuar."

@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; 재생에 필요함."
 
 ${LangFileString} Section_MPlayerCodecs "바이너리 코덱"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "이 버전에서 바이너리 코덱은 지원하지 않습니다."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer용 추가 코덱. (설치시 인터넷 연결이 필요함)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "다기능의 MPlayer && MPlayer2를 이용한 개발"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "지원하는 오디오 비디오 스트림을 인코딩하거나 변환하는데 사용할 수 있는 MPlayer의 추가 프로그램."

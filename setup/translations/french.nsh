@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer ; requis pour la lecture."
 
 ${LangFileString} Section_MPlayerCodecs "Codecs binaires"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Les codecs binaires ne sont pas supportés dans cette version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs optionnels pour MPlayer. (Connexion Internet requise durant l'installation.)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Une version améliorée de MPlayer et MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Programme permettant d'encoder ou de convertir des flux audio et/ou vidéos supportés par MPlayer."

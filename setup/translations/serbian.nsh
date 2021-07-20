@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "МПлејер; потребно за р
 
 ${LangFileString} Section_MPlayerCodecs "Бинарни кодеци"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Бинарни кодеци нису подржани у овој верзији."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Опциони кодеци за МПлејер. (Интернет веза је потребна за инсталацију)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Могућностима богат наследник МПлејера2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Пратећи програм за МПлејер који се може користити за кодирање или трансформацију подржаних звучних или видео токова."

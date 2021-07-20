@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer· απαιτείται για α
 
 ${LangFileString} Section_MPlayerCodecs "Δυαδικοί κωδικοποιητές"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Οι δυαδικοί κωδικοποιητές δεν υποστηρίζονται σε αυτήν την έκδοση."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Προαιρετικοί κωδικοποιητές για τον MPlayer. (Απαιτείται σύνδεση στο διαδίκτυο για την εγκατάσταση)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Μια πλούσια σε χαρακτηριστικά δικράνωση του MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Ένα συνοδευτικό πρόγραμμα στο MPlayer το οποίο μπορεί να χρησιμοποιηθεί για την κωδικοποίηση ή την μεταμόρφωση των υποστηριζόμενων ροών ήχου ή βίντεο."

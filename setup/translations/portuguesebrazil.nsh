@@ -51,8 +51,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Codecs opcionais para o MPlayer. (
 
 ${LangFileString} Section_MPV_Desc "Um derivado do MPlayer && MPlayer2 cheio de funcionalidades"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Suporte ao Youtube (download necessário)"
+${LangFileString} Section_YTDL_Desc "Permite a possibilidade de reproduzir vídeos do Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Um programa acompanhante do MPlayer que pode ser usado para codificar ou transformar fluxos de áudio ou vídeo suportados."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Falha ao instalar o mpv."
 ${LangFileString} YTDL_DL_Retry "O youtube-dl não foi instalado corretamente. Tentar novamente?"
 ${LangFileString} YTDL_DL_Failed "Falha ao baixar o youtube-dl:'$R0'."
 ${LangFileString} YTDL_Update_Check "Buscando por atualizações do youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Atenção: youtube-dl travou com o seguinte código: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) é exigido pelo youtube-dl."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "A instalação atual do SMTube é incompatível com essa versão do SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Por favor atualize para uma versão mais recente do SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Limpando cache do fontconfig..."

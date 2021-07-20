@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; จำเป็นสำหร�
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs ไม่รองรับในเวอร์ชันนี้"
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs ทางเลือกสำหรับ MPlayer (ต้องมีการเชื่อมต่ออินเตอร์เน็ตในการติดตั้ง)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "โปรแกรมสหายของ MPlayer ที่สามารถใช้เข้ารหัสหรือแปลงกระแสเสียงหรือวิดีโอที่รองรับ"

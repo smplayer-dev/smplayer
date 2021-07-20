@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; requerit per a la reproducció.
 
 ${LangFileString} Section_MPlayerCodecs "Còdecs binaris"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Els còdecs binaris no són compatibles amb aquesta versió."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Còdecs opcionals per a MPlayer. (es requereix una connexió a Internet per a la instal·lació)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Un fork ric en característiques de MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Un programa que acompanya MPlayer que es pot utilitzar per codificar o transformar els fluxos compatibles d'àudio o de vídeo."

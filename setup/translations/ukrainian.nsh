@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Додаткові кодеки д
 
 ${LangFileString} Section_MPV_Desc "Багате можливостями відгалуження(форк) MPlayer і MPlayer2"
 
-${LangFileString} Section_YTDL "Підтримка Youtube"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Дозволяє відтворювати відео з Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Супутня MPlayer програма, яку можна використовувати для кодування та перетворення підтримуваних звукових і відеопотоків."

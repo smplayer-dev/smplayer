@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer；播放所必須的。"
 
 ${LangFileString} Section_MPlayerCodecs "二進制解碼器"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "此版本不支援二進制解碼器。"
+${LangFileString} Section_MPlayerCodecs_Desc "此版本不支援二進位版本的編解碼器。"
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "給 MPlayer 使用的非必須解碼器。( 需要連接網路以進行安裝 )"
 !endif
 
 ${LangFileString} Section_MPV_Desc "MPlayer 與 MPlayer2 一個功能豐富的分支"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "YouTube 支援（需要下載）"
+${LangFileString} Section_YTDL_Desc "提供播放 YouTube 影片的可能性。"
 
 ${LangFileString} Section_MEncoder_Desc "一個伴隨安裝的程式 MPlayer，可以用來解碼或轉換支援的聲音檔或影片檔。"
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "無法安裝 mpv。"
 ${LangFileString} YTDL_DL_Retry "youtube-dl 沒有成功安裝。是否重試？"
 ${LangFileString} YTDL_DL_Failed "無法下載 youtube-dl：「$R0」。"
 ${LangFileString} YTDL_Update_Check "正在檢查 youtube-dl 的更新..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "警告：youtube-dl 異常退出，結束碼：$YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "youtube-dl 需要 Visual C++ 2010 Runtime (x86)"
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "目前的 SMTube 安裝與此版本的 SMPlayer 不相容。"
+${LangFileString} SMTube_Incompatible_Msg2 "請升級至較新版本的 SMTube。"
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "正在清除 fontconfig 快取..."

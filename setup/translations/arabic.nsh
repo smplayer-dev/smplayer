@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "مرمِّزات اختيارية 
 
 ${LangFileString} Section_MPV_Desc "اقتسام غني الخواص من MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "دعم يوتيوب"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "يتيح إمكانية تشغيل فيديوات يوتيوب."
 
 ${LangFileString} Section_MEncoder_Desc "برنامج مُرافِق لـ MPlayer و يمكن استخدامه لترميز أو تحويل دفقات الصوت أو الفيديو المدعومة."

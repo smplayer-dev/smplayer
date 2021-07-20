@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; potrebno za reprodukciju."
 
 ${LangFileString} Section_MPlayerCodecs "Binarni kôdeki"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binarni kôdeki nisu podržani  u ovoj inačici."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Neobavezni kôdeki za MPlayer. (Potrebna je internet veza za instalaciju)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Značajkama bogat fork MPlayera && MPlayera2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Prateći program za MPlayer koji se može koristiti za enkôdiranje ili transformiranje podržanih zvučnih ili video streamova."

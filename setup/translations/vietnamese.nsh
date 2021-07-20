@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; yêu cầu cho việc phát l�
 
 ${LangFileString} Section_MPlayerCodecs "Bộ mã nhị phân"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Các bộ mã nhị phân chưa được hỗ trợ trong phiên bản này."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Những bộ mã tuỳ chọn cho MPlayer. (Yêu cầu có kết nối Internet để cài đặt)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Một bản sao đa tính năng của MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Một chương trình đi kèm với MPlayer, có thể dùng để chuyển mã hoặc chuyển đổi dòng dữ liệu âm thanh hoặc video được hỗ trợ."

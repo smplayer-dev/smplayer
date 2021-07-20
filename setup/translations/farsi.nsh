@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "برای پخش به MPLayer نیاز ه
 
 ${LangFileString} Section_MPlayerCodecs "کدک‌های باینری"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "نسخه باینری کدک‌ها از این نسخه پشتیبانی به عمل نمی‌آورند."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "کدک‌های اختیاری برای MPLayer . ( اتصال به اینترنت نیاز است )"
 !endif
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."

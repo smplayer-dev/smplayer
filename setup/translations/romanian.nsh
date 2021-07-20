@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Trebuie să fiți autentificat ca administ
 ${LangFileString} SMPlayer_Is_Running "O instanță a SMPlayer rulează. Închideți SMPlayer și încercați din nou."
 
 ${LangFileString} OS_Not_Supported "Sistem de operare nesuportat.$\nSMPlayer ${SMPLAYER_VERSION} este necesar cel puțin ultimul Windows XP și poate să nu funcționeze corect pe sistemul dumneavoastră.$\n Sigur doriți să continuați cu instalarea?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "<br>"
 ${LangFileString} Win64_Required "Un sistem de operare Windows pe 64 biți este necesar pentru instalarea acestei aplicații."
 ${LangFileString} Existing_32bitInst "Există o instalare SMPlayer de 32-bit. Trebuie să dezinstalați întâi SMPlayer la 32-bit."
 ${LangFileString} Existing_64bitInst "Există o instalare SMPlayer de 64-bit. Trebuie să dezinstalați întâi SMPlayer la 64-bit."
@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; necesar pentru redare."
 
 ${LangFileString} Section_MPlayerCodecs "Codecuri binare"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Codecurile binare nu sunt suportate în această versiune."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecuri suplimentare pentru MPlayer. (Este necesară o conexiune la internet pentru instalare)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "O versiune îmbunătățită a MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Un program însoțitor pentru MPlayer care poate fi utilizat să codeze sau să transforme fluxurile audio sau video suportate."
@@ -115,7 +115,7 @@ ${LangFileString} Info_RollBack "Se reiau modificările..."
 ${LangFileString} Info_Files_Extract "Se extrag fișierele..."
 ${LangFileString} Info_SMTube_Backup "Se recuperează SMTube..."
 ${LangFileString} Info_SMTube_Restore "Se restaurează SMTube din instalarea anterioară..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Backup "<br>"
 ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV

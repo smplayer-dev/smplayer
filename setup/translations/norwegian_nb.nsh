@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; påkrevd for avspilling."
 
 ${LangFileString} Section_MPlayerCodecs "Binære kodeker"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binære kodeker støttes ikke i denne versjonen."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Valgfrie kodeker for MPlayer. (Internettilkobling er påkrevd for å installere dem)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "En funksjonsrik avsporing av MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Et følgesprogram til MPlayer som kan brukes til å omkode eller transformere støttede lyd- eller videostrømmer."

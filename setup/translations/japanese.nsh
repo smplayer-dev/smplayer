@@ -51,8 +51,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コー�
 
 ${LangFileString} Section_MPV_Desc "MPlayer と MPlayer2 の機能豊富なフォークです。"
 
-${LangFileString} Section_YTDL "Youtube support"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "YouTube サポート (ダウンロードが必要です)"
+${LangFileString} Section_YTDL_Desc "YouTube 動画を再生する能力を提供します。"
 
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "mpv のインストールに失敗しまし�
 ${LangFileString} YTDL_DL_Retry "youtube-dl は正常にインストールされませんでした。再試行しますか?"
 ${LangFileString} YTDL_DL_Failed "youtube-dl のダウンロードに失敗しました: '$R0'。"
 ${LangFileString} YTDL_Update_Check "youtube-dl の更新を確認しています..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "警告: youtube-dl が異常に終了しました。終了コード: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 ラインタイム (x86) は youtube-dl に必要です。"
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "現在の SMTube インストールは SMPlayer のこのバージョンと互換性がありません。"
+${LangFileString} SMTube_Incompatible_Msg2 "SMTube の新しいバージョンにアップグレードしてください。"
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "fontconfig キャッシュをクリーンアップしています..."

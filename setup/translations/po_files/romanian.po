@@ -1,17 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# k1404, 2016
+# Tiberiu Cristian Leon, 2018
+# titus <titus0818@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2021-07-19 14:21+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/rvm/smplayer/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Instalatorul rulează deja."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Trebuie să fiți autentificat ca administrator când instalați acest program."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "O instanță a SMPlayer rulează. Închideți SMPlayer și încercați din nou."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "Sistem de operare nesuportat.[:n:]SMPlayer ${SMPLAYER_VERSION} este necesar cel puțin ultimul Windows XP și poate să nu funcționeze corect pe sistemul dumneavoastră.[:n:] Sigur doriți să continuați cu instalarea?"
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "<br>"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Un sistem de operare Windows pe 64 biți este necesar pentru instalarea acestei aplicații."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "Există o instalare SMPlayer de 32-bit. Trebuie să dezinstalați întâi SMPlayer la 32-bit."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "Există o instalare SMPlayer de 64-bit. Trebuie să dezinstalați întâi SMPlayer la 64-bit."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Configurare"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Configurarea vă va ghida prin instalarea $(^NameDA).[:r:][:n:][:r:][:n:] este recomandat să închideți toate instanțele de SMPlayer înainte să porniți configurarea. Aceasta va face posibil să actualizați fișierele de program relevante fără să fie necesară repornirea computerului.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Scurtături"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Componente SMPlayer"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Motor multimedia"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (necesar)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, biblioteci partajate și documentație."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Birou"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Creează o scurtătură pentru SMPlayer pe birou."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Meniu pornire"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Creează o intrare în meniu de pornire pentru SMPlayer."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (necesar)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; necesar pentru redare."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Codecuri binare"
+
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Codecurile binare nu sunt suportate în această versiune."
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Codecuri suplimentare pentru MPlayer. (Este necesară o conexiune la internet pentru instalare)"
 
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "O versiune îmbunătățită a MPlayer && MPlayer2"
+
+# Section_YTDL
+msgid "Youtube support (download required)"
 msgstr ""
 
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
 msgstr ""
 
-# SMTube_Incompatible_Msg2
-msgid "Please upgrade to a newer version of SMTube."
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "Un program însoțitor pentru MPlayer care poate fi utilizat să codeze sau să transforme fluxurile audio sau video suportate."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Tematici pictograme"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Tematici pictograme suplimentare pentru SMPlayer."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Limbi"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Fișiere fără limba engleză pentru SMPlayer."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Șterge preferințele SMPlayer rămase de la instalările anterioare."
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr "Pachetele de codecuri binare adaugă suport pentru codecurile care încă nu sunt implementate nativ, precum noile variante RealVideo și o mulțime de formate particulare.[:n:] Rețineți că acestea nu sunt necesare pentru redarea celor mai multor formate precum DVD-uri, MPEG-1/2/4, etc."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Selectați tipul de instalare"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Selectați mod suprascriere sau dezinstalare."
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Există o instalare a SMPlayer în următorul dosar:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Selectați cum se procedează:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Suprascrie ($Inst_Type) instalarea existentă"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Dezinstalează (elimină) instalarea existentă"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Apăsați pornire când este gata de continuat."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Apăsați următorul când este gata de continuare."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Apăsați dezinstalează când este gata de continuare."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Modifică configurările de instalare"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Resetează configurările mele SMPlayer"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be"
+" reversed."
+msgstr "Sigur doriți să resetați setările dumneavoastră pentru SMPlayer? Această acțiune nu poate fi revocată."
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "reinstalare"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "versiune anterioară"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "actualizare"
+
+# StartBtn
+msgid "Start"
+msgstr "Pornire"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Se descarcă codecurile MPlayer..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "Codecurile MPlayer nu au fost instalate cu succes. Se reîncearcă?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "A eșuat descărcarea codecurilor MPlayer: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "A eșuat instalarea codecurilor MPlayer."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Această instalare poate fi dezinstalată numai de un utilizator cu drepturi de administrator."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Dezinstalarea abandonată de utilizator."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "Nu apare că SMPlayer este instalat în dosarul '$INSTDIR'.[:r:][:n:] Se continuă oricum (nerecomandat)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "Nu a fost găsită instalarea SMPlayer."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Această instalare poate fi dezinstalată numai pe Windows 64-bit."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer este o interfață completă pentru MPlayer, de la funcțiile de bază precum redarea video, DVD-uri, VCD-uri la mai multe funcții avansate precum suportul pentru filtrele MPlayer, liste edl și mai multe."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Se recuperează codecurile din instalarea anterioară..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Se restaurează codecurile din instalarea anterioară..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Se șterg fișiere..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Se șterg cheile regiștrilor..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Se șterg scurtăturile..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Se restaurează asocierea fișierelor..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Se reiau modificările..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Se extrag fișierele..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "Se recuperează SMTube..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "Se restaurează SMTube din instalarea anterioară..."
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr "<br>"
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "Se descarcă mpv..."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "Nu s-a reușit descărcarea mpv: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "A eșuat instalarea mpv."
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr ""
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "Se verifică actualizările pentru youtube-dl..."
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 msgstr ""
 
 # SMTube_Incompatible_Msg1
@@ -20,407 +378,18 @@ msgid ""
 "SMPlayer."
 msgstr ""
 
-# YTDL_Error_Msg2
-msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
 msgstr ""
 
-# YTDL_Error_Msg1
-msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
 msgstr ""
 
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr "Se verifică actualizările pentru youtube-dl..."
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
 msgstr ""
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "A eșuat instalarea mpv."
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "Nu s-a reușit descărcarea mpv: '$R0'."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "Se descarcă mpv..."
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr ""
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr ""
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr "Se restaurează SMTube din instalarea anterioară..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr "Se recuperează SMTube..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Se extrag fișierele..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "Se reiau modificările..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "Se restaurează asocierea fișierelor..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Se șterg scurtăturile..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Se șterg cheile regiștrilor..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Se șterg fișiere..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "Se restaurează codecurile din instalarea anterioară..."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "Se recuperează codecurile din instalarea anterioară..."
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"SMPlayer este o interfață completă pentru MPlayer, de la funcțiile de bază "
-"precum redarea video, DVD-uri, VCD-uri la mai multe funcții avansate precum "
-"suportul pentru filtrele MPlayer, liste edl și mai multe."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "Această instalare poate fi dezinstalată numai pe Windows 64-bit."
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "Nu a fost găsită instalarea SMPlayer."
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"Nu apare că SMPlayer este instalat în dosarul '$INSTDIR'.[:r:][:n:] Se "
-"continuă oricum (nerecomandat)?"
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Dezinstalarea abandonată de utilizator."
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-"Această instalare poate fi dezinstalată numai de un utilizator cu drepturi "
-"de administrator."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "A eșuat instalarea codecurilor MPlayer."
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "A eșuat descărcarea codecurilor MPlayer: '$R0'."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Codecurile MPlayer nu au fost instalate cu succes. Se reîncearcă?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Se descarcă codecurile MPlayer..."
-
-# StartBtn
-msgid "Start"
-msgstr "Pornire"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "actualizare"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "versiune anterioară"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "reinstalare"
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be "
-"reversed."
-msgstr ""
-"Sigur doriți să resetați setările dumneavoastră pentru SMPlayer? Această "
-"acțiune nu poate fi revocată."
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Resetează configurările mele SMPlayer"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Modifică configurările de instalare"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Apăsați dezinstalează când este gata de continuare."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Apăsați următorul când este gata de continuare."
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Apăsați pornire când este gata de continuat."
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Dezinstalează (elimină) instalarea existentă"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Suprascrie ($Inst_Type) instalarea existentă"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Selectați cum se procedează:"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Există o instalare a SMPlayer în următorul dosar:"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Selectați mod suprascriere sau dezinstalare."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Selectați tipul de instalare"
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
-msgstr ""
-"Pachetele de codecuri binare adaugă suport pentru codecurile care încă nu "
-"sunt implementate nativ, precum noile variante RealVideo și o mulțime de "
-"formate particulare.[:n:] Rețineți că acestea nu sunt necesare pentru "
-"redarea celor mai multor formate precum DVD-uri, MPEG-1/2/4, etc."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Șterge preferințele SMPlayer rămase de la instalările anterioare."
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Fișiere fără limba engleză pentru SMPlayer."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Limbi"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Tematici pictograme suplimentare pentru SMPlayer."
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Tematici pictograme"
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
-"Un program însoțitor pentru MPlayer care poate fi utilizat să codeze sau să "
-"transforme fluxurile audio sau video suportate."
-
-# Section_YTDL_Desc
-msgid "Provides the possibility to play Youtube videos."
-msgstr ""
-
-# Section_YTDL
-msgid "Youtube support (download required)"
-msgstr ""
-
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "O versiune îmbunătățită a MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Binary codecs are not supported in this version."
 msgstr ""
-"Codecuri suplimentare pentru MPlayer. (Este necesară o conexiune la internet "
-"pentru instalare)"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Codecuri binare"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; necesar pentru redare."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (necesar)"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Creează o intrare în meniu de pornire pentru SMPlayer."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Meniu pornire"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Creează o scurtătură pentru SMPlayer pe birou."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Birou"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, biblioteci partajate și documentație."
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (necesar)"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Motor multimedia"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "Componente SMPlayer"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Scurtături"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Configurarea vă va ghida prin instalarea $(^NameDA).[:r:][:n:][:r:][:n:] "
-"este recomandat să închideți toate instanțele de SMPlayer înainte să porniți "
-"configurarea. Aceasta va face posibil să actualizați fișierele de program "
-"relevante fără să fie necesară repornirea computerului.[:r:][:n:][:r:][:"
-"n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Configurare"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-"Există o instalare SMPlayer de 64-bit. Trebuie să dezinstalați întâi "
-"SMPlayer la 64-bit."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-"Există o instalare SMPlayer de 32-bit. Trebuie să dezinstalați întâi "
-"SMPlayer la 32-bit."
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-"Un sistem de operare Windows pe 64 biți este necesar pentru instalarea "
-"acestei aplicații."
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"Sistem de operare nesuportat.[:n:]SMPlayer ${SMPLAYER_VERSION} este necesar "
-"cel puțin ultimul Windows XP și poate să nu funcționeze corect pe sistemul "
-"dumneavoastră.[:n:] Sigur doriți să continuați cu instalarea?"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
-"O instanță a SMPlayer rulează. Închideți SMPlayer și încercați din nou."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Trebuie să fiți autentificat ca administrator când instalați acest program."
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Instalatorul rulează deja."
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# k1404, 2016
-# Tiberiu Cristian Leon, 2018
-# titus <titus0818@gmail.com>, 2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2018-10-19 12:10+0000\n"
-"Last-Translator: Tiberiu Cristian Leon\n"
-"Language-Team: Romanian (http://www.transifex.com/rvm/smplayer/language/"
-"ro/)\n"
-"Language: ro\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
-"2:1));\n"

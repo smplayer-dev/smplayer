@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer. (
 
 ${LangFileString} Section_MPV_Desc "Reproductor basado en MPlayer y MPlayer2 con nuevas opciones"
 
-${LangFileString} Section_YTDL "Soporte para Youtube"
+${LangFileString} Section_YTDL "Soporte para Youtube (necesita descarga online)"
 ${LangFileString} Section_YTDL_Desc "Proporciona la posibilidad de reproducir vídeos de Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Un programa opcional que puede ser usado para recodificar vídeos."

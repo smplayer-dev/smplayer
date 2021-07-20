@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání.
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binární kodeky nejsou v této verzi podporovány."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Funkcemi nabitý fork MPlayeru && MPlayeru2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."

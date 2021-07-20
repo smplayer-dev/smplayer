@@ -1,17 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2021-07-19 14:21+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/rvm/smplayer/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "L'instal·lador ja està en execució."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Heu d'iniciar la sessió com a administrador quan instal·leu aquest programa."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "Una instància de SMPlayer s'està executant. Si us plau, sortiu de SMPlayer i torneu-ho a intentar."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "El sistema operatiu no és compatible.[:n:]SMPlayer ${SMPLAYER_VERSION} requereix com a mínim Windows XP i pot ser que no funcioni correctament en el vostre sistema.[:n:]Realment voleu continuar amb la instal·lació?"
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "El sistema operatiu no és compatible.[:n:]SMPlayer ${SMPLAYER_VERSION} requereix com a mínim Windows Vista i pot ser que no funcioni correctament en el vostre sistema.[:n:]Realment voleu continuar amb la instal·lació?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Es requereix un sistema operatiu Windows de 64 bits per instal·lar aquest programari."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "Existeix una instal·lació de 32 bits de SMPlayer. Primer heu de desinstal·lar SMPlayer de 32 bits."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "Existeix una instal·lació de 64 bits de SMPlayer. Primer heu de desinstal·lar SMPlayer de 64 bits."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "Preparació $(^NameDA)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "La preparació us guiarà a través de la instal·lació de $(^NameDA).[:r:][:n:][:r:][:n:]Es recomana que tanqueu totes les instàncies de SMPlayer abans de començar la preparació. Això farà que sigui possible l'actualització dels de programa pertinents sense haver de reiniciar el vostre ordinador.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Dreceres"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Components de MPlayer"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Motor multimèdia"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (requerit)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, biblioteques compatides i documentació."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Escriptori"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Crea una drecera a SMPlayer en l'escriptori."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Menú d'inici"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Crea una entrada de menú d'inici per a SMPlayer."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (requerit)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; requerit per a la reproducció."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Còdecs binaris"
+
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Els còdecs binaris no són compatibles amb aquesta versió."
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Còdecs opcionals per a MPlayer. (es requereix una connexió a Internet per a la instal·lació)"
 
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
-msgstr "S'estan netejant els ajusts de SMPlayer..."
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "Un fork ric en característiques de MPlayer && MPlayer2"
 
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
-msgstr "S'està netejant la memòria cau de fontconfig..."
+# Section_YTDL
+msgid "Youtube support (download required)"
+msgstr ""
 
-# SMTube_Incompatible_Msg2
-msgid "Please upgrade to a newer version of SMTube."
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr ""
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "Un programa que acompanya MPlayer que es pot utilitzar per codificar o transformar els fluxos compatibles d'àudio o de vídeo."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Temes d'icones"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Temes d'icones addicionals per a SMPlayer."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Idiomes"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Els fitxers dels idiomes no anglesos per a SMPlayer."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Elimina les preferències sobrants de SMPlayer de les instal·lacions anteriors."
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr "Els paquets de còdecs binaris afegeixen compatibilitat per als còdecs que encara no estan implementats de forma nativa, com ara les variants més noves de RealVideo i una gran quantitat de formats poc comuns.[:n:]Recordeu que no són necessaris per reproduir els formats més comuns, com DVD, MPEG-1/2/4, etc."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Selecció del tipus d'instal·lació"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Seleccioneu el mode Sobreescriu o Desinstal·la."
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Teniu una instal·lació existent de SMPlayer a la carpeta següent:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Seleccioneu com continuar:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Sobreescriu ($Inst_Type) la instal·lació existent"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Desinstal·la (suprimeix) la instal·lació existent"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Feu clic a Comença quan estigueu llest per continuar."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Feu clic a Següent quan estigueu llest per continuar."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Feu clic a Desinstal·la quan estigueu llest per continuar."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Canvia els ajusts de la instal·lació"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Restableix la meva configuració de SMPlayer"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be"
+" reversed."
+msgstr "Esteu segur que voleu restablir els ajusts de SMPlayer? Aquesta acció no pot ser revertida."
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "reinstal·la"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "reverteix"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "actualitza"
+
+# StartBtn
+msgid "Start"
+msgstr "Comença"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "S'estan baixant els còdecs de MPlayer..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "No s'han instal·lat correctament els còdecs de MPlayer. Voleu tornar-ho a intentar?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Ha fallat la baixada dels còdecs de MPlayer: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Ha fallat la instal·lació dels còdecs de MPlayer."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Aquesta instal·lació només pot ser desinstal·lada per un usuari amb privilegis d'administrador."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Desinstal·lació avortada per l'usuari."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "No sembla que SMPlayer estigui instal·lat al directori '$INSTDIR'.[:r:][:n:]Voleu continuar de totes maneres (no recomanat)"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "No s'ha trobat la instal·lació de SMPlayer."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Aquesta instal·lació només es pot desinstal·lar des d'una versió de 64 bits de Windows."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer és un frontal complet per a MPlayer, des de les funcions bàsiques com ara reproduir vídeos, DVD, VCD fins a les funcions més avançades com ara la compatibilitat per als filtres de MPlayer, llistes EDL, i molt més."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "S'està creant una còpia de seguretat dels còdecs binaris d'una instal·lació anterior..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "S'estan restaurant els còdecs binaris des d'una instal·lació anterior..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "S'estan eliminant els fitxers..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "S'estan eliminant les claus del registre..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "S'estan eliminant les dreceres..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "S'estan restaurant les associacions dels fitxers..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "S'estan revertint els canvis ..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "S'estan extraient els fitxers..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "S'està creant la còpia de seguretat de SMTube..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "S'està restaurant SMTube des d'una instal·lació anterior..."
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr "S'està creant la còpia de seguretat de mpv..."
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr "S'està restaurant mpv des d'una instal·lació anterior..."
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "S'està baixant mpv..."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr "No s'ha instal·lat correctament mpv. Voleu tornar-ho a intentar?"
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "Ha fallat la baixada de mpv: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "Ha fallat la instal·lació de mpv."
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr "No s'ha instal·lat correctament youtube-dl. Voleu tornar-ho a intentar?"
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr "Ha fallat la baixada de youtube-dl: '$R0'."
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "S'està comprovant si hi ha actualitzacions de youtube-dl..."
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 msgstr ""
 
 # SMTube_Incompatible_Msg1
@@ -20,418 +376,18 @@ msgid ""
 "SMPlayer."
 msgstr ""
 
-# YTDL_Error_Msg2
-msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
 msgstr ""
 
-# YTDL_Error_Msg1
-msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr ""
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr "S'està netejant la memòria cau de fontconfig..."
 
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr "S'està comprovant si hi ha actualitzacions de youtube-dl..."
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
-msgstr "Ha fallat la baixada de youtube-dl: '$R0'."
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
-"No s'ha instal·lat correctament youtube-dl. Voleu tornar-ho a intentar?"
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "Ha fallat la instal·lació de mpv."
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "Ha fallat la baixada de mpv: '$R0'."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr "No s'ha instal·lat correctament mpv. Voleu tornar-ho a intentar?"
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "S'està baixant mpv..."
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr "S'està restaurant mpv des d'una instal·lació anterior..."
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr "S'està creant la còpia de seguretat de mpv..."
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr "S'està restaurant SMTube des d'una instal·lació anterior..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr "S'està creant la còpia de seguretat de SMTube..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "S'estan extraient els fitxers..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "S'estan revertint els canvis ..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "S'estan restaurant les associacions dels fitxers..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "S'estan eliminant les dreceres..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "S'estan eliminant les claus del registre..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "S'estan eliminant els fitxers..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr ""
-"S'estan restaurant els còdecs binaris des d'una instal·lació anterior..."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr ""
-"S'està creant una còpia de seguretat dels còdecs binaris d'una instal·lació "
-"anterior..."
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"SMPlayer és un frontal complet per a MPlayer, des de les funcions bàsiques "
-"com ara reproduir vídeos, DVD, VCD fins a les funcions més avançades com ara "
-"la compatibilitat per als filtres de MPlayer, llistes EDL, i molt més."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
-"Aquesta instal·lació només es pot desinstal·lar des d'una versió de 64 bits "
-"de Windows."
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "No s'ha trobat la instal·lació de SMPlayer."
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"No sembla que SMPlayer estigui instal·lat al directori '$INSTDIR'.[:r:][:"
-"n:]Voleu continuar de totes maneres (no recomanat)"
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Desinstal·lació avortada per l'usuari."
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-"Aquesta instal·lació només pot ser desinstal·lada per un usuari amb "
-"privilegis d'administrador."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "Ha fallat la instal·lació dels còdecs de MPlayer."
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Ha fallat la baixada dels còdecs de MPlayer: '$R0'."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr ""
-"No s'han instal·lat correctament els còdecs de MPlayer. Voleu tornar-ho a "
-"intentar?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "S'estan baixant els còdecs de MPlayer..."
-
-# StartBtn
-msgid "Start"
-msgstr "Comença"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "actualitza"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "reverteix"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "reinstal·la"
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be "
-"reversed."
-msgstr ""
-"Esteu segur que voleu restablir els ajusts de SMPlayer? Aquesta acció no pot "
-"ser revertida."
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Restableix la meva configuració de SMPlayer"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Canvia els ajusts de la instal·lació"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Feu clic a Desinstal·la quan estigueu llest per continuar."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Feu clic a Següent quan estigueu llest per continuar."
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Feu clic a Comença quan estigueu llest per continuar."
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Desinstal·la (suprimeix) la instal·lació existent"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Sobreescriu ($Inst_Type) la instal·lació existent"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Seleccioneu com continuar:"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Teniu una instal·lació existent de SMPlayer a la carpeta següent:"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Seleccioneu el mode Sobreescriu o Desinstal·la."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Selecció del tipus d'instal·lació"
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
-msgstr ""
-"Els paquets de còdecs binaris afegeixen compatibilitat per als còdecs que "
-"encara no estan implementats de forma nativa, com ara les variants més noves "
-"de RealVideo i una gran quantitat de formats poc comuns.[:n:]Recordeu que no "
-"són necessaris per reproduir els formats més comuns, com DVD, MPEG-1/2/4, "
-"etc."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
-"Elimina les preferències sobrants de SMPlayer de les instal·lacions "
-"anteriors."
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Els fitxers dels idiomes no anglesos per a SMPlayer."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Idiomes"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Temes d'icones addicionals per a SMPlayer."
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Temes d'icones"
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
-"Un programa que acompanya MPlayer que es pot utilitzar per codificar o "
-"transformar els fluxos compatibles d'àudio o de vídeo."
-
-# Section_YTDL_Desc
-msgid "Provides the possibility to play Youtube videos."
-msgstr ""
-
-# Section_YTDL
-msgid "Youtube support (download required)"
-msgstr ""
-
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Un fork ric en característiques de MPlayer && MPlayer2"
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "S'estan netejant els ajusts de SMPlayer..."
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Binary codecs are not supported in this version."
 msgstr ""
-"Còdecs opcionals per a MPlayer. (es requereix una connexió a Internet per a "
-"la instal·lació)"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Còdecs binaris"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; requerit per a la reproducció."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (requerit)"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Crea una entrada de menú d'inici per a SMPlayer."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Menú d'inici"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Crea una drecera a SMPlayer en l'escriptori."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Escriptori"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, biblioteques compatides i documentació."
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (requerit)"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Motor multimèdia"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "Components de MPlayer"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Dreceres"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"La preparació us guiarà a través de la instal·lació de $(^NameDA).[:r:][:n:]"
-"[:r:][:n:]Es recomana que tanqueu totes les instàncies de SMPlayer abans de "
-"començar la preparació. Això farà que sigui possible l'actualització dels de "
-"programa pertinents sense haver de reiniciar el vostre ordinador.[:r:][:n:][:"
-"r:][:n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "Preparació $(^NameDA)"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-"Existeix una instal·lació de 64 bits de SMPlayer. Primer heu de "
-"desinstal·lar SMPlayer de 64 bits."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-"Existeix una instal·lació de 32 bits de SMPlayer. Primer heu de "
-"desinstal·lar SMPlayer de 32 bits."
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-"Es requereix un sistema operatiu Windows de 64 bits per instal·lar aquest "
-"programari."
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"El sistema operatiu no és compatible.[:n:]SMPlayer ${SMPLAYER_VERSION} "
-"requereix com a mínim Windows Vista i pot ser que no funcioni correctament "
-"en el vostre sistema.[:n:]Realment voleu continuar amb la instal·lació?"
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"El sistema operatiu no és compatible.[:n:]SMPlayer ${SMPLAYER_VERSION} "
-"requereix com a mínim Windows XP i pot ser que no funcioni correctament en "
-"el vostre sistema.[:n:]Realment voleu continuar amb la instal·lació?"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
-"Una instància de SMPlayer s'està executant. Si us plau, sortiu de SMPlayer i "
-"torneu-ho a intentar."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Heu d'iniciar la sessió com a administrador quan instal·leu aquest programa."
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "L'instal·lador ja està en execució."
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/rvm/smplayer/language/ca/)\n"
-"Language: ca\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"

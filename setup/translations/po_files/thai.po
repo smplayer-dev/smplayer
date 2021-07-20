@@ -1,225 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# M. Somsak, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2021-07-19 14:21+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"Language-Team: Thai (http://www.transifex.com/rvm/smplayer/language/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "ตัวติดตั้งกำลังรันอยู่แล้ว"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "คุณต้องลงชื่อเข้าใช้เป็น administrator เมื่อจะติดตั้งโปรแกรมนี้"
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "มี SMPlayer กำลังรันอยู่ โปรดออกจาก SMPlayer แล้วลองอีกครั้ง"
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "ไม่รองรับระบบปฏิบัติการ [:n:]SMPlayer ${SMPLAYER_VERSION} ต้องการอย่างน้อยคือ Windows XP และอาจจะทำงานได้ไม่ถูกต้องบนระบบของคุณ [:n:]คุณต้องการติดตั้งต่อไปหรือไม่?"
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "ต้องการระบบปฏิบัติการ 64-bit Windows เพื่อติดตั้งซอฟต์แวร์นี้"
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "มีการติดตั้งแบบ 32-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 32-bit SMPlayer ออกก่อน"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "มีการติดตั้ง 64-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 64-bit SMPlayer ออกก่อน"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "ติดตั้ง $(^NameDA)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "ตัวติดตั้งจะแนะนำคุณในการติดตั้ง $(^NameDA).[:r:][:n:][:r:][:n:]ขอแนะนำให้คุณปิดโปรแกรม SMPlayer ก่อนที่จะเริ่มติดตั้ง ซึ่งสิ่งนี้จะทำให้การอัพเดตโปรแกรมเป็นไปได้โดยไม่ต้องบู๊ทคอมพิวเตอร์ของคุณใหม่[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "ทางลัด"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "ส่วนประกอบ MPlayer"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (จำเป็น)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, ไลบรารี่ที่แชร์, และเอกสารประกอบ"
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Desktop"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "สร้างทางลัดสู่ SMPlayer บน desktop"
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Start Menu"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "สร้างทางเข้าที่ Start Menu สำหรับ SMPlayer"
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (จำเป็น)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; จำเป็นสำหรับการเล่น"
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Binary Codecs"
+
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Binary codecs ไม่รองรับในเวอร์ชันนี้"
-
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
-msgstr ""
-
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
-msgstr ""
-
-# SMTube_Incompatible_Msg2
-msgid "Please upgrade to a newer version of SMTube."
-msgstr ""
-
-# SMTube_Incompatible_Msg1
 msgid ""
-"The current SMTube installation is incompatible with this version of "
-"SMPlayer."
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Codecs ทางเลือกสำหรับ MPlayer (ต้องมีการเชื่อมต่ออินเตอร์เน็ตในการติดตั้ง)"
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr ""
 
-# YTDL_Error_Msg2
-msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+# Section_YTDL
+msgid "Youtube support (download required)"
 msgstr ""
 
-# YTDL_Error_Msg1
-msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
 msgstr ""
 
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr ""
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr ""
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr ""
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr ""
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr ""
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr ""
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr ""
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr ""
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "กำลังแยกไฟล์..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "กำลังคืนกลับการเปลี่ยนแปลง..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "กำลังคืนค่าการสัมพันธ์ไฟล์..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "กำลังลบทางลัด..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "กำลังลบคีย์ทะเบียน..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "กำลังลบไฟล์..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "กำลังคืนค่าเดิมของ codecs จากการติดตั้งก่อนหน้า"
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "กำลังสำรอง codecs จากการติดตั้งก่อนหน้า..."
-
-# Application_Description
+# Section_MEncoder_Desc
 msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"SMPlayer คือ front-end ที่สมบูรณ์สำหรับ MPlayer, มีคุณลักษณะพื้นฐานอย่างเช่น การเล่นวิดีโอ, "
-"DVD, VCD จนถึงคุณลักษณะขั้นสูงอย่างเช่น การรองรับสำหรับตัวกรอง MPlayer, บัญชี edl, และอื่นๆ"
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "โปรแกรมสหายของ MPlayer ที่สามารถใช้เข้ารหัสหรือแปลงกระแสเสียงหรือวิดีโอที่รองรับ"
 
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "การติดตั้งนี้สามารถถอนการติดตั้งเฉพาะบน 64-bit Windows"
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "รูปลักษณ์ไอคอน"
 
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "ไม่พบการติดตั้ง SMPlayer"
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "รูปลักษณ์ไอคอนสำหรับ SMPlayer"
 
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"ไม่ปรากฏว่า SMPlayer ได้ถูกติดตั้งในเส้นทาง '$INSTDIR'.[:r:][:n:]จะทำต่อไปหรือเปล่า "
-"(ไม่แนะนำ)?"
+# Section_Translations
+msgid "Languages"
+msgstr "ภาษา"
 
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "การถอนการติดตั้ง ถูกยกเลิกโดยผู้ใช้"
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "ไฟล์ภาษาอื่นที่ไม่ใช่ภาษาอังกฤษสำหรับ SMPlayer"
 
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr "การติดตั้งนี้สามารถถอนการติดตั้งได้เฉพาะผู้ใช้ที่มีสิทธิเป็น administrator"
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "ล้มเหลวในการติดตั้ง MPlayer codecs"
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "ล้มเหลวในการดาวน์โหลด MPlayer codecs: '$R0'."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "MPlayer codecs ติดตั้งไม่สำเร็จ ลองอีกครั้งหรือไม่?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "กำลังดาวน์โหลด MPlayer Codecs..."
-
-# StartBtn
-msgid "Start"
-msgstr "เริ่ม"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "เพิ่มระดับรุ่น"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "ลดระดับรุ่น"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "ติดตั้งอีกครั้ง"
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be "
-"reversed."
-msgstr ""
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "คืนค่าการกำหนดค่า SMPlayer ของฉัน"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "เปลี่ยนการตั้งค่าการติดตั้ง"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "คลิก ถอนการติดตั้ง เมื่อพร้อมดำเนินการ"
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "คลิก ถัดไป เมื่อพร้อมดำเนินการ"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "คลิก เริ่ม เมื่อพร้อมดำเนินการ"
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "ถอนการติดตั้ง (ลบออก) การติดตั้งที่มีอยู่เดิม"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "เขียนทับ ($Inst_Type) การติดตั้งที่มีอยู่เดิม"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "โปรดเลือกว่าจะดำเนินการอย่างไร:"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "คุณมีการติดตั้ง SMPlayer อยู่แล้วในโฟลเดอร์ต่อไปนี้:"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "เลือกโหมด เขียนทับ หรือ ถอนการติดตั้ง"
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "เลือกประเภทการติดตั้ง"
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "ลบการตั้งค่าที่ชอบที่เหลืออยู่ของการติดตั้ง SMPlayer ครั้งก่อนหน้า"
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -229,173 +173,221 @@ msgid ""
 "like DVDs, MPEG-1/2/4, etc."
 msgstr ""
 
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "ลบการตั้งค่าที่ชอบที่เหลืออยู่ของการติดตั้ง SMPlayer ครั้งก่อนหน้า"
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "เลือกประเภทการติดตั้ง"
 
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "ไฟล์ภาษาอื่นที่ไม่ใช่ภาษาอังกฤษสำหรับ SMPlayer"
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "เลือกโหมด เขียนทับ หรือ ถอนการติดตั้ง"
 
-# Section_Translations
-msgid "Languages"
-msgstr "ภาษา"
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "คุณมีการติดตั้ง SMPlayer อยู่แล้วในโฟลเดอร์ต่อไปนี้:"
 
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "รูปลักษณ์ไอคอนสำหรับ SMPlayer"
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "โปรดเลือกว่าจะดำเนินการอย่างไร:"
 
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "รูปลักษณ์ไอคอน"
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "เขียนทับ ($Inst_Type) การติดตั้งที่มีอยู่เดิม"
 
-# Section_MEncoder_Desc
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "ถอนการติดตั้ง (ลบออก) การติดตั้งที่มีอยู่เดิม"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "คลิก เริ่ม เมื่อพร้อมดำเนินการ"
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "คลิก ถัดไป เมื่อพร้อมดำเนินการ"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "คลิก ถอนการติดตั้ง เมื่อพร้อมดำเนินการ"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "เปลี่ยนการตั้งค่าการติดตั้ง"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "คืนค่าการกำหนดค่า SMPlayer ของฉัน"
+
+# Remove_Settings_Confirmation
 msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr "โปรแกรมสหายของ MPlayer ที่สามารถใช้เข้ารหัสหรือแปลงกระแสเสียงหรือวิดีโอที่รองรับ"
-
-# Section_YTDL_Desc
-msgid "Provides the possibility to play Youtube videos."
+"Are you sure you want to reset your SMPlayer settings? This action cannot be"
+" reversed."
 msgstr ""
 
-# Section_YTDL
-msgid "Youtube support (download required)"
+# Type_Reinstall
+msgid "reinstall"
+msgstr "ติดตั้งอีกครั้ง"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "ลดระดับรุ่น"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "เพิ่มระดับรุ่น"
+
+# StartBtn
+msgid "Start"
+msgstr "เริ่ม"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "กำลังดาวน์โหลด MPlayer Codecs..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "MPlayer codecs ติดตั้งไม่สำเร็จ ลองอีกครั้งหรือไม่?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "ล้มเหลวในการดาวน์โหลด MPlayer codecs: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "ล้มเหลวในการติดตั้ง MPlayer codecs"
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "การติดตั้งนี้สามารถถอนการติดตั้งได้เฉพาะผู้ใช้ที่มีสิทธิเป็น administrator"
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "การถอนการติดตั้ง ถูกยกเลิกโดยผู้ใช้"
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "ไม่ปรากฏว่า SMPlayer ได้ถูกติดตั้งในเส้นทาง '$INSTDIR'.[:r:][:n:]จะทำต่อไปหรือเปล่า (ไม่แนะนำ)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "ไม่พบการติดตั้ง SMPlayer"
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "การติดตั้งนี้สามารถถอนการติดตั้งเฉพาะบน 64-bit Windows"
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer คือ front-end ที่สมบูรณ์สำหรับ MPlayer, มีคุณลักษณะพื้นฐานอย่างเช่น การเล่นวิดีโอ, DVD, VCD จนถึงคุณลักษณะขั้นสูงอย่างเช่น การรองรับสำหรับตัวกรอง MPlayer, บัญชี edl, และอื่นๆ"
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "กำลังสำรอง codecs จากการติดตั้งก่อนหน้า..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "กำลังคืนค่าเดิมของ codecs จากการติดตั้งก่อนหน้า"
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "กำลังลบไฟล์..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "กำลังลบคีย์ทะเบียน..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "กำลังลบทางลัด..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "กำลังคืนค่าการสัมพันธ์ไฟล์..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "กำลังคืนกลับการเปลี่ยนแปลง..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "กำลังแยกไฟล์..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
 msgstr ""
 
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr ""
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr ""
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr ""
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+msgstr ""
+
+# SMTube_Incompatible_Msg1
+msgid ""
+"The current SMTube installation is incompatible with this version of "
+"SMPlayer."
+msgstr ""
+
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
+msgstr ""
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr ""
+
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
 msgstr ""
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr "Codecs ทางเลือกสำหรับ MPlayer (ต้องมีการเชื่อมต่ออินเตอร์เน็ตในการติดตั้ง)"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Binary Codecs"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; จำเป็นสำหรับการเล่น"
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (จำเป็น)"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "สร้างทางเข้าที่ Start Menu สำหรับ SMPlayer"
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Start Menu"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "สร้างทางลัดสู่ SMPlayer บน desktop"
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Desktop"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, ไลบรารี่ที่แชร์, และเอกสารประกอบ"
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (จำเป็น)"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
+msgid "Binary codecs are not supported in this version."
 msgstr ""
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "ส่วนประกอบ MPlayer"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "ทางลัด"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"ตัวติดตั้งจะแนะนำคุณในการติดตั้ง $(^NameDA).[:r:][:n:][:r:][:n:]ขอแนะนำให้คุณปิดโปรแกรม "
-"SMPlayer ก่อนที่จะเริ่มติดตั้ง "
-"ซึ่งสิ่งนี้จะทำให้การอัพเดตโปรแกรมเป็นไปได้โดยไม่ต้องบู๊ทคอมพิวเตอร์ของคุณใหม่[:r:][:n:][:r:][:"
-"n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "ติดตั้ง $(^NameDA)"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-"มีการติดตั้ง 64-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 64-bit SMPlayer ออกก่อน"
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-"มีการติดตั้งแบบ 32-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 32-bit SMPlayer "
-"ออกก่อน"
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "ต้องการระบบปฏิบัติการ 64-bit Windows เพื่อติดตั้งซอฟต์แวร์นี้"
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"ไม่รองรับระบบปฏิบัติการ [:n:]SMPlayer ${SMPLAYER_VERSION} ต้องการอย่างน้อยคือ Windows "
-"XP และอาจจะทำงานได้ไม่ถูกต้องบนระบบของคุณ [:n:]คุณต้องการติดตั้งต่อไปหรือไม่?"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "มี SMPlayer กำลังรันอยู่ โปรดออกจาก SMPlayer แล้วลองอีกครั้ง"
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr "คุณต้องลงชื่อเข้าใช้เป็น administrator เมื่อจะติดตั้งโปรแกรมนี้"
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "ตัวติดตั้งกำลังรันอยู่แล้ว"
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# M. Somsak, 2014
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Language-Team: Thai (http://www.transifex.com/rvm/smplayer/language/th/)\n"
-"Language: th\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"

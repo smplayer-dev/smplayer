@@ -1,17 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nguyen Thanh Tai <thanhtai2009@outlook.com>, 2015
+# Thanh Phu, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2021-07-19 14:21+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/rvm/smplayer/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Trình cài đặt đang chạy."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Bạn phải đăng nhập tài khoản quản trị viên khi cài đặt chương trình này."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "Một tiến trình của SMPlayer đang chạy. Hãy thoát SMPlayer và thử lại."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "Hệ điều hành không được hỗ trợ.[:n:]SMPlayer ${SMPLAYER_VERSION} yêu cầu thấp nhất là Windows XP và có thể không hoạt động đúng cách trên hệ thống của bạn.[:n:]Bạn thật sự muốn tiếp tục cài đặt?"
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "Hệ điều hành không được hỗ trợ.[:n:]SMPlayer ${SMPLAYER_VERSION} Yêu cầu Windows Vista hoặc mới hơn, có thể không hoạt động đúng cách trên hệ thống của bạn.[:n:]Bạn thật sự muốn tiếp tục cài đặt?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Yêu cầu hệ điều hành Windows 64-bit để cài đặt phần mềm này."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "Bản cài đặt 32-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 32-bit của SMPlayer trước."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "Bản cài đặt 64-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 64-bit của SMPlayer trước."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "Cài đặt $(^NameDA)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Trình cài đặt sẽ hướng dẫn bạn trong quá trình cài đặt $(^NameDA).[:r:][:n:][:r:][:n:]Chúng tôi khuyên bạn nên đóng tất cả các tác vụ của SMPlayer trước khi bắt đầu cài đặt. Việc này sẽ giúp cập nhật những tập tin chương trình có liên quan mà không cần khởi động lại máy tính.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Lối tắt"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Các thành phần của MPlayer"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Động cơ đa phương tiện"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (yêu cầu)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, thư viện và tài liệu được chia sẻ."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Desktop"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Tạo lối tắt đến SMPlayer trên desktop."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Menu Bắt đầu"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Tạo mục Menu Bắt đầu cho SMPlayer."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (yêu cầu)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; yêu cầu cho việc phát lại."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Bộ mã nhị phân"
+
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Các bộ mã nhị phân chưa được hỗ trợ trong phiên bản này."
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Những bộ mã tuỳ chọn cho MPlayer. (Yêu cầu có kết nối Internet để cài đặt)"
 
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
-msgstr "Đang xoá thiết lập của SMPlayer..."
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "Một bản sao đa tính năng của MPlayer && MPlayer2"
 
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
-msgstr "Đang xoá cache của fontconfig..."
+# Section_YTDL
+msgid "Youtube support (download required)"
+msgstr ""
 
-# SMTube_Incompatible_Msg2
-msgid "Please upgrade to a newer version of SMTube."
+# Section_YTDL_Desc
+msgid "Provides the possibility to play Youtube videos."
+msgstr ""
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "Một chương trình đi kèm với MPlayer, có thể dùng để chuyển mã hoặc chuyển đổi dòng dữ liệu âm thanh hoặc video được hỗ trợ."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Chủ đề biểu tượng"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Những chủ đề biểu tượng khác cho SMPlayer."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Ngôn ngữ"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Những tập tin ngôn ngữ không phải tiếng Anh cho SMPlayer."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Xoá những cài đặt SMPlayer còn sót lại từ những lần cài đặt trước đây."
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr "Những gói bộ mã nhị phân thêm hỗ trợ bộ mã không được tích hợp tự nhiên, như các biến thể mới của RealVideo và nhiều định dạng không phổ biến khác.[:n:]Lưu ý rằng chúng không cần thiết để phát những định dạng phổ biến như DVD, MPEG-1/2/4..."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Chọn cách cài đặt"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Chọn Chế độ Thay thế hoặc Gỡ bỏ."
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Bạn đã có một bản cài đặt SMPlayer trong thư mục sau:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Hãy chọn cách tiến hành:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Thay thế ($Inst_Type) bản cài đặt đang có"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Gỡ bỏ (xoá) bản cài đặt đang có"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Bấm Bắt đầu khi sẵn sàng tiến hành."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Bấm Tiếp theo khi sẵn sàng tiến hành."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Bấm Gỡ bỏ khi sẵn sàng tiến hành."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Thay đổi Thiết lập Cài đặt"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Đặt lại cấu hình SMPlayer của tôi"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be"
+" reversed."
+msgstr "Bạn có thật sự muốn xoá thiết lập của SMPlayer không? Sau khi đã xoá sẽ không thể khôi phục lại"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "cài lại"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "hạ cấp"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "nâng cấp"
+
+# StartBtn
+msgid "Start"
+msgstr "Bắt đầu"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Đang tải xuống bộ mã MPlayer..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "Các bộ mã MPlayer chưa được cài đặt thành công. Thử lại?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Không tải tải xuống các bộ mã MPlayer: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Không thể cài đặt các bộ mã MPlayer."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Bản cài đặt này chỉ có thể được gỡ bỏ bởi người dùng có quyền quản trị."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Quá trình gỡ bỏ bị huỷ bỏ bởi người dùng."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "Có vẻ như SMPlayer không được cài đặt trong thư mục '$INSTDIR'.[:r:][:n:]Cứ tiếp tục (không khuyến cáo)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "Không phát hiện bản cài đặt SMPlayer."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Bản cài đặt này chỉ có thể được gỡ bỏ trên Windows 64-bit."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer là bản hoàn thiện của MPlayer cho người dùng, từ những tính năng cơ bản như phát video, DVD, VCD đến nhiều tính năng nâng cao như hỗ trợ những bộ lọc MPlayer, danh sách edl và nhiều hơn nữa."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Đang sao lưu các bộ mã từ bản cài đặt trước..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Đang phục hồi các bộ mã  từ bản cài đặt trước..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Đang xoá tập tin..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Đang xoá khoá registry..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Đang xoá lối tắt..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Đang phục hồi liên kết tập tin..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Đang phục hồi thay đổi..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Đang trích xuất tập tin..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "Đang sao lưu SMTube..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "Đang phục hồi SMTube từ bản cài đặt trước..."
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr "Sao lưu mpv..."
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr "Phục hồi MPV từ lần cài đặt trước..."
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "Đang tải MPV xuống..."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr "mpv chưa được cài đặt thành công. Thử lại?"
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "Không thể tải xuống mpv: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "Không thể cài đặt mpv."
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr "youtube-dl chưa được cài đặt thành công. Thử lại?"
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr "Không thể tải xuống youtube-dl: '$R0'."
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "Đang tìm cập nhật cho youtube-dl"
+
+# YTDL_Error_Msg1
+msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+msgstr ""
+
+# YTDL_Error_Msg2
+msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 msgstr ""
 
 # SMTube_Incompatible_Msg1
@@ -20,402 +377,18 @@ msgid ""
 "SMPlayer."
 msgstr ""
 
-# YTDL_Error_Msg2
-msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+# SMTube_Incompatible_Msg2
+msgid "Please upgrade to a newer version of SMTube."
 msgstr ""
 
-# YTDL_Error_Msg1
-msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr ""
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr "Đang xoá cache của fontconfig..."
 
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr "Đang tìm cập nhật cho youtube-dl"
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
-msgstr "Không thể tải xuống youtube-dl: '$R0'."
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr "youtube-dl chưa được cài đặt thành công. Thử lại?"
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "Không thể cài đặt mpv."
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "Không thể tải xuống mpv: '$R0'."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr "mpv chưa được cài đặt thành công. Thử lại?"
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "Đang tải MPV xuống..."
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr "Phục hồi MPV từ lần cài đặt trước..."
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr "Sao lưu mpv..."
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr "Đang phục hồi SMTube từ bản cài đặt trước..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr "Đang sao lưu SMTube..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Đang trích xuất tập tin..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "Đang phục hồi thay đổi..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "Đang phục hồi liên kết tập tin..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Đang xoá lối tắt..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Đang xoá khoá registry..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Đang xoá tập tin..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "Đang phục hồi các bộ mã  từ bản cài đặt trước..."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "Đang sao lưu các bộ mã từ bản cài đặt trước..."
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"SMPlayer là bản hoàn thiện của MPlayer cho người dùng, từ những tính năng cơ "
-"bản như phát video, DVD, VCD đến nhiều tính năng nâng cao như hỗ trợ những "
-"bộ lọc MPlayer, danh sách edl và nhiều hơn nữa."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "Bản cài đặt này chỉ có thể được gỡ bỏ trên Windows 64-bit."
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "Không phát hiện bản cài đặt SMPlayer."
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"Có vẻ như SMPlayer không được cài đặt trong thư mục '$INSTDIR'.[:r:][:n:]Cứ "
-"tiếp tục (không khuyến cáo)?"
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Quá trình gỡ bỏ bị huỷ bỏ bởi người dùng."
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-"Bản cài đặt này chỉ có thể được gỡ bỏ bởi người dùng có quyền quản trị."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "Không thể cài đặt các bộ mã MPlayer."
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Không tải tải xuống các bộ mã MPlayer: '$R0'."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Các bộ mã MPlayer chưa được cài đặt thành công. Thử lại?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Đang tải xuống bộ mã MPlayer..."
-
-# StartBtn
-msgid "Start"
-msgstr "Bắt đầu"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "nâng cấp"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "hạ cấp"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "cài lại"
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be "
-"reversed."
-msgstr ""
-"Bạn có thật sự muốn xoá thiết lập của SMPlayer không? Sau khi đã xoá sẽ "
-"không thể khôi phục lại"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Đặt lại cấu hình SMPlayer của tôi"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Thay đổi Thiết lập Cài đặt"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Bấm Gỡ bỏ khi sẵn sàng tiến hành."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Bấm Tiếp theo khi sẵn sàng tiến hành."
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Bấm Bắt đầu khi sẵn sàng tiến hành."
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Gỡ bỏ (xoá) bản cài đặt đang có"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Thay thế ($Inst_Type) bản cài đặt đang có"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Hãy chọn cách tiến hành:"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Bạn đã có một bản cài đặt SMPlayer trong thư mục sau:"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Chọn Chế độ Thay thế hoặc Gỡ bỏ."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Chọn cách cài đặt"
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
-msgstr ""
-"Những gói bộ mã nhị phân thêm hỗ trợ bộ mã không được tích hợp tự nhiên, như "
-"các biến thể mới của RealVideo và nhiều định dạng không phổ biến khác.[:"
-"n:]Lưu ý rằng chúng không cần thiết để phát những định dạng phổ biến như "
-"DVD, MPEG-1/2/4..."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Xoá những cài đặt SMPlayer còn sót lại từ những lần cài đặt trước đây."
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Những tập tin ngôn ngữ không phải tiếng Anh cho SMPlayer."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Ngôn ngữ"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Những chủ đề biểu tượng khác cho SMPlayer."
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Chủ đề biểu tượng"
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
-"Một chương trình đi kèm với MPlayer, có thể dùng để chuyển mã hoặc chuyển "
-"đổi dòng dữ liệu âm thanh hoặc video được hỗ trợ."
-
-# Section_YTDL_Desc
-msgid "Provides the possibility to play Youtube videos."
-msgstr ""
-
-# Section_YTDL
-msgid "Youtube support (download required)"
-msgstr ""
-
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Một bản sao đa tính năng của MPlayer && MPlayer2"
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "Đang xoá thiết lập của SMPlayer..."
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Binary codecs are not supported in this version."
 msgstr ""
-"Những bộ mã tuỳ chọn cho MPlayer. (Yêu cầu có kết nối Internet để cài đặt)"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Bộ mã nhị phân"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; yêu cầu cho việc phát lại."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (yêu cầu)"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Tạo mục Menu Bắt đầu cho SMPlayer."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Menu Bắt đầu"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Tạo lối tắt đến SMPlayer trên desktop."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Desktop"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, thư viện và tài liệu được chia sẻ."
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (yêu cầu)"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Động cơ đa phương tiện"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "Các thành phần của MPlayer"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Lối tắt"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Trình cài đặt sẽ hướng dẫn bạn trong quá trình cài đặt $(^NameDA).[:r:][:n:]"
-"[:r:][:n:]Chúng tôi khuyên bạn nên đóng tất cả các tác vụ của SMPlayer trước "
-"khi bắt đầu cài đặt. Việc này sẽ giúp cập nhật những tập tin chương trình có "
-"liên quan mà không cần khởi động lại máy tính.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "Cài đặt $(^NameDA)"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-"Bản cài đặt 64-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 64-bit của "
-"SMPlayer trước."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-"Bản cài đặt 32-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 32-bit của "
-"SMPlayer trước."
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "Yêu cầu hệ điều hành Windows 64-bit để cài đặt phần mềm này."
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"Hệ điều hành không được hỗ trợ.[:n:]SMPlayer ${SMPLAYER_VERSION} Yêu cầu "
-"Windows Vista hoặc mới hơn, có thể không hoạt động đúng cách trên hệ thống "
-"của bạn.[:n:]Bạn thật sự muốn tiếp tục cài đặt?"
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"Hệ điều hành không được hỗ trợ.[:n:]SMPlayer ${SMPLAYER_VERSION} yêu cầu "
-"thấp nhất là Windows XP và có thể không hoạt động đúng cách trên hệ thống "
-"của bạn.[:n:]Bạn thật sự muốn tiếp tục cài đặt?"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "Một tiến trình của SMPlayer đang chạy. Hãy thoát SMPlayer và thử lại."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Bạn phải đăng nhập tài khoản quản trị viên khi cài đặt chương trình này."
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Trình cài đặt đang chạy."
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Nguyen Thanh Tai <thanhtai2009@outlook.com>, 2015
-# Thanh Phu <thanhphu@soongsil.ac.kr>, 2017
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2017-09-21 04:58+0000\n"
-"Last-Translator: Thanh Phu <thanhphu@soongsil.ac.kr>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/rvm/smplayer/language/"
-"vi/)\n"
-"Language: vi\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"

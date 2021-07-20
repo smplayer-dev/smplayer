@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; נדרש לשם נגינה."
 
 ${LangFileString} Section_MPlayerCodecs "קודקים של בינארי"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "קודקים של בינארי אינם נתמכים בגרסא זו."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "קודקי לא מחייבים (רשות) עבור MPlayer. (חיבור אינטרנט נדרש לשם התקנה)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "הסתעפות רב-תכליתית של MPlayer וגם MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "תוכנית משותפת ליישום MPlayer אשר מסוגלת לשמש כדי לקודד או לשנות זרמי אודיו או וידאו נתמכים."

@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; dibutuhkan untuk pemutaran."
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binari"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Kodek binari tidak didukung pada versi ini."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Kodek tambahan untuk MPlayer. (Koneksi Internet diperlukan untuk pemasangan)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Sebuah cabang yang kaya fitur dari MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support"
+${LangFileString} Section_YTDL "Youtube support (download required)"
 ${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
 
 ${LangFileString} Section_MEncoder_Desc "Teman Aplikasi dari MPlater yang dapat menggunakan encode atau transformasi audio yang didukung atau video streaming."
