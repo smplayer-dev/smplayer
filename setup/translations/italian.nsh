@@ -128,8 +128,7 @@ ${LangFileString} MPV_Inst_Failed "Errore nell'installazione di mpv."
 ${LangFileString} YTDL_DL_Retry "youtube-dl non è stato installato correttamente. Riprovare?"
 ${LangFileString} YTDL_DL_Failed "Impossibile scaricare youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Verifica aggiornamenti per youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Avviso: youtube-dl si è chiuso in modo anomalo con il codice di chiusura:
-$YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg1 "Avviso: youtube-dl si è chiuso in modo anomalo con il codice di chiusura: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "E' necessario Visual C++ 2010 Runtime (x86) per youtube-dl."
 
 ; SMTube

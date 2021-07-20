@@ -366,7 +366,7 @@ msgstr "Verifica aggiornamenti per youtube-dl..."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr "Avviso: youtube-dl si è chiuso in modo anomalo con il codice di chiusura:\n$YTDL_Exit_code"
+msgstr "Avviso: youtube-dl si è chiuso in modo anomalo con il codice di chiusura: $YTDL_Exit_code"
 
 # YTDL_Error_Msg2
 msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
