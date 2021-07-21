@@ -1,7 +1,7 @@
 name: Build SMPlayer on Mac OS
 env:
-  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-71/mplayer.tar.bz2
-  mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-52/mpv-bin.tar.bz2
+  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-macos.tar.bz2
+  mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-macos.tar.bz2
 
 on: 
   workflow_dispatch:
@@ -66,12 +66,12 @@ jobs:
       - name: Install mplayer
         run: |
             wget ${{ env.mplayer-url }}
-            tar -xvf mplayer.tar.bz2 -C packages/smplayer/package/SMPlayer.app --strip-components=1
+            tar -xvf mplayer-macos.tar.bz2 -C packages/smplayer/package/SMPlayer.app --strip-components=1
 
       - name: Install mpv
         run: |
             wget ${{ env.mpv-url }}
-            tar -xvf mpv-bin.tar.bz2 -C /tmp/
+            tar -xvf mpv-macos.tar.bz2 -C /tmp/
             cp /tmp/mpv.app/Contents/MacOS/mpv packages/smplayer/package/SMPlayer.app/Contents/MacOS/
             cp /tmp/mpv.app/Contents/MacOS/lib/* packages/smplayer/package/SMPlayer.app/Contents/MacOS/lib/
 
