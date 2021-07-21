@@ -64,7 +64,7 @@ ConnectionShm::ConnectionShm(VideoLayerRender * parent)
 
 	connect_timer = new QTimer(this);
 	connect(connect_timer, SIGNAL(timeout()), this, SLOT(start_connection()));
-	connect_timer->setInterval(10);
+	connect_timer->setInterval(100);
 }
 
 ConnectionShm::~ConnectionShm() {
