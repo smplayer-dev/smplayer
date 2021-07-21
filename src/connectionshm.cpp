@@ -32,7 +32,7 @@ static struct header_t {
 	uint32_t width;
 	uint32_t height;
 	uint32_t bytes;
-	uint32_t stride;
+	uint32_t stride[3];
 	uint32_t planes;
 	uint32_t format;
 	uint32_t frame_count;
@@ -125,7 +125,7 @@ void ConnectionShm::start_connection() {
 		return;
 	}
 
-	qDebug("ConnectionShm::start_connection: bytes: %d stride: %d planes: %d", header->bytes, header->stride, header->planes);
+	qDebug("ConnectionShm::start_connection: bytes: %d stride: %d %d %d planes: %d", header->bytes, header->stride[0], header->stride[1], header->stride[2], header->planes);
 	qDebug("ConnectionShm::start_connection: header size: %d videobuffer size: %d", header->header_size, header->video_buffer_size);
 
 	int image_width = header->width;
