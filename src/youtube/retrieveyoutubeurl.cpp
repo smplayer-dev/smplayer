@@ -252,6 +252,13 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 void RetrieveYoutubeUrl::processFinished(int exitCode, QProcess::ExitStatus exitStatus) {
 	qDebug() << "RetrieveYoutubeUrl::processFinished: exitCode:" << exitCode << "exitStatus:" << exitStatus;
 
+#ifdef Q_OS_WIN
+	if (exitCode == -1073741515) {
+		emit dllNotFound();
+		return;
+	}
+#endif
+
 	QByteArray data = process->readAll().replace("\r", "").trimmed();
 #ifndef YT_USE_JSON
 	qDebug() << "RetrieveYoutubeUrl::fetchPage: process output:" << data;

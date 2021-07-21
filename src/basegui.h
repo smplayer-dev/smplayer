@@ -261,6 +261,9 @@ protected slots:
 	void YTUpdate();
 	void YTFailedToStart();
 	void YTUrlNotFound();
+	#ifdef Q_OS_WIN
+	void YTDLLNotFound();
+	#endif
 	#endif
 #endif
 	void gotForbidden();

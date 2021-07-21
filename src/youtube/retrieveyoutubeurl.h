@@ -152,6 +152,9 @@ signals:
 	void gotEmptyList();
 	void connecting(QString host);
 	void processFailedToStart();
+#ifdef Q_OS_WIN
+	void dllNotFound();
+#endif
 #ifdef YT_OBSOLETE
 	void errorOcurred(int error_number, QString error_str);
 	void signatureNotFound(const QString & title);

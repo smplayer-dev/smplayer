@@ -283,6 +283,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
 	connect(yt, SIGNAL(processFailedToStart()), this, SIGNAL(YTprocessFailedToStart()));
 	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
+	#ifdef Q_OS_WIN
+	connect(yt, SIGNAL(dllNotFound()), this, SIGNAL(YTDLLNotFound()));
+	#endif
 #endif
 
 	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));

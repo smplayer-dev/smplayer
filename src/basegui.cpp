@@ -2377,6 +2377,9 @@ void BaseGui::createCore() {
 	#ifdef YT_CODEDOWNLOADER
 	connect(core, SIGNAL(YTprocessFailedToStart()), this, SLOT(YTFailedToStart()));
 	connect(core, SIGNAL(YTUrlNotFound()), this, SLOT(YTUrlNotFound()));
+	#ifdef Q_OS_WIN
+	connect(core, SIGNAL(YTDLLNotFound()), this, SLOT(YTDLLNotFound()));
+	#endif
 	#endif
 #endif
 	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
@@ -5121,6 +5124,16 @@ void BaseGui::YTFailedToStart() {
 
 void BaseGui::YTUrlNotFound() {
 	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
+}
+
+void BaseGui::YTDLLNotFound() {
+	qDebug("BaseGui::YTDLLNotFound");
+	QMessageBox::warning(this, tr("Error detected"), 
+		tr("The youtube-dl process failed because of missing libraries.") +"<br>"+
+		tr("You'll probably need to install %1.").
+		arg("<a href=\"https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe\">%1</a>").
+		arg("the Microsoft Visual C++ 2010 Redistributable Package")
+		);
 }
 #endif
 
