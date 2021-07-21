@@ -38,7 +38,16 @@ static struct header_t {
 	uint32_t frame_count;
 	uint32_t busy;
 	float fps;
-	//unsigned char * image_buffer;
+	// MPV
+	int32_t rotate;
+	int32_t colorspace;
+	int32_t colorspace_levels;
+	int32_t colorspace_primaries;
+	int32_t colorspace_gamma;
+	int32_t colorspace_light;
+	float colorspace_sig_peak;
+	int32_t chroma_location;
+	uint32_t reserved[20];
 } * header = 0;
 
 
@@ -169,6 +178,11 @@ void ConnectionShm::start_connection() {
 	render_timer->setInterval(1000 / fps / 2);
 	render_timer->start();
 	qDebug("ConnectionShm::start_connection: timer interval: %d", render_timer->interval());
+
+	qDebug("ConnectionShm::start_connection: rotate: %d chroma_location: %d", header->rotate, header->chroma_location);
+	qDebug("ConnectionShm::start_connection: colorspace: %d levels: %d primaries: %d gamma: %d light: %d sig_peak: %f",
+           header->colorspace, header->colorspace_levels, header->colorspace_primaries,
+           header->colorspace_gamma, header->colorspace_light, header->colorspace_sig_peak);
 }
 
 void ConnectionShm::stop_connection() {
