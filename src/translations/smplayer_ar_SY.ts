@@ -555,8 +555,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
-        <location filename="../basegui.cpp" line="3603"/>
-        <location filename="../basegui.cpp" line="3617"/>
+        <location filename="../basegui.cpp" line="3606"/>
+        <location filename="../basegui.cpp" line="3620"/>
         <source>&amp;None</source>
         <translation>&amp;بدون</translation>
     </message>
@@ -767,43 +767,43 @@ Do you want to overwrite?</source>
         <translation>نب&amp;ذة عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3640"/>
-        <location filename="../basegui.cpp" line="3656"/>
-        <location filename="../basegui.cpp" line="3672"/>
-        <location filename="../basegui.cpp" line="3687"/>
-        <location filename="../basegui.cpp" line="3721"/>
-        <location filename="../basegui.cpp" line="3741"/>
-        <location filename="../basegui.cpp" line="3817"/>
+        <location filename="../basegui.cpp" line="3643"/>
+        <location filename="../basegui.cpp" line="3659"/>
+        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3690"/>
+        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3744"/>
+        <location filename="../basegui.cpp" line="3820"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;فارغ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4284"/>
         <source>Video</source>
         <translation>مقاطع فيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4282"/>
-        <location filename="../basegui.cpp" line="4532"/>
+        <location filename="../basegui.cpp" line="4285"/>
+        <location filename="../basegui.cpp" line="4535"/>
         <source>Audio</source>
         <translation>مقاطع صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4283"/>
+        <location filename="../basegui.cpp" line="4286"/>
         <source>Playlists</source>
         <translation>قوائم تشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4284"/>
-        <location filename="../basegui.cpp" line="4507"/>
-        <location filename="../basegui.cpp" line="4533"/>
+        <location filename="../basegui.cpp" line="4287"/>
+        <location filename="../basegui.cpp" line="4510"/>
+        <location filename="../basegui.cpp" line="4536"/>
         <source>All files</source>
         <translation>كل الملفات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4279"/>
-        <location filename="../basegui.cpp" line="4504"/>
-        <location filename="../basegui.cpp" line="4530"/>
+        <location filename="../basegui.cpp" line="4282"/>
+        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4533"/>
         <source>Choose a file</source>
         <translation>اختر ملفاً</translation>
     </message>
@@ -818,49 +818,50 @@ Do you want to overwrite?</source>
         <translation>تبرّع / &amp;شارك مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4343"/>
+        <location filename="../basegui.cpp" line="4346"/>
         <source>SMPlayer - Information</source>
         <translation>معلومات عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4344"/>
+        <location filename="../basegui.cpp" line="4347"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُضبط سواقة أقراص CDROM أو DVD بعدُ.
 سيظهر الآن حوار الضبط، فتستطيع القيام بالأمر.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4457"/>
+        <location filename="../basegui.cpp" line="4460"/>
         <source>Select the Blu-ray folder</source>
         <translation>إختر مجلد بلو-راي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4470"/>
+        <location filename="../basegui.cpp" line="4473"/>
         <source>Choose a directory</source>
         <translation>اختر مجلداً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4506"/>
+        <location filename="../basegui.cpp" line="4509"/>
         <source>Subtitles</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5146"/>
+        <location filename="../basegui.cpp" line="5132"/>
+        <location filename="../basegui.cpp" line="5161"/>
         <source>Error detected</source>
         <translation>اكتُشِف خطأ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5147"/>
+        <location filename="../basegui.cpp" line="5162"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>نأسف إذ لا يمكن تشغيل مقطع الفيديو هذا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5399"/>
         <source>Pause</source>
         <translation>لبث</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5385"/>
+        <location filename="../basegui.cpp" line="5400"/>
         <source>Stop</source>
         <translation>متوقف</translation>
     </message>
@@ -1339,137 +1340,152 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>قائمة الوصول السريع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3036"/>
+        <location filename="../basegui.cpp" line="3039"/>
         <source>Logs</source>
         <translation>السجلات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3339"/>
+        <location filename="../basegui.cpp" line="3342"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
         <translation>عليك إعادة تشغيل SMPlayer لتطبيق التفضيلات الجديدة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4617"/>
+        <location filename="../basegui.cpp" line="4620"/>
         <source>Support SMPlayer</source>
         <translation>إدعم SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4619"/>
+        <location filename="../basegui.cpp" line="4622"/>
         <source>Donate</source>
         <translation>تبرّع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4620"/>
+        <location filename="../basegui.cpp" line="4623"/>
         <source>No</source>
         <translation>لا</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4623"/>
+        <location filename="../basegui.cpp" line="4626"/>
         <source>SMPlayer needs you</source>
         <translation>المشغّل SMPlayer يحتاج إليك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4624"/>
+        <location filename="../basegui.cpp" line="4627"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>المشغّل SMPlayer برنامج مجاني، لكن التطوير يحتاج الكثير من الوقت و الكثير من العمل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4625"/>
+        <location filename="../basegui.cpp" line="4628"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>من أجل الاستمرار في تطوير SMPlayer و بميزات جديدة فاننا نحتاج الى مساعدتك.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4626"/>
+        <location filename="../basegui.cpp" line="4629"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>الرجاء أن تضع في إعتبارك دعم مشروع المشغّل SMPlayer بإرسال تبرّع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4627"/>
+        <location filename="../basegui.cpp" line="4630"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>حتى أقل المبالغ ستساعد كثيرا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6106"/>
-        <location filename="../basegui.cpp" line="6159"/>
+        <location filename="../basegui.cpp" line="5133"/>
+        <source>The youtube-dl process failed because of missing libraries.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5134"/>
+        <source>You&apos;ll probably need to install %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5136"/>
+        <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6121"/>
+        <location filename="../basegui.cpp" line="6174"/>
         <source>More info in the log.</source>
         <translation>مزيد من المعلومات في السجلّ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6112"/>
-        <location filename="../basegui.cpp" line="6165"/>
+        <location filename="../basegui.cpp" line="6127"/>
+        <location filename="../basegui.cpp" line="6180"/>
         <source>%1 Error</source>
         <translation>خطأ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6106"/>
-        <location filename="../basegui.cpp" line="6113"/>
+        <location filename="../basegui.cpp" line="6121"/>
+        <location filename="../basegui.cpp" line="6128"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 إنتهى على نحو غير متوقع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6138"/>
+        <location filename="../basegui.cpp" line="6153"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>فشل المكوّن youtube-dl في الاشتغال.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6139"/>
+        <location filename="../basegui.cpp" line="6154"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>تثبيت الحزمة التوزيعية لفيجوال سي بلس بلس 2010 من مايكروسوفت (اصدار x86) Microsoft Visual C++ 2010 Redistributable Package  قد يحل المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6141"/>
+        <location filename="../basegui.cpp" line="6156"/>
         <source>Click here to get it</source>
         <translation>انقر هنا للحصول عليها</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6159"/>
-        <location filename="../basegui.cpp" line="6167"/>
+        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6182"/>
         <source>%1 failed to start.</source>
         <translation>%1 عجز أن يبدأ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6168"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>رجاء تحقق من مسار %1 في التفضيلات.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6170"/>
+        <location filename="../basegui.cpp" line="6185"/>
         <source>%1 has crashed.</source>
         <translation>%1 إنهار.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6265"/>
+        <location filename="../basegui.cpp" line="6280"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>مستعرض يوتيوب YouTube Browser غير مثبَّت.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6266"/>
-        <location filename="../basegui.cpp" line="6278"/>
+        <location filename="../basegui.cpp" line="6281"/>
+        <location filename="../basegui.cpp" line="6293"/>
         <source>Visit %1 to get it.</source>
         <translation>زُر %1 للحصول عليه.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6276"/>
+        <location filename="../basegui.cpp" line="6291"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>فشل متصفح اليوتيوب أن يشتغل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6277"/>
+        <location filename="../basegui.cpp" line="6292"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>تأكد من كونه مثبَّتاً بصورة صحيحة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6444"/>
+        <location filename="../basegui.cpp" line="6459"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>بُدّل النظام الى النمط اللوحي. أيتوجب على SMPlayer أن يغير الى النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6446"/>
+        <location filename="../basegui.cpp" line="6461"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>خرج النظام من النمط اللوحي. أيتوجب على SMPlayer أن يُطفئ النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6450"/>
+        <location filename="../basegui.cpp" line="6465"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>تذكّر قراري و لا تسأل ثانيةً</translation>
     </message>
@@ -1479,23 +1495,23 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;شارك SMPlayer مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3338"/>
-        <location filename="../basegui.cpp" line="4074"/>
+        <location filename="../basegui.cpp" line="3341"/>
+        <location filename="../basegui.cpp" line="4077"/>
         <source>Information</source>
         <translation>معلومات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3829"/>
+        <location filename="../basegui.cpp" line="3832"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>أكِّد الحذف - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3830"/>
+        <location filename="../basegui.cpp" line="3833"/>
         <source>Delete the list of recent files?</source>
         <translation>أأحذف لائحة الملفات الأخيرة؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4078"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>حُفظَت القيم الحالية لتستخدم قيماً مبدئية.</translation>
     </message>
@@ -1585,7 +1601,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;خيارات سطر الأوامر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4552"/>
+        <location filename="../basegui.cpp" line="4555"/>
         <source>SMPlayer command line options</source>
         <translation>خيارات سطر الأوامر لـSMPlayer</translation>
     </message>
@@ -1600,17 +1616,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>صفّر مساوي الفيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5148"/>
+        <location filename="../basegui.cpp" line="5163"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>أعاد الخادوم &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6114"/>
+        <location filename="../basegui.cpp" line="6129"/>
         <source>Exit code: %1</source>
         <translation>رمز الخروج: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6171"/>
+        <location filename="../basegui.cpp" line="6186"/>
         <source>See the log for more info.</source>
         <translation>انظر السجل لمعلومات أكثر.</translation>
     </message>
@@ -1655,7 +1671,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>أظهر قائمة السياق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4280"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>Multimedia</source>
         <translation>الوسائط المتعددة</translation>
     </message>
@@ -1733,22 +1749,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>مسار ال&amp;صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5025"/>
+        <location filename="../basegui.cpp" line="5028"/>
         <source>Warning - Using old MPlayer</source>
         <translation>تحذير - استخدام MPlayer قديم</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5026"/>
+        <location filename="../basegui.cpp" line="5029"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>إصدار MPlayer المثبت على نظامك (%1) قديم. لا يعمل SMPlayer به كما ينبغي: قد لا يعمل اختيار الترجمات وبعض الخيارات الأخرى... </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5031"/>
+        <location filename="../basegui.cpp" line="5034"/>
         <source>Please, update your MPlayer.</source>
         <translation>رجاء حدّث MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5036"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(لن يُعرض هذا التحذير ثانيةً)</translation>
     </message>
@@ -1838,26 +1854,26 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>عيّن التأخي&amp;ر...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4689"/>
-        <location filename="../basegui.cpp" line="4693"/>
+        <location filename="../basegui.cpp" line="4692"/>
+        <location filename="../basegui.cpp" line="4696"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - تأخير الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4690"/>
-        <location filename="../basegui.cpp" line="4694"/>
+        <location filename="../basegui.cpp" line="4693"/>
+        <location filename="../basegui.cpp" line="4697"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>تأخير الصوت (بالميلي ثانية):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4705"/>
-        <location filename="../basegui.cpp" line="4709"/>
+        <location filename="../basegui.cpp" line="4708"/>
+        <location filename="../basegui.cpp" line="4712"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - تأخير الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4706"/>
-        <location filename="../basegui.cpp" line="4710"/>
+        <location filename="../basegui.cpp" line="4709"/>
+        <location filename="../basegui.cpp" line="4713"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>تأخير الترجمة (بالميلي ثانية):</translation>
     </message>
@@ -1867,8 +1883,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>بدّل وضع البقاء في قمة النوافذ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5610"/>
-        <location filename="../basegui.cpp" line="5953"/>
+        <location filename="../basegui.cpp" line="5625"/>
+        <location filename="../basegui.cpp" line="5968"/>
         <source>Jump to %1</source>
         <translation>اقفز إلى %1</translation>
     </message>
@@ -2302,143 +2318,143 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3243"/>
+        <location filename="../core.cpp" line="3246"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3261"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3276"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3288"/>
+        <location filename="../core.cpp" line="3291"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3431"/>
+        <location filename="../core.cpp" line="3434"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4402"/>
+        <location filename="../core.cpp" line="4405"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3559"/>
-        <location filename="../core.cpp" line="3570"/>
+        <location filename="../core.cpp" line="3562"/>
+        <location filename="../core.cpp" line="3573"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4231"/>
+        <location filename="../core.cpp" line="4234"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4640"/>
+        <location filename="../core.cpp" line="4643"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3484"/>
+        <location filename="../core.cpp" line="3487"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3502"/>
+        <location filename="../core.cpp" line="3505"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3342"/>
+        <location filename="../core.cpp" line="3345"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="576"/>
+        <location filename="../core.cpp" line="579"/>
         <source>Unable to locate the URL of the video</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3658"/>
+        <location filename="../core.cpp" line="3661"/>
         <source>Subtitles on</source>
         <translation>الترجمات مفعّلة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3660"/>
+        <location filename="../core.cpp" line="3663"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4279"/>
+        <location filename="../core.cpp" line="4282"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4282"/>
+        <location filename="../core.cpp" line="4285"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4285"/>
+        <location filename="../core.cpp" line="4288"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4288"/>
+        <location filename="../core.cpp" line="4291"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4616"/>
+        <location filename="../core.cpp" line="4619"/>
         <source>Screenshot saved as %1</source>
         <translation>حُفظت اللقطة بالإسم %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4651"/>
+        <location filename="../core.cpp" line="4654"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1416"/>
+        <location filename="../core.cpp" line="1419"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصورة، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1429"/>
+        <location filename="../core.cpp" line="1432"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2829"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2854"/>
+        <location filename="../core.cpp" line="2857"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="572"/>
+        <location filename="../core.cpp" line="575"/>
         <source>Connecting to %1</source>
         <translation>يتصل بـ%1</translation>
     </message>
