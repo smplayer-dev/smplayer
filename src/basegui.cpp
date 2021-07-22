@@ -5126,15 +5126,17 @@ void BaseGui::YTUrlNotFound() {
 	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
 }
 
+#ifdef Q_OS_WIN
 void BaseGui::YTDLLNotFound() {
 	qDebug("BaseGui::YTDLLNotFound");
 	QMessageBox::warning(this, tr("Error detected"), 
 		tr("The youtube-dl process failed because of missing libraries.") +"<br>"+
 		tr("You'll probably need to install %1.").
 		arg("<a href=\"https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe\">%1</a>").
-		arg("the Microsoft Visual C++ 2010 Redistributable Package")
+		arg(tr("the Microsoft Visual C++ 2010 Redistributable Package"))
 		);
 }
+#endif
 #endif
 
 void BaseGui::gotForbidden() {
