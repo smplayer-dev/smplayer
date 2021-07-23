@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选解码�
 
 ${LangFileString} Section_MPV_Desc "MPlayer 和 MPlayer2 的一个特性增强分支"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
+${LangFileString} Section_YTDL "Youtube支持 (需要下载)"
 ${LangFileString} Section_YTDL_Desc "提供播放 Youtube 视频的可能性"
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer 的配套程序，可以用来编码或转换支持的音频/视频流。"
