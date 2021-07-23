@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1257,7 +1255,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="2114"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotation de 1&amp;80 degrès</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
@@ -1392,17 +1390,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -2514,7 +2512,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Format du temps</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2539,12 +2537,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le temps &amp;total</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le temps &amp;restant</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3063,22 +3061,22 @@ Exemple : extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Espagnol - Espagne</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Spanish</source>
-        <translation type="unfinished">Espagnol</translation>
+        <translation>Espagnol</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugais</translation>
+        <translation>Portuguais</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Espagnol - Amérique latine</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
@@ -3115,13 +3113,6 @@ Exemple : extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
         <source>Save File</source>
         <translation>Sauvegarder le fichier</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%n sous-titre extrait</numerusform>
-            <numerusform>%n sous-titres extraits</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
@@ -3210,21 +3201,13 @@ Exemple : extrastereo,karaoke</translation>
         <translation>Sous-titres sauvegardés : %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">Écraser ?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">Le fichier %1 existe déjà, l&apos;écraser ?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Erreur lors de la sauvegarde</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Il n&apos;a pas été possible de sauvegarder
@@ -3236,10 +3219,6 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>Téléchargement échoué</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Fichier temporaire %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4029,7 +4008,7 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4245,7 +4224,7 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4870,12 +4849,12 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="907"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache (en secondes) :</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="908"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitesse du cache :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="220"/>
@@ -4952,7 +4931,7 @@ Voulez-vous le remplacer ?</translation>
         <location filename="../mplayeroptions.cpp" line="423"/>
         <location filename="../mplayeroptions.cpp" line="500"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option n&apos;est pas prise en charge par MPlayer</translation>
     </message>
 </context>
 <context>
@@ -6043,12 +6022,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6133,12 +6112,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Wayland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Support de Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ceci active certaines options empêchant l&apos;affichage de la vidéo en dehors de la fenêtre principale.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1143"/>
@@ -6314,7 +6293,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="407"/>
         <source>Wa&amp;yland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Support de Wa&amp;yland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -6660,14 +6639,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>Rapide</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">Lent</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">Rapide - Carte ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8639,10 +8610,6 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Priorité</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Sélectionnez la priorité du processus MPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>Temps réel</translation>
@@ -8825,7 +8792,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10124,19 +10091,13 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n seconde</numerusform>
-            <numerusform>%n secondes</numerusform>
-        </translation>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n secondes</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minutes</numerusform>
-        </translation>
+        <translation><numerusform>%n minute</numerusform><numerusform>%n minutes</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

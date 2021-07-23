@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -36,7 +34,7 @@
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Haga clic aquí para conocer a los traductores de los equipos de transifex</translation>
+        <translation>Haga clic aquí para conocer a los traductores de los equipos de Transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -1392,7 +1390,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation>El proceso youtube-dl ha fallado a causa de que faltan librerías.</translation>
+        <translation>El proceso youtube-dl ha fallado porque faltan bibliotecas.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
@@ -1402,7 +1400,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation>el paquete Microsoft Visual C++ 2010 Redistributable</translation>
+        <translation>el paquete redistribuible de Microsoft Visual C++ 2010</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -3116,13 +3114,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <source>Save File</source>
         <translation>Guardar el archivo</translation>
     </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%n subtítulo(s) extraído(s)</numerusform>
-            <numerusform>%n subtítulo(s) extraído(s)</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
         <source>Error fixing the subtitle lines</source>
@@ -3210,21 +3201,13 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>Subtítulo guardado como %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">¿Sobreescribir?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">El archivo %1 ya existe, ¿quiere sobreescribirlo?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Error al guardar el archivo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el archivo descargado
@@ -3236,10 +3219,6 @@ Comprueba los permisos de esa carpeta.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>Ha fallado la descarga</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Archivo temporal %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4029,7 +4008,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4245,7 +4224,7 @@ Comprueba los permisos de esa carpeta.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6661,14 +6640,6 @@ Do you want to overwrite?</source>
         <translation>rápido</translation>
     </message>
     <message>
-        <source>slow</source>
-        <translation type="obsolete">lento</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">rápido - tarjetas ATI</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="496"/>
         <location filename="../prefgeneral.cpp" line="539"/>
         <source>User defined...</source>
@@ -8637,10 +8608,6 @@ Do you want to overwrite?</source>
         <translation>Prioridad</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Seleccione la prioridad con la que se ejecutará el MPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>Tiempo real</translation>
@@ -10123,19 +10090,13 @@ archivo_de_subtítulos</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1257,7 +1255,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="2114"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakreni za 1&amp;80 stupnjeva</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
@@ -1392,17 +1390,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -2514,7 +2512,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Format vremena</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2539,12 +2537,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži &amp;ukupno vrijeme</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži &amp;preostalo vrijeme</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3063,22 +3061,22 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Španjolski - Španjolska</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Spanish</source>
-        <translation type="unfinished">Španjolski</translation>
+        <translation>Španjolski</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugalski</translation>
+        <translation>Portugalski</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Španjolski - Latinska Amerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
@@ -3115,14 +3113,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
         <source>Save File</source>
         <translation>Spremi datoteku</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
@@ -3211,21 +3201,13 @@ Npr: extrastereo,karaoke</translation>
         <translation>Podnsalov je spremljen kao %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">Prepiši?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">Datoteka %1 već postoji, prepiši?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Greška pri spremanju datoteke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -3237,10 +3219,6 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>Neuspjelo preuzimanje</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Privremena datoteka %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4030,7 +4008,7 @@ Molim, provjerite dozvole te mape.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4246,7 +4224,7 @@ Molim, provjerite dozvole te mape.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4871,12 +4849,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvoptions.cpp" line="907"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Predmemorija (u sekundama):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="908"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Brzina predmemorije:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="220"/>
@@ -4953,7 +4931,7 @@ Do you want to overwrite?</source>
         <location filename="../mplayeroptions.cpp" line="423"/>
         <location filename="../mplayeroptions.cpp" line="500"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova mogućnost nije podržana od strane MPlayera</translation>
     </message>
 </context>
 <context>
@@ -6043,12 +6021,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6133,12 +6111,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Wayland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Wayland podrška</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovo aktivira određene mogućnosti u svrhu sprječavanja prikaza videa izvan glavnog prozora.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1143"/>
@@ -6314,7 +6292,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="407"/>
         <source>Wa&amp;yland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Wa&amp;yland podrška</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -6660,14 +6638,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>brže</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">sporije</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">brže - ATI kartice</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8638,10 +8608,6 @@ Do you want to overwrite?</source>
         <translation>Prioritet</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Odaberite prioritet za MPlayer proces.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>u-stvarnom-vremenu</translation>
@@ -8824,7 +8790,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10123,21 +10089,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

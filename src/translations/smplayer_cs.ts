@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -188,7 +186,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -1066,12 +1064,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
@@ -1257,7 +1255,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="2114"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
@@ -1392,17 +1390,17 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -2219,100 +2217,100 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="49"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Stahuji...</translation>
+        <translation>Stahování...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit k %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube kód byl úspěšně nainstalován.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Nainstalovaná verze: %1</translation>
+        <translation>Nainstalovaná verze: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Není možno uložit %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nejspíše je nutné aktualizovat youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
         <location filename="../youtube/codedownloader.cpp" line="208"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="209"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="210"/>
         <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bude staženo z oficiálního webu a nainstalováno do %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="211"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Přejete si pokračovat?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="215"/>
         <location filename="../youtube/codedownloader.cpp" line="218"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nainstalovat podporu YouTube?</translation>
     </message>
 </context>
 <context>
@@ -2514,7 +2512,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"></translation>
+        <translation>Formát času</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2539,12 +2537,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -2978,7 +2976,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -3063,22 +3061,22 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Španělština - Španělsko</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Spanish</source>
-        <translation type="unfinished">Španělština</translation>
+        <translation>Španělština</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugalština</translation>
+        <translation>Portugalština</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"></translation>
+        <translation>Španělština - Latinská Amerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
@@ -3115,14 +3113,6 @@ Příklad: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
         <source>Save File</source>
         <translation>Uložit soubor</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulků</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
@@ -3211,21 +3201,13 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Titulky uloženy jako %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">Přepsat?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">Soubor %1 již existuje, přepsat?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nelze uložit stažený soubor
@@ -3237,10 +3219,6 @@ Zkontrolujte přístupová práva.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>Stahování selhalo</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Dočasný soubor %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4030,7 +4008,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4246,7 +4224,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4871,12 +4849,12 @@ Chcete jej opravdu přepsat?</translation>
     <message>
         <location filename="../mpvoptions.cpp" line="907"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyrovnánací paměť (v sekundách):</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="908"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rychlost vyrovnávací paměti:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="220"/>
@@ -4953,7 +4931,7 @@ Chcete jej opravdu přepsat?</translation>
         <location filename="../mplayeroptions.cpp" line="423"/>
         <location filename="../mplayeroptions.cpp" line="500"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuto volbu MPlayer nepodporuje</translation>
     </message>
 </context>
 <context>
@@ -5140,7 +5118,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhodný výběr</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="725"/>
@@ -5262,7 +5240,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="774"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1538"/>
@@ -6043,12 +6021,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6134,12 +6112,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Wayland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpora Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto aktivuje některé volby k zamezení zobrazení videa mimo okno.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1143"/>
@@ -6315,7 +6293,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="407"/>
         <source>Wa&amp;yland support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -6661,14 +6639,6 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>rychlý</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">pomalý</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">rychlý - ATi karty</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8640,10 +8610,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Priorita</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Zvolte prioritu pro proces MPlayeru.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>reálný čas</translation>
@@ -8826,7 +8792,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10125,21 +10091,13 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundu</numerusform>
-            <numerusform>%n sekundy</numerusform>
-            <numerusform>%n sekund</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundu</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minuty</numerusform>
-            <numerusform>%n minut</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform><numerusform>%n minut</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

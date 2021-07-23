@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar_SY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar_SY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1257,7 +1255,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2114"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
@@ -1392,17 +1390,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -3116,17 +3114,6 @@ Example: extrastereo,karaoke</source>
         <source>Save File</source>
         <translation>حفظ الملف</translation>
     </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>لم تُستخرَج أية ترجمة(0)</numerusform>
-            <numerusform>استُخرجت ترجمة واحدة(1)</numerusform>
-            <numerusform>استُخرجت ترجمتان(2)</numerusform>
-            <numerusform>استُخرجت %n ترجمات(ترجمات)</numerusform>
-            <numerusform>استُخرجت %n ترجمةً(ترجمات)</numerusform>
-            <numerusform>استُخرجت %n ترجمة(ترجمات)</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
         <source>Error fixing the subtitle lines</source>
@@ -3214,21 +3201,13 @@ Example: extrastereo,karaoke</source>
         <translation>حُفظت الترجمة بالاسم %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">أتريد الكتابة عليه؟</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">الملف %1 مُوجَد من قبل. أتريد الكتابة عليه؟</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -3239,10 +3218,6 @@ Please check the permissions of that folder.</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>فشل التنزيل</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">الملف المؤقت %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4032,7 +4007,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4248,7 +4223,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6044,12 +6019,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6661,14 +6636,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>سريع</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">بطيء</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">سريع - بطاقات ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8639,10 +8606,6 @@ Do you want to overwrite?</source>
         <translation>الأولوية</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">اختر أولوية عملية MPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>في الوقت الحقيقي</translation>
@@ -8825,7 +8788,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10124,27 +10087,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

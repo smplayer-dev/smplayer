@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1257,7 +1255,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2114"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Kierrä 1&amp;80 astetta myötäpäivään</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2128"/>
@@ -1392,17 +1390,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -3116,13 +3114,6 @@ Esimerkki: extrastereo,karaoke</translation>
         <source>Save File</source>
         <translation>Tallenna tiedosto</translation>
     </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%n tekstitys purettu</numerusform>
-            <numerusform>%n tekstitystä purettu</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
         <source>Error fixing the subtitle lines</source>
@@ -3210,21 +3201,13 @@ Esimerkki: extrastereo,karaoke</translation>
         <translation>Tekstitys tallennettu %1</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">Päällekirjoitus?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">Tiedosto %1 on jo olemassa, päällekirjoitetaanko?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Virhe tallennettaessa tiedostoa</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ladattua tiedostoa ei voitu tallentaa
@@ -3236,10 +3219,6 @@ Tarkista kansion oikeudet.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>Lataus epäonnistui</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Väliaikainen tiedosto %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4029,7 +4008,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4245,7 +4224,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6042,12 +6021,12 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6659,14 +6638,6 @@ Haluatko kirjoittaa päälle?</translation>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>nopea</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">hidas</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">nopea - ATI:n kortit</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8637,10 +8608,6 @@ Haluatko kirjoittaa päälle?</translation>
         <translation>Pioriteetti</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Valitse MPlayerin prosessin prioriteetti.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>reaaliaikainen</translation>
@@ -8823,7 +8790,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10122,19 +10089,13 @@ Haluatko kirjoittaa päälle?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekuntia</numerusform>
-            <numerusform>%n sekuntia</numerusform>
-        </translation>
+        <translation><numerusform>%n sekuntia</numerusform><numerusform>%n sekuntia</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuuttia</numerusform>
-            <numerusform>%n minuuttia</numerusform>
-        </translation>
+        <translation><numerusform>%n minuuttia</numerusform><numerusform>%n minuuttia</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

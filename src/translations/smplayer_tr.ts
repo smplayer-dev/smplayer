@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1392,17 +1390,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksik kitaplıklar nedeniyle youtube-dl işlemi başarısız oldu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muhtemelen %1&apos;i yüklemeniz gerekecek.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation>Microsoft Visual C++ 2010 Yeniden Dağıtılabilir Paketi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -3116,12 +3114,6 @@ Example: extrastereo,karaoke</source>
         <source>Save File</source>
         <translation>Dosyayı Kaydet</translation>
     </message>
-    <message numerus="yes">
-        <source>%n subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%n altyazı(lar) ayıklandı</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
         <source>Error fixing the subtitle lines</source>
@@ -3209,21 +3201,13 @@ Example: extrastereo,karaoke</source>
         <translation>Altyazı %1 olarak kaydedildi</translation>
     </message>
     <message>
-        <source>Overwrite?</source>
-        <translation type="obsolete">Üstüne yazmak istiyor musunuz?</translation>
-    </message>
-    <message>
-        <source>The file %1 already exits, overwrite?</source>
-        <translation type="obsolete">%1 zaten var, üstüne yazmak istiyor musunuz?</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Dosyayı kaydederken hata oluştu</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>%1 klasörüne 
@@ -3235,10 +3219,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
         <source>Download failed</source>
         <translation>İndirme başarısız</translation>
-    </message>
-    <message>
-        <source>Temporary file %1</source>
-        <translation type="obsolete">Geçici dosya %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -4028,7 +4008,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation>BokmÃ¥l</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4244,7 +4224,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation>VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6041,12 +6021,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>donanım</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation>yazılım</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -6658,14 +6638,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="460"/>
         <source>fast</source>
         <translation>hızlı</translation>
-    </message>
-    <message>
-        <source>slow</source>
-        <translation type="obsolete">yavaş</translation>
-    </message>
-    <message>
-        <source>fast - ATI cards</source>
-        <translation type="obsolete">hızlı - ATI kartlar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
@@ -8636,10 +8608,6 @@ Do you want to overwrite?</source>
         <translation>Öncelik</translation>
     </message>
     <message>
-        <source>Select the priority for the MPlayer process.</source>
-        <translation type="obsolete">Mplayer sürecinin önceliğini seçin.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
         <translation>gerçek zamanlı</translation>
@@ -8822,7 +8790,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oynatıcı işlemi için önceliği seçin.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10121,17 +10089,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saniye()</numerusform>
-        </translation>
+        <translation><numerusform>%n saniye()</numerusform><numerusform>%n saniye()</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n dakika()</numerusform>
-        </translation>
+        <translation><numerusform>%n dakika()</numerusform><numerusform>%n dakika()</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
