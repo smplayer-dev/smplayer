@@ -14,9 +14,9 @@
         SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
         and also for mpv. But apart from providing access for the most common
         and useful options of mplayer and mpv, SMPlayer adds other interesting features
-        like the possibility to play Youtube videos or search and download subtitles.
-        One of the main features is the ability to remember the state of a
-        played file, so when you play it later it will be resumed at the same point
+        like the possibility to play YouTube videos or search and download subtitles.
+        One of the main features is the ability to remember the settings of previously
+        played files, so when you play them later they will be resumed at the same point
         and with the same settings.
     </p>
   </description>
