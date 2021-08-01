@@ -79,8 +79,10 @@ install: all
 	-install -d $(DESTDIR)$(APPLNK_DIR)
 	install -m 644 smplayer.desktop $(DESTDIR)$(APPLNK_DIR)
 	install -m 644 smplayer_enqueue.desktop $(DESTDIR)$(APPLNK_DIR)
+
 	-install -d $(DESTDIR)$(METAINFO_DIR)
-	install -m 644 smplayer.appdata.xml $(DESTDIR)$(METAINFO_DIR)
+	./install_appdata.sh $(DESTDIR)$(METAINFO_DIR)/smplayer.appdata.xml
+
 	-install -d $(DESTDIR)$(PREFIX)/share/man/man1/
 	install -m 644 man/smplayer.1 $(DESTDIR)$(PREFIX)/share/man/man1/
 	gzip -9 -f $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1

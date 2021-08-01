@@ -44,6 +44,6 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
     <releases>
-       <release version="21.8.0" date="2021-08-01"/>
+       <release version="{version}" date="{date}"/>
   </releases>
 </component>
