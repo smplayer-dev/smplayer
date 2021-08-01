@@ -1,0 +1,37 @@
+name: Build snap package
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          repository: 'smplayer-dev/snap-builds'
+
+      - name: Build snap
+        id: snapcraft
+        uses: snapcore/action-build@v1
+        with:
+          path: smplayer
+  
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: smplayer-snap
+          path: ${{ steps.snapcraft.outputs.snap }}
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ steps.snapcraft.outputs.snap }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
