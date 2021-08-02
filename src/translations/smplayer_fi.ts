@@ -1390,17 +1390,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>Prosessi Youtube-dl epäonnistui puuttuvien kirjastojen takia.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>Sinun on ehkä asennettava %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>Microsoft Visual C++ 2010 Redistributable Package</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -6021,12 +6021,12 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation>laitteisto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation>ohjelmisto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -8790,7 +8790,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation>Valitse soittimen prosessin prioriteetti.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>

@@ -1390,17 +1390,17 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>youtube-dl-processen mislykkedes pga. manglende biblioteker.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>Du skal formodentligt installere %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>Microsoft Visual C++ 2010 Redistributable Package</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6121"/>
@@ -4008,7 +4008,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4224,7 +4224,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -5915,7 +5915,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation>Hvis indstillingen er slået til, afspiller SMPlayer DVD&apos;er med dvdnavn. Kræver en MPlayer-version med dvdnav-understøttelse.</translation>
+        <translation>Hvis indstillingen er slået til, afspiller SMPlayer DVD&apos;er med dvdnavn. Kræver en MPlayer-version med understøttelse af dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -6021,12 +6021,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="453"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation>hardware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="454"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation>software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
@@ -8790,7 +8790,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation>Vælg prioritet for afspillerprocessen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -8916,7 +8916,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation>Kræver en %1 build med CoreAVC-understøttelse.</translation>
+        <translation>Kræver en %1 build med understøttelse af CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="382"/>
@@ -9699,12 +9699,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>Hvis denne indstilling er slået til, vil underteksternes tegnsæt automatisk blive forsøgt registreret for det givne sprog. Den falder tilbage til standardtegnsæt hvis automatisk registrering mislykkedes. Denne valgmulighed kræver en %1 med ENCA-understøttelse.</translation>
+        <translation>Hvis denne indstilling er slået til, vil underteksternes tegnsæt automatisk blive forsøgt registreret for det givne sprog. Den falder tilbage til standardtegnsæt hvis automatisk registrering mislykkedes. Denne valgmulighed kræver en %1 med understøttelse af ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Du bør normalt ikke deaktivere denne indstilling. Gør det kun hvis din %1 er kompileret uden freetype-understøttelse. &lt;b&gt;Deaktivering af denne indstilling kan gøre at undertekster slet ikke virker!&lt;/b&gt;</translation>
+        <translation>Du bør normalt ikke deaktivere denne indstilling. Gør det kun hvis din %1 er kompileret uden understøttelse af freetype. &lt;b&gt;Deaktivering af denne indstilling kan gøre at undertekster slet ikke virker!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -9759,12 +9759,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>Freetype support</source>
-        <translation>Freetype-understøttelse</translation>
+        <translation>Understøttelse af Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
         <source>Freet&amp;ype support</source>
-        <translation>Freet&amp;ype-understøttelse</translation>
+        <translation>Understøttelse af Freet&amp;ype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
