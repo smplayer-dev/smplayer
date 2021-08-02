@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Yderligere codecs til MPlayer. (kr
 
 ${LangFileString} Section_MPV_Desc "En funktionsrig fork af MPlayer og MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
+${LangFileString} Section_YTDL "Understøttelse af Youtube (kræver download)"
 ${LangFileString} Section_YTDL_Desc "Tilføjer muligheden for at afspiller Youtube videos"
 
 ${LangFileString} Section_MEncoder_Desc "Et medfølgende program til MPlayer der kan bruges til at kode eller transformere understøttede lyd- og videostrømme."
