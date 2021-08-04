@@ -19,6 +19,8 @@ apps:
     command-chain:
       - bin/desktop-launch
       - bin/snapcraft-preload
+    environment:
+        DISABLE_WAYLAND: 1
     desktop: usr/share/applications/smplayer.desktop
     plugs:
       - alsa
@@ -62,7 +64,7 @@ parts:
        cd smtube && lrelease smtube.pro && qmake DEFINES+="SMTUBE_LIB" && make
        cd ..
        cp smtube/translations/*.qm src/translations/
-       make PREFIX=/usr QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE DEFINES+=USE_SHM DEFINES+=USE_GL_WINDOW DEFINES+=USE_SMTUBE_LIB"
+       make -j$SNAPCRAFT_PARALLEL_BUILD_COUNT PREFIX=/usr QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE DEFINES+=USE_SHM DEFINES+=USE_GL_WINDOW DEFINES+=USE_SMTUBE_LIB"
        make PREFIX=/usr DESTDIR=${SNAPCRAFT_PART_INSTALL} install
        sed -i 's|Icon=smplayer|Icon=${SNAP}/usr/share/icons/hicolor/512x512/apps/smplayer.png|g' $SNAPCRAFT_PART_INSTALL/usr/share/applications/smplayer.desktop
     parse-info: [usr/share/metainfo/smplayer.appdata.xml]
@@ -88,6 +90,7 @@ parts:
       - libglu1-mesa
       - freeglut3
       - libqt5webkit5
+      - qtwayland5
 
   fix-python:
     plugin: nil
