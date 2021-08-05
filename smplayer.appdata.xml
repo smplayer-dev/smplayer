@@ -3,7 +3,7 @@
 <component type="desktop">
   <id>info.smplayer.SMPlayer</id>
 
-  <name>smplayer</name>
+  <name>SMPlayer</name>
   <summary>A great media player</summary>
 
   <metadata_license>CC0-1.0</metadata_license>
@@ -25,9 +25,15 @@
   <categories>
         <category>AudioVideo</category>
         <category>Video</category>
+        <category>Audio</category>
   </categories>
   <url type="homepage">https://www.smplayer.info/</url>
-  <update_contact>https://www.smplayer.info/en/contact</update_contact>
+  <url type="contact">https://www.smplayer.info/contact</url>
+  <url type="translate">https://www.transifex.com/rvm/smplayer/</url>
+  <url type="bugtracker">https://github.com/smplayer-dev/smplayer/issues</url>
+  <url type="donation">https://www.smplayer.info/contribute</url>
+  <developer_name>Ricardo Villalba</developer_name>
+  <icon type="remote" height="512" width="512">https://www.smplayer.info/press/smplayer_icon512.png</icon>
   <screenshots>
     <screenshot type="default">
       <image>https://www.smplayer.info/images/screenshots/mainwindow2.png</image>
@@ -45,5 +51,6 @@
   <content_rating type="oars-1.1"/>
     <releases>
        <release version="{version}" date="{date}"/>
+       <release version="21.1" date="2021-01-06"/>
   </releases>
 </component>
