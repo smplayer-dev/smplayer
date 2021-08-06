@@ -101,6 +101,7 @@ jobs:
                           -appimage --appimage-extract-and-run
     
       - name: Create artifact
+        if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
         with:
           name: smplayer-${{env.VERSION}}-qt${{matrix.config.qt}}
