@@ -43,7 +43,7 @@ apps:
       - mount-observe
       - desktop-legacy
       - dvb
-      - avahi-control
+      #- avahi-control
     slots: [mpris]
 
 parts:
