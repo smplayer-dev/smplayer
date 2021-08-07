@@ -21,11 +21,19 @@ jobs:
           path: smplayer
   
       - name: Create artifact
-        if: github.event_name != 'release'
+        #if: github.event_name != 'release'
+        if: ${{false}}
         uses: actions/upload-artifact@v2
         with:
           name: smplayer-snap
           path: ${{ steps.snapcraft.outputs.snap }}
+
+      - name: Publish
+        uses: snapcore/action-publish@v1
+        with:
+          store_login: ${{ secrets.STORE_LOGIN }}
+          snap: ${{steps.snapcraft.outputs.snap }}
+          release: edge
 
       - name: Upload package to release
         if: github.event_name == 'release'
