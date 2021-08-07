@@ -38,19 +38,22 @@
   <url type="bugtracker">https://github.com/smplayer-dev/smplayer/issues</url>
   <url type="donation">https://www.smplayer.info/contribute</url>
   <developer_name>Ricardo Villalba</developer_name>
-  <icon type="remote" height="512" width="512">https://www.smplayer.info/press/smplayer_icon512.png</icon>
+  <icon type="local" height="512" width="512">/usr/share/icons/hicolor/512x512/apps/smplayer.png</icon>
   <screenshots>
     <screenshot type="default">
-      <image>https://www.smplayer.info/images/screenshots/mainwindow2.png</image>
+      <image>http://www.smplayer.info/appdata/shot1.png</image>
     </screenshot>
     <screenshot>
-      <image>https://www.smplayer.info/images/screenshots/smplayer_skin_vista2.png</image>
+      <image>http://www.smplayer.info/appdata/shot2.png</image>
     </screenshot>
     <screenshot>
-      <image>https://www.smplayer.info/images/screenshots/preferences3.png</image>
+      <image>http://www.smplayer.info/appdata/shot3.png</image>
     </screenshot>
     <screenshot>
-      <image>https://smplayer.info/images/screenshots/smplayer_skin_modern3.png</image>
+      <image>http://www.smplayer.info/appdata/shot4.png</image>
+    </screenshot>
+     <screenshot>
+      <image>http://www.smplayer.info/appdata/shot5.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
