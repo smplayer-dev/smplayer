@@ -15,6 +15,7 @@ layout:
 
 apps:
   smplayer:
+    common-id: info.smplayer.SMPlayer
     command: usr/bin/smplayer
     command-chain:
       - bin/desktop-launch
@@ -43,7 +44,6 @@ apps:
       - mount-observe
       - desktop-legacy
       - dvb
-      #- avahi-control
     slots: [mpris]
 
 parts:
