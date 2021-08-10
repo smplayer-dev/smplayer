@@ -205,6 +205,17 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		}
 	}
 	else
+	if (option_name == "channels") {
+		QString v;
+		switch (value.toInt()) {
+			case 2:
+			case 4:
+			case 6:
+			case 8: v = QString::number(value.toInt());
+		}
+		if (!v.isEmpty()) arg << "-channels" << v;
+	}
+	else
 	if (option_name == "keepaspect" ||
 	    option_name == "dr" || option_name == "double" ||
 	    option_name == "fs" || option_name == "slices" ||

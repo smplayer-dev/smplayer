@@ -330,7 +330,15 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "channels") {
-		arg << "--audio-channels=" + value.toString();
+		QString v;
+		switch (value.toInt()) {
+			case 2: v = "stereo"; break;
+			case 4: v = "4.0"; break;
+			case 6: v = "5.1"; break;
+			case 7: v = "6.1"; break;
+			case 8: v = "7.1"; break;
+		}
+		if (!v.isEmpty()) arg << "--audio-channels=" + v;
 	}
 	else
 	if (option_name == "subfont-text-scale" || option_name == "ass-font-scale") {

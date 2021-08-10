@@ -2431,7 +2431,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Audio channels
 	if (mset.audio_use_channels != 0) {
-		proc->setOption("channels", QString::number(mset.audio_use_channels));
+		proc->setOption("channels", mset.audio_use_channels);
 	}
 
 	if (!pref->use_hwac3) {
