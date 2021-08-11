@@ -46,7 +46,7 @@ jobs:
           bundle: smplayer-${{env.VERSION}}${{matrix.config.tag}}.flatpak
           manifest-path: info.smplayer.SMPlayer.yml
           cache: true
-          cache-key: smplayer-build
+          cache-key: smplayer-build-${{runner.os}}-${{matrix.config.name}}
     
       - name: Upload package to release
         if: github.event_name == 'release'
