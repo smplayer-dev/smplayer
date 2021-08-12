@@ -21,6 +21,7 @@
 #include <QApplication>
 #include <QRegExp>
 #include <QProcess>
+#include <QDebug>
 
 #include "colorutils.h"
 #include "global.h"
@@ -229,7 +230,7 @@ void InfoReaderMplayer::readLine(QByteArray ba) {
 }
 
 bool InfoReaderMplayer::run(QString options) {
-	qDebug("InfoReaderMplayer::run: '%s'", options.toUtf8().data());
+	qDebug() << "InfoReaderMplayer::run:" << options;
 
 	if (proc->state() == QProcess::Running) {
 		qWarning("InfoReaderMplayer::run: process already running");
@@ -237,6 +238,9 @@ bool InfoReaderMplayer::run(QString options) {
 	}
 
 	QStringList args = options.split(" ");
+	args << "-noconfig" << "all";
+
+	qDebug() << "InfoReaderMplayer::run: command:" << mplayerbin + " " + args.join(" ");
 
 	proc->start(mplayerbin, args);
 	if (!proc->waitForStarted()) {

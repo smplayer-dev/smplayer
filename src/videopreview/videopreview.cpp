@@ -347,7 +347,7 @@ bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 	else {
 		#ifdef MPLAYER_SUPPORT
 		// MPlayer
-		args << "-nosound" << "-nocache" << "-noframedrop";
+		args << "-nosound" << "-nocache" << "-noframedrop" << "-noconfig" << "all";
 
 		if (prop.extract_format == PNG) {
 			args << "-vo"
@@ -598,7 +598,7 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	else {
 		#ifdef MPLAYER_SUPPORT
 		// MPlayer
-		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet";
+		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet" << "-noconfig" << "all";
 		if (!prop.dvd_device.isEmpty()) args << "-dvd-device" << prop.dvd_device;
 
 		#ifdef Q_OS_WIN
