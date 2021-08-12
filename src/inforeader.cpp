@@ -21,6 +21,7 @@
 #include "preferences.h"
 #include "playerprocess.h"
 #include "paths.h"
+#include "filehash.h"
 #include <QFileInfo>
 #include <QDateTime>
 #include <QSettings>
@@ -34,7 +35,7 @@
 #include "inforeadermplayer.h"
 #endif
 
-#define INFOREADER_SAVE_VERSION 3
+#define INFOREADER_SAVE_VERSION 4
 
 using namespace Global;
 
@@ -88,11 +89,13 @@ void InfoReader::getInfo() {
 
 	QString version_group = "version_" + QString::number(INFOREADER_SAVE_VERSION);
 
-	QString sname = mplayerbin;
-	sname = sname.replace("/", "_").replace("\\", "_").replace(".", "_").replace(":", "_");
+	//QString sname = mplayerbin;
+	//sname = sname.replace("/", "_").replace("\\", "_").replace(".", "_").replace(":", "_");
+	QString sname = QFileInfo(mplayerbin).fileName();
 	QFileInfo fi(mplayerbin);
 	if (fi.exists()) {
-		sname += "_" + QString::number(fi.size());
+		//sname += "_" + QString::number(fi.size());
+		sname += "_" + FileHash::calculateHash(mplayerbin);
 
 		qDebug() << "InfoReader::getInfo: sname:" << sname;
 
