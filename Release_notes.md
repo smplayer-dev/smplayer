@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [21.8]
  * A version for Mac OS is now available.
  * Better automatic resizing of the main window, trying to prevent
    black borders.
@@ -9,13 +9,14 @@
  * Playlist: try to prevent a one second delay when using play prev/next.
  * Add some predefined speeds (0.25x, 0.5x, 1.25x, 1.5x, 1.75x).
  * Fix audio CD playback with mpv.
+ * Fix audio channels.
 ### Windows
  * The installation of YouTube support is now optional.
  * Using Qt 5.15.2.
 ### Linux
  * Disable power saving on Wayland during playback.
  * Remove KDE from the categories in the *.desktop files.
- * SMPlayer is now also available in appimage, flatpak and snap packages.
+ * SMPlayer is now also available as appimage, flatpak and snap.
 
 ## [21.1] - 2021-01-06
  * Initial support for Wayland.
