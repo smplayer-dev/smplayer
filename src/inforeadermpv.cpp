@@ -109,7 +109,7 @@ void InfoReaderMPV::list() {
 }
 
 QList<QByteArray> InfoReaderMPV::run(QString options) {
-	qDebug("InfoReaderMPV::run: '%s'", options.toUtf8().data());
+	qDebug() << "InfoReaderMPV::run:" << options;
 
 	QList<QByteArray> r;
 
@@ -117,6 +117,9 @@ QList<QByteArray> InfoReaderMPV::run(QString options) {
 	proc.setProcessChannelMode( QProcess::MergedChannels );
 
 	QStringList args = options.split(" ");
+	args << "--no-config";
+
+	qDebug() << "InfoReaderMPV::run: command:" << mplayerbin + " " + args.join(" ");
 
 	proc.start(mplayerbin, args);
 	if (!proc.waitForStarted()) {
