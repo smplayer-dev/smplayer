@@ -1,0 +1,40 @@
+name: Build Archlinux package
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: wachii/archlinux:devel
+      options: --user user
+
+    steps:
+      - name: Fix permissions
+        run: |
+            sudo chown user:user ../*
+      
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk/archlinux
+      
+      - name: Build smplayer
+        run: |
+            cd archlinux
+            ./build_smplayer.sh
+                  
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v2
+        with:
+          name: packages-archlinux
+          path: archlinux/*.pkg.tar.zst
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./archlinux/*.pkg.tar.zst
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
