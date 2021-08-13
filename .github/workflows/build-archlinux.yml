@@ -29,7 +29,7 @@ jobs:
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
         with:
-          name: packages-archlinux
+          name: smplayer-archlinux
           path: archlinux/*.pkg.tar.zst
 
       - name: Upload package to release
