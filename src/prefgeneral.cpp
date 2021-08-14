@@ -325,11 +325,11 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	QString player_path = mplayerPath();
 	#ifdef Q_OS_LINUX
-	if (!QFile::exists(player_path)) {
+	//if (!QFile::exists(player_path)) {
 		QString player_name = QFileInfo(player_path).fileName();
 		QString found_player = Helper::findExecutable(player_name);
 		if (!found_player.isEmpty()) player_path = found_player;
-	}
+	//}
 	#endif
 	qDebug() << "PrefGeneral::getData: player_path:" << player_path;
 
