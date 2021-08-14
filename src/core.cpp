@@ -1616,7 +1616,7 @@ void Core::startMplayer( QString file, double seek ) {
 	QString mplayer_bin = pref->mplayer_bin;
 	QFileInfo fi(mplayer_bin);
 	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-		mplayer_bin = fi.absoluteFilePath();
+		//mplayer_bin = fi.absoluteFilePath();
 	}
 
 #ifdef MPLAYER2_SUPPORT
