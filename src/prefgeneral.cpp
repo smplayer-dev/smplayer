@@ -25,6 +25,8 @@
 #include "paths.h"
 #include "vdpauproperties.h"
 #include "playerid.h"
+#include "helper.h"
+#include <QDebug>
 
 #if USE_ALSA_DEVICES || USE_PULSEAUDIO_DEVICES || USE_XV_ADAPTORS || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
@@ -321,9 +323,19 @@ void PrefGeneral::getData(Preferences * pref) {
 	requires_restart = false;
 	filesettings_method_changed = false;
 
-	if (pref->mplayer_bin != mplayerPath()) {
+	QString player_path = mplayerPath();
+	#ifdef Q_OS_LINUX
+	if (!QFile::exists(player_path)) {
+		QString player_name = QFileInfo(player_path).fileName();
+		QString found_player = Helper::findExecutable(player_name);
+		if (!found_player.isEmpty()) player_path = found_player;
+	}
+	#endif
+	qDebug() << "PrefGeneral::getData: player_path:" << player_path;
+
+	if (pref->mplayer_bin != player_path) {
 		requires_restart = true;
-		pref->mplayer_bin = mplayerPath();
+		pref->mplayer_bin = player_path;
 
 		qDebug("PrefGeneral::getData: mplayer binary has changed, getting version number");
 		// Forces to get info from mplayer to update version number
