@@ -74,11 +74,13 @@ void InfoReader::setPlayerBin(const QString & bin) {
 		// mplayerbin = fi.absoluteFilePath();
 	}
 #ifdef Q_OS_LINUX
+	/*
 	else {
 		QString fplayer = Helper::findExecutable(mplayerbin);
 		qDebug() << "InfoReader::setPlayerBin: fplayer:" << fplayer;
 		if (!fplayer.isEmpty()) mplayerbin = fplayer;
 	}
+	*/
 #endif
 	qDebug() << "InfoReader::setPlayerBin: mplayerbin:" << mplayerbin;
 }
