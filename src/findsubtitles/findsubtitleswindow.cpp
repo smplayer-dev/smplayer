@@ -568,7 +568,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	if (!file_chooser->text().isEmpty() && QFile::exists(file_chooser->text())) {
 		QFileInfo fi(file_chooser->text());
 		QString output_name = fi.completeBaseName();
-		if (include_lang_on_filename) output_name += "_"+ lang;
+		if (include_lang_on_filename) output_name += "."+ lang;
 		output_name += "." + extension;
 
 		output_file = fi.absolutePath() + "/" + output_name;
