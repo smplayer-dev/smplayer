@@ -17,6 +17,9 @@ jobs:
         run: |
             sudo chown user:user ../*
       
+      - name: Update
+        run: pacman -Sy
+
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk/archlinux
       
