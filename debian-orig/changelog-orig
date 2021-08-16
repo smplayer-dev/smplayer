@@ -1,3 +1,16 @@
+smplayer (21.8.0) xenial; urgency=medium
+
+  * Better automatic resizing of the main window, trying to prevent black borders.
+  * Fix loading YouTube playlists.
+  * Add an option to rotate the video by 180 degrees.
+  * Playlist: try to prevent a one second delay when using play prev/next.
+  * Add some predefined speeds (0.25x, 0.5x, 1.25x, 1.5x, 1.75x).
+  * Fix audio CD playback with mpv.
+  * Fix audio channels.
+  * Disable power saving on Wayland during playback.
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 16 Aug 2021 13:49:13 +0200
+
 smplayer (21.1.0) xenial; urgency=low
 
   * Initial support for Wayland.
