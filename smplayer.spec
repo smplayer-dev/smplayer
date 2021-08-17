@@ -27,6 +27,7 @@ BuildRequires:  qt5-qtbase-private-devel
 %endif
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
+BuildRequires:  libXext-devel
 BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5DBus)
@@ -120,7 +121,8 @@ update-desktop-database &> /dev/null || :
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
 %{_bindir}/simple_web_server
-%{_datadir}/metainfo/%{name}.appdata.xml
+%dir %{_datadir}/metainfo
+%{_datadir}/metainfo/%{name}.appdata.xml 
 
 %changelog
 * Thu Feb 25 2016 Ricardo Villalba <ricardo@smplayer.info> - 16.1.0
