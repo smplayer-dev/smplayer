@@ -70,8 +70,8 @@ protected:
     
 public slots:
 	//! Generic open, with autodetection of type
-	void open(QString file, int seek=-1); 
-	void openFile(QString filename, int seek=-1);
+	void open(QString file, int seek=-1, int end=-1);
+	void openFile(QString filename, int seek=-1, int end=-1);
 	void openStream(QString name, QStringList params = QStringList());
 	/*
 	void openDVD( bool from_folder, QString directory = "");
@@ -475,12 +475,12 @@ protected slots:
 #endif
 
 protected:
-	void playNewFile(QString file, int seek=-1);
+	void playNewFile(QString file, int seek=-1, int end=-1);
 	void restartPlay();
-	void initPlaying(int seek=-1);
+	void initPlaying(int seek=-1, int end=-1);
 	void newMediaPlaying();
 
-    void startMplayer(QString file, double seek = -1 );
+    void startMplayer(QString file, double seek = -1, double end = -1 );
 	void stopMplayer();
 
 	void saveMediaInfo();
