@@ -1,4 +1,4 @@
-name: Build flatpak package
+name: Build flatpak packages
 
 on:
   workflow_dispatch:
@@ -11,12 +11,12 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { name: 'normal', tag: '-noopengl', options: ''}
-          - { name: 'opengl', tag: '', options: 'DEFINES+=USE_GL_WINDOW' }
+          - { sdk: '5.15', image: 'wachii/fedora-flatpak-kde:5.15'}
+          - { sdk: '5.12', image: 'wachii/fedora-flatpak-kde:5.12' }
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     container:
-      image: bilelmoussaoui/flatpak-github-actions:kde-5.15
+      image: ${{matrix.config.image}}
       options: --privileged
 
     steps:
@@ -37,23 +37,24 @@ jobs:
            repository: 'smplayer-dev/flatpak-builds'
 
       - name: Patch
-        if: ${{matrix.config.name == 'opengl'}}
-        run: sed -e 's/NO_DEBUG_ON_CONSOLE/NO_DEBUG_ON_CONSOLE ${{matrix.config.options}}/' -i info.smplayer.SMPlayer.yml
-        
+        if: ${{matrix.config.sdk == '5.15'}}
+        working-directory: '5.15'
+        run: sed -e 's/NO_DEBUG_ON_CONSOLE/NO_DEBUG_ON_CONSOLE DEFINES+=USE_GL_WINDOW/' -i info.smplayer.SMPlayer.yml
+
       - name: Build
         uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
         with:
-          bundle: smplayer-${{env.VERSION}}${{matrix.config.tag}}.flatpak
-          manifest-path: info.smplayer.SMPlayer.yml
+          bundle: smplayer-${{env.VERSION}}-${{matrix.config.sdk}}.flatpak
+          manifest-path: ${{matrix.config.sdk}}/info.smplayer.SMPlayer.yml
           cache: true
-          cache-key: smplayer-build-${{runner.os}}-${{matrix.config.name}}
+          cache-key: smplayer-build-${{runner.os}}-${{matrix.config.sdk}}
     
       - name: Upload package to release
         if: github.event_name == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./smplayer-${{env.VERSION}}${{matrix.config.tag}}.flatpak
+          file: ./${{matrix.config.sdk}}/smplayer-*.flatpak
           tag: ${{ github.ref }}
           overwrite: true
           file_glob: true
