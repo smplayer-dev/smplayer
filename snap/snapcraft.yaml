@@ -101,7 +101,7 @@ parts:
        - usr/bin/python
 
   mpv:
-    source: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-mod_0.33.1-1.focal_amd64.deb
+    source: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-65/mpv-mod_0.33.1-1.focal_amd64.deb
     plugin: dump
     source-type: deb
     after:
@@ -191,7 +191,7 @@ parts:
       - libpixman-1-0
 
   mplayer:
-    source: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-mod_1.4-1.focal_amd64.deb
+    source: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-84/mplayer-mod_1.4-1.focal_amd64.deb
     plugin: dump
     source-type: deb
     after:
