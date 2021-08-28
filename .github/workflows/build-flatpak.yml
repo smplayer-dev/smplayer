@@ -44,7 +44,7 @@ jobs:
       - name: Build
         uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
         with:
-          bundle: smplayer-${{env.VERSION}}-${{matrix.config.sdk}}.flatpak
+          bundle: smplayer-${{env.VERSION}}-sdk${{matrix.config.sdk}}.flatpak
           manifest-path: ${{matrix.config.sdk}}/info.smplayer.SMPlayer.yml
           cache: true
           cache-key: smplayer-build-${{runner.os}}-${{matrix.config.sdk}}
