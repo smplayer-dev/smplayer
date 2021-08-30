@@ -58,14 +58,11 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 		QString d = QDir::toNativeSeparators(dir);
 		if (MplayerVersion::isMplayerAtLeast(36848)) {
 			f += "="+ d + "/shot";
+			arg << "-vf-add" << f;
 		} else {
-			// Keep compatibility with older versions
-			qDebug() << "MplayerProcess::enableScreenshots: this version of mplayer is very old";
-			qDebug() << "MplayerProcess::enableScreenshots: changing working directory to" << d;
-			setWorkingDirectory(d);
+			qDebug() << "MplayerProcess::enableScreenshots: this version of mplayer is very old, screenshots disabled";
 		}
 	}
-	arg << "-vf-add" << f;
 }
 
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {

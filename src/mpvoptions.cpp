@@ -212,8 +212,6 @@ void MPVProcess::enableScreenshots(const QString & dir, const QString & templ, c
 		QString d = QDir::toNativeSeparators(dir);
 		if (!isOptionAvailable("--screenshot-directory")) {
 			qDebug() << "MPVProcess::enableScreenshots: the option --screenshot-directory is not available in this version of mpv";
-			qDebug() << "MPVProcess::enableScreenshots: changing working directory to" << d;
-			setWorkingDirectory(d);
 		} else {
 			arg << "--screenshot-directory=" + d;
 		}
