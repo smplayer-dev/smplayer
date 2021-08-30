@@ -103,11 +103,13 @@ void MyProcess::start() {
 	remaining_output.clear();
 
 	QString bin = program;
+	/*
 	QFileInfo fi(program);
 	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
 		bin = fi.absoluteFilePath();
 	}
 	qDebug() << "MyProcess::start: executable:" << bin;
+	*/
 
 	QProcess::start(bin, arg);
 
