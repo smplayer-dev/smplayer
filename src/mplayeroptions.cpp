@@ -56,12 +56,8 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 	QString f = "screenshot";
 	if (!dir.isEmpty()) {
 		QString d = QDir::toNativeSeparators(dir);
-		if (MplayerVersion::isMplayerAtLeast(36848)) {
-			f += "="+ d + "/shot";
-			arg << "-vf-add" << f;
-		} else {
-			qDebug() << "MplayerProcess::enableScreenshots: this version of mplayer is very old, screenshots disabled";
-		}
+		f += "="+ d + "/shot";
+		arg << "-vf-add" << f;
 	}
 }
 
