@@ -483,7 +483,9 @@ void Playlist::createTable() {
 	listView->setDragDropMode(QAbstractItemView::InternalMove);
 #endif
 
-	connect(listView, SIGNAL(activated(const QModelIndex &)),
+	// The activated signal causes problems in KDE plasma.
+	// Replaced with doubleClicked.
+	connect(listView, SIGNAL(doubleClicked(const QModelIndex &)),
             this, SLOT(itemActivated(const QModelIndex &)) );
 
 	setFilenameColumnVisible(false);
