@@ -28,6 +28,7 @@
 #endif
 
 class QEvent;
+class QProxyStyle;
 
 class MyApplication
 #ifdef SINGLE_INSTANCE
@@ -54,6 +55,13 @@ public:
 	#ifdef Q_OS_WIN
 	QStringList winArguments();
 	#endif
+
+#ifdef Q_OS_LINUX
+	void changeStyle(const QString & style);
+
+protected:
+	QProxyStyle * proxy_style;
+#endif
 
 #if QT_VERSION >= 0x050000
 protected slots:

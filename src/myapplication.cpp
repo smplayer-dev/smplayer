@@ -28,6 +28,23 @@
 #include <windows.h>
 #endif
 
+#ifdef Q_OS_LINUX
+#include <QProxyStyle>
+#include <QStyle>
+#include <QStyleFactory>
+
+class MyProxyStyle : public QProxyStyle {
+  public:
+    int styleHint(StyleHint hint, const QStyleOption *option = 0,
+                  const QWidget *widget = 0, QStyleHintReturn *returnData = 0) const
+    {
+        if (hint == QStyle:: SH_ItemView_ActivateItemOnSingleClick)
+            return 0;
+        return QProxyStyle::styleHint(hint, option, widget, returnData);
+    }
+};
+#endif
+
 #ifdef SINGLE_INSTANCE
 MyApplication::MyApplication (const QString & appId, int & argc, char ** argv)
 	: QtSingleApplication(appId, argc, argv)
@@ -43,7 +60,19 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 	connect(this, SIGNAL(commitDataRequest(QSessionManager &)),
             this, SLOT(commitData(QSessionManager &)), Qt::DirectConnection);
 #endif
+
+#ifdef Q_OS_LINUX
+	proxy_style = new MyProxyStyle;
+	setStyle(proxy_style);
+#endif
 };
+
+#ifdef Q_OS_LINUX
+void MyApplication::changeStyle(const QString & style) {
+	QStyle * s = QStyleFactory::create(style);
+	if (s) proxy_style->setBaseStyle(s);
+}
+#endif
 
 void MyApplication::commitData(QSessionManager & manager) {
 	manager.release();

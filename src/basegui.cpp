@@ -122,6 +122,10 @@
 #include <QSysInfo>
 #endif
 
+#ifdef Q_OS_LINUX
+#include "myapplication.h"
+#endif
+
 #ifdef UPDATE_CHECKER
 #include "updatechecker.h"
 #endif
@@ -5863,7 +5867,13 @@ void BaseGui::applyStyles() {
 	if (style.isEmpty()) style = default_style;
 	qDebug() << "BaseGui::applyStyles: style:" << style;
 	if (!style.isEmpty()) {
+		#ifdef Q_OS_LINUX
+		//MyApplication * app = dynamic_cast<MyApplication *>(qApp);
+		MyApplication * app = (MyApplication*) qApp;
+		app->changeStyle(style);
+		#else
 		qApp->setStyle(style);
+		#endif
 		#ifdef Q_OS_WIN
 		qApp->setPalette(qApp->style()->standardPalette());
 		#endif
