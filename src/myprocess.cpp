@@ -98,10 +98,18 @@ QStringList MyProcess::arguments() {
 
 void MyProcess::start() {
 	qDebug() << "MyProcess::start: environment path:" << processEnvironment().value("PATH");
+	qDebug() << "MyProcess::start: current directory:" << QDir::currentPath();
 
 	remaining_output.clear();
 
-	QProcess::start(program, arg);
+	QString bin = program;
+	QFileInfo fi(program);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		bin = fi.absoluteFilePath();
+	}
+	qDebug() << "MyProcess::start: executable:" << bin;
+
+	QProcess::start(bin, arg);
 
 #if USE_TEMP_FILE
 	//bool r = temp_file.open(QIODevice::ReadOnly);
