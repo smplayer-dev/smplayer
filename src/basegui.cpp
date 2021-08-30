@@ -5868,8 +5868,7 @@ void BaseGui::applyStyles() {
 	qDebug() << "BaseGui::applyStyles: style:" << style;
 	if (!style.isEmpty()) {
 		#ifdef Q_OS_LINUX
-		//MyApplication * app = dynamic_cast<MyApplication *>(qApp);
-		MyApplication * app = (MyApplication*) qApp;
+		MyApplication * app = static_cast<MyApplication *>(qApp);
 		app->changeStyle(style);
 		#else
 		qApp->setStyle(style);

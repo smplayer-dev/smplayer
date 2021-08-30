@@ -57,7 +57,7 @@ public:
 	#endif
 
 #ifdef Q_OS_LINUX
-	void changeStyle(const QString & style);
+	void changeStyle(const QString & style_name);
 
 protected:
 	QProxyStyle * proxy_style;

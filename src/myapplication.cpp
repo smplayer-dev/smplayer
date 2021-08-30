@@ -68,9 +68,9 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 };
 
 #ifdef Q_OS_LINUX
-void MyApplication::changeStyle(const QString & style) {
-	QStyle * s = QStyleFactory::create(style);
-	if (s) proxy_style->setBaseStyle(s);
+void MyApplication::changeStyle(const QString & style_name) {
+	QStyle * style = QStyleFactory::create(style_name);
+	if (style) proxy_style->setBaseStyle(style);
 }
 #endif
 
