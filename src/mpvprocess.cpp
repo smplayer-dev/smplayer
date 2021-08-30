@@ -197,6 +197,7 @@ void MPVProcess::initializeRX() {
 	rx_playing.setPattern("^Playing:.*|^\\[ytdl_hook\\].*");
 	rx_generic.setPattern("^([A-Z_]+)=(.*)");
 	rx_stream_title.setPattern("icy-title: (.*)");
+	rx_stream_title2.setPattern("^ Title: (.*)");
 	rx_debug.setPattern("^(INFO|METADATA)_.*=\\$.*");
 
 	#if 0
@@ -490,6 +491,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 		if (rx_stream_title.indexIn(line) > -1) {
 			QString s = rx_stream_title.cap(1);
+			qDebug() << "MPVProcess::parseLine: stream_title:" << s;
+			md.stream_title = s;
+			emit receivedStreamTitle(s);
+		}
+		else
+		if (rx_stream_title2.indexIn(line) > -1) {
+			QString s = rx_stream_title2.cap(1);
 			qDebug() << "MPVProcess::parseLine: stream_title:" << s;
 			md.stream_title = s;
 			emit receivedStreamTitle(s);
