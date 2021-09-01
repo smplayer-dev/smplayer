@@ -1904,7 +1904,7 @@ void BaseGui::retranslateStrings() {
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
 #ifdef YT_CODEDOWNLOADER
-	#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+	#if defined(Q_OS_WIN) && !defined(PORTABLE_APP) && !defined(YT_BIN_ON_CONFIG_DIR)
 	updateYTAct->change( Images::icon("update_youtube"), tr("Update &YouTube support") );
 	#else
 	updateYTAct->change( Images::icon("update_youtube"), tr("Install / Update &YouTube support") );
