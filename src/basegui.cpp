@@ -5119,7 +5119,11 @@ void BaseGui::checkReminder() {
 
 #ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdate() {
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	CodeDownloader::askAndDownload(this, CodeDownloader::NoError, Paths::configPath());
+	#else
 	CodeDownloader::askAndDownload(this);
+	#endif
 }
 
 void BaseGui::YTFailedToStart() {

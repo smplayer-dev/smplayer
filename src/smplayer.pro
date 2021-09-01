@@ -440,6 +440,7 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 # Youtube support
 contains( DEFINES, YOUTUBE_SUPPORT ) {
 	DEFINES += YT_CODEDOWNLOADER
+	DEFINES += YT_BIN_ON_CONFIG_DIR
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 

@@ -157,7 +157,7 @@ void CodeDownloader::reportError(int, QString error_str) {
 	QMessageBox::warning(parent_widget, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
 }
 
-void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e) {
+void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QString & download_path) {
 	QString message;
 
 	switch (e) {
@@ -171,7 +171,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e) {
 		case NoError: ;
 	}
 
-#if defined(Q_OS_WIN) && !defined(PORTABLE_APP)
+#if defined(Q_OS_WIN) && !defined(PORTABLE_APP) && !defined(YT_BIN_ON_CONFIG_DIR)
 	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("This component needs to be updated frequently.") +" "+
 				tr("You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.");
@@ -180,16 +180,14 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e) {
 #else
 	#ifdef Q_OS_WIN
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
-	QString output_dir = "mpv/";
+	QString output_dir = download_path;
+	if (output_dir.isEmpty()) output_dir = "mpv/";
 	QString output = output_dir + "youtube-dl.exe";
 	#else
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
 
-	QString user_home = QDir::homePath();
-
-	//user_home = "/tmp";
-
-	QString output_dir = user_home + "/bin";
+	QString output_dir = download_path;
+	if (output_dir.isEmpty()) output_dir = QDir::homePath() + "/bin";
 	QString output_file = "youtube-dl";
 
 	QDir d;
