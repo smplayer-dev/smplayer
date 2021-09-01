@@ -440,7 +440,6 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 # Youtube support
 contains( DEFINES, YOUTUBE_SUPPORT ) {
 	DEFINES += YT_CODEDOWNLOADER
-	DEFINES += YT_BIN_ON_CONFIG_DIR
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 
@@ -459,6 +458,12 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/qt-json/json.h
 		SOURCES += youtube/qt-json/json.cpp
 	}
+    
+     win32 {
+        !contains( DEFINES, PORTABLE_APP ) {
+            DEFINES += YT_BIN_ON_CONFIG_DIR
+        }
+    }
 }
 
 # defaultgui
