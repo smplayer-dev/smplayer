@@ -181,8 +181,8 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 	#ifdef Q_OS_WIN
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
 	QString output_dir = download_path;
-	if (output_dir.isEmpty()) output_dir = "mpv/";
-	QString output = output_dir + "youtube-dl.exe";
+	if (output_dir.isEmpty()) output_dir = "mpv";
+	QString output = output_dir + "/youtube-dl.exe";
 	#else
 	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
 
