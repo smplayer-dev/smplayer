@@ -5119,19 +5119,27 @@ void BaseGui::checkReminder() {
 
 #ifdef YT_CODEDOWNLOADER
 void BaseGui::YTUpdate() {
+	QString path;
 	#ifdef YT_BIN_ON_CONFIG_DIR
-	CodeDownloader::askAndDownload(this, CodeDownloader::NoError, Paths::configPath());
-	#else
-	CodeDownloader::askAndDownload(this);
+	path = Paths::configPath();
 	#endif
+	CodeDownloader::askAndDownload(this, CodeDownloader::NoError, path);
 }
 
 void BaseGui::YTFailedToStart() {
-	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun);
+	QString path;
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	path = Paths::configPath();
+	#endif
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path);
 }
 
 void BaseGui::YTUrlNotFound() {
-	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound);
+	QString path;
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	path = Paths::configPath();
+	#endif
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path);
 }
 
 #ifdef Q_OS_WIN
