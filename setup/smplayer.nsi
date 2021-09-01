@@ -144,7 +144,7 @@
 !ifndef WIN64
   Var Restore_Codecs
 !endif
-  Var Restore_YTDL
+  ;Var Restore_YTDL
   Var Restore_SMTube
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
@@ -154,7 +154,7 @@
   Var Qt_Core_Installed_Version
   Var Qt_WebKit_Installed_Version
 
-  Var YTDL_Exit_Code
+  ;Var YTDL_Exit_Code
 
   Var MMEngineFlags
 
@@ -466,6 +466,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
 SectionGroupEnd
 
+/*
 ;--------------------------------
 ;Youtube-dl
 ${MementoSection} $(Section_YTDL) SecYTDL
@@ -503,6 +504,7 @@ ${MementoSection} $(Section_YTDL) SecYTDL
   skip_ytdl:
 
 ${MementoSectionEnd}
+*/
 
 ;--------------------------------
 ;Icon themes
@@ -642,7 +644,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} $(Section_MPV_Desc)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecYTDL} $(Section_YTDL_Desc)
+  ;!insertmacro MUI_DESCRIPTION_TEXT ${SecYTDL} $(Section_YTDL_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
@@ -990,6 +992,7 @@ Function Backup_Codecs
 FunctionEnd
 !endif
 
+/*
 Function Backup_YTDL
 
   ${IfNot} ${SectionIsSelected} ${SecMPV}
@@ -1005,6 +1008,7 @@ Function Backup_YTDL
     StrCpy $Restore_YTDL 0
 
 FunctionEnd
+*/
 
 Function Backup_SMTube
 
