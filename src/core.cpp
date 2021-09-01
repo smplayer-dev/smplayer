@@ -3830,8 +3830,12 @@ void Core::gotAudioBitrate(int b) {
 
 void Core::gotDemuxRotation(int r) {
 	qDebug("Core::gotDemuxRotation: %d", r);
-	if (proc->isMPV() && r == 90 && mset.rotate == MediaSettings::NoRotate) {
-		proc->changeVF("rotate", true,  "1");
+	if (proc->isMPV() && mset.rotate == MediaSettings::NoRotate) {
+		switch(r) {
+			case 90: proc->changeVF("rotate", true,  "1"); break;
+			case 270: proc->changeVF("rotate", true,  "2"); break;
+			case 180: proc->changeVF("rotate", true,  "4"); break;
+		}
 	}
 }
 
