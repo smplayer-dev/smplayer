@@ -634,7 +634,7 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 		if ((playlist_screen == mainwindow_screen) /* || 
 	        (!fullscreen_playlist_was_floating) */ ) 
 		{
-			#if QT_VERSION < 0x050000 || !defined(Q_OS_LINUX)
+			#if QT_VERSION < 0x050000 || !defined(OS_UNIX_NOT_MAC)
 			playlistdock->setFloating(true);
 			#endif
 			playlistdock->hide();
@@ -1045,7 +1045,7 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		//is_primary_screen = false;
 		if (is_primary_screen) {
 			mplayerwindow->showNormal();
-			#if QT_VERSION >= 0x050000 && defined(Q_OS_LINUX)
+			#if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
 			qApp->processEvents();
 			#endif
 			detachVideo(false);
@@ -1093,7 +1093,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 
 			mplayerwindow->setWindowTitle(QString());
 			mplayerwindow->setParent(panel);
-			#if QT_VERSION >= 0x050000 && defined(Q_OS_LINUX)
+			#if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
 			qApp->processEvents();
 			#endif
 			panel->layout()->addWidget(mplayerwindow);

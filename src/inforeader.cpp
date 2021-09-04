@@ -73,7 +73,7 @@ void InfoReader::setPlayerBin(const QString & bin) {
 	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
 		// mplayerbin = fi.absoluteFilePath();
 	}
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	/*
 	else {
 		QString fplayer = Helper::findExecutable(mplayerbin);

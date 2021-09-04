@@ -124,7 +124,7 @@
 
 
 // Adds or not the "Repaint the background of the video window" option.
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 #define REPAINT_BACKGROUND_OPTION 1
 #endif
 

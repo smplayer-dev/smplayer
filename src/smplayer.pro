@@ -717,6 +717,10 @@ mac {
 	QMAKE_BUNDLE_DATA += translations shortcuts
 }
 
+unix:!macx {
+	DEFINES += OS_UNIX_NOT_MAC
+}
+
 TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
                translations/smplayer_de.ts \
                translations/smplayer_sk.ts translations/smplayer_it.ts \

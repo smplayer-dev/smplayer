@@ -127,7 +127,7 @@ protected:
 	void saveSettings();
 	void loadSettings();
 
-#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 	bool isOptionAvailableinMPV(const QString & option);
 #endif
 

@@ -21,7 +21,7 @@
 #ifdef Q_OS_WIN
 #include "winscreensaver.h"
 #endif
-#if defined(Q_OS_LINUX) || defined(Q_OS_FREEBSD)
+#ifdef OS_UNIX_NOT_MAC
 #include "powersaving.h"
 #endif
 #ifdef Q_OS_MACX

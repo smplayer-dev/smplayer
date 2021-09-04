@@ -294,7 +294,7 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 bool VideoPreview::isOptionAvailableinMPV(const QString & option) {
 	static QStringList option_list;
 	static QString executable;
@@ -315,7 +315,7 @@ bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
 		#ifdef MPV_SUPPORT
 		bool use_new_options = true;
-		#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+		#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 		if (!isOptionAvailableinMPV("--vo-image-format")) use_new_options = false;
 		#endif
 

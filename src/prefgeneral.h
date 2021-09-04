@@ -197,7 +197,7 @@ protected slots:
 	void vo_combo_changed(int);
 	void ao_combo_changed(int);
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	void on_vdpau_button_clicked();
 #endif
 
@@ -228,7 +228,7 @@ protected:
 private:
 	bool filesettings_method_changed;
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	struct Preferences::VDPAU_settings vdpau;
 #endif
 

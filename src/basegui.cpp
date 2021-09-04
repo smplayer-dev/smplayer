@@ -122,7 +122,7 @@
 #include <QSysInfo>
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 #include "myapplication.h"
 #endif
 
@@ -216,7 +216,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	qApp->setStyleSheet("");
 	default_style = qApp->style()->objectName();
 
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	// Some controls aren't displayed correctly with the adwaita style
 	// so try to prevent to use it as the default style
 	if (default_style.toLower() == "adwaita") default_style = "gtk+";
@@ -1626,7 +1626,7 @@ void BaseGui::enableActionsOnPlaying() {
 	screenGroup->setActionsEnabled(pref->vo.startsWith(OVERLAY_VO));
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	// Disable video filters if using vdpau
 	if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 		/*
@@ -5879,7 +5879,7 @@ void BaseGui::applyStyles() {
 	if (style.isEmpty()) style = default_style;
 	qDebug() << "BaseGui::applyStyles: style:" << style;
 	if (!style.isEmpty()) {
-		#ifdef Q_OS_LINUX
+		#ifdef OS_UNIX_NOT_MAC
 		MyApplication * app = static_cast<MyApplication *>(qApp);
 		app->changeStyle(style);
 		#else

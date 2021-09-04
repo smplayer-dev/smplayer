@@ -1655,7 +1655,7 @@ void Core::startMplayer( QString file, double seek ) {
 	else
 #endif
 	{
-		#ifdef Q_OS_LINUX
+		#ifdef OS_UNIX_NOT_MAC
 		/* if (pref->vo.startsWith("x11")) { */ // My card doesn't support vdpau, I use x11 to test
 		if (pref->vo.startsWith("vdpau")) {
 			QString c;
@@ -1669,14 +1669,13 @@ void Core::startMplayer( QString file, double seek ) {
 				proc->setOption("vc", c);
 			}
 		}
-		else {
+		else
 		#endif
+		{
 			if (pref->coreavc) {
 				proc->setOption("vc", "coreserve,");
 			}
-		#ifdef Q_OS_LINUX
 		}
-		#endif
 	}
 
 	if (pref->use_hwac3) {
@@ -1746,7 +1745,7 @@ void Core::startMplayer( QString file, double seek ) {
 		#endif // Q_OS_MACX
 	}
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	// If using Wayland
 	if (pref->wayland_workarounds && qgetenv("XDG_SESSION_TYPE") != "x11") {
 		// Trying to prevent the video to be outside the application window
@@ -2238,7 +2237,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifndef Q_OS_WIN
 	if (proc->isMPlayer()) {
-		#ifdef Q_OS_LINUX
+		#ifdef OS_UNIX_NOT_MAC
 		if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 			qDebug("Core::startMplayer: using vdpau, video filters are ignored");
 			goto end_video_filters;

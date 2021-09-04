@@ -56,7 +56,7 @@ public:
 	QStringList winArguments();
 	#endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	void changeStyle(const QString & style_name);
 
 protected:

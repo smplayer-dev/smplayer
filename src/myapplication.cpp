@@ -28,7 +28,7 @@
 #include <windows.h>
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 #include <QProxyStyle>
 #include <QStyle>
 #include <QStyleFactory>
@@ -61,13 +61,13 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
             this, SLOT(commitData(QSessionManager &)), Qt::DirectConnection);
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	proxy_style = new MyProxyStyle;
 	setStyle(proxy_style);
 #endif
 };
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 void MyApplication::changeStyle(const QString & style_name) {
 	QStyle * style = QStyleFactory::create(style_name);
 	if (style) proxy_style->setBaseStyle(style);

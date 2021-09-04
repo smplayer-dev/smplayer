@@ -93,7 +93,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	screensaver_group->hide();
 #endif
 
-#ifndef Q_OS_LINUX
+#ifndef OS_UNIX_NOT_MAC
 	wayland_check->hide();
 	vdpau_button->hide();
 #endif
@@ -300,12 +300,12 @@ void PrefGeneral::setData(Preferences * pref) {
 	#ifdef SCREENSAVER_OFF
 	setDisableScreensaver( pref->disable_screensaver );
 	#endif
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	wayland_check->setChecked(pref->wayland_workarounds);
 	#endif
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	vdpau = pref->vdpau;
 #endif
 
@@ -324,7 +324,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	filesettings_method_changed = false;
 
 	QString player_path = mplayerPath();
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	if (player_path == PLAYER_COMBO_MPLAYER_PATH || player_path == PLAYER_COMBO_MPV_PATH || !QFile::exists(player_path)) {
 		QString player_name = QFileInfo(player_path).fileName();
 		QString found_player = Helper::findExecutable(player_name);
@@ -425,7 +425,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	#ifdef SCREENSAVER_OFF
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 	#endif
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	if (pref->wayland_workarounds != wayland_check->isChecked()) {
 		requires_restart = true;
 		pref->wayland_workarounds = wayland_check->isChecked();
@@ -433,7 +433,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	#endif
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	pref->vdpau = vdpau;
 #endif
 
@@ -983,7 +983,7 @@ void PrefGeneral::player_combo_changed(int idx) {
 		mplayerbin_edit->setVisible(false);
 	}
 
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	wayland_check->setVisible(mplayerPath().contains("mpv"));
 	#endif
 }
@@ -995,7 +995,7 @@ void PrefGeneral::vo_combo_changed(int idx) {
 	vo_user_defined_edit->setVisible(visible);
 	vo_user_defined_edit->setFocus();
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau" && mplayerPath().contains("mplayer"));
 	vdpau_button->setVisible(vdpau_button_visible);
 #endif
@@ -1008,7 +1008,7 @@ void PrefGeneral::ao_combo_changed(int idx) {
 	ao_user_defined_edit->setFocus();
 }
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 void PrefGeneral::on_vdpau_button_clicked() {
 	qDebug("PrefGeneral::on_vdpau_button_clicked");
 
@@ -1126,7 +1126,7 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(vo_combo, tr("Video output driver"),
 		tr("Select the video output driver."));
 
-#ifdef Q_OS_LINUX
+#ifdef OS_UNIX_NOT_MAC
 	/*
 	setWhatsThis(vdpau_filters_check, tr("Disable video filters when using vdpau"),
 		tr("Usually video filters won't work when using vdpau as video output "

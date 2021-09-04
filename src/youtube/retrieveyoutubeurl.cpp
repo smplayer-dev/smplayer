@@ -228,7 +228,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 
 	QString app_bin = absoluteFilePath(ytdlBin());
 
-	#ifdef Q_OS_LINUX
+	#if defined(Q_OS_UNIX) && !defined(Q_OS_MACX)
 	QString python_bin = findExecutable("python3");
 	if (python_bin.isEmpty()) python_bin = findExecutable("python2");
 	if (!python_bin.isEmpty()) {

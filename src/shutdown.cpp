@@ -19,7 +19,7 @@
 #include "shutdown.h"
 #include <QProcess>
 
-#ifdef Q_OS_LINUX
+#ifdef Q_OS_UNIX
 #include <QtDBus>
 #include <QDebug>
 #endif
@@ -29,7 +29,7 @@ void Shutdown::shutdown() {
 	QProcess::startDetached("shutdown", QStringList() << "-s" << "-f" << "-t" << "10");
 #endif
 
-#ifdef Q_OS_LINUX
+#ifdef Q_OS_UNIX
 	bool works = false;
 
 	QDBusMessage response;
