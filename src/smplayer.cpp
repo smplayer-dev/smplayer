@@ -616,7 +616,11 @@ void SMPlayer::showInfo() {
 #ifdef Q_OS_MACX
            .arg("Mac OS")
 #else
+#ifdef Q_OS_FREEBSD
+           .arg("FreeBSD")
+#else
            .arg("Another OS")
+#endif
 #endif
 #endif
 #endif
