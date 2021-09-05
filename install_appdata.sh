@@ -2,6 +2,5 @@
 install -m 644 smplayer.appdata.xml $1
 
 ./get_version.sh
-sed -i -e "s/{version}/`cat version`/" $1
-sed -i -e "s/{date}/`date +%Y-%m-%d`/" $1
-
+sed -e "s/{version}/`cat version`/" -i '' $1
+sed -e "s/{date}/`date +%Y-%m-%d`/" -i '' $1
