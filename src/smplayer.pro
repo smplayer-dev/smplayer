@@ -44,7 +44,7 @@ DEFINES += MPLAYER_SUPPORT
 
 # Whether to include support for the obsolete mplayer2 or not
 # (requires MPLAYER_SUPPORT)
-DEFINES += MPLAYER2_SUPPORT
+#DEFINES += MPLAYER2_SUPPORT
 
 # OBSOLETE:
 #DEFINES += SHARE_ACTIONS
@@ -458,12 +458,12 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/qt-json/json.h
 		SOURCES += youtube/qt-json/json.cpp
 	}
-    
-     win32 {
-        !contains( DEFINES, PORTABLE_APP ) {
-            DEFINES += YT_BIN_ON_CONFIG_DIR
-        }
-    }
+
+	win32 {
+		!contains( DEFINES, PORTABLE_APP ) {
+			DEFINES += YT_BIN_ON_CONFIG_DIR
+		}
+	}
 }
 
 # defaultgui
