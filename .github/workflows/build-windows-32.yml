@@ -1,0 +1,25 @@
+name: Build Windows 32-bit
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v2
+        with:
+          version: 5.6
+          arch: win32_mingw49
+
+      - name: Build smplayer
+        run: |
+            .\getrev.cmd
+            cd src
+            lrelease smplayer.pro
+            qmake
+            mingw32-make -j4
