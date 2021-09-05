@@ -5,7 +5,7 @@ echo Compiling web server
 cd webserver && make
 cd ..
 
-SM_DEFINES="NO_DEBUG_ON_CONSOLE USE_SHM USE_GL_WINDOW"
+SM_DEFINES="USE_SHM USE_GL_WINDOW"
 
 if [ -n "$NO_MPLAYER" ]; then
   SM_DEFINES="${SM_DEFINES} NO_MPLAYER"
@@ -18,7 +18,7 @@ if [ -n "$USE_SMTUBE_LIB" ]; then
   ln -sf ../smtube/src smtube
   cd smtube
   lrelease smtube.pro
-  qmake DEFINES+="NO_DEBUG_ON_CONSOLE SMTUBE_LIB"
+  qmake DEFINES+="SMTUBE_LIB"
   make -j4
   cd ..
 fi

@@ -14,13 +14,13 @@ echo Compiling smtube
 ln -sf ../smtube/src smtube
 cd smtube
 lrelease smtube.pro
-qmake DEFINES+="NO_DEBUG_ON_CONSOLE SMTUBE_LIB"
+qmake DEFINES+="SMTUBE_LIB"
 make -j4
 cd ../src
 
 echo Compiling smplayer
 lrelease smplayer.pro
-qmake DEFINES+="NO_DEBUG_ON_CONSOLE USE_SMTUBE_LIB"
+qmake DEFINES+="USE_SMTUBE_LIB"
 make -j4
 cp ../smtube/translations/*.qm smplayer.app/Contents/Resources/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/

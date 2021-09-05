@@ -70,7 +70,7 @@ make \
 	LRELEASE=%{_bindir}/lrelease-qt5 \
 	PREFIX=%{_prefix} \
 	DOC_PATH="\\\"%{_docdir}/%{name}/\\\"" \
-	QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
+	QMAKE_OPTS=
 
 #touch src/smplayer
 #touch src/translations/smplayer_es.qm
