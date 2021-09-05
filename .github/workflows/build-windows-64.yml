@@ -1,4 +1,4 @@
-name: Build SMPlayer on Windows with MINGW32
+name: Build Windows 64-bit
 
 on: workflow_dispatch
 
@@ -15,6 +15,7 @@ jobs:
         with:
           version: 5.15.2
           arch: win64_mingw81
+          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
 
       - name: Build smplayer
         run: |
