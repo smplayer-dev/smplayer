@@ -57,7 +57,7 @@ ConnectionShm::ConnectionShm(VideoLayerRender * parent)
 	, buffer_size(0)
 	, image_data(0)
 {
-	buffer_name = QString("/tmp/smplayer-%1").arg(QCoreApplication::applicationPid());
+	buffer_name = QString("/smplayer-%1").arg(QCoreApplication::applicationPid());
 
 	render_timer = new QTimer(this);
 	connect(render_timer, SIGNAL(timeout()), this, SLOT(render_slot()));

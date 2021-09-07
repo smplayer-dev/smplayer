@@ -64,7 +64,7 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
 #if defined(USE_COREVIDEO_BUFFER) || defined(USE_SHM)
 	if (option_name == "vo") {
-		QString buffer_name = QString("/tmp/smplayer-%1").arg(QCoreApplication::applicationPid());
+		QString buffer_name = QString("/smplayer-%1").arg(QCoreApplication::applicationPid());
 		QString vo = value.toString();
 		qDebug() << "MplayerProcess::setOption: vo:" << vo;
 		#ifdef USE_COREVIDEO_BUFFER
