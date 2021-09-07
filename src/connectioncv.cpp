@@ -37,7 +37,7 @@ ConnectionCV::ConnectionCV(VideoLayerRender * parent)
 	, copy_buffer_size(0)
 #endif
 {
-	buffer_name = QString("smplayer-%1").arg(QCoreApplication::applicationPid());
+	buffer_name = QString("/tmp/smplayer-%1").arg(QCoreApplication::applicationPid());
 	mconnection = new MConnection(this, buffer_name);
 	start_connection();
 }
