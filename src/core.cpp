@@ -913,8 +913,6 @@ void Core::openStream(QString name, QStringList params) {
 			name = yt_full_url;
 			#ifdef YT_BIN_ON_CONFIG_DIR
 			yt->setYtdlBin(Paths::configPath() +"/youtube-dl");
-			#else
-			if (!pref->yt_ytdl_bin.isEmpty()) yt->setYtdlBin(pref->yt_ytdl_bin);
 			#endif
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
 			yt->setUserAgent(pref->yt_user_agent);

@@ -42,6 +42,8 @@
 #include <QDir>
 #include "qtcompat.h"
 
+QString RetrieveYoutubeUrl::ytdl_bin;
+
 RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	: QObject(parent)
 	, preferred_resolution(R720p)

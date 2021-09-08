@@ -1700,6 +1700,7 @@ void Preferences::load() {
 	yt_use_60fps = set->value("use_60fps", yt_use_60fps).toBool();
 	yt_use_av1 = set->value("use_av1", yt_use_av1).toBool();
 	set->endGroup();
+	RetrieveYoutubeUrl::setYtdlBin(yt_ytdl_bin);
 	#endif
 	set->endGroup(); // streaming
 
