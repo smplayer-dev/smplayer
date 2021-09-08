@@ -2518,6 +2518,8 @@ void Core::startMplayer( QString file, double seek ) {
 				proc->setOption("ytdl_quality", pref->ytdl_quality);
 				#ifdef YT_BIN_ON_CONFIG_DIR
 				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
+				#else
+				if (!pref->yt_ytdl_bin.isEmpty()) proc->setOption("ytdl_path", pref->yt_ytdl_bin);
 				#endif
 			}
 		} else {
@@ -2527,6 +2529,8 @@ void Core::startMplayer( QString file, double seek ) {
 				proc->setOption("ytdl_quality", pref->ytdl_quality);
 				#ifdef YT_BIN_ON_CONFIG_DIR
 				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
+				#else
+				if (!pref->yt_ytdl_bin.isEmpty()) proc->setOption("ytdl_path", pref->yt_ytdl_bin);
 				#endif
 			}
 		}
