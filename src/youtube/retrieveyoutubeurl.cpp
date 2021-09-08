@@ -70,7 +70,11 @@ QString RetrieveYoutubeUrl::ytdlBin() {
 	}
 
 #ifdef Q_OS_WIN
+	#ifdef YT_BIN_ON_CONFIG_DIR
+	return QDir::homePath() + "/.smplayer/youtube-dl.exe";
+	#else
 	return "mpv/youtube-dl.exe";
+	#endif
 #else
 	QString bin = QDir::homePath() + "/bin/youtube-dl";
 	QFileInfo fi(bin);

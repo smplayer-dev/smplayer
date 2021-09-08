@@ -911,9 +911,6 @@ void Core::openStream(QString name, QStringList params) {
 		if (!yt_full_url.isEmpty()) {
 			qDebug() << "Core::openStream: youtube url detected:" << yt_full_url;
 			name = yt_full_url;
-			#ifdef YT_BIN_ON_CONFIG_DIR
-			yt->setYtdlBin(Paths::configPath() +"/youtube-dl");
-			#endif
 			yt->setPreferredResolution( (RetrieveYoutubeUrl::Resolution) pref->yt_resolution );
 			yt->setUserAgent(pref->yt_user_agent);
 			yt->setUserFormat(pref->yt_override_format);
@@ -2520,7 +2517,7 @@ void Core::startMplayer( QString file, double seek ) {
 			if (enable_sites) {
 				proc->setOption("ytdl_quality", pref->ytdl_quality);
 				#ifdef YT_BIN_ON_CONFIG_DIR
-				proc->setOption("ytdl_path", Paths::configPath() + "/youtube-dl");
+				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
 				#endif
 			}
 		} else {
@@ -2529,7 +2526,7 @@ void Core::startMplayer( QString file, double seek ) {
 			if (enable_sites) {
 				proc->setOption("ytdl_quality", pref->ytdl_quality);
 				#ifdef YT_BIN_ON_CONFIG_DIR
-				proc->setOption("ytdl_path", Paths::configPath() + "/youtube-dl");
+				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
 				#endif
 			}
 		}
