@@ -235,11 +235,15 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 	QString app_bin = absoluteFilePath(ytdlBin());
 
 	#ifdef OS_UNIX_NOT_MAC
-	QString python_bin = findExecutable("python3");
-	if (python_bin.isEmpty()) python_bin = findExecutable("python2");
-	if (!python_bin.isEmpty()) {
-		args.prepend(app_bin);
-		app_bin = python_bin;
+	QString basename = QFileInfo(app_bin).completeBaseName();
+	qDebug() << "RetrieveYoutubeUrl::runYtdl: basename:" << basename;
+	if (basename == "youtube-dl") {
+		QString python_bin = findExecutable("python3");
+		if (python_bin.isEmpty()) python_bin = findExecutable("python2");
+		if (!python_bin.isEmpty()) {
+			args.prepend(app_bin);
+			app_bin = python_bin;
+		}
 	}
 	#endif
 
