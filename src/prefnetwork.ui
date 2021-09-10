@@ -217,7 +217,7 @@
        <item>
         <widget class="QGroupBox" name="groupBox_2">
          <property name="title">
-          <string>Executable</string>
+          <string>YouTube support application</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <item>

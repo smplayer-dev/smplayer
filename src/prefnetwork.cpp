@@ -226,7 +226,7 @@ int PrefNetwork::YTResolution() {
 void PrefNetwork::setYtdlBin(const QString & path) {
 	ytdl_bin_combo->clear();
 	ytdl_bin_combo->addItem("youtube-dl", "youtube-dl");
-	ytdl_bin_combo->addItem("yt-dlp", "yt-dlp");
+	ytdl_bin_combo->addItem(tr("yt-dlp (based on youtube-dl with improvements)"), "yt-dlp");
 
 	QString ytdl_bin = path;
 	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
