@@ -66,6 +66,17 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 
 QString RetrieveYoutubeUrl::ytdlBin() {
 	if (!ytdl_bin.isEmpty()) {
+		#ifdef Q_OS_WIN
+		QFileInfo fi(ytdl_bin);
+		qDebug() << "RetrieveYoutubeUrl::ytdlBin: ytdl_bin:" << ytdl_bin << "path:" << fi.path();
+		if (fi.path() == ".") {
+			#ifdef YT_BIN_ON_CONFIG_DIR
+			return QDir::homePath() + "/.smplayer/" + ytdl_bin;
+			#else
+			return "mpv/" + ytdl_bin;
+			#endif
+		}
+		#endif
 		return ytdl_bin;
 	}
 
