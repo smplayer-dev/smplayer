@@ -20,6 +20,7 @@
 #include "preferences.h"
 #include "images.h"
 #include <QNetworkProxy>
+#include <QFileInfo>
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
@@ -137,6 +138,8 @@ void PrefNetwork::setData(Preferences * pref) {
 	yt_dash_check->setChecked( pref->yt_use_dash );
 	yt_use_60fps_check->setChecked( pref->yt_use_60fps );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
+
+	setYtdlBin( pref->yt_ytdl_bin );
 #endif
 
 #ifdef MPV_SUPPORT
@@ -175,6 +178,9 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->yt_use_dash = yt_dash_check->isChecked();
 	pref->yt_use_60fps = yt_use_60fps_check->isChecked();
 	pref->yt_user_agent = yt_user_agent_edit->text();
+
+	pref->yt_ytdl_bin = ytdlBin();
+	RetrieveYoutubeUrl::setYtdlBin( pref->yt_ytdl_bin );
 #endif
 
 #ifdef MPV_SUPPORT
@@ -215,6 +221,39 @@ void PrefNetwork::setYTResolution(int r) {
 int PrefNetwork::YTResolution() {
 	int index = yt_resolution_combo->currentIndex();
 	return yt_resolution_combo->itemData(index).toInt();
+}
+
+void PrefNetwork::setYtdlBin(const QString & path) {
+	ytdl_bin_combo->clear();
+	ytdl_bin_combo->addItem("youtube-dl", "youtube-dl");
+	ytdl_bin_combo->addItem("yt-dlp", "yt-dlp");
+
+	QString ytdl_bin = path;
+	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	QString basename = QFileInfo(ytdl_bin).baseName();
+
+	int selected = 0;
+	if (basename == "youtube-dl") {
+		selected = 0;
+		ytdl_bin_combo->setItemData(0, path);
+	}
+	else
+	if (basename == "yt-dlp") {
+		selected = 1;
+		ytdl_bin_combo->setItemData(1, path);
+	}
+	else {
+		selected = 2;
+		ytdl_bin_combo->addItem(tr("Other") + " (" + basename + ")", path);
+	}
+
+	ytdl_bin_combo->setCurrentIndex(selected);
+}
+
+QString PrefNetwork::ytdlBin() {
+	QString ytdl_bin = ytdl_bin_combo->itemData(ytdl_bin_combo->currentIndex()).toString();
+	if (ytdl_bin == "youtube-dl") ytdl_bin = ""; // Default
+	return ytdl_bin;
 }
 #endif
 

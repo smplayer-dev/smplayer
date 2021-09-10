@@ -215,6 +215,18 @@
         </widget>
        </item>
        <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Executable</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QComboBox" name="ytdl_bin_combo"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer_2">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -593,6 +605,7 @@
   <tabstop>yt_dash_check</tabstop>
   <tabstop>yt_use_60fps_check</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
+  <tabstop>ytdl_bin_combo</tabstop>
   <tabstop>local_ip_combo</tabstop>
   <tabstop>port_spin</tabstop>
   <tabstop>directory_listing_check</tabstop>

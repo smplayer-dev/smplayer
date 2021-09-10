@@ -51,6 +51,9 @@ protected:
 #ifdef YOUTUBE_SUPPORT
 	void setYTResolution(int r);
 	int YTResolution();
+
+	void setYtdlBin(const QString & path);
+	QString ytdlBin();
 #endif
 
 	void setStreamingType(int);
