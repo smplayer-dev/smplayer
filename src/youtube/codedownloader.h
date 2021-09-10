@@ -52,7 +52,7 @@ signals:
 	void saveFailed(const QString &);
 
 public:
-	static void askAndDownload(QWidget * parent, ErrorMessage e = NoError, const QString & download_path = QString());
+	static void askAndDownload(QWidget * parent, ErrorMessage e = NoError, const QString & download_path = QString(), QString app_name = QString());
 
 private slots:
 	void gotResponse(QNetworkReply* reply);

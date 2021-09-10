@@ -157,7 +157,7 @@ void CodeDownloader::reportError(int, QString error_str) {
 	QMessageBox::warning(parent_widget, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
 }
 
-void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QString & download_path) {
+void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QString & download_path, QString app_name) {
 	QString message;
 
 	switch (e) {
@@ -178,17 +178,43 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	QMessageBox::information(parent, tr("Install / Update YouTube support"),message);
 #else
+	if (app_name.isEmpty()) app_name = "youtube-dl";
+	QFileInfo fi(app_name);
+	QString app_basename = fi.baseName().toLower();
+
+	QString url;
+	QString output_file;
+	//output_file = fi.fileName();
+
+	qDebug() << "CodeDownloader::askAndDownload: app_basename:" << app_basename;
+
 	#ifdef Q_OS_WIN
-	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+	if (app_basename == "yt-dlp") {
+		//url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
+		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_x86.exe";
+		output_file = "yt-dlp.exe";
+	} else {
+		url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+		output_file = "youtube-dl.exe";
+	}
+	#else
+	if (app_basename == "yt-dlp") {
+		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
+		output_file = "yt-dlp";
+	} else {
+		url = "https://youtube-dl.org/downloads/latest/youtube-dl";
+		output_file = "youtube-dl";
+	}
+	#endif
+
+	qDebug() << "CodeDownloader::askAndDownload: output_file:" << output_file;
+
+	#ifdef Q_OS_WIN
 	QString output_dir = download_path;
 	if (output_dir.isEmpty()) output_dir = "mpv";
-	QString output = output_dir + "/youtube-dl.exe";
 	#else
-	QString url = "https://youtube-dl.org/downloads/latest/youtube-dl";
-
 	QString output_dir = download_path;
 	if (output_dir.isEmpty()) output_dir = QDir::homePath() + "/bin";
-	QString output_file = "youtube-dl";
 
 	QDir d;
 	if (!d.exists(output_dir)) {
@@ -196,16 +222,16 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 			qDebug() << "CodeDownloader::askAndDownload: fail to create" << output_dir;
 		}
 	}
+	#endif
 
 	QString output = output_dir + "/" + output_file;
-	#endif // Q_OS_WIN
 
 	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
 	qDebug() << "CodeDownloader::askAndDownload: output" << output;
 
 	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
 				tr("%1 can download and install this application for you.").arg(APPNAME) +" "+
-				tr("It will be downloaded from the official website and installed in %1.").arg("<i>" + output_dir +"</i>") + "<br><br>"+
+				tr("It will be downloaded from the official website and installed as %1.").arg("<i>" + output +"</i>") + "<br><br>"+
 				tr("Would you like to proceed?");
 
 	int ret = 0;

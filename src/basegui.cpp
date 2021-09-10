@@ -5123,7 +5123,7 @@ void BaseGui::YTUpdate() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = Paths::configPath();
 	#endif
-	CodeDownloader::askAndDownload(this, CodeDownloader::NoError, path);
+	CodeDownloader::askAndDownload(this, CodeDownloader::NoError, path, pref->yt_ytdl_bin);
 }
 
 void BaseGui::YTFailedToStart() {
@@ -5131,7 +5131,7 @@ void BaseGui::YTFailedToStart() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = Paths::configPath();
 	#endif
-	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path);
+	CodeDownloader::askAndDownload(this, CodeDownloader::FailedToRun, path, pref->yt_ytdl_bin);
 }
 
 void BaseGui::YTUrlNotFound() {
@@ -5139,7 +5139,7 @@ void BaseGui::YTUrlNotFound() {
 	#ifdef YT_BIN_ON_CONFIG_DIR
 	path = Paths::configPath();
 	#endif
-	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path);
+	CodeDownloader::askAndDownload(this, CodeDownloader::UrlNotFound, path, pref->yt_ytdl_bin);
 }
 
 #ifdef Q_OS_WIN
