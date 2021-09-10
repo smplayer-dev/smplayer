@@ -75,7 +75,7 @@ void CodeDownloader::download(QUrl url) {
 
 	setLabelText(tr("Connecting to %1").arg(url.host()));
 
-	QRegExp rx("downloads\\/([\\d\\.]+)\\/youtube");
+	QRegExp rx("download\\/([\\d\\.]+)\\/(youtube|yt-dlp)");
 	if (rx.indexIn(url.toString()) > -1) {
 		version = rx.cap(1);
 		qDebug() << "CodeDownloader::download: version:" << version;
