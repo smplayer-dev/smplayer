@@ -284,6 +284,7 @@ QString PrefNetwork::YTDLQuality() {
 void PrefNetwork::streaming_type_combo_changed(int i) {
 	//qDebug() << "PrefNetwork::streaming_type_combo_changed:" << i;
 	youtube_box->setEnabled(i == Preferences::StreamingYT || i == Preferences::StreamingAuto);
+	youtube_app_box->setEnabled(i != Preferences::NoStreaming);
 
 #ifdef MPV_SUPPORT
 	ytdl_quality_frame->setEnabled(i == Preferences::StreamingAuto || i == Preferences::StreamingYTDL);

@@ -195,6 +195,13 @@
            </widget>
           </item>
           <item>
+           <widget class="QCheckBox" name="av1_check">
+            <property name="text">
+             <string>Allow A&amp;V1 codec</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <item>
              <widget class="QLabel" name="yt_user_agent_label">
@@ -215,7 +222,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="groupBox_2">
+        <widget class="QGroupBox" name="youtube_app_box">
          <property name="title">
           <string>YouTube support application</string>
          </property>
@@ -604,6 +611,7 @@
   <tabstop>yt_resolution_combo</tabstop>
   <tabstop>yt_dash_check</tabstop>
   <tabstop>yt_use_60fps_check</tabstop>
+  <tabstop>av1_check</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>ytdl_bin_combo</tabstop>
   <tabstop>local_ip_combo</tabstop>
