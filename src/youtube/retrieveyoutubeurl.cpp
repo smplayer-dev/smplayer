@@ -235,7 +235,7 @@ void RetrieveYoutubeUrl::runYtdl(const QString & url) {
 
 	QString app_bin = absoluteFilePath(ytdlBin());
 
-	#ifdef Q_OS_LINUX
+	#ifdef OS_UNIX_NOT_MAC
 	QString basename = QFileInfo(app_bin).completeBaseName();
 	qDebug() << "RetrieveYoutubeUrl::runYtdl: basename:" << basename;
 	if (basename == "youtube-dl") {
