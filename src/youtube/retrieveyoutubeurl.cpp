@@ -65,35 +65,25 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 QString RetrieveYoutubeUrl::ytdlBin() {
-	if (!ytdl_bin.isEmpty()) {
-		#ifdef Q_OS_WIN
-		QFileInfo fi(ytdl_bin);
-		qDebug() << "RetrieveYoutubeUrl::ytdlBin: ytdl_bin:" << ytdl_bin << "path:" << fi.path();
-		if (fi.path() == ".") {
-			#ifdef YT_BIN_ON_CONFIG_DIR
-			return QDir::homePath() + "/.smplayer/" + ytdl_bin;
-			#else
-			return "mpv/" + ytdl_bin;
-			#endif
-		}
-		#endif
-		return ytdl_bin;
-	}
+	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	QString app_path = ytdl_bin;
 
-#ifdef Q_OS_WIN
-	#ifdef YT_BIN_ON_CONFIG_DIR
-	return QDir::homePath() + "/.smplayer/youtube-dl.exe";
-	#else
-	return "mpv/youtube-dl.exe";
-	#endif
-#else
-	QString bin = QDir::homePath() + "/bin/youtube-dl";
-	QFileInfo fi(bin);
-	if (!fi.exists() || !fi.isExecutable()) {
-		bin = "youtube-dl";
+	QFileInfo fi(ytdl_bin);
+	qDebug() << "RetrieveYoutubeUrl::ytdlBin: ytdl_bin:" << ytdl_bin << "path:" << fi.path();
+
+	if (fi.path() == ".") {
+		#ifdef Q_OS_WIN
+		  #ifdef YT_BIN_ON_CONFIG_DIR
+		  app_path = QDir::homePath() + "/.smplayer/" + ytdl_bin;
+		  #else
+		  app_path = "mpv/" + ytdl_bin;
+		  #endif
+		#else
+		app_path = QDir::homePath() + "/bin/" + ytdl_bin;
+		#endif
 	}
-	return bin;
-#endif
+	qDebug() << "RetrieveYoutubeUrl::ytdlBin: app_path:" << app_path;
+	return app_path;
 }
 
 void RetrieveYoutubeUrl::close() {
