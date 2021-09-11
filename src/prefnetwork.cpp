@@ -137,6 +137,7 @@ void PrefNetwork::setData(Preferences * pref) {
 	setYTResolution( pref->yt_resolution );
 	yt_dash_check->setChecked( pref->yt_use_dash );
 	yt_use_60fps_check->setChecked( pref->yt_use_60fps );
+	yt_av1_check->setChecked( pref->yt_use_av1 );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 
 	setYtdlBin( pref->yt_ytdl_bin );
@@ -177,6 +178,7 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->yt_resolution = YTResolution();
 	pref->yt_use_dash = yt_dash_check->isChecked();
 	pref->yt_use_60fps = yt_use_60fps_check->isChecked();
+	pref->yt_use_av1 = yt_av1_check->isChecked();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 
 	pref->yt_ytdl_bin = ytdlBin();

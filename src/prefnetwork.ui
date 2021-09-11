@@ -195,7 +195,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="av1_check">
+           <widget class="QCheckBox" name="yt_av1_check">
             <property name="text">
              <string>Allow A&amp;V1 codec</string>
             </property>
@@ -611,7 +611,7 @@
   <tabstop>yt_resolution_combo</tabstop>
   <tabstop>yt_dash_check</tabstop>
   <tabstop>yt_use_60fps_check</tabstop>
-  <tabstop>av1_check</tabstop>
+  <tabstop>yt_av1_check</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>ytdl_bin_combo</tabstop>
   <tabstop>local_ip_combo</tabstop>
