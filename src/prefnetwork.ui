@@ -197,7 +197,7 @@
           <item>
            <widget class="QCheckBox" name="yt_av1_check">
             <property name="text">
-             <string>Allow A&amp;V1 codec</string>
+             <string>Allow AV&amp;1 codec</string>
             </property>
            </widget>
           </item>
