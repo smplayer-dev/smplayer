@@ -229,7 +229,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 	qDebug() << "CodeDownloader::askAndDownload: url:" << url;
 	qDebug() << "CodeDownloader::askAndDownload: output" << output;
 
-	message +=  tr("In order to play YouTube videos, %1 needs an external application called youtube-dl.").arg(APPNAME) + "<br><br>"+
+	message +=  tr("In order to play YouTube videos, %1 needs the help of an external application.").arg(APPNAME) + "<br><br>"+
 				tr("%1 can download and install this application for you.").arg(APPNAME) +" "+
 				tr("It will be downloaded from the official website and installed as %1.").arg("<i>" + output +"</i>") + "<br><br>"+
 				tr("Would you like to proceed?");
