@@ -1390,12 +1390,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5133"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>Помилка процесу youtube-dl через відсутні бібліотеки.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5134"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>Ймовірно, необхідно встановити %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5136"/>
@@ -4008,7 +4008,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation>Букмол</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4224,7 +4224,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation>Волапюк</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8790,7 +8790,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation>Виберіть пріоритет для процесу програвача.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
