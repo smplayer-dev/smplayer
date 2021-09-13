@@ -314,7 +314,6 @@ private:
 	QRegExp rx_playing;
 	QRegExp rx_generic;
 	QRegExp rx_stream_title;
-	QRegExp rx_stream_title2;
 	QRegExp rx_debug;
 
 	void initializeRX();
