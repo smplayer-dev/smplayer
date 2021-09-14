@@ -78,7 +78,8 @@ QString RetrieveYoutubeUrl::ytdlBin() {
 		  #else
 		  app_path = "mpv/" + ytdl_bin;
 		  #endif
-		#else
+		#endif
+		#ifdef Q_OS_MACX
 		app_path = QDir::homePath() + "/bin/" + ytdl_bin;
 		#endif
 	}
