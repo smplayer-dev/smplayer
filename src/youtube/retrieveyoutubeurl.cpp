@@ -461,6 +461,9 @@ QList<itemMap> RetrieveYoutubeUrl::getPlaylistItems(const QString & url) {
 QString RetrieveYoutubeUrl::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
 	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QTC_SkipEmptyParts);
+	QString user_bin = QDir::homePath() + "/bin";
+	if (!search_paths.contains(user_bin)) search_paths.prepend(user_bin);
+	qDebug() << "RetrieveYoutubeUrl::findExecutable: search_paths:" << search_paths;
 
 	for (int n = 0; n < search_paths.count(); n++) {
 		QString candidate = search_paths[n] + "/" + name;
