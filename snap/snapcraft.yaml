@@ -8,6 +8,8 @@ adopt-info: smplayer
 layout:
   /usr/share/smplayer:
     bind: $SNAP/usr/share/smplayer
+  /usr/share/qt5/translations:
+    bind: $SNAP/usr/share/qt5/translations
   /etc/mpv:
     bind: $SNAP/etc/mpv
   /etc/mplayer:
@@ -91,6 +93,7 @@ parts:
       - freeglut3
       - libqt5webkit5
       - qtwayland5
+      - qttranslations5-l10n
 
   fix-python:
     plugin: nil
