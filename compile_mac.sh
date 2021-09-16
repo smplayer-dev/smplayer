@@ -29,7 +29,11 @@ cp ../Mac/smplayer-document.icns smplayer.app/Contents/Resources/
 cd ..
 
 echo Creating package
-mkdir package
+mkdir -p package
 rm -r package/SMPlayer.app
 mv src/smplayer.app package/SMPlayer.app
+mkdir -p package/SMPlayer.app/Contents/translations
+cp `qmake -query QT_INSTALL_TRANSLATIONS`/qt_*.qm package/SMPlayer.app/Contents/translations/
+cp `qmake -query QT_INSTALL_TRANSLATIONS`/qtbase_*.qm package/SMPlayer.app/Contents/translations/
+rm package/SMPlayer.app/Contents/translations/qt_help_*
 macdeployqt package/SMPlayer.app
