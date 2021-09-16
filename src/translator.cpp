@@ -21,6 +21,7 @@
 #include <QTranslator>
 #include <QLocale>
 #include <QApplication>
+#include <QDebug>
 
 Translator::Translator() {
 	qApp->installTranslator( &app_trans );
@@ -39,10 +40,10 @@ Translator::~Translator() {
 bool Translator::loadCatalog(QTranslator & t, QString name, QString locale, QString dir) {
 	QString s = name + "_" + locale; //.toLower();
 	bool r = t.load(s, dir);
-	if (r) 
-		qDebug("Translator::loadCatalog: successfully loaded %s from %s", s.toUtf8().data(), dir.toUtf8().data());
+	if (r)
+		qDebug() << "Translator::loadCatalog: successfully loaded" << s << "from" << dir;
 	else
-		qDebug("Translator::loadCatalog: can't load %s from %s", s.toUtf8().data(), dir.toUtf8().data());
+		qDebug() << "Translator::loadCatalog: can't load" << s << "from" << dir;
 	return r;
 }
 
@@ -55,15 +56,15 @@ void Translator::load(QString locale) {
 	QString qt_trans_path = Paths::qtTranslationPath();
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	// In windows and OS2 try to load the qt translation from the app path, as
+	// On windows and OS2 try to load the qt translation from the app path, as
 	// most users won't have Qt installed.
 	loadCatalog(qt_trans, "qt", locale, trans_path );
 	#if QT_VERSION >= 0x050000
 	loadCatalog(qtbase_trans, "qtbase", locale, trans_path);
 	#endif
 #else
-	// In linux try to load it first from app path (in case there's an updated
-    // translation), if it fails it will try then from the Qt path.
+	// On linux try to load it first from app path (in case there's an updated
+	// translation), if it fails it will try then from the Qt path.
 	if (!loadCatalog(qt_trans, "qt", locale, trans_path ) ) {
 		loadCatalog(qt_trans, "qt", locale, qt_trans_path);
 	}
