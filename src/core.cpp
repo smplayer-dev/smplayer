@@ -81,6 +81,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	we_are_restarting = false;
 	just_loaded_external_subs = false;
 	just_unloaded_external_subs = false;
+	resume_after_show = true;
 	change_volume_after_unpause = false;
 
 #if DVDNAV_SUPPORT
@@ -1376,6 +1377,10 @@ void Core::setPause(bool b) {
 	if (proc->isRunning()) {
 		proc->setPause(b);
 	}
+}
+
+bool Core::shouldResume() const {
+	return resume_after_show && (_state == State::Paused);
 }
 
 void Core::play_or_pause() {

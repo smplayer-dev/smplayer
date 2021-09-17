@@ -57,6 +57,10 @@ public:
 	//! Return the current state
 	State state() { return _state; };
 
+	bool shouldResume() const;
+
+	void setResumeAfterShow(bool b) { resume_after_show = b; }
+
 	//! Return a string with the name of the current state,
 	//! so it can be printed on debugging messages.
 	QString stateToString();
@@ -578,6 +582,7 @@ private:
 	bool just_loaded_external_subs;
 	bool just_unloaded_external_subs;
 	State _state;
+	bool resume_after_show;
 	bool change_volume_after_unpause;
 
 	QString initial_subtitle;
