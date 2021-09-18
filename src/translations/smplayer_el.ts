@@ -2258,9 +2258,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Συνέβη σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>Το %1 απέτυχε να επικοινωνήσει με το youtube-dl. Είτε δεν είναι εγκατεστημένο, είτε δεν λειτουργεί σωστά.</translation>
+        <translation type="obsolete">Το %1 απέτυχε να επικοινωνήσει με το youtube-dl. Είτε δεν είναι εγκατεστημένο, είτε δεν λειτουργεί σωστά.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2268,9 +2267,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Δεν ήταν δυνατή η εύρεση του URL του βίντεο.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Ίσως χρειάζεται ενημέρωση το youtube-dl.</translation>
+        <translation type="obsolete">Ίσως χρειάζεται ενημέρωση το youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update the YouTube code.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2306,10 +2314,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Η λήψη θα γίνει από την επίσημη ιστοσελίδα και θα εγκατασταθεί στο %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>

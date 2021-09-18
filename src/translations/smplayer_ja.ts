@@ -2258,9 +2258,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>%1 は youtube-dl との通信に失敗しました。インストールされていないか正しく動作しない可能性があります。</translation>
+        <translation type="obsolete">%1 は youtube-dl との通信に失敗しました。インストールされていないか正しく動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2268,9 +2267,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>youtube-dl を更新する必要がある可能性があります。</translation>
+        <translation type="obsolete">youtube-dl を更新する必要がある可能性があります。</translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update the YouTube code.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2295,7 +2303,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube 動画を再生するのに、%1 は外部アプリケーションを必要とします。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2305,11 +2313,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">公式 Web サイトからダウンロードされ %1 にインストールされます。</translation>
+        <translation>公式 Web サイトからダウンロードされ %1 としてインストールされます。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -8212,7 +8216,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube サポート アプリケーション</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8293,7 +8297,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"></translation>
+        <translation>AV1 コーデックを許可する(&amp;1)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8409,12 +8413,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation>yt-dlp (youtube-dl の改良版)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>その他</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>

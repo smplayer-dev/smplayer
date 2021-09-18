@@ -2258,9 +2258,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Помилка при завантаженні файла:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>%1 не зміг викликати youtube-dl. Він або не встановлений, або не працює як треба.</translation>
+        <translation type="obsolete">%1 не зміг викликати youtube-dl. Він або не встановлений, або не працює як треба.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2268,9 +2267,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Не вдалось знайти посилання для цього відео.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Можливо, вам необхідно оновити youtube-dl.</translation>
+        <translation type="obsolete">Можливо, вам необхідно оновити youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update the YouTube code.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2306,10 +2314,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Буде завантажено з офіційного сайту та встановлено в %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>

@@ -2258,9 +2258,8 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Aconteceu un erro mentres se descargaba: &lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>%1 fallou tentando a comunicación co youtube-dl. Ou ben non está instalado ou non funciona correctamente.</translation>
+        <translation type="obsolete">%1 fallou tentando a comunicación co youtube-dl. Ou ben non está instalado ou non funciona correctamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2268,14 +2267,23 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Non foi posíbel atopar a URL deste vídeo.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Quizais precise actualizar youtube-dl.</translation>
+        <translation type="obsolete">Quizais precise actualizar youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update the YouTube code.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation>Con fin de reproducir vídeos de YouTube, %1 precisa dunha aplicación externa chamada youtube-dl.</translation>
+        <translation>Co fin de reproducir vídeos de YouTube, %1 precisa dunha aplicación externa chamada youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
@@ -2295,7 +2303,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Co fin de reproducir vídeos de YouTube, %1 precisa dunha aplicación externa.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2305,11 +2313,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It will be downloaded from the official website and installed in %1.</source>
-        <translation type="obsolete">Será descargada do sitio web oficial e instalarase en %1.</translation>
+        <translation>Será descargada do sitio web oficial e instalarase como %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -8212,7 +8216,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicación compatíbel co Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8293,7 +8297,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir o códec AV&amp;1</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8409,12 +8413,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation>yt-dlp (baseado no youtube-dl con melloras)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Outro</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>

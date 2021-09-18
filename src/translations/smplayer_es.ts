@@ -2259,8 +2259,17 @@ A continuación se mostrará el diálogo de configuración.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
+        <translation>%1 no se ha podido comunicar con la aplicación externa de YouTube. O no está instalada o no funciona correctamente.</translation>
+    </message>
+    <message>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <source>Maybe you need to update the YouTube code.</source>
+        <translation>Quizás haya que actualizar el código de YouTube.</translation>
+    </message>
+    <message>
         <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation>%1 no se ha podido comunicar con youtube-dl. O no está instalado o no funciona correctamente.</translation>
+        <translation type="obsolete">%1 no se ha podido comunicar con youtube-dl. O no está instalado o no funciona correctamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
@@ -2268,9 +2277,8 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>No se puede encontrar el URL de este vídeo.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update youtube-dl.</source>
-        <translation>Quizás haya que actualizar youtube-dl.</translation>
+        <translation type="obsolete">Quizás haya que actualizar youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
