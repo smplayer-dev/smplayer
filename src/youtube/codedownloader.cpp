@@ -162,12 +162,12 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	switch (e) {
 		case FailedToRun:
-			message += "<b>" + tr("%1 failed to communicate with youtube-dl. "
+			message += "<b>" + tr("%1 failed to communicate with the external YouTube application. "
                              "Either it's not installed or it doesn't work correctly.").arg(APPNAME) +"</b><br><br>";
 			break;
 		case UrlNotFound:
 			message += "<b>" + tr("It wasn't possible to find the URL for this video.") + " "+
-							tr("Maybe you need to update youtube-dl.") +"</b><br><br>";
+							tr("Maybe you need to update the YouTube code.") +"</b><br><br>";
 		case NoError: ;
 	}
 
