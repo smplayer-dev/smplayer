@@ -1,0 +1,137 @@
+name: Build Windows Packages with Qt 5.6
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { arch: 'win32', 'portable': false }
+          - { arch: 'win32', 'portable': true }
+          - { arch: 'x64', 'portable': false }
+          - { arch: 'x64', 'portable': true }
+
+    runs-on: windows-latest
+    env:
+      PORTABLE: ${{ matrix.config.portable }}
+
+    steps:
+      - name: Checkout
+        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+
+      - name: Install sources (normal)
+        if: ${{ matrix.config.portable == false }}
+        uses: actions/checkout@v2
+        with:
+          path: packages/smplayer
+          fetch-depth: 0
+
+      - name: Install sources (portable)
+        if: ${{ matrix.config.portable == true }}
+        uses: actions/checkout@v2
+        with:
+          path: packages/smplayer-portable
+          fetch-depth: 0
+
+      - name: Install themes
+        run: |
+            svn co https://github.com/smplayer-dev/smplayer-themes.git/trunk packages\smplayer-themes
+            svn co https://github.com/smplayer-dev/smplayer-skins.git/trunk packages\smplayer-skins
+
+      - name: Install mplayer and mpv
+        run: .\uncompress_players.cmd
+
+      - name: Install Qt 5.6 (32 bit)
+        if: ${{ matrix.config.arch == 'win32' }}
+        shell: bash
+        run: |
+            choco install wget --no-progress
+            wget -nv https://github.com/smplayer-dev/smplayer-build/releases/download/qt5.6.3/Qt5.6.3_mingw493_32-563-p-dwarf2-opengl_dynamic.7z -O Qt5.6z
+            7z x Qt5.6z -oQt5
+            # Set environment variables
+            export MinGW_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw32/bin
+            export Qt_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw493_32-563-p-dwarf2/bin
+            echo "MinGW_Bin_Path=$MinGW_Bin_Path" >> $GITHUB_ENV
+            echo "Qt_Bin_Path=$Qt_Bin_Path" >> $GITHUB_ENV
+            echo "$MinGW_Bin_Path" >> $GITHUB_PATH
+            echo "$Qt_Bin_Path" >> $GITHUB_PATH
+
+      - name: Install Qt 5.6 (64 bit)
+        if: ${{ matrix.config.arch == 'x64' }}
+        shell: bash
+        run: |
+            choco install wget --no-progress
+            wget -nv https://github.com/smplayer-dev/smplayer-build/releases/download/qt5.6.3/Qt5.6.3_mingw493_64-563-p-seh-opengl_dynamic.7z -O Qt5.6z
+            7z x Qt5.6z -oQt5
+            # Set environment variables
+            export MinGW_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw64/bin
+            export Qt_Bin_Path=$GITHUB_WORKSPACE/Qt5/mingw493_64-563-p-seh/bin
+            echo "MinGW_Bin_Path=$MinGW_Bin_Path" >> $GITHUB_ENV
+            echo "Qt_Bin_Path=$Qt_Bin_Path" >> $GITHUB_ENV
+            echo "$MinGW_Bin_Path" >> $GITHUB_PATH
+            echo "$Qt_Bin_Path" >> $GITHUB_PATH
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+        
+      - name: Compile smplayer
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\compile_smplayer.cmd pe
+            } else {
+              .\compile_smplayer.cmd
+            }
+
+      - name: Install
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\install.cmd pe
+            } else {
+              .\install.cmd
+            }
+        
+      - name: Create installer
+        if: ${{ matrix.config.portable == false }}
+        run: |
+           .\nsis.cmd
+           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create 7z package
+        if: ${{ matrix.config.portable == true }}
+        run: |
+           .\create_portable_package.cmd
+           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Rename package
+        shell: bash
+        run: |
+            PACKAGEFILENAME=${{ env.PACKAGEFILENAME }}
+            extension="${PACKAGEFILENAME##*.}"
+            filename="${PACKAGEFILENAME%.*}"
+            new_filename="$filename-qt5.6.$extension"
+            cd packages/BUILD/output/
+            mv $PACKAGEFILENAME $new_filename
+            echo "PACKAGEFILENAME=$new_filename" >> $GITHUB_ENV
+       
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
