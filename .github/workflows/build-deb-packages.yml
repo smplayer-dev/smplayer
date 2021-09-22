@@ -15,6 +15,7 @@ jobs:
         config:
           - { container: 'wachii/debian-qt:10.9', qt: 5 }
           - { container: 'wachii/ubuntu-qt:21.04', qt: 5 }
+          - { container: 'wachii/ubuntu-qt:16.04', qt: 4 }
 
     runs-on: ubuntu-latest
     container: ${{ matrix.config.container }}
