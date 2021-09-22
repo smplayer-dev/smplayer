@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2258,27 +2256,19 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>在下載檔案時發生錯誤：&lt;br&gt;%1</translation>
     </message>
     <message>
-        <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="obsolete">%1 與 youtube-dl 溝通失敗。其不是未安裝就是無法正常運作。</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>找不到此影片的 URL。</translation>
     </message>
     <message>
-        <source>Maybe you need to update youtube-dl.</source>
-        <translation type="obsolete">也許您需要更新 youtube-dl。</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 與外部的 YouTube 應用程式溝通失敗。不是未安裝就是無法正常運作。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation>也許您需要更新 YouTube 程式碼。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -3221,7 +3211,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>無法將下載好的檔案儲存
@@ -10125,17 +10115,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

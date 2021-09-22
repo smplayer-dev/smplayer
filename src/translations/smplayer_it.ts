@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1393,17 +1391,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="5149"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5150"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5152"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6142"/>
@@ -2260,27 +2258,19 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 %1</translation>
     </message>
     <message>
-        <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="obsolete">%1 non è stato in grado di comunicare, non funziona oppure non è stato installato correttamente.</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Non è stato possibile trovare l&apos;URL di questo video.</translation>
     </message>
     <message>
-        <source>Maybe you need to update youtube-dl.</source>
-        <translation type="obsolete">Probabilmente è necessario aggiornare youtube-dl.</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2305,7 +2295,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2315,7 +2305,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -3223,7 +3213,7 @@ Esempio: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non è stato possibile salvare il file scaricato
@@ -4024,7 +4014,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4240,7 +4230,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6037,12 +6027,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="466"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1045"/>
@@ -8218,7 +8208,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8299,7 +8289,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8415,12 +8405,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8826,7 +8816,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10125,19 +10115,13 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n secondo</numerusform>
-            <numerusform>%n secondi</numerusform>
-        </translation>
+        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minuti</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

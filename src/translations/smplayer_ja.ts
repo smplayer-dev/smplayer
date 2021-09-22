@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2258,27 +2256,19 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ファイルのダウンロード中にエラーが発生しました:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="obsolete">%1 は youtube-dl との通信に失敗しました。インストールされていないか正しく動作しない可能性があります。</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>この動画の URL を見つけることができませんでした。</translation>
     </message>
     <message>
-        <source>Maybe you need to update youtube-dl.</source>
-        <translation type="obsolete">youtube-dl を更新する必要がある可能性があります。</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 は外部 YouTube アプリケーションとのコミュニケーションに失敗しました。インストールされていないか正しく動作していません。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation>おそらく YouTube コードを更新する必要があります。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -3221,7 +3211,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -10123,17 +10113,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

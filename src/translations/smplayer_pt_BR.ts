@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2258,27 +2256,19 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Ocorreu um erro durante o download do arquivo:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <source>%1 failed to communicate with youtube-dl. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="obsolete">%1 não conseguiu se comunicar com o youtube-dl. Ele não está instalado ou não está funcionando corretamente.</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Não foi possível encontrar a URL desse vídeo.</translation>
     </message>
     <message>
-        <source>Maybe you need to update youtube-dl.</source>
-        <translation type="obsolete">Talvez você precise atualizar o youtube-dl.</translation>
-    </message>
-    <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 não conseguiu se comunicar com o programa externo para o YouTube. Ele não está instalado ou não está funcionando corretamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation>Talvez você precise atualizar o código para o YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -3221,7 +3211,7 @@ Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -10123,19 +10113,13 @@ Deseja substituí-lo?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
