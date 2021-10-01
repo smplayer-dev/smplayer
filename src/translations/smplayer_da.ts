@@ -2263,12 +2263,12 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 kunne ikke kommunikere med det eksterne YouTube-program. Enten er det ikke installeret eller også virker det ikke korrekt.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Måske er det nødvendigt at opdatere YouTube-koden.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2293,7 +2293,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>For at kunne afspille YouTube-vidoer har %1 brug for hjælp fra eksternt program.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2303,7 +2303,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Det vil blive downloadet fra det officielle websted og blive installeret som %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -8206,7 +8206,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Program til understøttelse af YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8287,7 +8287,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>Tillad AV&amp;1-codec</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8403,12 +8403,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (baseret på youtube-dl med forbedringer)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Anden</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>

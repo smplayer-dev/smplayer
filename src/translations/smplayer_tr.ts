@@ -2263,12 +2263,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1, harici YouTube uygulamasıyla iletişim kuramadı. Ya kurulmamış ya da düzgün çalışmıyor.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Belki YouTube kodunu güncellemeniz gerekir.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2293,7 +2293,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>YouTube videolarını oynatmak için %1&apos;in harici bir uygulamanın yardımına ihtiyacı var.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2303,7 +2303,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Resmi web sitesinden indirilecek ve %1 olarak yüklenecektir.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -8206,7 +8206,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>YouTube destek uygulaması</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8287,7 +8287,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>AV&amp;1 codec bileşenine izin ver</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8403,7 +8403,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (iyileştirmelerle birlikte youtube-dl&apos;ye göre)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>

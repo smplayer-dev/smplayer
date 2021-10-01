@@ -1401,7 +1401,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="5152"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>Pacchetto Redistribuibile Microsoft Visual C++ 2010</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6142"/>
@@ -4014,7 +4014,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation>BokmÃ¥l</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4230,7 +4230,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation>VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -6027,12 +6027,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation>hardware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="466"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation>software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1045"/>
@@ -8208,7 +8208,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Applicazione di supporto per YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8289,7 +8289,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>Permetti codec AV&amp;1</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8410,7 +8410,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Altro</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>

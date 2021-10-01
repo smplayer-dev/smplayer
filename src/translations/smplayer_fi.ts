@@ -2263,12 +2263,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 ei pystynyt kommunikoimaan YouTube-sovelluksen kanssa. Joko sitä ei ole asennettu tai se ei toimi oikein.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Ehkä sinun on päivitettävä YouTube-koodi.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
