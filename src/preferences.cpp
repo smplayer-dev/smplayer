@@ -455,7 +455,7 @@ void Preferences::reset() {
 #if SEEKBAR_RESOLUTION
 	relative_seeking = false;
 #endif
-	precise_seeking = false;
+	precise_seeking = true;
 
 	reset_stop = false;
 	delay_left_click = false;
