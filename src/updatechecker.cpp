@@ -191,7 +191,7 @@ QString UpdateChecker::formattedVersion(const QString & version) {
 	QString res = QString("%1.%2.%3.%4").arg(n1, 2, 10, QChar('0'))
 										.arg(n2, 2, 10, QChar('0'))
 										.arg(n3, 2, 10, QChar('0'))
-										.arg(n4, 4, 10, QChar('0'));
+										.arg(n4, 5, 10, QChar('0'));
 	//qDebug() << "UpdateChecker::formattedVersion:" << res;
 	return res;
 }
