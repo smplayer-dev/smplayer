@@ -71,7 +71,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		mplayer_version + "<br><br>" +
 		"<b>"+ tr("Links:") +"</b><br>"+
 		tr("Official website:") +" "+  link(URL_HOMEPAGE) +"<br>"+
-		tr("Support forum:") +" "+  link(URL_FORUM) +"<br>"+
+		//tr("Support forum:") +" "+  link(URL_FORUM) +"<br>"+
         "<br>" +
 		/*
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
