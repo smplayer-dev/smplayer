@@ -20,7 +20,7 @@ if [%1]==[] (
   set smtube_params=pe
 
 ) else if [%1]==[smtubelib] (
-  set qmake_defs=SMTUBE_LIB %qmake_defs%
+  set qmake_defs=USE_SMTUBE_LIB %qmake_defs%
 ) else if [%1]==[nosmtube] (
 
   set build_smtube=false
