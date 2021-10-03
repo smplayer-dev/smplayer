@@ -1,7 +1,8 @@
-cd zlib
-mingw32-make -fwin32\makefile.gcc clean
+rem cd zlib
+rem mingw32-make -fwin32\makefile.gcc clean
+rem cd ..
 
-cd ..\src
+cd src
 mingw32-make distclean
 
 cd ..
