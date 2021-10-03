@@ -1,48 +1,26 @@
-name: Build Windows Packages with smtubelib
+name: Build Windows with smtubelib
 
 on:
   workflow_dispatch:
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
 
 jobs:
   build:
-    strategy:
-      fail-fast: false
-      matrix:
-        config:
-          - { arch: 'x64', 'portable': false }
-          #- { arch: 'win32', 'portable': false }
-          #- { arch: 'x64', 'portable': true }
-          #- { arch: 'win32', 'portable': true }          
-
     runs-on: windows-latest
-    env:
-      PORTABLE: ${{ matrix.config.portable }}
       
     steps:
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
 
-      #- name: Install sources
-      #  run: .\download_packages.cmd
-
       - name: Install sources (normal)
-        if: ${{ matrix.config.portable == false }}
         uses: actions/checkout@v2
         with:
           path: packages/smplayer
           fetch-depth: 0
 
-      - name: Install sources (portable)
-        if: ${{ matrix.config.portable == true }}
-        uses: actions/checkout@v2
-        with:
-          path: packages/smplayer-portable
-          fetch-depth: 0
-
       - name: Install smtube
-        run: svn co https://github.com/smplayer-dev/smtube.git/trunk smtube
+        run: svn co https://github.com/smplayer-dev/smtube.git/trunk packages/smtube
 
       - name: Install themes
         run: |
@@ -51,29 +29,18 @@ jobs:
 
       - name: Install mplayer and mpv
         run: .\uncompress_players.cmd
-        
-      - name: Install Qt (32 bit)
-        if: ${{ matrix.config.arch == 'win32' }}
-        uses: jurplel/install-qt-action@v2
-        with:
-          version: '5.15.2'
-          arch: 'win32_mingw81'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
-
-      - name: Set mingw32 path
-        if: ${{ matrix.config.arch == 'win32' }}
-        run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Install Qt (64 bit)
-        if: ${{ matrix.config.arch == 'x64' }}
         uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
-          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+          tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810 tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+
+      - name: Set mingw32 path (64 bit)
+        run: echo "$env:IQTA_TOOLS\mingw810_64\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Download QtWebkit (64 bit)
-        if: ${{ matrix.config.arch == 'x64' }}
         run: Invoke-WebRequest -Uri https://github.com/qtwebkit/qtwebkit/releases/download/qtwebkit-5.212.0-alpha4/qtwebkit-Windows-Windows_10-Mingw73-Windows-Windows_10-X86_64.7z -OutFile qtwebkit.7z
 
       - name: Extract QtWebKit
@@ -84,33 +51,15 @@ jobs:
         run: .\compile_themes.cmd
 
       - name: Compile smplayer
-        run: |
-            if ($env:PORTABLE -eq $true) {
-              .\compile_smplayer_with_smtube.cmd pe
-            } else {
-              .\compile_smplayer_with_smtube.cmd
-            }
+        run: .\compile_smplayer_with_smtube.cmd
 
       - name: Install
-        run: |
-            if ($env:PORTABLE -eq $true) {
-              .\install.cmd pe
-            } else {
-              .\install.cmd
-            }
+        run: .\install.cmd
 
       - name: Create installer
-        if: ${{ matrix.config.portable == false }}
         run: |
            .\nsis.cmd
            $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
-           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
-
-      - name: Create 7z package
-        if: ${{ matrix.config.portable == true }}
-        run: |
-           .\create_portable_package.cmd
-           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
            echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Create artifact
