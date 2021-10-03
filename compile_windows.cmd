@@ -16,9 +16,11 @@ if [%1]==[] (
 
 ) else if [%1]==[pe] (
 
-  set qmake_defs=PORTABLE_APP
+  set qmake_defs=PORTABLE_APP %qmake_defs%
   set smtube_params=pe
 
+) else if [%1]==[smtubelib] (
+  set qmake_defs=SMTUBE_LIB %qmake_defs%
 ) else if [%1]==[nosmtube] (
 
   set build_smtube=false
