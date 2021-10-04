@@ -386,6 +386,10 @@ BaseGui::~BaseGui() {
 	}
 #endif
 
+#if defined(YOUTUBE_SUPPORT) && defined(USE_SMTUBE_LIB)
+	if (browser_window) delete browser_window;
+#endif
+
 	if (mplayerwindow) {
 		delete mplayerwindow;
 	}
@@ -6279,7 +6283,7 @@ void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
 #ifdef USE_SMTUBE_LIB
 	if (browser_window == 0) {
-		browser_window = new BrowserWindow(Paths::configPath(), this);
+		browser_window = new BrowserWindow(Paths::configPath(), 0);
 		connect(browser_window, SIGNAL(requestOpenUrl(const QString &)),
                 this, SLOT(open(QString)));
 		browser_window->loadHomePage();
