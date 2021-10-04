@@ -62,6 +62,17 @@ jobs:
            $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
            echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
+      - name: Rename package
+        shell: bash
+        run: |
+            PACKAGEFILENAME=${{ env.PACKAGEFILENAME }}
+            extension="${PACKAGEFILENAME##*.}"
+            filename="${PACKAGEFILENAME%.*}"
+            new_filename="$filename-smt.$extension"
+            cd packages/BUILD/output/
+            mv $PACKAGEFILENAME $new_filename
+            echo "PACKAGEFILENAME=$new_filename" >> $GITHUB_ENV
+
       - name: Create artifact
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v2

@@ -33,6 +33,7 @@ jobs:
             tar --exclude=.svn --exclude=.git --exclude=.github -cvjf $PACKAGENAME.tar.bz2 $PACKAGENAME/
 
       - name: Create artifact
+        if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.PACKAGENAME }}.tar.bz2

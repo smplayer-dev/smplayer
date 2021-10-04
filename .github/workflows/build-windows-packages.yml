@@ -12,9 +12,9 @@ jobs:
       matrix:
         config:
           - { arch: 'x64', 'portable': false }
-          - { arch: 'win32', 'portable': false }
+          #- { arch: 'win32', 'portable': false }
           - { arch: 'x64', 'portable': true }
-          - { arch: 'win32', 'portable': true }          
+          #- { arch: 'win32', 'portable': true }          
 
     runs-on: windows-latest
     env:
