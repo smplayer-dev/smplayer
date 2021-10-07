@@ -11,11 +11,13 @@
 
   <description>
     <p>
-        SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
-        and also for mpv.
+        SMPlayer is a free media player with built-in codecs that can
+        play virtually all video and audio formats. It doesn't need any
+        external codecs. Just install SMPlayer and you'll be able to play
+        all formats without the hassle to find and install codec packs.
     </p>
     <p>
-        It also provides many interesting features like the possibility to play
+        It provides many interesting features like the possibility to play
         YouTube videos, search and download subtitles or cast to external devices
         like smartphones and tablets.
     </p>
