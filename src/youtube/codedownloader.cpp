@@ -190,8 +190,11 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	#ifdef Q_OS_WIN
 	if (app_basename == "yt-dlp") {
-		//url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
+		#if defined(_WIN64)
+		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
+		#else
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_x86.exe";
+		#endif
 		output_file = "yt-dlp.exe";
 	} else {
 		url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
