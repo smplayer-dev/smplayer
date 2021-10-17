@@ -2494,6 +2494,8 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifdef MPV_SUPPORT
 	if (mdat.type == TYPE_STREAM) {
+		QString ytdl_bin = pref->yt_ytdl_bin;
+		if (ytdl_bin.isEmpty()) ytdl_bin = YTDL_DEFAULT_BIN;
 		if (pref->streaming_type == Preferences::StreamingAuto) {
 			bool is_youtube = false;
 			#ifdef YOUTUBE_SUPPORT
@@ -2519,7 +2521,7 @@ void Core::startMplayer( QString file, double seek ) {
 				#ifdef YT_BIN_ON_CONFIG_DIR
 				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
 				#else
-				if (!pref->yt_ytdl_bin.isEmpty()) proc->setOption("ytdl_path", pref->yt_ytdl_bin);
+				proc->setOption("ytdl_path", ytdl_bin);
 				#endif
 			}
 		} else {
@@ -2530,7 +2532,7 @@ void Core::startMplayer( QString file, double seek ) {
 				#ifdef YT_BIN_ON_CONFIG_DIR
 				proc->setOption("ytdl_path", RetrieveYoutubeUrl::ytdlBin());
 				#else
-				if (!pref->yt_ytdl_bin.isEmpty()) proc->setOption("ytdl_path", pref->yt_ytdl_bin);
+				proc->setOption("ytdl_path", ytdl_bin);
 				#endif
 			}
 		}

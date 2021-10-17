@@ -231,7 +231,7 @@ void PrefNetwork::setYtdlBin(const QString & path) {
 	ytdl_bin_combo->addItem(tr("yt-dlp (based on youtube-dl with improvements)"), "yt-dlp");
 
 	QString ytdl_bin = path;
-	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	if (ytdl_bin.isEmpty()) ytdl_bin = YTDL_DEFAULT_BIN;
 	QString basename = QFileInfo(ytdl_bin).baseName();
 
 	int selected = 0;
@@ -254,7 +254,7 @@ void PrefNetwork::setYtdlBin(const QString & path) {
 
 QString PrefNetwork::ytdlBin() {
 	QString ytdl_bin = ytdl_bin_combo->itemData(ytdl_bin_combo->currentIndex()).toString();
-	if (ytdl_bin == "youtube-dl") ytdl_bin = ""; // Default
+	if (ytdl_bin == YTDL_DEFAULT_BIN) ytdl_bin = ""; // Default
 	return ytdl_bin;
 }
 #endif

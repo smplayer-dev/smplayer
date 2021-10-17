@@ -65,7 +65,7 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 QString RetrieveYoutubeUrl::ytdlBin() {
-	if (ytdl_bin.isEmpty()) ytdl_bin = "youtube-dl";
+	if (ytdl_bin.isEmpty()) ytdl_bin = YTDL_DEFAULT_BIN;
 	QString app_path = ytdl_bin;
 
 	QFileInfo fi(ytdl_bin);

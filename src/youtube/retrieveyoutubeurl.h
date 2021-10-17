@@ -29,6 +29,9 @@
 class QSettings;
 #endif
 
+//#define YTDL_DEFAULT_BIN "youtube-dl"
+#define YTDL_DEFAULT_BIN "yt-dlp"
+
 typedef QMap<QString, QString> itemMap;
 
 class RetrieveYoutubeUrl : public QObject

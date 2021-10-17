@@ -17,6 +17,7 @@
 */
 
 #include "codedownloader.h"
+#include "retrieveyoutubeurl.h"
 #include <QFile>
 #include <QMessageBox>
 #include <QDebug>
@@ -178,7 +179,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 
 	QMessageBox::information(parent, tr("Install / Update YouTube support"),message);
 #else
-	if (app_name.isEmpty()) app_name = "youtube-dl";
+	if (app_name.isEmpty()) app_name = YTDL_DEFAULT_BIN;
 	QFileInfo fi(app_name);
 	QString app_basename = fi.baseName().toLower();
 
