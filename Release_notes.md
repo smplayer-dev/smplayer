@@ -1,6 +1,25 @@
 # Changelog
 
-## [21.8]
+## [21.10] - 2021-10-??
+ * The support for YouTube has been improved by using yt-dlp. Fixes
+   buffering and age-restricted videos are supported.
+ * Possibility to use yt-dlp instead of youtube-dl.
+ * Option to use the AV1 codec with YouTube videos.
+ * Improve support for FreeBSD.
+ * Auto-rotate videos that have been recorded in vertical mode or upside down.
+ * Some bug fixes.
+### Linux
+ * Ignore KDE's "single click". It causes unexpected behaviour.
+### Windows
+ * It's easier to update the YouTube code.
+ * The installer is digitally signed.
+ * SMPlayer is now also available in the Windows Store.
+### Mac OS
+ * Fix playback with mplayer when screenshots are enabled.
+### Removed
+ * Support for the obsolete mplayer2.
+
+## [21.8] - 2021-08-16
  * A version for Mac OS is now available.
  * Better automatic resizing of the main window, trying to prevent
    black borders.
