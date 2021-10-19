@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>Diversas pessoas contribuiram com traduções:</translation>
+        <translation>Diversas pessoas contribuíram com traduções.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
@@ -142,7 +142,7 @@
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Muitas outras pessoas ajudaram no desenvolvimento. Consulte o registo de alterações.</translation>
+        <translation>Muitas outras pessoas contribuíram no desenvolvimento. Consulte o registo de alterações.</translation>
     </message>
 </context>
 <context>
@@ -1855,7 +1855,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../basegui.cpp" line="4696"/>
         <location filename="../basegui.cpp" line="4700"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer - Atraso de áudio </translation>
+        <translation>SMPlayer - Atraso de áudio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4697"/>
@@ -2433,12 +2433,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="1418"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Imagem não capturada. Pasta não configurada.</translation>
+        <translation>Imagem não capturada. Pasta não configurada</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1431"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Imagem não capturada. Pasta não configurada.</translation>
+        <translation>Imagem não capturada. Pasta não configurada</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2833"/>
@@ -2975,7 +2975,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>Search &amp;method:</source>
-        <translation>&amp;Método de pesquisa</translation>
+        <translation>&amp;Método de pesquisa:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
@@ -3668,7 +3668,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation>Azerbaijanês </translation>
+        <translation>Azerbaijanês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
@@ -4774,7 +4774,7 @@ Substituir?</translation>
         <location filename="../mpvoptions.cpp" line="198"/>
         <location filename="../mpvprocess.h" line="206"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation>O mpv não tem suporte ao filtro &apos;%1&apos;.</translation>
+        <translation>o filtro &apos;%1&apos; não é suportado pelo mpv</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="896"/>
@@ -5423,7 +5423,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Use the lavf demuxer by default</source>
-        <translation>Utilizar o demuxer la&amp;vf como padrão</translation>
+        <translation>Utilizar o demuxer lavf como padrão</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -5518,12 +5518,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>Rebuild index if needed</source>
-        <translation>Se necessário, reconstruir índice </translation>
+        <translation>Se necessário, reconstruir índice</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation>Se necessár&amp;io, reconstruir índice </translation>
+        <translation>Se necessár&amp;io, reconstruir índice</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
@@ -5613,7 +5613,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation>‎Se desmarcar esta opção, poderá reduzir a ‎‎cintilação‎‎ mas também poderá gerar artefactos estranhos em determinadas circunstâncias.‎</translation>
+        <translation>‎Se desmarcar esta opção, poderá reduzir a ‎‎cintilação‎‎ mas também poderá gerar artefactos estranhos em determinadas circunstâncias.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5633,7 +5633,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>Se ativar esta opção, a janela do %1 não será incorporada na janela principal do SMPlayer, mas sim na sua. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo %1, o que significa que as teclas de atalho e cliques no rato podem não funcionar corretamente.</translation>
+        <translation>Se ativar esta opção, a janela do %1 não será incorporada na janela principal do SMPlayer, mas sim na sua. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo %1, o que significa que as teclas de atalho e cliques no rato provavelmente não funcionarão como esperado quando a janela %1 tiver o foco.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
@@ -5694,7 +5694,7 @@ Substituir?</translation>
         <location filename="../prefadvanced.cpp" line="524"/>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Escreva-os separados por vírgula. Não utilize espaços.</translation>
+        <translation>Escreva-os separados por vírgula. Não utilize espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -5737,7 +5737,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
         <source>C&amp;orrect PTS:</source>
-        <translation>C&amp;orrigir PTS: </translation>
+        <translation>C&amp;orrigir PTS:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="559"/>
@@ -6441,22 +6441,22 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1286"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Aqui pode especificar a lista de prioridades para os códigos de idioma de áudio, separados por vírgula. Por exemplo: pt,eng,jpn.</translation>
+        <translation>Aqui pode especificar a lista de prioridades para os códigos de idioma de áudio, separados por vírgula. Por exemplo: pt,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1290"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Este campo aceita expressões regulares. Exemplo: se inserir &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará a faixa de áudio que coincida com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;. </translation>
+        <translation>Este campo aceita expressões regulares. Exemplo: se inserir &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará a faixa de áudio que coincida com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1298"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Aqui pode especificar a lista de prioridades para os códigos de idioma de legendas, separados por vírgula. Por exemplo: pt,eng,jpn.</translation>
+        <translation>Aqui pode especificar a lista de prioridades para os códigos de idioma de legendas, separados por vírgula. Por exemplo: pt,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1301"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Este campo aceita expressões regulares. Exemplo: se inserir &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará a faixa de legendas que coincida com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;. </translation>
+        <translation>Este campo aceita expressões regulares. Exemplo: se inserir &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará a faixa de legendas que coincida com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1308"/>
@@ -6941,7 +6941,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation>Selecionar t&amp;eclas</translation>
+        <translation>Selecionar t&amp;eclas...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -8382,7 +8382,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
         <source>Preferred quality</source>
-        <translation>Qualidade preferencial:</translation>
+        <translation>Qualidade preferencial</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="345"/>
@@ -8503,7 +8503,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="402"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation>Se ativa, o SMPlayer irá converter os ficheiros de legendas do formato SRT para o formato VTT. O ficheiro de legendas terá o mesmo nome mas com o sufixo vtt.</translation>
+        <translation>Quando esta opção estiver ativada, o SMPlayer converterá automaticamente os ficheiros de legendas no formato SRT para o formato VTT. A legenda VTT terá o mesmo nome de ficheiro mas extensão .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="405"/>
@@ -9088,7 +9088,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>The playlist window is dockable</source>
-        <translation>Acoplamento da janela da lista de reprodução </translation>
+        <translation>Acoplamento da janela da lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
@@ -9263,7 +9263,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation>Acoplamento &amp;da janela da lista de reprodução </translation>
+        <translation>Acoplamento &amp;da janela da lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="178"/>
@@ -9288,7 +9288,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation>Ativar opção para apagar ficheiros do disco</translation>
+        <translation>Ativar opção para eliminar ficheiros do &amp;disco</translation>
     </message>
 </context>
 <context>
@@ -10025,7 +10025,7 @@ Substituir?</translation>
     <message>
         <location filename="../clhelp.cpp" line="135"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>tenta fazer uma ligação a outra instância em execução, enviando-lhe uma ação específica. Exemplo:-send-action pause. O resto das opções (se existentes) serão ignoradas e a aplicação encerrará. Retornará o valor 0 em caso de sucesso e -1 se falhar. </translation>
+        <translation>tenta fazer uma ligação a outra instância em execução, enviando-lhe uma ação específica. Exemplo:-send-action pause. O resto das opções (se existentes) serão ignoradas e a aplicação encerrará. Retornará o valor 0 em caso de sucesso e -1 se falhar.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
@@ -10320,7 +10320,7 @@ Substituir?</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation>A desligar computador...</translation>
+        <translation>A desligar computador</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
@@ -10618,7 +10618,7 @@ Substituir?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation>Taman&amp;ho dos ícones</translation>
+        <translation>Taman&amp;ho dos ícones:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -10981,17 +10981,17 @@ Substituir?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="526"/>
         <source>Video bitrate: %1</source>
-        <translation>Taxa de dados do vídeo: %1 </translation>
+        <translation>Taxa de dados do vídeo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="527"/>
         <source>Audio bitrate: %1</source>
-        <translation>Taxa de dados do áudio : %1 </translation>
+        <translation>Taxa de dados do áudio : %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="528"/>
         <source>Audio rate: %1</source>
-        <translation>Taxa áudio : %1 </translation>
+        <translation>Taxa áudio : %1</translation>
     </message>
 </context>
 <context>
