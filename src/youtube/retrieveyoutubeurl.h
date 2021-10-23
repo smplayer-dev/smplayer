@@ -150,6 +150,10 @@ public:
 	bool useHttpsMain() { return use_https_main; };
 #endif
 
+#ifndef Q_OS_WIN
+	static QString findExecutable(const QString & name);
+#endif
+
 signals:
 	void gotPreferredUrl(const QString & url, int itag);
 	void gotEmptyList();
@@ -175,9 +179,6 @@ protected:
 	static QString getVideoID(QString video_url);
 	static QString resolutionToText(Resolution r);
 	static int getItagFromFormat(const QByteArray & t);
-#ifndef Q_OS_WIN
-	static QString findExecutable(const QString & name);
-#endif
 
 private:
 	Resolution preferred_resolution;

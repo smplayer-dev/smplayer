@@ -204,7 +204,11 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 	#else
 	if (app_basename == "yt-dlp") {
 		#ifdef Q_OS_MACX
-		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
+		if (RetrieveYoutubeUrl::findExecutable("python3").isEmpty()) {
+			url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
+		} else {
+			url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
+		}
 		#else
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
 		#endif
