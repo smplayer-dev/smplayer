@@ -2,7 +2,7 @@
 
 ## [21.10] - 2021-10-??
  * The support for YouTube has been improved by using yt-dlp. Fixes
-   buffering and age-restricted videos are supported.
+   buffering and playback of age-restricted videos.
  * Possibility to use yt-dlp instead of youtube-dl.
  * Option to use the AV1 codec with YouTube videos.
  * Improve support for FreeBSD.
