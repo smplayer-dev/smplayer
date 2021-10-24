@@ -11,36 +11,36 @@
 !endif
 
 ; Startup
-${LangFileString} Installer_Is_Running "برنامه نصب کننده هم اکنون در حال اجراست."
+${LangFileString} Installer_Is_Running "نصب‌کننده هم‌اکنون در حال اجراست."
 ${LangFileString} Installer_No_Admin "برای نصب این نرم‌افزار باید با یک حساب کاربری با دسترسی مدیریت وارد شده باشید."
-${LangFileString} SMPlayer_Is_Running "برنامه SMPlayer هم اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
+${LangFileString} SMPlayer_Is_Running "برنامه اس‌ام‌پلیر هم‌اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
 
-${LangFileString} OS_Not_Supported "سیستم عامل پشتیبانی نمی‌شود.$\nنرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows XP برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
-${LangFileString} OS_Not_Supported_VistaRequired "سیستم عامل پشتیبانی نمی‌شود.$\nنرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows Vista برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
-${LangFileString} Win64_Required "برای نصب این نرم‌فزار به یک سیستم عامل Windows با ساختار 64 بیتی نیاز است."
-${LangFileString} Existing_32bitInst "یک نسخه 32 بیتی از SMPlayer نصب شده است ، ابتدا آن نسخه 32 بیتی را حذف نمایید."
-${LangFileString} Existing_64bitInst "یک نسخه 64 بیتی از smplayer نصب شده است . شما باید ابتدا این نسخه 64 بیتی smplayer را حذف کنید."
+${LangFileString} OS_Not_Supported "سیستم‌عامل پشتیبانی نمی‌شود.$\nاس‌ام‌پلیر ${SMPLAYER_VERSION} حداقل به سیستم‌عامل ویندوز ایکس‌پی برای اجرا نیاز دارد و ممکن است بر روی سامانهٔ شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+${LangFileString} OS_Not_Supported_VistaRequired "سیستم‌عامل پشتیبانی نمی‌شود.$\nاس‌ام‌پلیر ${SMPLAYER_VERSION} حداقل به سیستم‌عامل ویندوز ویستا برای اجرا نیاز دارد و ممکن است بر روی سامانهٔ شما به درستی کار نکند.$\nآیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+${LangFileString} Win64_Required "برای نصب این نرم‌افزار به یک سیستم‌عامل ویندوز ۶۴بیتی نیاز است."
+${LangFileString} Existing_32bitInst "یک نگارش ۳۲بیتی از اس‌ام‌پلیر نصب شده‌است، ابتدا آن نگارش ۳۲بیتی را حذف نمایید."
+${LangFileString} Existing_64bitInst "یک نگارش ۶۴بیتی از اس‌ام‌پلیر نصب شده‌است، شما باید ابتدا آن نگارش ۶۴بیتی را حذف نمایید."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "نصب $(^NameDA)"
 ${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "میانبرها"
-${LangFileString} MPlayerGroupTitle "اجزاء mplayer "
+${LangFileString} ShortcutGroupTitle "میان‌برها"
+${LangFileString} MPlayerGroupTitle "اجزاء ام‌پلیر "
 ${LangFileString} MPlayerMPVGroupTitle "موتور چندرسانه‌ای"
 
-${LangFileString} Section_SMPlayer "smplayer(خواسته شده است)"
-${LangFileString} Section_SMPlayer_Desc "smplayer کتابخانه ها و اسناد را به اشتراک گذاشته است"
+${LangFileString} Section_SMPlayer "اس‌ام‌پلیر (نیاز است)"
+${LangFileString} Section_SMPlayer_Desc "اس‌ام‌پلیر کتابخانه‌ها و اسناد را به اشتراک گذاشته است."
 
-${LangFileString} Section_DesktopShortcut "دسکتاپ"
-${LangFileString} Section_DesktopShortcut_Desc "ساختن یک میانبر برای smplayer روی دسکتاپ"
+${LangFileString} Section_DesktopShortcut "میزکار"
+${LangFileString} Section_DesktopShortcut_Desc "یک میان‌بر برای اس‌ام‌پلیر روی میزکار ایجاد شود."
 
 ${LangFileString} Section_StartMenu "فهرست شروع"
-${LangFileString} Section_StartMenu_Desc "ایجاد یک فهرست شروع برای smplayer"
+${LangFileString} Section_StartMenu_Desc "یک فهرست شروع برای اس‌ام‌پلیر ایجاد شود."
 
-${LangFileString} Section_MPlayer "mplayer(خواسته شده است)"
-${LangFileString} Section_MPlayer_Desc "برای پخش به MPLayer نیاز هست"
+${LangFileString} Section_MPlayer "ام‌پلیر (نیاز است)"
+${LangFileString} Section_MPlayer_Desc "برای پخش به ام‌پلیر نیاز است."
 
 ${LangFileString} Section_MPlayerCodecs "کدک‌های باینری"
 !ifdef WIN64
@@ -51,8 +51,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "کدک‌های اختیاری ب�
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "پشتیبانی از یوتیوب (بارگیری نیاز است)"
+${LangFileString} Section_YTDL_Desc "امکان پخش ویدیوها از یوتیوب را ارائه می‌دهد."
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -67,7 +67,7 @@ ${LangFileString} Section_ResetSettings_Desc "پاک شدن ترجیحات با�
 ${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "انتخاب شیوه نصب"
+${LangFileString} Reinstall_Header_Text "گزینش شیوهٔ نصب"
 ${LangFileString} Reinstall_Header_SubText "بازنویسی یا حذف نصب را انتخاب کنید."
 
 ${LangFileString} Reinstall_Msg1 "شما یک نسخه نصب شده از SMPlayer را نصب شده دارید."

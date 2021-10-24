@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; nevyhnutné pre prehrávanie"
 
 ${LangFileString} Section_MPlayerCodecs "Binárne kodeky"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binárne kodeky nie sú v tejto verzii podporované."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Voliteľné kodeky pre MPlayer. (inštalácia vyžaduje internetové pripojenie)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Bohaté funkcie MPlayer && MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Podpora Youtube (vyžaduje sa stiahnutie)"
+${LangFileString} Section_YTDL_Desc "Poskytuje možnosť prehrávania videí Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Prídavný program k Mplayer-u, ktorý umožňuje enkódovať alebo upraviť podporované audio a video streamy."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Nepodarilo sa nainštalovať mpv."
 ${LangFileString} YTDL_DL_Retry "youtube-dl sa nepodarilo úspešne nainštalovať. Skúsiť znova?"
 ${LangFileString} YTDL_DL_Failed "Nepodarilo sa prevziať youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Kontrola aktualizácií youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Varovanie: youtube-dl sa abnormálne skončil s výstupným kódom: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Pre youtube-dl sa vyžaduje Visual C++ 2010 Runtime (x86)."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "Súčasná inštalácia SMTube nie je kompatibilná s touto verziou aplikácie SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Prosím, prejdite na novšiu verziu SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Čistenie fontconfig cache..."
