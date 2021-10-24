@@ -5,13 +5,14 @@
 # Translators:
 # امیــــر, 2015
 # Behrooz Ramezani <b3hrooz.ram3zani@gmail.com>, 2015
+# Eshagh <ase.mugem@gmail.com>, 2021
 # Hessam Shahpouri, 2018
 # hossein heydari <hossein7heydari@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-19 14:21+0000\n"
-"Last-Translator: Ricardo Villalba <ricardo@smplayer.info>\n"
+"PO-Revision-Date: 2021-09-30 05:04+0000\n"
+"Last-Translator: Eshagh <ase.mugem@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/rvm/smplayer/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgstr ""
 
 # Installer_Is_Running
 msgid "The installer is already running."
-msgstr "برنامه نصب کننده هم اکنون در حال اجراست."
+msgstr "نصب‌کننده هم‌اکنون در حال اجراست."
 
 # Installer_No_Admin
 msgid ""
@@ -31,38 +32,38 @@ msgstr "برای نصب این نرم‌افزار باید با یک حساب �
 # SMPlayer_Is_Running
 msgid ""
 "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "برنامه SMPlayer هم اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
+msgstr "برنامه اس‌ام‌پلیر هم‌اکنون در حال اجراست. ابتدا نرم‌افزار در حال اجرا را بسته و سپس دوباره تلاش کنید."
 
 # OS_Not_Supported
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "سیستم عامل پشتیبانی نمی‌شود.[:n:]نرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows XP برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+msgstr "سیستم‌عامل پشتیبانی نمی‌شود.[:n:]اس‌ام‌پلیر ${SMPLAYER_VERSION} حداقل به سیستم‌عامل ویندوز ایکس‌پی برای اجرا نیاز دارد و ممکن است بر روی سامانهٔ شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
 
 # OS_Not_Supported_VistaRequired
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "سیستم عامل پشتیبانی نمی‌شود.[:n:]نرم‌افزار SMPlayer ${SMPLAYER_VERSION} حداقل به سیستم عامل Windows Vista برای اجرا نیاز دارد و ممکن است بر روی سیستم شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
+msgstr "سیستم‌عامل پشتیبانی نمی‌شود.[:n:]اس‌ام‌پلیر ${SMPLAYER_VERSION} حداقل به سیستم‌عامل ویندوز ویستا برای اجرا نیاز دارد و ممکن است بر روی سامانهٔ شما به درستی کار نکند.[:n:]آیا با این حال فرایند نصب برنامه را دنبال می‌کنید؟"
 
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr "برای نصب این نرم‌فزار به یک سیستم عامل Windows با ساختار 64 بیتی نیاز است."
+msgstr "برای نصب این نرم‌افزار به یک سیستم‌عامل ویندوز ۶۴بیتی نیاز است."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall "
 "32-bit SMPlayer first."
-msgstr "یک نسخه 32 بیتی از SMPlayer نصب شده است ، ابتدا آن نسخه 32 بیتی را حذف نمایید."
+msgstr "یک نگارش ۳۲بیتی از اس‌ام‌پلیر نصب شده‌است، ابتدا آن نگارش ۳۲بیتی را حذف نمایید."
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall "
 "64-bit SMPlayer first."
-msgstr "یک نسخه 64 بیتی از smplayer نصب شده است . شما باید ابتدا این نسخه 64 بیتی smplayer را حذف کنید."
+msgstr "یک نگارش ۶۴بیتی از اس‌ام‌پلیر نصب شده‌است، شما باید ابتدا آن نگارش ۶۴بیتی را حذف نمایید."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -79,11 +80,11 @@ msgstr ""
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
-msgstr "میانبرها"
+msgstr "میان‌برها"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
-msgstr "اجزاء mplayer "
+msgstr "اجزاء ام‌پلیر "
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
@@ -91,19 +92,19 @@ msgstr "موتور چندرسانه‌ای"
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
-msgstr "smplayer(خواسته شده است)"
+msgstr "اس‌ام‌پلیر (نیاز است)"
 
 # Section_SMPlayer_Desc
 msgid "SMPlayer, shared libraries, and documentation."
-msgstr "smplayer کتابخانه ها و اسناد را به اشتراک گذاشته است"
+msgstr "اس‌ام‌پلیر کتابخانه‌ها و اسناد را به اشتراک گذاشته است."
 
 # Section_DesktopShortcut
 msgid "Desktop"
-msgstr "دسکتاپ"
+msgstr "میزکار"
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "ساختن یک میانبر برای smplayer روی دسکتاپ"
+msgstr "یک میان‌بر برای اس‌ام‌پلیر روی میزکار ایجاد شود."
 
 # Section_StartMenu
 msgid "Start Menu"
@@ -111,15 +112,15 @@ msgstr "فهرست شروع"
 
 # Section_StartMenu_Desc
 msgid "Create a Start Menu entry for SMPlayer."
-msgstr "ایجاد یک فهرست شروع برای smplayer"
+msgstr "یک فهرست شروع برای اس‌ام‌پلیر ایجاد شود."
 
 # Section_MPlayer
 msgid "MPlayer (required)"
-msgstr "mplayer(خواسته شده است)"
+msgstr "ام‌پلیر (نیاز است)"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
-msgstr "برای پخش به MPLayer نیاز هست"
+msgstr "برای پخش به ام‌پلیر نیاز است."
 
 # Section_MPlayerCodecs
 msgid "Binary Codecs"
@@ -136,11 +137,11 @@ msgstr ""
 
 # Section_YTDL
 msgid "Youtube support (download required)"
-msgstr ""
+msgstr "پشتیبانی از یوتیوب (بارگیری نیاز است)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
-msgstr ""
+msgstr "امکان پخش ویدیوها از یوتیوب را ارائه می‌دهد."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -178,7 +179,7 @@ msgstr ""
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
-msgstr "انتخاب شیوه نصب"
+msgstr "گزینش شیوهٔ نصب"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."

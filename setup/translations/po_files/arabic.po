@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Muadh Abdulaziz, 2021
 # Riyadh Talal, 2014-2016
 # Riyadh Talal <a.shamil77@yahoo.com>, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-19 14:21+0000\n"
-"Last-Translator: Ricardo Villalba <ricardo@smplayer.info>\n"
+"PO-Revision-Date: 2021-08-13 08:28+0000\n"
+"Last-Translator: Muadh Abdulaziz\n"
 "Language-Team: Arabic (http://www.transifex.com/rvm/smplayer/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -134,7 +135,7 @@ msgstr "اقتسام غني الخواص من MPlayer && MPlayer2"
 
 # Section_YTDL
 msgid "Youtube support (download required)"
-msgstr ""
+msgstr "دعم يوتيوب (التنزيل مطلوب)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
