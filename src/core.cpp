@@ -1753,7 +1753,7 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 		if (proc->isMPV()) {
 			if (pref->vo.startsWith("gpu")) {
-				proc->setOption("gpu-context", "x11");
+				proc->setOption("gpu-context", "x11egl");
 			}
 		}
 	}
