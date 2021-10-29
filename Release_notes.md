@@ -1,6 +1,6 @@
 # Changelog
 
-## [21.10] - 2021-10-??
+## [21.10] - 2021-10-29
  * The support for YouTube has been improved by using yt-dlp. Fixes
    buffering and playback of age-restricted videos.
  * Possibility to use yt-dlp instead of youtube-dl.

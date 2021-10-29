@@ -1,3 +1,21 @@
+smplayer (21.10.0) xenial; urgency=medium
+
+  * The support for YouTube has been improved by using yt-dlp. Fixes
+    buffering and playback of age-restricted videos.
+  * Possibility to use yt-dlp instead of youtube-dl.
+  * Option to use the AV1 codec with YouTube videos.
+  * Improve support for FreeBSD.
+  * Auto-rotate videos that have been recorded in vertical mode or upside down.
+  * Some bug fixes.
+  * (Linux) Ignore KDE's "single click". It causes unexpected behaviour.
+  * (Windows) It's easier to update the YouTube code.
+  * (Windows) The installer is digitally signed.
+  * (Windows) SMPlayer is now also available in the Windows Store.
+  * (Mac OS) Fix playback with mplayer when screenshots are enabled.
+  * Remove support for the obsolete mplayer2.
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 29 Oct 2021 16:00:39 +0200
+
 smplayer (21.8.0) xenial; urgency=medium
 
   * Better automatic resizing of the main window, trying to prevent black borders.
