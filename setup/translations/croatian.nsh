@@ -23,7 +23,7 @@ ${LangFileString} Existing_64bitInst "Trenutno je instalirana 64-bitna instalaci
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) program instalacije"
-${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_KLIKNI"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Prečaci"
@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; potrebno za reprodukciju."
 
 ${LangFileString} Section_MPlayerCodecs "Binarni kôdeki"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binarni kôdeki nisu podržani u ovoj inačici."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Neobavezni kôdeki za MPlayer. (Potrebna je internet veza za instalaciju)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Značajkama bogat fork MPlayera && MPlayera2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Youtube podrška (potrebno je preuzimanje)"
+${LangFileString} Section_YTDL_Desc "Onogućuje reprodukciju Youtube videozapisa."
 
 ${LangFileString} Section_MEncoder_Desc "Prateći program za MPlayer koji se može koristiti za enkôdiranje ili transformiranje podržanih zvučnih ili video streamova."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Neuspjelo instaliranje mpv-a."
 ${LangFileString} YTDL_DL_Retry "YouTube-dl nije uspješno instaliran. Pokušaj ponovno?"
 ${LangFileString} YTDL_DL_Failed "Neuspjelo preuzimanje Youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Provjeravanje youtube-dl nadopuna..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Upozorenje: youtube-dl se zatvorio abnormalno s izlaznim kôdom: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) je potreban za youtube-dl."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "Trenutna SMTube instalacije je nekompatibilna s ovom inačicom SMPlayera."
+${LangFileString} SMTube_Incompatible_Msg2 "Nadogradite na posljednju inačicu SMTuba."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Brisanje priručne memorije slova..."

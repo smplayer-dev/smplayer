@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# gogo <trebelnik2@gmail.com>, 2014-2016
+# gogo <trebelnik2@gmail.com>, 2014-2016,2021
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-19 14:21+0000\n"
-"Last-Translator: Ricardo Villalba <ricardo@smplayer.info>\n"
+"PO-Revision-Date: 2021-10-26 10:44+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/rvm/smplayer/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,7 +72,7 @@ msgid ""
 "instances of SMPlayer before starting setup. This will make it possible to "
 "update relevant program files without having to reboot your "
 "computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Program instalacije će vas voditi kroz instalaciju $(^NameDA).[:r:][:n:][:r:][:n:]Preporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Program instalacije će vas voditi kroz instalaciju $(^NameDA).[:r:][:n:][:r:][:n:]Preporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.[:r:][:n:][:r:][:n:]$_KLIKNI"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
@@ -133,11 +133,11 @@ msgstr "Značajkama bogat fork MPlayera && MPlayera2"
 
 # Section_YTDL
 msgid "Youtube support (download required)"
-msgstr ""
+msgstr "Youtube podrška (potrebno je preuzimanje)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
-msgstr ""
+msgstr "Onogućuje reprodukciju Youtube videozapisa."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -364,21 +364,21 @@ msgstr "Provjeravanje youtube-dl nadopuna..."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr ""
+msgstr "Upozorenje: youtube-dl se zatvorio abnormalno s izlaznim kôdom: $YTDL_Exit_code"
 
 # YTDL_Error_Msg2
 msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
-msgstr ""
+msgstr "Visual C++ 2010 Runtime (x86) je potreban za youtube-dl."
 
 # SMTube_Incompatible_Msg1
 msgid ""
 "The current SMTube installation is incompatible with this version of "
 "SMPlayer."
-msgstr ""
+msgstr "Trenutna SMTube instalacije je nekompatibilna s ovom inačicom SMPlayera."
 
 # SMTube_Incompatible_Msg2
 msgid "Please upgrade to a newer version of SMTube."
-msgstr ""
+msgstr "Nadogradite na posljednju inačicu SMTuba."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
@@ -390,4 +390,4 @@ msgstr "Brisanje SMPlayer postavki..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "Binarni kôdeki nisu podržani u ovoj inačici."
