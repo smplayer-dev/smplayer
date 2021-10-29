@@ -1,4 +1,4 @@
-smplayer (21.10.0) xenial urgency=medium
+smplayer (21.10.0) xenial; urgency=medium
 
   * The support for YouTube has been improved by using yt-dlp. Fixes
     buffering and playback of age-restricted videos.
