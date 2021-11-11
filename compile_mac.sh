@@ -15,13 +15,13 @@ ln -sf ../smtube/src smtube
 cd smtube
 lrelease smtube.pro
 qmake DEFINES+="SMTUBE_LIB"
-make -j4
+make -j$(sysctl -n hw.logicalcpu)
 cd ../src
 
 echo Compiling smplayer
 lrelease smplayer.pro
 qmake DEFINES+="USE_SMTUBE_LIB"
-make -j4
+make -j$(sysctl -n hw.logicalcpu)
 cp ../smtube/translations/*.qm smplayer.app/Contents/Resources/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/
 ../Mac/create_plist > smplayer.app/Contents/Info.plist

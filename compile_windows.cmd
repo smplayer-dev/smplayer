@@ -63,7 +63,7 @@ cd ..
 cd src
 lrelease smplayer.pro
 qmake "DEFINES += %qmake_defs%"
-mingw32-make -j2
+mingw32-make -j%NUMBER_OF_PROCESSORS%
 
 if [%errorlevel%]==[0] (
   if [%build_smtube%]==[true] (
