@@ -177,6 +177,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		// Not supported
 	}
 	else
+	if (option_name == "ytdl_path") {
+		// Not supported
+	}
+	else
 	if (option_name == "hwdec") {
 		// Not supported
 	}
