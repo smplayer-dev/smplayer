@@ -1,7 +1,8 @@
 name: Build SMPlayer on Mac OS
 env:
   mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-macos.tar.bz2
-  mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-macos.tar.bz2
+  #mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-macos.tar.bz2
+  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos.tar.bz2
 
 on: 
   workflow_dispatch:
@@ -43,6 +44,11 @@ jobs:
 
       - name: Install smtube sources
         run: git clone https://github.com/smplayer-dev/smtube.git packages/smtube
+
+      - name: Set xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '10.3'
 
       - name: Compile
         run: |
