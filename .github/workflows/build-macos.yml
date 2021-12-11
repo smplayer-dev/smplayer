@@ -1,8 +1,10 @@
 name: Build SMPlayer on Mac OS
 env:
-  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-macos.tar.bz2
+  #mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-macos.tar.bz2
+  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-84/mplayer-macos-10.14.tar.bz2
   #mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-macos.tar.bz2
-  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos.tar.bz2
+  #mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos.tar.bz2
+  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos-10.14.tar.bz2
 
 on: 
   workflow_dispatch:
@@ -72,12 +74,12 @@ jobs:
 
       - name: Install mplayer
         run: |
-            wget ${{ env.mplayer-url }}
+            wget ${{ env.mplayer-url }} -O mplayer-macos.tar.bz2
             tar -xvf mplayer-macos.tar.bz2 -C packages/smplayer/package/SMPlayer.app --strip-components=1
 
       - name: Install mpv
         run: |
-            wget ${{ env.mpv-url }}
+            wget ${{ env.mpv-url }} -O  mpv-macos.tar.bz2 
             tar -xvf mpv-macos.tar.bz2 -C /tmp/
             cp /tmp/mpv.app/Contents/MacOS/mpv packages/smplayer/package/SMPlayer.app/Contents/MacOS/
             cp /tmp/mpv.app/Contents/MacOS/lib/* packages/smplayer/package/SMPlayer.app/Contents/MacOS/lib/
