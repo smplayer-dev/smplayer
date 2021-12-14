@@ -1,10 +1,7 @@
 name: Build SMPlayer on Mac OS
 env:
-  #mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-macos.tar.bz2
-  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-84/mplayer-macos-10.14.tar.bz2
-  #mpv-url: https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-macos.tar.bz2
-  #mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos.tar.bz2
-  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos-10.14.tar.bz2
+  mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-84/mplayer-macos-10.14-av.tar.bz2
+  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos-10.14-av.tar.bz2
 
 on: 
   workflow_dispatch:
