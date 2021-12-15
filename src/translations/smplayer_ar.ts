@@ -2263,12 +2263,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 فشل في الإتصال بتطبيق يوتيوب الخارجي. إمّا أنّه غير مثبّت أو أنه لا يعمل بصورة صحيحة.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>ربما عليك تحديث مكتبة اليوتيوب.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2293,7 +2293,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>لتشغيل فيديوات اليوتيوب، يحتاج %1 مساعدة تطبيق خارجي.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2303,7 +2303,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>سينزّل من الموقع الرسمي ويثبّت كـ %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -8204,7 +8204,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>تطبيق دعم يوتيوب</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8285,7 +8285,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>السماح بتشفير AV&amp;1</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8401,12 +8401,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (مستند إلى youtube-dl مع تحسينات)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>أخرى</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>

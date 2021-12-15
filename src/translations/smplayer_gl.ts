@@ -2263,12 +2263,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>% 1 non puido comunicarse co aplicativo externo de YouTube. Ou non está instalado ou non funciona correctamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Quizais necesites actualizar o código de YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>

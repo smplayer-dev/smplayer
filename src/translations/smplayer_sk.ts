@@ -19,7 +19,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>Official website:</source>
-        <translation>Oficiálny web:</translation>
+        <translation>Oficiálna webová stránka:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="74"/>
@@ -938,13 +938,13 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../basegui.cpp" line="1893"/>
         <location filename="../basegui.cpp" line="2238"/>
         <source>%1 log</source>
-        <translation>%1 log</translation>
+        <translation>Záznam %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
         <location filename="../basegui.cpp" line="2241"/>
         <source>SMPlayer log</source>
-        <translation>SMPlayer log</translation>
+        <translation>SMPlayer záznam</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2254"/>
@@ -998,7 +998,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
         <source>Start/stop capturing stream</source>
-        <translation>Spustiť/zastaviť zachytenie streamu</translation>
+        <translation>Spustiť/zastaviť zachytenie prúdu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
@@ -1033,7 +1033,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
         <source>Use custo&amp;m style</source>
-        <translation>Použite vlastn&amp;ý štýl</translation>
+        <translation>Použite vlastný štýl</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
@@ -1340,7 +1340,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="3043"/>
         <source>Logs</source>
-        <translation>Logy</translation>
+        <translation>Záznamy</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3346"/>
@@ -1406,7 +1406,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../basegui.cpp" line="6142"/>
         <location filename="../basegui.cpp" line="6195"/>
         <source>More info in the log.</source>
-        <translation>Viac informácií v logu.</translation>
+        <translation>Viac informácií v zázname.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6148"/>
@@ -1686,7 +1686,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Nahrať &amp;titulky na OpenSubtitles.org...</translation>
+        <translation>Nahrať titulky na OpenSu&amp;btitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2085"/>
@@ -2118,27 +2118,27 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="952"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Logické DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="954"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Fyzické DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="955"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Fyzická veľkosť: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="957"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>Obnovovacia frekvencia: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="958"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Veľkosť: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="959"/>
@@ -2148,7 +2148,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="961"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Virtuálna veľkosť: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="1014"/>
@@ -2181,22 +2181,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Nová záložka</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Vymazať záložku</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"/>
+        <translation>Čas</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation>Názov</translation>
     </message>
 </context>
 <context>
@@ -2204,12 +2204,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"/>
+        <translation>Webový server SMPlayer je spustený</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"/>
+        <translation>Za&amp;staviť webový server SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -2222,12 +2222,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="76"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation>Pripájanie k %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"/>
+        <translation>Kód YouTube bol úspešne nainštalovaný.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
@@ -2237,7 +2237,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation>Úspech</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
@@ -2248,27 +2248,27 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"/>
+        <translation>Nie je možné uložiť %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation>Nastala chyba pri sťahovaní súboru:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="169"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"/>
+        <translation>Pre toto video nebolo možné nájsť URL.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 zlyhala komunikácia s externou aplikáciou YouTube. Buď nie je nainštalovaná, alebo nefunguje správne.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation>Možno je potrebné aktualizovať kód služby YouTube.</translation>
+        <translation>Možno je potrebné aktualizovať kód YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2283,12 +2283,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"/>
+        <translation>Môžete ho aktualizovať len opätovnou inštaláciou prehrávača SMPlayer. Inštalátor stiahne a nainštaluje najnovšiu verziu.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>Inštalovať / Aktualizovať podporu YouTube</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
@@ -2298,23 +2298,23 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"/>
+        <translation>%1 môže túto aplikáciu stiahnuť a nainštalovať za vás.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Stiahne sa z oficiálnej webovej stránky a nainštaluje sa ako %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished"/>
+        <translation>Chcete pokračovať?</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="239"/>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"/>
+        <translation>Inštalovať podporu YouTube?</translation>
     </message>
 </context>
 <context>
@@ -2368,7 +2368,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="4648"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"/>
+        <translation>Aktualizuje sa vyrovnávacia pamäť písiem. Môže to trvať niekoľko sekúnd...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3488"/>
@@ -2378,7 +2378,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="3506"/>
         <source>Audio delay: %1 ms</source>
-        <translation> Oneskorenie zvuku: %1 ms</translation>
+        <translation>Oneskorenie zvuku: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3346"/>
@@ -2388,17 +2388,17 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="579"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation>Nie je možné nájsť URL videa</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3662"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"/>
+        <translation>Titulky zapnuté</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3664"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"/>
+        <translation>Titulky vypnuté</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4287"/>
@@ -2458,7 +2458,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="575"/>
         <source>Connecting to %1</source>
-        <translation>Pripája sa k %1</translation>
+        <translation>Pripájanie k %1</translation>
     </message>
 </context>
 <context>
@@ -2516,7 +2516,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="264"/>
         <source>Time format</source>
-        <translation type="unfinished"/>
+        <translation>Formát času</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
@@ -2536,17 +2536,17 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="719"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť aktuálny čas s mili&amp;sekundami</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť celkový čas</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Zob&amp;raziť zostávajúci čas</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -2766,7 +2766,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="64"/>
         <source>Connecting to %1</source>
-        <translation>Pripája sa k %1</translation>
+        <translation>Pripájanie k %1</translation>
     </message>
 </context>
 <context>
@@ -2823,7 +2823,9 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation>Môžete tiež zadať ďalšie video filtre.
+Oddeľte ich pomocou &quot;,&quot;. Nepoužívajte medzery!!
+Príklad: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
@@ -2977,7 +2979,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"/>
+        <translation>Prihlasovacie údaje Opensubtitles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -3014,7 +3016,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="56"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pridať kód jazyka k názvu súboru s titulkami</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
@@ -3092,22 +3094,22 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"/>
+        <translation>Služba titulkov poskytovaná pomocou %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
         <source>Connecting...</source>
-        <translation type="unfinished"/>
+        <translation>Pripája sa...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"/>
+        <translation>Prihlásenie na opensubtitles.org zlyhalo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
         <source>Search has failed</source>
-        <translation type="unfinished"/>
+        <translation>Vyhľadávanie zlyhalo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
@@ -3118,7 +3120,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"/>
+        <translation>Chyba pri oprave riadkov s titulkami</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3159,7 +3161,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="492"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"/>
+        <translation>Nepodarilo sa spracovať prijaté dáta.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="14"/>
@@ -3194,12 +3196,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"/>
+        <translation>Obnoviť</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"/>
+        <translation>Titulky uložené ako %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
@@ -3211,7 +3213,9 @@ Example: extrastereo,karaoke</source>
         <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"/>
+        <translation>Nebolo možné uložiť stiahnutý
+súbor do priečinka %1
+Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
@@ -3235,7 +3239,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"/>
+        <translation>Vytvára sa vyrovnávacia pamäť písiem...</translation>
     </message>
 </context>
 <context>
@@ -3243,7 +3247,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte multimediálne tlačidlá, ktoré bude SMPlayer preberať.</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
@@ -3428,12 +3432,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="140"/>
         <source>Video Streams</source>
-        <translation type="unfinished"/>
+        <translation>Video stopy</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="159"/>
         <source>Initial Audio Stream</source>
-        <translation>Zvuková stopa</translation>
+        <translation>Počiatočná zvuková stopa</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="162"/>
@@ -3499,7 +3503,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation type="unfinished"/>
+        <translation>Počiatočná video stopa</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -3509,12 +3513,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="117"/>
         <source>Stream title</source>
-        <translation>Názov streamu</translation>
+        <translation>Názov prúdu</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="118"/>
         <source>Stream URL</source>
-        <translation>URL streamu</translation>
+        <translation>URL prúdu</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
@@ -3535,12 +3539,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Pridať novú záložku</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"/>
+        <translation>Čas:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
@@ -3576,22 +3580,22 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer - Zadajte verziu prehrávača MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer nedokázal identifikovať verziu prehrávača MPlayer, ktorú používate.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"/>
+        <translation>Verzia uvádzaná prehrávačom MPlayer:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"/>
+        <translation>Prosím, vyberte &amp;správnu verziu:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -4733,12 +4737,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../logwindow.cpp" line="134"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Log nemôže byť uložený</translation>
+        <translation>Záznam nebolo možné uložiť</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="108"/>
         <source>Logs</source>
-        <translation>Logy</translation>
+        <translation>Záznamy</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="58"/>
@@ -4938,7 +4942,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"/>
+        <translation>Zadať adresy URL</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
@@ -4961,7 +4965,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"/>
+        <translation>Alebo otvorte túto adresu URL v prehrávači médií vo svojom zariadení:</translation>
     </message>
 </context>
 <context>
@@ -4999,7 +5003,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"/>
+        <translation>Predchádzajúci súbor v playliste</translation>
     </message>
 </context>
 <context>
@@ -5082,7 +5086,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlist.cpp" line="765"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"/>
+        <translation>Otvoriť prúd vo webovom prehli&amp;adači</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5264,12 +5268,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlist.cpp" line="2058"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"/>
+        <translation>Vymazanie zlyhalo</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2059"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Nebolo možné vymazať &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2064"/>
@@ -5279,12 +5283,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlist.cpp" line="2065"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"/>
+        <translation>Nie je možné vymazať &apos;%1&apos; zo súborového systému.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2552"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Nie je možné načítať tento playlist</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2552"/>
@@ -5338,7 +5342,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="569"/>
         <source>Log SMPlayer output</source>
-        <translation>Logovať výstup programu SMPlayer</translation>
+        <translation>Zaznamenať výstup programu SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="653"/>
@@ -5348,7 +5352,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="600"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>Filter pre logy programu SMPlayer</translation>
+        <translation>Filter pre záznamy programu SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
@@ -5388,12 +5392,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="592"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Logovať výstup programu &amp;SMPlayer</translation>
+        <translation>Zaznamenať výstup programu &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="663"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Filter pre SMPlayer logy:</translation>
+        <translation>&amp;Filter pre záznamy programu SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="276"/>
@@ -5403,7 +5407,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Logs</source>
-        <translation>Logy</translation>
+        <translation>Záznamy</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5523,7 +5527,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, SMPlayer bude ukladať ladiace správy, ktoré SMPlayer vypíše (záznam si môžete pozrieť v &lt;b&gt;Možnosti -&gt; Zobraziť záznamy -&gt; SMPlayer&lt;/b&gt;). Tieto informácie môžu byť pre vývojára veľmi užitočné v prípade, že nájdete chybu.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
@@ -5533,7 +5537,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je zaškrtnuté, SMPlayer uloží výstup %1 (záznam si môžete pozrieť v &lt;b&gt;Možnosti -&gt; Zobraziť záznamy -&gt; %1&lt;/b&gt;). V prípade problémov môže tento záznam obsahovať dôležité informácie, preto sa odporúča ponechať túto možnosť zaškrtnutú.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
@@ -5543,7 +5547,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, záznam %1 sa uloží do zadaného súboru vždy, keď sa začne prehrávať nový súbor. Je určený pre externé aplikácie, aby mohli získať informácie o prehrávanom súbore.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
@@ -5648,7 +5652,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, SMPlayer odovzdá %1 skrátenú verziu názvov súborov.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
@@ -5914,7 +5918,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, SMPlayer bude prehrávať DVD pomocou dvdnav. Vyžaduje verziu prehrávača MPlayer s podporou dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -6015,7 +6019,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="215"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"/>
+        <translation>Tu môžete zadať preferovaný jazyk pre zvukové stopy a titulky. Ak je vybrané médium s viacerými zvukovými stopami a titulkami, SMPlayer sa pokúsi použiť váš preferovaný jazyk. Toto bude fungovať len s médiami, ktoré ponúkajú informácie o jazyku zvukových stôp a titulkov, ako sú DVD alebo súbory mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
@@ -6035,7 +6039,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte, ktorý multimediálny prehrávač chcete použiť, buď MPlayer alebo mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
@@ -6055,7 +6059,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1066"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Zapamätať nastavenia pre prúdy</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -6181,7 +6185,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Pridať čierne okraje pre titulky v predvolenom nastavení</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1164"/>
@@ -6446,12 +6450,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1298"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"/>
+        <translation>Tu môžete zadať prednostný zoznam kódov jazykov titulkov oddelených čiarkami. Napríklad: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1301"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Toto pole akceptuje regulárne výrazy. Napríklad: &lt;b&gt;es|esp|spa&lt;/b&gt; vyberie prúd titulkov, ak sa zhoduje s &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; alebo &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1308"/>
@@ -6516,7 +6520,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="523"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Pridať čierne o&amp;kraje pre titulky v predvolenom nastavení</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="586"/>
@@ -6693,7 +6697,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, v režime celej obrazovky sa k obrazu pridajú čierne okraje. To umožňuje zobrazenie titulkov na čiernych okrajoch.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6778,7 +6782,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="193"/>
         <source>&amp;Folder:</source>
-        <translation>&amp;Proečinok:</translation>
+        <translation>&amp;Priečinok:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1255"/>
@@ -7354,7 +7358,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation>Keď je táto možnosť povolená, multimediálne tlačidlá (Prehrať, Zastaviť, Hlasitosť+/-, Stíšiť atď.) budú fungovať, aj keď je SMPlayer spustený na pozadí.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
@@ -7609,7 +7613,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
         <source>Default font:</source>
-        <translation>Štandardné písmo:</translation>
+        <translation>Predvolené písmo:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="411"/>
@@ -7674,22 +7678,22 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="959"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Vysoké &amp;DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer dokáže škálovať rozhranie na obrazovkách s vysokým DPI. Tu môžete túto funkciu zakázať alebo zmeniť koeficient mierky.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>Povoliť podporu obrazovi&amp;ek s vysokým DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="985"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Mierka</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="991"/>
@@ -7729,12 +7733,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
         <source>Autoresize</source>
-        <translation type="unfinished"/>
+        <translation>Automatická zmena veľkosti</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"/>
+        <translation>Veľkosť hlavného okna sa môže meniť automaticky. Vyberte preferovanú možnosť.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -7744,12 +7748,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"/>
+        <translation>Ak túto možnosť zaškrtnete, poloha a veľkosť hlavného okna sa uloží a obnoví pri opätovnom spustení prehrávača SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte grafické rozhranie, ktoré preferujete pre aplikáciu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
@@ -7764,12 +7768,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt; GUI so zmenou vzhľadu&lt;/b&gt; poskytuje rozhranie, v ktorom je k dispozícii niekoľko vzhľadov.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Mpc GUI&lt;/b&gt; vyzerá ako rozhranie v Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="877"/>
@@ -7794,17 +7798,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="238"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"/>
+        <translation>Základné GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="247"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"/>
+        <translation>GUI so zmenou vzhľadu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="260"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>K&amp;oeficient mierky:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="263"/>
@@ -7819,7 +7823,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation>Ak sa po automatickej zmene veľkosti hlavné okno dostane mimo obrazovky, táto možnosť vycentruje okno, aby sa tomu zabránilo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
@@ -7834,17 +7838,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte sadu ikon, ktorú preferujete pre danú aplikáciu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
         <source>Skin</source>
-        <translation>Skin</translation>
+        <translation>Vzhľad</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte vzhľad, ktorý preferujete pre aplikáciu. K dispozícii len pre GUI so zmenou vzhľadu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
@@ -7854,17 +7858,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte štýl, ktorý preferujete pre danú aplikáciu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="792"/>
         <source>Default font</source>
-        <translation>Štandardné písmo:</translation>
+        <translation>Predvolené písmo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="793"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"/>
+        <translation>Tu môžete zmeniť písmo aplikácie.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
@@ -8162,12 +8166,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;YouTube (a ďalšie stránky)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation>Podpora pre stránky s &amp;videom</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
@@ -8177,7 +8181,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation>Možnosti pre YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
@@ -8197,12 +8201,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="209"/>
         <source>&amp;User agent:</source>
-        <translation type="unfinished"/>
+        <translation>Po&amp;užívateľský agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Aplikácia podpory YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8212,12 +8216,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="259"/>
         <source>Web Server</source>
-        <translation type="unfinished"/>
+        <translation>Webový server</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="271"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"/>
+        <translation>Zmeny v tejto sekcii sa uplatnia pri ďalšom reštarte webového servera</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="291"/>
@@ -8237,12 +8241,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="371"/>
         <source>Subtitles</source>
-        <translation type="unfinished"/>
+        <translation>Titulky</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="377"/>
         <source>Convert SRT subtitles to &amp;VTT</source>
-        <translation type="unfinished"/>
+        <translation>Previesť titulky SRT na &amp;VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="409"/>
@@ -8318,12 +8322,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>pokúsi sa použiť mpv + youtube-dl len pre stránky, ktoré to vyžadujú</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
-        <translation type="unfinished"/>
+        <translation>Používateľský agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="92"/>
@@ -8353,27 +8357,27 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="326"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation>Podpora pre stránky s videom</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation>podpora pre stránky s videom je vypnutá</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation>použije sa len interná podpora pre YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="338"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation>používa mpv + youtube-dl pre všetky stránky</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8399,7 +8403,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp ( založené na youtube-dl s vylepšeniami)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
@@ -8434,7 +8438,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation>Vybrať preferovanú kvalitu pre videá YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
@@ -8459,7 +8463,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation>Nastaviť používateľského agenta, ktorého SMPlayer použije pri pripájaní k YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="385"/>
@@ -8479,7 +8483,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="392"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"/>
+        <translation>Port, ktorý bude používať webový server.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="394"/>
@@ -8489,17 +8493,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="395"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"/>
+        <translation>Keď beží webový server, k súborom z tohto počítača môže pristupovať akékoľvek zariadenie v sieti. Ak je táto možnosť zapnutá, každé zariadenie môže získať zoznam súborov v tomto počítači. Ak je táto možnosť vypnutá, zoznam nebude dostupný.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="401"/>
         <source>Convert SRT subtitles to VTT</source>
-        <translation type="unfinished"/>
+        <translation>Previesť titulky SRT na VTT</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="402"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, SMPlayer automaticky prevedie súbory s titulkami vo formáte SRT na formát VTT. Titulky VTT budú mať rovnaký názov súboru, ale príponu .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="405"/>
@@ -8519,7 +8523,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="409"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zapnutá, SMPlayer sa pokúsi nájsť reklamy v titulkoch a odstrániť ich.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="412"/>
@@ -8911,7 +8915,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Possible values:</source>
-        <translation>Možnosti:</translation>
+        <translation>Možné hodnoty:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
@@ -9319,7 +9323,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Povoliť písma &amp;Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -9346,12 +9350,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"/>
+        <translation>Všetky titulky obsahujúce názov filmu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"/>
+        <translation>Všetky titulky v adresári</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -9406,7 +9410,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je k dispozícii jedna alebo viacero stôp s titulkami, automaticky sa vyberie jedna z nich, zvyčajne prvá, ale ak sa niektorá z nich zhoduje s jazykom, ktorý používateľ uprednostňuje, použije sa táto.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
@@ -9446,7 +9450,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation>Vybrať písmo pre titulky.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
@@ -9456,27 +9460,27 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť povoľuje knižnicu ASS, ktorá umožňuje zobrazovať titulky s viacerými farbami, písmami...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Povoliť písma Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, pre titulky budú k dispozícii písma systému Windows. Je tu jedna nepríjemnosť: je potrebné vytvoriť vyrovnávaciu pamäť písiem, čo môže chvíľu trvať.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>Ak táto možnosť nie je zaškrtnutá, možno použiť len niekoľko písiem dodaných s prehrávačom SMPlayer, ale je to rýchlejšie.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"/>
+        <translation>Veľkosť v pixeloch.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -9661,7 +9665,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation>Použite vlastný štýl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
@@ -9744,12 +9748,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Default scale</source>
-        <translation type="unfinished"/>
+        <translation>Predvolená mierka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť určuje predvolenú mierku písma pre titulky SSA/ASS, ktorá sa použije pre novo otvorené súbory.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
@@ -9764,12 +9768,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"/>
+        <translation>Písmo a &amp;farby</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"/>
+        <translation>Predvolená mierka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9945,7 +9949,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, SMPlayer bude kontrolovať aktualizácie a zobrazí oznámenie, ak je k dispozícii nová verzia.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -10148,7 +10152,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"/>
+        <translation>otvorí mpc gui.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -10163,12 +10167,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="101"/>
         <source>time</source>
-        <translation type="unfinished"/>
+        <translation>čas</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="127"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"/>
+        <translation>otvorí gui s podporou zmeny vzhľadu.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -10193,7 +10197,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"/>
+        <translation>určuje veľkosť hlavného okna.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="180"/>
@@ -10209,7 +10213,7 @@ Chcete ho prepísať?</translation>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"/>
+        <translation>SMPlayer je môj obľúbený prehrávač médií v mojom PC. Skontrolujte to!</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
@@ -10639,17 +10643,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Aktuálny čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Celkový čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Zostávajúci čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -10690,34 +10694,34 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="167"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"/>
+        <translation>Nepodarilo sa získať číslo najnovšej verzie</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="202"/>
         <source>New version available</source>
-        <translation type="unfinished"/>
+        <translation>Je dostupná nová verzia</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="203"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"/>
+        <translation>K dispozícii je nová verzia prehrávača SMPlayer.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <location filename="../updatechecker.cpp" line="221"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Nainštalovaná verzia: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Dostupná verzia: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"/>
+        <translation>Chceli by ste sa o tejto novej verzii dozvedieť viac?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="219"/>
@@ -10737,7 +10741,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="228"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"/>
+        <translation>Pri pokuse o získanie informácií o najnovšej dostupnej verzii došlo k chybe.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="229"/>
