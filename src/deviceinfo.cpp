@@ -163,10 +163,8 @@ DeviceList DeviceInfo::paDevices() {
 
 	QProcess p;
 	p.setProcessChannelMode( QProcess::MergedChannels );
-	QStringList env = QProcess::systemEnvironment();
-	env << "LC_ALL=C";
-	p.setEnvironment(env);
-	p.start("pacmd list-sinks", QStringList());
+	p.setEnvironment( QProcess::systemEnvironment() << "LC_ALL=C" );
+	p.start("pacmd", QStringList() << "list-sinks");
 
 	int index = -1;
 	QString name;
