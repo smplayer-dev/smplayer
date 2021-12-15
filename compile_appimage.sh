@@ -19,7 +19,7 @@ if [ -n "$USE_SMTUBE_LIB" ]; then
   cd smtube
   lrelease smtube.pro
   qmake DEFINES+="SMTUBE_LIB"
-  make -j4
+  make -j$(nproc)
   cd ..
 fi
 
@@ -27,7 +27,7 @@ echo Compiling smplayer
 cd src
 lrelease smplayer.pro
 qmake DEFINES+="$SM_DEFINES"
-make -j4
+make -j$(nproc)
 cd ..
 
 echo Installing
