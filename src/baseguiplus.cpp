@@ -1067,7 +1067,8 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 }
 
 bool BaseGuiPlus::isVideoDetached() {
-	return (mplayerwindow->parent() == 0);
+	//return (mplayerwindow->parent() == 0);
+	return (mplayerwindow->windowFlags() & Qt::Window);
 }
 
 void BaseGuiPlus::detachVideo(bool detach) {
@@ -1079,7 +1080,8 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			fullscreenAct->setEnabled(false);
 
 			panel->layout()->removeWidget(mplayerwindow);
-			mplayerwindow->setParent(0);
+			//mplayerwindow->setParent(0);
+			mplayerwindow->setWindowFlags(Qt::Window);
 			mplayerwindow->setWindowTitle(tr("SMPlayer external screen output"));
 
 			detached_label->show();
@@ -1092,7 +1094,8 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			detached_label->hide();
 
 			mplayerwindow->setWindowTitle(QString());
-			mplayerwindow->setParent(panel);
+			//mplayerwindow->setParent(panel);
+			mplayerwindow->setWindowFlags(Qt::Widget);
 			#if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
 			qApp->processEvents();
 			#endif
