@@ -1074,6 +1074,26 @@ bool BaseGuiPlus::isVideoDetached() {
 void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
+#ifdef USE_WINDOW_VIDEOLAYER
+	if (detach) {
+		toggleFullscreen(false);
+		fullscreenAct->setEnabled(false);
+		mplayerwindow->externalVideoLayer()->setWindowTitle(tr("SMPlayer external screen output"));
+		mplayerwindow->externalVideoLayer()->show();
+		mplayerwindow->hide();
+		detached_label->show();
+		mplayerwindow->useExternalVideoLayer(true);
+	} else {
+		mplayerwindow->externalVideoLayer()->setWindowTitle(QString());
+		mplayerwindow->externalVideoLayer()->hide();
+		fullscreenAct->setEnabled(true);
+		detached_label->hide();
+		mplayerwindow->useExternalVideoLayer(false);
+		mplayerwindow->show();
+		fullscreenAct->setEnabled(true);
+	}
+	core->restart();
+#else
 	if (detach) {
 		if (!isVideoDetached()) {
 			toggleFullscreen(false);
@@ -1102,6 +1122,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			panel->layout()->addWidget(mplayerwindow);
 		}
 	}
+#endif
 }
 
 /*

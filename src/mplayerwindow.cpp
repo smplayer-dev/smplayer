@@ -85,10 +85,22 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
-#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
-	videolayer = new VideoLayerRender(this);
+#ifdef USE_WINDOW_VIDEOLAYER
+	#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
+	internal_vl = new VideoLayerRender(this);
+	external_vl = new VideoLayerRender(this, Qt::Window);
+	#else
+	internal_vl = new VideoLayer(this);
+	external_vl = new VideoLayer(this, Qt::Window);
+	#endif
+	videolayer = internal_vl;
+	external_vl->hide();
 #else
+	#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
+	videolayer = new VideoLayerRender(this);
+	#else
 	videolayer = new VideoLayer(this);
+	#endif
 #endif
 
 	logo = new QLabel( this );
@@ -99,11 +111,17 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 	videolayer->setAutoFillBackground(true);
+	#ifdef USE_WINDOW_VIDEOLAYER
+	external_vl->setAutoFillBackground(true);
+	#endif
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 #else
 	setStyleSheet("MplayerWindow { background-color: black;}");
 	videolayer->setStyleSheet("background-color: black;");
+	#ifdef USE_WINDOW_VIDEOLAYER
+	external_vl->setStyleSheet("background-color: black;");
+	#endif
 #endif
 
 	QVBoxLayout * videolayerLayout = new QVBoxLayout( this );

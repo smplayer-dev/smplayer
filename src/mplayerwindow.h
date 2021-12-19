@@ -49,6 +49,10 @@ class VideoLayerCV;
 // Number of pixels the window has to be dragged at least before dragging starts
 #define DRAG_THRESHOLD 4
 
+#if defined(Q_OS_UNIX) && QT_VERSION >= 0x050000
+#define USE_WINDOW_VIDEOLAYER
+#endif
+
 enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
 
 class MplayerWindow : public QWidget
@@ -100,6 +104,15 @@ public:
 #if REPAINT_BACKGROUND_OPTION
 	void setRepaintBackground(bool b);
 	bool repaintBackground() { return repaint_background; }
+#endif
+
+#ifdef USE_WINDOW_VIDEOLAYER
+	void useExternalVideoLayer(bool b) {
+		if (b) videolayer = external_vl; else videolayer = internal_vl;
+	}
+	bool usingExternalVideoLayer() { return videolayer == external_vl; }
+	QWidget * externalVideoLayer() { return external_vl; }
+	QWidget * internalVideoLayer() { return internal_vl; }
 #endif
 
 public slots:
@@ -166,6 +179,10 @@ protected:
 	QLabel * logo;
 
 	VideoLayer * videolayer;
+#ifdef USE_WINDOW_VIDEOLAYER
+	VideoLayer * internal_vl;
+	VideoLayer * external_vl;
+#endif
 
 	// Zoom and moving
 	int offset_x, offset_y;
