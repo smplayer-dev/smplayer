@@ -1075,6 +1075,9 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
 #ifdef USE_WINDOW_VIDEOLAYER
+	bool playing = (core->state() != Core::Stopped);
+	core->stop();
+
 	if (detach) {
 		toggleFullscreen(false);
 		fullscreenAct->setEnabled(false);
@@ -1092,7 +1095,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 		mplayerwindow->show();
 		fullscreenAct->setEnabled(true);
 	}
-	core->restart();
+	if (playing) core->play();
 #else
 	if (detach) {
 		if (!isVideoDetached()) {
