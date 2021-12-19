@@ -1038,19 +1038,25 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		QRect geometry = screen_list[screen]->geometry();
 		#else
 		bool is_primary_screen = (screen == dw->primaryScreen());
-		QRect geometry = dw->screenGeometry(screen);	
-		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
+		QRect geometry = dw->screenGeometry(screen);
 		#endif
+		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
 		//is_primary_screen = false;
 		if (is_primary_screen) {
+			#ifndef USE_WINDOW_VIDEOLAYER
 			mplayerwindow->showNormal();
-			#if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
-			qApp->processEvents();
+			  #if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
+			  qApp->processEvents();
+			  #endif
 			#endif
 			detachVideo(false);
 		} else {
 			detachVideo(true);
+			#ifdef USE_WINDOW_VIDEOLAYER
+			mplayerwindow->externalVideoLayer()->move(geometry.x(), geometry.y());
+			mplayerwindow->externalVideoLayer()->showFullScreen();
+			#else
 			//#if QT_VERSION >= 0x050000
 			//mplayerwindow->windowHandle()->setScreen(screen_list[screen]); // Doesn't work
 			//#else
@@ -1059,6 +1065,7 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 			qApp->processEvents();
 			//toggleFullscreen(true);
 			mplayerwindow->showFullScreen();
+			#endif
 		}
 	} else {
 		// Error

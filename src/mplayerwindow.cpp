@@ -337,8 +337,13 @@ void MplayerWindow::updateVideoWindow()
 	    }
 	}
 
-    videolayer->move(x,y);
-    videolayer->resize(w, h);
+#ifdef USE_WINDOW_VIDEOLAYER
+	if (videolayer == internal_vl)
+#endif
+	{
+		videolayer->move(x,y);
+		videolayer->resize(w, h);
+	}
 
 	orig_x = x;
 	orig_y = y;
@@ -510,15 +515,25 @@ QSize MplayerWindow::minimumSizeHint () const {
 }
 
 void MplayerWindow::setOffsetX( int d) {
-	offset_x = d;
-	videolayer->move( orig_x + offset_x, videolayer->y() );
+#ifdef USE_WINDOW_VIDEOLAYER
+	if (videolayer == internal_vl)
+#endif
+	{
+		offset_x = d;
+		videolayer->move( orig_x + offset_x, videolayer->y() );
+	}
 }
 
 int MplayerWindow::offsetX() { return offset_x; }
 
 void MplayerWindow::setOffsetY( int d) {
-	offset_y = d;
-	videolayer->move( videolayer->x(), orig_y + offset_y );
+#ifdef USE_WINDOW_VIDEOLAYER
+	if (videolayer == internal_vl)
+#endif
+	{
+		offset_y = d;
+		videolayer->move( videolayer->x(), orig_y + offset_y );
+	}
 }
 
 int MplayerWindow::offsetY() { return offset_y; }
@@ -542,8 +557,13 @@ void MplayerWindow::setZoom( double d) {
 		y = (height() -h) / 2;
 	}
 
-	videolayer->move(x,y);
-	videolayer->resize(w,h);
+#ifdef USE_WINDOW_VIDEOLAYER
+	if (videolayer == internal_vl)
+#endif
+	{
+		videolayer->move(x,y);
+		videolayer->resize(w,h);
+	}
 }
 
 double MplayerWindow::zoom() { return zoom_factor; }
