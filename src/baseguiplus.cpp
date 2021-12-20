@@ -1038,25 +1038,19 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		QRect geometry = screen_list[screen]->geometry();
 		#else
 		bool is_primary_screen = (screen == dw->primaryScreen());
-		QRect geometry = dw->screenGeometry(screen);
-		#endif
+		QRect geometry = dw->screenGeometry(screen);	
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
+		#endif
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
 		//is_primary_screen = false;
 		if (is_primary_screen) {
-			#ifndef USE_WINDOW_VIDEOLAYER
 			mplayerwindow->showNormal();
-			  #if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
-			  qApp->processEvents();
-			  #endif
+			#if QT_VERSION >= 0x050000 && defined(OS_UNIX_NOT_MAC)
+			qApp->processEvents();
 			#endif
 			detachVideo(false);
 		} else {
 			detachVideo(true);
-			#ifdef USE_WINDOW_VIDEOLAYER
-			mplayerwindow->externalVideoLayer()->move(geometry.x(), geometry.y());
-			mplayerwindow->externalVideoLayer()->showFullScreen();
-			#else
 			//#if QT_VERSION >= 0x050000
 			//mplayerwindow->windowHandle()->setScreen(screen_list[screen]); // Doesn't work
 			//#else
@@ -1065,7 +1059,6 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 			qApp->processEvents();
 			//toggleFullscreen(true);
 			mplayerwindow->showFullScreen();
-			#endif
 		}
 	} else {
 		// Error
@@ -1081,29 +1074,6 @@ bool BaseGuiPlus::isVideoDetached() {
 void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
-#ifdef USE_WINDOW_VIDEOLAYER
-	bool playing = (core->state() != Core::Stopped);
-	core->stop();
-
-	if (detach) {
-		toggleFullscreen(false);
-		fullscreenAct->setEnabled(false);
-		mplayerwindow->externalVideoLayer()->setWindowTitle(tr("SMPlayer external screen output"));
-		mplayerwindow->externalVideoLayer()->show();
-		mplayerwindow->hide();
-		detached_label->show();
-		mplayerwindow->useExternalVideoLayer(true);
-	} else {
-		mplayerwindow->externalVideoLayer()->setWindowTitle(QString());
-		mplayerwindow->externalVideoLayer()->hide();
-		fullscreenAct->setEnabled(true);
-		detached_label->hide();
-		mplayerwindow->useExternalVideoLayer(false);
-		mplayerwindow->show();
-		fullscreenAct->setEnabled(true);
-	}
-	if (playing) core->play();
-#else
 	if (detach) {
 		if (!isVideoDetached()) {
 			toggleFullscreen(false);
@@ -1132,7 +1102,6 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			panel->layout()->addWidget(mplayerwindow);
 		}
 	}
-#endif
 }
 
 /*

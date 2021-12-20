@@ -85,22 +85,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
 
-#ifdef USE_WINDOW_VIDEOLAYER
-	#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
-	internal_vl = new VideoLayerRender(this);
-	external_vl = new VideoLayerRender(this, Qt::Window);
-	#else
-	internal_vl = new VideoLayer(this);
-	external_vl = new VideoLayer(this, Qt::Window);
-	#endif
-	videolayer = internal_vl;
-	external_vl->hide();
-#else
-	#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
+#if defined(USE_SHM) || defined(USE_COREVIDEO_BUFFER)
 	videolayer = new VideoLayerRender(this);
-	#else
+#else
 	videolayer = new VideoLayer(this);
-	#endif
 #endif
 
 	logo = new QLabel( this );
@@ -111,17 +99,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 	videolayer->setAutoFillBackground(true);
-	#ifdef USE_WINDOW_VIDEOLAYER
-	external_vl->setAutoFillBackground(true);
-	#endif
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 #else
 	setStyleSheet("MplayerWindow { background-color: black;}");
 	videolayer->setStyleSheet("background-color: black;");
-	#ifdef USE_WINDOW_VIDEOLAYER
-	external_vl->setStyleSheet("background-color: black;");
-	#endif
 #endif
 
 	QVBoxLayout * videolayerLayout = new QVBoxLayout( this );
@@ -337,13 +319,8 @@ void MplayerWindow::updateVideoWindow()
 	    }
 	}
 
-#ifdef USE_WINDOW_VIDEOLAYER
-	if (videolayer == internal_vl)
-#endif
-	{
-		videolayer->move(x,y);
-		videolayer->resize(w, h);
-	}
+    videolayer->move(x,y);
+    videolayer->resize(w, h);
 
 	orig_x = x;
 	orig_y = y;
@@ -515,25 +492,15 @@ QSize MplayerWindow::minimumSizeHint () const {
 }
 
 void MplayerWindow::setOffsetX( int d) {
-#ifdef USE_WINDOW_VIDEOLAYER
-	if (videolayer == internal_vl)
-#endif
-	{
-		offset_x = d;
-		videolayer->move( orig_x + offset_x, videolayer->y() );
-	}
+	offset_x = d;
+	videolayer->move( orig_x + offset_x, videolayer->y() );
 }
 
 int MplayerWindow::offsetX() { return offset_x; }
 
 void MplayerWindow::setOffsetY( int d) {
-#ifdef USE_WINDOW_VIDEOLAYER
-	if (videolayer == internal_vl)
-#endif
-	{
-		offset_y = d;
-		videolayer->move( videolayer->x(), orig_y + offset_y );
-	}
+	offset_y = d;
+	videolayer->move( videolayer->x(), orig_y + offset_y );
 }
 
 int MplayerWindow::offsetY() { return offset_y; }
@@ -557,13 +524,8 @@ void MplayerWindow::setZoom( double d) {
 		y = (height() -h) / 2;
 	}
 
-#ifdef USE_WINDOW_VIDEOLAYER
-	if (videolayer == internal_vl)
-#endif
-	{
-		videolayer->move(x,y);
-		videolayer->resize(w,h);
-	}
+	videolayer->move(x,y);
+	videolayer->resize(w,h);
 }
 
 double MplayerWindow::zoom() { return zoom_factor; }
