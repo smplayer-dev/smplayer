@@ -47,7 +47,6 @@
 #endif
 
 #ifdef SCREENS_SUPPORT
-#include <QVBoxLayout>
 #include <QLabel>
 #include "mplayerwindow.h"
 #include "infowindow.h"
@@ -56,7 +55,11 @@
 #include <QScreen>
 #include <QWindow>
 #endif
+
+#ifdef DETACH_VIDEO_LAYER
+#include <QVBoxLayout>
 #endif
+#endif // SCREENS_SUPPORT
 
 #ifdef GLOBALSHORTCUTS
 #include "globalshortcuts/globalshortcuts.h"
@@ -160,7 +163,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
                 showPlaylistAct, SLOT(setChecked(bool)) );
 	}
 
-#ifdef DETACH_VIDEO_OPTION
+#if defined(DETACH_VIDEO_LAYER) && defined(DETACH_VIDEO_OPTION)
 	detachVideoAct = new MyAction(this, "detach_video");
 	detachVideoAct->setCheckable(true);
 	connect(detachVideoAct, SIGNAL(toggled(bool)), this, SLOT(detachVideo(bool)));
@@ -270,7 +273,7 @@ void BaseGuiPlus::populateMainMenu() {
 		#endif
 	}
 
-#ifdef DETACH_VIDEO_OPTION
+#if defined(DETACH_VIDEO_LAYER) && defined(DETACH_VIDEO_OPTION)
 	optionsMenu->addAction(detachVideoAct);
 #endif
 
@@ -375,7 +378,7 @@ void BaseGuiPlus::retranslateStrings() {
 	updateShowAllAct();
 #endif
 
-#ifdef DETACH_VIDEO_OPTION
+#if defined(DETACH_VIDEO_LAYER) && defined(DETACH_VIDEO_OPTION)
 	detachVideoAct->change("Detach video");
 #endif
 
@@ -1017,14 +1020,16 @@ void BaseGuiPlus::updateSendToScreen() {
 
 	sendToScreen_menu->clear();
 	sendToScreen_menu->addActions(sendToScreenGroup->actions());
-	
+
+#ifdef DETACH_VIDEO_LAYER
 	if (n_screens == 1 && isVideoDetached()) detachVideo(false);
+#endif
 }
 
 void BaseGuiPlus::sendVideoToScreen(int screen) {
 	qDebug() << "BaseGuiPlus::sendVideoToScreen:" << screen;
 
-#if defined(Q_OS_UNIX) && QT_VERSION >= 0x050000
+#ifndef DETACH_VIDEO_LAYER
 	mplayerwindow->setVisible(screen == 0);
 	detached_label->setVisible(screen != 0);
 	fullscreenAct->setEnabled(screen == 0);
@@ -1073,7 +1078,9 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 	}
 #endif
 }
+#endif // SCREENS_SUPPORT
 
+#ifdef DETACH_VIDEO_LAYER
 bool BaseGuiPlus::isVideoDetached() {
 	//return (mplayerwindow->parent() == 0);
 	return (mplayerwindow->windowFlags() & Qt::Window);

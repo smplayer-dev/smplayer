@@ -32,7 +32,12 @@
 #endif
 
 #define SCREENS_SUPPORT
-//#define DETACH_VIDEO_OPTION
+#ifdef SCREENS_SUPPORT
+  #if !defined(Q_OS_UNIX) || QT_VERSION < 0x050000
+  #define DETACH_VIDEO_LAYER
+  #endif
+  //#define DETACH_VIDEO_OPTION
+#endif
 
 #define SEND_AUDIO_OPTION
 
@@ -101,7 +106,7 @@ protected:
 	VolumeSliderAction * createVolumeSliderAction(QWidget * parent);
 	TimeLabelAction * createTimeLabelAction(TimeLabelAction::TimeLabelType type, QWidget * parent);
 
-#ifdef SCREENS_SUPPORT
+#ifdef DETACH_VIDEO_LAYER
 	bool isVideoDetached();
 #endif
 
@@ -147,7 +152,9 @@ protected slots:
 	void updateSendToScreen();
 	void sendVideoToScreen(int screen);
 
+	#ifdef DETACH_VIDEO_LAYER
 	void detachVideo(bool);
+	#endif
 
 	void showScreensInfo();
 #endif
@@ -188,7 +195,7 @@ protected:
 	#endif
 #endif
 
-#ifdef DETACH_VIDEO_OPTION
+#if defined(DETACH_VIDEO_LAYER) && defined(DETACH_VIDEO_OPTION)
 	MyAction * detachVideoAct;
 #endif
 
