@@ -70,6 +70,7 @@ using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
 	: QObject( parent )
+	, display_screen(0)
 	, initial_second(0)
 {
 	qRegisterMetaType<Core::State>("Core::State");
@@ -1625,7 +1626,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	if (pref->fullscreen && pref->use_mplayer_window) {
+	if ((pref->fullscreen && pref->use_mplayer_window) || display_screen != 0) {
 		proc->setOption("fs", true);
 	} else {
 		// No mplayer fullscreen mode
@@ -1833,7 +1834,11 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
 #endif
 
-	if (!pref->use_mplayer_window) {
+	if (display_screen != 0) {
+		proc->setOption("screen", display_screen);
+	}
+
+	if (!pref->use_mplayer_window && display_screen == 0) {
 		#ifndef Q_OS_MACX
 		proc->disableInput();
 		#endif
@@ -4225,7 +4230,7 @@ void Core::changeAspectRatio( int ID ) {
 
 	double asp = mset.aspectToNum( (MediaSettings::Aspect) ID);
 
-	if (!pref->use_mplayer_window) {
+	if (!pref->use_mplayer_window && display_screen ==0) {
 		mplayerwindow->setAspect(asp);
 	} else {
 		// Using mplayer own window

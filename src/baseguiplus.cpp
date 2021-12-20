@@ -1024,13 +1024,20 @@ void BaseGuiPlus::updateSendToScreen() {
 void BaseGuiPlus::sendVideoToScreen(int screen) {
 	qDebug() << "BaseGuiPlus::sendVideoToScreen:" << screen;
 
-#if QT_VERSION >= 0x050000
+#if defined(Q_OS_UNIX) && QT_VERSION >= 0x050000
+	mplayerwindow->setVisible(screen == 0);
+	detached_label->setVisible(screen != 0);
+	fullscreenAct->setEnabled(screen == 0);
+	core->setDisplayScreen(screen);
+	core->restart();
+#else
+	#if QT_VERSION >= 0x050000
 	QList<QScreen *> screen_list = qApp->screens();
 	int n_screens = screen_list.count();
-#else
+	#else
 	QDesktopWidget * dw = qApp->desktop();
 	int n_screens = dw->screenCount();
-#endif
+	#endif
 
 	if (screen < n_screens) {
 		#if QT_VERSION >= 0x050000
@@ -1064,6 +1071,7 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		// Error
 		qWarning() << "BaseGuiPlus::sendVideoToScreen: screen" << screen << "is not valid";
 	}
+#endif
 }
 
 bool BaseGuiPlus::isVideoDetached() {

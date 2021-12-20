@@ -394,6 +394,9 @@ public:
 
 	void changeFileSettingsMethod(QString method);
 
+	void setDisplayScreen(int n) { display_screen = n; }
+	int displayScreen() { return display_screen; }
+
 protected:
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();
@@ -570,6 +573,8 @@ protected:
 #ifdef YOUTUBE_SUPPORT
 	RetrieveYoutubeUrl * yt;
 #endif
+
+	int display_screen;
 
 private:
 	// Some variables to proper restart
