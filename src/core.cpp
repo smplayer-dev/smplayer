@@ -1729,15 +1729,19 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 		#endif
 		#ifdef Q_OS_MACX
-		#ifdef USE_SHM
-		proc->setOption("vo", "shm,");
-		#else
-		#ifdef USE_COREVIDEO_BUFFER
-		if (proc->isMPlayer()) {
-			proc->setOption("vo", "corevideo,");
+		if (pref->use_mplayer_window || display_screen != 0) {
+			if (proc->isMPlayer()) proc->setOption("vo", "gl,"); else proc->setOption("vo", "gpu,");
+		} else {
+			#ifdef USE_SHM
+			proc->setOption("vo", "shm,");
+			#else
+			#ifdef USE_COREVIDEO_BUFFER
+			if (proc->isMPlayer()) {
+				proc->setOption("vo", "corevideo,");
+			}
+			#endif
+			#endif // USE_SHM
 		}
-		#endif
-		#endif // USE_SHM
 		#endif // Q_OS_MACX
 	}
 
