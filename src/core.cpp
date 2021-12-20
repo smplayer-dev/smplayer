@@ -1751,7 +1751,11 @@ void Core::startMplayer( QString file, double seek ) {
 		// Trying to prevent the video to be outside the application window
 		if (pref->vo.isEmpty()) {
 			#ifdef USE_SHM
-			proc->setOption("vo", "shm,");
+			if (pref->use_mplayer_window || display_screen != 0) {
+				if (proc->isMPlayer()) proc->setOption("vo", "gl,"); else proc->setOption("vo", "gpu,");
+			} else {
+				proc->setOption("vo", "shm,");
+			}
 			#else
 			proc->setOption("vo", "xv,x11,");
 			#endif
