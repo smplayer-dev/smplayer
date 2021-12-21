@@ -1030,6 +1030,8 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 	qDebug() << "BaseGuiPlus::sendVideoToScreen:" << screen;
 
 #ifndef DETACH_VIDEO_LAYER
+	if (core->displayScreen() == screen) return;
+
 	mplayerwindow->setVisible(screen == 0);
 	detached_label->setVisible(screen != 0);
 	fullscreenAct->setEnabled(screen == 0);
