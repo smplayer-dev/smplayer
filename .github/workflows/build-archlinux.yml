@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: wachii/archlinux:devel
+      image: wachii/archlinux:devel-2
       options: --user user
 
     steps:
