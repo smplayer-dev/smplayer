@@ -218,7 +218,7 @@ protected:
 #if USE_MPV_ALSA_DEVICES
 	DeviceList mpv_alsa_devices;
 #endif
-#if USE_PULSEAUDIO_DEVICES
+#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
 	DeviceList pa_devices;
 #endif
 #if USE_XV_ADAPTORS

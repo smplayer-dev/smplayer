@@ -301,6 +301,19 @@ DeviceList DeviceInfo::mpvAlsaDevices() {
 }
 #endif
 
+#if USE_MPV_PULSE_DEVICES
+DeviceList DeviceInfo::mpvPulseDevices() {
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+	l = mpvAudioDevices("pulse");
+	for (int n = 0; n < l.count(); n++) {
+		l[n].setDesc(l[n].ID().toString());
+		l[0].setID(n);
+	}
+	return l;
+}
+#endif
+
 #if USE_MPV_WASAPI_DEVICES
 DeviceList DeviceInfo::mpvWasapiDevices() {
 	static DeviceList l;

@@ -29,11 +29,12 @@
 #else
 #define USE_ALSA_DEVICES 0
 #define USE_MPV_ALSA_DEVICES 0
+#define USE_MPV_PULSE_DEVICES 0
 #define USE_PULSEAUDIO_DEVICES 1
 #define USE_XV_ADAPTORS 1
 #endif
 
-#if defined(USE_MPV_ALSA_DEVICES) || defined(USE_MPV_WASAPI_DEVICES)
+#if USE_MPV_ALSA_DEVICES || USE_MPV_WASAPI_DEVICES || USE_MPV_PULSE_DEVICES
 #define MPV_AUDIO_DEVICES 1
 #endif
 
@@ -89,7 +90,11 @@ public:
 	#if USE_MPV_ALSA_DEVICES
 	static DeviceList mpvAlsaDevices();
 	#endif
-	
+
+	#if USE_MPV_PULSE_DEVICES
+	static DeviceList mpvPulseDevices();
+	#endif
+
 	#if USE_MPV_WASAPI_DEVICES
 	static DeviceList mpvWasapiDevices();
 	#endif

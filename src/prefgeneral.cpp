@@ -28,7 +28,7 @@
 #include "helper.h"
 #include <QDebug>
 
-#if USE_ALSA_DEVICES || USE_PULSEAUDIO_DEVICES || USE_XV_ADAPTORS || USE_DSOUND_DEVICES
+#if USE_ALSA_DEVICES || USE_PULSEAUDIO_DEVICES || USE_XV_ADAPTORS || USE_DSOUND_DEVICES || USE_MPV_PULSE_DEVICES
 #include "deviceinfo.h"
 #endif
 
@@ -72,6 +72,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 #if USE_PULSEAUDIO_DEVICES
 	pa_devices = DeviceInfo::paDevices();
+#endif
+#if USE_MPV_PULSE_DEVICES
+	pa_devices = DeviceInfo::mpvPulseDevices();
 #endif
 #if USE_XV_ADAPTORS
 	xv_adaptors = DeviceInfo::xvAdaptors();
@@ -535,7 +538,7 @@ void PrefGeneral::updateDriverCombos() {
 			}
 		}
 		#endif
-		#if USE_PULSEAUDIO_DEVICES
+		#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
 		if ((ao == "pulse") && (!pa_devices.isEmpty())) {
 			for (int n=0; n < pa_devices.count(); n++) {
 				ao_combo->addItem( DeviceInfo::printableName("pulse", pa_devices[n]), DeviceInfo::internalName("pulse", pa_devices[n]) );

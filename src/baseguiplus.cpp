@@ -1175,6 +1175,10 @@ void BaseGuiPlus::updateSendAudioMenu() {
 		addListToSendAudioMenu( DeviceInfo::mpvAlsaDevices(), "alsa");
 		#endif
 
+		#if USE_MPV_PULSE_DEVICES
+		addListToSendAudioMenu( DeviceInfo::mpvPulseDevices(), "pulse");
+		#endif
+
 		#if USE_MPV_WASAPI_DEVICES
 		addListToSendAudioMenu( DeviceInfo::mpvWasapiDevices(), "wasapi");
 		#endif
