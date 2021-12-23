@@ -151,6 +151,19 @@ DeviceList DeviceInfo::displayDevices() {
 
 // Linux
 
+#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
+DeviceList DeviceInfo::pulseDevices() {
+	DeviceList pa;
+	#if USE_PULSEAUDIO_DEVICES
+	pa = paDevices();
+	#endif
+	#if USE_MPV_PULSE_DEVICES
+	if (pa.isEmpty()) pa = mpvPulseDevices();
+	#endif
+	return pa;
+}
+#endif
+
 #if USE_PULSEAUDIO_DEVICES
 DeviceList DeviceInfo::paDevices() {
 	qDebug("DeviceInfo::paDevices");

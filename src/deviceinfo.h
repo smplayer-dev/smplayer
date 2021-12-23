@@ -29,7 +29,7 @@
 #else
 #define USE_ALSA_DEVICES 0
 #define USE_MPV_ALSA_DEVICES 0
-#define USE_MPV_PULSE_DEVICES 0
+#define USE_MPV_PULSE_DEVICES 1
 #define USE_PULSEAUDIO_DEVICES 1
 #define USE_XV_ADAPTORS 1
 #endif
@@ -73,6 +73,10 @@ public:
 	static DeviceList dsoundDevices();
 	static DeviceList displayDevices();
 #else
+	#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
+	static DeviceList pulseDevices();
+	#endif
+
 	#if USE_PULSEAUDIO_DEVICES
 	static DeviceList paDevices();
 	#endif
