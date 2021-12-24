@@ -484,7 +484,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 			if (l.count() == 3) {
 				#ifndef Q_OS_WIN
 				if (l[0] == "pulse") {
-					arg << "--audio-device=pulse/" + l[2];
+					arg << "--audio-device=pulse/" + l[1];
 				}
 				#if USE_MPV_ALSA_DEVICES
 				else

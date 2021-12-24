@@ -196,7 +196,7 @@ DeviceList DeviceInfo::paDevices() {
 				if (name.startsWith('<') && name.endsWith('>')) { name = name.mid(1); name.chop(1); }
 				qDebug() << "DeviceInfo::paDevices: name:" << name;
 				if (index != -1) {
-					l.append( DeviceData(index, name) );
+					l.append( DeviceData(name, name) );
 					index = -1;
 				}
 			}
@@ -319,10 +319,12 @@ DeviceList DeviceInfo::mpvPulseDevices() {
 	static DeviceList l;
 	if (!l.isEmpty()) return l;
 	l = mpvAudioDevices("pulse");
+	/*
 	for (int n = 0; n < l.count(); n++) {
 		l[n].setDesc(l[n].ID().toString());
 		l[0].setID(n);
 	}
+	*/
 	return l;
 }
 #endif

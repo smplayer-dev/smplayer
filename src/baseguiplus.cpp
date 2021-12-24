@@ -1153,8 +1153,13 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
 	sendAudio_menu->addAction(a);
 
-#if USE_PULSEAUDIO_DEVICES && !USE_MPV_PULSE_DEVICES
-	addListToSendAudioMenu( DeviceInfo::paDevices(), "pulse");
+#if USE_PULSEAUDIO_DEVICES
+	#if USE_MPV_PULSE_DEVICES
+	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER)
+	#endif
+	{
+		addListToSendAudioMenu( DeviceInfo::paDevices(), "pulse");
+	}
 #endif
 
 #if USE_ALSA_DEVICES
