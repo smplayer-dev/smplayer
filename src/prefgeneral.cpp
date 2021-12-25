@@ -67,9 +67,6 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
 #endif
-#if USE_MPV_ALSA_DEVICES
-	mpv_alsa_devices = DeviceInfo::mpvAlsaDevices();
-#endif
 #if USE_XV_ADAPTORS
 	xv_adaptors = DeviceInfo::xvAdaptors();
 #endif
@@ -323,17 +320,19 @@ void PrefGeneral::setData(Preferences * pref) {
 		pa_devices = DeviceInfo::paDevices();
 	}
 #endif
-#if USE_MPV_PULSE_DEVICES
+#if MPV_AUDIO_DEVICES
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
+		#if USE_MPV_PULSE_DEVICES
 		pa_devices = DeviceInfo::mpvPulseDevices();
-	}
-#endif
-#if USE_MPV_COREAUDIO_DEVICES
-	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
+		#endif
+		#if USE_MPV_ALSA_DEVICES
+		mpv_alsa_devices = DeviceInfo::mpvAlsaDevices();
+		#endif
+		#if USE_MPV_COREAUDIO_DEVICES
 		coreaudio_devices = DeviceInfo::mpvCoreaudioDevices();
+		#endif
 	}
 #endif
-
 	updateDriverCombos();
 }
 

@@ -30,11 +30,11 @@
 #ifdef Q_OS_MACX
  #define USE_MPV_COREAUDIO_DEVICES 1
 #else
+ #define USE_XV_ADAPTORS 1
  #define USE_ALSA_DEVICES 0
+ #define USE_PULSEAUDIO_DEVICES 1
  #define USE_MPV_ALSA_DEVICES 0
  #define USE_MPV_PULSE_DEVICES 1
- #define USE_PULSEAUDIO_DEVICES 1
- #define USE_XV_ADAPTORS 1
 #endif
 #endif
 
