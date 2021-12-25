@@ -1187,6 +1187,10 @@ void BaseGuiPlus::updateSendAudioMenu() {
 		#if USE_MPV_WASAPI_DEVICES
 		addListToSendAudioMenu( DeviceInfo::mpvWasapiDevices(), "wasapi");
 		#endif
+
+		#if USE_MPV_COREAUDIO_DEVICES
+		addListToSendAudioMenu( DeviceInfo::mpvCoreaudioDevices(), "coreaudio");
+		#endif
 	}
 #endif
 }

@@ -328,6 +328,11 @@ void PrefGeneral::setData(Preferences * pref) {
 		pa_devices = DeviceInfo::mpvPulseDevices();
 	}
 #endif
+#if USE_MPV_COREAUDIO_DEVICES
+	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
+		coreaudio_devices = DeviceInfo::mpvCoreaudioDevices();
+	}
+#endif
 
 	updateDriverCombos();
 }
@@ -552,6 +557,13 @@ void PrefGeneral::updateDriverCombos() {
 		if ((ao == "pulse") && (!pa_devices.isEmpty())) {
 			for (int n=0; n < pa_devices.count(); n++) {
 				ao_combo->addItem( DeviceInfo::printableName("pulse", pa_devices[n]), DeviceInfo::internalName("pulse", pa_devices[n]) );
+			}
+		}
+		#endif
+		#if USE_MPV_COREAUDIO_DEVICES
+		if ((ao == "coreaudio") && (!coreaudio_devices.isEmpty())) {
+			for (int n=0; n < coreaudio_devices.count(); n++) {
+				ao_combo->addItem( DeviceInfo::printableName("coreaudio", coreaudio_devices[n]), DeviceInfo::internalName("coreaudio", coreaudio_devices[n]) );
 			}
 		}
 		#endif

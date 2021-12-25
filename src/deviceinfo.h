@@ -24,17 +24,21 @@
 #include <QList>
 
 #ifdef Q_OS_WIN
-#define USE_DSOUND_DEVICES 1
-#define USE_MPV_WASAPI_DEVICES 1
+ #define USE_DSOUND_DEVICES 1
+ #define USE_MPV_WASAPI_DEVICES 1
 #else
-#define USE_ALSA_DEVICES 0
-#define USE_MPV_ALSA_DEVICES 0
-#define USE_MPV_PULSE_DEVICES 1
-#define USE_PULSEAUDIO_DEVICES 1
-#define USE_XV_ADAPTORS 1
+#ifdef Q_OS_MACX
+ #define USE_MPV_COREAUDIO_DEVICES 1
+#else
+ #define USE_ALSA_DEVICES 0
+ #define USE_MPV_ALSA_DEVICES 0
+ #define USE_MPV_PULSE_DEVICES 1
+ #define USE_PULSEAUDIO_DEVICES 1
+ #define USE_XV_ADAPTORS 1
+#endif
 #endif
 
-#if USE_MPV_ALSA_DEVICES || USE_MPV_WASAPI_DEVICES || USE_MPV_PULSE_DEVICES
+#if USE_MPV_ALSA_DEVICES || USE_MPV_WASAPI_DEVICES || USE_MPV_PULSE_DEVICES || USE_MPV_COREAUDIO_DEVICES
 #define MPV_AUDIO_DEVICES 1
 #endif
 
@@ -97,6 +101,10 @@ public:
 
 	#if USE_MPV_WASAPI_DEVICES
 	static DeviceList mpvWasapiDevices();
+	#endif
+
+	#if USE_MPV_COREAUDIO_DEVICES
+	static DeviceList mpvCoreaudioDevices();
 	#endif
 
 	static DeviceList mpvAudioDevices(const QString & mpv_bin, const QString & filter);

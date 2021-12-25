@@ -221,6 +221,9 @@ protected:
 #if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
 	DeviceList pa_devices;
 #endif
+#if USE_MPV_COREAUDIO_DEVICES
+	DeviceList coreaudio_devices;
+#endif
 #if USE_XV_ADAPTORS
 	DeviceList xv_adaptors;
 #endif

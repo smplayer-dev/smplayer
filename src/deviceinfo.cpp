@@ -324,7 +324,16 @@ DeviceList DeviceInfo::mpvWasapiDevices() {
 	return l;
 }
 #endif
-	
+
+#if USE_MPV_COREAUDIO_DEVICES
+DeviceList DeviceInfo::mpvCoreaudioDevices() {
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+	l = mpvAudioDevices("coreaudio");
+	return l;
+}
+#endif
+
 DeviceList DeviceInfo::mpvAudioDevices(const QString & filter) {
 	DeviceList l;
 	if (!mpv_bin.isEmpty()) l = mpvAudioDevices(mpv_bin, filter);
