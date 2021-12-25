@@ -33,6 +33,8 @@
 #define MPLAYER_MPV_SELECTION
 #endif
 
+//#define AUDIO_DEVICES_SELECTION
+
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
 	Q_OBJECT
@@ -207,22 +209,24 @@ protected:
 
 	InfoList vo_list;
 	InfoList ao_list;
-	
-#if USE_DSOUND_DEVICES
-	DeviceList dsound_devices;
-#endif
 
-#if USE_ALSA_DEVICES
+#ifdef AUDIO_DEVICES_SELECTION
+	#if USE_DSOUND_DEVICES
+	DeviceList dsound_devices;
+	#endif
+
+	#if USE_ALSA_DEVICES
 	DeviceList alsa_devices;
-#endif
-#if USE_MPV_ALSA_DEVICES
+	#endif
+	#if USE_MPV_ALSA_DEVICES
 	DeviceList mpv_alsa_devices;
-#endif
-#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
+	#endif
+	#if USE_PULSEAUDIO_DEVICES || USE_MPV_PULSE_DEVICES
 	DeviceList pa_devices;
-#endif
-#if USE_MPV_COREAUDIO_DEVICES
+	#endif
+	#if USE_MPV_COREAUDIO_DEVICES
 	DeviceList coreaudio_devices;
+	#endif
 #endif
 #if USE_XV_ADAPTORS
 	DeviceList xv_adaptors;

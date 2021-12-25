@@ -60,13 +60,16 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	vo_list = i->voList();
 	ao_list = i->aoList();
 
-#if USE_DSOUND_DEVICES
+#ifdef AUDIO_DEVICES_SELECTION
+	#if USE_DSOUND_DEVICES
 	dsound_devices = DeviceInfo::dsoundDevices();
+	#endif
+
+	#if USE_ALSA_DEVICES
+	alsa_devices = DeviceInfo::alsaDevices();
+	#endif
 #endif
 
-#if USE_ALSA_DEVICES
-	alsa_devices = DeviceInfo::alsaDevices();
-#endif
 #if USE_XV_ADAPTORS
 	xv_adaptors = DeviceInfo::xvAdaptors();
 #endif
@@ -189,7 +192,9 @@ void PrefGeneral::retranslateStrings() {
 	filesettings_method_combo->addItem( tr("multiple ini files"), "hash");
 	filesettings_method_combo->setCurrentIndex(filesettings_method_item);
 
-	//updateDriverCombos();
+#ifndef AUDIO_DEVICES_SELECTION
+	updateDriverCombos();
+#endif
 
     // Icons
 	/*
@@ -312,6 +317,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setMcActivated( pref->use_mc );
 	setMc( pref->mc_value );
 
+#ifdef AUDIO_DEVICES_SELECTION
 #if USE_PULSEAUDIO_DEVICES
 	#if USE_MPV_PULSE_DEVICES
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER)
@@ -334,6 +340,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	}
 #endif
 	updateDriverCombos();
+#endif // AUDIO_DEVICES_SELECTION
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -538,6 +545,7 @@ void PrefGeneral::updateDriverCombos() {
 		}
 		#endif
 		*/
+		#ifdef AUDIO_DEVICES_SELECTION
 		#if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
@@ -573,6 +581,7 @@ void PrefGeneral::updateDriverCombos() {
 			}
 		}
 		#endif
+		#endif // AUDIO_DEVICES_SELECTION
 	}
 	ao_combo->addItem( tr("User defined..."), "user_defined" );
 
