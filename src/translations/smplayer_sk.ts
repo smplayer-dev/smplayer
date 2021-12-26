@@ -586,7 +586,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../basegui.cpp" line="1813"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblocking</translation>
+        <translation>&amp;Deblock</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
@@ -1033,7 +1033,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
         <source>Use custo&amp;m style</source>
-        <translation>Použite vlastný štýl</translation>
+        <translation>Použite vlastn&amp;ý štýl</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
@@ -1059,7 +1059,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Sprievodca prvými krokmi</translation>
+        <translation>&amp;Sprievodca prvými krokmi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1908"/>
@@ -1541,7 +1541,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="2101"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (dvojnásobný framerate)</translation>
+        <translation>Y&amp;adif (dvojnásobná snímková frekvencia)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
@@ -1889,7 +1889,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1788"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Spustiť/zastaviť vytváranie snímok obrazovky</translation>
+        <translation>Spustiť/zastaviť vytváranie snímo&amp;k obrazovky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1930,7 +1930,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="1992"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>Hlasitosť + Posun + Časovač</translation>
+        <translation>Hlasitosť + Posun + Č&amp;asovač</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1993"/>
@@ -1980,7 +1980,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
         <source>&amp;Closed captions</source>
-        <translation>Skryté titulky</translation>
+        <translation>&amp;Skryté titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2023"/>
@@ -2013,7 +2013,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="383"/>
         <source>&amp;Cast to</source>
-        <translation>Prenášať do</translation>
+        <translation>&amp;Prenášať do</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
@@ -2033,7 +2033,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="395"/>
         <source>Information about connected &amp;screens</source>
-        <translation>Informácie o pripojených obrazovkách</translation>
+        <translation>Informácie o pripojených &amp;obrazovkách</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="398"/>
@@ -2186,7 +2186,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation>Vymazať záložku</translation>
+        <translation>&amp;Vymazať záložku</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
@@ -2408,17 +2408,17 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="4290"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"/>
+        <translation>Koliesko myši teraz mení hlasitosť</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4293"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"/>
+        <translation>Koliesko myši teraz mení úroveň priblíženia</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4296"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"/>
+        <translation>Koliesko myši teraz mení rýchlosť</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4624"/>
@@ -2428,17 +2428,17 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../core.cpp" line="4659"/>
         <source>Starting...</source>
-        <translation type="unfinished"/>
+        <translation>Spúšťa sa...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1418"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"/>
+        <translation>Snímka obrazovky NIE je vytvorená, nenakonfigurovaný priečinok</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1431"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"/>
+        <translation>Snímky obrazovky NIE sú vytvorené, nenakonfigurovaný priečinok</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2833"/>
@@ -2476,7 +2476,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="704"/>
         <source>&amp;Main toolbar</source>
-        <translation>&amp;Hlavný panel</translation>
+        <translation>&amp;Hlavný panel nástrojov</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="708"/>
@@ -2491,12 +2491,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="677"/>
         <source>Ready</source>
-        <translation type="unfinished"/>
+        <translation>Pripravené</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="717"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>Informácie o f&amp;ormáte</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="760"/>
@@ -2526,12 +2526,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="716"/>
         <source>&amp;Frame counter</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Počítadlo obrázkov</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="718"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"/>
+        <translation>Informácie o &amp;dátovom toku</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="719"/>
@@ -2541,7 +2541,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation>Zobraziť celkový čas</translation>
+        <translation>Zobraziť &amp;celkový čas</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
@@ -2551,22 +2551,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť hlavný panel nás&amp;trojov</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť &amp;ovládací panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť m&amp;ini ovládací panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť &amp;plávajúce ovládanie</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="774"/>
@@ -2577,7 +2577,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="786"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -2593,7 +2593,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"/>
+        <translation>Ups, niečo sa pokazilo</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
@@ -2619,7 +2619,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../errordialog.ui" line="43"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"/>
+        <translation>Ups, stalo sa niečo zlé</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2642,12 +2642,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="97"/>
         <source>Media</source>
-        <translation type="unfinished"/>
+        <translation>Médiá</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="116"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"/>
+        <translation>Editor obľúbených</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2655,22 +2655,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../favoriteeditor.cpp" line="181"/>
         <location filename="../favoriteeditor.cpp" line="281"/>
         <source>Favorite list</source>
-        <translation type="unfinished"/>
+        <translation>Zoznam obľúbených</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"/>
+        <translation>Môžete upravovať, vymazávať, triediť alebo pridávať nové položky. Dvojitým kliknutím na bunku upravíte jej obsah.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="354"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"/>
+        <translation>Vybrať súbor ikony</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="356"/>
         <source>Images</source>
-        <translation type="unfinished"/>
+        <translation>Obrázky</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
@@ -2745,7 +2745,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>&amp;Pridať aktuálny súbor</translation>
+        <translation>&amp;Pridať aktuálne médiá</translation>
     </message>
 </context>
 <context>
@@ -2801,22 +2801,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="116"/>
         <source>&amp;Video codec</source>
-        <translation>&amp;Video kódek</translation>
+        <translation>&amp;Video kodek</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="128"/>
         <source>&amp;Select the video codec:</source>
-        <translation>&amp;Vyberte video kódek:</translation>
+        <translation>&amp;Vybrať video kodek:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="178"/>
         <source>A&amp;udio codec</source>
-        <translation>&amp;Audio kódek</translation>
+        <translation>Zv&amp;ukový kodek</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="190"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>&amp;Vyberte audio kódek:</translation>
+        <translation>&amp;Vybrať zvukový kodek:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="324"/>
@@ -2856,7 +2856,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
         <source>&amp;Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation>&amp;Zrušiť</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="91"/>
@@ -2886,7 +2886,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="101"/>
         <source>Example:</source>
-        <translation type="unfinished"/>
+        <translation>Príklad:</translation>
     </message>
 </context>
 <context>
@@ -3064,7 +3064,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>Spanish - Spain</source>
-        <translation type="unfinished"/>
+        <translation>Španielsky - Španielsko</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
@@ -3074,12 +3074,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese</source>
-        <translation type="unfinished"/>
+        <translation>Portugalsky</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Spanish - Latin America</source>
-        <translation type="unfinished"/>
+        <translation>Španielsky - Latinská Amerika</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
@@ -3089,7 +3089,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>Close</source>
-        <translation>Zatvoriť</translation>
+        <translation>Zavrieť</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
@@ -3171,7 +3171,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="28"/>
         <source>&amp;Video file:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video súbor:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
@@ -3186,7 +3186,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="66"/>
         <source>&amp;Search</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hľadať</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -3196,7 +3196,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation>Obnoviť</translation>
+        <translation>&amp;Obnoviť</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
@@ -3252,32 +3252,32 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
         <source>Media &amp;Play</source>
-        <translation type="unfinished"/>
+        <translation>Médiá &amp;Prehrať</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="42"/>
         <source>Media &amp;Stop</source>
-        <translation type="unfinished"/>
+        <translation>Médiá Za&amp;staviť</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="49"/>
         <source>Media Pre&amp;vious</source>
-        <translation type="unfinished"/>
+        <translation>Médiá Pre&amp;dchádzajúce</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="56"/>
         <source>Media &amp;Next</source>
-        <translation type="unfinished"/>
+        <translation>Médiá &amp;Nasledujúce</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="63"/>
         <source>Media P&amp;ause</source>
-        <translation type="unfinished"/>
+        <translation>Médiá Poz&amp;astaviť</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="97"/>
         <source>Media &amp;Record</source>
-        <translation type="unfinished"/>
+        <translation>Médiá Nah&amp;rať</translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="104"/>
@@ -3410,7 +3410,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
         <location filename="../infofile.cpp" line="132"/>
         <location filename="../infofile.cpp" line="161"/>
         <source>Bitrate</source>
-        <translation>Bitový tok</translation>
+        <translation>Dátový tok</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="132"/>
@@ -3421,13 +3421,13 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../infofile.cpp" line="133"/>
         <source>Frames per second</source>
-        <translation>Snímkov za sekundu</translation>
+        <translation>Snímok za sekundu</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="134"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>Selected codec</source>
-        <translation>Použitý kódek</translation>
+        <translation>Vybraný kodek</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="140"/>
@@ -3544,7 +3544,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation>Čas:</translation>
+        <translation>Č&amp;as:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
@@ -3636,7 +3636,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"/>
+        <translation>Abcházsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
@@ -3646,7 +3646,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation type="unfinished"/>
+        <translation>Amharsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
@@ -3657,12 +3657,12 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Assamese</source>
-        <translation type="unfinished"/>
+        <translation>Assámsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation type="unfinished"/>
+        <translation>Aymarsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
@@ -3672,7 +3672,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation type="unfinished"/>
+        <translation>Baškirsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
@@ -3683,27 +3683,27 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"/>
+        <translation>Bihársky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation type="unfinished"/>
+        <translation>Bislamsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
         <source>Bengali</source>
-        <translation type="unfinished"/>
+        <translation>Bengálsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Tibetan</source>
-        <translation type="unfinished"/>
+        <translation>Tibetsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Breton</source>
-        <translation type="unfinished"/>
+        <translation>Bretónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -3713,7 +3713,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="48"/>
         <source>Corsican</source>
-        <translation type="unfinished"/>
+        <translation>Korzicky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
@@ -3724,12 +3724,12 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Welsh</source>
-        <translation type="unfinished"/>
+        <translation>Walesky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
         <source>Danish</source>
-        <translation type="unfinished"/>
+        <translation>Dánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
@@ -3773,7 +3773,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Persian</source>
-        <translation type="unfinished"/>
+        <translation>Perzsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
@@ -3784,7 +3784,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation type="unfinished"/>
+        <translation>Faersky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
@@ -3795,12 +3795,12 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Frisian</source>
-        <translation type="unfinished"/>
+        <translation>Frízsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation type="unfinished"/>
+        <translation>Írsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
@@ -3810,33 +3810,33 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation type="unfinished"/>
+        <translation>Guaraníjsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation type="unfinished"/>
+        <translation>Gudžarátsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation type="unfinished"/>
+        <translation>Hausky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <source>Hebrew</source>
-        <translation type="unfinished"/>
+        <translation>Hebrejsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Hindi</source>
-        <translation type="unfinished"/>
+        <translation>Hindsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="339"/>
         <source>Croatian</source>
-        <translation type="unfinished"/>
+        <translation>Chorvátsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
@@ -3847,27 +3847,27 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Armenian</source>
-        <translation type="unfinished"/>
+        <translation>Arménsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"/>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Indonesian</source>
-        <translation type="unfinished"/>
+        <translation>Indonézsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"/>
+        <translation>Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation type="unfinished"/>
+        <translation>Islandsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -3878,7 +3878,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"/>
+        <translation>Inuktitutsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
@@ -3889,7 +3889,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation type="unfinished"/>
+        <translation>Javánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
@@ -3909,7 +3909,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation type="unfinished"/>
+        <translation>Kannadsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
@@ -3919,104 +3919,104 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"/>
+        <translation>Kašmírsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <source>Kurdish</source>
-        <translation type="unfinished"/>
+        <translation>Kurdsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"/>
+        <translation>Kirgizsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Latin</source>
-        <translation type="unfinished"/>
+        <translation>Latinsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Lingala</source>
-        <translation type="unfinished"/>
+        <translation>Lingalsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="341"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"/>
+        <translation>Litovsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <location filename="../languages.cpp" line="342"/>
         <source>Latvian</source>
-        <translation type="unfinished"/>
+        <translation>Lotyšsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="124"/>
         <source>Malagasy</source>
-        <translation type="unfinished"/>
+        <translation>Malgašsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Maori</source>
-        <translation type="unfinished"/>
+        <translation>Maorsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <source>Macedonian</source>
-        <translation type="unfinished"/>
+        <translation>Macedónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation type="unfinished"/>
+        <translation>Malajalámsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Mongolian</source>
-        <translation type="unfinished"/>
+        <translation>Mongolsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="130"/>
         <source>Moldavian</source>
-        <translation type="unfinished"/>
+        <translation>Moldavsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Marathi</source>
-        <translation type="unfinished"/>
+        <translation>Maráthsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Malay</source>
-        <translation type="unfinished"/>
+        <translation>Malajsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Maltese</source>
-        <translation type="unfinished"/>
+        <translation>Maltsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="134"/>
         <source>Burmese</source>
-        <translation type="unfinished"/>
+        <translation>Barmsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Nauru</source>
-        <translation type="unfinished"/>
+        <translation>Naurusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
-        <translation type="unfinished"/>
+        <translation>Nepálsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
@@ -4027,23 +4027,23 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"/>
+        <translation>Nórsky nynorsk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <location filename="../languages.cpp" line="232"/>
         <source>Norwegian</source>
-        <translation type="unfinished"/>
+        <translation>Nórsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Occitan</source>
-        <translation type="unfinished"/>
+        <translation>Okcitánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <source>Oriya</source>
-        <translation type="unfinished"/>
+        <translation>Orijsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
@@ -4055,12 +4055,12 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
         <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="233"/>
         <source>Portuguese</source>
-        <translation type="unfinished"/>
+        <translation>Portugalsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <source>Quechua</source>
-        <translation type="unfinished"/>
+        <translation>Kečuánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
@@ -4078,17 +4078,17 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Kinyarwanda</source>
-        <translation type="unfinished"/>
+        <translation>Rwandsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"/>
+        <translation>Sanskrit</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
         <source>Sindhi</source>
-        <translation type="unfinished"/>
+        <translation>Sindhisky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
@@ -4099,22 +4099,22 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <source>Samoan</source>
-        <translation type="unfinished"/>
+        <translation>Samojsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Shona</source>
-        <translation type="unfinished"/>
+        <translation>Shona</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Somali</source>
-        <translation type="unfinished"/>
+        <translation>Somálsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Albanian</source>
-        <translation type="unfinished"/>
+        <translation>Albánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
@@ -4124,7 +4124,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Sundanese</source>
-        <translation type="unfinished"/>
+        <translation>Sundsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
@@ -4135,47 +4135,47 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Swahili</source>
-        <translation type="unfinished"/>
+        <translation>Svahilsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Tamil</source>
-        <translation type="unfinished"/>
+        <translation>Tamilsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Telugu</source>
-        <translation type="unfinished"/>
+        <translation>Telugsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Tajik</source>
-        <translation type="unfinished"/>
+        <translation>Tadžicky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Thai</source>
-        <translation type="unfinished"/>
+        <translation>Thajsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Tigrinya</source>
-        <translation type="unfinished"/>
+        <translation>Tigriňsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <source>Turkmen</source>
-        <translation type="unfinished"/>
+        <translation>Turkménsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Tagalog</source>
-        <translation type="unfinished"/>
+        <translation>Tagalógsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
         <source>Tonga</source>
-        <translation type="unfinished"/>
+        <translation>Tongsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
@@ -4186,22 +4186,22 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Tsonga</source>
-        <translation type="unfinished"/>
+        <translation>Tsongsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
         <source>Tatar</source>
-        <translation type="unfinished"/>
+        <translation>Tatársky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Twi</source>
-        <translation type="unfinished"/>
+        <translation>Twi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Uighur</source>
-        <translation type="unfinished"/>
+        <translation>Ujgursky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
@@ -4212,59 +4212,59 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="200"/>
         <source>Urdu</source>
-        <translation type="unfinished"/>
+        <translation>Urdsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Uzbek</source>
-        <translation type="unfinished"/>
+        <translation>Uzbecky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"/>
+        <translation>Vietnamsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
         <source>Wolof</source>
-        <translation type="unfinished"/>
+        <translation>Wolofsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="211"/>
         <source>Xhosa</source>
-        <translation type="unfinished"/>
+        <translation>Xhosky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="212"/>
         <source>Yiddish</source>
-        <translation type="unfinished"/>
+        <translation>Jidiš</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="213"/>
         <source>Yoruba</source>
-        <translation type="unfinished"/>
+        <translation>Jorubsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="214"/>
         <source>Zhuang</source>
-        <translation type="unfinished"/>
+        <translation>Čuangsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="215"/>
         <location filename="../languages.cpp" line="236"/>
         <location filename="../languages.cpp" line="348"/>
         <source>Chinese</source>
-        <translation type="unfinished"/>
+        <translation>Čínsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="216"/>
         <source>Zulu</source>
-        <translation type="unfinished"/>
+        <translation>Zulusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="245"/>
@@ -4284,27 +4284,27 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="304"/>
         <source>Western European Languages</source>
-        <translation>Západné Európske jazyky</translation>
+        <translation>Západoeurópske jazyky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>Western European Languages with Euro</source>
-        <translation>Západné Európske jazyky s Euro</translation>
+        <translation>Západoeurópske jazyky s Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Slovanské/Stredo-Európske jazyky</translation>
+        <translation>Slovanské/Stredoeurópske jazyky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="307"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished"/>
+        <translation>Esperanto, Haličsky, Maltsky, Turecky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished"/>
+        <translation>Stará baltská znaková sada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="309"/>
@@ -4319,7 +4319,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="313"/>
         <source>Baltic</source>
-        <translation type="unfinished"/>
+        <translation>Baltsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
@@ -4329,7 +4329,7 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="315"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"/>
+        <translation>Juhovýchodný Európsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="316"/>
@@ -4364,350 +4364,350 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
     <message>
         <location filename="../languages.cpp" line="323"/>
         <source>Thai charset</source>
-        <translation type="unfinished"/>
+        <translation>Thajská znaková sada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="324"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished"/>
+        <translation>Cyrilika Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="325"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished"/>
+        <translation>Slovansky/Stredoeurópsky Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="326"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"/>
+        <translation>Arabsky Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"/>
+        <translation>Avestsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"/>
+        <translation>Akansky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"/>
+        <translation>Aragónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"/>
+        <translation>Avarsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <location filename="../languages.cpp" line="335"/>
         <source>Belarusian</source>
-        <translation type="unfinished"/>
+        <translation>Bielorusky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"/>
+        <translation>Bambarsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"/>
+        <translation>Bosniansky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"/>
+        <translation>Čečensky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"/>
+        <translation>Kríjsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"/>
+        <translation>Starosloviensky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"/>
+        <translation>Čuvašsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"/>
+        <translation>Maldivsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"/>
+        <translation>Dzongkha</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"/>
+        <translation>Evesky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"/>
+        <translation>Fula</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"/>
+        <translation>Fidžijsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"/>
+        <translation>Gaelsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"/>
+        <translation>Mansky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"/>
+        <translation>Hiri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"/>
+        <translation>Haitsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"/>
+        <translation>Herero</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"/>
+        <translation>Chamorro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"/>
+        <translation>Igbošsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"/>
+        <translation>Sečuánsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"/>
+        <translation>Inupiaq</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"/>
+        <translation>Ido</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"/>
+        <translation>Konžsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"/>
+        <translation>Kikujsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"/>
+        <translation>Kuaňama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"/>
+        <translation>Khmérsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"/>
+        <translation>Kanuri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"/>
+        <translation>Komijsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"/>
+        <translation>Kornsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"/>
+        <translation>Luxembursky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"/>
+        <translation>Gandsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"/>
+        <translation>Limbursky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"/>
+        <translation>Laosky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"/>
+        <translation>Luba-Katanga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"/>
+        <translation>Maršálsky</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
-        <translation type="unfinished"/>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <location filename="../languages.cpp" line="147"/>
         <source>Ndebele</source>
-        <translation type="unfinished"/>
+        <translation>Ndebelsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndonga</source>
-        <translation type="unfinished"/>
+        <translation>Ndonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Navajo</source>
-        <translation type="unfinished"/>
+        <translation>Navažsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Chichewa</source>
-        <translation type="unfinished"/>
+        <translation>Čičevsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"/>
+        <translation>Odžibva</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Oromo</source>
-        <translation type="unfinished"/>
+        <translation>Oromo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Ossetian</source>
-        <translation type="unfinished"/>
+        <translation>Osetsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <source>Panjabi</source>
-        <translation type="unfinished"/>
+        <translation>Pandžábsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Pali</source>
-        <translation type="unfinished"/>
+        <translation>Páli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Pushto</source>
-        <translation type="unfinished"/>
+        <translation>Puštúnsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Romansh</source>
-        <translation type="unfinished"/>
+        <translation>Retrorománsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="162"/>
         <source>Rundi</source>
-        <translation type="unfinished"/>
+        <translation>Rundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sardinian</source>
-        <translation type="unfinished"/>
+        <translation>Sardínsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <source>Sami</source>
-        <translation type="unfinished"/>
+        <translation>Sámsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Sango</source>
-        <translation type="unfinished"/>
+        <translation>Sango</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Sinhala</source>
-        <translation type="unfinished"/>
+        <translation>Sinhálsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <location filename="../languages.cpp" line="346"/>
         <source>Slovene</source>
-        <translation type="unfinished"/>
+        <translation>Slovinsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Swati</source>
-        <translation type="unfinished"/>
+        <translation>Swati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Sotho</source>
-        <translation type="unfinished"/>
+        <translation>Sothsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Tswana</source>
-        <translation type="unfinished"/>
+        <translation>Tswana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <source>Tahitian</source>
-        <translation type="unfinished"/>
+        <translation>Tahitsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="202"/>
         <source>Venda</source>
-        <translation type="unfinished"/>
+        <translation>Venda</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
-        <translation type="unfinished"/>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="209"/>
         <source>Walloon</source>
-        <translation type="unfinished"/>
+        <translation>Valónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="327"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"/>
+        <translation>Moderná Gréčtina Windows</translation>
     </message>
 </context>
 <context>
@@ -4748,23 +4748,23 @@ Chcete ho prepísať?</translation>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Uložiť</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
         <location filename="../logwindow.ui" line="71"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Kopírovať do schránky</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Zavrieť</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zavrieť</translation>
     </message>
 </context>
 <context>
@@ -4797,7 +4797,7 @@ Chcete ho prepísať?</translation>
         <location filename="../mpvoptions.cpp" line="901"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Snímok za sekundu:</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="901"/>
@@ -4817,13 +4817,13 @@ Chcete ho prepísať?</translation>
         <location filename="../mpvprocess.h" line="213"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Dátový tok:</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="905"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Vypustené snímky:</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="908"/>
@@ -4893,12 +4893,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť &amp;ovládací panel</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť &amp;plávajúce ovládanie</translation>
     </message>
 </context>
 <context>
@@ -5218,7 +5218,7 @@ Chcete ho prepísať?</translation>
         <location filename="../playlist.cpp" line="768"/>
         <location filename="../playlist.cpp" line="789"/>
         <source>Search</source>
-        <translation>Vyhľadať</translation>
+        <translation>Hľadať</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="770"/>
@@ -5293,7 +5293,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../playlist.cpp" line="2552"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Nerozpoznaný formát.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="783"/>
@@ -5367,7 +5367,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"/>
+        <translation>Poloha panela O&amp;SD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5532,7 +5532,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"/>
+        <translation>Zaznamenať výstup %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
@@ -5542,7 +5542,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"/>
+        <translation>Automaticky ukladať záznam %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
@@ -5552,17 +5552,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="594"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"/>
+        <translation>Automaticky uložiť názov súboru záznamu %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="595"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"/>
+        <translation>Tu zadajte cestu a názov súboru, ktorý sa použije na uloženie záznamu %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="601"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť umožňuje filtrovať správy prehrávača SMPlayer, ktoré sa uložia do záznamu. Tu môžete napísať ľubovoľný regulárny výraz.&lt;br&gt;Napríklad: &lt;i&gt;^Core::.*&lt;/i&gt; zobrazí iba riadky začínajúce s &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5587,7 +5587,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"/>
+        <translation>Zaznamenať &amp;výstup %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
@@ -5602,7 +5602,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;utomaticky ukladať záznam %1 do súboru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
@@ -5617,12 +5617,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"/>
+        <translation>Poloha panela OSD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"/>
+        <translation>Nastaviť polohu na obrazovke, na ktorej sa zobrazí panel OSD. 0 je hore, 100 dole.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
@@ -5731,7 +5731,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"/>
+        <translation>Obnoví index súborov, ak nebol nájdený žiadny index, čím umožní vyhľadávanie. Užitočné pri poškodených/neúplných stiahnutiach alebo zle vytvorených súboroch. Táto možnosť funguje len vtedy, ak príslušné médium podporuje vyhľadávanie (t. j. nie so stdin, pipe atď.).&lt;br&gt; &lt;b&gt;Poznámka:&lt;/b&gt; vytvorenie indexu môže trvať určitý čas.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -5746,32 +5746,32 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"/>
+        <translation>Uložiť záznam prehrávača SMPlayer do súboru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, záznam prehrávača SMPlayer sa bude zapisovať do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"/>
+        <translation>Uložiť záznam prehrá&amp;vača SMPlayer do súboru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"/>
+        <translation>Zobrazenie informácií zo značiek v názve okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, informácie zo značiek sa budú zobrazovať v názve okna. Inak sa zobrazí len názov súboru.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"/>
+        <translation>Zobrazenie in&amp;formácií zo značiek v názve okna</translation>
     </message>
 </context>
 <context>
@@ -6074,12 +6074,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1088"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Šablóna pre snímky obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1090"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"/>
+        <translation>Napríklad %1 by uložil snímku obrazovky ako &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1091"/>
@@ -6094,7 +6094,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť umožňuje vybrať typ obrázkového súboru ktorý sa použije na ukladanie snímok obrazovky.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1120"/>
@@ -6124,7 +6124,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, pri novootvorených súboroch sa do obrazu v predvolenom nastavení pridajú čierne okraje.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1225"/>
@@ -6164,7 +6164,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1089"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť určuje šablónu názvu súboru používanú na ukladanie snímok obrazovky.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
@@ -6205,7 +6205,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1232"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, všetky súbory médií zdieľajú zvukový ekvalizér.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1233"/>
@@ -6305,7 +6305,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="641"/>
         <source>Disable &amp;screensaver</source>
-        <translation>Zakázať šetrič &amp;obrazovky</translation>
+        <translation>&amp;Zakázať šetrič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="775"/>
@@ -6570,7 +6570,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="187"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"/>
+        <translation>Yadif (dvojnásobná snímková frekvencia)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
@@ -6620,12 +6620,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"/>
+        <translation>Vykresliť video pomocou rezov</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"/>
+        <translation>Povoliť/zakázať vykresľovanie videa pomocou rezov/pruhov s výškou 16 pixelov. Ak je vypnuté, celá snímka sa vykreslí naraz. Môže byť rýchlejšie alebo pomalšie, v závislosti od grafickej karty a dostupnej vyrovnávacej pamäte. Má význam len pri kodekoch libmpeg2 a libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="607"/>
@@ -6681,7 +6681,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1217"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"/>
+        <translation>Zaškrtnutím tejto možnosti sa počas prehrávania vypne šetrič obrazovky.&lt;br&gt;Po skončení prehrávania sa šetrič obrazovky opäť povolí.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6692,7 +6692,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"/>
+        <translation>Pridať čierne okraje v režime na celú obrazovku</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1191"/>
@@ -6702,7 +6702,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"/>
+        <translation>Prid&amp;ať čierne okraje v režime na celú obrazovku</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="194"/>
@@ -6762,12 +6762,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Prostredníctvom tejto voľby môžete povoliť alebo zakázať možnosť robiť snímky obrazovky.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"/>
+        <translation>Tu môžete určiť priečinok, do ktorého sa budú ukladať snímky obrazovky vytvorené prehrávačom SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -6777,7 +6777,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Povoliť snímky obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="193"/>
@@ -6807,22 +6807,22 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"/>
+        <translation>Vypnúť šetrič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1202"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť vypne šetrič obrazovky tesne pred začatím prehrávania súboru a zapne ho po skončení prehrávania. Ak je táto možnosť povolená, šetrič obrazovky sa nezobrazí ani pri prehrávaní zvukových súborov alebo pri pozastavení súboru.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"/>
+        <translation>Zamedziť šetrič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"/>
+        <translation>Keď je táto možnosť zaškrtnutá, SMPlayer sa pokúsi zabrániť zobrazeniu šetriča obrazovky pri prehrávaní video súboru. Šetrič obrazovky sa bude môcť zobraziť, ak sa prehráva zvukový súbor alebo v režime pozastavenia. Táto možnosť funguje len vtedy, ak je okno prehrávača SMPlayer v popredí.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="648"/>
@@ -6832,12 +6832,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="654"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Vypnúť šetrič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="661"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zamedziť šetrič obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1275"/>
@@ -6966,7 +6966,7 @@ Chcete ho prepísať?</translation>
         <location filename="../prefinput.cpp" line="161"/>
         <location filename="../prefinput.cpp" line="438"/>
         <source>Media seeking</source>
-        <translation>Posúvanie média</translation>
+        <translation>Posunutie média</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="162"/>
@@ -7009,7 +7009,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
-        <translation>Funkcia kolieska:</translation>
+        <translation>Funkcia &amp;kolieska:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
@@ -7348,7 +7348,7 @@ Chcete ho prepísať?</translation>
         <location filename="../prefinput.cpp" line="177"/>
         <location filename="../prefinput.cpp" line="421"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"/>
+        <translation>Posun a hlasitosť</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="392"/>
@@ -7398,13 +7398,13 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"/>
+        <translation>Zmeniť funkciu kolieska</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="459"/>
         <location filename="../prefinput.cpp" line="167"/>
         <source>Media &amp;seeking</source>
-        <translation>Po&amp;súvanie média</translation>
+        <translation>Po&amp;sunutie média</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="473"/>
@@ -7432,7 +7432,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinput.cpp" line="439"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"/>
+        <translation>Zaškrtnutím tejto možnosti sa povolí posunutie ako jedna funkcia.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="442"/>
@@ -7452,27 +7452,27 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"/>
+        <translation>Funkcie k&amp;olieska myši</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte akcie, ktoré sa majú cyklicky prepínať pri použití voľby &quot;Zmeniť funkciu kolieska&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="433"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"/>
+        <translation>Posunutie kolieskom myši v opačnom smere</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="434"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"/>
+        <translation>Zaškrtnite to, aby bolo posunutie v opačnom smere.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="413"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"/>
+        <translation>Posunuti&amp;e médií kolieskom myši v opačnom smere</translation>
     </message>
 </context>
 <context>
@@ -7553,7 +7553,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation>Posuv kolieskom myši</translation>
+        <translation>Posuv &amp;kolieskom myši</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="636"/>
@@ -7593,7 +7593,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>Zabrániť oknu, aby sa dostalo mimo obrazovku</translation>
+        <translation>&amp;Zabrániť oknu, aby sa dostalo mimo obrazovku</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7623,7 +7623,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
         <source>Use the syste&amp;m native file dialog</source>
-        <translation type="unfinished"/>
+        <translation>Použiť pôvodné systé&amp;mové súborové dialógové okno</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
@@ -7648,7 +7648,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Plávajúce ovládanie sa zobrazí v režime celej obrazovky, keď sa pohybuje myšou.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -7713,17 +7713,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="441"/>
         <source>&amp;Seeking</source>
-        <translation>Po&amp;súvanie</translation>
+        <translation>Po&amp;sunutie</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="563"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Absolútne posunutie</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="576"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Relatívne posunutie</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
@@ -7758,12 +7758,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Základné GUI&lt;/b&gt; poskytuje tradičné rozhranie s panelom nástrojov a ovládacím panelom.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Mini GUI&lt;/b&gt; poskytuje jednoduchšie rozhranie bez panela nástrojov a s ovládacím panelom s niekoľkými tlačidlami.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
@@ -7873,17 +7873,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
         <source>Use the system native file dialog</source>
-        <translation type="unfinished"/>
+        <translation>Použiť pôvodné systémové súborové dialógové okno</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"/>
+        <translation>Keď je táto možnosť povolená, SMPlayer sa pokúsi použiť pôvodné systémové súborové dialógové okno. V opačnom prípade použije interné okno.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
         <source>Seeking</source>
-        <translation>Posúvanie</translation>
+        <translation>Posunutie</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
@@ -7960,12 +7960,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, plávajúce ovládanie sa zobrazí len vtedy, keď sa myš presunie do spodnej časti obrazovky. V opačnom prípade sa ovládanie zobrazí pri každom pohybe myšou bez ohľadu na jej polohu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, plávajúce ovládanie sa zobrazí aj v kompaktnom režime.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="870"/>
@@ -7975,7 +7975,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Upozornenie:&lt;/b&gt; plávajúce ovládanie nebolo navrhnuté pre kompaktný režim a nemusí fungovať správne.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="874"/>
@@ -8011,17 +8011,17 @@ Chcete ho prepísať?</translation>
         <location filename="../prefinterface.ui" line="551"/>
         <location filename="../prefinterface.cpp" line="820"/>
         <source>Seeking method</source>
-        <translation type="unfinished"/>
+        <translation>Metóda posunutia</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"/>
+        <translation>Nastaví metódu, ktorá sa má použiť pri posunutí pomocou posuvníka. Absolútne posunutie môže byť o niečo presnejšie, zatiaľ čo relatívne posunutie môže fungovať lepšie pri súboroch s chybnou dĺžkou.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"/>
+        <translation>V predvolenom nastavení sa po stlačení tlačidla zastavenia zapamätá časová pozícia, takže ak stlačíte tlačidlo prehrávania, médiá budú pokračovať v tom istom bode. Na vynulovanie časovej polohy je potrebné dvakrát stlačiť tlačidlo zastavenia, ale ak je táto možnosť zaškrtnutá, časová pozícia sa nastaví na 0 iba jedným stlačením tlačidla zastavenia.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="839"/>
@@ -8036,7 +8036,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="843"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"/>
+        <translation>Zaškrtnite túto možnosť, ak chcete pri otváraní iných súborov použiť už spustenú inštanciu prehrávača SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="241"/>
@@ -8056,7 +8056,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
         <source>Floating control</source>
-        <translation type="unfinished"/>
+        <translation>Plávajúce ovládanie</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="849"/>
@@ -8066,7 +8066,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="850"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, plávajúce ovládanie sa zobrazí s animáciou.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="853"/>
@@ -8086,7 +8086,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť nastavuje počet pixelov, o ktoré bude plávajúce ovládanie oddialené od spodnej časti obrazovky. Užitočné, keď je obrazovka televízia, pretože presnímanie môže zabrániť viditeľnosti ovládania.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8096,7 +8096,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.ui" line="672"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Plávajúce ovládanie</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="688"/>
@@ -8148,17 +8148,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>Presné posunutie</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, posunutia sú presnejšie, ale môžu byť o niečo pomalšie. Nemusí fungovať s niektorými formátmi videa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Presné posunutie</translation>
     </message>
 </context>
 <context>
@@ -8261,7 +8261,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="425"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation>Pozícia titulkov na obrazovke</translation>
+        <translation>Pozícia &amp;titulkov na obrazovke</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="480"/>
@@ -8307,12 +8307,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="40"/>
         <source>HTTP</source>
-        <translation type="unfinished"/>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="41"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"/>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="80"/>
@@ -8413,12 +8413,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"/>
+        <translation>vyberie formát najlepšej kvality, ktorý je k dispozícii ako samostatný súbor.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
         <source>1080p, 720p...</source>
-        <translation type="unfinished"/>
+        <translation>1080p, 720p...</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -8428,7 +8428,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"/>
+        <translation>vyberie formát najhoršej dostupnej kvality.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
@@ -8548,7 +8548,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="419"/>
         <source>Proxy</source>
-        <translation type="unfinished"/>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="421"/>
@@ -8674,7 +8674,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;utomaticky</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8694,22 +8694,22 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>Allow frame drop</source>
-        <translation>Preskakovanie snímkov</translation>
+        <translation>Preskakovanie snímok</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Preskakovanie niektorých snímkov na pomalých systémoch pre udržanie synchronizáciu obrazu a zvuku.</translation>
+        <translation>Preskakovanie niektorých snímok na pomalých systémoch pre udržanie synchronizáciu obrazu a zvuku.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>Allow hard frame drop</source>
-        <translation>Povoliť časté preskakovanie snímkov</translation>
+        <translation>Povoliť časté preskakovanie snímok</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Intenzívnejšie preskakovanie snímkov. Spôsobuje nesprávne dekódovanie a výstupný obraz môže byť deformovaný!</translation>
+        <translation>Intenzívnejšie preskakovanie snímok (spôsobuje nesprávne dekódovanie). Výstupný obraz môže byť deformovaný!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
@@ -8719,7 +8719,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
         <source>&amp;Allow frame drop</source>
-        <translation>&amp;Povoliť preskakovanie snímkov</translation>
+        <translation>&amp;Povoliť preskakovanie snímok</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
@@ -8754,7 +8754,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
         <source>Skip loop filter</source>
-        <translation>Vynechať loop filter</translation>
+        <translation>Vynechať filter slučiek</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="230"/>
@@ -8839,12 +8839,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
-        <translation>&amp;Loop filter</translation>
+        <translation>&amp;Filter slučiek</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť umožňuje vynechať filter slučiek (tiež známe ako deblokovanie) počas dekódovania H.264. Keďže filtrovaná snímka sa má použiť ako referencia pre dekódovanie závislých snímok, má to horší vplyv na kvalitu ako nevykonanie deblokovania napr. pri videu MPEG-2. Prinajmenšom pre HDTV s vysokým dátovým tokom to však prináša veľké zrýchlenie bez viditeľnej straty kvality.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8855,7 +8855,7 @@ Chcete ho prepísať?</translation>
         <location filename="../prefperformance.cpp" line="34"/>
         <location filename="../prefperformance.cpp" line="384"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automaticky</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8920,17 +8920,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation>&lt;b&gt;Povolený&lt;/b&gt;: loop filter nebude vynechaný</translation>
+        <translation>&lt;b&gt;Povolený&lt;/b&gt;: filter slučiek nebude vynechaný</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Vynechať (vždy)&lt;/b&gt;: loop filter bude vynechaný a nezáleží na rozlíšení vida</translation>
+        <translation>&lt;b&gt;Vynechať (vždy)&lt;/b&gt;: filter slučiek bude vynechaný a nezáleží na rozlíšení videa</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;Vynechať iba pri HD videu&lt;/b&gt;: loop filter bude vynechaní iba pri videu, ktorého výška je %1 alebo vyššia.</translation>
+        <translation>&lt;b&gt;Vynechať iba pri HD videu&lt;/b&gt;: filter slučiek bude vynechaní iba pri videu, ktorého výška je %1 alebo vyššia.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
@@ -9390,7 +9390,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation>Vybrať farbu pre text titulkov.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
@@ -9400,12 +9400,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation>Vybrať farbu pre ohraničenie titulkov.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="403"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte metódu automatického načítania titulkov.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
@@ -9415,7 +9415,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"/>
+        <translation>Vyberte kódovanie, ktoré sa bude používať pre súbory s titulkami v predvolenom nastavení.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
@@ -9665,12 +9665,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="839"/>
         <source>Use custo&amp;m style</source>
-        <translation>Použite vlastný štýl</translation>
+        <translation>Použite &amp;vlastný štýl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="466"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"/>
+        <translation>Nasledujúce možnosti umožňujú definovať štýl, ktorý sa má použiť pre neštýlové titulky (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9723,12 +9723,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zapnutá, pre daný jazyk sa kódovanie titulkov skúsi určiť automaticky. Ak automatická detekcia zlyhá, vráti sa k predvolenému kódovaniu. Táto možnosť vyžaduje %1 s podporou ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Túto možnosť by ste za normálnych okolností nemali zakázať. Urobte to len vtedy, ak je %1 skompilovaný bez podpory freetype. &lt;b&gt;Zakázanie tejto možnosti môže spôsobiť, že titulky nebudú fungovať vôbec!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -9743,7 +9743,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť NEMENÍ veľkosť titulkov v aktuálnom videu. Ak to chcete urobiť, použite položky &lt;i&gt;Veľkosť+&lt;/i&gt; a &lt;i&gt;Veľkosť-&lt;/i&gt; v menu titulkov.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9773,7 +9773,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Predvolená mierka</translation>
+        <translation>Pred&amp;volená mierka</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9793,7 +9793,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, titulky sa zobrazia na snímkach obrazovky. &lt;b&gt;Poznámka:&lt;/b&gt; niekedy to môže spôsobiť určité problémy.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="349"/>
@@ -9823,7 +9823,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation>Táto farba sa použije na tieň titulkov.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
@@ -9838,7 +9838,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť zaškrtnutá, vyššie definovaný štýl sa použije aj na titulky ass.</translation>
     </message>
 </context>
 <context>
@@ -9866,7 +9866,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (dvojnásobný framerate)</translation>
+        <translation>Yadif (dvojnásobná snímková frekvencia)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
@@ -9982,12 +9982,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zrušiť</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -10036,7 +10036,7 @@ Chcete ho prepísať?</translation>
         <location filename="../clhelp.cpp" line="100"/>
         <location filename="../clhelp.cpp" line="192"/>
         <source>media</source>
-        <translation type="unfinished"/>
+        <translation>médiá</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="186"/>
@@ -10102,12 +10102,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="98"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"/>
+        <translation>súbor_titulkov</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="168"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"/>
+        <translation>určuje súbor s titulkami, ktorý sa má načítať pre prvé video.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="127"/>
@@ -10141,7 +10141,7 @@ Chcete ho prepísať?</translation>
         <location filename="../mediasettings.cpp" line="199"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"/>
+        <translation>automaticky</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="200"/>
@@ -10187,7 +10187,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation>nastaví názov médií pre prvé video.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
@@ -10207,7 +10207,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"/>
+        <translation>&apos;médiá&apos; je akýkoľvek druh súboru, ktorý dokáže SMPlayer otvoriť. Môže to byť lokálny súbor, DVD (napr. dvd://1), internetový prúd (napr. mms://....) alebo lokálny playlist vo formáte m3u alebo pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10358,12 +10358,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť hlavný panel nás&amp;trojov</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>Upraviť &amp;plávajúce ovládanie</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -10401,12 +10401,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;3D formát videa:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"/>
+        <translation>Výstupný f&amp;ormát:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -10526,7 +10526,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automaticky</translation>
     </message>
 </context>
 <context>
@@ -10534,12 +10534,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"/>
+        <translation>Výber titulkov</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"/>
+        <translation>Tento archív obsahuje viac ako jeden súbor s titulkami. Prosím, vyberte tie, ktoré chcete extrahovať.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -10575,7 +10575,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer - Posun</translation>
     </message>
 </context>
 <context>
@@ -10583,7 +10583,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"/>
+        <translation>Editor panelov nástrojov</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
@@ -10618,7 +10618,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"/>
+        <translation>Veľkosť &amp;ikony:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -10736,7 +10736,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="227"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="228"/>
@@ -10746,7 +10746,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="229"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"/>
+        <translation>Kód chyby: %1</translation>
     </message>
 </context>
 <context>
@@ -10764,7 +10764,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
         <source>&amp;Disable software video filters</source>
-        <translation>Zakázať softvérové video filtre</translation>
+        <translation>&amp;Zakázať softvérové video filtre</translation>
     </message>
 </context>
 <context>
@@ -10817,7 +10817,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zavrieť</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -10845,12 +10845,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zavrieť</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="129"/>
         <source>&amp;Save</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Uložiť</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="168"/>
@@ -10865,7 +10865,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="516"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"/>
+        <translation>Veľkosť: %1 MB</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="518"/>
@@ -10875,17 +10875,17 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>FPS: %1</source>
-        <translation type="unfinished"/>
+        <translation>FPS: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="522"/>
         <source>Audio format: %1</source>
-        <translation type="unfinished"/>
+        <translation>Formát zvuku: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="697"/>
         <source>Save file</source>
-        <translation type="unfinished"/>
+        <translation>Uložiť súbor</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="714"/>
@@ -10925,7 +10925,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="521"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"/>
+        <translation>Formát videa: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
@@ -10960,7 +10960,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="698"/>
         <source>Images</source>
-        <translation type="unfinished"/>
+        <translation>Obrázky</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="501"/>
@@ -10981,12 +10981,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="526"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"/>
+        <translation>Dátový tok videa: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="527"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"/>
+        <translation>Dátový tok zvuku: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="528"/>
@@ -11034,12 +11034,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zrušiť</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
@@ -11080,12 +11080,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"/>
+        <translation>Táto možnosť určuje maximálnu šírku v pixeloch, ktorú bude mať vygenerovaný náhľadový obrázok.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"/>
+        <translation>Na vytvorenie náhľadu sa z videa vyberú niektoré snímky. Tu môžete vybrať formát obrázkov pre extrahované snímky. PNG môže poskytnúť lepšiu kvalitu.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>

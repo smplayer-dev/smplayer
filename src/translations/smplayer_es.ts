@@ -2255,7 +2255,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Se ha producido un error al descargar el archivo::&lt;br&gt;%1</translation>
+        <translation>Se ha producido un error al descargar el archivo:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>

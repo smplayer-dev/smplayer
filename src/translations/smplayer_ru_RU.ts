@@ -390,7 +390,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="253"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Текущие значения были сохранены как используемые по умолчанию.</translation>
+        <translation>Текущие значения были сохранены в качестве стандартных значений.</translation>
     </message>
 </context>
 <context>
@@ -1194,7 +1194,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Отображать &amp;информацию на OSD</translation>
+        <translation>Отображать &amp;информацию в OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1983"/>
@@ -1480,7 +1480,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6482"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation>Система вышла из планшетного режима. Должен ли SMPlayer также выключить планшетный режим?</translation>
+        <translation>Система вышла из планшетного режима. Должен ли SMPlayer также отключить планшетный режим?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6486"/>
@@ -1511,7 +1511,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4082"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Текущие значения были сохранены как используемые по умолчанию.</translation>
+        <translation>Текущие значения были сохранены в качестве стандартных значений.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1963"/>
@@ -2327,7 +2327,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3247"/>
         <source>Contrast: %1</source>
-        <translation>Контрастность: %1</translation>
+        <translation>Контраст %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3262"/>
@@ -2551,22 +2551,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Редактировать &amp;главную панель</translation>
+        <translation>Изменить &amp;главную панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
         <source>Edit &amp;control bar</source>
-        <translation>Редактировать панель &amp;управления</translation>
+        <translation>Изменить панель &amp;управления</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Редактировать &amp;мини-панель управления</translation>
+        <translation>Изменить &amp;мини-панель управления</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редактировать &amp;плавающую панель</translation>
+        <translation>Изменить &amp;плавающую панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="774"/>
@@ -2660,7 +2660,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые элементы. Дважды щёлкните по ячейке для изменения её содержимого.</translation>
+        <translation>Вы можете изменять, удалять, сортировать и добавлять новые элементы. Дважды щёлкните по ячейке для изменения её содержимого.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="354"/>
@@ -2725,7 +2725,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>&amp;Редактировать…</translation>
+        <translation>&amp;Изменить…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
@@ -4894,12 +4894,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="184"/>
         <source>Edit &amp;control bar</source>
-        <translation>Редактировать панель &amp;управления</translation>
+        <translation>Изменить панель &amp;управления</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редактировать &amp;плавающую панель</translation>
+        <translation>Изменить &amp;плавающую панель</translation>
     </message>
 </context>
 <context>
@@ -5027,7 +5027,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="777"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Редактировать</translation>
+        <translation>&amp;Изменить</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1389"/>
@@ -6351,7 +6351,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Двойная буферизация исправляет мерцание кадров благодаря тому, что в память загружается два кадра и, при отображении одного, обрабатывается следующий. Выключение этого параметра может негативно сказаться на OSD.</translation>
+        <translation>Двойная буферизация исправляет мерцание кадров благодаря тому, что в память загружается два кадра, и при отображении одного обрабатывается следующий. Отключение этого параметра может негативно сказаться на OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="435"/>
@@ -7738,7 +7738,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation>Главное окно может изменять размер автоматически. Выберите предпочтительную настройку.</translation>
+        <translation>Главное окно может изменять размер автоматически. Выберите подходящую настройку.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -8138,7 +8138,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>Если эта опция выбрана, окно видео будет спрятано при воспроизведении аудиофайлов.</translation>
+        <translation>Если этот параметр включён, окно видео будет спрятано при воспроизведении аудиофайлов.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
@@ -8367,7 +8367,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
-        <translation>поддержка видео-сайтов выключена</translation>
+        <translation>поддержка видео-сайтов отключена</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8493,7 +8493,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="395"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation>Когда веб-сервер работает, то любое устройство в сети может получить доступ к файлам с этого компьютера. Если эта опция включена, то любое устройство может получить список файлов на этом компьютере. Если эта опция выключена, то список не будет доступен.</translation>
+        <translation>Когда веб-сервер работает, то любое устройство в сети может получить доступ к файлам с этого компьютера. Если эта опция включена, то любое устройство может получить список файлов на этом компьютере. Если этот параметр отключён, то список не будет доступен.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="401"/>
@@ -8689,7 +8689,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Установки кэша могут улучшить или ухудшить быстродействие</translation>
+        <translation>Настройка кэша может улучшить быстродействие медленного медиа</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -10182,7 +10182,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>sets the stay on top option to never.</source>
-        <translation>выключает опцию поверх всех окон.</translation>
+        <translation>отключает параметр поверх всех окон.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
@@ -10358,12 +10358,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Редактировать &amp;главную панель</translation>
+        <translation>Изменить &amp;главную панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редактировать &amp;плавающую панель</translation>
+        <translation>Изменить &amp;плавающую панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -10521,7 +10521,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation>Выключено</translation>
+        <translation>Нет</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
@@ -10777,7 +10777,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>&amp;Контрастность</translation>
+        <translation>&amp;Контраст</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
@@ -10807,7 +10807,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>Установить как значения по &amp;умолчанию</translation>
+        <translation>Установить в качестве стан&amp;дартных</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
