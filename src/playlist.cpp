@@ -1791,7 +1791,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	#endif
 
 	if (new_current_item != -1) setCurrentItem(new_current_item);
-
+	if (shuffleAct->isChecked()) shuffle(true);
 	qDebug() << "Playlist::addFiles: latest_dir:" << latest_dir;
 }
 
