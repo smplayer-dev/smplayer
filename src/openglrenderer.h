@@ -26,6 +26,7 @@
 #include <QOpenGLShader>
 #include <QOpenGLShaderProgram>
 #include <QOpenGLTexture>
+#include <QOpenGLVertexArrayObject>
 
 class OpenGLRenderer : public QObject, protected QOpenGLFunctions
 {
@@ -33,7 +34,6 @@ class OpenGLRenderer : public QObject, protected QOpenGLFunctions
 
 public:
 	enum PackedPattern { UYVY = 1, YUYV = 3 };
-	enum ColorSp { BT601 = 1, BT709 = 2 };
 
 	OpenGLRenderer(QObject * parent = 0);
 	~OpenGLRenderer();
@@ -41,8 +41,9 @@ public:
 	void setFormat(ConnectionBase::Format format);
 	int format() { return current_format; };
 
-	void setColorConversion(ColorSp c) { color_conversion = c; }
-	int colorConversion() { return color_conversion; }
+	void setColorspace(ConnectionBase::Colorspace c, ConnectionBase::Primary primary);
+	int colorspace() { return current_colorspace; }
+	int colorspacePrimary() { return current_primary; }
 
 	virtual void initializeGL(int window_width, int window_height);
 	virtual void paintGL(int window_width, int window_height, int image_width, int image_height, uint32_t image_format, unsigned char * image_buffer);
@@ -55,7 +56,11 @@ protected:
 	QString rgbShader();
 	QString yuv420Shader();
 	QString packedShader(PackedPattern p = YUYV);
-	QString colorConversionMat();
+	QString colorspaceMat();
+	QString HDRColorConversionCode();
+
+	QString glslCode(QString code);
+	QString glsl_version;
 
 	QOpenGLBuffer vertex_buffer;
 
@@ -64,14 +69,19 @@ protected:
 	QOpenGLShader * vertex_shader;
 	QOpenGLShader * fragment_shader;
 	QOpenGLShaderProgram program;
+	QOpenGLVertexArrayObject vao;
 
 	GLuint textureUniformU;
 	GLuint textureUniformV;
 	GLuint textureUniformY;
 	GLuint textureUniformStepX;
 
+	QMatrix3x3 cms_matrix;
+	GLfloat luma;
+
 	int current_format;
-	int color_conversion;
+	int current_colorspace;
+	int current_primary;
 };
 
 #endif

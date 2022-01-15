@@ -169,6 +169,7 @@ void ConnectionShm::start_connection() {
 	}
 
 	video_window->init(image_width, image_height, image_bytes, format, image_data);
+	video_window->setColorspace(header->colorspace, header->colorspace_primaries);
 	qDebug("ConnectionShm::start_connection: header_size: %d format: %s", header->header_size,
            formatToString(format).toLatin1().constData());
 

@@ -31,6 +31,9 @@ public:
                   YUY2 = 844715353, UYVY = 1498831189,
                   MP_YUV420P = 1002, MP_UYVY422 = 1005, MP_RGB24 = 1013 };
 
+	enum Primary { PRIM_BT_601_525 = 1, PRIM_BT_601_625 = 2, PRIM_BT_709 = 3, PRIM_BT_2020 = 4 };
+	enum Colorspace { CSP_BT_601 = 1, CSP_BT_709 = 2, CSP_BT_2020_NC = 4, MP_CSP_BT_2020_C = 5, CSP_RGB = 6 };
+
 	ConnectionBase(VideoLayerRender * parent) : QObject(parent), video_window(parent) {}
 	~ConnectionBase() {}
 

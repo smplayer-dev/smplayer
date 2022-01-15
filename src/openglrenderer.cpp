@@ -19,6 +19,7 @@
 #include "openglrenderer.h"
 
 #include <QGLShaderProgram>
+#include <QRegularExpression>
 #include <QDebug>
 
 OpenGLRenderer::OpenGLRenderer(QObject * parent)
@@ -27,11 +28,22 @@ OpenGLRenderer::OpenGLRenderer(QObject * parent)
 	, vertex_shader(0)
 	, fragment_shader(0)
 	, current_format(0)
-	, color_conversion(BT709)
+	, current_colorspace(ConnectionBase::CSP_BT_709)
 {
+	//glsl_version = "130";
+	glsl_version = "330";
+
 	for (int n = 0; n < 3; n++) {
 		textures[n] = 0;
 	}
+
+	GLfloat matrix[] = {
+		1.660497, -0.587657, -0.072840,
+		-0.124547, 1.132895, -0.008348,
+		-0.018154, -0.100597, 1.118751
+	};
+	cms_matrix = QMatrix3x3(matrix);
+	luma = 0.212637;
 }
 
 OpenGLRenderer::~OpenGLRenderer() {
@@ -49,6 +61,20 @@ void OpenGLRenderer::setFormat(ConnectionBase::Format format) {
 		}
 	}
 	current_format = format;
+}
+
+void OpenGLRenderer::setColorspace(ConnectionBase::Colorspace c, ConnectionBase::Primary primary) {
+	bool changed = (current_colorspace != c || current_primary != primary);
+	current_colorspace = c;
+	current_primary = primary;
+	if (changed) {
+		if (program.isLinked()) {
+			program.release();
+			program.removeShader(fragment_shader);
+			delete fragment_shader;
+			fragment_shader = 0;
+		}
+	}
 }
 
 void OpenGLRenderer::createFragmentShader() {
@@ -69,7 +95,7 @@ void OpenGLRenderer::createFragmentShader() {
 
 	//qDebug() << "OpenGLRenderer::createFragmentShader: code:" << code;
 
-	if (!fragment_shader->compileSourceCode(code)) {
+	if (!fragment_shader->compileSourceCode(glslCode(code))) {
 		qWarning() << "OpenGLRenderer::createFragmentShader:" << fragment_shader->log();
 	}
 
@@ -106,6 +132,10 @@ void OpenGLRenderer::initializeGL(int window_width, int window_height) {
 	qDebug("OpenGLRenderer::initializeGL");
 	initializeOpenGLFunctions();
 
+	if (QOpenGLContext::currentContext()->isOpenGLES()) {
+		glsl_version = "300 es";
+	}
+
 	glEnable(GL_TEXTURE_2D);
 	glDisable(GL_DEPTH_TEST);
 
@@ -133,18 +163,20 @@ void OpenGLRenderer::initializeGL(int window_width, int window_height) {
 	/* Create Vertex Shader */
 	vertex_shader = new QOpenGLShader(QOpenGLShader::Vertex, this);
 	QString code = QString(
-		"attribute vec4 vertexIn;"
-		"attribute vec2 textureIn;"
-		"varying vec2 textureOut;"
-		"void main(void)"
-		"{"
-			"gl_Position = vertexIn;"
-			"textureOut = textureIn;"
-		"}");
-	if (!vertex_shader->compileSourceCode(code)) {
+		"in vec4 vertexIn; \n"
+		"in vec2 textureIn; \n"
+		"out vec2 textureOut; \n"
+		"void main(void) \n"
+		"{ \n"
+			"gl_Position = vertexIn; \n"
+			"textureOut = textureIn; \n"
+		"} \n");
+	if (!vertex_shader->compileSourceCode(glslCode(code))) {
 		qWarning() << "OpenGLRenderer::initializeGL:" << vertex_shader->log();
 	}
 	program.addShader(vertex_shader);
+
+	if (vao.create()) vao.bind();
 }
 
 void OpenGLRenderer::configureTexture(QOpenGLTexture &texture) {
@@ -266,6 +298,10 @@ void OpenGLRenderer::paintGL(int window_width, int window_height, int image_widt
 		program.setUniformValue(textureUniformY, 0);
 		program.setUniformValue(textureUniformU, 1);
 		program.setUniformValue(textureUniformV, 2);
+
+		//qDebug() << "OpenGLRenderer::paintGL: cms_matrix:" << cms_matrix;
+		program.setUniformValue(program.uniformLocation("cms_matrix"), cms_matrix);
+		program.setUniformValue(program.uniformLocation("dst_luma"), luma, luma, luma);
 	}
 
 	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
@@ -279,131 +315,274 @@ void OpenGLRenderer::resizeGL(int w, int h) {
 }
 
 QString OpenGLRenderer::rgbShader() {
-	return QString(
-		"varying vec2 textureOut;"
-		"uniform sampler2D tex_y;"
-		"void main(void)"
-		"{"
-		"vec3 rgb;"
-		"rgb = texture2D(tex_y, textureOut).rgb;"
-		"gl_FragColor = vec4(rgb, 1.0);"
-		"}"
+	QString code = QString(
+		"out highp vec4 fragColor; \n"
+		"in highp vec2 textureOut; \n"
+		"uniform sampler2D tex_y; \n"
+		"void main(void) \n"
+		"{ \n"
+		"highp vec3 rgb; \n"
+		"rgb = texture(tex_y, textureOut).rgb; \n"
+		"fragColor = vec4(rgb, 1.0); \n"
+		"} \n"
 	);
+
+	//qDebug("OpenGLRenderer::rgbShader: code: %s", code.toLatin1().constData());
+	return code;
 }
 
 QString OpenGLRenderer::yuv420Shader() {
 	QString code = QString(
-		"varying vec2 textureOut;"
-		"uniform sampler2D tex_y;"
-		"uniform sampler2D tex_u;"
-		"uniform sampler2D tex_v;"
-		"void main(void)"
-		"{"
-			"vec3 yuv;"
-			"vec3 rgb;"
+		"out highp vec4 fragColor; \n"
+		"in highp vec2 textureOut; \n"
+		"uniform sampler2D tex_y; \n"
+		"uniform sampler2D tex_u; \n"
+		"uniform sampler2D tex_v; \n"
+		"uniform highp vec3 dst_luma; \n"
+		"uniform highp mat3 cms_matrix; \n"
+
+		"void main(void) \n"
+		"{ \n"
+			"highp vec3 yuv; \n"
+			"highp vec3 rgb; \n"
 		);
 
-	code += colorConversionMat();
+	code += colorspaceMat();
 
 	code += QString(
-			"yuv.x = texture2D(tex_y, textureOut).r - 0.063;"
-			"yuv.y = texture2D(tex_u, textureOut).r - 0.500;"
-			"yuv.z = texture2D(tex_v, textureOut).r - 0.500;"
-			"rgb = yuv2rgb_mat * yuv;"
-			"gl_FragColor = vec4(rgb, 1.0);"
-		"}"
+			"yuv.x = texture(tex_y, textureOut).r - 0.063; \n"
+			"yuv.y = texture(tex_u, textureOut).r - 0.500; \n"
+			"yuv.z = texture(tex_v, textureOut).r - 0.500; \n"
+			"rgb = yuv2rgb_mat * yuv; \n");
+
+	qDebug() << "OpenGLRenderer::yuv420Shader: current_primary:" << current_primary;
+	if (current_primary == ConnectionBase::PRIM_BT_2020 && glsl_version >= "130") {
+		code += HDRColorConversionCode();
+	}
+
+	code += QString(
+			"fragColor = vec4(rgb, 1.0); \n"
+		"}\n"
 	);
 
+	//qDebug("OpenGLRenderer::yuv420Shader: code: %s", code.toLatin1().constData());
 	return code;
 }
 
 QString OpenGLRenderer::packedShader(PackedPattern p) {
 	QString code = QString(
-		"varying vec2 textureOut;"
-		"uniform sampler2D tex_y;"
-		"uniform float tex_stepx;"
-		"void main(void)"
-		"{"
+		"out highp vec4 fragColor; \n"
+		"in highp vec2 textureOut; \n"
+		"uniform sampler2D tex_y; \n"
+		"uniform highp float tex_stepx; \n"
+		"void main(void) \n"
+		"{ \n"
 	);
 
-	code += colorConversionMat();
+	code += colorspaceMat();
 
 	code += QString(
-			"vec3 yuv2rgb_offset = vec3(0.063, 0.500, 0.500);"
-			"vec2 pos = textureOut;"
-			"float f_x = fract(pos.x / tex_stepx);"
-			"vec4 left = texture2D(tex_y, vec2(pos.x - f_x * tex_stepx, pos.y));"
-			"vec4 right = texture2D(tex_y, vec2(pos.x + (1.0 - f_x) * tex_stepx , pos.y));"
+			"highp vec3 yuv2rgb_offset = vec3(0.063, 0.500, 0.500); \n"
+			"highp vec2 pos = textureOut; \n"
+			"highp float f_x = fract(pos.x / tex_stepx); \n"
+			"highp vec4 left = texture(tex_y, vec2(pos.x - f_x * tex_stepx, pos.y)); \n"
+			"highp vec4 right = texture(tex_y, vec2(pos.x + (1.0 - f_x) * tex_stepx , pos.y)); \n"
 	);
 
 	if (p == YUYV) {
 		code += QString(
-			"float y_left = mix(left.r, left.b, f_x * 2.0);"
-			"float y_right = mix(left.b, right.r, f_x * 2.0 - 1.0);"
-			"vec2 uv = mix(left.ga, right.ga, f_x);"
+			"highp float y_left = mix(left.r, left.b, f_x * 2.0); \n"
+			"highp float y_right = mix(left.b, right.r, f_x * 2.0 - 1.0); \n"
+			"highp vec2 uv = mix(left.ga, right.ga, f_x); \n"
 		);
 	}
 	else
 	if (p == UYVY) {
 		code += QString(
-			"float y_left = mix(left.g, left.a, f_x * 2.0);"
-			"float y_right = mix(left.a, right.g, f_x * 2.0 - 1.0);"
-			"vec2 uv = mix(left.rb, right.rb, f_x);"
+			"highp float y_left = mix(left.g, left.a, f_x * 2.0); \n"
+			"highp float y_right = mix(left.a, right.g, f_x * 2.0 - 1.0); \n"
+			"highp vec2 uv = mix(left.rb, right.rb, f_x); \n"
 		);
 	}
 
 	code += QString(
-			"float y = mix(y_left, y_right, step(0.5, f_x));"
-			"vec3 rgb = yuv2rgb_mat * (vec3(y, uv) - yuv2rgb_offset);"
-			"gl_FragColor = vec4(rgb, 1.0);"
-		"}"
+			"highp float y = mix(y_left, y_right, step(0.5, f_x)); \n"
+			"highp vec3 rgb = yuv2rgb_mat * (vec3(y, uv) - yuv2rgb_offset); \n"
+			"fragColor = vec4(rgb, 1.0); \n"
+		"} \n"
 	);
 
+	//qDebug("OpenGLRenderer::packedShader: code: %s", code.toLatin1().constData());
 	return code;
 }
 
-QString OpenGLRenderer::colorConversionMat() {
-	qDebug("OpenGLRenderer::colorConversionMat: %d", color_conversion);
+QString OpenGLRenderer::colorspaceMat() {
+	qDebug("OpenGLRenderer::colorspaceMat: %d", current_colorspace);
 
 	QString bt601 = QString(
-			"mat3 yuv2rgb_mat = mat3("
-				"vec3(1.164,  1.164, 1.164),"
-				"vec3(0.000, -0.392, 2.017),"
-				"vec3(1.596, -0.813, 0.000)"
-			");");
+			"highp mat3 yuv2rgb_mat = mat3( \n"
+				"vec3(1.164,  1.164, 1.164), \n"
+				"vec3(0.000, -0.392, 2.017), \n"
+				"vec3(1.596, -0.813, 0.000) \n"
+			"); \n");
 
 	QString bt709 = QString(
-			"mat3 yuv2rgb_mat = mat3("
-				"vec3(1.164,  1.164, 1.164),"
-				"vec3(0.000, -0.213, 2.112),"
-				"vec3(1.793, -0.533, 0.000)"
-			");");
+			"highp mat3 yuv2rgb_mat = mat3( \n"
+				"vec3(1.164,  1.164, 1.164), \n"
+				"vec3(0.000, -0.213, 2.112), \n"
+				"vec3(1.793, -0.533, 0.000) \n"
+			"); \n");
 
 	QString jpeg = QString(
-			"mat3 yuv2rgb_mat = mat3("
-				"vec3(1.000,  1.000, 1.000),"
-				"vec3(0.000, -0.343, 1.765),"
-				"vec3(1.400, -0.711, 0.000)"
-			");");
+			"highp mat3 yuv2rgb_mat = mat3( \n"
+				"vec3(1.000,  1.000, 1.000), \n"
+				"vec3(0.000, -0.343, 1.765), \n"
+				"vec3(1.400, -0.711, 0.000) \n"
+			"); \n");
 
 	QString bt2020ncl = QString(
-			"mat3 yuv2rgb_mat = mat3("
-				"vec3(1.164,  1.164, 1.164),"
-				"vec3(0.000, -0.187, 2.141),"
-				"vec3(1.679, -0.650, 0.000)"
-			");");
+			"highp mat3 yuv2rgb_mat = mat3( \n"
+				"vec3(1.164,  1.164, 1.164), \n"
+				"vec3(0.000, -0.187, 2.141), \n"
+				"vec3(1.679, -0.650, 0.000) \n"
+			"); \n");
 
 	QString bt2020cl = QString(
-			"mat3 yuv2rgb_mat = mat3("
-				"vec3(0.000, 1.164, 0.000),"
-				"vec3(0.000, 0.000, 1.138),"
-				"vec3(1.138, 0.000, 0.000)"
-			");");
+			"highp mat3 yuv2rgb_mat = mat3( \n"
+				"vec3(0.000, 1.164, 0.000), \n"
+				"vec3(0.000, 0.000, 1.138), \n"
+				"vec3(1.138, 0.000, 0.000) \n"
+			"); \n");
 
-	if (color_conversion == BT601)
-		return bt601;
-	else
-		return bt709;
+	switch (current_colorspace) {
+		case ConnectionBase::CSP_BT_601: return bt601;
+		case ConnectionBase::CSP_BT_2020_NC: return bt2020ncl;
+	}
+	return bt709;
+}
+
+QString OpenGLRenderer::HDRColorConversionCode() {
+	QString code;
+
+#if 1
+	static const float PQ_M1 = 2610./4096 * 1./4,
+                   PQ_M2 = 2523./4096 * 128,
+                   PQ_C1 = 3424./4096,
+                   PQ_C2 = 2413./4096 * 32,
+                   PQ_C3 = 2392./4096 * 32;
+	static const float REF_WHITE = 203.0;
+
+	// linearize
+	// BT.2100 PQ
+	code += QString("rgb = clamp(rgb, 0.0, 1.0); \n");
+	code += QString().asprintf("rgb = pow(rgb, vec3(1.0/%f)); \n", PQ_M2);
+	code += QString().asprintf("rgb = max(rgb - vec3(%f), vec3(0.0)) \n"
+                               "             / (vec3(%f) - vec3(%f) * rgb); \n", PQ_C1, PQ_C2, PQ_C3);
+	code += QString().asprintf("rgb = pow(rgb, vec3(%f)); \n", 1.0 / PQ_M1);
+	code += QString().asprintf("rgb *= vec3(%f); \n", 10000 / REF_WHITE);
+	code += QString().asprintf("rgb *= vec3(1.0/%f); \n", 10000.0 / REF_WHITE);
+	code += QString().asprintf("rgb *= vec3(%f); \n", 10000 / REF_WHITE);
+
+	#if 1
+	// HDR tone mapping
+	float src_peak = 49.261086;
+	float sdr_avg = 0.250000;
+	float max_boost = 1.000000;
+	float max_lum = 0.580690;
+	float dst_scale = 1.000000;
+	float desat = 0.750000;
+	float desat_exp = 1.500000;
+	code += QString().asprintf(
+            "highp vec3 color = rgb; \n"
+            "int sig_idx = 0; \n"
+            "if (color[1] > color[sig_idx]) sig_idx = 1; \n"
+            "if (color[2] > color[sig_idx]) sig_idx = 2; \n"
+            "highp float sig_max = color[sig_idx]; \n"
+            "highp float sig_peak = %f; \n"
+            "highp float sig_avg = %f; \n", src_peak, sdr_avg);
+	code += QString().asprintf(
+            "highp vec3 sig = min(color.rgb, sig_peak); \n"
+            "highp float sig_orig = sig[sig_idx]; \n"
+            "highp float slope = min(%f, %f / sig_avg); \n"
+            "sig *= slope; \n"
+            "sig_peak *= slope; \n",
+            max_boost, sdr_avg);
+	code += QString().asprintf(
+            "highp vec4 sig_pq = vec4(sig.rgb, sig_peak); \n"
+            "sig_pq *= vec4(1.0/%f); \n"
+            "sig_pq = pow(sig_pq, vec4(%f)); \n"
+            "sig_pq = (vec4(%f) + vec4(%f) * sig_pq) \n"
+            "          / (vec4(1.0) + vec4(%f) * sig_pq); \n"
+            "sig_pq = pow(sig_pq, vec4(%f)); \n",
+            10000.0 / REF_WHITE, PQ_M1, PQ_C1, PQ_C2, PQ_C3, PQ_M2);
+	code += QString().asprintf(
+            "highp float scale = 1.0 / sig_pq.a; \n"
+            "sig_pq.rgb *= vec3(scale); \n"
+            "highp float max_lum = %f * scale; \n", max_lum);
+	code += "highp float ks = 1.5 * max_lum - 0.5; \n"
+            "highp vec3 tb = (sig_pq.rgb - vec3(ks)) / vec3(1.0 - ks); \n"
+            "highp vec3 tb2 = tb * tb; \n"
+            "highp vec3 tb3 = tb2 * tb; \n"
+            "highp vec3 pb = (2.0 * tb3 - 3.0 * tb2 + vec3(1.0)) * vec3(ks) +\n"
+            "          (tb3 - 2.0 * tb2 + tb) * vec3(1.0 - ks) +\n"
+            "          (-2.0 * tb3 + 3.0 * tb2) * vec3(max_lum); \n"
+            "sig = mix(pb, sig_pq.rgb, lessThan(sig_pq.rgb, vec3(ks))); \n";
+	code += QString().asprintf(
+            "sig *= vec3(sig_pq.a); \n"
+            "sig = pow(sig, vec3(1.0/%f)); \n"
+            "sig = max(sig - vec3(%f), 0.0) /\n"
+            "          (vec3(%f) - vec3(%f) * sig); \n"
+            "sig = pow(sig, vec3(1.0/%f)); \n"
+            "sig *= vec3(%f); \n",
+            PQ_M2, PQ_C1, PQ_C2, PQ_C3, PQ_M1, 10000.0 / REF_WHITE);
+	code += "highp vec3 sig_lin = color.rgb * (sig[sig_idx] / sig_orig); \n";
+
+	code += QString().asprintf(
+            "highp float coeff = max(sig[sig_idx] - %f, 1e-6) / max(sig[sig_idx], 1.0); \n"
+            "coeff = %f * pow(coeff, %f); \n"
+            "color.rgb = mix(sig_lin, %f * sig, coeff); \n"
+            "rgb = color.rgb; \n",
+             0.18 * dst_scale, desat, desat_exp, dst_scale);
+	#endif
+
+	#if 1
+	// color mapping
+	code += "rgb = cms_matrix * rgb; \n"
+            "highp float cmin = min(min(rgb.r, rgb.g), rgb.b); \n"
+            "if (cmin < 0.0) { highp float luma = dot(dst_luma, rgb); highp float coeff = cmin / (cmin - luma); rgb = mix(rgb, vec3(luma), coeff); }\n"
+            "highp float cmax = max(max(rgb.r, rgb.g), rgb.b); \n"
+            "if (cmax > 1.0) rgb /= cmax; \n"
+            "rgb *= vec3(1.000000); \n";
+	#endif
+
+	// delinearize
+	// GAMMA22
+	code += QString("rgb = clamp(rgb, 0.0, 1.0); \n"
+            "rgb *= vec3(1.000000); \n"
+            "rgb = pow(rgb, vec3(1.0/2.2)); \n");
+#endif
+	return code;
+}
+
+QString OpenGLRenderer::glslCode(QString code) {
+	code = "#version "+ glsl_version +" \n" + code;
+
+	//qDebug("OpenGLRenderer::glslCode: code IN: %s", code.toLatin1().constData());
+
+	if (glsl_version < "200") {
+		code = code.replace("highp ", "");
+		code = code.replace("out vec4 fragColor;", "");
+		code = code.replace("out vec2 textureOut", "varying vec2 textureOut");
+		code = code.replace("in vec2 textureOut", "varying vec2 textureOut");
+		code = code.replace("fragColor", "gl_FragColor");
+		code = code.replace("out ", "varying ");
+		QRegularExpression rx("^in ");
+		rx.setPatternOptions(QRegularExpression::MultilineOption);
+		code = code.replace(rx, "attribute ");
+		code = code.replace("texture(", "texture2D(");
+		//qDebug("OpenGLRenderer::glslCode: code OUT: %s", code.toLatin1().constData());
+	}
+	return code;
 }
 
 #include "moc_openglrenderer.cpp"

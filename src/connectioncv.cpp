@@ -91,6 +91,7 @@ void ConnectionCV::init_slot(int width, int height, int bytes, int aspect) {
 	}
 
 	video_window->init(image_width, image_height, image_bytes, format, image_buffer);
+	video_window->setColorspace(ConnectionBase::CSP_BT_709, ConnectionBase::PRIM_BT_709);
 }
 
 void ConnectionCV::render_slot() {

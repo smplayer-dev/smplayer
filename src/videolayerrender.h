@@ -49,6 +49,7 @@ public:
 
 	void init(int width, int height, int bytes_per_pixel, uint32_t format, unsigned char* buffer);
 	void setImageBuffer(unsigned char* buffer) { image_buffer = buffer; }
+	void setColorspace(uint32_t space, uint32_t primary);
 
 	bool isFormatSupported(uint32_t format) {
 		return supported_formats.contains(format);

@@ -20,6 +20,9 @@
 #include "smplayer.h"
 
 #include <QDir>
+#ifdef USE_GL_WINDOW
+#include <QSurfaceFormat>
+#endif
 
 #ifdef HDPI_SUPPORT
 #include "paths.h"
@@ -64,6 +67,15 @@ int main( int argc, char ** argv )
 #endif
 
 	MyApplication a( "smplayer", argc, argv );
+
+#ifdef USE_GL_WINDOW
+	QSurfaceFormat fmt;
+	fmt.setVersion( 3, 2 );
+	fmt.setProfile( QSurfaceFormat::CoreProfile );
+	//fmt.setRenderableType(QSurfaceFormat::OpenGLES);
+	QSurfaceFormat::setDefaultFormat(fmt);
+#endif
+
 	/*
 	if (a.isRunning()) { 
 		qDebug("Another instance is running. Exiting.");

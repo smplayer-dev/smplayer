@@ -56,7 +56,7 @@ VideoLayerRender::VideoLayerRender(QWidget* parent, Qt::WindowFlags f)
 #endif
 {
 #ifdef USE_GL_WINDOW
-	QSurfaceFormat fmt;
+	QSurfaceFormat fmt = QSurfaceFormat::defaultFormat();
 	fmt.setSwapInterval(1);
 	fmt.setSwapBehavior(QSurfaceFormat::DoubleBuffer);
 	//fmt.setColorSpace(QSurfaceFormat::sRGBColorSpace);
@@ -110,6 +110,12 @@ void VideoLayerRender::init(int width, int height, int bytes_per_pixel, uint32_t
 	}
 #ifdef USE_GL_WINDOW
 	renderer->setFormat((ConnectionBase::Format) image_format);
+#endif
+}
+
+void VideoLayerRender::setColorspace(uint32_t space, uint32_t primary) {
+#ifdef USE_GL_WINDOW
+	renderer->setColorspace((ConnectionBase::Colorspace) space, (ConnectionBase::Primary) primary);
 #endif
 }
 
@@ -248,6 +254,7 @@ void VideoLayerRender::initializeGL() {
 
 	initializeOpenGLFunctions();
 	qDebug("VideoLayerRender::initializeGL: GL_VERSION: %s", glGetString(GL_VERSION));
+	qDebug("VideoLayerRender::initializeGL: GSLS version: %s", glGetString(GL_SHADING_LANGUAGE_VERSION));
 
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 
