@@ -1724,9 +1724,11 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("vo", vo);
 	} else {
 		#ifdef Q_OS_WIN
+        /*
 		if ((proc->isMPlayer() && QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) || proc->isMPV()) {
 			proc->setOption("vo", "direct3d,");
 		}
+        */
 		#endif
 		#ifdef Q_OS_MACX
 		if (pref->use_mplayer_window || display_screen != 0) {
