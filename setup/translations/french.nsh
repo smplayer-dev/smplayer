@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer ; requis pour la lecture."
 
 ${LangFileString} Section_MPlayerCodecs "Codecs binaires"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Les codecs binaires ne sont pas pris en charge dans cette version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs optionnels pour MPlayer. (Connexion Internet requise durant l'installation.)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Une version améliorée de MPlayer et MPlayer2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
-${LangFileString} Section_YTDL_Desc "Provides the possibility to play Youtube videos."
+${LangFileString} Section_YTDL "Support de Youtube (téléchargement requis)"
+${LangFileString} Section_YTDL_Desc "Ajoute la possibilité de lire des vidéos Youtube."
 
 ${LangFileString} Section_MEncoder_Desc "Programme permettant d'encoder ou de convertir des flux audio et/ou vidéos supportés par MPlayer."
 
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Erreur lors de l’installation de mpv."
 ${LangFileString} YTDL_DL_Retry "youtube-dl n’a pas été installé correctement. Réessayer ?"
 ${LangFileString} YTDL_DL_Failed "Échec lors du téléchargement de youtube-dl : '$R0'."
 ${LangFileString} YTDL_Update_Check "Vérification des mises à jour de youtube-dl..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Attention : youtube-dl s'est arrêté de façon anormale avec le code de sortie : $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) est requis pour youtube-dl."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "L'installation actuelle de SMTube est incompatible avec cette version de SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Veuillez mettre à jour à une version plus récente de SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Nettoyage du cache fontconfig..."

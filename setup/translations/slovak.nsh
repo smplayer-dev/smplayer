@@ -28,7 +28,7 @@ ${LangFileString} WelcomePage_Text "Nastavenie vás prevedie inštaláciou $(^Na
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Odkazy"
 ${LangFileString} MPlayerGroupTitle "MPlayer komponenty"
-${LangFileString} MPlayerMPVGroupTitle "Multimediálny engine"
+${LangFileString} MPlayerMPVGroupTitle "Multimediálny nástroj"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (nutné)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, zdieľané knižnice a dokumentácia."
