@@ -1,5 +1,14 @@
 # Changelog
 
+## [22.x] - 2022-xx-xx
+ * Fix: shuffle the playlist after adding files if the shuffle button is on.
+ * Other small bug fixes.
+### Linux and Mac OS
+ * Fix the option to select the output audio device.
+ * Fix the option to send video to another screen.
+### Mac OS
+ * Fix colors in HDR videos.
+
 ## [21.10] - 2021-10-29
  * The support for YouTube has been improved by using yt-dlp. Fixes
    buffering and playback of age-restricted videos.
