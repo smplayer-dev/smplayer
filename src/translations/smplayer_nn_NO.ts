@@ -186,7 +186,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="213"/>
         <source>Type to search</source>
-        <translation type="unfinished"/>
+        <translation>Skriv for å søkja</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -1029,7 +1029,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1857"/>
         <source>Seek to previous subtitle</source>
-        <translation>Søk til føregåande undertekst</translation>
+        <translation>Søk til førre undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
@@ -1065,12 +1065,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1908"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>Oppdatering &amp;YouTube-støtte</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>Installer / Oppdater &amp;YouTube-støtte</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1914"/>
@@ -1155,12 +1155,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1966"/>
         <source>Previous video</source>
-        <translation type="unfinished"/>
+        <translation>Førre video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1968"/>
         <source>Previous audio</source>
-        <translation type="unfinished"/>
+        <translation>Førre lyd</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1969"/>
@@ -1170,7 +1170,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1970"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation>Førre undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1971"/>
@@ -1256,7 +1256,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2118"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"/>
+        <translation>Roter 1&amp;80 grader</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2132"/>
@@ -2015,7 +2015,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="383"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Strøym til</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
@@ -2229,7 +2229,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="145"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"/>
+        <translation>YouTube koden er installert.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
@@ -2239,7 +2239,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation>Vellukka</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
@@ -2250,7 +2250,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="152"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"/>
+        <translation>Klarer ikkje å lagra %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="157"/>
@@ -2270,7 +2270,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Kanskje du må oppdatere YouTube-koden.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2280,17 +2280,17 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"/>
+        <translation>Denne komponenten må oppdaterast ofte.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"/>
+        <translation>Du kan oppdatere ved å installere SMPlayer på nytt. Installasjonsprogrammet vil laste ned og installere siste versjon.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="179"/>
         <source>Install / Update YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>Installer / Oppdater YouTube-støtte</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
@@ -2316,7 +2316,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../youtube/codedownloader.cpp" line="239"/>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>Install YouTube support?</source>
-        <translation type="unfinished"/>
+        <translation>Installere YouTube-støtte?</translation>
     </message>
 </context>
 <context>
@@ -7280,7 +7280,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Play previous</source>
-        <translation>Spel føregåande</translation>
+        <translation>Spel førre</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
@@ -8215,7 +8215,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"/>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="259"/>
@@ -9905,7 +9905,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"/>
+        <translation>Av&amp;fletting som standard for TV:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
@@ -9953,7 +9953,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"/>
+        <translation>Om dette alternativet er valt, vil SMPlayer sjå etter oppdateringar og vise eit varsel om ein ny versjone er tilgjengeleg.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9963,7 +9963,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"/>
+        <translation>Her kan du skrive inn intervallet (i dagar) det skal gå mellom kvart søk.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -10222,12 +10222,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revisjon %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revisjon %2)</translation>
     </message>
 </context>
 <context>
@@ -10735,7 +10735,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="220"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation>Gratulerer, SMPlayer er oppdatert.</translation>
+        <translation>SMPlayer er oppdatert.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="227"/>

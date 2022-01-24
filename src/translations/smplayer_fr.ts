@@ -1390,17 +1390,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="5149"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>Le processus youtube-dl a échoué à cause de librairies manquantes.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5150"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>Vous devrez probablement installer %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5152"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>le Microsoft Visual C++ 2010 Redistributable Package</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6142"/>
@@ -2263,12 +2263,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../youtube/codedownloader.cpp" line="165"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 n&apos;a pas réussi à communiquer avec l&apos;application externe Youtube. Soit cette dernière n&apos;est pas installée, soit elle ne fonctionne pas correctement.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Vous devriez peut-être mettre à jour le code Youtube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="175"/>
@@ -2293,7 +2293,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../youtube/codedownloader.cpp" line="232"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>Afin de lire les vidéos YouTube, %1 nécessite l&apos;aide d&apos;une application externe.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="233"/>
@@ -2303,7 +2303,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../youtube/codedownloader.cpp" line="234"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Il sera téléchargé depuis le site officiel et installé en tant que %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="235"/>
@@ -6026,12 +6026,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="465"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation>matériel</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="466"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation>logiciel</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1045"/>
@@ -8208,7 +8208,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Application de support de Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8289,7 +8289,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>Autoriser le codec AV&amp;1</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8405,12 +8405,12 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (dérivé de youtube-dl avec des améliorations)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Autre</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8816,7 +8816,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation>Sélectionnez la priorité du processus du lecteur.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
