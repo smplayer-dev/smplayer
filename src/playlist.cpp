@@ -1818,6 +1818,7 @@ void Playlist::addUrls() {
 			if (!u.isEmpty()) addItem( u, "", 0 );
 		}
 		setModified(true);
+		if (shuffleAct->isChecked()) shuffle(true);
 	}
 }
 
