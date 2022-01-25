@@ -6,6 +6,8 @@
 ### Linux and Mac OS
  * Fix the option to select the output audio device.
  * Fix the option to send video to another screen.
+### Flatpak package
+ * Add support for the AV1 codec.
 ### Mac OS
  * Fix colors in HDR videos.
 
