@@ -1,15 +1,16 @@
 # Changelog
 
 ## [22.x] - 2022-xx-xx
- * Fix: shuffle the playlist after adding files if the shuffle button is on.
- * Other small bug fixes.
 ### Linux and Mac OS
- * Fix the option to select the output audio device.
  * Fix the option to send video to another screen.
+ * Fix the option to select the audio output device.
 ### Flatpak package
  * Add support for the AV1 codec.
 ### Mac OS
  * Fix colors in HDR videos.
+ * SMPlayer is compatible now with Mac OS 10.14 (Mojave).
+### Other fixes
+ * The playlist is shuffled after adding files if the shuffle button is on.
 
 ## [21.10] - 2021-10-29
  * The support for YouTube has been improved by using yt-dlp. Fixes
