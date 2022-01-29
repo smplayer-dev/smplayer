@@ -3,12 +3,12 @@
 ## [22.x] - 2022-xx-xx
 ### Linux and Mac OS
  * Fix the option to send video to another screen.
- * Fix the option to select the audio output device.
+ * Fix the option to choose the audio output device.
 ### Flatpak package
  * Add support for the AV1 codec.
 ### Mac OS
  * Fix colors in HDR videos.
- * SMPlayer is compatible now with Mac OS 10.14 (Mojave).
+ * SMPlayer is now also compatible with Mac OS 10.14 (Mojave).
 ### Other fixes
  * The playlist is shuffled after adding files if the shuffle button is on.
 
