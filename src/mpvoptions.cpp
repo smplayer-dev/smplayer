@@ -123,7 +123,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 }
 
 void MPVProcess::setFixedOptions() {
-	arg << "--no-config";
+	//arg << "--no-config";
 	arg << "--no-quiet";
 	arg << "--terminal";
 	arg << "--no-msg-color";
