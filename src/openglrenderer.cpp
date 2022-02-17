@@ -20,6 +20,7 @@
 
 #include <QGLShaderProgram>
 #include <QRegularExpression>
+#include <QFile>
 #include <QDebug>
 
 OpenGLRenderer::OpenGLRenderer(QObject * parent)
@@ -464,103 +465,15 @@ QString OpenGLRenderer::colorspaceMat() {
 QString OpenGLRenderer::HDRColorConversionCode() {
 	QString code;
 
-#if 1
-	static const float PQ_M1 = 2610./4096 * 1./4,
-                   PQ_M2 = 2523./4096 * 128,
-                   PQ_C1 = 3424./4096,
-                   PQ_C2 = 2413./4096 * 32,
-                   PQ_C3 = 2392./4096 * 32;
-	static const float REF_WHITE = 203.0;
+	QString filename = ":/glsl/hdrcolorconversion-330.glsl";
+	QFile f(filename);
+	if (f.open(QIODevice::ReadOnly)) {
+		code = f.readAll();
+		f.close();
+	} else {
+		qWarning() << "OpenGLRenderer::HDRColorConversionCode: failed to load" << filename;
+	}
 
-	// linearize
-	// BT.2100 PQ
-	code += QString("rgb = clamp(rgb, 0.0, 1.0); \n");
-	code += QString().asprintf("rgb = pow(rgb, vec3(1.0/%f)); \n", PQ_M2);
-	code += QString().asprintf("rgb = max(rgb - vec3(%f), vec3(0.0)) \n"
-                               "             / (vec3(%f) - vec3(%f) * rgb); \n", PQ_C1, PQ_C2, PQ_C3);
-	code += QString().asprintf("rgb = pow(rgb, vec3(%f)); \n", 1.0 / PQ_M1);
-	code += QString().asprintf("rgb *= vec3(%f); \n", 10000 / REF_WHITE);
-	code += QString().asprintf("rgb *= vec3(1.0/%f); \n", 10000.0 / REF_WHITE);
-	code += QString().asprintf("rgb *= vec3(%f); \n", 10000 / REF_WHITE);
-
-	#if 1
-	// HDR tone mapping
-	float src_peak = 49.261086;
-	float sdr_avg = 0.250000;
-	float max_boost = 1.000000;
-	float max_lum = 0.580690;
-	float dst_scale = 1.000000;
-	float desat = 0.750000;
-	float desat_exp = 1.500000;
-	code += QString().asprintf(
-            "highp vec3 color = rgb; \n"
-            "int sig_idx = 0; \n"
-            "if (color[1] > color[sig_idx]) sig_idx = 1; \n"
-            "if (color[2] > color[sig_idx]) sig_idx = 2; \n"
-            "highp float sig_max = color[sig_idx]; \n"
-            "highp float sig_peak = %f; \n"
-            "highp float sig_avg = %f; \n", src_peak, sdr_avg);
-	code += QString().asprintf(
-            "highp vec3 sig = min(color.rgb, sig_peak); \n"
-            "highp float sig_orig = sig[sig_idx]; \n"
-            "highp float slope = min(%f, %f / sig_avg); \n"
-            "sig *= slope; \n"
-            "sig_peak *= slope; \n",
-            max_boost, sdr_avg);
-	code += QString().asprintf(
-            "highp vec4 sig_pq = vec4(sig.rgb, sig_peak); \n"
-            "sig_pq *= vec4(1.0/%f); \n"
-            "sig_pq = pow(sig_pq, vec4(%f)); \n"
-            "sig_pq = (vec4(%f) + vec4(%f) * sig_pq) \n"
-            "          / (vec4(1.0) + vec4(%f) * sig_pq); \n"
-            "sig_pq = pow(sig_pq, vec4(%f)); \n",
-            10000.0 / REF_WHITE, PQ_M1, PQ_C1, PQ_C2, PQ_C3, PQ_M2);
-	code += QString().asprintf(
-            "highp float scale = 1.0 / sig_pq.a; \n"
-            "sig_pq.rgb *= vec3(scale); \n"
-            "highp float max_lum = %f * scale; \n", max_lum);
-	code += "highp float ks = 1.5 * max_lum - 0.5; \n"
-            "highp vec3 tb = (sig_pq.rgb - vec3(ks)) / vec3(1.0 - ks); \n"
-            "highp vec3 tb2 = tb * tb; \n"
-            "highp vec3 tb3 = tb2 * tb; \n"
-            "highp vec3 pb = (2.0 * tb3 - 3.0 * tb2 + vec3(1.0)) * vec3(ks) +\n"
-            "          (tb3 - 2.0 * tb2 + tb) * vec3(1.0 - ks) +\n"
-            "          (-2.0 * tb3 + 3.0 * tb2) * vec3(max_lum); \n"
-            "sig = mix(pb, sig_pq.rgb, lessThan(sig_pq.rgb, vec3(ks))); \n";
-	code += QString().asprintf(
-            "sig *= vec3(sig_pq.a); \n"
-            "sig = pow(sig, vec3(1.0/%f)); \n"
-            "sig = max(sig - vec3(%f), 0.0) /\n"
-            "          (vec3(%f) - vec3(%f) * sig); \n"
-            "sig = pow(sig, vec3(1.0/%f)); \n"
-            "sig *= vec3(%f); \n",
-            PQ_M2, PQ_C1, PQ_C2, PQ_C3, PQ_M1, 10000.0 / REF_WHITE);
-	code += "highp vec3 sig_lin = color.rgb * (sig[sig_idx] / sig_orig); \n";
-
-	code += QString().asprintf(
-            "highp float coeff = max(sig[sig_idx] - %f, 1e-6) / max(sig[sig_idx], 1.0); \n"
-            "coeff = %f * pow(coeff, %f); \n"
-            "color.rgb = mix(sig_lin, %f * sig, coeff); \n"
-            "rgb = color.rgb; \n",
-             0.18 * dst_scale, desat, desat_exp, dst_scale);
-	#endif
-
-	#if 1
-	// color mapping
-	code += "rgb = cms_matrix * rgb; \n"
-            "highp float cmin = min(min(rgb.r, rgb.g), rgb.b); \n"
-            "if (cmin < 0.0) { highp float luma = dot(dst_luma, rgb); highp float coeff = cmin / (cmin - luma); rgb = mix(rgb, vec3(luma), coeff); }\n"
-            "highp float cmax = max(max(rgb.r, rgb.g), rgb.b); \n"
-            "if (cmax > 1.0) rgb /= cmax; \n"
-            "rgb *= vec3(1.000000); \n";
-	#endif
-
-	// delinearize
-	// GAMMA22
-	code += QString("rgb = clamp(rgb, 0.0, 1.0); \n"
-            "rgb *= vec3(1.000000); \n"
-            "rgb = pow(rgb, vec3(1.0/2.2)); \n");
-#endif
 	return code;
 }
 

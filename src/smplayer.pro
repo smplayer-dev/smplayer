@@ -623,6 +623,7 @@ contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
 	contains( DEFINES, USE_GL_WINDOW ) {
 		HEADERS += openglrenderer.h
 		SOURCES += openglrenderer.cpp
+		RESOURCES += glsl.qrc
 		QT += opengl
 	} else {
 		LIBS += -lswscale
