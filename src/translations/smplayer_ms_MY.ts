@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ms_MY">
 <context>
     <name>About</name>
     <message>
@@ -22,9 +24,8 @@
         <translation>Laman sesawang rasmi:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="74"/>
         <source>Support forum:</source>
-        <translation>Forum sokongan:</translation>
+        <translation type="obsolete">Forum sokongan:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
@@ -396,1604 +397,1617 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1997"/>
+        <location filename="../basegui.cpp" line="2001"/>
         <source>&amp;Open</source>
         <translation>&amp;Buka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1998"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>&amp;Play</source>
         <translation>&amp;Main</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2003"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2004"/>
         <source>&amp;Audio</source>
         <translation>&amp;Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2002"/>
+        <location filename="../basegui.cpp" line="2006"/>
         <source>&amp;Browse</source>
         <translation>&amp;Layar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2004"/>
+        <location filename="../basegui.cpp" line="2008"/>
         <source>Op&amp;tions</source>
         <translation>P&amp;ilihan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>&amp;Help</source>
         <translation>&amp;Bantuan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>&amp;File...</source>
         <translation>&amp;Fail...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>D&amp;irectory...</source>
         <translation>D&amp;irektori...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Playlist...</source>
         <translation>Senarai &amp;Main...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD dari pemacu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD dari folder...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2021"/>
+        <location filename="../basegui.cpp" line="2025"/>
         <source>&amp;Clear</source>
         <translation>K&amp;osongkan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2019"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Recent files</source>
         <translation>Fail te&amp;rbaru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1747"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>P&amp;lay</source>
         <translation>Mai&amp;n</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>&amp;Pause</source>
         <translation>&amp;Jeda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1751"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>&amp;Stop</source>
         <translation>&amp;Henti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>&amp;Frame step</source>
         <translation>Langkah bin&amp;gkai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>&amp;Normal speed</source>
         <translation>Kelajuan bi&amp;asa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>&amp;Double speed</source>
         <translation>Kelajuan &amp;dua kali ganda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>Speed &amp;-10%</source>
         <translation>Kelajuan &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>Speed &amp;+10%</source>
         <translation>Kelajuan &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>Dima&amp;tikan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2039"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>Sp&amp;eed</source>
         <translation>Kela&amp;juan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ulang</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1786"/>
         <source>&amp;Fullscreen</source>
         <translation>Skrin p&amp;enuh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1787"/>
         <source>&amp;Compact mode</source>
         <translation>Mod pada&amp;t</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2049"/>
+        <location filename="../basegui.cpp" line="2053"/>
         <source>Si&amp;ze</source>
         <translation>Sai&amp;z</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2059"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>&amp;Aspect ratio</source>
         <translation>Nisbah bid&amp;ang</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2098"/>
-        <location filename="../basegui.cpp" line="3610"/>
-        <location filename="../basegui.cpp" line="3624"/>
+        <location filename="../basegui.cpp" line="2102"/>
+        <location filename="../basegui.cpp" line="3614"/>
+        <location filename="../basegui.cpp" line="3628"/>
         <source>&amp;None</source>
         <translation>T&amp;iada</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2099"/>
+        <location filename="../basegui.cpp" line="2103"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Laluanrendah5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2102"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>Linear &amp;Blend</source>
         <translation>&amp;Adun Linear</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2062"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>&amp;Deinterlace</source>
         <translation>N&amp;yahselang-seli</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Pos-pemprosesan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Autodetect phase</source>
         <translation>Kes&amp;an-sendiri fasa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1813"/>
+        <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;Deblock</source>
         <translation>N&amp;yahblok</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>De&amp;ring</source>
         <translation>Nyah&amp;dering</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>Add n&amp;oise</source>
         <translation>Tambah &amp;hingar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2069"/>
         <source>F&amp;ilters</source>
         <translation>Penap&amp;is</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>&amp;Equalizer</source>
         <translation>P&amp;enyama</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Tangkap Layar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2071"/>
+        <location filename="../basegui.cpp" line="2075"/>
         <source>S&amp;tay on top</source>
         <translation>Sen&amp;tiasa diatas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1834"/>
+        <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Extrastereo</source>
         <translation>St&amp;ereo ekstra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2134"/>
+        <location filename="../basegui.cpp" line="2138"/>
         <source>&amp;Filters</source>
         <translation>Penap&amp;is</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2144"/>
-        <location filename="../basegui.cpp" line="2150"/>
+        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2154"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2145"/>
+        <location filename="../basegui.cpp" line="2149"/>
         <source>&amp;4.0 Surround</source>
         <translation>Sekeliling &amp;4.0</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2146"/>
+        <location filename="../basegui.cpp" line="2150"/>
         <source>&amp;5.1 Surround</source>
         <translation>Sekeliling &amp;5.0</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2137"/>
+        <location filename="../basegui.cpp" line="2141"/>
         <source>&amp;Channels</source>
         <translation>Sa&amp;luran</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2151"/>
+        <location filename="../basegui.cpp" line="2155"/>
         <source>&amp;Left channel</source>
         <translation>Saluran k&amp;iri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2152"/>
+        <location filename="../basegui.cpp" line="2156"/>
         <source>&amp;Right channel</source>
         <translation>Saluran k&amp;anan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2140"/>
+        <location filename="../basegui.cpp" line="2144"/>
         <source>&amp;Stereo mode</source>
         <translation>Mod &amp;stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Mute</source>
         <translation>Sen&amp;yap</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>Volume &amp;-</source>
         <translation>Volum &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>Volume &amp;+</source>
         <translation>Volum &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Lengah -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1828"/>
+        <location filename="../basegui.cpp" line="1832"/>
         <source>D&amp;elay +</source>
         <translation>L&amp;engah +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2160"/>
+        <location filename="../basegui.cpp" line="2164"/>
         <source>&amp;Select</source>
         <translation>&amp;Pilih</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1846"/>
         <source>&amp;Load...</source>
         <translation>&amp;Muat...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>Delay &amp;-</source>
         <translation>Lengah &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1845"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>Delay &amp;+</source>
         <translation>Lengah &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
+        <location filename="../basegui.cpp" line="1851"/>
         <source>&amp;Up</source>
         <translation>&amp;Naik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;Down</source>
         <translation>&amp;Turun</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2178"/>
+        <location filename="../basegui.cpp" line="2182"/>
         <source>&amp;Title</source>
         <translation>Ta&amp;juk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2181"/>
+        <location filename="../basegui.cpp" line="2185"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Bab</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2184"/>
+        <location filename="../basegui.cpp" line="2188"/>
         <source>&amp;Angle</source>
         <translation>S&amp;udut</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1884"/>
+        <location filename="../basegui.cpp" line="1888"/>
         <source>&amp;Playlist</source>
         <translation>Senarai &amp;main</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2096"/>
+        <location filename="../basegui.cpp" line="2100"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Dilumpuhkan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2216"/>
+        <location filename="../basegui.cpp" line="2220"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
+        <location filename="../basegui.cpp" line="1890"/>
         <source>P&amp;references</source>
         <translation>Ke&amp;utamaan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1920"/>
+        <location filename="../basegui.cpp" line="1924"/>
         <source>About &amp;SMPlayer</source>
         <translation>Perihal &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3647"/>
-        <location filename="../basegui.cpp" line="3663"/>
-        <location filename="../basegui.cpp" line="3679"/>
-        <location filename="../basegui.cpp" line="3694"/>
-        <location filename="../basegui.cpp" line="3728"/>
-        <location filename="../basegui.cpp" line="3748"/>
-        <location filename="../basegui.cpp" line="3824"/>
+        <location filename="../basegui.cpp" line="3651"/>
+        <location filename="../basegui.cpp" line="3667"/>
+        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3732"/>
+        <location filename="../basegui.cpp" line="3752"/>
+        <location filename="../basegui.cpp" line="3828"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;kosong&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4288"/>
+        <location filename="../basegui.cpp" line="4292"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4289"/>
-        <location filename="../basegui.cpp" line="4539"/>
+        <location filename="../basegui.cpp" line="4293"/>
+        <location filename="../basegui.cpp" line="4543"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4290"/>
+        <location filename="../basegui.cpp" line="4294"/>
         <source>Playlists</source>
         <translation>Senarai main</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4291"/>
-        <location filename="../basegui.cpp" line="4514"/>
-        <location filename="../basegui.cpp" line="4540"/>
+        <location filename="../basegui.cpp" line="4295"/>
+        <location filename="../basegui.cpp" line="4518"/>
+        <location filename="../basegui.cpp" line="4544"/>
         <source>All files</source>
         <translation>Semua fail</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4286"/>
-        <location filename="../basegui.cpp" line="4511"/>
-        <location filename="../basegui.cpp" line="4537"/>
+        <location filename="../basegui.cpp" line="4290"/>
+        <location filename="../basegui.cpp" line="4515"/>
+        <location filename="../basegui.cpp" line="4541"/>
         <source>Choose a file</source>
         <translation>Pilih satu fail</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Pelayar &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;Beri sumbangan derma / Kongsi dengan rakan anda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4354"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Maklumat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4351"/>
+        <location filename="../basegui.cpp" line="4355"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Pemacu CDROM / DVD belum dikonfigur lagi.
 Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4464"/>
+        <location filename="../basegui.cpp" line="4468"/>
         <source>Select the Blu-ray folder</source>
         <translation>Pillih folder Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4477"/>
+        <location filename="../basegui.cpp" line="4481"/>
         <source>Choose a directory</source>
         <translation>Pilih satu direktori</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4513"/>
+        <location filename="../basegui.cpp" line="4517"/>
         <source>Subtitles</source>
         <translation>Sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5148"/>
-        <location filename="../basegui.cpp" line="5177"/>
+        <location filename="../basegui.cpp" line="5154"/>
+        <location filename="../basegui.cpp" line="5183"/>
         <source>Error detected</source>
         <translation>Ralat dikesan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5178"/>
+        <location filename="../basegui.cpp" line="5184"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Malangnya video ini tidak boleh dimain.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5415"/>
+        <location filename="../basegui.cpp" line="5421"/>
         <source>Pause</source>
         <translation>Jeda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5416"/>
+        <location filename="../basegui.cpp" line="5422"/>
         <source>Stop</source>
         <translation>Henti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>Play / Pause</source>
         <translation>Main / Jeda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Pause / Frame step</source>
         <translation>Jeda / Langkah bingkai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
-        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1847"/>
         <source>U&amp;nload</source>
         <translation>&amp;Jangan muat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>C&amp;lose</source>
         <translation>T&amp;utup</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>Zoom &amp;-</source>
         <translation>Zum &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1800"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>Zoom &amp;+</source>
         <translation>Zum &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1805"/>
         <source>&amp;Reset</source>
         <translation>&amp;Tetap semula</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>Move &amp;left</source>
         <translation>Alih k&amp;iri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1810"/>
         <source>Move &amp;right</source>
         <translation>Alih k&amp;anan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1811"/>
         <source>Move &amp;up</source>
         <translation>Alih a&amp;tas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>Move &amp;down</source>
         <translation>Alih &amp;bawah</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>Baris te&amp;rdahulu dalam sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Baris ber&amp;ikutnya dalam sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
-        <location filename="../basegui.cpp" line="2238"/>
+        <location filename="../basegui.cpp" line="1897"/>
+        <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
         <translation>Log %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
-        <location filename="../basegui.cpp" line="2241"/>
+        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="2245"/>
         <source>SMPlayer log</source>
         <translation>Log SMPlayer</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2254"/>
-        <location filename="../basegui.cpp" line="2255"/>
-        <location filename="../basegui.cpp" line="2256"/>
-        <source>-%1</source>
-        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2258"/>
         <location filename="../basegui.cpp" line="2259"/>
         <location filename="../basegui.cpp" line="2260"/>
+        <source>-%1</source>
+        <translation>-%1</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2262"/>
+        <location filename="../basegui.cpp" line="2263"/>
+        <location filename="../basegui.cpp" line="2264"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1953"/>
         <source>Dec volume (2)</source>
         <translation>Kur vol (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray dari pemacu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>Blu-&amp;ray dari folder...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1753"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>Fra&amp;me back step</source>
         <translation>Langkah undur bi&amp;ngkai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>&amp;Half speed</source>
         <translation>Kelajuan s&amp;epara</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1786"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>Screenshot with subtitles</source>
         <translation>Tangkap layar dengan sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>Screenshot without subtitles</source>
         <translation>Tangkap layar tanpa sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1794"/>
         <source>Start/stop capturing stream</source>
         <translation>Mula/henti menangkap strim</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1797"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>Penjana Lakaran Ke&amp;nit...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>Stereo &amp;3D filter</source>
         <translation>Penapis &amp;3D Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Nyahjalur (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>&amp;Headphone optimization</source>
         <translation>Pengoptimuman fon &amp;kepala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1860"/>
         <source>Seek to next subtitle</source>
         <translation>Jangkau sari kata berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>Seek to previous subtitle</source>
         <translation>Jangkau sari kata terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1863"/>
         <source>Use custo&amp;m style</source>
         <translation>Guna gaya s&amp;uai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>Cari sari kata di &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;Lalai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1885"/>
+        <location filename="../basegui.cpp" line="1889"/>
         <source>&amp;Information and properties...</source>
         <translation>Ma&amp;klumat dan sifat...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>T&amp;ablet mode</source>
         <translation>Mod T&amp;ablet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>First Steps &amp;Guide</source>
         <translation>Pan&amp;duan Langkah Pertama</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>Update &amp;YouTube support</source>
         <translation>Kemas kini sokongan &amp;YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1914"/>
         <source>Install / Update &amp;YouTube support</source>
         <translation>Pasang / Kemas kini sokongan &amp;YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>&amp;Open configuration folder</source>
         <translation>B&amp;uka folder konfigurasi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1922"/>
         <source>&amp;Donate</source>
         <translation>&amp;Derma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1931"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>Size &amp;+</source>
         <translation>Saiz &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1936"/>
         <source>Size &amp;-</source>
         <translation>Saiz &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>Show times with &amp;milliseconds</source>
         <translation>Tunjuk waktu dengan &amp;milisaat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1950"/>
+        <location filename="../basegui.cpp" line="1954"/>
         <source>Inc volume (2)</source>
         <translation>Naik volum (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1953"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>Exit fullscreen</source>
         <translation>Keluar skrin penuh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1955"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>OSD - Next level</source>
         <translation>OSD - Aras berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1956"/>
+        <location filename="../basegui.cpp" line="1960"/>
         <source>Dec contrast</source>
         <translation>Kur beza jelas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1957"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>Inc contrast</source>
         <translation>Naik beza jelas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1958"/>
+        <location filename="../basegui.cpp" line="1962"/>
         <source>Dec brightness</source>
         <translation>Kur kecerahan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1959"/>
+        <location filename="../basegui.cpp" line="1963"/>
         <source>Inc brightness</source>
         <translation>Naik kecerahan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1960"/>
+        <location filename="../basegui.cpp" line="1964"/>
         <source>Dec hue</source>
         <translation>Kur rona</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1961"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>Inc hue</source>
         <translation>Naik rona</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1962"/>
+        <location filename="../basegui.cpp" line="1966"/>
         <source>Dec saturation</source>
         <translation>Kur ketepuan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1964"/>
+        <location filename="../basegui.cpp" line="1968"/>
         <source>Dec gamma</source>
         <translation>Kur gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1966"/>
+        <location filename="../basegui.cpp" line="1970"/>
         <source>Previous video</source>
         <translation>Video terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1968"/>
+        <location filename="../basegui.cpp" line="1972"/>
         <source>Previous audio</source>
         <translation>Audio terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1973"/>
         <source>Next audio</source>
         <translation>Audio berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1970"/>
+        <location filename="../basegui.cpp" line="1974"/>
         <source>Previous subtitle</source>
         <translation>Sari kata terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1971"/>
+        <location filename="../basegui.cpp" line="1975"/>
         <source>Next subtitle</source>
         <translation>Sari kata berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1976"/>
         <source>Next chapter</source>
         <translation>Bab berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1977"/>
         <source>Previous chapter</source>
         <translation>Bab terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1981"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>Show filename on OSD</source>
         <translation>Tunjuk nama fail pada OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1982"/>
+        <location filename="../basegui.cpp" line="1986"/>
         <source>Show &amp;info on OSD</source>
         <translation>Tunjuk &amp;maklumat pada OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1983"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>Show playback time on OSD</source>
         <translation>Tunjuk masa main balik dalam OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2007"/>
         <source>Vie&amp;w</source>
         <translation>&amp;Lihat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2079"/>
+        <location filename="../basegui.cpp" line="2083"/>
         <source>De&amp;noise</source>
         <translation>Nya&amp;h-hingar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2086"/>
         <source>Blur/S&amp;harp</source>
         <translation>Kabur/Je&amp;las</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2105"/>
+        <location filename="../basegui.cpp" line="2109"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>Dima&amp;tikan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2106"/>
+        <location filename="../basegui.cpp" line="2110"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;Biasa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2107"/>
+        <location filename="../basegui.cpp" line="2111"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>Lem&amp;but</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2109"/>
+        <location filename="../basegui.cpp" line="2113"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>T&amp;iada</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2110"/>
+        <location filename="../basegui.cpp" line="2114"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Kabur</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2115"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>Je&amp;laskan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2118"/>
+        <location filename="../basegui.cpp" line="2122"/>
         <source>Rotate by 1&amp;80 degrees</source>
         <translation>Putar sebanyak 1&amp;80 darjah</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2132"/>
+        <location filename="../basegui.cpp" line="2136"/>
         <source>Select audio track</source>
         <translation>Pilih trek audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2147"/>
+        <location filename="../basegui.cpp" line="2151"/>
         <source>&amp;6.1 Surround</source>
         <translation>Sekeliling &amp;6.1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2152"/>
         <source>&amp;7.1 Surround</source>
         <translation>Sekeliling &amp;7.1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2153"/>
+        <location filename="../basegui.cpp" line="2157"/>
         <source>&amp;Mono</source>
         <translation>&amp;Mono</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2154"/>
+        <location filename="../basegui.cpp" line="2158"/>
         <source>Re&amp;verse</source>
         <translation>&amp;Undur</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2158"/>
+        <location filename="../basegui.cpp" line="2162"/>
         <source>Prim&amp;ary track</source>
         <translation>Trek &amp;utama</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2163"/>
+        <location filename="../basegui.cpp" line="2167"/>
         <source>Select subtitle track</source>
         <translation>Pilih trek sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2166"/>
+        <location filename="../basegui.cpp" line="2170"/>
         <source>Secondary trac&amp;k</source>
         <translation>Tre&amp;k sekunder</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2168"/>
+        <location filename="../basegui.cpp" line="2172"/>
         <source>Select secondary subtitle track</source>
         <translation>Pilih trek sari kata kedua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2174"/>
+        <location filename="../basegui.cpp" line="2178"/>
         <source>F&amp;rames per second</source>
         <translation>Bi&amp;ngkai sesaat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2188"/>
+        <location filename="../basegui.cpp" line="2192"/>
         <source>&amp;Bookmarks</source>
         <translation>&amp;Tanda buku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2198"/>
+        <location filename="../basegui.cpp" line="2202"/>
         <source>&amp;Add new bookmark</source>
         <translation>T&amp;ambah tanda buku baharu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2199"/>
+        <location filename="../basegui.cpp" line="2203"/>
         <source>&amp;Edit bookmarks</source>
         <translation>&amp;Sunting tanda buku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2200"/>
+        <location filename="../basegui.cpp" line="2204"/>
         <source>Previous bookmark</source>
         <translation>Tanda buku terdahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2201"/>
+        <location filename="../basegui.cpp" line="2205"/>
         <source>Next bookmark</source>
         <translation>Tanda buku berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2230"/>
+        <location filename="../basegui.cpp" line="2234"/>
         <source>Quick access menu</source>
         <translation>Menu capaian pantas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3043"/>
+        <location filename="../basegui.cpp" line="3047"/>
         <source>Logs</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3346"/>
+        <location filename="../basegui.cpp" line="3350"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
         <translation>Anda perlu mulakan semula SMPlayer untuk guna keutamaan baharu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4624"/>
+        <location filename="../basegui.cpp" line="4628"/>
         <source>Support SMPlayer</source>
         <translation>Sokong SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4626"/>
         <source>Donate</source>
-        <translation>Derma</translation>
+        <translation type="obsolete">Derma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4627"/>
         <source>No</source>
-        <translation>Tidak</translation>
+        <translation type="obsolete">Tidak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4634"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer memerlukan anda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4631"/>
+        <location filename="../basegui.cpp" line="4635"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer merupakan perisian bebas dan juga percuma. Walaubagaimanapun pembangunannya memerlukan banyak masa dan juga kerja.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4632"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>Untuk memastikan SMPlayer terus menerus dibangunkan dengan fitur-fitur baharu, kami memerlukan bantuan anda.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4633"/>
+        <location filename="../basegui.cpp" line="4637"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>Mohon bantu projek SMPlayer ini dengan memberi derma.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4634"/>
+        <location filename="../basegui.cpp" line="4638"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>Walaupun sejumlah wang yang kecil ia sedikit sebanyak dapat membantu kami.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5149"/>
+        <location filename="../basegui.cpp" line="5155"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5150"/>
+        <location filename="../basegui.cpp" line="5156"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5152"/>
+        <location filename="../basegui.cpp" line="5158"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="6142"/>
-        <location filename="../basegui.cpp" line="6195"/>
-        <source>More info in the log.</source>
-        <translation>Maklumat lanjut di dalam log.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6148"/>
         <location filename="../basegui.cpp" line="6201"/>
+        <source>More info in the log.</source>
+        <translation>Maklumat lanjut di dalam log.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6154"/>
+        <location filename="../basegui.cpp" line="6207"/>
         <source>%1 Error</source>
         <translation>Ralat %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6142"/>
-        <location filename="../basegui.cpp" line="6149"/>
+        <location filename="../basegui.cpp" line="6148"/>
+        <location filename="../basegui.cpp" line="6155"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 telah ditamatkan tanpa dijangka.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="4630"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished">Beri sumbangan melalui Paypal</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4631"/>
+        <source>Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4640"/>
+        <source>It&apos;s also possible to donate with cryptocurrencies.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6180"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Komponen youtube-dl gagal dijalankan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Pemasangan Pakej Boleh Diedar Semula Microsoft Visual C++ 2010 (x86) dapat mengatasi masalah ini.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6177"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>Click here to get it</source>
         <translation>Klik di sini untuk mendapatkannya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6195"/>
-        <location filename="../basegui.cpp" line="6203"/>
+        <location filename="../basegui.cpp" line="6201"/>
+        <location filename="../basegui.cpp" line="6209"/>
         <source>%1 failed to start.</source>
         <translation>%1 gagal dimulakan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6204"/>
+        <location filename="../basegui.cpp" line="6210"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Sila semak laluan %1 di dalam keutamaan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6206"/>
+        <location filename="../basegui.cpp" line="6212"/>
         <source>%1 has crashed.</source>
         <translation>%1 mengalami kerosakan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6301"/>
+        <location filename="../basegui.cpp" line="6307"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Pelayar YouTube tidak dipasang.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6302"/>
-        <location filename="../basegui.cpp" line="6314"/>
+        <location filename="../basegui.cpp" line="6308"/>
+        <location filename="../basegui.cpp" line="6320"/>
         <source>Visit %1 to get it.</source>
         <translation>Lawati %1 untuk mendapatkannya.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6312"/>
+        <location filename="../basegui.cpp" line="6318"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Pelayar YouTube gagal dijalankan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6313"/>
+        <location filename="../basegui.cpp" line="6319"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Pastikan ia telah dipasang dengan betul.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6480"/>
+        <location filename="../basegui.cpp" line="6486"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sistem telah bertukar ke mod tablet. Haruskan SMPlayer bertukar ke mod tablet juga?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6482"/>
+        <location filename="../basegui.cpp" line="6488"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sistem telah keluar dari mod tablet. Haruskah SMPlayer mematikan mod tablet juga?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6486"/>
+        <location filename="../basegui.cpp" line="6492"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Ingat keputusan saya dan jangan tanya lagi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2220"/>
+        <location filename="../basegui.cpp" line="2224"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>&amp;Kongsi SMPlayer dengan rakan anda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3345"/>
-        <location filename="../basegui.cpp" line="4081"/>
+        <location filename="../basegui.cpp" line="3349"/>
+        <location filename="../basegui.cpp" line="4085"/>
         <source>Information</source>
         <translation>Maklumat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3840"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Sahkan pemadaman - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3837"/>
+        <location filename="../basegui.cpp" line="3841"/>
         <source>Delete the list of recent files?</source>
         <translation>Padam senarai fail terkini?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4082"/>
+        <location filename="../basegui.cpp" line="4086"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Nilai semasa telah disimpan untuk digunakan sebagai lalai.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1963"/>
+        <location filename="../basegui.cpp" line="1967"/>
         <source>Inc saturation</source>
         <translation>Naik ketepuan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
+        <location filename="../basegui.cpp" line="1969"/>
         <source>Inc gamma</source>
         <translation>Naik gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Muat fail luaran...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2103"/>
+        <location filename="../basegui.cpp" line="2107"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2100"/>
+        <location filename="../basegui.cpp" line="2104"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (biasa)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (kadar bingkai dubel)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1943"/>
         <source>&amp;Next</source>
         <translation>&amp;Berikut</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1944"/>
         <source>Pre&amp;vious</source>
         <translation>Ter&amp;dahulu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1836"/>
+        <location filename="../basegui.cpp" line="1840"/>
         <source>Volume &amp;normalization</source>
         <translation>Pe&amp;normalan volum</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Audio CD</source>
         <translation>CD &amp;Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1974"/>
+        <location filename="../basegui.cpp" line="1978"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Togol saiz dubel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1849"/>
+        <location filename="../basegui.cpp" line="1853"/>
         <source>S&amp;ize -</source>
         <translation>Sa&amp;iz -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1850"/>
+        <location filename="../basegui.cpp" line="1854"/>
         <source>Si&amp;ze +</source>
         <translation>Sai&amp;z +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1817"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Add &amp;black borders</source>
         <translation>Tambah sempadan &amp;hitam</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Penskalaan per&amp;isian</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>&amp;FAQ</source>
         <translation>&amp;FAQ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>&amp;Command line options</source>
         <translation>Pilihan baris p&amp;erintah</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4559"/>
+        <location filename="../basegui.cpp" line="4563"/>
         <source>SMPlayer command line options</source>
         <translation>Pilihan baris perintah SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Sari kata dipaksa sahaja</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1979"/>
         <source>Reset video equalizer</source>
         <translation>Tetap semula penyama video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5179"/>
+        <location filename="../basegui.cpp" line="5185"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Pelayan kembalikan &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6156"/>
         <source>Exit code: %1</source>
         <translation>Kod keluar: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6207"/>
+        <location filename="../basegui.cpp" line="6213"/>
         <source>See the log for more info.</source>
         <translation>Rujuk log untuk maklumat lanjut.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2068"/>
+        <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Rotate</source>
         <translation>P&amp;utar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2113"/>
+        <location filename="../basegui.cpp" line="2117"/>
         <source>&amp;Off</source>
         <translation>Dima&amp;tikan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2114"/>
+        <location filename="../basegui.cpp" line="2118"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Putar 90 darjah mengikut jam dan kalih</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2115"/>
+        <location filename="../basegui.cpp" line="2119"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Putar 90 darjah mengikut &amp;jam</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2116"/>
+        <location filename="../basegui.cpp" line="2120"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Putar 90 darjah la&amp;wan jam</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2117"/>
+        <location filename="../basegui.cpp" line="2121"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Putar 90 darjah lawan jam dan ka&amp;lih</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Jump to...</source>
         <translation>L&amp;ompat ke...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1981"/>
         <source>Show context menu</source>
         <translation>Papar menu konteks</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4287"/>
+        <location filename="../basegui.cpp" line="4291"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>E&amp;qualizer</source>
         <translation>Pen&amp;yama</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1976"/>
+        <location filename="../basegui.cpp" line="1980"/>
         <source>Reset audio equalizer</source>
         <translation>Tetap semula penyama audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Muat naik sari kata ke &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2085"/>
+        <location filename="../basegui.cpp" line="2089"/>
         <source>&amp;Auto</source>
         <translation>&amp;Auto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1776"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>Speed -&amp;4%</source>
         <translation>Kelajuan -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Speed +4%</source>
         <translation>Kela&amp;juan +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>Speed -&amp;1%</source>
         <translation>Kelajuan -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1779"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>S&amp;peed +1%</source>
         <translation>Kelaj&amp;uan +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2079"/>
         <source>Scree&amp;n</source>
         <translation>Sk&amp;rin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2126"/>
-        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2130"/>
+        <location filename="../basegui.cpp" line="2147"/>
         <source>&amp;Default</source>
         <translation>&amp;Lalai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>Mirr&amp;or image</source>
         <translation>Imej &amp;cermin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1971"/>
         <source>Next video</source>
         <translation>Video berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2046"/>
+        <location filename="../basegui.cpp" line="2050"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Trek</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2130"/>
+        <location filename="../basegui.cpp" line="2134"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Trek</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5032"/>
+        <location filename="../basegui.cpp" line="5038"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Amaran - Menggunakan MPlayer lama</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Version MPlayer (%1) yang dipasang pada sistem anda sudah lapok. SMPlayer tidak dapat berfungsi baik dengannya: sesetengah pilihan tidak akan berfungsi, pemilihan sari kata akan mengalami kegagalan...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5044"/>
         <source>Please, update your MPlayer.</source>
         <translation>Sila, kemaskini MPlayer anda.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5046"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Amaran ini tidak akan dipaparkan lagi)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>Next aspect ratio</source>
         <translation>Nisbah bidang berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1802"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;Auto zoom</source>
         <translation>Zum &amp;automatik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Zum untuk &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zum untuk &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2120"/>
+        <location filename="../basegui.cpp" line="2124"/>
         <source>&amp;Always</source>
         <translation>Senti&amp;asa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2121"/>
+        <location filename="../basegui.cpp" line="2125"/>
         <source>&amp;Never</source>
         <translation>&amp;Tidak sesekali</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2122"/>
+        <location filename="../basegui.cpp" line="2126"/>
         <source>While &amp;playing</source>
         <translation>Semasa di&amp;mainkan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2209"/>
+        <location filename="../basegui.cpp" line="2213"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;Menu DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2211"/>
+        <location filename="../basegui.cpp" line="2215"/>
         <source>DVD &amp;previous menu</source>
         <translation>Menu &amp;terdahulu DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2205"/>
+        <location filename="../basegui.cpp" line="2209"/>
         <source>DVD menu, move up</source>
         <translation>Menu DVD, alih ke atas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2206"/>
+        <location filename="../basegui.cpp" line="2210"/>
         <source>DVD menu, move down</source>
         <translation>Menu DVD, alih ke bawah</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2207"/>
+        <location filename="../basegui.cpp" line="2211"/>
         <source>DVD menu, move left</source>
         <translation>Menu DVD, alih ke kiri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2208"/>
+        <location filename="../basegui.cpp" line="2212"/>
         <source>DVD menu, move right</source>
         <translation>Menu DVD, alih ke kanan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2210"/>
+        <location filename="../basegui.cpp" line="2214"/>
         <source>DVD menu, select option</source>
         <translation>Menu DVD, pilih pilihan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2212"/>
+        <location filename="../basegui.cpp" line="2216"/>
         <source>DVD menu, mouse click</source>
         <translation>Menu DVD, klik tetikus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>Set dela&amp;y...</source>
         <translation>Tetapkan &amp;lengahan...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1846"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>Se&amp;t delay...</source>
         <translation>T&amp;etapkan lengahan...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4696"/>
-        <location filename="../basegui.cpp" line="4700"/>
+        <location filename="../basegui.cpp" line="4702"/>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Lengahan audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4697"/>
-        <location filename="../basegui.cpp" line="4701"/>
+        <location filename="../basegui.cpp" line="4703"/>
+        <location filename="../basegui.cpp" line="4707"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Lengahan audio (dalam milisaat):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4712"/>
-        <location filename="../basegui.cpp" line="4716"/>
+        <location filename="../basegui.cpp" line="4718"/>
+        <location filename="../basegui.cpp" line="4722"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Lengah sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4713"/>
-        <location filename="../basegui.cpp" line="4717"/>
+        <location filename="../basegui.cpp" line="4719"/>
+        <location filename="../basegui.cpp" line="4723"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Lengah sari kata (dalam milisaat):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2123"/>
+        <location filename="../basegui.cpp" line="2127"/>
         <source>Toggle stay on top</source>
         <translation>Togol kekal diatas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5641"/>
-        <location filename="../basegui.cpp" line="5989"/>
+        <location filename="../basegui.cpp" line="5647"/>
+        <location filename="../basegui.cpp" line="5995"/>
         <source>Jump to %1</source>
         <translation>Lompat ke %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Mula/henti men&amp;gambil tangkap layar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>Subtitle &amp;visibility</source>
         <translation>Keta&amp;mpakan sari kata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1979"/>
+        <location filename="../basegui.cpp" line="1983"/>
         <source>Next wheel function</source>
         <translation>Fungsi roda berikutnya</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2193"/>
+        <location filename="../basegui.cpp" line="2197"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>P&amp;rogram</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2031"/>
+        <location filename="../basegui.cpp" line="2035"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2034"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>Radi&amp;o</source>
         <translation>Radi&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1990"/>
+        <location filename="../basegui.cpp" line="1994"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Sari kata saha&amp;ja</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1991"/>
+        <location filename="../basegui.cpp" line="1995"/>
         <source>Volume + &amp;Seek</source>
         <translation>Volum + &amp;Jangkau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1996"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Volume + Jangkau + &amp;Pemasa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1993"/>
+        <location filename="../basegui.cpp" line="1997"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Volum + Jangkau + Pemasa + &amp;Jumlah masa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1653"/>
+        <location filename="../basegui.cpp" line="1657"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Penapis video dilumpuhkan bila menggunakan vdpau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>Fli&amp;p image</source>
         <translation>Ka&amp;lih imej</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2060"/>
         <source>Zoo&amp;m</source>
         <translation>Z&amp;um</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>Set &amp;A marker</source>
         <translation>Tetapkan penanda &amp;A</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Set &amp;B marker</source>
         <translation>Tetapkan penanda &amp;B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Clear A-B markers</source>
         <translation>K&amp;osongkan penanda A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2046"/>
         <source>&amp;A-B section</source>
         <translation>Bahagian &amp;A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1985"/>
+        <location filename="../basegui.cpp" line="1989"/>
         <source>Toggle deinterlacing</source>
         <translation>Togol menyahjalinan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2171"/>
+        <location filename="../basegui.cpp" line="2175"/>
         <source>&amp;Closed captions</source>
         <translation>Petikan tert&amp;utup</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2023"/>
+        <location filename="../basegui.cpp" line="2027"/>
         <source>&amp;Disc</source>
         <translation>&amp;Cakera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2027"/>
+        <location filename="../basegui.cpp" line="2031"/>
         <source>F&amp;avorites</source>
         <translation>Ke&amp;gemaran</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>Check for &amp;updates</source>
         <translation>Semak kemask&amp;ini</translation>
     </message>
@@ -2001,172 +2015,172 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="351"/>
+        <location filename="../baseguiplus.cpp" line="354"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer masih lagi berjalan di sini</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="374"/>
+        <location filename="../baseguiplus.cpp" line="377"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Papar ikon dalam talam sistem</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="383"/>
+        <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Cast to</source>
         <translation>&amp;Siar ke</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="386"/>
+        <location filename="../baseguiplus.cpp" line="389"/>
         <source>&amp;Chromecast</source>
         <translation>&amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="388"/>
+        <location filename="../baseguiplus.cpp" line="391"/>
         <source>&amp;Smartphone/tablet</source>
         <translation>&amp;Telefon pintar/tablet</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="393"/>
+        <location filename="../baseguiplus.cpp" line="396"/>
         <source>Send &amp;video to screen</source>
         <translation>Hantar &amp;video ke skrin</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="395"/>
+        <location filename="../baseguiplus.cpp" line="398"/>
         <source>Information about connected &amp;screens</source>
         <translation>Maklumat berkenaan &amp;skrin bersambung</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="398"/>
+        <location filename="../baseguiplus.cpp" line="401"/>
         <source>Video is sent to an external screen</source>
         <translation>Video dihantar ke skrin luaran</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="402"/>
+        <location filename="../baseguiplus.cpp" line="405"/>
         <source>Send &amp;audio to</source>
         <translation>Hantar &amp;audio kepada</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="440"/>
+        <location filename="../baseguiplus.cpp" line="443"/>
         <source>&amp;Hide</source>
         <translation>S&amp;embunyi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="442"/>
+        <location filename="../baseguiplus.cpp" line="445"/>
         <source>&amp;Restore</source>
         <translation>&amp;Pulih</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="922"/>
         <source>Information about connected screens</source>
         <translation>Maklumat berkenaan skrin bersambung</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="922"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
         <source>Connected screens</source>
         <translation>Skrin bersambung</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
-        <location filename="../baseguiplus.cpp" line="967"/>
+        <location filename="../baseguiplus.cpp" line="928"/>
+        <location filename="../baseguiplus.cpp" line="970"/>
         <source>Number of screens: %1</source>
         <translation>Bilangan skrin: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="930"/>
-        <location filename="../baseguiplus.cpp" line="968"/>
+        <location filename="../baseguiplus.cpp" line="933"/>
+        <location filename="../baseguiplus.cpp" line="971"/>
         <source>Primary screen: %1</source>
         <translation>Skrin utama: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="938"/>
-        <location filename="../baseguiplus.cpp" line="972"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
+        <location filename="../baseguiplus.cpp" line="975"/>
         <source>Information for screen %1</source>
         <translation>Maklumat bagi skrin %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="940"/>
-        <location filename="../baseguiplus.cpp" line="974"/>
+        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="977"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometri tersedia: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="942"/>
+        <location filename="../baseguiplus.cpp" line="945"/>
         <source>Available size: %1 x %2</source>
         <translation>Saiz tersedia: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="946"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometri maya tersedia: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="947"/>
+        <location filename="../baseguiplus.cpp" line="950"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Saiz maya tersedia: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="949"/>
+        <location filename="../baseguiplus.cpp" line="952"/>
         <source>Depth: %1 bits</source>
         <translation>Kedalaman: %1 bit</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="950"/>
-        <location filename="../baseguiplus.cpp" line="976"/>
+        <location filename="../baseguiplus.cpp" line="953"/>
+        <location filename="../baseguiplus.cpp" line="979"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometri: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="955"/>
         <source>Logical DPI: %1</source>
         <translation>DPI Logikal: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="954"/>
+        <location filename="../baseguiplus.cpp" line="957"/>
         <source>Physical DPI: %1</source>
         <translation>DPI Fizikal: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="955"/>
+        <location filename="../baseguiplus.cpp" line="958"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Saiz fizikal: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="957"/>
+        <location filename="../baseguiplus.cpp" line="960"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Kadar segar semula: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="958"/>
+        <location filename="../baseguiplus.cpp" line="961"/>
         <source>Size: %1 x %2</source>
         <translation>Saiz: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="959"/>
+        <location filename="../baseguiplus.cpp" line="962"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometri maya: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="961"/>
+        <location filename="../baseguiplus.cpp" line="964"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Saiz maya: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1014"/>
+        <location filename="../baseguiplus.cpp" line="1017"/>
         <source>Primary screen</source>
         <translation>Skrin utama</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1083"/>
+        <location filename="../baseguiplus.cpp" line="1102"/>
         <source>SMPlayer external screen output</source>
         <translation>Output skrin luar SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1131"/>
+        <location filename="../baseguiplus.cpp" line="1151"/>
         <source>&amp;Default audio device</source>
         <translation>Peranti audio &amp;lalai</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="370"/>
+        <location filename="../baseguiplus.cpp" line="373"/>
         <source>&amp;Quit</source>
         <translation>&amp;Keluar</translation>
     </message>
@@ -2215,104 +2229,104 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>CodeDownloader</name>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="49"/>
+        <location filename="../youtube/codedownloader.cpp" line="50"/>
         <source>Downloading...</source>
         <translation>Memuat turun...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="76"/>
+        <location filename="../youtube/codedownloader.cpp" line="77"/>
         <source>Connecting to %1</source>
         <translation>Menyambung ke %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="145"/>
+        <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>The YouTube code has been installed successfully.</source>
         <translation>Kod YouTube berjaya dipasang.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="146"/>
+        <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Installed version: %1</source>
         <translation>Versi dipasang: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="147"/>
+        <location filename="../youtube/codedownloader.cpp" line="148"/>
         <source>Success</source>
         <translation>Berjaya</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="152"/>
-        <location filename="../youtube/codedownloader.cpp" line="157"/>
+        <location filename="../youtube/codedownloader.cpp" line="153"/>
+        <location filename="../youtube/codedownloader.cpp" line="158"/>
         <source>Error</source>
         <translation>Ralat</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="152"/>
+        <location filename="../youtube/codedownloader.cpp" line="153"/>
         <source>It&apos;s not possible to save %1.</source>
         <translation>Adalah mustahil dapat menyimpan %1.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="157"/>
+        <location filename="../youtube/codedownloader.cpp" line="158"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation>Satu ralat berlaku ketika memuat turun fail:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="169"/>
+        <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
         <translation>Adalah mustahil dapat mencari URL untuk video ini.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="165"/>
+        <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="170"/>
+        <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="175"/>
+        <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
         <translation>Supaya dapat memainkan video-video YouTube, %1 memerlukan satu aplikasi luar iaitu youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="176"/>
+        <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>This component needs to be updated frequently.</source>
         <translation>Komponen ini perlu dikemas kini secara kerap.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="177"/>
+        <location filename="../youtube/codedownloader.cpp" line="178"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
         <translation>Anda boleh mengemas kininya dengan memasang semula SMPlayer. Pemasang akan memuat turun dan memasang versi yang  terkini.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="179"/>
+        <location filename="../youtube/codedownloader.cpp" line="180"/>
         <source>Install / Update YouTube support</source>
         <translation>Pasang / Kemas kini sokongan YouTube</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="232"/>
+        <location filename="../youtube/codedownloader.cpp" line="240"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="233"/>
+        <location filename="../youtube/codedownloader.cpp" line="241"/>
         <source>%1 can download and install this application for you.</source>
         <translation>%1 boleh memuat turun dan memasang aplikasi ini untuk anda.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="234"/>
+        <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="235"/>
+        <location filename="../youtube/codedownloader.cpp" line="243"/>
         <source>Would you like to proceed?</source>
         <translation>Anda mahu teruskan?</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="239"/>
-        <location filename="../youtube/codedownloader.cpp" line="242"/>
+        <location filename="../youtube/codedownloader.cpp" line="247"/>
+        <location filename="../youtube/codedownloader.cpp" line="250"/>
         <source>Install YouTube support?</source>
         <translation>Pasang sokongan YouTube?</translation>
     </message>
@@ -2320,143 +2334,143 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3231"/>
+        <location filename="../core.cpp" line="3248"/>
         <source>Brightness: %1</source>
         <translation>Kecerahan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3264"/>
         <source>Contrast: %1</source>
         <translation>Beza jelas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3262"/>
+        <location filename="../core.cpp" line="3279"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3277"/>
+        <location filename="../core.cpp" line="3294"/>
         <source>Hue: %1</source>
         <translation>Rona: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3292"/>
+        <location filename="../core.cpp" line="3309"/>
         <source>Saturation: %1</source>
         <translation>Ketepuan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3435"/>
+        <location filename="../core.cpp" line="3452"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4410"/>
+        <location filename="../core.cpp" line="4427"/>
         <source>Zoom: %1</source>
         <translation>Zum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3563"/>
-        <location filename="../core.cpp" line="3574"/>
+        <location filename="../core.cpp" line="3580"/>
+        <location filename="../core.cpp" line="3591"/>
         <source>Font scale: %1</source>
         <translation>Skala fon: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4256"/>
         <source>Aspect ratio: %1</source>
         <translation>Nisbah bidang: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4648"/>
+        <location filename="../core.cpp" line="4665"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Mengemaskini cache fon. Ia mungkin mengambil masa beberapa saat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3488"/>
+        <location filename="../core.cpp" line="3505"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Lengah sari kata: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3506"/>
+        <location filename="../core.cpp" line="3523"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lengahan audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3346"/>
+        <location filename="../core.cpp" line="3363"/>
         <source>Speed: %1</source>
         <translation>Kelajuan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="579"/>
+        <location filename="../core.cpp" line="580"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Tidak dapat cari URL video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3662"/>
+        <location filename="../core.cpp" line="3679"/>
         <source>Subtitles on</source>
         <translation>Sari kata hidup</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3664"/>
+        <location filename="../core.cpp" line="3681"/>
         <source>Subtitles off</source>
         <translation>Sari kata mati</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4287"/>
+        <location filename="../core.cpp" line="4304"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kini jangkau roda tetikus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4290"/>
+        <location filename="../core.cpp" line="4307"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kini roda tetikus mengubah volum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4293"/>
+        <location filename="../core.cpp" line="4310"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kini roda tetikus mengubah aras zum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4296"/>
+        <location filename="../core.cpp" line="4313"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kini roda tetikus mengubah kelajuan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4624"/>
+        <location filename="../core.cpp" line="4641"/>
         <source>Screenshot saved as %1</source>
         <translation>Tangkap layar disimpan sebagai %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4659"/>
+        <location filename="../core.cpp" line="4676"/>
         <source>Starting...</source>
         <translation>Memulakan...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1418"/>
+        <location filename="../core.cpp" line="1419"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Tangkap layar TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1431"/>
+        <location filename="../core.cpp" line="1432"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Tangkap layar TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2833"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Penanda &quot;A&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2858"/>
+        <location filename="../core.cpp" line="2875"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Penanda &quot;B&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2881"/>
+        <location filename="../core.cpp" line="2898"/>
         <source>A-B markers cleared</source>
         <translation>Penanda A-B dikosongkan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="575"/>
+        <location filename="../core.cpp" line="576"/>
         <source>Connecting to %1</source>
         <translation>Menyambung ke %1</translation>
     </message>
@@ -3211,7 +3225,7 @@ Contoh: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -4012,7 +4026,7 @@ Sila semak keizinan folder tersebut.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4228,7 +4242,7 @@ Sila semak keizinan folder tersebut.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4777,86 +4791,86 @@ Anda hendak tulis-ganti?</translation>
         <translation>penapis &apos;%1&apos; tidak sokongan oleh mpv</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="896"/>
+        <location filename="../mpvoptions.cpp" line="903"/>
         <location filename="../mpvprocess.h" line="207"/>
         <source>File:</source>
         <translation>Fail:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="899"/>
+        <location filename="../mpvoptions.cpp" line="906"/>
         <location filename="../mpvprocess.h" line="208"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="900"/>
+        <location filename="../mpvoptions.cpp" line="907"/>
         <location filename="../mpvprocess.h" line="209"/>
         <source>Resolution:</source>
         <translation>Resolusi:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="901"/>
+        <location filename="../mpvoptions.cpp" line="908"/>
         <location filename="../mpvprocess.h" line="210"/>
         <source>Frames per second:</source>
         <translation>Bingkai sesaat:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="901"/>
+        <location filename="../mpvoptions.cpp" line="908"/>
         <location filename="../mpvprocess.h" line="211"/>
         <source>Estimated:</source>
         <translation>Anggaran:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="903"/>
+        <location filename="../mpvoptions.cpp" line="910"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>Aspect Ratio:</source>
         <translation>Nisbah Bidang:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="904"/>
-        <location filename="../mpvoptions.cpp" line="909"/>
+        <location filename="../mpvoptions.cpp" line="911"/>
+        <location filename="../mpvoptions.cpp" line="916"/>
         <location filename="../mpvprocess.h" line="213"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Bitrate:</source>
         <translation>Kadar Bit:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="905"/>
+        <location filename="../mpvoptions.cpp" line="912"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Dropped frames:</source>
         <translation>Bingkai dilepaskan:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="908"/>
+        <location filename="../mpvoptions.cpp" line="915"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="910"/>
+        <location filename="../mpvoptions.cpp" line="917"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Sample Rate:</source>
         <translation>Kadar Sampel:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="911"/>
+        <location filename="../mpvoptions.cpp" line="918"/>
         <location filename="../mpvprocess.h" line="218"/>
         <source>Channels:</source>
         <translation>Saluran:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="914"/>
+        <location filename="../mpvoptions.cpp" line="921"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Audio/video synchronization:</source>
         <translation>Penyegerakan audio/video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="917"/>
+        <location filename="../mpvoptions.cpp" line="924"/>
         <source>Cache (in seconds):</source>
         <translation>Cache (dalam saat):</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="918"/>
+        <location filename="../mpvoptions.cpp" line="925"/>
         <source>Cache speed:</source>
         <translation>Kelajuan cache:</translation>
     </message>
@@ -4932,8 +4946,8 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>MplayerProcess</name>
     <message>
-        <location filename="../mplayeroptions.cpp" line="427"/>
-        <location filename="../mplayeroptions.cpp" line="504"/>
+        <location filename="../mplayeroptions.cpp" line="431"/>
+        <location filename="../mplayeroptions.cpp" line="508"/>
         <source>This option is not supported by MPlayer</source>
         <translation>Pilihan ini tidak disokong oleh MPlayer</translation>
     </message>
@@ -5105,12 +5119,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>Pilih satu direktori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2000"/>
+        <location filename="../playlist.cpp" line="2001"/>
         <source>Edit name</source>
         <translation>Sunting nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2001"/>
+        <location filename="../playlist.cpp" line="2002"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Taip nama yang akan dipaparkan di dalam senarai main bagi fail ini:</translation>
     </message>
@@ -5252,47 +5266,47 @@ Anda hendak tulis-ganti?</translation>
         <translation>Sa&amp;lin URL ke papan keratan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2038"/>
+        <location filename="../playlist.cpp" line="2039"/>
         <source>Confirm deletion</source>
         <translation>Sahkan pemadaman</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2039"/>
+        <location filename="../playlist.cpp" line="2040"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Anda akan MEMADAM fail &apos;%1&apos; dari pemacu anda.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2040"/>
+        <location filename="../playlist.cpp" line="2041"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Tindakan ini tidak boleh diundur. Anda pasti mahu teruskan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2058"/>
+        <location filename="../playlist.cpp" line="2059"/>
         <source>Deletion failed</source>
         <translation>Pemadaman gagal</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2059"/>
+        <location filename="../playlist.cpp" line="2060"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Adalah mustahil dapat memadam &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2064"/>
+        <location filename="../playlist.cpp" line="2065"/>
         <source>Error deleting the file</source>
         <translation>Ralat memadam fail</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2065"/>
+        <location filename="../playlist.cpp" line="2066"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Adalah mustahil dapat memadam &apos;%1&apos; dari sistem fail.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2552"/>
+        <location filename="../playlist.cpp" line="2553"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Adalah mustahil dapat memuatkan senarai main ini</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2552"/>
+        <location filename="../playlist.cpp" line="2553"/>
         <source>Unrecognized format.</source>
         <translation>Format tidak dikenali.</translation>
     </message>
@@ -5950,8 +5964,8 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="156"/>
-        <location filename="../prefgeneral.cpp" line="1042"/>
+        <location filename="../prefgeneral.cpp" line="153"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
         <source>General</source>
         <translation>Am</translation>
     </message>
@@ -5966,285 +5980,285 @@ Anda hendak tulis-ganti?</translation>
         <translation>Tetapan media</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Start videos in fullscreen</source>
         <translation>Mula video dalam mod skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1251"/>
         <source>Disable screensaver</source>
         <translation>Lumpuhkan penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="179"/>
+        <location filename="../prefgeneral.cpp" line="176"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (Sekeliling 6.1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="180"/>
+        <location filename="../prefgeneral.cpp" line="177"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (Sekeliling 7.1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="206"/>
+        <location filename="../prefgeneral.cpp" line="205"/>
         <source>Select the %1 executable</source>
         <translation>Pilih bolehlaku %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="208"/>
+        <location filename="../prefgeneral.cpp" line="207"/>
         <source>Executables</source>
         <translation>Bolehlaku</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="210"/>
+        <location filename="../prefgeneral.cpp" line="209"/>
         <source>All files</source>
         <translation>Semua fail</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="212"/>
+        <location filename="../prefgeneral.cpp" line="211"/>
         <source>Select a directory</source>
         <translation>Pilih satu direktori</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="223"/>
+        <location filename="../prefgeneral.cpp" line="222"/>
         <source>%1 &amp;executable:</source>
         <translation>&amp;Bolehlaku %1:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="175"/>
-        <location filename="../prefgeneral.cpp" line="457"/>
-        <location filename="../prefgeneral.cpp" line="458"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
+        <location filename="../prefgeneral.cpp" line="483"/>
+        <location filename="../prefgeneral.cpp" line="484"/>
         <source>Default</source>
         <translation>Lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="215"/>
+        <location filename="../prefgeneral.cpp" line="214"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
         <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sari kata. Bila media dengan strim audio atau sari kata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sari kata, seperti fail DVD atau mkv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="465"/>
+        <location filename="../prefgeneral.cpp" line="491"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="466"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1080"/>
         <source>Multimedia engine</source>
         <translation>Enjin multimedia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Pilih enjin multimedia yang anda mahu gunakan, sama ada MPlayer atau mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Pilihan &apos;lain&apos; membolehkan anda pilih laluan bolehlaku secara manual.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1085"/>
         <source>%1 executable</source>
         <translation>Bolehlaku %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Di sini anda mesti nyatakan bolehlaku %1 yang mana SMPlayer akan gunakan.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Remember settings for streams</source>
         <translation>Ingat tetapan untuk strim</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1102"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Bila pilihan ini didayakan tetapan untuk strim atas-talian akan diingati jua.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Screenshots folder</source>
         <translation>Folder tangkap layar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1088"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>Template for screenshots</source>
         <translation>Templat untuk tangkap layar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Contohnya %1 akan menyimpan tangkap layar sebagai &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 menyatakan nama fail video tanpa sambungan, %2 tambah 4 nombor digit yang dipadatkan dengan sifar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Format for screenshots</source>
         <translation>Format untuk tangkap layar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Pilihan ini membolehkan pemilihan jenis fail imej yang digunakan untuk menyimpan tangkap layar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Jika pilihan ini didayakan, komputer akan dimatikan selepas SMPlayer ditutup.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Video output driver</source>
         <translation>Pemacu output video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Select the video output driver.</source>
         <translation>Pilih pemacu output video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Wayland support</source>
         <translation>Sokongan Wayland</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
         <translation>Tindakan ini mengaktifkan beberapa pilihan yang dapat menghindari video terpapar di luar tetingkap utama.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1155"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Jika pilihan ini didayakan, sempadan hitam akan ditambah pada imej secara lalai pada fail yang baharu dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1225"/>
+        <location filename="../prefgeneral.cpp" line="1260"/>
         <source>Audio output driver</source>
         <translation>Pemacu output audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1226"/>
+        <location filename="../prefgeneral.cpp" line="1261"/>
         <source>Select the audio output driver.</source>
         <translation>Pilih pemacu output audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Remember settings</source>
         <translation>Ingat tetapan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1284"/>
+        <location filename="../prefgeneral.cpp" line="1319"/>
         <source>Preferred audio language</source>
         <translation>Bahasa audio digemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1296"/>
+        <location filename="../prefgeneral.cpp" line="1331"/>
         <source>Preferred subtitle language</source>
         <translation>Bahasa sari kata dikehendaki</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1198"/>
         <source>Software video equalizer</source>
         <translation>Penyama video perisian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="171"/>
+        <location filename="../prefgeneral.cpp" line="168"/>
         <source>Other...</source>
         <translation>Lain...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1089"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan tangkap layar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1093"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Untuk senarai penuh penerang templat lawati pautan ini:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1139"/>
         <source>This option only works with mpv.</source>
         <translation>Pilihan ini hanya berfungsi dengan mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1119"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Shut down computer</source>
         <translation>Matikan komputer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1189"/>
         <source>Add black borders for subtitles by default</source>
         <translation>Tambah sempadan hitam pada sari kata secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1199"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Anda boleh semak pilihan ini jika penyama video tidak disokong oleh kad grafik anda atau pemacu output video terpilih.&lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; pilihan ini boleh menjadi tidak serasi dengan beberapa pemacu output video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1221"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Jika pilihan ini ditanda, semua video akan mula dimainkan dalam mod skrin penuh.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1231"/>
+        <location filename="../prefgeneral.cpp" line="1266"/>
         <source>Global audio equalizer</source>
         <translation>Penyama audio sejagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1232"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Jika pilihan ini ditanda, semua fail media berkongsi penyama audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1268"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Jika ia tidak ditanda, nilai penyama audio disimpan bersama-sama setiap fail dan dimuat kembali bila fail tersebut dimain kemudian.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1271"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS melalui ke S/PDIF dan HDMI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1242"/>
+        <location filename="../prefgeneral.cpp" line="1277"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Pinta sejumlah saluran main balik. %1 menanya penyahkod untuk menyahkod audio pada sebanyak mana saluran yang dinyatakan. Kemudian ia bergantung pada penyahkod untuk memenuhi keperluan tersebut. Ia biasanya hanya penting bila memainkan video dengan audio AC3 (seperti DVD). Dalam kes liba52 menyahkod secara lalai dan membetulkan downmix audio ke dalam sejumlah saluran yang dipinta. &lt;b&gt;Perhatian&lt;/b&gt;: Pilihan ini diutamakan oleh kodeks (AC3 hanya), penapis (keliling) dan pemacu output audio (OSS sekurang-kurangnya).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1253"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Benarkan ubah kelajuan main balik tanpa mengubah pic.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1261"/>
+        <location filename="../prefgeneral.cpp" line="1296"/>
         <source>Software volume control</source>
         <translation>Kawalan volum perisian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1262"/>
+        <location filename="../prefgeneral.cpp" line="1297"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Tanda pilihan ini untuk guna pengadun perisian, selain dari menggunakan pengadun kad bunyi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Postprocessing quality</source>
         <translation>Kualiti pos-pemprosesan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1144"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Ubah secara dinamik aras pos-pemprosesan yang bergantung pada masa CPU ganti yang ada. Nombor yang anda tentukan akan menjadi aras maksimum yang digunakan. Biasanya anda boleh guna nombor besar.</translation>
     </message>
@@ -6329,12 +6343,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>Penguatan Ma&amp;ks.:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1169"/>
+        <location filename="../prefgeneral.cpp" line="1204"/>
         <source>Direct rendering</source>
         <translation>Penerapan langsung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1174"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>Double buffering</source>
         <translation>Penimbalan dubel</translation>
     </message>
@@ -6349,7 +6363,7 @@ Anda hendak tulis-ganti?</translation>
         <translation>Penim&amp;balan dubel</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1175"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Penimbalan dubel membaiki kerlipan dengan menyimpan dua bingkai di dalam ingatan, dan memaparkan satu semasa menyahkod yang lain. Jika dilumpuhkan ia dapat menjejaskan OSD secara negatif, tetapi biasanya membuang kerlipan OSD.</translation>
     </message>
@@ -6364,27 +6378,27 @@ Anda hendak tulis-ganti?</translation>
         <translation>Penormalan &amp;volum secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1114"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Close when finished</source>
         <translation>Tutup bila selesai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1150"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Jika pilihan ini ditanda, tetingkap utama akan ditutup secara automatik bila fail/senarai main semasa selesai.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="176"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="177"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (Sekeliling 4.0)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="178"/>
+        <location filename="../prefgeneral.cpp" line="175"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (Sekeliling 5.1)</translation>
     </message>
@@ -6399,82 +6413,82 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Jeda bila diminimumkan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1109"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>Pause when minimized</source>
         <translation>Jeda bila diminimumkan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Enable postprocessing by default</source>
         <translation>Dayakan pos-pemprosesan secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1265"/>
+        <location filename="../prefgeneral.cpp" line="1300"/>
         <source>Max. Amplification</source>
         <translation>Penguatan Ma&amp;ks.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1272"/>
+        <location filename="../prefgeneral.cpp" line="1307"/>
         <source>Volume normalization by default</source>
         <translation>Penormalan volum secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1273"/>
+        <location filename="../prefgeneral.cpp" line="1308"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maksimumkan volum tanpa mengherotkan bunyi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1241"/>
+        <location filename="../prefgeneral.cpp" line="1276"/>
         <source>Channels by default</source>
         <translation>Saluran secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1266"/>
+        <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Tetakan aras penguatan maksimum dalam peratus (lalai: 110). Nilai 200 akan membolehkan anda laras volum sehingga nilai maksimum ganda dua aras semasa. Dengan nilai dibawah 100 volum awal (iaitu 100%) akan berada diatas nilai maksimum, iaitu OSD tidak dipaparkan dengan baik.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Pos-pemprosesan akan digunakan secara lalai pada fail yang baru dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1286"/>
+        <location filename="../prefgeneral.cpp" line="1321"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>Anda boleh nyatakan di sini senarai prioriti kod bahasa audio, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1290"/>
+        <location filename="../prefgeneral.cpp" line="1325"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek audio jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1298"/>
+        <location filename="../prefgeneral.cpp" line="1333"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>Anda boleh nyatakan di sini senarai kod bahasa sari kata, diasing dengan tanda koma. Sebagai contoh: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1301"/>
+        <location filename="../prefgeneral.cpp" line="1336"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan memilih strim sari kata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1308"/>
+        <location filename="../prefgeneral.cpp" line="1343"/>
         <source>Audio track</source>
         <translation>Trek audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1309"/>
+        <location filename="../prefgeneral.cpp" line="1344"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Nyatakan trek audio lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa audio digemari&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1314"/>
+        <location filename="../prefgeneral.cpp" line="1349"/>
         <source>Subtitle track</source>
         <translation>Trek sari kata</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1315"/>
+        <location filename="../prefgeneral.cpp" line="1350"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Nyatakan trek sari kata lalai yang akan diguna bila mainkan fail baru. Jika trek tidak wujud, yang pertama akan digunakan. &lt;br&gt;&lt;b&gt;Perhatian:&lt;/b&gt; the &lt;i&gt;&quot;bahasa sari kata dikehendaki&quot;&lt;/i&gt; mempunyai keutamaan terhadap pilihan ini.</translation>
     </message>
@@ -6509,7 +6523,7 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Main balik kelajuan tinggi tanpa mengubah pic</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
+        <location filename="../prefgeneral.cpp" line="1287"/>
         <source>High speed playback without altering pitch</source>
         <translation>Main balik kelajuan tinggi tanpa mengubah pic</translation>
     </message>
@@ -6539,62 +6553,62 @@ Anda hendak tulis-ganti?</translation>
         <translation>Volum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1124"/>
+        <location filename="../prefgeneral.cpp" line="1159"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1223"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1282"/>
+        <location filename="../prefgeneral.cpp" line="1317"/>
         <source>Preferred audio and subtitles</source>
         <translation>Audio dan sari kata digemari</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="184"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>None</source>
         <translation>Tiada</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="185"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Lowpass5</source>
         <translation>Laluanrendah5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="186"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (biasa)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="187"/>
+        <location filename="../prefgeneral.cpp" line="184"/>
         <source>Yadif (double framerate)</source>
         <translation>Y&amp;adif (kadar bingkai dubel)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="188"/>
+        <location filename="../prefgeneral.cpp" line="185"/>
         <source>Linear Blend</source>
         <translation>Adun Linear</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="189"/>
+        <location filename="../prefgeneral.cpp" line="186"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>Deinterlace by default</source>
         <translation>Nyahselang-seli secara lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1149"/>
+        <location filename="../prefgeneral.cpp" line="1184"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Pilih penapis nyah-antarjalinan yang anda mahu gunakan untuk video yang baru dibuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Remember time position</source>
         <translation>Ingat kedudukan masa</translation>
     </message>
@@ -6604,12 +6618,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>Ingat kedudukan &amp;masa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1228"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>Enable the audio equalizer</source>
         <translation>Dayakan penyama audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Tanda pilihan ini jika anda mahu guna penyama audio.</translation>
     </message>
@@ -6619,12 +6633,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Dayakan penyama audio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Draw video using slices</source>
         <translation>Lukis video menggunakan hirisan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Daya/lumpuhkan melukis video dengan hirisan/jalur berketinggian 16-piksel. Jika dilumpuhkan, keseluruhan bingkai dilukis dengan sekali jalan. Mungkin lebih pantas atau sebaliknya, bergantung pada kad video atau cache yang ada. Ia hanya berkesan dengan kodeks libmpeg2 dan libavcodec.</translation>
     </message>
@@ -6639,23 +6653,23 @@ Anda hendak tulis-ganti?</translation>
         <translation>T&amp;utup bila main balik selesai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="472"/>
+        <location filename="../prefgeneral.cpp" line="498"/>
         <source>fast</source>
         <translation>pantas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="508"/>
-        <location filename="../prefgeneral.cpp" line="551"/>
+        <location filename="../prefgeneral.cpp" line="534"/>
+        <location filename="../prefgeneral.cpp" line="586"/>
         <source>User defined...</source>
         <translation>Ditakrif pengguna...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Default zoom</source>
         <translation>Zum lalai</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1160"/>
+        <location filename="../prefgeneral.cpp" line="1195"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Pilihan ini tetapkan zum lalai yang mana akan digunakan untuk video baru.</translation>
     </message>
@@ -6665,22 +6679,22 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Zum lalai:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Jika tetapan ini salah, SMPlayer tidak dapat memainkan apa-apa!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1057"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Biasanya SMPlayer akan mengingati tetapan bagi setiap fail yang anda main (trek audio terpilih, volum, penapis...). Lumpuhkan pilihan ini jika anda tidak mahu fitur ini.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1110"/>
+        <location filename="../prefgeneral.cpp" line="1145"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Jika pilihan ini didayakan, fail akan dijeda bila tetingkap utama disembunyikan. Bila tetingkap dipulihkan, main balik akan disambung semula.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1217"/>
+        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Tanda pilihan ini untuk lumpuhkan penyelamat skrin, semasa dimainkan. &lt;br&gt;Penyelamatan akan didayakan sekali lagi bila selesai main.</translation>
     </message>
@@ -6691,12 +6705,12 @@ Anda hendak tulis-ganti?</translation>
         <translation>Pemacu ou&amp;tput:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1225"/>
         <source>Add black borders on fullscreen</source>
         <translation>Tambah sempadan hitam pada skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1226"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Jika pilihan ini didayakan, sempadan hitam akan ditambah ke imej dalam mod skrin penuh. Ia membolehkan sari kata dipaparkan pada sempadan hitam.</translation>
     </message>
@@ -6706,32 +6720,32 @@ Anda hendak tulis-ganti?</translation>
         <translation>T&amp;ambah sempadan hitam pada skrin penuh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="194"/>
+        <location filename="../prefgeneral.cpp" line="191"/>
         <source>one ini file</source>
         <translation>satu fail ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="195"/>
+        <location filename="../prefgeneral.cpp" line="192"/>
         <source>multiple ini files</source>
         <translation>berbilang fail ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Method to store the file settings</source>
         <translation>Kaedah untuk menyimpan tetapan fail</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Pilihan ini memberi perubahan cara tetapan fail dipulihkan. Pilihan berikut yang tersedia:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1072"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;satu fail ini&lt;/b&gt;: Tetapan untuk semua fail yang dimainkan akan disimpan dalam satu fail ini (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Kaedah terkemudian lebih pantas jika terdapat maklumat untuk banyak fail.</translation>
     </message>
@@ -6741,32 +6755,32 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Simpan tetapan dalam</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1109"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;berbilang fail ini&lt;/b&gt;: satu fail ini akan digunakan bagi setiap fail yang dimainkan. Fail ini ini akan disimpan di dalam folder %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Jika anda tanda pilihan ini, SMPlayer akan ingat kedudukan terakhir fail bila anda buka ia sekali lagi. Pilihan ini hanya berfungsi dengan fail biasa (bukan dengan DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1170"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Jika ditanda, hidupkan penerapan langsung (tidak disokong oleh semua kodeks dan output video)&lt;br&gt;&lt;b&gt;Amaran:&lt;/b&gt; Mungkin menyebabkan kerosakan pada OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Enable screenshots</source>
         <translation>Dayakan tangkap layar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Anda boleh guna pilihan ini untuk daya atau lumpuhkan kebarangkalian mengambil tangkap layar.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1083"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Di sini anda boleh menyatakan folder iaitu tangkap layar yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur tangkap layar akan dilumpuhkan.</translation>
     </message>
@@ -6786,17 +6800,17 @@ Anda hendak tulis-ganti?</translation>
         <translation>&amp;Folder:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1255"/>
+        <location filename="../prefgeneral.cpp" line="1290"/>
         <source>Global volume</source>
         <translation>Volum sejagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1256"/>
+        <location filename="../prefgeneral.cpp" line="1291"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Jika pilihan ini ditanda, volum yang sama akan digunakan untuk semua fail yang anda main. Jika pilihan ini tidak ditanda setiap fail akan menggunakan volumnya sendiri.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1259"/>
+        <location filename="../prefgeneral.cpp" line="1294"/>
         <source>This option also applies for the mute control.</source>
         <translation>Pilihan ini juga laksana kawalan senyap.</translation>
     </message>
@@ -6806,22 +6820,22 @@ Anda hendak tulis-ganti?</translation>
         <translation>Volum se&amp;jagat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1201"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>Switch screensaver off</source>
         <translation>Matikan penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1237"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Pilihan ini mematikan penyelamat skrin sebelum mula memainkan fail dan hidupkannya kembali bila main balik selesai. Jika pilihan ini didayakan. penyelamat skrin tidak akan muncul walaupun memainkan fail audio atau bila fail dijeda.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1208"/>
+        <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Avoid screensaver</source>
         <translation>Hindari penyelamat skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1244"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Bila pilihan ini ditanda, SMPlayer akan cuba hindari penyelamat skrin dipaparkan bila memainkan fail video. Penyelamat skrin akan dipaparkan jika memainkan fail audio atau dalam mod jeda. Pilihan ini hanya berfungsi jika tetingkap SMPlayer berada dibelakang.</translation>
     </message>
@@ -6841,22 +6855,22 @@ Anda hendak tulis-ganti?</translation>
         <translation>Hindari penyelamat &amp;skrin</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1310"/>
         <source>Audio/video auto synchronization</source>
         <translation>Penyegerakan sendiri audio/video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1276"/>
+        <location filename="../prefgeneral.cpp" line="1311"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Laras secara beransur-ansur segerak A/V yang berasaskan pada pengukuran lengahan audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1279"/>
+        <location filename="../prefgeneral.cpp" line="1314"/>
         <source>A-V sync correction</source>
         <translation>Pembetulan segerak A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1280"/>
+        <location filename="../prefgeneral.cpp" line="1315"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Pembetulan segerak A-V maksimum per bingkai (dalam saat)</translation>
     </message>
@@ -6886,7 +6900,7 @@ Anda hendak tulis-ganti?</translation>
         <translation>Pembetulan &amp;maks.:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Perhatian:&lt;/b&gt; Pilihan ini tidak diguna untuk saluran TV.</translation>
     </message>
@@ -6896,22 +6910,22 @@ Anda hendak tulis-ganti?</translation>
         <translation>Nyahse&amp;lang secara lalai (kecuali untuk TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1237"/>
+        <location filename="../prefgeneral.cpp" line="1272"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Guna lalaun perkakasan AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1238"/>
+        <location filename="../prefgeneral.cpp" line="1273"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Perhatian:&lt;/b&gt; tiada penapis audio akan digunakan bila pilihan ini didayakan.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="473"/>
+        <location filename="../prefgeneral.cpp" line="499"/>
         <source>snap mode</source>
         <translation>mod lekat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="474"/>
+        <location filename="../prefgeneral.cpp" line="500"/>
         <source>slower dive mode</source>
         <translation>mod junam lebih perlahan</translation>
     </message>
@@ -8206,7 +8220,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8287,7 +8301,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8403,12 +8417,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8814,7 +8828,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -10113,13 +10127,17 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n saat</numerusform></translation>
+        <translation>
+            <numerusform>%n saat</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minit</numerusform></translation>
+        <translation>
+            <numerusform>%n minit</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
