@@ -500,10 +500,9 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(osd_pos_slider, tr("OSD bar position"),
 		tr("Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom."));
 
-	setWhatsThis(show_tag_in_title_check, tr("Show tag info in window title"),
-		tr("If this option is enabled, information from tags will be "
-		   "shown in window title. "
-           "Otherwise only the filename will be shown.") );
+	setWhatsThis(show_tag_in_title_check, tr("Display the name of the media in the window title"),
+		tr("If this option is enabled the media title from information tags will be "
+		   "displayed in the window title instead of the filename.") );
 
 #if USE_COLORKEY
 	setWhatsThis(colorkey_view, tr("Colorkey"),

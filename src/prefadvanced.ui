@@ -235,7 +235,7 @@
        <item>
         <widget class="QCheckBox" name="show_tag_in_title_check">
          <property name="text">
-          <string>Show tag in&amp;fo in window title</string>
+          <string>Display the name o&amp;f the media in the window title</string>
          </property>
         </widget>
        </item>
