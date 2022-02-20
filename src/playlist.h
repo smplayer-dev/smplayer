@@ -208,6 +208,7 @@ public:
 	void setAutoSort(bool b);
 	void setSortCaseSensitive(bool b);
 	void setFilterCaseSensitive(bool b);
+	void setAllowChangeName(bool b) { change_name = b; };
 
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
@@ -219,6 +220,7 @@ public:
 	bool autoSort();
 	bool sortCaseSensitive();
 	bool filterCaseSensitive();
+	bool allowChangeName() { return change_name; };
 
 #ifdef PLAYLIST_DOWNLOAD
 	void setMaxItemsUrlHistory(int max_items);

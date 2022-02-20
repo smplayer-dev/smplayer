@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>389</width>
+    <width>396</width>
     <height>467</height>
    </rect>
   </property>
@@ -152,6 +152,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="changename_check">
+         <property name="text">
+          <string>Display title name instead of &amp;filename</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="dockable_check">
          <property name="text">
           <string>The playlist window is &amp;dockable</string>
@@ -235,6 +242,7 @@
   <tabstop>media_to_add_combo</tabstop>
   <tabstop>recursive_check</tabstop>
   <tabstop>getinfo_check</tabstop>
+  <tabstop>changename_check</tabstop>
   <tabstop>dockable_check</tabstop>
   <tabstop>autosort_check</tabstop>
   <tabstop>case_sensitive_search_check</tabstop>

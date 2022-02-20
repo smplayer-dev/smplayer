@@ -1772,7 +1772,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 		#if USE_INFOPROVIDER
 		if ( (get_info) && (QFile::exists(files[n])) ) {
 			data = InfoProvider::getInfo(files[n]);
-			name = data.displayName();
+			name = data.displayName(change_name);
 			duration = data.duration;
 			//qApp->processEvents();
 		}

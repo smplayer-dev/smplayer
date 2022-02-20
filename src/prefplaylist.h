@@ -74,6 +74,9 @@ public:
 	bool isDeleteFromDiskAllowed();
 #endif
 
+	void setChangeName(bool b);
+	bool changeName();
+
 	bool dockableChanged() { return dockable_changed; };
 
 protected:

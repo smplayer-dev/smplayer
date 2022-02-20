@@ -178,6 +178,14 @@ bool PrefPlaylist::isDeleteFromDiskAllowed() {
 }
 #endif
 
+void PrefPlaylist::setChangeName(bool b) {
+	changename_check->setChecked(b);
+}
+
+bool PrefPlaylist::changeName() {
+	return changename_check->isChecked();
+}
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
