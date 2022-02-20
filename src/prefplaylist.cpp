@@ -231,6 +231,9 @@ void PrefPlaylist::createHelp() {
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
 
+	setWhatsThis(changename_check, tr("Display title name instead of filename"),
+		tr("The playlist will display the title (if any) instead of the filename."));
+
 	setWhatsThis(dockable_check, tr("The playlist window is dockable"),
 		tr("If this option is checked, the playlist window can be docked inside the main window. "
            "Otherwise the playlist would be a regular window."));
