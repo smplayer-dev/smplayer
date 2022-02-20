@@ -24,10 +24,6 @@
         <translation>Resmi internet sitesi:</translation>
     </message>
     <message>
-        <source>Support forum:</source>
-        <translation type="obsolete">Destek forumu:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer, %1 için bir grafik arayüzdür.</translation>
@@ -554,8 +550,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2102"/>
-        <location filename="../basegui.cpp" line="3614"/>
-        <location filename="../basegui.cpp" line="3628"/>
+        <location filename="../basegui.cpp" line="3616"/>
+        <location filename="../basegui.cpp" line="3630"/>
         <source>&amp;None</source>
         <translation>&amp;Hiçbiri</translation>
     </message>
@@ -766,43 +762,43 @@ Do you want to overwrite?</source>
         <translation>&amp;SMPlayer Hakkında</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3651"/>
-        <location filename="../basegui.cpp" line="3667"/>
-        <location filename="../basegui.cpp" line="3683"/>
-        <location filename="../basegui.cpp" line="3698"/>
-        <location filename="../basegui.cpp" line="3732"/>
-        <location filename="../basegui.cpp" line="3752"/>
-        <location filename="../basegui.cpp" line="3828"/>
+        <location filename="../basegui.cpp" line="3653"/>
+        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3685"/>
+        <location filename="../basegui.cpp" line="3700"/>
+        <location filename="../basegui.cpp" line="3734"/>
+        <location filename="../basegui.cpp" line="3754"/>
+        <location filename="../basegui.cpp" line="3830"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;boş&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4294"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4293"/>
-        <location filename="../basegui.cpp" line="4543"/>
+        <location filename="../basegui.cpp" line="4295"/>
+        <location filename="../basegui.cpp" line="4545"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4294"/>
+        <location filename="../basegui.cpp" line="4296"/>
         <source>Playlists</source>
         <translation>Oynatma listesi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4295"/>
-        <location filename="../basegui.cpp" line="4518"/>
-        <location filename="../basegui.cpp" line="4544"/>
+        <location filename="../basegui.cpp" line="4297"/>
+        <location filename="../basegui.cpp" line="4520"/>
+        <location filename="../basegui.cpp" line="4546"/>
         <source>All files</source>
         <translation>Tüm dosyalar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4290"/>
-        <location filename="../basegui.cpp" line="4515"/>
-        <location filename="../basegui.cpp" line="4541"/>
+        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4517"/>
+        <location filename="../basegui.cpp" line="4543"/>
         <source>Choose a file</source>
         <translation>Bir dosya seçin</translation>
     </message>
@@ -817,50 +813,50 @@ Do you want to overwrite?</source>
         <translation>&amp;Bağış / Arkadaşlarınla paylaş</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4354"/>
+        <location filename="../basegui.cpp" line="4356"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Bilgi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4355"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD cihazları henüz yapılandırılmadı.
 Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4470"/>
         <source>Select the Blu-ray folder</source>
         <translation>Blu-ray klasörünü seç</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4481"/>
+        <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a directory</source>
         <translation>Bir klasör seçin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4517"/>
+        <location filename="../basegui.cpp" line="4519"/>
         <source>Subtitles</source>
         <translation>Altyazılar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5154"/>
-        <location filename="../basegui.cpp" line="5183"/>
+        <location filename="../basegui.cpp" line="5156"/>
+        <location filename="../basegui.cpp" line="5185"/>
         <source>Error detected</source>
         <translation>Hata algılandı</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5184"/>
+        <location filename="../basegui.cpp" line="5186"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Ne yazıkki bu video oynatılamadı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5421"/>
+        <location filename="../basegui.cpp" line="5423"/>
         <source>Pause</source>
         <translation>Duraklat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5422"/>
+        <location filename="../basegui.cpp" line="5424"/>
         <source>Stop</source>
         <translation>Durdur</translation>
     </message>
@@ -1344,160 +1340,152 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Günlükler</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3350"/>
+        <location filename="../basegui.cpp" line="3352"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
         <translation>Yeni tercihleri uygulamak için SMPlayer&apos;ı yeniden başlatmanız gerekir.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4628"/>
+        <location filename="../basegui.cpp" line="4630"/>
         <source>Support SMPlayer</source>
         <translation>SMPlayer&apos;ı Destekle</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">Bağış</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">Hayır</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4634"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayerin sana gereksinimi var</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4635"/>
+        <location filename="../basegui.cpp" line="4637"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer özgür yazılımdır. Bununla birlikte geliştirilmesi çok miktarda çaba ve zaman gerektirir.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
+        <location filename="../basegui.cpp" line="4638"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>SMPlayer&apos;ı yeni özelliklerle geliştirmeye devam etmek için yardımınıza ihtiyacımız var.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4637"/>
+        <location filename="../basegui.cpp" line="4639"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>Bir bağış göndererek SMPlayer projesini desteklemeyi düşünün lütfen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4640"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>En küçük miktar bile çok yardımcı olacak.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5155"/>
+        <location filename="../basegui.cpp" line="5157"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
         <translation>Eksik kitaplıklar nedeniyle youtube-dl işlemi başarısız oldu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5156"/>
+        <location filename="../basegui.cpp" line="5158"/>
         <source>You&apos;ll probably need to install %1.</source>
         <translation>Muhtemelen %1&apos;i yüklemeniz gerekecek.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5158"/>
+        <location filename="../basegui.cpp" line="5160"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
         <translation>Microsoft Visual C++ 2010 Yeniden Dağıtılabilir Paketi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
-        <location filename="../basegui.cpp" line="6201"/>
+        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6203"/>
         <source>More info in the log.</source>
         <translation>Daha fazla bilgi günlükte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6154"/>
-        <location filename="../basegui.cpp" line="6207"/>
+        <location filename="../basegui.cpp" line="6156"/>
+        <location filename="../basegui.cpp" line="6209"/>
         <source>%1 Error</source>
         <translation>%1 hata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
-        <location filename="../basegui.cpp" line="6155"/>
+        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 beklenmeyen bir şekilde kapandı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished">Paypal ile Bağış yap</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4631"/>
+        <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6180"/>
+        <location filename="../basegui.cpp" line="6182"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Youtube-dl parçası çalıştırılamadı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Microsoft Visual C ++ 2010 Yeniden Dağıtılabilir Paketi&apos;ni (x86) yüklemek sorunu çözebilir.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6183"/>
+        <location filename="../basegui.cpp" line="6185"/>
         <source>Click here to get it</source>
         <translation>Almak için buraya tıkla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6201"/>
-        <location filename="../basegui.cpp" line="6209"/>
+        <location filename="../basegui.cpp" line="6203"/>
+        <location filename="../basegui.cpp" line="6211"/>
         <source>%1 failed to start.</source>
         <translation>%1 başlatılamadı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6210"/>
+        <location filename="../basegui.cpp" line="6212"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Lütfen seçeneklerden %1&apos;ın konumunu kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6212"/>
+        <location filename="../basegui.cpp" line="6214"/>
         <source>%1 has crashed.</source>
         <translation>%1 çöktü.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6307"/>
+        <location filename="../basegui.cpp" line="6309"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube Tarayıcıyı yüklenemedi.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6308"/>
-        <location filename="../basegui.cpp" line="6320"/>
+        <location filename="../basegui.cpp" line="6310"/>
+        <location filename="../basegui.cpp" line="6322"/>
         <source>Visit %1 to get it.</source>
         <translation>%1 almak için ziyaret edin.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6318"/>
+        <location filename="../basegui.cpp" line="6320"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube Tarayıcı çalıştırılamadı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6319"/>
+        <location filename="../basegui.cpp" line="6321"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Doğru kurduğunuzdan emin olun.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6486"/>
+        <location filename="../basegui.cpp" line="6488"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sistem tablet kipine alınmış. SMPlayer da tablet kipine geçirilsin mi?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6488"/>
+        <location filename="../basegui.cpp" line="6490"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sistem tablet kipinden çıktı. SMPlayer da tablet kipini kapatsın mı?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6492"/>
+        <location filename="../basegui.cpp" line="6494"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Kararımı anımsa ve tekrar sorma</translation>
     </message>
@@ -1507,23 +1495,23 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>S&amp;MPlayerı arkadaşlarınla paylaş</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3349"/>
-        <location filename="../basegui.cpp" line="4085"/>
+        <location filename="../basegui.cpp" line="3351"/>
+        <location filename="../basegui.cpp" line="4087"/>
         <source>Information</source>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3840"/>
+        <location filename="../basegui.cpp" line="3842"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Silmeyi onayla - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3841"/>
+        <location filename="../basegui.cpp" line="3843"/>
         <source>Delete the list of recent files?</source>
         <translation>Son kullanılan dosyalar listeden silinsin mi?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4086"/>
+        <location filename="../basegui.cpp" line="4088"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Şu anki değerler öntanımlı olacak şekilde kaydedildi.</translation>
     </message>
@@ -1613,7 +1601,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Komut satırı se&amp;çenekleri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4563"/>
+        <location filename="../basegui.cpp" line="4565"/>
         <source>SMPlayer command line options</source>
         <translation>SmPlayer komut satırı seçenekleri</translation>
     </message>
@@ -1628,17 +1616,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Video ekolayzırı sıfırla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5185"/>
+        <location filename="../basegui.cpp" line="5187"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Sunucu yanıtı &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6156"/>
+        <location filename="../basegui.cpp" line="6158"/>
         <source>Exit code: %1</source>
         <translation>Çıkış kodu: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6213"/>
+        <location filename="../basegui.cpp" line="6215"/>
         <source>See the log for more info.</source>
         <translation>Daha fazla bilgi için kayıt dosyasına bakınız.</translation>
     </message>
@@ -1683,7 +1671,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>İçerik menüsünü göster</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4291"/>
+        <location filename="../basegui.cpp" line="4293"/>
         <source>Multimedia</source>
         <translation>Çoklu ortam</translation>
     </message>
@@ -1761,22 +1749,22 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>&amp;İz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Uyarı - MPlayer&apos;ın eski bir sürümünü kullanıyorsunuz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Sisteminizde yüklü olan MPlayer (%1) sürümü eski. SMPlayer bu sürümle düzgün çalışamaz: bazı seçenekler çalışmayacaktır. Ayrıca altyazı seçimi başarısız olabilir...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5044"/>
+        <location filename="../basegui.cpp" line="5046"/>
         <source>Please, update your MPlayer.</source>
         <translation>Lütfen MPlayer&apos;ı güncelleyiniz.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5046"/>
+        <location filename="../basegui.cpp" line="5048"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Bu uyarı bir daha gösterilmeyecektir)</translation>
     </message>
@@ -1866,26 +1854,26 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Geci&amp;kmeyi ayarla...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4702"/>
-        <location filename="../basegui.cpp" line="4706"/>
+        <location filename="../basegui.cpp" line="4704"/>
+        <location filename="../basegui.cpp" line="4708"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Ses gecikmesi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4703"/>
-        <location filename="../basegui.cpp" line="4707"/>
+        <location filename="../basegui.cpp" line="4705"/>
+        <location filename="../basegui.cpp" line="4709"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Ses gecikmesi (milisaniye):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4718"/>
-        <location filename="../basegui.cpp" line="4722"/>
+        <location filename="../basegui.cpp" line="4720"/>
+        <location filename="../basegui.cpp" line="4724"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Altyazı gecikmesi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4719"/>
-        <location filename="../basegui.cpp" line="4723"/>
+        <location filename="../basegui.cpp" line="4721"/>
+        <location filename="../basegui.cpp" line="4725"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Altyazı gecikmesi (milisaniye):</translation>
     </message>
@@ -1895,8 +1883,8 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Değiştirme düğmesi üstte kalsın</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5647"/>
-        <location filename="../basegui.cpp" line="5995"/>
+        <location filename="../basegui.cpp" line="5649"/>
+        <location filename="../basegui.cpp" line="5997"/>
         <source>Jump to %1</source>
         <translation>%1&apos;e atla</translation>
     </message>
@@ -5355,7 +5343,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Gelişmiş</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="569"/>
+        <location filename="../prefadvanced.cpp" line="568"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer çıktısının kaydını tut</translation>
     </message>
@@ -5365,7 +5353,7 @@ Do you want to overwrite?</source>
         <translation>Bu seçenek esas olarak hata ayıklama amaçlıdır.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="600"/>
+        <location filename="../prefadvanced.cpp" line="599"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer kayıtları için süzgeç</translation>
     </message>
@@ -5383,6 +5371,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
         <translation>O&amp;SD çubuğu konumu:</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="238"/>
+        <source>Display the name o&amp;f the media in the window title</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5420,7 +5413,7 @@ Do you want to overwrite?</source>
         <translation>De&amp;ğiştir...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="566"/>
+        <location filename="../prefadvanced.cpp" line="565"/>
         <source>Logs</source>
         <translation>Kayıtlar</translation>
     </message>
@@ -5445,7 +5438,7 @@ Do you want to overwrite?</source>
         <translation>Eğer bu seçeneği seçerseniz, lavf demuxer tüm türlerde kullanılacak.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="546"/>
+        <location filename="../prefadvanced.cpp" line="545"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
         <translation>Bu seçenek, oynatma listesi dosyalarını (m3u, pls ...) oynatmak için gerekli olabilir. Bununla birlikte, MPlayer&apos;ın çalma listesi dosyalarını ayrıştırma ve kullanma şekli kötü amaçla oluşturulmuş dosyalara karşı güvenli olmadığından, internet kaynaklarını oynatırken bir güvenlik riski içerebilir.</translation>
     </message>
@@ -5455,27 +5448,27 @@ Do you want to overwrite?</source>
         <translation>Sınırlama: eylemler, %1 işlemi yeniden başlatıldığında değil, yalnızca bir dosya açıldığında çalıştırılır (örn. Bir ses veya video filtresi seçerseniz).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="509"/>
+        <location filename="../prefadvanced.cpp" line="508"/>
         <source>Colorkey</source>
         <translation>Renk anahtarı</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="509"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Eğer diğer pencereler üzerinde oynattığınız videodan parçalar görüyorsanız, bu durumu düzeltmek için renk anahtarını değiştirebilirsiniz. Siyaha yakın renkler seçmeyi deneyin.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="517"/>
         <source>Options</source>
         <translation>Seçenekler</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Video filters</source>
         <translation>Video süzgeçleri</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="525"/>
         <source>Audio filters</source>
         <translation>Ses süzgeçleri</translation>
     </message>
@@ -5490,22 +5483,22 @@ Do you want to overwrite?</source>
         <translation>Vi&amp;deo penceresinin artalanını yeniden boya</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="560"/>
+        <location filename="../prefadvanced.cpp" line="559"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="560"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Ağ bağlantılarında IPv4&apos;ü kullan. Otomatik olarak IPv6&apos;ya başvurur.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="563"/>
+        <location filename="../prefadvanced.cpp" line="562"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="564"/>
+        <location filename="../prefadvanced.cpp" line="563"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Ağ bağlantılarında IPv6&apos;yı kullan. Otomatik olarak IPv4&apos;e başvurur.</translation>
     </message>
@@ -5540,42 +5533,42 @@ Do you want to overwrite?</source>
         <translation>Gerektiğinde d&amp;izini yeniden oluştur</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="570"/>
+        <location filename="../prefadvanced.cpp" line="569"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Bunu seçerseniz, SMPlayer sadece SMPlayer çıktısı olan hata düzeltme mesajlarını kaydeder (kaydı, &lt;b&gt;Seçenekler -&gt; Kayıtlara bak -&gt; SMPlayer&lt;/b&gt;&apos;da görebilirsiniz). Programda bir hata bulmanız durumunda, bu bilgi geliştiriciye hatayı çözmede yardımcı olabilir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="582"/>
+        <location filename="../prefadvanced.cpp" line="581"/>
         <source>Log %1 output</source>
         <translation>%1 çıktısının kaydını tut</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="583"/>
+        <location filename="../prefadvanced.cpp" line="582"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>İşaretlenirse, SMPlayer %1 çıktısını depolar (bunu &lt;b&gt;Seçenekler -&gt; Günlükleri görüntüle -&gt; %1&lt;/b&gt; bölümünde görebilirsiniz). Sorun olması durumunda bu günlük önemli bilgiler içerebilir, bu nedenle bu seçeneği işaretlemeniz önerilir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="588"/>
+        <location filename="../prefadvanced.cpp" line="587"/>
         <source>Autosave %1 log</source>
         <translation>%1 kaydını otomatik olarak kaydet</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="589"/>
+        <location filename="../prefadvanced.cpp" line="588"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Bu seçeneği işaretlerseniz, her yeni dosya çalmaya başladığında %1 günlüğü belirtilen dosyaya kaydedilir. Harici uygulamalar için tasarlanmıştır, böylece oynattığınız dosya hakkında bilgi alabilirler.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="594"/>
+        <location filename="../prefadvanced.cpp" line="593"/>
         <source>Autosave %1 log filename</source>
         <translation>%1 kaydının dosya ismini otomatik olarak kaydet</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="595"/>
+        <location filename="../prefadvanced.cpp" line="594"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
         <translation>%1 kaydının tutulacağı dosyanın klasör yolunu ve adını girin.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="601"/>
+        <location filename="../prefadvanced.cpp" line="600"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Bu seçenek kaydı tutlacak SMPlayer mesajlarının süzülmesini sağlar. &lt;br&gt;Örnek: &lt;i&gt;^Core::.*&lt;/i&gt; yazarsanız sadece &lt;i&gt;Core::&lt;/i&gt;&apos;la başlayan satırlar görüntülenir.&gt;</translation>
     </message>
@@ -5595,7 +5588,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Kısa dosya adlarını (8+3) %1&apos;e geçirin</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="520"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by spaces.</source>
         <translation>Aralarında boşluk bırakarak yazınız.</translation>
     </message>
@@ -5640,37 +5633,47 @@ Do you want to overwrite?</source>
         <translation>OSD çubuğunun görüntülendiği ekranın konumunu ayarlayın. 0 üst, 100 alt.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="503"/>
+        <source>Display the name of the media in the window title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="504"/>
+        <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="529"/>
         <source>Run %1 in its own window</source>
         <translation>%1&apos;i kendi penceresinde çalıştır</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="530"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
         <translation>Bu seçeneği işaretlerseniz, %1 video penceresi SMPlayer&apos;ın ana penceresine gömülmeyecek, bunun yerine kendi penceresini kullanacaktır. Fare ve klavye olaylarının doğrudan %1 tarafından işleneceğini unutmayın, bu da önemli kısayolların ve fare tıklamalarının muhtemelen odak %1 penceresine sahipken beklendiği gibi çalışmayacağı anlamına gelir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="539"/>
+        <location filename="../prefadvanced.cpp" line="538"/>
         <source>Notify %1 crashes</source>
         <translation>%1 çökmesini bildir</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="540"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
         <translation>Bu seçenek işaretlenirse, %1 çökmeleri hakkında bilgi vermek için bir açılır pencere görüntülenecektir. Aksi takdirde bu hatalar sessizce göz ardı edilecektir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="553"/>
+        <location filename="../prefadvanced.cpp" line="552"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>Kısa dosya adlarını (8+3) %1&apos;e geçirin</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="554"/>
+        <location filename="../prefadvanced.cpp" line="553"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Bu seçenek işaretlenirse, SMPlayer dosya adlarının kısa versiyonunu %1&apos;e aktaracaktır.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="545"/>
+        <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>MPlayerin %1 seçeneğine geç (güvenlik riski)</translation>
     </message>
@@ -5695,28 +5698,28 @@ Do you want to overwrite?</source>
         <translation>%1 seçenekleri</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can type options for %1.</source>
         <translation>Burada %1 için seçenekler hazırlayabilirsiniz.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="522"/>
         <source>Here you can add video filters for %1.</source>
         <translation>Burada %1 için video süzgeçleri ekleyebilirsiniz.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Aralarını virgülle ayırarak yazın. Boşluk kullanmayın!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="527"/>
+        <location filename="../prefadvanced.cpp" line="526"/>
         <source>Here you can add audio filters for %1.</source>
         <translation>Burada %1 için ses süzgeçleri ekleyebilirsiniz.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="558"/>
+        <location filename="../prefadvanced.cpp" line="557"/>
         <source>Network</source>
         <translation>Ağ</translation>
     </message>
@@ -5737,9 +5740,9 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
-        <location filename="../prefadvanced.cpp" line="520"/>
-        <location filename="../prefadvanced.cpp" line="524"/>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Example:</source>
         <translation>Örnek:</translation>
     </message>
@@ -5759,12 +5762,12 @@ Do you want to overwrite?</source>
         <translation>Ayrıntı</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="576"/>
+        <location filename="../prefadvanced.cpp" line="575"/>
         <source>Save SMPlayer log to file</source>
         <translation>Dosyaya SMPlayer günlüğünü kaydet</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="577"/>
+        <location filename="../prefadvanced.cpp" line="576"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>Bu seçeneği işaretlerseniz, SMPlayer günlüğü %1&apos;e kaydedilecektir</translation>
     </message>
@@ -5774,19 +5777,16 @@ Do you want to overwrite?</source>
         <translation>Dosyaya SMPlayer günlüğünü kaydet</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation>Pencere başlığında etiket bilgisi göster</translation>
+        <translation type="obsolete">Pencere başlığında etiket bilgisi göster</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>Bu seçenek etkinleştirilirse, etiket bilgileri pencere başlığında gösterilir.Aksi taktirde sadece dosya adı gösterilir.</translation>
+        <translation type="obsolete">Bu seçenek etkinleştirilirse, etiket bilgileri pencere başlığında gösterilir.Aksi taktirde sadece dosya adı gösterilir.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>Pencere başlığında etiket bilgisi göster</translation>
+        <translation type="obsolete">Pencere başlığında etiket bilgisi göster</translation>
     </message>
 </context>
 <context>
@@ -9035,7 +9035,7 @@ Do you want to overwrite?</source>
         <translation>Oynatma listesi</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="200"/>
+        <location filename="../prefplaylist.cpp" line="208"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Bunu seçerseniz, her dosya açışınızda SMPlayer önce oynatma listesini temizleyecek ve sonra açtığınız dosyayı listeye ekleyecek. Eğer bir DVD, CD veya VCD açarsanız, diskteki tüm başlıklar oynatma listesine eklenecek.</translation>
     </message>
@@ -9065,142 +9065,152 @@ Do you want to overwrite?</source>
         <translation>Peşpeşe dosyalar</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="189"/>
+        <location filename="../prefplaylist.cpp" line="197"/>
         <source>Start playback after loading a playlist</source>
         <translation>Bir oynatma listesi yükledikten sonra oynatmaya başlayın</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="190"/>
+        <location filename="../prefplaylist.cpp" line="198"/>
         <source>Playback will start just after loading a playlist.</source>
         <translation>Oynatma, bir oynatma listesi yüklendikten hemen sonra başlayacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="192"/>
+        <location filename="../prefplaylist.cpp" line="200"/>
         <source>Play next file automatically</source>
         <translation>Sonraki dosyayı otomatik olarak oynat</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="193"/>
+        <location filename="../prefplaylist.cpp" line="201"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
         <translation>Bir dosya sona ulaştığında, sonraki dosya otomatik olarak oynatılacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="195"/>
+        <location filename="../prefplaylist.cpp" line="203"/>
         <source>Ignore playback errors</source>
         <translation>Yeniden oynatma hatalarını yoksay</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="199"/>
+        <location filename="../prefplaylist.cpp" line="207"/>
         <source>Add files to the playlist automatically</source>
         <translation>Dosyaları çalma listesine otomatik olarak ekle</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="205"/>
+        <location filename="../prefplaylist.cpp" line="213"/>
         <source>Add files from folder</source>
         <translation>Klasörden dosya ekle</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="226"/>
+        <location filename="../prefplaylist.cpp" line="234"/>
+        <source>Display title name instead of filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="235"/>
+        <source>The playlist will display the title (if any) instead of the filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="237"/>
         <source>The playlist window is dockable</source>
         <translation>Çalma listesi penceresi kenetlenebilir</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="227"/>
+        <location filename="../prefplaylist.cpp" line="238"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
         <translation>Bu seçenek işaretlenirse, çalma listesi penceresi ana pencerenin içine yerleştirilebilir. Aksi takdirde oynatma listesi normal bir pencere olur.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="230"/>
+        <location filename="../prefplaylist.cpp" line="241"/>
         <source>Misc</source>
         <translation>Çeşitli</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="232"/>
+        <location filename="../prefplaylist.cpp" line="243"/>
         <source>Auto sort</source>
         <translation>Otomatik sıralama</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="233"/>
+        <location filename="../prefplaylist.cpp" line="244"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
         <translation>Bu seçenek etkinleştirilirse, liste dosyalar eklendikten sonra otomatik olarak sıralanacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="235"/>
+        <location filename="../prefplaylist.cpp" line="246"/>
         <source>Case sensitive search</source>
         <translation>Büyük/küçük harfe duyarlı arama</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="236"/>
+        <location filename="../prefplaylist.cpp" line="247"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
         <translation>Bu seçenek, çalma listesindeki aramanın büyük/küçük harfe duyarlı olup olmadığını belirtir.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="238"/>
+        <location filename="../prefplaylist.cpp" line="249"/>
         <source>Save a copy of the playlist on exit</source>
         <translation>Çıkarken çalma listesinin kopyasını kaydet</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="239"/>
+        <location filename="../prefplaylist.cpp" line="250"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
         <translation>Bu seçenek işaretlenirse, SMPlayer kapatıldığında çalma listesinin bir kopyası yapılandırma dosyasına kaydedilir ve SMPlayer tekrar çalıştırıldığında otomatik olarak yeniden yüklenir.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="244"/>
+        <location filename="../prefplaylist.cpp" line="255"/>
         <source>Enable the option to delete files from disk</source>
         <translation>Diskten dosyaları silme seçeneğini etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="245"/>
+        <location filename="../prefplaylist.cpp" line="256"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
         <translation>Bu seçenek, çalma listesinin içerik menüsünde dosyaları diskten silme seçeneğini etkinleştirmenize olanak tanır. Kazara silmeleri önlemek için bu seçenek varsayılan olarak devre dışı bırakılmıştır.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="207"/>
+        <location filename="../prefplaylist.cpp" line="215"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;Yok&lt;/b&gt;: dosyalar eklenemedi</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="208"/>
+        <location filename="../prefplaylist.cpp" line="216"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;Video dosyaları&lt;/b&gt;: klasörde bulunan tüm video dosyaları eklenecek</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="209"/>
+        <location filename="../prefplaylist.cpp" line="217"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Ses dosyaları&lt;/b&gt;: klasörde bulunan tüm ses dosyaları eklenecek</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="210"/>
+        <location filename="../prefplaylist.cpp" line="218"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Video ve ses dosyaları&lt;/b&gt;:klasörde bulunan tüm video ve ses dosyaları eklenecek</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="211"/>
+        <location filename="../prefplaylist.cpp" line="219"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;Peşpeşe dosyalar&lt;/b&gt;: peşpeşe dosyalar (video_1.avi, video_2.avi gibi) eklenecek</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="184"/>
+        <location filename="../prefplaylist.cpp" line="192"/>
         <source>Play files from start</source>
         <translation>Dosyaları baştan oynat</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="185"/>
+        <location filename="../prefplaylist.cpp" line="193"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>Bu seçenek etkinleştirilirse, oynatma listesindeki tüm dosyalar önceki bir oynatmadan devam etmek yerine baştan oynatılmaya başlayacaktır.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="206"/>
+        <location filename="../prefplaylist.cpp" line="214"/>
         <source>This option can be used to add files automatically to the playlist:</source>
         <translation>Bu seçenek  çalma listesine otomatik olarak dosya eklemek için kullanılabilir:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="219"/>
+        <location filename="../prefplaylist.cpp" line="227"/>
         <source>Get info automatically about files added</source>
         <translation>Eklenen dosyaların bilgisini otomatik al</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="196"/>
+        <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>Bu seçenek etkinleştirilirse, çalma listesi önceki dosyadaki çalma hatalarını yoksayacak ve listedeki bir sonraki dosyayı yürütecek.</translation>
     </message>
@@ -9210,17 +9220,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Oynatma listesi</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="214"/>
+        <location filename="../prefplaylist.cpp" line="222"/>
         <source>Add files in directories recursively</source>
         <translation>Dizinlerdeki dosyaları özyinelemeli olarak ekle</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="215"/>
+        <location filename="../prefplaylist.cpp" line="223"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Bir dizin eklemenin dosyaları alt dizinlere de özyinelemeli olarak eklemesini istiyorsanız bu seçeneği işaretleyin. Aksi takdirde, yalnızca seçilen dizindeki dosyalar eklenecektir.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="220"/>
+        <location filename="../prefplaylist.cpp" line="228"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Bazı bilgiler için çalma listesine eklenecek dosyaları sorgulamak için bu seçeneği işaretleyin. Bu, dosyaların başlık adını (varsa) ve uzunluğunu göstermeye izin verir. Aksi takdirde, dosya gerçekten oynatılana kadar bu bilgi kullanılamayacaktır. Dikkat: Bu seçenek özellikle çok sayıda dosya eklerseniz yavaş olabilir.</translation>
     </message>
@@ -9276,31 +9286,36 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
+        <source>Display title name instead of &amp;filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="164"/>
         <source>The playlist window is &amp;dockable</source>
         <translation>Çalma listesi penceresi &amp;kenetlenebilir</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="178"/>
+        <location filename="../prefplaylist.ui" line="185"/>
         <source>&amp;Misc</source>
         <translation>&amp;Çeşitli</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="184"/>
+        <location filename="../prefplaylist.ui" line="191"/>
         <source>A&amp;uto sort</source>
         <translation>O&amp;tomatik sıralama</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="191"/>
+        <location filename="../prefplaylist.ui" line="198"/>
         <source>Cas&amp;e sensitive search</source>
         <translation>Bü&amp;yük/küçük harfe duyarlı arama</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="198"/>
+        <location filename="../prefplaylist.ui" line="205"/>
         <source>&amp;Save a copy of the playlist on exit</source>
         <translation>Çıkarken çalma listesinin kopyasını &amp;kaydet</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="205"/>
+        <location filename="../prefplaylist.ui" line="212"/>
         <source>Enable the option to delete files from &amp;disk</source>
         <translation>&amp;Diskten dosyaları silme seçeneğini etkinleştir</translation>
     </message>

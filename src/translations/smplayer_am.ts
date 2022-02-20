@@ -24,10 +24,6 @@
         <translation>ዋናው ድህረ ገጽ:</translation>
     </message>
     <message>
-        <source>Support forum:</source>
-        <translation type="obsolete">የ ድጋፍ መድረከ:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>የ SMP ማጫወቻ ንድፍ ገጽታ ለ %1.</translation>
@@ -554,8 +550,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2102"/>
-        <location filename="../basegui.cpp" line="3614"/>
-        <location filename="../basegui.cpp" line="3628"/>
+        <location filename="../basegui.cpp" line="3616"/>
+        <location filename="../basegui.cpp" line="3630"/>
         <source>&amp;None</source>
         <translation>&amp;ምንም</translation>
     </message>
@@ -766,43 +762,43 @@ Do you want to overwrite?</source>
         <translation>ስለ SMP ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3651"/>
-        <location filename="../basegui.cpp" line="3667"/>
-        <location filename="../basegui.cpp" line="3683"/>
-        <location filename="../basegui.cpp" line="3698"/>
-        <location filename="../basegui.cpp" line="3732"/>
-        <location filename="../basegui.cpp" line="3752"/>
-        <location filename="../basegui.cpp" line="3828"/>
+        <location filename="../basegui.cpp" line="3653"/>
+        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3685"/>
+        <location filename="../basegui.cpp" line="3700"/>
+        <location filename="../basegui.cpp" line="3734"/>
+        <location filename="../basegui.cpp" line="3754"/>
+        <location filename="../basegui.cpp" line="3830"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ባዶ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4294"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4293"/>
-        <location filename="../basegui.cpp" line="4543"/>
+        <location filename="../basegui.cpp" line="4295"/>
+        <location filename="../basegui.cpp" line="4545"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4294"/>
+        <location filename="../basegui.cpp" line="4296"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4295"/>
-        <location filename="../basegui.cpp" line="4518"/>
-        <location filename="../basegui.cpp" line="4544"/>
+        <location filename="../basegui.cpp" line="4297"/>
+        <location filename="../basegui.cpp" line="4520"/>
+        <location filename="../basegui.cpp" line="4546"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4290"/>
-        <location filename="../basegui.cpp" line="4515"/>
-        <location filename="../basegui.cpp" line="4541"/>
+        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4517"/>
+        <location filename="../basegui.cpp" line="4543"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
@@ -817,50 +813,50 @@ Do you want to overwrite?</source>
         <translation>&amp;ይለግሱ / ከ ጓደኞቾ ጋር ይጋሩ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4354"/>
+        <location filename="../basegui.cpp" line="4356"/>
         <source>SMPlayer - Information</source>
         <translation>የ SMP መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4355"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ሲዲ ራም / ዲቪዲ አካል ገና አልተዋቀረም
 የ ማዋቀሪያው ንግግር ይታያል እና ከዛ ያሰናዱት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4470"/>
         <source>Select the Blu-ray folder</source>
         <translation>የ ብሉ-ሬይ ፎልደር ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4481"/>
+        <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4517"/>
+        <location filename="../basegui.cpp" line="4519"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5154"/>
-        <location filename="../basegui.cpp" line="5183"/>
+        <location filename="../basegui.cpp" line="5156"/>
+        <location filename="../basegui.cpp" line="5185"/>
         <source>Error detected</source>
         <translation>ስህተት ተግኝቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5184"/>
+        <location filename="../basegui.cpp" line="5186"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>ይህን ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5421"/>
+        <location filename="../basegui.cpp" line="5423"/>
         <source>Pause</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5422"/>
+        <location filename="../basegui.cpp" line="5424"/>
         <source>Stop</source>
         <translation>ማስቆሚያ</translation>
     </message>
@@ -1344,160 +1340,152 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3350"/>
+        <location filename="../basegui.cpp" line="3352"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
         <translation>የ SMPlayer እንደገና ማስጀምር ያስፈልጋል ምርጫዎቹን ለ መፈጸም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4628"/>
+        <location filename="../basegui.cpp" line="4630"/>
         <source>Support SMPlayer</source>
         <translation>ይደግፉ SMPlayer</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">ይለግሱ</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">አይ</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4634"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer እርስዎን ይፈልጋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4635"/>
+        <location filename="../basegui.cpp" line="4637"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer ነፃ ሶፍትዌር ነው: ነገር ግን ማበልጸጉ ብዙ ስራ እና ጊዜ ይወስዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
+        <location filename="../basegui.cpp" line="4638"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>የ SMPlayer ለማበልጸግ በ አዲስ ገጽታ እኛ የ እርስዎን እርዳታ እንፈልጋለን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4637"/>
+        <location filename="../basegui.cpp" line="4639"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>እባክዎን ለ SMPlayer እቅድ የሚችሉትን ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4640"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>በጣም ትንሹ እንኳን ብዙ ይረዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5155"/>
+        <location filename="../basegui.cpp" line="5157"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5156"/>
+        <location filename="../basegui.cpp" line="5158"/>
         <source>You&apos;ll probably need to install %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5158"/>
+        <location filename="../basegui.cpp" line="5160"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
-        <location filename="../basegui.cpp" line="6201"/>
+        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6203"/>
         <source>More info in the log.</source>
         <translation>ተጨማሪ መረጃ በ መግቢያ ላይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6154"/>
-        <location filename="../basegui.cpp" line="6207"/>
+        <location filename="../basegui.cpp" line="6156"/>
+        <location filename="../basegui.cpp" line="6209"/>
         <source>%1 Error</source>
         <translation>%1 ስህተት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6148"/>
-        <location filename="../basegui.cpp" line="6155"/>
+        <location filename="../basegui.cpp" line="6150"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ጨርሷል በ ድንገት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished">በ PayPal ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4631"/>
+        <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6180"/>
+        <location filename="../basegui.cpp" line="6182"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6181"/>
+        <location filename="../basegui.cpp" line="6183"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>መግጠም የ Microsoft Visual C++ 2010 ስርጭት ጥቅል (x86) ችግሩን ያስወግደዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6183"/>
+        <location filename="../basegui.cpp" line="6185"/>
         <source>Click here to get it</source>
         <translation>ለማግኘት እዚህ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6201"/>
-        <location filename="../basegui.cpp" line="6209"/>
+        <location filename="../basegui.cpp" line="6203"/>
+        <location filename="../basegui.cpp" line="6211"/>
         <source>%1 failed to start.</source>
         <translation>%1 ማስጀመር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6210"/>
+        <location filename="../basegui.cpp" line="6212"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>እባክዎን ይመርምሩ %1 መንገዱን ከ ምርጫዎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6212"/>
+        <location filename="../basegui.cpp" line="6214"/>
         <source>%1 has crashed.</source>
         <translation>%1 ተጋጭቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6307"/>
+        <location filename="../basegui.cpp" line="6309"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>የ ዩቲዩብ መቃኛ አልተገጠመም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6308"/>
-        <location filename="../basegui.cpp" line="6320"/>
+        <location filename="../basegui.cpp" line="6310"/>
+        <location filename="../basegui.cpp" line="6322"/>
         <source>Visit %1 to get it.</source>
         <translation>ይጎብኙ %1 ለማግኘት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6318"/>
+        <location filename="../basegui.cpp" line="6320"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>የ ዩቲዩብ መቃኛ ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6319"/>
+        <location filename="../basegui.cpp" line="6321"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>በ ትክክል መገጠሙን እርግጠኛ ይሁኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6486"/>
+        <location filename="../basegui.cpp" line="6488"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>ስርአቱ ወደ ታብሌት ዘዴ ተቀይሯል: SMPlayer ወደ ታብሌት ዘዴ ይቀየር?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6488"/>
+        <location filename="../basegui.cpp" line="6490"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>ስርአቱ ከ ታብሌት ዘዴ ወጥቷል: SMPlayer ከ ታብሌት ዘዴ ውስጥ ይውጣ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6492"/>
+        <location filename="../basegui.cpp" line="6494"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>የ እኔን ውሳኔ አስታውስ እና እንደገና አትጠይቀኝ</translation>
     </message>
@@ -1507,23 +1495,23 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ SMPlayer ከ ጓደኞቹ ጋር ይ&amp;ካፈሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3349"/>
-        <location filename="../basegui.cpp" line="4085"/>
+        <location filename="../basegui.cpp" line="3351"/>
+        <location filename="../basegui.cpp" line="4087"/>
         <source>Information</source>
         <translation>መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3840"/>
+        <location filename="../basegui.cpp" line="3842"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>የ SMP ማጫወቻ - ማጥፊያ ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3841"/>
+        <location filename="../basegui.cpp" line="3843"/>
         <source>Delete the list of recent files?</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች ዝርዝር ላጥፋ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4086"/>
+        <location filename="../basegui.cpp" line="4088"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>የ አሁኑን ዋጋዎች እንደ ነባር ዋጋዎች ተቀምጠዋል</translation>
     </message>
@@ -1613,7 +1601,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ &amp;ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4563"/>
+        <location filename="../basegui.cpp" line="4565"/>
         <source>SMPlayer command line options</source>
         <translation>የ SMP ማጫወቻ ትእዛዝ መስመር ምርጫ</translation>
     </message>
@@ -1628,17 +1616,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ቪዲዮ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5185"/>
+        <location filename="../basegui.cpp" line="5187"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>ሰርቨሩ መልሷል &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6156"/>
+        <location filename="../basegui.cpp" line="6158"/>
         <source>Exit code: %1</source>
         <translation>መውጫ ከ code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6213"/>
+        <location filename="../basegui.cpp" line="6215"/>
         <source>See the log for more info.</source>
         <translation>ለ በለጠ መረጃ መግቢያውን ይመልከቱ</translation>
     </message>
@@ -1683,7 +1671,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ አገባብ ዝርዝር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4291"/>
+        <location filename="../basegui.cpp" line="4293"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
@@ -1761,22 +1749,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5038"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>Warning - Using old MPlayer</source>
         <translation>ማስጠንቀቂያ - አሮጌ SMP ማጫወቻ ስለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>ይህ እትም የ MPlayer (%1) የ ተገጠመው በ እርስዎ ስርአት ውስጥ ጊዜው ያለፈበት ነው: የ SMPlayer በ ትክክል ላይሰራ ይችላል: እንዳንድ ምርጫዎች ላይሰሩ ይችላሉ: ንዑስ አርእስት ምርጫ ላይሰራ ይችላል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5044"/>
+        <location filename="../basegui.cpp" line="5046"/>
         <source>Please, update your MPlayer.</source>
         <translation>እባክዎን የ SMP ማጫወቻ ያሻሽሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5046"/>
+        <location filename="../basegui.cpp" line="5048"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(ይህ ማስጠንቀቂያ ሁለተኛ አይታይም)</translation>
     </message>
@@ -1866,26 +1854,26 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ማሰና&amp;ጃ ማዘግያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4702"/>
-        <location filename="../basegui.cpp" line="4706"/>
+        <location filename="../basegui.cpp" line="4704"/>
+        <location filename="../basegui.cpp" line="4708"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMP ማጫወቻ - ድምፅ ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4703"/>
-        <location filename="../basegui.cpp" line="4707"/>
+        <location filename="../basegui.cpp" line="4705"/>
+        <location filename="../basegui.cpp" line="4709"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>ድምፅ ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4718"/>
-        <location filename="../basegui.cpp" line="4722"/>
+        <location filename="../basegui.cpp" line="4720"/>
+        <location filename="../basegui.cpp" line="4724"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMP ማጫወቻ - ንዑስ አርእስት ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4719"/>
-        <location filename="../basegui.cpp" line="4723"/>
+        <location filename="../basegui.cpp" line="4721"/>
+        <location filename="../basegui.cpp" line="4725"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ንዑስ አርእስት ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
@@ -1895,8 +1883,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መቀያየሪያ ከ ላይ ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5647"/>
-        <location filename="../basegui.cpp" line="5995"/>
+        <location filename="../basegui.cpp" line="5649"/>
+        <location filename="../basegui.cpp" line="5997"/>
         <source>Jump to %1</source>
         <translation>መዝለያ ወደ %1</translation>
     </message>
@@ -5354,7 +5342,7 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ረቀቀ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="569"/>
+        <location filename="../prefadvanced.cpp" line="568"/>
         <source>Log SMPlayer output</source>
         <translation>መግቢያ ወደ SMPlayer ውጤት</translation>
     </message>
@@ -5364,7 +5352,7 @@ Do you want to overwrite?</source>
         <translation>ይህ ምርጫ የ ተሰናዳው በ ተለይ የ መተግበሪያ ችግሮችን ፈልጎ ግሮቹን ለ መፍታት ነው</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="600"/>
+        <location filename="../prefadvanced.cpp" line="599"/>
         <source>Filter for SMPlayer logs</source>
         <translation>ማጣሪያ ለ SMPlayer መግቢያ</translation>
     </message>
@@ -5381,6 +5369,11 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="238"/>
+        <source>Display the name o&amp;f the media in the window title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5419,7 +5412,7 @@ Do you want to overwrite?</source>
         <translation>መ&amp;ቀየሪያ...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="566"/>
+        <location filename="../prefadvanced.cpp" line="565"/>
         <source>Logs</source>
         <translation>መግቢያ</translation>
     </message>
@@ -5444,7 +5437,7 @@ Do you want to overwrite?</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የ avf demuxer አቀራረብ ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="546"/>
+        <location filename="../prefadvanced.cpp" line="545"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
         <translation>ይህ ምርጫ ያስፈልጋል ለ ማጫወት የ ማጫወቻ ዝርዝር ፋይሎች  (m3u, pls...). ነገር ግን የ ድህንነት አደጋ ሊያመጣ ይችላል ከ ኢንተርኔት ምንጮች:ምክንያቱም የ MPlayer የሚተነትነው እና የሚጠቀመው የ ማጫወቻ ዝርዝር ፋይሎች ለ ደህንነት አስተማማኝ አይደለም </translation>
     </message>
@@ -5454,27 +5447,27 @@ Do you want to overwrite?</source>
         <translation>መጠን: ይህ ተግባር የሚፈጸመው ፋይሉ ሲመረጥ እና ሲከፈት ብቻ ነው: እና %1 ሂደቱ እንደገና ሲጀምር አይደለም: (ለምሳሌ: እርስዎ ደምፅ ወይንም ቪዲዮ ማጣሪያ በሚመርጡ ጊዜ).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="509"/>
+        <location filename="../prefadvanced.cpp" line="508"/>
         <source>Colorkey</source>
         <translation>የ ቀለም ቁልፍ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="509"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>ለ እርስዎ የ ቪዲዮው አካል የሚታይ ከሆነ በሌላ መስኮት ውስጥ: እርስዎ መቀየር ይችላሉ የ ቀለም ቁልፍ ለ መጠገን: እርስዎ ይምረጡ ለ ጥቁር ቀለም የሚቀርበውን</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="517"/>
         <source>Options</source>
         <translation>ምርጫዎች</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Video filters</source>
         <translation>ቪዲዮ ማጣሪያዎች</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="525"/>
         <source>Audio filters</source>
         <translation>ድምፅ ማጣሪያዎች</translation>
     </message>
@@ -5489,22 +5482,22 @@ Do you want to overwrite?</source>
         <translation>የ ቪዲዮ መስኮት መደብ ቀለም እንደገና መቀቢያ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="560"/>
+        <location filename="../prefadvanced.cpp" line="559"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="560"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>የ IPv4 ኔትዎርክ ግንኙነት: ወደ ኋላ መውደቂያ በ IPv6 ራሱ በራሱ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="563"/>
+        <location filename="../prefadvanced.cpp" line="562"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="564"/>
+        <location filename="../prefadvanced.cpp" line="563"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>የ IPv4 ኔትዎርክ ግንኙነት: ወደ ኋላ መውደቂያ በ IPv6 ራሱ በራሱ</translation>
     </message>
@@ -5539,42 +5532,42 @@ Do you want to overwrite?</source>
         <translation>አስፈላጊ ከሆነ ማውጫ እንደገና ይገንቡ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="570"/>
+        <location filename="../prefadvanced.cpp" line="569"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት: የ SMPlayer ያጠራቅማል መልእክቶችን: የ SMPlayer ውጤቶችን: (እርስዎ መመልከት ይችላሉ መግቢያውን በ &lt;b&gt;ምርጫዎች -&gt; መግቢያ መመልከቻ -&gt; SMPlayer&lt;/b&gt;). ይህ መረጃ በጣም ጠቃሚ ነው ለ አበልጻጊዎች እርስዎ ችግር ካገጠምዎ </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="582"/>
+        <location filename="../prefadvanced.cpp" line="581"/>
         <source>Log %1 output</source>
         <translation>የ መግቢያ %1 ውጤት</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="583"/>
+        <location filename="../prefadvanced.cpp" line="582"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት የ SMPlayer ውጠቱን ያጠራቅማል በ %1 (እርስዎ መመለከት ይችላሉ በ &lt;b&gt;ምርጫዎች -&gt; መግቢያ መመልከቻ -&gt; %1&lt;/b&gt;). ችግር በሚፈጠር ጊዜ: መግቢያ አስፈላጊ መረጃዎችን ይይዛል: ስለዚህ ይህን ምርጫ ምልክት እንዲያደርጉ እንመክራለ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="588"/>
+        <location filename="../prefadvanced.cpp" line="587"/>
         <source>Autosave %1 log</source>
         <translation>በራሱ ማስቀመጫ %1 መግቢያ </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="589"/>
+        <location filename="../prefadvanced.cpp" line="588"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገበት: የ %1 መግቢያ በ ተወሰነ ቦታ ይቀመጣል: ሁል ጊዜ አዲስ ፋይል በሚጀምር ጊዜ: ይህ የ ተሰናዳው ለ ውስጥ መተግበሪያዎች ነው: ስለዚህ መረጃ ያገኛሉ: እርስዎ ስለሚያጫውቱት ፋይል</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="594"/>
+        <location filename="../prefadvanced.cpp" line="593"/>
         <source>Autosave %1 log filename</source>
         <translation>በራሱ ማስቀመጫ %1 የ መግቢያ ፋይል ስም</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="595"/>
+        <location filename="../prefadvanced.cpp" line="594"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
         <translation>ለ ፋይል ስም መንገድ እዚህ ያስገቡ ለ ማስቀመጥ የሚጠቀሙበት %1 መግቢያ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="601"/>
+        <location filename="../prefadvanced.cpp" line="600"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>ይህ ምርጫ እርስዎን ማጣራት ነው የሚያስችለው የ SMPlayer መልእክቶች የሚቀመጡትን በ መግቢያ ውስጥ: እዚህ እርስዎ መጻፍ ይችላሉ ማንኛውንም መደበኛ መግለጫ &lt;br&gt;ለ ሁኔታዎ: &lt;i&gt;^Core::.*&lt;/i&gt; የሚያሳየው መስመር ብቻ ነው የሚጀምር በ  &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -5594,7 +5587,7 @@ Do you want to overwrite?</source>
         <translation>&amp;ማለፊያ አጭር የ ፋይል ስሞች (8+3) ወደ %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="520"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by spaces.</source>
         <translation>ይጻፉ በ ክፍተት ለያይተው</translation>
     </message>
@@ -5639,37 +5632,47 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="503"/>
+        <source>Display the name of the media in the window title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="504"/>
+        <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="529"/>
         <source>Run %1 in its own window</source>
         <translation>ማስኬጃ %1 በራሱ መስኮት ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="530"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
         <translation>እዚህ ምርጫ ላይ ምልክት ካደረጉ የ %1 ቪዲዮ መስኮት አይጣበቅም በ  SMPlayer&apos;s ዋና መስኮት ላይ ነገር ግን የ ራሱን መስኮት ይጠቀማል: ማስታወሻ: የ አይጥ መጠቆሚያ እና የ ፊደል ገበታ ሁኔታዎች የሚያዙት በ  %1, ይህ ማለት አቋራጭ ቁልፎች እና በ አይጥ ሲጫኑ በ ትክክል ላይሰሩ ይችላሉ: ይህ  %1 መስኮት ትኩረት ሲኖረው:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="539"/>
+        <location filename="../prefadvanced.cpp" line="538"/>
         <source>Notify %1 crashes</source>
         <translation>አስታውቀኝ %1 ሲጋጭ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="540"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
         <translation>ምርጫው ምልክት ከ ተደረገበት: ብቅ ባይ መስኮት ይታያል ለማሳወቅ ስለ:  %1 ግጭቱ: ያለ በለዚያ እነዚህን ግጭቶች በ ዝምታ ያልፋቸዋል </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="553"/>
+        <location filename="../prefadvanced.cpp" line="552"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>ማለፊያ አጭር የ ፋይል ስሞች (8+3) ወደ %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="554"/>
+        <location filename="../prefadvanced.cpp" line="553"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: SMPlayer ያልፋል የ %1 አጭር እትም የ ፋይል ስሞች</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="545"/>
+        <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>ማለፊያ ለ %1 ምርጫ ለ MPlayer (ለ ደህንነት አስተማማኝ አይደለም)</translation>
     </message>
@@ -5694,28 +5697,28 @@ Do you want to overwrite?</source>
         <translation>ምርጫ ለ %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can type options for %1.</source>
         <translation>እርስዎ እዚህ ምርጫዎች መጻፍ ይችላሉ ወደ %1.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="522"/>
         <source>Here you can add video filters for %1.</source>
         <translation>እርስዎ እዚህ የ ቪዲዮ ማጣሪያዎች መጨመር ይችላሉ ወደ %1.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>ይጻፉ በ ኮማ ለያይተው: ክፍተት አይጠቀሙ!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="527"/>
+        <location filename="../prefadvanced.cpp" line="526"/>
         <source>Here you can add audio filters for %1.</source>
         <translation>እርስዎ እዚህ ድምፅ ማጣሪያዎች መጨመር ይችላሉ ወደ %1.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="558"/>
+        <location filename="../prefadvanced.cpp" line="557"/>
         <source>Network</source>
         <translation>ኔትዎርክ</translation>
     </message>
@@ -5736,9 +5739,9 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
-        <location filename="../prefadvanced.cpp" line="520"/>
-        <location filename="../prefadvanced.cpp" line="524"/>
-        <location filename="../prefadvanced.cpp" line="528"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Example:</source>
         <translation>ለምሳሌ:</translation>
     </message>
@@ -5758,12 +5761,12 @@ Do you want to overwrite?</source>
         <translation>&amp;Verbose</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="576"/>
+        <location filename="../prefadvanced.cpp" line="575"/>
         <source>Save SMPlayer log to file</source>
         <translation>ማስቀመጫ SMPlayer የ መግቢያ ፋይል</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="577"/>
+        <location filename="../prefadvanced.cpp" line="576"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: SMPlayer መግቢያ ይቀረጻል ወደ %1</translation>
     </message>
@@ -5773,19 +5776,16 @@ Do you want to overwrite?</source>
         <translation>ማስቀ&amp;መጫ SMPlayer የ መግቢያ ፋይል</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="503"/>
         <source>Show tag info in window title</source>
-        <translation>በ መስኮት አርእስት ውስጥ የ tag መረጃ ማሳያ</translation>
+        <translation type="obsolete">በ መስኮት አርእስት ውስጥ የ tag መረጃ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ መረጃ ከ tags መስኮት አርእስት ላይ ይታያል: ያለ በለዚያ የ ፋይል ስም ብቻ ይታያል</translation>
+        <translation type="obsolete">በዚህ ምርጫ ላይ ምልክት ከ ተደረገ መረጃ ከ tags መስኮት አርእስት ላይ ይታያል: ያለ በለዚያ የ ፋይል ስም ብቻ ይታያል</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="238"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>በ መስኮት አርእስት ውስጥ የ tag መረ&amp;ጃ ማሳያ</translation>
+        <translation type="obsolete">በ መስኮት አርእስት ውስጥ የ tag መረ&amp;ጃ ማሳያ</translation>
     </message>
 </context>
 <context>
@@ -9034,7 +9034,7 @@ Do you want to overwrite?</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="200"/>
+        <location filename="../prefplaylist.cpp" line="208"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>ይህን ምርጫ ካስቻሉ: ፋይል በምንኛውም ጊዜ ሲከፈት የ SMPlayer በ መጀመሪያ የ ማጫወቻ ዝርዝር ያጸዳል: እና ከዛ በኋላ ፋይል በ ዲቪዲ: ሲዲ እና VCDs, ይጨምራል: ሁሉንም አርእስቶች ከ ዲስኩ ውስጥ ይጨመራሉ ወደ ማጫወቻ ዝርዝር ውስጥ</translation>
     </message>
@@ -9064,142 +9064,152 @@ Do you want to overwrite?</source>
         <translation>ተከታታይ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="189"/>
+        <location filename="../prefplaylist.cpp" line="197"/>
         <source>Start playback after loading a playlist</source>
         <translation>የ ማጫወቻ ዝርዝር ጭኖ ከ ጨረሰ በኋላ መልሶ ማጫወቻ ማስጀመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="190"/>
+        <location filename="../prefplaylist.cpp" line="198"/>
         <source>Playback will start just after loading a playlist.</source>
         <translation>የ ማጫወቻ ዝርዝር ጭኖ ከ ጨረሰ በኋላ መልሶ ማጫወቻ ይጀምራል</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="192"/>
+        <location filename="../prefplaylist.cpp" line="200"/>
         <source>Play next file automatically</source>
         <translation>የሚቀጥለውን ፋይል ራሱ በራሱ ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="193"/>
+        <location filename="../prefplaylist.cpp" line="201"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
         <translation>ፋይሉ ወደ መጨረሻው ሲደርስ: የሚቀጥለው ፋይል ራሱ በራሱ ይጫወታል</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="195"/>
+        <location filename="../prefplaylist.cpp" line="203"/>
         <source>Ignore playback errors</source>
         <translation>የ መልሶ ማጫወቻ ስህተቶችን መተው</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="199"/>
+        <location filename="../prefplaylist.cpp" line="207"/>
         <source>Add files to the playlist automatically</source>
         <translation>ራሱ በራሱ ፋይሎች ወደ ማጫወቻ ዝርዝር መጨመሪያ </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="205"/>
+        <location filename="../prefplaylist.cpp" line="213"/>
         <source>Add files from folder</source>
         <translation>ከ ፎልደር ውስጥ ፋይሎች መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="226"/>
+        <location filename="../prefplaylist.cpp" line="234"/>
+        <source>Display title name instead of filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="235"/>
+        <source>The playlist will display the title (if any) instead of the filename.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="237"/>
         <source>The playlist window is dockable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="227"/>
+        <location filename="../prefplaylist.cpp" line="238"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="230"/>
+        <location filename="../prefplaylist.cpp" line="241"/>
         <source>Misc</source>
         <translation>የተለያዩ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="232"/>
+        <location filename="../prefplaylist.cpp" line="243"/>
         <source>Auto sort</source>
         <translation>በራሱ መለያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="233"/>
+        <location filename="../prefplaylist.cpp" line="244"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
         <translation>ይህን ምርጫ ካስቻሉ ዝርዝሩ ራሱ በራሱ ይለያል ፋይሎች ከ ጨመሩ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="235"/>
+        <location filename="../prefplaylist.cpp" line="246"/>
         <source>Case sensitive search</source>
         <translation>Case sensitive መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="236"/>
+        <location filename="../prefplaylist.cpp" line="247"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
         <translation>ይህ ምርጫ የሚገልጸው የ ማጫወቻ ዝርዝር መፈለጊያ case sensitive መሆኑን ወይንም አለ መሆኑን ነው</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="238"/>
+        <location filename="../prefplaylist.cpp" line="249"/>
         <source>Save a copy of the playlist on exit</source>
         <translation>የ ማጫወቻ ዝርዝር ማስቀመጫ በሚወጣ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="239"/>
+        <location filename="../prefplaylist.cpp" line="250"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የ ማጫወቻ ዝርዝር ኮፒ ይቀመጣል በ ማዋቀሪያ ፋይል ውስጥ: SMPlayer ሲዘጋ እና እንደገና ይጫናል ራሱ በራሱ SMPlayer በሚጀምር ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="244"/>
+        <location filename="../prefplaylist.cpp" line="255"/>
         <source>Enable the option to delete files from disk</source>
         <translation>ከ ዲስክ ላይ ፋይሎች ማጥፊያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="245"/>
+        <location filename="../prefplaylist.cpp" line="256"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
         <translation>ይህ ምርጫ እርስዎ የሚያስችለው ምርጫ ለ ማጥፋት ነው: ከ ማጫወቻ አገባብ ዝርዝር ውስጥ ፋይል ማጥፋት ነው:  ከ ድንገተኛ ማጥፋት ለ መጠበቅ ይህን ምርጫ በ ነባር ተሰናክሏል</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="207"/>
+        <location filename="../prefplaylist.cpp" line="215"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;ምንም&lt;/b&gt;: ምንም ፋይል አልተጨመረም</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="208"/>
+        <location filename="../prefplaylist.cpp" line="216"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;የ ቪዲዮ ፋይሎች&lt;/b&gt;: ሁሉም የ ቪዲዮ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="209"/>
+        <location filename="../prefplaylist.cpp" line="217"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;የ ድምፅ ፋይሎች&lt;/b&gt;: ሁሉም የ ድምፅ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="210"/>
+        <location filename="../prefplaylist.cpp" line="218"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;የ ቪዲዮ እና የ ድምፅ ፋይሎች&lt;/b&gt;: ሁሉም የ ቪዲዮ እና የ ድምፅ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="211"/>
+        <location filename="../prefplaylist.cpp" line="219"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;ተከታታይ ፋይሎች&lt;/b&gt;: ተከታታይ ፋይሎች (እንደ ቪዲዮ_1.avi, ቪዲዮ_2.avi) ይጨመራል</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="184"/>
+        <location filename="../prefplaylist.cpp" line="192"/>
         <source>Play files from start</source>
         <translation>ፋይሎች ከ መጀመሪያው ጀምሮ ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="185"/>
+        <location filename="../prefplaylist.cpp" line="193"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>ይህን ምርጫ ካስቻሉ: ሁሉም ፋይሎች ከ ማጫወቻ ዝርዝር ውስጥ መጫወት ይጀምራሉ: ከ መጀመሪያው ጀምሮ መጀመሪያ ቆሞ ከ ነበረበት ቦታ ይልቅ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="206"/>
+        <location filename="../prefplaylist.cpp" line="214"/>
         <source>This option can be used to add files automatically to the playlist:</source>
         <translation>ይህን ምርጫ መጠቀም ይችላሉ ፋይሎች ራሱ በራሱ እንዲጨምር ወደ ማጫወቻው ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="219"/>
+        <location filename="../prefplaylist.cpp" line="227"/>
         <source>Get info automatically about files added</source>
         <translation>ስለ ተጫኑት ፋይሎች ራሱ በራሱ መረጃ ፈልጎ ማግኛ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="196"/>
+        <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>ይህን ምርጫ ካስቻሉ: የ ማጫወቻ ዝርዝር ይተወዋል የ ማጫወቻ ዝርዝሩን ስህተት ያለፈውን ፋይል እና የሚቀጥለውን ፋይል ያጫውታል  ከ ዝርዝር ውስጥ</translation>
     </message>
@@ -9209,17 +9219,17 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="214"/>
+        <location filename="../prefplaylist.cpp" line="222"/>
         <source>Add files in directories recursively</source>
         <translation>ፋይሎች በ ተከታታይ ወደ ዳይሬክቶሪ ውስጥ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="215"/>
+        <location filename="../prefplaylist.cpp" line="223"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>እዚህ ምርጫ ላይ ምልክት ያድርጉ እርስዎ ዳይሬክቶሪ መጨመር ከ ፈለጉ እንዲሁም ፋይሎች ይጨምራል በ ንዑስ ዳይሬክቶሪዎች ውስጥ: ያለ በለዚያ የ ተመረጠው ፋይል በ ዳይሬክቶሪ ውስጥ ብቻ ይጨመራል</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="220"/>
+        <location filename="../prefplaylist.cpp" line="228"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>እዚህ ምርጫ ላይ ምልክት ያድርጉ ለ መጠየቅ ፋይሎች እንዲጨመሩ ወደ ማጫወቻ ዝርዝር ውስጥ ለ አንዳንድ መረጃ: ይህ የሚያስችለው የ አርእስት ስም ለማሳየት ነው: (ዝግጁ ከሆነ) እና የ ፋይሎችን እርዝመት: ያለ በለዚያ ይህ መረጃ ዝግጁ አይሆንም ፋይሉ እስከሚጫወት ድረስ: ይጠንቀቁ ይህ ምርጫ ዝግተኛ ሊሆን ይችላል: በ ተለይ የሚጨመረው ፋይል በርካታ ከሆነ</translation>
     </message>
@@ -9275,31 +9285,36 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
+        <source>Display title name instead of &amp;filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="164"/>
         <source>The playlist window is &amp;dockable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="178"/>
+        <location filename="../prefplaylist.ui" line="185"/>
         <source>&amp;Misc</source>
         <translation>&amp;የተለያዩ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="184"/>
+        <location filename="../prefplaylist.ui" line="191"/>
         <source>A&amp;uto sort</source>
         <translation>በ&amp;ራሱ መለያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="191"/>
+        <location filename="../prefplaylist.ui" line="198"/>
         <source>Cas&amp;e sensitive search</source>
         <translation>Cas&amp;e sensitive መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="198"/>
+        <location filename="../prefplaylist.ui" line="205"/>
         <source>&amp;Save a copy of the playlist on exit</source>
         <translation>የ ማጫወቻ ዝርዝር &amp;ማስቀመጫ እና መውጫ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="205"/>
+        <location filename="../prefplaylist.ui" line="212"/>
         <source>Enable the option to delete files from &amp;disk</source>
         <translation>ከ ዲስክ ላይ ፋይሎች &amp;ማጥፊያ ማስቻያ</translation>
     </message>
