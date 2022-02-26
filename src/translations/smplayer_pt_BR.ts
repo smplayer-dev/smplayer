@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -3213,7 +3211,7 @@ Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -5375,7 +5373,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xibir o nome da mídia no título da janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5635,12 +5633,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir o nome da mídia no título da janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao habilitar essa opção, o título que consta nas etiquetas de informação será exibido no título da janela ao invés do nome do arquivo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -5775,18 +5773,6 @@ Deseja substituí-lo?</translation>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>Guar&amp;dar registo do SMPlayer para arquivo</translation>
-    </message>
-    <message>
-        <source>Show tag info in window title</source>
-        <translation type="obsolete">Mostrar tag de informação na barra de título da janela</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="obsolete">Se esta opção for ativada, as informações de tags serão mostradas no título da janela. Caso contrário, apenas o nome do arquivo será mostrado.</translation>
-    </message>
-    <message>
-        <source>Show tag in&amp;fo in window title</source>
-        <translation type="obsolete">Mostrar etiqueta de in&amp;formação na barra de título da janela</translation>
     </message>
 </context>
 <context>
@@ -9102,12 +9088,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir o nome do título ao invés do nome do arquivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lista de reprodução exibirá o título (se houver) ao invés do nome do arquivo.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9287,7 +9273,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xibir o nome do título ao invés do nome do arquivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -10142,19 +10128,13 @@ Deseja substituí-lo?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="es">
 <context>
     <name>About</name>
     <message>
@@ -3213,7 +3211,7 @@ Ejemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el archivo descargado
@@ -5630,7 +5628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation>Establece la posición donde se mostrará la barra de visualización en pantalla: 0 es arriba y 100 abajo.</translation>
+        <translation>Configura la posición donde se mostrará la barra de visualización en pantalla: 0 es arriba y 100 abajo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
@@ -5640,7 +5638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation>Si se activa esta opción se mostrará el nombre, sacado de las etiquetas de información, en el título de la ventana en lugar del nombre del fichero.</translation>
+        <translation>Si se activa esta opción, en el título de la ventana se mostrará el nombre que contienen las etiquetas de información en vez del nombre del archivo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -5775,18 +5773,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="624"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>G&amp;uardar el registro de SMPlayer en un archivo</translation>
-    </message>
-    <message>
-        <source>Show tag info in window title</source>
-        <translation type="obsolete">Mostrar la información de la etiqueta en el título de la ventana</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="obsolete">Si se activa esta opción, se mostrará el nombre que proporcionan las etiquetas del archivo en el título de la ventana. En caso contrario, se mostrará el nombre del archivo.</translation>
-    </message>
-    <message>
-        <source>Show tag in&amp;fo in window title</source>
-        <translation type="obsolete">Mostrar la &amp;información de la etiqueta en el título de la ventana</translation>
     </message>
 </context>
 <context>
@@ -6250,7 +6236,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1297"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Marque esta opción para usar el mezclador por software, en lugar del mezclador de la tarjeta de sonido.</translation>
+        <translation>Marque esta opción para usar el mezclador por software, en vez del mezclador de la tarjeta de sonido.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1178"/>
@@ -6445,7 +6431,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Establece el nivel máximo de amplificación en porcentaje (por defecto: 110). Un valor de 200 le permitirá ajustar el volumen hasta un máximo del doble del nivel actual. Con valores inferiores a 100, el volumen inicial (que es del 100%) estará por encima del máximo, por lo que, por ejemplo, la visualización en pantalla no se mostrará correctamente.</translation>
+        <translation>Configura el nivel máximo de amplificación en porcentaje (por defecto: 110). Un valor de 200 le permitirá ajustar el volumen hasta un máximo del doble del nivel actual. Con valores inferiores a 100, el volumen inicial (que es del 100%) estará por encima del máximo, por lo que, por ejemplo, la visualización en pantalla no se mostrará correctamente.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1176"/>
@@ -6671,7 +6657,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Esta opción establece la ampliación predeterminada que se usará para los vídeos nuevos.</translation>
+        <translation>Esta opción configura la ampliación predeterminada que se usará para los vídeos nuevos.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -7999,7 +7985,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation>Establece el tiempo (en milisegundos) que debe pasar para que el control se oculte tras alejar el ratón del control.</translation>
+        <translation>Configura el tiempo (en milisegundos) que debe pasar para que el control se oculte tras alejar el ratón del control.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="884"/>
@@ -8030,7 +8016,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Establece el método que se usará al hacer una búsqueda con el control deslizante. La búsqueda absoluta puede ser un poco más exacta, pero la búsqueda relativa puede funcionar mejor con archivos con una duración errónea.</translation>
+        <translation>Configura el método que se usará al hacer una búsqueda con el control deslizante. La búsqueda absoluta puede ser un poco más exacta, pero la búsqueda relativa puede funcionar mejor con archivos con una duración errónea.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
@@ -8100,7 +8086,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Esta opción establece el número de píxeles que el control flotante quedará separado del borde inferior de la pantalla. Es útil cuando la pantalla es un televisor, ya que el sobreescaneo puede impedir que el control sea visible totalmente.</translation>
+        <translation>Esta opción configura el número de píxeles que el control flotante quedará separado del borde inferior de la pantalla. Es útil cuando la pantalla es un televisor, ya que el sobreescaneo puede impedir que el control sea visible totalmente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8477,7 +8463,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation>Establecer el agente de usuario que usará SMPlayer al conectarse a YouTube.</translation>
+        <translation>Configurar el agente de usuario que usará SMPlayer al conectarse a YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="385"/>
@@ -8547,7 +8533,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="413"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation>Esta opción establece la posición de los subtítulos en la pantalla.</translation>
+        <translation>Esta opción configura la posición de los subtítulos en la pantalla.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="414"/>
@@ -8874,7 +8860,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Establece la prioridad del proceso de %1 según las prioridades predefinidas disponibles en Windows.&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; el uso de la prioridad de tiempo real puede causar el bloqueo del sistema.</translation>
+        <translation>Configura la prioridad del proceso de %1 según las prioridades predefinidas disponibles en Windows.&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; el uso de la prioridad de tiempo real puede causar el bloqueo del sistema.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -8884,7 +8870,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation>Establece la API para la decodificación por hardware. Si no se puede realizar la decodificación por hardware se usará la decodificación por software.</translation>
+        <translation>Configura la API para la decodificación por hardware. Si no se puede realizar la decodificación por hardware se usará la decodificación por software.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
@@ -9004,7 +8990,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>Establece el número de hilos que se usarán en la decodificación. Solo para MPEG-1/2 y H.264</translation>
+        <translation>Configura el número de hilos que se usarán en la decodificación. Solo para MPEG-1/2 y H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
@@ -9102,12 +9088,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation>Mostrar el título en lugar del nombre del fichero</translation>
+        <translation>Mostrar el título en vez del nombre del archivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation>Se mostrará el título (si lo hay) en vez del nombre del fichero.</translation>
+        <translation>Se mostrará el título (si lo hay) en vez del nombre del archivo.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9287,7 +9273,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation>Mostrar el título en lugar del nombre del f&amp;ichero</translation>
+        <translation>Mostrar el título en vez del nombre del arch&amp;ivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -9762,12 +9748,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation>Si el estilo del borde se establece en &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica el ancho del contorno alrededor del texto en píxeles.</translation>
+        <translation>Si el estilo del borde se configura como &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica el ancho del contorno alrededor del texto en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation>Si el estilo del borde se establece en &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica la profundidad de la sombra tras el texto en píxeles.</translation>
+        <translation>Si el estilo del borde se configura como &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica la profundidad de la sombra tras el texto en píxeles.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
@@ -10143,19 +10129,13 @@ archivo_de_subtítulos</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
@@ -10223,7 +10203,7 @@ archivo_de_subtítulos</translation>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>sets the media title for the first video.</source>
-        <translation>establece el título para el primer vídeo.</translation>
+        <translation>configura el título para el primer vídeo.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
