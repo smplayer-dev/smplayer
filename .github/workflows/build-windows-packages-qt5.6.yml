@@ -118,7 +118,16 @@ jobs:
             cd packages/BUILD/output/
             mv $PACKAGEFILENAME $new_filename
             echo "PACKAGEFILENAME=$new_filename" >> $GITHUB_ENV
-       
+
+      - name: Rename installer
+        if: ${{ matrix.config.portable == false }}
+        shell: bash
+        run: |
+           installer=${{env.PACKAGEFILENAME}}
+           filename=${installer/.exe/-unsigned.exe}
+           mv packages/BUILD/output/$installer packages/BUILD/output/$filename
+           echo "PACKAGEFILENAME=$filename" >> $GITHUB_ENV
+
       - name: Create artifact
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
