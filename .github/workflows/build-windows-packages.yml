@@ -103,10 +103,10 @@ jobs:
         if: ${{ matrix.config.portable == false }}
         shell: bash
         run: |
-           installer=${{env.INSTALLERFILENAME}}
+           installer=${{env.PACKAGEFILENAME}}
            filename=${installer/.exe/-unsigned.exe}
            mv packages/BUILD/output/$installer packages/BUILD/output/$filename
-           echo "INSTALLERFILENAME=$filename" >> $GITHUB_ENV
+           echo "PACKAGEFILENAME=$filename" >> $GITHUB_ENV
 
       - name: Create 7z package
         if: ${{ matrix.config.portable == true }}
