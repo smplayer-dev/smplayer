@@ -1,6 +1,6 @@
 # Changelog
 
-## [22.x] - 2022-xx-xx
+## [22.2] - 2022-02-27
 ### Linux and Mac OS
  * Fix the option to send video to another screen.
  * Fix the option to choose the audio output device.
@@ -9,8 +9,10 @@
 ### Mac OS
  * Fix colors in HDR videos.
  * SMPlayer is now also compatible with Mac OS 10.14 (Mojave).
-### Other fixes
- * The playlist is shuffled after adding files if the shuffle button is on.
+### Other changes
+ * Fix: the playlist is shuffled after adding files if the shuffle button is on.
+ * Possibility to choose whether to show the media title or the filename
+   in the playlist.
 
 ## [21.10] - 2021-10-29
  * The support for YouTube has been improved by using yt-dlp. Fixes
