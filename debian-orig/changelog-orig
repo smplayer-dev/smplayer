@@ -1,3 +1,14 @@
+smplayer (22.2.0) xenial; urgency=medium
+
+  * (Linux and Mac OS) Fix the option to send video to another screen.
+  * (Linux and Mac OS) Fix the option to choose the audio output device.
+  * (Flatpak) Add support for the AV1 codec.
+  * (Mac OS) Fix colors in HDR videos.
+  * Fix: the playlist is shuffled after adding files if the shuffle button is on.
+  * Possibility to choose whether to show the media title or the filename in the playlist.
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 27 Feb 2022 16:07:00 +0100
+
 smplayer (21.10.0) xenial; urgency=medium
 
   * The support for YouTube has been improved by using yt-dlp. Fixes
