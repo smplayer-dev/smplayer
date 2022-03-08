@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: wachii/archlinux:devel-2
+      image: wachii/archlinux:devel
       options: --user user
 
     steps:
@@ -18,7 +18,7 @@ jobs:
             sudo chown user:user ../*
       
       - name: Update
-        run: sudo pacman -Sy
+        run: sudo pacman -Syu --noconfirm
 
       - name: Checkout
         run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk/archlinux
