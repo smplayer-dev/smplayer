@@ -52,6 +52,9 @@ void MPVProcess::initializeOptionVars() {
 	PlayerProcess::initializeOptionVars();
 
 #ifdef OSD_WITH_TIMER
+	#ifdef USE_MPV_STATS
+	stats_page = 0;
+	#endif
 	osd_timer = new QTimer(this);
 	osd_timer->setInterval(500);
 	connect(osd_timer, SIGNAL(timeout()), this, SLOT(displayInfoOnOSD()));
@@ -884,6 +887,20 @@ void MPVProcess::showTimeOnOSD() {
 
 #ifdef OSD_WITH_TIMER
 void MPVProcess::toggleInfoOnOSD() {
+	#ifdef USE_MPV_STATS
+	stats_page++;
+	if (stats_page > 3) stats_page = 0;
+
+	if (stats_page > 0) {
+		if (!osd_timer->isActive()) osd_timer->start();
+		displayInfoOnOSD();
+	} else {
+		osd_timer->stop();
+		showOSDText("", 100, 0);
+	}
+
+	#else
+
 	if (!osd_timer->isActive()) {
 		osd_timer->start();
 		displayInfoOnOSD();
@@ -891,8 +908,15 @@ void MPVProcess::toggleInfoOnOSD() {
 		osd_timer->stop();
 		showOSDText("", 100, 0);
 	}
+	#endif
 }
 
+#ifdef USE_MPV_STATS
+void MPVProcess::displayInfoOnOSD() {
+	sendCommand("script-binding stats/display-page-" + QString::number(stats_page));
+	if (!isRunning()) osd_timer->stop();
+}
+#else
 void MPVProcess::displayInfoOnOSD() {
 	QString b1 = "{\\\\b1}";
 	QString b0 = "{\\\\b0}";
@@ -930,6 +954,7 @@ void MPVProcess::displayInfoOnOSD() {
 
 	if (!isRunning()) osd_timer->stop();
 }
+#endif
 #endif
 
 void MPVProcess::setContrast(int value) {

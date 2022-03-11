@@ -26,6 +26,7 @@
 
 #define OSD_WITH_TIMER
 //#define USE_OLD_VIDEO_EQ
+#define USE_MPV_STATS
 
 #define USE_FILTER_LABELS
 
@@ -281,6 +282,9 @@ private:
 
 #ifdef OSD_WITH_TIMER
 	QTimer * osd_timer;
+	#ifdef USE_MPV_STATS
+	int stats_page;
+	#endif
 #endif
 
 	bool use_osd_in_commands;
