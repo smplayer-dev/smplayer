@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="el">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="el">
 <context>
     <name>About</name>
     <message>
@@ -1375,17 +1377,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5157"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5158"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5160"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6150"/>
@@ -1408,17 +1410,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6182"/>
@@ -2263,12 +2265,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
@@ -2293,7 +2295,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="240"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="241"/>
@@ -2303,7 +2305,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="243"/>
@@ -3211,7 +3213,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Δεν ήταν δυνατό να αποθηκευτεί το ληφθέν
@@ -4012,7 +4014,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4228,7 +4230,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -5373,7 +5375,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5633,12 +5635,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -6025,12 +6027,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="492"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1080"/>
@@ -8206,7 +8208,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8287,7 +8289,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8403,12 +8405,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8814,7 +8816,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -9088,12 +9090,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9273,7 +9275,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -10128,13 +10130,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n δευτερόλεπτο(α)</numerusform><numerusform>%n δευτερόλεπτο(α)</numerusform></translation>
+        <translation>
+            <numerusform>%n δευτερόλεπτο(α)</numerusform>
+            <numerusform>%n δευτερόλεπτο(α)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n λεπτό(ά)</numerusform><numerusform>%n λεπτό(ά)</numerusform></translation>
+        <translation>
+            <numerusform>%n λεπτό(ά)</numerusform>
+            <numerusform>%n λεπτό(ά)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
@@ -10736,7 +10744,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Would you like to know more about this new version?</source>
-        <translation>Θέλενε τα μάθετε περισσότερα περί αυτής της νέας έκδοσης;</translation>
+        <translation>Θέλετε να μάθετε περισσότερα περί αυτής της νέας έκδοσης;</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="219"/>
