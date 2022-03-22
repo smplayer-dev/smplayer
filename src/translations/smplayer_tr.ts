@@ -1408,17 +1408,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>PayPal ile bağış yapın</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
-        <translation type="unfinished"/>
+        <translation>Şimdi değil</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>Kripto para birimleri ile bağış yapmak da mümkündür.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6182"/>
@@ -5373,7 +5373,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Pencere başlı&amp;ğında medyanın adını görüntüle</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5633,12 +5633,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Pencere başlığında medyanın adını görüntüleyin</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek etkinleştirilirse, bilgi etiketlerinden gelen medya başlığı, dosya adı yerine pencere başlığında görüntülenecektir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -9088,12 +9088,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation>Dosya adı yerine başlık adını görüntüle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Çalma listesi, dosya adı yerine başlığı (varsa) görüntüler.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9273,7 +9273,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Dosya adı yerine başlık adını görüntüle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>

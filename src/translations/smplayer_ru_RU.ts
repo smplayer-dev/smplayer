@@ -519,7 +519,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2043"/>
         <source>Sp&amp;eed</source>
-        <translation>Ск&amp;орость</translation>
+        <translation>С&amp;корость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
@@ -1099,12 +1099,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
         <source>Exit fullscreen</source>
-        <translation>Выйти из полноэкранного режима</translation>
+        <translation>Выйти из полного экрана</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1959"/>
         <source>OSD - Next level</source>
-        <translation>Экранное меню – следующий уровень</translation>
+        <translation>Экранное меню – след. уровень</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1960"/>
@@ -1546,7 +1546,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1943"/>
         <source>&amp;Next</source>
-        <translation>С&amp;ледующий</translation>
+        <translation>Сл&amp;едующий</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
@@ -1844,7 +1844,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
         <source>Set dela&amp;y...</source>
-        <translation>Установить &amp;задержку…</translation>
+        <translation>Указать &amp;задержку…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1850"/>
@@ -2745,7 +2745,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>Добавить &amp;текущий элемент</translation>
+        <translation>Добавить &amp;текущее медиа</translation>
     </message>
 </context>
 <context>
@@ -5224,27 +5224,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="770"/>
         <source>Show position column</source>
-        <translation>Показывать колонку позиции</translation>
+        <translation>Показать столбец позиции</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="771"/>
         <source>Show name column</source>
-        <translation>Показывать колонку имени</translation>
+        <translation>Показать столбец имени</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="772"/>
         <source>Show length column</source>
-        <translation>Показывать колонку длины</translation>
+        <translation>Показать столбец длины</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="773"/>
         <source>Show filename column</source>
-        <translation>Показывать колонку имени файла</translation>
+        <translation>Показать столбец имени файла</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="774"/>
         <source>Show shuffle column</source>
-        <translation>Показать столбец случайного воспроизведения</translation>
+        <translation>Показать столбец случайного порядка</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1538"/>
@@ -5845,7 +5845,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Отметьте типы файлов, которые хотите связать с SMPlayer. После нажатия Применить, отмеченные типы файлов будут ассоциированы с SMPlayer. Если убрать отметку, файловая ассоциация будет восстановлена.</translation>
+        <translation>Отметьте типы файлов, которые хотите связать с SMPlayer. По нажатии «Применить» отмеченные типы файлов будут ассоциированы с SMPlayer. Если убрать отметку, файловая ассоциация будет восстановлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -6100,17 +6100,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation>Если этот параметр включён, компьютер будет выключаться сразу после того, как SMPlayer закроется.</translation>
+        <translation>Если этот параметр включён, компьютер будет выключаться сразу по закрытии SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Video output driver</source>
-        <translation>Устройство вывода видео</translation>
+        <translation>Драйвер вывода видео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Select the video output driver.</source>
-        <translation>Выберите устройство вывода для видео.</translation>
+        <translation>Выберите драйвер вывода для видео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
@@ -6130,12 +6130,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>Audio output driver</source>
-        <translation>Устройство вывода аудио</translation>
+        <translation>Драйвер вывода аудио</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1261"/>
         <source>Select the audio output driver.</source>
-        <translation>Выберите устройство вывода для аудио.</translation>
+        <translation>Выберите драйвер вывода для аудио.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1091"/>
@@ -6677,7 +6677,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1145"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Если этот параметр включён, воспроизведение файла будет приостановлено при минимизации главного окна. После восстановления окна воспроизведение продолжится.</translation>
+        <translation>Если этот параметр включён, воспроизведение файла будет приостановлено при минимизации главного окна. По восстановлении окна воспроизведение продолжится.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1252"/>
@@ -6688,7 +6688,7 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="356"/>
         <location filename="../prefgeneral.ui" line="693"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>Устройство &amp;вывода:</translation>
+        <translation>Драй&amp;вер вывода:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1225"/>
@@ -6936,7 +6936,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation>&amp;Использовать мультимедийные клавиши как глобальные горячие клавиши</translation>
+        <translation>&amp;Использовать мультимедийные клавиши как глобальные</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="107"/>
@@ -7085,7 +7085,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Mute</source>
-        <translation>Приглушение</translation>
+        <translation>Приглушить звук</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="95"/>
@@ -7100,7 +7100,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Exit fullscreen</source>
-        <translation>Выйти из полноэкранного режима</translation>
+        <translation>Выйти из полного экрана</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="97"/>
@@ -7115,7 +7115,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
-        <translation>Пауза / Покадровый просмотр</translation>
+        <translation>Пауза / покадровый просмотр</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
@@ -7211,7 +7211,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>OSD - Next level</source>
-        <translation>Экранное меню – следующий уровень</translation>
+        <translation>Экранное меню – след. уровень</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="102"/>
@@ -7286,7 +7286,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>On top while playing</source>
-        <translation>Наверху во время воспроизведения</translation>
+        <translation>Поверх окон при проигрывании</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="98"/>
@@ -7353,7 +7353,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="392"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation>Использовать мультимедийные клавиши как глобальные горячие клавиши</translation>
+        <translation>Использовать мультимедийные клавиши как глобальные</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="393"/>
@@ -7398,7 +7398,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="103"/>
         <source>Change function of wheel</source>
-        <translation>Изменить функцию колеса мыши</translation>
+        <translation>Сменить функцию колеса</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="459"/>
@@ -7457,7 +7457,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="449"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Выберите действия, которые будут циклически переключаться при использовании опции &quot;Изменить функцию колеса мыши&quot;.</translation>
+        <translation>Выберите действия, которые будут циклически переключаться при использовании опции «Сменить функцию колеса».</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="433"/>
@@ -7563,7 +7563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="848"/>
         <source>Ma&amp;x. items</source>
-        <translation>&amp;Количество пунктов в меню</translation>
+        <translation>&amp;Максимум пунктов</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="338"/>
@@ -7628,17 +7628,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="506"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation>&amp;Переходить в позицию указателя:</translation>
+        <translation>&amp;Поведение полосы перемотки</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="523"/>
         <source>Seek to position while dragging</source>
-        <translation>Во время перемотки мышью</translation>
+        <translation>Переход при прокрутке</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="528"/>
         <source>Seek to position when released</source>
-        <translation>После отпускания кнопки мыши</translation>
+        <translation>Переход по отпуску</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
@@ -7783,7 +7783,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="880"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Выберите максимальное количество элементов в подменю &lt;b&gt;Открыть -&gt; Недавние файлы&lt;/b&gt;. При значении 0 меню не будет отображаться вообще.</translation>
+        <translation>Выберите максимум элементов в подменю &lt;b&gt;Открыть -&gt; Недавние файлы&lt;/b&gt;. При значении 0 меню не будет отображаться вообще.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -8171,7 +8171,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>Поддержка &amp;видео-сайтов:</translation>
+        <translation>Поддержка &amp;видеосайтов:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
@@ -8362,12 +8362,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
         <source>Support for video sites</source>
-        <translation>Поддержка видео-сайтов</translation>
+        <translation>Поддержка видеосайтов</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
-        <translation>поддержка видео-сайтов отключена</translation>
+        <translation>поддержка видеосайтов отключена</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8774,7 +8774,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="388"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>Эта опция определяет количество памяти (в килобайтах), используемых для предварительного кэширования файлов.</translation>
+        <translation>Эта опция определяет размер памяти (в килобайтах), используемых для предварительного кэширования файлов.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="391"/>
@@ -8784,7 +8784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования адреса.</translation>
+        <translation>Эта опция определяет размер памяти (в кБайтах), используемых для предварительного кэширования адреса.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="395"/>
@@ -8794,7 +8794,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования DVD.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Перемотка может работать неправильно (в том числе и обзор глав) при использовании кэширования DVD.</translation>
+        <translation>Эта опция определяет размер памяти (в кБайтах), используемых для предварительного кэширования DVD.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Перемотка может работать неправильно (в том числе и обзор глав) при использовании кэширования DVD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -8960,7 +8960,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования аудио-CD.</translation>
+        <translation>Эта опция определяет размер памяти (в кБайтах), используемых для предварительного кэширования аудио-CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
@@ -8975,7 +8975,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования видео-CD.</translation>
+        <translation>Эта опция определяет размер памяти (в кБайтах), используемых для предварительного кэширования видео-CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
@@ -8990,7 +8990,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>Установите количество потоков для декодирования. Только для MPEG-1/2 и H.264</translation>
+        <translation>Указывает число потоков декодирования. Только для MPEG-1/2 и H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
@@ -9053,7 +9053,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>Start playback after loading a playlist</source>
-        <translation>Начинать воспроизведение после загрузки плейлиста</translation>
+        <translation>Начинать воспроизведение по загрузке плейлиста</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -10045,7 +10045,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="142"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>список_действий – список действий, разделённый пробелами. Эти действия будут выполняться после загрузки файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
+        <translation>список_действий – список действий, разделённый пробелами. Эти действия будут выполняться по загрузке файла в заданной вами последовательности. Для действий с переменными значениями можно использовать true или false в качестве параметров. Например: -actions &quot;fullscreen compact true&quot;. Кавычки необходимы в случае, если используется более одного действия.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="100"/>

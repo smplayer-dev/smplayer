@@ -1408,17 +1408,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Зробити пожертву в Paypal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
-        <translation type="unfinished"/>
+        <translation>Не зараз</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>Також можна пожертвувати криптовалюту.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6182"/>
@@ -5373,7 +5373,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Пока&amp;зувати назву медія в заголовку вікна</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5633,12 +5633,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Показувати назву медія в заголовку вікна</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо цей параметр увімкнено, заголовок медія з інформаційних тегів буде показуватися в заголовку вікна замість ім&apos;я файлу.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -9088,12 +9088,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation>Показувати назву заголовку замість ім&apos;я файлу</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Грайлист буде показувати заголовок (якщо є) замість ім&apos;я файлу.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9273,7 +9273,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation>Пока&amp;зувати назву заголовку замість ім&apos;я файлу</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
