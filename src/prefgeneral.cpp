@@ -113,7 +113,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #ifdef MPV_SUPPORT
-	screenshot_format_combo->addItems(QStringList() << "png" << "ppm" << "pgm" << "pgmyuv" << "tga" << "jpg" << "jpeg");
+	screenshot_format_combo->addItems(QStringList() << "png" << "jpg" << "webp");
 #else
 	screenshot_template_label->hide();
 	screenshot_template_edit->hide();
