@@ -3453,6 +3453,10 @@ void Core::setVolume(int volume, bool force) {
 	emit volumeChanged( current_volume );
 }
 
+int Core::currentVolume() {
+	if (pref->global_volume) return pref->volume; else return mset.volume;
+}
+
 void Core::switchMute() {
 	qDebug("Core::switchMute");
 

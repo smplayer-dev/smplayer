@@ -186,7 +186,7 @@ QVariantMap MediaPlayer2Player::Metadata() const {
 }
 
 double MediaPlayer2Player::Volume() const {
-	return static_cast<double>(m_core->mset.volume / 100.0);
+	return static_cast<double>(m_core->currentVolume() / 100.0);
 }
 
 void MediaPlayer2Player::setVolume(double volume) const {
