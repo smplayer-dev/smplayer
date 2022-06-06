@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>Πολλοί άνθρωποι συνεισφέρουν με μεταφράσεις.</translation>
+        <translation>Πολλοί άνθρωποι συνείσφεραν με μεταφράσεις.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
@@ -162,18 +162,18 @@
     <message>
         <location filename="../actionseditor.cpp" line="242"/>
         <source>&amp;Save</source>
-        <translation>Απο&amp;θήκευση</translation>
+        <translation>&amp;Αποθήκευση</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="245"/>
         <source>&amp;Load</source>
-        <translation>Άν&amp;οιγμα</translation>
+        <translation>&amp;Άνοιγμα</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="503"/>
         <location filename="../actionseditor.cpp" line="553"/>
         <source>Key files</source>
-        <translation>Αρχείου κλειδιού</translation>
+        <translation>Αρχεία κλειδιών</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="501"/>
@@ -210,18 +210,18 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="526"/>
-        <source>The file couldn&apos;t be saved</source>
+        <source>The file could nοt be saved</source>
         <translation>Δεν ήταν δυνατή η αποθήκευση του αρχείου</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="560"/>
-        <source>The file couldn&apos;t be loaded</source>
+        <source>The file could not be loaded</source>
         <translation>Δεν ήταν δυνατή η φόρτωση αρχείου</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="249"/>
         <source>&amp;Change shortcut...</source>
-        <translation>Α&amp;λλαγή συντόμευσης...</translation>
+        <translation>&amp;Αλλαγή συντόμευσης...</translation>
     </message>
 </context>
 <context>
@@ -252,7 +252,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Preset</source>
-        <translation>&amp;Προρύθμιση</translation>
+        <translation>&amp;Προκαθορισμένο</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
@@ -267,7 +267,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>&amp;Set as default values</source>
-        <translation>Ε&amp;φαρμογή ως προεπιλογή</translation>
+        <translation>&amp;Εφαρμογή ώς προεπιλεγμένες τιμές</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
@@ -287,7 +287,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
         <source>Club</source>
-        <translation>Κλαμπ</translation>
+        <translation>Κλάμπ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
@@ -327,12 +327,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="222"/>
         <source>Party</source>
-        <translation>Εορτή</translation>
+        <translation>Πάρτι</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="223"/>
         <source>Pop</source>
-        <translation>Ποπ</translation>
+        <translation>Πόπ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -342,7 +342,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="225"/>
         <source>Rock</source>
-        <translation>Ροκ</translation>
+        <translation>Ρόκ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
@@ -357,7 +357,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Soft rock</source>
-        <translation>Απαλό ροκ</translation>
+        <translation>Απαλό ρόκ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="229"/>
@@ -439,7 +439,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
-        <source>D&amp;irectory...</source>
+        <source>&amp;Directory...</source>
         <translation>&amp;Φάκελος...</translation>
     </message>
     <message>
@@ -450,12 +450,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;DVD from drive</source>
-        <translation>DVD από &amp;συσκευή</translation>
+        <translation>&amp;DVD από συσκευή</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
-        <source>D&amp;VD from folder...</source>
-        <translation>DVD από φάκε&amp;λο...</translation>
+        <source>&amp;DVD from folder...</source>
+        <translation>&amp;DVD από φάκελο...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
@@ -474,7 +474,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
-        <source>P&amp;lay</source>
+        <source>&amp;Play</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
@@ -520,8 +520,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2043"/>
-        <source>Sp&amp;eed</source>
-        <translation>Τα&amp;χύτητα</translation>
+        <source>&amp;Speed</source>
+        <translation>&amp;Ταχύτητα</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
@@ -531,7 +531,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1786"/>
         <source>&amp;Fullscreen</source>
-        <translation>Πλήρης &amp;οθόνη</translation>
+        <translation>&amp;Πλήρης οθόνη</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1787"/>
@@ -540,7 +540,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2053"/>
-        <source>Si&amp;ze</source>
+        <source>&amp;Size</source>
         <translation>&amp;Μέγεθος</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2106"/>
-        <source>Linear &amp;Blend</source>
+        <source>&amp;Linear Blend</source>
         <translation>&amp;Γραμμική ανάμειξη</translation>
     </message>
     <message>
@@ -583,21 +583,21 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;Deblock</source>
-        <translation>Α&amp;ποαποκλεισμός</translation>
+        <translation>&amp;Αποαποκλεισμός</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
-        <source>De&amp;ring</source>
-        <translation>Απο&amp;ταλάντωση</translation>
+        <source>&amp;Dering</source>
+        <translation>&amp;Αποταλάντωση</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
-        <source>Add n&amp;oise</source>
-        <translation>Προσθήκη &amp;θορύβου</translation>
+        <source>&amp;Add noise</source>
+        <translation>&amp;Προσθήκη θορύβου</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2069"/>
-        <source>F&amp;ilters</source>
+        <source>&amp;Filters</source>
         <translation>&amp;Φίλτρα</translation>
     </message>
     <message>
@@ -612,8 +612,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2075"/>
-        <source>S&amp;tay on top</source>
-        <translation>Παραμ&amp;ονή στο προσκήνιο</translation>
+        <source>&amp;Stay on top</source>
+        <translation>&amp;Παραμονή στο προσκήνιο</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
@@ -688,8 +688,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
-        <source>D&amp;elay +</source>
-        <translation>Κα&amp;θυστέρηση +</translation>
+        <source>&amp;Delay +</source>
+        <translation>&amp;Καθυστέρηση +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2164"/>
@@ -873,17 +873,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <location filename="../basegui.cpp" line="1847"/>
-        <source>U&amp;nload</source>
+        <source>&amp;Unload</source>
         <translation>&amp;Ξεφόρτωμα</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1719"/>
-        <source>V&amp;CD</source>
+        <source>&amp;VCD</source>
         <translation>&amp;VCD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
-        <source>C&amp;lose</source>
+        <source>&amp;Close</source>
         <translation>&amp;Κλείσιμο</translation>
     </message>
     <message>
@@ -1050,12 +1050,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1902"/>
-        <source>T&amp;ablet mode</source>
-        <translation>Λειτουργία τα&amp;μπλέτας</translation>
+        <source>&amp;Tablet mode</source>
+        <translation>&amp;Λειτουργία ταμπλέτας</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
-        <source>First Steps &amp;Guide</source>
+        <source>&amp;First Steps Guide</source>
         <translation>&amp;Οδηγός πρώτων βημάτων</translation>
     </message>
     <message>
@@ -1071,7 +1071,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
         <source>&amp;Open configuration folder</source>
-        <translation>Άνοιγμα &amp;φακέλου ρυθμίσεων</translation>
+        <translation>&amp;Άνοιγμα φακέλου ρυθμίσεων</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
