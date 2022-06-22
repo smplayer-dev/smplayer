@@ -92,7 +92,7 @@
     <message>
         <location filename="../about.ui" line="94"/>
         <source>&amp;Contributions</source>
-        <translation>&amp;Участие в разработке</translation>
+        <translation>&amp;Участники</translation>
     </message>
     <message>
         <location filename="../about.ui" line="150"/>
@@ -193,7 +193,7 @@
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Файл %1 уже существует.
-Перезаписать?</translation>
+Хотите перезаписать?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="552"/>
@@ -398,17 +398,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2002"/>
         <source>&amp;Play</source>
-        <translation>&amp;Воспроизведение</translation>
+        <translation>&amp;Проигрывание</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2003"/>
         <source>&amp;Video</source>
-        <translation>В&amp;идео</translation>
+        <translation>&amp;Видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2004"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Аудио</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2005"/>
@@ -423,7 +423,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2008"/>
         <source>Op&amp;tions</source>
-        <translation>&amp;Параметры</translation>
+        <translation>П&amp;араметры</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2009"/>
@@ -448,7 +448,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;DVD from drive</source>
-        <translation>DVD с устройств&amp;а</translation>
+        <translation>DVD с диск&amp;а</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
@@ -493,7 +493,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>&amp;Normal speed</source>
-        <translation>&amp;Нормальная скорость</translation>
+        <translation>&amp;Обычная скорость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1777"/>
@@ -529,7 +529,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1786"/>
         <source>&amp;Fullscreen</source>
-        <translation>Полный &amp;экран</translation>
+        <translation>Полный экр&amp;ан</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1787"/>
@@ -571,7 +571,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Postprocessing</source>
-        <translation>Включить &amp;постобработку</translation>
+        <translation>&amp;Постобработка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
@@ -779,7 +779,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4295"/>
         <location filename="../basegui.cpp" line="4545"/>
         <source>Audio</source>
-        <translation>Аудио</translation>
+        <translation>Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4296"/>
@@ -1691,7 +1691,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
         <source>&amp;Auto</source>
-        <translation>&amp;Авто</translation>
+        <translation>&amp;Автоматически</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1780"/>
@@ -1849,19 +1849,19 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1850"/>
         <source>Se&amp;t delay...</source>
-        <translation>Ус&amp;тановить задержку…</translation>
+        <translation>Указа&amp;ть задержку…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4704"/>
         <location filename="../basegui.cpp" line="4708"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer – задержка аудио</translation>
+        <translation>SMPlayer – задержка звука</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4705"/>
         <location filename="../basegui.cpp" line="4709"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Задержка аудио (в миллисекундах):</translation>
+        <translation>Задержка звука (в миллисекундах):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4720"/>
@@ -2013,7 +2013,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Cast to</source>
-        <translation>&amp;Транслировать на</translation>
+        <translation>&amp;Трансляция на</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="389"/>
@@ -2043,7 +2043,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="405"/>
         <source>Send &amp;audio to</source>
-        <translation>Вывод &amp;аудио в</translation>
+        <translation>Вывод &amp;звука</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="443"/>
@@ -2273,7 +2273,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation>Чтобы проигрывать видео с YouTube, %1 требуется внешнее приложение youtube-dl.</translation>
+        <translation>%1 требуется стороннее приложение youtube-dl для воспроизведения видео с YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
@@ -2293,7 +2293,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="240"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation>Чтобы проигрывать видео с YouTube, %1 требуется помощь внешнего приложения.</translation>
+        <translation>%1 требуется стороннее приложение youtube-dl для воспроизведения видео с YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="241"/>
@@ -2466,7 +2466,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>Audio</source>
-        <translation>Аудио</translation>
+        <translation>Звук</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
@@ -2801,7 +2801,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="116"/>
         <source>&amp;Video codec</source>
-        <translation>В&amp;идео</translation>
+        <translation>&amp;Видеокодек</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="128"/>
@@ -4830,7 +4830,7 @@ Do you want to overwrite?</source>
         <location filename="../mpvoptions.cpp" line="915"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Audio:</source>
-        <translation>Аудио:</translation>
+        <translation>Звук:</translation>
     </message>
     <message>
         <location filename="../mpvoptions.cpp" line="917"/>
@@ -5117,7 +5117,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>Filename / URL</source>
-        <translation>Путь к файлу</translation>
+        <translation>Имя файла / адрес</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="720"/>
@@ -5314,7 +5314,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1469"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Есть несохранённые изменения, желаете сохранить плейлист?</translation>
+        <translation>В плейлисте есть несохранённые изменения. Хотите сохранить?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1737"/>
@@ -5333,7 +5333,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="92"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="24"/>
@@ -6020,7 +6020,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="214"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation>Здесь можно указать предпочитаемый язык для аудио и субтитров. Если воспроизводимый файл содержит дорожки субтитров или аудио-дорожки на разных языках, то SMPlayer будет выбирать из них соответствующие вашим предпочтениям. Это верно для тех типов данных мультимедиа, которые содержат сведения о языке аудиодорожек и субтитров, таких как DVD или mkv.</translation>
+        <translation>Здесь можно указать предпочитаемый язык для аудио и субтитров. Если медиа содержит несколько потоков субтитров или аудио на разных языках, то SMPlayer выберет из них соответствующие вашим предпочтениям. Это верно для тех типов данных мультимедиа, которые содержат сведения о языке потоков аудио и субтитров, таких как DVD или mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="491"/>
@@ -6130,12 +6130,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1260"/>
         <source>Audio output driver</source>
-        <translation>Драйвер вывода аудио</translation>
+        <translation>Драйвер вывода звука</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1261"/>
         <source>Select the audio output driver.</source>
-        <translation>Выберите драйвер вывода для аудио.</translation>
+        <translation>Выберите драйвер вывода звука.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1091"/>
@@ -6251,7 +6251,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1172"/>
         <source>&amp;Audio:</source>
-        <translation>&amp;Аудио:</translation>
+        <translation>&amp;Звук:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
@@ -6446,7 +6446,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1325"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Это поле принимает регулярные выражения. Например: &lt;b&gt;ru|rus|russian&lt;/b&gt; означает, что будут выбраны аудио-дорожки, содержащие в названии языка &lt;i&gt;ru&lt;/i&gt;, &lt;i&gt;rus&lt;/i&gt; или &lt;i&gt;russian.</translation>
+        <translation>Это поле принимает регулярные выражения. Например: &lt;b&gt;ru|rus|russian&lt;/b&gt; означает, что будут выбраны аудиодорожки, содержащие в названии языка &lt;i&gt;ru&lt;/i&gt;, &lt;i&gt;rus&lt;/i&gt; или &lt;i&gt;russian.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1333"/>
@@ -6466,7 +6466,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1344"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Указывает аудио дорожку по умолчанию, используемую по умолчанию для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; опция &lt;i&gt;предпочитаемый язык&lt;/i&gt; более приоритетна.</translation>
+        <translation>Указывает аудиодорожку по умолчанию, используемую для новых файлов. Если дорожка не существует, будет использована первая. &lt;br&gt;&lt;b&gt;Примечание:&lt;/b&gt; параметр &lt;i&gt;предпочитаемый язык&lt;/i&gt; более приоритетен.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1349"/>
@@ -6531,7 +6531,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="685"/>
         <source>A&amp;udio</source>
-        <translation>&amp;Аудио</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="870"/>
@@ -6546,7 +6546,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Audio</source>
-        <translation>Аудио</translation>
+        <translation>Звук</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1317"/>
@@ -6848,7 +6848,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1311"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation>Плавно подстраивает A/V-синхронизацию за счёт измерений задержки аудио.</translation>
+        <translation>Плавно подстраивает синхронизацию аудио/видео за счёт измерений задержки звука.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1314"/>
@@ -8176,7 +8176,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation>Предпочтительное &amp;качество:</translation>
+        <translation>Предпочитаемое &amp;качество:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8340,7 +8340,7 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="299"/>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8382,7 +8382,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
         <source>Preferred quality</source>
-        <translation>Предпочтительное качество</translation>
+        <translation>Предпочитаемое качество</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="345"/>
@@ -8392,7 +8392,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>selects the best video and audio streams available</source>
-        <translation>выбирает наилучшие доступные видео- и аудио-потоки</translation>
+        <translation>выбирает наилучшие доступные потоки видео и аудио</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="111"/>
@@ -8438,7 +8438,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation>Выберите предпочтительное качество для видео с YouTube.</translation>
+        <translation>Выберите предпочитаемое качество видео с YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
@@ -8503,7 +8503,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="402"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation>Когда эта опция включена, SMPlayer автоматически преобразует файлы субтитров в формате SRT в формат VTT. Субтитр VTT будет иметь то же самое имя файла, но расширение .vtt</translation>
+        <translation>Когда этот параметр включён, SMPlayer автоматически преобразует файлы субтитров формата SRT в формат VTT. Имя субтитров VTT будет тем же самым, но расширение станет .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="405"/>
@@ -8855,7 +8855,7 @@ Do you want to overwrite?</source>
         <location filename="../prefperformance.cpp" line="34"/>
         <location filename="../prefperformance.cpp" line="384"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8995,7 +8995,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Потоков декодирования (только для MPEG-1/2 и H.264):</translation>
+        <translation>&amp;Потоки декодирования (только для MPEG-1/2 и H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="360"/>
@@ -9163,12 +9163,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Аудио файлы&lt;/b&gt;: все аудио файлы, найденные в папке, будут добавлены</translation>
+        <translation>&lt;b&gt;Аудиофайлы&lt;/b&gt;: все аудиофайлы, найденные в папке, будут добавлены</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="218"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Видео и аудио файлы&lt;/b&gt;: все видео и аудио файлы, найденные в папке, будут добавлены</translation>
+        <translation>&lt;b&gt;Файлы видео и аудио&lt;/b&gt;: все файлы видео и аудио, найденные в папке, будут добавлены</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -9425,7 +9425,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек удовлетворяет выбранному пользователем предпочтительному языку, то будет выбрана именно она.</translation>
+        <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек удовлетворяет выбранному пользователем предпочитаемому языку, то будет выбрана именно она.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="412"/>
@@ -10156,7 +10156,7 @@ Do you want to overwrite?</source>
         <location filename="../mediasettings.cpp" line="199"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation>авто</translation>
+        <translation>автоматически</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="200"/>
@@ -10289,7 +10289,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Пожертвовать / Поделиться SMPlayer с друзьями</translation>
+        <translation>Пожертвовать / поделиться SMPlayer с друзьями</translation>
     </message>
 </context>
 <context>
@@ -10541,7 +10541,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоматически</translation>
     </message>
 </context>
 <context>
@@ -10691,7 +10691,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../tristatecombo.cpp" line="34"/>
         <source>Auto</source>
-        <translation>Авто</translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="35"/>

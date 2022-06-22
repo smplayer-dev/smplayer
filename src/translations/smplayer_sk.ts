@@ -1408,17 +1408,17 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     <message>
         <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Prispieť cez PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
-        <translation type="unfinished"/>
+        <translation>Teraz nie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>Je možné prispieť aj pomocou kryptomien.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6182"/>
@@ -5373,7 +5373,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť &amp;názov médií v názve okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5633,12 +5633,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť názov médií v názve okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Ak je táto možnosť povolená, v názve okna sa namiesto názvu súboru zobrazí titul médií z informačných značiek.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -9089,12 +9089,12 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť názov titulu namiesto názvu súboru</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>V playliste sa namiesto názvu súboru zobrazí titul (ak existuje).</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9274,7 +9274,7 @@ Chcete ho prepísať?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation>Zobraziť názov titulu namiesto názvu &amp;súboru</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>

@@ -1408,17 +1408,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4632"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>تبرّع بـ بي بال</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>Not now</source>
-        <translation type="unfinished"/>
+        <translation>ليس الآن</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>يمكن أيضًا التبرع بالعملات الرقمية.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6182"/>
@@ -5371,7 +5371,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>اعرِض اسم ملف الوسا&amp;ئط في عنوان النافذة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5631,12 +5631,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>اعرِض اسم ملف الوسائط في عنوان النافذة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>إذا مكّنت هذا الخيار فإنّ عنوان ملف الوسائط من وسوم المعلومات سيُعرَض في عنوان النافذة بدلاً عن اسم الملف.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -9086,12 +9086,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation>اعرِض اسم العنوان بدلاً عن اسم الملف</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>قائمة التشغيل ستعرِض العنوان (إن وجد) بدلاً عن اسم الملف.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9271,7 +9271,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation>اعرِض اسم العنوان بدلاً عن اسم الم&amp;لف</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
