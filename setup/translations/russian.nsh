@@ -30,7 +30,7 @@ ${LangFileString} ShortcutGroupTitle "Ярлыки"
 ${LangFileString} MPlayerGroupTitle "Компоненты MPlayer"
 ${LangFileString} MPlayerMPVGroupTitle "Движок воспроизведения"
 
-${LangFileString} Section_SMPlayer "SMPlayer (необходимо)"
+${LangFileString} Section_SMPlayer "SMPlayer (требуется)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, разделяемые библиотеки и документация."
 
 ${LangFileString} Section_DesktopShortcut "Рабочий стол"
@@ -76,7 +76,7 @@ ${LangFileString} Reinstall_Overwrite "Перезаписать ($Inst_Type) с�
 ${LangFileString} Reinstall_Uninstall "Удалить существующую установку"
 ${LangFileString} Reinstall_Msg3_1 "Нажмите «Старт» для продолжения."
 ${LangFileString} Reinstall_Msg3_2 "Нажмите «Далее» для продолжения."
-${LangFileString} Reinstall_Msg3_3 "Нажмите Удалить для продолжения."
+${LangFileString} Reinstall_Msg3_3 "Нажмите «Удалить» для продолжения."
 ${LangFileString} Reinstall_Msg4 "Изменить настройки установки"
 ${LangFileString} Reinstall_Msg5 "Сбросить настройки SMPlayer"
 
@@ -105,7 +105,7 @@ ${LangFileString} Uninstaller_64bitOnly "Эта установка может б
 ${LangFileString} Application_Description "SMPlayer — полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Выполняется резервное копирование кодеков из предыдущей установки..."
+${LangFileString} Info_Codecs_Backup "Создание резервной копии кодеков из предыдущей установки..."
 ${LangFileString} Info_Codecs_Restore "Выполняется восстановление кодеков из предыдущей установки..."
 ${LangFileString} Info_Del_Files "Удаление файлов..."
 ${LangFileString} Info_Del_Registry "Удаление ключей реестра..."
@@ -113,7 +113,7 @@ ${LangFileString} Info_Del_Shortcuts "Удаление ярлыков..."
 ${LangFileString} Info_Rest_Assoc "Восстановление ассоциаций файлов..."
 ${LangFileString} Info_RollBack "Откат изменений..."
 ${LangFileString} Info_Files_Extract "Извлечение файлов..."
-${LangFileString} Info_SMTube_Backup "Резервируется SMTube..."
+${LangFileString} Info_SMTube_Backup "Создание резервной копии SMTube..."
 ${LangFileString} Info_SMTube_Restore "Восстановление SMTube из предыдущей установки..."
 ${LangFileString} Info_MPV_Backup "Создание резервной копии MPV..."
 ${LangFileString} Info_MPV_Restore "Восстановление MPV из предыдущей установки..."
@@ -125,9 +125,9 @@ ${LangFileString} MPV_DL_Failed "Не удалось загрузить MPV: '$R
 ${LangFileString} MPV_Inst_Failed "Ошибка при установке MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "Не удалось установить YouTube-DL. Попытаться ещё раз?"
-${LangFileString} YTDL_DL_Failed "Не удалось загрузить Youtube-DL: '$R0'."
-${LangFileString} YTDL_Update_Check "Проверка наличия обновлений Youtube-DL..."
+${LangFileString} YTDL_DL_Retry "Не удалось установить youtube-dl. Попытаться ещё раз?"
+${LangFileString} YTDL_DL_Failed "Не удалось загрузить youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Проверка наличия обновлений youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Предупреждение: ненормальный выход youtube-dl с кодом: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Для youtube-dl требуется Visual C++ 2010 Runtime (x86)."
 

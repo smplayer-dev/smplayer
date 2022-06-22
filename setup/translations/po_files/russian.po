@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andrei Stepanov <adem4ik@gmail.com>, 2014-2017,2021
+# Andrei Stepanov, 2014-2017,2021-2022
 # 28532b02ca9d20d69a31703daeea0bda_3873b52 <a8117a72c21fe4a094910f3a12007a5f_154053>, 2014
 # Simple88, 2016
-# Andrei Stepanov <adem4ik@gmail.com>, 2014
+# Andrei Stepanov, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-12-27 22:45+0000\n"
-"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"PO-Revision-Date: 2014-02-24 03:07+0000\n"
+"Last-Translator: Andrei Stepanov, 2014-2017,2021-2022\n"
 "Language-Team: Russian (http://www.transifex.com/rvm/smplayer/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,7 +91,7 @@ msgstr "Движок воспроизведения"
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
-msgstr "SMPlayer (необходимо)"
+msgstr "SMPlayer (требуется)"
 
 # Section_SMPlayer_Desc
 msgid "SMPlayer, shared libraries, and documentation."
@@ -210,7 +210,7 @@ msgstr "Нажмите «Далее» для продолжения."
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr "Нажмите Удалить для продолжения."
+msgstr "Нажмите «Удалить» для продолжения."
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
@@ -291,7 +291,7 @@ msgstr "SMPlayer — полноценная оболочка для MPlayer, н�
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr "Выполняется резервное копирование кодеков из предыдущей установки..."
+msgstr "Создание резервной копии кодеков из предыдущей установки..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
@@ -323,7 +323,7 @@ msgstr "Извлечение файлов..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr "Резервируется SMTube..."
+msgstr "Создание резервной копии SMTube..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -355,15 +355,15 @@ msgstr "Ошибка при установке MPV."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr "Не удалось установить YouTube-DL. Попытаться ещё раз?"
+msgstr "Не удалось установить youtube-dl. Попытаться ещё раз?"
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr "Не удалось загрузить Youtube-DL: '$R0'."
+msgstr "Не удалось загрузить youtube-dl: '$R0'."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr "Проверка наличия обновлений Youtube-DL..."
+msgstr "Проверка наличия обновлений youtube-dl..."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
