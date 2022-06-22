@@ -4629,17 +4629,25 @@ void BaseGui::showHelpDonateDialog(bool * accepted) {
 	d.setIconPixmap(Images::icon("donate"));
 	d.setWindowTitle(tr("Support SMPlayer"));
 
+	#if 0
 	QPushButton * ok_button = d.addButton(tr("Donate with PayPal"), QMessageBox::YesRole);
 	d.addButton(tr("Not now"), QMessageBox::NoRole);
+	#else
+	QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
+	d.addButton(tr("No"), QMessageBox::NoRole);
+	#endif
 	d.setDefaultButton(ok_button);
 
 	d.setText("<h1>" + tr("SMPlayer needs you") + "</h1><p>" +
 		tr("SMPlayer is free software. However the development requires a lot of time and a lot of work.") + "<p>" +
 		tr("In order to keep developing SMPlayer with new features we need your help.") + "<p>" +
 		tr("Please consider to support the SMPlayer project by sending a donation.") + " " +
-		tr("Even the smallest amount will help a lot.") +
+		tr("Even the smallest amount will help a lot.")
+		#if 0
+		+
 		"<p><a href=\"" URL_CONTRIBUTE "\">" +
 		tr("It's also possible to donate with cryptocurrencies.") + "</a>"
+		#endif
 	);
 	d.exec();
 	if (d.clickedButton() == ok_button) {
