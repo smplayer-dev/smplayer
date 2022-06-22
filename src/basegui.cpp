@@ -5092,7 +5092,8 @@ void BaseGui::checkReminder() {
 	set->beginGroup("reminder");
 	int count = set->value("count", 0).toInt();
 	count++;
-	set->setValue("count", count);
+	if (count > 51) count = 50;
+	if (count <= 50) set->setValue("count", count);
 	int action = set->value("action", 0).toInt();
 	bool dont_show = set->value("dont_show_anymore", false).toBool();
 	set->endGroup();
