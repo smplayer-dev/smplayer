@@ -1,5 +1,10 @@
 # Changelog
 
+## [22.6] - 2022-06-23
+ * Better statistic info in OSD.
+ * Bug fixes regarding MPRIS2.
+ * MPRIS2 is now enabled also on Windows and Mac OS.
+
 ## [22.2] - 2022-02-27
 ### Linux and Mac OS
  * Fix the option to send video to another screen.
