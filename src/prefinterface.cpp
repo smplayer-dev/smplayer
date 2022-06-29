@@ -297,9 +297,9 @@ void PrefInterface::setData(Preferences * pref) {
 	reset_stop_check->setChecked(pref->reset_stop);
 
 	setDefaultFont(pref->default_font);
-
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	setHideVideoOnAudioFiles(pref->hide_video_window_on_audio_files);
-
+#endif
 #if STYLE_SWITCHING
 	setStyle( pref->style );
 #endif
@@ -376,9 +376,9 @@ void PrefInterface::getData(Preferences * pref) {
 		pref->default_font = defaultFont();
 		font_changed = true;
 	}
-
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	pref->hide_video_window_on_audio_files = hideVideoOnAudioFiles();
-
+#endif
 #if STYLE_SWITCHING
 	if ( pref->style != style() ) {
 		pref->style = style();
