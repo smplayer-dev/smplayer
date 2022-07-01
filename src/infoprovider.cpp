@@ -34,7 +34,8 @@ MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	PlayerProcess * proc = PlayerProcess::createPlayerProcess(mplayer_bin, 0);
 
 	proc->setExecutable(mplayer_bin);
-	proc->setFixedOptions();
+	proc->setPredefinedOptions();
+	proc->disableConfig();
 	QString nframes = "1";
 	if (proc->isMPlayer()) nframes = "0";
 	proc->setOption("frames", nframes);

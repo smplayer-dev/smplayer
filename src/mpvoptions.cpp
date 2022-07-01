@@ -122,11 +122,9 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 #ifdef CAPTURE_STREAM
 	capturing = false;
 #endif
-
 }
 
-void MPVProcess::setFixedOptions() {
-	//arg << "--no-config";
+void MPVProcess::setPredefinedOptions() {
 	arg << "--no-quiet";
 	arg << "--terminal";
 	arg << "--no-msg-color";
@@ -140,6 +138,10 @@ void MPVProcess::setFixedOptions() {
 	//arg << "--video-stereo-mode=no";
 	arg << "--msg-level=ffmpeg/demuxer=error";
 	arg << "--video-rotate=no";
+}
+
+void MPVProcess::disableConfig() {
+	arg << "--no-config";
 }
 
 void MPVProcess::disableInput() {

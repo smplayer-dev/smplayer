@@ -46,7 +46,8 @@ public:
 
 	// Command line options
 	virtual void setMedia(const QString & media, bool is_playlist = false) = 0;
-	virtual void setFixedOptions() = 0;
+	virtual void setPredefinedOptions() = 0;
+	virtual void disableConfig() = 0;
 	virtual void disableInput() = 0;
 	virtual void setOption(const QString & option_name, const QVariant & value = QVariant()) = 0;
 	virtual void addUserOption(const QString & option) = 0;

@@ -1618,7 +1618,8 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 
 	proc->setExecutable(pref->mplayer_bin);
-	proc->setFixedOptions();
+	proc->setPredefinedOptions();
+	if (pref->disable_player_config) proc->disableConfig();
 
 #ifdef LOG_MPLAYER
 	if (pref->verbose_log) {

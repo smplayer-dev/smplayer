@@ -367,6 +367,8 @@ public:
 
 	bool use_native_open_dialog;
 
+	bool disable_player_config;
+
 
 	/* *********
 	   GUI stuff

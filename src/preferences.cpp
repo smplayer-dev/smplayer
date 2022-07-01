@@ -394,6 +394,8 @@ void Preferences::reset() {
 
 	use_native_open_dialog = true;
 
+	disable_player_config = true;
+
 
     /* *********
        GUI stuff
@@ -959,6 +961,8 @@ void Preferences::save() {
 #endif
 
 	set->setValue("use_native_open_dialog", use_native_open_dialog);
+
+	set->setValue("disable_player_config", disable_player_config);
 
 	set->endGroup(); // advanced
 
@@ -1556,6 +1560,8 @@ void Preferences::load() {
 #endif
 
 	use_native_open_dialog = set->value("use_native_open_dialog", use_native_open_dialog).toBool();
+
+	disable_player_config = set->value("disable_player_config", disable_player_config).toBool();
 
 	set->endGroup(); // advanced
 

@@ -65,7 +65,8 @@ public:
 	void addArgument(const QString & a);
 	void setMedia(const QString & media, bool is_playlist = false);
 	void disableInput();
-	void setFixedOptions();
+	void setPredefinedOptions();
+	void disableConfig();
 	void setOption(const QString & option_name, const QVariant & value = QVariant());
 	void addUserOption(const QString & option);
 	void addVF(const QString & filter_name, const QVariant & value = QVariant());
