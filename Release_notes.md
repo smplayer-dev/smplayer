@@ -1,7 +1,7 @@
 # Changelog
 
 ## [22.7] - 2022-07-10
- * Better statistic info in the OSD.
+ * Better statistic info in the OSD (Shift + I).
  * Bug fixes regarding MPRIS2.
  * MPRIS2 is now enabled also on Windows and Mac OS.
 
