@@ -4630,11 +4630,11 @@ void BaseGui::showHelpDonateDialog(bool * accepted) {
 	d.setWindowTitle(tr("Support SMPlayer"));
 
 	#if 0
-	QPushButton * ok_button = d.addButton(tr("Donate with PayPal"), QMessageBox::YesRole);
-	d.addButton(tr("Not now"), QMessageBox::NoRole);
+	QPushButton * ok_button = d.addButton(tr("&Donate with PayPal"), QMessageBox::YesRole);
+	d.addButton(tr("&Not now"), QMessageBox::NoRole);
 	#else
-	QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
-	d.addButton(tr("No"), QMessageBox::NoRole);
+	QPushButton * ok_button = d.addButton(tr("&Donate"), QMessageBox::YesRole);
+	d.addButton(tr("&No"), QMessageBox::NoRole);
 	#endif
 	d.setDefaultButton(ok_button);
 
