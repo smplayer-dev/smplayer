@@ -840,6 +840,21 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Sari kata</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4633"/>
+        <source>&amp;Donate with PayPal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4634"/>
+        <source>&amp;Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4637"/>
+        <source>&amp;No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="5165"/>
         <location filename="../basegui.cpp" line="5194"/>
         <source>Error detected</source>
@@ -1075,6 +1090,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>&amp;Donate</source>
         <translation>&amp;Derma</translation>
     </message>
@@ -1350,14 +1366,8 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Sokong SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4637"/>
         <source>No</source>
-        <translation type="unfinished">Tidak</translation>
+        <translation type="obsolete">Tidak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1418,14 +1428,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>%1 telah ditamatkan tanpa dijangka.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4633"/>
         <source>Donate with PayPal</source>
-        <translation>Beri sumbangan melalui Paypal</translation>
+        <translation type="obsolete">Beri sumbangan melalui Paypal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4634"/>
         <source>Not now</source>
-        <translation>Bukan sekarang</translation>
+        <translation type="obsolete">Bukan sekarang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>

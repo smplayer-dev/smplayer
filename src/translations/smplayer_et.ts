@@ -840,6 +840,21 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Subtiitrid</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4633"/>
+        <source>&amp;Donate with PayPal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4634"/>
+        <source>&amp;Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4637"/>
+        <source>&amp;No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="5165"/>
         <location filename="../basegui.cpp" line="5194"/>
         <source>Error detected</source>
@@ -1075,6 +1090,7 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>&amp;Donate</source>
         <translation>&amp;Anneta</translation>
     </message>
@@ -1350,14 +1366,8 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Toeta SMPlayerit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4637"/>
         <source>No</source>
-        <translation type="unfinished">Ei</translation>
+        <translation type="obsolete">Ei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1418,14 +1428,8 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>%1 lõppes ootamatult.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4633"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished">Anneta PayPali kaudu</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4634"/>
-        <source>Not now</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Anneta PayPali kaudu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>

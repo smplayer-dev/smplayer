@@ -1081,6 +1081,7 @@ Prikazalo se bo okno, kjer boste to lahko storili.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>&amp;Donate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1356,14 +1357,8 @@ Prikazalo se bo okno, kjer boste to lahko storili.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4637"/>
         <source>No</source>
-        <translation type="unfinished">Ne</translation>
+        <translation type="obsolete">Ne</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1421,16 +1416,6 @@ Prikazalo se bo okno, kjer boste to lahko storili.</translation>
         <location filename="../basegui.cpp" line="6159"/>
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4633"/>
-        <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4634"/>
-        <source>Not now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1799,6 +1784,21 @@ Prikazalo se bo okno, kjer boste to lahko storili.</translation>
         <location filename="../basegui.cpp" line="1900"/>
         <location filename="../basegui.cpp" line="2245"/>
         <source>SMPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4633"/>
+        <source>&amp;Donate with PayPal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4634"/>
+        <source>&amp;Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4637"/>
+        <source>&amp;No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

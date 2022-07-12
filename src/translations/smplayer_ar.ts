@@ -840,6 +840,21 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>الترجمات</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4633"/>
+        <source>&amp;Donate with PayPal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4634"/>
+        <source>&amp;Not now</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4637"/>
+        <source>&amp;No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="5165"/>
         <location filename="../basegui.cpp" line="5194"/>
         <source>Error detected</source>
@@ -1075,6 +1090,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="4636"/>
         <source>&amp;Donate</source>
         <translation>&amp;تبرع</translation>
     </message>
@@ -1350,14 +1366,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>إدعم SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4636"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4637"/>
         <source>No</source>
-        <translation type="unfinished">لا</translation>
+        <translation type="obsolete">لا</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1418,14 +1428,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>%1 إنتهى على نحو غير متوقع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4633"/>
         <source>Donate with PayPal</source>
-        <translation>تبرّع بـ بي بال</translation>
+        <translation type="obsolete">تبرّع بـ بي بال</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4634"/>
         <source>Not now</source>
-        <translation>ليس الآن</translation>
+        <translation type="obsolete">ليس الآن</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
