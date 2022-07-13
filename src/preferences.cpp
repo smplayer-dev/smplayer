@@ -378,7 +378,11 @@ void Preferences::reset() {
 	time_to_kill_mplayer = 5000;
 
 #ifdef MPRIS2
+	#ifdef Q_OS_LINUX
 	use_mpris2 = true;
+	#else
+	use_mpris2 = false;
+	#endif
 #endif
 
 #ifdef MPV_SUPPORT
