@@ -2,7 +2,6 @@ smplayer (22.7.0) xenial; urgency=medium
 
   * Better statistic info in the OSD.
   * Bug fixes regarding MPRIS2.
-  * MPRIS2 is now enabled also on Windows and Mac OS.
 
  -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 10 Jul 2022 16:17:36 +0200
 

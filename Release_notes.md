@@ -3,7 +3,7 @@
 ## [22.7] - 2022-07-10
  * Better statistic info in the OSD (Shift + I).
  * Bug fixes regarding MPRIS2.
- * MPRIS2 is now enabled also on Windows and Mac OS.
+ * MPRIS2 is compiled (but disabled by default) on Windows and Mac OS.
 
 ## [22.2] - 2022-02-27
 ### Linux and Mac OS
