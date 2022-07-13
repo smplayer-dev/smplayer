@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="ms_MY">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,10 +1364,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Sokong SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Tidak</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer memerlukan anda</translation>
@@ -1426,14 +1420,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 telah ditamatkan tanpa dijangka.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Beri sumbangan melalui Paypal</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Bukan sekarang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3231,7 +3217,7 @@ Contoh: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -10148,17 +10134,13 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

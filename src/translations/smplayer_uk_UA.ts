@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,10 +1364,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Підтримати SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Ні</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>Ви потрібні SMPlayer</translation>
@@ -1426,14 +1420,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>Раптове завершення %1.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Зробити пожертву в Paypal</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Не зараз</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3231,7 +3217,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -10148,21 +10134,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

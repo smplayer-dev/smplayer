@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="tr">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;PayPal ile bağış yapın</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Şimdi değil</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hayır</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,10 +1364,6 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>SMPlayer&apos;ı Destekle</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Hayır</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayerin sana gereksinimi var</translation>
@@ -1426,14 +1420,6 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 beklenmeyen bir şekilde kapandı.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">PayPal ile bağış yapın</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Şimdi değil</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3231,7 +3217,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>%1 klasörüne 
@@ -10148,17 +10134,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saniye()</numerusform>
-        </translation>
+        <translation><numerusform>%n saniye()</numerusform><numerusform>%n saniye()</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n dakika()</numerusform>
-        </translation>
+        <translation><numerusform>%n dakika()</numerusform><numerusform>%n dakika()</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

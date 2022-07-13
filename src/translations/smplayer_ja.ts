@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="ja">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>PayPal で寄付(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>後で(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>いいえ(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,14 +1364,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer を支援してください</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">寄付する</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">いいえ</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer はあなたを必要としています</translation>
@@ -1430,14 +1420,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 は予期せず終了しました。</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">PayPal で寄付</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">後で</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3235,7 +3217,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -10152,17 +10134,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

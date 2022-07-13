@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="fi">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,10 +1364,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>SMPlayer tuki</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Ei</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer tarvitsee sinua</translation>
@@ -1426,14 +1420,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 on päättynyt odottamatta.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Lahjoita PayPalin avulla</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Ei nyt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3231,7 +3217,7 @@ Esimerkki: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ladattua tiedostoa ei voitu tallentaa
@@ -10148,19 +10134,13 @@ Haluatko kirjoittaa päälle?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekuntia</numerusform>
-            <numerusform>%n sekuntia</numerusform>
-        </translation>
+        <translation><numerusform>%n sekuntia</numerusform><numerusform>%n sekuntia</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuuttia</numerusform>
-            <numerusform>%n minuuttia</numerusform>
-        </translation>
+        <translation><numerusform>%n minuuttia</numerusform><numerusform>%n minuuttia</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

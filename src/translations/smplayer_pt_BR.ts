@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doe através do PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>Agora &amp;não</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Não</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1366,14 +1364,6 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Apoie o SMPlayer</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">Doe</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">Não</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>O SMPlayer precisa de você</translation>
@@ -1430,14 +1420,6 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <location filename="../basegui.cpp" line="6166"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 terminou inesperadamente.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Doe através do PayPal</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Agora não</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3235,7 +3217,7 @@ Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -10152,19 +10134,13 @@ Deseja substituí-lo?</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
