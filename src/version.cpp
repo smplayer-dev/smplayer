@@ -27,7 +27,7 @@
 #if USE_SVN_VERSIONS && DEVELOPMENT_VERSION
 #include "svn_revision.h"
 #else
-#define SVN_REVISION "10088"
+#define SVN_REVISION "10091"
 #endif
 
 #ifdef Q_OS_WIN
