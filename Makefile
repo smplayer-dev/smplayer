@@ -3,16 +3,20 @@ PREFIX=/usr/local
 #PREFIX=/tmp/smplayer
 
 CONF_PREFIX=$(PREFIX)
+DATADIR=$(PREFIX)/share
+BINDIR=$(PREFIX)/bin
+MANDIR=$(DATADIR)/man
+MAN1DIR=$(MANDIR)/man1
 
-DATA_PATH=$(PREFIX)/share/smplayer
-DOC_PATH=$(PREFIX)/share/doc/packages/smplayer
-TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
-THEMES_PATH=$(PREFIX)/share/smplayer/themes
-SHORTCUTS_PATH=$(PREFIX)/share/smplayer/shortcuts
+DATA_PATH=$(DATADIR)/smplayer
+DOC_PATH=$(DATADIR)/doc/packages/smplayer
+TRANSLATION_PATH=$(DATADIR)/smplayer/translations
+THEMES_PATH=$(DATADIR)/smplayer/themes
+SHORTCUTS_PATH=$(DATADIR)/smplayer/shortcuts
 
-ICONS_DIR=$(PREFIX)/share/icons/hicolor/
-APPLNK_DIR=$(PREFIX)/share/applications/
-METAINFO_DIR=$(PREFIX)/share/metainfo/
+ICONS_DIR=$(DATADIR)/icons/hicolor/
+APPLNK_DIR=$(DATADIR)/applications/
+METAINFO_DIR=$(DATADIR)/metainfo/
 
 QMAKE=qmake
 LRELEASE=lrelease
@@ -38,8 +42,8 @@ clean:
 	-rm webserver/simple_web_server
 
 install: all
-	-install -d $(DESTDIR)$(PREFIX)/bin/
-	install -m 755 src/smplayer $(DESTDIR)$(PREFIX)/bin/
+	-install -d $(DESTDIR)$(BINDIR)/
+	install -m 755 src/smplayer $(DESTDIR)$(BINDIR)/
 	-install -d $(DESTDIR)$(DATA_PATH)
 	install -m 644 src/input.conf $(DESTDIR)$(DATA_PATH)
 	-install -d $(DESTDIR)$(TRANSLATION_PATH)
@@ -47,7 +51,7 @@ install: all
 	-install -d $(DESTDIR)$(DOC_PATH)
 	install -m 644 Release_notes.md *.txt $(DESTDIR)$(DOC_PATH)
 
-	install -m 755 webserver/simple_web_server $(DESTDIR)$(PREFIX)/bin/
+	install -m 755 webserver/simple_web_server $(DESTDIR)$(BINDIR)/
 
 	-install -d $(DESTDIR)$(DOC_PATH)
 	tar -C docs/ --exclude=.svn -c -f - . | tar -C $(DESTDIR)$(DOC_PATH) -x -f -
@@ -83,12 +87,12 @@ install: all
 	-install -d $(DESTDIR)$(METAINFO_DIR)
 	./install_appdata.sh $(DESTDIR)$(METAINFO_DIR)/smplayer.appdata.xml
 
-	-install -d $(DESTDIR)$(PREFIX)/share/man/man1/
-	install -m 644 man/smplayer.1 $(DESTDIR)$(PREFIX)/share/man/man1/
-	gzip -9 -f $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1
+	-install -d $(DESTDIR)$(MAN1DIR)
+	install -m 644 man/smplayer.1 $(DESTDIR)$(MAN1DIR)/
+	gzip -9 -f $(DESTDIR)$(MAN1DIR)/smplayer.1
 
 uninstall:
-	-rm -f $(PREFIX)/bin/smplayer
+	-rm -f $(BINDIR)/smplayer
 	-rm -f $(DATA_PATH)/input.conf
 	-rm -f $(TRANSLATION_PATH)/*.qm
 	-rm -f $(DOC_PATH)/Changelog
@@ -100,7 +104,7 @@ uninstall:
 	-rm -f $(ICONS_DIR)/16x16/apps/smplayer.png
 	-rm -f $(APPLNK_DIR)/smplayer.desktop
 	-rm -f $(METAINFO_DIR)/smplayer.appdata.xml
-	-rm -f $(PREFIX)/share/man/man1/smplayer.1.gz
+	-rm -f $(MAN1DIR)/smplayer.1.gz
 	-rmdir $(SHORTCUTS_PATH)/
 	-rmdir $(TRANSLATION_PATH)/
 #	-for file in docs/*/*; do \
