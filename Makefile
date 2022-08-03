@@ -10,9 +10,9 @@ MAN1DIR=$(MANDIR)/man1
 
 DATA_PATH=$(DATADIR)/smplayer
 DOC_PATH=$(DATADIR)/doc/packages/smplayer
-TRANSLATION_PATH=$(DATADIR)/smplayer/translations
-THEMES_PATH=$(DATADIR)/smplayer/themes
-SHORTCUTS_PATH=$(DATADIR)/smplayer/shortcuts
+TRANSLATION_PATH=$(DATA_PATH)/translations
+THEMES_PATH=$(DATA_PATH)/themes
+SHORTCUTS_PATH=$(DATA_PATH)/shortcuts
 
 ICONS_DIR=$(DATADIR)/icons/hicolor/
 APPLNK_DIR=$(DATADIR)/applications/
