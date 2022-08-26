@@ -1399,8 +1399,18 @@ void Playlist::load() {
 			if (suffix == "xspf") {
 				loadXSPF(s);
 			}
-			else {
+			else
+			if (suffix == "m3u") {
 				load_m3u(s);
+			}
+			else {
+				QMessageBox::warning(this, tr("Wrong playlist"),
+					tr("It wasn't possible to load '%1'.\n"
+				"Playlist file name must end with a specific suffix "
+				"which is pls, xspf or m3u. '%2' is not supported. "
+				"Please, Choose once again!").arg(s).arg(suffix));
+				//Rechoose again
+				load();
 			}
 			//listView->resizeColumnsToContents();
 		}
