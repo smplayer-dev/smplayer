@@ -6082,7 +6082,7 @@ void BaseGui::showEvent( QShowEvent * ) {
 	if (ignore_show_hide_events) return;
 
 	//qDebug("BaseGui::showEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
-	if ((pref->pause_when_hidden) && (core->state() == Core::Paused)) {
+	if ((pref->pause_when_hidden) && (core->shouldResume())) {
 		qDebug("BaseGui::showEvent: unpausing");
 		core->pause(); // Unpauses
 	}
@@ -6094,9 +6094,14 @@ void BaseGui::hideEvent( QHideEvent * ) {
 	if (ignore_show_hide_events) return;
 
 	//qDebug("BaseGui::hideEvent: pref->pause_when_hidden: %d", pref->pause_when_hidden);
-	if ((pref->pause_when_hidden) && (core->state() == Core::Playing)) {
-		qDebug("BaseGui::hideEvent: pausing");
-		core->pause();
+	if (pref->pause_when_hidden) {
+		if (core->state() == Core::Playing) {
+			qDebug("BaseGui::hideEvent: pausing");
+			core->pause();
+			core->setResumeAfterShow(true);
+		} else {
+			core->setResumeAfterShow(false);
+		}
 	}
 }
 #else
