@@ -3686,6 +3686,17 @@ void Core::changeSubVisibility(bool visible) {
 		displayMessage( tr("Subtitles off") );
 }
 
+#ifdef MPV_SUPPORT
+void Core::changeSecondarySubVisibility(bool visible) {
+	qDebug("Core::changeSecondarySubVisibility: %d", visible);
+	pref->secondary_sub_visibility = visible;
+
+	if (proc->isRunning()) {
+		proc->setSecondarySubtitlesVisibility(pref->secondary_sub_visibility);
+	}
+}
+#endif
+
 void Core::changeExternalSubFPS(int fps_id) {
 	qDebug("Core::setExternalSubFPS: %d", fps_id);
 	mset.external_subtitles_fps = fps_id;

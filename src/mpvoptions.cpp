@@ -831,6 +831,10 @@ void MPVProcess::setSubtitlesVisibility(bool b) {
 	sendCommand(QString("no-osd set sub-visibility %1").arg(b ? "yes" : "no"));
 }
 
+void MPVProcess::setSecondarySubtitlesVisibility(bool b) {
+	sendCommand(QString("no-osd set secondary-sub-visibility %1").arg(b ? "yes" : "no"));
+}
+
 void MPVProcess::seek(double secs, int mode, bool precise) {
 	QString s = "seek " + QString::number(secs) + " ";
 	switch (mode) {
