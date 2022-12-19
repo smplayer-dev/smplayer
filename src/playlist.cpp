@@ -1408,7 +1408,7 @@ void Playlist::load() {
 					tr("It wasn't possible to load '%1'.\n"
 				"Playlist file name must end with a specific suffix "
 				"which is pls, xspf or m3u. '%2' is not supported. "
-				"Please, Choose once again!").arg(s).arg(suffix));
+				"Please, choose once again!").arg(s).arg(suffix));
 				//Rechoose again
 				load();
 			}
