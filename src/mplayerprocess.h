@@ -24,7 +24,9 @@
 #include "mediadata.h"
 #include "config.h"
 
+#if QT_VERSION < 0x060000
 class QStringList;
+#endif
 
 class MplayerProcess : public PlayerProcess
 {
