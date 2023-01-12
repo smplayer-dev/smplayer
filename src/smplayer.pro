@@ -99,12 +99,15 @@ contains( DEFINES, NO_MPV ) {
 	DEFINES -= MPV_SUPPORT
 }
 
-isEqual(QT_MAJOR_VERSION, 5) {
+greaterThan(QT_MAJOR_VERSION, 4) {
 	QT += widgets gui
 	#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
 	win32 {
 		#DEFINES -= MPRIS2
 	}
+}
+greaterThan(QT_MAJOR_VERSION,5) {
+	QT+=core5compat
 }
 
 contains(QT_VERSION, ^4\\.[0-3]\\..*) {
