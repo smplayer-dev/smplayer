@@ -18,7 +18,12 @@
 
 #include "desktopinfo.h"
 #include <QApplication>
+
+#if QT_VERSION >= 0x060000
+#include <QWidget>
+#else
 #include <QDesktopWidget>
+#endif
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000

@@ -44,7 +44,10 @@ public:
 };
 #endif
 
+#if QT_VERSION < 0x060000
 class QStringList;
+#endif
+
 class QLocalSocket;
 
 class MPVProcess : public PlayerProcess

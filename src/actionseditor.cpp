@@ -51,6 +51,10 @@
 #include "myscroller.h"
 #endif
 
+#if QT_VERSION >= 0x060000
+#include <QMenu>
+#endif
+
 /*
 #include <QLineEdit>
 #include <QItemDelegate>
