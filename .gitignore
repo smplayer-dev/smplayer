@@ -1,0 +1,18 @@
+# built qt files
+/src/.moc
+/src/.obj
+/src/.ui
+/src/qrc_*.cpp
+
+# built translation files
+/src/translations/*.qm
+
+# qmake intermediate files
+/svn_revision
+/src/svn_revision.h
+/src/.qmake.stash
+/src/Makefile
+
+# binaries
+/src/smplayer
+/webserver/simple_web_server
