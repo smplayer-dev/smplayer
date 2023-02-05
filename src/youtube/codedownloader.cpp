@@ -205,6 +205,8 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 	if (app_basename == "yt-dlp") {
 		#ifdef Q_OS_MACX
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos";
+		#elif defined(Q_OS_LINUX)
+		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux";
 		#else
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp";
 		#endif
