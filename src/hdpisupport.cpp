@@ -141,6 +141,7 @@ void HDPISupport::apply() {
 		if (!auto_scale) {
 			qputenv("QT_SCALE_FACTOR", QByteArray::number(scale_factor));
 		}
+		QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
 		#endif
 	}
 }
