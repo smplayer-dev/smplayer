@@ -88,7 +88,7 @@ QString Helper::formatTime2(double secs) {
 	t -= minutes*60;
 	int seconds = t;
 	t -= seconds;
-	int milliseconds = t*1000;
+	int milliseconds = (t*1000 + 0.4999);
 
 	//qDebug() << "Helper::formatTime: secs:" << secs << "="  << hours << ":" << minutes << ":" << seconds << "." << milliseconds;
 

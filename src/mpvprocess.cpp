@@ -264,6 +264,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 
 		if (paused) {
+			if (last_sec != sec) {
+				last_sec = sec;
+				emit receivedCurrentSec(sec);
+			}
 			notified_pause = true;
 			qDebug("MPVProcess::parseLine: paused");
 			emit receivedPause();
