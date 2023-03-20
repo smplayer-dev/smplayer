@@ -165,7 +165,7 @@ QString About::getTranslators() {
 	return QString(
 		 tr("Many people contributed with translations.") +" "+
 		 tr("You can also help to translate SMPlayer into your own language.") +"<p>"+
-		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
+		 tr("Visit %1 and join a translation team.").arg("<a href=\"https://explore.transifex.com/rvm/smplayer/\">https://explore.transifex.com/rvm/smplayer/</a>") +
 		"<p><a href=\"" URL_TRANSLATORS "\">" +
 		 tr("Click here to know the translators from the transifex teams") +
 		"</a>");
