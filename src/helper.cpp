@@ -81,7 +81,7 @@ QString Helper::formatTime2(double secs) {
 	bool negative = (secs < 0);
 	secs = qAbs(secs);
 
-	double t = secs;
+	double t = secs + 0.00049999; // add <0.5 ms to round to nearest millisecond, display otherwise sometimes shows 0.499 instead of 0.5
 	int hours = (int) t / 3600;
 	t -= hours*3600;
 	int minutes = (int) t / 60;
