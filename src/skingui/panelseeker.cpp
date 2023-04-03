@@ -117,23 +117,20 @@ void PanelSeeker::mousePressEvent(QMouseEvent *m)
         #else
         QPointF pos = m->posF();
         #endif
-        if(knobRect.contains(pos))
-        {
-            isPressed = true;
-            mousePressPos = pos;
-            mousePressDifference = pos.x() - knobRect.center().x();
-            setSliderDown(true);
-            setState(Pressed, true);
-        }
-        else
-        {
-            isPressed = false;
-            #if QT_VERSION >= 0x050000
-            knobAdjust( m->localPos().x() - knobRect.center().x(), true);
-            #else
-            knobAdjust( m->posF().x() - knobRect.center().x(), true);
-            #endif
-        }
+
+        #if QT_VERSION >= 0x050000
+        knobAdjust( m->localPos().x() - knobRect.center().x(), true);
+        #else
+        knobAdjust( m->posF().x() - knobRect.center().x(), true);
+        #endif
+
+        // Putting the slider into pressed state allows the user to keep
+        // holding down the mouse button and move the mouse to keep seeking.
+        isPressed = true;
+        mousePressPos = pos;
+        mousePressDifference = pos.x() - knobRect.center().x();
+        setSliderDown(true);
+        setState(Pressed, true);
     }
 }
 
