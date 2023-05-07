@@ -6041,7 +6041,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1080"/>
         <source>Multimedia engine</source>
-        <translation>Multimedia moottori</translation>
+        <translation>Multimediamoottori</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -6277,7 +6277,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>Multim&amp;edia moottori:</translation>
+        <translation>Multim&amp;ediamoottori:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
@@ -6512,12 +6512,12 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="835"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Korkea nopeus &amp;toisto ilman muuttuvaa äänenkorkeutta</translation>
+        <translation>Nopeutettu &amp;toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1287"/>
         <source>High speed playback without altering pitch</source>
-        <translation>Korkea nopeus toisto ilman muuttuvaa äänenkorkeutta</translation>
+        <translation>Nopeutettu toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="348"/>
@@ -7016,7 +7016,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
-        <translation>&amp;Rukkan toiminto:</translation>
+        <translation>&amp;Rullan toiminto:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
@@ -7649,7 +7649,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>Pysäytyspai&amp;nikkeen painaminen nollaa aika-asennon</translation>
+        <translation>Pysäytyspai&amp;nikkeen painaminen nollaa katselukohdan</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -7956,7 +7956,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation>Pysäytys -painikkeen painaminen nollaa aika-asennon</translation>
+        <translation>Pysäytys -painikkeen painaminen nollaa katselukohdan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
@@ -8695,7 +8695,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Valimuistin asettaminen saattaa parantaa suorituskykyä hitaalla medialla</translation>
+        <translation>Välimuistin asettaminen saattaa parantaa suorituskykyä hitaalla medialla</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -9094,12 +9094,12 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation>Näytä otsikon nimi tiedostonimen sijaan</translation>
+        <translation>Näytä median nimi tiedostonimen sijaan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation>Soittolistassa näkyy nimi (jos sellainen on) tiedostonimen sijaan.</translation>
+        <translation>Soittolistassa näkyy median nimi (jos sellainen on) tiedostonimen sijaan.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9676,7 +9676,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
-        <translation>Var&amp;jo:</translation>
+        <translation>V&amp;arjo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="790"/>
@@ -9769,7 +9769,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Default scale</source>
-        <translation>Oletus skaalaus</translation>
+        <translation>Oletusskaalaus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
@@ -9794,7 +9794,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Olet&amp;us skaalaus:</translation>
+        <translation>Olet&amp;usskaalaus:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9877,7 +9877,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation>Alipäästö5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -9897,7 +9897,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation>Lisääjä</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
