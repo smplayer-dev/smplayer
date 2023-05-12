@@ -2190,8 +2190,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("cache", QString::number(cache));
 	}
 
-	if (mset.speed != 1.0) {
-		proc->setOption("speed", QString::number(mset.speed));
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	if (speed != 1.0) {
+		proc->setOption("speed", QString::number(speed));
 	}
 
 	if (mdat.type != TYPE_TV) {
@@ -3358,7 +3359,11 @@ void Core::setSpeed( double value ) {
 	if (value < 0.10) value = 0.10;
 	if (value > 100) value = 100;
 
-	mset.speed = value;
+	if (pref->global_speed) {
+		pref->speed = value;
+	} else{
+		mset.speed = value;
+	}
 	proc->setSpeed(value);
 
 	displayMessage( tr("Speed: %1").arg(value) );
@@ -3366,42 +3371,50 @@ void Core::setSpeed( double value ) {
 
 void Core::incSpeed10() {
 	qDebug("Core::incSpeed10");
-	setSpeed( (double) mset.speed + 0.1 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed + 0.1 );
 }
 
 void Core::decSpeed10() {
 	qDebug("Core::decSpeed10");
-	setSpeed( (double) mset.speed - 0.1 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed - 0.1 );
 }
 
 void Core::incSpeed4() {
 	qDebug("Core::incSpeed4");
-	setSpeed( (double) mset.speed + 0.04 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed + 0.04 );
 }
 
 void Core::decSpeed4() {
 	qDebug("Core::decSpeed4");
-	setSpeed( (double) mset.speed - 0.04 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed - 0.04 );
 }
 
 void Core::incSpeed1() {
 	qDebug("Core::incSpeed1");
-	setSpeed( (double) mset.speed + 0.01 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed + 0.01 );
 }
 
 void Core::decSpeed1() {
 	qDebug("Core::decSpeed1");
-	setSpeed( (double) mset.speed - 0.01 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed - 0.01 );
 }
 
 void Core::doubleSpeed() {
 	qDebug("Core::doubleSpeed");
-	setSpeed( (double) mset.speed * 2 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed * 2 );
 }
 
 void Core::halveSpeed() {
 	qDebug("Core::halveSpeed");
-	setSpeed( (double) mset.speed / 2 );
+	double speed = pref->global_speed ? pref->speed : mset.speed;
+	setSpeed( (double) speed / 2 );
 }
 
 void Core::normalSpeed() {
