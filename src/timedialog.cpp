@@ -25,7 +25,7 @@ TimeDialog::TimeDialog( QWidget* parent, Qt::WindowFlags f )
 
 	setWindowTitle(tr("SMPlayer - Seek"));
 	time_label->setObjectName("jump_to_label");
-	time_edit->setDisplayFormat("H:mm:ss");
+	time_edit->setDisplayFormat("HH:mm:ss");
 }
 
 TimeDialog::~TimeDialog() {
