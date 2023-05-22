@@ -100,6 +100,7 @@ jobs:
                           -executable=appdir/usr/bin/mpv \
                           -executable=appdir/usr/bin/mplayer \
                           -bundle-non-qt-libs \
+                          -exclude-libs=libgmodule-2.0.so.0 \
                           -appimage --appimage-extract-and-run
     
       - name: Create artifact
