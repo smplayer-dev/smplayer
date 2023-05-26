@@ -83,7 +83,8 @@ jobs:
       - name: Install mplayer
         #if: ${{false}}
         run: |
-            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-mod_1.4-1.${{matrix.config.distro}}_amd64.deb
+            #wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.4-83/mplayer-mod_1.4-1.${{matrix.config.distro}}_amd64.deb
+            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.5-110/mplayer-mod_1.5-1.${{matrix.config.distro}}_amd64.deb
             sudo apt-get -y install ./mplayer*.deb --no-install-recommends
             cp /usr/bin/mplayer smplayer/appdir/usr/bin
             
