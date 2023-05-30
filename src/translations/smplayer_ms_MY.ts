@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="ms_MY">
 <context>
     <name>About</name>
     <message>
@@ -26,7 +24,7 @@
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation>SMPlayer merupakan antaramuka bergrafik untuk %1.</translation>
+        <translation>SMPlayer merupakan antara muka bergrafik untuk %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -61,7 +59,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation>SMPlayer merupakan antaramuka bergrafik untuk %1 dan %2.</translation>
+        <translation>SMPlayer merupakan antara muka bergrafik untuk %1 dan %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
@@ -842,17 +840,17 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Beri sumbangan melalui Paypal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>Bukan &amp;sekarang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tidak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1378,7 +1376,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Untuk memastikan SMPlayer terus menerus dibangunkan dengan fitur-fitur baharu, kami memerlukan bantuan anda.</translation>
+        <translation>Untuk memastikan SMPlayer terus menerus dibangunkan dengan ciri-ciri baharu, kami memerlukan bantuan anda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -3219,7 +3217,7 @@ Contoh: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -5257,13 +5255,14 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1407"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Senarai main salah</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Adalah mustahul dalam memuatkan &apos;%1&apos;.
+Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf atau m3u. &apos;%2&apos; tidak lagi disokong. Sila, pilih yang lain!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1548"/>
@@ -5953,7 +5952,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation>&lt;b&gt;Perhatian 3&lt;/b&gt;: fitur ini masih di dalam pembangunan, dijangka terdapat banyak isu di dalamnya.</translation>
+        <translation>&lt;b&gt;Perhatian 3&lt;/b&gt;: ciri ini masih di dalam pembangunan, dijangka terdapat banyak isu di dalamnya.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
@@ -6119,17 +6118,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>Kekalkan kelajuan terpilih merentasi fail</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, kelajuan terpilih dalam menu Main akan diterapkan untuk semua fail.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Melainkan setiap fail akan menggunakan tetapan kelajuan masing-masing.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6325,7 +6324,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kekalkan kelajuan terpilih merentasi fail</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6711,7 +6710,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Biasanya SMPlayer akan mengingati tetapan bagi setiap fail yang anda main (trek audio terpilih, volum, penapis...). Lumpuhkan pilihan ini jika anda tidak mahu fitur ini.</translation>
+        <translation>Biasanya SMPlayer akan mengingati tetapan bagi setiap fail yang anda main (trek audio terpilih, volum, penapis...). Lumpuhkan pilihan ini jika anda tidak mahu ciri ini.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1153"/>
@@ -6807,7 +6806,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Di sini anda boleh menyatakan folder iaitu tangkap layar yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur tangkap layar akan dilumpuhkan.</translation>
+        <translation>Di sini anda boleh menyatakan folder iaitu tangkap layar yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah ciri tangkap layar akan dilumpuhkan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -7520,7 +7519,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefinterface.cpp" line="158"/>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>Interface</source>
-        <translation>Antaramuka</translation>
+        <translation>Antara muka</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="228"/>
@@ -7531,7 +7530,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="27"/>
         <source>&amp;Interface</source>
-        <translation>&amp;Antaramuka</translation>
+        <translation>&amp;Antara muka</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="58"/>
@@ -7722,7 +7721,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation>SMPlayer boleh skalakan antaramuka dalam skrin DPI tinggi. Di sini anda boleh lumpuhkan fitur ini atau ubah faktor skala.</translation>
+        <translation>SMPlayer boleh skalakan antara muka dalam skrin DPI tinggi. Di sini anda boleh lumpuhkan ciri ini atau ubah faktor skala.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
@@ -7797,22 +7796,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;GUI Asas&lt;/b&gt; menyediakan antaramuka tradisional, dengan palang alat dan palang kawalan.</translation>
+        <translation>&lt;b&gt;GUI Asas&lt;/b&gt; menyediakan antara muka tradisional, dengan palang alat dan palang kawalan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;GUI Mini&lt;/b&gt; menyediakan antaramuka yang lebih ringkas, tanpa palang alat dan palang kawalan dengan sedikit butang.</translation>
+        <translation>&lt;b&gt;GUI Mini&lt;/b&gt; menyediakan antara muka yang lebih ringkas, tanpa palang alat dan palang kawalan dengan sedikit butang.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>&lt;b&gt;GUI Boleh Dikulitkan&lt;/b&gt; menyediakan antaramuka yang mana kulit tersedia.</translation>
+        <translation>&lt;b&gt;GUI Boleh Dikulitkan&lt;/b&gt; menyediakan antara muka yang menyajikan pelbagai jenis kulit.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation>&lt;b&gt;GUI Mpc&lt;/b&gt; kelihatan seperti antaramuka Pemain Media Klasik.</translation>
+        <translation>&lt;b&gt;GUI Mpc&lt;/b&gt; kelihatan seperti antara muka Pemain Media Klasik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="877"/>
@@ -10167,17 +10166,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

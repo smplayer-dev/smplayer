@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="fi">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lahjoita käyttäen PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ei nyt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -3219,7 +3217,7 @@ Esimerkki: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ladattua tiedostoa ei voitu tallentaa
@@ -5257,13 +5255,14 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../playlist.cpp" line="1407"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Väärä soittolista</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Lataaminen &quot;%1&quot; epäonnistui.
+Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &quot;%2&quot; ei ole tuettu. Ole hyvä ja valitse uudelleen!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1548"/>
@@ -6054,7 +6053,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
         <source>Multimedia engine</source>
-        <translation>Multimediamoottori</translation>
+        <translation>Multimedia moottori</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1085"/>
@@ -6119,17 +6118,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>Säilytä valittu nopeus eri tiedostojen välillä</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos valittuna, &quot;Toista valikon&quot; valittua nopeutta sovelletaan kaikkiin tiedostoihin.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuten jokainen tiedosto käyttää omaa nopeusasetustaan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6305,7 +6304,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>Multim&amp;ediamoottori:</translation>
+        <translation>Multim&amp;edia moottori:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
@@ -6325,7 +6324,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Säilytä valittu nopeus tiedostojen välillä</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6545,12 +6544,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="842"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Nopeutettu &amp;toisto ilman muuttuvaa äänenkorkeutta</translation>
+        <translation>Korkea nopeus &amp;toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1295"/>
         <source>High speed playback without altering pitch</source>
-        <translation>Nopeutettu toisto ilman muuttuvaa äänenkorkeutta</translation>
+        <translation>Korkea nopeus toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="355"/>
@@ -7049,7 +7048,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
-        <translation>&amp;Rullan toiminto:</translation>
+        <translation>&amp;Rukkan toiminto:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
@@ -7682,7 +7681,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>Pysäytyspai&amp;nikkeen painaminen nollaa katselukohdan</translation>
+        <translation>Pysäytyspai&amp;nikkeen painaminen nollaa aika-asennon</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -7989,7 +7988,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation>Pysäytys -painikkeen painaminen nollaa katselukohdan</translation>
+        <translation>Pysäytys -painikkeen painaminen nollaa aika-asennon</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
@@ -8728,7 +8727,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Välimuistin asettaminen saattaa parantaa suorituskykyä hitaalla medialla</translation>
+        <translation>Valimuistin asettaminen saattaa parantaa suorituskykyä hitaalla medialla</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -9127,12 +9126,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation>Näytä median nimi tiedostonimen sijaan</translation>
+        <translation>Näytä otsikon nimi tiedostonimen sijaan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation>Soittolistassa näkyy median nimi (jos sellainen on) tiedostonimen sijaan.</translation>
+        <translation>Soittolistassa näkyy nimi (jos sellainen on) tiedostonimen sijaan.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9709,7 +9708,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="750"/>
         <source>Shado&amp;w:</source>
-        <translation>V&amp;arjo:</translation>
+        <translation>Var&amp;jo:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="790"/>
@@ -9802,7 +9801,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Default scale</source>
-        <translation>Oletusskaalaus</translation>
+        <translation>Oletus skaalaus</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
@@ -9827,7 +9826,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Olet&amp;usskaalaus:</translation>
+        <translation>Olet&amp;us skaalaus:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9910,7 +9909,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation>Lowpass5</translation>
+        <translation>Alipäästö5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -9930,7 +9929,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation>Kerndeint</translation>
+        <translation>Lisääjä</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -10167,19 +10166,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekuntia</numerusform>
-            <numerusform>%n sekuntia</numerusform>
-        </translation>
+        <translation><numerusform>%n sekuntia</numerusform><numerusform>%n sekuntia</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuuttia</numerusform>
-            <numerusform>%n minuuttia</numerusform>
-        </translation>
+        <translation><numerusform>%n minuuttia</numerusform><numerusform>%n minuuttia</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

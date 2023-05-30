@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="ja">
 <context>
     <name>About</name>
     <message>
@@ -3219,7 +3217,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -5257,13 +5255,14 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1407"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>正しくないプレイリスト</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; を読み込むことができませんでした。
+プレイリストのファイル名は pls、xspf または m3u の接尾辞で終わる必要があります。&apos;%2&apos; はサポートされていません。選択し直してください!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1548"/>
@@ -6119,17 +6118,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル間で選択された速度を維持する</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合、[再生] メニューで選択された速度はすべてのファイルに適用されます。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>有効でない場合は各ファイルが独自の速度設定を使用します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6325,7 +6324,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル間で選択された速度を維持する(&amp;K)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -10167,17 +10166,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

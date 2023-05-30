@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="hu">
 <context>
     <name>About</name>
     <message>
@@ -842,17 +840,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adományozzon a PayPal segítségével</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Most nem</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nem</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1025,7 +1023,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
@@ -1268,7 +1266,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="2122"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Forgatás 1&amp;80 fokkal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2136"/>
@@ -1366,10 +1364,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Az SMPlayer támogatása</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Nem</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>Az SMPlayer-nek szüksége van rád</translation>
@@ -1397,17 +1391,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation>A youtube-dl folyamat hibába ütközött hiányzó könyvtár fájlok miatt.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valószínűleg a következőt telepítened kell: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation>a Microsoft Visual C++ 2010 Redistributable Package</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6159"/>
@@ -1428,13 +1422,9 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>%1 futása váratlanul megszakadt.</translation>
     </message>
     <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Támogatás küldése a PayPalen keresztül</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehetőséged van kriptovalutával is adakozni.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6191"/>
@@ -2269,7 +2259,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="158"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiba történt a fájl letöltésekor:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
@@ -2279,17 +2269,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nem sikerült kommunikálni a külső YouTube alkalmazással. Vagy nincs telepítve, vagy nem működik megfelelően.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehet, hogy frissítened kell a YouTube kódot.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube videók lejátszásához, %1-nek a &quot;youtube-dl&quot; nevű külső alkalmazásra van szüksége.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
@@ -2299,7 +2289,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="178"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Könnyedén frissítheti az SMPlayer újratelepítésével. A telepítő letölti és feltelepíti a legújabb verziót.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="180"/>
@@ -2309,17 +2299,17 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube videók lejátszásához, %1-nek külső alkalmazás segítségére van szüksége.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="243"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 letölti és telepíteni tudja önnek ezt az alkalmazást.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="244"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le lesz töltve a hivatalos oldalról és telepítve lesz a következőképp: %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="245"/>
@@ -3230,7 +3220,7 @@ Példa: extrastereo,karaoke </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nem sikerült elmenteni a letöltött fájlt a %1 könyvtárba. Ellenőrizze a könyvtár jogosultságait.</translation>
@@ -4029,7 +4019,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation>BokmÃ¥l</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4245,7 +4235,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation>VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -5139,7 +5129,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"></translation>
+        <translation>Kevert sorrend</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="725"/>
@@ -5266,13 +5256,14 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlist.cpp" line="1407"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Rossz lejátszási lista</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem sikerült betölteni a következőt: &apos;%1&apos;.
+A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződnie, ami pls, xspf vagy m3u. A &apos;%2&apos; nem támogatott. Kérjük, válasszon még egyszer!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1548"/>
@@ -5401,7 +5392,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Média ne&amp;vének megjelenítése az ablak címsorában</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5571,7 +5562,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha be van jelölve, az SMPlayer tárolja a %1 kimenetét (megtekintheti az &lt;b&gt;Opciók-&gt; Naplók megtekintése -&gt; %1&lt;/b&gt; menüpontban). Problémák esetén ez a napló fontos információkat tartalmazhat, ezért ajánlott ezt az opciót bejelölve tartani.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="587"/>
@@ -5581,7 +5572,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, akkor a %1 napló minden alkalommal, amikor egy új fájl lejátszása kezdődik, a megadott fájlba kerül mentésre. Ez külső alkalmazások számára készült, hogy azok információt kaphassanak az éppen lejátszott fájlról.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="593"/>
@@ -5611,7 +5602,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rövid fájlnevek (8+3) átadása %1-nek</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="519"/>
@@ -5641,12 +5632,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Az MPlayer %1 opciójának használata (biztonsági kockázat)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ennek az opciónak a kikapcsolása csökkentheti a villódzást, de bizonyos körülmények között furcsa képhibákat is produkálhat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5656,17 +5647,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>A képernyő azon pozíciójának beállítása, ahol az OSD-sáv megjelenik. 0 érték a legfelül, 100 a legalul.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Média nevének megjelenítése az ablak címsorában</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, a fájlnév helyett az információs címkékből származó médiacím jelenik meg az ablak címében.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -5676,7 +5667,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha bejelölöd ezt az opciót, a %1 videóablak nem lesz beágyazva az SMPlayer főablakába, hanem saját ablakot fog használni. Vegye figyelembe, hogy az egér- és billentyűzetes eseményeket közvetlenül a %1 fogja kezelni, ami azt jelenti, hogy a billentyűkombinációk és az egérkattintások valószínűleg nem fognak a várt módon működni, amikor a %1 ablakon van a fókusz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="538"/>
@@ -5686,7 +5677,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, akkor egy felugró ablak jelenik meg, amely tájékoztat a %1 összeomlásról. Egyébként ezeket a hibákat a rendszer némán figyelmen kívül hagyja.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
@@ -5696,7 +5687,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, az SMPlayer a fájlnevek rövid változatát adja át a %1-nek.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5706,7 +5697,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Átkapcsolja a %1-et egy olyan kísérleti üzemmódba, amelyben a videoképek időbélyegei másképp kerülnek kiszámításra. Ez a mód támogatja az új képkockákat hozzáadó vagy a meglévők időbélyegét módosító videoszűrőket is. A pontosabb időbélyegek például akkor láthatók, ha a feliratok a jelenetváltásokhoz vannak időzítve bekapcsolt SSA/ASS támogatás mellett. Helyes pts nélkül a felirat időzítése általában néhány képkockával eltér. Ez az opció nem működik megfelelően egyes demuxerekkel és codecekkel.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5947,7 +5938,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, az SMPlayer a dvdnav segítségével fogja lejátszani a DVD-ket. Az MPlayer dvdnav-támogatással rendelkező verziója szükséges.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -6048,17 +6039,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="214"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ide írhatja be a kívánt nyelvet a hang- és feliratfolyamhoz. Ha több hang- vagy feliratfolyamot tartalmazó médiát talál, az SMPlayer megpróbálja az Ön által preferált nyelvet használni. Ez csak olyan médiák esetében működik, amelyek információt adnak a hang- és feliratfolyam nyelvéről, mint például a DVD-k vagy mkv fájlok.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="495"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>hardver</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation>szoftver</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
@@ -6073,7 +6064,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1086"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az &apos;egyéb&apos; opció lehetővé teszi az exe fájl elérési útvonalának manuális kiválasztását.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1089"/>
@@ -6093,7 +6084,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1106"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az online streamek beállításai is megjegyzésre kerülnek.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1121"/>
@@ -6113,7 +6104,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 a videó fájlnevét adja meg a kiterjesztés nélkül, %2 egy négyjegyű, nullákkal kitöltött számot ad hozzá.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1140"/>
@@ -6128,17 +6119,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>A kiválasztott sebesség megtartása a fájlok között</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez a beállítás engedélyezve van, akkor a Lejátszás menüben kiválasztott sebességet alkalmazza az összes fájlra.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ellenkező esetben minden fájl a saját sebességbeállítását használja.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6163,12 +6154,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
         <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez aktivál néhány olyan opciót, amely megakadályozza, hogy a videó a főablakon kívül jelenjen meg.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1198"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez a beállítás engedélyezve van, az újonnan megnyitott fájloknál a kép alapértelmezés szerint fekete keretet kap.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1268"/>
@@ -6254,22 +6245,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1276"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha nincs bejelölve, a hangszínszabályozó értékei minden egyes fájlhoz mentésre kerülnek, és a fájl későbbi lejátszásakor visszatöltődnek.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1279"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation type="unfinished"></translation>
+        <translation>AC3/DTS átvitel S/PDIF-en és HDMI-n keresztül</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Lekéri a lejátszási csatornák számát. A %1 arra kéri a dekódert, hogy a hangot annyi csatornára dekódolja, ahány csatornát megad. Ezután a dekóderen múlik, hogy teljesíti-e a követelményt. Ez általában csak AC3 hanggal rendelkező videók (például DVD-k) lejátszásakor fontos. Ebben az esetben a liba52 alapértelmezés szerint elvégzi a dekódolást, és helyesen lekeveri a hangot a kért számú csatornára. &lt;b&gt;Megjegyzés&lt;/b&gt;: Ezt az opciót a kodekek (csak AC3), a szűrők (surround) és a hangkimeneti vezérlők (legalábbis az OSS) tiszteletben tartják.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1296"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lehetővé teszi a lejátszási sebesség megváltoztatását a hangmagasság megváltoztatása nélkül.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1304"/>
@@ -6334,7 +6325,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kiválasztott sebesség megtartása a fájlok között</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6344,7 +6335,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Wa&amp;yland support</source>
-        <translation type="unfinished"></translation>
+        <translation>Wa&amp;yland támogatás</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
@@ -6489,22 +6480,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1329"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja a hangnyelvi kódok vesszővel elválasztott prioritási listáját. Például: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1333"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a mező támogatja a reguláris kifejezéseket. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; kiválasztja &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; vagy &lt;i&gt;spa&lt;/i&gt; -t.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1341"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation type="unfinished"></translation>
+        <translation>Itt megadhatja a feliratnyelvi kódok vesszővel elválasztott prioritási listáját. Például: spa,eng,jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1344"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a mező támogatja a reguláris kifejezéseket. Például: &lt;b&gt;es|esp|spa&lt;/b&gt; kiválasztja a feliratot ami tartalmazza &lt;i&gt;es&lt;/i&gt;-t, &lt;i&gt;esp&lt;/i&gt;-t vagy &lt;i&gt;spa&lt;/i&gt; -t.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1351"/>
@@ -6569,7 +6560,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezés szerint fe&amp;kete szegélyek hozzáadása a feliratokhoz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="593"/>
@@ -6956,12 +6947,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="503"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>snap mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="504"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>slower dive mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="392"/>
@@ -6984,12 +6975,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="84"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Multimédiás billentyűk használata globális gyorsbillentyűként</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="107"/>
         <source>Select &amp;keys...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Billentyűk kiválasztása...</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="117"/>
@@ -7004,12 +6995,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="364"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hú&amp;zás funkció:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="406"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Dupla &amp;kattintás ne indítsa el a bal kattintáshoz rendelt funkciót</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
@@ -7406,7 +7397,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="393"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, a multimédiás billentyűk (Lejátszás, Stop, Hangerő+/-, Némítás stb.) akkor is működnek, ha az SMPlayer a háttérben fut.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
@@ -7416,7 +7407,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="418"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció szabályozza, hogy mi történjen, ha az egeret a bal gomb lenyomása közben mozgatjuk.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="419"/>
@@ -7436,12 +7427,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="427"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, akkor a videó területén való dupla kattintáskor csak a dupla kattintás funkció lesz aktiválva. A bal oldali kattintás művelet nem lesz aktiválva.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="430"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha engedélyezed ezt az opciót, a bal oldali kattintás %1 milliszekundumot késik, mert ennyi időt kell várni, hogy megtudjuk, hogy dupla kattintás történt-e vagy sem.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="103"/>
@@ -7691,7 +7682,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>A stop &amp;gomb egyszeri megnyomása alaphelyzetbe állítja az időpozíciót.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -7731,12 +7722,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="965"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az SMPlayer képes skálázni a felületet a nagy DPI-jű képernyőkön. Itt kikapcsolhatja ezt a funkciót, vagy megváltoztathatja a méretezési tényezőt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="975"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nagy DPI-képernyők támogatásának engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="985"/>
@@ -7811,7 +7802,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &lt;b&gt;Mini GUI&lt;/b&gt; egyszerűbb felületet biztosít, eszköztár nélkül és néhány gombot tartalmazó vezérlősávval.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
@@ -7821,7 +7812,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az &lt;b&gt;Mpc GUI&lt;/b&gt; úgy néz ki, mint a Media Player Classic felülete.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="877"/>
@@ -7861,7 +7852,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="263"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel a&amp;rány:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
@@ -7896,7 +7887,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a kívánt témát az alkalmazáshoz. Csak a témázható grafikus felhasználói felületen érhető el.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
@@ -7926,7 +7917,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer megpróbálja a rendszer natív fájl párbeszédpanelét használni. Ellenkező esetben a belső párbeszédpanelt fogja használni.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -8008,7 +7999,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez a beállítás be van jelölve, a lebegő vezérlő csak akkor jelenik meg, ha az egeret a képernyő aljára mozgatja. Ellenkező esetben a vezérlőelem mindig megjelenik, amikor az egeret mozgatjuk, függetlenül annak pozíciójától.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -8043,7 +8034,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="885"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a &lt;b&gt;Megnyitás-&gt;URL&lt;/b&gt; párbeszédpanel által megjegyzendő elemek maximális számát. Állítsa 0-ra, ha nem szeretné, hogy egyetlen URL-cím sem kerüljön tárolásra.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="889"/>
@@ -8064,12 +8055,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a csúszkával történő keresés során használandó módszert. Az abszolút keresés egy kicsit pontosabb lehet, míg a relatív keresés jobban működhet rossz hosszúságú fájlok esetén.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezés szerint a leállítás gomb megnyomásakor az időpozíció megjegyzésre kerül, így ha megnyomja a lejátszás gombot, a média ugyanazon a ponton folytatódik. Az időpozíció visszaállításához kétszer kell megnyomnia a stop gombot, de ha ez az opció be van jelölve, akkor az időpozíció a stop gomb egyszeri megnyomásával 0-ra áll be.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="839"/>
@@ -8224,7 +8215,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;lőnyben részesített minőség:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
@@ -8239,7 +8230,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;daptív streamek használata (akár 4K felbontás)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
@@ -8254,12 +8245,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube támogató alkalmazás</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="259"/>
@@ -8269,7 +8260,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="271"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Az ebben a szakaszban végrehajtott változtatások a webkiszolgáló következő újraindításakor kerülnek alkalmazásra.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="291"/>
@@ -8284,7 +8275,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Annak érdekében, hogy a helyi médiát erről a számítógépről a Chromecastra küldje, az SMPlayer egy apró webkiszolgálót fog futtatni. Itt beállíthat néhány ehhez kapcsolódó beállítást.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="371"/>
@@ -8304,12 +8295,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="416"/>
         <source>Try to &amp;remove advertisements</source>
-        <translation type="unfinished"></translation>
+        <translation>Próbálja meg &amp;eltávolítani a hirdetéseket</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="425"/>
         <source>Position of &amp;subtitles on screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Feliratok helyzete a képernyőn:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="480"/>
@@ -8335,7 +8326,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"></translation>
+        <translation>AV&amp;1 codec támogatása</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8370,7 +8361,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>csak azokon az oldalakon próbálja meg használni az mpv + youtube-dl-t, amelyek ezt igénylik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
@@ -8415,17 +8406,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>a videóoldalak támogatása ki van kapcsolva</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>csak a belső YouTube támogatás lesz használva</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="338"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv + youtube-dl-t használ minden oldalhoz</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8435,12 +8426,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="345"/>
         <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció a youtube-dl által kezelt videostreamek preferált minőségét határozza meg.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>selects the best video and audio streams available</source>
-        <translation type="unfinished"></translation>
+        <translation>kiválasztja az elérhető legjobb videó- és hangfolyamokat</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="111"/>
@@ -8451,17 +8442,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation>yt-dlp (youtube-dl-re alapozva, további fejlesztésekkel)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Egyéb</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
         <source>selects the best quality format available as a single file</source>
-        <translation type="unfinished"></translation>
+        <translation>kiválasztja az egyetlen fájlként elérhető legjobb minőségű formátumot</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -8471,12 +8462,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
         <source>will try to use the selected resolution if available</source>
-        <translation type="unfinished"></translation>
+        <translation>megpróbálja használni a kiválasztott felbontást, ha rendelkezésre áll</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="350"/>
         <source>selects the worst quality format available</source>
-        <translation type="unfinished"></translation>
+        <translation>a legrosszabb elérhető minőséget választja</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="359"/>
@@ -8486,17 +8477,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válassza ki a kívánt minőséget YouTube videókhoz.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Adaptív streamek használata</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció lehetővé teszi az adaptív adatfolyamokat, amelyek akár 4K felbontású videókat is képesek biztosítani.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
@@ -8506,12 +8497,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció lehetővé teszi a 60 képkocka/másodperc sebességű streamelést, ha rendelkezésre áll.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Az SMPlayer által a YouTube-hoz való csatlakozáskor használt felhasználói ügynök beállítása.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="385"/>
@@ -8526,12 +8517,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="388"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>A számítógép helyi IP-címe. Ezt adja át a Chromecastnak, hogy az hozzáférhessen a fájlokhoz erről a számítógépről.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="392"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>A port amit a web szerver fog használni.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="394"/>
@@ -8541,7 +8532,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="395"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha a webkiszolgáló fut, a hálózat bármely eszköze hozzáférhet a fájlokhoz erről a számítógépről. Ha ez a beállítás be van kapcsolva, akkor bármely eszköz megkaphatja az ezen a számítógépen lévő fájlok listáját. Ha ez a beállítás ki van kapcsolva, a lista nem lesz elérhető.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="401"/>
@@ -8551,7 +8542,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="402"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer automatikusan átalakítja az SRT formátumú feliratfájlokat VTT formátumba. A VTT felirat ugyanazzal a fájlnévvel, de .vtt kiterjesztéssel fog rendelkezni.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="405"/>
@@ -8561,7 +8552,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="406"/>
         <source>If this option is enabled SMPlayer will overwrite existing VTT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van kapcsolva, az SMPlayer felül fogja írni a már létező VTT fájlokat.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="408"/>
@@ -8571,7 +8562,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="409"/>
         <source>If this option is enabled SMPlayer will try to find advertisements in the subtitles and remove them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer megpróbálja megtalálni a reklámokat a feliratokban, és eltávolítja azokat.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="412"/>
@@ -8581,12 +8572,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="413"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a beállítás beállítja a képernyőn a feliratok megjelenítési helyét.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="414"/>
         <source>0 is the top of the screen, 100 is the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>0 a képernyő teteje, 100 a képernyő alja.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="415"/>
@@ -8862,7 +8853,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Válasszon egy prioritást a lejátszó folyamathoz.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -8908,7 +8899,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>A %1 folyamat prioritásának beállítása a Windows alatt elérhető előre meghatározott prioritások szerint. Figyelmeztetés: A valós idejű prioritás használata a rendszer lefagyásához vezethet.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -8918,7 +8909,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beállítja a hardveres videódekódoló API-t. Ha a hardveres dekódolás nem lehetséges, akkor a szoftveres dekódolás lesz használva.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
@@ -8998,7 +8989,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Általában ez az opció engedélyezi a gyorsítótárat, ha szükséges.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="400"/>
@@ -9101,12 +9092,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszás indítása a lejátszási lista betöltése után</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lejátszás elindul amint betöltődik a lejátszási lista.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
@@ -9116,7 +9107,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="201"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mikor egy fájl a végéhez ér, a következő fájl automatikusan lejátszásra kerül.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
@@ -9126,7 +9117,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlok automatikus hozzáadása a lejátszási listához</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="213"/>
@@ -9136,22 +9127,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Cím név megjelenítése fájlnév helyett</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lejátszási lista a fájlnév helyett a címet fogja megjeleníteni (ha van).</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>A lejátszási lista ablak dokkolható</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="238"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, a lejátszási lista ablakot a főablakon belülre lehet dokkolni. Ellenkező esetben a lejátszási lista egy normál ablak lenne.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="241"/>
@@ -9166,7 +9157,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="244"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, a lista a fájlok hozzáadása után automatikusan rendeződik.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="246"/>
@@ -9176,17 +9167,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="247"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az opció határozza meg, hogy a lejátszási listában a keresés nagy- és kisbetű érzékeny legyen-e vagy sem.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="249"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation>A lejátszási lista másolatának mentése kilépéskor</translation>
+        <translation>Kilépéskor mentsen egy másolatot a lejátszó listáról</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="250"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, a lejátszási lista egy másolata az SMPlayer bezárásakor a konfigurációs fájlba kerül, és automatikusan újra betöltődik, amikor az SMPlayer újra elindul.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="255"/>
@@ -9196,7 +9187,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="256"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezzel a beállítással engedélyezheti a fájlok lemezről való törlésének lehetőségét a lejátszási lista kontextusmenüjében. A véletlen törlések elkerülése érdekében ez az opció alapértelmezés szerint le van tiltva.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="215"/>
@@ -9236,7 +9227,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="214"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezzel az opcióval automatikusan hozzáadhat fájlokat a lejátszási listához:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="227"/>
@@ -9261,12 +9252,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje be ezt az opciót, ha azt szeretné, hogy egy könyvtár hozzáadása rekurzív módon hozzáadja az alkönyvtárakban lévő fájlokat is. Ellenkező esetben csak a kiválasztott könyvtárban lévő fájlok kerülnek hozzáadásra.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="228"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje be ezt az opciót, ha szeretné, hogy a lejátszási listához hozzáadandó fájlokról a szoftver lekérjen némi információt. Ez lehetővé teszi a fájlok címének (ha van) és hosszának megjelenítését. Egyébként ez az információ nem lesz elérhető, amíg a fájl ténylegesen lejátszásra nem kerül. Vigyázat: ez az opció lassú lehet, különösen, ha sok fájlt ad hozzá.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -9286,17 +9277,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>L&amp;ejátszás indítása a lejátszási lista betöltése után</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Következő &amp;fájl lejátszása automatikusan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Lejátszási &amp;hibák figyelmen kívül hagyása</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -9306,7 +9297,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Fá&amp;jlok automatikus hozzáadása a lejátszási listához</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9321,12 +9312,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Cím név megjelenítése &amp;fájlnév helyett</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"></translation>
+        <translation>A lejátszási lista ablak &amp;dokkolható</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="185"/>
@@ -9336,22 +9327,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;uto rendezés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="198"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Nagybetű é&amp;rzékeny keresés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="205"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kilépéskor mentsen egy másolatot a lejátszó listáról</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="212"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Lemezről történő fájltörlés &amp;engedélyezése</translation>
     </message>
 </context>
 <context>
@@ -9413,7 +9404,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Összes felirat amely a film nevét tartalmazza</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -9533,12 +9524,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, a Windows rendszer betűtípusai lesznek elérhetőek a feliratokhoz. Van egy kellemetlenség: létre kell hozni egy betűtípus-cache-t, ami eltarthat egy ideig.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="446"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció nincs bejelölve, akkor csak néhány, az SMPlayerrel csomagolt betűtípus használható, de ez gyorsabb.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
@@ -9633,7 +9624,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Stílus alkalmazása ASS fájlokra is</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -9723,7 +9714,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="790"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;tílus alkalmazása ASS fájlokra is</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="839"/>
@@ -9786,12 +9777,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van kapcsolva, a feliratok kódolását megpróbálja automatikusan felismerni az adott nyelvhez. Ha az automatikus felismerés sikertelen, akkor az alapértelmezett kódolásra tér vissza. Ehhez az opcióhoz ENCA-támogatással rendelkező %1 szükséges.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="436"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezt az opciót általában ne kapcsolja ki. Csak akkor tegye meg, ha a %1-et freetype támogatás nélkül fordították le. &lt;b&gt;Ezen opció kikapcsolása azt eredményezheti, hogy a feliratok egyáltalán nem fognak működni!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
@@ -10012,7 +10003,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer ellenőrzi a frissítéseket, és értesítést jelenít meg, ha új verzió érhető el.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -10032,7 +10023,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, egy-egy frissítés után egy tájékoztató oldal fog megjelenni az SMPlayerről.</translation>
     </message>
 </context>
 <context>
@@ -10176,17 +10167,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n másodperc</numerusform>
-        </translation>
+        <translation><numerusform>%n másodperc</numerusform><numerusform>%n másodperc</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n perc</numerusform>
-        </translation>
+        <translation><numerusform>%n perc</numerusform><numerusform>%n perc</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
@@ -10239,7 +10226,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="127"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>megnyitja a guit a témák támogatásával.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -10254,7 +10241,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>beállítja az első videó médiacímét.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
@@ -10269,12 +10256,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"></translation>
+        <translation>megadja az első lejátszandó fájl kezdési időpontját (másodpercben). Érvényes ó:p:mp és p:mp is.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &apos;media&apos; bármilyen fájl, amelyet az SMPlayer meg tud nyitni. Ez lehet helyi fájl, DVD (pl. dvd://1), internetes stream (pl. mms://....) vagy helyi lejátszási lista m3u vagy pls formátumban.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10313,7 +10300,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Támogathatod az SMPlayert adományok küldésével vagy barátaiddal való megosztásával.</translation>
     </message>
 </context>
 <context>
@@ -10440,7 +10427,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Címsor pörgetése</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>
@@ -10478,17 +10465,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Párhuzamosan egymás mellett (bal szem balra, jobb szem jobbra)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresztszem egymás mellett (jobb szem balra, bal szem jobbra)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Egymás mellett, fél szélességű felbontással (bal szem balra, jobb szem jobbra)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
@@ -10498,32 +10485,32 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Felülről lefelé (bal szem fent, jobb szem lent)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Felülről lefelé (jobb szem fent, bal szem lent)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fentről lefelé fél magasságú felbontással (bal szem fent, jobb szem lent)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fentről lefelé fél magasságú felbontással (jobb szem fent, bal szem lent)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif vörös/cyan szürke</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif vörös/cián félig színes</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
@@ -10533,47 +10520,47 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>A Dubois-féle legkisebb négyzetek vetületével optimalizált vörös/cián színű anaglifák</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif zöld/magenta szürke</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif zöld/magenta félig színes</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif zöld/magenta színű</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif sárga/kék szürke</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif sárga/kék félig színes</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif sárga/kék színű</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>Átlapolt sorok (a bal szem a felső sorban, a jobb szem a következő sorban kezdődik)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>Átlapolt sorok (a jobb szem a felső sorban, a bal szem a következő sorban kezdődik)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
@@ -10725,12 +10712,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 az 1-ben visszatekerés</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="269"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 az 1-ben előretekerés</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>

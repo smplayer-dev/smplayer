@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="pl">
 <context>
     <name>About</name>
     <message>
@@ -183,7 +181,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
         <source>Type to search</source>
-        <translation>Wpisz aby wyszukać</translation>
+        <translation>Wpisz, aby wyszukać</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="516"/>
@@ -842,17 +840,17 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dotacja przez PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nie teraz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -990,7 +988,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1757"/>
         <source>Fra&amp;me back step</source>
-        <translation>Krok &amp;wstecz</translation>
+        <translation>Krok klatki &amp;wstecz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1776"/>
@@ -1081,7 +1079,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1914"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation>Zainstaluj / zaktualizuj obsługę &amp;YouTube</translation>
+        <translation>Zainstaluj lub zaktualizuj obsługę &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
@@ -1207,7 +1205,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1986"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Pokaż &amp;info w menu ekranowym</translation>
+        <translation>Pokaż &amp;informacje w menu ekranowym</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1987"/>
@@ -1366,10 +1364,6 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <translation>Wesprzyj SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Nie</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer Cię potrzebuje</translation>
@@ -1382,12 +1376,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Aby opracować nowe funkcje SMPlayera, potrzebujemy twojej pomocy.</translation>
+        <translation>Aby opracować nowe funkcje SMPlayera, potrzebujemy Twojej pomocy.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>Proszę weź pod uwagę wsparcie projektu SMPlayera dokonując dotacji.</translation>
+        <translation>Proszę weź pod uwagę wsparcie projektu SMPlayera, dokonując dotacji.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4645"/>
@@ -1397,17 +1391,17 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proces youtube-dl zakończył się niepowodzeniem z powodu brakujących bibliotek.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prawdopodobnie będzie potrzeba zainstalować %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation>Pakiet redystrybucyjny Microsoft Visual C++ 2010</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6159"/>
@@ -1428,18 +1422,14 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <translation>%1 nieoczekiwanie zakończył pracę.</translation>
     </message>
     <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Wpłać za pomocą PayPal</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możliwe jest również przekazywanie darowizn za pomocą kryptowalut.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6191"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation>Uruchomienie elementu youtube-dl nie powiodło się.</translation>
+        <translation>Uruchomienie komponentu youtube-dl nie powiodło się.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -1449,7 +1439,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="6194"/>
         <source>Click here to get it</source>
-        <translation>Do pobrania, kliknij tutaj.</translation>
+        <translation>Kliknij tutaj, aby to pobrać</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6212"/>
@@ -1460,7 +1450,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="6221"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation>Proszę sprawdź w ustawieniach ścieżkę do programu %1.</translation>
+        <translation>Proszę sprawdzić w ustawieniach ścieżkę do programu %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6223"/>
@@ -1481,7 +1471,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="6329"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation>Uruchomienie przeglądarki Youtube nie powiodło się.</translation>
+        <translation>Uruchomienie przeglądarki YouTube nie powiodło się.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6330"/>
@@ -2220,7 +2210,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation>Serwer internetowy SMPlayer jest uruchomiony</translation>
+        <translation>Serwer sieciowy SMPlayer jest uruchomiony</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
@@ -2279,17 +2269,17 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nie może skomunikować się z zewnętrzną aplikacją YouTube. Albo nie jest zainstalowany, albo nie działa poprawnie.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"></translation>
+        <translation>Może musisz zaktualizować kod YouTube.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation>Aby odtwarzać filmy z YouTube, %1 potrzebuje zewnętrznej aplikacji o nazwie youtube-dl.</translation>
+        <translation>Aby odtwarzać filmy z YouTube,%1 potrzebuje zewnętrznej aplikacji o nazwie youtube-dl.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
@@ -2309,7 +2299,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby odtwarzać filmy z YouTube, %1 potrzebuje pomocy zewnętrznej aplikacji.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="243"/>
@@ -2319,7 +2309,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../youtube/codedownloader.cpp" line="244"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zostanie pobrany z oficjalnej strony internetowej i zainstalowany jako %1.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="245"/>
@@ -2577,12 +2567,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="727"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Edycja m&amp;ini paska kontroli</translation>
+        <translation>Edycja m&amp;inipaska kontroli</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="728"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj panel kontrolny (&amp;f)</translation>
+        <translation>Ed&amp;ytuj panel kontrolny</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="774"/>
@@ -2609,7 +2599,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation>Ups, coś poszło nie tak...</translation>
+        <translation>Ups, coś poszło nie tak</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
@@ -2730,13 +2720,13 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Jump to item</source>
-        <translation>Skocz do pliku</translation>
+        <translation>Skocz do pozycji</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="375"/>
         <location filename="../favorites.cpp" line="379"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Wpisz numer rzeczy, do której przeskoczyć:</translation>
+        <translation>Wpisz numer pozycji, do którego przeskoczyć:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2805,7 +2795,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../filepropertiesdialog.ui" line="66"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>Wybierz demuksera dla tego pliku (&amp;s):</translation>
+        <translation>Wybierz dem&amp;uksera dla tego pliku:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="106"/>
@@ -2976,7 +2966,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="235"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation>Serwer &amp;otwartych napisów:</translation>
+        <translation>Serwer &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="113"/>
@@ -2996,7 +2986,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation>Poświadczenia Opensubtitles</translation>
+        <translation>Poświadczenia OpenSubtitles</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -3038,7 +3028,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="252"/>
         <source>Number of &amp;retries:</source>
-        <translation>Ilość &amp;powtórzeń:</translation>
+        <translation>Liczba &amp;powtórzeń:</translation>
     </message>
 </context>
 <context>
@@ -3227,7 +3217,7 @@ Przykład: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -4028,7 +4018,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmál</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4244,7 +4234,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4391,7 +4381,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="325"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Słowiański/Środkowoeuropejski - Windows</translation>
+        <translation>Słowiański/środkowoeuropejski - Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="326"/>
@@ -4915,7 +4905,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../minigui.cpp" line="185"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj panel kontrolny (&amp;f)</translation>
+        <translation>&amp;Edytuj panel kontrolny</translation>
     </message>
 </context>
 <context>
@@ -5088,7 +5078,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../playlist.cpp" line="722"/>
         <source>&amp;Load...</source>
-        <translation>Wczytaj... (&amp;L)</translation>
+        <translation>Wc&amp;zytaj...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="724"/>
@@ -5098,7 +5088,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../playlist.cpp" line="763"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation>Odtwórz w Chromec&amp;ascie</translation>
+        <translation>Odtwórz poprzez Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="765"/>
@@ -5108,7 +5098,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../playlist.cpp" line="781"/>
         <source>Load/Save</source>
-        <translation>Ładuj/Zapisz</translation>
+        <translation>Ładuj / zapisz</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1745"/>
@@ -5139,7 +5129,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="720"/>
         <source>Shuffle order</source>
-        <translation>Kolejność losowa</translation>
+        <translation>Porządek tasowania</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="725"/>
@@ -5209,7 +5199,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="752"/>
         <source>Remove &amp;selected</source>
-        <translation>Usuń zaznaczony (&amp;s)</translation>
+        <translation>&amp;Usuń zaznaczone</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="753"/>
@@ -5261,18 +5251,19 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="774"/>
         <source>Show shuffle column</source>
-        <translation>Pokaż kolumnę losową</translation>
+        <translation>Pokaż kolumnę tasowania</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1407"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Niewłaściwa lista odtwarzania</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można było załadować &apos;%1&apos;.
+Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls, xspf lub m3u. &apos;%2&apos; nie jest obsługiwane. Proszę wybrać jeszcze raz!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1548"/>
@@ -5386,7 +5377,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>Proporcje ekranu (&amp;m):</translation>
+        <translation>Proporcj&amp;e ekranu:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -5396,12 +5387,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
         <source>O&amp;SD bar position:</source>
-        <translation>Pozycja pa&amp;ska menu ekranowego:</translation>
+        <translation>Pozycja paska O&amp;SD:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetl nazwę &amp;medium w tytule okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5436,7 +5427,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="276"/>
         <source>C&amp;hange...</source>
-        <translation>Zmień... (&amp;h)</translation>
+        <translation>Zm&amp;ień...</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="565"/>
@@ -5551,12 +5542,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>Rebuild index if needed</source>
-        <translation>Jeżeli zajdzie potrzeba przebuduj indeks</translation>
+        <translation>Jeżeli zajdzie potrzeba, przebuduj indeks</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation>Jeżeli zajdzie potrzeba przebuduj &amp;indeks</translation>
+        <translation>Jeżeli zajdzie potrzeba, przebuduj &amp;indeks</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="569"/>
@@ -5651,22 +5642,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>OSD bar position</source>
-        <translation>Pozycja paska menu ekranowego</translation>
+        <translation>Pozycja paska OSD</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation>Ustaw pozycję ekranu, na którym wyświetlany jest pasek menu ekranowego. 0 jest na górze, 100 na dole.</translation>
+        <translation>Ustaw pozycję ekranu, na którym wyświetlany jest pasek OSD. 0 to góa, 100 dół.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetl nazwę medium w tytule okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest włączona, tytuł mediów z tagów informacyjnych będzie wyświetlany w tytule okna zamiast nazwy pliku.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -5762,7 +5753,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="466"/>
         <source>&amp;Network</source>
-        <translation>Sieć (&amp;n)</translation>
+        <translation>&amp;Sieć</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
@@ -5785,7 +5776,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="559"/>
         <source>&amp;Verbose</source>
-        <translation>Pokazuj wszystkie komunikaty (&amp;v)</translation>
+        <translation>Pokazuj wszystk&amp;ie komunikaty</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="575"/>
@@ -5858,7 +5849,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Rodzaj plików obsługiwanych przez SMPlayer:</translation>
+        <translation>Typy plików obsługiwane przez SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5873,7 +5864,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Zaznacz rozszerzenia plików, które ma obsługiwać SMPlayer. Gdy naciśniesz Ok, zaznaczone pliki zostaną skojarzone z SMPlayerem. Jeśli któryś odznaczysz, to skojarzenie pliku zostanie przywrócone do pierwotnych ustawień.</translation>
+        <translation>Zaznacz rozszerzenia plików, które ma obsługiwać SMPlayer. Gdy naciśniesz Zastosuj, zaznaczone pliki zostaną skojarzone z SMPlayerem. Jeśli któryś odznaczysz, to skojarzenie pliku zostanie przywrócone do pierwotnych ustawień.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -5897,7 +5888,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="220"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>Wybierz napęd CD. Będzie on użyty do odtwarzania płyt VCD oraz audio CD.</translation>
+        <translation>Wybierz napęd CD. Będzie on używany do odtwarzania płyt VCD oraz Audio-CD.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
@@ -5947,7 +5938,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation>Jeśli zaznaczono tę opcję, SMPlayer będzie odtwarzał DVD używając dvdnav i dlatego wymagane jest wsparcie dla dvdnav.</translation>
+        <translation>Jeśli zaznaczono tę opcję, SMPlayer będzie odtwarzał DVD, używając dvdnav i dlatego wymagane jest wsparcie dla dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5996,7 +5987,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1228"/>
         <source>Start videos in fullscreen</source>
-        <translation>Start odtwarzania na pełnym ekranie</translation>
+        <translation>Rozpocznij odtwarzanie na pełnym ekranie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1259"/>
@@ -6006,12 +5997,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="176"/>
         <source>7 (6.1 Surround)</source>
-        <translation>7 (Dźwięk przestrzenny 6.1)</translation>
+        <translation>7 (dźwięk przestrzenny 6.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="177"/>
         <source>8 (7.1 Surround)</source>
-        <translation>8 (Dźwięk przestrzenny 7.1)</translation>
+        <translation>8 (dźwięk przestrzenny 7.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="205"/>
@@ -6048,17 +6039,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="214"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
-        <translation>Tutaj możesz ustawić preferowany język napisów i ścieżki dźwiękowej. Jeśli SMPlayer wykryje więcej niż jedną ścieżkę dźwiękową lub napisy, spróbuje użyć preferowanych. Ta funkcja działa tylko z mediami, które podają informację o ścieżkach dźwiękowych i napisach, takimi jak DVD i pliki mkv.</translation>
+        <translation>Tutaj możesz wpisać preferowany język dla strumieni audio i napisów. Po znalezieniu nośnika z wieloma strumieniami audio lub napisów, SMPlayer spróbuje użyć preferowanego języka. Działa to tylko z mediami, które oferują informacje o języku audio i strumieniach napisów, takich jak DVD lub pliki mkv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="495"/>
         <source>hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>sprzętowe</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
         <source>software</source>
-        <translation type="unfinished"></translation>
+        <translation>programowe</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
@@ -6128,17 +6119,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>Zachowaj wybraną prędkość w plikach</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest włączona, prędkość wybrana w menu Odtwarzanie zostanie zastosowana do wszystkich plików.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>W przeciwnym razie każdy plik będzie używał własnego ustawienia prędkości.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6158,7 +6149,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Wayland support</source>
-        <translation>Wsparcie Wayland</translation>
+        <translation>Obsługa Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
@@ -6213,7 +6204,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation>Aby uzyskać pełną listę specyfikatorów szablonu odwiedź ten link:</translation>
+        <translation>Aby uzyskać pełną listę specyfikatorów szablonu, odwiedź ten link:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1136"/>
@@ -6239,7 +6230,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Gdy ta opcja jest zaznaczona wszystkie pliki wideo będą odtwarzane w trybie pełnego ekranu.</translation>
+        <translation>Gdy ta opcja jest zaznaczona, wszystkie pliki wideo będą odtwarzane w trybie pełnego ekranu.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1274"/>
@@ -6259,7 +6250,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1279"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation>Przejście AC3/DTS poprzez S/PDIF i HDMI</translation>
+        <translation>Przekazywanie AC3/DTS poprzez S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1285"/>
@@ -6304,12 +6295,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="1198"/>
         <source>Su&amp;btitles:</source>
-        <translation>Napisy (&amp;b):</translation>
+        <translation>&amp;Napisy:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="462"/>
         <source>&amp;Quality:</source>
-        <translation>Jakość (&amp;Q):</translation>
+        <translation>&amp;Jakość:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
@@ -6334,7 +6325,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zachowaj wybraną prędkość w plikach</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6344,12 +6335,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="414"/>
         <source>Wa&amp;yland support</source>
-        <translation>Wsparcie Wa&amp;yland</translation>
+        <translation>Obsługa Wa&amp;yland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="634"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Start odtwarzania na pełnym ekranie (&amp;f)</translation>
+        <translation>&amp;Rozpocznij odtwarzanie na pełnym ekranie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="648"/>
@@ -6364,7 +6355,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="791"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
-        <translation>Przejście &amp;AC3/DTS poprzez S/PDIF i HDMI</translation>
+        <translation>Przekazywanie &amp;AC3/DTS poprzez S/PDIF i HDMI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="901"/>
@@ -6424,32 +6415,32 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="173"/>
         <source>2 (Stereo)</source>
-        <translation>2 (Stereo)</translation>
+        <translation>2 (stereo)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="174"/>
         <source>4 (4.0 Surround)</source>
-        <translation>4 (4.0 Dźwięk przestrzenny)</translation>
+        <translation>4 (dźwięk przestrzenny 4.0)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="175"/>
         <source>6 (5.1 Surround)</source>
-        <translation>6 (5.1 Dźwięk przestrzenny)</translation>
+        <translation>6 (dźwięk przestrzenny 5.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="806"/>
         <source>C&amp;hannels by default:</source>
-        <translation>Standardowo kanały (&amp;h):</translation>
+        <translation>Sta&amp;ndardowo kanały:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
         <source>&amp;Pause when minimized</source>
-        <translation>&amp;Pauza gdy minimalizujesz</translation>
+        <translation>&amp;Pauzuj, gdy minimalizujesz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Pause when minimized</source>
-        <translation>Pauza gdy minimalizujesz</translation>
+        <translation>Pauzuj, gdy minimalizujesz</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1183"/>
@@ -6489,22 +6480,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1329"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Możesz tutaj określić priorytetową listę kodów języków audio, oddzielonych przecinkami. Na przykład: spa,eng,jpn</translation>
+        <translation>Możesz tu określić listę priorytetów kodów języków audio, oddzielając je przecinkami. Na przykład: spa, eng, jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1333"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>To pole akceptuje regularne wyrażenia. Na przykład: &lt;b&gt;es|esp|spa&lt;/b&gt; będzie dobierać ścieżkę dźwiękową odpowiadającą &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; lub &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>To pole akceptuje wyrażenia regularne. Przykład: &lt;b&gt;es|esp|spa&lt;/b&gt; wybierze ścieżkę audio, jeśli pasuje do &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; lub &lt;i&gt;spa &lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1341"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
-        <translation>Możesz tutaj określić priorytetową listę kodów napisów, oddzielonych przecinkami. Na przykład: spa,eng,jpn</translation>
+        <translation>Możesz tu określić priorytetową listę kodów napisów oddzielonych przecinkami. Na przykład: spa, eng, jpn</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1344"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>To pole akceptuje regularne wyrażenia. Na przykład: &lt;b&gt;es|esp|spa&lt;/b&gt; będzie dobierać strumień napisów odpowiadającemu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; lub &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>To pole akceptuje wyrażenia regularne. Przykład: &lt;b&gt; es|esp| spa&lt;/b&gt; wybierze strumień napisów, jeśli pasuje do &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; lub &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1351"/>
@@ -6534,7 +6525,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="1260"/>
         <source>Audi&amp;o:</source>
-        <translation>Audi&amp;o:</translation>
+        <translation>Dźwię&amp;k:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1214"/>
@@ -6564,7 +6555,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="355"/>
         <source>&amp;Video</source>
-        <translation>Wideo (&amp;v)</translation>
+        <translation>&amp;Wideo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
@@ -6579,7 +6570,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="692"/>
         <source>A&amp;udio</source>
-        <translation>A&amp;udio</translation>
+        <translation>Dź&amp;więk</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="877"/>
@@ -6619,7 +6610,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="184"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (podwójna szybkość klatek)</translation>
+        <translation>Yadif (podwójna liczba klatek)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="185"/>
@@ -6871,7 +6862,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1252"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>Gdy ta opcja jest zaznaczona SMPlayer będzie starał się unikać włączenia wygaszacza ekranu podczas odtwarzania filmu, jednakże będzie on wyświetlany podczas gdy odtwarzasz plik audio, bądź w trybie pauzy. Opcja ta działa tylko jeśli okno SMPlayera jest na wierzchu.</translation>
+        <translation>Gdy ta opcja jest zaznaczona, SMPlayer będzie starał się unikać włączenia wygaszacza ekranu podczas odtwarzania filmu, jednakże będzie on wyświetlany podczas gdy odtwarzasz plik audio, bądź w trybie pauzy. Opcja ta działa tylko jeśli okno SMPlayera jest na wierzchu.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="655"/>
@@ -6901,12 +6892,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1322"/>
         <source>A-V sync correction</source>
-        <translation>Korekcja synchronizacji A-V</translation>
+        <translation>Korekcja synchronizacji audio/wideo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1323"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>Maksymalna korekcja A-V na klatkę (w sekundach)</translation>
+        <translation>Maksymalna korekcja audio/wideo na klatkę (w sekundach)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="962"/>
@@ -6921,12 +6912,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="999"/>
         <source>&amp;Factor:</source>
-        <translation>Współczynnik (&amp;f):</translation>
+        <translation>&amp;Współczynnik:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1035"/>
         <source>A-V sync &amp;correction</source>
-        <translation>Korek&amp;cja synchronizacji A-V</translation>
+        <translation>Korek&amp;cja synchronizacji audio/wideo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1058"/>
@@ -6936,7 +6927,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation>&lt;b&gt;Informacja:&lt;/b&gt; Opcja ta nie będzie używana dla kanałów TV.</translation>
+        <translation>&lt;b&gt;Informacja:&lt;/b&gt; opcja ta nie będzie używana dla kanałów TV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="495"/>
@@ -6946,7 +6937,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1280"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation>Użyj sprzętowego przejścia AC3 (AC3 passthrough).</translation>
+        <translation>Użyj sprzętowego przekazywania AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1281"/>
@@ -7038,12 +7029,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="57"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić, kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę, aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
+        <translation>Tutaj możesz zmienić dowolny klawisz skrótu. Aby to zrobić, kliknij dwukrotnie lub naciśnij klawisz Enter nad komórką skrótu. Opcjonalnie możesz również zapisać listę, aby udostępnić ją innym osobom lub załadować na inny komputer.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="183"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Tutaj możesz zmienić każdy klawisz skrótu. Aby to zrobić, kliknij dwa razy w polu klawisza skrótu i przyporządkuj mu klawisz klawiatury. Dodatkowo możesz także zapisać listę, aby podzielić się nią z innymi lub wykorzystać na innym komputerze.</translation>
+        <translation>Tutaj możesz zmienić dowolny klawisz skrótu. Aby to zrobić, kliknij dwukrotnie lub zacznij pisać w komórce skrótu. Opcjonalnie możesz również zapisać listę, aby udostępnić ją innym osobom lub załadować na inny komputer.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="177"/>
@@ -7058,7 +7049,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="321"/>
         <source>&amp;Wheel function:</source>
-        <translation>Funkcja kółka (&amp;w):</translation>
+        <translation>&amp;Funkcja kółka:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
@@ -7163,7 +7154,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Pause / Frame step</source>
-        <translation>Pauza / Krok ramki</translation>
+        <translation>Pauzuj / Krok klatki</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
@@ -7229,7 +7220,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
-        <translation>Do tyłu (troszkę)</translation>
+        <translation>Do tyłu (krótko)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -7244,7 +7235,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="76"/>
         <source>Go forward (short)</source>
-        <translation>Do przodu (troszkę)</translation>
+        <translation>Do przodu (krótko)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7284,22 +7275,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="408"/>
         <source>X Button 1</source>
-        <translation>Przycisk X 1</translation>
+        <translation>Przycisk X1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="409"/>
         <source>Select the action for the X button 1.</source>
-        <translation>Wybierz funkcję dla przycisku X 1.</translation>
+        <translation>Wybierz funkcję dla przycisku X1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
         <source>X Button 2</source>
-        <translation>Przycisk X 2</translation>
+        <translation>Przycisk X2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="412"/>
         <source>Select the action for the X button 2.</source>
-        <translation>Wybierz funkcję dla przycisku X 2.</translation>
+        <translation>Wybierz funkcję dla przycisku X2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="100"/>
@@ -7464,7 +7455,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefinput.ui" line="466"/>
         <location filename="../prefinput.cpp" line="169"/>
         <source>&amp;Volume control</source>
-        <translation>Kontrola głośności (&amp;v)</translation>
+        <translation>Kontr&amp;ola głośności</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="480"/>
@@ -7500,7 +7491,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.ui" line="437"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>Funkcje kółka myszy (&amp;o)</translation>
+        <translation>Fun&amp;kcje kółka myszy</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
@@ -7591,12 +7582,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="203"/>
         <source>&amp;Medium jump</source>
-        <translation>Średni skok (&amp;m)</translation>
+        <translation>Śr&amp;edni skok</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="204"/>
         <source>&amp;Long jump</source>
-        <translation>Duży skok (&amp;L)</translation>
+        <translation>&amp;Duży skok</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
@@ -7626,7 +7617,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="173"/>
         <source>L&amp;anguage:</source>
-        <translation>Język (&amp;a):</translation>
+        <translation>&amp;Język:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="33"/>
@@ -7641,7 +7632,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>Zabez&amp;pieczenie przed przesunięciem okna poza ekran.</translation>
+        <translation>Zabez&amp;pieczenie przed przesunięciem okna poza ekran</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7651,12 +7642,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
-        <translation>Zapamiętaj pozycję i rozmiar (&amp;e)</translation>
+        <translation>Zapa&amp;miętaj pozycję i rozmiar</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation>S%kórka:</translation>
+        <translation>S&amp;kórka:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
@@ -7666,7 +7657,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="411"/>
         <source>&amp;Change...</source>
-        <translation>Zmień... (&amp;c)</translation>
+        <translation>&amp;Zmień...</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="420"/>
@@ -7676,7 +7667,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="506"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation>Zachowanie suwaka czasu (&amp;b):</translation>
+        <translation>Zachowanie suwaka cza&amp;su:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="523"/>
@@ -7696,12 +7687,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Panel kontrolny pokazuje się w trybie pełnoekranowym gdy wskaźnik myszy zostanie przesunięty.</translation>
+        <translation>Panel kontrolny pokazuje się w trybie pełnoekranowym, gdy wskaźnik myszy zostanie przesunięty.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na dół ekranu (&amp;b)</translation>
+        <translation>Pokaż, gdy &amp;wskaźnik myszy zostanie przesunięty na dół ekranu</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="781"/>
@@ -7716,12 +7707,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="899"/>
         <source>&amp;Max. items</source>
-        <translation>%Maks. pozycji</translation>
+        <translation>&amp;Maks. pozycji</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="938"/>
         <source>&amp;Remember last directory</source>
-        <translation>Pamiętaj ostatni katalog (&amp;r)</translation>
+        <translation>Pam&amp;iętaj ostatni katalog</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="959"/>
@@ -7746,7 +7737,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="991"/>
         <source>A&amp;uto</source>
-        <translation>A&amp;uto</translation>
+        <translation>A&amp;utomatyczne</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1047"/>
@@ -7831,7 +7822,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="880"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation>Wybierz maksymalną ilość pozycji, które zostaną pokazane w podmenu &lt;b&gt;Otwórz-&gt;Ostatnio otwierane pliki&lt;/b&gt;. Jeśli ustawisz 0, menu nie pokaże nic.</translation>
+        <translation>Wybierz maksymalną liczbę pozycji, które zostaną pokazane w podmenu &lt;b&gt;Otwórz-&gt;Ostatnio otwierane pliki&lt;/b&gt;. Jeśli ustawisz 0, menu nie pokaże nic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -7866,12 +7857,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Prevent window to get outside of screen</source>
-        <translation>Zabezpieczenie przed przesunięciem okna poza ekran.</translation>
+        <translation>Zabezpieczenie przed przesunięciem okna poza ekran</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation>Jeśli po automatycznej zmianie rozmiaru, główne okno wyjdzie poza ekran, ta opcja zabezpieczy przed tym przenosząc główne okno na środek </translation>
+        <translation>Jeśli po automatycznej zmianie rozmiaru, główne okno wyjdzie poza ekran, ta opcja zabezpieczy przed tym przenosząc główne okno na środek.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
@@ -7881,7 +7872,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation>Jeśli ta opcja jest włączona, główne okno zostanie wyśrodkowane na pulpicie</translation>
+        <translation>Jeśli ta opcja jest włączona, główne okno zostanie wyśrodkowane na pulpicie.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
@@ -8003,7 +7994,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na dół ekranu</translation>
+        <translation>Pokaż, gdy wskaźnik myszy zostanie przesunięty na dół ekranu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
@@ -8028,7 +8019,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="874"/>
         <source>Time to hide the control</source>
-        <translation>Czas, aby ukryć panel kontrolny:</translation>
+        <translation>Czas, aby ukryć panel kontrolny</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
@@ -8069,7 +8060,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation>Domyślnie, po naciśnięciu przycisku Stop pozycja czasu zostaje zapamiętana, więc jeśli naciśniesz przycisk Odtwarzanie, zostanie ona wznowiona w tym samym czasie. Naciśnij dwukrotnie przycisk Stop, aby zresetować pozycję czasową, jeśli ta opcja jest zaznaczona pozycja czasowa zostanie ustawiona na 0 przy tylko z jednym naciśnięciem przycisku Stop.</translation>
+        <translation>Domyślnie, po naciśnięciu przycisku Zatrzymaj pozycja czasu zostaje zapamiętana, więc jeśli naciśniesz przycisk Odtwarzanie, zostanie ona wznowiona w tym samym czasie. Naciśnij dwukrotnie przycisk Zatrzymaj, aby zresetować pozycję czasową, jeśli ta opcja jest zaznaczona pozycja czasowa zostanie ustawiona na 0 przy tylko z jednym naciśnięciem przycisku Zatrzymaj.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="839"/>
@@ -8094,12 +8085,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>GUI</source>
-        <translation>GUI</translation>
+        <translation>Interfejs graficzny</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="209"/>
         <source>&amp;GUI</source>
-        <translation>&amp;GUI</translation>
+        <translation>Interfejs &amp;graficzny</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
@@ -8134,7 +8125,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Opcja określa ilość pikseli o jaką panel kontrolny będzie oddzielony od dolnej części ekranu. Użyteczne, gdy za ekran służy telewizor, gdyż f. &apos;overscan&apos; może przeszkodzić w widoczności panelu.</translation>
+        <translation>Opcja określa liczbę pikseli, o jaką panel kontrolny będzie oddzielony od dolnej części ekranu. Użyteczne, gdy za ekran służy telewizor, gdyż f. &apos;overscan&apos; może przeszkodzić w widoczności panelu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="867"/>
@@ -8144,7 +8135,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="672"/>
         <source>&amp;Floating control</source>
-        <translation>Ruchomy panel kontrolny (&amp;f)</translation>
+        <translation>Ruch&amp;omy panel kontrolny</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="688"/>
@@ -8154,7 +8145,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="697"/>
         <source>&amp;Width:</source>
-        <translation>Szerokość (&amp;w):</translation>
+        <translation>&amp;Szerokość:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="723"/>
@@ -8171,7 +8162,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="772"/>
         <source>Display in &amp;compact mode too</source>
-        <translation>Pokazuj także w trybie kompaktowym (&amp;c)</translation>
+        <translation>Pokazuj także w trybie kom&amp;paktowym</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="244"/>
@@ -8224,12 +8215,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>P&amp;referred quality:</source>
-        <translation>P&amp;referowana jakość:</translation>
+        <translation>Pr&amp;eferowana jakość:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="118"/>
         <source>Options for YouTube</source>
-        <translation>Opcje dla YouTube</translation>
+        <translation>Opcje YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="126"/>
@@ -8244,7 +8235,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
         <source>Use &amp;60 fps if available</source>
-        <translation>Używaj formatu &amp;60 fps, jeśli dostępny</translation>
+        <translation>Użyj &amp;60 kl./s, jeśli dostępne</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="209"/>
@@ -8254,7 +8245,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikacja obsługi YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8284,7 +8275,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="344"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation>W celu obsługi lokalnych mediów z tego komputera do Chromecasta, SMPlayer uruchomi mały serwer internetowy. Możesz dostosować tutaj niektóre ustawienia.</translation>
+        <translation>W celu obsługi lokalnych mediów z tego komputera do Chromecast, SMPlayer uruchomi mały serwer internetowy. Możesz dostosować tutaj niektóre ustawienia.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="371"/>
@@ -8335,7 +8326,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"></translation>
+        <translation>Zezwalaj na kodek AV&amp;1</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8375,7 +8366,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
-        <translation>Klient użytkownika</translation>
+        <translation>Agent użytkownika</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="92"/>
@@ -8394,7 +8385,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="110"/>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>Best video and audio</source>
-        <translation>Najlepszy obraz i dźwięk</translation>
+        <translation>Najlepsze wideo i audio</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="118"/>
@@ -8420,7 +8411,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation>tylko wewnętrzne wsparcie dla YouTube zostanie wykorzystane </translation>
+        <translation>tylko wewnętrzne wsparcie dla YouTube zostanie wykorzystane</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="338"/>
@@ -8440,7 +8431,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>selects the best video and audio streams available</source>
-        <translation>wybiera najlepsze dostępne strumienie wideo i audio</translation>
+        <translation>wybiera najlepsze dostępne strumienie audio i wideo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="111"/>
@@ -8451,17 +8442,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"></translation>
+        <translation>yt-dlp (na bazie youtube-dl z ulepszeniami)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Inny</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
         <source>selects the best quality format available as a single file</source>
-        <translation>wybiera najlepszy format jakości dostępny jako pojedynczy plik</translation>
+        <translation>wybiera najlepszy dostępny format jakości jako pojedynczy plik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -8486,7 +8477,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="360"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation>Wybierz preferowaną jakość dla filmów wideo z serwisu Youtube.</translation>
+        <translation>Wybierz preferowaną jakość dla filmów wideo z serwisu YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="363"/>
@@ -8501,17 +8492,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="366"/>
         <source>Use 60 fps if available</source>
-        <translation>Używaj formatu 60 fps, jeśli dostępny</translation>
+        <translation>Użyj 60 kl./s, jeśli dostępne</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
         <source>This option enables streams at 60 frames per second if available.</source>
-        <translation>Ta opcja włącza strumienie z prędkością 60 klatek na sekundę, jeśli są dostępne.</translation>
+        <translation>Ta opcja umożliwia strumieniowanie z szybkością 60 klatek na sekundę, jeśli jest dostępne.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="372"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation>Ustaw klient użytkownika, którego SMPlayer będzie używał podczas połączenia się z serwisem YouTube.</translation>
+        <translation>Ustaw agenta użytkownika, którego SMPlayer będzie używał podczas połączenia się z serwisem YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="385"/>
@@ -8526,7 +8517,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="388"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation>Lokalny adres IP tego komputera. Zostanie on przekazany do Chromecastu tak aby mógł on uzyskać dostęp do plików z tego komputera.</translation>
+        <translation>Lokalny adres IP tego komputera. Zostanie on przekazany do Chromecast tak, aby mógł on uzyskać dostęp do plików z tego komputera.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="392"/>
@@ -8551,7 +8542,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="402"/>
         <source>When this option is enabled SMPlayer will convert automatically subtitle files in SRT format to VTT format. The VTT subtitle will have the same filename but extension .vtt</source>
-        <translation>Gdy ta opcja jest włączona SMPlayer będzie automatycznie konwertować pliki napisów w formacie SRT do formatu VTT. Wtedy napisy VTT będą miały taką samą nazwę, ale rozszerzenie .vtt</translation>
+        <translation>Gdy ta opcja jest włączona, SMPlayer będzie automatycznie konwertować pliki napisów w formacie SRT do formatu VTT. Wtedy napisy VTT będą miały taką samą nazwę, ale rozszerzenie .vtt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="405"/>
@@ -8671,7 +8662,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="27"/>
         <source>&amp;Performance</source>
-        <translation>Wydajność (&amp;p)</translation>
+        <translation>&amp;Wydajność</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
@@ -8722,7 +8713,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation>A&amp;uto</translation>
+        <translation>A&amp;utomatyczne</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8747,7 +8738,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatek, aby utrzymać synchronizację A/V na słabszym sprzęcie.</translation>
+        <translation>Wybranie tej opcji powoduje pomijanie wyświetlania niektórych klatek, aby utrzymać synchronizację dźwięku z wideo na słabszym sprzęcie.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8772,7 +8763,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Mocne pomijanie klatek (może spowodować niestabilność wyświetlania) (&amp;h)</translation>
+        <translation>Mocne pomi&amp;janie klatek (może spowodować niestabilność wyświetlania)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
@@ -8797,7 +8788,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Jeśli jest zaznaczone, to program spróbuje użyć szybszej metody wyszukiwania rozdziałów, jednak może to nie działać z niektórymi dyskami.</translation>
+        <translation>Jeśli jest zaznaczone, program spróbuje użyć szybszej metody wyszukiwania rozdziałów, jednak może to nie działać z niektórymi dyskami.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
@@ -8812,7 +8803,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Możliwe wartości:&lt;br&gt; &lt;b&gt;Tak&lt;/b&gt;: będzie próbować szybszej metody przełączania ścieżek audio (może nie działać z niektórymi formatami).&lt;br&gt; &lt;b&gt;Nie&lt;/b&gt;: proces MPlayera zostanie zrestartowany zawsze, gdy zmienisz ścieżkę audio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer będzie decydował, co robić zależnie od wersji MPlayera.</translation>
+        <translation>Możliwe wartości:&lt;br&gt; &lt;b&gt;Tak&lt;/b&gt;: będzie próbować szybszej metody przełączania ścieżek audio (może nie działać z niektórymi formatami).&lt;br&gt; &lt;b&gt;Nie&lt;/b&gt;: proces MPlayera zostanie zrestartowany zawsze, gdy zmienisz ścieżkę audio.&lt;br&gt; &lt;b&gt;Automatyczne&lt;/b&gt;: SMPlayer będzie decydował, co robić zależnie od wersji MPlayera.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="387"/>
@@ -8832,7 +8823,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Ta opcja określa, ile pamięci (w KB) należy użyć dla buforowania URL.</translation>
+        <translation>Ta opcja określa, ile pamięci (w KB) należy użyć dla buforowania adresu URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="395"/>
@@ -8847,7 +8838,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
-        <translation>&amp;Bufor (&amp;c)</translation>
+        <translation>&amp;Bufor</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="448"/>
@@ -8862,7 +8853,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz priorytet procesu odtwarzacza.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -8933,7 +8924,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation>Auto: próbuje automatycznie umożliwić dekodowanie sprzętowe za pomocą pierwszej dostępnej metody.</translation>
+        <translation>Automatycznie: próbuje automatycznie umożliwić dekodowanie sprzętowe za pomocą pierwszej dostępnej metody.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
@@ -8983,12 +8974,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation>Próbuj użyć nie-wolny CoreAVC kodek kiedy nie wybrano innego i wybrano wyjście wideo non-VDPAU</translation>
+        <translation>Próbuj użyć nie-wolny CoreAVC kodek kiedy nie wybrano innego i wybrano wyjście wideo non-VDPAU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation>Wymaga skompilowanego %1 ze wsparciem dla CoreAVC</translation>
+        <translation>Wymaga skompilowanego %1 ze wsparciem dla CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="382"/>
@@ -9003,17 +8994,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="400"/>
         <source>Cache for audio CDs</source>
-        <translation>Bufor dla audio CD</translation>
+        <translation>Bufor dla Audio-CD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Opcja ta precyzuje, ile pamięci (w kB) należy użyć dla buforowania audio CD.</translation>
+        <translation>Opcja ta precyzuje, ile pamięci (w kB) należy użyć dla buforowania Audio-CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Bufor dla &amp;audio CD:</translation>
+        <translation>Bufor dla &amp;Audio-CD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="404"/>
@@ -9071,7 +9062,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="208"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Jeśli opcja ta jest włączona, to zawsze gdy zostanie otwarty plik, SMPlayer najpierw wyczyści listę odtwarzania i doda do niej ten plik. W przypadku DVD, CD, VCD wszystkie tytuły z dysku zostaną dodane do listy odtwarzania.</translation>
+        <translation>Jeśli opcja ta jest włączona, to zawsze, gdy zostanie otwarty plik, SMPlayer najpierw wyczyści listę odtwarzania i doda do niej ten plik. W przypadku DVD, CD, VCD wszystkie tytuły z dysku zostaną dodane do listy odtwarzania.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
@@ -9136,12 +9127,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetlaj nazwę tytułu zamiast nazwy pliku</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista odtwarzania wyświetli tytuł (jeśli istnieje) zamiast nazwy pliku.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9176,7 +9167,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="247"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation>Ta opcja określa, czy wyszukiwanie na liście odtwarzania uwzględnia wielkość liter, czy też nie.</translation>
+        <translation>Ta opcja określa, czy szukanie w liście odtwarzania wyróżnia wielkość znaków, czy nie.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="249"/>
@@ -9316,12 +9307,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation>Pobieraj &amp;info o dodanych plikach automatycznie (wolne)</translation>
+        <translation>Pobieraj &amp;informacje o dodanych plikach automatycznie (wolne)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetlaj nazwę tytułu zamiast &amp;nazwy pliku</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -9331,7 +9322,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="185"/>
         <source>&amp;Misc</source>
-        <translation>Różne (&amp;M)</translation>
+        <translation>&amp;Różne</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
@@ -9663,7 +9654,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="482"/>
         <source>&amp;Border:</source>
-        <translation>Ramka (&amp;b):</translation>
+        <translation>&amp;Ramka:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="534"/>
@@ -9841,7 +9832,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;Line spacing:</source>
-        <translation>Odstęp między wierszami (&amp;L):</translation>
+        <translation>&amp;Odstęp między wierszami:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
@@ -9896,7 +9887,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="813"/>
         <source>Custo&amp;mize...</source>
-        <translation>Dostosuj (&amp;m)...</translation>
+        <translation>&amp;Dostosuj...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
@@ -9969,7 +9960,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation>Jeśli ta opcja jest zaznaczona, SMPlayer będzie szukał nowych kanałów TV i Radiowych w pliku ~/.mplayer/channels.conf.ter lub /.mplayer/channels.conf.</translation>
+        <translation>Jeśli ta opcja jest zaznaczona, SMPlayer będzie szukał nowych kanałów TV i radiowych w pliku ~/.mplayer/channels.conf.ter lub /.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -10083,7 +10074,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../smplayer.cpp" line="605"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>To jest SMPlayer wer. %1 uruchomiony na %2</translation>
+        <translation>To jest SMPlayer w wer. %1 uruchomiony na %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="135"/>
@@ -10109,7 +10100,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="153"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>gdy zakończy się plik/lista odtwarzania okno główne nie zostanie zamknięte.</translation>
+        <translation>gdy zakończy się plik/lista odtwarzania, okno główne nie zostanie zamknięte.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
@@ -10134,7 +10125,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>Przywróć poprzednie skojarzenia i wyczyść rejestr.</translation>
+        <translation>przywróć poprzednie skojarzenia i wyczyść rejestr.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="106"/>
@@ -10176,21 +10167,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
@@ -10223,7 +10206,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the mpc gui.</source>
-        <translation>otwiera mpc gui.</translation>
+        <translation>otwiera gui mpc.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -10243,7 +10226,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="127"/>
         <source>opens the gui with support for skins.</source>
-        <translation>otwiera GUI z obsługą skór.</translation>
+        <translation>otwiera gui z obsługą skór.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -10273,7 +10256,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation>Określa czas rozpoczęcia (w sekundach) pierwszego odtwarzanego pliku. Również ważne h:m:s i m:s</translation>
+        <translation>określa czas rozpoczęcia (w sekundach) pierwszego odtwarzanego pliku. Również ważne h:m:s i m:s</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
@@ -10345,7 +10328,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Wesprzyj / Podziel się ze znajomymi</translation>
+        <translation>Wesprzyj / Podziel się SMPlayerem ze znajomymi</translation>
     </message>
 </context>
 <context>
@@ -10429,12 +10412,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Edycja głównego paska narzędzi (&amp;t)</translation>
+        <translation>Edy&amp;cja głównego paska narzędzi</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj panel kontrolny (&amp;f)</translation>
+        <translation>Edytuj p&amp;anel kontrolny</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -10467,17 +10450,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation>Filtr Stereo 3D</translation>
+        <translation>Filtr stereo 3D</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation>&amp;Format 3D video:</translation>
+        <translation>&amp;Format wideo 3D:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation>&amp;Format wyjściowy</translation>
+        <translation>&amp;Format wyjściowy:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -10537,7 +10520,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation>Anaglif czerwony/cyjan kolorem zoptymalizowanym Metodą najmniejszych kwadratów Duboisa</translation>
+        <translation>Anaglif czerwony/cyjan kolorem zoptymalizowanym metodą najmniejszych kwadratów Duboisa</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
@@ -10641,7 +10624,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation>Skocz do (&amp;j):</translation>
+        <translation>&amp;Skocz do:</translation>
     </message>
     <message>
         <location filename="../timedialog.cpp" line="26"/>
@@ -10679,7 +10662,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation>Góra (&amp;u)</translation>
+        <translation>G&amp;óra</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
@@ -10747,7 +10730,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../tristatecombo.cpp" line="34"/>
         <source>Auto</source>
-        <translation>Auto</translation>
+        <translation>Automatyczne</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="35"/>
@@ -10835,7 +10818,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>
         <source>&amp;Disable software video filters</source>
-        <translation>Wyłącz programowe filtry obrazu (&amp;d)</translation>
+        <translation>&amp;Wyłącz programowe filtry obrazu</translation>
     </message>
 </context>
 <context>
@@ -10858,7 +10841,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>Odcień (&amp;h)</translation>
+        <translation>&amp;Odcień</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
@@ -10888,7 +10871,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation>Zamknij (&amp;c)</translation>
+        <translation>&amp;Zamknij</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -10906,7 +10889,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreview.cpp" line="535"/>
         <source>Video preview</source>
-        <translation>Podgląd filmu</translation>
+        <translation>Podgląd wideo</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="169"/>
@@ -10946,7 +10929,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreview.cpp" line="520"/>
         <source>FPS: %1</source>
-        <translation>FPS: %1</translation>
+        <translation>Kl./s: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="522"/>
@@ -11052,7 +11035,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreview.cpp" line="526"/>
         <source>Video bitrate: %1</source>
-        <translation>Bitrate wideo: %1</translation>
+        <translation>Szybkość transmisji wideo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="527"/>
@@ -11126,12 +11109,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation>Opcje określa ilość kolumn w tabeli.</translation>
+        <translation>Opcje określa liczbę kolumn w tabeli.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation>Opcje określa ilość wierszy w tabeli.</translation>
+        <translation>Opcje określa liczbę wierszy w tabeli.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
@@ -11171,7 +11154,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation>Zapisz klatki jako (&amp;e)</translation>
+        <translation>&amp;Zapisz klatki jako</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
