@@ -1,13 +1,14 @@
 [main]
 host = https://www.transifex.com
 
-[smplayer.english]
-type = QT
-file_filter = smplayer_<lang>.ts
-source_lang = en
-source_file = smplayer_en.ts
-trans.he = smplayer_he_IL.ts
-trans.vi = smplayer_vi_VN.ts
-trans.ru = smplayer_ru_RU.ts
-trans.uk = smplayer_uk_UA.ts
+[o:rvm:p:smplayer:r:english]
+file_filter  = smplayer_<lang>.ts
+source_file  = smplayer_en.ts
+source_lang  = en
+type         = QT
 minimum_perc = 50
+trans.he     = smplayer_he_IL.ts
+trans.vi     = smplayer_vi_VN.ts
+trans.ru     = smplayer_ru_RU.ts
+trans.uk     = smplayer_uk_UA.ts
+
