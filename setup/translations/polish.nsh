@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wy
 
 ${LangFileString} Section_MPV_Desc "Bogaty w funkcje fork MPlayera i MPlayera2"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
+${LangFileString} Section_YTDL "Obsługa YouTube (wymagane pobranie)"
 ${LangFileString} Section_YTDL_Desc "Zapewnia możliwość odtwarzania filmów z YouTube."
 
 ${LangFileString} Section_MEncoder_Desc "Konkurencyjny program dla MPlayera, który może być używany do kodowania lub przetwarzania obsługiwanych strumieni dźwięku i wideo."

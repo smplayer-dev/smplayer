@@ -44,14 +44,14 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; elengedhetetlen a lejátszásho
 
 ${LangFileString} Section_MPlayerCodecs "Bináris Kodekek"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "A bináris kodekek nem támogatottak ebben a verzióban."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "További kodekek az MPlayer számára. (Internet Kapcsolat kell a telepítésükhöz)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "Az MPlayer && MPlayer2 funkciókban gazdag forkja"
 
-${LangFileString} Section_YTDL "Youtube support (download required)"
+${LangFileString} Section_YTDL "Youtube támogatás (letöltés szükséges)"
 ${LangFileString} Section_YTDL_Desc "Lehetőséget biztosít a Youtube videók lejátszásához."
 
 ${LangFileString} Section_MEncoder_Desc "Az MPlayer segédprogramja, mely audió- és videó sugárzások átkódolására és átalakítására használható."
@@ -128,12 +128,12 @@ ${LangFileString} MPV_Inst_Failed "Az mpv telepítése sikertelen."
 ${LangFileString} YTDL_DL_Retry "A youtube-dl telepítése nem sikerült. Újra próbálja?"
 ${LangFileString} YTDL_DL_Failed "A youtube-dl letöltése sikertelen: '$R0'."
 ${LangFileString} YTDL_Update_Check "youtube-dl frissítések keresése..."
-${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+${LangFileString} YTDL_Error_Msg1 "Figyelem: youtube-dl abnormális kilépési kóddal zárta be magát: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) szükséges a youtube-dl-hez."
 
 ; SMTube
-${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
-${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
+${LangFileString} SMTube_Incompatible_Msg1 "A jelenlegi SMTube telepítés nem kompatibilis az SMPlayer ennek a verziójával."
+${LangFileString} SMTube_Incompatible_Msg2 "Kérem frissítsen az SMTube egy újabb verziójára."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "fontconfig gyorsítótár tisztítása..."

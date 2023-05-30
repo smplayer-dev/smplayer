@@ -49,7 +49,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks binari tidak disokong dalam
 ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemasangan)"
 !endif
 
-${LangFileString} Section_MPV_Desc "Cabang kaya-fitur bagi MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Sebuah pemain cabang yang berciri lengkap bagi MPlayer && MPlayer2"
 
 ${LangFileString} Section_YTDL "Sokongan Youtube (muat turun diperlukan)"
 ${LangFileString} Section_YTDL_Desc "Menyediakan kemungkinan untuk dapat memainkan video-video Youtube."
@@ -102,7 +102,7 @@ ${LangFileString} Uninstaller_InvalidDirectory "Pemasangan SMPlayer tidak ditemu
 ${LangFileString} Uninstaller_64bitOnly "Pemasangan ini hanya boleh dinyahpasang pada Windows 64-bit."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer merupakan bahagian-hadapan MPlayer, dari fitur asas seperti memainkan video, DVD. VCD sehinggalah fitur lanjutan seperti sokongan untuk penapis MPlayer, senarai edl, dan banyak lagi."
+${LangFileString} Application_Description "SMPlayer merupakan bahagian-hadapan MPlayer, bermula dari ciri asas seperti memainkan video, DVD. VCD sehinggalah ciri lanjutan seperti sokongan untuk penapis MPlayer, senarai edl, dan banyak lagi."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Menyandar kodeks dari pemasangan terdahulu..."

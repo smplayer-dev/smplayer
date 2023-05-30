@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Michael Larsen <m_e_larsen@hotmail.com>, 2015,2021
-# scootergrisen, 2015-2017,2019,2021
+# scootergrisen, 2015-2017,2019,2021,2023
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-28 14:57+0000\n"
-"Last-Translator: scootergrisen\n"
-"Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
+"PO-Revision-Date: 2014-02-24 03:07+0000\n"
+"Last-Translator: scootergrisen, 2015-2017,2019,2021,2023\n"
+"Language-Team: Danish (http://app.transifex.com/rvm/smplayer/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -138,7 +138,7 @@ msgstr "Understøttelse af Youtube (kræver download)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
-msgstr "Tilføjer muligheden for at afspiller Youtube videos"
+msgstr "Giver muligheden for at afspille Youtube-videoer."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -365,21 +365,21 @@ msgstr "Søger efter opdateringer til youtube-dl ..."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr "Advarsel: youtube-dk afsluttede unormalt med kode: $YTDL_Exit_code"
+msgstr "Advarsel: youtube-dl afsluttede unormalt med afslutningskoden: $YTDL_Exit_code"
 
 # YTDL_Error_Msg2
 msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
-msgstr "Visual C++ 2010 Runtime (x86) er nødvendig for youtube-dl."
+msgstr "Visual C++ 2010 Runtime (x86) kræves af youtube-dl."
 
 # SMTube_Incompatible_Msg1
 msgid ""
 "The current SMTube installation is incompatible with this version of "
 "SMPlayer."
-msgstr "Den nuværende SMTube installation er ikke kompatibel  med denne version af SMPlayer"
+msgstr "Den nuværende SMTube-installation er ikke kompatibel  med denne version af SMPlayer."
 
 # SMTube_Incompatible_Msg2
 msgid "Please upgrade to a newer version of SMTube."
-msgstr "Venligst opdater til en nyere version af SMTube"
+msgstr "Opgradér venligst til en nyere version af SMTube."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
@@ -391,4 +391,4 @@ msgstr "Rydder op i SMPlayer-indstillinger ..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr "Binary codecs er ikke understøttet i denne udgave."
+msgstr "Binære kodeks understøttes ikke i denne version."

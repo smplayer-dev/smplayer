@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2014-2016,2018,2021-2022
+# abuyop <abuyop@gmail.com>, 2014-2016,2018,2021-2023
 # Muhd. Syah <wanmuhammadsyahmiz@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2022-02-26 06:42+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (Malaysia) (http://www.transifex.com/rvm/smplayer/language/ms_MY/)\n"
+"PO-Revision-Date: 2014-02-24 03:07+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2014-2016,2018,2021-2023\n"
+"Language-Team: Malay (Malaysia) (http://app.transifex.com/rvm/smplayer/language/ms_MY/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,7 +130,7 @@ msgstr "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemas
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Cabang kaya-fitur bagi MPlayer && MPlayer2"
+msgstr "Sebuah pemain cabang yang berciri lengkap bagi MPlayer && MPlayer2"
 
 # Section_YTDL
 msgid "Youtube support (download required)"
@@ -285,7 +285,7 @@ msgid ""
 "SMPlayer is a complete front-end for MPlayer, from basic features like "
 "playing videos, DVDs, VCDs to more advanced features like support for "
 "MPlayer filters, edl lists, and more."
-msgstr "SMPlayer merupakan bahagian-hadapan MPlayer, dari fitur asas seperti memainkan video, DVD. VCD sehinggalah fitur lanjutan seperti sokongan untuk penapis MPlayer, senarai edl, dan banyak lagi."
+msgstr "SMPlayer merupakan bahagian-hadapan MPlayer, bermula dari ciri asas seperti memainkan video, DVD. VCD sehinggalah ciri lanjutan seperti sokongan untuk penapis MPlayer, senarai edl, dan banyak lagi."
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."

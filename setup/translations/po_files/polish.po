@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Marek Adamski, 2023
 # Michał Trzebiatowski <michtrz@gmail.com>, 2021
 # Michał Trzebiatowski <michtrz@gmail.com>, 2014,2016
 # Piotr Strębski <strebski@gmail.com>, 2015,2017
@@ -10,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-19 14:21+0000\n"
-"Last-Translator: Ricardo Villalba <ricardo@smplayer.info>\n"
-"Language-Team: Polish (http://www.transifex.com/rvm/smplayer/language/pl/)\n"
+"PO-Revision-Date: 2014-02-24 03:07+0000\n"
+"Last-Translator: Marek Adamski, 2023\n"
+"Language-Team: Polish (http://app.transifex.com/rvm/smplayer/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -136,7 +137,7 @@ msgstr "Bogaty w funkcje fork MPlayera i MPlayera2"
 
 # Section_YTDL
 msgid "Youtube support (download required)"
-msgstr ""
+msgstr "Obsługa YouTube (wymagane pobranie)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
