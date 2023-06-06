@@ -4,7 +4,8 @@ env:
   mplayer-url: https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.5-110/mplayer-macos-10.15-av.tar.bz2
   #mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-macos-10.14-av.tar.bz2
   #mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod/mpv-macos-11.tar.bz2
-  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod/mpv-macos-10.15-av.tar.bz2
+  #mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod/mpv-macos-10.15-av.tar.bz2
+  mpv-url: https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod-2/mpv-macos-10.15-av.tar.bz2
 
 on: 
   workflow_dispatch:
