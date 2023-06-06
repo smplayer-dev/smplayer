@@ -76,7 +76,8 @@ jobs:
             sudo apt-get update
             #wget https://github.com/smplayer-dev/mpv-mod/releases/download/v0.33.1-58/mpv-mod_0.33.1-1.${{matrix.config.distro}}_amd64.deb
             #wget https://github.com/smplayer-dev/mpv/releases/download/v0.34.0-mod/mpv-mod_0.34.0-1.${{matrix.config.distro}}_amd64.deb
-            wget https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod/mpv-mod_0.35.1-1.${{matrix.config.distro}}_amd64.deb
+            #wget https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod/mpv-mod_0.35.1-1.${{matrix.config.distro}}_amd64.deb
+            wget https://github.com/smplayer-dev/mpv/releases/download/v0.35.1-mod-2/mpv-mod_0.35.1-1.${{matrix.config.distro}}_amd64.deb
             sudo apt-get -y install ./mpv*.deb --no-install-recommends
             cp /usr/bin/mpv smplayer/appdir/usr/bin/
 
