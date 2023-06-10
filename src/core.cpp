@@ -3946,7 +3946,9 @@ void Core::prevSubtitle() {
 	qDebug("Core::prevSubtitle");
 
 	if (mset.subs.numItems() > 0) {
-		if (mset.current_subtitle_track == MediaSettings::SubNone) {
+		if (mset.current_subtitle_track == MediaSettings::SubNone ||
+            mset.current_subtitle_track == MediaSettings::NoneSelected)
+		{
 			changeSubtitle(mset.subs.numItems() - 1);
 		} else {
 			int item = mset.current_subtitle_track - 1;
@@ -3960,7 +3962,9 @@ void Core::nextSubtitle() {
 	qDebug("Core::nextSubtitle");
 
 	if (mset.subs.numItems() > 0) {
-		if (mset.current_subtitle_track == MediaSettings::SubNone) {
+		if (mset.current_subtitle_track == MediaSettings::SubNone ||
+            mset.current_subtitle_track == MediaSettings::NoneSelected)
+		{
 			changeSubtitle(0);
 		} else {
 			int item = mset.current_subtitle_track + 1;
