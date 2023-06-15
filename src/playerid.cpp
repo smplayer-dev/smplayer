@@ -51,3 +51,7 @@ PlayerID::Player PlayerID::player(const QString & player_bin) {
 	#endif
 #endif
 }
+
+QString PlayerID::playerName(const QString & player_bin) {
+	if (player(player_bin) == MPLAYER) return "MPlayer"; else return "MPV";
+}

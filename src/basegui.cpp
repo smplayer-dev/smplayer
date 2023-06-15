@@ -1894,7 +1894,7 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
-	showLogMplayerAct->change(tr("%1 log").arg(PLAYER_NAME));
+	showLogMplayerAct->change(tr("%1 log").arg(PlayerID::playerName(pref->mplayer_bin)));
 #endif
 #ifdef LOG_SMPLAYER
 	showLogSmplayerAct->change(tr("SMPlayer log"));
@@ -2239,7 +2239,7 @@ void BaseGui::retranslateStrings() {
 
 	// Other things
 #ifdef LOG_MPLAYER
-	mplayer_log_window->setWindowTitle( tr("%1 log").arg(PLAYER_NAME) );
+	mplayer_log_window->setWindowTitle( tr("%1 log").arg(PlayerID::playerName(pref->mplayer_bin)) );
 #endif
 #ifdef LOG_SMPLAYER
 	smplayer_log_window->setWindowTitle( tr("SMPlayer log") );
@@ -6153,17 +6153,18 @@ void BaseGui::askForMplayerVersion(QString line) {
 
 void BaseGui::showExitCodeFromMplayer(int exit_code) {
 	qDebug("BaseGui::showExitCodeFromMplayer: %d", exit_code);
+	QString player_name = PlayerID::playerName(pref->mplayer_bin);
 
 	if (!pref->report_mplayer_crashes) {
 		qDebug("BaseGui::showExitCodeFromMplayer: not displaying error dialog");
-		statusBar()->showMessage(tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) +" "+ tr("More info in the log."));
+		statusBar()->showMessage(tr("%1 has finished unexpectedly.").arg(player_name) +" "+ tr("More info in the log."));
 		return;
 	}
 
 	if (exit_code != 255 ) {
 		ErrorDialog d(this);
-		d.setWindowTitle(tr("%1 Error").arg(PLAYER_NAME));
-		QString text = tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) + " " + 
+		d.setWindowTitle(tr("%1 Error").arg(player_name));
+		QString text = tr("%1 has finished unexpectedly.").arg(player_name) + " " + 
 					   tr("Exit code: %1").arg(exit_code);
 		
 		#if defined(Q_OS_WIN) && defined(LOG_MPLAYER)
@@ -6206,21 +6207,22 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 
 void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 	qDebug("BaseGui::showErrorFromMplayer");
+	QString player_name = PlayerID::playerName(pref->mplayer_bin);
 
 	if (!pref->report_mplayer_crashes) {
 		qDebug("BaseGui::showErrorFromMplayer: not displaying error dialog");
-		statusBar()->showMessage(tr("%1 failed to start.").arg(PLAYER_NAME) +" "+ tr("More info in the log."));
+		statusBar()->showMessage(tr("%1 failed to start.").arg(player_name) +" "+ tr("More info in the log."));
 		return;
 	}
 
 	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
 		ErrorDialog d(this);
-		d.setWindowTitle(tr("%1 Error").arg(PLAYER_NAME));
+		d.setWindowTitle(tr("%1 Error").arg(player_name));
 		if (e == QProcess::FailedToStart) {
-			d.setText(tr("%1 failed to start.").arg(PLAYER_NAME) + " " + 
-                         tr("Please check the %1 path in preferences.").arg(PLAYER_NAME));
+			d.setText(tr("%1 failed to start.").arg(player_name) + " " + 
+                         tr("Please check the %1 path in preferences.").arg(player_name));
 		} else {
-			d.setText(tr("%1 has crashed.").arg(PLAYER_NAME) + " " + 
+			d.setText(tr("%1 has crashed.").arg(player_name) + " " + 
                       tr("See the log for more info."));
 		}
 #ifdef LOG_MPLAYER

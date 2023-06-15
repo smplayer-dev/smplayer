@@ -37,6 +37,7 @@ class PlayerID
 public:
 	enum Player { MPLAYER = 0, MPV = 1 };
 	static Player player(const QString & player_bin);
+	static QString playerName(const QString & player_bin);
 };
 
 #endif
