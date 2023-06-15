@@ -890,8 +890,10 @@ void MPVProcess::showTimeOnOSD() {
 #ifdef OSD_WITH_TIMER
 void MPVProcess::toggleInfoOnOSD() {
 	#ifdef USE_MPV_STATS
-	stats_page++;
-	if (stats_page > 3) stats_page = 0;
+	if (stats_page == 0 || osd_timer->isActive()) {
+		stats_page++;
+		if (stats_page > 3) stats_page = 0;
+	}
 
 	if (stats_page > 0) {
 		if (!osd_timer->isActive()) osd_timer->start();
