@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Вы тоже можете помочь перевести SMPlayer на свой родной язык</translation>
+        <translation>Вы тоже можете помочь перевести SMPlayer на свой родной язык.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../about.ui" line="38"/>
         <source>&amp;Info</source>
-        <translation>&amp;Информация</translation>
+        <translation>Све&amp;дения</translation>
     </message>
     <message>
         <location filename="../about.ui" line="58"/>
@@ -97,7 +97,7 @@
     <message>
         <location filename="../about.ui" line="150"/>
         <source>&amp;Translators</source>
-        <translation>Пере&amp;водчики</translation>
+        <translation>&amp;Перевод</translation>
     </message>
     <message>
         <location filename="../about.ui" line="206"/>
@@ -122,7 +122,7 @@
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Read the entire license</source>
-        <translation>Прочесть полную лицензию</translation>
+        <translation>Прочесть лицензию целиком</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="115"/>
@@ -9256,7 +9256,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="228"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Выберите эту опцию, чтобы получать из добавляемых в плейлист файлов информацию. Это позволяет отображать имя (если доступно) и сведения о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
+        <translation>Выберите эту опцию, чтобы получать данные из добавляемых в плейлист файлов. Это позволяет отображать имя (если доступно) и сведения о файлах. Иначе эта информация не будет доступна до начала воспроизведения файла. Осторожно: этот параметр может замедлить работу, особенно при большом числе добавляемых вами файлов.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -9473,7 +9473,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>Try to autodetect for this language</source>
-        <translation>Автоматически определить для языка</translation>
+        <translation>Пытаться автоопределять для этого языка</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
@@ -9493,7 +9493,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation>А&amp;втоматически определить для языка:</translation>
+        <translation>Пытаться автоопределять для это&amp;го языка:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
