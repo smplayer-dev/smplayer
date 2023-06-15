@@ -94,10 +94,10 @@ void PrefNetwork::retranslateStrings() {
 	streaming_type_combo->addItem(tr("Auto"), Preferences::StreamingAuto);
 	#endif
 	#ifdef YOUTUBE_SUPPORT
-	streaming_type_combo->addItem("YouTube", Preferences::StreamingYT);
+	streaming_type_combo->addItem(tr("YouTube only"), Preferences::StreamingYT);
 	#endif
 	#ifdef MPV_SUPPORT
-	streaming_type_combo->addItem("mpv + youtube-dl", Preferences::StreamingYTDL);
+	streaming_type_combo->addItem("mpv + yt-dlp/youtube-dl", Preferences::StreamingYTDL);
 	#endif
 	streaming_type_combo->setCurrentIndex(streaming_item);
 
@@ -329,20 +329,20 @@ void PrefNetwork::createHelp() {
 		"<ul>"
 		"<li><b>" + tr("Disabled") +":</b> " + tr("support for video sites is turned off") +"</li>"+
 		#ifdef MPV_SUPPORT
-		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv + youtube-dl only for the sites that require it") +"</li>"+
+		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv + yt-dlp/youtube-dl only for the sites that require it") +"</li>"+
 		#endif
 		#ifdef YOUTUBE_SUPPORT
 		"<li><b>YouTube:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
 		#endif
 		#ifdef MPV_SUPPORT
-		"<li><b>mpv + youtube-dl:</b> " +tr("uses mpv + youtube-dl for all sites") +"</li>"+
+		"<li><b>mpv + yt-dlp/youtube-dl:</b> " +tr("uses mpv + yt-dlp/youtube-dl for all sites") +"</li>"+
 		#endif
 		"</ul>"
 	);
 
 #ifdef MPV_SUPPORT
 	setWhatsThis(ytdl_quality_combo, tr("Preferred quality"),
-		tr("This option specifies the preferred quality for the video streams handled by youtube-dl.") +
+		tr("This option specifies the preferred quality for the video streams handled by yt-dlp/youtube-dl.") +
 		"<ul>"
 		"<li><b>" + tr("Best video and audio") +":</b> " + tr("selects the best video and audio streams available") +"</li>"
 		"<li><b>" + tr("Best") +":</b> " + tr("selects the best quality format available as a single file") +"</li>"
@@ -377,7 +377,7 @@ void PrefNetwork::createHelp() {
 	setWhatsThis(streaming_check, tr("Enable mpv's support for streaming sites"),
 		tr("If this option is checked, SMPlayer will try to play videos from "
            "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
-		tr("Requires mpv and youtube-dl.") );
+		tr("Requires mpv and yt-dlp/youtube-dl.") );
 	*/
 #endif
 
