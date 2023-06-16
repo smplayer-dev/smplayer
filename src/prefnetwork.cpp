@@ -97,7 +97,7 @@ void PrefNetwork::retranslateStrings() {
 	streaming_type_combo->addItem(tr("YouTube only"), Preferences::StreamingYT);
 	#endif
 	#ifdef MPV_SUPPORT
-	streaming_type_combo->addItem("mpv + yt-dlp/youtube-dl", Preferences::StreamingYTDL);
+	streaming_type_combo->addItem(tr("Many sites (using mpv)"), Preferences::StreamingYTDL);
 	#endif
 	streaming_type_combo->setCurrentIndex(streaming_item);
 
@@ -329,20 +329,20 @@ void PrefNetwork::createHelp() {
 		"<ul>"
 		"<li><b>" + tr("Disabled") +":</b> " + tr("support for video sites is turned off") +"</li>"+
 		#ifdef MPV_SUPPORT
-		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv + yt-dlp/youtube-dl only for the sites that require it") +"</li>"+
+		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it") +"</li>"+
 		#endif
 		#ifdef YOUTUBE_SUPPORT
-		"<li><b>YouTube:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
+		"<li><b>YouTube only:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
 		#endif
 		#ifdef MPV_SUPPORT
-		"<li><b>mpv + yt-dlp/youtube-dl:</b> " +tr("uses mpv + yt-dlp/youtube-dl for all sites") +"</li>"+
+		"<li><b>Many sites (using mpv):</b> " +tr("uses mpv with yt-dlp (or youtube-dl) for all sites") +"</li>"+
 		#endif
 		"</ul>"
 	);
 
 #ifdef MPV_SUPPORT
 	setWhatsThis(ytdl_quality_combo, tr("Preferred quality"),
-		tr("This option specifies the preferred quality for the video streams handled by yt-dlp/youtube-dl.") +
+		tr("This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.") +
 		"<ul>"
 		"<li><b>" + tr("Best video and audio") +":</b> " + tr("selects the best video and audio streams available") +"</li>"
 		"<li><b>" + tr("Best") +":</b> " + tr("selects the best quality format available as a single file") +"</li>"
