@@ -8457,6 +8457,12 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>Auto</translation>
     </message>
     <message>
+        <location filename="../prefnetwork.cpp" line="97"/>
+        <location filename="../prefnetwork.cpp" line="335"/>
+        <source>Internal YouTube support</source>
+        <translation>Soporte de YouTube interno</translation>
+    </message>
+    <message>
         <location filename="../prefnetwork.cpp" line="110"/>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>Best video and audio</source>
@@ -8482,6 +8488,11 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
         <translation>se desactiva el soporte para webs de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="332"/>
+        <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
+        <translation>se intentará usar mpv con yt-dlp (o youtube-dl) sólo para las webs que lo necesiten</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8513,9 +8524,8 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>La mejor</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="97"/>
         <source>YouTube only</source>
-        <translation>Solo YouTube</translation>
+        <translation type="obsolete">Solo YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
@@ -8528,19 +8538,16 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>Otra</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv + yt-dlp/youtube-dl only for the sites that require it</source>
-        <translation>se intentará usar mpv + yt-dlp/youtube-dl sólo para las webs que lo necesiten</translation>
+        <translation type="obsolete">se intentará usar mpv + yt-dlp/youtube-dl sólo para las webs que lo necesiten</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
         <source>uses mpv + yt-dlp/youtube-dl for all sites</source>
-        <translation>usa mpv + yt-dlp/youtube-dl para todas las webs de vídeo</translation>
+        <translation type="obsolete">usa mpv + yt-dlp/youtube-dl para todas las webs de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
         <source>This option specifies the preferred quality for the video streams handled by yt-dlp/youtube-dl.</source>
-        <translation>Esta opción especifica la calidad preferida para los streams de vídeo controlados por yt-dlp/youtube-dl.</translation>
+        <translation type="obsolete">Esta opción especifica la calidad preferida para los streams de vídeo controlados por yt-dlp/youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8707,6 +8714,16 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Puerto</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>usa mpv con yt-dlp (o youtube-dl) para todas las webs de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Esta opción especifica la calidad preferida para los streams de vídeo controlados por yt-dlp o youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

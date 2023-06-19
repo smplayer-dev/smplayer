@@ -8453,6 +8453,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Αυτόματο</translation>
     </message>
     <message>
+        <location filename="../prefnetwork.cpp" line="97"/>
+        <location filename="../prefnetwork.cpp" line="335"/>
+        <source>Internal YouTube support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefnetwork.cpp" line="110"/>
         <location filename="../prefnetwork.cpp" line="347"/>
         <source>Best video and audio</source>
@@ -8478,6 +8484,11 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
         <translation>η υποστήριξη ιστότοπων βίντεο είναι απενεργοποιημένη</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="332"/>
+        <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8509,11 +8520,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Άριστη</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="97"/>
-        <source>YouTube only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
         <translation type="unfinished"></translation>
@@ -8521,21 +8527,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="332"/>
-        <source>it will try to use mpv + yt-dlp/youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv + yt-dlp/youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp/youtube-dl.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8703,6 +8694,16 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Θύρα</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>
