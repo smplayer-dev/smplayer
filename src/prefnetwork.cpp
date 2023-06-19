@@ -94,10 +94,10 @@ void PrefNetwork::retranslateStrings() {
 	streaming_type_combo->addItem(tr("Auto"), Preferences::StreamingAuto);
 	#endif
 	#ifdef YOUTUBE_SUPPORT
-	streaming_type_combo->addItem(tr("YouTube only"), Preferences::StreamingYT);
+	streaming_type_combo->addItem(tr("Internal YouTube support"), Preferences::StreamingYT);
 	#endif
 	#ifdef MPV_SUPPORT
-	streaming_type_combo->addItem(tr("Many sites (using mpv)"), Preferences::StreamingYTDL);
+	streaming_type_combo->addItem("mpv", Preferences::StreamingYTDL);
 	#endif
 	streaming_type_combo->setCurrentIndex(streaming_item);
 
@@ -332,10 +332,10 @@ void PrefNetwork::createHelp() {
 		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it") +"</li>"+
 		#endif
 		#ifdef YOUTUBE_SUPPORT
-		"<li><b>YouTube only:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
+		"<li><b>" + tr("Internal YouTube support") +":</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
 		#endif
 		#ifdef MPV_SUPPORT
-		"<li><b>Many sites (using mpv):</b> " +tr("uses mpv with yt-dlp (or youtube-dl) for all sites") +"</li>"+
+		"<li><b>mpv:</b> " +tr("uses mpv with yt-dlp (or youtube-dl) for all sites") +"</li>"+
 		#endif
 		"</ul>"
 	);
