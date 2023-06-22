@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="pl">
 <context>
     <name>About</name>
     <message>
@@ -3219,7 +3217,7 @@ Przykład: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -5262,7 +5260,7 @@ na liście odtwarzania:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Nie można było załadować &apos;%1&apos;.
 Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls, xspf lub m3u. &apos;%2&apos; nie jest obsługiwane. Proszę wybrać jeszcze raz!</translation>
@@ -8207,12 +8205,12 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation>&amp;YouTube (i inne strony)</translation>
+        <translation>&amp;YouTube (i inne witryny)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>Wsparcie dla &amp;witryn wideo:</translation>
+        <translation>Obsługa &amp;witryn wideo:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
@@ -8361,10 +8359,6 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
         <translation>Sieć</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">program spróbuje użyć mpv + youtube-dl tylko dla stron, które tego wymagają</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Agent użytkownika</translation>
@@ -8386,7 +8380,7 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
         <location filename="../prefnetwork.cpp" line="97"/>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Wewnętrzna obsługa YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8408,26 +8402,27 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
     <message>
         <location filename="../prefnetwork.cpp" line="328"/>
         <source>Support for video sites</source>
-        <translation>Wsparcie dla witryn wideo</translation>
+        <translation>Obsługa witryn wideo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="330"/>
         <source>support for video sites is turned off</source>
-        <translation>wsparcie dla witryn wideo jest wyłączone</translation>
+        <translation>obsługa witryn wideo jest wyłączona</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>spróbuje użyć mpv z yt-dlp (lub youtube-dl) tylko w witrynach, które tego wymagają</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation>tylko wewnętrzne wsparcie dla YouTube zostanie wykorzystane</translation>
+        <translation>tylko wewnętrzna obsługa YouTube zostanie wykorzystana</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">używanie mpv + youtube-dl dla wszystkich witryn</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>używa mpv z yt-dlp (lub youtube-dl) we wszystkich witrynach</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8435,8 +8430,9 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
         <translation>Preferowana jakość</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Ta opcja określa preferowaną jakość strumieni wideo obsługiwanych przez youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Ta opcja określa preferowaną jakość strumieni wideo obsługiwanych przez yt-dlp lub youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8624,16 +8620,6 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>
@@ -8999,7 +8985,7 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
     <message>
         <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation>Wymaga skompilowanego %1 ze wsparciem dla CoreAVC.</translation>
+        <translation>Wymaga skompilowanego %1 z obsługą CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="382"/>
@@ -10187,21 +10173,13 @@ Nazwa pliku listy odtwarzania musi kończyć się określonym sufiksem, np. pls,
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

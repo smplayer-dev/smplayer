@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.0" language="es">
 <context>
     <name>About</name>
     <message>
@@ -1366,14 +1364,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Apoya a SMPlayer</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">Donar</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">No</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer le necesita</translation>
@@ -1430,14 +1420,6 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ha finalizado inesperadamente.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Donar con PayPal</translation>
-    </message>
-    <message>
-        <source>Not now</source>
-        <translation type="obsolete">Ahora no</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -3235,7 +3217,7 @@ Ejemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el archivo descargado
@@ -5277,7 +5259,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1408"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>No ha sido posible cargar &apos;%1&apos;.
 El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. Selecciona otro fichero.</translation>
@@ -8376,10 +8358,6 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>Red</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">se intentará usar mpv + youtube-dl solo para los sitios que lo necesiten</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>User agent</translation>
@@ -8441,8 +8419,9 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>solo se usará el código interno de YouTube</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">se usará mpv + youtube-dl para todos los sitios</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>se usará mpv con yt-dlp (o youtube-dl) para todos los sitios</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8450,8 +8429,9 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>Calidad preferida</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Esta opción especifica la calidad preferida para las transmisiones de vídeo manejadas por youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Esta opción especifica la calidad preferida para las transmisiones de vídeo manejadas por yt-dlp o youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8465,10 +8445,6 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>La mejor</translation>
     </message>
     <message>
-        <source>YouTube only</source>
-        <translation type="obsolete">Solo YouTube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
         <translation>yt-dlp (basada en youtube-dl con mejoras)</translation>
@@ -8477,18 +8453,6 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <location filename="../prefnetwork.cpp" line="249"/>
         <source>Other</source>
         <translation>Otra</translation>
-    </message>
-    <message>
-        <source>it will try to use mpv + yt-dlp/youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">se intentará usar mpv + yt-dlp/youtube-dl solo para los sitios que lo necesiten</translation>
-    </message>
-    <message>
-        <source>uses mpv + yt-dlp/youtube-dl for all sites</source>
-        <translation type="obsolete">se usará mpv + yt-dlp/youtube-dl para todos los sitios</translation>
-    </message>
-    <message>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp/youtube-dl.</source>
-        <translation type="obsolete">Esta opción especifica la calidad preferida para las transmisiones de vídeo manejadas por yt-dlp/youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8655,16 +8619,6 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Puerto</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation>se usará mpv con yt-dlp (o youtube-dl) para todos los sitios</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation>Esta opción especifica la calidad preferida para las transmisiones de vídeo manejadas por yt-dlp o youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>
@@ -10219,19 +10173,13 @@ archivo_de_subtítulos</translation>
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
