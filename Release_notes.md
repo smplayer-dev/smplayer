@@ -1,5 +1,12 @@
 # Changelog
 
+## [23.7] - 2023-07-01
+ * Fix the issue with YouTube playback limited to 720p.
+ * Update mpv and mplayer.
+ * New option in preferences to keep the playback speed for all videos.
+ * Fix the AppImage package.
+ * Other bug fixes.
+
 ## [22.7] - 2022-07-10
  * Better statistic info in the OSD (Shift + I).
  * Bug fixes regarding MPRIS2.
