@@ -74,7 +74,7 @@ ${LangFileString} Reinstall_Msg1 "Существует установка SMPlay
 ${LangFileString} Reinstall_Msg2 "Выберите метод:"
 ${LangFileString} Reinstall_Overwrite "Перезаписать ($Inst_Type) существующую установку"
 ${LangFileString} Reinstall_Uninstall "Удалить существующую установку"
-${LangFileString} Reinstall_Msg3_1 "Нажмите «Старт» для продолжения."
+${LangFileString} Reinstall_Msg3_1 "Щёлкните «Начать» для продолжения."
 ${LangFileString} Reinstall_Msg3_2 "Нажмите «Далее» для продолжения."
 ${LangFileString} Reinstall_Msg3_3 "Нажмите «Удалить» для продолжения."
 ${LangFileString} Reinstall_Msg4 "Изменить настройки установки"
@@ -86,7 +86,7 @@ ${LangFileString} Type_Reinstall "переустановить"
 ${LangFileString} Type_Downgrade "откатить"
 ${LangFileString} Type_Upgrade "обновить"
 
-${LangFileString} StartBtn "Старт"
+${LangFileString} StartBtn "Начать"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Загрузка кодеков MPlayer..."

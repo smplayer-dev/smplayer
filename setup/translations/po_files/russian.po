@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andrei Stepanov, 2014-2017,2021-2022
+# Andrei Stepanov, 2014-2017,2021-2023
 # 28532b02ca9d20d69a31703daeea0bda_3873b52 <a8117a72c21fe4a094910f3a12007a5f_154053>, 2014
 # Simple88, 2016
 # Andrei Stepanov, 2014
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
 "PO-Revision-Date: 2014-02-24 03:07+0000\n"
-"Last-Translator: Andrei Stepanov, 2014-2017,2021-2022\n"
-"Language-Team: Russian (http://www.transifex.com/rvm/smplayer/language/ru/)\n"
+"Last-Translator: Andrei Stepanov, 2014-2017,2021-2023\n"
+"Language-Team: Russian (http://app.transifex.com/rvm/smplayer/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -202,7 +202,7 @@ msgstr "Удалить существующую установку"
 
 # Reinstall_Msg3_1
 msgid "Click Start when ready to proceed."
-msgstr "Нажмите «Старт» для продолжения."
+msgstr "Щёлкните «Начать» для продолжения."
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
@@ -240,7 +240,7 @@ msgstr "обновить"
 
 # StartBtn
 msgid "Start"
-msgstr "Старт"
+msgstr "Начать"
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
