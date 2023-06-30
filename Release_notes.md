@@ -1,6 +1,6 @@
 # Changelog
 
-## [23.7] - 2023-07-01
+## [23.6] - 2023-06-30
  * Fix the issue with YouTube playback limited to 720p.
  * Update mpv and mplayer.
  * New option in preferences to keep the playback speed for all videos.

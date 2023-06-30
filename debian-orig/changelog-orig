@@ -1,3 +1,13 @@
+smplayer (23.6.0) xenial; urgency=medium
+
+  * Fix the issue with YouTube playback limited to 720p.
+  * Update mpv and mplayer.
+  * New option in preferences to keep the playback speed for all videos.
+  * Fix the AppImage package.
+  * Other bug fixes.
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Fri, 30 Jun 2023 14:56:48 +0200
+
 smplayer (22.7.0) xenial; urgency=medium
 
   * Better statistic info in the OSD.
