@@ -30,6 +30,8 @@
 TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	, dont_update(false)
 	, position(0)
+	, start_drag_pos(-1)
+	, slider_has_moved(false)
 	, total_time(0)
 {
 	setMinimum(0);
@@ -63,6 +65,8 @@ void TimeSlider::sliderPressed_slot() {
 	qDebug("TimeSlider::sliderPressed_slot");
 	#endif
 	dont_update = true;
+	start_drag_pos = pos();
+	slider_has_moved = false;
 }
 
 void TimeSlider::sliderReleased_slot() {
@@ -70,7 +74,15 @@ void TimeSlider::sliderReleased_slot() {
 	qDebug("TimeSlider::sliderReleased_slot");
 	#endif
 	dont_update = false;
-	emit posChanged( value() );
+	if (slider_has_moved) {
+		// Only emit a video seek action when the slider actually
+		// moved during mouse drag. Otherwise, on mouse release,
+		// we would spuriously seek to the same position we are in,
+		// causing seeker judder and video jitter during playback.
+		emit posChanged( value() );
+	}
+	start_drag_pos = -1;
+	slider_has_moved = false;
 }
 
 void TimeSlider::valueChanged_slot(int v) {
@@ -88,6 +100,9 @@ void TimeSlider::valueChanged_slot(int v) {
 			emit posChanged(v);
 		}
 	} else {
+		if ( start_drag_pos != -1 && v != start_drag_pos ) {
+			slider_has_moved = true;
+		}
 		#if DEBUG
 		qDebug(" emitting draggingPos");
 		#endif

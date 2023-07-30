@@ -66,6 +66,8 @@ protected:
 private:
 	bool dont_update;
 	int position;
+	int start_drag_pos;
+	bool slider_has_moved;
 	double total_time;
 
 #if ENABLE_DELAYED_DRAGGING
