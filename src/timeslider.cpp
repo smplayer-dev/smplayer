@@ -42,9 +42,8 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	setFocusPolicy( Qt::NoFocus );
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Fixed );
 
-	connect( this, SIGNAL( sliderPressed() ), this, SLOT( stopUpdate() ) );
-	connect( this, SIGNAL( sliderReleased() ), this, SLOT( resumeUpdate() ) );
-	connect( this, SIGNAL( sliderReleased() ), this, SLOT( mouseReleased() ) );
+	connect( this, SIGNAL( sliderPressed() ), this, SLOT( sliderPressed_slot() ) );
+	connect( this, SIGNAL( sliderReleased() ), this, SLOT( sliderReleased_slot() ) );
 	connect( this, SIGNAL( valueChanged(int) ), this, SLOT( valueChanged_slot(int) ) );
 #if ENABLE_DELAYED_DRAGGING
 	connect( this, SIGNAL(draggingPos(int) ), this, SLOT(checkDragging(int)) );
@@ -59,24 +58,18 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 TimeSlider::~TimeSlider() {
 }
 
-void TimeSlider::stopUpdate() {
+void TimeSlider::sliderPressed_slot() {
 	#if DEBUG
-	qDebug("TimeSlider::stopUpdate");
+	qDebug("TimeSlider::sliderPressed_slot");
 	#endif
 	dont_update = true;
 }
 
-void TimeSlider::resumeUpdate() {
+void TimeSlider::sliderReleased_slot() {
 	#if DEBUG
-	qDebug("TimeSlider::resumeUpdate");
+	qDebug("TimeSlider::sliderReleased_slot");
 	#endif
 	dont_update = false;
-}
-
-void TimeSlider::mouseReleased() {
-	#if DEBUG
-	qDebug("TimeSlider::mouseReleased");
-	#endif
 	emit posChanged( value() );
 }
 
