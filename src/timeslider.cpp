@@ -18,6 +18,8 @@
 
 #include "timeslider.h"
 #include "helper.h"
+#include "global.h"
+#include "preferences.h"
 
 #include <QWheelEvent>
 #include <QTimer>
@@ -25,11 +27,15 @@
 #include <QStyleOption>
 #include <QDebug>
 
+using Global::pref;
+
 #define DEBUG 0
 
 TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	, dont_update(false)
 	, position(0)
+	, start_drag_pos(-1)
+	, slider_has_moved(false)
 	, total_time(0)
 {
 	setMinimum(0);
@@ -42,9 +48,8 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	setFocusPolicy( Qt::NoFocus );
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Fixed );
 
-	connect( this, SIGNAL( sliderPressed() ), this, SLOT( stopUpdate() ) );
-	connect( this, SIGNAL( sliderReleased() ), this, SLOT( resumeUpdate() ) );
-	connect( this, SIGNAL( sliderReleased() ), this, SLOT( mouseReleased() ) );
+	connect( this, SIGNAL( sliderPressed() ), this, SLOT( sliderPressed_slot() ) );
+	connect( this, SIGNAL( sliderReleased() ), this, SLOT( sliderReleased_slot() ) );
 	connect( this, SIGNAL( valueChanged(int) ), this, SLOT( valueChanged_slot(int) ) );
 #if ENABLE_DELAYED_DRAGGING
 	connect( this, SIGNAL(draggingPos(int) ), this, SLOT(checkDragging(int)) );
@@ -59,25 +64,36 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 TimeSlider::~TimeSlider() {
 }
 
-void TimeSlider::stopUpdate() {
+void TimeSlider::sliderPressed_slot() {
 	#if DEBUG
-	qDebug("TimeSlider::stopUpdate");
+	qDebug("TimeSlider::sliderPressed_slot");
 	#endif
 	dont_update = true;
+	start_drag_pos = pos();
+	slider_has_moved = false;
 }
 
-void TimeSlider::resumeUpdate() {
+void TimeSlider::sliderReleased_slot() {
 	#if DEBUG
-	qDebug("TimeSlider::resumeUpdate");
+	qDebug("TimeSlider::sliderReleased_slot");
 	#endif
 	dont_update = false;
-}
-
-void TimeSlider::mouseReleased() {
-	#if DEBUG
-	qDebug("TimeSlider::mouseReleased");
-	#endif
-	emit posChanged( value() );
+	if (slider_has_moved) {
+		// Only emit a video seek action when the slider actually
+		// moved during mouse drag. Otherwise, on mouse release,
+		// we would spuriously seek to the same position we are in,
+		// causing seeker judder and video jitter during playback.
+		if (!pref->update_while_seeking) {
+			// It only makes sense to emit a video seek action when
+			// "Seek to position when released" is active. When we
+			// "Seek to position while dragging", this event is
+			// spurious and should be skipped because the desired
+			// video seeking was already done when the slider moved.
+			emit posChanged( value() );
+		}
+	}
+	start_drag_pos = -1;
+	slider_has_moved = false;
 }
 
 void TimeSlider::valueChanged_slot(int v) {
@@ -95,6 +111,9 @@ void TimeSlider::valueChanged_slot(int v) {
 			emit posChanged(v);
 		}
 	} else {
+		if ( start_drag_pos != -1 && v != start_drag_pos ) {
+			slider_has_moved = true;
+		}
 		#if DEBUG
 		qDebug(" emitting draggingPos");
 		#endif

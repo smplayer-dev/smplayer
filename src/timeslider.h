@@ -51,9 +51,8 @@ signals:
 	void wheelDown();
 
 protected slots:
-	void stopUpdate();
-	void resumeUpdate();
-	void mouseReleased();
+	void sliderPressed_slot();
+	void sliderReleased_slot();
 	void valueChanged_slot(int);
 #if ENABLE_DELAYED_DRAGGING
 	void checkDragging(int);
@@ -67,6 +66,8 @@ protected:
 private:
 	bool dont_update;
 	int position;
+	int start_drag_pos;
+	bool slider_has_moved;
 	double total_time;
 
 #if ENABLE_DELAYED_DRAGGING
