@@ -105,15 +105,13 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 		const QPoint center = sliderRect.center() - sliderRect.topLeft();
 		// to take half of the slider off for the setSliderPosition call we use the center - topLeft
 
-		if (!sliderRect.contains(e->pos())) {
-			e->accept();
+		setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
+		triggerAction(SliderMove);
+		setRepeatAction(SliderNoAction);
 
-			setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
-			triggerAction(SliderMove);
-			setRepeatAction(SliderNoAction);
-		} else {
-			QSlider::mousePressEvent(e);
-		}
+		// Propagating the event allows the user to keep holding
+		// down the mouse button and move the mouse to keep seeking.
+		QSlider::mousePressEvent(e);
 	} else {
 		QSlider::mousePressEvent(e);
 	}
