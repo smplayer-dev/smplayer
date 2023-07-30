@@ -18,12 +18,16 @@
 
 #include "timeslider.h"
 #include "helper.h"
+#include "global.h"
+#include "preferences.h"
 
 #include <QWheelEvent>
 #include <QTimer>
 #include <QToolTip>
 #include <QStyleOption>
 #include <QDebug>
+
+using Global::pref;
 
 #define DEBUG 0
 
@@ -79,7 +83,14 @@ void TimeSlider::sliderReleased_slot() {
 		// moved during mouse drag. Otherwise, on mouse release,
 		// we would spuriously seek to the same position we are in,
 		// causing seeker judder and video jitter during playback.
-		emit posChanged( value() );
+		if (!pref->update_while_seeking) {
+			// It only makes sense to emit a video seek action when
+			// "Seek to position when released" is active. When we
+			// "Seek to position while dragging", this event is
+			// spurious and should be skipped because the desired
+			// video seeking was already done when the slider moved.
+			emit posChanged( value() );
+		}
 	}
 	start_drag_pos = -1;
 	slider_has_moved = false;
