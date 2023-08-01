@@ -118,11 +118,16 @@ void PanelSeeker::mousePressEvent(QMouseEvent *m)
         QPointF pos = m->posF();
         #endif
 
-        #if QT_VERSION >= 0x050000
-        knobAdjust( m->localPos().x() - knobRect.center().x(), true);
-        #else
-        knobAdjust( m->posF().x() - knobRect.center().x(), true);
-        #endif
+        if (!knobRect.contains(pos)) {
+            // Only move slider to mouse position if user didn't click
+            // on the slider. E.g. user clicked on a blank space on the
+            // timeline bar to seek to that time in the video.
+            #if QT_VERSION >= 0x050000
+            knobAdjust( m->localPos().x() - knobRect.center().x(), true);
+            #else
+            knobAdjust( m->posF().x() - knobRect.center().x(), true);
+            #endif
+        }
 
         // Putting the slider into pressed state allows the user to keep
         // holding down the mouse button and move the mouse to keep seeking.

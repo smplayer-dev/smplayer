@@ -105,9 +105,14 @@ void MySlider::mousePressEvent( QMouseEvent * e ) {
 		const QPoint center = sliderRect.center() - sliderRect.topLeft();
 		// to take half of the slider off for the setSliderPosition call we use the center - topLeft
 
-		setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
-		triggerAction(SliderMove);
-		setRepeatAction(SliderNoAction);
+		if (!sliderRect.contains(e->pos())) {
+			// Only move slider to mouse position if user didn't click
+			// on the slider. E.g. user clicked on a blank space on the
+			// timeline bar to seek to that time in the video.
+			setSliderPosition(pixelPosToRangeValue(pick(e->pos() - center)));
+			triggerAction(SliderMove);
+			setRepeatAction(SliderNoAction);
+		}
 
 		// Propagating the event allows the user to keep holding
 		// down the mouse button and move the mouse to keep seeking.
