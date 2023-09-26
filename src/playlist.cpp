@@ -1400,7 +1400,7 @@ void Playlist::load() {
 				loadXSPF(s);
 			}
 			else
-			if (suffix == "m3u") {
+			if (suffix == "m3u" || suffix == "m3u8") {
 				load_m3u(s);
 			}
 			else {
