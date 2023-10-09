@@ -18,6 +18,10 @@
 
 #include "playlist.h"
 
+#ifdef Q_OS_OS2
+#include <algorithm>
+#endif
+
 #include <QTableView>
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
