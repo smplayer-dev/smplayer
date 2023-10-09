@@ -18,7 +18,7 @@
 
 #include "screensaver.h"
 
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 #include "winscreensaver.h"
 #endif
 #ifdef OS_UNIX_NOT_MAC
@@ -29,7 +29,7 @@
 #endif
 
 ScreenSaver::ScreenSaver(QObject * parent) : QObject(parent) {
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 	win_screensaver = new WinScreenSaver();
 #else
 	power_saving = new PowerSaving(this);
@@ -37,13 +37,13 @@ ScreenSaver::ScreenSaver(QObject * parent) : QObject(parent) {
 }
 
 ScreenSaver::~ScreenSaver() {
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 	delete win_screensaver;
 #endif
 }
 
 void ScreenSaver::enable() {
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 	win_screensaver->enable();
 #else
 	power_saving->uninhibit();
@@ -51,7 +51,7 @@ void ScreenSaver::enable() {
 }
 
 void ScreenSaver::disable() {
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 	win_screensaver->disable();
 #else
 	power_saving->inhibit();
