@@ -1023,7 +1023,7 @@ void PrefGeneral::player_combo_changed(int idx) {
 	}
 
 	#ifdef OS_UNIX_NOT_MAC
-	wayland_check->setVisible(mplayerPath().contains("mpv"));
+	//wayland_check->setVisible(mplayerPath().contains("mpv"));
 	#endif
 }
 #endif
