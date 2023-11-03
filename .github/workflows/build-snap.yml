@@ -18,7 +18,7 @@ jobs:
         id: snapcraft
         uses: snapcore/action-build@v1
         with:
-          path: smplayer
+          path: smplayer/core22
   
       - name: Create artifact
         #if: github.event_name != 'release'
