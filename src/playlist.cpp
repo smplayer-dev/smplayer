@@ -399,6 +399,15 @@ void Playlist::updateWindowTitle() {
 	if (title.isEmpty()) title = tr("Untitled playlist");
 	if (modified) title += " (*)";
 
+	if (automatically_get_info) {
+		int total_duration = 0;
+		for (int n = 0; n < count(); n++) {
+			PLItem * i = itemData(n);
+			total_duration += i->duration();
+		}
+		title += " [" + Helper::formatTime(total_duration) + "]";
+	}
+
 	qDebug() << "Playlist::updateWindowTitle:" << title;
 
 	setWindowTitle(title);
