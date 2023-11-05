@@ -266,6 +266,7 @@ protected:
 protected slots:
 	void playCurrent();
 	void itemActivated(const QModelIndex & index );
+	void headerClicked(int index);
 	void showPopup(const QPoint & pos);
 	void upItem();
 	void downItem();

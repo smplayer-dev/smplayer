@@ -495,6 +495,9 @@ void Playlist::createTable() {
 	connect(listView, SIGNAL(activated(const QModelIndex &)),
             this, SLOT(itemActivated(const QModelIndex &)) );
 
+	connect(listView->horizontalHeader(), SIGNAL(sectionClicked(int)),
+            this, SLOT(headerClicked(int)));
+
 	setFilenameColumnVisible(false);
 	setShuffleColumnVisible(false);
 }
@@ -2595,6 +2598,11 @@ int Playlist::maxItemsUrlHistory() {
 	return history_urls->maxItems();
 }
 #endif
+
+void Playlist::headerClicked(int index) {
+	qDebug() << "Playlist::headerClicked:" << index;
+	shuffleAct->setChecked(false);
+}
 
 // Language change stuff
 void Playlist::changeEvent(QEvent *e) {
