@@ -1424,7 +1424,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation>你也可以通过加密货币捐赠</translation>
+        <translation>你也可以通过加密货币捐赠。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -2014,7 +2014,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="377"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>在系统托盘上显示图标(&amp;H)</translation>
+        <translation>显示托盘图标(&amp;H)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
@@ -9297,7 +9297,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation>正在添加文件</translation>
+        <translation>添加文件</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
@@ -9347,7 +9347,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="212"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation>启用此选项则从硬盘上删除文件(&amp;D)</translation>
+        <translation>允许删除硬盘上的文件(&amp;D)</translation>
     </message>
 </context>
 <context>
