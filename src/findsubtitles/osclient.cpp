@@ -127,7 +127,7 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 				QVariantMap att = item["attributes"].toMap();
 				QVariantMap det = att["feature_details"].toMap();
 				QVariantMap uploader = att["uploader"].toMap();
-				QList files = att["files"].toList();
+				QList<QVariant> files = att["files"].toList();
 
 				//qDebug() << att["language"];
 				//qDebug() << att["feature_details"];
