@@ -7,11 +7,14 @@ CONFIG += debug
 
 QT += network xml
 
-INCLUDEPATH += .. maia
+INCLUDEPATH += .. qrestapi
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
+	QT += qml
 	#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
+} else {
+	QT += script
 }
 
 HEADERS += ../filehash.h \
@@ -35,8 +38,8 @@ SOURCES += ../filehash.cpp \
            findsubtitleswindow.cpp \
            main.cpp
 
-HEADERS += maia/maiaObject.h maia/maiaFault.h maia/maiaXmlRpcClient.h osclient.h
-SOURCES += maia/maiaObject.cpp maia/maiaFault.cpp maia/maiaXmlRpcClient.cpp osclient.cpp
+HEADERS += qrestapi/qRestAPI_Export.h qrestapi/qRestAPI.h qrestapi/qRestAPI_p.h qrestapi/qRestResult.h qrestapi/qGirderAPI.h osclient.h
+SOURCES += qrestapi/qRestAPI.cpp qrestapi/qRestResult.cpp qrestapi/qGirderAPI.cpp osclient.cpp
 
 FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 

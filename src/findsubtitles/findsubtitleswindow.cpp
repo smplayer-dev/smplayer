@@ -60,6 +60,9 @@
 #define COL_DATE 4
 #define COL_USER 5
 
+#define DATA_LINK    Qt::UserRole + 1
+#define DATA_FILE_ID DATA_LINK + 1
+
 FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	: QWidget(parent,f)
 {
@@ -143,6 +146,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(parseInfo()) );
 	connect( osclient, SIGNAL(loginFailed()), this, SLOT(showLoginFailed()) );
 	connect( osclient, SIGNAL(searchFailed()), this, SLOT(showSearchFailed()) );
+	connect( osclient, SIGNAL(getDownloadLinkFailed()), this, SLOT(showDownloadFailed()) );
 	connect( osclient, SIGNAL(errorFound(int, const QString &)), this, SLOT(showErrorOS(int, const QString &)) );
 	connect( osclient, SIGNAL(connecting()), this, SLOT(showConnecting()) );
 
@@ -177,11 +181,6 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	retranslateStrings();
 
 	language_filter->setCurrentIndex(0);
-
-	// Opensubtitles server
-	/* os_server = "http://www.opensubtitles.org"; */
-	os_server = "http://api.opensubtitles.org/xml-rpc";
-	osclient->setServer(os_server);
 
 #ifdef FS_USE_PROXY
 	// Proxy
@@ -419,6 +418,10 @@ void FindSubtitlesWindow::showSearchFailed() {
 	status->setText( tr("Search has failed") );
 }
 
+void FindSubtitlesWindow::showDownloadFailed() {
+	status->setText( tr("File URL not found") );
+}
+
 void FindSubtitlesWindow::showErrorOS(int, const QString & error) {
 	status->setText(error);
 }
@@ -458,6 +461,7 @@ void FindSubtitlesWindow::parseInfo() {
 
 			QStandardItem * i_name = new QStandardItem(title_name);
 			i_name->setData( l[n].link );
+			i_name->setData( l[n].file_id, DATA_FILE_ID );
 			if (!l[n].comments.isEmpty()) i_name->setToolTip( l[n].comments );
 			#if QT_VERSION < 0x040400
 			i_name->setToolTip( l[n].link );
@@ -498,9 +502,16 @@ void FindSubtitlesWindow::parseInfo() {
 void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 	qDebug("FindSubtitlesWindow::itemActivated: row: %d, col %d", proxy_model->mapToSource(index).row(), proxy_model->mapToSource(index).column());
 
-	QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
+	QStandardItem * item = table->item(proxy_model->mapToSource(index).row(), COL_NAME);
+	QString download_link = item->data().toString();
+	QString file_id = item->data(DATA_FILE_ID).toString();
+	qDebug() << "FindSubtitlesWindow::itemActivated: file_id:" << file_id;
 
-	qDebug("FindSubtitlesWindow::itemActivated: download link: '%s'", download_link.toLatin1().constData());
+	if (download_link.isEmpty()) {
+		download_link = osclient->getDownloadLink(file_id);
+		item->setData(download_link);
+	}
+	qDebug() << "FindSubtitlesWindow::itemActivated: download link:" << download_link;
 
 #ifdef DOWNLOAD_SUBS
 	file_downloader->download( QUrl(download_link) );
@@ -521,8 +532,15 @@ void FindSubtitlesWindow::copyLink() {
 	qDebug("FindSubtitlesWindow::copyLink");
 	if (view->currentIndex().isValid()) {
 		const QModelIndex & index = view->currentIndex();
-		QString download_link = table->item(proxy_model->mapToSource(index).row(), COL_NAME)->data().toString();
-		qDebug("FindSubtitlesWindow::copyLink: link: '%s'", download_link.toLatin1().constData());
+		QStandardItem * item = table->item(proxy_model->mapToSource(index).row(), COL_NAME);
+		QString download_link = item->data().toString();
+		QString file_id = item->data(DATA_FILE_ID).toString();
+		qDebug() << "FindSubtitlesWindow::copyLink: file_id:" << file_id;
+		if (download_link.isEmpty()) {
+			download_link = osclient->getDownloadLink(file_id);
+			item->setData(download_link);
+		}
+		qDebug() << "FindSubtitlesWindow::copyLink: link:" << download_link;
 		qApp->clipboard()->setText(download_link);
 	}
 }
@@ -547,6 +565,8 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 
 void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
+
+	#if 0
 	QByteArray uncompress_data = gUncompress(buffer);
 	//qDebug("uncompress_data: %s", uncompress_data.constData());
 
@@ -554,6 +574,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 		status->setText(tr("Download failed"));
 		return;
 	}
+	#endif
 
 	QString lang = "unknown";
 	QString extension = "unknown";
@@ -590,7 +611,11 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	if (!output_file.isEmpty()) {
 		QFile file(output_file);
 		file.open(QIODevice::WriteOnly);
+		#if 0
 		bool error = (file.write(uncompress_data) == -1);
+		#else
+		bool error = (file.write(buffer) == -1);
+		#endif
 		file.close();
 
 		if (error) {
@@ -718,7 +743,10 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		proxy_type = d.proxyType();
 		#endif
 
+		#ifdef FS_USE_SERVER_CONFIG
 		osclient->setServer(os_server);
+		#endif
+
 		#ifdef FS_USE_PROXY
 		setupProxy();
 		#endif

@@ -74,6 +74,7 @@ protected slots:
 	//void showConnecting(QString host);
 	void showLoginFailed();
 	void showSearchFailed();
+	void showDownloadFailed();
 	void showErrorOS(int, const QString &);
 	void updateDataReadProgress(int done, int total);
 	void downloadFinished();
