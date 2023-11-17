@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Qt 5
         run: |
-            sudo apt-get -y install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev
+            sudo apt-get -y install qtbase5-dev qt5-qmake qtscript5-dev qttools5-dev-tools qtbase5-private-dev qtdeclarative5-dev
             echo "QT_SELECT=qt5" >> $GITHUB_ENV
         if: ${{ matrix.config.qt == 5 }}
 
