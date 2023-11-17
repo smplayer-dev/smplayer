@@ -11,6 +11,7 @@
 #include <QtCore/qglobal.h>
 
 //#cmakedefine qRestAPI_STATIC
+#define qRestAPI_STATIC
 
 #if !defined(qRestAPI_STATIC)
 #  if defined(Q_OS_WIN) || defined(Q_OS_SYMBIAN)
