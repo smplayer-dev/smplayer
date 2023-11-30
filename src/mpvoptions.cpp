@@ -853,7 +853,7 @@ void MPVProcess::setPause(bool b) {
 	// It seems mpv takes a while to report the pause state in the status line
 	if (b) {
 		for (int n = 0; n < 10; n++) {
-			sendCommand("print_text ${=pause}");
+			sendCommand("print_text PAUSE=${=pause}");
 		}
 	}
 }
