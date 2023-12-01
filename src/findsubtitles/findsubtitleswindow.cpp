@@ -55,10 +55,8 @@
 
 #define COL_LANG 0
 #define COL_NAME 1
-#define COL_FORMAT 2
-#define COL_FILES 3
-#define COL_DATE 4
-#define COL_USER 5
+#define COL_DATE 2
+#define COL_USER 3
 
 #define DATA_LINK    Qt::UserRole + 1
 #define DATA_FILE_ID DATA_LINK + 1
@@ -228,8 +226,7 @@ void FindSubtitlesWindow::retranslateStrings() {
 	retranslateUi(this);
 
 	QStringList labels;
-	labels << tr("Language") << tr("Name") << tr("Format") 
-           << tr("Files") << tr("Date") << tr("Uploaded by");
+	labels << tr("Language") << tr("Name") << tr("Date") << tr("Uploaded by");
 
 	table->setHorizontalHeaderLabels( labels );
 
@@ -478,9 +475,8 @@ void FindSubtitlesWindow::parseInfo() {
 
 			table->setItem(n, COL_LANG, i_lang);
 			table->setItem(n, COL_NAME, i_name);
-			table->setItem(n, COL_FORMAT, new QStandardItem(l[n].format));
-			table->setItem(n, COL_FILES, new QStandardItem(l[n].files));
-			table->setItem(n, COL_DATE, new QStandardItem(l[n].date));
+			QString l_date = l[n].date.replace("T", " ").replace("Z", "");
+			table->setItem(n, COL_DATE, new QStandardItem(l_date));
 			table->setItem(n, COL_USER, new QStandardItem(l[n].user));
 
 		}
@@ -581,7 +577,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	if (view->currentIndex().isValid()) {
 		const QModelIndex & index = view->currentIndex();
 		lang = table->item(proxy_model->mapToSource(index).row(), COL_LANG)->data(Qt::UserRole).toString();
-		extension = table->item(proxy_model->mapToSource(index).row(), COL_FORMAT)->text();
+		extension = "srt";
 	}
 
 	QString output_file;
