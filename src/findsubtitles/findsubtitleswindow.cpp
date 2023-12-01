@@ -308,7 +308,7 @@ void FindSubtitlesWindow::retranslateStrings() {
 #endif
 
 	credits_label->setText("<i>"+ tr("Subtitles service powered by %1")
-                           .arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>") + "</i>");
+                           .arg("<a href=\"http://www.opensubtitles.com\">www.OpenSubtitles.com</a>") + "</i>");
 }
 
 void FindSubtitlesWindow::setMovie(QString filename) {
