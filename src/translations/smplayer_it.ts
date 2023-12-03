@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="it">
+<TS version="2.1" language="it">
 <context>
     <name>About</name>
     <message>
@@ -3046,119 +3046,122 @@ Esempio: extrastereo,karaoke</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Language</source>
         <translation>Lingua</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
         <source>Format</source>
-        <translation>Formato</translation>
+        <translation type="vanished">Formato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Files</source>
-        <translation>Files</translation>
+        <translation type="vanished">Files</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Uploaded by</source>
         <translation>Caricato da</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="274"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Portuguese - Brasil</source>
         <translation>Portoghese - Brasile</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Spanish - Spain</source>
         <translation>Spagnolo - Spagna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Spanish</source>
         <translation>Spagnolo</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Portuguese</source>
         <translation>Portoghese</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
         <source>Spanish - Latin America</source>
         <translation>Spagnolo - America Latina</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>All</source>
         <translation>Tutti</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Chiudi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="310"/>
         <source>Subtitles service powered by %1</source>
         <translation>Servizio sottotitoli a cura di %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Connecting...</source>
         <translation>Connessione...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>L&apos;accesso a opensubtitles.org non è riuscito</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Search has failed</source>
         <translation>La ricerca non ha funzionato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <source>File URL not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Save File</source>
         <translation>Salva file</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Errore nell&apos;aggiustare le linee dei sottotitoli</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="295"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>&amp;Download</source>
         <translation>&amp;Scarica</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="296"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="292"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copia link negli appunti</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="399"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="395"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Download failed: %1.</source>
         <translation>Scaricamento fallito: %1.</translation>
     </message>
@@ -3218,17 +3221,17 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Aggio&amp;rna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="624"/>
         <source>Subtitle saved as %1</source>
         <translation>Sottotitoli salvati come %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="619"/>
         <source>Error saving file</source>
         <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3237,8 +3240,8 @@ nella directory %1
 Controllarne i relativi permessi.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="393"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="570"/>
         <source>Download failed</source>
         <translation>Download fallito</translation>
     </message>
@@ -4028,9 +4031,8 @@ Controllarne i relativi permessi.</translation>
         <translation>Nauruana</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation>BokmÃ¥l</translation>
+        <translation type="vanished">BokmÃ¥l</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4244,9 +4246,8 @@ Controllarne i relativi permessi.</translation>
         <translation>Vietnamita</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation>VolapÃ¼k</translation>
+        <translation type="vanished">VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4596,7 +4597,8 @@ Controllarne i relativi permessi.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -4713,7 +4715,8 @@ Controllarne i relativi permessi.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="205"/>
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4795,86 +4798,86 @@ Vuoi sovrascriverlo?</translation>
         <translation>il filtro &apos;%1&apos; non è supportato da mpv</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="931"/>
+        <location filename="../mpvoptions.cpp" line="935"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>File:</source>
         <translation>File:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="934"/>
+        <location filename="../mpvoptions.cpp" line="938"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="935"/>
+        <location filename="../mpvoptions.cpp" line="939"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Resolution:</source>
         <translation>Risoluzione:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Frames per second:</source>
         <translation>Fotogrammi per secondo:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Estimated:</source>
         <translation>Stimato:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="938"/>
+        <location filename="../mpvoptions.cpp" line="942"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Aspect Ratio:</source>
         <translation>Rapporto d&apos;aspetto:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="939"/>
-        <location filename="../mpvoptions.cpp" line="944"/>
+        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="948"/>
         <location filename="../mpvprocess.h" line="218"/>
         <location filename="../mpvprocess.h" line="221"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="940"/>
+        <location filename="../mpvoptions.cpp" line="944"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Dropped frames:</source>
         <translation>Fotogrammi saltati:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="947"/>
         <location filename="../mpvprocess.h" line="220"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="945"/>
+        <location filename="../mpvoptions.cpp" line="949"/>
         <location filename="../mpvprocess.h" line="222"/>
         <source>Sample Rate:</source>
         <translation>Velocità di campionamento:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="946"/>
+        <location filename="../mpvoptions.cpp" line="950"/>
         <location filename="../mpvprocess.h" line="223"/>
         <source>Channels:</source>
         <translation>Canali:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="949"/>
+        <location filename="../mpvoptions.cpp" line="953"/>
         <location filename="../mpvprocess.h" line="224"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronizzazione audio/video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="952"/>
+        <location filename="../mpvoptions.cpp" line="956"/>
         <source>Cache (in seconds):</source>
         <translation>Cache (in secondi):</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="953"/>
+        <location filename="../mpvoptions.cpp" line="957"/>
         <source>Cache speed:</source>
         <translation>Velocità cache:</translation>
     </message>
@@ -5028,57 +5031,57 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Length</source>
         <translation>Durata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>&amp;Play</source>
         <translation>&amp;Riproduci</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>&amp;Edit</source>
         <translation>&amp;Modifica</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Playlists</source>
         <translation>Liste di riproduzione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1387"/>
+        <location filename="../playlist.cpp" line="1399"/>
         <source>Choose a file</source>
         <translation>Scegli un file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1433"/>
+        <location filename="../playlist.cpp" line="1445"/>
         <source>Choose a filename</source>
         <translation>Scegli il nome del file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1457"/>
         <source>Confirm overwrite?</source>
         <translation>Confermi sovrascrittura?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1446"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Il file  %1 esiste già.
 Vuoi sovrascriverlo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
-        <location filename="../playlist.cpp" line="1748"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1760"/>
         <source>All files</source>
         <translation>Tutti i file</translation>
     </message>
@@ -5088,265 +5091,265 @@ Vuoi sovrascriverlo?</translation>
         <translation>Lista di riproduzione senza nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>&amp;Load...</source>
         <translation>&amp;Carica...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Carica lista di riproduzione da &amp;URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="763"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Riproduci su Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="777"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Apri flusso in un &amp;browser web</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="781"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>Load/Save</source>
         <translation>Carica/Salva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1757"/>
         <source>Select one or more files to open</source>
         <translation>Selezionare uno o più file da aprire</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1814"/>
+        <location filename="../playlist.cpp" line="1826"/>
         <source>Choose a directory</source>
         <translation>Scegli una cartella</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2011"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Edit name</source>
         <translation>Modifica nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2012"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Inserisci il nome per questo file che sarà visualizzato nella lista di riproduzione:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Filename / URL</source>
         <translation>Nome file /URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Shuffle order</source>
         <translation>Ordine casuale</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Download playlist from URL</source>
         <translation>Scarica playlist da URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>&amp;Save</source>
         <translation>&amp;Salva</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Save &amp;as...</source>
         <translation>S&amp;alva come...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="744"/>
         <source>&amp;Next</source>
         <translation>S&amp;uccessivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Pre&amp;vious</source>
         <translation>Precede&amp;nte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="751"/>
         <source>Move &amp;up</source>
         <translation>Manda &amp;su</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="752"/>
         <source>Move &amp;down</source>
         <translation>Manda &amp;giù</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ripeti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="743"/>
+        <location filename="../playlist.cpp" line="755"/>
         <source>S&amp;huffle</source>
         <translation>R&amp;iproduzione Casuale</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="746"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
         <translation>Aggiungi il file &amp;corrente</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="747"/>
+        <location filename="../playlist.cpp" line="759"/>
         <source>Add &amp;file(s)</source>
         <translation>Aggiungi &amp;file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Add &amp;directory</source>
         <translation>Aggiungi c&amp;artella</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="749"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Add &amp;URL(s)</source>
         <translation>Aggiungi &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Remove &amp;selected</source>
         <translation>R&amp;imuovi selezionati</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Remove &amp;all</source>
         <translation>Ri&amp;muovi tutti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Elimina file da disco</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
-        <location filename="../playlist.cpp" line="1543"/>
+        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="1555"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Copia percorso file negli appunti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>&amp;Open source folder</source>
         <translation>Apri cartella s&amp;orgente</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="780"/>
+        <location filename="../playlist.cpp" line="801"/>
         <source>Search</source>
         <translation>Cerca</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
         <translation>Mostra posizione in colonna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
         <translation>Mostra nome in colonna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
         <translation>Mostra lunghezza in colonna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="773"/>
+        <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
         <translation>Mostra nome in colonna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="786"/>
         <source>Show shuffle column</source>
         <translation>Ordine casuale colonne</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="1560"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Copia URL negli appunti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2049"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>Confirm deletion</source>
         <translation>Conferma eliminazione</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2050"/>
+        <location filename="../playlist.cpp" line="2062"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Stai per ELIMINARE il file &apos;%1&apos; dal dispositivo.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2051"/>
+        <location filename="../playlist.cpp" line="2063"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Questa operazione non può essere annullata. Sei sicuro di voler proseguire?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2069"/>
+        <location filename="../playlist.cpp" line="2081"/>
         <source>Deletion failed</source>
         <translation>Eliminazione non riuscita</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2070"/>
+        <location filename="../playlist.cpp" line="2082"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Non è stato possibile eliminare &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2075"/>
+        <location filename="../playlist.cpp" line="2087"/>
         <source>Error deleting the file</source>
         <translation>Errore nell&apos;eliminazione del file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2076"/>
+        <location filename="../playlist.cpp" line="2088"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Non è possibile eliminare &apos;%1&apos; dal file system.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Non è possibile caricare questa playlist</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>Unrecognized format.</source>
         <translation>Formato non riconosciuto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="795"/>
         <source>Add...</source>
         <translation>Aggiungi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Remove...</source>
         <translation>Rimuovi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1490"/>
         <source>Playlist modified</source>
         <translation>Lista di riproduzione modificata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Ci sono modifiche non salvate. Vuoi salvare la lista di riproduzione?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1747"/>
+        <location filename="../playlist.cpp" line="1759"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -8682,8 +8685,8 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="85"/>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="95"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Performance</source>
         <translation>Prestazioni</translation>
     </message>
@@ -8694,7 +8697,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Priority</source>
         <translation>Priorità</translation>
     </message>
@@ -8759,22 +8762,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Usare una cache può migliorare il rendimento nei media lenti</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Allow frame drop</source>
         <translation>Permetti scarto fotogrammi</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Salta alcuni frame per mantenere la sincronia Audio/Video su sistemi lenti.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Allow hard frame drop</source>
         <translation>Permetti alto scarto fotogrammi</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Salto di frame molto intenso. Causa immagini distorte!</translation>
     </message>
@@ -8804,22 +8807,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Selezione rapida dei capitoli nei DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>Fast audio track switching</source>
         <translation>Cambio rapido della traccia audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Selezione rapida dei capitoli nei DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="378"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Se selezionata, si proverà il metodo più veloce di ricerca dei capitoli, ma può non funzionare con alcuni dischi.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Skip loop filter</source>
         <translation>Salta filtro loop</translation>
     </message>
@@ -8829,37 +8832,37 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Possibili valori: :&lt;br&gt; &lt;b&gt;Si&lt;/b&gt;: proverà il metodo più veloce per cambiare la traccia audio (può non funzionare con alcuni formati).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: MPlayer verrà fatto ripartire ogni volta che si cambia la traccia audio.&lt;br&gt; &lt;b&gt;Automatico&lt;/b&gt;: SMPlayer applicherà una delle altre due opzioni in base alla versione di MPlayer. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="387"/>
+        <location filename="../prefperformance.cpp" line="397"/>
         <source>Cache for files</source>
         <translation>Cache per i file</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="388"/>
+        <location filename="../prefperformance.cpp" line="398"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un file.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="391"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>Cache for streams</source>
         <translation>Cache per i flussi</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="392"/>
+        <location filename="../prefperformance.cpp" line="402"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di una URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="395"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>Cache for DVDs</source>
         <translation>Cache per i DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="396"/>
+        <location filename="../prefperformance.cpp" line="406"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un DVD.&lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt; La ricerca temporale potrebbe non funzionare correttamente (insieme al cambio capitolo) usando la cache per un DVD.</translation>
     </message>
@@ -8889,17 +8892,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache per i flu&amp;ssi:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="100"/>
+        <location filename="../prefperformance.cpp" line="110"/>
         <source>Enabled</source>
         <translation>Abilitato</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="101"/>
+        <location filename="../prefperformance.cpp" line="111"/>
         <source>Skip (always)</source>
         <translation>Salta (sempre)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="102"/>
+        <location filename="../prefperformance.cpp" line="112"/>
         <source>Skip only on HD videos</source>
         <translation>Salta solo per i video HD</translation>
     </message>
@@ -8909,7 +8912,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Filtro loop</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Questa opzione permette di saltare il filtro loop (conosciuto anche come deblocking) durante la riproduzione di file H.264. Dal momento che il frame filtrato è usato come riferimento per i frame che da esso dipendono, questo ha un brutto effetto sulla qualità, ad esempio nei video MPEG-2. Ma almeno su HDTV ad alto bitrate, si potrà avere maggiore velocità senza perdita visibile di qualità.</translation>
     </message>
@@ -8920,112 +8923,117 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <source>Auto (safe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="35"/>
+        <location filename="../prefperformance.cpp" line="394"/>
         <source>Auto</source>
         <translation>Automatico</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Imposta priorità processo per %1 secondo le priorità predefinite disponibili su Windows. &lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt;. L&apos;uso di priorità tempo reale può causare blocchi del sistema.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>Hardware decoding</source>
         <translation>Decodifica hardware</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Imposta la API di decodifica hardware. Se la decodifica hardware non è possibile, verrà invece usata la decodifica software.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="326"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Available options:</source>
         <translation>Opzioni disponibili:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="338"/>
         <source>None: only software decoding will be used.</source>
         <translation>Nessuno: verrà usata solo la decodifica software.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Automatico: cerca di abilitare automaticamente la decodifica hardware usando il primo metodo disponibile.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: per le uscite video vdpau e opengl.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="332"/>
+        <location filename="../prefperformance.cpp" line="342"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: per le uscite video opengl e vaapi. Solo per le GPU Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>copia-vaapi: ricopia il video nella RAM di sistema. Solo per GPU Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="336"/>
+        <location filename="../prefperformance.cpp" line="346"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>copia-dxva2: ricopia il video nella RAM di sistema. Sperimentale.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option only works with mpv.</source>
         <translation>Questa opzione funziona solo con mpv. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Possible values:</source>
         <translation>Possibili valori:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Abilitato&lt;/b&gt;: il filtro loop non viene saltato</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Salta (sempre)&lt;/b&gt;: il filtro loop viene saltato senza tener conto della risoluzione video</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Salta solo per i video HD&lt;/b&gt;: il filtro loop viene saltato solo su video la cui altezza è maggiore o uguale  di %1.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="361"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Cerca di usare il codec CoreAVC non libero quando non è specificato nessun altro codec ed è selezionata un&apos;uscita video non-VDPAU.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="363"/>
+        <location filename="../prefperformance.cpp" line="373"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Richiede una build di %1 con supporto CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="382"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>Normalmente questa opzione abiliterà la cache solo quando necessario.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="400"/>
+        <location filename="../prefperformance.cpp" line="410"/>
         <source>Cache for audio CDs</source>
         <translation>Cache per i CD audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="401"/>
+        <location filename="../prefperformance.cpp" line="411"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un CD audio.</translation>
     </message>
@@ -9035,12 +9043,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache per i CD &amp;audio:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="404"/>
+        <location filename="../prefperformance.cpp" line="414"/>
         <source>Cache for VCDs</source>
         <translation>Cache per i VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="405"/>
+        <location filename="../prefperformance.cpp" line="415"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Questa opzione specifica quanta memoria (in kByte) usare in fase di precaching di un VCD.</translation>
     </message>
@@ -9050,12 +9058,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache per i &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Threads for decoding</source>
         <translation>Thread per la decodifica</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Imposta il numero di thread da usare per la decodifica. Solo per MPEG-1/2 e H.264</translation>
     </message>
@@ -9065,7 +9073,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Numero di &amp;thread per la decodifica (solo MPEG-1/2 e H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="360"/>
+        <location filename="../prefperformance.cpp" line="370"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Usa CoreAVC se non è specificato un altro codec</translation>
     </message>

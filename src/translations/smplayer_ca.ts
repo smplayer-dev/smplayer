@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ca">
+<TS version="2.1" language="ca">
 <context>
     <name>About</name>
     <message>
@@ -3044,119 +3044,122 @@ Exemple: extrastereo,karaoke</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
         <source>Format</source>
-        <translation>Format</translation>
+        <translation type="vanished">Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Files</source>
-        <translation>Fitxers</translation>
+        <translation type="vanished">Fitxers</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Uploaded by</source>
         <translation>Pujat per</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="274"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Portuguese - Brasil</source>
         <translation>Portuguès - Brasil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Spanish - Spain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Spanish</source>
         <translation type="unfinished">Espanyol</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
         <source>Spanish - Latin America</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>All</source>
         <translation>Tot</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Tanca</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="310"/>
         <source>Subtitles service powered by %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Connecting...</source>
         <translation>S&apos;està connectant...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Ha fallat l&apos;inici de sessió a opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Search has failed</source>
         <translation>La cerca ha fallat</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <source>File URL not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>Error fixing the subtitle lines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="295"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>&amp;Download</source>
         <translation>&amp;Baixa</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="296"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="292"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copia l&apos;enllaç al porta-retalls</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="399"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="395"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Download failed: %1.</source>
         <translation>Ha fallat la baixada: %1.</translation>
     </message>
@@ -3216,25 +3219,25 @@ Exemple: extrastereo,karaoke</translation>
         <translation>&amp;Refresca</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="624"/>
         <source>Subtitle saved as %1</source>
         <translation>Subtítols desats com a %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="619"/>
         <source>Error saving file</source>
         <translation>Error en desar el fitxer</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="393"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="570"/>
         <source>Download failed</source>
         <translation>Ha fallat la baixada</translation>
     </message>
@@ -4024,11 +4027,6 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
-        <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation type="unfinished"></translation>
@@ -4237,11 +4235,6 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="205"/>
-        <source>VolapÃ¼k</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4592,7 +4585,8 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation type="unfinished"></translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
         <translation type="unfinished"></translation>
@@ -4709,7 +4703,8 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation type="unfinished"></translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="205"/>
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
         <translation type="unfinished"></translation>
@@ -4791,86 +4786,86 @@ El voleu sobreescriure?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="931"/>
+        <location filename="../mpvoptions.cpp" line="935"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>File:</source>
         <translation>Fitxer:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="934"/>
+        <location filename="../mpvoptions.cpp" line="938"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Video:</source>
         <translation>Vídeo:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="935"/>
+        <location filename="../mpvoptions.cpp" line="939"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Resolution:</source>
         <translation>Resolució:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Frames per second:</source>
         <translation>Fotogrames per segon:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Estimated:</source>
         <translation>Aproximació:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="938"/>
+        <location filename="../mpvoptions.cpp" line="942"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Aspect Ratio:</source>
         <translation>Relació d&apos;aspecte:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="939"/>
-        <location filename="../mpvoptions.cpp" line="944"/>
+        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="948"/>
         <location filename="../mpvprocess.h" line="218"/>
         <location filename="../mpvprocess.h" line="221"/>
         <source>Bitrate:</source>
         <translation>Taxa de bits:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="940"/>
+        <location filename="../mpvoptions.cpp" line="944"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Dropped frames:</source>
         <translation>Fotogrames refusats:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="947"/>
         <location filename="../mpvprocess.h" line="220"/>
         <source>Audio:</source>
         <translation>Àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="945"/>
+        <location filename="../mpvoptions.cpp" line="949"/>
         <location filename="../mpvprocess.h" line="222"/>
         <source>Sample Rate:</source>
         <translation>Freqüència de mostreig:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="946"/>
+        <location filename="../mpvoptions.cpp" line="950"/>
         <location filename="../mpvprocess.h" line="223"/>
         <source>Channels:</source>
         <translation>Canals:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="949"/>
+        <location filename="../mpvoptions.cpp" line="953"/>
         <location filename="../mpvprocess.h" line="224"/>
         <source>Audio/video synchronization:</source>
         <translation>Sincronització de vídeo/àudio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="952"/>
+        <location filename="../mpvoptions.cpp" line="956"/>
         <source>Cache (in seconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="953"/>
+        <location filename="../mpvoptions.cpp" line="957"/>
         <source>Cache speed:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5024,57 +5019,57 @@ El voleu sobreescriure?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Name</source>
         <translation>Nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Length</source>
         <translation>Duració</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>&amp;Play</source>
         <translation>&amp;Reprodueix</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edita</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Playlists</source>
         <translation>Llistes de reproducció</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1387"/>
+        <location filename="../playlist.cpp" line="1399"/>
         <source>Choose a file</source>
         <translation>Trieu un fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1433"/>
+        <location filename="../playlist.cpp" line="1445"/>
         <source>Choose a filename</source>
         <translation>Trieu un nom de fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1457"/>
         <source>Confirm overwrite?</source>
         <translation>Voleu sobreescriure&apos;l?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1446"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>El fitxer %1 ja existeix.
 El voleu sobreescriure?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
-        <location filename="../playlist.cpp" line="1748"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1760"/>
         <source>All files</source>
         <translation>Tots els fitxers</translation>
     </message>
@@ -5084,265 +5079,265 @@ El voleu sobreescriure?</translation>
         <translation>Llista de reproducció sense títol</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>&amp;Load...</source>
         <translation>&amp;Carrega...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Carrega la llista de reproducció de l&apos;adreça URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="763"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Reprodueix-ho al Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="777"/>
         <source>Open stream in &amp;a web browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="781"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>Load/Save</source>
         <translation>Carrega/desa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1757"/>
         <source>Select one or more files to open</source>
         <translation>Seleccioneu un o més fitxers a obrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1814"/>
+        <location filename="../playlist.cpp" line="1826"/>
         <source>Choose a directory</source>
         <translation>Trieu un directori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2011"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Edit name</source>
         <translation>Editeu el nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2012"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escriviu el nom que es mostrarà en la llista de reproducció per aquest fitxer:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Filename / URL</source>
         <translation>Nom de fitxer / adreça URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Shuffle order</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Download playlist from URL</source>
         <translation>Baixa la llista de reproducció de l&apos;adreça URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>&amp;Save</source>
         <translation>&amp;Desa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Save &amp;as...</source>
         <translation>&amp;Anomena i desa...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="744"/>
         <source>&amp;Next</source>
         <translation>&amp;Següent</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Pre&amp;vious</source>
         <translation>An&amp;terior</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="751"/>
         <source>Move &amp;up</source>
         <translation>Mou am&amp;unt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="752"/>
         <source>Move &amp;down</source>
         <translation>Mou a&amp;vall</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Repeteix</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="743"/>
+        <location filename="../playlist.cpp" line="755"/>
         <source>S&amp;huffle</source>
         <translation>A&amp;leatori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="746"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
         <translation>Afegeix el fitxer a&amp;ctual</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="747"/>
+        <location filename="../playlist.cpp" line="759"/>
         <source>Add &amp;file(s)</source>
         <translation>Afegeix &amp;fitxers</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Add &amp;directory</source>
         <translation>Afegeix un &amp;directori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="749"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Add &amp;URL(s)</source>
         <translation>Afegeix les adreces &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Remove &amp;selected</source>
         <translation>Suprimeix la &amp;selecció</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Remove &amp;all</source>
         <translation>Suprimeix-ho &amp;tot</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>&amp;Delete file from disk</source>
         <translation>Suprimeix el fitxer del &amp;disc</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
-        <location filename="../playlist.cpp" line="1543"/>
+        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="1555"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Copia el camí del fitxer al porta-retalls</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Obre la carpeta de l&apos;origen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="780"/>
+        <location filename="../playlist.cpp" line="801"/>
         <source>Search</source>
         <translation>Cerca</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
         <translation>Mostra la columna de la posició</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
         <translation>Mostra la columna del nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
         <translation>Mostra la columna de la duració</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="773"/>
+        <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
         <translation>Mostra la columna del nom de fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="786"/>
         <source>Show shuffle column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="1560"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Copia l&apos;adreça URL al porta-retalls</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2049"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>Confirm deletion</source>
         <translation>Confirmació de la supressió</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2050"/>
+        <location filename="../playlist.cpp" line="2062"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2051"/>
+        <location filename="../playlist.cpp" line="2063"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2069"/>
+        <location filename="../playlist.cpp" line="2081"/>
         <source>Deletion failed</source>
         <translation>Ha fallat la supressió</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2070"/>
+        <location filename="../playlist.cpp" line="2082"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2075"/>
+        <location filename="../playlist.cpp" line="2087"/>
         <source>Error deleting the file</source>
         <translation>Error en suprimir el fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2076"/>
+        <location filename="../playlist.cpp" line="2088"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>No és possible carregar aquesta llista de reproducció</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>Unrecognized format.</source>
         <translation>Format no reconegut.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="795"/>
         <source>Add...</source>
         <translation>Afegeix...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Remove...</source>
         <translation>Suprimeix...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1490"/>
         <source>Playlist modified</source>
         <translation>Llista de reproducció modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Hi ha canvis que no s&apos;han desat. Voleu desar la llista de reproducció?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1747"/>
+        <location filename="../playlist.cpp" line="1759"/>
         <source>Multimedia</source>
         <translation>Multimèdia</translation>
     </message>
@@ -8670,8 +8665,8 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="85"/>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="95"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Performance</source>
         <translation>Rendiment</translation>
     </message>
@@ -8682,7 +8677,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Priority</source>
         <translation>Prioritat</translation>
     </message>
@@ -8747,22 +8742,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Si establiu una memòria cau, podeu millorar el rendiment dels mitjans lents</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Allow frame drop</source>
         <translation>Permet refusar el fotograma</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Omet mostrar alguns fotogrames per mantenir la sincronització A/V als sistemes lents.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Allow hard frame drop</source>
         <translation>Permet refusar força fotogrames</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Refús de fotogrames més intens (trenca la descodificació). Porta a la distorsió de la imatge!</translation>
     </message>
@@ -8792,22 +8787,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Cerca ràpida pels capítols en dvds</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>Fast audio track switching</source>
         <translation>Canvi ràpid de pista d&apos;àudio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Cerca ràpida pels capítols en dvds</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="378"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Si es marca, intentarà el mètode més ràpid de cerca per capítols, però pot ser que no funcioni amb alguns discs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Skip loop filter</source>
         <translation>Omet el filtre de repetició</translation>
     </message>
@@ -8817,37 +8812,37 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Valors possibles:&lt;br&gt; &lt;b&gt;Sí&lt;/b&gt;: intentarà el mètode més ràpid per canviar la pista d&apos;àudio (pot no funcionar amb alguns formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: el procés MPlayer es reiniciarà quan canvieu la pista d&apos;àudio.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer decidirà el comportament en funció de la versió de MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="387"/>
+        <location filename="../prefperformance.cpp" line="397"/>
         <source>Cache for files</source>
         <translation>Memòria cau per als fitxers</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="388"/>
+        <location filename="../prefperformance.cpp" line="398"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Aquesta opció especifica quina quantitat de memòria (en KBytes) s&apos;utilitza quan es precarrega un fitxer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="391"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>Cache for streams</source>
         <translation>Memòria cau per als fluxos de dades</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="392"/>
+        <location filename="../prefperformance.cpp" line="402"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Aquesta opció especifica quina quantitat de memòria (en KBytes) s&apos;utilitza quan es precarrega una adreça URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="395"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>Cache for DVDs</source>
         <translation>Memòria cau per als DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="396"/>
+        <location filename="../prefperformance.cpp" line="406"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Aquesta opció especifica quanta memòria (en KBytes) s&apos;utilitzarà en la precàrrega d&apos;un DVD.&lt;br&gt;&lt;b&gt;Advertència:&lt;/b&gt; La cerca pot no funcionar correctament (incloent-hi el canvi de capítol) quan s&apos;utilitzi una memòria cau per als DVD.</translation>
     </message>
@@ -8877,17 +8872,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Memòria cau per als &amp;fluxos de dades:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="100"/>
+        <location filename="../prefperformance.cpp" line="110"/>
         <source>Enabled</source>
         <translation>Habilitat</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="101"/>
+        <location filename="../prefperformance.cpp" line="111"/>
         <source>Skip (always)</source>
         <translation>Omet (sempre)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="102"/>
+        <location filename="../prefperformance.cpp" line="112"/>
         <source>Skip only on HD videos</source>
         <translation>Omet només en vídeos d&apos;alta definició</translation>
     </message>
@@ -8897,7 +8892,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Filtre de repetició</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Aquesta opció permet ometre el filtre de repetició (també conegut com a deblocking) en transcurs de la descodificació H.264. A causa que el fotograma filtrat se suposa que s&apos;utilitza com a referència per a la descodificació dels fotogrames dependents, això recau en una pitjor qualitat si es compara quan no s&apos;hi fa deblocking, p. ex. en vídeos MPEG-2. En canvi, per a les taxes de bits elevades de la TV d&apos;alta definició, produeix un gran increment de velocitat sense una pèrdua de qualitat visible.</translation>
     </message>
@@ -8908,112 +8903,117 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <source>Auto (safe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="35"/>
+        <location filename="../prefperformance.cpp" line="394"/>
         <source>Auto</source>
         <translation>Automàtic</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>Hardware decoding</source>
         <translation>Descodificació per maquinari</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Estableix l&apos;API de descodificació de vídeo per maquinari. Si no és possible la descodificació de maquinari, s&apos;utilitza en el seu lloc la descodificació per programari.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="326"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Available options:</source>
         <translation>Opcions disponibles:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="338"/>
         <source>None: only software decoding will be used.</source>
         <translation>Sense: Únicament s&apos;utilitzarà la descodificació de maquinari.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: per a les sortides de vídeo vdpau i opengl.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="332"/>
+        <location filename="../prefperformance.cpp" line="342"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: per a les sortides de vídeo opengl i vaapi. Només per a les GPU d&apos;Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: copia el vídeo de nou a la RAM del sistema.  Només per a les GPU d&apos;Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="336"/>
+        <location filename="../prefperformance.cpp" line="346"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: copia el vídeo de nou a la RAM del sistema. Experimental.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option only works with mpv.</source>
         <translation>Aquesta opció només funciona amb mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Possible values:</source>
         <translation>Valors possibles:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Habilitat&lt;/b&gt;: no s&apos;omet el filtre de repetició</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Omet (sempre)&lt;/b&gt;: s&apos;omet el filtre de repetició independentment de la resolució del vídeo</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Omet només en vídeos d&apos;alta definició&lt;/b&gt;: el filtre de repetició s&apos;ometrà només en vídeos amb una alçada %1 o superior.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="361"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Intenta utilitzar un còdec CoreAVC no lliure quan no s&apos;especifica cap altre còdec i se selecciona una sortida de vídeo no VDPAU.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="363"/>
+        <location filename="../prefperformance.cpp" line="373"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Requereix una construcció de %1 compatible amb CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="382"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>Cache</source>
         <translation>Memòria cau</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="400"/>
+        <location filename="../prefperformance.cpp" line="410"/>
         <source>Cache for audio CDs</source>
         <translation>Memòria cau per als CD d&apos;àudio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="401"/>
+        <location filename="../prefperformance.cpp" line="411"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9023,12 +9023,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Memòri&amp;a cau per als CD d&apos;àudio:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="404"/>
+        <location filename="../prefperformance.cpp" line="414"/>
         <source>Cache for VCDs</source>
         <translation>Memòria cau per als VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="405"/>
+        <location filename="../prefperformance.cpp" line="415"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9038,12 +9038,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Memòria cau per als &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Threads for decoding</source>
         <translation>Fils d&apos;execució per a la descodificació</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Estableix el nombre màxim de fils d&apos;execució a utilitzar per a la descodificació. Únicament per a MPEG-1/2 i H.264</translation>
     </message>
@@ -9053,7 +9053,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Fils d&apos;execució per a la descodificació (únicamen&amp;t MPEG-1/2 i H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="360"/>
+        <location filename="../prefperformance.cpp" line="370"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Utilitza CoreAVC si no s&apos;ha especificat cap altre còdec</translation>
     </message>
@@ -10186,7 +10186,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>
             <numerusform>%n segon</numerusform>
             <numerusform>%n segons</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -10196,7 +10195,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>
             <numerusform>%n minut</numerusform>
             <numerusform>%n minuts</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="vi">
+<TS version="2.1" language="vi">
 <context>
     <name>About</name>
     <message>
@@ -3041,119 +3041,122 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Language</source>
         <translation>Ngôn ngữ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Tên</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
         <source>Format</source>
-        <translation>Định dạng</translation>
+        <translation type="vanished">Định dạng</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Files</source>
-        <translation>Các tập tin</translation>
+        <translation type="vanished">Các tập tin</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Ngày</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Uploaded by</source>
         <translation>Được tải lên bởi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="274"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Portuguese - Brasil</source>
         <translation>Tiếng Bồ Đào Nha - Brazil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Spanish - Spain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Spanish</source>
         <translation type="unfinished">Tiếng Tây Ban Nha</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Portuguese</source>
         <translation type="unfinished">Tiếng Bồ Đào Nha</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
         <source>Spanish - Latin America</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>All</source>
         <translation>Tất cả</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Đóng</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="310"/>
         <source>Subtitles service powered by %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Connecting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Đăng nhập opensubtiles.org thất bại</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Search has failed</source>
         <translation>Tìm kiếm thất bại</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <source>File URL not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Lỗi sửa dòng phụ đề</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="295"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>&amp;Download</source>
         <translation>&amp;Tải xuống</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="296"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="292"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Chép đường dẫn và clipboard</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="399"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="395"/>
         <source>Error</source>
         <translation>Lỗi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Download failed: %1.</source>
         <translation>Tải xuống đã thất bại: %1.</translation>
     </message>
@@ -3213,17 +3216,17 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Tìm lại</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="624"/>
         <source>Subtitle saved as %1</source>
         <translation>Phụ đề đã được lưu ở %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="619"/>
         <source>Error saving file</source>
         <translation>Tập tin để lưu thông báo lỗi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3232,8 +3235,8 @@ tập tin trong thư mục %1
 Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="393"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="570"/>
         <source>Download failed</source>
         <translation>Tải về đã thất bại</translation>
     </message>
@@ -4023,11 +4026,6 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <translation>Nauru</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
-        <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Tiếng Nê Pan</translation>
@@ -4237,11 +4235,6 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Tiếng Việt</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="205"/>
-        <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4591,7 +4584,8 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -4708,7 +4702,8 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="205"/>
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4790,86 +4785,86 @@ Bạn có muốn ghi đè lên?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="931"/>
+        <location filename="../mpvoptions.cpp" line="935"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="934"/>
+        <location filename="../mpvoptions.cpp" line="938"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Video:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="935"/>
+        <location filename="../mpvoptions.cpp" line="939"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Resolution:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Frames per second:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Estimated:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="938"/>
+        <location filename="../mpvoptions.cpp" line="942"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="939"/>
-        <location filename="../mpvoptions.cpp" line="944"/>
+        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="948"/>
         <location filename="../mpvprocess.h" line="218"/>
         <location filename="../mpvprocess.h" line="221"/>
         <source>Bitrate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="940"/>
+        <location filename="../mpvoptions.cpp" line="944"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Dropped frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="947"/>
         <location filename="../mpvprocess.h" line="220"/>
         <source>Audio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="945"/>
+        <location filename="../mpvoptions.cpp" line="949"/>
         <location filename="../mpvprocess.h" line="222"/>
         <source>Sample Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="946"/>
+        <location filename="../mpvoptions.cpp" line="950"/>
         <location filename="../mpvprocess.h" line="223"/>
         <source>Channels:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="949"/>
+        <location filename="../mpvoptions.cpp" line="953"/>
         <location filename="../mpvprocess.h" line="224"/>
         <source>Audio/video synchronization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="952"/>
+        <location filename="../mpvoptions.cpp" line="956"/>
         <source>Cache (in seconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="953"/>
+        <location filename="../mpvoptions.cpp" line="957"/>
         <source>Cache speed:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5023,56 +5018,56 @@ Bạn có muốn ghi đè lên?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Name</source>
         <translation>Tên</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Length</source>
         <translation>Độ dài</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>&amp;Play</source>
         <translation>&amp;Chơi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>&amp;Edit</source>
         <translation>&amp;Sửa đổi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Playlists</source>
         <translation>Các danh sách chơi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1387"/>
+        <location filename="../playlist.cpp" line="1399"/>
         <source>Choose a file</source>
         <translation>Chọn một tập tin</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1433"/>
+        <location filename="../playlist.cpp" line="1445"/>
         <source>Choose a filename</source>
         <translation>Chọn tên một tập tin</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1457"/>
         <source>Confirm overwrite?</source>
         <translation>Có xác nhận ghi đè?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1446"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Tập tin %1 đã tồn tại. Bạn có muốn ghi đè lên?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
-        <location filename="../playlist.cpp" line="1748"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1760"/>
         <source>All files</source>
         <translation>Mọi tập tin</translation>
     </message>
@@ -5082,265 +5077,265 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>&amp;Load...</source>
         <translation type="unfinished">&amp;Nạp...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Load playlist from &amp;URL...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="763"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>Play on Chromec&amp;ast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="777"/>
         <source>Open stream in &amp;a web browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="781"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>Load/Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1757"/>
         <source>Select one or more files to open</source>
         <translation>Chọn một hay nhiều tập tin để mở</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1814"/>
+        <location filename="../playlist.cpp" line="1826"/>
         <source>Choose a directory</source>
         <translation>Chọ một thư mục</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2011"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Edit name</source>
         <translation>Sửa đổi tên</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2012"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Nhập vào tên sẽ hiện trên danh sách cho tập tin này:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Filename / URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Shuffle order</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Download playlist from URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>&amp;Save</source>
         <translation>&amp;Lưu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Save &amp;as...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="744"/>
         <source>&amp;Next</source>
         <translation>&amp;Tiếp</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Pre&amp;vious</source>
         <translation>T&amp;rước</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="751"/>
         <source>Move &amp;up</source>
         <translation>Di chuyển &amp;lên</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="752"/>
         <source>Move &amp;down</source>
         <translation>Di chuyển &amp;xuống</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
         <translation>Lặ&amp;p lại</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="743"/>
+        <location filename="../playlist.cpp" line="755"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Xáo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="746"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
         <translation>Thêm tập tin &amp;hiện tại</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="747"/>
+        <location filename="../playlist.cpp" line="759"/>
         <source>Add &amp;file(s)</source>
         <translation>Thêm (các) &amp;tập tin</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Add &amp;directory</source>
         <translation>Thêm &amp;thư mục</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="749"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Add &amp;URL(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Remove &amp;selected</source>
         <translation>Bỏ đi những mục đang &amp;chọn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Remove &amp;all</source>
         <translation>Bỏ đi &amp;tất</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>&amp;Delete file from disk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
-        <location filename="../playlist.cpp" line="1543"/>
+        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="1555"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>&amp;Open source folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="780"/>
+        <location filename="../playlist.cpp" line="801"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="773"/>
+        <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="786"/>
         <source>Show shuffle column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="1560"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2049"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>Confirm deletion</source>
         <translation>Xác nhận xóa bỏ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2050"/>
+        <location filename="../playlist.cpp" line="2062"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2051"/>
+        <location filename="../playlist.cpp" line="2063"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2069"/>
+        <location filename="../playlist.cpp" line="2081"/>
         <source>Deletion failed</source>
         <translation>Xóa bỏ thất bại</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2070"/>
+        <location filename="../playlist.cpp" line="2082"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2075"/>
+        <location filename="../playlist.cpp" line="2087"/>
         <source>Error deleting the file</source>
         <translation>Lỗi khi xóa tệp tin</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2076"/>
+        <location filename="../playlist.cpp" line="2088"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>Unrecognized format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="795"/>
         <source>Add...</source>
         <translation>Thêm...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Remove...</source>
         <translation>Bỏ đi...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1490"/>
         <source>Playlist modified</source>
         <translation>Danh sách chơi đã được thay đổi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Có những thay đổi chưa được lưu lại, bạn có muốn lưu lại danh sách?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1747"/>
+        <location filename="../playlist.cpp" line="1759"/>
         <source>Multimedia</source>
         <translation>Đa phương tiện</translation>
     </message>
@@ -8666,8 +8661,8 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="85"/>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="95"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Performance</source>
         <translation>Hiệu suất</translation>
     </message>
@@ -8678,7 +8673,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Priority</source>
         <translation>Mức độ ưu tiên</translation>
     </message>
@@ -8743,22 +8738,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Đặt bộ đệm có thể tăng hiệu suất cho những thiết bị tốc độ thấp</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Allow frame drop</source>
         <translation>cho phép vứt bỏ khung hình</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Bỏ qua một vài khung hình để giữ đồng bộ H/T trên những máy tính yếu.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Allow hard frame drop</source>
         <translation>Cho phép vứt bỏ nhiều khung hình</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Bỏ khung hình nhiều hơn (breaks decoding). Dẫn đến méo hình!</translation>
     </message>
@@ -8788,22 +8783,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Tua nhanh đến các chương trong đĩa dvd</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>Fast audio track switching</source>
         <translation>Chuyển rãnh âm thanh nhanh</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Tua nhanh đến các chương trong đĩa dvd</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="378"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Nếu đánh dấu, nó sẽ thử dùng phương pháp tua đến chương nhanh nhất, có thể sẽ không làm việc với một số đĩa.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Skip loop filter</source>
         <translation>Bỏ qua bộ lọc vòng</translation>
     </message>
@@ -8813,37 +8808,37 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Các giá trị có thể:&lt;br&gt;&lt;b&gt;Có&lt;/b&gt;:nó sẽ thử dùng phương pháp nhanh nhất để chuyển rãnh âm thanh (có thể không làm việc với một vài định dang).&lt;br&gt;&lt;b&gt;Không&lt;/b&gt;: tiến trình MPlayer sẽ bị khởi tạo lại mỗi khi bạn chuyển rãnh âm thanh.&lt;br&gt; &lt;b&gt;Tự động&lt;b&gt;: SMPlayer sẽ tự quyết định tuy theo phiên bản MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="387"/>
+        <location filename="../prefperformance.cpp" line="397"/>
         <source>Cache for files</source>
         <translation>Bộ đệm cho các tệp</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="388"/>
+        <location filename="../prefperformance.cpp" line="398"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Lựa chọn này xác định bao nhiêu bộ nhớ (theo kByte) được dùng để làm đệm cho một tệp.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="391"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>Cache for streams</source>
         <translation>Bộ đệm cho các dòng đa phương tiện</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="392"/>
+        <location filename="../prefperformance.cpp" line="402"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Lựa chọn này xác định bao nhiêu bộ nhớ (theo kByte) được dùng để làm đệm cho URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="395"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>Cache for DVDs</source>
         <translation>Bộ đệm cho các đĩa DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="396"/>
+        <location filename="../prefperformance.cpp" line="406"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Lựa chọn này xác định bao nhiều bộ nhớ (theo kByte) sẽ dùng để làm bộ đệm cho một đĩa DVD.&lt;br&gt;&lt;b&gt;Cảnh báo:&lt;/b&gt; Việc tua có thể sẽ không hoạt động tốt (bao gồm cả chuyển chương) khi dùng đệm cho DVD.</translation>
     </message>
@@ -8873,17 +8868,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Bộ đệm cho các &amp;dòng đa phương tiện:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="100"/>
+        <location filename="../prefperformance.cpp" line="110"/>
         <source>Enabled</source>
         <translation>Đã bật</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="101"/>
+        <location filename="../prefperformance.cpp" line="111"/>
         <source>Skip (always)</source>
         <translation>Bỏ qua (luôn luôn)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="102"/>
+        <location filename="../prefperformance.cpp" line="112"/>
         <source>Skip only on HD videos</source>
         <translation>Bỏ qua chỉ với những phim ảnh HD</translation>
     </message>
@@ -8893,7 +8888,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Bộ &amp;lọc vòng</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Lựa chọn này cho phép bỏ qua bộ lọc vòng (còn gọi là deblocking) trong khi decode H.264. Do các khung bị lọc đáng nhẽ được dùng để tham chiếu cho việc giải mã các khung hình phụ thuộc nên nó gây tác động xấu đến chất lượng hơn so với các phim ảnh khác như là MPEG-2. Như ít nhất là cho các phim ảnh HDTV băng thông lớn điều này tăng tốc đáng kể trong khi không làm giảm đi chất lượng hình ảnh.</translation>
     </message>
@@ -8904,112 +8899,117 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <source>Auto (safe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="35"/>
+        <location filename="../prefperformance.cpp" line="394"/>
         <source>Auto</source>
         <translation>Tự động</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>Hardware decoding</source>
         <translation>Giải mã bằng phần cứng</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="326"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Available options:</source>
         <translation>Tùy chọn sẵn có:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="338"/>
         <source>None: only software decoding will be used.</source>
         <translation>Trống: sẽ chỉ sử dụng giải mã bằng phần mềm.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Tự động: kích hoạt giải mã bằng phần cứng tự động sử dụng phương thức sẵn có đầu tiên</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="332"/>
+        <location filename="../prefperformance.cpp" line="342"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="336"/>
+        <location filename="../prefperformance.cpp" line="346"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option only works with mpv.</source>
         <translation>Tùy chọn này chỉ hoạt động với mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Possible values:</source>
         <translation>Các giá trị có thể:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Bật&lt;/b&gt;: bộ lọc vòng không bị bỏ qua</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Bỏ qua (luôn luôn)&lt;/b&gt;: bộ lọc vòng luôn bị bỏ qua bất kể độ phân giải của hình ảnh</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Bỏ qua chỉ với hình ảnh HD&lt;/b&gt;: bộ lọc vòng sẽ bị bỏ qua chỉ với những phim ảnh có chiều cao lớn hơn %1.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="361"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="363"/>
+        <location filename="../prefperformance.cpp" line="373"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="382"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>Cache</source>
         <translation>Bộ đệm</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="400"/>
+        <location filename="../prefperformance.cpp" line="410"/>
         <source>Cache for audio CDs</source>
         <translation>Bộ đệm cho CD tiếng</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="401"/>
+        <location filename="../prefperformance.cpp" line="411"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Lựa chọn này xác định bao nhiêu bộ nhớ (theo kByte) được dùng để làm đệm cho một đĩa CD tiếng.</translation>
     </message>
@@ -9019,12 +9019,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Bộ đệm cho CD &amp;tiếng:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="404"/>
+        <location filename="../prefperformance.cpp" line="414"/>
         <source>Cache for VCDs</source>
         <translation>Bộ đệm cho VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="405"/>
+        <location filename="../prefperformance.cpp" line="415"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Lựa chọn này xác định bao nhiêu bộ nhớ (theo kByte) được dùng để làm đệm cho đĩa VCD.</translation>
     </message>
@@ -9034,12 +9034,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Bộ đệm cho đĩa &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Threads for decoding</source>
         <translation>Các thread cho việc giải mã</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Đặt số thread dùng cho việc giải mã. Chỉ dành cho MPEG-1/2 và H.264</translation>
     </message>
@@ -9049,7 +9049,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Số &amp;thread dùng cho việc giải mã (chỉ cho MPEG-1/2 và H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="360"/>
+        <location filename="../prefperformance.cpp" line="370"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Sử dụng CoreAVC nếu không định rõ được thuật giải codec nào khác</translation>
     </message>

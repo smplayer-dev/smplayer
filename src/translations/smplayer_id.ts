@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="id">
+<TS version="2.1" language="id">
 <context>
     <name>About</name>
     <message>
@@ -3045,119 +3045,122 @@ Contoh: extrastereo,karaoke</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Language</source>
         <translation>Bahasa</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nama</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
         <source>Format</source>
-        <translation>Format</translation>
+        <translation type="vanished">Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Files</source>
-        <translation>Berkas</translation>
+        <translation type="vanished">Berkas</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Tanggal</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Uploaded by</source>
         <translation>Diunggah oleh</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="274"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugis - Brasil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Spanish - Spain</source>
         <translation>Spanyol - Spanyol</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Spanish</source>
         <translation>Spanyol</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Portuguese</source>
         <translation>Portugis</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
         <source>Spanish - Latin America</source>
         <translation>Spanyol - Amerika Latin</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>All</source>
         <translation>Semua</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Tutup</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="310"/>
         <source>Subtitles service powered by %1</source>
         <translation>Layanan subtitle diberdayakan oleh %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Connecting...</source>
         <translation>Menyambungkan...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Gagal masuk ke opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Search has failed</source>
         <translation>Pencarian gagal</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <source>File URL not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Save File</source>
         <translation>Simpan Berkas</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Galat memperbaiki subtitle yang ada pada baris tersebut</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="295"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>&amp;Download</source>
         <translation>&amp;Unduh</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="296"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="292"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Salin tautan ke papan-klip</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="399"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="395"/>
         <source>Error</source>
         <translation>Galat</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Download failed: %1.</source>
         <translation>Unduhan gagal: %1</translation>
     </message>
@@ -3217,17 +3220,17 @@ Contoh: extrastereo,karaoke</translation>
         <translation>&amp;Segarkan</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="624"/>
         <source>Subtitle saved as %1</source>
         <translation>Simpan subtitle sebagai %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="619"/>
         <source>Error saving file</source>
         <translation>Galat saat menyimpan berkas</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3236,8 +3239,8 @@ pada folder %1
 Harap periksa izin dari folder tersebut.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="393"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="570"/>
         <source>Download failed</source>
         <translation>Unduhan gagal</translation>
     </message>
@@ -4027,11 +4030,6 @@ Harap periksa izin dari folder tersebut.</translation>
         <translation>Nauru</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
-        <source>BokmÃ¥l</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepal</translation>
@@ -4241,11 +4239,6 @@ Harap periksa izin dari folder tersebut.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnam</translation>
-    </message>
-    <message>
-        <location filename="../languages.cpp" line="205"/>
-        <source>VolapÃ¼k</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4595,7 +4588,8 @@ Harap periksa izin dari folder tersebut.</translation>
         <source>Marshallese</source>
         <translation>Marshall</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -4712,7 +4706,8 @@ Harap periksa izin dari folder tersebut.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="205"/>
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4794,86 +4789,86 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>filter &apos;%1&apos; tidak didukung oleh mpv</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="931"/>
+        <location filename="../mpvoptions.cpp" line="935"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>File:</source>
         <translation>File:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="934"/>
+        <location filename="../mpvoptions.cpp" line="938"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="935"/>
+        <location filename="../mpvoptions.cpp" line="939"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Resolution:</source>
         <translation>Resolusi:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Frames per second:</source>
         <translation>Frame per detik:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Estimated:</source>
         <translation>Diperkirakan:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="938"/>
+        <location filename="../mpvoptions.cpp" line="942"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Aspect Ratio:</source>
         <translation>Aspek Rasio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="939"/>
-        <location filename="../mpvoptions.cpp" line="944"/>
+        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="948"/>
         <location filename="../mpvprocess.h" line="218"/>
         <location filename="../mpvprocess.h" line="221"/>
         <source>Bitrate:</source>
         <translation>Laju bit:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="940"/>
+        <location filename="../mpvoptions.cpp" line="944"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Dropped frames:</source>
         <translation>Frame terbuang:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="947"/>
         <location filename="../mpvprocess.h" line="220"/>
         <source>Audio:</source>
         <translation>Audio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="945"/>
+        <location filename="../mpvoptions.cpp" line="949"/>
         <location filename="../mpvprocess.h" line="222"/>
         <source>Sample Rate:</source>
         <translation>Laju Sampel:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="946"/>
+        <location filename="../mpvoptions.cpp" line="950"/>
         <location filename="../mpvprocess.h" line="223"/>
         <source>Channels:</source>
         <translation>Saluran:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="949"/>
+        <location filename="../mpvoptions.cpp" line="953"/>
         <location filename="../mpvprocess.h" line="224"/>
         <source>Audio/video synchronization:</source>
         <translation>Sinkronisasi audio/video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="952"/>
+        <location filename="../mpvoptions.cpp" line="956"/>
         <source>Cache (in seconds):</source>
         <translation>Tembolok (dalam satuan detik):</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="953"/>
+        <location filename="../mpvoptions.cpp" line="957"/>
         <source>Cache speed:</source>
         <translation>Kecepatan tembolok:</translation>
     </message>
@@ -5027,57 +5022,57 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Name</source>
         <translation>Nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Length</source>
         <translation>Durasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>&amp;Play</source>
         <translation>&amp;Putar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>&amp;Edit</source>
         <translation>&amp;Sunting</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Playlists</source>
         <translation>Daftar-putar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1387"/>
+        <location filename="../playlist.cpp" line="1399"/>
         <source>Choose a file</source>
         <translation>Pilih berkas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1433"/>
+        <location filename="../playlist.cpp" line="1445"/>
         <source>Choose a filename</source>
         <translation>Pilih nama berkas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1457"/>
         <source>Confirm overwrite?</source>
         <translation>Konfirmasi timpa?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1446"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Berkas %1 telah ada.
 Apakah Anda ingin menimpanya?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
-        <location filename="../playlist.cpp" line="1748"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1760"/>
         <source>All files</source>
         <translation>Semua berkas</translation>
     </message>
@@ -5087,265 +5082,265 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Daftar putar tanpa judul</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>&amp;Load...</source>
         <translation>&amp;Muat...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Muat daftar putar dari &amp;URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="763"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Putar di Chrome&amp;cast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="777"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Buka stream di &amp;penjelajah web</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="781"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>Load/Save</source>
         <translation>Muat/Simpan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1757"/>
         <source>Select one or more files to open</source>
         <translation>Pilih satu atau lebih berkas untuk dibuka</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1814"/>
+        <location filename="../playlist.cpp" line="1826"/>
         <source>Choose a directory</source>
         <translation>PIlih direktor</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2011"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Edit name</source>
         <translation>Sunting nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2012"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Tuliskan nama yang akan ditampilkan pada daftar putar untuk berkas tersebut</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Filename / URL</source>
         <translation>Nama file / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Shuffle order</source>
         <translation>Urutan acak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Download playlist from URL</source>
         <translation>Unduh daftar putar dari URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>&amp;Save</source>
         <translation>&amp;Simpan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Save &amp;as...</source>
         <translation>Simpan &amp;sebagai...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="744"/>
         <source>&amp;Next</source>
         <translation>S&amp;elanjutnya</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Pre&amp;vious</source>
         <translation>Se&amp;belumnya</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="751"/>
         <source>Move &amp;up</source>
         <translation>Pindah &amp;naik</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="752"/>
         <source>Move &amp;down</source>
         <translation>Pindah &amp;turun</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ulangi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="743"/>
+        <location filename="../playlist.cpp" line="755"/>
         <source>S&amp;huffle</source>
         <translation>K&amp;ocok</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="746"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
         <translation>Tambah berkas saa&amp;t ini</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="747"/>
+        <location filename="../playlist.cpp" line="759"/>
         <source>Add &amp;file(s)</source>
         <translation>Tambah ber&amp;kas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Add &amp;directory</source>
         <translation>Tambah &amp;direktori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="749"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Add &amp;URL(s)</source>
         <translation>Tambah &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Remove &amp;selected</source>
         <translation>Buang &amp;yang terpilih</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Remove &amp;all</source>
         <translation>Buang semu&amp;a</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Hapus file dari diska</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
-        <location filename="../playlist.cpp" line="1543"/>
+        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="1555"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Salin jalur file ke papan klip</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Buka folder sumber</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="780"/>
+        <location filename="../playlist.cpp" line="801"/>
         <source>Search</source>
         <translation>Cari</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
         <translation>Tampilkan kolom posisi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
         <translation>Tampilkan kolom nama</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
         <translation>Tampilkan kolom durasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="773"/>
+        <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
         <translation>Tampilkan kolom nama file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="786"/>
         <source>Show shuffle column</source>
         <translation>Tampilkan kolom acak</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="1560"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Salin URL ke papan klip</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2049"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>Confirm deletion</source>
         <translation>Konfirmasi penghapusan</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2050"/>
+        <location filename="../playlist.cpp" line="2062"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Anda akan MENGHAPUS file &apos;%1&quot; dari perangkat Anda.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2051"/>
+        <location filename="../playlist.cpp" line="2063"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Tindakan ini tidak dapat diselesaikan. Apakah Anda yakin untuk memrosesnya?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2069"/>
+        <location filename="../playlist.cpp" line="2081"/>
         <source>Deletion failed</source>
         <translation>Penghapusan gagal</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2070"/>
+        <location filename="../playlist.cpp" line="2082"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Tidak memungkinkan untuk menghapus &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2075"/>
+        <location filename="../playlist.cpp" line="2087"/>
         <source>Error deleting the file</source>
         <translation>Galat menghapus file</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2076"/>
+        <location filename="../playlist.cpp" line="2088"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Tidak memungkinkan untuk menghapus &apos;%1&apos; dari file sistem.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Tidak dapat memuat daftar putar ini</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>Unrecognized format.</source>
         <translation>Format tidak dikenal.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="795"/>
         <source>Add...</source>
         <translation>Tambah...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Remove...</source>
         <translation>Buang...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1490"/>
         <source>Playlist modified</source>
         <translation>Daftar-putar dimodifikasi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Di sini ada perubahan yang tidak tersimpan, apakah Anda ingin menyimpan daftar-putar ini?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1747"/>
+        <location filename="../playlist.cpp" line="1759"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -8681,8 +8676,8 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="85"/>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="95"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Performance</source>
         <translation>Kinerja</translation>
     </message>
@@ -8693,7 +8688,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Priority</source>
         <translation>Prioritas</translation>
     </message>
@@ -8758,22 +8753,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Menyetel cache mungkin akan meningkatkan kinerja pada media yang lambat</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Allow frame drop</source>
         <translation>Bolehkan penurunan frame</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Lewati menampilkan beberapa frame untuk mempermudah sinkron A/V pada sistem yang lambat</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Allow hard frame drop</source>
         <translation>Bolehkan penurunan frame keras</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Lebih banyak frame yang akan diturunkan (merusak dekoding). Menyebabkan distorsi citra!</translation>
     </message>
@@ -8803,22 +8798,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Jangka &amp;cepat ke bab dalam DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>Fast audio track switching</source>
         <translation>Pengalihan cepat trek audio</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Jangka cepat ke bab dalam DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="378"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Jika dicentang, itu akan mencoba metode tercepat untuk menjangka ke bab namun itu mungkin tidak bekerja dengan beberapa disk.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Skip loop filter</source>
         <translation>Lewati filter pengulangan.</translation>
     </message>
@@ -8828,37 +8823,37 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Pilihan yang memungkinkan:&lt;br&gt;&lt;b&gt;Ya&lt;/b&gt;: Pilihan ini akan mencoba metode tercepat untuk melakukan peralihan trek audio (mungkin saja hal ini tidak bekerja pada beberapa format).&lt;br&gt;&lt;b&gt;Tidak&lt;/b&gt;: Proses MPlayer akan diulang kembali kapanpun Anda mengubah trek audio.&lt;br&gt;&lt;b&gt;Otomatis&lt;/b&gt;: SMPlayer akan melakukan tindakan ini sesuai dengan versi MPlayer yang Anda gunakan.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="387"/>
+        <location filename="../prefperformance.cpp" line="397"/>
         <source>Cache for files</source>
         <translation>Cache untuk file</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="388"/>
+        <location filename="../prefperformance.cpp" line="398"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Opsi ini menentukan berapa banyak memori (dalam kBytes) yang digunakan ketika melakukan pra-cache pada sebuah file.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="391"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>Cache for streams</source>
         <translation>Cache untuk stream</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="392"/>
+        <location filename="../prefperformance.cpp" line="402"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Opsi ini menentukan berapa banyak memori (dalam kBytes) yang digunakan ketika melakukan pra-cache pada sebuah URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="395"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>Cache for DVDs</source>
         <translation>Cache untuk DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="396"/>
+        <location filename="../prefperformance.cpp" line="406"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Opsi ini menentukan berapa banyak memori (dalam kBytes) yang digunakan ketika melakukan pra-cache pada sebuah DVD.&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt; Penjangkaan mungkin tidak bekerja dengan baik (termasuk pralihan bab) ketika menggunakan sebuah cache untuk DVD.</translation>
     </message>
@@ -8888,17 +8883,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache untuk &amp;stream:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="100"/>
+        <location filename="../prefperformance.cpp" line="110"/>
         <source>Enabled</source>
         <translation>Diaktifkan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="101"/>
+        <location filename="../prefperformance.cpp" line="111"/>
         <source>Skip (always)</source>
         <translation>Lewati (selalu)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="102"/>
+        <location filename="../prefperformance.cpp" line="112"/>
         <source>Skip only on HD videos</source>
         <translation>Lewati hanya pada video HD</translation>
     </message>
@@ -8908,7 +8903,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Filter pengulangan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Opsi ini membolehkan Anda untuk melewati filter pengulangan (alias deblok) selama mendekode H.264. Sejak filter frame seharusnya digunakan sebagai referensi untuk mendekode tergantung frame tersebut memiliki efek buruk terhadap kualitas daripada tidak melakukan deblok misalnya pada video MPEG-2. Tapi setidaknya untuk HDTV dengan bitrate tinggi menghasilkan kelancaran penampilan video tanpa mengurangi kualitas.</translation>
     </message>
@@ -8919,112 +8914,117 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <source>Auto (safe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="35"/>
+        <location filename="../prefperformance.cpp" line="394"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Tetapkan prioritas proses %1 sesuai prioritas yang ditentukan sebelumnya yang tersedia di Windows.&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt; Menggunakan prioritas waktu nyata bisa menyebabkan sistem lockup.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>Hardware decoding</source>
         <translation>Decoding Hardware</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Setel decoding perangkat-keras video API. Jika decoding perangkat-keras tidak memungkinkan, decoding perangkat-lunak akan digunakan sebagai gantinya.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="326"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Available options:</source>
         <translation>Opsi tersedia:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="338"/>
         <source>None: only software decoding will be used.</source>
         <translation>Tidak ada: hanya decoding perangkat-lunak yang akan digunakan.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Auto: percobaan untuk secara otomatis mengaktifkan perangkat-keras decoding menggunakan metode pertama yang tersedia.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: untuk vdpau dan keluaran video opengl.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="332"/>
+        <location filename="../prefperformance.cpp" line="342"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: untuk opengl dan keluaran video vaapi. Untuk GPU Intel saja.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: penyalinan video kembali ke dalam RAM sistem. Untuk GPU Intel saja.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="336"/>
+        <location filename="../prefperformance.cpp" line="346"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: penyalinan video kembali ke RAM sistem. Eksperimental.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option only works with mpv.</source>
         <translation>Opsi ini hanya bekerja dengan mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Possible values:</source>
         <translation>Nilai yang memungkinkan:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Diaktifkan&lt;/b&gt;: filter pengulangan tidak dilewati</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Lewati (selalu)&lt;/b&gt;:  filter pengulangan dilewati tidak peduli pada resolusi video apapun</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Hanya lewati di video HD&lt;/b&gt;: filter pengulangan akan dilewati hanya pada video dengan besar %1 atau lebih besar lagi.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="361"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Coba untuk menggunakan kodek non-free CoreAVC ketika tidak ada kodek lain yang ditentukan dan sebuah keluaran video non-VDPAU yang dipilih.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="363"/>
+        <location filename="../prefperformance.cpp" line="373"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Membutuhkan build %1 dengan dukungan CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="382"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>Biasanya opsi ini akan mengaktifkan cache ketika diperlukan.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="400"/>
+        <location filename="../prefperformance.cpp" line="410"/>
         <source>Cache for audio CDs</source>
         <translation>Cache untuk audio CD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="401"/>
+        <location filename="../prefperformance.cpp" line="411"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Opsi ini menentukan berapa banyak memori (dalam kBytes) yang digunakan ketika melakukan pra-cache pada sebuah audio CD.</translation>
     </message>
@@ -9034,12 +9034,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache untuk &amp;audio CD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="404"/>
+        <location filename="../prefperformance.cpp" line="414"/>
         <source>Cache for VCDs</source>
         <translation>Cache untuk VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="405"/>
+        <location filename="../prefperformance.cpp" line="415"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Opsi ini menentukan berapa banyak memori (dalam kBytes) yang digunakan ketika melakukan pra-cache pada sebuah VCD.</translation>
     </message>
@@ -9049,12 +9049,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Cache untuk &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Threads for decoding</source>
         <translation>Threads untuk mendekode</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Setel jumlah threads untuk digunakan pada proses dekoding. Hanya untuk MPEG-1/2 dan H.264</translation>
     </message>
@@ -9064,7 +9064,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;Thread untuk dekoding (hanya MPEG-1/2 dan H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="360"/>
+        <location filename="../prefperformance.cpp" line="370"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Gunakan CoreAVC jika tidak ada kodek lain yang ditentukan</translation>
     </message>

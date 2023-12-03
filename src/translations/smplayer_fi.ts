@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fi">
+<TS version="2.1" language="fi">
 <context>
     <name>About</name>
     <message>
@@ -3036,119 +3036,122 @@ Esimerkki: extrastereo,karaoke</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Language</source>
         <translation>Kieli</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nimi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="232"/>
         <source>Format</source>
-        <translation>Muoto</translation>
+        <translation type="vanished">Muoto</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
         <source>Files</source>
-        <translation>Tiedostot</translation>
+        <translation type="vanished">Tiedostot</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Päivämäärä</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="233"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Uploaded by</source>
         <translation>Lisännyt</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="274"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>Portuguese - Brasil</source>
         <translation>Brasilian portugali</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Spanish - Spain</source>
         <translation>Espanja - Espanja</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Spanish</source>
         <translation>Espanja</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="247"/>
         <source>Portuguese</source>
         <translation>Portugali</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
         <source>Spanish - Latin America</source>
         <translation>Espanja - Latinalainen Amerikka</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="282"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="278"/>
         <source>All</source>
         <translation>Kaikki</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
         <source>Close</source>
         <translation>Sulje</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="314"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="310"/>
         <source>Subtitles service powered by %1</source>
         <translation>Tekstityspalvelun tarjoaa %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="405"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="401"/>
         <source>Connecting...</source>
         <translation>Yhdistetään...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Kirjautuminen opensubtitles.org sivulle epäonnistui</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>Search has failed</source>
         <translation>Haku epäonnistui</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="584"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="586"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
+        <source>File URL not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
         <source>Save File</source>
         <translation>Tallenna tiedosto</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="667"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Virhe tekstitysrivien kiinnityksessä</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="295"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
         <source>&amp;Download</source>
         <translation>&amp;Lataa</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="296"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="292"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Kopioi leikepöydälle</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="399"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="395"/>
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Download failed: %1.</source>
         <translation>Lataus epäonnistui: %1.</translation>
     </message>
@@ -3208,17 +3211,17 @@ Esimerkki: extrastereo,karaoke</translation>
         <translation>&amp;Virkistä</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="603"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="624"/>
         <source>Subtitle saved as %1</source>
         <translation>Tekstitys tallennettu %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="619"/>
         <source>Error saving file</source>
         <translation>Virhe tallennettaessa tiedostoa</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -3227,8 +3230,8 @@ kansioon %1
 Tarkista kansion oikeudet.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="397"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="554"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="393"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="570"/>
         <source>Download failed</source>
         <translation>Lataus epäonnistui</translation>
     </message>
@@ -4018,9 +4021,8 @@ Tarkista kansion oikeudet.</translation>
         <translation>naurun kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
         <source>BokmÃ¥l</source>
-        <translation>Bokm</translation>
+        <translation type="vanished">Bokm</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4234,9 +4236,8 @@ Tarkista kansion oikeudet.</translation>
         <translation>vietnamin kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="205"/>
         <source>VolapÃ¼k</source>
-        <translation>Volap</translation>
+        <translation type="vanished">Volap</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -4586,7 +4587,8 @@ Tarkista kansion oikeudet.</translation>
         <source>Marshallese</source>
         <translation>marshallesen kieli</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="139"/>
         <source>Bokmål</source>
         <translation>bokmål</translation>
@@ -4703,7 +4705,8 @@ Tarkista kansion oikeudet.</translation>
         <source>Venda</source>
         <translation>vendan kieli</translation>
     </message>
-    <message utf8="true">
+    <message>
+        <location filename="../languages.cpp" line="205"/>
         <location filename="../languages.cpp" line="207"/>
         <source>Volapük</source>
         <translation>volapükin kieli</translation>
@@ -4785,86 +4788,86 @@ Haluatko kirjoittaa sen päälle?</translation>
         <translation>mpv ei tue suodatinta &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="931"/>
+        <location filename="../mpvoptions.cpp" line="935"/>
         <location filename="../mpvprocess.h" line="212"/>
         <source>File:</source>
         <translation>Tiedosto:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="934"/>
+        <location filename="../mpvoptions.cpp" line="938"/>
         <location filename="../mpvprocess.h" line="213"/>
         <source>Video:</source>
         <translation>Video:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="935"/>
+        <location filename="../mpvoptions.cpp" line="939"/>
         <location filename="../mpvprocess.h" line="214"/>
         <source>Resolution:</source>
         <translation>Resoluutio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="215"/>
         <source>Frames per second:</source>
         <translation>Kuvaa sekunnissa:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="936"/>
+        <location filename="../mpvoptions.cpp" line="940"/>
         <location filename="../mpvprocess.h" line="216"/>
         <source>Estimated:</source>
         <translation>Arvio:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="938"/>
+        <location filename="../mpvoptions.cpp" line="942"/>
         <location filename="../mpvprocess.h" line="217"/>
         <source>Aspect Ratio:</source>
         <translation>Kuvasuhde:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="939"/>
-        <location filename="../mpvoptions.cpp" line="944"/>
+        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="948"/>
         <location filename="../mpvprocess.h" line="218"/>
         <location filename="../mpvprocess.h" line="221"/>
         <source>Bitrate:</source>
         <translation>Bittinopeus:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="940"/>
+        <location filename="../mpvoptions.cpp" line="944"/>
         <location filename="../mpvprocess.h" line="219"/>
         <source>Dropped frames:</source>
         <translation>Pudonneet kuvat:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="943"/>
+        <location filename="../mpvoptions.cpp" line="947"/>
         <location filename="../mpvprocess.h" line="220"/>
         <source>Audio:</source>
         <translation>Ääni:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="945"/>
+        <location filename="../mpvoptions.cpp" line="949"/>
         <location filename="../mpvprocess.h" line="222"/>
         <source>Sample Rate:</source>
         <translation>Näytteenottotaajuus:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="946"/>
+        <location filename="../mpvoptions.cpp" line="950"/>
         <location filename="../mpvprocess.h" line="223"/>
         <source>Channels:</source>
         <translation>Kanavat:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="949"/>
+        <location filename="../mpvoptions.cpp" line="953"/>
         <location filename="../mpvprocess.h" line="224"/>
         <source>Audio/video synchronization:</source>
         <translation>Äänen/videon synkronointi:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="952"/>
+        <location filename="../mpvoptions.cpp" line="956"/>
         <source>Cache (in seconds):</source>
         <translation>Välimuisti (sekunteina):</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="953"/>
+        <location filename="../mpvoptions.cpp" line="957"/>
         <source>Cache speed:</source>
         <translation>Välimuistin nopeus:</translation>
     </message>
@@ -5018,57 +5021,57 @@ Haluatko kirjoittaa sen päälle?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Name</source>
         <translation>Nimi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Length</source>
         <translation>Pituus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="730"/>
+        <location filename="../playlist.cpp" line="742"/>
         <source>&amp;Play</source>
         <translation>&amp;Toista</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>&amp;Edit</source>
         <translation>&amp;Muokkaa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Playlists</source>
         <translation>Soittolistat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1387"/>
+        <location filename="../playlist.cpp" line="1399"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1433"/>
+        <location filename="../playlist.cpp" line="1445"/>
         <source>Choose a filename</source>
         <translation>Valitse tiedostonimi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1457"/>
         <source>Confirm overwrite?</source>
         <translation>Vahvista päällekirjoitus?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1446"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Tiedosto %1 on jo olemassa.
 Haluatko kirjoittaa päälle?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1389"/>
-        <location filename="../playlist.cpp" line="1435"/>
-        <location filename="../playlist.cpp" line="1748"/>
+        <location filename="../playlist.cpp" line="1401"/>
+        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1760"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
@@ -5078,266 +5081,266 @@ Haluatko kirjoittaa päälle?</translation>
         <translation>Nimetön soittolista</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>&amp;Load...</source>
         <translation>&amp;Lataa...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="724"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>Lataa soittolista &amp;verkko-osoitteesta...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="763"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>Toista Chromec&amp;astilla</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="777"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>Ava&amp;a suoratoisto selaimessa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="781"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>Load/Save</source>
         <translation>Lataa/tallenna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1757"/>
         <source>Select one or more files to open</source>
         <translation>Valitse yksi tai useampi tiedosto avattavaksi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1814"/>
+        <location filename="../playlist.cpp" line="1826"/>
         <source>Choose a directory</source>
         <translation>Valitse hakemisto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2011"/>
+        <location filename="../playlist.cpp" line="2023"/>
         <source>Edit name</source>
         <translation>Muokkaa nimeä</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2012"/>
+        <location filename="../playlist.cpp" line="2024"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Kirjoita nimi, joka näytetään soittolistassa tälle tiedostolle:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Filename / URL</source>
         <translation>Tiedostonimi / verkko-osoite</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Shuffle order</source>
         <translation>Sekoita järjestys</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="737"/>
         <source>Download playlist from URL</source>
         <translation>Lataa soittolista verkko-osoitteesta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="727"/>
+        <location filename="../playlist.cpp" line="739"/>
         <source>&amp;Save</source>
         <translation>&amp;Tallenna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="728"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Save &amp;as...</source>
         <translation>Tallenna &amp;nimellä...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="744"/>
         <source>&amp;Next</source>
         <translation>&amp;Seuraava</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="745"/>
         <source>Pre&amp;vious</source>
         <translation>E&amp;dellinen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="751"/>
         <source>Move &amp;up</source>
         <translation>Siirrä &amp;ylös</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="752"/>
         <source>Move &amp;down</source>
         <translation>Siirrä &amp;alas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Toista</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="743"/>
+        <location filename="../playlist.cpp" line="755"/>
         <source>S&amp;huffle</source>
         <translation>S&amp;ekoita</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="746"/>
+        <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
         <translation>Lisää &amp;nykyinen tiedosto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="747"/>
+        <location filename="../playlist.cpp" line="759"/>
         <source>Add &amp;file(s)</source>
         <translation>Lisää &amp;tiedostoja</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="748"/>
+        <location filename="../playlist.cpp" line="760"/>
         <source>Add &amp;directory</source>
         <translation>Lisää &amp;hakemisto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="749"/>
+        <location filename="../playlist.cpp" line="761"/>
         <source>Add &amp;URL(s)</source>
         <translation>Lisää &amp;verkko-osoitteet</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="764"/>
         <source>Remove &amp;selected</source>
         <translation>Poista &amp;valitut</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="753"/>
+        <location filename="../playlist.cpp" line="765"/>
         <source>Remove &amp;all</source>
         <translation>Poista &amp;kaikki</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="756"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Poista tiedosto kiintolevyltä</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
-        <location filename="../playlist.cpp" line="1543"/>
+        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="1555"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Kopioi tiedostopolku leikepöydälle</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Avaa lähdekansio</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="780"/>
+        <location filename="../playlist.cpp" line="801"/>
         <source>Search</source>
         <translation>Haku</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="770"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
         <translation>Näytä sarakeen sijainti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
+        <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
         <translation>Näytä sarakeen nimi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
         <translation>Näytä sarakeen pituus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="773"/>
+        <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
         <translation>Näytä sarakeen tiedostonimi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="774"/>
+        <location filename="../playlist.cpp" line="786"/>
         <source>Show shuffle column</source>
         <translation>Näytä sarakeen sekoitus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
         <translation>Väärä soittolista</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1408"/>
+        <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Lataaminen &quot;%1&quot; epäonnistui.
 Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &quot;%2&quot; ei ole tuettu. Ole hyvä ja valitse uudelleen!</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1548"/>
+        <location filename="../playlist.cpp" line="1560"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Kopioi verkko-osoite leikepöydälle</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2049"/>
+        <location filename="../playlist.cpp" line="2061"/>
         <source>Confirm deletion</source>
         <translation>Vahvista poisto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2050"/>
+        <location filename="../playlist.cpp" line="2062"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Olet POISTAMASSA tiedostoa &apos;%1&apos; asemastasi.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2051"/>
+        <location filename="../playlist.cpp" line="2063"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Tätä toimintoa ei voi kumota. Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2069"/>
+        <location filename="../playlist.cpp" line="2081"/>
         <source>Deletion failed</source>
         <translation>Poisto epäonnistui</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2070"/>
+        <location filename="../playlist.cpp" line="2082"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Kohdetta &apos;%1&apos; ei voitu poistaa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2075"/>
+        <location filename="../playlist.cpp" line="2087"/>
         <source>Error deleting the file</source>
         <translation>Virhe poistetessaan tiedostoa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2076"/>
+        <location filename="../playlist.cpp" line="2088"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Tiedostoa &apos;%1&apos; ei voi poistaa tiedostojärjestelmästä.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Tätä soittolistaa ei voi ladata</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2563"/>
+        <location filename="../playlist.cpp" line="2575"/>
         <source>Unrecognized format.</source>
         <translation>Tunnistamaton muoto.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="795"/>
         <source>Add...</source>
         <translation>Lisää...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Remove...</source>
         <translation>Poista...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1490"/>
         <source>Playlist modified</source>
         <translation>Soittolistaa muutettu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Muutoksia ei ole tallennettu, haluatko tallentaa soittolistan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1747"/>
+        <location filename="../playlist.cpp" line="1759"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -8673,8 +8676,8 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="85"/>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="95"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Performance</source>
         <translation>Suorituskyky</translation>
     </message>
@@ -8685,7 +8688,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Priority</source>
         <translation>Pioriteetti</translation>
     </message>
@@ -8750,22 +8753,22 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Valimuistin asettaminen saattaa parantaa suorituskykyä hitaalla medialla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Allow frame drop</source>
         <translation>Salli ruutujen pudotus</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Jättää joitakin ruutuja näyttämättä ylläpitääkseen äänen ja kuvan oikeassa suhteessa hitailla tietokoneilla.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="325"/>
         <source>Allow hard frame drop</source>
         <translation>Salli suuri ruutujen pudotus</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Suurempi ruutujen pudotus (rikkoo purkamisen). Aiheuttaa kuvan vääntymiseen!</translation>
     </message>
@@ -8795,22 +8798,22 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Nopea ka&amp;ppaleiden haku DVD:tä</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>Fast audio track switching</source>
         <translation>Nopea ääniraitojen vaihtaminen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Nopea kappaleiden haku DVD:tä</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="378"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Jos valittuna, käytetään nopeita tapaa etsiä kappaleita mutta tämä ei välttämättä toimi kaikilla levyillä.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Skip loop filter</source>
         <translation>Ohita silmukkasuodatin</translation>
     </message>
@@ -8820,37 +8823,37 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Mahdolliset arvot:&lt;br&gt; &lt;b&gt;Kyllä&lt;/b&gt;: yrittää nopeinta menetelmää ääniraitojen vaihtamiseen (tämä ei ehkä toimi joillakin formaateilla).&lt;br&gt; &lt;b&gt;Ei&lt;/b&gt;: MPlayerin prosessi käynnistetään uudestaan aina kun vaihdan ääniraitaa.&lt;br&gt; &lt;b&gt;Automaattinen&lt;/b&gt;:SMPlayer päättää mitä tehdä riippuen MPlayerin versiosta.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="387"/>
+        <location filename="../prefperformance.cpp" line="397"/>
         <source>Cache for files</source>
         <translation>Lataa tiedostot välimuistiin</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="388"/>
+        <location filename="../prefperformance.cpp" line="398"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Tämä asetus määrittelee paljonko muistia (kilotavuissa) käytetään kun välimuistin käyttöä ennakoidaan tiedostolle.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="391"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>Cache for streams</source>
         <translation>Välimuisti datavirroille</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="392"/>
+        <location filename="../prefperformance.cpp" line="402"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Tämä asetus määrittelee paljonko muistia (kilotavuissa) käytetään kun välimuistin käyttöä ennakoidaan URL:le.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="395"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>Cache for DVDs</source>
         <translation>Välimuisti DVD:lle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="396"/>
+        <location filename="../prefperformance.cpp" line="406"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Tämä asetus määrittelee paljonko muistia (kilotavuissa) käytetään kun välimuistin käyttöä ennakoidaan DVD:lle.&lt;br&gt;&lt;b&gt;Varoitus:&lt;/b&gt; Haku ei välttämättä toimi kunnolla (mukaanlukien kappaleiden vaihtaminen) kun käytetään välimuistia DVD:lle.</translation>
     </message>
@@ -8880,17 +8883,17 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Välimuisti data&amp;virroille:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="100"/>
+        <location filename="../prefperformance.cpp" line="110"/>
         <source>Enabled</source>
         <translation>Mahdollistettu</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="101"/>
+        <location filename="../prefperformance.cpp" line="111"/>
         <source>Skip (always)</source>
         <translation>Hyppäys (aina)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="102"/>
+        <location filename="../prefperformance.cpp" line="112"/>
         <source>Skip only on HD videos</source>
         <translation>Sivuuta HD videot</translation>
     </message>
@@ -8900,7 +8903,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>&amp;Silmukkasuodatin</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Tämä asetus sallii ohittaa sulmukkasuodatuksen (kutsutaan myös palikoitumisen vähentämiseksi) H.264 koodauksessa. Suodatettua ruutua pidetään referenssinä muille ruuduille, tällä on huonompi vaikutus laatuun kuin ei tehtäisi purkamista esimerkiksi MPEG-2 videolle. Mutta vähintään korkean bitraten HDTV-kuvalla tämä tarjoaa nopeutumista ilman huomattavaa kuvanlaadun huonontumista.</translation>
     </message>
@@ -8911,112 +8914,117 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <source>Auto (safe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="35"/>
+        <location filename="../prefperformance.cpp" line="394"/>
         <source>Auto</source>
         <translation>Automaattinen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="317"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Määritä prosessiprioriteetti kohteelle %1 ennalta määritettyjen prioriteettien mukaan. &lt;br&gt;&lt;b&gt;Varoitus:&lt;/b&gt; Reaaliaikaisen prioriteetin käyttäminen voi aiheuttaa järjestelmän lukituksen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="323"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>Hardware decoding</source>
         <translation>Laitteiston purkukoodaus</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Määrittää laitteistopohjaisen videon purkukoodauksen. Jos laitteistopohjainen ei ole mahdollinen, käytetään ohjelmistopohjaista purkukoodausta.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="326"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Available options:</source>
         <translation>Saatavilla vaihtoehdot:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="338"/>
         <source>None: only software decoding will be used.</source>
         <translation>Ei mitään: vain ohjelmiston purkukoodausta käytetään.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Auto: se yrittää ottaa käyttöön laitteistopohjaisen purkukoodauksen käyttämällä ensimmäistä käytettävissä olevaa menetelmää.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: vdpau ja opengl videon ulostulot.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="332"/>
+        <location filename="../prefperformance.cpp" line="342"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: opengl ja vaapi videon ulostulo. Vain Intel GPU-tuki.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: kopioi videon takaisin järjestelmän RAM-muistiin. Vain Intel GPU-tuki.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="336"/>
+        <location filename="../prefperformance.cpp" line="346"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: kopioi videon takaisin järjestelmän RAM-muistiin. Kokeellinen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option only works with mpv.</source>
         <translation>Tämä vaihtoehto toimii vain mpv:n kanssa.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Possible values:</source>
         <translation>Mahdolliset arvot:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Päällä&lt;/b&gt;: sulmukkaduodatusta ei ole ohitettu</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Ohita (aina)&lt;/b&gt;: sulmukkasuodatustus on ohitettu, ei merkitystä videokuvan resoluutiolla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Ohita vain HD videoiden kohdalla&lt;/b&gt;: silmukkasuodatus ohitetaan vain videoiden kohdalla, joiden korkeus on %1 tai suurempi.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="361"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Yritä käyttää non-free CoreAVC-koodekkia, kun muuta koodekkia ei käytetä ja muu kuin VDPAU-videon ulostulo on valittuna.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="363"/>
+        <location filename="../prefperformance.cpp" line="373"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Vaatii %1 -kokoonpanon CoreAVC-tuella.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="382"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>Cache</source>
         <translation>Välimuisti</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>Yleensä tämä vaihtoehto ottaa välimuistin käyttöön tarvittaessa.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="400"/>
+        <location filename="../prefperformance.cpp" line="410"/>
         <source>Cache for audio CDs</source>
         <translation>Välimuisti ääni CD:lle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="401"/>
+        <location filename="../prefperformance.cpp" line="411"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Tämä asetus määrittelee paljonko muistia (kilotavuissa) käytetään kun välimuistin käyttöä ennakoidaan ääni CD:lle.</translation>
     </message>
@@ -9026,12 +9034,12 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Välimuisti &amp;ääni CD:lle:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="404"/>
+        <location filename="../prefperformance.cpp" line="414"/>
         <source>Cache for VCDs</source>
         <translation>Välimuisti VCD:lle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="405"/>
+        <location filename="../prefperformance.cpp" line="415"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Tämä asetus määrittelee paljonko muistia (kilotavuissa) käytetään kun välimuistin käyttöä ennakoidaan VCD:lle.</translation>
     </message>
@@ -9041,12 +9049,12 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Välimuisti &amp;VCD:lle:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Threads for decoding</source>
         <translation>Säikeiden purkaminen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Aseta säikeiden lukumäärä joita käytetään purkamisessa. Vain MPEG-1/2 ja H.264</translation>
     </message>
@@ -9056,7 +9064,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>&amp;Säikeet purkamiseen (vain MPEG-1/2 ja H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="360"/>
+        <location filename="../prefperformance.cpp" line="370"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Käytä CoreAVC;tä jos muuta kodekkia ei ole määritelty</translation>
     </message>
