@@ -31,16 +31,22 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 
 	hwdec_combo->addItem(tr("None"), "no");
+	hwdec_combo->addItem(tr("Auto (safe)"), "auto-safe");
 	hwdec_combo->addItem(tr("Auto"), "auto");
 	hwdec_combo->addItem("auto-copy", "auto-copy");
+	hwdec_combo->addItem("auto-copy-safe", "auto-copy-safe");
 	#ifdef OS_UNIX_NOT_MAC
-	hwdec_combo->addItem("vdpau", "vdpau");
-	hwdec_combo->addItem("vdpau-copy", "vdpau-copy");
 	hwdec_combo->addItem("vaapi", "vaapi");
 	hwdec_combo->addItem("vaapi-copy", "vaapi-copy");
+	hwdec_combo->addItem("drm", "drm");
+	hwdec_combo->addItem("drm-copy", "drm-copy");
+	hwdec_combo->addItem("vdpau", "vdpau");
+	hwdec_combo->addItem("vdpau-copy", "vdpau-copy");
 	#endif
 	#ifdef Q_OS_OSX
-	hwdec_combo->addItem("vda", "vda");
+	//hwdec_combo->addItem("vda", "vda");
+	hwdec_combo->addItem("videotoolbox", "videotoolbox");
+	hwdec_combo->addItem("videotoolbox-copy:", "videotoolbox-copy:");
 	#endif
 	#ifdef Q_OS_WIN
 	hwdec_combo->addItem("dxva2", "dxva2");
@@ -51,6 +57,10 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 		hwdec_combo->addItem("d3d11va-copy", "d3d11va-copy");
 	}
 	#endif
+	hwdec_combo->addItem("nvdec", "nvdec");
+	hwdec_combo->addItem("nvdec-copy", "nvdec-copy");
+	hwdec_combo->addItem("vulkan", "vulkan");
+	hwdec_combo->addItem("vulkan-copy", "vulkan-copy");
 	hwdec_combo->addItem("cuda", "cuda");
 	hwdec_combo->addItem("cuda-copy", "cuda-copy");
 	hwdec_combo->addItem("crystalhd", "crystalhd");
