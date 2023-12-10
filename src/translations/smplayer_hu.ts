@@ -803,6 +803,11 @@ Valóban felül akarja írni?</translation>
         <translation>Válasszon egy fájlt</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1-böngésző</translation>
@@ -947,6 +952,11 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>&amp;Következő sor a feliratban</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>&amp;Egyéni stílus megadása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Felirat keresése az &amp;OpenSubtitles.org-on...</translation>
+        <translation type="vanished">Felirat keresése az &amp;OpenSubtitles.org-on...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Hang kiegyenlítő alaphelyzet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Feliratok feltöltése az OpenSu&amp;btitles.org-ra...</translation>
+        <translation type="vanished">Feliratok feltöltése az OpenSu&amp;btitles.org-ra...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3049,14 +3057,6 @@ Példa: extrastereo,karaoke </translation>
         <translation>Név</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Formátum</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Fájlok</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Dátum</translation>
@@ -4022,10 +4022,6 @@ Please check the permissions of that folder.</source>
         <translation>Nauru</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">BokmÃ¥l</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepáli</translation>
@@ -4235,10 +4231,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnami</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>

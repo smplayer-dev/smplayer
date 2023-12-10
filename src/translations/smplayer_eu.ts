@@ -803,6 +803,11 @@ Gainidaztea nahi duzu?</translation>
         <translation>Hautatu agiri bat</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 nabigatzailea</translation>
@@ -947,6 +952,11 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Azpidatziko hurrengo &amp;lerroa</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Erabili &amp;norbere estiloa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Bilatu azpidatziak hemen: &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Bilatu azpidatziak hemen: &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Sostengatu SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Ez</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer-ek behar zaitu</translation>
@@ -1426,10 +1431,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1-ek ustekabean amaitu du.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Dirulaguntza Paypal-ekin</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1700,9 +1701,8 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Berrezarri audio ekualizagailua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Igo a&amp;zpidatziak hona: OpenSubtitles.org...</translation>
+        <translation type="vanished">Igo a&amp;zpidatziak hona: OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3054,14 +3054,6 @@ Adibidez: estrastereo,karaoke</translation>
         <translation>Izena</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Heuskarria</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Agiriak</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Eguna</translation>
@@ -4029,10 +4021,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Nauruera</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">BokmÃ¥l</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepalera</translation>
@@ -4242,10 +4230,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnamera</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8370,10 +8354,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Sarea</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">mpv + youtube-dl beharrezkoa duten guneekin bakarrik erabiltzen saiatuko da</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Erabiltzaile ordezkaria</translation>
@@ -8435,8 +8415,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>YouTube-rako barneko sostengua bakarrik erabiliko da</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">mpv + youtube erabiltzen ditu gune guztientzat</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8444,8 +8425,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Hobetsitako ontasuna:</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Aukera honek youtube-dl-ek kudeatzen dituen bideo jarioentzako hobetsitako ontasuna adierazten du.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8633,16 +8615,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Ataka</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

@@ -176,11 +176,6 @@
         <translation>Αρχεία κλειδιών</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="564"/>
-        <source>The file couldn&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../actionseditor.cpp" line="505"/>
         <source>Choose a filename</source>
         <translation>Εισάγετε ένα όνομα αρχείου</translation>
@@ -203,11 +198,6 @@ Do you want to overwrite?</source>
 Θέλετε να το αντικαταστήσετε;</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="530"/>
-        <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">Το αρχείο δεν είναι δύνατο να αποθηκευτεί</translation>
-    </message>
-    <message>
         <location filename="../actionseditor.cpp" line="556"/>
         <source>Choose a file</source>
         <translation>Επιλογή αρχείου</translation>
@@ -219,12 +209,14 @@ Do you want to overwrite?</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <source>The file could nοt be saved</source>
-        <translation type="obsolete">Δεν ήταν δυνατή η αποθήκευση του αρχείου</translation>
+        <location filename="../actionseditor.cpp" line="530"/>
+        <source>The file couldn&apos;t be saved</source>
+        <translation>Δεν ήταν δυνατή η αποθήκευση του αρχείου</translation>
     </message>
     <message>
-        <source>The file could not be loaded</source>
-        <translation type="obsolete">Δεν ήταν δυνατή η φόρτωση αρχείου</translation>
+        <location filename="../actionseditor.cpp" line="564"/>
+        <source>The file couldn&apos;t be loaded</source>
+        <translation>Δεν ήταν δυνατή η φόρτωση αρχείου</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="253"/>
@@ -446,8 +438,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Αρχείο...</translation>
     </message>
     <message>
-        <source>&amp;Directory...</source>
-        <translation type="obsolete">&amp;Φάκελος...</translation>
+        <location filename="../basegui.cpp" line="1717"/>
+        <source>D&amp;irectory...</source>
+        <translation>&amp;Φάκελος...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
@@ -460,8 +453,9 @@ Do you want to overwrite?</source>
         <translation>&amp;DVD από συσκευή</translation>
     </message>
     <message>
-        <source>&amp;DVD from folder...</source>
-        <translation type="obsolete">&amp;DVD από φάκελο...</translation>
+        <location filename="../basegui.cpp" line="1722"/>
+        <source>D&amp;VD from folder...</source>
+        <translation>DVD από φάκε&amp;λο...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
@@ -477,6 +471,11 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Πρόσφατα αρχεία</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1751"/>
+        <source>P&amp;lay</source>
+        <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -520,8 +519,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Απενεργοποίηση</translation>
     </message>
     <message>
-        <source>&amp;Speed</source>
-        <translation type="obsolete">&amp;Ταχύτητα</translation>
+        <location filename="../basegui.cpp" line="2043"/>
+        <source>Sp&amp;eed</source>
+        <translation>Τα&amp;χύτητα</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
@@ -539,8 +539,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Συμπαγής μορφή</translation>
     </message>
     <message>
-        <source>&amp;Size</source>
-        <translation type="obsolete">&amp;Μέγεθος</translation>
+        <location filename="../basegui.cpp" line="2053"/>
+        <source>Si&amp;ze</source>
+        <translation>&amp;Μέγεθος</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2063"/>
@@ -560,8 +561,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <source>&amp;Linear Blend</source>
-        <translation type="obsolete">&amp;Γραμμική ανάμειξη</translation>
+        <location filename="../basegui.cpp" line="2106"/>
+        <source>Linear &amp;Blend</source>
+        <translation>&amp;Γραμμική ανάμειξη</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2066"/>
@@ -584,16 +586,18 @@ Do you want to overwrite?</source>
         <translation>&amp;Αποαποκλεισμός</translation>
     </message>
     <message>
-        <source>&amp;Dering</source>
-        <translation type="obsolete">&amp;Αποταλάντωση</translation>
+        <location filename="../basegui.cpp" line="1818"/>
+        <source>De&amp;ring</source>
+        <translation>Απο&amp;ταλάντωση</translation>
     </message>
     <message>
-        <source>&amp;Add noise</source>
-        <translation type="obsolete">&amp;Προσθήκη θορύβου</translation>
+        <location filename="../basegui.cpp" line="1820"/>
+        <source>Add n&amp;oise</source>
+        <translation>Προσθήκη &amp;θορύβου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2138"/>
-        <source>&amp;Filters</source>
+        <location filename="../basegui.cpp" line="2069"/>
+        <source>F&amp;ilters</source>
         <translation>&amp;Φίλτρα</translation>
     </message>
     <message>
@@ -607,8 +611,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Στιγμιότυπο</translation>
     </message>
     <message>
-        <source>&amp;Stay on top</source>
-        <translation type="obsolete">&amp;Παραμονή στο προσκήνιο</translation>
+        <location filename="../basegui.cpp" line="2075"/>
+        <source>S&amp;tay on top</source>
+        <translation>Παραμ&amp;ονή στο προσκήνιο</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
@@ -619,6 +624,11 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Καραόκε</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2138"/>
+        <source>&amp;Filters</source>
+        <translation>&amp;Φίλτρα</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2148"/>
@@ -677,8 +687,9 @@ Do you want to overwrite?</source>
         <translation>&amp;Καθυστέρηση -</translation>
     </message>
     <message>
-        <source>&amp;Delay +</source>
-        <translation type="obsolete">&amp;Καθυστέρηση +</translation>
+        <location filename="../basegui.cpp" line="1832"/>
+        <source>D&amp;elay +</source>
+        <translation>Κα&amp;θυστέρηση +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2164"/>
@@ -792,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>Επιλογή αρχείου</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Περιηγητής &amp;Youtube%1</translation>
@@ -875,16 +891,20 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Παύση / Καρέ καρέ</translation>
     </message>
     <message>
-        <source>&amp;Unload</source>
-        <translation type="obsolete">&amp;Ξεφόρτωμα</translation>
+        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1847"/>
+        <source>U&amp;nload</source>
+        <translation>&amp;Ξεφόρτωμα</translation>
     </message>
     <message>
-        <source>&amp;VCD</source>
-        <translation type="obsolete">&amp;VCD</translation>
+        <location filename="../basegui.cpp" line="1719"/>
+        <source>V&amp;CD</source>
+        <translation>&amp;VCD</translation>
     </message>
     <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Κλείσιμο</translation>
+        <location filename="../basegui.cpp" line="1728"/>
+        <source>C&amp;lose</source>
+        <translation>&amp;Κλείσιμο</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1803"/>
@@ -932,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Επόμενη γραμμή υποτίτλων</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -963,21 +988,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Μείωση έντασης (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
-        <source>D&amp;irectory...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1719"/>
-        <source>V&amp;CD</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1722"/>
-        <source>D&amp;VD from folder...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray από οδηγό</translation>
@@ -986,16 +996,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1725"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>Blu-&amp;ray από φάκελο...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1728"/>
-        <source>C&amp;lose</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1751"/>
-        <source>P&amp;lay</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1757"/>
@@ -1033,30 +1033,9 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Φίλτρο στερεοφωνικού &amp;3Δ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
-        <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Αποκέντρωση (&amp;gradfun)</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1820"/>
-        <source>Add n&amp;oise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1832"/>
-        <source>D&amp;elay +</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1835"/>
-        <location filename="../basegui.cpp" line="1847"/>
-        <source>U&amp;nload</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
@@ -1079,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Χρήση προσαρμοσμένου ύ&amp;φους</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Αναζήτηση υποτίτλων στο &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Αναζήτηση υποτίτλων στο &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1095,12 +1073,14 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Πληροφορίες και ιδιότητες...</translation>
     </message>
     <message>
-        <source>&amp;Tablet mode</source>
-        <translation type="obsolete">&amp;Λειτουργία ταμπλέτας</translation>
+        <location filename="../basegui.cpp" line="1902"/>
+        <source>T&amp;ablet mode</source>
+        <translation>Λειτουργία τα&amp;μπλέτας</translation>
     </message>
     <message>
-        <source>&amp;First Steps Guide</source>
-        <translation type="obsolete">&amp;Οδηγός πρώτων βημάτων</translation>
+        <location filename="../basegui.cpp" line="1905"/>
+        <source>First Steps &amp;Guide</source>
+        <translation>&amp;Οδηγός πρώτων βημάτων</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1912"/>
@@ -1249,26 +1229,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Π&amp;ροβολή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
-        <source>Sp&amp;eed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2053"/>
-        <source>Si&amp;ze</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2069"/>
-        <source>F&amp;ilters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2075"/>
-        <source>S&amp;tay on top</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>De&amp;noise</source>
         <translation>Μείωση &amp;θορύβου</translation>
@@ -1277,11 +1237,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="2086"/>
         <source>Blur/S&amp;harp</source>
         <translation>Θόλωμα/Ό&amp;ξυνση</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2106"/>
-        <source>Linear &amp;Blend</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2109"/>
@@ -1420,10 +1375,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Υποστηρίξτε το SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Όχι</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>Το SMPlayer σας χρειάζεται</translation>
@@ -1480,20 +1431,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>Το %1 τερματίστηκε απροσδόκητα.</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1902"/>
-        <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1905"/>
-        <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Δωρεά μέσω PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1764,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Επαναφορά ισοσταθμιστή ήχου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Α&amp;ποστολή υποτίτλων στο OpenSubtitles.org...</translation>
+        <translation type="vanished">Α&amp;ποστολή υποτίτλων στο OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3116,14 +3052,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Όνομα</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Μορφή</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Αρχεία</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -8426,10 +8354,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Δίκτυο</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">Θα προσπαθήσω να χρησιμοποιήσω το mpv + youtube-dl μόνο για τις ιστοσελίδες που το απαιτούν</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Πράκτορας χρήστη</translation>
@@ -8491,8 +8415,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>μόνο ο εσωτερικός μηχανισμός υποστήριξης του YouTube θα χρησιμοποιηθεί</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">χρήση των mpv + youtube-dl για όλους τους ιστότοπους</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8500,8 +8425,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Προτιμώμενη ποιότητα</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Αυτή η επιλογή καθορίζει την προτιμώμενη ποιότητα για τις ροές βίντεο που διαχειρίζεται το youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8689,16 +8615,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Θύρα</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

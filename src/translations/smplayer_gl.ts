@@ -803,6 +803,11 @@ Seguro que desexas sobrescribilo?</translation>
         <translation>Seleccionar un ficheiro</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Navegador de &amp;YouTube%1</translation>
@@ -947,6 +952,11 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Liña s&amp;eguinte</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Usar estilo perso&amp;nalizado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Restabelecer o ecualizador de son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Enviar subtítulos a &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Enviar subtítulos a &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Por exemplo: extraestereo,karaoke</translation>
         <translation>Nome</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Formato</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Ficheiros</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Data</translation>
@@ -4021,10 +4021,6 @@ Verifica os permisos dese cartafol.</translation>
         <translation>nauru</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">BokmÃ¥l</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>nepalí</translation>
@@ -4234,10 +4230,6 @@ Verifica os permisos dese cartafol.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>vietnamita</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8362,10 +8354,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Rede</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">tentará usar mpv + youtube-dl nos sitios que o requiren</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Axente do usuario</translation>
@@ -8427,8 +8415,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>só se usará a compatibilidade interna de YouTube</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">usa mpv + youtube-dl en todas as webs</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8436,8 +8425,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Calidade preferida</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Esta opción especifica a calidade preferida para os fluxos de vídeo manexados por youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8625,16 +8615,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Porto</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

@@ -803,6 +803,11 @@ Kas kirjutada see üle?</translation>
         <translation>Vali fail</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;Youtube%1-i brauser</translation>
@@ -947,6 +952,11 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>J&amp;ärgmine rida subtiitrites</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Kasuta k&amp;ohandatud stiili</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Otsi subtiitreid saidilt &amp;OpenSubtitles.org</translation>
+        <translation type="vanished">Otsi subtiitreid saidilt &amp;OpenSubtitles.org</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Toeta SMPlayerit</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Ei</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer vajab sind</translation>
@@ -1426,10 +1431,6 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 lõppes ootamatult.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Anneta PayPali kaudu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1700,9 +1701,8 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Taasväärtusta heli ekvalaiser</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Laadi su&amp;btiitreid üles saidile OpenSubtitles.org</translation>
+        <translation type="vanished">Laadi su&amp;btiitreid üles saidile OpenSubtitles.org</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3052,14 +3052,6 @@ Näide: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nimi</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Vorming</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Failid</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -8362,10 +8354,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Võrk</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">mpv-d ja youtube-dl-i proovitakse kasutada ainult nende saitide puhul, mis neid vajavad</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Kasutajaagent</translation>
@@ -8427,13 +8415,19 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>kasutatakse ainult YouTube&apos;i sisemist tuge</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">kasutab kõigi saitide puhul mpv-d ja youtube-dl-i</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
         <source>Preferred quality</source>
         <translation>Eelistatud kvaliteet</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8621,16 +8615,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

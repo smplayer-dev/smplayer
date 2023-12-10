@@ -803,6 +803,11 @@ Möchten Sie sie Überschreiben?</translation>
         <translation>Datei auswählen</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1-Browser</translation>
@@ -947,6 +952,11 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>&amp;Nächste Untertitelzeile</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>&amp;Benutzerdefinierten Stil verwenden</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Untertitel auf &amp;OpenSubtitles.org suchen …</translation>
+        <translation type="vanished">Untertitel auf &amp;OpenSubtitles.org suchen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>SMPlayer unterstützen</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Nein</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer braucht Sie</translation>
@@ -1426,10 +1431,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 wurde unerwartet beendet.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Über PayPal spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1700,9 +1701,8 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>Audio-Equalizer zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>&amp;Untertitel auf OpenSubtitles.org hochladen …</translation>
+        <translation type="vanished">&amp;Untertitel auf OpenSubtitles.org hochladen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3052,14 +3052,6 @@ Beispiel: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Name</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Format</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Dateien</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -5260,7 +5252,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Falsche Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
@@ -7223,7 +7215,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>Go backward (short)</source>
-        <translation>Nach hinten springen (lang)</translation>
+        <translation>Nach hinten springen (kurz)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -8363,10 +8355,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Netzwerk</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">wird es versucht, mpv + youtube-dl nur für die Seiten zu verwenden, die es auch erfordern</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Benutzerkennung</translation>
@@ -8428,8 +8416,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>nur die interne Unterstützung für YouTube wird verwendet</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">mpv + youtube-dl wird für alle Seiten verwendet</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8437,8 +8426,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Bevorzugte Qualität</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Diese Option gibt die bevorzugte Qualität für die Videostreams an, die von youtube-dl verarbeitet werden.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8626,16 +8616,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Anschluss (Port)</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

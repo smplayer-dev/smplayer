@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>Многие люди приняли участие в локализации.</translation>
+        <translation>Множество людей принимает участие в локализации.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>Выбрать файл</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Обозреватель &amp;YouTube%1</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>С&amp;ледующая строка субтитра</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Использовать &amp;особый стиль</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>&amp;Поиск субтитров в OpenSubtitles.org…</translation>
+        <translation type="vanished">&amp;Поиск субтитров в OpenSubtitles.org…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сброс аудиоэквалайзера</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Послать &amp;субтитры в OpenSubtitles.org…</translation>
+        <translation type="vanished">Послать &amp;субтитры в OpenSubtitles.org…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -2753,7 +2761,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>Добавить &amp;текущий медиаматериал</translation>
+        <translation>Доба&amp;вить текущий объект медиа</translation>
     </message>
 </context>
 <context>
@@ -3046,14 +3054,6 @@ Example: extrastereo,karaoke</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Формат</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Файлы</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Дата</translation>
@@ -3121,7 +3121,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
         <source>File URL not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес файла не найден</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
@@ -4021,10 +4021,6 @@ Please check the permissions of that folder.</source>
         <translation>Науру</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">Букмол</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Непальский</translation>
@@ -4234,10 +4230,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Вьетнамский</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">Волапюк</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -5183,7 +5175,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="758"/>
         <source>Add &amp;current file</source>
-        <translation>Добавить &amp;текущий файл</translation>
+        <translation>Добавить текущий ф&amp;айл</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="759"/>
@@ -6234,7 +6226,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Если этот параметр выбран, всё видео будет запускаться в полноэкранном режиме.</translation>
+        <translation>Если этот параметр включён, то любое видео будет запускаться в полноэкранном режиме.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1274"/>
@@ -6474,7 +6466,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1309"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Устанавливает максимальное усиление в процентах (по умолчанию 110). Значение 200 увеличит громкость до уровня, превышающего текущий вдвое. При значениях ниже 100 начальная громкость (100%) будет выше максимума, т. е. экранное меню будет показывать неверную информацию.</translation>
+        <translation>Устанавливает максимальное усиление в процентах (по умолчанию 110). Значение 200 увеличит предельную громкость в два раза. При значениях ниже 100 начальная громкость (100%) будет выше максимума, т. е. экранное меню будет показывать неверную информацию.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1184"/>
@@ -6549,12 +6541,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="842"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Скоростное воспрои&amp;зведение без смены высоты тона</translation>
+        <translation>Скоростное проигрывание бе&amp;з смены высоты тона</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1295"/>
         <source>High speed playback without altering pitch</source>
-        <translation>Скоростное воспроизведение без смены высоты тона</translation>
+        <translation>Скоростное проигрывание без смены высоты тона</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="355"/>
@@ -6629,12 +6621,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Deinterlace by default</source>
-        <translation>Стандартное устранение чересстрочности</translation>
+        <translation>Исходное устранение чересстрочности</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1192"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Укажите фильтр устранения чересстрочности, используемый для последующих видеофайлов.</translation>
+        <translation>Выбор фильтра устранения чересстрочности для при следующем открытии новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
@@ -6936,7 +6928,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="495"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation>С&amp;тандартное устранение чересстрочности (кроме ТВ):</translation>
+        <translation>Исходное ус&amp;транение чересстрочности (кроме ТВ):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1280"/>
@@ -8582,7 +8574,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="413"/>
         <source>This option sets the position on the screen where the subtitles are displayed.</source>
-        <translation>Эта опция устанавливает положение на экране, где отображаются субтитры.</translation>
+        <translation>Этот параметр задаёт положение на экране, где отображаются субтитры.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="414"/>
@@ -8893,7 +8885,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Этот параметр разрешает пропускать петлевой фильтр (устранение блоков) во время декодирования H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы устранение блоков не производилось вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
+        <translation>Этот параметр разрешает пропуск петлевого фильтра (устранение блоков) при декодировании H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы устранение блоков не производилось вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8903,7 +8895,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически (безопасно)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>
@@ -9429,7 +9421,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>Базовая кодиро&amp;вка субтитров:</translation>
+        <translation>Исходная кодиро&amp;вка субтитров:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="210"/>
@@ -9444,7 +9436,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Default subtitle encoding</source>
-        <translation>Базовая кодировка субтитров</translation>
+        <translation>Исходная кодировка субтитров</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
@@ -9950,12 +9942,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Стандартное устранение чересстрочности для ТВ</translation>
+        <translation>Исходное устранение чересстрочности для ТВ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Укажите фильтр устранения чересстрочности, используемый для каналов ТВ.</translation>
+        <translation>Выбор фильтра устранения чересстрочности для каналов ТВ.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -9970,7 +9962,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation>С&amp;тандартное устранение чересстрочности для ТВ:</translation>
+        <translation>Исходное ус&amp;транение чересстрочности для ТВ:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>

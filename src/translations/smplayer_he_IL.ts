@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>דפדפן &amp;YouTube%1</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>שורה ב&amp;אה בכתוביות</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>השתמש בסגנון &amp;מותאם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>מציאת כתוביות אצל &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">מציאת כתוביות אצל &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">תמכו בפרויקט SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">לא</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation type="unfinished"></translation>
@@ -1426,10 +1431,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">תרמו בעזרת PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1700,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אפס מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>&amp;העלה כתוביות אל OpenSubtitles.org..‏.</translation>
+        <translation type="vanished">&amp;העלה כתוביות אל OpenSubtitles.org..‏.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3049,14 +3049,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>שם</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">פורמט</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">קבצים</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>

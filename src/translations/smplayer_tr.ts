@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>Bir dosya seçin</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 tarayıcısı</translation>
@@ -947,6 +952,11 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Altyazılardaki &amp;sonraki satır</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Özel stil kullan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>&amp;OpenSubtitles.org&apos;dan altyazı bul...</translation>
+        <translation type="vanished">&amp;OpenSubtitles.org&apos;dan altyazı bul...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Ses ekolayzırı sıfırla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>&amp;OpenSubtitles.org&apos;a altyazı yükle...</translation>
+        <translation type="vanished">&amp;OpenSubtitles.org&apos;a altyazı yükle...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Example: extrastereo,karaoke</source>
         <translation>İsim</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Biçim</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Dosyalar</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Tarih</translation>
@@ -4021,10 +4021,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Nauru</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">BokmÃ¥l</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepalce</translation>
@@ -4234,10 +4230,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnamca</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">VolapÃ¼k</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>

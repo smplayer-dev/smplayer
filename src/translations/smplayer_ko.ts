@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>파일을 선택하세요</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>유투브%1 브라우저(&amp;Y)</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>싱크 조절: 다음 자막줄로(&amp;E)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>사용자 스타일 사용하기(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>OpenSubtitles.org에서 자막 검색하기(&amp;O)...</translation>
+        <translation type="vanished">OpenSubtitles.org에서 자막 검색하기(&amp;O)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer 지원하기</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">아니요</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer는 당신이 필요합니다</translation>
@@ -1426,10 +1431,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1이 갑자기 종료되었습니다.</translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">PayPal로 기부하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
@@ -1700,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>오디오 이퀄라이저 초기화</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>OpenSubtitles.org에 자막 업로드하기(&amp;B)...</translation>
+        <translation type="vanished">OpenSubtitles.org에 자막 업로드하기(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3052,14 +3052,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>이름</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">형식</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">파일</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -8363,10 +8355,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>네트워크</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">mpv + youtube-dl을 필요로 하는 사이트에서만 사용을 시도합니다</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>사용자 에이전트</translation>
@@ -8428,8 +8416,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>유투부 내부 지원만 사용합니다</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">모든 사이트에서 mpv + youtube-dl을 사용합니다</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8437,8 +8426,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>선호 품질</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">이 옵션은 youtube-dl에서 처리하는 비디오 스트림의 선호 품질을 지정합니다.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8626,16 +8616,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>포트</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

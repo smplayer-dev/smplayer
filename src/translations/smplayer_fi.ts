@@ -803,6 +803,11 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 selain</translation>
@@ -947,6 +952,11 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>S&amp;euraava rivi tekstityksessä</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Käytä &amp;mukautettua tyyliä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Hae tekstityksiä &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Hae tekstityksiä &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Nollaa äänitaajuuskorjain</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Lähetä &amp;tekstityksiä osoitteeseen opensubtitles.org...</translation>
+        <translation type="vanished">Lähetä &amp;tekstityksiä osoitteeseen opensubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Esimerkki: extrastereo,karaoke</translation>
         <translation>Nimi</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Muoto</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Tiedostot</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Päivämäärä</translation>
@@ -4021,10 +4021,6 @@ Tarkista kansion oikeudet.</translation>
         <translation>naurun kieli</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">Bokm</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>nepalin kieli</translation>
@@ -4234,10 +4230,6 @@ Tarkista kansion oikeudet.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>vietnamin kieli</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">Volap</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8363,10 +8355,6 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Verkko</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">se yrittää käyttää mpv + youtube-dl sovellusta vain sitä tarvitseville sivustoille</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Asiakas ohjelma</translation>
@@ -8388,7 +8376,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <location filename="../prefnetwork.cpp" line="97"/>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Sisäinen YouTube tuki</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8420,7 +8408,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>käyttää mpv:tä yt-dlp:n (tai youtube-dl) kanssa vain sitä tarvitseville sivustoille</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8428,8 +8416,9 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>käytetään vain sisäistä YouTube-tukea</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">käyttää mpv + youtube-dl kaikissa sivustoissa</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>käyttää mpv:tä yt-dlp:n (tai youtube-dl) kanssa kaikilla sivustoilla</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8437,8 +8426,9 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <translation>Haluttu laatu</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Tämä vaihtoehto määrittää ensisijaisen laadun youtube-dl videosta.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Tämä määrittää yt-dlp:n tai youtube-dl:n käsittelemien videostriimien ensisijaisen laadun.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8626,16 +8616,6 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Portti</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

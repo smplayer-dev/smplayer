@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>选择一个文件</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 浏览器</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>下一行字幕(&amp;E)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>使用自定义风格(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>查找字幕于 &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">查找字幕于 &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重置音频均衡器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>上传字幕到 OpenSubtitles.org(&amp;B)...</translation>
+        <translation type="vanished">上传字幕到 OpenSubtitles.org(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Example: extrastereo,karaoke</source>
         <translation>名称</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">格式</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">文件</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>日期</translation>
@@ -3121,7 +3121,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
         <source>File URL not found</source>
-        <translation type="unfinished"></translation>
+        <translation>没找到文件 URL</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
@@ -4021,10 +4021,6 @@ Please check the permissions of that folder.</source>
         <translation>瑙鲁语</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">BokmÃ¥l </translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>尼泊尔语</translation>
@@ -4234,10 +4230,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>越南语</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">VolapÃ¼k </translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8903,7 +8895,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"></translation>
+        <translation>自动（安全）</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>

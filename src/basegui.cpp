@@ -1867,7 +1867,7 @@ void BaseGui::retranslateStrings() {
 
 #ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("D&ownload subtitles from %1...").arg("OpenSubtitles.com") );
-	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to %1").arg("OpenSubtitles.com") );
+	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to %1...").arg("OpenSubtitles.com") );
 #endif
 
 	ccNoneAct->change( tr("&Off", "closed captions menu") );

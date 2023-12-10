@@ -811,6 +811,11 @@ Do you want to overwrite?</source>
         <translation>انتخاب یک فایل</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>٪1مرورگر &amp;یوتیوب</translation>
@@ -1059,9 +1064,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>استفاده از سبک دلخواه</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>زیرنویس‌ها را در &amp;opensubtitle.org پیدا کنید</translation>
+        <translation type="vanished">زیرنویس‌ها را در &amp;opensubtitle.org پیدا کنید</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1429,6 +1433,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>٪1 ناگهانی به اتمام رسید</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1912"/>
         <source>Update &amp;YouTube support</source>
         <translation type="unfinished"></translation>
@@ -1732,11 +1741,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1980"/>
         <source>Reset audio equalizer</source>
         <translation>ریست اکولایزر صدا</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1870"/>
-        <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>

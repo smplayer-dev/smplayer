@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="65"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Development version</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="72"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer is a graphical interface for %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -183,7 +183,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
         <source>Type to search</source>
-        <translation type="unfinished"></translation>
+        <translation>Type to search</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="516"/>
@@ -272,7 +272,7 @@ do you want to overwrite it?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Close</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -804,6 +804,11 @@ do you want to overwrite it?</translation>
         <translation>Choose a file</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 browser</translation>
@@ -843,17 +848,17 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donate with PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Not now</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;No</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -948,16 +953,21 @@ The configuration dialogue will be shown now, which will take you through the co
         <translation>N&amp;ext line in subtitles</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1900"/>
         <location filename="../basegui.cpp" line="2245"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2258"/>
@@ -1001,17 +1011,17 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1790"/>
         <source>Screenshot with subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Screenshot with subtitles</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
         <source>Screenshot without subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>Screenshot without subtitles</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Start/stop capturing stream</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
@@ -1031,17 +1041,17 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1842"/>
         <source>&amp;Headphone optimization</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Headphone optimisation</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Seek to next subtitle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Seek to previous subtitle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1863"/>
@@ -1049,9 +1059,8 @@ The configuration dialogue will be shown now, which will take you through the co
         <translation>Use custo&amp;m style</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Find subtitles at &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Find subtitles at &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1062,12 +1071,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1889"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Information and properties...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1902"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;ablet mode</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
@@ -1077,12 +1086,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1912"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Update &amp;YouTube support</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1914"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Install / Update &amp;YouTube support</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
@@ -1093,7 +1102,7 @@ The configuration dialogue will be shown now, which will take you through the co
         <location filename="../basegui.cpp" line="1922"/>
         <location filename="../basegui.cpp" line="4636"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donate</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1935"/>
@@ -1108,7 +1117,7 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1939"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Show times with &amp;milliseconds</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1954"/>
@@ -1168,12 +1177,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1970"/>
         <source>Previous video</source>
-        <translation type="unfinished"></translation>
+        <translation>Previous video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1972"/>
         <source>Previous audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Previous audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1973"/>
@@ -1183,7 +1192,7 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1974"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Previous subtitle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1975"/>
@@ -1203,12 +1212,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="1985"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Show filename on OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Show &amp;info on OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1987"/>
@@ -1218,7 +1227,7 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="2007"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>Vie&amp;w</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
@@ -1269,12 +1278,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="2122"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotate by 1&amp;80 degrees</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2136"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Select audio track</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2151"/>
@@ -1299,12 +1308,12 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="2162"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Prim&amp;ary track</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2167"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Select subtitle track</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2170"/>
@@ -1314,7 +1323,7 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="2172"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Select secondary subtitle track</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2178"/>
@@ -1324,149 +1333,141 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="2192"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bookmarks</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2202"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Add new bookmark</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2203"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Edit bookmarks</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2204"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Previous bookmark</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2205"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Next bookmark</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2234"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Quick access menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3047"/>
         <source>Logs</source>
-        <translation type="unfinished">Logs</translation>
+        <translation>Logs</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3352"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>You need to restart SMPlayer in order to apply the new preferences.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Support SMPlayer</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">No</translation>
+        <translation>Support SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer needs you</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer is free software. However, the development requires a lot of time and a lot of work.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>In order to keep developing SMPlayer with new features we need your help.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Please consider to support the SMPlayer project by sending a donation.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4645"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Even the smallest amount will help a lot.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"></translation>
+        <translation>The youtube-dl process failed because of missing libraries.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>You&apos;ll probably need to install %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"></translation>
+        <translation>the Microsoft Visual C++ 2010 Redistributable Package</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6160"/>
         <location filename="../basegui.cpp" line="6214"/>
         <source>More info in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>More info in the log.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6166"/>
         <location filename="../basegui.cpp" line="6220"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Error</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6160"/>
         <location filename="../basegui.cpp" line="6167"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Donate with PayPal</translation>
+        <translation>%1 has finished unexpectedly.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"></translation>
+        <translation>It&apos;s also possible to donate with cryptocurrencies.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>The component youtube-dl failed to run.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6193"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6195"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Click here to get it</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6214"/>
         <location filename="../basegui.cpp" line="6222"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 failed to start.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6223"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Please check the %1 path in preferences.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6225"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 has crashed.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6320"/>
@@ -1482,17 +1483,17 @@ The configuration dialogue will be shown now, which will take you through the co
     <message>
         <location filename="../basegui.cpp" line="6331"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>The YouTube Browser failed to run.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6332"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Be sure it&apos;s installed correctly.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6499"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6501"/>
@@ -1701,9 +1702,8 @@ The configuration dialogue will be shown now, which will take you through the co
         <translation>Reset audio equaliser</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Upload su&amp;btitles to OpenSubtitles.org...</translation>
+        <translation type="vanished">Upload su&amp;btitles to OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -2866,7 +2866,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;OK</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
@@ -3050,14 +3050,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Name</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Format</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Files</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -3549,7 +3541,7 @@ Please check the permissions of that folder.</translation>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Close</translation>
     </message>
 </context>
 <context>
@@ -4774,7 +4766,7 @@ Do you want to overwrite?</translation>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Close</translation>
     </message>
 </context>
 <context>
@@ -10048,7 +10040,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
@@ -10740,7 +10732,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quick access menu</translation>
     </message>
 </context>
 <context>
@@ -10889,7 +10881,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Close</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -10917,7 +10909,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreview.cpp" line="128"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Close</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="129"/>
@@ -11106,7 +11098,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;OK</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>

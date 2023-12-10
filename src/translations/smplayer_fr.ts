@@ -803,6 +803,11 @@ Voulez-vous l&apos;écraser&#xa0;?</translation>
         <translation>Choisir un fichier</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Navigateur &amp;YouTube%1</translation>
@@ -842,17 +847,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Faire un &amp;don par Paypal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pas maintenant</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Non</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -945,6 +950,11 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../basegui.cpp" line="1858"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Ligne suivant&amp;e</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1897"/>
@@ -1048,9 +1058,8 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>&amp;Utiliser un style personnalisé</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Trouver les sous-titres sur &amp;OpenSubtitles.org..</translation>
+        <translation type="vanished">Trouver les sous-titres sur &amp;OpenSubtitles.org..</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1366,10 +1375,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Soutenir SMPlayer</translation>
     </message>
     <message>
-        <source>No</source>
-        <translation type="obsolete">Non</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer a besoin de vous</translation>
@@ -1428,13 +1433,9 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>%1 s&apos;est terminé de façon inattendue.</translation>
     </message>
     <message>
-        <source>Donate with PayPal</source>
-        <translation type="obsolete">Faire un don avec PayPal</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il est également possible de faire un don avec des crypto-monnaies.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -1700,9 +1701,8 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Réinitialiser l&apos;égaliseur vidéo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Envoyer des sous-titres sur OpenSu&amp;btitles.org...</translation>
+        <translation type="vanished">Envoyer des sous-titres sur OpenSu&amp;btitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3052,14 +3052,6 @@ Exemple&#xa0;: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Nom</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Format</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Fichiers</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -5260,13 +5252,14 @@ Voulez-vous l&apos;écraser&#xa0;?</translation>
     <message>
         <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste de lecture incorrecte</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Il n&apos;a pas été possible de charger « %1 ».
+Le nom de fichier de la liste de lecture doit se terminer avec un suffixe particulier pls, xspf ou m3u. « %2 » n&apos;est pas pris en charge. Merci de refaire votre choix.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1560"/>
@@ -5395,7 +5388,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;fficher le nom du média dans le titre de la fenêtre</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5655,12 +5648,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le nom du média dans le titre de la fenêtre</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est activée, le titre présent dans les informations du média sera affiché dans le titre de la fenêtre au lieu du nom de fichier.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -6123,17 +6116,17 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>Garder la vitesse sélectionnée pour tous les fichiers</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est activée, la vitesse sélectionnée dans le menu Lecture sera appliquées à tous les fichiers.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dans le cas contraire, chaque fichier utilisera son propre réglage de vitesse.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6329,7 +6322,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Garder la vitesse sélectionnée pour tous les fichiers</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -8364,10 +8357,6 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Réseau</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">essaiera d&apos;utiliser mpv + youtube-dl uniquement pour les sites qui en ont besoin</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Identité du navigateur</translation>
@@ -8389,7 +8378,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <location filename="../prefnetwork.cpp" line="97"/>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Prise en charge interne de YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8421,7 +8410,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>essaiera d&apos;utiliser mpv avec yt-dlp (ou youtube-dl) uniquement pour les sites qui le nécessitent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8429,8 +8418,9 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Seul le support interne pour Youtube sera utilisé</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">utilise mpv + youtube-dl pour tous les sites</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>utilise mpv avec yt-dlp (ou youtube-dl) pour tous les sites</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8438,8 +8428,9 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <translation>Qualité préférée</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Cette option spécifie la qualité préférée pour les flux vidéo pris en charge par youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Cette option spécifie la qualité souhaitée pour les flux vidéo pris en charge par yt-dlp ou youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8627,16 +8618,6 @@ Sinon, il utilisera celui qui est intégré.</translation>
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>
@@ -9155,12 +9136,12 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le titre au lieu du nom de fichier</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>La liste de lecture affichera le titre (le cas échéant) au lieu du nom de fichier.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9340,7 +9321,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher le titre au lieu du nom de &amp;fichier</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>

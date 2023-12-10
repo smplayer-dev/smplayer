@@ -803,6 +803,15 @@ Do you want to overwrite?</source>
         <translation>Elegir un archivo</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation>Descargar subtítul&amp;os de %1...</translation>
+    </message>
+    <message>
+        <source>Upload su&amp;btitles to %1</source>
+        <translation type="obsolete">Subi&amp;r subtítulos a %1...</translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Navegador de &amp;YouTube%1</translation>
@@ -947,6 +956,11 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Línea siguie&amp;nte</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation>Subi&amp;r subtítulos a %1...</translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1062,8 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Usar un estilo personali&amp;zado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1705,8 @@ A continuación se mostrará el diálogo de configuración.</translation>
         <translation>Restablecer el ecualizador de audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Subi&amp;r subtítulos a OpenSubtitles.org...</translation>
+        <translation type="vanished">Subi&amp;r subtítulos a OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>

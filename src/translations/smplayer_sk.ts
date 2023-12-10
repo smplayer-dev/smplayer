@@ -803,6 +803,11 @@ Chcete ho prepísať?</translation>
         <translation>Vybrať súbor 1</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 prehliadač</translation>
@@ -947,6 +952,11 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>&amp;Nasledujúci riadok titulkov</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Použite vlastn&amp;ý štýl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Nájsť titulky na &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">Nájsť titulky na &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Resetovať zvukový ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Nahrať titulky na OpenSu&amp;btitles.org...</translation>
+        <translation type="vanished">Nahrať titulky na OpenSu&amp;btitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Príklad: extrastereo,karaoke</translation>
         <translation>Názov</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Formát</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Súbory</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Dátum</translation>
@@ -4021,10 +4021,6 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
         <translation>Naurusky</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">Bokmål</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepálsky</translation>
@@ -4234,10 +4230,6 @@ Prosím, skontrolujte prístupové práva tohto priečinka.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnamsky</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8363,10 +8355,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">pokúsi sa použiť mpv + youtube-dl len pre stránky, ktoré to vyžadujú</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>Používateľský agent</translation>
@@ -8428,8 +8416,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>použije sa len interná podpora pre YouTube</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">používa mpv + youtube-dl pre všetky stránky</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8437,8 +8426,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Preferovaná kvalita</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Táto možnosť určuje preferovanú kvalitu video prúdov, ktoré sú spracovávané pomocou youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8626,16 +8616,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>เลือกหนึ่งไฟล์</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>เบราเซอร์ &amp;YouTube%1</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>บรรทัด&amp;ถัดไป ในศัพท์บรรยาย</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>ค้นหา ศัพท์บรรยายที่ &amp;OpenSubtitles.org...</translation>
+        <translation type="vanished">ค้นหา ศัพท์บรรยายที่ &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1364,10 +1373,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4630"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">สนับสนุน SMPlayer</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation type="obsolete">ไม่ใช่</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1696,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>คืนค่า อิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>&amp;อัพโหลด ศัพท์บรรยายสู่ OpenSubtitles.org...</translation>
+        <translation type="vanished">&amp;อัพโหลด ศัพท์บรรยายสู่ OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3045,14 +3049,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>ชื่อ</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">รูปแบบ</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">ไฟล์</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>

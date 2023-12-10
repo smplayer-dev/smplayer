@@ -803,6 +803,11 @@ Vil du overskrive den?</translation>
         <translation>Vælg en fil</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1-browser</translation>
@@ -842,17 +847,17 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donér via PayPal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ikke nu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nej</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -945,6 +950,11 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="1858"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>&amp;Næste undertekstlinje</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1897"/>
@@ -1048,9 +1058,8 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>&amp;Brug brugerdefineret typografi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Find undertekster på &amp;OpenSubtitles.org ...</translation>
+        <translation type="vanished">Find undertekster på &amp;OpenSubtitles.org ...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Nulstil lyd-equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Upload un&amp;dertekster til OpenSubtitles.org ...</translation>
+        <translation type="vanished">Upload un&amp;dertekster til OpenSubtitles.org ...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Eksempel: extrastereo,karaoke</translation>
         <translation>Navn</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">Format</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Filer</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>Dato</translation>
@@ -4021,10 +4021,6 @@ Tjek rettighederne for den mappe.</translation>
         <translation>Nauru</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">Bokmål</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>Nepalesisk</translation>
@@ -4234,10 +4230,6 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>Vietnamesisk</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -5260,13 +5252,14 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Forkert afspilningsliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"></translation>
+        <translation>Det var ikke muligt at indlæse &apos;%1&apos;.
+Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf eller m3u. &apos;%2&apos; understøttes ikke. Vælg venligst igen!</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1560"/>
@@ -5395,7 +5388,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis &amp;navnet på mediet i vinduets titel</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5655,12 +5648,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis navnet på mediet i vinduets titel</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis denne indstilling er slået til, så vises medietitlen fra informationstags i vinduets titel i stedet for filnavnet.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -6122,17 +6115,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>Behold den valgte hastighed i alle filer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis denne indstilling er slået til, anvendes den hastighed som er valgt i Afspil-menuen på alle filer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ellers bruger hver fil sin egen hastighedsindstilling.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -6328,7 +6321,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Behold den valgte hastighed i alle filer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -8362,10 +8355,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Netværk</translation>
     </message>
     <message>
-        <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="obsolete">den vil kun prøve at bruge mpv + youtube-dl for steder som kræver det</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="371"/>
         <source>User agent</source>
         <translation>User agent</translation>
@@ -8387,7 +8376,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="97"/>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"></translation>
+        <translation>Intern YouTube-understøttelse</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8419,7 +8408,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="332"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>den forsøger kun at bruge mpv med yt-dlp (eller youtube-dl) på steder hvor det kræves</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="335"/>
@@ -8427,8 +8416,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>kun den interne understøttelse til YouTube vil blive brugt</translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">bruger mpv + youtube-dl for alle steder</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation>bruger mpv med yt-dlp (eller youtube-dl) på alle steder</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8436,8 +8426,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Foretrukket kvalitet</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Denne valgmulighed angiver den foretrukne kvalitet til videostrømme hånderet af youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation>Denne valgmulighed angiver den foretrukne kvalitet til videostrømme som håndteres af yt-dlp eller youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8625,16 +8616,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>
@@ -9153,12 +9134,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis titelnavn i stedet for filnavn</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspilningslisten viser titlen (om nogen) i stedet for filnavnet.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9338,7 +9319,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis titelnavn i stedet for &amp;filnavn</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -10014,7 +9995,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>Åbn en side med &amp;oplysninger efter opdatering</translation>
+        <translation>Åbn en side med &amp;oplysninger efter en opgradering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -10044,12 +10025,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation>Åbn en side med oplysninger efter opdatering</translation>
+        <translation>Åbn en side med oplysninger efter en opgradering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation>Hvis denne indstilling er slået til, vil en side med oplysninger om SMPlayer blive åbnet efter en opdatering.</translation>
+        <translation>Hvis denne indstilling er slået til, vil en side med oplysninger om SMPlayer blive åbnet efter en opgradering.</translation>
     </message>
 </context>
 <context>

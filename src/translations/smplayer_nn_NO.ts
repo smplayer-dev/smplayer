@@ -803,6 +803,11 @@ Vil du overskrive?</translation>
         <translation>Vel ei fil</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1-lesar</translation>
@@ -947,6 +952,11 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>N&amp;este line i undertekstar</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1000,7 +1010,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
         <source>Screenshot with subtitles</source>
-        <translation>SKjermbilde med undertekstar</translation>
+        <translation>Skjermbilde med undertekstar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
@@ -1049,9 +1059,8 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Bruk tilpass&amp;a stil</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Finn undertekstar på  &amp;OpenSubtitles.org …</translation>
+        <translation type="vanished">Finn undertekstar på  &amp;OpenSubtitles.org …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1203,7 +1212,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1985"/>
         <source>Show filename on OSD</source>
-        <translation>Vis filnamn på skjermmeldingar</translation>
+        <translation>Vis filnamn på skjerm-meldingar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
@@ -1694,9 +1703,8 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Nullstill tonekontrollen for lyd</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Last opp under&amp;tekstar til OpenSubtitles.org…</translation>
+        <translation type="vanished">Last opp under&amp;tekstar til OpenSubtitles.org…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -1849,7 +1857,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2216"/>
         <source>DVD menu, mouse click</source>
-        <translation>DVD meny, muse klikk</translation>
+        <translation>DVD meny, museklikk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
@@ -1909,7 +1917,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1983"/>
         <source>Next wheel function</source>
-        <translation>Neste skroll funksjon</translation>
+        <translation>Neste skrollfunksjon</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2197"/>
@@ -1950,7 +1958,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Video filter er de-aktivert når vdpau drivaren blir nytta</translation>
+        <translation>Video filter er deaktivert når vdpau-drivaren vert nytta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1799"/>
@@ -2368,7 +2376,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../core.cpp" line="3598"/>
         <location filename="../core.cpp" line="3609"/>
         <source>Font scale: %1</source>
-        <translation>Skrift storleik: %1</translation>
+        <translation>Skriftstorleik: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4278"/>
@@ -2615,7 +2623,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../errordialog.ui" line="91"/>
         <location filename="../errordialog.cpp" line="69"/>
         <source>Show log</source>
-        <translation>Vis logg</translation>
+        <translation>Syn logg</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="14"/>
@@ -3045,14 +3053,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Name</source>
         <translation>Namn</translation>
-    </message>
-    <message>
-        <source>Format</source>
-        <translation type="vanished">Format</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">Filer</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
@@ -5228,22 +5228,22 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="782"/>
         <source>Show position column</source>
-        <translation>Vis posisjonskolonne</translation>
+        <translation>Syn posisjonskolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="783"/>
         <source>Show name column</source>
-        <translation>Vis namnekolonne</translation>
+        <translation>Syn namnekolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="784"/>
         <source>Show length column</source>
-        <translation>Vis lengdekolonne</translation>
+        <translation>Syn lengdekolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="785"/>
         <source>Show filename column</source>
-        <translation>Vis filnamnkolonne</translation>
+        <translation>Syn filnamnkolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="786"/>
@@ -7254,7 +7254,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="102"/>
         <source>Show context menu</source>
-        <translation>Vis lokalmeny</translation>
+        <translation>Syn lokalmeny</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="223"/>
@@ -7294,12 +7294,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="100"/>
         <source>Show video equalizer</source>
-        <translation>Vis video-kontrollar</translation>
+        <translation>Syn video-kontrollar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="101"/>
         <source>Show audio equalizer</source>
-        <translation>Vis tonekontroll for lyd</translation>
+        <translation>Syn tonekontroll for lyd</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
@@ -8419,8 +8419,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="obsolete">brukar mpv + youtube-dl for alle nettstadar</translation>
+        <location filename="../prefnetwork.cpp" line="338"/>
+        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="344"/>
@@ -8428,8 +8429,9 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Føretrekt kvalitet</translation>
     </message>
     <message>
-        <source>This option specifies the preferred quality for the video streams handled by youtube-dl.</source>
-        <translation type="obsolete">Dette valet spesifiserer føretrekt kvalitet for videostraumar handsama av youtube-dl.</translation>
+        <location filename="../prefnetwork.cpp" line="345"/>
+        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="347"/>
@@ -8617,16 +8619,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="427"/>
         <source>Port</source>
         <translation>Port</translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="338"/>
-        <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefnetwork.cpp" line="345"/>
-        <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="428"/>

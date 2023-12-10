@@ -803,6 +803,11 @@ Do you want to overwrite?</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1869"/>
+        <source>D&amp;ownload subtitles from %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>YouTube%1 ブラウザー(&amp;Y)</translation>
@@ -947,6 +952,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕の次の行(&amp;E)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1897"/>
         <location filename="../basegui.cpp" line="2242"/>
         <source>%1 log</source>
@@ -1048,9 +1058,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>カスタム スタイルの使用(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>OpenSubtitles.org で字幕を検索(&amp;O)...</translation>
+        <translation type="vanished">OpenSubtitles.org で字幕を検索(&amp;O)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1692,9 +1701,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>オーディオ イコライザーのリセット</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>OpenSubtitles.org へ字幕をアップロード(&amp;B)...</translation>
+        <translation type="vanished">OpenSubtitles.org へ字幕をアップロード(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -3046,14 +3054,6 @@ Example: extrastereo,karaoke</source>
         <translation>名前</translation>
     </message>
     <message>
-        <source>Format</source>
-        <translation type="vanished">形式</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation type="vanished">ファイル</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="229"/>
         <source>Date</source>
         <translation>日付</translation>
@@ -3121,7 +3121,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="419"/>
         <source>File URL not found</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル URL が見つかりません</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="601"/>
@@ -4021,10 +4021,6 @@ Please check the permissions of that folder.</source>
         <translation>ナウル語</translation>
     </message>
     <message>
-        <source>BokmÃ¥l</source>
-        <translation type="vanished">ブークモール</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="142"/>
         <source>Nepali</source>
         <translation>ネパール語</translation>
@@ -4234,10 +4230,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="203"/>
         <source>Vietnamese</source>
         <translation>ベトナム語</translation>
-    </message>
-    <message>
-        <source>VolapÃ¼k</source>
-        <translation type="vanished">ボラピュク</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="210"/>
@@ -8903,7 +8895,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"></translation>
+        <translation>自動 (安全)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>
