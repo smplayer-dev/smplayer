@@ -57,7 +57,7 @@ public:
 	QString getDownloadLink(const QString & file_id);
 
 public slots:
-	void search(const QString & hash, qint64 file_size, QString search_term = QString());
+	void search(const QString & hash, qint64 file_size, QString search_term = QString(), QString languages = QString());
 	void login();
 
 signals:

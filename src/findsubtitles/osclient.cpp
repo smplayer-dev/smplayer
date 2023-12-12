@@ -79,12 +79,16 @@ void OSClient::login() {
 	}
 }
 
-void OSClient::search(const QString & hash, qint64 file_size, QString search_term) {
-	qDebug() << "OSClient::search: hash:" << hash << "file_size:" << file_size << "search_term:" << search_term;
+void OSClient::search(const QString & hash, qint64 file_size, QString search_term, QString languages) {
+	qDebug() << "OSClient::search: hash:" << hash << "file_size:" << file_size << "search_term:" << search_term << "languages:" << languages;
 	emit connecting();
 
 	qRestAPI::Parameters par;
 	//par["ai_translated"] = "exclude";
+
+	if (!languages.isEmpty()) {
+		par["languages"] = languages.replace('|', ',');
+	}
 
 	search_term = search_term.replace(" ", "+").toLower();
 
@@ -102,6 +106,14 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 		default:
 			return;
 	}
+
+	#if 1
+	QString par_str;
+	foreach(const QString &key, par.keys()) {
+		par_str += key + ": " + par.value(key) + ", ";
+	}
+	qDebug() << "OSClient::search: parameters:" << par_str;
+	#endif
 
 	QUuid query_id = api->get("/subtitles", par);
 	qDebug() << "OSClient::search: query_id:" << query_id;

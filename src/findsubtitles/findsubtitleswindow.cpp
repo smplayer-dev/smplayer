@@ -325,12 +325,13 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 	if (hash.isEmpty()) {
 		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {
+		QString lang = language_filter->itemData(language_filter->currentIndex()).toString();
 		QFileInfo fi(filename);
 		qint64 file_size = fi.size();
 		QString basename;
 		basename = fi.completeBaseName(); // Filename without extension
 		search_edit->setText(basename);
-		osclient->search(hash, file_size, basename);
+		osclient->search(hash, file_size, basename, lang);
 		last_file = filename;
 	}
 }
@@ -340,7 +341,8 @@ void FindSubtitlesWindow::searchTitle() {
 	qDebug() << "FindSubtitlesWindow::searchTitle:" << t;
 
 	if (osclient->searchMethod() != OSClient::Hash) {
-		osclient->search("", 0, t);
+		QString lang = language_filter->itemData(language_filter->currentIndex()).toString();
+		osclient->search("", 0, t, lang);
 	}
 }
 
