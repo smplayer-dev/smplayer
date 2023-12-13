@@ -40,6 +40,8 @@ public:
 	static QMap<QString,QString> encodings();
 
 	static QMap<QString,QString> enca();
+
+	static QMap<QString,QString> os_languages();
 };
 
 #endif

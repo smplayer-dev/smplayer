@@ -85,9 +85,10 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 
 	qRestAPI::Parameters par;
 	//par["ai_translated"] = "exclude";
+	par["order_by"] = "upload_date";
 
 	if (!languages.isEmpty()) {
-		par["languages"] = languages.replace('|', ',');
+		par["languages"] = languages;
 	}
 
 	search_term = search_term.replace(" ", "+").toLower();
