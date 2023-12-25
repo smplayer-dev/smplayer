@@ -63,4 +63,53 @@ That would compile smplayer for /usr but in fact it will be installed in
 
 5) How to compile in Windows
 ----------------------------
-(obsolete)
+Download components:
+Download latest QT Windows Installer:
+https://download.qt.io/archive/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
+
+Download latest portable GIT for Windows:
+https://git-scm.com/download/win
+
+Install components:
+Install latest QT Windows Installer with all/full options.
+Hint:
+If you don't have an QT account, disable internet connection before start QT Installer.
+
+Start PortableGit installer to extract all files.
+copy the contents of "mingw32" folder to C:\Qt\Qt5.14.2\5.14.2\mingw73_32 and overwrite existing files
+
+Compile:
+git clone https://github.com/smplayer-dev/smplayer.git
+cd smplayer
+Call compile_windows.cmd nosmtube (don't compile SMTube)
+
+SMPlayer application will be found in .\src\release
+SMPlayer translation files (.qm) will be found in .\src\translation
+SMPlayer webserver application will be found in .\webserver
+
+Necessary files to run SMPLayer:
+Root directory:
+libcrypto-1_1.dll
+libgcc_s_dw2-1.dll
+libssl-1_1.dll
+libstdc++-6.dll
+libwinpthread-1.dll
+Qt5Core.dll
+Qt5DBus.dll
+Qt5Gui.dll
+Qt5Network.dll
+Qt5Qml.dll
+Qt5Script.dll
+Qt5Widgets.dll
+Qt5Xml.dll
+simple_web_server.exe
+smplayer.exe
+
+Create folder "translation" and put all translation files (.qm) from compiled source code folder ".\src\translation" in that folder
+Create folder "platforms" and put "qwindows.dll" files from C:\Qt\Qt5.14.2\5.14.2\mingw73_32\plugins\platforms in that folder
+Create folder "mplayer" and put mplayer application executable in that folder
+Create folder "mpv" and put mpv application executable in that folder
+
+Qt5 DLL files could be found in C:\Qt\Qt5.14.2\5.14.2\mingw73_32\bin
+lib DLL files could be found in C:\Qt\Qt5.14.2\Tools\QtCreator\bin, C:\Qt\Qt5.14.2\Tools\mingw730_32\bin and C:\Qt\Qt5.14.2\5.14.2\mingw73_32\bin
+
