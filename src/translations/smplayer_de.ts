@@ -803,7 +803,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
         <source>D&amp;ownload subtitles from %1...</source>
-        <translation type="unfinished"/>
+        <translation>Untertitel auf &amp;OpenSubtitles.com suchen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
@@ -1053,7 +1053,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to %1...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Untertitel auf OpenSubtitles.com hochladen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -2274,7 +2274,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation>Eventuell muss der YouTube-Code aktualisiert werden.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
@@ -2299,7 +2299,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="242"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation>Um YouTube-Videos abzuspielen, benötigt %1 die Unterstützung einer externe Anwendung.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="243"/>
@@ -2309,7 +2309,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="244"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation>Die Anwendung wird von der offiziellen Webseite herunterladen und unter %1 installiert.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="245"/>
@@ -5539,7 +5539,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="238"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Den Namen des Mediums im Titelfenster zeigen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="253"/>
@@ -5799,12 +5799,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="503"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation>Den Namen des Mediums im Titelfenster zeigen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>Wenn diese Option aktiviert ist, werden die Informationen aus dem Medien-Tag des Mediums anstatt des Dateinamens angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -6266,7 +6266,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"/>
+        <translation>Eingestellte Geschwindigkeit für alle Dateien übernehmen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
@@ -6472,7 +6472,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"/>
+        <translation>Eingestellte Geschwindigkeit für alle Dateien übernehmen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -8393,7 +8393,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation>Programm zur YouTube Unterstützung</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8474,7 +8474,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation>AV1 Codec zulassen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8528,7 +8528,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefnetwork.cpp" line="97"/>
         <location filename="../prefnetwork.cpp" line="335"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>Interne YouTube Unterstützung</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="110"/>
@@ -8596,7 +8596,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation>yt-dlp (basierend auf youtube-dl aber mit Verbesserungen)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>
@@ -9007,7 +9007,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation>Priorität des Videoplayer-Prozesses auswählen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -9286,7 +9286,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation>Anzeigen des Titelnamens anstatt des Dateinamens</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
