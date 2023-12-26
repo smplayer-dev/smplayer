@@ -3,8 +3,8 @@
 
 PACKAGE = smplayer
 VERSION = 23.12.0
-#DEPENDS = debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qtbase5-private-dev, qt5-default | nano
-DEPENDS = debhelper (>= 5), zlib1g-dev, libqt4-dev
+DEPENDS = debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qtbase5-private-dev, qtdeclarative5-dev, qt5-default | nano
+#DEPENDS = debhelper (>= 5), zlib1g-dev, libqt4-dev
 
 DSC_FILE = $(PACKAGE).dsc
 DEBIAN_FILE = debian.tar.gz
