@@ -501,6 +501,13 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 	}
 	qDebug() << "FindSubtitlesWindow::itemActivated: download link:" << download_link;
 
+	if (download_link.isEmpty()) {
+		// Failed to get the download link
+		QMessageBox::warning(this, tr("Error"),
+                             tr("Failed to get the URL of the subtitle file.\nCheck your login credentials."));
+		return;
+	}
+
 #ifdef DOWNLOAD_SUBS
 	file_downloader->download( QUrl(download_link) );
 	file_downloader->show();
