@@ -452,7 +452,7 @@ void Preferences::reset() {
 
 	drag_function = MoveWindow;
 
-	seeking1 = 10;
+	seeking1 = 5;
 	seeking2 = 60;
 	seeking3 = 10*60;
 	seeking4 = 30;
