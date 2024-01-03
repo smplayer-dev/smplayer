@@ -54,7 +54,7 @@ public:
 	void setPassword(QString password) { os_password = password; };
 	QString password() { return os_password; };
 
-	QString getDownloadLink(const QString & file_id);
+	QString getDownloadLink(const QString & file_id, int * remaining_downloads = 0);
 
 public slots:
 	void search(const QString & hash, qint64 file_size, QString search_term = QString(), QString languages = QString());

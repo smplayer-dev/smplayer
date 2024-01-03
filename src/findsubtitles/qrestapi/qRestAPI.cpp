@@ -261,6 +261,7 @@ void qRestAPIPrivate::processReply(QNetworkReply* reply)
                          QString::number(static_cast<int>(reply->error())) + ": " +
                          reply->errorString(),
                          errorCode);
+    qDebug() << "Error response:" << reply->readAll();
     }
   else
     {

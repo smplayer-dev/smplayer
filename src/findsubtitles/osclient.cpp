@@ -185,7 +185,7 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 	emit searchFinished();
 }
 
-QString OSClient::getDownloadLink(const QString & file_id) {
+QString OSClient::getDownloadLink(const QString & file_id, int * remaining_downloads) {
 	qDebug() << "OSClient::getDownloadLink:" << file_id;
 
 	// Try to login
@@ -224,6 +224,10 @@ QString OSClient::getDownloadLink(const QString & file_id) {
 		QVariantMap map = result[0];
 		if (map.contains("link")) {
 			link = map["link"].toString();
+			qDebug() << "OSClient::getDownloadLink: remaining:" << map["remaining"].toInt();
+			if (remaining_downloads) {
+				*remaining_downloads = map["remaining"].toInt();
+			}
 		}
 	}
 

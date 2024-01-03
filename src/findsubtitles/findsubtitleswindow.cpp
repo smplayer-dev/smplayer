@@ -413,6 +413,9 @@ void FindSubtitlesWindow::showDownloadFailed() {
 
 void FindSubtitlesWindow::showErrorOS(int, const QString & error) {
 	status->setText(error);
+	if (error.contains("299:")) {
+		status->setText(tr("Error: daily quota exceeded"));
+	}
 }
 
 void FindSubtitlesWindow::updateDataReadProgress(int done, int total) {
@@ -495,16 +498,15 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 	QString file_id = item->data(DATA_FILE_ID).toString();
 	qDebug() << "FindSubtitlesWindow::itemActivated: file_id:" << file_id;
 
+	int remaining_downloads;
 	if (download_link.isEmpty()) {
-		download_link = osclient->getDownloadLink(file_id);
+		download_link = osclient->getDownloadLink(file_id, &remaining_downloads);
 		item->setData(download_link);
 	}
 	qDebug() << "FindSubtitlesWindow::itemActivated: download link:" << download_link;
 
 	if (download_link.isEmpty()) {
 		// Failed to get the download link
-		QMessageBox::warning(this, tr("Error"),
-                             tr("Failed to get the URL of the subtitle file.\nCheck your login credentials."));
 		return;
 	}
 
@@ -514,6 +516,7 @@ void FindSubtitlesWindow::itemActivated(const QModelIndex & index ) {
 #else
 	QDesktopServices::openUrl( QUrl(download_link) );
 #endif
+	status->setText(tr("Remaining downloads: %1").arg(remaining_downloads));
 }
 
 void FindSubtitlesWindow::download() {
@@ -531,12 +534,17 @@ void FindSubtitlesWindow::copyLink() {
 		QString download_link = item->data().toString();
 		QString file_id = item->data(DATA_FILE_ID).toString();
 		qDebug() << "FindSubtitlesWindow::copyLink: file_id:" << file_id;
+
+		int remaining_downloads;
 		if (download_link.isEmpty()) {
-			download_link = osclient->getDownloadLink(file_id);
+			download_link = osclient->getDownloadLink(file_id, &remaining_downloads);
 			item->setData(download_link);
 		}
 		qDebug() << "FindSubtitlesWindow::copyLink: link:" << download_link;
-		qApp->clipboard()->setText(download_link);
+		if (!download_link.isEmpty()) {
+			qApp->clipboard()->setText(download_link);
+			status->setText(tr("Remaining downloads: %1").arg(remaining_downloads));
+		}
 	}
 }
 
