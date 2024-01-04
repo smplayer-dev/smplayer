@@ -21,6 +21,8 @@
 
 #include "qrestapi/qGirderAPI.h"
 #include "qrestapi/qRestResult.h"
+
+#include <QRegExp>
 #include <QDebug>
 
 #define API_SERVER "https://api.opensubtitles.com/api/v1"
@@ -93,6 +95,17 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 
 	search_term = search_term.replace(" ", "+").toLower();
 
+	if (!search_term.isEmpty()) {
+		QRegExp regex("(?:S(\\d{1,2})E(\\d{1,2})|(\\d{1,2})x(\\d{1,2}))", Qt::CaseInsensitive);
+		int pos = regex.indexIn(search_term);
+		if (pos > -1) {
+			QString season = regex.cap(1).isEmpty() ? regex.cap(3) : regex.cap(1);
+			QString episode = regex.cap(2).isEmpty() ? regex.cap(4) : regex.cap(2);
+			par["season_number"] = season;
+			par["episode_number"] = episode;
+		}
+	}
+
 	switch (search_method) {
 		case Filename:
 			par["query"] = search_term;
@@ -102,7 +115,9 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 			break;
 		case HashAndFilename:
 			par["query"] = search_term;
-			par["moviehash"] = hash;
+			if (!hash.isEmpty()) {
+				par["moviehash"] = hash;
+			}
 			break;
 		default:
 			return;
@@ -111,7 +126,7 @@ void OSClient::search(const QString & hash, qint64 file_size, QString search_ter
 	#if 1
 	QString par_str;
 	foreach(const QString &key, par.keys()) {
-		par_str += key + ": " + par.value(key) + ", ";
+		par_str += key + ": '" + par.value(key) + "', ";
 	}
 	qDebug() << "OSClient::search: parameters:" << par_str;
 	#endif
