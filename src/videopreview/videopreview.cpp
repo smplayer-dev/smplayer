@@ -324,7 +324,11 @@ bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 		args << "--frames=" + QString::number(N_OUTPUT_FRAMES);
 		args << "--framedrop=no" << "--start=" + QString::number(seek);
 		if (aspect_ratio != 0) {
-			args << "--video-aspect=" + QString::number(aspect_ratio);
+			if (isOptionAvailableinMPV("--video-aspect-override")) {
+				args << "--video-aspect-override=" + QString::number(aspect_ratio);
+			} else {
+				args << "--video-aspect=" + QString::number(aspect_ratio);
+			}
 		}
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
 		if (!use_new_options) {
