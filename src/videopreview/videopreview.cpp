@@ -294,7 +294,7 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-#ifndef NO_SMPLAYER_SUPPORT
+#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 bool VideoPreview::isOptionAvailableinMPV(const QString & option) {
 	static QStringList option_list;
 	static QString executable;
@@ -315,7 +315,7 @@ bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
 		#ifdef MPV_SUPPORT
 		bool use_new_options = true;
-		#ifndef NO_SMPLAYER_SUPPORT
+		#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 		if (!isOptionAvailableinMPV("--vo-image-format")) use_new_options = false;
 		#endif
 
@@ -324,14 +324,14 @@ bool VideoPreview::runPlayer(double seek, double aspect_ratio) {
 		args << "--frames=" + QString::number(N_OUTPUT_FRAMES);
 		args << "--framedrop=no" << "--start=" + QString::number(seek);
 		if (aspect_ratio != 0) {
-			#ifdef NO_SMPLAYER_SUPPORT
-			args << "--video-aspect-override=" + QString::number(aspect_ratio);
-			#else
+			#if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 			if (isOptionAvailableinMPV("--video-aspect-override")) {
 				args << "--video-aspect-override=" + QString::number(aspect_ratio);
 			} else {
 				args << "--video-aspect=" + QString::number(aspect_ratio);
 			}
+			#else
+			args << "--video-aspect-override=" + QString::number(aspect_ratio);
 			#endif
 		}
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
