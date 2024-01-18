@@ -39,7 +39,8 @@ jobs:
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810 tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810 tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+          tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
 
       - name: Set mingw32 path (64 bit)
         run: echo "$env:IQTA_TOOLS\mingw810_64\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
