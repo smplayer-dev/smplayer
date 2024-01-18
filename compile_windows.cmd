@@ -62,7 +62,7 @@ cd ..
 
 cd src
 lrelease smplayer.pro
-qmake "DEFINES += %qmake_defs%"
+qmake "DEFINES += %qmake_defs% NO_PLAYPAUSE_WORKAROUND"
 mingw32-make -j%NUMBER_OF_PROCESSORS%
 
 if [%errorlevel%]==[0] (
