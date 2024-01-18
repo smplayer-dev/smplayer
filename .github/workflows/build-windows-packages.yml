@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Checkout
         #run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
-        run: git clone https://github.com/smplayer-dev/smplayer-build.git smplayer-build
+        run: git clone https://github.com/smplayer-dev/smplayer-build.git .
 
       #- name: Install sources
       #  run: .\download_packages.cmd
