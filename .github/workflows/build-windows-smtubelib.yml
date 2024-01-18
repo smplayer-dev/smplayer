@@ -21,7 +21,8 @@ jobs:
           fetch-depth: 0
 
       - name: Install smtube
-        run: svn co https://github.com/smplayer-dev/smtube.git/trunk packages/smtube
+        #run: svn co https://github.com/smplayer-dev/smtube.git/trunk packages/smtube
+        run: git clone --depth 1 https://github.com/smplayer-dev/smtube.git packages/smtube
 
       - name: Install themes
         run: |
