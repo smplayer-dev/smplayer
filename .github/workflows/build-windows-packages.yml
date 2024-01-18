@@ -22,7 +22,8 @@ jobs:
       
     steps:
       - name: Checkout
-        run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+        #run: svn co https://github.com/smplayer-dev/smplayer-build.git/trunk .
+        run: git clone https://github.com/smplayer-dev/smplayer-build.git smplayer-build
 
       #- name: Install sources
       #  run: .\download_packages.cmd
@@ -43,8 +44,10 @@ jobs:
 
       - name: Install themes
         run: |
-            svn co https://github.com/smplayer-dev/smplayer-themes.git/trunk packages\smplayer-themes
-            svn co https://github.com/smplayer-dev/smplayer-skins.git/trunk packages\smplayer-skins
+            #svn co https://github.com/smplayer-dev/smplayer-themes.git/trunk packages\smplayer-themes
+            #svn co https://github.com/smplayer-dev/smplayer-skins.git/trunk packages\smplayer-skins
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-themes.git packages\smplayer-themes
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-skins.git packages\smplayer-skins
 
       - name: Install mplayer and mpv
         run: .\uncompress_players.cmd
