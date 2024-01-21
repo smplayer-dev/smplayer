@@ -1,9 +1,9 @@
-name: Build Windows with smtubelib
+name: Build Windows with smtube
 
 on:
   workflow_dispatch:
-  #release:
-  #  types: [published]
+  release:
+    types: [published]
 
 jobs:
   build:
