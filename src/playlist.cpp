@@ -2322,6 +2322,16 @@ void Playlist::saveSettings() {
 	if (save_playlist_in_config) {
 		//Save current list
 		set->beginGroup("playlist_contents");
+
+		// Remove all previous items
+		QStringList keys = set->allKeys();
+		foreach (const QString& key, keys) {
+			//qDebug() << key;
+			if (key.startsWith("items")) {
+				set->remove(key);
+			}
+		}
+
 		set->beginWriteArray("items");
 		//set->setValue( "count", count() );
 		for (int n = 0; n < count(); n++ ) {
