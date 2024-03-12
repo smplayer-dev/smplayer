@@ -854,7 +854,11 @@ void MPVProcess::setPause(bool b) {
 	// Workaround for mpv 0.37, playback not resuming after pause
 	// It seems mpv reports the pause state in the status line with some delay
 	#ifndef NO_PLAYPAUSE_WORKAROUND
-	if (b) sendCommand("no-osd seek 0 relative exact");
+	//if (b) sendCommand("no-osd seek 0 relative exact");
+	if (b) {
+		QString s(4000, ' ');
+		sendCommand("print_text IGNORE_" + s);
+	}
 	#endif
 }
 

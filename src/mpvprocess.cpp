@@ -225,6 +225,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 	#endif
 #endif
 
+	if (line.contains("IGNORE_")) return;
+
 	if (verbose) {
 		line.replace("[statusline] ", "");
 		line.replace("[cplayer] ", "");
