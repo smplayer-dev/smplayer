@@ -64,7 +64,7 @@ jobs:
 
       - name: Upload package to release
         if: github.event_name == 'release'
-        uses: svenstaro/upload-release-action@v2.7.0
+        uses: svenstaro/upload-release-action@1beeb572c19a9242f4361f4cee78f8e0d9aec5df
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./${{ env.app-name }}_*.deb
