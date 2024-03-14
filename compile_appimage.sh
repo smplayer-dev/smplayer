@@ -5,7 +5,7 @@ echo Compiling web server
 cd webserver && make
 cd ..
 
-SM_DEFINES="USE_SHM USE_GL_WINDOW NO_PLAYPAUSE_WORKAROUND"
+SM_DEFINES="USE_SHM USE_GL_WINDOW"
 
 if [ -n "$NO_MPLAYER" ]; then
   SM_DEFINES="${SM_DEFINES} NO_MPLAYER"
