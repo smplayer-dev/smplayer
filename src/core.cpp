@@ -2005,6 +2005,9 @@ void Core::startMplayer( QString file, double seek ) {
 			int real_id = mset.subs.IDAt(mset.current_subtitle_track);
 			proc->setOption("sid", QString::number(real_id));
 		}
+		else {
+			proc->setOption("sid", "auto");
+		}
 
 		if (mset.current_secondary_subtitle_track != MediaSettings::NoneSelected) {
 			int real_id = mset.subs.IDAt(mset.current_secondary_subtitle_track);
