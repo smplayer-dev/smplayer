@@ -225,7 +225,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 	#endif
 #endif
 
-	if (line.contains("IGNORE_")) return;
+	if (line.contains("IGNORE_THIS")) return;
 
 	if (verbose) {
 		line.replace("[statusline] ", "");

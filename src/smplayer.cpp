@@ -679,6 +679,8 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 	#endif
 #endif
 
+	if (orig_line.contains("IGNORE_THIS")) return;
+
 	switch ( type ) {
 		case QtDebugMsg:
 			if (rx_log.indexIn(orig_line) > -1) {
