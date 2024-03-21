@@ -57,6 +57,8 @@ public:
 
 	QString filename;
 	double duration;
+        double markerA;
+        double markerB;
 
 	QStringList extra_params; // For streams
 
