@@ -37,7 +37,7 @@ public slots:
 	void disable();
 
 protected:
-#ifdef Q_OS_WIN
+#if defined (Q_OS_WIN) || defined (Q_OS_OS2)
 	WinScreenSaver * win_screensaver;
 #else
 	PowerSaving * power_saving;
