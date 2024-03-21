@@ -411,6 +411,13 @@ void MplayerProcess::setSubtitlesVisibility(bool b) {
 	sendCommand(QString("sub_visibility %1").arg(b ? 1 : 0));
 }
 
+#ifdef MPV_SUPPORT
+void MplayerProcess::setSecondarySubtitlesVisibility(bool /*value*/) {
+	/* Not supported */
+	showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
+};
+#endif
+
 void MplayerProcess::seek(double secs, int mode, bool precise) {
 	QString s = QString("seek %1 %2").arg(secs).arg(mode);
 	if (precise) s += " 1"; else s += " -1";

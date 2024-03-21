@@ -866,6 +866,12 @@ void BaseGui::createActions() {
 	subVisibilityAct->setCheckable(true);
 	connect( subVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSubVisibility(bool)) );
 
+#ifdef MPV_SUPPORT
+	secondarySubVisibilityAct = new MyAction(this, "secondary_sub_visibility");
+	secondarySubVisibilityAct->setCheckable(true);
+	connect( secondarySubVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSecondarySubVisibility(bool)) );
+#endif
+
 #ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct = new MyAction( this, "show_find_sub_dialog" );
 	connect( showFindSubtitlesDialogAct, SIGNAL(triggered()), 

@@ -63,6 +63,9 @@ public:
 	void setSecondarySubtitle(int /*ID*/) {};
 	void disableSecondarySubtitles() {};
 	void setSubtitlesVisibility(bool b);
+#ifdef MPV_SUPPORT
+	void setSecondarySubtitlesVisibility(bool /*b*/);
+#endif
 	void seek(double secs, int mode, bool precise);
 	void mute(bool b);
 	void setPause(bool b);

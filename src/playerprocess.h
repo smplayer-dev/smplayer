@@ -69,6 +69,9 @@ public:
 	virtual void setSecondarySubtitle(int ID) = 0;
 	virtual void disableSecondarySubtitles() = 0;
 	virtual void setSubtitlesVisibility(bool b) = 0;
+#ifdef MPV_SUPPORT
+	virtual void setSecondarySubtitlesVisibility(bool b) = 0;
+#endif	
 	virtual void seek(double secs, int mode, bool precise) = 0;
 	virtual void mute(bool b) = 0;
 	virtual void setPause(bool b) = 0;
