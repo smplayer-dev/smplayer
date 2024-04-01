@@ -860,9 +860,7 @@ void MPVProcess::setPause(bool b) {
 	// Workaround for mpv 0.37, playback not resuming after pause
 	// It seems mpv reports the pause state in the status line with some delay
 	#if 1
-	if (b) {
 		for (int n=0; n < 50; n++) sendCommand("print_text IGNORE_THIS");
-	}
 	#endif
 }
 
