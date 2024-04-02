@@ -101,16 +101,16 @@ void Preferences::reset() {
 	screenshot_format = "jpg";
 #endif
 	screenshot_directory="";
-#ifdef PORTABLE_APP
-	screenshot_directory= "./screenshots";
-#else
+//#ifdef PORTABLE_APP
+//	screenshot_directory= "./screenshots";
+//#else
 	#if QT_VERSION < 0x040400
 	QString default_screenshot_path = Paths::configPath() + "/screenshots";
 	if (QFile::exists(default_screenshot_path)) {
 		screenshot_directory = default_screenshot_path;
 	}
 	#endif
-#endif
+//#endif
 
 #ifdef CAPTURE_STREAM
 	capture_directory = "";

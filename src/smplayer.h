@@ -49,9 +49,9 @@ private slots:
 private:
 	BaseGui * createGUI(QString gui_name);
 	void deleteGUI();
-#ifndef PORTABLE_APP
+//#ifndef PORTABLE_APP
 	void createConfigDirectory();
-#endif
+//#endif
 	void showInfo();
 	void deleteConfig();
 #ifdef FONTS_HACK

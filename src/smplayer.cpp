@@ -87,9 +87,9 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 
 	Paths::setAppPath( qApp->applicationDirPath() );
 
-#ifndef PORTABLE_APP
+//#ifndef PORTABLE_APP
 	if (config_path.isEmpty()) createConfigDirectory();
-#endif
+//#endif
 	global_init(config_path);
 
 	// Application translations
@@ -514,7 +514,7 @@ void SMPlayer::start() {
 	}
 }
 
-#ifndef PORTABLE_APP
+//#ifndef PORTABLE_APP
 void SMPlayer::createConfigDirectory() {
 	// Create smplayer config directory
 	if (!QFile::exists(Paths::configPath())) {
@@ -531,7 +531,7 @@ void SMPlayer::createConfigDirectory() {
 		#endif
 	}
 }
-#endif
+//#endif
 
 #ifdef FONTS_HACK
 void SMPlayer::createFontFile() {

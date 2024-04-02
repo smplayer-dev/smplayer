@@ -49,7 +49,7 @@ QString applicationPath() {
 QString hdpiConfig() {
 #ifdef PORTABLE_APP
 	// We can't use QCoreApplication::applicationDirPath() here
-	return applicationPath();
+	return applicationPath() + "/config";
 #else
 	return Paths::configPath();
 #endif // PORTABLE_APP
@@ -108,7 +108,7 @@ int main( int argc, char ** argv )
 	QString config_path;
 
 #ifdef PORTABLE_APP
-	config_path = a.applicationDirPath();
+	config_path = a.applicationDirPath() + "/config";
 #else
 	// If a smplayer.ini exists in the app path, will use that path
 	// for the config file by default
