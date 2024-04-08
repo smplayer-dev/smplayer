@@ -54,6 +54,7 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 
 #ifndef YOUTUBE_SUPPORT
 	youtube_box->hide();
+	youtube_app_box->hide();
 #endif
 
 #ifndef CONVERT_TO_VTT
