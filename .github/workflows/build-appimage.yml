@@ -1,6 +1,6 @@
 name: Build Appimage
-  
-on: 
+
+on:
   workflow_dispatch:
   release:
     types: [published]
@@ -13,7 +13,7 @@ jobs:
         config:
           - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
           #- { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
-          
+
     runs-on: ${{matrix.config.os}}
     container: ${{matrix.config.container}}
 
@@ -47,6 +47,7 @@ jobs:
             echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Download smtube
+        if: ${{false}}
         run: |
             git clone https://github.com/smplayer-dev/smtube.git smtube
             echo "USE_SMTUBE_LIB=1" >> $GITHUB_ENV
@@ -88,7 +89,7 @@ jobs:
             wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.5-110/mplayer-mod_1.5-1.${{matrix.config.distro}}_amd64.deb
             sudo apt-get -y install ./mplayer*.deb --no-install-recommends
             cp /usr/bin/mplayer smplayer/appdir/usr/bin
-            
+
       - name: Install openssl
         if: ${{ matrix.config.distro == 'xenial' }}
         run: |
@@ -104,7 +105,7 @@ jobs:
                           -bundle-non-qt-libs \
                           -exclude-libs=libgmodule-2.0.so.0 \
                           -appimage --appimage-extract-and-run
-    
+
       - name: Create artifact
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v2
@@ -120,4 +121,4 @@ jobs:
           file: ./smplayer/*.AppImage
           tag: ${{ github.ref }}
           overwrite: true
-          file_glob: true          
+          file_glob: true
