@@ -136,7 +136,7 @@
   #endif
 #endif
 
-#ifdef USE_SMTUBE_LIB
+#if defined(SMTUBE_ACTION) && defined(USE_SMTUBE_LIB)
 #include "../smtube/browserwindow.h"
 #endif
 
@@ -179,7 +179,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	, delayed_seek_timer(0)
 	, delayed_seek_value(0)
 #endif
-#ifdef USE_SMTUBE_LIB
+#if defined(SMTUBE_ACTION) && defined(USE_SMTUBE_LIB)
 	, browser_window(0)
 #endif
 	, was_maximized(false)
@@ -386,7 +386,7 @@ BaseGui::~BaseGui() {
 	}
 #endif
 
-#if defined(YOUTUBE_SUPPORT) && defined(USE_SMTUBE_LIB)
+#if defined(SMTUBE_ACTION) && defined(USE_SMTUBE_LIB)
 	if (browser_window) delete browser_window;
 #endif
 
@@ -892,7 +892,7 @@ void BaseGui::createActions() {
 	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
 
-#ifdef YOUTUBE_SUPPORT
+#ifdef SMTUBE_ACTION
 	showTubeBrowserAct = new MyAction( Qt::Key_F11, this, "show_tube_browser" );
 	connect( showTubeBrowserAct, SIGNAL(triggered()),
              this, SLOT(showTubeBrowser()) );
@@ -1888,7 +1888,7 @@ void BaseGui::retranslateStrings() {
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("&Information and properties...") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
-#ifdef YOUTUBE_SUPPORT
+#ifdef SMTUBE_ACTION
 	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube%1 browser").arg(QChar(0x2122)) );
 #endif
 
@@ -3036,7 +3036,7 @@ void BaseGui::populateMainMenu() {
 	// VIEW MENU
 	viewMenu->addAction(showPropertiesAct);
 	viewMenu->addAction(showPlaylistAct);
-	#ifdef YOUTUBE_SUPPORT
+	#ifdef SMTUBE_ACTION
 	if (!pref->tablet_mode) {
 		viewMenu->addAction(showTubeBrowserAct);
 	}
@@ -6293,7 +6293,7 @@ void BaseGui::showVideoPreviewDialog() {
 }
 #endif
 
-#ifdef YOUTUBE_SUPPORT
+#ifdef SMTUBE_ACTION
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
 #ifdef USE_SMTUBE_LIB

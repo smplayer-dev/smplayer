@@ -43,6 +43,10 @@
 #define NUMPAD_WORKAROUND
 #endif
 
+#ifdef YOUTUBE_SUPPORT
+//#define SMTUBE_ACTION
+#endif
+
 class QWidget;
 class QMenu;
 class LogWindow;
@@ -62,7 +66,7 @@ class FindSubtitlesWindow;
 class VideoPreview;
 #endif
 
-#ifdef USE_SMTUBE_LIB
+#if defined(SMTUBE_ACTION) && defined(USE_SMTUBE_LIB)
 class BrowserWindow;
 #endif
 
@@ -159,7 +163,7 @@ public slots:
 	virtual void showVideoPreviewDialog();
 #endif
 
-#ifdef YOUTUBE_SUPPORT
+#ifdef SMTUBE_ACTION
 	virtual void showTubeBrowser();
 #endif
 
@@ -568,7 +572,7 @@ protected:
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
 	MyAction * showPreferencesAct;
-#ifdef YOUTUBE_SUPPORT
+#ifdef SMTUBE_ACTION
 	MyAction * showTubeBrowserAct;
 #endif
 #ifdef LOG_MPLAYER
@@ -916,7 +920,7 @@ protected:
 	int delayed_seek_value;
 #endif
 
-#ifdef USE_SMTUBE_LIB
+#if defined(SMTUBE_ACTION) && defined(USE_SMTUBE_LIB)
 	BrowserWindow * browser_window;
 #endif
 
