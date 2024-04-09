@@ -30,7 +30,7 @@ jobs:
 
       - name: Install sources (normal)
         if: ${{ matrix.config.portable == false }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: packages/smplayer
           fetch-depth: 0
@@ -54,7 +54,7 @@ jobs:
         
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: '5.15.2'
           arch: 'win32_mingw81'
@@ -62,7 +62,7 @@ jobs:
 
       - name: Install Qt (64 bit)
         if: ${{ matrix.config.arch == 'x64' }}
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
@@ -120,7 +120,7 @@ jobs:
 
       - name: Create artifact
         if: github.event_name != 'release'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGEFILENAME }}
           path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
