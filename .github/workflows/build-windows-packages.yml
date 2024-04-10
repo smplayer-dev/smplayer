@@ -54,19 +54,21 @@ jobs:
         
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: '5.15.2'
           arch: 'win32_mingw81'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810'
+          tools: 'tools_mingw,qt.tools.win32_mingw810'
 
       - name: Install Qt (64 bit)
         if: ${{ matrix.config.arch == 'x64' }}
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
+          tools: 'tools_mingw,qt.tools.win64_mingw810'
 
       - name: Set mingw32 path (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
