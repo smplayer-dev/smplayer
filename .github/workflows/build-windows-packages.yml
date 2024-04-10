@@ -37,7 +37,7 @@ jobs:
 
       - name: Install sources (portable)
         if: ${{ matrix.config.portable == true }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: packages/smplayer-portable
           fetch-depth: 0
@@ -54,7 +54,7 @@ jobs:
         
       - name: Install Qt (32 bit)
         if: ${{ matrix.config.arch == 'win32' }}
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
           arch: 'win32_mingw81'
@@ -62,7 +62,7 @@ jobs:
 
       - name: Install Qt (64 bit)
         if: ${{ matrix.config.arch == 'x64' }}
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v2
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
