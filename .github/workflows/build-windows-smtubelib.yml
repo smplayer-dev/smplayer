@@ -15,7 +15,7 @@ jobs:
         run: git clone https://github.com/smplayer-dev/smplayer-build.git .
 
       - name: Install sources (normal)
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: packages/smplayer
           fetch-depth: 0
@@ -35,12 +35,13 @@ jobs:
         run: .\uncompress_players.cmd
 
       - name: Install Qt (64 bit)
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: '5.15.2'
           arch: 'win64_mingw81'
           #tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810 tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
+          tools: 'tools_mingw,qt.tools.win64_mingw810'
 
       - name: Set mingw32 path (64 bit)
         run: echo "$env:IQTA_TOOLS\mingw810_64\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
@@ -80,7 +81,7 @@ jobs:
 
       - name: Create artifact
         if: github.event_name != 'release'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGEFILENAME }}
           path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
