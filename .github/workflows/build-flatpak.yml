@@ -42,7 +42,7 @@ jobs:
         run: sed -e 's/USE_SHM/USE_SHM DEFINES+=USE_GL_WINDOW/' -i info.smplayer.SMPlayer.yml
 
       - name: Build
-        uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
+        uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v6
         with:
           bundle: smplayer-${{env.VERSION}}-sdk${{matrix.config.sdk}}.flatpak
           manifest-path: ${{matrix.config.sdk}}/info.smplayer.SMPlayer.yml
