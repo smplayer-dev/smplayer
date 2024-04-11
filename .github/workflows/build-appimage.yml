@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
-          #- { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
+          #- { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
+          - { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
 
     runs-on: ${{matrix.config.os}}
     container: ${{matrix.config.container}}
