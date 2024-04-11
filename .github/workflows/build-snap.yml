@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: 'smplayer-dev/snap-builds'
 
@@ -23,7 +23,7 @@ jobs:
       - name: Create artifact
         #if: github.event_name != 'release'
         if: ${{false}}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: smplayer-snap
           path: ${{ steps.snapcraft.outputs.snap }}
