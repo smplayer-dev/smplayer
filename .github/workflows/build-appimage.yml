@@ -11,15 +11,15 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          #- { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
-          - { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
+          - { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
+          #- { os: 'ubuntu-18.04', container: '', qt: '5.09',  distro: 'bionic'}
 
     runs-on: ${{matrix.config.os}}
     container: ${{matrix.config.container}}
 
     steps:
       - name: Install sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
           path: smplayer
@@ -108,7 +108,7 @@ jobs:
 
       - name: Create artifact
         if: github.event_name != 'release'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v2
         with:
           name: smplayer-${{env.VERSION}}-qt${{matrix.config.qt}}
           path: smplayer/*.AppImage
