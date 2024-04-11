@@ -26,14 +26,14 @@ jobs:
 
       - name: Install sources (normal)
         if: ${{ matrix.config.portable == false }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: packages/smplayer
           fetch-depth: 0
 
       - name: Install sources (portable)
         if: ${{ matrix.config.portable == true }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: packages/smplayer-portable
           fetch-depth: 0
@@ -133,7 +133,7 @@ jobs:
 
       - name: Create artifact
         if: github.event_name != 'release'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGEFILENAME }}
           path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
