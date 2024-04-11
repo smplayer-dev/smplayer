@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Install sources
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: ${{ env.app-name }}
           fetch-depth: 0
@@ -57,7 +57,7 @@ jobs:
 
       - name: Create artifact
         if: github.event_name != 'release'
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGEFILENAME }}
           path: ${{ env.output_dir }}/*.rpm
