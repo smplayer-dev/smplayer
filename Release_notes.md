@@ -1,5 +1,10 @@
 # Changelog
 
+## [24.04] - 2024-04-26
+ * Bug fixes.
+ * The Windows portable version now saves the configuration files in
+   the folder "config".
+
 ## [23.12] - 2023-12-26
  * Implemented support for the new Opensubtitles API.
  * Fix play/pause with mpv 0.37.
