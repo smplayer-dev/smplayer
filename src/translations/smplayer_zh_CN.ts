@@ -6813,7 +6813,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>启用/禁用以 16 像素高的片/带方式绘制视频。如果禁用，将一次运行整个帧的绘制。可能更快或更慢，这取决于显卡和可用的缓存。它只对 libmpeg2 和 libavcodec 编解码器有效果。</translation>
+        <translation>启用/禁用以 16 像素高度的切片/条带来绘制视频。如果禁用则一次绘制整个帧。可能更快或更慢，取决于显卡和可用缓存。它只对 libmpeg2 和 libavcodec 编解码器有效果。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="614"/>
@@ -8596,7 +8596,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="231"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation>yt-dlp (基于 youtube-dl 的改进版)</translation>
+        <translation>yt-dlp (基于 youtube-dl 改进)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="249"/>

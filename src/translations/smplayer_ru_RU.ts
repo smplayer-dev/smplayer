@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Вы тоже можете помочь перевести SMPlayer на свой родной язык.</translation>
+        <translation>Вы тоже можете перевести SMPlayer на ваш родной язык.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../about.cpp" line="44"/>
         <source>&amp;OK</source>
-        <translation>&amp;ОК</translation>
+        <translation>&amp;Хорошо</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
@@ -1311,12 +1311,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2170"/>
         <source>Secondary trac&amp;k</source>
-        <translation>&amp;Дополнительная дорожка</translation>
+        <translation>Вторичная &amp;дорожка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2172"/>
         <source>Select secondary subtitle track</source>
-        <translation>Выбрать дополнительные субтитры</translation>
+        <translation>Выбрать вторичную дорожку субтитров</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2178"/>
@@ -1326,7 +1326,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2192"/>
         <source>&amp;Bookmarks</source>
-        <translation>&amp;Закладки</translation>
+        <translation>Закладк&amp;и</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2202"/>
@@ -1895,7 +1895,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>&amp;Пуск/стоп создания снимков</translation>
+        <translation>&amp;Пуск/стоп захвата снимков</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
@@ -2081,7 +2081,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../baseguiplus.cpp" line="933"/>
         <location filename="../baseguiplus.cpp" line="971"/>
         <source>Primary screen: %1</source>
-        <translation>Первичный экран: %1</translation>
+        <translation>Основной экран: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="941"/>
@@ -2159,7 +2159,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="1017"/>
         <source>Primary screen</source>
-        <translation>Первичный экран</translation>
+        <translation>Основной экран</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="1102"/>
@@ -2666,7 +2666,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Вы можете изменять, удалять, сортировать и добавлять новые элементы. Дважды щёлкните по ячейке для изменения её содержимого.</translation>
+        <translation>Вы можете изменять, удалять, сортировать и добавлять новые объекты. Дважды щёлкните по ячейке для изменения её содержимого.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="354"/>
@@ -2706,7 +2706,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation>&amp;Новый элемент</translation>
+        <translation>&amp;Новый объект</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
@@ -2720,13 +2720,13 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Jump to item</source>
-        <translation>Перейти к элементу</translation>
+        <translation>Перейти к объекту</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="375"/>
         <location filename="../favorites.cpp" line="379"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Введите номер элемента списка для перехода:</translation>
+        <translation>Введите номер объекта в списке для перехода:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2795,7 +2795,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="66"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>В&amp;ыберите демультиплексор для воспроизведения этого файла:</translation>
+        <translation>В&amp;ыберите демуксер для работы с этим файлом:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="106"/>
@@ -2858,7 +2858,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>&amp;OK</source>
-        <translation>&amp;ОК</translation>
+        <translation>&amp;Хорошо</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="90"/>
@@ -3317,7 +3317,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="94"/>
         <source>Demuxer</source>
-        <translation>Демультиплексор</translation>
+        <translation>Демуксер</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
@@ -3490,7 +3490,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="128"/>
         <source>Initial Video Stream</source>
-        <translation>Первичный видеопоток</translation>
+        <translation>Исходный видеопоток</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="190"/>
@@ -3554,7 +3554,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Вы можете проигрывать DVD с жёсткого диска. Просто укажите папку, содержащую директории VIDEO_TS и AUDIO_TS.</translation>
+        <translation>Вы можете проигрывать DVD с вашего диска. Просто укажите папку с каталогами VIDEO_TS и AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3618,7 +3618,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation>Все</translation>
+        <translation>Афарский</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
@@ -5317,7 +5317,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="754"/>
         <source>&amp;Repeat</source>
-        <translation>&amp;Повторить</translation>
+        <translation>&amp;Повторять</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="755"/>
@@ -5530,7 +5530,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation>По умолчанию использовать демультиплексор la&amp;vf</translation>
+        <translation>По умолчанию использовать демуксер La&amp;vf</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="200"/>
@@ -5595,22 +5595,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Use the lavf demuxer by default</source>
-        <translation>По умолчанию использовать демультиплексор lavf</translation>
+        <translation>По умолчанию использовать демуксер Lavf</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation>Если этот параметр включён, для всех форматов будет использоваться демультиплексор lavf.</translation>
+        <translation>Если этот параметр включён, для всех форматов будет использоваться демуксер Lavf.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Данный параметр может быть необходим для воспроизведения плейлистов (m3u, pls и др). Однако это представляет определённую угрозу, ввиду того, что MPlayer практически беззащитен при чтении и использовании различных плейлистов из интернета.</translation>
+        <translation>Этот параметр может пригодиться для воспроизведения плейлистов (m3u, pls и пр.). Однако это представляет угрозу безопасности, так как MPlayer практически беззащитен при чтении и использовании различных плейлистов из интернета.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Ограничение: действия запускаются только при открытии файла, но не при перезапуске процесса %1 (например, при выборе аудио или видеофильтра).</translation>
+        <translation>Ограничение: действия запускаются только при открытии файла, но не при перезапуске процесса %1 (например, при выборе фильтра аудио или видео).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5845,7 +5845,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Переключает %1 в экспериментальный режим, в котором метки времени для кадров видео рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие метки времени существующих. Более точные метки времени могут быть заметны, например, при воспроизведении субтитров, привязанных к смене сцены, с включённой библиотекой SSA/ASS. Без корректировки меток времени тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демультиплексорами и кодеками этот параметр работает некорректно.</translation>
+        <translation>Переключает %1 в экспериментальный режим, в котором метки времени для кадров видео рассчитываются независимо, и тем самым поддерживаются видеофильтры, добавляющие новые кадры или меняющие метки времени существующих. Более точные метки времени могут быть заметны, например, при воспроизведении субтитров, привязанных к смене сцены, с включённой библиотекой SSA/ASS. Без корректировки меток времени тайминг субтитров, как правило, будет отключён некоторыми кадрами. С некоторыми демуксерами и кодеками этот параметр работает неверно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -6327,7 +6327,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1327"/>
         <source>Preferred audio language</source>
-        <translation>Предпочитаемый язык звуковой дорожки</translation>
+        <translation>Предпочитаемый язык дорожки звука</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1339"/>
@@ -6347,7 +6347,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation>Данный параметр указывает шаблон имени сохраняемых снимков.</translation>
+        <translation>Этот параметр указывает шаблон имени сохраняемых снимков.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
@@ -7207,7 +7207,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinput.cpp" line="381"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Эта таблица позволяет изменить сочетания клавиш для различных действий. Двойной щелчок или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата - просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
+        <translation>Эта таблица позволяет менять сочетания клавиш для доступных действий. Двойной щелчок или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата — просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="399"/>
@@ -7905,12 +7905,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="563"/>
         <source>&amp;Absolute seeking</source>
-        <translation>&amp;Абсолютное позиционирование</translation>
+        <translation>&amp;Абсолютная перемотка</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="576"/>
         <source>&amp;Relative seeking</source>
-        <translation>&amp;Относительное позиционирование</translation>
+        <translation>&amp;Относительная перемотка</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
@@ -8070,7 +8070,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
         <source>Seeking</source>
-        <translation>Поиск</translation>
+        <translation>Перемотка</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
@@ -8198,12 +8198,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefinterface.ui" line="551"/>
         <location filename="../prefinterface.cpp" line="820"/>
         <source>Seeking method</source>
-        <translation>Способ позиционирования</translation>
+        <translation>Способ перемотки</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Установка метода, используемого при позиционировании ползунка перемотки. Абсолютное позиционирование более точное, но относительное может работать лучше с файлами с неправильной длительностью.</translation>
+        <translation>Установка метода, используемого при позиционировании ползунка перемотки. Абсолютная перемотка более точная, но относительная может работать лучше с файлами с неверной длительностью.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="832"/>
@@ -8335,7 +8335,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
         <source>Precise seeking</source>
-        <translation>Точное позиционирование</translation>
+        <translation>Точная перемотка</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
@@ -8345,7 +8345,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
-        <translation>То&amp;чное позиционирование</translation>
+        <translation>То&amp;чное перемотка</translation>
     </message>
 </context>
 <context>
@@ -9188,7 +9188,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>Указывает число потоков декодирования. Только для MPEG-1/2 и H.264</translation>
+        <translation>Задаёт число потоков декодирования. Только для MPEG-1/2 и H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
@@ -10195,7 +10195,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Хорошо</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
@@ -10420,7 +10420,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="192"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>«медиа» – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), сетевой поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
+        <translation>«медиа» – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр., dvd://1), сетевой поток (напр., mms://....) или локальный плейлист в формате m3u или pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10472,7 +10472,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation>Поделиться SMPlayer через Фейсбук</translation>
+        <translation>Поделиться SMPlayer в Фейсбук</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="115"/>
@@ -11247,7 +11247,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="28"/>
         <source>&amp;OK</source>
-        <translation>&amp;ОК</translation>
+        <translation>&amp;Хорошо</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="29"/>
@@ -11293,7 +11293,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="55"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation>Эта опция указывает максимальную ширину в пикселах, которую будет иметь сгенерированное изображение.</translation>
+        <translation>Этот параметр задаёт максимальную ширину в пикселях для создаваемого изображения предпросмотра.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="56"/>
