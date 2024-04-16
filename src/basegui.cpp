@@ -731,7 +731,7 @@ void BaseGui::createActions() {
              this, SLOT(showAudioEqualizer(bool)) );
 
 	muteAct = new MyAction( Qt::Key_M, this, "mute" );
-	muteAct->addShortcut(Qt::Key_VolumeMute); // MCE remote key
+	//muteAct->addShortcut(Qt::Key_VolumeMute); // MCE remote key
 	muteAct->setCheckable( true );
 	connect( muteAct, SIGNAL(toggled(bool)),
              core, SLOT(mute(bool)) );
@@ -739,7 +739,7 @@ void BaseGui::createActions() {
 #if USE_MULTIPLE_SHORTCUTS
 	decVolumeAct = new MyAction( this, "decrease_volume" );
 	decVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("9,/") );
-	decVolumeAct->addShortcut(Qt::Key_VolumeDown); // MCE remote key
+	//decVolumeAct->addShortcut(Qt::Key_VolumeDown); // MCE remote key
 #else
 	decVolumeAct = new MyAction( Qt::Key_9, this, "dec_volume" );
 #endif
@@ -749,7 +749,7 @@ void BaseGui::createActions() {
 #if USE_MULTIPLE_SHORTCUTS
 	incVolumeAct = new MyAction( this, "increase_volume" );
 	incVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("0,*") );
-	incVolumeAct->addShortcut(Qt::Key_VolumeUp); // MCE remote key
+	//incVolumeAct->addShortcut(Qt::Key_VolumeUp); // MCE remote key
 #else
 	incVolumeAct = new MyAction( Qt::Key_0, this, "inc_volume" );
 #endif

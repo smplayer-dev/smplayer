@@ -45,6 +45,12 @@ dec_speed_4
 inc_speed_4	
 dec_speed_1	
 inc_speed_1	
+speed_0.25x	
+speed_0.5x	
+speed_0.75x	
+speed_1.25x	
+speed_1.5x	
+speed_1.75x	
 fullscreen	F, Ctrl+T
 compact	Ctrl+C
 video_equalizer	Ctrl+E
@@ -65,9 +71,9 @@ add_noise
 add_letterbox	
 upscaling	
 audio_equalizer	
-mute	M, Volume Mute
-decrease_volume	9, /, Volume Down
-increase_volume	0, *, Volume Up
+mute	M
+decrease_volume	9, /
+increase_volume	0, *
 dec_audio_delay	-
 inc_audio_delay	+
 audio_delay	
@@ -98,7 +104,6 @@ upload_subtitles
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 show_preferences	Ctrl+P
-show_tube_browser	F11
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
 tablet_mode	
@@ -106,6 +111,7 @@ first_steps
 faq	
 cl_options	
 check_updates	
+update_youtube	
 show_config	
 donate	
 about_smplayer	
@@ -207,15 +213,11 @@ rotate_clockwise_flip
 rotate_clockwise	
 rotate_counterclockwise	
 rotate_counterclockwise_flip	
+rotate_180	
 on_top_always	
 on_top_never	
 on_top_playing	
 toggle_stay_on_top	
-screen_default	
-screen_1	
-screen_2	
-screen_3	
-screen_4	
 cc_none	
 cc_ch_1	
 cc_ch_2	
@@ -243,6 +245,8 @@ toggle_frame_counter
 toggle_format_info	
 toggle_bitrate_info	
 use_milliseconds	
+statusbar_total_time	
+statusbar_remaining_time	
 edit_main_toolbar	
 edit_control1	
 edit_control2	
@@ -275,3 +279,4 @@ pl_show_position_column
 pl_show_name_column	
 pl_show_duration_column	
 pl_show_filename_column	
+pl_show_shuffle_column	
