@@ -17,6 +17,7 @@ cd ..
 #qmake DEFINES+="SMTUBE_LIB"
 #make -j$(sysctl -n hw.logicalcpu)
 #cd ../src
+cd src
 
 echo Compiling smplayer
 lrelease smplayer.pro
