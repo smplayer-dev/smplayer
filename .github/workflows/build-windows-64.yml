@@ -7,15 +7,15 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: 5.15.2
           arch: win64_mingw81
-          tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+          #tools: 'tools_openssl_x64,1.1.1-1,qt.tools.openssl.win_x64'
+          tools: 'tools_mingw,qt.tools.win64_mingw810'
 
       - name: Build smplayer
         run: |
