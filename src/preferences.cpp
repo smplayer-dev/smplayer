@@ -166,11 +166,7 @@ void Preferences::reset() {
 	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
 	use_hwac3 = false;
-#ifdef Q_OS_WIN
-	use_audio_equalizer = true;
-#else
 	use_audio_equalizer = false;
-#endif
 
 	global_volume = true;
 	volume = 50;
