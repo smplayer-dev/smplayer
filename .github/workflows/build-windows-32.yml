@@ -7,15 +7,15 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@v3
         with:
           version: 5.15.2
           arch: win32_mingw81
-          tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win32_mingw810 tools_openssl_x86,1.1.1-1,qt.tools.openssl.win_x86'
+          tools: 'tools_mingw,qt.tools.win32_mingw810'
 
       - name: Set mingw32 path
         run: echo "$env:IQTA_TOOLS\mingw810_32\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
