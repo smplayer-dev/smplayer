@@ -1,6 +1,6 @@
 # Changelog
 
-## [24.04] - 2024-04-26
+## [24.05] - 2024-05-13
  * Bug fixes.
  * The Windows portable version now saves the configuration files in
    the folder "config".

@@ -1,4 +1,12 @@
-smplayer (23.12.0) UNRELEASED; urgency=medium
+smplayer (24.5.0) jammy; urgency=medium
+
+  * Bug fixes.
+  * The Windows portable version now saves the configuration files in
+    the folder "config".
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Mon, 13 May 2024 13:40:56 +0200
+
+smplayer (23.12.0) jammy; urgency=medium
 
   * Implemented support for the new Opensubtitles API.
   * Fix play/pause with mpv 0.37.
