@@ -58,6 +58,7 @@
 #define FONT_STYLE "font-family:ubuntu,verdana,arial;"
 #define HEADER_STYLE "style=\"" FONT_STYLE " font-size:16px\""
 #define FOOTER_STYLE HEADER_STYLE
+#define COLOR_STYLE "color: black; background-color: white;"
 
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
 {
@@ -158,6 +159,10 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	toggleInfoAct->setShortcut( QKeySequence("Ctrl+H") );
 	connect( toggleInfoAct, SIGNAL(toggled(bool)), this, SLOT(showInfo(bool)) );
 	addAction(toggleInfoAct);
+
+	info->setStyleSheet(COLOR_STYLE);
+	title->setStyleSheet(COLOR_STYLE);
+	foot->setStyleSheet(COLOR_STYLE);
 }
 
 VideoPreview::~VideoPreview() {
