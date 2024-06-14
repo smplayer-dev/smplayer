@@ -49,7 +49,7 @@
 #include <QSysInfo> // To get Windows version
 #endif
 
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 #include "screensaver.h"
 #endif
 
@@ -267,7 +267,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 	screensaver = new ScreenSaver(this);
 	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
 	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
@@ -582,7 +582,7 @@ void Core::YTNoVideoUrl() {
 }
 #endif
 
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 void Core::enableScreensaver() {
 	qDebug("Core::enableScreensaver");
 	if (pref->disable_screensaver) {
@@ -1841,8 +1841,8 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->setOption("dr", pref->use_direct_rendering);
 	proc->setOption("double", pref->use_double_buffer);
 
-#if defined(Q_OS_LINUX) && defined(SCREENSAVER_OFF)
-	proc->setOption("stop-xscreensaver", false /*pref->disable_screensaver*/);
+#if defined(SCREENSAVER_OFF) && !defined(USE_POWERSAVING)
+	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
 #endif
 
 	if (display_screen != 0) {
@@ -4785,7 +4785,7 @@ void Core::sendMediaInfo() {
 
 //!  Called when the state changes
 void Core::watchState(Core::State state) {
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 	#if 0
 	qDebug("Core::watchState: %d", state);
 	//qDebug("Core::watchState: has video: %d", !mdat.novideo);

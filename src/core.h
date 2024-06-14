@@ -34,6 +34,10 @@ class MplayerWindow;
 class QSettings;
 
 #ifdef SCREENSAVER_OFF
+#define USE_POWERSAVING
+#endif
+
+#ifdef USE_POWERSAVING
 class ScreenSaver;
 #endif
 
@@ -474,7 +478,7 @@ protected slots:
 	void YTNoVideoUrl();
 #endif
 
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 	void enableScreensaver();
 	void disableScreensaver();
 #endif
@@ -568,7 +572,7 @@ protected:
 	FileSettingsBase * tv_settings;
 #endif
 
-#ifdef SCREENSAVER_OFF
+#ifdef USE_POWERSAVING
 	ScreenSaver * screensaver;
 #endif
 
