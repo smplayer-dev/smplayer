@@ -33,10 +33,6 @@ class PlayerProcess;
 class MplayerWindow;
 class QSettings;
 
-#ifdef SCREENSAVER_OFF
-#define USE_POWERSAVING
-#endif
-
 #ifdef USE_POWERSAVING
 class ScreenSaver;
 #endif

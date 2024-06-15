@@ -594,6 +594,18 @@ contains( DEFINES, CHROMECAST_SUPPORT ) {
 }
 
 contains( DEFINES, SCREENSAVER_OFF ) {
+	#unix:!macx {
+	#	DEFINES += USE_POWERSAVING
+	#}
+	win32 {
+		DEFINES += USE_POWERSAVING
+	}
+	mac {
+		DEFINES += USE_POWERSAVING
+	}
+}
+
+contains( DEFINES, USE_POWERSAVING ) {
 	HEADERS += screensaver.h
 	SOURCES += screensaver.cpp
 	unix:!macx {

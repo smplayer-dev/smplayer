@@ -1841,8 +1841,12 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->setOption("dr", pref->use_direct_rendering);
 	proc->setOption("double", pref->use_double_buffer);
 
-#if defined(SCREENSAVER_OFF) && !defined(USE_POWERSAVING)
+#ifdef SCREENSAVER_OFF
+	#ifndef USE_POWERSAVING
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
+	#else
+	proc->setOption("stop-xscreensaver", false);
+	#endif
 #endif
 
 	if (display_screen != 0) {
