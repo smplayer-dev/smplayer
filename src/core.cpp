@@ -1499,10 +1499,9 @@ void Core::goToPosition(int value) {
 
 	if (pref->relative_seeking) {
 		goToPos( (double) value / (SEEKBAR_RESOLUTION / 100) );
-	}
-	else {
+	} else {
 		if (mdat.duration > 0) {
-			int jump_time = (int) mdat.duration * value / SEEKBAR_RESOLUTION;
+			int jump_time = (double) mdat.duration * value / SEEKBAR_RESOLUTION;
 			goToSec(jump_time);
 		}
 	}
@@ -3836,7 +3835,7 @@ void Core::changeCurrentSec(double sec) {
 	if ( (mdat.duration > 1) && (mset.current_sec > 1) &&
          (mdat.duration > mset.current_sec) )
 	{
-		value = ( (int) mset.current_sec * SEEKBAR_RESOLUTION) / (int) mdat.duration;
+		value = ( (double) mset.current_sec * SEEKBAR_RESOLUTION) / (int) mdat.duration;
 	}
 	emit positionChanged(value);
 #else
