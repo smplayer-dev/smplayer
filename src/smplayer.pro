@@ -594,9 +594,9 @@ contains( DEFINES, CHROMECAST_SUPPORT ) {
 }
 
 contains( DEFINES, SCREENSAVER_OFF ) {
-	#unix:!macx {
-	#	DEFINES += USE_POWERSAVING
-	#}
+	unix:!macx {
+		DEFINES += USE_POWERSAVING
+	}
 	win32 {
 		DEFINES += USE_POWERSAVING
 	}
