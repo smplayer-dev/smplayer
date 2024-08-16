@@ -398,7 +398,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "forcedsubsonly") {
-		arg << "--sub-forced-only";
+		// See <https://github.com/mpv-player/mpv/commit/9b9475e21809fbb4736b4290c2648900d9c49e2e>.
+		if (isOptionAvailable("--sub-forced-events-only")) {
+			arg << "--sub-forced-events-only";
+		} else {
+			arg << "--sub-forced-only";
+		}
 	}
 	else
 	if (option_name == "prefer-ipv4" || option_name == "prefer-ipv6" ||
@@ -1065,7 +1070,12 @@ void MPVProcess::seekSub(int value) {
 }
 
 void MPVProcess::setSubForcedOnly(bool b) {
-	sendCommand(QString("set sub-forced-only %1").arg(b ? "yes" : "no"));
+	// See <https://github.com/mpv-player/mpv/commit/9b9475e21809fbb4736b4290c2648900d9c49e2e>.
+	if (isOptionAvailable("--sub-forced-events-only")) {
+		sendCommand(QString("set sub-forced-events-only %1").arg(b ? "yes" : "no"));
+	} else {
+		sendCommand(QString("set sub-forced-only %1").arg(b ? "yes" : "no"));
+	}
 }
 
 void MPVProcess::setSpeed(double value) {
