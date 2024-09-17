@@ -71,7 +71,7 @@ Extensions::Extensions()
 	   << "wv" << "shn" << "opus";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
-               << "rt" << "utf" << "aqt" << "vtt" << "mpsub";
+               << "rt" << "utf" << "aqt" << "vtt" << "webvtt" << "mpsub";
 
 	_playlist << "m3u" << "m3u8" << "pls" << "xspf";
 
