@@ -181,6 +181,7 @@ protected slots:
 	void gotError(QProcess::ProcessError);
 	void requestChapterInfo();
 	/* void requestBitrateInfo(); */
+	void socketReadyRead();
 
 #ifdef OSD_WITH_TIMER
 	void displayInfoOnOSD();

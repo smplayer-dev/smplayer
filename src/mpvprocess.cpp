@@ -90,6 +90,7 @@ MPVProcess::MPVProcess(QObject * parent)
 
 #ifdef USE_IPC
 	socket = new QLocalSocket(this);
+	connect(socket, SIGNAL(readyRead()), this, SLOT(socketReadyRead()));
 	#if QT_VERSION >= 0x050000
 	QString temp_dir = QStandardPaths::writableLocation(QStandardPaths::TempLocation);
 	#else
@@ -933,9 +934,22 @@ void MPVProcess::sendCommand(QString text) {
 		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
 		socket->waitForConnected();
 		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
+		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n");
 	}
 	socket->write(text.toUtf8() +"\n");
 	socket->flush();
+}
+
+void MPVProcess::socketReadyRead() {
+	qDebug("MPVProcess::socketReadyRead");
+	QString s = socket->readAll();
+	qDebug() << "MPVProcess::socketReadyRead:" << s;
+	QRegExp exp("property-change.*pause.*\"data\":(true|false)");
+	if (exp.indexIn(s) > -1) {
+		bool paused = exp.cap(1) == "true";
+		qDebug() << "MPVProcess::socketReadyRead:" << paused;
+		if (paused) emit receivedPause();
+	}
 }
 #endif
 
