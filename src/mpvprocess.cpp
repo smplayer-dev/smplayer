@@ -37,6 +37,8 @@
  #else
  #include <QDesktopServices>
  #endif
+
+ #define IPC_STATUS
 #endif
 
 using namespace Global;
@@ -162,7 +164,7 @@ bool MPVProcess::start() {
 
 void MPVProcess::initializeRX() {
 #ifdef CUSTOM_STATUS
-	rx_av.setPattern("STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
+	rx_av.setPattern("STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
 #else
 	rx_av.setPattern("(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
 #endif
@@ -246,9 +248,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 		#ifdef CUSTOM_STATUS
 		double sec = rx_av.cap(1).toDouble();
 		double length = rx_av.cap(2).toDouble();
+		#ifndef IPC_STATUS
 		bool paused = (rx_av.cap(3) == "yes");
 		bool buffering = (rx_av.cap(4) == "yes");
 		bool idle = (rx_av.cap(5) == "yes");
+		#endif
 		int video_bitrate = rx_av.cap(6).toInt();
 		int audio_bitrate = rx_av.cap(7).toInt();
 
@@ -259,6 +263,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#endif
 		}
 
+		#ifndef IPC_STATUS
 		if (paused && notified_pause) {
 			if (last_sec != sec) {
 				last_sec = sec;
@@ -290,6 +295,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			emit receivedBuffering();
 			return;
 		}
+		#endif
 		notified_pause = false;
 
 		if (video_bitrate != md.video_bitrate) {
@@ -326,6 +332,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#endif
 		}
 
+		#ifndef IPC_STATUS
 		if (status == "Paused") {
 			emit receivedPause();
 			return;
@@ -335,6 +342,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			emit receivedBuffering();
 			return;
 		}
+		#endif
 
 		if (!status.isEmpty()) {
 			qDebug() << "MPVProcess::parseLine: status:" << status;
@@ -934,22 +942,34 @@ void MPVProcess::sendCommand(QString text) {
 		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
 		socket->waitForConnected();
 		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
-		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n");
+		#ifdef IPC_STATUS
+		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n"
+                      "{ \"command\": [\"observe_property\", 2, \"paused-for-cache\"] }\n"
+                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n");
+		#endif
 	}
 	socket->write(text.toUtf8() +"\n");
 	socket->flush();
 }
 
 void MPVProcess::socketReadyRead() {
+	#ifdef IPC_STATUS
 	qDebug("MPVProcess::socketReadyRead");
 	QString s = socket->readAll();
 	qDebug() << "MPVProcess::socketReadyRead:" << s;
-	QRegExp exp("property-change.*pause.*\"data\":(true|false)");
+	QRegExp exp("property-change.*\"name\":\"([a-z-]+)\".*\"data\":([a-z]+)");
 	if (exp.indexIn(s) > -1) {
-		bool paused = exp.cap(1) == "true";
-		qDebug() << "MPVProcess::socketReadyRead:" << paused;
-		if (paused) emit receivedPause();
+		//qDebug() << "MPVProcess::socketReadyRead:" << exp;
+		QString name = exp.cap(1);
+		QString data = exp.cap(2);
+		qDebug() << "MPVProcess::socketReadyRead:" << name << data;
+		if (name == "pause" && data == "true") emit receivedPause();
+		else
+		if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
+		else
+		if (name == "core-idle" && data == "true") emit receivedBuffering();
 	}
+	#endif
 }
 #endif
 
