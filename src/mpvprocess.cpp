@@ -252,9 +252,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 		bool paused = (rx_av.cap(3) == "yes");
 		bool buffering = (rx_av.cap(4) == "yes");
 		bool idle = (rx_av.cap(5) == "yes");
-		#endif
 		int video_bitrate = rx_av.cap(6).toInt();
 		int audio_bitrate = rx_av.cap(7).toInt();
+		#endif
 
 		if (length != md.duration) {
 			md.duration = length;
@@ -295,7 +295,6 @@ void MPVProcess::parseLine(QByteArray ba) {
 			emit receivedBuffering();
 			return;
 		}
-		#endif
 		notified_pause = false;
 
 		if (video_bitrate != md.video_bitrate) {
@@ -306,6 +305,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			md.audio_bitrate = audio_bitrate;
 			emit receivedAudioBitrate(audio_bitrate);
 		}
+		#endif // IPC_STATUS
 
 		#else
 
@@ -945,7 +945,11 @@ void MPVProcess::sendCommand(QString text) {
 		#ifdef IPC_STATUS
 		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n"
                       "{ \"command\": [\"observe_property\", 2, \"paused-for-cache\"] }\n"
-                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n");
+                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n"
+                      "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
+                      "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
+                      //"{ \"command\": [\"observe_property\", 6, \"time-pos\"] }\n"
+                     );
 		#endif
 	}
 	socket->write(text.toUtf8() +"\n");
@@ -957,7 +961,7 @@ void MPVProcess::socketReadyRead() {
 	qDebug("MPVProcess::socketReadyRead");
 	QString s = socket->readAll();
 	qDebug() << "MPVProcess::socketReadyRead:" << s;
-	QRegExp exp("property-change.*\"name\":\"([a-z-]+)\".*\"data\":([a-z]+)");
+	QRegExp exp("property-change.*\"name\":\"([a-z-]+)\".*\"data\":([a-z0-9-.]+)");
 	if (exp.indexIn(s) > -1) {
 		//qDebug() << "MPVProcess::socketReadyRead:" << exp;
 		QString name = exp.cap(1);
@@ -968,6 +972,18 @@ void MPVProcess::socketReadyRead() {
 		if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
 		else
 		if (name == "core-idle" && data == "true") emit receivedBuffering();
+		else
+		if (name == "video-bitrate") {
+			int video_bitrate = data.toInt();
+			md.video_bitrate = video_bitrate;
+			emit receivedVideoBitrate(video_bitrate);
+		}
+		else
+		if (name == "audio-bitrate") {
+			int audio_bitrate = data.toInt();
+			md.audio_bitrate = audio_bitrate;
+			emit receivedAudioBitrate(audio_bitrate);
+		}
 	}
 	#endif
 }
