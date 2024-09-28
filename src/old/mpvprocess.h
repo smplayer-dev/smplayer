@@ -181,7 +181,6 @@ protected slots:
 	void gotError(QProcess::ProcessError);
 	void requestChapterInfo();
 	/* void requestBitrateInfo(); */
-	void socketReadyRead();
 
 #ifdef OSD_WITH_TIMER
 	void displayInfoOnOSD();
@@ -295,7 +294,35 @@ private:
 	bool use_osd_in_commands;
 
 	// Regular expressions
-	QRegExp rx_notification;
+	QRegExp rx_av;
+	QRegExp rx_dsize;
+	QRegExp rx_vo;
+	QRegExp rx_ao;
+	QRegExp rx_paused;
+	QRegExp rx_endoffile;
+
+	QRegExp rx_audio;
+	QRegExp rx_subs;
+
+	QRegExp rx_videocodec;
+	QRegExp rx_audiocodec;
+
+#if !NOTIFY_VIDEO_CHANGES
+	QRegExp rx_video;
+#endif
+
+	QRegExp rx_chaptername;
+	QRegExp rx_trackinfo;
+	QRegExp rx_forbidden;
+
+#if DVDNAV_SUPPORT
+	QRegExp rx_switch_title;
+#endif
+
+	QRegExp rx_playing;
+	QRegExp rx_generic;
+	QRegExp rx_stream_title;
+	QRegExp rx_debug;
 
 	void initializeRX();
 
