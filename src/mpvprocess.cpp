@@ -38,7 +38,7 @@
  #include <QDesktopServices>
  #endif
 
- #define IPC_STATUS
+ #define IPC_READ
 #endif
 
 using namespace Global;
@@ -167,10 +167,132 @@ void MPVProcess::initializeRX() {
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
+	/*
 	if (socket->state() != QLocalSocket::ConnectedState) {
 		sendCommand("{ \"command\": [\"get_property\", \"duration\"], \"request_id\": 100 }");
 	}
+	*/
+
+	if (socket->state() != QLocalSocket::ConnectedState) {
+		qDebug() << "MPVProcess::parseLine: state:" << socket->state();
+		qDebug() << "MPVProcess::parseLine: error:" << socket->errorString();
+		socket->close();
+		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
+		socket->waitForConnected();
+		qDebug() << "MPVProcess::parseLine: state:" << socket->state();
+
+		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n"
+                      "{ \"command\": [\"observe_property\", 2, \"paused-for-cache\"] }\n"
+                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n"
+                      "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
+                      "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
+                      "{ \"command\": [\"observe_property\", 6, \"duration\"] }\n"
+                      "{ \"command\": [\"observe_property\", 7, \"width\"] }\n"
+                      "{ \"command\": [\"observe_property\", 8, \"dheight\"] }\n"
+                      "{ \"command\": [\"observe_property\", 9, \"dwidth\"] }\n"
+                      "{ \"command\": [\"observe_property\", 10, \"height\"] }\n"
+                      "{ \"command\": [\"observe_property\", 11, \"video-params/aspect\"] }\n"
+                      "{ \"command\": [\"observe_property\", 12, \"container-fps\"] }\n"
+                      "{ \"command\": [\"observe_property\", 13, \"video-format\"] }\n"
+                      "{ \"command\": [\"observe_property\", 100, \"time-pos\"] }\n"
+                     );
+	}
+
+#if COLOR_OUTPUT_SUPPORT
+	QString line = ColorUtils::stripColorsTags(QString::fromLocal8Bit(ba));
+#else
+	#ifdef Q_OS_WIN
+	QString line = QString::fromUtf8(ba);
+	#else
+	QString line = QString::fromLocal8Bit(ba);
+	#endif
+#endif
+	emit lineAvailable(line);
 }
+
+void MPVProcess::socketReadyRead() {
+	//qDebug("MPVProcess::socketReadyRead");
+	static double last_sec = -1;
+	static int dwidth = 0;
+	static int dheight = 0;
+
+	while (socket->canReadLine()) {
+		QString s = socket->readLine();
+		if (s.indexOf("time-pos") == -1) {
+			qDebug() << "MPVProcess::socketReadyRead:" << s;
+		}
+		if (rx_notification.indexIn(s) > -1) {
+			//qDebug() << "MPVProcess::socketReadyRead:" << rx_notification;
+			QString name = rx_notification.cap(1);
+			QString data = rx_notification.cap(2);
+			if (name != "time-pos") {
+				qDebug() << "MPVProcess::socketReadyRead:" << name << data;
+			}
+			if (name == "pause" && data == "true") emit receivedPause();
+			else
+			if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
+			//else
+			//if (name == "core-idle" && data == "true") emit receivedBuffering();
+			else
+			if (name == "video-bitrate") {
+				int video_bitrate = data.toInt();
+				md.video_bitrate = video_bitrate;
+				emit receivedVideoBitrate(video_bitrate);
+			}
+			else
+			if (name == "audio-bitrate") {
+				int audio_bitrate = data.toInt();
+				md.audio_bitrate = audio_bitrate;
+				emit receivedAudioBitrate(audio_bitrate);
+			}
+			else
+			if (name == "time-pos") {
+				double sec = data.toDouble();
+				if (!notified_mplayer_is_running) {
+					emit receivedStartingTime(sec);
+					emit mplayerFullyLoaded();
+					emit receivedCurrentFrame(0); // Set the frame counter to 0
+					notified_mplayer_is_running = true;
+				}
+				if (last_sec != sec) {
+					last_sec = sec;
+					emit receivedCurrentSec(sec);
+				}
+			}
+			else
+			if (name == "duration") {
+				md.duration = data.toDouble();
+			}
+			else
+			if (name == "width") {
+				md.video_width = data.toInt();
+			}
+			else
+			if (name == "height") {
+				md.video_height = data.toInt();
+			}
+			else
+			if (name == "dwidth" || name == "dheight") {
+				if (name == "dwidth") dwidth = data.toInt(); else dheight = data.toInt();
+				if (dwidth != 0 && dheight != 0) emit receivedWindowResolution( dwidth, dheight );
+			}
+			else
+			if (name == "video-params/aspect") {
+				md.video_aspect = data.toDouble();
+			}
+			else
+			if (name == "container-fps") {
+				md.video_fps = data;
+			}
+			else
+			if (name == "video-format") {
+				md.video_format = data.replace("\"", "");
+				md.video_codec = md.video_format;
+			}
+		}
+	}
+}
+
 
 void MPVProcess::requestChapterInfo() {
 	sendCommand("print_text \"INFO_CHAPTERS=${=chapters}\"");
@@ -276,7 +398,6 @@ void MPVProcess::gotError(QProcess::ProcessError error) {
 	qDebug("MPVProcess::gotError: %d", (int) error);
 }
 
-#ifdef USE_IPC
 void MPVProcess::sendCommand(QString text) {
 	qDebug() << "MPVProcess::sendCommand:" << text;
 
@@ -288,117 +409,11 @@ void MPVProcess::sendCommand(QString text) {
 	if (socket->state() != QLocalSocket::ConnectedState) {
 		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
 		qDebug() << "MPVProcess::sendCommand: error:" << socket->errorString();
-		socket->close();
-		socket->connectToServer(socket_name, QIODevice::ReadWrite | QIODevice::Text);
-		socket->waitForConnected();
-		qDebug() << "MPVProcess::sendCommand: state:" << socket->state();
-		#ifdef IPC_STATUS
-		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n"
-                      "{ \"command\": [\"observe_property\", 2, \"paused-for-cache\"] }\n"
-                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n"
-                      "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
-                      "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
-                      "{ \"command\": [\"observe_property\", 6, \"duration\"] }\n"
-                      "{ \"command\": [\"observe_property\", 7, \"width\"] }\n"
-                      "{ \"command\": [\"observe_property\", 8, \"dheight\"] }\n"
-                      "{ \"command\": [\"observe_property\", 9, \"dwidth\"] }\n"
-                      "{ \"command\": [\"observe_property\", 10, \"height\"] }\n"
-                      "{ \"command\": [\"observe_property\", 11, \"video-params/aspect\"] }\n"
-                      "{ \"command\": [\"observe_property\", 12, \"container-fps\"] }\n"
-                      "{ \"command\": [\"observe_property\", 13, \"video-format\"] }\n"
-                      "{ \"command\": [\"observe_property\", 100, \"time-pos\"] }\n"
-                     );
-		#endif
+	} else {
+		socket->write(text.toUtf8() +"\n");
+		socket->flush();
 	}
-	socket->write(text.toUtf8() +"\n");
-	socket->flush();
 }
-
-void MPVProcess::socketReadyRead() {
-	#ifdef IPC_STATUS
-	//qDebug("MPVProcess::socketReadyRead");
-	static double last_sec = -1;
-	static int dwidth = 0;
-	static int dheight = 0;
-
-	while (socket->canReadLine()) {
-		QString s = socket->readLine();
-		if (s.indexOf("time-pos") == -1) {
-			qDebug() << "MPVProcess::socketReadyRead:" << s;
-		}
-		if (rx_notification.indexIn(s) > -1) {
-			//qDebug() << "MPVProcess::socketReadyRead:" << rx_notification;
-			QString name = rx_notification.cap(1);
-			QString data = rx_notification.cap(2);
-			if (name != "time-pos") {
-				qDebug() << "MPVProcess::socketReadyRead:" << name << data;
-			}
-			if (name == "pause" && data == "true") emit receivedPause();
-			else
-			if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
-			//else
-			//if (name == "core-idle" && data == "true") emit receivedBuffering();
-			else
-			if (name == "video-bitrate") {
-				int video_bitrate = data.toInt();
-				md.video_bitrate = video_bitrate;
-				emit receivedVideoBitrate(video_bitrate);
-			}
-			else
-			if (name == "audio-bitrate") {
-				int audio_bitrate = data.toInt();
-				md.audio_bitrate = audio_bitrate;
-				emit receivedAudioBitrate(audio_bitrate);
-			}
-			else
-			if (name == "time-pos") {
-				double sec = data.toDouble();
-				if (!notified_mplayer_is_running) {
-					emit receivedStartingTime(sec);
-					emit mplayerFullyLoaded();
-					emit receivedCurrentFrame(0); // Set the frame counter to 0
-					notified_mplayer_is_running = true;
-				}
-				if (last_sec != sec) {
-					last_sec = sec;
-					emit receivedCurrentSec(sec);
-				}
-			}
-			else
-			if (name == "duration") {
-				md.duration = data.toDouble();
-			}
-			else
-			if (name == "width") {
-				md.video_width = data.toInt();
-			}
-			else
-			if (name == "height") {
-				md.video_height = data.toInt();
-			}
-			else
-			if (name == "dwidth" || name == "dheight") {
-				if (name == "dwidth") dwidth = data.toInt(); else dheight = data.toInt();
-				if (dwidth != 0 && dheight != 0) emit receivedWindowResolution( dwidth, dheight );
-			}
-			else
-			if (name == "video-params/aspect") {
-				md.video_aspect = data.toDouble();
-			}
-			else
-			if (name == "container-fps") {
-				md.video_fps = data;
-			}
-			else
-			if (name == "video-format") {
-				md.video_format = data.replace("\"", "");
-				md.video_codec = md.video_format;
-			}
-		}
-	}
-	#endif
-}
-#endif
 
 #include "mpvoptions.cpp"
 #include "moc_mpvprocess.cpp"

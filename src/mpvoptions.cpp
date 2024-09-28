@@ -64,6 +64,7 @@ void MPVProcess::initializeOptionVars() {
 }
 
 void MPVProcess::setMedia(const QString & media, bool is_playlist) {
+#ifndef IPC_READ
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
 			"INFO_VIDEO_WIDTH=${=width}\nINFO_VIDEO_HEIGHT=${=height}\n"
@@ -106,13 +107,16 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 
 			"INFO_MEDIA_TITLE=${=media-title:}\n"
 			"INFO_STREAM_PATH=${stream-path}\n";
+#endif
 
 #ifndef Q_OS_WIN
 	arg << "--audio-client-name=SMPlayer";
 #endif
 
-#ifdef CUSTOM_STATUS
+#ifndef IPC_READ
+	#ifdef CUSTOM_STATUS
 	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=duration:${=length:0}} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle} VB: ${=video-bitrate:0} AB: ${=audio-bitrate:0}";
+	#endif
 #endif
 
 	if (is_playlist) {
