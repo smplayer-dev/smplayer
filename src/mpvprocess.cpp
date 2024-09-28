@@ -163,12 +163,12 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
-	rx_notification = QRegExp("property-change.*\"name\":\"([a-z-]+)\".*\"data\":([a-z0-9-.]+)");
+	rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.]+)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
 	if (socket->state() != QLocalSocket::ConnectedState) {
-		sendCommand("Hola");
+		sendCommand("print_text DURATION=${=duration}");
 	}
 }
 
@@ -299,6 +299,10 @@ void MPVProcess::sendCommand(QString text) {
                       "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
                       "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
                       "{ \"command\": [\"observe_property\", 6, \"time-pos\"] }\n"
+                      "{ \"command\": [\"observe_property\", 7, \"duration\"] }\n"
+                      "{ \"command\": [\"observe_property\", 8, \"width\"] }\n"
+                      "{ \"command\": [\"observe_property\", 9, \"height\"] }\n"
+                      "{ \"command\": [\"observe_property\", 10, \"video-params/aspect\"] }\n"
                      );
 		#endif
 	}
@@ -353,6 +357,22 @@ void MPVProcess::socketReadyRead() {
 					last_sec = sec;
 					emit receivedCurrentSec(sec);
 				}
+			}
+			else
+			if (name == "duration") {
+				md.duration = data.toDouble();
+			}
+			else
+			if (name == "width") {
+				md.video_width = data.toInt();
+			}
+			else
+			if (name == "height") {
+				md.video_height = data.toInt();
+			}
+			else
+			if (name == "video-params/aspect") {
+				md.video_aspect = data.toDouble();
 			}
 		}
 	}
