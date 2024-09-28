@@ -303,6 +303,8 @@ void MPVProcess::sendCommand(QString text) {
                       "{ \"command\": [\"observe_property\", 8, \"width\"] }\n"
                       "{ \"command\": [\"observe_property\", 9, \"height\"] }\n"
                       "{ \"command\": [\"observe_property\", 10, \"video-params/aspect\"] }\n"
+                      "{ \"command\": [\"observe_property\", 11, \"container-fps\"] }\n"
+                      "{ \"command\": [\"observe_property\", 12, \"video-format\"] }\n"
                      );
 		#endif
 	}
@@ -373,6 +375,15 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "video-params/aspect") {
 				md.video_aspect = data.toDouble();
+			}
+			else
+			if (name == "container-fps") {
+				md.video_fps = data;
+			}
+			else
+			if (name == "video-format") {
+				md.video_format = data;
+				md.video_codec = data;
 			}
 		}
 	}
