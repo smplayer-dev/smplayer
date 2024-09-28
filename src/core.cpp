@@ -335,6 +335,8 @@ QString Core::stateToString() {
 	else
 	if (state()==Paused) return "Paused";
 	else
+	if (state()==Buffering) return "Buffering";
+	else
 	return "Unknown";
 }
 

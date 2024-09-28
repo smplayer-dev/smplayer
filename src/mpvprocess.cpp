@@ -168,7 +168,7 @@ void MPVProcess::initializeRX() {
 
 void MPVProcess::parseLine(QByteArray ba) {
 	if (socket->state() != QLocalSocket::ConnectedState) {
-		sendCommand("print_text DURATION=${=duration}");
+		sendCommand("{ \"command\": [\"get_property\", \"duration\"], \"request_id\": 100 }");
 	}
 }
 
@@ -298,13 +298,15 @@ void MPVProcess::sendCommand(QString text) {
                       "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n"
                       "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
                       "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
-                      "{ \"command\": [\"observe_property\", 6, \"time-pos\"] }\n"
-                      "{ \"command\": [\"observe_property\", 7, \"duration\"] }\n"
-                      "{ \"command\": [\"observe_property\", 8, \"width\"] }\n"
-                      "{ \"command\": [\"observe_property\", 9, \"height\"] }\n"
-                      "{ \"command\": [\"observe_property\", 10, \"video-params/aspect\"] }\n"
-                      "{ \"command\": [\"observe_property\", 11, \"container-fps\"] }\n"
-                      "{ \"command\": [\"observe_property\", 12, \"video-format\"] }\n"
+                      "{ \"command\": [\"observe_property\", 6, \"duration\"] }\n"
+                      "{ \"command\": [\"observe_property\", 7, \"width\"] }\n"
+                      "{ \"command\": [\"observe_property\", 8, \"dheight\"] }\n"
+                      "{ \"command\": [\"observe_property\", 9, \"dwidth\"] }\n"
+                      "{ \"command\": [\"observe_property\", 10, \"height\"] }\n"
+                      "{ \"command\": [\"observe_property\", 11, \"video-params/aspect\"] }\n"
+                      "{ \"command\": [\"observe_property\", 12, \"container-fps\"] }\n"
+                      "{ \"command\": [\"observe_property\", 13, \"video-format\"] }\n"
+                      "{ \"command\": [\"observe_property\", 100, \"time-pos\"] }\n"
                      );
 		#endif
 	}
@@ -316,6 +318,8 @@ void MPVProcess::socketReadyRead() {
 	#ifdef IPC_STATUS
 	//qDebug("MPVProcess::socketReadyRead");
 	static double last_sec = -1;
+	static int dwidth = 0;
+	static int dheight = 0;
 
 	while (socket->canReadLine()) {
 		QString s = socket->readLine();
@@ -332,8 +336,8 @@ void MPVProcess::socketReadyRead() {
 			if (name == "pause" && data == "true") emit receivedPause();
 			else
 			if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
-			else
-			if (name == "core-idle" && data == "true") emit receivedBuffering();
+			//else
+			//if (name == "core-idle" && data == "true") emit receivedBuffering();
 			else
 			if (name == "video-bitrate") {
 				int video_bitrate = data.toInt();
@@ -371,6 +375,11 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "height") {
 				md.video_height = data.toInt();
+			}
+			else
+			if (name == "dwidth" || name == "dheight") {
+				if (name == "dwidth") dwidth = data.toInt(); else dheight = data.toInt();
+				if (dwidth != 0 && dheight != 0) emit receivedWindowResolution( dwidth, dheight );
 			}
 			else
 			if (name == "video-params/aspect") {
