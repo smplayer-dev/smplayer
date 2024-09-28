@@ -163,7 +163,7 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
-	rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.]+)");
+	rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.\"]+)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -391,8 +391,8 @@ void MPVProcess::socketReadyRead() {
 			}
 			else
 			if (name == "video-format") {
-				md.video_format = data;
-				md.video_codec = data;
+				md.video_format = data.replace("\"", "");
+				md.video_codec = md.video_format;
 			}
 		}
 	}
