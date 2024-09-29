@@ -170,7 +170,8 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
-	rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.\"]+)");
+	//rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.\"]+)");
+	rx_notification = QRegExp("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -190,9 +191,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 		QStringList l = QStringList() << "pause" << "paused-for-cache" << "core-idle"
                                       << "video-bitrate" << "audio-bitrate"
-                                      << "duration"
+                                      << "duration" << "current-vo" << "current-ao"
                                       << "width" << "height" << "dwidth" << "dheight"
                                       << "video-params/aspect"
+                                      << "track-list/0/demux-rotation"
                                       << "container-fps" << "video-format" << "time-pos";
 		QString s;
 		for (int n=0; n < l.count(); n++) {
@@ -218,16 +220,17 @@ void MPVProcess::socketReadyRead() {
 	static double last_sec = -1;
 
 	while (socket->canReadLine()) {
-		QString s = socket->readLine();
+		QString s = socket->readLine().replace("{", "").replace("}", "").trimmed();
 		//if (s.indexOf("time-pos") == -1) {
-		//	qDebug() << "MPVProcess::socketReadyRead:" << s;
+		//	qDebug().noquote() << "MPVProcess::socketReadyRead:" << s;
 		//}
 		if (rx_notification.indexIn(s) > -1) {
 			//qDebug() << "MPVProcess::socketReadyRead:" << rx_notification;
-			QString name = rx_notification.cap(1);
-			QString data = rx_notification.cap(2);
+			QString event = rx_notification.cap(1);
+			QString name = rx_notification.cap(2);
+			QString data = rx_notification.cap(3).replace("\"", "");
 			if (name != "time-pos") {
-				qDebug() << "MPVProcess::socketReadyRead:" << name << data;
+				qDebug() << "MPVProcess::socketReadyRead:" << event << name << data;
 			}
 			if (name == "pause" && data == "true") emit receivedPause();
 			else
@@ -288,11 +291,23 @@ void MPVProcess::socketReadyRead() {
 			}
 			else
 			if (name == "video-format") {
-				md.video_format = data.replace("\"", "");
+				md.video_format = data;
 				md.video_codec = md.video_format;
 			}
+			else
+			if (name == "current-vo") {
+				emit receivedVO( data );
+			}
+			else
+			if (name == "current-ao") {
+				emit receivedAO( data );
+			}
+			else
+			if (name == "track-list/0/demux-rotation") {
+				emit receivedDemuxRotation(data.toInt());
+			}
 			else {
-				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << name << data;
+				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << event << name << data;
 			}
 		}
 	}
