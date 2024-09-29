@@ -195,7 +195,8 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "width" << "height" << "dwidth" << "dheight"
                                       << "video-params/aspect"
                                       << "track-list/0/demux-rotation"
-                                      << "container-fps" << "video-format" << "time-pos";
+                                      << "container-fps" << "video-format" << "time-pos"
+                                      << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count";
 		QString s;
 		for (int n=0; n < l.count(); n++) {
 			s += QString("{ \"command\": [\"observe_property\", %1, \"%2\"] }\n").arg(n+1).arg(l[n]);
@@ -293,6 +294,18 @@ void MPVProcess::socketReadyRead() {
 			if (name == "video-format") {
 				md.video_format = data;
 				md.video_codec = md.video_format;
+			}
+			else
+			if (name == "audio-codec-name") {
+				md.audio_codec = data;
+			}
+			else
+			if (name == "audio-params/samplerate") {
+				md.audio_rate = data.toInt();
+			}
+			else
+			if (name == "audio-params/channel-count") {
+				md.audio_nch = data.toInt();
 			}
 			else
 			if (name == "current-vo") {
