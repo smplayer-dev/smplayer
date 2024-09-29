@@ -188,21 +188,17 @@ void MPVProcess::parseLine(QByteArray ba) {
 		socket->waitForConnected();
 		qDebug() << "MPVProcess::parseLine: state:" << socket->state();
 
-		socket->write("{ \"command\": [\"observe_property\", 1, \"pause\"] }\n"
-                      "{ \"command\": [\"observe_property\", 2, \"paused-for-cache\"] }\n"
-                      "{ \"command\": [\"observe_property\", 3, \"core-idle\"] }\n"
-                      "{ \"command\": [\"observe_property\", 4, \"video-bitrate\"] }\n"
-                      "{ \"command\": [\"observe_property\", 5, \"audio-bitrate\"] }\n"
-                      "{ \"command\": [\"observe_property\", 6, \"duration\"] }\n"
-                      "{ \"command\": [\"observe_property\", 7, \"width\"] }\n"
-                      "{ \"command\": [\"observe_property\", 8, \"dheight\"] }\n"
-                      "{ \"command\": [\"observe_property\", 9, \"dwidth\"] }\n"
-                      "{ \"command\": [\"observe_property\", 10, \"height\"] }\n"
-                      "{ \"command\": [\"observe_property\", 11, \"video-params/aspect\"] }\n"
-                      "{ \"command\": [\"observe_property\", 12, \"container-fps\"] }\n"
-                      "{ \"command\": [\"observe_property\", 13, \"video-format\"] }\n"
-                      "{ \"command\": [\"observe_property\", 100, \"time-pos\"] }\n"
-                     );
+		QStringList l = QStringList() << "pause" << "paused-for-cache" << "core-idle"
+                                      << "video-bitrate" << "audio-bitrate"
+                                      << "duration"
+                                      << "width" << "height" << "dwidth" << "dheight"
+                                      << "video-params/aspect"
+                                      << "container-fps" << "video-format" << "time-pos";
+		QString s;
+		for (int n=0; n < l.count(); n++) {
+			s += QString("{ \"command\": [\"observe_property\", %1, \"%2\"] }\n").arg(n+1).arg(l[n]);
+		}
+		socket->write(s.toLatin1());
 	}
 
 #if COLOR_OUTPUT_SUPPORT
