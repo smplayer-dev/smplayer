@@ -268,6 +268,10 @@ private:
 	int dvd_current_title;
 	int br_current_title;
 
+	int dwidth;
+	int dheight;
+	int duration;
+
 	#ifndef USE_FILTER_LABELS
 	QString previous_eq;
 	AudioEqualizerList previous_eq_list;

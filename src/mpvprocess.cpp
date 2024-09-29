@@ -73,6 +73,9 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
+	, dwidth(0)
+	, dheight(0)
+	, duration(0)
 {
 	player_id = PlayerID::MPV;
 
@@ -157,6 +160,10 @@ bool MPVProcess::start() {
 	dvd_current_title = -1;
 	br_current_title = -1;
 
+	dwidth = 0;
+	dheight = 0;
+	duration = 0;
+
 	MyProcess::start();
 
 	return waitForStarted();
@@ -213,14 +220,12 @@ void MPVProcess::parseLine(QByteArray ba) {
 void MPVProcess::socketReadyRead() {
 	//qDebug("MPVProcess::socketReadyRead");
 	static double last_sec = -1;
-	static int dwidth = 0;
-	static int dheight = 0;
 
 	while (socket->canReadLine()) {
 		QString s = socket->readLine();
-		if (s.indexOf("time-pos") == -1) {
-			qDebug() << "MPVProcess::socketReadyRead:" << s;
-		}
+		//if (s.indexOf("time-pos") == -1) {
+		//	qDebug() << "MPVProcess::socketReadyRead:" << s;
+		//}
 		if (rx_notification.indexIn(s) > -1) {
 			//qDebug() << "MPVProcess::socketReadyRead:" << rx_notification;
 			QString name = rx_notification.cap(1);
@@ -248,7 +253,7 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "time-pos") {
 				double sec = data.toDouble();
-				if (!notified_mplayer_is_running) {
+				if (!notified_mplayer_is_running && duration > 0) {
 					emit receivedStartingTime(sec);
 					emit mplayerFullyLoaded();
 					emit receivedCurrentFrame(0); // Set the frame counter to 0
@@ -262,6 +267,7 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "duration") {
 				md.duration = data.toDouble();
+				duration = (int) md.duration;
 			}
 			else
 			if (name == "width") {
@@ -288,6 +294,9 @@ void MPVProcess::socketReadyRead() {
 			if (name == "video-format") {
 				md.video_format = data.replace("\"", "");
 				md.video_codec = md.video_format;
+			}
+			else {
+				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << name << data;
 			}
 		}
 	}
