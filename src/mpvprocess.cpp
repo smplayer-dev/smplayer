@@ -76,6 +76,7 @@ MPVProcess::MPVProcess(QObject * parent)
 	, dwidth(0)
 	, dheight(0)
 	, duration(0)
+	, idle(true)
 {
 	player_id = PlayerID::MPV;
 
@@ -163,6 +164,7 @@ bool MPVProcess::start() {
 	dwidth = 0;
 	dheight = 0;
 	duration = 0;
+	idle = true;
 
 	MyProcess::start();
 
@@ -191,12 +193,14 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 		QStringList l = QStringList() << "pause" << "paused-for-cache" << "core-idle"
                                       << "video-bitrate" << "audio-bitrate"
-                                      << "duration" << "current-vo" << "current-ao"
+                                      << "current-vo" << "current-ao"
                                       << "width" << "height" << "dwidth" << "dheight"
                                       << "video-params/aspect"
                                       << "track-list/0/demux-rotation"
-                                      << "container-fps" << "video-format" << "time-pos"
-                                      << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count";
+                                      << "container-fps" << "video-format"
+                                      << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
+                                      << "current-demuxer"
+                                      << "duration" << "time-pos";
 		QString s;
 		for (int n=0; n < l.count(); n++) {
 			s += QString("{ \"command\": [\"observe_property\", %1, \"%2\"] }\n").arg(n+1).arg(l[n]);
@@ -237,7 +241,10 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "paused-for-cache" && data == "true") emit receivedBuffering();
 			//else
-			//if (name == "core-idle" && data == "true") emit receivedBuffering();
+			if (name == "core-idle") {
+				idle = data == "true";
+				//emit receivedBuffering();
+			}
 			else
 			if (name == "video-bitrate") {
 				int video_bitrate = data.toInt();
@@ -253,7 +260,7 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "time-pos") {
 				double sec = data.toDouble();
-				if (!notified_mplayer_is_running && duration > 0) {
+				if (!notified_mplayer_is_running && duration > 0 && !idle) {
 					emit receivedStartingTime(sec);
 					emit mplayerFullyLoaded();
 					emit receivedCurrentFrame(0); // Set the frame counter to 0
@@ -292,12 +299,11 @@ void MPVProcess::socketReadyRead() {
 			}
 			else
 			if (name == "video-format") {
-				md.video_format = data;
-				md.video_codec = md.video_format;
+				md.video_codec = md.video_format = data;
 			}
 			else
 			if (name == "audio-codec-name") {
-				md.audio_codec = data;
+				md.audio_codec = md.audio_format = data;
 			}
 			else
 			if (name == "audio-params/samplerate") {
@@ -314,6 +320,10 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "current-ao") {
 				emit receivedAO( data );
+			}
+			else
+			if (name == "current-demuxer") {
+				md.demuxer = data;
 			}
 			else
 			if (name == "track-list/0/demux-rotation") {

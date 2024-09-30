@@ -271,6 +271,7 @@ private:
 	int dwidth;
 	int dheight;
 	int duration;
+	bool idle;
 
 	#ifndef USE_FILTER_LABELS
 	QString previous_eq;
