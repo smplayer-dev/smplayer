@@ -200,6 +200,12 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "container-fps" << "video-format"
                                       << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
                                       << "current-demuxer"
+                                      << "seekable" << "disc-titles" << "chapters"
+                                      << "track-list/count"
+                                      << "metadata/by-key/title" << "metadata/by-key/artist"
+                                      << "metadata/by-key/album" << "metadata/by-key/genre"
+                                      << "metadata/by-key/date" << "metadata/by-key/track"
+                                      << "metadata/by-key/copyright"
                                       << "duration" << "time-pos";
 		QString s;
 		for (int n=0; n < l.count(); n++) {
@@ -328,6 +334,48 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "track-list/0/demux-rotation") {
 				emit receivedDemuxRotation(data.toInt());
+			}
+			else
+			if (name == "disc-titles") {
+				int n_titles = data.toInt();
+				for (int ID = 0; ID < n_titles; ID++) {
+					md.titles.addName(ID, QString::number(ID+1));
+				}
+			}
+			else
+			if (name == "chapters") {
+				md.n_chapters = data.toInt();
+				for (int n = 0; n < md.n_chapters; n++) {
+					sendCommand(QString("print_text INFO_CHAPTER_%1_NAME=${chapter-list/%1/title}").arg(n));
+				}
+			}
+			else
+			if (name == "metadata/by-key/title") {
+				md.clip_name = data;
+			}
+			else
+			if (name == "metadata/by-key/artist") {
+				md.clip_artist = data;
+			}
+			else
+			if (name == "metadata/by-key/album") {
+				md.clip_album = data;
+			}
+			else
+			if (name == "metadata/by-key/genre") {
+				md.clip_genre = data;
+			}
+			else
+			if (name == "metadata/by-key/date") {
+				md.clip_date = data;
+			}
+			else
+			if (name == "metadata/by-key/track") {
+				md.clip_track = data;
+			}
+			else
+			if (name == "metadata/by-key/copyright") {
+				md.clip_copyright = data;
 			}
 			else {
 				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << event << name << data;
