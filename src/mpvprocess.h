@@ -300,6 +300,7 @@ private:
 	bool use_osd_in_commands;
 
 	// Regular expressions
+	QRegExp rx_chaptername;
 	QRegExp rx_trackinfo;
 	QRegExp rx_notification;
 

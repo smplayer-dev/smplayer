@@ -172,6 +172,7 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
+	rx_chaptername.setPattern("^INFO_CHAPTER_(\\d+)_NAME=(.*)");
 	rx_trackinfo.setPattern("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 }
@@ -254,6 +255,19 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 	}
 #endif
+	if (rx_chaptername.indexIn(line) > -1) {
+		int ID = rx_chaptername.cap(1).toInt();
+		QString title = rx_chaptername.cap(2);
+		if (title.isEmpty()) title = QString::number(ID + 1);
+		#if NOTIFY_CHAPTER_CHANGES
+		chapters.addName(ID, title);
+		chapter_info_changed = true;
+		#else
+		md.chapters.addName(ID, title);
+		#endif
+		qDebug() << "MPVProcess::parseLine: chapter id:" << ID << "title:" << title;
+		//md.chapters.list();
+	}
 }
 
 void MPVProcess::socketReadyRead() {
