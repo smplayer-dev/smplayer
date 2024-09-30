@@ -172,8 +172,8 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
-	//rx_notification = QRegExp("property-change.*\"name\":\"([a-z-/]+)\".*\"data\":([a-z0-9-.\"]+)");
-	rx_notification = QRegExp("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
+	rx_trackinfo.setPattern("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
+	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -225,6 +225,35 @@ void MPVProcess::parseLine(QByteArray ba) {
 	#endif
 #endif
 	emit lineAvailable(line);
+
+#if NOTIFY_VIDEO_CHANGES || NOTIFY_AUDIO_CHANGES || NOTIFY_SUB_CHANGES
+	if (rx_trackinfo.indexIn(line) > -1) {
+		int ID = rx_trackinfo.cap(3).toInt();
+		QString type = rx_trackinfo.cap(2);
+		QString name = rx_trackinfo.cap(5);
+		QString lang = rx_trackinfo.cap(4);
+		QString selected = rx_trackinfo.cap(6);
+		qDebug() << "MPVProcess::parseLine: ID:" << ID << "type:" << type << "name:" << name << "lang:" << lang << "selected:" << selected;
+
+		if (type == "video") {
+			#if NOTIFY_VIDEO_CHANGES
+			updateVideoTrack(ID, name, lang, (selected == "yes"));
+			#endif
+		}
+		else
+		if (type == "audio") {
+			#if NOTIFY_AUDIO_CHANGES
+			updateAudioTrack(ID, name, lang, (selected == "yes"));
+			#endif
+		}
+		else
+		if (type == "sub") {
+			#if NOTIFY_SUB_CHANGES
+			updateSubtitleTrack(ID, name, lang, (selected == "yes"));
+			#endif
+		}
+	}
+#endif
 }
 
 void MPVProcess::socketReadyRead() {
@@ -268,6 +297,10 @@ void MPVProcess::socketReadyRead() {
 			if (name == "time-pos") {
 				double sec = data.toDouble();
 				if (!notified_mplayer_is_running && duration > 0 && !idle) {
+					if (md.video_width == 0 || md.video_height == 0) {
+						md.novideo = true;
+						emit receivedNoVideo();
+					}
 					emit receivedStartingTime(sec);
 					emit mplayerFullyLoaded();
 					emit receivedCurrentFrame(0); // Set the frame counter to 0
@@ -276,6 +309,42 @@ void MPVProcess::socketReadyRead() {
 				if (last_sec != sec) {
 					last_sec = sec;
 					emit receivedCurrentSec(sec);
+				}
+				if (!idle) {
+					#if NOTIFY_SUB_CHANGES
+					if (subtitle_info_changed) {
+						qDebug("MPVProcess::parseLine: subtitle_info_changed");
+						subtitle_info_changed = false;
+						subtitle_info_received = false;
+						emit subtitleInfoChanged(subs, selected_subtitle);
+					}
+					if (subtitle_info_received) {
+						qDebug("MPVProcess::parseLine: subtitle_info_received");
+						subtitle_info_received = false;
+						emit subtitleInfoReceivedAgain(subs);
+					}
+					#endif
+					#if NOTIFY_AUDIO_CHANGES
+					if (audio_info_changed) {
+						qDebug("MPVProcess::parseLine: audio_info_changed");
+						audio_info_changed = false;
+						emit audioInfoChanged(audios, selected_audio);
+					}
+					#endif
+					#if NOTIFY_VIDEO_CHANGES
+					if (video_info_changed) {
+						qDebug("MPVProcess::parseLine: video_info_changed");
+						video_info_changed = false;
+						emit videoInfoChanged(videos, selected_video);
+					}
+					#endif
+					#if NOTIFY_CHAPTER_CHANGES
+					if (chapter_info_changed) {
+						qDebug("MPVProcess::parseLine: chapter_info_changed");
+						chapter_info_changed = false;
+						emit chaptersChanged(chapters);
+					}
+					#endif
 				}
 			}
 			else
