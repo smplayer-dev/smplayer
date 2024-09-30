@@ -206,6 +206,7 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "metadata/by-key/album" << "metadata/by-key/genre"
                                       << "metadata/by-key/date" << "metadata/by-key/track"
                                       << "metadata/by-key/copyright"
+                                      << "media-title" << "stream-path"
                                       << "duration" << "time-pos";
 		QString s;
 		for (int n=0; n < l.count(); n++) {
@@ -376,6 +377,31 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "metadata/by-key/copyright") {
 				md.clip_copyright = data;
+			}
+			else
+			if (name == "media-title") {
+				md.clip_name = data;
+			}
+			else
+			if (name == "stream-path") {
+				QRegExp rx("edl://%\\d+%(.*)");
+				if (rx.indexIn(data) > -1) {
+					md.stream_path = rx.cap(1);
+				} else {
+					md.stream_path = data;
+				}
+			}
+			else
+			if (name == "track-list/count") {
+				int tracks = data.toInt();
+				for (int n = 0; n < tracks; n++) {
+					sendCommand(QString("print_text \"INFO_TRACK_%1: "
+						"${track-list/%1/type} "
+						"${track-list/%1/id} "
+						"'${track-list/%1/lang:}' "
+						"'${track-list/%1/title:}' "
+						"${track-list/%1/selected}\"").arg(n));
+				}
 			}
 			else {
 				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << event << name << data;
