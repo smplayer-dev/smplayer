@@ -290,7 +290,7 @@ void MPVProcess::socketReadyRead() {
 			QString event = rx_notification.cap(1);
 			QString name = rx_notification.cap(2);
 			QString data = rx_notification.cap(3).replace("\"", "");
-			if (name != "time-pos") {
+			if (name != "time-pos" && name.indexOf("bitrate") == -1) {
 				qDebug() << "MPVProcess::socketReadyRead:" << event << name << data;
 			}
 			if (name == "pause" && data == "true") emit receivedPause();
@@ -415,7 +415,6 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "current-vo") {
 				emit receivedVO( data );
-
 			}
 			else
 			if (name == "current-ao") {
