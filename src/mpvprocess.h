@@ -268,8 +268,8 @@ private:
 	int dvd_current_title;
 	int br_current_title;
 
-	int dwidth;
-	int dheight;
+	//int dwidth;
+	//int dheight;
 	int duration;
 	bool idle;
 
@@ -302,6 +302,7 @@ private:
 	// Regular expressions
 	QRegExp rx_chaptername;
 	QRegExp rx_trackinfo;
+	QRegExp rx_dsize;
 	QRegExp rx_notification;
 
 	void initializeRX();

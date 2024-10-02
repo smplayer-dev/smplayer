@@ -73,8 +73,8 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
-	, dwidth(0)
-	, dheight(0)
+	//, dwidth(0)
+	//, dheight(0)
 	, duration(0)
 	, idle(true)
 {
@@ -161,8 +161,8 @@ bool MPVProcess::start() {
 	dvd_current_title = -1;
 	br_current_title = -1;
 
-	dwidth = 0;
-	dheight = 0;
+	//dwidth = 0;
+	//dheight = 0;
 	duration = 0;
 	idle = true;
 
@@ -174,6 +174,7 @@ bool MPVProcess::start() {
 void MPVProcess::initializeRX() {
 	rx_chaptername.setPattern("^INFO_CHAPTER_(\\d+)_NAME=(.*)");
 	rx_trackinfo.setPattern("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
+	rx_dsize.setPattern("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 }
 
@@ -195,7 +196,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		QStringList l = QStringList() << "pause" << "paused-for-cache" << "core-idle"
                                       << "video-bitrate" << "audio-bitrate"
                                       << "current-vo" << "current-ao"
-                                      << "width" << "height" << "dwidth" << "dheight"
+                                      << "width" << "height" //<< "dwidth" << "dheight"
                                       << "video-params/aspect"
                                       << "track-list/0/demux-rotation"
                                       << "container-fps" << "video-format"
@@ -268,6 +269,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 		qDebug() << "MPVProcess::parseLine: chapter id:" << ID << "title:" << title;
 		//md.chapters.list();
 	}
+	if (rx_dsize.indexIn(line) > -1) {
+		int w = rx_dsize.cap(1).toInt();
+		int h = rx_dsize.cap(2).toInt();
+		emit receivedWindowResolution( w, h );
+	}
 }
 
 void MPVProcess::socketReadyRead() {
@@ -319,6 +325,7 @@ void MPVProcess::socketReadyRead() {
 					emit mplayerFullyLoaded();
 					emit receivedCurrentFrame(0); // Set the frame counter to 0
 					notified_mplayer_is_running = true;
+					sendCommand("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
 				}
 				if (last_sec != sec) {
 					last_sec = sec;
@@ -374,11 +381,13 @@ void MPVProcess::socketReadyRead() {
 			if (name == "height") {
 				md.video_height = data.toInt();
 			}
+			/*
 			else
 			if (name == "dwidth" || name == "dheight") {
 				if (name == "dwidth") dwidth = data.toInt(); else dheight = data.toInt();
 				if (dwidth != 0 && dheight != 0) emit receivedWindowResolution( dwidth, dheight );
 			}
+			*/
 			else
 			if (name == "video-params/aspect") {
 				md.video_aspect = data.toDouble();
@@ -406,6 +415,7 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "current-vo") {
 				emit receivedVO( data );
+
 			}
 			else
 			if (name == "current-ao") {
