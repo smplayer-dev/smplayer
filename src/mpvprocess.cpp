@@ -208,6 +208,7 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "metadata/by-key/album" << "metadata/by-key/genre"
                                       << "metadata/by-key/date" << "metadata/by-key/track"
                                       << "metadata/by-key/copyright"
+                                      << "mpv-version"
                                       << "media-title" << "stream-path"
                                       << "duration" << "time-pos";
 		QString s;
@@ -334,34 +335,34 @@ void MPVProcess::socketReadyRead() {
 				if (!idle) {
 					#if NOTIFY_SUB_CHANGES
 					if (subtitle_info_changed) {
-						qDebug("MPVProcess::parseLine: subtitle_info_changed");
+						qDebug("MPVProcess::socketReadyRead: subtitle_info_changed");
 						subtitle_info_changed = false;
 						subtitle_info_received = false;
 						emit subtitleInfoChanged(subs, selected_subtitle);
 					}
 					if (subtitle_info_received) {
-						qDebug("MPVProcess::parseLine: subtitle_info_received");
+						qDebug("MPVProcess::socketReadyRead: subtitle_info_received");
 						subtitle_info_received = false;
 						emit subtitleInfoReceivedAgain(subs);
 					}
 					#endif
 					#if NOTIFY_AUDIO_CHANGES
 					if (audio_info_changed) {
-						qDebug("MPVProcess::parseLine: audio_info_changed");
+						qDebug("MPVProcess::socketReadyRead: audio_info_changed");
 						audio_info_changed = false;
 						emit audioInfoChanged(audios, selected_audio);
 					}
 					#endif
 					#if NOTIFY_VIDEO_CHANGES
 					if (video_info_changed) {
-						qDebug("MPVProcess::parseLine: video_info_changed");
+						qDebug("MPVProcess::socketReadyRead: video_info_changed");
 						video_info_changed = false;
 						emit videoInfoChanged(videos, selected_video);
 					}
 					#endif
 					#if NOTIFY_CHAPTER_CHANGES
 					if (chapter_info_changed) {
-						qDebug("MPVProcess::parseLine: chapter_info_changed");
+						qDebug("MPVProcess::socketReadyRead: chapter_info_changed");
 						chapter_info_changed = false;
 						emit chaptersChanged(chapters);
 					}
@@ -494,6 +495,12 @@ void MPVProcess::socketReadyRead() {
 						"'${track-list/%1/title:}' "
 						"${track-list/%1/selected}\"").arg(n));
 				}
+			}
+			else
+			if (name == "mpv-version") {
+				QString mpv_version = data;
+				qDebug() << "MPVProcess::socketReadyRead: mpv version:" << mpv_version;
+				MplayerVersion::mplayerVersion("mpv " + mpv_version + " (C)");
 			}
 			else {
 				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << event << name << data;
