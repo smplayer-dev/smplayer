@@ -172,9 +172,9 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
-	rx_chaptername.setPattern("^INFO_CHAPTER_(\\d+)_NAME=(.*)");
-	rx_trackinfo.setPattern("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
-	rx_dsize.setPattern("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
+	rx_chaptername.setPattern("INFO_CHAPTER_(\\d+)_NAME=(.*)");
+	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
+	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 }
 
