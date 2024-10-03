@@ -4365,9 +4365,7 @@ void BaseGui::configureDiscDevices() {
 void BaseGui::openVCD() {
 	qDebug("BaseGui::openVCD");
 
-	if ( (pref->dvd_device.isEmpty()) || 
-         (pref->cdrom_device.isEmpty()) )
-	{
+	if (pref->cdrom_device.isEmpty()) {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
@@ -4379,9 +4377,7 @@ void BaseGui::openVCD() {
 void BaseGui::openAudioCD() {
 	qDebug("BaseGui::openAudioCD");
 
-	if ( (pref->dvd_device.isEmpty()) || 
-         (pref->cdrom_device.isEmpty()) )
-	{
+	if (pref->cdrom_device.isEmpty()) {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
@@ -4393,9 +4389,7 @@ void BaseGui::openAudioCD() {
 void BaseGui::openDVD() {
 	qDebug("BaseGui::openDVD");
 
-	if ( (pref->dvd_device.isEmpty()) || 
-         (pref->cdrom_device.isEmpty()) )
-	{
+	if (pref->dvd_device.isEmpty()) {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
@@ -4454,9 +4448,7 @@ void BaseGui::openBluRayFromFolder(QString directory) {
 void BaseGui::openBluRay() {
 	qDebug("BaseGui::openBluRay");
 
-	if ( (pref->dvd_device.isEmpty()) || 
-         (pref->cdrom_device.isEmpty()) || pref->bluray_device.isEmpty())
-	{
+	if (pref->bluray_device.isEmpty()) {
 		configureDiscDevices();
 	} else {
 		core->openBluRay( DiscName::join(DiscName::BLURAY, core->firstBlurayTitle(), pref->bluray_device) );
