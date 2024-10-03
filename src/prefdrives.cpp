@@ -20,6 +20,7 @@
 #include "prefdrives.h"
 #include "images.h"
 #include "preferences.h"
+#include "filedialog.h"
 
 #include <QFile>
 #include <QFileInfoList>
@@ -46,6 +47,10 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
 	setupUi(this);
+
+	cd_button->setIcon(Images::icon("folder_open") );
+	dvd_button->setIcon(Images::icon("folder_open") );
+	br_button->setIcon(Images::icon("folder_open") );
 
 #if !DVDNAV_SUPPORT
 	use_dvdnav_check->hide();
@@ -211,6 +216,24 @@ bool PrefDrives::useDVDNav() {
 void PrefDrives::on_check_drives_button_clicked() {
 	qDebug("PrefDrives::on_check_drives_button_clicked");
 	updateDriveCombos(true);
+}
+
+void PrefDrives::on_cd_button_clicked() {
+	qDebug("PrefDrives::on_cd_button_clicked");
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select CD device"));
+	if (!f.isEmpty()) cdrom_device_combo->setCurrentText(f);
+}
+
+void PrefDrives::on_dvd_button_clicked() {
+	qDebug("PrefDrives::on_dvd_button_clicked");
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select DVD device"));
+	if (!f.isEmpty()) dvd_device_combo->setCurrentText(f);
+}
+
+void PrefDrives::on_br_button_clicked() {
+	qDebug("PrefDrives::on_br_button_clicked");
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select bluray device"));
+	if (!f.isEmpty()) bluray_device_combo->setCurrentText(f);
 }
 
 void PrefDrives::createHelp() {

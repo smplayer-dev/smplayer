@@ -65,6 +65,9 @@ protected:
 
 protected slots:
 	void on_check_drives_button_clicked();
+	void on_cd_button_clicked();
+	void on_dvd_button_clicked();
+	void on_br_button_clicked();
 
 protected:
 	virtual void retranslateStrings();
