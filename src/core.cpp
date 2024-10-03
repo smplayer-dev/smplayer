@@ -761,7 +761,7 @@ void Core::openAudioCD(int title) {
 }
 
 void Core::openDVD(QString dvd_url) {
-	qDebug("Core::openDVD: '%s'", dvd_url.toUtf8().data());
+	qDebug() << "Core::openDVD:" << dvd_url;
 
 	//Checks
 	DiscData disc_data = DiscName::split(dvd_url);
@@ -811,7 +811,7 @@ void Core::openDVD(QString dvd_url) {
  * Opens a BluRay, taking advantage of mplayer's capabilities to do so.
  */
 void Core::openBluRay(QString bluray_url) {
-	qDebug("Core::openBluRay: '%s'", bluray_url.toUtf8().data());
+	qDebug() << "Core::openBluRay:" << bluray_url;
 
 	//Checks
 	DiscData disc_data = DiscName::split(bluray_url);
@@ -824,7 +824,7 @@ void Core::openBluRay(QString bluray_url) {
 	}
 
 	QFileInfo fi(folder);
-	if ( (!fi.exists()) || (!fi.isDir()) ) {
+	if ( (!fi.exists()) /*|| (!fi.isDir())*/ ) {
 		qWarning("Core::openBluRay: folder invalid, not playing bluray");
 		return;
 	}
