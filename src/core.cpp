@@ -1546,6 +1546,7 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 
 	// DVD
+	#if 0
 	QString dvd_folder;
 	int dvd_title = -1;
 	if (mdat.type==TYPE_DVD) {
@@ -1556,6 +1557,7 @@ void Core::startMplayer( QString file, double seek ) {
 		file = disc_data.protocol + "://";
 		if (dvd_title > -1) file += QString::number(dvd_title);
 	}
+	#endif
 
 	// Check URL playlist
 	bool url_is_playlist = false;
@@ -2146,7 +2148,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("mute");
 	}
 
-
+	#if 0
 	if (mdat.type==TYPE_DVD) {
 		if (!dvd_folder.isEmpty()) {
 			#ifdef Q_OS_WIN
@@ -2160,6 +2162,7 @@ void Core::startMplayer( QString file, double seek ) {
 			qWarning("Core::startMplayer: dvd device is empty!");
 		}
 	}
+	#endif
 
 	if ((mdat.type==TYPE_VCD) || (mdat.type==TYPE_AUDIO_CD)) {
 		if (!pref->cdrom_device.isEmpty()) {

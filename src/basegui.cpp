@@ -4397,13 +4397,13 @@ void BaseGui::openDVD() {
 		configureDiscDevices();
 	} else {
 		if (playlist->maybeSave()) {
-#if DVDNAV_SUPPORT
+			#if DVDNAV_SUPPORT
 			int first_title = 0;
 			if (!pref->use_dvdnav) first_title = core->firstDVDTitle();
-			core->openDVD( DiscName::joinDVD(first_title, pref->dvd_device, pref->use_dvdnav) );
-#else
-			core->openDVD( DiscName::joinDVD(core->firstDVDTitle(), pref->dvd_device, false) );
-#endif
+			core->openDVD( DiscName::joinDVD(0 /*first_title*/, pref->dvd_device, pref->use_dvdnav) );
+			#else
+			core->openDVD( DiscName::joinDVD(0 /*core->firstDVDTitle()*/, pref->dvd_device, false) );
+			#endif
 		}
 	}
 }
@@ -4448,7 +4448,7 @@ void BaseGui::openBluRay() {
 	if (pref->bluray_device.isEmpty()) {
 		configureDiscDevices();
 	} else {
-		core->openBluRay( DiscName::join(DiscName::BLURAY, core->firstBlurayTitle(), pref->bluray_device) );
+		core->openBluRay( DiscName::join(DiscName::BLURAY, 0 /*core->firstBlurayTitle()*/, pref->bluray_device) );
 	}
 }
 
