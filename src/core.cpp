@@ -3819,7 +3819,7 @@ void Core::changeCurrentSec(double sec) {
 
 	if (state() != Playing) {
 		setState(Playing);
-		qDebug("Core::changeCurrentSec: mplayer reports that now it's playing");
+		qDebug("Core::changeCurrentSec: player is now playing");
 		//emit mediaStartPlay();
 		//emit stateChanged(state());
 	}
@@ -3888,7 +3888,7 @@ void Core::gotDemuxRotation(int r) {
 
 void Core::changePause() {
 	qDebug("Core::changePause");
-	qDebug("Core::changePause: mplayer reports that it's paused");
+	qDebug("Core::changePause: player is now paused");
 	setState(Paused);
 	//emit stateChanged(state());
 }

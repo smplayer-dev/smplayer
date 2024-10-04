@@ -332,7 +332,9 @@ void MPVProcess::socketReadyRead() {
 					last_sec = sec;
 					emit receivedCurrentSec(sec);
 				}
-				if (!idle) {
+				if (idle) {
+					emit receivedPause();
+				} else {
 					#if NOTIFY_SUB_CHANGES
 					if (subtitle_info_changed) {
 						qDebug("MPVProcess::socketReadyRead: subtitle_info_changed");
