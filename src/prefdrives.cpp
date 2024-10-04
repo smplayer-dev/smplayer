@@ -220,19 +220,19 @@ void PrefDrives::on_check_drives_button_clicked() {
 
 void PrefDrives::on_cd_button_clicked() {
 	qDebug("PrefDrives::on_cd_button_clicked");
-	QString f = MyFileDialog::getOpenFileName(this, tr("Select CD device"));
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select a CD device or an ISO file"));
 	if (!f.isEmpty()) cdrom_device_combo->setCurrentText(f);
 }
 
 void PrefDrives::on_dvd_button_clicked() {
 	qDebug("PrefDrives::on_dvd_button_clicked");
-	QString f = MyFileDialog::getOpenFileName(this, tr("Select DVD device"));
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select a DVD device or an ISO file"));
 	if (!f.isEmpty()) dvd_device_combo->setCurrentText(f);
 }
 
 void PrefDrives::on_br_button_clicked() {
 	qDebug("PrefDrives::on_br_button_clicked");
-	QString f = MyFileDialog::getOpenFileName(this, tr("Select bluray device"));
+	QString f = MyFileDialog::getOpenFileName(this, tr("Select a Blu-ray device or an ISO file"));
 	if (!f.isEmpty()) bluray_device_combo->setCurrentText(f);
 }
 
