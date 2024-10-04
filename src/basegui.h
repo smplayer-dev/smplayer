@@ -123,12 +123,12 @@ public slots:
 	virtual void openVCD();
 	virtual void openAudioCD();
 	virtual void openDVD();
-	virtual void openDVDFromFolder();
-	virtual void openDVDFromFolder(QString directory);
+	//virtual void openDVDFromFolder();
+	//virtual void openDVDFromFolder(QString directory);
 #ifdef BLURAY_SUPPORT
 	void openBluRay();
-	void openBluRayFromFolder();
-	void openBluRayFromFolder(QString directory);
+	//void openBluRayFromFolder();
+	//void openBluRayFromFolder(QString directory);
 #endif
 	virtual void openDirectory();
 	virtual void openDirectory(QString directory);
@@ -460,10 +460,10 @@ protected:
 	MyAction * openVCDAct;
 	MyAction * openAudioCDAct;
 	MyAction * openDVDAct;
-	MyAction * openDVDFolderAct;
+	//MyAction * openDVDFolderAct;
 #ifdef BLURAY_SUPPORT
 	MyAction * openBluRayAct;
-	MyAction * openBluRayFolderAct;
+	//MyAction * openBluRayFolderAct;
 #endif
 	MyAction * openURLAct;
 	MyAction * exitAct;
