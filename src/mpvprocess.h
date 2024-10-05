@@ -90,6 +90,7 @@ public:
 	void setSecondarySubtitle(int ID);
 	void disableSecondarySubtitles();
 	void setSubtitlesVisibility(bool b);
+	void setSecondarySubtitlesVisibility(bool b);
 	void seek(double secs, int mode, bool precise);
 	void mute(bool b);
 	void setPause(bool b);
