@@ -304,6 +304,8 @@ private:
 	QRegExp rx_trackinfo;
 	QRegExp rx_dsize;
 	QRegExp rx_notification;
+	QRegExp rx_dvdtitles;
+	QRegExp rx_brtitles;
 
 	void initializeRX();
 

@@ -113,6 +113,8 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--audio-client-name=SMPlayer";
 #endif
 
+	if (media.toLower().startsWith("dvd:")) arg << "--msg-level=dvdnav=v";
+
 #ifndef IPC_READ
 	#ifdef CUSTOM_STATUS
 	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=duration:${=length:0}} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle} VB: ${=video-bitrate:0} AB: ${=audio-bitrate:0}";

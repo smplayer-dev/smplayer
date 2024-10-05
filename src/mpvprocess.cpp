@@ -176,6 +176,8 @@ void MPVProcess::initializeRX() {
 	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
 	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
+	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
+	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -270,10 +272,26 @@ void MPVProcess::parseLine(QByteArray ba) {
 		qDebug() << "MPVProcess::parseLine: chapter id:" << ID << "title:" << title;
 		//md.chapters.list();
 	}
+	else
 	if (rx_dsize.indexIn(line) > -1) {
 		int w = rx_dsize.cap(1).toInt();
 		int h = rx_dsize.cap(2).toInt();
 		emit receivedWindowResolution( w, h );
+	}
+	else
+	if (rx_dvdtitles.indexIn(line) > -1) {
+		int ID = rx_dvdtitles.cap(1).toInt();
+		QString length = rx_dvdtitles.cap(2);
+		qDebug() << "MPVProcess::parseLine: dvd title:" << ID << length;
+		md.titles.addName(ID, length);
+	}
+	else
+	if (rx_brtitles.indexIn(line) > -1) {
+		qDebug() << "MPVProcess::parseLine:" << rx_brtitles.cap(1);
+		int ID = rx_brtitles.cap(1).toInt();
+		QString length = rx_brtitles.cap(2);
+		qDebug() << "MPVProcess::parseLine: br title:" << ID << length;
+		md.titles.addName(ID, length);
 	}
 }
 
