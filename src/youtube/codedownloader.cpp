@@ -198,7 +198,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 		#endif
 		output_file = "yt-dlp.exe";
 	} else {
-		url = "https://youtube-dl.org/downloads/latest/youtube-dl.exe";
+		url = "https://github.com/ytdl-org/ytdl-nightly/releases/latest/download/youtube-dl.exe";
 		output_file = "youtube-dl.exe";
 	}
 	#else
@@ -212,7 +212,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 		#endif
 		output_file = "yt-dlp";
 	} else {
-		url = "https://youtube-dl.org/downloads/latest/youtube-dl";
+		url = "https://github.com/ytdl-org/ytdl-nightly/releases/latest/download/youtube-dl";
 		output_file = "youtube-dl";
 	}
 	#endif
