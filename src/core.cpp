@@ -4794,7 +4794,7 @@ void Core::sendMediaInfo() {
 //!  Called when the state changes
 void Core::watchState(Core::State state) {
 #ifdef USE_POWERSAVING
-	#if 0
+	#if 1
 	qDebug("Core::watchState: %d", state);
 	//qDebug("Core::watchState: has video: %d", !mdat.novideo);
 
