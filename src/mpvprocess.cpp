@@ -176,6 +176,7 @@ void MPVProcess::initializeRX() {
 	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
 	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
+	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
 	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
 }
@@ -204,7 +205,7 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "container-fps" << "video-format"
                                       << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
                                       << "current-demuxer"
-                                      << "seekable" << "disc-titles" << "chapters"
+                                      << "seekable" << "chapters"
                                       << "track-list/count"
                                       << "metadata/by-key/title" << "metadata/by-key/artist"
                                       << "metadata/by-key/album" << "metadata/by-key/genre"
@@ -525,6 +526,12 @@ void MPVProcess::socketReadyRead() {
 			else {
 				qDebug() << "MPVProcess::socketReadyRead: unprocessed event:" << event << name << data;
 			}
+		}
+		else
+		if (rx_endfile.indexIn(s) > -1) {
+			QString reason = rx_endfile.cap(1);
+			qDebug() << "MPVProcess::socketReadyRead: end-file:" << reason;
+			if (reason == "eof") received_end_of_file = true;
 		}
 	}
 }
