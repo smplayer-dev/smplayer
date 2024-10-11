@@ -225,11 +225,12 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(updateChapterInfo(const Chapters &)), Qt::QueuedConnection );
 #endif
 
+	connect( proc, SIGNAL(receivedDuration(double)), 
+             this, SLOT(durationChanged(double)), Qt::QueuedConnection );
+
 #if DVDNAV_SUPPORT
 	connect( proc, SIGNAL(receivedDVDTitle(int)), 
              this, SLOT(dvdTitleChanged(int)), Qt::QueuedConnection );
-	connect( proc, SIGNAL(receivedDuration(double)), 
-             this, SLOT(durationChanged(double)), Qt::QueuedConnection );
 
 	QTimer * ask_timer = new QTimer(this);
 	connect( ask_timer, SIGNAL(timeout()), this, SLOT(askForInfo()) );
@@ -5154,17 +5155,17 @@ void Core::updateChapterInfo(const Chapters & chapters) {
 }
 #endif
 
-#if DVDNAV_SUPPORT
-void Core::dvdTitleChanged(int title) {
-	qDebug("Core::dvdTitleChanged: %d", title);
-}
-
 void Core::durationChanged(double length) {
 	qDebug("Core::durationChanged: %f", length);
 	if (mdat.duration != length) {
 		mdat.duration = length;
 		emit newDuration(length);
 	}
+}
+
+#if DVDNAV_SUPPORT
+void Core::dvdTitleChanged(int title) {
+	qDebug("Core::dvdTitleChanged: %d", title);
 }
 
 void Core::askForInfo() {

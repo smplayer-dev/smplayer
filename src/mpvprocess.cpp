@@ -393,6 +393,7 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "duration") {
 				md.duration = data.toDouble();
+				if (md.duration != duration) emit receivedDuration(md.duration);
 				duration = (int) md.duration;
 			}
 			else

@@ -202,9 +202,9 @@ signals:
 	void chaptersChanged(const Chapters &);
 #endif
 
+	void receivedDuration(double);
 #if DVDNAV_SUPPORT
 	void receivedDVDTitle(int);
-	void receivedDuration(double);
 	void receivedTitleIsMenu();
 	void receivedTitleIsMovie();
 #endif

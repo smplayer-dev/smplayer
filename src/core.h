@@ -456,9 +456,9 @@ protected slots:
 	void updateChapterInfo(const Chapters &);
 #endif
 
+	void durationChanged(double);
 #if DVDNAV_SUPPORT
 	void dvdTitleChanged(int);
-	void durationChanged(double);
 	void askForInfo();
 	void dvdnavUpdateMousePos(QPoint);
 	void dvdTitleIsMenu();
