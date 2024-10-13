@@ -267,7 +267,7 @@ ShortcutGetter::ShortcutGetter(QWidget *parent) : QDialog(parent)
 	setWindowTitle(tr("Modify shortcut"));
 
 	QVBoxLayout *vbox = new QVBoxLayout(this);
-	vbox->setMargin(2);
+	vbox->setContentsMargins(2, 2, 2, 2);
 	vbox->setSpacing(4);
 
 	// List and buttons added by rvm
