@@ -230,6 +230,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 	QString line = QString::fromLocal8Bit(ba);
 	#endif
 #endif
+	if (line == ".") return;
+	//qDebug() << "MPVProcess::parseLine:" << line;
 	emit lineAvailable(line);
 
 #if NOTIFY_VIDEO_CHANGES || NOTIFY_AUDIO_CHANGES || NOTIFY_SUB_CHANGES
