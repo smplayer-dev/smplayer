@@ -230,6 +230,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 	QString line = QString::fromLocal8Bit(ba);
 	#endif
 #endif
+	line = line.replace("\033[K", "");
 	if (line == ".") return;
 	//qDebug() << "MPVProcess::parseLine:" << line;
 	emit lineAvailable(line);
