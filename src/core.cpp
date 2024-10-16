@@ -415,6 +415,8 @@ void Core::restoreSettingsForMedia(const QString & name, int type) {
 		changeAspectRatio(mset.aspect_ratio_id);
 	}
 
+	if (mset.current_sec > 1) mset.current_sec -= 1;
+
 	if (!pref->remember_time_pos) {
 		mset.current_sec = 0;
 		qDebug("Core::restoreSettingsForMedia: time pos reset to 0");
