@@ -42,6 +42,14 @@ ScreenSaver::~ScreenSaver() {
 #endif
 }
 
+bool ScreenSaver::isValid() {
+#ifdef Q_OS_WIN
+	return win_screensaver->isValid();
+#else
+	return power_saving->isValid();
+#endif
+}
+
 void ScreenSaver::enable() {
 #ifdef Q_OS_WIN
 	win_screensaver->enable();

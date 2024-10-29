@@ -48,6 +48,14 @@ WinScreenSaver::~WinScreenSaver() {
 #endif
 }
 
+bool WinScreenSaver::isValid() {
+#ifndef Q_OS_OS2
+	return true;
+#else
+	return SSCore_TempDisable && SSCore_TempEnable;
+#endif
+}
+
 void WinScreenSaver::retrieveState() {
 	qDebug("WinScreenSaver::retrieveState");
 	
