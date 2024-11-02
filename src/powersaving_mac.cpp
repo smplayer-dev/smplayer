@@ -29,6 +29,10 @@ PowerSaving::PowerSaving(QObject * parent)
 PowerSaving::~PowerSaving() {
 }
 
+bool PowerSaving::isValid() {
+	return true;
+}
+
 void PowerSaving::inhibit() {
 	qDebug("PowerSaving::inhibit");
 

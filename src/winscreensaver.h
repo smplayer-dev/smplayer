@@ -34,6 +34,8 @@ public:
 	WinScreenSaver();
 	~WinScreenSaver();
 
+	bool isValid();
+
 	void disable();
 	void enable();
 

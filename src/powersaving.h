@@ -32,6 +32,8 @@ public:
 	PowerSaving(QObject * parent = 0);
 	~PowerSaving();
 
+	bool isValid();
+
 public slots:
 	void inhibit();
 	void uninhibit();

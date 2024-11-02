@@ -32,6 +32,8 @@ public:
 	ScreenSaver(QObject * parent = 0);
 	~ScreenSaver();
 
+	bool isValid();
+
 public slots:
 	void enable();
 	void disable();

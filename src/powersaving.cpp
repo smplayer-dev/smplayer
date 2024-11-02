@@ -37,6 +37,10 @@ PowerSaving::PowerSaving(QObject * parent)
 PowerSaving::~PowerSaving() {
 }
 
+bool PowerSaving::isValid() {
+    return interface->isValid();
+}
+
 void PowerSaving::inhibit() {
 	qDebug("PowerSaving::inhibit");
 	QDBusReply<uint> reply = interface->call("Inhibit", "smplayer", "Playing media");

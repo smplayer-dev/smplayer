@@ -135,8 +135,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	}
 	else
 	if (option_name == "stop-xscreensaver") {
+#ifdef OS_UNIX_NOT_MAC
 		bool stop_ss = value.toBool();
 		if (stop_ss) arg << "-stop-xscreensaver"; else arg << "-nostop-xscreensaver";
+#endif
 	}
 	else
 	if (option_name == "correct-pts") {
