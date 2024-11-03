@@ -145,6 +145,9 @@ void Preferences::reset() {
 #if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	avoid_screensaver = true;
 #endif
+#ifdef Q_OS_LINUX
+	use_stopscreensaver = false;
+#endif
 
 #ifdef OS_UNIX_NOT_MAC
 	wayland_workarounds = true;
@@ -727,6 +730,9 @@ void Preferences::save() {
 #endif
 #if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	set->setValue("avoid_screensaver", avoid_screensaver);
+#endif
+#ifdef Q_OS_LINUX
+	set->setValue("use_stopscreensaver", use_stopscreensaver);
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
@@ -1325,6 +1331,9 @@ void Preferences::load() {
 #endif
 #if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
+#endif
+#ifdef Q_OS_LINUX
+	use_stopscreensaver = set->value("use_stopscreensaver", use_stopscreensaver).toBool();
 #endif
 
 #ifdef OS_UNIX_NOT_MAC

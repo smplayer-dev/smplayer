@@ -1851,7 +1851,14 @@ void Core::startMplayer( QString file, double seek ) {
 	#ifndef USE_POWERSAVING
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
 	#else
-	proc->setOption("stop-xscreensaver", false);
+	#ifdef Q_OS_LINUX
+	if (pref->use_stopscreensaver) {
+		proc->setOption("stop-xscreensaver", pref->disable_screensaver);
+	} else
+	#endif
+	{
+		proc->setOption("stop-xscreensaver", false);
+	}
 	#endif
 #endif
 

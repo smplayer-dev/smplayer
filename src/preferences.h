@@ -118,6 +118,9 @@ public:
 #if defined(Q_OS_WIN) && defined(AVOID_SCREENSAVER)
 	bool avoid_screensaver;
 #endif
+#ifdef Q_OS_LINUX
+	bool use_stopscreensaver;
+#endif
 
 #ifdef OS_UNIX_NOT_MAC
 	bool wayland_workarounds;
