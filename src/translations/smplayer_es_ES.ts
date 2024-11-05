@@ -6164,13 +6164,6 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
         <translation>Selecciona tu dispositivo &amp;CD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="123"/>
-        <location filename="../prefdrives.ui" line="217"/>
-        <location filename="../prefdrives.ui" line="308"/>
-        <source>...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="172"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Selecciona tu dispositivo &amp;DVD:</translation>
