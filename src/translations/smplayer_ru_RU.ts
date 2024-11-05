@@ -8147,7 +8147,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="863"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Если эта опция включена, плавающая панель будет показываться только когда мышь перемещена вниз экрана. Иначе панель будет появляться при любом движении мыши, независимо от её позиции.</translation>
+        <translation>Если этот параметр включён, плавающая панель будет показываться только при перемещении мыши вниз экрана. Иначе панель будет появляться при любом движении мыши независимо от её позиции.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -8345,7 +8345,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="599"/>
         <source>&amp;Precise seeking</source>
-        <translation>То&amp;чное перемотка</translation>
+        <translation>Т&amp;очная перемотка</translation>
     </message>
 </context>
 <context>
@@ -10124,7 +10124,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation>&amp;Проверять на наличие новых каналов при старте</translation>
+        <translation>&amp;Проверять на наличие новых каналов при запуске</translation>
     </message>
 </context>
 <context>

@@ -803,7 +803,7 @@ Voulez-vous l&apos;écraser ?</translation>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
         <source>D&amp;ownload subtitles from %1...</source>
-        <translation type="unfinished"/>
+        <translation>Télécharger les s&amp;ous-titres depuis %1…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
@@ -1053,7 +1053,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to %1...</source>
-        <translation type="unfinished"/>
+        <translation>En&amp;voyer les sous-titres vers %1…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -3096,7 +3096,7 @@ Exemple : extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>File URL not found</source>
-        <translation type="unfinished"/>
+        <translation>URL du fichier non trouvée</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="593"/>
@@ -4434,97 +4434,97 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../languages.cpp" line="362"/>
         <source>Asturian</source>
-        <translation type="unfinished"/>
+        <translation>Asturien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="368"/>
         <source>Chinese (simplified)</source>
-        <translation type="unfinished"/>
+        <translation>Chinois (simplifié)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="404"/>
         <source>Slovenian</source>
-        <translation type="unfinished"/>
+        <translation>Slovène</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="405"/>
         <source>Syriac</source>
-        <translation type="unfinished"/>
+        <translation>Syriaque</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="407"/>
         <source>Montenegrin</source>
-        <translation type="unfinished"/>
+        <translation>Monténégrin</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="408"/>
         <source>Chinese bilingual</source>
-        <translation type="unfinished"/>
+        <translation>Chinois bilingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="423"/>
         <source>Portuguese (BR)</source>
-        <translation type="unfinished"/>
+        <translation>Portuguais (BR)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="424"/>
         <source>Chinese (traditional)</source>
-        <translation type="unfinished"/>
+        <translation>Chinois (traditionnel)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="440"/>
         <source>Manipuri</source>
-        <translation type="unfinished"/>
+        <translation>Manipuri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="443"/>
         <source>Odia</source>
-        <translation type="unfinished"/>
+        <translation>Odia</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="444"/>
         <source>Sinhalese</source>
-        <translation type="unfinished"/>
+        <translation>Cingalais</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="445"/>
         <source>Northern Sami</source>
-        <translation type="unfinished"/>
+        <translation>Same du Nord</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="449"/>
         <source>Portuguese (MZ)</source>
-        <translation type="unfinished"/>
+        <translation>Portugais (MZ)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="450"/>
         <source>Spanish (LA)</source>
-        <translation type="unfinished"/>
+        <translation>Espagnol (LA)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="451"/>
         <source>Extremaduran</source>
-        <translation type="unfinished"/>
+        <translation>Estrémègne</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="452"/>
         <source>Dari</source>
-        <translation type="unfinished"/>
+        <translation>Dari</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="453"/>
         <source>Spanish (EU)</source>
-        <translation type="unfinished"/>
+        <translation>Espagnol (EU)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="454"/>
         <source>Santali</source>
-        <translation type="unfinished"/>
+        <translation>Santali</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="455"/>
         <source>Toki Pona</source>
-        <translation type="unfinished"/>
+        <translation>Toki pona</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -9049,7 +9049,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"/>
+        <translation>Auto (sûr)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>

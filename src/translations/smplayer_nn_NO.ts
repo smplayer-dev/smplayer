@@ -803,7 +803,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
         <source>D&amp;ownload subtitles from %1...</source>
-        <translation type="unfinished"/>
+        <translation>L&amp;ast ned undertekstar frå %1...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
@@ -1054,7 +1054,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>Upload su&amp;btitles to %1...</source>
-        <translation type="unfinished"/>
+        <translation>Last opp u&amp;ndertekstar til %1...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1431,7 +1431,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>Det er òg mogleg å donera med kryptovaluta.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -2549,12 +2549,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="721"/>
         <source>Display &amp;total time</source>
-        <translation type="unfinished"/>
+        <translation>Vis &amp;total tid</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="722"/>
         <source>Display &amp;remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Vis &amp;attståande tid</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -3164,7 +3164,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="49"/>
         <source>Search for &amp;title:</source>
-        <translation type="unfinished"/>
+        <translation>Søk etter &amp;tittel:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="59"/>
@@ -4439,12 +4439,12 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="368"/>
         <source>Chinese (simplified)</source>
-        <translation type="unfinished"/>
+        <translation>Kinesisk (forenkla)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="404"/>
         <source>Slovenian</source>
-        <translation type="unfinished"/>
+        <translation>Slovensk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="405"/>
@@ -4489,17 +4489,17 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="445"/>
         <source>Northern Sami</source>
-        <translation type="unfinished"/>
+        <translation>Nordsamisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="449"/>
         <source>Portuguese (MZ)</source>
-        <translation type="unfinished"/>
+        <translation>Portugiasisk (MZ)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="450"/>
         <source>Spanish (LA)</source>
-        <translation type="unfinished"/>
+        <translation>Spansk (LA)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="451"/>
@@ -4514,7 +4514,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="453"/>
         <source>Spanish (EU)</source>
-        <translation type="unfinished"/>
+        <translation>Spansk (EU)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="454"/>
@@ -5405,7 +5405,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="1419"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"/>
+        <translation>Feil speleliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
@@ -6546,12 +6546,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="442"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Aktiver etterbehandling som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="952"/>
         <source>Volume &amp;normalization by default</source>
-        <translation type="unfinished"/>
+        <translation>Lydstyrke &amp;normalisering som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1157"/>
@@ -6596,7 +6596,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1183"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"/>
+        <translation>Aktiver etterbehandling som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1308"/>
@@ -6606,7 +6606,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1315"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"/>
+        <translation>Lydstyrke &amp;normalisering som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1316"/>
