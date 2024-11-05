@@ -57,6 +57,10 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	use_playlist_check->hide();
 #endif
 
+#ifndef Q_OS_LINUX
+	use_stopscreensaver->hide();
+#endif
+
 #if !defined(LOG_MPLAYER) && !defined(LOG_SMPLAYER)
 	advanced_tab->setTabEnabled(LOGS_TAB, false);
 #endif
@@ -152,6 +156,10 @@ void PrefAdvanced::setData(Preferences * pref) {
 #ifdef MPLAYER_SUPPORT
 	use_playlist_check->setChecked(pref->use_playlist_option);
 #endif
+
+#ifdef Q_OS_LINUX
+	use_stopscreensaver->setChecked(pref->use_stopscreensaver);
+#endif
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -227,6 +235,10 @@ void PrefAdvanced::getData(Preferences * pref) {
 
 #ifdef MPLAYER_SUPPORT
 	pref->use_playlist_option = use_playlist_check->isChecked();
+#endif
+
+#ifdef Q_OS_LINUX
+	pref->use_stopscreensaver = use_stopscreensaver->isChecked();
 #endif
 }
 
