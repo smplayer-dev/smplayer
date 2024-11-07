@@ -835,17 +835,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Über PayPal spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"/>
+        <translation>Nicht jetzt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"/>
+        <translation>Nein</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1381,17 +1381,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>Der youtube-dl-Prozess ist aufgrund fehlender Programm-Bibliotheken fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>Evtl. muss %1 installiert werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>Das Microsoft Visual C++ 2010 Redistributable Paket</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6160"/>
@@ -1414,7 +1414,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>Es ist auch möglich per Cryptowährungen zu spenden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -2254,7 +2254,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation>Fehler bei der Kommunikation mit dem externen YouTube-Programm. Entweder ist diese nicht installiert oder arbeitet nicht korrekt.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
@@ -3081,18 +3081,18 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>File URL not found</source>
-        <translation type="unfinished"/>
+        <translation>Datei-URL nicht gefunden</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"/>
+        <translation>Fehler: Tageskontingent überschritten</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"/>
+        <translation>Verbleibende Downloads: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -5406,7 +5406,8 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"/>
+        <translation>Es war nicht möglich '%1' zu laden.
+Der Dateiname der Wiedergabeliste muss eine bestimmten Endung haben, z. B. „.pls“, „.xspf“ oder „.m3u“. &apos;%2&apos; wird nicht unterstützt. Bitte nochmal eine Auswahl treffen !</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1560"/>
@@ -5555,7 +5556,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"/>
+        <translation>stop-screensa&amp;ver Option benutzen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6086,17 +6087,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>CD-Laufwerk oder ISO-Datei auswählen</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>CD-Laufwerk oder ISO-Datei auswählen</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Blu-ray-Laufwerk oder ISO-Datei auswählen</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -6207,12 +6208,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="495"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation>Hardware</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="496"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation>Software</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
@@ -6287,12 +6288,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"/>
+        <translation>Wenn diese Option aktiviert ist, wird die im Wiedergabemenü ausgewählte Geschwindigkeit für alle Dateien angewendet.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"/>
+        <translation>Andernfalls verwendet jede Datei ihre eigene Geschwindigkeitseinstellung.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -8576,7 +8577,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="333"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>Es wird versucht, MPV mit YouTube-DLP (oder YouTube-DL) nur für die Sites zu verwenden, die dies erfordern</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="336"/>
@@ -8586,7 +8587,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="339"/>
         <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"/>
+        <translation>Verwendet mpv mit yt-dlp (oder youtube-dl) für alle Seiten</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="345"/>
@@ -8596,7 +8597,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="346"/>
         <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation>Diese Option gibt die bevorzugte Qualität für die von yt-dlp oder youtube-dl verarbeiteten Videostreams an.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8617,7 +8618,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="250"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>Andere</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -9063,7 +9064,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"/>
+        <translation>Automatisch (sicher)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>
@@ -9307,7 +9308,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation>In der Wiedergabeliste wird anstelle des Dateinamens der Titel (sofern vorhanden) angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
@@ -9487,7 +9488,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation>Titelnamen statt Dateinamen anzeigen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
