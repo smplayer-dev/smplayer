@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -453,10 +451,6 @@ Deseja substituí-lo?</translation>
         <translation>&amp;DVD a partir do leitor</translation>
     </message>
     <message>
-        <source>D&amp;VD from folder...</source>
-        <translation type="vanished">D&amp;VD a partir de uma pasta...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
@@ -829,10 +823,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 A janela de configuração irá agora ser mostrada para que você o possa fazer.</translation>
     </message>
     <message>
-        <source>Select the Blu-ray folder</source>
-        <translation type="vanished">Selecione a pasta do Blu-ray</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a directory</source>
         <translation>Escolha uma pasta</translation>
@@ -984,10 +974,6 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray a partir do leitor</translation>
-    </message>
-    <message>
-        <source>Blu-&amp;ray from folder...</source>
-        <translation type="vanished">Blu-&amp;ray a partir de uma pasta...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -3100,13 +3086,13 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro: quota diária excedida</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Downloads restantes: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3207,7 +3193,7 @@ Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -5418,7 +5404,7 @@ Deseja substituí-lo?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Não foi possível carregar &apos;%1&apos;.
 Nomes de arquivos de lista de reprodução devem terminar com um sufixo específico como pls, xspf ou m3u. &apos;%2&apos; não é suportado. Por favor, escolha novamente!</translation>
@@ -5570,7 +5556,7 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar a opção parar-prote&amp;ção de tela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6101,17 +6087,17 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione um dispositivo de CD ou arquivo ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione um dispositivo de DVD ou arquivo ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione um dispositivo de Blu-ray ou arquivo ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -10356,19 +10342,13 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

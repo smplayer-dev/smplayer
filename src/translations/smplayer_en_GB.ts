@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="en_GB">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="en_GB">
 <context>
     <name>About</name>
     <message>
@@ -454,10 +452,6 @@ do you want to overwrite it?</translation>
         <translation>&amp;DVD from drive</translation>
     </message>
     <message>
-        <source>D&amp;VD from folder...</source>
-        <translation type="vanished">D&amp;VD from directory...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
@@ -830,10 +824,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 The configuration dialogue will be shown now, which will take you through the configuration steps.</translation>
     </message>
     <message>
-        <source>Select the Blu-ray folder</source>
-        <translation type="vanished">Select the Blu-ray directory</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a directory</source>
         <translation>Choose a directory</translation>
@@ -985,10 +975,6 @@ The configuration dialogue will be shown now, which will take you through the co
         <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray from drive</translation>
-    </message>
-    <message>
-        <source>Blu-&amp;ray from folder...</source>
-        <translation type="vanished">Blu-&amp;ray from directory...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -3101,13 +3087,13 @@ Example: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3208,7 +3194,7 @@ Example: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>It wasn&apos;t possible to save the downloaded
@@ -5419,7 +5405,7 @@ Do you want to overwrite?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</translation>
@@ -5571,7 +5557,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6102,17 +6088,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -10357,19 +10343,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n second(s)</numerusform>
-            <numerusform>%n second(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n second(s)</numerusform><numerusform>%n second(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute(s)</numerusform>
-            <numerusform>%n minute(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minute(s)</numerusform><numerusform>%n minute(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

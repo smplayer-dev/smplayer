@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fi">
 <context>
     <name>About</name>
     <message>
@@ -26,27 +24,27 @@
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation>SMPlayer on graafinen käyttöliittymä %1.</translation>
+        <translation>SMPlayer on %1 graafinen käyttöliittymä.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Napsauta tätä saadaksesi tietää transifex-tiimin kääntäjät</translation>
+        <translation>Paina ja katso transifex-tiimin kääntäjät</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Many people contributed with translations.</source>
-        <translation>Monet ihmiset auttoivat kielikäännöksissä.</translation>
+        <translation>Monet ovat osallistuneet käännöksiin.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Voit auttaa SMPlayerin kääntämisessä haluamallesi kielelle.</translation>
+        <translation>Sinäkin voit auttaa SMPlayer käännösissä sinun kielelle.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Käy %1-sivustolla ja liity käännösryhmään.</translation>
+        <translation>Vieraile %1 sivustolla ja liity kääntäjät tiimiin.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -61,7 +59,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation>SMPlayer on graafinen käyttöliittymä %1 ja %2.</translation>
+        <translation>SMPlayer on %1 ja %2 graafinen käyttöliittymä.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
@@ -71,7 +69,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation>Tietoa SMPlayeristä</translation>
+        <translation>Tietoa SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -109,17 +107,17 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Portable Edition</source>
-        <translation>Siirrettävä versio</translation>
+        <translation>Kannettavan versio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Käytössä Qt %1 (käänetty Qt:n versiolla %2)</translation>
+        <translation>Käyttää Qt %1 (tehty Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>SMPlayer logo by %1</source>
-        <translation>SMPlayerin logo %1</translation>
+        <translation>SMPlayer logo %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
@@ -134,12 +132,12 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Packages for Windows created by %1</source>
-        <translation>Windows-paketit on luonut %1</translation>
+        <translation>Windows:lle tehnyt %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="128"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Monet ihmiset osallistuivat korjauksillaan. Lisätietoja on muutoslokissa.</translation>
+        <translation>Monet osallistuivat tekemällä korjauksia. Lisätietoja muutoslokissa.</translation>
     </message>
 </context>
 <context>
@@ -157,7 +155,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="244"/>
         <source>Shortcut</source>
-        <translation>Oikotie</translation>
+        <translation>Pikanäppäin</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="246"/>
@@ -173,12 +171,12 @@
         <location filename="../actionseditor.cpp" line="507"/>
         <location filename="../actionseditor.cpp" line="557"/>
         <source>Key files</source>
-        <translation>Avaintiedostot</translation>
+        <translation>Keskeiset tiedostot</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="505"/>
         <source>Choose a filename</source>
-        <translation>Valitse tiedoston nimi</translation>
+        <translation>Valitse tiedostonimi</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
@@ -195,7 +193,7 @@
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Tiedosto %1 on jo olemassa.
-Haluatko ylikirjoittaa sen?</translation>
+Haluatko ylikirjoittaa?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="556"/>
@@ -211,17 +209,17 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="530"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>Tiedostoa ei pystytty tallentamaan</translation>
+        <translation>Tiedostoa ei voitu tallentaa</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="564"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>Tiedostoa ei pystytty lataamaan</translation>
+        <translation>Tiedostoa ei voitu ladata</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="253"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Vaihda oikotie...</translation>
+        <translation>&amp;Vaihda pikanäppäin...</translation>
     </message>
 </context>
 <context>
@@ -229,7 +227,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="189"/>
         <source>Audio Equalizer</source>
-        <translation>Äänitaajuuskorjain</translation>
+        <translation>Taajuuskorjain</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="192"/>
@@ -262,12 +260,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Nollata</translation>
+        <translation>&amp;Nollaa</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Aseta oletusarvoiksi</translation>
+        <translation>&amp;Aseta oletukseksi</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
@@ -277,7 +275,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
         <source>Flat</source>
-        <translation>Latta</translation>
+        <translation>Tasainen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
@@ -297,17 +295,17 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Full bass</source>
-        <translation>Täysi basso</translation>
+        <translation>Basso</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Full bass and treble</source>
-        <translation>Täysi basso ja diskantti</translation>
+        <translation>Basso ja diskantti</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
         <source>Full treble</source>
-        <translation>Täysi diskantti</translation>
+        <translation>Diskantti</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
@@ -317,17 +315,17 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="220"/>
         <source>Large hall</source>
-        <translation>Suuri sali</translation>
+        <translation>Konserttisali</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="221"/>
         <source>Live</source>
-        <translation>Konsertti</translation>
+        <translation>Live</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="222"/>
         <source>Party</source>
-        <translation>Juhlat</translation>
+        <translation>Party</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="223"/>
@@ -342,7 +340,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="225"/>
         <source>Rock</source>
-        <translation>Rokki</translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
@@ -352,17 +350,17 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="227"/>
         <source>Soft</source>
-        <translation>Pehmo</translation>
+        <translation>Soft</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Soft rock</source>
-        <translation>Pehmo rokki</translation>
+        <translation>Soft rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="229"/>
         <source>Techno</source>
-        <translation>Tekno</translation>
+        <translation>Techno</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="230"/>
@@ -372,12 +370,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="235"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Käytä nykyisiä arvoja uusien videoiden oletusarvoina.</translation>
+        <translation>Käytä nykyisiä arvoja videoiden oletuksena.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
         <source>Set all controls to zero.</source>
-        <translation>Aseta kaikki säädöt nollille.</translation>
+        <translation>Aseta säädöt nollille.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="252"/>
@@ -387,7 +385,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="253"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Nykyiset arvot on tallennettu oletusarvoiksi.</translation>
+        <translation>Arvot on tallennettu oletuksiksi.</translation>
     </message>
 </context>
 <context>
@@ -405,12 +403,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2007"/>
         <source>&amp;Video</source>
-        <translation>&amp;Kuva</translation>
+        <translation>&amp;Video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2008"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Ääni</translation>
+        <translation>&amp;Audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2009"/>
@@ -425,7 +423,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2012"/>
         <source>Op&amp;tions</source>
-        <translation>As&amp;etukset</translation>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2013"/>
@@ -453,10 +451,6 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;DVD asemasta</translation>
     </message>
     <message>
-        <source>D&amp;VD from folder...</source>
-        <translation type="vanished">D&amp;VD kansiosta...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
@@ -469,7 +463,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2027"/>
         <source>&amp;Recent files</source>
-        <translation>&amp;Viimeaikaiset tiedostot</translation>
+        <translation>&amp;Viimeaikaiset</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1755"/>
@@ -489,7 +483,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Kuva-askel</translation>
+        <translation>&amp;Kuvakuvalta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1779"/>
@@ -499,7 +493,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Double speed</source>
-        <translation>&amp;Kaksinkertainen nopeus</translation>
+        <translation>&amp;Tuplanopeus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1782"/>
@@ -525,7 +519,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>&amp;Repeat</source>
-        <translation>&amp;Toisto</translation>
+        <translation>&amp;Silmukka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
@@ -612,12 +606,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2079"/>
         <source>S&amp;tay on top</source>
-        <translation>P&amp;ysy päällimmäisenä</translation>
+        <translation>Päällimmäisenä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
         <source>&amp;Extrastereo</source>
-        <translation>&amp;Ylimääräinen stereo</translation>
+        <translation>&amp;Extrastereo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1843"/>
@@ -638,12 +632,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2153"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 ympäröidä</translation>
+        <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2154"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 ympäröidä</translation>
+        <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
@@ -673,22 +667,22 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
         <source>Volume &amp;-</source>
-        <translation>Äänenvoimakkuus &amp;-</translation>
+        <translation>Voimakkuus &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1834"/>
         <source>Volume &amp;+</source>
-        <translation>Äänenvoimakkuus &amp;+</translation>
+        <translation>Voimakkuus &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Siirtää taaksepäin</translation>
+        <translation>&amp;Viive -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1836"/>
         <source>D&amp;elay +</source>
-        <translation>S&amp;iirtää eteenpäin</translation>
+        <translation>Viiv&amp;e +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2168"/>
@@ -703,12 +697,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1852"/>
         <source>Delay &amp;-</source>
-        <translation>Siirtää &amp;taaksepäin</translation>
+        <translation>Viive &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1853"/>
         <source>Delay &amp;+</source>
-        <translation>Siirtää &amp;eteenpäin</translation>
+        <translation>Viive &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1855"/>
@@ -728,7 +722,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2189"/>
         <source>&amp;Chapter</source>
-        <translation>&amp;Kappale</translation>
+        <translation>&amp;Jakso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2192"/>
@@ -743,12 +737,12 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="2104"/>
         <source>&amp;Disabled</source>
-        <translation>&amp;Ei käytössä</translation>
+        <translation>&amp;Poistettu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2224"/>
         <source>&amp;OSD</source>
-        <translation>&amp;Kuvaruutunäyttö</translation>
+        <translation>&amp;Kuvaruutu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
@@ -758,7 +752,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1928"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Tietoa &amp;SMPlayerstä</translation>
+        <translation>Tietoa &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3657"/>
@@ -769,18 +763,18 @@ Haluatko ylikirjoittaa sen?</translation>
         <location filename="../basegui.cpp" line="3758"/>
         <location filename="../basegui.cpp" line="3834"/>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;tyhjä&gt;</translation>
+        <translation>&lt;empty&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4298"/>
         <source>Video</source>
-        <translation>Kuva</translation>
+        <translation>Video</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4299"/>
         <location filename="../basegui.cpp" line="4545"/>
         <source>Audio</source>
-        <translation>Ääni</translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4300"/>
@@ -819,18 +813,14 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="4360"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Tietoa</translation>
+        <translation>SMPlayer - tietoja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4361"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CDROM / DVD asemia ei ole vielä asetettu.
-Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
-    </message>
-    <message>
-        <source>Select the Blu-ray folder</source>
-        <translation type="vanished">Valitse Blu-ray kansio</translation>
+        <translation>CD / DVD asemia ei ole vielä asetettu.
+Asetukset näytetäään, jotta voit tehdä sen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4483"/>
@@ -845,12 +835,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation>&amp;Lahjoita käyttäen PayPal</translation>
+        <translation>&amp;PayPal lahjoitus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation>&amp;Ei nyt</translation>
+        <translation>&amp;Ei vielä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
@@ -881,18 +871,18 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1763"/>
         <source>Play / Pause</source>
-        <translation>Toista / Tauko</translation>
+        <translation>Toista / Pysäytä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>Pause / Frame step</source>
-        <translation>Tauko / Kuva-askel</translation>
+        <translation>Tauko / Kuvakuvalta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1839"/>
         <location filename="../basegui.cpp" line="1851"/>
         <source>U&amp;nload</source>
-        <translation>P&amp;oista käytöstä</translation>
+        <translation>P&amp;oista</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1723"/>
@@ -907,12 +897,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1807"/>
         <source>Zoom &amp;-</source>
-        <translation>Zoomaus &amp;-</translation>
+        <translation>Pienennä &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1808"/>
         <source>Zoom &amp;+</source>
-        <translation>Zoomaus &amp;+</translation>
+        <translation>Suurenna &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
@@ -942,12 +932,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Edellinen rivi tekstityksessä</translation>
+        <translation>&amp;Tekstityksen edellinen rivi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>S&amp;euraava rivi tekstityksessä</translation>
+        <translation>T&amp;ekstityksen seuraava rivi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
@@ -959,7 +949,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../basegui.cpp" line="1904"/>
         <location filename="../basegui.cpp" line="2249"/>
         <source>SMPlayer log</source>
-        <translation>SMPlayer loki</translation>
+        <translation>SMPlayer-loki</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2262"/>
@@ -978,16 +968,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1957"/>
         <source>Dec volume (2)</source>
-        <translation>Vähennä äänenvoimakuutta (2)</translation>
+        <translation>Vähennä voimakuutta (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray asemasta</translation>
-    </message>
-    <message>
-        <source>Blu-&amp;ray from folder...</source>
-        <translation type="vanished">Blu-&amp;ray kansiosta...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -1002,22 +988,22 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>Screenshot with subtitles</source>
-        <translation>Kuvakaappaus tekstityksellä</translation>
+        <translation>Kaappaus tekstityksen kanssa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1795"/>
         <source>Screenshot without subtitles</source>
-        <translation>Kuvakaappaus ilman tekstitystä</translation>
+        <translation>Kaappaus ilman tekstitystä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>Start/stop capturing stream</source>
-        <translation>Aloita/lopeta suoratoiston sieppaaminen</translation>
+        <translation>Aloita/Pysäytä suoratoiston tallennus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1801"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>&amp;Näyttökuvien tuottaja...</translation>
+        <translation>Pikkukuvie&amp;n tuottaja...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1805"/>
@@ -1037,12 +1023,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
         <source>Seek to next subtitle</source>
-        <translation>Siirry seuraavaan tekstitykseen</translation>
+        <translation>Seuraava tekstitys</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
         <source>Seek to previous subtitle</source>
-        <translation>Palaa edelliseen tekstitykseen</translation>
+        <translation>Edellinen tekstitys</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
@@ -1073,7 +1059,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1909"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Alkuvaiheen &amp;opas</translation>
+        <translation>&amp;Opaskirja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
@@ -1114,7 +1100,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1958"/>
         <source>Inc volume (2)</source>
-        <translation>Lisää äänenvoimakuutta (2)</translation>
+        <translation>Lisää voimakuutta (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1961"/>
@@ -1124,7 +1110,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1963"/>
         <source>OSD - Next level</source>
-        <translation>Kuvaruutunäyttö - Seuraava taso</translation>
+        <translation>Kuvaruutu - seuraava taso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1964"/>
@@ -1159,7 +1145,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1970"/>
         <source>Dec saturation</source>
-        <translation>Vähennä kyllästämistä</translation>
+        <translation>Vähennä kylläisyyttä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1972"/>
@@ -1174,12 +1160,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1976"/>
         <source>Previous audio</source>
-        <translation>Edellinen ääni</translation>
+        <translation>Edellinen audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
         <source>Next audio</source>
-        <translation>Seuraava ääni</translation>
+        <translation>Seuraava audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
@@ -1194,27 +1180,27 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1980"/>
         <source>Next chapter</source>
-        <translation>Seuraava kappale</translation>
+        <translation>Seuraava jakso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1981"/>
         <source>Previous chapter</source>
-        <translation>Edellinen kappale</translation>
+        <translation>Edellinen jakso</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
         <source>Show filename on OSD</source>
-        <translation>Näytä tiedostonimi näytössä</translation>
+        <translation>Näytä tiedostonimi näytöllä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1990"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Näytä &amp;info näytössä </translation>
+        <translation>Näytä &amp;info näytöllä </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1991"/>
         <source>Show playback time on OSD</source>
-        <translation>Näytä toistoaika näytössä</translation>
+        <translation>Näytä toistoaika näytöllä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2011"/>
@@ -1229,7 +1215,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2090"/>
         <source>Blur/S&amp;harp</source>
-        <translation>Sumeus/t&amp;erävyys</translation>
+        <translation>Sumeus/T&amp;erävyys</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2113"/>
@@ -1270,7 +1256,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2126"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation>Kierrä 1&amp;80 astetta myötäpäivään</translation>
+        <translation>Käännä 1&amp;80 astetta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2140"/>
@@ -1305,7 +1291,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
         <source>Select subtitle track</source>
-        <translation>Valitse tekstitysraita</translation>
+        <translation>Valitse tekstiraita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2174"/>
@@ -1315,7 +1301,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2176"/>
         <source>Select secondary subtitle track</source>
-        <translation>Valitse toissijainen tekstitysraita</translation>
+        <translation>Valitse toissijainen tekstiraita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2182"/>
@@ -1360,12 +1346,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="3356"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation>Sinun täytyy käynnistää SMPlayer uudelleen, jotta voit ottaa käyttöön uusia asetuksia.</translation>
+        <translation>Käynnistä SMPlayer uudelleen, jotta uudet asetukset tulevat voimaan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
         <source>Support SMPlayer</source>
-        <translation>SMPlayer tuki</translation>
+        <translation>Anna tukesi SMPlayer:lle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4641"/>
@@ -1375,32 +1361,32 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation>SMPlayer on ilmainen ohjelmisto. Kehitys vaatii kuitenkin paljon aikaa ja paljon työtä.</translation>
+        <translation>SMPlayer on ilmainen ohjelmisto, mutta sen kehitys vaatii aikaa ja työtä.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation>Jotta voimme kehittää SMPlayeriin uusia ominaisuuksia tarvitsemme apuasi.</translation>
+        <translation>Tarvitsemme apuasi SMPlayerin kehittämiseksi uusilla ominaisuuksilla.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation>Harkitse SMPlayer-projektin tukemista lähettämällä meille lahjoitus.</translation>
+        <translation>Harkitse SMPlayer-projektin tukemista lähettämällä lahjoitus.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4645"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation>Pieninkin määrä auttaa paljon.</translation>
+        <translation>Pieninkin summa auttaa paljon.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation>Prosessi Youtube-dl epäonnistui puuttuvien kirjastojen takia.</translation>
+        <translation>Puuttuvien kirjastojen vuoksi, youtube-dl-prosessi epäonnistui.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation>Sinun on ehkä asennettava %1.</translation>
+        <translation>Sinun on luultavasti asennettava %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
@@ -1417,7 +1403,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../basegui.cpp" line="6166"/>
         <location filename="../basegui.cpp" line="6220"/>
         <source>%1 Error</source>
-        <translation>%1 Virhe</translation>
+        <translation>%1 virhe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6160"/>
@@ -1428,54 +1414,54 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation>Mahdollista lahjoittaa myös kryptovaluutoilla.</translation>
+        <translation>Myös mahdollista lahjoittaa kryptovaluutoilla.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation>Youtube-dl komponentin suorittaminen epäonnistui.</translation>
+        <translation>Youtube-dl suorittaminen epäonnistui.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6193"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) -paketin asentaminen saattaa korjata ongelman.</translation>
+        <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) asentaminen saattaa korjata ongelman.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6195"/>
         <source>Click here to get it</source>
-        <translation>Klikkaa tästä saadaksesi sen</translation>
+        <translation>Paina ja lataa se tästä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6214"/>
         <location filename="../basegui.cpp" line="6222"/>
         <source>%1 failed to start.</source>
-        <translation>%1 käynnistyminen epäonnistui.</translation>
+        <translation>%1 ei käynnistynyt.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6223"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation>Tarkista %1 polku asetuksissa.</translation>
+        <translation>Tarkista %1 polku asetuksista.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6225"/>
         <source>%1 has crashed.</source>
-        <translation>%1 on kaatunut.</translation>
+        <translation>%1 kaatui.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6320"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation>YouTube-selainta ei ole asennettu.</translation>
+        <translation>YouTube-selainta ei ole asennettuna.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6321"/>
         <location filename="../basegui.cpp" line="6333"/>
         <source>Visit %1 to get it.</source>
-        <translation>Käy osoitteessa %1 saadaksesi sen.</translation>
+        <translation>Lataa se osoitteesta %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6331"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation>YouTube-selaimen käynnistys epäonnistui.</translation>
+        <translation>YouTube-selain ei käynnistunyt.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6332"/>
@@ -1485,17 +1471,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="6499"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation>Järjestelmä on siirtynyt tablettitilaan. Pitäisikö SMPlayerin myös vaihtaa tablettilaan?</translation>
+        <translation>Järjestelmä siirtyi tablet-tilaan. Siirtyykö myös SMPlayer tilaan?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6501"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation>Järjestelmä on poistunut tablettitilasta. Pitäisikö SMPlayerin myös poistua tablettilasta?</translation>
+        <translation>Järjestelmä poistui tablet-tilasta. Poistuuko myös SMPlayer tilasta?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6505"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation>Muista päätökseni ja älä kysy uudelleen</translation>
+        <translation>Muista ja älä kysy uudelleen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2228"/>
@@ -1511,22 +1497,22 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="3846"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation>Vahvista poisto - SMPlayer</translation>
+        <translation>Vahvista poistaminen - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3847"/>
         <source>Delete the list of recent files?</source>
-        <translation>Poistetaanko viimeksi käytettyjen tiedostojen luettelo?</translation>
+        <translation>Poistetaanko viimeaikaisten tiedostojen luettelo?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4092"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Nykyiset arvot on tallennettu oletusarvoiksi.</translation>
+        <translation>Arvot on tallennettu oletuksiksi.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1971"/>
         <source>Inc saturation</source>
-        <translation>Lisää kyllästämistä</translation>
+        <translation>Lisää kylläisyyttä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1973"/>
@@ -1541,7 +1527,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2111"/>
         <source>&amp;Kerndeint</source>
-        <translation>&amp;Lisääjä</translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2108"/>
@@ -1551,7 +1537,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2109"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (kaksinkertainen kehysnopeus)</translation>
+        <translation>Y&amp;adif (tupla kuvanopeus)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
@@ -1571,12 +1557,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Audio CD</source>
-        <translation>&amp;Ääni CD</translation>
+        <translation>&amp;Audio CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>&amp;Toggle double size</source>
-        <translation>&amp;Kytke tuplakoko</translation>
+        <translation>&amp;Vaihda tupla koko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1857"/>
@@ -1601,17 +1587,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;UKK</translation>
+        <translation>&amp;FAQ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Komentoriviasetukset</translation>
+        <translation>&amp;Komentorivin asetukset</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
         <source>SMPlayer command line options</source>
-        <translation>SMPlayerin komentoriviasetukset</translation>
+        <translation>SMPlayer komentorivin asetukset</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1868"/>
@@ -1646,7 +1632,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2121"/>
         <source>&amp;Off</source>
-        <translation>&amp;Ei käytössä</translation>
+        <translation>&amp;Pois</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2122"/>
@@ -1676,7 +1662,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1985"/>
         <source>Show context menu</source>
-        <translation>Näytä kontekstivalikko</translation>
+        <translation>Näytä pudotusvalikko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4297"/>
@@ -1691,12 +1677,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1984"/>
         <source>Reset audio equalizer</source>
-        <translation>Nollaa äänitaajuuskorjain</translation>
+        <translation>Nollaa taajuuskorjain</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Auto</source>
-        <translation>&amp;Automaattinen</translation>
+        <translation>&amp;Autom.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
@@ -1721,7 +1707,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Scree&amp;n</source>
-        <translation>&amp;Kuva</translation>
+        <translation>&amp;Kuvaruutu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2134"/>
@@ -1754,12 +1740,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="5048"/>
         <source>Warning - Using old MPlayer</source>
-        <translation>Varoitus - käytössä vanhentunut version MPlayerista</translation>
+        <translation>Varoitus - käytät vanhaa MPlayeri:a</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5049"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Käyttämäsi MPlayerin versio (%1) on vanhentunut. SMPlayer ei toimi kunnolla sen kanssa: jotkut asetukset eivät toimi, tekstityksen valinta ei välttämättä toimi...</translation>
+        <translation>MPlayerin versio (%1) on vanhentunut ja SMPlayer ei toimi kunnolla sen kanssa: jotkut asetukset eivät toimi, tekstityksen valinta ei välttämättä toimi...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5054"/>
@@ -1769,7 +1755,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="5056"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation>(Tätä varoitusta ei näytetä enää)</translation>
+        <translation>(tätä varoitusta ei näytetä enää)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
@@ -1779,7 +1765,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
         <source>&amp;Auto zoom</source>
-        <translation>&amp;Automaattinen tarkennus</translation>
+        <translation>&amp;Autom. tarkennus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
@@ -1814,7 +1800,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2219"/>
         <source>DVD &amp;previous menu</source>
-        <translation>&amp;Edellinen DVD valikko</translation>
+        <translation>DVD &amp;edellinen valikko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2213"/>
@@ -1860,19 +1846,19 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../basegui.cpp" line="4712"/>
         <location filename="../basegui.cpp" line="4716"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer - Äänen viive</translation>
+        <translation>SMPlayer - ääniviive</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4713"/>
         <location filename="../basegui.cpp" line="4717"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Äänen viive (millisekuneissa):</translation>
+        <translation>Ääniviive (millisekuneissa):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4728"/>
         <location filename="../basegui.cpp" line="4732"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer - Tekstityksen viive</translation>
+        <translation>SMPlayer - tekstiviive</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4729"/>
@@ -1883,7 +1869,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2131"/>
         <source>Toggle stay on top</source>
-        <translation>Kytke päällimmäisenä pysyminen</translation>
+        <translation>Vaihda, pysy päälimmäisenä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5658"/>
@@ -1894,7 +1880,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1796"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Aloita/lopeta &amp;ottamasta ruutukaappauksia</translation>
+        <translation>Aloita/lopeta kaappausten &amp;ottaminen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
@@ -1904,7 +1890,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1987"/>
         <source>Next wheel function</source>
-        <translation>Seuraava rullan toiminto</translation>
+        <translation>Seuraava toiminto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2201"/>
@@ -1930,22 +1916,22 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1999"/>
         <source>Volume + &amp;Seek</source>
-        <translation>Äänenvoimakkuus + &amp;Etsi</translation>
+        <translation>Voimakkuus + &amp;etsi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2000"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>Äänenvoimakkuus + Etsi + &amp;Ajastus</translation>
+        <translation>Voimakkuus + etsi + &amp;ajastus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2001"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>Äänenvoimakkuus + Etsi + Ajastus + &amp;Kokonaisaika</translation>
+        <translation>Voimakkuus + etsi + ajastus + &amp;kesto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Kuvan filtterit ovat pois päältä kun käytössä vdpau</translation>
+        <translation>Kuvasuodattimet poistetaan käytöstä vdpau:ta käytettäessä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1803"/>
@@ -1955,7 +1941,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="2064"/>
         <source>Zoo&amp;m</source>
-        <translation>Zoo&amp;maa</translation>
+        <translation>Suure&amp;nna</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1771"/>
@@ -3100,13 +3086,13 @@ Esimerkki: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe: päiväkiintiö ylitetty</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Jäljellä olevat lataukset: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3207,7 +3193,7 @@ Esimerkki: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ladattua tiedostoa ei voitu tallentaa
@@ -5418,7 +5404,7 @@ Haluatko kirjoittaa päälle?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Lataaminen &quot;%1&quot; epäonnistui.
 Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &quot;%2&quot; ei ole tuettu. Ole hyvä ja valitse uudelleen!</translation>
@@ -5570,7 +5556,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä &quot;Keskeytä &amp;näytönsäästäjä&quot; valintaa</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6101,17 +6087,17 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse CD-asema tai ISO-tiedosto</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse DVD-asema tai ISO-tiedosto</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse Bluray-asema tai ISO-tiedosto</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -6523,7 +6509,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefgeneral.ui" line="648"/>
         <source>Disable &amp;screensaver</source>
-        <translation>Poista &amp;näytönsäästäjä</translation>
+        <translation>Keskeytä näytönsäästäjä</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="782"/>
@@ -7050,12 +7036,12 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefgeneral.ui" line="661"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation>Kytk&amp;e näytönsäästäjä pois</translation>
+        <translation>Kytke näytönsäästäjä pois</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="668"/>
         <source>Avoid &amp;screensaver</source>
-        <translation>Vältä näyt&amp;önsäästäjää</translation>
+        <translation>Vältä näytönsäästäjää</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1318"/>
@@ -10356,19 +10342,13 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekuntia</numerusform>
-            <numerusform>%n sekuntia</numerusform>
-        </translation>
+        <translation><numerusform>%n sekuntia</numerusform><numerusform>%n sekuntia</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuuttia</numerusform>
-            <numerusform>%n minuuttia</numerusform>
-        </translation>
+        <translation><numerusform>%n minuuttia</numerusform><numerusform>%n minuuttia</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

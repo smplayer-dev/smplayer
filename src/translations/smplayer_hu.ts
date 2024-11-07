@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="hu">
 <context>
     <name>About</name>
     <message>
@@ -453,10 +451,6 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;DVD lejátszás </translation>
     </message>
     <message>
-        <source>D&amp;VD from folder...</source>
-        <translation type="vanished">D&amp;VD lejátszás könyvtárból...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
@@ -829,10 +823,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     </message>
     <message>
-        <source>Select the Blu-ray folder</source>
-        <translation type="vanished">Blu-ray könyvtár kiválasztása</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4483"/>
         <source>Choose a directory</source>
         <translation>Válasszon egy könyvtárat</translation>
@@ -984,10 +974,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray meghajtó</translation>
-    </message>
-    <message>
-        <source>Blu-&amp;ray from folder...</source>
-        <translation type="vanished">Blu-&amp;ray-lejátszás mappából...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -3103,13 +3089,13 @@ Példa: extrastereo,karaoke </translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3210,7 +3196,7 @@ Példa: extrastereo,karaoke </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nem sikerült elmenteni a letöltött fájlt a %1 könyvtárba. Ellenőrizze a könyvtár jogosultságait.</translation>
@@ -5419,7 +5405,7 @@ Valóban felül akarja írni?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1420"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Nem sikerült betölteni a következőt: &apos;%1&apos;.
 A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződnie, ami pls, xspf vagy m3u. A &apos;%2&apos; nem támogatott. Kérjük, válasszon még egyszer!</translation>
@@ -5571,7 +5557,7 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6102,17 +6088,17 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -10357,17 +10343,13 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n másodperc</numerusform>
-        </translation>
+        <translation><numerusform>%n másodperc</numerusform><numerusform>%n másodperc</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n perc</numerusform>
-        </translation>
+        <translation><numerusform>%n perc</numerusform><numerusform>%n perc</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
