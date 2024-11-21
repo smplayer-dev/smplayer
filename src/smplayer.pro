@@ -613,7 +613,7 @@ contains( DEFINES, USE_POWERSAVING ) {
 		HEADERS += powersaving.h
 		SOURCES += powersaving.cpp
 	}
-	win32 {
+	win32|os2 {
 		HEADERS += winscreensaver.h
 		SOURCES += winscreensaver.cpp
 	}
@@ -726,10 +726,6 @@ win32 {
 
 os2 {
 	INCLUDEPATH += .
-	contains( DEFINES, SCREENSAVER_OFF ) {
-		HEADERS += screensaver.h
-		SOURCES += screensaver.cpp
-	}
 	RC_FILE = smplayer_os2.rc
 }
 
