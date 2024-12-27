@@ -520,6 +520,9 @@ void Playlist::createActions() {
 	playAct = new MyAction(this, "pl_play", false);
 	connect( playAct, SIGNAL(triggered()), this, SLOT(playCurrent()) );
 
+	pauseAct = new MyAction(this, "pl_pause", false);
+	connect( pauseAct, SIGNAL(triggered()), this, SLOT(pause()) );
+
 	nextAct = new MyAction(Qt::Key_N /*Qt::Key_Greater*/, this, "pl_next", false);
 	connect( nextAct, SIGNAL(triggered()), this, SLOT(playNext()) );
 
@@ -671,6 +674,7 @@ void Playlist::createToolbar() {
 
 	toolbar->addSeparator();
 	toolbar->addAction(playAct);
+	toolbar->addAction(pauseAct);
 	toolbar->addAction(prevAct);
 	toolbar->addAction(nextAct);
 #ifdef PLAYLIST_DOUBLE_TOOLBAR
@@ -740,11 +744,13 @@ void Playlist::retranslateStrings() {
 	saveAsAct->change( Images::icon("save"), tr("Save &as...") );
 
 	playAct->change( tr("&Play") );
+	pauseAct->change( tr("&Pause") );
 
 	nextAct->change( tr("&Next") );
 	prevAct->change( tr("Pre&vious") );
 
 	playAct->setIcon( Images::icon("play") );
+	pauseAct->setIcon( Images::icon("pause") );
 	nextAct->setIcon( Images::icon("next") );
 	prevAct->setIcon( Images::icon("previous") );
 
@@ -1505,6 +1511,11 @@ void Playlist::playCurrent() {
 	if (current > -1) {
 		playItem(current);
 	}
+}
+
+void Playlist::pause() {
+	qDebug("Playlist::pause");
+	emit requestToPause();
 }
 
 void Playlist::itemActivated(const QModelIndex & index ) {
