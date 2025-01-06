@@ -6024,6 +6024,9 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	if (pref->drag_function == Preferences::MoveWindow && !pref->tablet_mode) {
 		moveWindowDiff(diff);
 	}
+	else if (pref->drag_function == Preferences::PanView && !pref->tablet_mode && mplayerwindow != nullptr) {
+		mplayerwindow->moveLayer(diff.x(), diff.y());
+	}
 }
 
 void BaseGui::moveWindowDiff(QPoint diff) {

@@ -533,8 +533,13 @@ double MplayerWindow::zoom() { return zoom_factor; }
 void MplayerWindow::moveLayer( int offset_x, int offset_y ) {
 	int x = videolayer->x();
 	int y = videolayer->y();
-
-	videolayer->move( x + offset_x, y + offset_y );
+	int nx = x + offset_x;
+	int ny = y + offset_y;
+	if (nx > 0) { nx = 0; }
+	if (ny > 0) { ny = 0; }
+	if (nx < width() - videolayer->width() && videolayer->width() > width()) { nx = width() - videolayer->width(); }
+	if (ny < height() - videolayer->height() && videolayer->height() > height()) { ny = height() - videolayer->height(); }
+	videolayer->move(nx, ny);
 }
 
 void MplayerWindow::moveLeft() {
