@@ -1,0 +1,91 @@
+name: Build Windows Package - noyt
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { arch: 'x64', 'portable': false }        
+
+    runs-on: windows-latest
+    env:
+      PORTABLE: ${{ matrix.config.portable }}
+      
+    steps:
+      - name: Checkout
+        run: git clone https://github.com/smplayer-dev/smplayer-build.git .
+
+      - name: Install sources (normal)
+        uses: actions/checkout@v4
+        with:
+          path: packages/smplayer
+          fetch-depth: 0
+
+      - name: Patch
+        shell: bash
+        run: sed -i 's/^DEFINES += YOUTUBE_SUPPORT$/#DEFINES += YOUTUBE_SUPPORT/' packages/smplayer/src/smplayer.pro
+
+      - name: Install themes
+        run: |
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-themes.git packages\smplayer-themes
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-skins.git packages\smplayer-skins
+
+      - name: Install mplayer and mpv
+        run: .\uncompress_players.cmd
+
+      - name: Install Qt (64 bit)
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '5.15.2'
+          arch: 'win64_mingw81'
+          #tools: 'tools_mingw,8.1.0-1,qt.tools.win64_mingw810'
+          tools: 'tools_mingw,qt.tools.win64_mingw810'
+
+      - name: Set mingw32 path (64 bit)
+        run: echo "$env:IQTA_TOOLS\mingw810_64\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: .\compile_smplayer.cmd
+
+      - name: Install
+        run: .\install.cmd
+
+      - name: Create installer
+        run: |
+           .\nsis.cmd
+           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Rename installer
+        shell: bash
+        run: |
+           installer=${{env.PACKAGEFILENAME}}
+           filename=${installer/.exe/-noyt.exe}
+           mv packages/BUILD/output/$installer packages/BUILD/output/$filename
+           echo "PACKAGEFILENAME=$filename" >> $GITHUB_ENV
+
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: packages/BUILD/output/${{ env.PACKAGEFILENAME }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
