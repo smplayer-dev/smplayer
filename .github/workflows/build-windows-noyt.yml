@@ -59,6 +59,9 @@ jobs:
       - name: Install
         run: .\install.cmd
 
+      - name: Install yt-dlp
+        run: wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe -O packages\BUILD\smplayer-build\mpv\yt-dlp.exe
+
       - name: Create installer
         run: |
            .\nsis.cmd
