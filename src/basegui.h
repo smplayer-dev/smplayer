@@ -563,6 +563,9 @@ protected:
 	MyAction * useCustomSubStyleAct;
 	MyAction * useForcedSubsOnlyAct;
 	MyAction * subVisibilityAct;
+#ifdef MPV_SUPPORT
+	MyAction * secondarySubVisibilityAct;
+#endif
 #ifdef FIND_SUBTITLES
 	MyAction * showFindSubtitlesDialogAct;
 	MyAction * openUploadSubtitlesPageAct;//turbos  
