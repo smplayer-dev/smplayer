@@ -178,6 +178,9 @@ void Preferences::reset() {
 
 	global_speed = false;
 	speed = 1.0;
+	
+	enable_pressed_speed = true;
+	pressed_speed = 2.0;
 
 	autosync = false;
 	autosync_factor = 100;
@@ -758,6 +761,9 @@ void Preferences::save() {
 
 	set->setValue("global_speed", global_speed);
 	set->setValue("speed", speed);
+	
+	set->setValue("enable_pressed_speed", enable_pressed_speed);
+	set->setValue("pressed_speed", pressed_speed);
 
 	set->setValue("autosync", autosync);
 	set->setValue("autosync_factor", autosync_factor);
@@ -1357,6 +1363,9 @@ void Preferences::load() {
 
 	global_speed = set->value("global_speed", global_speed).toBool();
 	speed = set->value("speed", speed).toDouble();
+	
+	enable_pressed_speed = set->value("enable_pressed_speed", enable_pressed_speed).toBool();
+	pressed_speed = set->value("pressed_speed", pressed_speed).toDouble();
 
 	autosync = set->value("autosync", autosync).toBool();
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();
