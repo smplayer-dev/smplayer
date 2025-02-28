@@ -72,6 +72,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	, resize_timer(0)
 #endif
 	, delay_left_click(false)
+	, left_pressed_timer(0)
 	, left_click_timer(0)
 	, double_clicked(false)
 #if LOGO_ANIMATION
@@ -81,6 +82,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
     , drag_state(NOT_DRAGGING)
     , start_drag(QPoint(0,0))
     , mouse_drag_tracking(false)
+    , left_button_pressed_emitted(false)
 {
 	helper = new ScreenHelper(this);
 	connect(helper, SIGNAL(mouseMoved(QPoint)), this, SIGNAL(mouseMoved(QPoint)));
@@ -131,6 +133,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	left_click_timer->setSingleShot(true);
 	left_click_timer->setInterval(qApp->doubleClickInterval()+10);
 	connect(left_click_timer, SIGNAL(timeout()), this, SIGNAL(leftClicked()));
+
+	left_pressed_timer = new QTimer(this);
+	left_pressed_timer->setSingleShot(true);
+	left_pressed_timer->setInterval(qApp->doubleClickInterval()+10);
+	connect(left_pressed_timer, SIGNAL(timeout()), this, SLOT(emitLeftButtonPressed()));
 
 	retranslateStrings();
 }
@@ -334,11 +341,27 @@ void MplayerWindow::updateVideoWindow()
 }
 
 
+void MplayerWindow::mousePressEvent( QMouseEvent * e) {
+	qDebug( "MplayerWindow::mousePressEvent" );
+
+	if (e->button() == Qt::LeftButton) {
+		e->accept();
+		if (!double_clicked) left_pressed_timer->start();
+	} else {
+		e->ignore();
+	}
+}
+
 void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 	qDebug( "MplayerWindow::mouseReleaseEvent" );
 
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
+		left_pressed_timer->stop();
+		if (left_button_pressed_emitted) {
+			emit leftButtonReleased();
+			left_button_pressed_emitted = false;
+		}
 		if (delay_left_click) {
 			if (!double_clicked) left_click_timer->start();
 			double_clicked = false;
@@ -454,6 +477,13 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 
         // Stop dragging and eat event
         drag_state = NOT_DRAGGING;
+        
+        // Emit leftButtonReleased signal if we were dragging
+        if (left_button_pressed_emitted) {
+            emit leftButtonReleased();
+            left_button_pressed_emitted = false;
+        }
+        
         event->accept();
         return true;
     }
@@ -576,6 +606,12 @@ void MplayerWindow::changeEvent(QEvent *e) {
 	} else {
 		QWidget::changeEvent(e);
 	}
+}
+
+void MplayerWindow::emitLeftButtonPressed() {
+	qDebug("MplayerWindow::emitLeftButtonPressed");
+	left_button_pressed_emitted = true;
+	emit leftButtonPressed();
 }
 
 #include "moc_mplayerwindow.cpp"

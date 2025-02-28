@@ -2435,18 +2435,16 @@ void BaseGui::createMplayerWindow() {
 	panel->setLayout(layout);
 
 	// mplayerwindow
-	/*
-    connect( mplayerwindow, SIGNAL(rightButtonReleased(QPoint)),
-	         this, SLOT(showPopupMenu(QPoint)) );
-	*/
-
-	// mplayerwindow mouse events
-	connect( mplayerwindow, SIGNAL(doubleClicked()),
-             this, SLOT(doubleClickFunction()) );
-	connect( mplayerwindow, SIGNAL(leftClicked()),
-             this, SLOT(leftClickFunction()) );
+	connect( mplayerwindow, SIGNAL(leftButtonPressed()),
+             this, SLOT(leftButtonPressFunction()) );
+	connect( mplayerwindow, SIGNAL(leftButtonReleased()),
+             this, SLOT(leftButtonReleaseFunction()) );
 	connect( mplayerwindow, SIGNAL(rightClicked()),
              this, SLOT(rightClickFunction()) );
+	connect( mplayerwindow, SIGNAL(leftClicked()),
+             this, SLOT(leftClickFunction()) );
+	connect( mplayerwindow, SIGNAL(doubleClicked()),
+             this, SLOT(doubleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(middleClicked()),
              this, SLOT(middleClickFunction()) );
 	connect( mplayerwindow, SIGNAL(xbutton1Clicked()),
@@ -4901,6 +4899,25 @@ void BaseGui::leftClickFunction() {
 
 	if (!pref->mouse_left_click_function.isEmpty()) {
 		processFunction(pref->mouse_left_click_function);
+	}
+}
+
+void BaseGui::leftButtonPressFunction() {
+	qDebug("BaseGui::leftButtonPressFunction");
+	if (pref->enable_pressed_speed) {
+		double speed = pref->pressed_speed;
+		if (speed != core->mset.speed) {
+			core->setSpeed(speed);
+		}
+	}
+}
+
+void BaseGui::leftButtonReleaseFunction() {
+	qDebug("BaseGui::leftButtonReleaseFunction");
+	if (pref->enable_pressed_speed) {
+		if (core->mset.speed != 1.0) {	
+			core->setSpeed(1.0);
+		}
 	}
 }
 

@@ -147,6 +147,9 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	tabWidget->setTabEnabled(HDPI_TAB, false);
 #endif
 
+	connect(enable_pressed_speed_check, SIGNAL(toggled(bool)), pressed_speed_label, SLOT(setEnabled(bool)));
+	connect(enable_pressed_speed_check, SIGNAL(toggled(bool)), pressed_speed_spin, SLOT(setEnabled(bool)));
+
 	retranslateStrings();
 }
 
@@ -294,6 +297,9 @@ void PrefInterface::setData(Preferences * pref) {
 #endif
 	setPreciseSeeking(pref->precise_seeking);
 
+	setEnablePressedSpeed(pref->enable_pressed_speed);
+	setPressedSpeed(pref->pressed_speed);
+
 	reset_stop_check->setChecked(pref->reset_stop);
 
 	setDefaultFont(pref->default_font);
@@ -369,6 +375,9 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->relative_seeking= relativeSeeking();
 #endif
 	pref->precise_seeking = preciseSeeking();
+
+	pref->enable_pressed_speed = enablePressedSpeed();
+	pref->pressed_speed = pressedSpeed();
 
 	pref->reset_stop = reset_stop_check->isChecked();
 
@@ -595,6 +604,24 @@ void PrefInterface::setPreciseSeeking(bool b) {
 
 bool PrefInterface::preciseSeeking() {
 	return precise_seeking_check->isChecked();
+}
+
+void PrefInterface::setEnablePressedSpeed(bool b) {
+	enable_pressed_speed_check->setChecked(b);
+	pressed_speed_spin->setEnabled(b);
+	pressed_speed_label->setEnabled(b);
+}
+
+bool PrefInterface::enablePressedSpeed() {
+	return enable_pressed_speed_check->isChecked();
+}
+
+void PrefInterface::setPressedSpeed(double d) {
+	pressed_speed_spin->setValue(d);
+}
+
+double PrefInterface::pressedSpeed() {
+	return pressed_speed_spin->value();
 }
 
 void PrefInterface::setDefaultFont(QString font_desc) {
@@ -824,9 +851,15 @@ void PrefInterface::createHelp() {
 #endif
 
 	setWhatsThis(precise_seeking_check, tr("Precise seeking"),
-		tr("If this option is enabled, seeks are more accurate but they "
-           "can be a little bit slower. May not work with some video formats.") +"<br>"+
-		tr("Note: this option only works when using mpv as multimedia engine.") );
+		tr("If this option is checked, seeks are more accurate but they can be a little bit slower. "
+           "Note: this option only affects the slider behavior, it doesn't affect the seeking "
+           "by clicking on the waveform.") );
+
+	setWhatsThis(enable_pressed_speed_check, tr("Enable pressed speed"),
+		tr("If this option is checked, the playback speed will be changed when the left mouse button is pressed on the video window.") );
+
+	setWhatsThis(pressed_speed_spin, tr("Pressed speed"),
+		tr("If you hold the left mouse button in the video window, the media will be played at this speed.") );
 
 	setWhatsThis(reset_stop_check, tr("Pressing the stop button once resets the time position"),
 		tr("By default when the stop button is pressed the time position is remembered "
