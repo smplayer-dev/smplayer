@@ -1912,6 +1912,16 @@ void Playlist::removeSelected() {
 		if (current < 0) current = 0;
 		setCurrentItem(current);
 	}
+	updatePositionNumbers();
+}
+
+void Playlist::updatePositionNumbers() {
+	qDebug("Playlist::updatePositionNumbers");
+	
+	for (int n = 0; n < count(); n++) {
+		PLItem * item = itemData(n);
+		item->setPosition(n + 1);
+	}
 }
 
 void Playlist::removeAll() {
@@ -2077,6 +2087,9 @@ void Playlist::deleteSelectedFileFromDisk() {
 				if (findCurrentItem() == -1) {
 					if (current > 0) setCurrentItem(current-1); else setCurrentItem(0);
 				}
+				
+				// Update position numbers to avoid gaps
+				updatePositionNumbers();
 			} else {
 				QMessageBox::warning(this, tr("Deletion failed"),
 					tr("It wasn't possible to delete '%1'").arg(filename));
