@@ -7,7 +7,7 @@ cd ..
 
 echo Compiling create_plist
 cd Mac
-qmake && make
+qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib && make
 cd ..
 
 #echo Compiling smtube
@@ -22,7 +22,7 @@ cd src
 echo Compiling smplayer
 lrelease smplayer.pro
 #qmake DEFINES+="USE_SMTUBE_LIB"
-qmake
+qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib
 make -j$(sysctl -n hw.logicalcpu)
 #cp ../smtube/translations/*.qm smplayer.app/Contents/Resources/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/
