@@ -143,6 +143,8 @@ public slots:
 	void removeSelected();
 	void removeAll();
 
+	void updatePositionNumbers();
+
 	void addCurrentFile();
 	void addFiles();
 	void addDirectory();
