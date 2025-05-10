@@ -27,6 +27,7 @@ jobs:
 
       - name: Get version
         run: |
+            git config --global --add safe.directory .
             ./get_version.sh
             VERSION=`cat version`
             echo "VERSION=$VERSION" >> $GITHUB_ENV
