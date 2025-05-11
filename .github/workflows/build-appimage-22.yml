@@ -1,0 +1,119 @@
+name: Build Appimage (Ubuntu 22)
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          #- { os: 'ubuntu-latest', container: 'wachii/xenial-qt:5.14.0', qt: '5.14', distro: 'xenial' }
+          - { os: 'ubuntu-22.04', container: '', qt: '5.15.3',  distro: 'jammy'}
+
+    runs-on: ${{matrix.config.os}}
+    container: ${{matrix.config.container}}
+
+    steps:
+      - name: Install sources
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: smplayer
+          repository: smplayer-dev/smplayer
+
+      - name: Install linuxdeployqt
+        if: ${{ matrix.config.os == 'ubuntu-22.04' }}
+        run: |
+            wget https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage -O linuxdeployqt
+            sudo mv linuxdeployqt /usr/local/bin/
+            sudo chmod 755 /usr/local/bin/linuxdeployqt
+
+      - name: Install development packages
+        if: ${{ matrix.config.os == 'ubuntu-22.04' }}
+        run: |
+            sudo apt-get update
+            sudo apt-get -y install qtbase5-dev qt5-qmake libqt5opengl5-dev qttools5-dev-tools qtbase5-private-dev qtdeclarative5-dev
+            #sudo apt-get -y install libqt5webkit5-dev
+            sudo apt-get -y install libxcb-xinerama0 libgl1-mesa-dev
+
+      - name: Get version
+        run: |
+            cd smplayer
+            ./get_version.sh
+            VERSION=`cat version`
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Download smtube
+        if: ${{false}}
+        run: |
+            git clone https://github.com/smplayer-dev/smtube.git smtube
+            echo "USE_SMTUBE_LIB=1" >> $GITHUB_ENV
+
+      - name: Install themes
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-themes.git smplayer-themes
+            cd smplayer-themes
+            make
+            make install THEMES_PATH=../smplayer/appdir/usr/bin/themes
+
+      - name: Install skins
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-skins.git smplayer-skins
+            cd smplayer-skins
+            make
+            make install THEMES_PATH=../smplayer/appdir/usr/bin/themes
+
+      - name: Compile smplayer
+        run: |
+            cd smplayer
+            ./compile_appimage.sh
+
+      - name: Install mpv
+        run: |
+            wget https://github.com/smplayer-dev/mpv/releases/download/v0.36.0/mpv-mod_0.36.0-1.jammy_amd64.deb
+            sudo apt-get -y install ./mpv*.deb --no-install-recommends
+            cp /usr/bin/mpv smplayer/appdir/usr/bin/
+
+      - name: Install mplayer
+        #if: ${{false}}
+        run: |
+            wget https://github.com/smplayer-dev/mplayer-mod/releases/download/v1.5-110/mplayer-mod_1.5-1.jammy_amd64.deb
+            sudo apt-get -y install ./mplayer*.deb --no-install-recommends
+            cp /usr/bin/mplayer smplayer/appdir/usr/bin
+
+      - name: Install openssl
+        if: ${{ matrix.config.distro == 'xenial' }}
+        run: |
+            mkdir -p smplayer/appdir/usr/lib/
+            cp -a /usr/local/ssl/lib/lib*.so* smplayer/appdir/usr/lib/
+
+      - name: Create package
+        run: |
+            cd smplayer
+            linuxdeployqt appdir/usr/share/applications/smplayer.desktop \
+                          -executable=appdir/usr/bin/mpv \
+                          -executable=appdir/usr/bin/mplayer \
+                          -bundle-non-qt-libs \
+                          -exclude-libs=libgmodule-2.0.so.0 \
+                          -appimage --appimage-extract-and-run
+
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: smplayer-${{env.VERSION}}-qt${{matrix.config.qt}}
+          path: smplayer/*.AppImage
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./smplayer/*.AppImage
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
