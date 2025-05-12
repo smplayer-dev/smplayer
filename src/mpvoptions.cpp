@@ -360,6 +360,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	else
 	if (option_name == "ass-line-spacing") {
 		QString line_spacing = "--ass-line-spacing";
+		if (isOptionAvailable("--sub-line-spacing")) line_spacing = "--sub-line-spacing";
+		else
 		if (isOptionAvailable("--sub-ass-line-spacing")) line_spacing = "--sub-ass-line-spacing";
 		arg << line_spacing + "=" + value.toString();
 	}
