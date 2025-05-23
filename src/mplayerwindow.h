@@ -123,6 +123,7 @@ public slots:
 	void moveRight();
 	void moveUp();
 	void moveDown();
+	void moveLayer( int offset_x, int offset_y );
 	void incZoom();
 	void decZoom();
 
@@ -141,7 +142,6 @@ protected:
 	virtual void mouseReleaseEvent( QMouseEvent * e);
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
 	virtual void wheelEvent( QWheelEvent * e );
-	void moveLayer( int offset_x, int offset_y );
 
 signals:
     //void rightButtonReleased( QPoint p );
