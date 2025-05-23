@@ -259,6 +259,9 @@ public:
 	bool use_forced_subs_only;
 
 	bool sub_visibility;
+#ifdef MPV_SUPPORT
+	bool secondary_sub_visibility;
+#endif
 
 	bool subtitles_on_screenshots;
 
