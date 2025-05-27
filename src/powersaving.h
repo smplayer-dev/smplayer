@@ -22,6 +22,8 @@
 #include <QObject>
 #include <QList>
 
+#define SWAYIDLE_SUPPORT
+
 class QDBusInterface;
 
 class PowerSaving : public QObject
@@ -37,8 +39,12 @@ public slots:
 	void uninhibit();
 
 protected:
+	bool is_inhibited;
 	QDBusInterface * interface;
 	QList<uint> cookies;
+	#ifdef SWAYIDLE_SUPPORT
+	QString swayidle_cmd;
+	#endif
 };
 
 #endif
