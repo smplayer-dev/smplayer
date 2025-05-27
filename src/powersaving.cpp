@@ -21,7 +21,25 @@
 #include <QDBusInterface>
 #include <QDBusReply>
 #include <QProcess>
+#include <QFile>
 #include <QDebug>
+
+#ifdef SWAYIDLE_SUPPORT
+QStringList getCommandLineFromPid(qint64 pid) {
+	QFile file(QString("/proc/%1/cmdline").arg(pid));
+	QStringList args;
+	if (file.open(QIODevice::ReadOnly)) {
+		QByteArray raw = file.readAll();
+		QList<QByteArray> parts = raw.split('\0');
+		for (const QByteArray &part : parts) {
+			if (!part.isEmpty()) {
+				args << QString::fromUtf8(part);
+			}
+		}
+	}
+	return args;
+}
+#endif
 
 PowerSaving::PowerSaving(QObject * parent)
 	: QObject(parent),
@@ -38,21 +56,20 @@ PowerSaving::PowerSaving(QObject * parent)
 	#ifdef SWAYIDLE_SUPPORT
 	// swayidle (wayland)
 	QProcess detect;
-	detect.start("pgrep", QStringList() << "-af" << "swayidle");
+	detect.start("pgrep", QStringList() << "-n" << "swayidle");
 	detect.waitForFinished();
-	QString output = QString::fromUtf8(detect.readAllStandardOutput());
+	QString output = QString::fromUtf8(detect.readAllStandardOutput()).trimmed();
 	if (!output.isEmpty()) {
-		QString line = output.section('\n', 0, 0);
-		QStringList l = line.split(" ");
-		if (l.count() > 3 && l[1].contains("sh") && l[2] == "-c") {
-			l = l.mid(3);
-			swayidle_cmd = l.join(" ");
-			qDebug() << "PowerSaving::PowerSaving: swayidle_cmd:" << swayidle_cmd;
+		qint64 pid = output.toLongLong();
+		QStringList args = getCommandLineFromPid(pid);
+		if (!args.isEmpty() && args[0].contains("swayidle")) {
+			swayidle_args = args.mid(1);
+			qDebug() << "PowerSaving::PowerSaving: swayidle args:" << swayidle_args;
 		} else {
-			qDebug("PowerSaving::PowerSaving: swayidle invalid");
+			qDebug("PowerSaving::PowerSaving: swayidle not valid");
 		}
-	} else{
-		qDebug() << "PowerSaving::PowerSaving: swayidle not running";
+	} else {
+		qDebug("PowerSaving::PowerSaving: swayidle not running");
 	}
 	#endif
 }
@@ -77,7 +94,7 @@ void PowerSaving::inhibit() {
 
 	#ifdef SWAYIDLE_SUPPORT
 	// swayidle
-	if (!swayidle_cmd.isEmpty()) {
+	if (!swayidle_args.isEmpty()) {
 		QProcess::execute("pkill", QStringList() << "swayidle");
 		is_inhibited = true;
 	}
@@ -102,9 +119,9 @@ void PowerSaving::uninhibit() {
 
 	#ifdef SWAYIDLE_SUPPORT
 	// swayidle
-	if (!swayidle_cmd.isEmpty()) {
-		bool ok = QProcess::startDetached("sh", QStringList() << "-c" << swayidle_cmd);
-		qDebug() << QString("PowerSaving::uninhibit: running command sh -c %1").arg(swayidle_cmd);
+	if (!swayidle_args.isEmpty()) {
+		bool ok = QProcess::startDetached("swayidle", swayidle_args);
+		qDebug() << QString("PowerSaving::uninhibit: running command swayidle %1").arg(swayidle_args.join(" "));
 		if (ok) is_inhibited = false;
 	}
 	#endif

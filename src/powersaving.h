@@ -43,7 +43,7 @@ protected:
 	QDBusInterface * interface;
 	QList<uint> cookies;
 	#ifdef SWAYIDLE_SUPPORT
-	QString swayidle_cmd;
+	QStringList swayidle_args;
 	#endif
 };
 
