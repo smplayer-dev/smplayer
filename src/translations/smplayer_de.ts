@@ -5406,7 +5406,7 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../playlist.cpp" line="1420"/>
         <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation>Es war nicht möglich '%1' zu laden.
+        <translation>Es war nicht möglich &apos;%1&apos; zu laden.
 Der Dateiname der Wiedergabeliste muss eine bestimmten Endung haben, z. B. „.pls“, „.xspf“ oder „.m3u“. &apos;%2&apos; wird nicht unterstützt. Bitte nochmal eine Auswahl treffen !</translation>
     </message>
     <message>

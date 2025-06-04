@@ -181,7 +181,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
         <source>Type to search</source>
-        <translation type="unfinished"/>
+        <translation>검색할 내용을 입력하세요</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="516"/>
@@ -798,7 +798,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1873"/>
         <source>D&amp;ownload subtitles from %1...</source>
-        <translation type="unfinished"/>
+        <translation>%1에서 자막 다운로드</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
@@ -835,17 +835,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4633"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>PayPal로 기부하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4634"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"/>
+        <translation>나중에</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4637"/>
         <source>&amp;No</source>
-        <translation type="unfinished"/>
+        <translation>아니요</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5165"/>
@@ -1038,7 +1038,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
         <source>Upload su&amp;btitles to %1...</source>
-        <translation type="unfinished"/>
+        <translation>%1에 자막 업로드하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -1064,12 +1064,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
         <source>Update &amp;YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>유튜브 지원 관련 업데이트</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
         <source>Install / Update &amp;YouTube support</source>
-        <translation type="unfinished"/>
+        <translation>유튜브 지원 설치/업데이트</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -1155,12 +1155,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1974"/>
         <source>Previous video</source>
-        <translation type="unfinished"/>
+        <translation>이전 동영상</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1976"/>
         <source>Previous audio</source>
-        <translation type="unfinished"/>
+        <translation>이전 오디오</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
@@ -1170,7 +1170,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
         <source>Previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation>이전 자막</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
@@ -1256,7 +1256,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2126"/>
         <source>Rotate by 1&amp;80 degrees</source>
-        <translation type="unfinished"/>
+        <translation>180도 회전</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2140"/>
@@ -1346,7 +1346,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3356"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
-        <translation type="unfinished"/>
+        <translation>변경된 설정을 적용하기 위해 SMPlayer를 재시작해야 합니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
@@ -1381,17 +1381,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5166"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation>라이브러리가 설치되지 않아서 youtube-dl 실행에 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5167"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation>%1을 설치해야 합니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5169"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation>Microsoft Visual C++ 2010 재배포 가능 패키지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6160"/>
@@ -1414,7 +1414,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4649"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation>암호화폐로 후원할 수도 있습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6192"/>
@@ -2004,17 +2004,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="386"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"/>
+        <translation>다음으로 전송:</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="389"/>
         <source>&amp;Chromecast</source>
-        <translation type="unfinished"/>
+        <translation>크롬캐스트</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="391"/>
         <source>&amp;Smartphone/tablet</source>
-        <translation type="unfinished"/>
+        <translation>스마트폰/태블릿</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="396"/>
@@ -2195,12 +2195,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../chromecast.cpp" line="91"/>
         <source>The SMPlayer web server is running</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer 웹 서버가 실행 중입니다</translation>
     </message>
     <message>
         <location filename="../chromecast.cpp" line="93"/>
         <source>&amp;Stop the SMPlayer web server</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer 웹 서버 중지</translation>
     </message>
 </context>
 <context>
@@ -2208,48 +2208,48 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="50"/>
         <source>Downloading...</source>
-        <translation type="unfinished"/>
+        <translation>다운로드 중</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="77"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation>%1에 연결 중</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="146"/>
         <source>The YouTube code has been installed successfully.</source>
-        <translation type="unfinished"/>
+        <translation>유튜브 코드가 성공적으로 설치되었습니다.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="147"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation>설치된 버전: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="148"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation>성공</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="153"/>
         <location filename="../youtube/codedownloader.cpp" line="158"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="153"/>
         <source>It&apos;s not possible to save %1.</source>
-        <translation type="unfinished"/>
+        <translation>&apos;%1&apos; 파일을 저장할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="158"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation>다음 파일 다운로드 중에 오류가 발생했습니다:&lt;br&gt;%1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"/>
+        <translation>이 비디오의 URL을 찾지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>

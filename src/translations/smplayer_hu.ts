@@ -3089,13 +3089,13 @@ Példa: extrastereo,karaoke </translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"/>
+        <translation>Hiba: napi kvóta átlépve</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"/>
+        <translation>Hátralévő letöltések: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -5557,7 +5557,7 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"/>
+        <translation>Használja a stop-képer&amp;nyőkímélő opciót</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6088,17 +6088,17 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Válasszon egy CD eszközt vagy ISO fájlt</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Válasszon egy DVD eszközt vagy ISO fájlt</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Válasszon egy Blu-ray eszközt vagy ISO fájlt</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>

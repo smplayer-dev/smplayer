@@ -662,7 +662,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
         <source>&amp;Mute</source>
-        <translation>&amp;Приглушить звук</translation>
+        <translation>&amp;Заглушить звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
@@ -1105,7 +1105,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1961"/>
         <source>Exit fullscreen</source>
-        <translation>Выйти из полного экрана</translation>
+        <translation>Покинуть полный экран</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1963"/>
@@ -1160,7 +1160,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1976"/>
         <source>Previous audio</source>
-        <translation>Предыдущее аудио</translation>
+        <translation>Предыдущая звуковая дорожка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
@@ -1170,7 +1170,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
         <source>Previous subtitle</source>
-        <translation>Предыдущие субтитры</translation>
+        <translation>Предыдущий субтитр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
@@ -5206,7 +5206,7 @@ Do you want to overwrite?</source>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Файл %1 уже существует.
-Перезаписать?</translation>
+Хотите перезаписать?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1401"/>
@@ -6263,7 +6263,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1129"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation>Например %1 сохранит снимок как &apos;имяфильма_0001.png&apos;.</translation>
+        <translation>Например, %1 сохранит снимок как «имяфильма_0001.png».</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -8148,7 +8148,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation>Замечание: эта опция работает только при использовании движка воспроизведения MPV.</translation>
+        <translation>Замечание: этот параметр работает только при использовании движка мультимедиа MPV.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="831"/>
@@ -10493,7 +10493,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../sharewidget.cpp" line="115"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation>Поделиться SMPlayer через Твиттер</translation>
+        <translation>Поделиться SMPlayer в Твиттер</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="117"/>

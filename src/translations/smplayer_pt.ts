@@ -3086,13 +3086,13 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"/>
+        <translation>Erro: quota diária excedida</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"/>
+        <translation>Descargas restantes: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -5556,7 +5556,7 @@ O nome do ficheiro da lista de reprodução tem de terminar com um sufixo espec�
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"/>
+        <translation>Utilizar a opção de parar a prote&amp;ção de ecrã</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6087,17 +6087,17 @@ O nome do ficheiro da lista de reprodução tem de terminar com um sufixo espec�
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar um dispositivo de CD ou um ficheiro ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar um dispositivo de DVD ou um ficheiro ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar um dispositivo de Blu-ray ou um ficheiro ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>

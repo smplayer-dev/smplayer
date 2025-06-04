@@ -448,7 +448,7 @@ Voulez-vous l&apos;écraser ?</translation>
     <message>
         <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD depuis un lecteur</translation>
+        <translation>&amp;DVD depuis le lecteur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
@@ -973,7 +973,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation>&amp;Blu-ray depuis un disque</translation>
+        <translation>&amp;Blu-ray depuis le lecteur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
@@ -3086,13 +3086,13 @@ Exemple : extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"/>
+        <translation>Erreur : quota quotidien dépassé</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"/>
+        <translation>Téléchargements restants : %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -5556,7 +5556,7 @@ Le nom de fichier de la liste de lecture doit se terminer avec un suffixe partic
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"/>
+        <translation>Utiliser l&apos;option stop-screensa&amp;ver</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6088,17 +6088,17 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Choisir un lecteur CD ou un fichier ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Choisir un lecteur DVD ou un fichier ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation>Choisir un lecteur Blu-ray ou un fichier ISO</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -9429,7 +9429,7 @@ Sinon, il utilisera celui qui est intégré.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Sélectionnez cette option si vous voulez ajouter un répertoire qui ajoutera récursivement les fichiers des sous-répertoires. Autrement, seulement les fichiers des dossiers sélectionnées seront ajoutés.</translation>
+        <translation>Sélectionnez cette option si vous voulez aussi ajouter récursivement les fichiers des sous-répertoires lorsqu&apos;un dossier est ajouté. Autrement, seuls les fichiers du dossier sélectionné seront ajoutés.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="228"/>
