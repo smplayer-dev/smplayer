@@ -150,8 +150,6 @@ void Preferences::reset() {
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
-	wayland_workarounds = true;
-
 	vdpau.ffh264vdpau = true;
 	vdpau.ffmpeg12vdpau = true;
 	vdpau.ffwmv3vdpau = true;
@@ -736,8 +734,6 @@ void Preferences::save() {
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
-	set->setValue("wayland_workarounds", wayland_workarounds);
-
 	set->setValue("vdpau_ffh264vdpau", vdpau.ffh264vdpau);
 	set->setValue("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau);
 	set->setValue("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau);
@@ -1337,8 +1333,6 @@ void Preferences::load() {
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
-	wayland_workarounds = set->value("wayland_workarounds", wayland_workarounds).toBool();
-
 	vdpau.ffh264vdpau = set->value("vdpau_ffh264vdpau", vdpau.ffh264vdpau).toBool();
 	vdpau.ffmpeg12vdpau = set->value("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau).toBool();
 	vdpau.ffwmv3vdpau = set->value("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau).toBool();

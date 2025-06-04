@@ -409,13 +409,6 @@
         </layout>
        </item>
        <item>
-        <widget class="QCheckBox" name="wayland_check">
-         <property name="text">
-          <string>Wa&amp;yland support</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="Line" name="line_5">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">

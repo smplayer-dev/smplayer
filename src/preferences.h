@@ -123,8 +123,6 @@ public:
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
-	bool wayland_workarounds;
-
 	struct VDPAU_settings {
 		bool ffh264vdpau;
 		bool ffmpeg12vdpau;

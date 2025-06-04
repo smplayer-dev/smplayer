@@ -91,7 +91,6 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #ifndef OS_UNIX_NOT_MAC
-	wayland_check->hide();
 	vdpau_button->hide();
 #endif
 
@@ -299,9 +298,6 @@ void PrefGeneral::setData(Preferences * pref) {
 	#ifdef SCREENSAVER_OFF
 	setDisableScreensaver( pref->disable_screensaver );
 	#endif
-	#ifdef OS_UNIX_NOT_MAC
-	wayland_check->setChecked(pref->wayland_workarounds);
-	#endif
 #endif
 
 #ifdef OS_UNIX_NOT_MAC
@@ -452,12 +448,6 @@ void PrefGeneral::getData(Preferences * pref) {
 #else
 	#ifdef SCREENSAVER_OFF
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
-	#endif
-	#ifdef OS_UNIX_NOT_MAC
-	if (pref->wayland_workarounds != wayland_check->isChecked()) {
-		requires_restart = true;
-		pref->wayland_workarounds = wayland_check->isChecked();
-	}
 	#endif
 #endif
 
@@ -1021,10 +1011,6 @@ void PrefGeneral::player_combo_changed(int idx) {
 		player_spacer->changeSize(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 		mplayerbin_edit->setVisible(false);
 	}
-
-	#ifdef OS_UNIX_NOT_MAC
-	//wayland_check->setVisible(mplayerPath().contains("mpv"));
-	#endif
 }
 #endif
 
@@ -1175,9 +1161,6 @@ void PrefGeneral::createHelp() {
 		tr("Usually video filters won't work when using vdpau as video output "
            "driver, so it's wise to keep this option checked.") );
 	*/
-
-	setWhatsThis(wayland_check, tr("Wayland support"),
-		tr("This activates some options to prevent the video being displayed outside the main window."));
 #endif
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
