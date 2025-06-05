@@ -28,7 +28,7 @@ ${LangFileString} WelcomePage_Text "Мастер установки поможе
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Ярлыки"
 ${LangFileString} MPlayerGroupTitle "Компоненты MPlayer"
-${LangFileString} MPlayerMPVGroupTitle "Движок воспроизведения"
+${LangFileString} MPlayerMPVGroupTitle "Движок мультимедиа"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (требуется)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, разделяемые библиотеки и документация."
@@ -42,7 +42,7 @@ ${LangFileString} Section_StartMenu_Desc "Создаёт ярлыки SMPlayer �
 ${LangFileString} Section_MPlayer "MPlayer (требуется)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer, требуется для воспроизведения."
 
-${LangFileString} Section_MPlayerCodecs "Бинарные кодеки"
+${LangFileString} Section_MPlayerCodecs "Двоичные кодеки"
 !ifdef WIN64
 ${LangFileString} Section_MPlayerCodecs_Desc "Бинарные кодеки не поддерживаются в этой версии."
 !else
@@ -56,8 +56,8 @@ ${LangFileString} Section_YTDL_Desc "Позволяет воспроизводи
 
 ${LangFileString} Section_MEncoder_Desc "Сопутствующая MPlayer программа, которую можно использовать для кодирования и преобразования поддерживаемых аудио и видео потоков."
 
-${LangFileString} Section_IconThemes "Темы иконок"
-${LangFileString} Section_IconThemes_Desc "Дополнительные темы иконок для SMPlayer."
+${LangFileString} Section_IconThemes "Темы значков"
+${LangFileString} Section_IconThemes_Desc "Дополнительные темы значков для SMPlayer."
 
 ${LangFileString} Section_Translations "Переводы"
 ${LangFileString} Section_Translations_Desc "Языковые файлы SMPlayer помимо английского."
@@ -75,8 +75,8 @@ ${LangFileString} Reinstall_Msg2 "Выберите метод:"
 ${LangFileString} Reinstall_Overwrite "Перезаписать ($Inst_Type) существующую установку"
 ${LangFileString} Reinstall_Uninstall "Удалить существующую установку"
 ${LangFileString} Reinstall_Msg3_1 "Щёлкните «Начать» для продолжения."
-${LangFileString} Reinstall_Msg3_2 "Нажмите «Далее» для продолжения."
-${LangFileString} Reinstall_Msg3_3 "Нажмите «Удалить» для продолжения."
+${LangFileString} Reinstall_Msg3_2 "Щёлкните «Далее» для продолжения."
+${LangFileString} Reinstall_Msg3_3 "Щёлкните «Удалить» для продолжения."
 ${LangFileString} Reinstall_Msg4 "Изменить настройки установки"
 ${LangFileString} Reinstall_Msg5 "Сбросить настройки SMPlayer"
 
@@ -137,4 +137,4 @@ ${LangFileString} SMTube_Incompatible_Msg2 "Пожалуйста, обновит
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Очистка кэша шрифтов..."
-${LangFileString} Info_Cleaning_SMPlayer "Очистка настроек SMPlayer..."
+${LangFileString} Info_Cleaning_SMPlayer "Очищаются настройки SMPlayer…"
