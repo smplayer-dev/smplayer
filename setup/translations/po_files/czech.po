@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Appukonrad <appukonrad@gmail.com>, 2025
 # Petr Šimáček <petr.simacek@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2021-07-19 14:21+0000\n"
-"Last-Translator: Ricardo Villalba <ricardo@smplayer.info>\n"
-"Language-Team: Czech (http://www.transifex.com/rvm/smplayer/language/cs/)\n"
+"PO-Revision-Date: 2014-02-24 03:07+0000\n"
+"Last-Translator: Appukonrad <appukonrad@gmail.com>, 2025\n"
+"Language-Team: Czech (http://app.transifex.com/rvm/smplayer/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,11 +134,11 @@ msgstr "Funkcemi nabitý fork MPlayeru && MPlayeru2"
 
 # Section_YTDL
 msgid "Youtube support (download required)"
-msgstr ""
+msgstr "Podpora Youtube (vyžadováno stažení)"
 
 # Section_YTDL_Desc
 msgid "Provides the possibility to play Youtube videos."
-msgstr ""
+msgstr "Poskytuje možnost přehrávat videa z Youtube."
 
 # Section_MEncoder_Desc
 msgid ""
@@ -364,21 +365,21 @@ msgstr "Kontrolování aktualizací pro youtube-dl..."
 
 # YTDL_Error_Msg1
 msgid "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
-msgstr ""
+msgstr "Upozornění: youtube-dl byl ukončen abnormálně s kódem ukončení: $YTDL_Exit_code"
 
 # YTDL_Error_Msg2
 msgid "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
-msgstr ""
+msgstr "Pro youtube-dl je vyžadován Visual C++ 2010 Runtime (x86)."
 
 # SMTube_Incompatible_Msg1
 msgid ""
 "The current SMTube installation is incompatible with this version of "
 "SMPlayer."
-msgstr ""
+msgstr "Aktuální instalace SMTube není kompatibilní s touto verzí SMPlayeru."
 
 # SMTube_Incompatible_Msg2
 msgid "Please upgrade to a newer version of SMTube."
-msgstr ""
+msgstr "Přejděte prosím na novější verzi SMTube."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
@@ -390,4 +391,4 @@ msgstr "Čištění nastavení SMPlayeru..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "Binární kodeky nejsou v této verzi podporovány."

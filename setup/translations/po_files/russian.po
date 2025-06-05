@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andrei Stepanov, 2014-2017,2021-2023
+# Andrei Stepanov, 2014-2017,2021-2023,2025
 # 28532b02ca9d20d69a31703daeea0bda_3873b52 <a8117a72c21fe4a094910f3a12007a5f_154053>, 2014
 # Simple88, 2016
 # Andrei Stepanov, 2014
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
 "PO-Revision-Date: 2014-02-24 03:07+0000\n"
-"Last-Translator: Andrei Stepanov, 2014-2017,2021-2023\n"
+"Last-Translator: Andrei Stepanov, 2014-2017,2021-2023,2025\n"
 "Language-Team: Russian (http://app.transifex.com/rvm/smplayer/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +87,7 @@ msgstr "Компоненты MPlayer"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr "Движок воспроизведения"
+msgstr "Движок мультимедиа"
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
@@ -123,7 +123,7 @@ msgstr "MPlayer, требуется для воспроизведения."
 
 # Section_MPlayerCodecs
 msgid "Binary Codecs"
-msgstr "Бинарные кодеки"
+msgstr "Двоичные кодеки"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -150,11 +150,11 @@ msgstr "Сопутствующая MPlayer программа, которую м
 
 # Section_IconThemes
 msgid "Icon Themes"
-msgstr "Темы иконок"
+msgstr "Темы значков"
 
 # Section_IconThemes_Desc
 msgid "Additional icon themes for SMPlayer."
-msgstr "Дополнительные темы иконок для SMPlayer."
+msgstr "Дополнительные темы значков для SMPlayer."
 
 # Section_Translations
 msgid "Languages"
@@ -206,11 +206,11 @@ msgstr "Щёлкните «Начать» для продолжения."
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
-msgstr "Нажмите «Далее» для продолжения."
+msgstr "Щёлкните «Далее» для продолжения."
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr "Нажмите «Удалить» для продолжения."
+msgstr "Щёлкните «Удалить» для продолжения."
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
@@ -389,7 +389,7 @@ msgstr "Очистка кэша шрифтов..."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr "Очистка настроек SMPlayer..."
+msgstr "Очищаются настройки SMPlayer…"
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
