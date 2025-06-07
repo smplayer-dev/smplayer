@@ -154,6 +154,10 @@ public:
 	bool global_speed;
 	double speed;
 
+	// Pressed speed
+	bool enable_pressed_speed;
+	double pressed_speed;
+
 	bool autosync;
 	int autosync_factor;
 
