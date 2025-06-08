@@ -1,3 +1,12 @@
+smplayer (25.6.0) jammy; urgency=medium
+
+  * Fix play/pause button.
+  * Some fixes to stop the screensaver on Linux.
+  * Fixed some issues related to disc playback.
+  * Various bug fixes and stability improvements.
+
+ -- Ricardo <ricardo@smplayer.info>  Sun, 08 Jun 2025 13:03:21 +0200
+
 smplayer (24.5.0) jammy; urgency=medium
 
   * Bug fixes.

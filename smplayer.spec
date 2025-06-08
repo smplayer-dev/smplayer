@@ -3,7 +3,7 @@
 %endif
 
 Name:           smplayer
-Version:        24.5.0
+Version:        25.6.0
 %global smplayer_themes_ver 20.11.0
 %global smplayer_skins_ver 20.11.0
 Release:        1%{?dist}
