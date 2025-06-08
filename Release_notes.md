@@ -1,10 +1,10 @@
 # Changelog
 
-## [25.06] - 2026-06-05
+## [25.06] - 2025-06-08
  * Fix play/pause button.
  * Some fixes to stop the screensaver on Linux.
- * Some fixes regarding discs playback.
- * Bugfixes.
+ * Fixed some issues related to disc playback.
+ * Various bug fixes and stability improvements.
 
 ## [24.05] - 2024-05-13
  * Bug fixes.
