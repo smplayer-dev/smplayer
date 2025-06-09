@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2024 Ricardo Villalba <ricardo@smplayer.info>
+    Copyright (C) 2006-2025 Ricardo Villalba <ricardo@smplayer.info>
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
