@@ -175,6 +175,7 @@ void MPVProcess::initializeRX() {
 	rx_chaptername.setPattern("INFO_CHAPTER_(\\d+)_NAME=(.*)");
 	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
 	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
+	rx_vo.setPattern("^VO: \\[(.*)\\]");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
@@ -281,6 +282,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 		int w = rx_dsize.cap(1).toInt();
 		int h = rx_dsize.cap(2).toInt();
 		emit receivedWindowResolution( w, h );
+	}
+	else
+	// VO
+	if (rx_vo.indexIn(line) > -1) {
+		//emit receivedVO( rx_vo.cap(1) );
+		// Ask for window resolution
+		sendCommand("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
 	}
 	else
 	if (rx_dvdtitles.indexIn(line) > -1) {

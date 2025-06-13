@@ -233,11 +233,12 @@ void MplayerWindow::changePolicy() {
 
 void MplayerWindow::setResolution( int w, int h)
 {
-    video_width = w;
-    video_height = h;
+	qDebug() << "MplayerWindow::setResolution" << w << h;
+	video_width = w;
+	video_height = h;
 
-    //videolayer->move(1,1);
-    updateVideoWindow();
+	//videolayer->move(1,1);
+	updateVideoWindow();
 }
 
 
@@ -272,7 +273,8 @@ void MplayerWindow::setMonitorAspect(double asp) {
 }
 
 void MplayerWindow::setAspect( double asp) {
-    aspect = asp;
+	qDebug() << "MplayerWindow::setAspect" << asp;
+	aspect = asp;
 	if (monitoraspect!=0) {
 		aspect = aspect / monitoraspect * DesktopInfo::desktop_aspectRatio(this);
 	}

@@ -303,6 +303,7 @@ private:
 	QRegExp rx_chaptername;
 	QRegExp rx_trackinfo;
 	QRegExp rx_dsize;
+	QRegExp rx_vo;
 	QRegExp rx_notification;
 	QRegExp rx_endfile;
 	QRegExp rx_dvdtitles;
