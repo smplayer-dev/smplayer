@@ -870,6 +870,12 @@ void BaseGui::createActions() {
 	subVisibilityAct->setCheckable(true);
 	connect( subVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSubVisibility(bool)) );
 
+#ifdef MPV_SUPPORT
+	secondarySubVisibilityAct = new MyAction(this, "secondary_sub_visibility");
+	secondarySubVisibilityAct->setCheckable(true);
+	connect( secondarySubVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSecondarySubVisibility(bool)) );
+#endif
+
 #ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct = new MyAction( this, "show_find_sub_dialog" );
 	connect( showFindSubtitlesDialogAct, SIGNAL(triggered()), 
@@ -1868,6 +1874,9 @@ void BaseGui::retranslateStrings() {
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
 	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
+#ifdef MPV_SUPPORT
+	secondarySubVisibilityAct->change( Images::icon("sub2_visibility"), tr("Secondary subtitle visibilit&y") );
+#endif
 
 #ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("D&ownload subtitles from %1...").arg("OpenSubtitles.com") );
@@ -3002,6 +3011,9 @@ void BaseGui::populateMainMenu() {
 		subtitlesMenu->addSeparator();
 	}
 	subtitlesMenu->addAction(subVisibilityAct);
+	#ifdef MPV_SUPPORT
+	subtitlesMenu->addAction(secondarySubVisibilityAct);
+	#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useCustomSubStyleAct);
 	#ifdef FIND_SUBTITLES
@@ -4027,6 +4039,9 @@ void BaseGui::updateWidgets() {
 
 	// Subtitle visibility
 	subVisibilityAct->setChecked(pref->sub_visibility);
+#ifdef MPV_SUPPORT
+	secondarySubVisibilityAct->setChecked(pref->secondary_sub_visibility);
+#endif
 
 	// Enable or disable subtitle options
 	bool e = ((core->mset.current_subtitle_track != MediaSettings::SubNone) &&

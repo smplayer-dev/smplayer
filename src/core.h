@@ -275,6 +275,9 @@ public slots:
 	void decSubStep();
 
 	void changeSubVisibility(bool visible);
+#ifdef MPV_SUPPORT
+	void changeSecondarySubVisibility(bool visible);
+#endif
 
 	void changeExternalSubFPS(int fps_id);
 

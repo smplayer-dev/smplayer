@@ -1265,6 +1265,9 @@ void Core::finishRestart() {
 
 	// Toggle subtitle visibility
 	changeSubVisibility(pref->sub_visibility);
+#ifdef MPV_SUPPORT
+	changeSecondarySubVisibility(pref->secondary_sub_visibility);
+#endif
 
 	// A-B marker
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -3705,6 +3708,17 @@ void Core::changeSubVisibility(bool visible) {
 	else
 		displayMessage( tr("Subtitles off") );
 }
+
+#ifdef MPV_SUPPORT
+void Core::changeSecondarySubVisibility(bool visible) {
+	qDebug("Core::changeSecondarySubVisibility: %d", visible);
+	pref->secondary_sub_visibility = visible;
+
+	if (proc->isRunning()) {
+		proc->setSecondarySubtitlesVisibility(pref->secondary_sub_visibility);
+	}
+}
+#endif
 
 void Core::changeExternalSubFPS(int fps_id) {
 	qDebug("Core::setExternalSubFPS: %d", fps_id);
