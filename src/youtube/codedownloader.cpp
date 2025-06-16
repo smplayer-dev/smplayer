@@ -194,7 +194,7 @@ void CodeDownloader::askAndDownload(QWidget * parent, ErrorMessage e, const QStr
 		#if defined(_WIN64)
 		url = "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe";
 		#else
-		url = "https://github.com/nicolaasjan/yt-dlp/releases/latest/download/yt-dlp_win7.exe";
+		url = "https://github.com/nicolaasjan/yt-dlp/releases/latest/download/yt-dlp_x86_win7.exe";
 		#endif
 		output_file = "yt-dlp.exe";
 	} else {
