@@ -2530,8 +2530,8 @@ void BaseGui::createPlaylist() {
 	connect( playlist, SIGNAL(playlistEnded()),
              mplayerwindow, SLOT(showLogo()) );
 
-	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
-            core, SLOT(open(const QString &, int)));
+	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int, int)),
+            core, SLOT(open(const QString &, int, int)));
 
 	connect(playlist, SIGNAL(requestToPlayStream(const QString &, QStringList)),
             core, SLOT(openStream(const QString &, QStringList)));
@@ -5432,7 +5432,7 @@ void BaseGui::playlistHasFinished() {
 void BaseGui::addToPlaylistCurrentFile() {
 	qDebug("BaseGui::addToPlaylistCurrentFile");
 	if (!core->mdat.filename.isEmpty()) {
-		playlist->addItem(core->mdat.filename, "", 0);
+		playlist->addItem(core->mdat.filename, "", 0, core->mset.A_marker, core->mset.B_marker);
 		playlist->setModified(true);
 		playlist->getMediaInfo(core->mdat);
 	}
