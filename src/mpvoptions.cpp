@@ -1230,7 +1230,11 @@ void MPVProcess::discButtonPressed(const QString & button_name) {
 #endif
 
 void MPVProcess::setAspect(double aspect) {
-	sendCommand("set video-aspect " + QString::number(aspect));
+	if (isOptionAvailable("--video-aspect-override")) {
+		sendCommand("set video-aspect-override " + QString::number(aspect));
+	} else {
+		sendCommand("set video-aspect " + QString::number(aspect));
+	}
 }
 
 void MPVProcess::setFullscreen(bool b) {
