@@ -107,6 +107,17 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 
 			"INFO_MEDIA_TITLE=${=media-title:}\n"
 			"INFO_STREAM_PATH=${stream-path}\n";
+#else
+	arg << "--term-playing-msg="
+			"MPV_VERSION=${=mpv-version:}\n"
+			"INFO_LENGTH=${=duration:${=length}}\n"
+			"METADATA_TITLE=${metadata/by-key/title:}\n"
+			"METADATA_ARTIST=${metadata/by-key/artist:}\n"
+			"METADATA_ALBUM=${metadata/by-key/album:}\n"
+			"METADATA_GENRE=${metadata/by-key/genre:}\n"
+			"METADATA_DATE=${metadata/by-key/date:}\n"
+			"METADATA_TRACK=${metadata/by-key/track:}\n"
+			"METADATA_COPYRIGHT=${metadata/by-key/copyright:}\n";
 #endif
 
 #ifndef Q_OS_WIN

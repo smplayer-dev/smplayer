@@ -309,6 +309,7 @@ private:
 	QRegExp rx_endfile;
 	QRegExp rx_dvdtitles;
 	QRegExp rx_brtitles;
+	QRegExp rx_generic;
 
 	void initializeRX();
 

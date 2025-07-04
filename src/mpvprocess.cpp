@@ -180,6 +180,7 @@ void MPVProcess::initializeRX() {
 	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
 	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
+	rx_generic.setPattern("^([A-Z_]+)=(.*)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -304,6 +305,14 @@ void MPVProcess::parseLine(QByteArray ba) {
 		QString length = rx_brtitles.cap(2);
 		qDebug() << "MPVProcess::parseLine: br title:" << ID << length;
 		md.titles.addName(ID, length);
+	}
+	if (rx_generic.indexIn(line) > -1) {
+		QString tag = rx_generic.cap(1);
+		QString value = rx_generic.cap(2);
+		qDebug() << "MPVProcess::parseLine: tag:" << tag << "value:" << value;
+		if (tag == "INFO_LENGTH") {
+			md.duration = value.toDouble();
+		}
 	}
 }
 
