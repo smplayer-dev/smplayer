@@ -1376,6 +1376,9 @@ void Core::pause_and_frame_step() {
 void Core::pause() {
 	qDebug() << "Core::pause: current state:" << stateToString();
 
+	pref->save();
+	saveMediaInfo();
+
 	if (proc->isRunning()) {
 		// Pauses and unpauses
 		if (state() == Paused) proc->setPause(false); else proc->setPause(true);
