@@ -2604,6 +2604,7 @@ void Core::startMplayer( QString file, double seek ) {
 	foreach(QString par, mdat.extra_params) {
 		QRegExp rx_ref("^http-referrer=(.*)", Qt::CaseInsensitive);
 		QRegExp rx_agent("^http-user-agent=(.*)", Qt::CaseInsensitive);
+		QRegExp rx_header("^http-header=(.*)", Qt::CaseInsensitive);
 
 		if (rx_ref.indexIn(par) > -1) {
 			QString referrer = rx_ref.cap(1);
@@ -2615,6 +2616,12 @@ void Core::startMplayer( QString file, double seek ) {
 			QString user_agent = rx_agent.cap(1);
 			qDebug() << "Core::startMplayer: user_agent:" << user_agent;
 			proc->setOption("user-agent", user_agent);
+		}
+		else
+		if (rx_header.indexIn(par) > -1) {
+			QString header = rx_header.cap(1);
+			qDebug() << "Core::startMplayer: header:" << header;
+			proc->setOption("http-header-fields", header);
 		}
 	}
 

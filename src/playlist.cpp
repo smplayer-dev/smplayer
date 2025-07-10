@@ -1060,6 +1060,22 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 				// Ignore
 			} else {
 				filename = line;
+				// Try to get http headers after the URL
+				int pos = line.indexOf('|');
+				if (pos != -1) {
+					filename = line.left(pos);
+					QString http_header;
+					QString param_str = line.mid(pos + 1);
+					QStringList params = param_str.split('&', Qt::SkipEmptyParts);
+					foreach (QString param, params) {
+						param = param.replace("=", ":").trimmed();
+						if (!http_header.isEmpty()) http_header += ", ";
+						http_header += param;
+					}
+					qDebug() << "Playlist::load_m3u: http_header:" << http_header;
+					extra_params << "http-header=" + http_header;
+				}
+
 				QFileInfo fi(filename);
 				if (fi.exists()) {
 					filename = fi.absoluteFilePath();
