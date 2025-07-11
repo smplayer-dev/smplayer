@@ -1068,9 +1068,10 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 					QString param_str = line.mid(pos + 1);
 					QStringList params = param_str.split('&', Qt::SkipEmptyParts);
 					foreach (QString param, params) {
+						param = param.replace("\"", "");
 						param = param.replace("=", ":").trimmed();
-						if (!http_header.isEmpty()) http_header += ", ";
-						http_header += param;
+						if (!http_header.isEmpty()) http_header += ",";
+						http_header += "\"" + param + "\"";
 					}
 					qDebug() << "Playlist::load_m3u: http_header:" << http_header;
 					extra_params << "http-header=" + http_header;
