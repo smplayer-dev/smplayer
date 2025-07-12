@@ -4923,6 +4923,11 @@ void BaseGui::leftButtonReleaseFunction() {
 
 void BaseGui::rightClickFunction() {
 	qDebug("BaseGui::rightClickFunction");
+	if (pref->enable_pressed_speed) {
+		if (core->mset.speed != 1.0) {	
+			core->setSpeed(1.0);
+		}
+	}
 
 	if (!pref->mouse_right_click_function.isEmpty()) {
 		processFunction(pref->mouse_right_click_function);
