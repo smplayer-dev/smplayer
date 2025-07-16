@@ -1376,6 +1376,7 @@ void Core::pause() {
 	qDebug() << "Core::pause: current state:" << stateToString();
 
         if (pref->remember_on_pause) {
+                qDebug("Saving recents and position");
                 pref->save();
                 saveMediaInfo();
         }
