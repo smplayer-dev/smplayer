@@ -652,7 +652,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "dvd-device" || option_name == "cdrom-device" ||
 	    option_name == "demuxer" ||
 	    option_name == "frames" ||
-	    option_name == "user-agent" || option_name == "referrer" ||
+	    option_name == "user-agent" || option_name == "referrer" || option_name == "http-header-fields" ||
 	    option_name == "ab-loop-a" || option_name == "ab-loop-b" ||
 	    option_name == "gpu-context")
 	{
