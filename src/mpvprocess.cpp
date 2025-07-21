@@ -208,7 +208,9 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
                                       << "current-demuxer"
                                       << "seekable" << "chapters"
+                                      #ifndef USE_OLD_TRACKS_COUNT
                                       << "track-list/count"
+                                      #endif
                                       << "metadata/by-key/title" << "metadata/by-key/artist"
                                       << "metadata/by-key/album" << "metadata/by-key/genre"
                                       << "metadata/by-key/date" << "metadata/by-key/track"
@@ -313,6 +315,20 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (tag == "INFO_LENGTH") {
 			md.duration = value.toDouble();
 		}
+		#ifdef USE_OLD_TRACKS_COUNT
+		else
+		if (tag == "INFO_TRACKS_COUNT") {
+			int tracks = value.toInt();
+			for (int n = 0; n < tracks; n++) {
+				sendCommand(QString("print_text \"INFO_TRACK_%1: "
+					"${track-list/%1/type} "
+					"${track-list/%1/id} "
+					"'${track-list/%1/lang:}' "
+					"'${track-list/%1/title:}' "
+					"${track-list/%1/selected}\"").arg(n));
+			}
+		}
+		#endif
 	}
 }
 
@@ -526,6 +542,7 @@ void MPVProcess::socketReadyRead() {
 					md.stream_path = data;
 				}
 			}
+			#ifndef USE_OLD_TRACKS_COUNT
 			else
 			if (name == "track-list/count") {
 				int tracks = data.toInt();
@@ -538,6 +555,7 @@ void MPVProcess::socketReadyRead() {
 						"${track-list/%1/selected}\"").arg(n));
 				}
 			}
+			#endif
 			else
 			if (name == "mpv-version") {
 				QString mpv_version = data;

@@ -111,6 +111,9 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
 			"INFO_LENGTH=${=duration:${=length}}\n"
+			#ifdef USE_OLD_TRACKS_COUNT
+			"INFO_TRACKS_COUNT=${=track-list/count}\n"
+			#endif
 			"METADATA_TITLE=${metadata/by-key/title:}\n"
 			"METADATA_ARTIST=${metadata/by-key/artist:}\n"
 			"METADATA_ALBUM=${metadata/by-key/album:}\n"

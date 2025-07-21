@@ -32,6 +32,8 @@
 
 #define USE_IPC
 
+#define USE_OLD_TRACKS_COUNT
+
 #ifndef USE_OLD_VIDEO_EQ
 class SoftVideoEq
 {
