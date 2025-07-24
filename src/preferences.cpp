@@ -119,6 +119,7 @@ void Preferences::reset() {
 	remember_media_settings = true;
 	remember_time_pos = true;
 	remember_stream_settings = false;
+        remember_on_pause = false;
 
 #if SIMPLE_TRACK_SELECTION
 	alang = "";
@@ -704,6 +705,7 @@ void Preferences::save() {
 	set->setValue("remember_media_settings", remember_media_settings);
 	set->setValue("remember_time_pos", remember_time_pos);
 	set->setValue("remember_stream_settings", remember_stream_settings);
+        set->setValue("remember_on_pause", remember_on_pause);
 
 #if SIMPLE_TRACK_SELECTION
 	set->setValue("alang", alang);
@@ -1302,6 +1304,7 @@ void Preferences::load() {
 	remember_media_settings = set->value("remember_media_settings", remember_media_settings).toBool();
 	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
 	remember_stream_settings = set->value("remember_stream_settings", remember_stream_settings).toBool();
+        remember_on_pause = set->value("remember_on_pause", remember_on_pause).toBool();
 
 #if SIMPLE_TRACK_SELECTION
 	alang = set->value("alang", alang).toString();

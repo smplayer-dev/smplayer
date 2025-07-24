@@ -240,6 +240,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setRememberSettings( pref->remember_media_settings );
 	setRememberTimePos( pref->remember_time_pos );
 	remember_streams_check->setChecked(pref->remember_stream_settings);
+        remember_on_pause_check->setChecked(pref->remember_on_pause);
 
 	setFileSettingsMethod( pref->file_settings_method );
 
@@ -384,6 +385,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->remember_media_settings, rememberSettings());
 	TEST_AND_SET(pref->remember_time_pos, rememberTimePos());
 	TEST_AND_SET(pref->remember_stream_settings, remember_streams_check->isChecked());
+        TEST_AND_SET(pref->remember_on_pause, remember_on_pause_check->isChecked());
 
 	if (pref->file_settings_method != fileSettingsMethod()) {
 		pref->file_settings_method = fileSettingsMethod();
