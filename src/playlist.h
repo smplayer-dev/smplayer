@@ -247,6 +247,7 @@ public:
 signals:
 	void requestToPlayFile(const QString & filename, int seek = -1);
 	void requestToPlayStream(const QString & filename, QStringList params = QStringList());
+	void requestToPause();
 
 	void requestToAddCurrentFile();
 	void playlistEnded();
@@ -267,6 +268,7 @@ protected:
 
 protected slots:
 	void playCurrent();
+	void pause();
 	void itemActivated(const QModelIndex & index );
 	void headerClicked(int index);
 	void showPopup(const QPoint & pos);
@@ -353,6 +355,7 @@ protected:
 	MyAction * saveAct;
 	MyAction * saveAsAct;
 	MyAction * playAct;
+	MyAction * pauseAct;
 	MyAction * prevAct;
 	MyAction * nextAct;
 	MyAction * repeatAct;
