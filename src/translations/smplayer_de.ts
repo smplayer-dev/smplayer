@@ -8364,6 +8364,26 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Genaues Spulen</translation>
     </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="858"/>
+        <source>Enable pressed speed</source>
+        <translation>Gedrückte Geschwindigkeit aktivieren</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="859"/>
+        <source>If this option is checked, the playback speed will be changed when the left mouse button is pressed on the video window.</source>
+        <translation>Wenn diese Option aktiviert ist, wird die Wiedergeschwindigkeit geändert, wenn die linke Maustaste im Videofenster gedrückt wird.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="861"/>
+        <source>Pressed speed</source>
+        <translation>Gedrückte Geschwindigkeit</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="862"/>
+        <source>If you hold the left mouse button in the video window, the media will be played at this speed.</source>
+        <translation>Wenn Sie die linke Maustaste im Videofenster gedrückt halten, wird die Medienwiedergeschwindigkeit auf diese Geschwindigkeit gesetzt.</translation>
+    </message>
 </context>
 <context>
     <name>PrefNetwork</name>

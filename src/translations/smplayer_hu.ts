@@ -8364,6 +8364,26 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
         <source>&amp;Precise seeking</source>
         <translation>&amp;Pontos tekerés</translation>
     </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="858"/>
+        <source>Enable pressed speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="859"/>
+        <source>If this option is checked, the playback speed will be changed when the left mouse button is pressed on the video window.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="861"/>
+        <source>Pressed speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="862"/>
+        <source>If you hold the left mouse button in the video window, the media will be played at this speed.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PrefNetwork</name>
