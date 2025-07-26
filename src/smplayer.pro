@@ -259,6 +259,7 @@ HEADERS += guiconfig.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
+	svn_revision.h \
 	myapplication.h
 
 
