@@ -37,6 +37,9 @@
 #include <QMessageBox>
 #include <QFileInfo>
 #include <QRegExp>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegularExpression>
+#endif
 #include <QApplication>
 #include <QAction>
 #include <QDebug>
@@ -539,7 +542,9 @@ bool ActionsEditor::saveActionsTable(const QString & filename) {
 	QFile f( filename );
 	if ( f.open( QIODevice::WriteOnly ) ) {
 		QTextStream stream( &f );
+#if QT_VERSION_MAJOR < 6
 		stream.setCodec("UTF-8");
+#endif
 
 		for (int row = 0; row < table->rowCount(); row++) {
 			stream << table->item(row, COL_NAME)->text() << "\t" 
@@ -580,7 +585,9 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 		#endif
 
 		QTextStream stream( &f );
-		stream.setCodec("UTF-8");
+#if QT_VERSION_MAJOR < 6
+        stream.setCodec("UTF-8");
+#endif
 
 		QString line;
 		while ( !stream.atEnd() ) {
@@ -588,7 +595,11 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 			qDebug() << "ActionsEditor::loadActions: line:" << line;
 			QString name;
 			QString accelText;
-			int pos = line.indexOf(QRegExp("\\t|\\s"));
+#if QT_VERSION_MAJOR < 6
+            int pos = line.indexOf(QRegExp("\\t|\\s"));
+#else
+            int pos = line.indexOf(QRegularExpression("\\t|\\s"));
+#endif
 			//qDebug() << "ActionsEditor::loadActions: pos:" << pos;
 			if (pos == -1) {
 				name = line;

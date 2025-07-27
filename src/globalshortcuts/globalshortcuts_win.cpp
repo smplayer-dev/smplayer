@@ -17,9 +17,17 @@
 */
 
 #include <windows.h>
+#include <QDebug>
+#if QT_VERSION_MAJOR >= 6
+#include "globalshortcuts.h"
+#endif
 
+#if QT_VERSION_MAJOR < 6
 bool GlobalShortcuts::nativeEventFilter(const QByteArray & /*eventType*/, void * message, long * /*result*/) {
-	//qDebug() << "GlobalShortcuts::nativeEventFilter";
+#else
+bool GlobalShortcuts::nativeEventFilter(const QByteArray & /*eventType*/, void * message, qintptr * /*result*/) {
+#endif
+    //qDebug() << "GlobalShortcuts::nativeEventFilter";
 
 	if (!isEnabled()) return false;
 

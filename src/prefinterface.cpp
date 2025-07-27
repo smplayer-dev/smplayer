@@ -29,6 +29,9 @@
 #include <QDir>
 #include <QStyleFactory>
 #include <QFontDialog>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 #include <QDebug>
 
 #ifdef HDPI_SUPPORT
