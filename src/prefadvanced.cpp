@@ -30,6 +30,8 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
 	setupUi(this);
+	connect(osd_pos_slider, SIGNAL(valueChanged(int)),
+            osd_pos_label, SLOT(setNum(int)));
 
 #ifndef Q_OS_WIN
 	shortnames_check->hide();

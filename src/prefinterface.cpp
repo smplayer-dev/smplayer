@@ -49,6 +49,10 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
 	setupUi(this);
+	connect(floating_width_slider, SIGNAL(valueChanged(int)),
+            floating_width_label, SLOT(setNum(int)));
+	connect(floating_margin_slider, SIGNAL(valueChanged(int)),
+            floating_margin_label, SLOT(setNum(int)));
 	/* volume_icon->hide(); */
 
 	// Style combo

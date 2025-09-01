@@ -926,10 +926,6 @@
    </hints>
   </connection>
   <connection>
-   <sender>opacity_slider</sender>
-   <signal>valueChanged(int)</signal>
-   <receiver>opacity_num</receiver>
-   <slot>setNum(int)</slot>
    <hints>
     <hint type="sourcelabel">
      <x>275</x>

@@ -104,10 +104,6 @@
  <resources/>
  <connections>
   <connection>
-   <sender>_slider</sender>
-   <signal>valueChanged(int)</signal>
-   <receiver>value_label</receiver>
-   <slot>setNum(int)</slot>
    <hints>
     <hint type="sourcelabel" >
      <x>64</x>

@@ -27,6 +27,8 @@ EqSlider::EqSlider( QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 {
 	setupUi(this);
+	connect(_slider, SIGNAL(valueChanged(int)),
+            value_label, SLOT(setNum(int)));
 
 	_icon->setText( QString() );
 	_slider->setFocusPolicy( Qt::StrongFocus );

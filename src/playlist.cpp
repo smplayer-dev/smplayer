@@ -1201,7 +1201,7 @@ void Playlist::loadXSPF(const QString & filename) {
     if (!ok) return;
 #else
     auto ok = dom_document.setContent(f.readAll());
-    qDebug() << "Playlist::loadXSPF: success:" << ok.errorMessage;
+    qDebug() << "Playlist::loadXSPF: success:" << ok;
     if (!ok) return;
 #endif
 

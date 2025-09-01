@@ -32,6 +32,8 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
 	setupUi(this);
+	connect(opacity_slider, SIGNAL(valueChanged(int)),
+            opacity_num, SLOT(setNum(int)));
 
 	ass_subs->setEnabled(false);
 
