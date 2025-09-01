@@ -73,7 +73,7 @@ win32 {
     QMAKE_POST_LINK += $$quote(cmd /c copy /y $$shell_quote($$replace(QM_SRC_DIR,"/","\\")\\)*.qm $$shell_quote($$replace(QM_DST_DIR,"/","\\")))$$escape_expand(\n\t)
     QMAKE_CLEAN += $${QM_DST_DIR}/*.qm
 } else {
-    QM_SRC_DIR = $${OUT_PWD}
+    QM_SRC_DIR = $${OUT_PWD}/.qm
     QM_DST_DIR = $${OUT_PWD}/translations
     QMAKE_POST_LINK += mkdir -p $${QM_DST_DIR}$$escape_expand(\n\t)
     QMAKE_POST_LINK += cp $${QM_SRC_DIR}/*.qm $${QM_DST_DIR}$$escape_expand(\n\t)
