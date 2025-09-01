@@ -40,6 +40,9 @@
 #if QT_VERSION >= 0x040400
 #include <QDesktopServices>
 #endif
+#if QT_VERSION_MAJOR >= 6
+#include <QOperatingSystemVersion>
+#endif
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
@@ -84,10 +87,14 @@ void Preferences::reset() {
 #endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	mplayer_bin= "mpv/mpv.exe";
-	if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
+    mplayer_bin= "mpv/mpv.exe";
+#if QT_VERSION_MAJOR < 6
+    if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
+#else
+    if (QOperatingSystemVersion::current() < QOperatingSystemVersion::Windows7) {
+#endif
 		mplayer_bin= "mplayer/mplayer.exe";
-	}
+    }
 #else
 	mplayer_bin = "mpv";
 #endif
@@ -1911,9 +1918,13 @@ void Preferences::load() {
 		}
 		if (config_version <= 5) {
 			#ifdef Q_OS_WIN
-			if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
+            #if QT_VERSION_MAJOR < 6
+            if (QSysInfo::WindowsVersion < QSysInfo::WV_WINDOWS7) {
+            #else
+            if (QOperatingSystemVersion::current() < QOperatingSystemVersion::Windows7) {
+            #endif
 				mplayer_bin= "mplayer/mplayer.exe";
-			}
+            }
 			#else
 			use_audio_equalizer = false;
 			initial_volnorm = false;

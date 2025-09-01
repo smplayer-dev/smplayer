@@ -53,7 +53,7 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 	: QApplication(argc, argv)
 #endif
 {
-#if QT_VERSION >= 0x050600
+#if QT_VERSION >= 0x050600 && QT_VERSION_MAJOR < 6
 	setFallbackSessionManagementEnabled(false);
 #endif
 #if QT_VERSION >= 0x050000

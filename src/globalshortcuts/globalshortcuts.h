@@ -42,7 +42,12 @@ public:
 	void setGrabbedKeys(MediaKeys keys);
 	MediaKeys grabbedKeys() { return grabbed_keys; };
 
-	virtual bool nativeEventFilter(const QByteArray & eventType, void * message, long * result);
+#if QT_VERSION_MAJOR < 6
+    virtual bool nativeEventFilter(const QByteArray & eventType, void * message, long * result);
+#else
+    virtual bool nativeEventFilter(const QByteArray & eventType, void * message, qintptr * result);
+#endif
+
 
 public slots:
 	void setEnabled(bool);

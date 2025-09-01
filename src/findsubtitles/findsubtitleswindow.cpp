@@ -359,7 +359,11 @@ void FindSubtitlesWindow::currentItemChanged(const QModelIndex & current, const 
 }
 
 void FindSubtitlesWindow::applyFilter(const QString & filter) {
+#if QT_VERSION_MAJOR < 6
 	proxy_model->setFilterRegExp(filter);
+#else
+    proxy_model->setFilterRegularExpression(filter);
+#endif
 }
 
 void FindSubtitlesWindow::applyCurrentFilter() {
