@@ -52,7 +52,11 @@ private:
 };
 
 
+#if QT_VERSION_MAJOR < 6
 bool GlobalShortcuts::nativeEventFilter(const QByteArray & eventType, void * message, long * /*result*/) {
+#else
+bool GlobalShortcuts::nativeEventFilter(const QByteArray & eventType, void * message, qintptr * /*result*/) {
+#endif
 	//qDebug() << "GlobalShortcuts::nativeEventFilter";
 
 	if (!isEnabled()) return false;
