@@ -1195,13 +1195,13 @@ void Playlist::loadXSPF(const QString & filename) {
 	}
 
 	QDomDocument dom_document;
-#if QT_VERSION_MAJOR < 6
+#if QT_VERSION < QT_VERSION_CHECK(6, 5, 0)
     bool ok = dom_document.setContent(f.readAll());
     qDebug() << "Playlist::loadXSPF: success:" << ok;
     if (!ok) return;
 #else
     auto ok = dom_document.setContent(f.readAll());
-    qDebug() << "Playlist::loadXSPF: success:" << ok;
+    qDebug() << "Playlist::loadXSPF: success:" << ok.errorMessage;
     if (!ok) return;
 #endif
 
