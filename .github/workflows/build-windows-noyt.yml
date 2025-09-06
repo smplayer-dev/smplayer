@@ -13,7 +13,7 @@ jobs:
         config:
           - { arch: 'x64', 'portable': false }        
 
-    runs-on: windows-latest
+    runs-on: windows-2022
     env:
       PORTABLE: ${{ matrix.config.portable }}
       
