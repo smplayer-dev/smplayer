@@ -24,8 +24,10 @@
 #ifdef Q_OS_OS2
 #include <QLibrary>
 #else
+#if QT_VERSION_MAJOR < 6
 #undef _WIN32_WINNT
 #define _WIN32_WINNT 0x0501
+#endif
 #endif
 
 class WinScreenSaver

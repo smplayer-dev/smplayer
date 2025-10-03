@@ -27,6 +27,9 @@
 #include <QSettings>
 #include <QApplication>
 #include <QMessageBox>
+#if QT_VERSION_MAJOR >= 6
+#include <QOperatingSystemVersion>
+#endif
 #include "winfileassoc.h"
 #include "extensions.h"
 
@@ -48,10 +51,14 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 
 	connect(selectAll, SIGNAL(clicked(bool)), this, SLOT(selectAllClicked(bool)));
 	connect(selectNone, SIGNAL(clicked(bool)), this, SLOT(selectNoneClicked(bool)));
-	connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*))); 
-	connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*))); 
+    connect(listWidget, SIGNAL(itemClicked(QListWidgetItem*)), this, SLOT(listItemClicked(QListWidgetItem*)));
+    connect(listWidget, SIGNAL(itemPressed(QListWidgetItem*)), this, SLOT(listItemPressed(QListWidgetItem*)));
 
+#if QT_VERSION_MAJOR < 6
 	if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
+#else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 })
+#endif
 	{
 		//Hide Select None - One cannot restore an association in Vista. Go figure.
 		selectNone->hide(); 
@@ -148,7 +155,11 @@ void PrefAssociations::refreshList()
 				pItem->setCheckState(Qt::Checked);
 				//Don't allow de-selection in windows VISTA if extension is registered.
 				//VISTA doesn't seem to support extension 'restoration' in the API.
-				if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+#if QT_VERSION_MAJOR < 6
+                if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+#else
+                if (QOperatingSystemVersion::current() >= QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
 					pItem->setFlags(QFlag(0));
 				}
 			}
