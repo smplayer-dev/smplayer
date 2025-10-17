@@ -1,0 +1,127 @@
+name: Build Windows Packages with Qt 6.8
+
+on:
+  workflow_dispatch:
+  #release:
+  #  types: [published]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - { arch: 'x64', 'portable': false }
+          - { arch: 'x64', 'portable': true }
+
+    runs-on: windows-2022
+    env:
+      PORTABLE: ${{ matrix.config.portable }}
+
+    steps:
+      - name: Checkout
+        run: git clone https://github.com/smplayer-dev/smplayer-build.git .
+
+      #- name: Install sources
+      #  run: .\download_packages.cmd
+
+      - name: Install sources (normal)
+        if: ${{ matrix.config.portable == false }}
+        uses: actions/checkout@v4
+        with:
+          path: packages/smplayer
+          ref: qt6
+          fetch-depth: 0
+
+      - name: Install sources (portable)
+        if: ${{ matrix.config.portable == true }}
+        uses: actions/checkout@v4
+        with:
+          path: packages/smplayer-portable
+          ref: qt6
+          fetch-depth: 0
+
+      - name: Install themes
+        run: |
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-themes.git packages\smplayer-themes
+            git clone --depth 1 https://github.com/smplayer-dev/smplayer-skins.git packages\smplayer-skins
+
+      - name: Install mplayer and mpv
+        run: .\uncompress_players.cmd
+
+      - name: Install Qt (64 bit)
+        if: ${{ matrix.config.arch == 'x64' }}
+        uses: jurplel/install-qt-action@v3
+        with:
+          aqtversion: '==3.1.*'
+          version: '6.8.3'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_mingw'
+          modules: 'qt5compat'
+          tools: 'tools_mingw1310'
+
+      - name: Set mingw32 path (64 bit)
+        if: ${{ matrix.config.arch == 'x64' }}
+        run: echo "$env:IQTA_TOOLS\mingw1310_64\bin\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Compile themes
+        run: .\compile_themes.cmd
+
+      - name: Compile smplayer
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\compile_smplayer.cmd pe
+            } else {
+              .\compile_smplayer.cmd
+            }
+
+      - name: Install
+        run: |
+            if ($env:PORTABLE -eq $true) {
+              .\install.cmd pe
+            } else {
+              .\install.cmd
+            }
+
+      - name: Create installer
+        if: ${{ matrix.config.portable == false }}
+        run: |
+           .\nsis.cmd
+           $filename = Get-Content packages\BUILD\installer_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Create 7z package
+        if: ${{ matrix.config.portable == true }}
+        run: |
+           .\create_portable_package.cmd
+           $filename = Get-Content packages\BUILD\portable_filename.txt -TotalCount 1
+           echo "PACKAGEFILENAME=$filename" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Rename package
+        shell: bash
+        run: |
+            PACKAGEFILENAME=${{ env.PACKAGEFILENAME }}
+            extension="${PACKAGEFILENAME##*.}"
+            filename="${PACKAGEFILENAME%.*}"
+            new_filename="$filename-qt6.$extension"
+            cd packages/BUILD/output/
+            mv $PACKAGEFILENAME $new_filename
+            echo "PACKAGEFILENAME=$new_filename" >> $GITHUB_ENV
+
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PACKAGEFILENAME }}
+          path: packages\BUILD\output\${{ env.PACKAGEFILENAME }}
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: packages/BUILD/output/${{ env.PACKAGEFILENAME }}
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true
