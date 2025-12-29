@@ -257,6 +257,7 @@ pl_open_url
 pl_save	
 pl_save_as	
 pl_play	
+pl_pause 
 pl_next	N
 pl_prev	P
 pl_move_up	

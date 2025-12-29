@@ -224,6 +224,7 @@ restore/hide
 pl_open	
 pl_save	
 pl_play	
+pl_pause 
 pl_next	
 pl_prev	
 pl_move_up	
