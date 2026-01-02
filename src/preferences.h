@@ -47,7 +47,7 @@ public:
                     BelowNormal = 4, Idle = 5 };
 	enum WheelFunction { DoNothing = 1, Seeking = 2, Volume = 4, Zoom = 8,
                          ChangeSpeed = 16 };
-	enum DragFunction { DragDisabled = 0, MoveWindow = 1, Gestures = 2 };
+	enum DragFunction { DragDisabled = 0, MoveWindow = 1, Gestures = 2, PanView = 3 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
 	enum AutoAddToPlaylistFilter { NoFiles = 0, VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };

@@ -173,6 +173,7 @@ void PrefInput::retranslateStrings() {
 	drag_function_combo->clear();
 	drag_function_combo->addItem( tr("None"), Preferences::DragDisabled);
 	drag_function_combo->addItem( tr("Move window"), Preferences::MoveWindow);
+	drag_function_combo->addItem( tr("Pan view"), Preferences::PanView);
 #ifdef MOUSE_GESTURES
 	drag_function_combo->addItem( tr("Seek and volume"), Preferences::Gestures);
 #endif
