@@ -253,6 +253,7 @@ signals:
 	void visibilityChanged(bool visible);
 	void modifiedChanged(bool);
 	void windowTitleChanged(const QString & title);
+	void pause();
 
 protected:
 	void setCurrentItem(int current);
@@ -353,6 +354,7 @@ protected:
 	MyAction * saveAct;
 	MyAction * saveAsAct;
 	MyAction * playAct;
+	MyAction * pauseAct;
 	MyAction * prevAct;
 	MyAction * nextAct;
 	MyAction * repeatAct;

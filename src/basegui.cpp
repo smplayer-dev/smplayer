@@ -2542,6 +2542,8 @@ void BaseGui::createPlaylist() {
 
 	connect(playlist, SIGNAL(requestToAddCurrentFile()), this, SLOT(addToPlaylistCurrentFile()));
 
+	connect(playlist, SIGNAL(pause()), core, SLOT(pause()));
+
 	connect( core, SIGNAL(mediaFinished()), playlist, SLOT(playNextAuto()), Qt::QueuedConnection );
 
 	connect( core, SIGNAL(mplayerFailed(QProcess::ProcessError)), playlist, SLOT(playerFailed(QProcess::ProcessError)) );
