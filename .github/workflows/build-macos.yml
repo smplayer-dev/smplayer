@@ -95,7 +95,7 @@ jobs:
       - name: Create dmg
         run: |
             cd packages/smplayer
-            ./create_dmg,sh
+            ./create_dmg.sh
             ls -l package/
 
       - name: Create artifact
