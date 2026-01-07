@@ -78,6 +78,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	prop.aspect_ratio = 0;
 	prop.display_osd = true;
 	prop.extract_format = JPEG;
+	prop.hash_algorithm = HASH_MD5;
 
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
@@ -304,14 +305,32 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-QString VideoPreview::calculateMD5(const QString & filename) {
-	QFile file(filename);
-	if (!file.open(QIODevice::ReadOnly)) {
-		qDebug("VideoPreview::calculateMD5: error opening file");
+QString VideoPreview::calculateHash(const QString & filename, HashAlgorithm algorithm) {
+	if (algorithm == HASH_NONE) {
 		return QString();
 	}
 
-	QCryptographicHash hash(QCryptographicHash::Md5);
+	QFile file(filename);
+	if (!file.open(QIODevice::ReadOnly)) {
+		qDebug("VideoPreview::calculateHash: error opening file");
+		return QString();
+	}
+
+	QCryptographicHash::Algorithm hashAlg;
+	switch (algorithm) {
+		case HASH_SHA1:
+			hashAlg = QCryptographicHash::Sha1;
+			break;
+		case HASH_SHA256:
+			hashAlg = QCryptographicHash::Sha256;
+			break;
+		case HASH_MD5:
+		default:
+			hashAlg = QCryptographicHash::Md5;
+			break;
+	}
+
+	QCryptographicHash hash(hashAlg);
 	
 	// Read file in chunks to avoid memory issues with large files
 	const qint64 chunkSize = 64 * 1024; // 64KB chunks
@@ -570,6 +589,13 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 
 	text += "</td></tr></table>";
 
+	// Add hash information if available
+	if (!i.file_hash.isEmpty() && !i.hash_algorithm_name.isEmpty()) {
+		text += QString("<div style=\"margin-top:10px; " FONT_STYLE "\"><b>%1:</b> %2</div>")
+			.arg(i.hash_algorithm_name)
+			.arg(i.file_hash);
+	}
+
 	//qDebug() << "VideoPreview::displayVideoInfo: text:" << text;
 
 	info->setText(text);
@@ -607,9 +633,26 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	if (fi.exists()) {
 		i.filename = fi.fileName();
 		i.size = fi.size();
-		// Calculate MD5 hash of the video file
-		i.md5_hash = calculateMD5(filename);
-		qDebug("VideoPreview::getInfo: MD5 hash: '%s'", i.md5_hash.toUtf8().constData());
+		// Calculate hash of the video file using the selected algorithm
+		i.file_hash = calculateHash(filename, prop.hash_algorithm);
+		switch (prop.hash_algorithm) {
+			case HASH_MD5:
+				i.hash_algorithm_name = "MD5";
+				break;
+			case HASH_SHA1:
+				i.hash_algorithm_name = "SHA1";
+				break;
+			case HASH_SHA256:
+				i.hash_algorithm_name = "SHA256";
+				break;
+			case HASH_NONE:
+			default:
+				i.hash_algorithm_name = "";
+				break;
+		}
+		if (!i.file_hash.isEmpty()) {
+			qDebug("VideoPreview::getInfo: %s hash: '%s'", i.hash_algorithm_name.toUtf8().constData(), i.file_hash.toUtf8().constData());
+		}
 	}
 
 	QRegExp rx("^ID_(.*)=(.*)");
@@ -753,27 +796,27 @@ void VideoPreview::saveImage() {
 			qDebug("VideoPreview::saveImage: image scaled to : %d %d", image.size().width(), image.size().height());
 		}
 
-		// Add MD5 hash information to the image
-		if (!video_info.md5_hash.isEmpty()) {
+		// Add hash information to the image
+		if (!video_info.file_hash.isEmpty() && !video_info.hash_algorithm_name.isEmpty()) {
 			QPainter painter(&image);
 			QFont font;
 			font.setPointSize(10);
 			font.setBold(true);
 			painter.setFont(font);
 			
-			QString md5_text = QString("MD5: %1").arg(video_info.md5_hash);
+			QString hash_text = QString("%1: %2").arg(video_info.hash_algorithm_name).arg(video_info.file_hash);
 			
 			// Calculate text dimensions
 			QFontMetrics fm(font);
 			#if (QT_VERSION >= QT_VERSION_CHECK(5, 11, 0))
-			int text_width = fm.horizontalAdvance(md5_text);
+			int text_width = fm.horizontalAdvance(hash_text);
 			#else
-			int text_width = fm.width(md5_text);
+			int text_width = fm.width(hash_text);
 			#endif
 			int text_height = fm.height();
 			
-			// Position at bottom right
-			int x = image.width() - text_width - 10;
+			// Position at bottom left (changed from bottom right)
+			int x = 10;
 			int y = image.height() - text_height - 5;
 			
 			// Draw background rectangle
@@ -782,9 +825,9 @@ void VideoPreview::saveImage() {
 			
 			// Draw text
 			painter.setPen(Qt::black);
-			painter.drawText(x, y + text_height - 5, md5_text);
+			painter.drawText(x, y + text_height - 5, hash_text);
 			
-			qDebug("VideoPreview::saveImage: added MD5 hash to image: %s", video_info.md5_hash.toUtf8().constData());
+			qDebug("VideoPreview::saveImage: added %s hash to image: %s", video_info.hash_algorithm_name.toUtf8().constData(), video_info.file_hash.toUtf8().constData());
 		}
 
 		if (!image.save(filename)) {
@@ -810,6 +853,7 @@ bool VideoPreview::showConfigDialog(QWidget * parent) {
 	d.setDisplayOSD( displayOSD() );
 	d.setAspectRatio( aspectRatio() );
 	d.setFormat( extractFormat() );
+	d.setHashAlgorithm( hashAlgorithm() );
 	d.setSaveLastDirectory( save_last_directory );
 
 	if (d.exec() == QDialog::Accepted) {
@@ -822,6 +866,7 @@ bool VideoPreview::showConfigDialog(QWidget * parent) {
 		setDisplayOSD( d.displayOSD() );
 		setAspectRatio( d.aspectRatio() );
 		setExtractFormat(d.format() );
+		setHashAlgorithm(d.hashAlgorithm() );
 		save_last_directory = d.saveLastDirectory();
 
 		return true;
@@ -841,6 +886,7 @@ void VideoPreview::saveSettings() {
 	set->setValue("max_width", maxWidth());
 	set->setValue("osd", displayOSD());
 	set->setValue("format", extractFormat());
+	set->setValue("hash_algorithm", hashAlgorithm());
 	set->setValue("save_last_directory", save_last_directory);
 
 	if (save_last_directory) {
@@ -866,6 +912,7 @@ void VideoPreview::loadSettings() {
 	setMaxWidth( set->value("max_width", maxWidth()).toInt() );
 	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
 	setExtractFormat( (ExtractFormat) set->value("format", extractFormat()).toInt() );
+	setHashAlgorithm( (HashAlgorithm) set->value("hash_algorithm", hashAlgorithm()).toInt() );
 	save_last_directory = set->value("save_last_directory", save_last_directory).toBool();
 	last_directory = set->value("last_directory", last_directory).toString();
 
