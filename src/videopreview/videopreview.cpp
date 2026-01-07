@@ -565,7 +565,12 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
-	title->setText("<h2 " FONT_STYLE ">" + i.filename + "</h2>");
+	// Add hash information to filename if available
+	QString titleText = i.filename;
+	if (!i.file_hash.isEmpty() && !i.hash_algorithm_name.isEmpty()) {
+		titleText += QString(" (%1: %2)").arg(i.hash_algorithm_name).arg(i.file_hash);
+	}
+	title->setText("<h2 " FONT_STYLE ">" + titleText + "</h2>");
 
 	int count = 1;
 
@@ -588,13 +593,6 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	if (i.audio_rate) ADD_INFO(tr("Audio rate: %1").arg(audio_rate));
 
 	text += "</td></tr></table>";
-
-	// Add hash information if available
-	if (!i.file_hash.isEmpty() && !i.hash_algorithm_name.isEmpty()) {
-		text += QString("<div style=\"margin-top:10px; " FONT_STYLE "\"><b>%1:</b> %2</div>")
-			.arg(i.hash_algorithm_name)
-			.arg(i.file_hash);
-	}
 
 	//qDebug() << "VideoPreview::displayVideoInfo: text:" << text;
 
