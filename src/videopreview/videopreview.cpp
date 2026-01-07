@@ -251,8 +251,8 @@ bool VideoPreview::extractImages() {
 	}
 
 	// Store hash information for later use in saveImage
-	run.file_hash = i.file_hash;
-	run.hash_algorithm_name = i.hash_algorithm_name;
+	file_hash = i.file_hash;
+	hash_algorithm_name = i.hash_algorithm_name;
 
 	displayVideoInfo(i);
 
@@ -796,14 +796,14 @@ void VideoPreview::saveImage() {
 		}
 
 		// Add hash information to the image
-		if (!run.file_hash.isEmpty() && !run.hash_algorithm_name.isEmpty()) {
+		if (!file_hash.isEmpty() && !hash_algorithm_name.isEmpty()) {
 			QPainter painter(&image);
 			QFont font;
 			font.setPointSize(10);
 			font.setBold(true);
 			painter.setFont(font);
 			
-			QString hash_text = QString("%1: %2").arg(run.hash_algorithm_name).arg(run.file_hash);
+			QString hash_text = QString("%1: %2").arg(hash_algorithm_name).arg(file_hash);
 			
 			// Calculate text dimensions
 			QFontMetrics fm(font);
@@ -826,7 +826,7 @@ void VideoPreview::saveImage() {
 			painter.setPen(Qt::black);
 			painter.drawText(x, y + text_height - 5, hash_text);
 			
-			qDebug("VideoPreview::saveImage: added %s hash to image: %s", run.hash_algorithm_name.toUtf8().constData(), run.file_hash.toUtf8().constData());
+			qDebug("VideoPreview::saveImage: added %s hash to image: %s", hash_algorithm_name.toUtf8().constData(), file_hash.toUtf8().constData());
 		}
 
 		if (!image.save(filename)) {

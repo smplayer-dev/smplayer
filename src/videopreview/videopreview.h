@@ -172,9 +172,10 @@ protected:
 
 	struct {
 		int thumbnail_width;
-		QString file_hash;
-		QString hash_algorithm_name;
 	} run;
+
+	QString file_hash;
+	QString hash_algorithm_name;
 
 	QString last_directory;
 	bool save_last_directory;
