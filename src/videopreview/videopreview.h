@@ -172,9 +172,9 @@ protected:
 
 	struct {
 		int thumbnail_width;
+		QString file_hash;
+		QString hash_algorithm_name;
 	} run;
-
-	VideoInfo video_info;
 
 	QString last_directory;
 	bool save_last_directory;
