@@ -312,11 +312,19 @@ QString VideoPreview::calculateMD5(const QString & filename) {
 	}
 
 	QCryptographicHash hash(QCryptographicHash::Md5);
-	if (hash.addData(&file)) {
-		return hash.result().toHex();
+	
+	// Read file in chunks to avoid memory issues with large files
+	const qint64 chunkSize = 64 * 1024; // 64KB chunks
+	while (!file.atEnd()) {
+		QByteArray chunk = file.read(chunkSize);
+		if (chunk.isEmpty()) {
+			break;
+		}
+		hash.addData(chunk);
 	}
-
-	return QString();
+	
+	file.close();
+	return hash.result().toHex();
 }
 
 #if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
