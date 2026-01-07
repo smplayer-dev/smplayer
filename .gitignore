@@ -4,6 +4,14 @@
 /src/.ui
 /src/qrc_*.cpp
 
+# videopreview built files
+/src/videopreview/.moc
+/src/videopreview/.obj
+/src/videopreview/.ui
+/src/videopreview/.qmake.stash
+/src/videopreview/Makefile
+/src/videopreview/videopreview
+
 # built translation files
 /src/translations/*.qm
 
