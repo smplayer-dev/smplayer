@@ -44,6 +44,11 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 		format_combo->addItem("jpg", VideoPreview::JPEG);
 	}
 
+	hash_combo->addItem(tr("None"), VideoPreview::HASH_NONE);
+	hash_combo->addItem("MD5", VideoPreview::HASH_MD5);
+	hash_combo->addItem("SHA1", VideoPreview::HASH_SHA1);
+	hash_combo->addItem("SHA256", VideoPreview::HASH_SHA256);
+
 	filename_edit->setWhatsThis( tr("The preview will be created for the video you specify here.") );
 	dvd_device_edit->setWhatsThis( tr("Enter here the DVD device or a folder with a DVD image.") );
 	columns_spin->setWhatsThis( tr("The thumbnails will be arranged on a table.") +" "+ tr("This option specifies the number of columns of the table.") );
@@ -55,6 +60,7 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 	max_width_spin->setWhatsThis( tr("This option specifies the maximum width in pixels that the generated preview image will have.") );
 	format_combo->setWhatsThis( tr("Some frames will be extracted from the video in order to create the preview. Here you can choose "
                                    "the image format for the extracted frames. PNG may give better quality.") );
+	hash_combo->setWhatsThis( tr("Select the checksum algorithm to calculate the file hash. The hash will be displayed on the preview and the saved thumbnail.") );
 
 	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
@@ -138,6 +144,21 @@ void VideoPreviewConfigDialog::setFormat(VideoPreview::ExtractFormat format) {
 VideoPreview::ExtractFormat VideoPreviewConfigDialog::format() {
 	int idx = format_combo->currentIndex();
 	return (VideoPreview::ExtractFormat) format_combo->itemData(idx).toInt();
+}
+
+void VideoPreviewConfigDialog::setHashAlgorithm(VideoPreview::HashAlgorithm algorithm) {
+	int idx = hash_combo->findData(algorithm);
+	if (idx < 0) {
+		// Fallback to MD5 if the algorithm is not found (matches class default)
+		idx = hash_combo->findData(VideoPreview::HASH_MD5);
+		if (idx < 0) idx = 0; // Ultimate fallback to first item
+	}
+	hash_combo->setCurrentIndex(idx);
+}
+
+VideoPreview::HashAlgorithm VideoPreviewConfigDialog::hashAlgorithm() {
+	int idx = hash_combo->currentIndex();
+	return (VideoPreview::HashAlgorithm) hash_combo->itemData(idx).toInt();
 }
 
 void VideoPreviewConfigDialog::setSaveLastDirectory(bool b) {
