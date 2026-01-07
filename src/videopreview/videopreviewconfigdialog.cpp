@@ -148,7 +148,11 @@ VideoPreview::ExtractFormat VideoPreviewConfigDialog::format() {
 
 void VideoPreviewConfigDialog::setHashAlgorithm(VideoPreview::HashAlgorithm algorithm) {
 	int idx = hash_combo->findData(algorithm);
-	if (idx < 0) idx = 0;
+	if (idx < 0) {
+		// Fallback to MD5 if the algorithm is not found (matches class default)
+		idx = hash_combo->findData(VideoPreview::HASH_MD5);
+		if (idx < 0) idx = 0; // Ultimate fallback to first item
+	}
 	hash_combo->setCurrentIndex(idx);
 }
 
