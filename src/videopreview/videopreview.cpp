@@ -40,6 +40,8 @@
 #include <QImageWriter>
 #include <QImageReader>
 #include <QDebug>
+#include <QCryptographicHash>
+#include <QFile>
 
 #include <cmath>
 
@@ -247,6 +249,9 @@ bool VideoPreview::extractImages() {
 		}
 	}
 
+	// Store video info for later use
+	video_info = i;
+
 	displayVideoInfo(i);
 
 	// Let's begin
@@ -297,6 +302,21 @@ bool VideoPreview::extractImages() {
 	}
 
 	return true;
+}
+
+QString VideoPreview::calculateMD5(const QString & filename) {
+	QFile file(filename);
+	if (!file.open(QIODevice::ReadOnly)) {
+		qDebug("VideoPreview::calculateMD5: error opening file");
+		return QString();
+	}
+
+	QCryptographicHash hash(QCryptographicHash::Md5);
+	if (hash.addData(&file)) {
+		return hash.result().toHex();
+	}
+
+	return QString();
 }
 
 #if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
@@ -579,6 +599,9 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	if (fi.exists()) {
 		i.filename = fi.fileName();
 		i.size = fi.size();
+		// Calculate MD5 hash of the video file
+		i.md5_hash = calculateMD5(filename);
+		qDebug("VideoPreview::getInfo: MD5 hash: '%s'", i.md5_hash.toUtf8().constData());
 	}
 
 	QRegExp rx("^ID_(.*)=(.*)");
@@ -721,6 +744,41 @@ void VideoPreview::saveImage() {
 			image = image.scaledToWidth(prop.max_width, Qt::SmoothTransformation);
 			qDebug("VideoPreview::saveImage: image scaled to : %d %d", image.size().width(), image.size().height());
 		}
+
+		// Add MD5 hash information to the image
+		if (!video_info.md5_hash.isEmpty()) {
+			QPainter painter(&image);
+			QFont font;
+			font.setPointSize(10);
+			font.setBold(true);
+			painter.setFont(font);
+			
+			QString md5_text = QString("MD5: %1").arg(video_info.md5_hash);
+			
+			// Calculate text dimensions
+			QFontMetrics fm(font);
+			#if (QT_VERSION >= QT_VERSION_CHECK(5, 11, 0))
+			int text_width = fm.horizontalAdvance(md5_text);
+			#else
+			int text_width = fm.width(md5_text);
+			#endif
+			int text_height = fm.height();
+			
+			// Position at bottom right
+			int x = image.width() - text_width - 10;
+			int y = image.height() - text_height - 5;
+			
+			// Draw background rectangle
+			QRect bg_rect(x - 5, y - 2, text_width + 10, text_height + 4);
+			painter.fillRect(bg_rect, QBrush(QColor(255, 255, 255, 200)));
+			
+			// Draw text
+			painter.setPen(Qt::black);
+			painter.drawText(x, y + text_height - 5, md5_text);
+			
+			qDebug("VideoPreview::saveImage: added MD5 hash to image: %s", video_info.md5_hash.toUtf8().constData());
+		}
+
 		if (!image.save(filename)) {
 			// Failed!!!
 			qDebug("VideoPreview::saveImage: error saving '%s'", filename.toUtf8().constData());

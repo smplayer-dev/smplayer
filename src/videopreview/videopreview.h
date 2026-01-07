@@ -36,7 +36,7 @@ class VideoInfo
 public:
 	VideoInfo() { filename.clear(); width = 0; height = 0; length = 0; 
                   size = 0; fps = 0; aspect = 0; video_bitrate = 0; 
-                  audio_bitrate = 0; audio_rate = 0; };
+                  audio_bitrate = 0; audio_rate = 0; md5_hash.clear(); };
 	~VideoInfo() {};
 
 	QString filename;
@@ -51,6 +51,7 @@ public:
 	int audio_rate;
 	QString video_format;
 	QString audio_format;
+	QString md5_hash;
 };
 
 class VideoPreview : public QWidget
@@ -126,6 +127,7 @@ protected:
 	QString framePicture();
 	void saveSettings();
 	void loadSettings();
+	QString calculateMD5(const QString & filename);
 
 #if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 	bool isOptionAvailableinMPV(const QString & option);
@@ -165,6 +167,8 @@ protected:
 	struct {
 		int thumbnail_width;
 	} run;
+
+	VideoInfo video_info;
 
 	QString last_directory;
 	bool save_last_directory;
