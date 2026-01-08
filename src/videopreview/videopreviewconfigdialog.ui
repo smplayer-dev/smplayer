@@ -273,6 +273,36 @@
     </layout>
    </item>
    <item>
+    <layout class="QHBoxLayout">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>&amp;Checksum algorithm</string>
+       </property>
+       <property name="buddy">
+        <cstring>hash_combo</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="hash_combo"/>
+     </item>
+     <item>
+      <spacer>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>71</width>
+         <height>23</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="Line" name="line">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -334,6 +364,7 @@
   <tabstop>initial_step_spin</tabstop>
   <tabstop>max_width_spin</tabstop>
   <tabstop>format_combo</tabstop>
+  <tabstop>hash_combo</tabstop>
   <tabstop>button_box</tabstop>
  </tabstops>
  <resources/>

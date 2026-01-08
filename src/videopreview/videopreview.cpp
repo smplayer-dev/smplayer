@@ -40,6 +40,8 @@
 #include <QImageWriter>
 #include <QImageReader>
 #include <QDebug>
+#include <QCryptographicHash>
+#include <QFile>
 
 #include <cmath>
 
@@ -76,6 +78,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	prop.aspect_ratio = 0;
 	prop.display_osd = true;
 	prop.extract_format = JPEG;
+	prop.hash_algorithm = HASH_MD5;
 
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
@@ -247,6 +250,10 @@ bool VideoPreview::extractImages() {
 		}
 	}
 
+	// Store hash information for later use in saveImage
+	file_hash = i.file_hash;
+	hash_algorithm_name = i.hash_algorithm_name;
+
 	displayVideoInfo(i);
 
 	// Let's begin
@@ -297,6 +304,47 @@ bool VideoPreview::extractImages() {
 	}
 
 	return true;
+}
+
+QString VideoPreview::calculateHash(const QString & filename, HashAlgorithm algorithm) {
+	if (algorithm == HASH_NONE) {
+		return QString();
+	}
+
+	QFile file(filename);
+	if (!file.open(QIODevice::ReadOnly)) {
+		qDebug("VideoPreview::calculateHash: error opening file");
+		return QString();
+	}
+
+	QCryptographicHash::Algorithm hashAlg;
+	switch (algorithm) {
+		case HASH_SHA1:
+			hashAlg = QCryptographicHash::Sha1;
+			break;
+		case HASH_SHA256:
+			hashAlg = QCryptographicHash::Sha256;
+			break;
+		case HASH_MD5:
+		default:
+			hashAlg = QCryptographicHash::Md5;
+			break;
+	}
+
+	QCryptographicHash hash(hashAlg);
+	
+	// Read file in chunks to avoid memory issues with large files
+	const qint64 chunkSize = 64 * 1024; // 64KB chunks
+	while (!file.atEnd()) {
+		QByteArray chunk = file.read(chunkSize);
+		if (chunk.isEmpty()) {
+			break;
+		}
+		hash.addData(chunk);
+	}
+	
+	file.close();
+	return hash.result().toHex();
 }
 
 #if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
@@ -518,7 +566,12 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	QString audio_bitrate = (i.audio_bitrate==0) ? no_info : tr("%1 kbps").arg(i.audio_bitrate/1000);
 	QString audio_rate = (i.audio_rate==0) ? no_info : tr("%1 Hz").arg(i.audio_rate);
 
-	title->setText("<h2 " FONT_STYLE ">" + i.filename + "</h2>");
+	// Add hash information to filename if available
+	QString titleText = i.filename;
+	if (!i.file_hash.isEmpty() && !i.hash_algorithm_name.isEmpty()) {
+		titleText += QString(" (%1: %2)").arg(i.hash_algorithm_name).arg(i.file_hash);
+	}
+	title->setText("<h2 " FONT_STYLE ">" + titleText + "</h2>");
 
 	int count = 1;
 
@@ -579,6 +632,26 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	if (fi.exists()) {
 		i.filename = fi.fileName();
 		i.size = fi.size();
+		// Calculate hash of the video file using the selected algorithm
+		i.file_hash = calculateHash(filename, prop.hash_algorithm);
+		switch (prop.hash_algorithm) {
+			case HASH_MD5:
+				i.hash_algorithm_name = "MD5";
+				break;
+			case HASH_SHA1:
+				i.hash_algorithm_name = "SHA1";
+				break;
+			case HASH_SHA256:
+				i.hash_algorithm_name = "SHA256";
+				break;
+			case HASH_NONE:
+			default:
+				i.hash_algorithm_name = "";
+				break;
+		}
+		if (!i.file_hash.isEmpty()) {
+			qDebug("VideoPreview::getInfo: %s hash: '%s'", i.hash_algorithm_name.toUtf8().constData(), i.file_hash.toUtf8().constData());
+		}
 	}
 
 	QRegExp rx("^ID_(.*)=(.*)");
@@ -721,6 +794,41 @@ void VideoPreview::saveImage() {
 			image = image.scaledToWidth(prop.max_width, Qt::SmoothTransformation);
 			qDebug("VideoPreview::saveImage: image scaled to : %d %d", image.size().width(), image.size().height());
 		}
+
+		// Add hash information to the image
+		if (!file_hash.isEmpty() && !hash_algorithm_name.isEmpty()) {
+			QPainter painter(&image);
+			QFont font;
+			font.setPointSize(10);
+			font.setBold(true);
+			painter.setFont(font);
+			
+			QString hash_text = QString("%1: %2").arg(hash_algorithm_name).arg(file_hash);
+			
+			// Calculate text dimensions
+			QFontMetrics fm(font);
+			#if (QT_VERSION >= QT_VERSION_CHECK(5, 11, 0))
+			int text_width = fm.horizontalAdvance(hash_text);
+			#else
+			int text_width = fm.width(hash_text);
+			#endif
+			int text_height = fm.height();
+			
+			// Position at bottom left (changed from bottom right)
+			int x = 10;
+			int y = image.height() - text_height - 5;
+			
+			// Draw background rectangle
+			QRect bg_rect(x - 5, y - 2, text_width + 10, text_height + 4);
+			painter.fillRect(bg_rect, QBrush(QColor(255, 255, 255, 200)));
+			
+			// Draw text
+			painter.setPen(Qt::black);
+			painter.drawText(x, y + text_height - 5, hash_text);
+			
+			qDebug("VideoPreview::saveImage: added %s hash to image: %s", hash_algorithm_name.toUtf8().constData(), file_hash.toUtf8().constData());
+		}
+
 		if (!image.save(filename)) {
 			// Failed!!!
 			qDebug("VideoPreview::saveImage: error saving '%s'", filename.toUtf8().constData());
@@ -744,6 +852,7 @@ bool VideoPreview::showConfigDialog(QWidget * parent) {
 	d.setDisplayOSD( displayOSD() );
 	d.setAspectRatio( aspectRatio() );
 	d.setFormat( extractFormat() );
+	d.setHashAlgorithm( hashAlgorithm() );
 	d.setSaveLastDirectory( save_last_directory );
 
 	if (d.exec() == QDialog::Accepted) {
@@ -756,6 +865,7 @@ bool VideoPreview::showConfigDialog(QWidget * parent) {
 		setDisplayOSD( d.displayOSD() );
 		setAspectRatio( d.aspectRatio() );
 		setExtractFormat(d.format() );
+		setHashAlgorithm(d.hashAlgorithm() );
 		save_last_directory = d.saveLastDirectory();
 
 		return true;
@@ -775,6 +885,7 @@ void VideoPreview::saveSettings() {
 	set->setValue("max_width", maxWidth());
 	set->setValue("osd", displayOSD());
 	set->setValue("format", extractFormat());
+	set->setValue("hash_algorithm", hashAlgorithm());
 	set->setValue("save_last_directory", save_last_directory);
 
 	if (save_last_directory) {
@@ -800,6 +911,7 @@ void VideoPreview::loadSettings() {
 	setMaxWidth( set->value("max_width", maxWidth()).toInt() );
 	setDisplayOSD( set->value("osd", displayOSD()).toBool() );
 	setExtractFormat( (ExtractFormat) set->value("format", extractFormat()).toInt() );
+	setHashAlgorithm( (HashAlgorithm) set->value("hash_algorithm", hashAlgorithm()).toInt() );
 	save_last_directory = set->value("save_last_directory", save_last_directory).toBool();
 	last_directory = set->value("last_directory", last_directory).toString();
 
