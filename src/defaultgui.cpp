@@ -783,7 +783,10 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 }
 
 void DefaultGui::displayBitrateInfo(int vbitrate, int abitrate) {
-	bitrate_info_display->setText(tr("V: %1 kbps A: %2 kbps").arg(qRound(vbitrate/1000.0)).arg(qRound(abitrate/1000.0)));
+	QString text = tr("V: %1 kbps A: %2 kbps").arg(qRound(vbitrate/1000.0)).arg(qRound(abitrate/1000.0));
+	// if no video, display audio bitrate only (just cutting off the video part, to avoid an additional translation string)
+	if (vbitrate == -1) text = text.remove(QRegularExpression("^V: .* A: "));
+	bitrate_info_display->setText(text);
 }
 
 void DefaultGui::updateWidgets() {
