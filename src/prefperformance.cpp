@@ -22,6 +22,9 @@
 #include "global.h"
 #include "preferences.h"
 #include "playerid.h"
+#if QT_VERSION_MAJOR >= 6
+#include <QOperatingSystemVersion>
+#endif
 
 using namespace Global;
 
@@ -51,11 +54,15 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	#ifdef Q_OS_WIN
 	hwdec_combo->addItem("dxva2", "dxva2");
 	hwdec_combo->addItem("dxva2-copy", "dxva2-copy");
-	if (QSysInfo::WindowsVersion >= QSysInfo::WV_WINDOWS8) {
-		// Windows 8+
+    #if QT_VERSION_MAJOR < 6
+    if (QSysInfo::WindowsVersion >= QSysInfo::WV_WINDOWS8) {
+    #else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersion::Windows8) {
+    #endif
+        // Windows 8+
 		hwdec_combo->addItem("d3d11va", "d3d11va");
 		hwdec_combo->addItem("d3d11va-copy", "d3d11va-copy");
-	}
+    }
 	#endif
 	hwdec_combo->addItem("nvdec", "nvdec");
 	hwdec_combo->addItem("nvdec-copy", "nvdec-copy");

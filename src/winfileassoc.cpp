@@ -40,6 +40,9 @@
 #include <QSettings>
 #include <QApplication>
 #include <QFileInfo>
+#if QT_VERSION_MAJOR >= 6
+#include <QOperatingSystemVersion>
+#endif
 #include <windows.h>
 
 WinFileAssoc::WinFileAssoc(const QString ClassId, const QString AppName)
@@ -53,7 +56,11 @@ WinFileAssoc::WinFileAssoc(const QString ClassId, const QString AppName)
 // Returns number of extensions processed successfully.
 int WinFileAssoc::CreateFileAssociations(const QStringList &fileExtensions)
 {
+#if QT_VERSION_MAJOR < 6
     if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+#else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
         return VistaSetAppsAsDefault(fileExtensions);
     }
 
@@ -122,7 +129,11 @@ bool WinFileAssoc::GetRegisteredExtensions(const QStringList &extensionsToCheck,
 {
     registeredExtensions.clear();
 
+#if QT_VERSION_MAJOR < 6
     if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+#else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
         return VistaGetDefaultApps(extensionsToCheck, registeredExtensions);
     }
 
@@ -170,7 +181,11 @@ bool WinFileAssoc::GetRegisteredExtensions(const QStringList &extensionsToCheck,
 // Returns number of extensions successfully processed (error if fileExtensions.count() != return value && count > 0).
 int WinFileAssoc::RestoreFileAssociations(const QStringList &fileExtensions)
 {
+#if QT_VERSION_MAJOR < 6
     if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA)
+#else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 })
+#endif
         return 0; // Not supported by the API
 
     QSettings RegCR("HKEY_CLASSES_ROOT", QSettings::NativeFormat);
