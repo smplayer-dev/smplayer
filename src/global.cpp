@@ -35,16 +35,18 @@ Translator * Global::translator = 0;
 
 using namespace Global;
 
-void Global::global_init(const QString & config_path) {
-	qDebug("global_init");
-
-	// Translator
-	translator = new Translator();
-
-	// settings
+void Global::init_settings(const QString & config_path) {
 	if (!config_path.isEmpty()) {
 		Paths::setConfigPath(config_path);
 	}
+	// fallback mechanism supports xdg directories
+	#if !defined(PORTABLE_APP) && defined(Q_OS_LINUX)
+	else {
+		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
+		                         QString(PROGRAM), QString(PROGRAM) );
+		return;
+	}
+	#endif
 
 	if (Paths::iniPath().isEmpty()) {
 		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
@@ -55,6 +57,16 @@ void Global::global_init(const QString & config_path) {
 		qDebug("global_init: config file: '%s'", filename.toUtf8().data());
 
 	}
+}
+
+void Global::global_init(const QString & config_path) {
+	qDebug("global_init");
+
+	// Translator
+	translator = new Translator();
+
+	// settings
+	init_settings(config_path);
 
 	// Preferences
 	pref = new Preferences();
