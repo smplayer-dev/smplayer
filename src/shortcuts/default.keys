@@ -4,9 +4,7 @@ open_playlist
 open_vcd	
 open_audio_cd	
 open_dvd	
-open_dvd_folder	
 open_bluray	
-open_bluray_folder	
 open_url	Ctrl+U
 close	Ctrl+X
 clear_recents	
@@ -99,6 +97,7 @@ seek_prev_sub	Ctrl+Left
 use_custom_sub_style	
 use_forced_subs_only	
 sub_visibility	
+secondary_sub_visibility	
 show_find_sub_dialog	
 upload_subtitles	
 show_playlist	Ctrl+L
@@ -257,6 +256,7 @@ pl_open_url
 pl_save	
 pl_save_as	
 pl_play	
+pl_pause	
 pl_next	N
 pl_prev	P
 pl_move_up	

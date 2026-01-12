@@ -18,7 +18,8 @@ jobs:
     #runs-on: macos-10.15
     #runs-on: macos-11
     #runs-on: macos-12
-    runs-on: macos-13
+    #runs-on: macos-13
+    runs-on: macos-15-intel
 
     steps:
       - name: Checkout
@@ -94,7 +95,7 @@ jobs:
       - name: Create dmg
         run: |
             cd packages/smplayer
-            ./create_dmg,sh
+            ./create_dmg.sh
             ls -l package/
 
       - name: Create artifact
