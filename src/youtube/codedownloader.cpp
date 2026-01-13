@@ -20,6 +20,9 @@
 #include "retrieveyoutubeurl.h"
 #include <QFile>
 #include <QMessageBox>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 #include <QDebug>
 
 #include <QDir>

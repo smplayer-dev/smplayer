@@ -16,8 +16,12 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include <Qt>
 #include <QSysInfo>
+#if QT_VERSION_MAJOR < 6
+#include <Qt>
+#else
+#include <QOperatingSystemVersion>
+#endif
 #include "winscreensaver.h"
 #ifndef Q_OS_OS2
 #include <windows.h>
@@ -53,7 +57,11 @@ void WinScreenSaver::retrieveState() {
 	
 	if (!state_saved) {
 #ifndef Q_OS_OS2
+#if QT_VERSION_MAJOR < 6
 		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+#else
+        if (QOperatingSystemVersion::current() < QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
 			// Not supported on Windows Vista
 			SystemParametersInfo(SPI_GETLOWPOWERTIMEOUT, 0, &lowpower, 0);
 			SystemParametersInfo(SPI_GETPOWEROFFTIMEOUT, 0, &poweroff, 0);
@@ -79,8 +87,12 @@ void WinScreenSaver::restoreState() {
 	
 	if (state_saved) {
 #ifndef Q_OS_OS2
-		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
-			// Not supported on Windows Vista
+#if QT_VERSION_MAJOR < 6
+        if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+#else
+        if (QOperatingSystemVersion::current() < QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
+            // Not supported on Windows Vista
 			SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
 			SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
 		}
@@ -112,8 +124,12 @@ void WinScreenSaver::disable() {
 	qDebug("WinScreenSaver::disable");
 
 #ifndef Q_OS_OS2
-	if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
-		// Not supported on Windows Vista
+#if QT_VERSION_MAJOR < 6
+    if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+#else
+    if (QOperatingSystemVersion::current() < QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
+        // Not supported on Windows Vista
 		SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
 		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
 	}

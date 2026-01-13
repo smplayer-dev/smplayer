@@ -21,6 +21,9 @@
 #include <QProcess>
 #include <QFile>
 #include <QSettings>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 #include <QDebug>
 
 #ifdef Q_OS_WIN

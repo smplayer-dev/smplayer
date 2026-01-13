@@ -39,7 +39,11 @@
 #include <QInputDialog>
 #include <QClipboard>
 #include <QMimeData>
+#if QT_VERSION_MAJOR < 6
 #include <QDesktopWidget>
+#else
+#include <QOperatingSystemVersion>
+#endif
 
 #include <QtCore/qmath.h>
 
@@ -3828,7 +3832,11 @@ void BaseGui::updateRecents() {
 			//if (fi.exists()) filename = fi.fileName(); // Can be slow
 
 			// Let's see if it looks like a file (no dvd://1 or something)
-			if (fullname.indexOf(QRegExp("^.*://.*")) == -1) filename = fi.fileName();
+#if QT_VERSION_MAJOR < 6
+            if (fullname.indexOf(QRegExp("^.*://.*")) == -1) filename = fi.fileName();
+#else
+            if (fullname.indexOf(QRegularExpression("^.*://.*")) == -1) filename = fi.fileName();
+#endif
 
 			if (filename.size() > 85) {
 				filename = filename.left(80) + "...";
@@ -4833,9 +4841,13 @@ void BaseGui::toggleFullscreen(bool b) {
 
 		aboutToEnterFullscreen();
 
-		#ifdef Q_OS_WIN
+        #ifdef Q_OS_WIN
 		// Hack to avoid the windows taskbar to be visible on Windows XP
-		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+#if QT_VERSION_MAJOR < 6
+        if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+#else
+        if (QOperatingSystemVersion::current() < QOperatingSystemVersionBase{ QOperatingSystemVersionBase::Windows, 6, 0 }) {
+#endif
 			if (!pref->pause_when_hidden) hide();
 		}
 		#endif
@@ -5543,7 +5555,11 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	int diff_height = this->height() - panel->height();
 
 #if 1
+#if QT_VERSION_MAJOR < 6
 	QRect desktop_rect = QApplication::desktop()->availableGeometry(this);
+#else
+    QRect desktop_rect = QGuiApplication::primaryScreen()->availableGeometry();
+#endif
 	QSize desktop_size = QSize(desktop_rect.width(), desktop_rect.height());
 
 	if (w + diff_width > desktop_size.width() || h + diff_height > desktop_size.height()) {
@@ -5611,8 +5627,12 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	// Check if a part of the window is outside of the desktop
 	// and center the window in that case
 	if ((pref->center_window_if_outside) && (!core->mdat.novideo)) {
-		QRect screen_rect = QApplication::desktop()->availableGeometry(this);
-		QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
+#if QT_VERSION_MAJOR < 6
+        QRect screen_rect = QApplication::desktop()->availableGeometry(this);
+#else
+        QRect screen_rect = QGuiApplication::primaryScreen()->availableGeometry();
+#endif
+        QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
 		qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
 		if (!screen_rect.contains(right_bottom) || !screen_rect.contains(this->pos())) {
 			qDebug("BaseGui::resizeWindow: the window is outside of the desktop, it will be moved");
@@ -5657,8 +5677,12 @@ void BaseGui::hidePanel() {
 void BaseGui::centerWindow() {
 	qDebug("BaseGui::centerWindow");
 	if (pref->center_window && !pref->fullscreen && isVisible()) {
-		QRect r = QApplication::desktop()->screenGeometry(this);
-		// r.setX(500); r.setY(150); // Test
+#if QT_VERSION_MAJOR < 6
+        QRect r = QApplication::desktop()->availableGeometry(this);
+#else
+        QRect r = QGuiApplication::primaryScreen()->availableGeometry();
+#endif
+        // r.setX(500); r.setY(150); // Test
 		qDebug() << "BaseGui::centerWindow: desktop rect:" << r;
 		int x = r.x() + ((r.width() - width()) / 2);
 		int y = r.y() + ((r.height() - height()) / 2);
@@ -5824,8 +5848,13 @@ QString BaseGui::loadQss(QString filename) {
 		path = current.relativeFilePath(td);
 	}
 #endif
+#if QT_VERSION_MAJOR < 6
 	stylesheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
 						QString("url(%1\\1)").arg(path + "/"));
+#else
+    stylesheet.replace(QRegularExpression("url\\s*\\(\\s*([^\\);]+)\\s*\\)", QRegularExpression::CaseInsensitiveOption),
+                       QString("url(%1\\1)").arg(path + "/"));
+#endif
 	//qDebug("BaseGui::loadQss: styleSheet: %s", stylesheet.toUtf8().constData());
 	return stylesheet;
 }
@@ -6410,18 +6439,30 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 		QString text = QString::fromWCharArray((TCHAR*)m->lParam);
 		qDebug() << "BaseGui::winEvent: WM_SETTINGCHANGE:" << text;
 
-		#if ((QT_VERSION >= 0x040807 && QT_VERSION < 0x050000) || (QT_VERSION >= 0x050500))
+        #if ((QT_VERSION >= 0x040807 && QT_VERSION < 0x050000) || (QT_VERSION >= 0x050500))
+#if QT_VERSION_MAJOR < 6
 		if (QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS10) {
+#else
+        if (QOperatingSystemVersion::current() >= QOperatingSystemVersion::Windows10) {
+#endif
 			// Windows 10 check
 			if (text == "UserInteractionMode") {
 				QTimer::singleShot(1000, this, SLOT(checkSystemTabletMode()));
 			}
 		}
 		else 
-		if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1) {
-			if (text == "ConvertibleSlateMode") checkSystemTabletMode();
+#if QT_VERSION_MAJOR < 6
+        if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1) {
+#else
+        if (QOperatingSystemVersion::current() >= QOperatingSystemVersion::Windows8_1 && QOperatingSystemVersion::current() <= QOperatingSystemVersion::Windows8_1) {
+#endif
+            if (text == "ConvertibleSlateMode") checkSystemTabletMode();
 		}
-		#endif
+        #else
+        if (text == "UserInteractionMode") {
+            QTimer::singleShot(1000, this, SLOT(checkSystemTabletMode()));
+        }
+        #endif
 		
 		*result = 0;
 		return true;
@@ -6470,7 +6511,11 @@ bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * re
 
 void BaseGui::checkSystemTabletMode() {
 	#if ((QT_VERSION >= 0x040807 && QT_VERSION < 0x050000) || (QT_VERSION >= 0x050500))
-	if (QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS10) {
+    #if QT_VERSION_MAJOR < 6
+    if (QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS10) {
+    #else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersion::Windows10) {
+    #endif
 		// Windows 10 code (don't know if this works on Windows 8)
 		QSettings set("HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ImmersiveShell", QSettings::NativeFormat);
 		QVariant v = set.value("TabletMode");
@@ -6481,8 +6526,12 @@ void BaseGui::checkSystemTabletMode() {
 		}
 	}
 	else
-	if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1 || 
+#if QT_VERSION_MAJOR < 6
+    if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1 ||
         QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8)
+#else
+    if (QOperatingSystemVersion::current() >= QOperatingSystemVersion::Windows8 && QOperatingSystemVersion::current() <= QOperatingSystemVersion::Windows8_1)
+#endif
 	{
 		bool slate_mode = (GetSystemMetrics(SM_CONVERTIBLESLATEMODE) == 0);
 		qDebug() << "BaseGui::checkSystemTabletMode: slate_mode:" << slate_mode;

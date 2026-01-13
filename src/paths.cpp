@@ -20,7 +20,9 @@
 #include <QLibraryInfo>
 #include <QLocale>
 #include <QFile>
-#include <QRegExp>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegularExpression>
+#endif
 #include <QDir>
 
 #ifndef Q_OS_WIN
@@ -123,8 +125,13 @@ QString Paths::doc(QString file, QString locale, bool english_fallback) {
 	qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
 	if (QFile::exists(f)) return f;
 
-	if (locale.indexOf(QRegExp("_[A-Z]+")) != -1) {
-		locale.replace(QRegExp("_[A-Z]+"), "");
+#if QT_VERSION_MAJOR < 6
+    if (locale.indexOf(QRegExp("_[A-Z]+")) != -1) {
+        locale.replace(QRegExp("_[A-Z]+"), "");
+#else
+    if (locale.indexOf(QRegularExpression("_[A-Z]+")) != -1) {
+        locale.replace(QRegularExpression("_[A-Z]+"), "");
+#endif
 		f = docPath() + "/" + locale + "/" + file;
 		qDebug("Helper:doc: checking '%s'", f.toUtf8().data());
 		if (QFile::exists(f)) return f;

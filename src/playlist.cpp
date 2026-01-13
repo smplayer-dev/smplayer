@@ -46,6 +46,11 @@
 #include <QDomDocument>
 #include <QDesktopServices>
 #include <QClipboard>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#include <QRegularExpression>
+#include <QStringConverter>
+#endif
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000
@@ -968,7 +973,11 @@ void Playlist::addItem(QString filename, QString name, double duration, QStringL
 		if (name.isEmpty()) {
 			QFileInfo fi(filename);
 			// Let's see if it looks like a file (no dvd://1 or something)
-			if (filename.indexOf(QRegExp("^.*://.*")) == -1) {
+#if QT_VERSION_MAJOR < 6
+            if (filename.indexOf(QRegExp("^.*://.*")) == -1) {
+#else
+            if (filename.indexOf(QRegularExpression("^.*://.*")) == -1) {
+#endif
 				// Local file
 				name = fi.fileName();
 			} else {
@@ -1057,9 +1066,21 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		QTextStream stream( &f );
 
 		if (utf8)
-			stream.setCodec("UTF-8");
+#if QT_VERSION_MAJOR < 6
+            stream.setCodec("UTF-8");
+#else
+            stream.setEncoding(QStringConverter::Utf8);
+#endif
 		else
-			stream.setCodec(QTextCodec::codecForLocale());
+#if QT_VERSION_MAJOR < 6
+            stream.setCodec(QTextCodec::codecForLocale());
+#else
+        {
+            std::optional<QStringEncoder::Encoding> encodingOpt = QStringConverter::encodingForName(QTextCodec::codecForLocale()->name());
+            QStringEncoder::Encoding encoding = encodingOpt == std::nullopt ? QStringConverter::Utf8 : encodingOpt.value();
+            stream.setEncoding(encoding);
+        }
+#endif
 
 		QString line;
 		while ( !stream.atEnd() ) {
@@ -1211,9 +1232,15 @@ void Playlist::loadXSPF(const QString & filename) {
 	}
 
 	QDomDocument dom_document;
-	bool ok = dom_document.setContent(f.readAll());
-	qDebug() << "Playlist::loadXSPF: success:" << ok;
-	if (!ok) return;
+#if QT_VERSION_MAJOR < 6
+    bool ok = dom_document.setContent(f.readAll());
+    qDebug() << "Playlist::loadXSPF: success:" << ok;
+    if (!ok) return;
+#else
+    auto ok = dom_document.setContent(f.readAll());
+    qDebug() << "Playlist::loadXSPF: success:" << ok.errorMessage;
+    if (!ok) return;
+#endif
 
 	QDomNode root = dom_document.documentElement();
 	qDebug() << "Playlist::loadXSPF: tagname:" << root.toElement().tagName();
@@ -1284,9 +1311,21 @@ bool Playlist::save_m3u(QString file) {
 		QTextStream stream( &f );
 
 		if (utf8)
-			stream.setCodec("UTF-8");
-		else
-			stream.setCodec(QTextCodec::codecForLocale());
+#if QT_VERSION_MAJOR < 6
+            stream.setCodec("UTF-8");
+#else
+            stream.setEncoding(QStringConverter::Utf8);
+#endif
+        else
+#if QT_VERSION_MAJOR < 6
+            stream.setCodec(QTextCodec::codecForLocale());
+#else
+        {
+            std::optional<QStringEncoder::Encoding> encodingOpt = QStringConverter::encodingForName(QTextCodec::codecForLocale()->name());
+            QStringEncoder::Encoding encoding = encodingOpt == std::nullopt ? QStringConverter::Utf8 : encodingOpt.value();
+            stream.setEncoding(encoding);
+        }
+#endif
 
 		QString filename;
 		QString name;
@@ -1388,7 +1427,11 @@ bool Playlist::saveXSPF(const QString & filename) {
 	QFile f(filename);
 	if (f.open( QIODevice::WriteOnly)) {
 		QTextStream stream(&f);
+#if QT_VERSION_MAJOR < 6
 		stream.setCodec("UTF-8");
+#else
+        stream.setEncoding(QStringConverter::Utf8);
+#endif
 
 		stream << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 		stream << "<playlist version=\"1\" xmlns=\"http://xspf.org/ns/0/\">\n";

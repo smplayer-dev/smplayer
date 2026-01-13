@@ -24,6 +24,10 @@
 #include <QDir>
 #include <QTextCodec>
 #include <QWidget>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#include <QRegularExpression>
+#endif
 #include <QDebug>
 #include "config.h"
 #include "extensions.h"
@@ -253,7 +257,11 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 		digits = rx.cap(1).length();
 		current_number = rx.cap(1).toInt() + 1;
 		next_name = basename.left(pos) + QString("%1").arg(current_number, digits, 10, QLatin1Char('0'));
-		next_name.replace(QRegExp("([\\[\\]?*])"), "[\\1]");
+#if QT_VERSION_MAJOR < 6
+        next_name.replace(QRegExp("([\\[\\]?*])"), "[\\1]");
+#else
+        next_name.replace(QRegularExpression("([\\[\\]?*])"), "[\\1]");
+#endif
 		next_name += "*." + extension;
 		qDebug("Helper::searchForConsecutiveFiles: next name = %s",next_name.toUtf8().constData());
 		matching_files = dir.entryList((QStringList)next_name);
@@ -277,7 +285,11 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 			files_to_add << filename;
 			current_number++;
 			next_name = basename.left(pos) + QString("%1").arg(current_number, digits, 10, QLatin1Char('0'));
-			next_name.replace(QRegExp("([\\[\\]?*])"), "[\\1]");
+#if QT_VERSION_MAJOR < 6
+            next_name.replace(QRegExp("([\\[\\]?*])"), "[\\1]");
+#else
+            next_name.replace(QRegularExpression("([\\[\\]?*])"), "[\\1]");
+#endif
 			next_name += "*." + extension;
 			matching_files = dir.entryList((QStringList)next_name);
 			qDebug("Helper::searchForConsecutiveFiles: looking for '%s'", next_name.toUtf8().constData());
