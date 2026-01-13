@@ -164,7 +164,7 @@ QVariantMap MediaPlayer2Player::Metadata() const {
 	}
 
 	metaData["mpris:trackid"] = QVariant::fromValue<QDBusObjectPath>(QDBusObjectPath(makeTrackId(m_core->mdat.filename).constData()));
-	metaData["mpris:length"] = m_core->mdat.duration * 1000000;
+	metaData["mpris:length"] = static_cast<qint64>(m_core->mdat.duration * 1000000);
 
 	// m_core->mdat.stream_url is never set
 	metaData["xesam:url"] = m_core->mdat.filename;
