@@ -312,6 +312,7 @@ protected:
 	void createTable();
 	void createActions();
 	void createToolbar();
+	void resort();
 
 protected:
 	void retranslateStrings();
