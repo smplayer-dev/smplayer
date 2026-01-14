@@ -1878,6 +1878,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	MediaData data;
 	setCursor(Qt::WaitCursor);
 	#endif
+	listView->setSortingEnabled(false);
 
 	QString initial_file;
 	int new_current_item = -1;
@@ -1914,7 +1915,13 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	#endif
 
 	if (new_current_item != -1) setCurrentItem(new_current_item);
-	if (shuffleAct->isChecked()) shuffle(true);
+
+	listView->setSortingEnabled(true);
+	if (shuffleAct->isChecked()) {
+		shuffle(true);
+	} else {
+		resort();
+	}
 	qDebug() << "Playlist::addFiles: latest_dir:" << latest_dir;
 }
 
@@ -2735,6 +2742,13 @@ void Playlist::changeEvent(QEvent *e) {
 	} else {
 		QWidget::changeEvent(e);
 	}
+}
+
+void Playlist::resort() {
+	if (!listView->isSortingEnabled()) return;
+	int col = listView->horizontalHeader()->sortIndicatorSection();
+	Qt::SortOrder order = listView->horizontalHeader()->sortIndicatorOrder();
+	listView->sortByColumn(col, order);
 }
 
 #include "moc_playlist.cpp"
