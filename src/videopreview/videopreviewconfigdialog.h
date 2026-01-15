@@ -57,6 +57,9 @@ public:
 	void setFormat(VideoPreview::ExtractFormat format);
 	VideoPreview::ExtractFormat format();
 
+	void setHashAlgorithm(VideoPreview::HashAlgorithm algorithm);
+	VideoPreview::HashAlgorithm hashAlgorithm();
+
 	void setSaveLastDirectory(bool b);
 	bool saveLastDirectory();
 

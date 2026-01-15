@@ -36,7 +36,7 @@ class VideoInfo
 public:
 	VideoInfo() { filename.clear(); width = 0; height = 0; length = 0; 
                   size = 0; fps = 0; aspect = 0; video_bitrate = 0; 
-                  audio_bitrate = 0; audio_rate = 0; };
+                  audio_bitrate = 0; audio_rate = 0; file_hash.clear(); hash_algorithm_name.clear(); };
 	~VideoInfo() {};
 
 	QString filename;
@@ -51,6 +51,8 @@ public:
 	int audio_rate;
 	QString video_format;
 	QString audio_format;
+	QString file_hash;
+	QString hash_algorithm_name;
 };
 
 class VideoPreview : public QWidget
@@ -59,6 +61,7 @@ class VideoPreview : public QWidget
 
 public:
 	enum ExtractFormat { JPEG = 1, PNG = 2 };
+	enum HashAlgorithm { HASH_NONE = 0, HASH_MD5 = 1, HASH_SHA1 = 2, HASH_SHA256 = 3 };
 
 	VideoPreview(QString mplayer_path, QWidget * parent = 0);
 	~VideoPreview();
@@ -95,6 +98,9 @@ public:
 	void setExtractFormat( ExtractFormat format ) { prop.extract_format = format; };
 	ExtractFormat extractFormat() { return prop.extract_format; };
 
+	void setHashAlgorithm( HashAlgorithm algorithm ) { prop.hash_algorithm = algorithm; };
+	HashAlgorithm hashAlgorithm() { return prop.hash_algorithm; };
+
 	bool createThumbnails();
 
 	bool showConfigDialog(QWidget * parent);
@@ -126,6 +132,7 @@ protected:
 	QString framePicture();
 	void saveSettings();
 	void loadSettings();
+	QString calculateHash(const QString & filename, HashAlgorithm algorithm);
 
 #if defined(Q_OS_UNIX) && !defined(NO_SMPLAYER_SUPPORT)
 	bool isOptionAvailableinMPV(const QString & option);
@@ -160,11 +167,15 @@ protected:
 		double aspect_ratio;
 		bool display_osd;
 		ExtractFormat extract_format;
+		HashAlgorithm hash_algorithm;
 	} prop;
 
 	struct {
 		int thumbnail_width;
 	} run;
+
+	QString file_hash;
+	QString hash_algorithm_name;
 
 	QString last_directory;
 	bool save_last_directory;
