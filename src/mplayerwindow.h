@@ -133,11 +133,15 @@ protected slots:
 	void resizeLater();
 #endif
 
+protected slots:
+	void emitLeftButtonPressed();
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent ( QEvent * event ) ;
 
 	virtual void resizeEvent( QResizeEvent * e);
+	virtual void mousePressEvent( QMouseEvent * e);
 	virtual void mouseReleaseEvent( QMouseEvent * e);
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
 	virtual void wheelEvent( QWheelEvent * e );
@@ -156,6 +160,8 @@ signals:
 	void wheelDown();
 	void mouseMovedDiff(QPoint);
 	void mouseMoved(QPoint);
+	void leftButtonPressed();
+	void leftButtonReleased();
 
 protected:
 	int video_width, video_height;
@@ -185,6 +191,7 @@ protected:
 	// Delay left click event
 	bool delay_left_click;
 	QTimer * left_click_timer;
+	QTimer * left_pressed_timer;
 	bool double_clicked;
 
 #if LOGO_ANIMATION
@@ -201,6 +208,7 @@ private:
 	TDragState drag_state;
 	QPoint start_drag;
 	bool mouse_drag_tracking;
+	bool left_button_pressed_emitted;
 };
 
 #endif

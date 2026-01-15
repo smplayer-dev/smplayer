@@ -297,7 +297,8 @@ protected slots:
 	virtual void mouseReleaseEvent( QMouseEvent * e );
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
 	*/
-
+	virtual void leftButtonPressFunction();
+	virtual void leftButtonReleaseFunction();
 	virtual void leftClickFunction();
 	virtual void rightClickFunction();
 	virtual void doubleClickFunction();

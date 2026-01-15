@@ -100,6 +100,12 @@ protected:
 	void setPreciseSeeking(bool);
 	bool preciseSeeking();
 
+	void setEnablePressedSpeed(bool b);
+	bool enablePressedSpeed();
+
+	void setPressedSpeed(double d);
+	double pressedSpeed();
+
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 
