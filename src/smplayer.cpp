@@ -46,6 +46,9 @@
 #include <QDir>
 #include <QUrl>
 #include <QTime>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 #include <stdio.h>
 
 #ifdef Q_OS_WIN
@@ -580,8 +583,9 @@ void SMPlayer::createFontFile() {
 
 void SMPlayer::showInfo() {
 #ifdef Q_OS_WIN
-	QString win_ver;
-	switch (QSysInfo::WindowsVersion) {
+#if QT_VERSION_MAJOR < 6
+    QString win_ver;
+    switch (QSysInfo::WindowsVersion) {
 		case QSysInfo::WV_2000: win_ver = "Windows 2000"; break;
 		case QSysInfo::WV_XP: win_ver = "Windows XP"; break;
 		case QSysInfo::WV_2003: win_ver = "Windows XP Professional x64/Server 2003"; break;
@@ -601,6 +605,9 @@ void SMPlayer::showInfo() {
 		case QSysInfo::WV_NT_based: win_ver = "NT-based Windows"; break;
 		default: win_ver = QString("Unknown/Unsupported Windows OS"); break;
 	}
+#else
+    QString win_ver("Windows " + QSysInfo::productVersion());
+#endif
 #endif
 	QString s = QObject::tr("This is SMPlayer v. %1 running on %2")
            .arg(Version::printable())

@@ -16,3 +16,6 @@
 # binaries
 /src/smplayer
 /webserver/simple_web_server
+webserver/simple_web_server.exe
+version
+src/smplayer.pro.user
