@@ -136,6 +136,9 @@ public slots:
 	void playNext();
 	void playPrev();
 
+	void playFirst();
+	void playLast();
+
 	void playNextAuto(); // Called from GUI when a file finished
 
 	void resumePlay();
@@ -358,6 +361,8 @@ protected:
 	MyAction * pauseAct;
 	MyAction * prevAct;
 	MyAction * nextAct;
+	MyAction * firstAct;
+	MyAction * lastAct;
 	MyAction * repeatAct;
 	MyAction * shuffleAct;
 	MyAction * showSearchAct;

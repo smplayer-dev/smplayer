@@ -560,6 +560,12 @@ void Playlist::createActions() {
 	prevAct = new MyAction(Qt::Key_P /*Qt::Key_Less*/, this, "pl_prev", false);
 	connect( prevAct, SIGNAL(triggered()), this, SLOT(playPrev()) );
 
+	firstAct = new MyAction(this, "pl_first", false);
+	connect( firstAct, SIGNAL(triggered()), this, SLOT(playFirst()) );
+
+	lastAct = new MyAction(this, "pl_last", false);
+	connect( lastAct, SIGNAL(triggered()), this, SLOT(playLast()) );
+
 	moveUpAct = new MyAction(this, "pl_move_up", false);
 	connect( moveUpAct, SIGNAL(triggered()), this, SLOT(upItem()) );
 
@@ -779,6 +785,9 @@ void Playlist::retranslateStrings() {
 
 	nextAct->change( tr("&Next") );
 	prevAct->change( tr("Pre&vious") );
+
+	firstAct->change( tr("&First") );
+	lastAct->change( tr("&Last") );
 
 	playAct->setIcon( Images::icon("play") );
 	pauseAct->setIcon( Images::icon("pause") );
@@ -1720,6 +1729,16 @@ void Playlist::playPrev() {
 	} else {
 		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1, delayed_play);
 	}
+}
+
+void Playlist::playFirst() {
+	qDebug("Playlist::playFirst");
+	playItem(0);
+}
+
+void Playlist::playLast() {
+	qDebug("Playlist::playLast");
+	playItem(proxy->rowCount()-1);
 }
 
 void Playlist::playNextAuto() {
