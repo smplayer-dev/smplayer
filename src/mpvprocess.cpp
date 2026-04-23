@@ -180,6 +180,7 @@ void MPVProcess::initializeRX() {
 	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
 	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
+	rx_stream_title.setPattern("(?:icy-title: |^ Title: )(.*)");
 	rx_generic.setPattern("^([A-Z_]+)=(.*)");
 }
 
@@ -307,6 +308,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 		QString length = rx_brtitles.cap(2);
 		qDebug() << "MPVProcess::parseLine: br title:" << ID << length;
 		md.titles.addName(ID, length);
+	}
+	else
+	if (rx_stream_title.indexIn(line) > -1) {
+		QString s = rx_stream_title.cap(1);
+		qDebug() << "MPVProcess::parseLine: stream_title:" << s;
+		md.stream_title = s;
+		emit receivedStreamTitle(s);
 	}
 	if (rx_generic.indexIn(line) > -1) {
 		QString tag = rx_generic.cap(1);
