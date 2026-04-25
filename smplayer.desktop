@@ -1,6 +1,6 @@
 [Desktop Entry]
 Categories=Qt;AudioVideo;Player;Video;
-Comment=A great MPlayer front-end
+Comment=A great GUI frontend for MPlayer and mpc
 Exec=smplayer %U
 GenericName=Media Player
 Icon=smplayer
@@ -44,7 +44,7 @@ GenericName[en_GB]=Media Player
 Name[en_GB]=SMPlayer
 Icon[en_GB]=smplayer
 
-Comment[es]=Un magnífico interfaz gráfico para el MPlayer
+Comment[es]=Un magnífico interfaz gráfico para MPlayer y mpv
 GenericName[es]=Reproductor multimedia
 Name[es]=SMPlayer
 Icon[es]=smplayer
