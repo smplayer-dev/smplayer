@@ -35,7 +35,9 @@
 #include <QMenu>
 #include <QCloseEvent>
 #include <QApplication>
+#if QT_VERSION_MAJOR < 6
 #include <QDesktopWidget>
+#endif
 #include <QTime>
 
 #ifdef PLAYLIST_DOCKABLE
@@ -624,8 +626,16 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 	if (!playlist->isWindow() && playlistdock) {
 		playlistdock->setAllowedAreas(Qt::NoDockWidgetArea);
 
+#if QT_VERSION_MAJOR < 6
 		int playlist_screen = QApplication::desktop()->screenNumber(playlistdock);
 		int mainwindow_screen = QApplication::desktop()->screenNumber(this);
+#else
+        const QList<QScreen *> screens = QGuiApplication::screens();
+        QScreen *primaryScreen = QGuiApplication::primaryScreen();
+        QScreen *pldockScreen = playlistdock->windowHandle()->screen();
+        int playlist_screen = screens.indexOf(pldockScreen);
+        int mainwindow_screen = screens.indexOf(primaryScreen);
+#endif
 		qDebug("BaseGuiPlus::aboutToEnterFullscreen: mainwindow screen: %d, playlist screen: %d", mainwindow_screen, playlist_screen);
 
 		fullscreen_playlist_was_visible = playlistdock->isVisible();
