@@ -314,6 +314,17 @@ protected:
 	void createToolbar();
 	void resort();
 
+	/**
+	 * Save playlist position if current playlist file is unmodified
+	 */
+	void savePosition();
+
+
+	/**
+	 * Load playlist position for current playlist file
+	 */
+	int loadPosition();
+
 protected:
 	void retranslateStrings();
 	virtual void changeEvent ( QEvent * event ) ;
