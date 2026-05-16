@@ -18,7 +18,7 @@
 
 #include "openglrenderer.h"
 
-#include <QGLShaderProgram>
+#include <QOpenGLShaderProgram>
 #include <QRegularExpression>
 #include <QFile>
 #include <QDebug>

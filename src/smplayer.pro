@@ -664,6 +664,9 @@ contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
 		SOURCES += openglrenderer.cpp
 		RESOURCES += glsl.qrc
 		QT += opengl
+		greaterThan(QT_MAJOR_VERSION, 5) {
+			QT += openglwidgets
+		}
 	} else {
 		LIBS += -lswscale
 		mac {
