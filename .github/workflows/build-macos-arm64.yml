@@ -1,0 +1,84 @@
+name: Build SMPlayer on Mac OS (arm64)
+env:
+  mpv-url: https://github.com/smplayer-dev/mpv-mac/releases/download/2026-05-08/mpv-arm64-git-41f6a64506.zip
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: packages/smplayer
+
+      - name: Get version
+        run: |
+            cd packages/smplayer
+            ./get_version.sh
+            VERSION=`cat version`-macos
+            echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Install build dependencies
+        run: brew install create-dmg qt@5
+
+      - name: Setup Qt
+        run: echo "$(brew --prefix qt@5)/bin" >> $GITHUB_PATH
+
+      - name: Compile
+        run: |
+            cd packages/smplayer
+            ./compile_mac.sh
+
+      - name: Install themes
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-themes.git packages/smplayer-themes
+            cd packages/smplayer-themes
+            make
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/Resources/themes
+
+      - name: Install skins
+        run: |
+            git clone https://github.com/smplayer-dev/smplayer-skins.git packages/smplayer-skins
+            cd packages/smplayer-skins
+            make
+            make install THEMES_PATH=../smplayer/package/SMPlayer.app/Contents/Resources/themes
+
+      - name: Install mpv
+        run: |
+            wget ${{ env.mpv-url }} -O mpv-macos.zip
+            unzip mpv-macos.zip -d /tmp/
+            mkdir -p packages/smplayer/package/SMPlayer.app/Contents/MacOS/lib
+            mkdir -p packages/smplayer/package/SMPlayer.app/Contents/Frameworks
+            cp /tmp/mpv/mpv.app/Contents/MacOS/mpv packages/smplayer/package/SMPlayer.app/Contents/MacOS/
+            cp /tmp/mpv/mpv.app/Contents/MacOS/lib/*.dylib packages/smplayer/package/SMPlayer.app/Contents/MacOS/lib/
+            cp /tmp/mpv/mpv.app/Contents/Frameworks/*.dylib packages/smplayer/package/SMPlayer.app/Contents/Frameworks/
+
+      - name: Create dmg
+        run: |
+            cd packages/smplayer
+            ./create_dmg.sh
+            ls -l package/
+
+      - name: Create artifact
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: smplayer-${{env.VERSION}}-arm64
+          path: packages/smplayer/package/*.dmg
+
+      - name: Upload package to release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./packages/smplayer/package/*.dmg
+          tag: ${{ github.ref }}
+          overwrite: true
+          file_glob: true

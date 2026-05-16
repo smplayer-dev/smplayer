@@ -1,13 +1,21 @@
 #! /bin/sh
-./get_svn_revision.sh
 
+ARCH=${1:-$(uname -m)}  # usa el primer argumento, o detecta la arquitectura actual
+
+if [ "$ARCH" = "arm64" ]; then
+  QMAKE_ARCH_FLAGS="QMAKE_APPLE_DEVICE_ARCHS=arm64 QMAKE_MACOSX_DEPLOYMENT_TARGET=11.0"
+else
+  QMAKE_ARCH_FLAGS=""
+fi
+
+./get_svn_revision.sh
 echo Compiling web server
 cd webserver && make
 cd ..
 
 echo Compiling create_plist
 cd Mac
-qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib && make
+qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib $QMAKE_ARCH_FLAGS && make
 cd ..
 
 #echo Compiling smtube
@@ -22,7 +30,7 @@ cd src
 echo Compiling smplayer
 lrelease smplayer.pro
 #qmake DEFINES+="USE_SMTUBE_LIB"
-qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib
+qmake -early QMAKE_DEFAULT_LIBDIRS=$(xcrun -show-sdk-path)/usr/lib $QMAKE_ARCH_FLAGS
 make -j$(sysctl -n hw.logicalcpu)
 #cp ../smtube/translations/*.qm smplayer.app/Contents/Resources/translations/
 cp ../webserver/simple_web_server smplayer.app/Contents/MacOS/

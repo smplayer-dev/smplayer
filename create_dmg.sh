@@ -4,6 +4,7 @@ rm package/*.dmg
 
 ./get_version.sh
 VERSION=`cat version`
+ARCH=$(uname -m)
 
 create-dmg \
   --volname "SMPlayer $VERSION" \
@@ -14,5 +15,5 @@ create-dmg \
   --icon "SMPlayer.app" 128 190 \
   --hide-extension "SMPlayer.app" \
   --app-drop-link 472 185 \
-  "package/smplayer-$VERSION.dmg" \
+  "package/smplayer-$VERSION-$ARCH.dmg" \
   "package/SMPlayer.app/"
