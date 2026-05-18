@@ -10,7 +10,7 @@ fi
 
 ./get_svn_revision.sh
 echo Compiling web server
-cd webserver && make
+cd webserver && make CFLAGS_EXTRA="-mmacosx-version-min=11.0"
 cd ..
 
 echo Compiling create_plist

@@ -1,6 +1,6 @@
-name: Build SMPlayer on Mac OS (arm64)
+name: Build SMPlayer on Mac OS (arm64 - qt5)
 env:
-  mpv-url: https://github.com/smplayer-dev/mpv-mac/releases/download/2026-05-08/mpv-arm64-git-41f6a64506.zip
+  mpv-url: https://github.com/smplayer-dev/mpv-mac/releases/download/2026-05-18/mpv-arm64-git-41f6a64506.zip
 
 on:
   workflow_dispatch:
@@ -60,11 +60,23 @@ jobs:
             cp /tmp/mpv/mpv.app/Contents/MacOS/lib/*.dylib packages/smplayer/package/SMPlayer.app/Contents/MacOS/lib/
             cp /tmp/mpv/mpv.app/Contents/Frameworks/*.dylib packages/smplayer/package/SMPlayer.app/Contents/Frameworks/
 
+      - name: Sign app (ad-hoc)
+        run: |
+            codesign --force --deep --sign - \
+              packages/smplayer/package/SMPlayer.app
+
       - name: Create dmg
         run: |
             cd packages/smplayer
             ./create_dmg.sh
             ls -l package/
+
+      - name: Rename dmg
+        run: |
+            cd packages/smplayer/package
+            for f in *.dmg; do
+              mv "$f" "${f%.dmg}-qt5.dmg"
+            done
 
       - name: Create artifact
         if: github.event_name != 'release'
