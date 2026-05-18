@@ -71,10 +71,7 @@
 #include "multilineinputdialog.h"
 #include "version.h"
 #include "extensions.h"
-#include "filehash.h"
-#include "filesettings.h"
 #include "guiconfig.h"
-#include "paths.h"
 
 #ifdef CHROMECAST_SUPPORT
 #include "chromecast.h"
@@ -156,58 +153,6 @@ private:
 	mutable QCollator collator;
 };
 #endif
-
-
-/* ----------------------------------------------------------- */
-
-/**
- * The attributes to be saved for each playlist
- */
-struct PlaylistSettingsPerFile
-{
-	int current_position = 0;
-};
-
-/**
- * Loads from configuration file the playlist settings for a specific playlist_path
- * @param playlist_path input path of a playlist file
- * @param config_path input path to INI configuration file to read
- * @param playlist_settings output settings
- */
-void loadPlaylistSettingsPerFile(QString const& playlist_path, QString const&config_path, PlaylistSettingsPerFile& playlist_settings )
-{
-	qDebug() << "loadPlaylistSettingsPerFile:" << playlist_path << config_path;
-	if (playlist_path.isEmpty()) return;
-	QSettings settings(config_path, QSettings::IniFormat);
-	QString const hash = FileHash::calculateHash(playlist_path);
-	if (hash.isEmpty()) return;
-	settings.beginGroup(hash);
-	if (settings.contains("current_position"))
-	{
-		playlist_settings.current_position = settings.value("current_position", 0).toInt();
-	}
-	else
-	{
-		qDebug() << "loadPlaylistSettingsPerFile" << "associated playlist file not found";
-	}
-}
-
-/**
- * Saves to configuration file the playlist settings for a specific playlist_path
- * @param playlist_path input path of current playlist
- * @param config_path input path to INI configuration file to write
- * @param playlist_settings input settings
- */
-void savePlaylistSettingsPerFile(QString const& playlist_path, QString const& config_path, PlaylistSettingsPerFile const& playlist_settings)
-{
-	qDebug() << "savePlaylistSettingsPerFile" << playlist_path << config_path << playlist_settings.current_position;
-	if (playlist_path.isEmpty()) return;
-	QSettings settings(config_path, QSettings::IniFormat);
-	QString const hash = FileHash::calculateHash(playlist_path);
-	if (hash.isEmpty()) return;
-	settings.beginGroup(hash);
-	settings.setValue("current_position", playlist_settings.current_position);
-}
 
 
 /* ----------------------------------------------------------- */
@@ -945,8 +890,6 @@ void Playlist::setCurrentItem(int current) {
 
 	listView->clearSelection();
 	listView->selectionModel()->setCurrentIndex(listView->model()->index(current, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
-
-	savePosition();
 }
 
 int Playlist::findCurrentItem() {
@@ -972,10 +915,9 @@ int Playlist::findCurrentItem() {
 }
 
 void Playlist::clear() {
-	qDebug() << "Playlist::clear";
-	if (!isEmpty()) setModified(true);
 	table->setRowCount(0);
 	setCurrentItem(0);
+	setModified(false);
 }
 
 int Playlist::count() {
@@ -1627,20 +1569,14 @@ bool Playlist::save(const QString & filename) {
 
 		QString suffix = QFileInfo(s).suffix().toLower();
 		if (suffix  == "pls") {
-			bool return_val = save_pls(s);
-			savePosition();
-			return return_val;
+			return save_pls(s);
 		}
 		else
 		if (suffix  == "xspf") {
-			bool return_val = saveXSPF(s);
-			savePosition();
-			return return_val;
+			return saveXSPF(s);
 		}
 		else {
-			bool return_val = save_m3u(s);
-			savePosition();
-			return return_val;
+			return save_m3u(s);
 		}
 
 	} else {
@@ -1737,7 +1673,7 @@ void Playlist::showPopup(const QPoint & pos) {
 }
 
 void Playlist::startPlay() {
-	playItem(loadPosition());
+	playItem(0);
 }
 
 void Playlist::playItem(int n, bool later) {
@@ -2813,25 +2749,6 @@ void Playlist::resort() {
 	int col = listView->horizontalHeader()->sortIndicatorSection();
 	Qt::SortOrder order = listView->horizontalHeader()->sortIndicatorOrder();
 	listView->sortByColumn(col, order);
-}
-
-void Playlist::savePosition()
-{
-	if (!modified)
-	{
-		PlaylistSettingsPerFile playlist_settings;
-		playlist_settings.current_position = findCurrentItem();
-		// PlaylistSettings2Saver::save(playlist_path + "/" + playlist_filename, Paths::configPath() + "/playlist_per_file.ini", playlist_settings);
-		savePlaylistSettingsPerFile(playlist_filename, Paths::configPath() + "/playlist_per_file.ini", playlist_settings);
-	}
-}
-
-int Playlist::loadPosition()
-{
-	PlaylistSettingsPerFile playlist_settings;
-	loadPlaylistSettingsPerFile(playlist_filename, Paths::configPath() + "/playlist_per_file.ini", playlist_settings);
-
-	return playlist_settings.current_position;
 }
 
 #include "moc_playlist.cpp"
