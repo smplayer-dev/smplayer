@@ -314,6 +314,9 @@ protected:
 	void createToolbar();
 	void resort();
 
+	int loadPosition();
+	void savePosition();
+
 protected:
 	void retranslateStrings();
 	virtual void changeEvent ( QEvent * event ) ;

@@ -400,6 +400,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 }
 
 Playlist::~Playlist() {
+	savePosition();
 	saveSettings();
 	if (set) delete set;
 
@@ -1494,6 +1495,7 @@ bool Playlist::saveXSPF(const QString & filename) {
 
 
 void Playlist::load() {
+	savePosition();
 	if (maybeSave()) {
 		Extensions e;
 		QString s = MyFileDialog::getOpenFileName(
@@ -1537,6 +1539,7 @@ bool Playlist::saveCurrentPlaylist() {
 
 bool Playlist::save(const QString & filename) {
 	qDebug() << "Playlist::save:" << filename;
+	savePosition();
 
 	QString s = filename;
 
@@ -1673,7 +1676,7 @@ void Playlist::showPopup(const QPoint & pos) {
 }
 
 void Playlist::startPlay() {
-	playItem(0);
+	playItem(loadPosition());
 }
 
 void Playlist::playItem(int n, bool later) {
@@ -2749,6 +2752,32 @@ void Playlist::resort() {
 	int col = listView->horizontalHeader()->sortIndicatorSection();
 	Qt::SortOrder order = listView->horizontalHeader()->sortIndicatorOrder();
 	listView->sortByColumn(col, order);
+}
+
+void Playlist::savePosition() {
+	qDebug() << "Playlist::savePosition:" << playlist_filename;
+	if (set && !playlist_filename.isEmpty() && !isEmpty()) {
+		QString key = playlist_filename.toUtf8().toBase64();
+		int current_position = findCurrentItem();
+		qDebug() << "Playlist::savePosition: key:" << key << "position:" << current_position;
+		set->beginGroup("playlist_positions");
+		set->setValue(key, current_position);
+		set->endGroup();
+	}
+}
+
+int Playlist::loadPosition() {
+	int position = 0;
+	if (set) {
+		set->beginGroup("playlist_positions");
+		QString key = playlist_filename.toUtf8().toBase64();
+		qDebug() << "Playlist::loadPosition: key:" << key;
+		int saved_pos = set->value(key, -1).toInt();
+		set->endGroup();
+		if (saved_pos >= 0 && saved_pos < count()) position = saved_pos;
+	}
+	qDebug() << "Playlist::loadPosition:" << playlist_filename << "position:" << position;
+	return position;
 }
 
 #include "moc_playlist.cpp"
