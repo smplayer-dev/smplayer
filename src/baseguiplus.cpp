@@ -632,7 +632,7 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 #else
         const QList<QScreen *> screens = QGuiApplication::screens();
         QScreen *primaryScreen = QGuiApplication::primaryScreen();
-        QScreen *pldockScreen = playlistdock->windowHandle()->screen();
+        QScreen *pldockScreen = playlistdock->screen();
         int playlist_screen = screens.indexOf(pldockScreen);
         int mainwindow_screen = screens.indexOf(primaryScreen);
 #endif
