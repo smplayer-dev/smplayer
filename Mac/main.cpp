@@ -74,6 +74,8 @@ int main( int argc, char ** argv )
 	print_key("CFBundleName", "SMPlayer");
 	print_key("CFBundlePackageType", "APPL");
 	print_key("CFBundleShortVersionString", Version::stable());
+	print_key("CFBundleVersion", Version::stable());
+	print_key("LSMinimumSystemVersion", "11.0");
 
 	printf("</dict>\n</plist>\n");
 

@@ -33,6 +33,10 @@
 #include <QLocale>
 #include <QNetworkProxy>
 
+#ifdef Q_OS_MACX
+#include <QCoreApplication>
+#endif
+
 #if QT_VERSION >= 0x050000
 #include <QStandardPaths>
 #endif
@@ -1984,6 +1988,17 @@ void Preferences::load() {
 		}
 	}
 	#endif
+#endif
+
+#ifdef Q_OS_MACX
+	if (!QFile::exists(mplayer_bin)) {
+		QString app_dir = QCoreApplication::applicationDirPath();
+		QString bundled_mpv = app_dir + "/mpv";
+		if (QFile::exists(bundled_mpv)) {
+			mplayer_bin = bundled_mpv;
+			qDebug("Preferences::load: using bundled mpv: %s", mplayer_bin.toLatin1().constData());
+		}
+	}
 #endif
 }
 
