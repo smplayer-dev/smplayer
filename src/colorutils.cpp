@@ -18,6 +18,9 @@
 
 #include "colorutils.h"
 #include <QWidget>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 #include <QDebug>
 #include "qtcompat.h"
 

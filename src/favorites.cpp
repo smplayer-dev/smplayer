@@ -25,6 +25,9 @@
 #include <QTextStream>
 #include <QInputDialog>
 #include <QFileInfo>
+#if QT_VERSION_MAJOR >= 6
+#include <QRegExp>
+#endif
 
 //#define FIRST_MENU_ENTRY 4
 #define FIRST_MENU_ENTRY 3
@@ -270,7 +273,11 @@ void Favorites::save() {
 	QFile f( _filename );
     if ( f.open( QIODevice::WriteOnly ) ) {
         QTextStream stream( &f );
+#if QT_VERSION_MAJOR < 6
 		stream.setCodec("UTF-8");
+#else
+        stream.setEncoding(QStringConverter::Utf8);
+#endif
 
 		stream << "#EXTM3U" << "\n";
 		for (int n = 0; n < f_list.count(); n++) {
@@ -299,7 +306,11 @@ void Favorites::load() {
 		Favorite fav;
 
 		QTextStream stream( &f );
-		stream.setCodec("UTF-8");
+#if QT_VERSION_MAJOR < 6
+        stream.setCodec("UTF-8");
+#else
+        stream.setEncoding(QStringConverter::Utf8);
+#endif
 
 		QString line;
 		while ( !stream.atEnd() ) {

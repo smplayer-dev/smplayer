@@ -26,7 +26,11 @@
 
 #define NL QString("\r\n")
 #define BNL QByteArray("\r\n")
+#if QT_VERSION_MAJOR < 6
 #define BOM QString(0xFEFF)
+#else
+#define BOM QString(QByteArray('0xFE', '0xFF'))
+#endif
 
 SubReader::SubReader() {
 	input_codec = "ISO-8859-1";

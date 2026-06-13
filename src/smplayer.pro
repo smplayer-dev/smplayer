@@ -1,8 +1,8 @@
 TEMPLATE = app
 LANGUAGE = C++
 
-CONFIG += qt warn_on
-CONFIG += release
+CONFIG += qt warn_on lrelease
+#CONFIG += release
 #CONFIG += debug
 
 QT += network xml
@@ -60,6 +60,25 @@ greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
 #DEFINES += IDOPT_BUILD
 
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x050F00
+
+win32 {
+    CONFIG(debug, debug|release) {
+        BUILD_SUBDIR = debug
+    } else {
+        BUILD_SUBDIR = release
+    }
+    QM_SRC_DIR = $${OUT_PWD}/$${BUILD_SUBDIR}
+    QM_DST_DIR = $${OUT_PWD}/$${BUILD_SUBDIR}/translations
+    QMAKE_POST_LINK += $$quote(cmd /c if not exist $$shell_quote($$replace(QM_DST_DIR,"/","\\")) mkdir $$shell_quote($$replace(QM_DST_DIR,"/","\\")))$$escape_expand(\n\t)
+    QMAKE_POST_LINK += $$quote(cmd /c copy /y $$shell_quote($$replace(QM_SRC_DIR,"/","\\")\\)*.qm $$shell_quote($$replace(QM_DST_DIR,"/","\\")))$$escape_expand(\n\t)
+    QMAKE_CLEAN += $${QM_DST_DIR}/*.qm
+} else {
+    QM_SRC_DIR = $${OUT_PWD}
+    QM_DST_DIR = $${OUT_PWD}/translations
+    QMAKE_POST_LINK += mkdir -p $${QM_DST_DIR}$$escape_expand(\n\t)
+    QMAKE_POST_LINK += cp $${QM_SRC_DIR}/*.qm $${QM_DST_DIR}$$escape_expand(\n\t)
+    QMAKE_CLEAN += $${QM_DST_DIR}/*.qm
+}
 
 contains( DEFINES, SIMPLE_BUILD ) {
 	DEFINES -= SINGLE_INSTANCE
@@ -259,6 +278,7 @@ HEADERS += guiconfig.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
+	svn_revision.h \
 	myapplication.h
 
 
@@ -416,7 +436,8 @@ contains( DEFINES, FIND_SUBTITLES ) {
 	SOURCES += findsubtitles/qrestapi/qRestAPI.cpp findsubtitles/qrestapi/qRestResult.cpp \
                findsubtitles/qrestapi/qGirderAPI.cpp findsubtitles/osclient.cpp
 
-	isEqual(QT_MAJOR_VERSION, 5) {
+        I
+	greaterThan(QT_MAJOR_VERSION, 4) {
 		QT += qml
 	} else {
 		QT += script
@@ -639,10 +660,6 @@ contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
 		LIBS += -framework Cocoa
 	}
 
-	isEqual(QT_MAJOR_VERSION, 5) {
-		#DEFINES += USE_GL_WINDOW
-	}
-
 	contains( DEFINES, USE_GL_WINDOW ) {
 		HEADERS += openglrenderer.h
 		SOURCES += openglrenderer.cpp
@@ -663,7 +680,7 @@ contains( DEFINES, USE_SHM|USE_COREVIDEO_BUFFER ) {
 
 contains(DEFINES, USE_SMTUBE_LIB) {
 	LIBS += -L../smtube -lsmtube
-	isEqual(QT_MAJOR_VERSION, 5) {
+	greaterThan(QT_MAJOR_VERSION, 4) {
 		QT += webkitwidgets widgets gui
 	} else {
 		QT += webkit
@@ -773,4 +790,3 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_es_ES.ts \
                translations/smplayer_sq_AL.ts translations/smplayer_am.ts \
                translations/smplayer_fa.ts translations/smplayer_en_US.ts \
                translations/smplayer_nb_NO.ts
-

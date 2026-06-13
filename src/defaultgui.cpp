@@ -47,6 +47,9 @@
 #include <QMenuBar>
 #include <QMovie>
 #include <QtCore/qmath.h>
+#if QT_VERSION_MAJOR >= 6
+#include <QActionGroup>
+#endif
 
 #define TOOLBAR_VERSION "2"
 #define CONTROLWIDGET_VERSION "1"
