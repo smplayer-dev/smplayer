@@ -21,6 +21,7 @@
 
 #include "myslider.h"
 #include "config.h"
+#include <QPoint>
 
 class TimeSlider : public MySlider 
 {
@@ -29,6 +30,12 @@ class TimeSlider : public MySlider
 public:
 	TimeSlider( QWidget * parent );
 	~TimeSlider();
+
+	// Enabled only for local files (see BaseGuiPlus::showThumbnail).
+	// When disabled, only the plain-text time tooltip is shown, exactly
+	// like before this feature existed.
+	void setThumbnailsEnabled(bool b) { thumbnails_enabled = b; };
+	bool thumbnailsEnabled() { return thumbnails_enabled; };
 
 public slots:
 	virtual void setPos(int); // Don't use setValue!
@@ -50,6 +57,14 @@ signals:
 	void wheelUp();
 	void wheelDown();
 
+	// Emitted while hovering over the slider with the mouse still,
+	// with the time under the cursor (in seconds) and the global
+	// screen position the preview popup should appear at.
+	void thumbnailRequested(double time, QPoint pos);
+	// Emitted when the cursor leaves the slider, or moves outside
+	// the valid time range, so any visible preview should be hidden.
+	void thumbnailCancelled();
+
 protected slots:
 	void sliderPressed_slot();
 	void sliderReleased_slot();
@@ -62,6 +77,7 @@ protected slots:
 protected:
 	virtual void wheelEvent(QWheelEvent * e);
 	virtual bool event(QEvent *event);
+	virtual void leaveEvent(QEvent * event);
 
 private:
 	bool dont_update;
@@ -69,6 +85,7 @@ private:
 	int start_drag_pos;
 	bool slider_has_moved;
 	double total_time;
+	bool thumbnails_enabled;
 
 #if ENABLE_DELAYED_DRAGGING
 	int last_pos_to_send;
