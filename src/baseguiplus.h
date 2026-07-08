@@ -22,6 +22,7 @@
 #include "basegui.h"
 #include "widgetactions.h"
 #include <QPoint>
+#include <QPixmap>
 #include "guiconfig.h"
 
 #define PLAYLIST_DOCKABLE
@@ -60,6 +61,8 @@ class VolumeSliderAction;
 class TimeLabelAction;
 class InfoWindow;
 class GlobalShortcuts;
+class ThumbnailGenerator;
+class ThumbnailPreview;
 
 class BaseGuiPlus : public BaseGui
 {
@@ -177,6 +180,12 @@ protected slots:
 	void updateGlobalShortcuts();
 #endif
 
+	// Seek bar thumbnail preview (mplayer/mpv, local files only)
+	void updateThumbnailAvailability();
+	void requestThumbnail(double time, QPoint pos);
+	void displayThumbnail(QPixmap pixmap, double time, QPoint pos);
+	void hideThumbnail();
+
 protected:
 #ifdef USE_SYSTRAY
 	QSystemTrayIcon * tray;
@@ -239,6 +248,12 @@ protected:
 	bool compact_playlist_was_visible;
 	bool ignore_playlist_events;
 #endif
+
+	ThumbnailGenerator * thumbnail_generator;
+	ThumbnailPreview * thumbnail_preview;
+	// Kept to be able to enable/disable thumbnails when the media changes.
+	// Set by createTimeSliderAction().
+	TimeSliderAction * timeslider_action_for_thumbnails;
 };
 
 #endif

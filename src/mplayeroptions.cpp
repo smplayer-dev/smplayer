@@ -414,7 +414,8 @@ void MplayerProcess::setSubtitlesVisibility(bool b) {
 #ifdef MPV_SUPPORT
 void MplayerProcess::setSecondarySubtitlesVisibility(bool /*value*/) {
 	/* Not supported */
-	showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
+	//showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
+	qDebug("MplayerProcess::setSecondarySubtitlesVisibility: this option is not supported by MPlayer");
 };
 #endif
 

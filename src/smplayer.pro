@@ -277,6 +277,8 @@ HEADERS += guiconfig.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
+	thumbnailgenerator.h \
+	thumbnailpreview.h \
 	svn_revision.h \
 	myapplication.h
 
@@ -378,6 +380,8 @@ SOURCES	+= version.cpp \
 	clhelp.cpp \
 	cleanconfig.cpp \
 	smplayer.cpp \
+	thumbnailgenerator.cpp \
+	thumbnailpreview.cpp \
 	myapplication.cpp \
 	main.cpp
 

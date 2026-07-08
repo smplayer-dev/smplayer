@@ -37,6 +37,7 @@ TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 	, start_drag_pos(-1)
 	, slider_has_moved(false)
 	, total_time(0)
+	, thumbnails_enabled(false)
 {
 	setMinimum(0);
 #ifdef SEEKBAR_RESOLUTION
@@ -194,13 +195,22 @@ bool TimeSlider::event(QEvent *event) {
 
 		if (time >= 0 && time <= total_time) {
 			QToolTip::showText(help_event->globalPos(), Helper::formatTime(time), this);
+			if (thumbnails_enabled) {
+				emit thumbnailRequested(time, help_event->globalPos());
+			}
 		} else {
 			QToolTip::hideText();
+			if (thumbnails_enabled) emit thumbnailCancelled();
 			event->ignore();
 		}
 		return true;
 	}
 	return QWidget::event(event);
+}
+
+void TimeSlider::leaveEvent(QEvent * event) {
+	if (thumbnails_enabled) emit thumbnailCancelled();
+	QWidget::leaveEvent(event);
 }
 
 #include "moc_timeslider.cpp"
