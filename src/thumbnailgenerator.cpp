@@ -43,6 +43,11 @@ ThumbnailGenerator::ThumbnailGenerator(QObject * parent)
 	        this, SLOT(processError(QProcess::ProcessError)));
 
 	tmp_dir = new QTemporaryDir();
+
+	// For mplayer
+	if (tmp_dir->isValid()) {
+		process->setWorkingDirectory(tmp_dir->path());
+	}
 }
 
 ThumbnailGenerator::~ThumbnailGenerator() {
@@ -119,13 +124,15 @@ void ThumbnailGenerator::startExtraction(double time, const QPoint & pos) {
 	QStringList args;
 
 	if (PlayerID::player(player_bin) == PlayerID::MPLAYER) {
-		args << "-vo" << ("png:z=1:outdir=" + tmp_dir->path())
+		args << "-vo" << "png"
 		     << "-ao" << "null"
 		     << "-frames" << "3"
 		     << "-ss" << QString::number(time, 'f', 2)
-		     << "-nolirc"
-		     << "-really-quiet"
-		     << filename;
+		     << "-really-quiet";
+#ifdef Q_OS_WIN
+		args << "-nofontconfig";
+#endif
+		args << filename;
 	} else { // mpv
 		args << ("--vo=image")
 		     << ("--vo-image-outdir=" + tmp_dir->path())
