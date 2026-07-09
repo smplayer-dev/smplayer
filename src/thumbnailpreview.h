@@ -48,7 +48,7 @@ public:
 private:
 	QLabel * image_label;
 
-	static const int MAX_THUMB_WIDTH = 200;
+	static const int MAX_THUMB_WIDTH = 150;
 };
 
 #endif
