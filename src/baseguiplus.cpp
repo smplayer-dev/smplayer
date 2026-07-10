@@ -913,7 +913,7 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 void BaseGuiPlus::updateThumbnailAvailability() {
 	// Only local files: reopening a network stream on every hover would
 	// be slow, and for live streams seeking doesn't make sense at all.
-	bool enabled = (core->mdat.type == TYPE_FILE);
+	bool enabled = pref->show_thumbnails && (core->mdat.type == TYPE_FILE);
 
 	if (timeslider_action_for_thumbnails) {
 		timeslider_action_for_thumbnails->setThumbnailsEnabled(enabled);

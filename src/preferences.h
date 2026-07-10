@@ -502,6 +502,8 @@ public:
 	bool animated_logo;
 #endif
 
+	bool show_thumbnails;
+
 
     /* ********
        TV (dvb)
