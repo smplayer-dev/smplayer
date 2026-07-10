@@ -21,6 +21,7 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QApplication>
+
 /*
 #include <QScreen>
 #if QT_VERSION < QT_VERSION_CHECK(5, 10, 0)
@@ -38,12 +39,12 @@ ThumbnailPreview::ThumbnailPreview(QWidget * parent)
 	image_label->setAlignment(Qt::AlignCenter);
 
 	QVBoxLayout * layout = new QVBoxLayout(this);
-	layout->setContentsMargins(4, 4, 4, 4);
+	layout->setContentsMargins(2, 2, 2, 2);
 	layout->setSpacing(2);
 	layout->addWidget(image_label);
 
 	setStyleSheet(
-		"ThumbnailPreview { background-color: #202020; border: 1px solid #555555; }"
+		"ThumbnailPreview { background-color: #000000; border: 1px solid #555555; }"
 		"QLabel { color: #ffffff; background: transparent; }"
 	);
 

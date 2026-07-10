@@ -534,6 +534,8 @@ void Preferences::reset() {
 	animated_logo = true;
 #endif
 
+	show_thumbnails = true;
+
 
     /* ********
        TV (dvb)
@@ -1086,6 +1088,8 @@ void Preferences::save() {
 #if LOGO_ANIMATION
 	set->setValue("animated_logo", animated_logo);
 #endif
+
+	set->setValue("show_thumbnails", show_thumbnails);
 
 	set->endGroup(); // gui
 
@@ -1692,6 +1696,8 @@ void Preferences::load() {
 #if LOGO_ANIMATION
 	animated_logo = set->value("animated_logo", animated_logo).toBool();
 #endif
+
+	show_thumbnails = set->value("show_thumbnails", show_thumbnails).toBool();
 
 	set->endGroup(); // gui
 

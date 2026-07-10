@@ -17,6 +17,7 @@ jobs:
           #- { name: 'focal', os: 'ubuntu-20.04', qt: 5 }
           - { name: 'jammy', os: 'ubuntu-22.04', qt: 5 }
           - { name: 'noble', os: 'ubuntu-24.04', qt: 5 }
+          - { name: 'resolute', os: 'ubuntu-26.04', qt: 5 }
 
     runs-on: ${{ matrix.config.os }}
 

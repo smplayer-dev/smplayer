@@ -253,6 +253,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect(thumbnail_generator, SIGNAL(thumbnailReady(QPixmap, double, QPoint)),
 	        this, SLOT(displayThumbnail(QPixmap, double, QPoint)));
 	connect(core, SIGNAL(mediaLoaded()), this, SLOT(updateThumbnailAvailability()));
+	// Also re-check right away when the user toggles the option (or changes
+	// the player) in the preferences dialog, instead of only on the next
+	// file load.
+	connect(this, SIGNAL(preferencesChanged()), this, SLOT(updateThumbnailAvailability()));
 
 #ifdef PLAYLIST_DOCKABLE
 	if (!playlist->isWindow()) { // Dockable
@@ -923,7 +927,7 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 void BaseGuiPlus::updateThumbnailAvailability() {
 	// Only local files: reopening a network stream on every hover would
 	// be slow, and for live streams seeking doesn't make sense at all.
-	bool enabled = (core->mdat.type == TYPE_FILE);
+	bool enabled = pref->show_thumbnails && (core->mdat.type == TYPE_FILE);
 
 	if (timeslider_action_for_thumbnails) {
 		timeslider_action_for_thumbnails->setThumbnailsEnabled(enabled);
