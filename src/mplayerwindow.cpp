@@ -239,6 +239,7 @@ void MplayerWindow::setResolution( int w, int h)
 
 	//videolayer->move(1,1);
 	updateVideoWindow();
+	setZoom(zoom_factor);
 }
 
 
@@ -279,6 +280,7 @@ void MplayerWindow::setAspect( double asp) {
 		aspect = aspect / monitoraspect * DesktopInfo::desktop_aspectRatio(this);
 	}
 	updateVideoWindow();
+	setZoom(zoom_factor);
 }
 
 
@@ -508,6 +510,8 @@ void MplayerWindow::setOffsetY( int d) {
 int MplayerWindow::offsetY() { return offset_y; }
 
 void MplayerWindow::setZoom( double d) {
+	qDebug() << "MplayerWindow::setZoom:" << d;
+
 	zoom_factor = d;
 	offset_x = 0;
 	offset_y = 0;
