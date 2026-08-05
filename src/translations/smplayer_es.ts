@@ -956,7 +956,7 @@ A continuación se mostrará el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtítulos secun&amp;darios visibles</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -5352,7 +5352,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation>Pau&amp;sa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -7912,7 +7912,7 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>Mos&amp;trar vista previa en miniatura al pasar el ratón</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8219,12 +8219,12 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar vista previa en miniatura al pasar el ratón</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra una miniatura del vídeo al pasar el ratón por encima de la barra de búsqueda. Solo disponible para archivos locales, no para transmisiones en directo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
