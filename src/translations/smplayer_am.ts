@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="am">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="am">
 <context>
     <name>About</name>
     <message>
@@ -391,1600 +393,1605 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="2014"/>
         <source>&amp;Open</source>
         <translation>&amp;መክፈቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2015"/>
         <source>&amp;Play</source>
         <translation>&amp;ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2007"/>
+        <location filename="../basegui.cpp" line="2016"/>
         <source>&amp;Video</source>
         <translation>&amp;ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2008"/>
+        <location filename="../basegui.cpp" line="2017"/>
         <source>&amp;Audio</source>
         <translation>&amp;ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2018"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2010"/>
+        <location filename="../basegui.cpp" line="2019"/>
         <source>&amp;Browse</source>
         <translation>&amp;መቃኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2012"/>
+        <location filename="../basegui.cpp" line="2021"/>
         <source>Op&amp;tions</source>
         <translation>ምር&amp;ጫዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2022"/>
         <source>&amp;Help</source>
         <translation>&amp;እርዳታ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>&amp;File...</source>
         <translation>&amp;ፋይል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>D&amp;irectory...</source>
         <translation>ዳ&amp;ይሬክቶሪ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Playlist...</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;ዲቪዲ ከ ማጫወቻው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2029"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>&amp;Clear</source>
         <translation>&amp;ማጽጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2027"/>
+        <location filename="../basegui.cpp" line="2036"/>
         <source>&amp;Recent files</source>
         <translation>የ &amp;ቅርብ ጊዜ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>P&amp;lay</source>
         <translation>ማ&amp;ጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>&amp;Pause</source>
         <translation>&amp;ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;Stop</source>
         <translation>&amp;ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>&amp;Frame step</source>
         <translation>የ &amp;ክፈፍ ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1779"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;መደበኛ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1787"/>
         <source>&amp;Double speed</source>
         <translation>&amp;ድርብ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>Speed &amp;-10%</source>
         <translation>ፍጥነት &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>Speed &amp;+10%</source>
         <translation>ፍጥነት &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1877"/>
+        <location filename="../basegui.cpp" line="1886"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2047"/>
+        <location filename="../basegui.cpp" line="2056"/>
         <source>Sp&amp;eed</source>
         <translation>ፍጥ&amp;ነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>&amp;Repeat</source>
         <translation>&amp;መድገሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1796"/>
         <source>&amp;Fullscreen</source>
         <translation>በ &amp;ሙሉ መመልከቻ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1797"/>
         <source>&amp;Compact mode</source>
         <translation>በ &amp;ዝቅተኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2057"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>Si&amp;ze</source>
         <translation>መጠ&amp;ን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2067"/>
+        <location filename="../basegui.cpp" line="2076"/>
         <source>&amp;Aspect ratio</source>
         <translation> የ &amp;ማነፃፀሪያ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2106"/>
-        <location filename="../basegui.cpp" line="3620"/>
+        <location filename="../basegui.cpp" line="2115"/>
         <location filename="../basegui.cpp" line="3634"/>
+        <location filename="../basegui.cpp" line="3648"/>
         <source>&amp;None</source>
         <translation>&amp;ምንም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2107"/>
+        <location filename="../basegui.cpp" line="2116"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;አነስተኛ ማለፊያ5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2110"/>
+        <location filename="../basegui.cpp" line="2119"/>
         <source>Linear &amp;Blend</source>
         <translation>ቀጥተኛ &amp;ማዋሀጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2070"/>
+        <location filename="../basegui.cpp" line="2079"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;መቀየሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;Postprocessing</source>
         <translation>ከ &amp;ሂደት በኋላ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;በራሱ ፈልጎ ማግኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1827"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>Add n&amp;oise</source>
         <translation>ረ&amp;ብሻ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2073"/>
+        <location filename="../basegui.cpp" line="2082"/>
         <source>F&amp;ilters</source>
         <translation>ማ&amp;ጣሪያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;እኩል ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&amp;Screenshot</source>
         <translation>የ &amp;መመልከቻ ፎቶ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2079"/>
+        <location filename="../basegui.cpp" line="2088"/>
         <source>S&amp;tay on top</source>
         <translation>ከ ላይ ማ&amp;ድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;ተጨማሪ ስቴሪዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;ካሪዮኪ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2142"/>
+        <location filename="../basegui.cpp" line="2151"/>
         <source>&amp;Filters</source>
         <translation>&amp;ማጣሪያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2152"/>
-        <location filename="../basegui.cpp" line="2158"/>
+        <location filename="../basegui.cpp" line="2161"/>
+        <location filename="../basegui.cpp" line="2167"/>
         <source>&amp;Stereo</source>
         <translation>&amp;ስቴሪዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2153"/>
+        <location filename="../basegui.cpp" line="2162"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2154"/>
+        <location filename="../basegui.cpp" line="2163"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2145"/>
+        <location filename="../basegui.cpp" line="2154"/>
         <source>&amp;Channels</source>
         <translation>&amp;ጣቢያዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2159"/>
+        <location filename="../basegui.cpp" line="2168"/>
         <source>&amp;Left channel</source>
         <translation>የ &amp;ግራ ጣቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2160"/>
+        <location filename="../basegui.cpp" line="2169"/>
         <source>&amp;Right channel</source>
         <translation>የ &amp;ቀኝ ጣቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2157"/>
         <source>&amp;Stereo mode</source>
         <translation>በ &amp;ስቴሪዮ ዘደ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1832"/>
+        <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Mute</source>
         <translation>&amp;መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1833"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>Volume &amp;-</source>
         <translation>መጠን &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1834"/>
+        <location filename="../basegui.cpp" line="1840"/>
         <source>Volume &amp;+</source>
         <translation>መጠን &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1841"/>
         <source>&amp;Delay -</source>
         <translation>&amp;ማዘግያ -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1836"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>D&amp;elay +</source>
         <translation>ማ&amp;ዘግያ +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2168"/>
+        <location filename="../basegui.cpp" line="2177"/>
         <source>&amp;Select</source>
         <translation>&amp;ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1850"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>&amp;Load...</source>
         <translation>&amp;መጫኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>Delay &amp;-</source>
         <translation>ማዘግያ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1853"/>
+        <location filename="../basegui.cpp" line="1859"/>
         <source>Delay &amp;+</source>
         <translation>ማዘግያ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1855"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>&amp;Up</source>
         <translation>ወደ &amp;ላይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>&amp;Down</source>
         <translation>ወደ &amp;ታች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2186"/>
+        <location filename="../basegui.cpp" line="2195"/>
         <source>&amp;Title</source>
         <translation>&amp;አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2189"/>
+        <location filename="../basegui.cpp" line="2198"/>
         <source>&amp;Chapter</source>
         <translation>&amp;ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2192"/>
+        <location filename="../basegui.cpp" line="2201"/>
         <source>&amp;Angle</source>
         <translation>&amp;አንግል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;Playlist</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2113"/>
         <source>&amp;Disabled</source>
         <translation>&amp;ተሰናክሏል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2224"/>
+        <location filename="../basegui.cpp" line="2233"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>P&amp;references</source>
         <translation>ም&amp;ርጫዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1928"/>
+        <location filename="../basegui.cpp" line="1937"/>
         <source>About &amp;SMPlayer</source>
         <translation>ስለ SMP ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3657"/>
-        <location filename="../basegui.cpp" line="3673"/>
-        <location filename="../basegui.cpp" line="3689"/>
-        <location filename="../basegui.cpp" line="3704"/>
-        <location filename="../basegui.cpp" line="3738"/>
-        <location filename="../basegui.cpp" line="3758"/>
-        <location filename="../basegui.cpp" line="3834"/>
+        <location filename="../basegui.cpp" line="3671"/>
+        <location filename="../basegui.cpp" line="3687"/>
+        <location filename="../basegui.cpp" line="3703"/>
+        <location filename="../basegui.cpp" line="3718"/>
+        <location filename="../basegui.cpp" line="3752"/>
+        <location filename="../basegui.cpp" line="3772"/>
+        <location filename="../basegui.cpp" line="3848"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ባዶ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4298"/>
+        <location filename="../basegui.cpp" line="4315"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4299"/>
-        <location filename="../basegui.cpp" line="4545"/>
+        <location filename="../basegui.cpp" line="4316"/>
+        <location filename="../basegui.cpp" line="4562"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4300"/>
+        <location filename="../basegui.cpp" line="4317"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4301"/>
-        <location filename="../basegui.cpp" line="4520"/>
-        <location filename="../basegui.cpp" line="4546"/>
+        <location filename="../basegui.cpp" line="4318"/>
+        <location filename="../basegui.cpp" line="4537"/>
+        <location filename="../basegui.cpp" line="4563"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4296"/>
-        <location filename="../basegui.cpp" line="4517"/>
-        <location filename="../basegui.cpp" line="4543"/>
+        <location filename="../basegui.cpp" line="4313"/>
+        <location filename="../basegui.cpp" line="4534"/>
+        <location filename="../basegui.cpp" line="4560"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>D&amp;ownload subtitles from %1...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;ዩቲዩብ%1 መቃኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1933"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;ይለግሱ / ከ ጓደኞቾ ጋር ይጋሩ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4360"/>
+        <location filename="../basegui.cpp" line="4377"/>
         <source>SMPlayer - Information</source>
         <translation>የ SMP መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4361"/>
+        <location filename="../basegui.cpp" line="4378"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ሲዲ ራም / ዲቪዲ አካል ገና አልተዋቀረም
 የ ማዋቀሪያው ንግግር ይታያል እና ከዛ ያሰናዱት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4483"/>
+        <location filename="../basegui.cpp" line="4500"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4519"/>
+        <location filename="../basegui.cpp" line="4536"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4633"/>
+        <location filename="../basegui.cpp" line="4650"/>
         <source>&amp;Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4634"/>
+        <location filename="../basegui.cpp" line="4651"/>
         <source>&amp;Not now</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4637"/>
+        <location filename="../basegui.cpp" line="4654"/>
         <source>&amp;No</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5165"/>
-        <location filename="../basegui.cpp" line="5194"/>
+        <location filename="../basegui.cpp" line="5182"/>
+        <location filename="../basegui.cpp" line="5211"/>
         <source>Error detected</source>
         <translation>ስህተት ተግኝቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5195"/>
+        <location filename="../basegui.cpp" line="5212"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>ይህን ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5432"/>
+        <location filename="../basegui.cpp" line="5449"/>
         <source>Pause</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5433"/>
+        <location filename="../basegui.cpp" line="5450"/>
         <source>Stop</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>Play / Pause</source>
         <translation>ማጫወቻ/ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>Pause / Frame step</source>
         <translation>ማስቆሚያ / የ ክፈፍ ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1839"/>
-        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1845"/>
+        <location filename="../basegui.cpp" line="1857"/>
         <source>U&amp;nload</source>
         <translation>ማ&amp;ራገፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>V&amp;CD</source>
         <translation>ቪ&amp;ሲዲ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1738"/>
         <source>C&amp;lose</source>
         <translation>መ&amp;ዝጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1813"/>
         <source>Zoom &amp;-</source>
         <translation>ማሳያ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1814"/>
         <source>Zoom &amp;+</source>
         <translation>ማሳያ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1809"/>
+        <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Reset</source>
         <translation>&amp;እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1813"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>Move &amp;left</source>
         <translation>ወደ &amp;ግራ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>Move &amp;right</source>
         <translation>ወደ &amp;ቀኝ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Move &amp;up</source>
         <translation>ወደ &amp;ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>Move &amp;down</source>
         <translation>ወደ &amp;ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;ያለፈው መስመር በ ንዑስ አርእስት </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>የ&amp;ሚቀጥለው መስመር በ ንዑስ አርእስት </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
-        <location filename="../basegui.cpp" line="2246"/>
+        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="2255"/>
         <source>%1 log</source>
         <translation>%1 መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
-        <location filename="../basegui.cpp" line="2249"/>
+        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="2258"/>
         <source>SMPlayer log</source>
         <translation>SMP ማጫወቻ መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2262"/>
-        <location filename="../basegui.cpp" line="2263"/>
-        <location filename="../basegui.cpp" line="2264"/>
+        <location filename="../basegui.cpp" line="2271"/>
+        <location filename="../basegui.cpp" line="2272"/>
+        <location filename="../basegui.cpp" line="2273"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2266"/>
-        <location filename="../basegui.cpp" line="2267"/>
-        <location filename="../basegui.cpp" line="2268"/>
+        <location filename="../basegui.cpp" line="2275"/>
+        <location filename="../basegui.cpp" line="2276"/>
+        <location filename="../basegui.cpp" line="2277"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1957"/>
+        <location filename="../basegui.cpp" line="1966"/>
         <source>Dec volume (2)</source>
         <translation>መጠን መቀነሻ (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;ብሉ-ሬይ ከ ማጫወቻው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>Fra&amp;me back step</source>
         <translation>ክፈ&amp;ፍ ደረጃ ወደ ኋላ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1780"/>
+        <location filename="../basegui.cpp" line="1786"/>
         <source>&amp;Half speed</source>
         <translation>&amp;ግማሽ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>Screenshot with subtitles</source>
         <translation>የ መመልከቻ ፎቶ ከ ንዑስ አርእስት ጋር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>Screenshot without subtitles</source>
         <translation>የ መመልከቻ ፎቶ ያለ ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1798"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>Start/stop capturing stream</source>
         <translation>ማስተላለፊያ ማስጀመሪያ/ማስቆሚያ:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>በ አውራ &amp;ጥፍር ልክ መፍጠሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1811"/>
         <source>Stereo &amp;3D filter</source>
         <translation>ስቴሪዮ 3ዲ ማጣሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1846"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;Headphone optimization</source>
         <translation>&amp;በ ጆሮ ማድመጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>Seek to next subtitle</source>
         <translation>የሚቀጥለውን ንዑስ አርእስት መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Seek to previous subtitle</source>
         <translation>ያለፈውን ንዑስ አርእስት መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>Use custo&amp;m style</source>
         <translation>ዘዴ ማስተካከ&amp;ያ ይጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
-        <source>Upload su&amp;btitles to %1...</source>
-        <translation type="unfinished"/>
+        <location filename="../basegui.cpp" line="1878"/>
+        <source>Secondary subtitle visibilit&amp;y</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
+        <source>Upload su&amp;btitles to %1...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;ነባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Information and properties...</source>
         <translation>&amp;መረጃ እና ባህሪዎች መመልከቻ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1906"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>T&amp;ablet mode</source>
         <translation>በ ታ&amp;ብሌት ዘዴ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1909"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>First Steps &amp;Guide</source>
         <translation>የ መጀመሪያ ደረጃ &amp;መምሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>Update &amp;YouTube support</source>
         <translation>ማሻሻያ የ &amp;ዩቲዩብ ድጋፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1927"/>
         <source>Install / Update &amp;YouTube support</source>
         <translation>መግጠሚያ / ማሻሻያ የ &amp;ዩቲዩብ ድጋፍ:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1931"/>
         <source>&amp;Open configuration folder</source>
         <translation>የማዋቀሪያ ፎልደር &amp;መክፈቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1926"/>
-        <location filename="../basegui.cpp" line="4636"/>
+        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="4653"/>
         <source>&amp;Donate</source>
         <translation>&amp;ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1948"/>
         <source>Size &amp;+</source>
         <translation>መጠን &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>Size &amp;-</source>
         <translation>መጠን &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1943"/>
+        <location filename="../basegui.cpp" line="1952"/>
         <source>Show times with &amp;milliseconds</source>
         <translation>ጊዜ በ &amp;ሚሊ ሰከንዶች ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1958"/>
+        <location filename="../basegui.cpp" line="1967"/>
         <source>Inc volume (2)</source>
         <translation>መጠን መጨመሪያ (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1961"/>
+        <location filename="../basegui.cpp" line="1970"/>
         <source>Exit fullscreen</source>
         <translation>ከ ሙሉ መመልከቻ ዘዴ መውጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1963"/>
+        <location filename="../basegui.cpp" line="1972"/>
         <source>OSD - Next level</source>
         <translation>OSD - የሚቀጥለው ደረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1964"/>
+        <location filename="../basegui.cpp" line="1973"/>
         <source>Dec contrast</source>
         <translation>ማነፃፀሪያ መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
+        <location filename="../basegui.cpp" line="1974"/>
         <source>Inc contrast</source>
         <translation>ማነፃፀሪያ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1966"/>
+        <location filename="../basegui.cpp" line="1975"/>
         <source>Dec brightness</source>
         <translation>ብርሁነት መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1976"/>
         <source>Inc brightness</source>
         <translation>ብርሁነት መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1968"/>
+        <location filename="../basegui.cpp" line="1977"/>
         <source>Dec hue</source>
         <translation>Dec hue</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1978"/>
         <source>Inc hue</source>
         <translation>Inc hue</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1970"/>
+        <location filename="../basegui.cpp" line="1979"/>
         <source>Dec saturation</source>
         <translation>Dec saturation</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1981"/>
         <source>Dec gamma</source>
         <translation>ጋማ መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1974"/>
+        <location filename="../basegui.cpp" line="1983"/>
         <source>Previous video</source>
         <translation>ያለፈው ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1976"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>Previous audio</source>
         <translation>ያለፈው ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1986"/>
         <source>Next audio</source>
         <translation>የሚቀጥለው ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>Previous subtitle</source>
         <translation>ያለፈው ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1979"/>
+        <location filename="../basegui.cpp" line="1988"/>
         <source>Next subtitle</source>
         <translation>የሚቀጥለው ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1989"/>
         <source>Next chapter</source>
         <translation>የሚቀጥለው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1981"/>
+        <location filename="../basegui.cpp" line="1990"/>
         <source>Previous chapter</source>
         <translation>ያለፈው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1989"/>
+        <location filename="../basegui.cpp" line="1998"/>
         <source>Show filename on OSD</source>
         <translation>የ ፋይል ስም በ OSD ላይ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1990"/>
+        <location filename="../basegui.cpp" line="1999"/>
         <source>Show &amp;info on OSD</source>
         <translation>ለ OSD &amp;መረጃ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1991"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>Show playback time on OSD</source>
         <translation>መልሶ ማጫወቻ ጊዜ ማሳያ በ OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>Vie&amp;w</source>
         <translation>መመል&amp;ከቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2087"/>
+        <location filename="../basegui.cpp" line="2096"/>
         <source>De&amp;noise</source>
         <translation>De&amp;noise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2090"/>
+        <location filename="../basegui.cpp" line="2099"/>
         <source>Blur/S&amp;harp</source>
         <translation>ማደብዘዣ/ማ&amp;ጥሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2113"/>
+        <location filename="../basegui.cpp" line="2122"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2114"/>
+        <location filename="../basegui.cpp" line="2123"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;መደበኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2115"/>
+        <location filename="../basegui.cpp" line="2124"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;ለስላሳ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2117"/>
+        <location filename="../basegui.cpp" line="2126"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ምንም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2118"/>
+        <location filename="../basegui.cpp" line="2127"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ማደብዘዣ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2119"/>
+        <location filename="../basegui.cpp" line="2128"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;ማጥሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2126"/>
+        <location filename="../basegui.cpp" line="2135"/>
         <source>Rotate by 1&amp;80 degrees</source>
         <translation>ማዞሪያ በ 1&amp;80 ዲግሪዎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2140"/>
+        <location filename="../basegui.cpp" line="2149"/>
         <source>Select audio track</source>
         <translation>ይምረጡ የ ድምፅ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2155"/>
+        <location filename="../basegui.cpp" line="2164"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2156"/>
+        <location filename="../basegui.cpp" line="2165"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 የተከበበ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2161"/>
+        <location filename="../basegui.cpp" line="2170"/>
         <source>&amp;Mono</source>
         <translation>&amp;ሞኖ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2162"/>
+        <location filename="../basegui.cpp" line="2171"/>
         <source>Re&amp;verse</source>
         <translation>እንደ &amp;ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2166"/>
+        <location filename="../basegui.cpp" line="2175"/>
         <source>Prim&amp;ary track</source>
         <translation>ቀዳ&amp;ሚ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2171"/>
+        <location filename="../basegui.cpp" line="2180"/>
         <source>Select subtitle track</source>
         <translation>ይምረጡ የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2174"/>
+        <location filename="../basegui.cpp" line="2183"/>
         <source>Secondary trac&amp;k</source>
         <translation>ሁለተኛ ተረ&amp;ኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2176"/>
+        <location filename="../basegui.cpp" line="2185"/>
         <source>Select secondary subtitle track</source>
         <translation>ይምረጡ ሁለተኛ የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2182"/>
+        <location filename="../basegui.cpp" line="2191"/>
         <source>F&amp;rames per second</source>
         <translation>ክ&amp;ፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2196"/>
+        <location filename="../basegui.cpp" line="2205"/>
         <source>&amp;Bookmarks</source>
         <translation>&amp;ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2206"/>
+        <location filename="../basegui.cpp" line="2215"/>
         <source>&amp;Add new bookmark</source>
         <translation>&amp;መጨመሪያ አዲስ ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2207"/>
+        <location filename="../basegui.cpp" line="2216"/>
         <source>&amp;Edit bookmarks</source>
         <translation>&amp;ማረሚያ ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2208"/>
+        <location filename="../basegui.cpp" line="2217"/>
         <source>Previous bookmark</source>
         <translation>ያለፈው ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2209"/>
+        <location filename="../basegui.cpp" line="2218"/>
         <source>Next bookmark</source>
         <translation>የሚቀጥለው ምልክት ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2238"/>
+        <location filename="../basegui.cpp" line="2247"/>
         <source>Quick access menu</source>
         <translation>በፍጥነት መደረሻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3051"/>
+        <location filename="../basegui.cpp" line="3065"/>
         <source>Logs</source>
         <translation>መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3356"/>
+        <location filename="../basegui.cpp" line="3370"/>
         <source>You need to restart SMPlayer in order to apply the new preferences.</source>
         <translation>የ SMPlayer እንደገና ማስጀምር ያስፈልጋል ምርጫዎቹን ለ መፈጸም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4647"/>
         <source>Support SMPlayer</source>
         <translation>ይደግፉ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4641"/>
+        <location filename="../basegui.cpp" line="4658"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer እርስዎን ይፈልጋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4642"/>
+        <location filename="../basegui.cpp" line="4659"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer ነፃ ሶፍትዌር ነው: ነገር ግን ማበልጸጉ ብዙ ስራ እና ጊዜ ይወስዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
+        <location filename="../basegui.cpp" line="4660"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>የ SMPlayer ለማበልጸግ በ አዲስ ገጽታ እኛ የ እርስዎን እርዳታ እንፈልጋለን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4644"/>
+        <location filename="../basegui.cpp" line="4661"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>እባክዎን ለ SMPlayer እቅድ የሚችሉትን ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4645"/>
+        <location filename="../basegui.cpp" line="4662"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>በጣም ትንሹ እንኳን ብዙ ይረዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5166"/>
+        <location filename="../basegui.cpp" line="5183"/>
         <source>The youtube-dl process failed because of missing libraries.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5167"/>
+        <location filename="../basegui.cpp" line="5184"/>
         <source>You&apos;ll probably need to install %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5169"/>
+        <location filename="../basegui.cpp" line="5186"/>
         <source>the Microsoft Visual C++ 2010 Redistributable Package</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6160"/>
-        <location filename="../basegui.cpp" line="6214"/>
+        <location filename="../basegui.cpp" line="6177"/>
+        <location filename="../basegui.cpp" line="6231"/>
         <source>More info in the log.</source>
         <translation>ተጨማሪ መረጃ በ መግቢያ ላይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6166"/>
-        <location filename="../basegui.cpp" line="6220"/>
+        <location filename="../basegui.cpp" line="6183"/>
+        <location filename="../basegui.cpp" line="6237"/>
         <source>%1 Error</source>
         <translation>%1 ስህተት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6160"/>
-        <location filename="../basegui.cpp" line="6167"/>
+        <location filename="../basegui.cpp" line="6177"/>
+        <location filename="../basegui.cpp" line="6184"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ጨርሷል በ ድንገት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4649"/>
+        <location filename="../basegui.cpp" line="4666"/>
         <source>It&apos;s also possible to donate with cryptocurrencies.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6192"/>
+        <location filename="../basegui.cpp" line="6209"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6193"/>
+        <location filename="../basegui.cpp" line="6210"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>መግጠም የ Microsoft Visual C++ 2010 ስርጭት ጥቅል (x86) ችግሩን ያስወግደዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6195"/>
+        <location filename="../basegui.cpp" line="6212"/>
         <source>Click here to get it</source>
         <translation>ለማግኘት እዚህ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6214"/>
-        <location filename="../basegui.cpp" line="6222"/>
+        <location filename="../basegui.cpp" line="6231"/>
+        <location filename="../basegui.cpp" line="6239"/>
         <source>%1 failed to start.</source>
         <translation>%1 ማስጀመር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6223"/>
+        <location filename="../basegui.cpp" line="6240"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>እባክዎን ይመርምሩ %1 መንገዱን ከ ምርጫዎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6225"/>
+        <location filename="../basegui.cpp" line="6242"/>
         <source>%1 has crashed.</source>
         <translation>%1 ተጋጭቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6320"/>
+        <location filename="../basegui.cpp" line="6337"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>የ ዩቲዩብ መቃኛ አልተገጠመም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6321"/>
-        <location filename="../basegui.cpp" line="6333"/>
+        <location filename="../basegui.cpp" line="6338"/>
+        <location filename="../basegui.cpp" line="6350"/>
         <source>Visit %1 to get it.</source>
         <translation>ይጎብኙ %1 ለማግኘት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6331"/>
+        <location filename="../basegui.cpp" line="6348"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>የ ዩቲዩብ መቃኛ ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6332"/>
+        <location filename="../basegui.cpp" line="6349"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>በ ትክክል መገጠሙን እርግጠኛ ይሁኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6499"/>
+        <location filename="../basegui.cpp" line="6516"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>ስርአቱ ወደ ታብሌት ዘዴ ተቀይሯል: SMPlayer ወደ ታብሌት ዘዴ ይቀየር?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6501"/>
+        <location filename="../basegui.cpp" line="6518"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>ስርአቱ ከ ታብሌት ዘዴ ወጥቷል: SMPlayer ከ ታብሌት ዘዴ ውስጥ ይውጣ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6505"/>
+        <location filename="../basegui.cpp" line="6522"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>የ እኔን ውሳኔ አስታውስ እና እንደገና አትጠይቀኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2228"/>
+        <location filename="../basegui.cpp" line="2237"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>የ SMPlayer ከ ጓደኞቹ ጋር ይ&amp;ካፈሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3355"/>
-        <location filename="../basegui.cpp" line="4091"/>
+        <location filename="../basegui.cpp" line="3369"/>
+        <location filename="../basegui.cpp" line="4108"/>
         <source>Information</source>
         <translation>መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3846"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>የ SMP ማጫወቻ - ማጥፊያ ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3847"/>
+        <location filename="../basegui.cpp" line="3861"/>
         <source>Delete the list of recent files?</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች ዝርዝር ላጥፋ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4092"/>
+        <location filename="../basegui.cpp" line="4109"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>የ አሁኑን ዋጋዎች እንደ ነባር ዋጋዎች ተቀምጠዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1971"/>
+        <location filename="../basegui.cpp" line="1980"/>
         <source>Inc saturation</source>
         <translation>Inc saturation</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>Inc gamma</source>
         <translation>ጋማ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1844"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;መጫኛ የ ውጪ ፋይሎች...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2111"/>
+        <location filename="../basegui.cpp" line="2120"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2117"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2109"/>
+        <location filename="../basegui.cpp" line="2118"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (double framerate)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1947"/>
+        <location filename="../basegui.cpp" line="1956"/>
         <source>&amp;Next</source>
         <translation>&amp;ይቀጥሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>Pre&amp;vious</source>
         <translation>ያለ&amp;ፈው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>Volume &amp;normalization</source>
         <translation>መጠን &amp;መደበኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Audio CD</source>
         <translation>የ &amp;ድምፅ ሲዲ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1982"/>
+        <location filename="../basegui.cpp" line="1991"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;መቀያየሪያ ድርብ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1863"/>
         <source>S&amp;ize -</source>
         <translation>መ&amp;ጠን -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>Si&amp;ze +</source>
         <translation>መጠ&amp;ን +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>Add &amp;black borders</source>
         <translation>&amp;ጥቁር ድንበር መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1832"/>
         <source>Soft&amp;ware scaling</source>
         <translation>ሶፍት&amp;ዌር መመጠኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>&amp;FAQ</source>
         <translation>&amp;ብዙ ጊዜ የሚጠየቁ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1911"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>&amp;Command line options</source>
         <translation>የ &amp;ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4565"/>
+        <location filename="../basegui.cpp" line="4582"/>
         <source>SMPlayer command line options</source>
         <translation>የ SMP ማጫወቻ ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>&amp;Forced subtitles only</source>
         <translation>&amp;ማስገደጃ ንዑስ አርእስት ብቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1983"/>
+        <location filename="../basegui.cpp" line="1992"/>
         <source>Reset video equalizer</source>
         <translation>የ ቪዲዮ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5196"/>
+        <location filename="../basegui.cpp" line="5213"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>ሰርቨሩ መልሷል &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6168"/>
+        <location filename="../basegui.cpp" line="6185"/>
         <source>Exit code: %1</source>
         <translation>መውጫ ከ code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6226"/>
+        <location filename="../basegui.cpp" line="6243"/>
         <source>See the log for more info.</source>
         <translation>ለ በለጠ መረጃ መግቢያውን ይመልከቱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2076"/>
+        <location filename="../basegui.cpp" line="2085"/>
         <source>&amp;Rotate</source>
         <translation>&amp;ማዞሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2121"/>
+        <location filename="../basegui.cpp" line="2130"/>
         <source>&amp;Off</source>
         <translation>&amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2122"/>
+        <location filename="../basegui.cpp" line="2131"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;ማዞሪያ በ 90 ዲግሪዎች ከ ግራ ወደ ቀኝ እና መገልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2123"/>
+        <location filename="../basegui.cpp" line="2132"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ &amp;ግራ ወደ ቀኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2124"/>
+        <location filename="../basegui.cpp" line="2133"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ ቀኝ ወደ ግራ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2125"/>
+        <location filename="../basegui.cpp" line="2134"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>ማዞሪያ በ 90 ዲግሪዎች ከ ቀኝ ወደ ግራ እና &amp;መገልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1776"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;መዝለያ ወደ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1985"/>
+        <location filename="../basegui.cpp" line="1994"/>
         <source>Show context menu</source>
         <translation>የ አገባብ ዝርዝር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4297"/>
+        <location filename="../basegui.cpp" line="4314"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>E&amp;qualizer</source>
         <translation>እ&amp;ኩል ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1984"/>
+        <location filename="../basegui.cpp" line="1993"/>
         <source>Reset audio equalizer</source>
         <translation>ድምፅ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2093"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>&amp;Auto</source>
         <translation>&amp;ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>Speed -&amp;4%</source>
         <translation>ፍጥነት -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;ፍጥነት +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1786"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>Speed -&amp;1%</source>
         <translation>ፍጥነት -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1793"/>
         <source>S&amp;peed +1%</source>
         <translation>ፍ&amp;ጥነት +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2083"/>
+        <location filename="../basegui.cpp" line="2092"/>
         <source>Scree&amp;n</source>
         <translation>መመልከ&amp;ቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2134"/>
-        <location filename="../basegui.cpp" line="2151"/>
+        <location filename="../basegui.cpp" line="2143"/>
+        <location filename="../basegui.cpp" line="2160"/>
         <source>&amp;Default</source>
         <translation>&amp;ነባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1810"/>
         <source>Mirr&amp;or image</source>
         <translation>የ ተንፀባ&amp;ረቀ ምስል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1984"/>
         <source>Next video</source>
         <translation>የሚቀጥለው ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2054"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2138"/>
+        <location filename="../basegui.cpp" line="2147"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5048"/>
+        <location filename="../basegui.cpp" line="5065"/>
         <source>Warning - Using old MPlayer</source>
         <translation>ማስጠንቀቂያ - አሮጌ SMP ማጫወቻ ስለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5049"/>
+        <location filename="../basegui.cpp" line="5066"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>ይህ እትም የ MPlayer (%1) የ ተገጠመው በ እርስዎ ስርአት ውስጥ ጊዜው ያለፈበት ነው: የ SMPlayer በ ትክክል ላይሰራ ይችላል: እንዳንድ ምርጫዎች ላይሰሩ ይችላሉ: ንዑስ አርእስት ምርጫ ላይሰራ ይችላል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5054"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>Please, update your MPlayer.</source>
         <translation>እባክዎን የ SMP ማጫወቻ ያሻሽሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5056"/>
+        <location filename="../basegui.cpp" line="5073"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(ይህ ማስጠንቀቂያ ሁለተኛ አይታይም)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1986"/>
+        <location filename="../basegui.cpp" line="1995"/>
         <source>Next aspect ratio</source>
         <translation> የሚቀጥለው የ ማነፃፀሪያ መጠን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1810"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;በራሱ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1817"/>
         <source>Zoom for &amp;16:9</source>
         <translation>ማሳያ በ &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>ማሳያ በ &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2128"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>&amp;Always</source>
         <translation>&amp;ሁልጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2129"/>
+        <location filename="../basegui.cpp" line="2138"/>
         <source>&amp;Never</source>
         <translation>&amp;በፍጹም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2130"/>
+        <location filename="../basegui.cpp" line="2139"/>
         <source>While &amp;playing</source>
         <translation>በ &amp;ሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2217"/>
+        <location filename="../basegui.cpp" line="2226"/>
         <source>DVD &amp;menu</source>
         <translation>ዲቪዲ &amp;ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2219"/>
+        <location filename="../basegui.cpp" line="2228"/>
         <source>DVD &amp;previous menu</source>
         <translation>ዲቪዲ &amp;ያለፈው ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2213"/>
+        <location filename="../basegui.cpp" line="2222"/>
         <source>DVD menu, move up</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2214"/>
+        <location filename="../basegui.cpp" line="2223"/>
         <source>DVD menu, move down</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2215"/>
+        <location filename="../basegui.cpp" line="2224"/>
         <source>DVD menu, move left</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ግራ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2216"/>
+        <location filename="../basegui.cpp" line="2225"/>
         <source>DVD menu, move right</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ወደ ቀኝ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2218"/>
+        <location filename="../basegui.cpp" line="2227"/>
         <source>DVD menu, select option</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር ምርጫ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2220"/>
+        <location filename="../basegui.cpp" line="2229"/>
         <source>DVD menu, mouse click</source>
         <translation>የ ዲቪዲ &amp;ዝርዝር በ አይጥ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1837"/>
+        <location filename="../basegui.cpp" line="1843"/>
         <source>Set dela&amp;y...</source>
         <translation>ማሰናጃ ማዘግ&amp;ያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1860"/>
         <source>Se&amp;t delay...</source>
         <translation>ማሰና&amp;ጃ ማዘግያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4712"/>
-        <location filename="../basegui.cpp" line="4716"/>
+        <location filename="../basegui.cpp" line="4729"/>
+        <location filename="../basegui.cpp" line="4733"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMP ማጫወቻ - ድምፅ ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4713"/>
-        <location filename="../basegui.cpp" line="4717"/>
+        <location filename="../basegui.cpp" line="4730"/>
+        <location filename="../basegui.cpp" line="4734"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>ድምፅ ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4728"/>
-        <location filename="../basegui.cpp" line="4732"/>
+        <location filename="../basegui.cpp" line="4745"/>
+        <location filename="../basegui.cpp" line="4749"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMP ማጫወቻ - ንዑስ አርእስት ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4729"/>
-        <location filename="../basegui.cpp" line="4733"/>
+        <location filename="../basegui.cpp" line="4746"/>
+        <location filename="../basegui.cpp" line="4750"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ንዑስ አርእስት ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2131"/>
+        <location filename="../basegui.cpp" line="2140"/>
         <source>Toggle stay on top</source>
         <translation>መቀያየሪያ ከ ላይ ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5658"/>
-        <location filename="../basegui.cpp" line="6006"/>
+        <location filename="../basegui.cpp" line="5675"/>
+        <location filename="../basegui.cpp" line="6023"/>
         <source>Jump to %1</source>
         <translation>መዝለያ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>የ መመልከቻ ፎት ማን&amp;ሻ ማስጀመሪያ/ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>Subtitle &amp;visibility</source>
         <translation>ንዑስ አርእስት &amp;መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1987"/>
+        <location filename="../basegui.cpp" line="1996"/>
         <source>Next wheel function</source>
         <translation>የሚቀጥለው የ ጎማ ተግባር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2201"/>
+        <location filename="../basegui.cpp" line="2210"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>ፕ&amp;ሮግራም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2039"/>
+        <location filename="../basegui.cpp" line="2048"/>
         <source>&amp;TV</source>
         <translation>&amp;ቲቪ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>Radi&amp;o</source>
         <translation>ራዲ&amp;ዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1998"/>
+        <location filename="../basegui.cpp" line="2007"/>
         <source>Subtitles onl&amp;y</source>
         <translation>ንዑስ አርእስት ብ&amp;ቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2008"/>
         <source>Volume + &amp;Seek</source>
         <translation>መጠን + &amp;መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>መጠን + መፈለጊያ + ጊዜ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="2010"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>መጠን + መፈለጊያ + ጊዜ መቆጣጠሪያ + የ&amp;ቅላላ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>የ ቪዲዮ ማጣሪያ ይሰናከላል የ vdpau ሲጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>Fli&amp;p image</source>
         <translation>ምስል መገ&amp;ልበጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2064"/>
+        <location filename="../basegui.cpp" line="2073"/>
         <source>Zoo&amp;m</source>
         <translation>ማሳ&amp;ያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>Set &amp;A marker</source>
         <translation>ማሰናጃ &amp;A ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>Set &amp;B marker</source>
         <translation>ማሰናጃ &amp;B ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>&amp;Clear A-B markers</source>
         <translation>ማሰናጃ A-B ምልክት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2050"/>
+        <location filename="../basegui.cpp" line="2059"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B ክፍል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1993"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>Toggle deinterlacing</source>
         <translation>መቀያየሪያ deinterlacing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2179"/>
+        <location filename="../basegui.cpp" line="2188"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2031"/>
+        <location filename="../basegui.cpp" line="2040"/>
         <source>&amp;Disc</source>
         <translation>&amp;ዲስክ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2035"/>
+        <location filename="../basegui.cpp" line="2044"/>
         <source>F&amp;avorites</source>
         <translation>የ&amp;ምወዳቸው</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1912"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>Check for &amp;updates</source>
         <translation>&amp;ማሻሻያ መፈለጊያ</translation>
     </message>
@@ -1992,172 +1999,172 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="354"/>
+        <location filename="../baseguiplus.cpp" line="371"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer እየሄደ ነው</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="377"/>
+        <location filename="../baseguiplus.cpp" line="394"/>
         <source>S&amp;how icon in system tray</source>
         <translation>ምልክት በ ስርአት ትሪ ላይ &amp;ማሳያ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="386"/>
+        <location filename="../baseguiplus.cpp" line="403"/>
         <source>&amp;Cast to</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="389"/>
+        <location filename="../baseguiplus.cpp" line="406"/>
         <source>&amp;Chromecast</source>
         <translation>&amp;Chromecast</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="391"/>
+        <location filename="../baseguiplus.cpp" line="408"/>
         <source>&amp;Smartphone/tablet</source>
         <translation>&amp;ስማርት ስልክ/ታብሌት</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="396"/>
+        <location filename="../baseguiplus.cpp" line="413"/>
         <source>Send &amp;video to screen</source>
         <translation>መላኪያ &amp;ቪዲዮ ወደ መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="398"/>
+        <location filename="../baseguiplus.cpp" line="415"/>
         <source>Information about connected &amp;screens</source>
         <translation>መረጃ ስለ ተገናኙ &amp;መመልከቻዎች</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="401"/>
+        <location filename="../baseguiplus.cpp" line="418"/>
         <source>Video is sent to an external screen</source>
         <translation>ቪዲዮ ወደ መመልከቻ ተልኳል</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="405"/>
+        <location filename="../baseguiplus.cpp" line="422"/>
         <source>Send &amp;audio to</source>
         <translation>መላኪያ &amp;ድምፅ ወደ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="443"/>
+        <location filename="../baseguiplus.cpp" line="460"/>
         <source>&amp;Hide</source>
         <translation>&amp;መደበቂያ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="445"/>
+        <location filename="../baseguiplus.cpp" line="462"/>
         <source>&amp;Restore</source>
         <translation>&amp;እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="922"/>
+        <location filename="../baseguiplus.cpp" line="978"/>
         <source>Information about connected screens</source>
         <translation>መረጃ ስለ ተገናኙ  መመልከቻዎች</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="925"/>
+        <location filename="../baseguiplus.cpp" line="981"/>
         <source>Connected screens</source>
         <translation>የ ተገናኘ መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="928"/>
-        <location filename="../baseguiplus.cpp" line="970"/>
+        <location filename="../baseguiplus.cpp" line="984"/>
+        <location filename="../baseguiplus.cpp" line="1026"/>
         <source>Number of screens: %1</source>
         <translation>የ መመልከቻዎች ቁጥር: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="933"/>
-        <location filename="../baseguiplus.cpp" line="971"/>
+        <location filename="../baseguiplus.cpp" line="989"/>
+        <location filename="../baseguiplus.cpp" line="1027"/>
         <source>Primary screen: %1</source>
         <translation>ቀዳሚ መመልከቻ: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="941"/>
-        <location filename="../baseguiplus.cpp" line="975"/>
+        <location filename="../baseguiplus.cpp" line="997"/>
+        <location filename="../baseguiplus.cpp" line="1031"/>
         <source>Information for screen %1</source>
         <translation>መረጃ ስለ መመልከቻ %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="943"/>
-        <location filename="../baseguiplus.cpp" line="977"/>
+        <location filename="../baseguiplus.cpp" line="999"/>
+        <location filename="../baseguiplus.cpp" line="1033"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>ዝግጁ ጂኦሜትሪ: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="945"/>
+        <location filename="../baseguiplus.cpp" line="1001"/>
         <source>Available size: %1 x %2</source>
         <translation>ዝግጁ መጠን: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="946"/>
+        <location filename="../baseguiplus.cpp" line="1002"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>ዝግጁ የሚታይ ጂኦሜትሪ: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="950"/>
+        <location filename="../baseguiplus.cpp" line="1006"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>ዝግጁ የሚታይ መጠን: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="952"/>
+        <location filename="../baseguiplus.cpp" line="1008"/>
         <source>Depth: %1 bits</source>
         <translation>ጥልቀት: %1 ቢትስ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="953"/>
-        <location filename="../baseguiplus.cpp" line="979"/>
+        <location filename="../baseguiplus.cpp" line="1009"/>
+        <location filename="../baseguiplus.cpp" line="1035"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>ጂኦሜትሪ: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="955"/>
+        <location filename="../baseguiplus.cpp" line="1011"/>
         <source>Logical DPI: %1</source>
         <translation>Logical DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="957"/>
+        <location filename="../baseguiplus.cpp" line="1013"/>
         <source>Physical DPI: %1</source>
         <translation>Physical DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="958"/>
+        <location filename="../baseguiplus.cpp" line="1014"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Physical መጠን: %1 x %2 ሚሚ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="960"/>
+        <location filename="../baseguiplus.cpp" line="1016"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>ማነቃቂያ ደረጃ: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="961"/>
+        <location filename="../baseguiplus.cpp" line="1017"/>
         <source>Size: %1 x %2</source>
         <translation>መጠን: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="962"/>
+        <location filename="../baseguiplus.cpp" line="1018"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Virtual geometry: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="964"/>
+        <location filename="../baseguiplus.cpp" line="1020"/>
         <source>Virtual size: %1 x %2</source>
         <translation>ዝግጁ የሚታይ መጠን: %1 x %2 </translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1017"/>
+        <location filename="../baseguiplus.cpp" line="1073"/>
         <source>Primary screen</source>
         <translation>ቀዳሚ መመልከቻ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1102"/>
+        <location filename="../baseguiplus.cpp" line="1158"/>
         <source>SMPlayer external screen output</source>
         <translation>የ SMPlayer የ ውጪ መመልከቻ ውጤት</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="1151"/>
+        <location filename="../baseguiplus.cpp" line="1207"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;ነባር የ ድምፅ አካል</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="373"/>
+        <location filename="../baseguiplus.cpp" line="390"/>
         <source>&amp;Quit</source>
         <translation>&amp;ማጥፊያ</translation>
     </message>
@@ -2249,32 +2256,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="170"/>
         <source>It wasn&apos;t possible to find the URL for this video.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="166"/>
         <source>%1 failed to communicate with the external YouTube application. Either it&apos;s not installed or it doesn&apos;t work correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="171"/>
         <source>Maybe you need to update the YouTube code.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="176"/>
         <source>In order to play YouTube videos, %1 needs an external application called youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="177"/>
         <source>This component needs to be updated frequently.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="178"/>
         <source>You can update it just by reinstalling SMPlayer. The installer will download and install the very latest version.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="180"/>
@@ -2282,28 +2289,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መግጠሚያ / ማሻሻያ የ ዩቲዩብ ድጋፍ:</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="242"/>
+        <location filename="../youtube/codedownloader.cpp" line="246"/>
         <source>In order to play YouTube videos, %1 needs the help of an external application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="243"/>
+        <location filename="../youtube/codedownloader.cpp" line="247"/>
         <source>%1 can download and install this application for you.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="244"/>
+        <location filename="../youtube/codedownloader.cpp" line="248"/>
         <source>It will be downloaded from the official website and installed as %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="245"/>
+        <location filename="../youtube/codedownloader.cpp" line="249"/>
         <source>Would you like to proceed?</source>
         <translation>እርስዎ መቀጠል ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="249"/>
-        <location filename="../youtube/codedownloader.cpp" line="252"/>
+        <location filename="../youtube/codedownloader.cpp" line="253"/>
+        <location filename="../youtube/codedownloader.cpp" line="256"/>
         <source>Install YouTube support?</source>
         <translation>የ ዩቲዩብ ድጋፍ መግጠም ይፈልጋሉ?</translation>
     </message>
@@ -2311,68 +2318,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3277"/>
+        <location filename="../core.cpp" line="3267"/>
         <source>Brightness: %1</source>
         <translation>ብርሁነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3293"/>
+        <location filename="../core.cpp" line="3283"/>
         <source>Contrast: %1</source>
         <translation>ማነፃፀሪያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3308"/>
+        <location filename="../core.cpp" line="3298"/>
         <source>Gamma: %1</source>
         <translation>ጋማ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3323"/>
+        <location filename="../core.cpp" line="3313"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3338"/>
+        <location filename="../core.cpp" line="3328"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3493"/>
+        <location filename="../core.cpp" line="3483"/>
         <source>Volume: %1</source>
         <translation>መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4476"/>
+        <location filename="../core.cpp" line="4477"/>
         <source>Zoom: %1</source>
         <translation>ማሳያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3625"/>
-        <location filename="../core.cpp" line="3636"/>
+        <location filename="../core.cpp" line="3615"/>
+        <location filename="../core.cpp" line="3626"/>
         <source>Font scale: %1</source>
         <translation>የ ፊደል መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4306"/>
         <source>Aspect ratio: %1</source>
         <translation>የ መጠን አንጻር: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4714"/>
+        <location filename="../core.cpp" line="4715"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>የ ፊደል ማጠራቀሚያ በ ማሻሻል ላይ: ይህ ትንሽ ጊዜ ይወስዳል...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3550"/>
+        <location filename="../core.cpp" line="3540"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>ንዑስ አርእስት ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3568"/>
+        <location filename="../core.cpp" line="3558"/>
         <source>Audio delay: %1 ms</source>
         <translation>ድምፅ ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3396"/>
+        <location filename="../core.cpp" line="3386"/>
         <source>Speed: %1</source>
         <translation>ፍጥነት: %1</translation>
     </message>
@@ -2382,67 +2389,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ለዚህ ቪዲዮ URL ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3724"/>
+        <location filename="../core.cpp" line="3714"/>
         <source>Subtitles on</source>
         <translation>ንዑስ አርእስት በርቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3726"/>
+        <location filename="../core.cpp" line="3716"/>
         <source>Subtitles off</source>
         <translation>ንዑስ አርእስት ጠፍቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4353"/>
+        <location filename="../core.cpp" line="4354"/>
         <source>Mouse wheel seeks now</source>
         <translation>በ አይጥ ቁልፍ አሁን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4356"/>
+        <location filename="../core.cpp" line="4357"/>
         <source>Mouse wheel changes volume now</source>
         <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4359"/>
+        <location filename="../core.cpp" line="4360"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4362"/>
+        <location filename="../core.cpp" line="4363"/>
         <source>Mouse wheel changes speed now</source>
         <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4690"/>
+        <location filename="../core.cpp" line="4691"/>
         <source>Screenshot saved as %1</source>
         <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4725"/>
+        <location filename="../core.cpp" line="4726"/>
         <source>Starting...</source>
         <translation>በ ማስጀመር ላይ...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1424"/>
+        <location filename="../core.cpp" line="1427"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1437"/>
+        <location filename="../core.cpp" line="1440"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2879"/>
+        <location filename="../core.cpp" line="2869"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2904"/>
+        <location filename="../core.cpp" line="2894"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2927"/>
+        <location filename="../core.cpp" line="2917"/>
         <source>A-B markers cleared</source>
         <translation>A-B ምልክት ጸድቷል</translation>
     </message>
@@ -2971,7 +2978,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="66"/>
         <source>Opensubtitles Credentials</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="119"/>
@@ -3081,18 +3088,18 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="411"/>
         <source>File URL not found</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3193,7 +3200,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -3229,7 +3236,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="23"/>
         <source>Select the multimedia keys that SMPlayer will capture.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../globalshortcuts/globalshortcutsdialog.ui" line="35"/>
@@ -4429,97 +4436,97 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="362"/>
         <source>Asturian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="368"/>
         <source>Chinese (simplified)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="404"/>
         <source>Slovenian</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="405"/>
         <source>Syriac</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="407"/>
         <source>Montenegrin</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="408"/>
         <source>Chinese bilingual</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="423"/>
         <source>Portuguese (BR)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="424"/>
         <source>Chinese (traditional)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="440"/>
         <source>Manipuri</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="443"/>
         <source>Odia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="444"/>
         <source>Sinhalese</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="445"/>
         <source>Northern Sami</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="449"/>
         <source>Portuguese (MZ)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="450"/>
         <source>Spanish (LA)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="451"/>
         <source>Extremaduran</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="452"/>
         <source>Dari</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="453"/>
         <source>Spanish (EU)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="454"/>
         <source>Santali</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="455"/>
         <source>Toki Pona</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -4921,102 +4928,102 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvoptions.cpp" line="213"/>
-        <location filename="../mpvprocess.h" line="212"/>
+        <location filename="../mpvoptions.cpp" line="227"/>
+        <location filename="../mpvprocess.h" line="215"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>ይህ &apos;%1&apos; ማጣሪያ የ ተደገፈ አይደለም በ mpv</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="958"/>
-        <location filename="../mpvprocess.h" line="213"/>
+        <location filename="../mpvoptions.cpp" line="978"/>
+        <location filename="../mpvprocess.h" line="216"/>
         <source>File:</source>
         <translation>ፋይል:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="961"/>
-        <location filename="../mpvprocess.h" line="214"/>
+        <location filename="../mpvoptions.cpp" line="981"/>
+        <location filename="../mpvprocess.h" line="217"/>
         <source>Video:</source>
         <translation>ቪዲዮ:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="962"/>
-        <location filename="../mpvprocess.h" line="215"/>
+        <location filename="../mpvoptions.cpp" line="982"/>
+        <location filename="../mpvprocess.h" line="218"/>
         <source>Resolution:</source>
         <translation>ሪዞሊሽን:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="963"/>
-        <location filename="../mpvprocess.h" line="216"/>
+        <location filename="../mpvoptions.cpp" line="983"/>
+        <location filename="../mpvprocess.h" line="219"/>
         <source>Frames per second:</source>
         <translation>ክፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="963"/>
-        <location filename="../mpvprocess.h" line="217"/>
+        <location filename="../mpvoptions.cpp" line="983"/>
+        <location filename="../mpvprocess.h" line="220"/>
         <source>Estimated:</source>
         <translation>የ ተገመተው:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="965"/>
-        <location filename="../mpvprocess.h" line="218"/>
+        <location filename="../mpvoptions.cpp" line="985"/>
+        <location filename="../mpvprocess.h" line="221"/>
         <source>Aspect Ratio:</source>
         <translation>ማነፃፀሪያ መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="966"/>
-        <location filename="../mpvoptions.cpp" line="971"/>
-        <location filename="../mpvprocess.h" line="219"/>
+        <location filename="../mpvoptions.cpp" line="986"/>
+        <location filename="../mpvoptions.cpp" line="991"/>
         <location filename="../mpvprocess.h" line="222"/>
+        <location filename="../mpvprocess.h" line="225"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="967"/>
-        <location filename="../mpvprocess.h" line="220"/>
+        <location filename="../mpvoptions.cpp" line="987"/>
+        <location filename="../mpvprocess.h" line="223"/>
         <source>Dropped frames:</source>
         <translation>የ ተጣሉ ክፈፎች:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="970"/>
-        <location filename="../mpvprocess.h" line="221"/>
+        <location filename="../mpvoptions.cpp" line="990"/>
+        <location filename="../mpvprocess.h" line="224"/>
         <source>Audio:</source>
         <translation>ድምፅ:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="972"/>
-        <location filename="../mpvprocess.h" line="223"/>
+        <location filename="../mpvoptions.cpp" line="992"/>
+        <location filename="../mpvprocess.h" line="226"/>
         <source>Sample Rate:</source>
         <translation>ናሙና መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="973"/>
-        <location filename="../mpvprocess.h" line="224"/>
+        <location filename="../mpvoptions.cpp" line="993"/>
+        <location filename="../mpvprocess.h" line="227"/>
         <source>Channels:</source>
         <translation>ጣቢያዎች:</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="976"/>
-        <location filename="../mpvprocess.h" line="225"/>
+        <location filename="../mpvoptions.cpp" line="996"/>
+        <location filename="../mpvprocess.h" line="228"/>
         <source>Audio/video synchronization:</source>
         <translation>ድምፅ/ቪዲዮ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="979"/>
+        <location filename="../mpvoptions.cpp" line="999"/>
         <source>Cache (in seconds):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvoptions.cpp" line="980"/>
+        <location filename="../mpvoptions.cpp" line="1000"/>
         <source>Cache speed:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="226"/>
+        <location filename="../mpvprocess.h" line="229"/>
         <source>Cache fill:</source>
         <translation>ማጠራቀሚያ መሙያ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="227"/>
+        <location filename="../mpvprocess.h" line="230"/>
         <source>Used cache:</source>
         <translation>የ ተጠቀሙት ማጠራቀሚያ:</translation>
     </message>
@@ -5082,10 +5089,10 @@ Do you want to overwrite?</source>
 <context>
     <name>MplayerProcess</name>
     <message>
-        <location filename="../mplayeroptions.cpp" line="434"/>
-        <location filename="../mplayeroptions.cpp" line="511"/>
+        <location filename="../mplayeroptions.cpp" line="442"/>
+        <location filename="../mplayeroptions.cpp" line="519"/>
         <source>This option is not supported by MPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5111,12 +5118,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="20"/>
         <source>To play this video in a smartphone or tablet, scan the following QR code with your device:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qrcode/openwithdevicedialog.ui" line="46"/>
         <source>Or open this URL in your device&apos;s media player:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5160,325 +5167,330 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>Name</source>
         <translation>ስም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>Length</source>
         <translation>እርዝመት</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="742"/>
+        <location filename="../playlist.cpp" line="778"/>
         <source>&amp;Play</source>
         <translation>&amp;ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="789"/>
+        <location filename="../playlist.cpp" line="827"/>
         <source>&amp;Edit</source>
         <translation>&amp;ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1401"/>
-        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="1461"/>
+        <location filename="../playlist.cpp" line="1508"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1399"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1445"/>
+        <location filename="../playlist.cpp" line="1506"/>
         <source>Choose a filename</source>
         <translation>የ ፋይል ስም ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1457"/>
+        <location filename="../playlist.cpp" line="1518"/>
         <source>Confirm overwrite?</source>
         <translation>በላዩ ላይ ደርቦ መጻፉን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1458"/>
+        <location filename="../playlist.cpp" line="1519"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ፋይሉ %1 ቀደም ብሎ ነበር
 በ ላዩ ላይ ደርበው መጻፍ ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1401"/>
-        <location filename="../playlist.cpp" line="1447"/>
-        <location filename="../playlist.cpp" line="1760"/>
+        <location filename="../playlist.cpp" line="1461"/>
+        <location filename="../playlist.cpp" line="1508"/>
+        <location filename="../playlist.cpp" line="1821"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="399"/>
+        <location filename="../playlist.cpp" line="427"/>
         <source>Untitled playlist</source>
         <translation>ያልተሰየመ የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="734"/>
+        <location filename="../playlist.cpp" line="770"/>
         <source>&amp;Load...</source>
         <translation>&amp;መጫኛ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="736"/>
+        <location filename="../playlist.cpp" line="772"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>መጫኛ የ ማጫወቻ ዝርዝር ከ URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="775"/>
+        <location filename="../playlist.cpp" line="813"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>ማጫወቻ በ Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="777"/>
+        <location filename="../playlist.cpp" line="815"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>መክፈቻ በ &amp;ዌብ ማጠራቀሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="793"/>
+        <location filename="../playlist.cpp" line="831"/>
         <source>Load/Save</source>
         <translation>መጫኛ/ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1757"/>
+        <location filename="../playlist.cpp" line="1818"/>
         <source>Select one or more files to open</source>
         <translation>ለ መክፈት አንድ ወይንም ከዚያ በላይ ፋይሎች ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1826"/>
+        <location filename="../playlist.cpp" line="1894"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2023"/>
+        <location filename="../playlist.cpp" line="2101"/>
         <source>Edit name</source>
         <translation>ስም ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2024"/>
+        <location filename="../playlist.cpp" line="2102"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>ለዚህ ፋይል የሚታየውን ስም ይጻፉ በ ማጫወቻ ዝርዝር ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>Filename / URL</source>
         <translation>የ ፋይል ስም / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="732"/>
+        <location filename="../playlist.cpp" line="768"/>
         <source>Shuffle order</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="773"/>
         <source>Download playlist from URL</source>
         <translation>የ ማጫወቻ ዝርዝር ከ URL ማውረጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="739"/>
+        <location filename="../playlist.cpp" line="775"/>
         <source>&amp;Save</source>
         <translation>&amp;ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="740"/>
+        <location filename="../playlist.cpp" line="776"/>
         <source>Save &amp;as...</source>
         <translation>ማስቀመጫ &amp;እንደ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="744"/>
+        <location filename="../playlist.cpp" line="779"/>
+        <source>Pau&amp;se</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="781"/>
         <source>&amp;Next</source>
         <translation>&amp;ይቀጥሉ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="745"/>
+        <location filename="../playlist.cpp" line="782"/>
         <source>Pre&amp;vious</source>
         <translation>ያለ&amp;ፈው</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="751"/>
+        <location filename="../playlist.cpp" line="789"/>
         <source>Move &amp;up</source>
         <translation>ወደ &amp;ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="752"/>
+        <location filename="../playlist.cpp" line="790"/>
         <source>Move &amp;down</source>
         <translation>ወደ &amp;ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="754"/>
+        <location filename="../playlist.cpp" line="792"/>
         <source>&amp;Repeat</source>
         <translation>&amp;መድገሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="755"/>
+        <location filename="../playlist.cpp" line="793"/>
         <source>S&amp;huffle</source>
         <translation>መ&amp;በወዣ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="758"/>
+        <location filename="../playlist.cpp" line="796"/>
         <source>Add &amp;current file</source>
         <translation>የ &amp;አሁኑን ፋይል መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="759"/>
+        <location filename="../playlist.cpp" line="797"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;ፋይል(ሎች) መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="760"/>
+        <location filename="../playlist.cpp" line="798"/>
         <source>Add &amp;directory</source>
         <translation>&amp;ዳይሬክቶሪ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="761"/>
+        <location filename="../playlist.cpp" line="799"/>
         <source>Add &amp;URL(s)</source>
         <translation>&amp;URL(s) መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="764"/>
+        <location filename="../playlist.cpp" line="802"/>
         <source>Remove &amp;selected</source>
         <translation>የተመረጠውን &amp;ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="765"/>
+        <location filename="../playlist.cpp" line="803"/>
         <source>Remove &amp;all</source>
         <translation>&amp;ሁሉንም ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="768"/>
+        <location filename="../playlist.cpp" line="806"/>
         <source>&amp;Delete file from disk</source>
         <translation>ከ ዲስክ ላይ ፋይሎች &amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="771"/>
-        <location filename="../playlist.cpp" line="1555"/>
+        <location filename="../playlist.cpp" line="809"/>
+        <location filename="../playlist.cpp" line="1616"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;ካፒ ማድረጊያ የ ፋይል መንገድ ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="772"/>
+        <location filename="../playlist.cpp" line="810"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;መክፈቻ የ ምንጭ ፎልደር </translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="780"/>
-        <location filename="../playlist.cpp" line="801"/>
+        <location filename="../playlist.cpp" line="818"/>
+        <location filename="../playlist.cpp" line="839"/>
         <source>Search</source>
         <translation>መፌለጊያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="782"/>
+        <location filename="../playlist.cpp" line="820"/>
         <source>Show position column</source>
         <translation>የ አምድ ቦታ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="783"/>
+        <location filename="../playlist.cpp" line="821"/>
         <source>Show name column</source>
         <translation>የ አምድ ስም ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="784"/>
+        <location filename="../playlist.cpp" line="822"/>
         <source>Show length column</source>
         <translation>የ አምድ እርዝመት ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="785"/>
+        <location filename="../playlist.cpp" line="823"/>
         <source>Show filename column</source>
         <translation>የ ፋይል ስም አምድ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="786"/>
+        <location filename="../playlist.cpp" line="824"/>
         <source>Show shuffle column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1419"/>
+        <location filename="../playlist.cpp" line="1479"/>
         <source>Wrong playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1420"/>
-        <source>It wasn't possible to load '%1'.
+        <location filename="../playlist.cpp" line="1480"/>
+        <source>It wasn&apos;t possible to load &apos;%1&apos;.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1560"/>
+        <location filename="../playlist.cpp" line="1621"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;ኮፒ ያድርጉ URL ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2061"/>
+        <location filename="../playlist.cpp" line="2139"/>
         <source>Confirm deletion</source>
         <translation>ማጥፋቱን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2062"/>
+        <location filename="../playlist.cpp" line="2140"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>እርስዎ አሁን ፋይል ሊያጠፉ ነው &apos;%1&apos; ከ እርስዎ አካል ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2063"/>
+        <location filename="../playlist.cpp" line="2141"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>ይህን ተግባር መተው አይቻልም: እርስዎ በ እርግጥ መቀጠል ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2081"/>
+        <location filename="../playlist.cpp" line="2162"/>
         <source>Deletion failed</source>
         <translation>ማጥፋት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2082"/>
+        <location filename="../playlist.cpp" line="2163"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>ማጥፋት አልተቻለም &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2087"/>
+        <location filename="../playlist.cpp" line="2168"/>
         <source>Error deleting the file</source>
         <translation>ስህተት ፋይሉን በማጥፋት ላይ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2088"/>
+        <location filename="../playlist.cpp" line="2169"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>ይህን ማጥፋት አይቻልም &apos;%1&apos; ከ ፋይል ስርአት ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2585"/>
+        <location filename="../playlist.cpp" line="2666"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>ይህን ማጫወቻ ዝርዝር መጫን አይቻልም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2585"/>
+        <location filename="../playlist.cpp" line="2666"/>
         <source>Unrecognized format.</source>
         <translation>የማይታወቅ አቀራረብ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="795"/>
+        <location filename="../playlist.cpp" line="833"/>
         <source>Add...</source>
         <translation>መጨመሪያ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="797"/>
+        <location filename="../playlist.cpp" line="835"/>
         <source>Remove...</source>
         <translation>ማስወግገጃ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1490"/>
+        <location filename="../playlist.cpp" line="1551"/>
         <source>Playlist modified</source>
         <translation>የ ማጫወቻ ዝርዝር ማሻሻያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1491"/>
+        <location filename="../playlist.cpp" line="1552"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>ያልተቀመጠ ለውጥ አለ: እርስዎ ማስቀመጥ ይፈልጋሉ የ ማጫወቻ ዝርዝሩን?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1759"/>
+        <location filename="../playlist.cpp" line="1820"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
@@ -5529,12 +5541,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="218"/>
         <source>O&amp;SD bar position:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="256"/>
         <source>Display the name o&amp;f the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="280"/>
@@ -5554,7 +5566,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -5789,22 +5801,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>OSD bar position</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Set the position of the screen where the OSD bar is displayed. 0 is top, 100 bottom.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Display the name of the media in the window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>If this option is enabled the media title from information tags will be displayed in the window title instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
@@ -6085,17 +6097,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -6131,8 +6143,8 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="153"/>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="152"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>General</source>
         <translation>ባጠቃላይ</translation>
     </message>
@@ -6147,305 +6159,295 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>መገናኛ ማሰናጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1228"/>
+        <location filename="../prefgeneral.cpp" line="1211"/>
         <source>Start videos in fullscreen</source>
         <translation>ቪዲዮ በ ሙሉ መመልከቻ ማስጀመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1259"/>
+        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Disable screensaver</source>
         <translation>መመልከቻ ማዳኛ ማሰናከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="176"/>
+        <location filename="../prefgeneral.cpp" line="175"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (6.1 የተከበበ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="177"/>
+        <location filename="../prefgeneral.cpp" line="176"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (7.1 የተከበበ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="205"/>
+        <location filename="../prefgeneral.cpp" line="204"/>
         <source>Select the %1 executable</source>
         <translation>ይምረጡ %1 የሚፈጸመውን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="207"/>
+        <location filename="../prefgeneral.cpp" line="206"/>
         <source>Executables</source>
         <translation>የሚፈጸመው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="209"/>
+        <location filename="../prefgeneral.cpp" line="208"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="211"/>
+        <location filename="../prefgeneral.cpp" line="210"/>
         <source>Select a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="222"/>
+        <location filename="../prefgeneral.cpp" line="221"/>
         <source>%1 &amp;executable:</source>
         <translation>%1 &amp;የሚፈጸመው:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="172"/>
-        <location filename="../prefgeneral.cpp" line="487"/>
-        <location filename="../prefgeneral.cpp" line="488"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
+        <location filename="../prefgeneral.cpp" line="477"/>
+        <location filename="../prefgeneral.cpp" line="478"/>
         <source>Default</source>
         <translation>ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="214"/>
+        <location filename="../prefgeneral.cpp" line="213"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.</source>
         <translation>እዚህ የሚፈልጉትን ቋንቋ መጻፍ ይችላሉ ለ ድምፅ ንዑስ አርእስት ማስተላለፊያ: በርካታ ድምፅ በ መገናኛ ወይንም ንዑስ አርእስት ሲተላለፍ በ SMPlayer እርስዎ የ መረጡትን ቋንቋ ለ መጠቀም ይሞክራል: ይህ የሚሰራው መገናኛው ስለ ቋንቋው መረጃ ሲያቀርብ ነው: ስለ ድምፅ እና ንዑስ አርእስት ማስተላለፊያ እንደ DVDs ወይንም mkv ፋይሎች.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="495"/>
+        <location filename="../prefgeneral.cpp" line="485"/>
         <source>hardware</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="496"/>
+        <location filename="../prefgeneral.cpp" line="486"/>
         <source>software</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>Multimedia engine</source>
         <translation>በርካታ መገናኛ ሞተር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1085"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>ይምረጡ የትኛውን የ በርካታ መገናኛ መጠቀም እንደሚፈልጉ MPlayer ወይንም mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>ይህ ምርጫ &apos;ሌላ&apos; እርስዎን የሚያስችለው ሚፈጸመውን መንገድ መምረጥ ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1089"/>
+        <location filename="../prefgeneral.cpp" line="1075"/>
         <source>%1 executable</source>
         <translation>%1 የሚፈጸመው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1076"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>እርስዎ እዚህ መወሰን ይችላሉ %1ለ  መፈጸም የ SMPlayer የሚጠቀመውን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1105"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Remember settings for streams</source>
         <translation>የ ማስተላለፊያ ማሰናጃን አስታውስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>ይህን ምርጫ ሲያስችሉ በ መስመር ላይ ማስተላለፊያ ማሰናጃ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Screenshots folder</source>
         <translation>የ መመልከቻ ፎቶ ፎልደር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Template for screenshots</source>
         <translation>ለ መመልከቻ ፎቶ ቴምፕሌት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1129"/>
+        <location filename="../prefgeneral.cpp" line="1115"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>ለምሳሌ %1 የ መመልከቻውን ፎቶ ያስቀምጣል እንደ &apos;ሙቪ ስም_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 ለ ቪዲዮ የ ፋይል ስም መወሰኛ ያለ ተጨማሪ: %2 ይጨምራል የ 4 አሀዝ ቁጥር በ ዜሮ የ ተከበበ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Format for screenshots</source>
         <translation>የ መመልከቻ ፎቶ አቀራረብ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>ይህ ምርጫ እርስዎን የሚያስችለው የ ምስል ፋይል አይነት መምረጥ ነው: የ መመልከቻ ፎቶ እርስዎ ያስቀመጡትን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>Keep selected speed across files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1135"/>
+        <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1136"/>
+        <source>Otherwise each file will use its own speed setting.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
-        <source>If this option is enabled, the speed selected in the Play menu will be applied for all files.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
-        <source>Otherwise each file will use its own speed setting.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ኮምፒዩተሩ ይዘጋል SMPlayer ከ ጨረሰ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1169"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>Video output driver</source>
         <translation>የ ቪዲዮ ውጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1170"/>
+        <location filename="../prefgeneral.cpp" line="1156"/>
         <source>Select the video output driver.</source>
         <translation>የ ቪዲዮ ውጤት አካል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
-        <source>Wayland support</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ጥቁር ድንበር ይጨመራል በ ምስሎች ዙሪያ አዲስ በ ተከፈቱ ፋይሎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1268"/>
+        <location filename="../prefgeneral.cpp" line="1251"/>
         <source>Audio output driver</source>
         <translation>የ ድምፅ ውጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1269"/>
+        <location filename="../prefgeneral.cpp" line="1252"/>
         <source>Select the audio output driver.</source>
         <translation>የ ድምፅ ውጤት አካል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1095"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Remember settings</source>
         <translation>ማሰናጃውን አስታውስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1327"/>
+        <location filename="../prefgeneral.cpp" line="1310"/>
         <source>Preferred audio language</source>
         <translation>የተመረጠው የ ድምፅ ቋንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1339"/>
+        <location filename="../prefgeneral.cpp" line="1322"/>
         <source>Preferred subtitle language</source>
         <translation>የተመረጠው የ ንዑስ አርእስት ቋንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1206"/>
+        <location filename="../prefgeneral.cpp" line="1189"/>
         <source>Software video equalizer</source>
         <translation>ሶፍትዌር ቪዲዮ ማስተካከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="168"/>
+        <location filename="../prefgeneral.cpp" line="167"/>
         <source>Other...</source>
         <translation>ሌላ...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1114"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>ይህ ምርጫ የሚገልጸው የ ፋይል ስም ቴምፕሌት የ መመልከቻ ፎቶ ለማስቀመጥ ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>ለ ሙሉ ዝርዝር ቴምፕሌት ለ መወሰን ይህን አገባኝ ይጎብኙ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
-        <location filename="../prefgeneral.cpp" line="1143"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>This option only works with mpv.</source>
         <translation>ምርጫው የሚሰራው ለ mpv. ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Shut down computer</source>
         <translation>ኮምፒዩተር ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Add black borders for subtitles by default</source>
         <translation>ለ ንዑስ አርእስት ድንበሮች ጥቁር ቀለም መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>እርስዎ በዚህ ምርጫ ላይ ምልክት ማድረግ ይችላሉ ለ ቪዲዮ ማስተካከያ የማይደገፍ ከሆነ በ እርስዎ የ ንድፍ ካርድ  ወይንም ይምረጡ የ ቪዲዮ ውጤት አካል &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; ይህ ምርጫ ከ አንዳንድ ቪዲዮ ውጤቶች ጋር ላይስማማ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1212"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ሁሉም ቪዲዮዎች በ ሙሉ ዘዴ ውስጥ ይጫወታሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1274"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Global audio equalizer</source>
         <translation>የ ድምፅ ማስተካከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1275"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ሁሉም የ መገናኛ ፋይሎች ድምፅ ማስተካከያውን ይጋራሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1276"/>
+        <location filename="../prefgeneral.cpp" line="1259"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>ምልክት ካልተደረገበት: የ ድምፅ ማስተካከያ ዋግዎች ይቀመጣሉ ከ ፋይል ጋር: እና ይጫናሉ ፋይሉ በሚጫወት ጊዜ </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1279"/>
+        <location filename="../prefgeneral.cpp" line="1262"/>
         <source>AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS  በ ውስጡ-ያልፋል በ S/PDIF እና HDMI ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1285"/>
+        <location filename="../prefgeneral.cpp" line="1268"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>መልሶ የማጫወቻ ጣቢያዎችን %1 ይጠይቃል የ decoder to decode ዽምፅጽ ወደ ተጠየቀው በርካታ አቀራረብ: እና ከዛ የ decoder ወደ ተፈለገው አስፈላጊነት ይቀይራል: ይህ ብዙ ጊዜ አስፈላጊ የሚሆነው ቪዲዮ በሚያጫውቱ ጊዜ ነው በ AC3 ድምፅ (እንደ ዲቪዲs). ስለዚህ  liba52 does the decoding በ ነባር እና በትክክል downmixes የ ድምፅ ወደ ተፈለገው የ ጣቢያ ቁጥር &lt;b&gt;ማስታወሻ&lt;/b&gt;: ይህ ምርጫ የ ትደገፈ ነው በ codecs (AC3 ብቻ), ማጣሪያዎች (surround) እና ድምፅ ውጤት drivers (OSS ቢያንስ).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1296"/>
+        <location filename="../prefgeneral.cpp" line="1279"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>የ መልሶ ማጫወቻ ፍጥነት መቀየሪያ ማስቻያ  የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1304"/>
+        <location filename="../prefgeneral.cpp" line="1287"/>
         <source>Software volume control</source>
         <translation>የ መጠን መቆጣጠሪያ ሶፍትዌር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1305"/>
+        <location filename="../prefgeneral.cpp" line="1288"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>ይህ ምርጫ ይምረጡ: ሁሉንም የ ድምፅ ማስተካከያ መጠቀም ከ ፈለጉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Postprocessing quality</source>
         <translation>በሚጫወት ጊዜ ጥራት ማሻሻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1170"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>መጠን መቀየሪያ በ ቅድሚያ ሂደት ውስጥ እንደ ዝግጁ እንደሆነው ትርፍ CPU ሰአት: እርስዎ የሚወስኑትን ከፍተኛ ቁጥር ደረጃ ይጠቀማል: ብዙ ጊዜ እርስዎ ትልቅ ቁጥር መጠቀም ይችላሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1179"/>
+        <location filename="../prefgeneral.ui" line="1172"/>
         <source>&amp;Audio:</source>
         <translation>&amp;ድምፅ:</translation>
     </message>
@@ -6455,12 +6457,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;አስታውስ ማሰናጃ ለ ሁሉም ፋይሎች (ለ ድምፅ ተረኛ: ንዑስ አርእስት...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1198"/>
+        <location filename="../prefgeneral.ui" line="1191"/>
         <source>Su&amp;btitles:</source>
         <translation>ንዑስ&amp;አርእስት:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="462"/>
+        <location filename="../prefgeneral.ui" line="455"/>
         <source>&amp;Quality:</source>
         <translation>&amp;ጥራት:</translation>
     </message>
@@ -6487,7 +6489,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.ui" line="269"/>
         <source>&amp;Keep selected speed across files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6495,102 +6497,97 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>ኮምፒዩተር ማ&amp;ጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="414"/>
-        <source>Wa&amp;yland support</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="634"/>
+        <location filename="../prefgeneral.ui" line="627"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>ቪዲዮ በ ሙሉ መመልከቻ ማስጀመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="648"/>
+        <location filename="../prefgeneral.ui" line="641"/>
         <source>Disable &amp;screensaver</source>
         <translation>&amp;መመልከቻ ማዳኛውን ማሰናከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="782"/>
+        <location filename="../prefgeneral.ui" line="775"/>
         <source>Global audio e&amp;qualizer</source>
         <translation>የ ድምፅ ማ&amp;ስተካከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="791"/>
+        <location filename="../prefgeneral.ui" line="784"/>
         <source>&amp;AC3/DTS passthrough over S/PDIF and HDMI</source>
         <translation>AC3/DTS  በ ውስጡ-ያልፋል በ S/PDIF እና HDMI ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="901"/>
+        <location filename="../prefgeneral.ui" line="894"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>ይጠቀሙ የ ሶ&amp;ፍትዌር መጠን መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="924"/>
+        <location filename="../prefgeneral.ui" line="917"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>ከፍ&amp;ተኛ ማጉሊያ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1212"/>
+        <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Direct rendering</source>
         <translation>በቀጥታ መፈጸሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1217"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Double buffering</source>
         <translation>በቀጥታ በ መጠበቅ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="600"/>
+        <location filename="../prefgeneral.ui" line="593"/>
         <source>D&amp;irect rendering</source>
         <translation>በ&amp;ቀጥታ መፈጸሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="607"/>
+        <location filename="../prefgeneral.ui" line="600"/>
         <source>Dou&amp;ble buffering</source>
         <translation>በ ድርብ በ መጠበቅ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1218"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>ድርብ መጠበቂያ ብልጭ ድርግም የሚለውን ይጠግነዋል በ ማስታወሻ ውስጥ ሁለት ክፈፍ በማስቀመጥ: እና ያሳያል አንድ decoding ሌላውን ሲፈልግ: ይህ ከ ተሰናከለ ተፅእኖ ይፈጥራል በ OSD negatively, ነገር ግን ያስወግዳል የ OSD ብልጭ ድርግም የሚለውን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="442"/>
+        <location filename="../prefgeneral.ui" line="435"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>በ ነባር በሚጫወት ጊዜ ጥራት ማሻሻያ &amp;ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="952"/>
+        <location filename="../prefgeneral.ui" line="945"/>
         <source>Volume &amp;normalization by default</source>
         <translation>መጠን &amp;መደበኛ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Close when finished</source>
         <translation>ሲጨርስ መዝጊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ: ዋናው መስኮት ራሱ በራሱ ይዘጋል የ አሁኑ ፋይል/ማጫወቻ ዝርዝር ሲጨርስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="173"/>
+        <location filename="../prefgeneral.cpp" line="172"/>
         <source>2 (Stereo)</source>
         <translation>2 (ስቴሪዮ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="174"/>
+        <location filename="../prefgeneral.cpp" line="173"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 የተከበበ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="175"/>
+        <location filename="../prefgeneral.cpp" line="174"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 የተከበበ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="806"/>
+        <location filename="../prefgeneral.ui" line="799"/>
         <source>C&amp;hannels by default:</source>
         <translation>ጣ&amp;ቢያዎች በ ነባር</translation>
     </message>
@@ -6600,117 +6597,117 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;ማስቆሚያ በሚያንስ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1152"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Pause when minimized</source>
         <translation>ማስቆሚያ በሚያንስ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1166"/>
         <source>Enable postprocessing by default</source>
         <translation>በ ነባር በሚጫወት ጊዜ ጥራት ማሻሻያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1308"/>
+        <location filename="../prefgeneral.cpp" line="1291"/>
         <source>Max. Amplification</source>
         <translation>ከፍተኛ ማጉሊያ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1315"/>
+        <location filename="../prefgeneral.cpp" line="1298"/>
         <source>Volume normalization by default</source>
         <translation>መጠን መደበኛ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1316"/>
+        <location filename="../prefgeneral.cpp" line="1299"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>መጠን መጨመሪያ ድምፁ ሳይበላሽ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1284"/>
+        <location filename="../prefgeneral.cpp" line="1267"/>
         <source>Channels by default</source>
         <translation>በ ነባር ጣቢያዎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1309"/>
+        <location filename="../prefgeneral.cpp" line="1292"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>ከፍተኛ የማጉሊያ መጠን ማሰናጃ በ ፐርሰንት (ነባር: 110). ይህ ዋጋ ለ 200 እርስዎን የሚያስችለው መጠን መጨመር ነው በ እጥፍ የ አሁኑን መጠን: ዝቅተኛ የሆኑ ዋጋዎች ከ 100 በታች ነባሩን ይጠቀማሉ (ይህን  100%) ከ ከፍተኛው በላይ ይሆናል: ለምሳሌ: የ OSD በ ትክክል አይታይም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>በ ነባር በሚጫወት ጊዜ ጥራት ማሻሻያ ማስቻያ ይጠቀማል አዲስ በ ተከፈቱ ፋይሎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1329"/>
+        <location filename="../prefgeneral.cpp" line="1312"/>
         <source>You can specify here a priority list of audio language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>እርስዎ እዚህ የ ቅድሚያ ዝርዝር መወሰን ይችላሉ ለ ድምፅ ቋንቋ ኮድ: በ ኮማ በ መለያየት: ለምሳሌ: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1333"/>
+        <location filename="../prefgeneral.cpp" line="1316"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ይህ ሜዳ መደበኛ መግለጫዎች ይቀበላል: ለምሳሌ &lt;b&gt;es|esp|spa&lt;/b&gt; የ ድምፅ ተረኛ ይመርጣል የሚመሳሰል ከሆነ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1341"/>
+        <location filename="../prefgeneral.cpp" line="1324"/>
         <source>You can specify here a priority list of subtitle language codes, separated by commas. For example: spa,eng,jpn</source>
         <translation>እርስዎ እዚህ የ ቅድሚያ ዝርዝር መወሰን ይችላሉ ለ ንዑስ አርእስት ቋንቋ ኮድ: በ ኮማ በ መለያየት: ለምሳሌ: spa,eng,jpn</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1344"/>
+        <location filename="../prefgeneral.cpp" line="1327"/>
         <source>This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ይህ ሜዳ መደበኛ መግለጫዎች ይቀበላል: ለምሳሌ &lt;b&gt;es|esp|spa&lt;/b&gt; የ ንዑስ አርእስት ተረኛ ይመርጣል የሚመሳሰል ከሆነ ከ &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ወይንም &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1351"/>
+        <location filename="../prefgeneral.cpp" line="1334"/>
         <source>Audio track</source>
         <translation>የ ድምፅ ተረኛ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1352"/>
+        <location filename="../prefgeneral.cpp" line="1335"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ነባር የ ድምፅ ተረኛ መወሰኛ አዲስ ፋይል በሚያጫውቱ ጊዜ የሚጠቀሙበት: ተረኛው ከሌለ የ መጀመሪያውን ይጠቀማል:  &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; የ &lt;i&gt;&quot;ተመረጠው ድምፅ ቋንቋ&quot;&lt;/i&gt; ምርጫዎች አለው በ ምርጫ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1357"/>
+        <location filename="../prefgeneral.cpp" line="1340"/>
         <source>Subtitle track</source>
         <translation>የ ንዑስ አርእስት ተረኛ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1358"/>
+        <location filename="../prefgeneral.cpp" line="1341"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ነባር የ ንዑስ አርእስት ተረኛ መወሰኛ አዲስ ፋይል በሚያጫውቱ ጊዜ የሚጠቀሙበት: ተረኛው ከሌለ የ መጀመሪያውን ይጠቀማል:  &lt;br&gt;&lt;b&gt;ማስታወሻ:&lt;/b&gt; የ &lt;i&gt;&quot;ተመረጠው ድምፅ ቋንቋ&quot;&lt;/i&gt; ምርጫዎች አለው በ ምርጫ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1319"/>
+        <location filename="../prefgeneral.ui" line="1312"/>
         <source>Or choose a track number:</source>
         <translation>ወይንም ይምረጡ የ ተራ ቁጥር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1260"/>
+        <location filename="../prefgeneral.ui" line="1253"/>
         <source>Audi&amp;o:</source>
         <translation>ድም&amp;ፅ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1214"/>
+        <location filename="../prefgeneral.ui" line="1207"/>
         <source>Preferred language:</source>
         <translation>የተመረጠው ቋንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1103"/>
+        <location filename="../prefgeneral.ui" line="1096"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>የተመረጠ&amp;ው ድምፅ እና ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1273"/>
+        <location filename="../prefgeneral.ui" line="1266"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;ንዑስ አርእስት:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="842"/>
+        <location filename="../prefgeneral.ui" line="835"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>በ ከፍተኛ ፍጥነት &amp;መልሶ ማጫወቻ የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1295"/>
+        <location filename="../prefgeneral.cpp" line="1278"/>
         <source>High speed playback without altering pitch</source>
         <translation>በ ከፍተኛ ፍጥነት መልሶ ማጫወቻ የ ድምፅ ጥራት ሳይቀንስ</translation>
     </message>
@@ -6720,82 +6717,82 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="530"/>
+        <location filename="../prefgeneral.ui" line="523"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
         <translation>ለ ንዑስ አርእስት ድንበሮች ጥቁር ቀለም መጨመሪያ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="593"/>
+        <location filename="../prefgeneral.ui" line="586"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>ይጠቀሙ የ ሶ&amp;ፍትዌር ቪዲዮ ማስተካከያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="692"/>
+        <location filename="../prefgeneral.ui" line="685"/>
         <source>A&amp;udio</source>
         <translation>ድ&amp;ምፅ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="877"/>
+        <location filename="../prefgeneral.ui" line="870"/>
         <source>Volume</source>
         <translation>መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1153"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1266"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1325"/>
+        <location filename="../prefgeneral.cpp" line="1308"/>
         <source>Preferred audio and subtitles</source>
         <translation>የተመረጠው ድምፅ እና ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="181"/>
+        <location filename="../prefgeneral.cpp" line="180"/>
         <source>None</source>
         <translation>ምንም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="182"/>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Lowpass5</source>
         <translation>&amp;አነስተኛ ማለፊያ5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (መደበኛ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="184"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (ድርብ የ ክፈፍ መጠን)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="185"/>
+        <location filename="../prefgeneral.cpp" line="184"/>
         <source>Linear Blend</source>
         <translation>ቀጥተኛ ማዋሀጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="186"/>
+        <location filename="../prefgeneral.cpp" line="185"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1174"/>
         <source>Deinterlace by default</source>
         <translation>መቀየሪያ በ ነባር</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1192"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>&amp;ይምረጡ የ መቀየሪያ ማጣሪያ እርስዎ አዲስ ቪዲዮ ለ መክፈት የሚጠቀሙበት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Remember time position</source>
         <translation>የ ጊዜ ቦታ ያስታውሳል</translation>
     </message>
@@ -6805,32 +6802,32 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>የ &amp;ጊዜ ቦታ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1271"/>
+        <location filename="../prefgeneral.cpp" line="1254"/>
         <source>Enable the audio equalizer</source>
         <translation>የ ድምፅ ማስተካከያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1272"/>
+        <location filename="../prefgeneral.cpp" line="1255"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>ይህ ምርጫ ይምረጡ: ሁሉንም የ ድምፅ ማስተካከያ መጠቀም ከ ፈለጉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="759"/>
+        <location filename="../prefgeneral.ui" line="752"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>የ ድምፅ ማስተካከያ &amp;ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1222"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Draw video using slices</source>
         <translation>ቪዲዮ መሳያ ቁራጮች በ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1223"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>ማስቻያ/ማሰናከያ መሳያ ቪዲዮ በ 16-ፒክስል እርዝመት slices/bands. ከ ተሰናከል: ጠቅላላ ክፈፉ ይሳላል በ ነጠላ ማስኬጃ ውስጥ: ምናልባት ፈጣን ወይንም ዝግተኛ ሊሆን ይችላል: እንደ ቪዲዮ ካርዱ ሁኔታ: እና ዝግጁ ማጠራቀሚያ:ተፅእኖ የሚኖረው በ libmpeg2 እና libavcodec codecs. ብቻ ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="614"/>
+        <location filename="../prefgeneral.ui" line="607"/>
         <source>Dra&amp;w video using slices</source>
         <translation>ቪዲዮ መሳ&amp;ያ ቁራጮች በ መጠቀም</translation>
     </message>
@@ -6840,99 +6837,99 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>መልሶ ማጫወቻ ሲጨርስ &amp;መዝጊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="502"/>
+        <location filename="../prefgeneral.cpp" line="492"/>
         <source>fast</source>
         <translation>በፍጥነት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="538"/>
-        <location filename="../prefgeneral.cpp" line="590"/>
+        <location filename="../prefgeneral.cpp" line="528"/>
+        <location filename="../prefgeneral.cpp" line="580"/>
         <source>User defined...</source>
         <translation>በ ተጠቃሚ የሚገለጽ...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1202"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>Default zoom</source>
         <translation>ነባር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ነበር ማሳያ ይጠቀማል ለ አዲስ ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="539"/>
+        <location filename="../prefgeneral.ui" line="532"/>
         <source>Default &amp;zoom:</source>
         <translation>ነባር &amp;ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>ይህ ማሰናጃ ከ ተሳሳተ: SMPlayer ምንም ነገር ማጫወት አይችልም!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>ብዙ ጊዜ SMPlayer ማሰናጃውን ያስታውሳል ለ እያንዳንዱ ፋይል እርስዎ ያጫወቱትን: (የ ተመረጠውን የ ድምፅ ተረኛ: መጠን: ማጣሪያዎች...). እነዚህን ገጽታዎች ካልፈለጉ ያሰናክሉት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1139"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ: ፋይሉ ይቆያል ዋናው መስኮት በሚደበቅ ጊዜ: መስኮት እንደ ነበር ሲመለስ ማጫወቱን ይቀጥላል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1260"/>
+        <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>ይህን ምርጫ ይምረጡ መመልከቻ ማዳኛ ለማሰናከል በሚጫወት ጊዜ&lt;br&gt;የ መመልከቻ ማዳኛ ይቀጥላል ማጫወቱን ሲጨርስ</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="363"/>
-        <location filename="../prefgeneral.ui" line="700"/>
+        <location filename="../prefgeneral.ui" line="693"/>
         <source>Ou&amp;tput driver:</source>
         <translation>የ ው&amp;ጤት አካል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1233"/>
+        <location filename="../prefgeneral.cpp" line="1216"/>
         <source>Add black borders on fullscreen</source>
         <translation>በ ሙሉ መመልከቻ ዘዴ ላይ ለ ድንበሮች ጥቁር ቀለም መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1234"/>
+        <location filename="../prefgeneral.cpp" line="1217"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ጥቁር ድንበር ይጨመራል በ ምስሎች ዙሪያ በ ሙሉ መመልከቻ ዘዴ ውስጥ: ይህ ንዑስ አርእስት በ ጥቁሩ ድንበር ላይ እንዲታያ ያደርጋል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="641"/>
+        <location filename="../prefgeneral.ui" line="634"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>በ ሙሉ መመልከቻ ዘዴ ላይ ለ ድንበሮች ጥቁር ቀለም &amp;መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="191"/>
+        <location filename="../prefgeneral.cpp" line="190"/>
         <source>one ini file</source>
         <translation>አንድ ማስነሻ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="192"/>
+        <location filename="../prefgeneral.cpp" line="191"/>
         <source>multiple ini files</source>
         <translation>በርካታ ማስነሻ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Method to store the file settings</source>
         <translation>የ ፋይል ማሰናጃ ማጠራቀሚያ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1109"/>
+        <location filename="../prefgeneral.cpp" line="1095"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>ይህ ምርጫ የሚያስችለው የ ፋይል ማሰናጃ እንዴት እንደሚቀመጥ ነው: የሚቀጥሉት ምርጫዎች ዝግጁ ናቸው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;አንድ ini ፋይል&lt;/b&gt;: ሁሉም የ ተጫወቱት ፋይሎች ይቀመጣሉ በ ነጠላ ini ፋይል ውስጥ (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>የ መጨረሻው መንገድ ፈጣን ነው መረጃ ከ ተገኛ ለ ፋይሎች</translation>
     </message>
@@ -6942,32 +6939,32 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;ማጠራቀሚያ ማሰናጃ በ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1099"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;በርካታ ini ፋይሎች&lt;/b&gt;: አንድ ini ፋይል ይጠቀማል ለ እያንዳንዱ ለ ተጫወተው ፋይል: እነዚህ ini ፋይሎች በ ፎልደር ውስጥ ይቀመጣሉ %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>እርስዎ ይህን ምርጫ ከ መረጡ SMPlayer ያስታውሳል ፋይሉ የ ነበረበትን ቦታ መጨረሻ ላይ እርስዎ እንደገና ሲክፍቱት: ይህ ምርጫ የሚሰራው ለ መደበኛ ፋይሎች ነው (አይደለም ለ DVDs, CDs, URLs...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1213"/>
+        <location filename="../prefgeneral.cpp" line="1196"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>ይህ ምልክት ከ ተደረገበት በ ቀጥታ ያጫውታል  (ያልተደገፉ በ ሁሉም  codecs እና ቪዲዮ ውጤቶች)&lt;br&gt;&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; ችግር ሊፈጥር ይችላል በ OSD/SUB የ ተበላሹ ላይ!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Enable screenshots</source>
         <translation>መመልከቻ ፎቶ ማንሻ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>እርስዎ ይህን ምርጫ መጠቀም ይችላሉ ለ ማስቻል ወይንም ለ ማሰናከል የ መመልከቻ ፎቶ ለማንሳት</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1108"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>እርስዎ እዚህ መወሰን ይችላሉ የ መመልከቻ ፎቶ የ ተነሳው በ SMPlayer የት እንደሚጠራቀም: ፎልደሩ ዋጋ ከሌለው የ መመልከቻ ፎቶ ገጽታ ይሰናከላል</translation>
     </message>
@@ -6987,132 +6984,132 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;ፎልደር:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1298"/>
+        <location filename="../prefgeneral.cpp" line="1281"/>
         <source>Global volume</source>
         <translation>አለም አቀፍ መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1299"/>
+        <location filename="../prefgeneral.cpp" line="1282"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: ተመሳሳይ መጠን ይጠቀማል እርስዎ ለሚያጫውቱት ፋይሎች: ይህ ምርጫ ካልተመረጠ እያንዳንዱ ፋይል የራሱን መጠን ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1302"/>
+        <location filename="../prefgeneral.cpp" line="1285"/>
         <source>This option also applies for the mute control.</source>
         <translation>ይህን ምርጫ መፈጸም ይቻላል ለ ድምፅ መቀነሻ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="886"/>
+        <location filename="../prefgeneral.ui" line="879"/>
         <source>Glo&amp;bal volume</source>
         <translation>አለም &amp;አቀፍ መጠን</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1244"/>
+        <location filename="../prefgeneral.cpp" line="1227"/>
         <source>Switch screensaver off</source>
         <translation>መመልከቻውን ማዳኛ መቀየሪያ ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1245"/>
+        <location filename="../prefgeneral.cpp" line="1228"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>ይህ ምርጫ መመልከቻ ማዳኛውን ያጠፋዋል ፋይሉ መጫወት ከ መጀመሩ በፊት እና ያበራዋል ፋይሉ መጫወት ሲጨርስ: ይህን ምርጫ ካስቻሉ: መመልከቻ ማዳኛው አይታይም የ ድምፅ ፋይሎች ወይንም ፋይሉን በሚያጠፉ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1251"/>
+        <location filename="../prefgeneral.cpp" line="1234"/>
         <source>Avoid screensaver</source>
         <translation>መመልከቻ ማዳኛ ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1252"/>
+        <location filename="../prefgeneral.cpp" line="1235"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት: የ SMPlayer ለ መከልከል ይሞክራል የ መመልከቻ ማዳኛ እንዳይታይ ቪዲዮ በሚጫወት ጊዜ: የ መመልከቻ ማዳኛ እንዲታይ የሚፈቀደው የ ድምፅ ፋይል ሲጫወት ብቻ ነው: ወይንም የ ድምፅ ፋይሉ ሲያስቆሙ ነው: ይህ ምርጫ የሚሰራው የ  SMPlayer መስኮት ከ ፊት ለፊት ሲሆን ነው</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="655"/>
+        <location filename="../prefgeneral.ui" line="648"/>
         <source>Screensaver</source>
         <translation>መመልከቻ ማዳኛ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="661"/>
+        <location filename="../prefgeneral.ui" line="654"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>መመልከቻ ማዳኛ መቀ&amp;የሪያ ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="668"/>
+        <location filename="../prefgeneral.ui" line="661"/>
         <source>Avoid &amp;screensaver</source>
         <translation>&amp;መመልከቻ ማዳኛ ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1318"/>
+        <location filename="../prefgeneral.cpp" line="1301"/>
         <source>Audio/video auto synchronization</source>
         <translation>ድምፅ/ቪዲዮ በራሱ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1319"/>
+        <location filename="../prefgeneral.cpp" line="1302"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>ቀስ በ ቀስ የ A/V ማስማሚያ ይስተካከላል እንደ ድምፁ ማዘግያ መለኪያዎች</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1322"/>
+        <location filename="../prefgeneral.cpp" line="1305"/>
         <source>A-V sync correction</source>
         <translation>A-V ማስማሚያ ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1323"/>
+        <location filename="../prefgeneral.cpp" line="1306"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>ከፍተኛው A-V ማስማሚያ ማረሚያ በ ክፈፍ (በ ሰከንዶች ውስጥ)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="962"/>
+        <location filename="../prefgeneral.ui" line="955"/>
         <source>Synchronization</source>
         <translation>ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="973"/>
+        <location filename="../prefgeneral.ui" line="966"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>ድምፅ/ቪዲዮ በራሱ &amp;ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="999"/>
+        <location filename="../prefgeneral.ui" line="992"/>
         <source>&amp;Factor:</source>
         <translation>&amp;Factor:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1035"/>
+        <location filename="../prefgeneral.ui" line="1028"/>
         <source>A-V sync &amp;correction</source>
         <translation>A-V ማስማሚያ &amp;ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1058"/>
+        <location filename="../prefgeneral.ui" line="1051"/>
         <source>&amp;Max. correction:</source>
         <translation>&amp;ከፍተኛ ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1177"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;ማስታወሻ:&lt;/b&gt; ይህን ምርጫ ለ ቲቪ ጣቢያ አይጠቀምም</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="495"/>
+        <location filename="../prefgeneral.ui" line="488"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
         <translation>መቀየሪያ በ ነባር (ከ ቲቪ በስተቀር):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1280"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>ይጠቀሙ ጠንካራ አክል AC3 በ ውስጡ ማለፊያ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1281"/>
+        <location filename="../prefgeneral.cpp" line="1264"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;ማስታወሻ:&lt;/b&gt; ምንም የ ድምፅ ማጣሪያ አይጠቀምም ይህን ምርጫ ሲያስችሉ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="503"/>
+        <location filename="../prefgeneral.cpp" line="493"/>
         <source>snap mode</source>
         <translation>መቁረጫ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="504"/>
+        <location filename="../prefgeneral.cpp" line="494"/>
         <source>slower dive mode</source>
         <translation>በ ዝግታ መግቢያ ዘዴ</translation>
     </message>
@@ -7680,7 +7677,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="158"/>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Interface</source>
         <translation>ገጽታ</translation>
     </message>
@@ -7691,43 +7688,43 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>ነባር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="27"/>
+        <location filename="../prefinterface.ui" line="36"/>
         <source>&amp;Interface</source>
         <translation>&amp;ገጽታ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="58"/>
+        <location filename="../prefinterface.ui" line="67"/>
         <source>Never</source>
         <translation>በፍጹም</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="63"/>
+        <location filename="../prefinterface.ui" line="72"/>
         <source>Whenever it&apos;s needed</source>
         <translation>በማንኛውም በሚያስፈልግ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="68"/>
+        <location filename="../prefinterface.ui" line="77"/>
         <source>Only after loading a new video</source>
         <translation>አዲሱ ቪዲዮ ከ ተጫነ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="830"/>
+        <location filename="../prefinterface.ui" line="891"/>
         <source>Privac&amp;y</source>
         <translation>ግ&amp;ላዊነት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="836"/>
-        <location filename="../prefinterface.cpp" line="879"/>
+        <location filename="../prefinterface.ui" line="897"/>
+        <location filename="../prefinterface.cpp" line="888"/>
         <source>Recent files</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Language</source>
         <translation>ቋንቋ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>Here you can change the language of the application.</source>
         <translation>እርስዎ እዚህ ቋንቋ መቀየር ይችላሉ</translation>
     </message>
@@ -7757,162 +7754,167 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>በ አይጥ &amp;ጎማ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="636"/>
+        <location filename="../prefinterface.ui" line="697"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>አንድ ብቻ የሚሄድ ሁኔታ &amp;ይጠቀሙ ለ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="848"/>
+        <location filename="../prefinterface.ui" line="918"/>
         <source>Ma&amp;x. items</source>
         <translation>ከፍ&amp;ተኛ. እቃዎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="338"/>
+        <location filename="../prefinterface.ui" line="365"/>
         <source>St&amp;yle:</source>
         <translation>ዘዴ&amp;ዎች:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="242"/>
+        <location filename="../prefinterface.ui" line="251"/>
         <source>Ico&amp;n set:</source>
         <translation>ምልክ&amp;ት ማሰናጃ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="173"/>
+        <location filename="../prefinterface.ui" line="182"/>
         <source>L&amp;anguage:</source>
         <translation>ቋ&amp;ንቋ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="33"/>
+        <location filename="../prefinterface.ui" line="42"/>
         <source>Main window</source>
         <translation>ዋናው መስኮት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="41"/>
+        <location filename="../prefinterface.ui" line="50"/>
         <source>Auto&amp;resize:</source>
         <translation>በራሱ&amp;እንደገና መመጠኛ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="112"/>
+        <location filename="../prefinterface.ui" line="121"/>
         <source>&amp;Prevent window to get outside of screen</source>
         <translation>&amp;መከልከያ መስኮቱ ከ መመልከቻው ውጪ እንዳይሆን</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="134"/>
+        <location filename="../prefinterface.ui" line="143"/>
         <source>Center &amp;window</source>
         <translation>መሀከል &amp;መስኮት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="141"/>
+        <location filename="../prefinterface.ui" line="150"/>
         <source>R&amp;emember position and size</source>
         <translation>ቦታ እና መጠን ያ&amp;ስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="290"/>
+        <location filename="../prefinterface.ui" line="308"/>
         <source>S&amp;kin:</source>
         <translation>ቆ&amp;ዳ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="397"/>
+        <location filename="../prefinterface.ui" line="433"/>
         <source>Default font:</source>
         <translation>ነባር ፊደል:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="411"/>
+        <location filename="../prefinterface.ui" line="447"/>
         <source>&amp;Change...</source>
         <translation>&amp;መቀየሪያ...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="420"/>
+        <location filename="../prefinterface.ui" line="456"/>
         <source>Use the syste&amp;m native file dialog</source>
         <translation>የ ስርአ&amp;ት ቀዳሚ ፋይል ንግግር ይጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="506"/>
+        <location filename="../prefinterface.ui" line="603"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>የ ሰአት ተንሸራታች &amp;ባህሪ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="523"/>
+        <location filename="../prefinterface.ui" line="620"/>
         <source>Seek to position while dragging</source>
         <translation>በሚጎትቱ ጊዜ ቦታውን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="528"/>
+        <location filename="../prefinterface.ui" line="625"/>
         <source>Seek to position when released</source>
         <translation>በሚለቁ ጊዜ ቦታውን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="613"/>
+        <location filename="../prefinterface.ui" line="513"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
         <translation>የ ማስቆሚያ ቁልፍ መጫ&amp;ን አንድ ጊዜ የ ጊዜ ቦታን እንደ ነበር ይመልሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="678"/>
+        <location filename="../prefinterface.ui" line="674"/>
+        <source>S&amp;how thumbnail preview on hover</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="739"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
         <translation>የ ማንሳፈፊያ መቆጣጠሪያ በ ሙሉ መመልከቻ ዘዴ ውስጥ ይታያል የ አይጥ ቁልፍ በሚንቀሳቀስ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="765"/>
+        <location filename="../prefinterface.ui" line="826"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
         <translation>የ አይጥ መጠቆሚያውን በ መመልከቻው በ &amp;ታች ሲንቀሳቀስ ብቻ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="781"/>
+        <location filename="../prefinterface.ui" line="842"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
         <translation>ሰ&amp;አት (በ ሚሊ ሰከንዶች) መቆጣጠሪያው ለ መደበቅ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="887"/>
+        <location filename="../prefinterface.ui" line="957"/>
         <source>URLs</source>
         <translation>URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="899"/>
+        <location filename="../prefinterface.ui" line="978"/>
         <source>&amp;Max. items</source>
         <translation>&amp;ከፍተኛ. እቃዎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="938"/>
+        <location filename="../prefinterface.ui" line="1017"/>
         <source>&amp;Remember last directory</source>
         <translation>የ መጨረሻውን ዳይሬክቶሪ &amp;ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="959"/>
+        <location filename="../prefinterface.ui" line="1038"/>
         <source>High &amp;DPI</source>
         <translation>ከፍተኛ &amp;DPI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="965"/>
+        <location filename="../prefinterface.ui" line="1044"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
         <translation>SMPlayer ገጽታዎችን ይመጥናል በ ከፍተኛ DPI መመልከቻ ውስጥ: እዚህ እርስዎ ማሰናከል ይችላሉ ገጽታውን ወይንም መመጠኛውን መቀየር ይችላሉ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="975"/>
+        <location filename="../prefinterface.ui" line="1054"/>
         <source>&amp;Enable support for high DPI screens</source>
         <translation>&amp;ማስቻያ የ ከፍተኛ DPI መመልከቻ ድጋፍ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="985"/>
+        <location filename="../prefinterface.ui" line="1064"/>
         <source>Scale</source>
         <translation>መመጠኛ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="991"/>
+        <location filename="../prefinterface.ui" line="1070"/>
         <source>A&amp;uto</source>
         <translation>በ&amp;ራሱ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="1047"/>
+        <location filename="../prefinterface.ui" line="1126"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
         <translation>በዚህ ክፍል ውስጥ መቀየሪያ የ SMPlayer እንደገና ማስነሳት ያስፈልጋል ውጤቱ እንዲፈጸም</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="629"/>
+        <location filename="../prefinterface.ui" line="690"/>
         <source>TextLabel</source>
         <translation>የ ጽሁፍ ምልክት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="441"/>
+        <location filename="../prefinterface.ui" line="477"/>
         <source>&amp;Seeking</source>
         <translation>&amp;መፈለጊያ</translation>
     </message>
@@ -7927,67 +7929,67 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>&amp;አንፃራዊ መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="621"/>
+        <location filename="../prefinterface.ui" line="682"/>
         <source>Ins&amp;tances</source>
         <translation>ሁኔ&amp;ታዎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Autoresize</source>
         <translation>በራሱ እንደገና መመጠኛ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>ዋናው መስኮት ራሱ በራሱ እንደገና ይመጠናል: እርስዎ የሚፈልጉትን ምርጫ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Remember position and size</source>
         <translation>ቦታ እና መጠን ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>እርስዎ ይህን ምርጫ ከ መረጡ: ቦታ እና መጠን የ ዋናው መስኮት ይቀመጣል: እና እንደ ነበር ይመለሳል እርስዎ SMPlayer እንደገና ሲያስኬዱ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>ለ መተግበሪያው እርስዎ የሚፈልጉትን ገጽታ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="769"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>የ &lt;b&gt;መሰረታዊ GUI&lt;/b&gt; የሚያቀርበው የ ተለመደ ገጽታ ነው: ከ እቃ መደርደሪያ እና መቆጣጠሪያ መደርደሪያ ጋር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>የ &lt;b&gt;አነስተኛ GUI&lt;/b&gt; የሚያቀርበው ቀላል ገጽታ ነው: ያለ እቃ መደርደሪያ እና መቆጣጠሪያ ከ ጥቂት ቁልፎች ጋር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="775"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>የ &lt;b&gt;መልክ መቀየሪያ GUI&lt;/b&gt; የሚያቀርበው ዝግጁ የሆኑ የ መልክ መቀየሪያዎች ነው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>የ &lt;b&gt;Mpc GUI&lt;/b&gt; ዘመናዊ የ መገናኛ ማጫወቻ ይመስላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="886"/>
         <source>Privacy</source>
         <translation> የ ግላዊነት መመሪያ </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="880"/>
+        <location filename="../prefinterface.cpp" line="889"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>ከፍተኛውን ቁጥር ይምረጡ ለ እቃው የሚታየውን በ &lt;b&gt;መክፈቻ-&gt;የ ቅርብ ጊዜ ፋይሎች&lt;/b&gt; ንዑስ ዝርዝር: እርስዎ ካሰናዱ ወደ 0 ይህ ዝርዝር በፍጹም አይታይም</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>Icon set</source>
         <translation>ምልክት ማሰናጃ</translation>
     </message>
@@ -8017,225 +8019,235 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>የ ፒክስል መጠ&amp;ን:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>Prevent window to get outside of screen</source>
         <translation>መስኮቱ ከ መመልከቻው ውጪ እንዳይሆን መከልከያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>ከ በራሱ ሜምጠኛ በኋላ ዋናው መስኮት ወደ ውጪ ሊሆን ይችላል በ መመልከቻው ውስጥ: ይህ ምርጫመስኮቱን መሀከል እንዲሆን ያደርገዋል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>Center window</source>
         <translation>መሀከል መስኮት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>ይህን ምርጫ ካስቻሉ: ዋናው መስኮት መሀከል ላይ ይሆናል በ ዴስክቶፕ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>እርስዎ የሚፈልጉትን ምልክት ይምረጡ ለ መተግበሪያው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Skin</source>
         <translation>ቆዳ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>እርስዎ የሚፈልጉትን መልክ ይምረጡ ለ መተግበሪያው: ዝግጁ የሆነውን ለሚቀየረው መልክ GUI.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>Style</source>
         <translation>ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Select the style you prefer for the application.</source>
         <translation>እርስዎ የሚፈልጉትን ዘዴ ይምረጡ ለ መተግበሪያው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Default font</source>
         <translation>ነባር ፊደል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>እርስዎ እዚህ ቋንቋ መቀየር ይችላሉ የ መተግባሪያውን ፊደል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="795"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>Use the system native file dialog</source>
         <translation>የ ስርአት ቀዳሚ ፋይል ንግግር ይጠቀሙ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>When this option is enabled, SMPlayer will try to use the system native file dialog. Otherwise it will use the internal one.</source>
         <translation>ይህን ምርጫ ካስቻሉ SMPlayer የ ስርአት ቀዳሚ ፋይል ንግግር ይጠቀማል:   ያለ በለዚያ የ ውስጡን ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Seeking</source>
         <translation>በ መፈለግ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>Short jump</source>
         <translation>በ አጭር መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
         <location filename="../prefinterface.cpp" line="805"/>
         <location filename="../prefinterface.cpp" line="809"/>
+        <location filename="../prefinterface.cpp" line="813"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>ይምረጡ ሰአት እርስዎ መሄድ የሚፈልጉበትን ወደ ፊት ወይንም ወደ ኋላ እርስዎ በሚመርጡ ጊዜ የ %1 ተግባር ይፈጸማል.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>short jump</source>
         <translation>በ አጭር መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>Medium jump</source>
         <translation>በ መካከለኛ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>medium jump</source>
         <translation>በ መካከለኛ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="812"/>
         <source>Long jump</source>
         <translation>በ ረጅም መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>long jump</source>
         <translation>በ ረጅም መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="812"/>
+        <location filename="../prefinterface.cpp" line="816"/>
         <source>Mouse wheel jump</source>
         <translation>በ አይጥ ጎማ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="813"/>
+        <location filename="../prefinterface.cpp" line="817"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>ይምረጡ ሰአት እርስዎ መሄድ የሚፈልጉበትን ወደ ፊት ወይንም ወደ ኋላ እርስዎ የ አይጥ ቁልፍ በሚያንቀሳቅሱ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="816"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>Behaviour of time slider</source>
         <translation>የ ሰአት ተንሸራታች ባህሪ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="817"/>
+        <location filename="../prefinterface.cpp" line="821"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>ይምረጡ የ ሰአት ተንሸራታች በሚጎተት ጊዜ ምን እንደሚሆን</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
+        <location filename="../prefinterface.cpp" line="833"/>
         <source>Note: this option only works when using mpv as multimedia engine.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="831"/>
+        <location filename="../prefinterface.cpp" line="835"/>
+        <source>Show thumbnail preview on hover</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="836"/>
+        <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>የ ማስቆሚያ ቁልፍ መጫ&amp;ን አንድ ጊዜ የ ጊዜ ቦታን እንደ ነበር ይመልሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="862"/>
+        <location filename="../prefinterface.cpp" line="871"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>የ አይጥ መጠቆሚያውን በ መመልከቻው በ ታች ሲንቀሳቀስ ብቻ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="863"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት: የ ተንሳፋፊ መቆጣጠሪያ የሚታየው የ አይጥ ቁልፍ ሲንቀሳቀስ ብቻ ነው በ መመልከቻው በ ታች በኩል: ያለ በለዚያ መቆጣጠሪያው ይታያል የ አይጥ ቁልፍ በሚንቀሳቀስ ጊዜ: በማንኛውም ቦታ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የሚቀጥለው መቆጣጠሪያ ይታያል በ አነስተኛ ዘዴ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="870"/>
+        <location filename="../prefinterface.cpp" line="879"/>
         <source>This option only works with the basic GUI.</source>
         <translation>ምርጫው የሚሰራው ለ መሰረታዊ GUI ነው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="871"/>
+        <location filename="../prefinterface.cpp" line="880"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; ተንሳፋፊ መቆጣጠሪያ አልተፈጠረም ለ አነስተኛ ዘዴ እና በ ትክክል ላይሰራ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="874"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>Time to hide the control</source>
         <translation>መቆጣጠሪያው የሚደበቅበት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="875"/>
+        <location filename="../prefinterface.cpp" line="884"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>ጊዜ ማሰናጃ (በ ሚሊ ሰከንዶች) መቆጣጠሪያውን ለ መደበቅ የ አይጥ መጠቆሚያ ከ መቆጣጠሪያው ላይ ከሄደ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="884"/>
+        <location filename="../prefinterface.cpp" line="893"/>
         <source>Max. URLs</source>
         <translation>ከፍተኛው URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="885"/>
+        <location filename="../prefinterface.cpp" line="894"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>ይምረጡ ከፍተኛ ቁጥር እቃዎች ለ &lt;b&gt;መክፈቻ-&gt;URL&lt;/b&gt; ንግግር ያስታውሳል: ወደ 0 ያሰናዱ እርስዎ ካልፈለጉ ማንኛውንም URL እንዲቀመጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="889"/>
+        <location filename="../prefinterface.cpp" line="898"/>
         <source>Remember last directory</source>
         <translation>የ መጨረሻውን ዳይሬክቶሪ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="890"/>
+        <location filename="../prefinterface.cpp" line="899"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: SMPlayer ያስታውሳል የ መጨረሻ ፎልደር እርስዎ የ ተጠቀሙትን ፋይል ለ መክፈት</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="551"/>
-        <location filename="../prefinterface.cpp" line="820"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Seeking method</source>
         <translation>ዘዴ በ መፈለግ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="821"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>የሚጠቀሙበትን ዘዴ ማሰናጃ በ ተንሸራታች በሚፈልጉ ጊዜ: ፍጹም መፈለጊያ በጣም ትክክለኛ ነው: አንፃራዊ መፈለጊያ መፈለጊያ ግን የተሻለ ይሰራል የ ተሳሳተ የ ፋይል እርዝመት ላላቸው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="832"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>በ ነባር የ ማስቆሚያ ቁልፍ ሲጫኑ የ ሰአት ቦታን ያስታውሳል: ስለዚህ እርስዎ ማጫወቻ ቁልፍን ሲጫኑ ከ ነበረበት ቦታ ጀምሮ ይጫወታል: እርስዎ ሁለት ጊዜ መጫን አለብዎት ማስቆሚያውን ሰአቱን እንደገና ለማስጀመር: ነገር ግን እዚህ ምርጫ ላይ ምልክት ከ ተደረገ የ ሰአት ቦታ ይሰናዳል ወደ 0 አንድ ጊዜ የማስቆሚያ ቁልፍ ሲጫኑ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="839"/>
+        <location filename="../prefinterface.cpp" line="848"/>
         <source>Instances</source>
         <translation>ሁኔታው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="842"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>አንድ ብቻ የሚሄድ ሁኔታ ይጠቀሙ ለ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="843"/>
+        <location filename="../prefinterface.cpp" line="852"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>ይህን ምርጫ ይምረጡ: እርስዎ ከ ፈለጉ መጠቀም ሁሉንም የሚሄዱ ሁኔታዎች በ SMPlayer ሌሎች ፋይሎች በሚከፈቱ ጊዜ</translation>
     </message>
@@ -8245,84 +8257,84 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>አነስተኛ GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="209"/>
+        <location filename="../prefinterface.ui" line="218"/>
         <source>&amp;GUI</source>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>Floating control</source>
         <translation>ተንሳፋፊ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="849"/>
+        <location filename="../prefinterface.cpp" line="858"/>
         <source>Animated</source>
         <translation>እንቅስቃሴ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="850"/>
+        <location filename="../prefinterface.cpp" line="859"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የሚቀጥለው መቆጣጠሪያ ይታያል በ እንቅስቃሴ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="853"/>
+        <location filename="../prefinterface.cpp" line="862"/>
         <source>Width</source>
         <translation>ስፋት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="854"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>የ መቆጣጠሪያ ስፋት መወሰኛ (እንደ ፐርሰንት).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="856"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Margin</source>
         <translation>መስመር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="857"/>
+        <location filename="../prefinterface.cpp" line="866"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>ይህ ምርጫ የሚያሰናዳው የ ተንሳፋፊ መቆጣጠሪያ ፒክስል ቁጥር ከ መመልከቻው በ ታች በኩል በምን ያህል እንደሚሆን ነው:  ጠቃሚነቱ ለ ቲቪ መመልከቻ ነው: በሚያስስ ጊዜ መቆጣጠሪያው እንዲታይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="867"/>
+        <location filename="../prefinterface.cpp" line="876"/>
         <source>Display in compact mode too</source>
         <translation>በ አነስተኛ ዘዴ ውስጥ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="672"/>
+        <location filename="../prefinterface.ui" line="733"/>
         <source>&amp;Floating control</source>
         <translation>&amp;ተንሳፋፊ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="688"/>
+        <location filename="../prefinterface.ui" line="749"/>
         <source>&amp;Animated</source>
         <translation>&amp;እንቅስቃሴ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="697"/>
+        <location filename="../prefinterface.ui" line="758"/>
         <source>&amp;Width:</source>
         <translation>&amp;ስፋት:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="723"/>
-        <location filename="../prefinterface.ui" line="756"/>
-        <location filename="../prefinterface.ui" line="1032"/>
+        <location filename="../prefinterface.ui" line="784"/>
+        <location filename="../prefinterface.ui" line="817"/>
+        <location filename="../prefinterface.ui" line="1111"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="730"/>
+        <location filename="../prefinterface.ui" line="791"/>
         <source>&amp;Margin:</source>
         <translation>&amp;መስመር:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="772"/>
+        <location filename="../prefinterface.ui" line="833"/>
         <source>Display in &amp;compact mode too</source>
         <translation>በ አነስተኛ ዘዴ ውስጥ ማሳያ</translation>
     </message>
@@ -8332,32 +8344,32 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>Hide video window when playing audio files</source>
         <translation>የ ቪዲዮ መስኮት መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>ይህን ምርጫ ካስቻሉ የ ቪዲዮ መስኮት ይደበቃል የ ድምፅ ፋይል በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="148"/>
+        <location filename="../prefinterface.ui" line="157"/>
         <source>&amp;Hide video window when playing audio files</source>
         <translation>የ ቪዲዮ መስኮት &amp;መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="826"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>Precise seeking</source>
         <translation>በ ትክክል መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="831"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>ይህን ምርጫ ካስቻሉ: መፈለጊያ በጣም ትክክል ይሆናል ነገር ግን ትንሽ ዝግተኛ ይሆናል: ከ አንዳንድ የ ቪዲዮ አቀራረቦች ጋር ላይሰራ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="599"/>
+        <location filename="../prefinterface.ui" line="499"/>
         <source>&amp;Precise seeking</source>
         <translation>በ &amp;ትክክል መፈለጊያ</translation>
     </message>
@@ -8392,7 +8404,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="154"/>
         <source>Use a&amp;daptive streams (resolution up to 4K)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="188"/>
@@ -8407,7 +8419,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="227"/>
         <source>YouTube support application</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="253"/>
@@ -8488,7 +8500,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.ui" line="200"/>
         <source>Allow AV&amp;1 codec</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="532"/>
@@ -8542,7 +8554,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefnetwork.cpp" line="98"/>
         <location filename="../prefnetwork.cpp" line="336"/>
         <source>Internal YouTube support</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="111"/>
@@ -8574,7 +8586,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="333"/>
         <source>it will try to use mpv with yt-dlp (or youtube-dl) only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="336"/>
@@ -8584,7 +8596,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="339"/>
         <source>uses mpv with yt-dlp (or youtube-dl) for all sites</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="345"/>
@@ -8594,7 +8606,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="346"/>
         <source>This option specifies the preferred quality for the video streams handled by yt-dlp or youtube-dl.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="348"/>
@@ -8610,12 +8622,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="232"/>
         <source>yt-dlp (based on youtube-dl with improvements)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="250"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="349"/>
@@ -8650,12 +8662,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefnetwork.cpp" line="364"/>
         <source>Use adaptive streams</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="365"/>
         <source>This option enables adaptive streams which can provide videos up to 4K.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="367"/>
@@ -9021,7 +9033,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the player process.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
@@ -9061,7 +9073,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto (safe)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="35"/>
@@ -9300,22 +9312,22 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.cpp" line="234"/>
         <source>Display title name instead of filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="235"/>
         <source>The playlist will display the title (if any) instead of the filename.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="237"/>
         <source>The playlist window is dockable</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="238"/>
         <source>If this option is checked, the playlist window can be docked inside the main window. Otherwise the playlist would be a regular window.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="241"/>
@@ -9485,12 +9497,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Display title name instead of &amp;filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>The playlist window is &amp;dockable</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="185"/>
@@ -10342,13 +10354,19 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
@@ -10431,7 +10449,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../clhelp.cpp" line="180"/>
         <source>specifies the start time (in seconds) of the first file to be played. Also valid h:m:s and m:s</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="192"/>
@@ -11368,7 +11386,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="196"/>
+        <location filename="../widgetactions.cpp" line="212"/>
         <source>Volume</source>
         <translation>መጠን</translation>
     </message>
