@@ -1038,7 +1038,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zweit-Untertitel einblenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -1890,7 +1890,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1876"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>&amp;Untertitelsichtbarkeit</translation>
+        <translation>&amp;Untertitel einblenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1996"/>
@@ -5298,7 +5298,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"/>
+		<translation>Pau&amp;se</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -7846,7 +7846,7 @@ Der Dateiname der Wiedergabeliste muss eine bestimmten Endung haben, z. B. „.p
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"/>
+        <translation>Vorschaubilder beim Überfahren mit der Maus anzeigen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8154,12 +8154,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"/>
+        <translation>Vorschaubilder beim Überfahren mit der Maus anzeigen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"/>
+		<translation>Vorschaubild anzeigen, wenn der Mauszeiger über die Suchleiste bewegt wird. Nur bei lokalen Dateien und nicht bei Streams verfügbar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
