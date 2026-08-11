@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="zh_TW">
 <context>
     <name>About</name>
     <message>
@@ -1040,7 +1038,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>次要字幕能見度(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -3200,7 +3198,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>無法將下載好的檔案儲存
@@ -5300,7 +5298,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation>暫停(&amp;S)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5416,7 +5414,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>無法載入「%1」。
 播放清單的檔案名稱必須以特定後綴結尾，亦即 pls、xspf 或 m3u。並不支援「%2」。請再選一次！</translation>
@@ -6323,14 +6321,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <translation>選擇視訊輸出驅動程式。</translation>
     </message>
     <message>
-        <source>Wayland support</source>
-        <translation type="vanished">Wayland 支援</translation>
-    </message>
-    <message>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="vanished">這會啟用一些選項以避免影片顯示在主視窗之外。</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>若此選項被啟用，新開啟的檔案中將會預設加入黑色邊框到圖片中。</translation>
@@ -6505,10 +6495,6 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../prefgeneral.ui" line="315"/>
         <source>S&amp;hut down computer</source>
         <translation>關閉電腦(&amp;H)</translation>
-    </message>
-    <message>
-        <source>Wa&amp;yland support</source>
-        <translation type="vanished">Wayland 支援(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -7860,7 +7846,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>懸停時顯示縮圖預覽(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8167,12 +8153,12 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>懸停時顯示縮圖預覽</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation>當滑鼠懸停於進度列的時候，顯示影片的縮圖。僅適用於本機檔案，不適用於串流。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
@@ -10368,17 +10354,13 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

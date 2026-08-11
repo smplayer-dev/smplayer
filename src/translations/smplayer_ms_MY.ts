@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ms_MY">
 <context>
     <name>About</name>
     <message>
@@ -1040,7 +1038,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -3093,13 +3091,13 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="417"/>
         <source>Error: daily quota exceeded</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="546"/>
         <source>Remaining downloads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="608"/>
@@ -3200,7 +3198,7 @@ Contoh: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -5300,7 +5298,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5416,7 +5414,7 @@ Anda hendak tulis-ganti?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Adalah mustahul dalam memuatkan &apos;%1&apos;.
 Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf atau m3u. &apos;%2&apos; tidak lagi disokong. Sila, pilih yang lain!</translation>
@@ -5568,7 +5566,7 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
     <message>
         <location filename="../prefadvanced.ui" line="506"/>
         <source>Use the stop-screensa&amp;ver option</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
@@ -6099,17 +6097,17 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
     <message>
         <location filename="../prefdrives.cpp" line="223"/>
         <source>Select a CD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="229"/>
         <source>Select a DVD device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="235"/>
         <source>Select a Blu-ray device or an ISO file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="251"/>
@@ -6323,14 +6321,6 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
         <translation>Pilih pemacu output video.</translation>
     </message>
     <message>
-        <source>Wayland support</source>
-        <translation type="vanished">Sokongan Wayland</translation>
-    </message>
-    <message>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="vanished">Tindakan ini mengaktifkan beberapa pilihan yang dapat menghindari video terpapar di luar tetingkap utama.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Jika pilihan ini didayakan, sempadan hitam akan ditambah pada imej secara lalai pada fail yang baharu dibuka.</translation>
@@ -6505,10 +6495,6 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
         <location filename="../prefgeneral.ui" line="315"/>
         <source>S&amp;hut down computer</source>
         <translation>&amp;Matikan komputer</translation>
-    </message>
-    <message>
-        <source>Wa&amp;yland support</source>
-        <translation type="vanished">Sokongan Wa&amp;yland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -7860,7 +7846,7 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8167,12 +8153,12 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
@@ -10366,17 +10352,13 @@ Nama fail senarai main mesti berakhir dengan akhiran khusus sama ada pls, xspf a
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

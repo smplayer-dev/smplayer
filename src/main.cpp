@@ -60,9 +60,7 @@ int main( int argc, char ** argv )
 {
 #ifdef Q_OS_LINUX
 	#if QT_VERSION >= 0x050600
-	if (qgetenv("QT_QPA_PLATFORM").isEmpty()) {
-		qputenv("QT_QPA_PLATFORM", QByteArray("xcb"));
-	}
+	qputenv("QT_QPA_PLATFORM", QByteArray("xcb"));
 	#endif
 #endif
 

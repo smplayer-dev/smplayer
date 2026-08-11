@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="da">
 <context>
     <name>About</name>
     <message>
@@ -1040,7 +1038,7 @@ Konfigurationsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -3200,7 +3198,7 @@ Eksempel: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -5300,7 +5298,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5416,7 +5414,7 @@ Vil du overskrive den?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Det var ikke muligt at indlæse &apos;%1&apos;.
 Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf eller m3u. &apos;%2&apos; understøttes ikke. Vælg venligst igen!</translation>
@@ -6323,14 +6321,6 @@ Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf
         <translation>Vælg video output-driveren.</translation>
     </message>
     <message>
-        <source>Wayland support</source>
-        <translation type="vanished">Understøttelse af Wayland</translation>
-    </message>
-    <message>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="vanished">Det aktiverer visse valgmuligheder for at forhindre videoen i at blive vist uden for hovedvinduet.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Hvis denne indstilling er slået til, tilføjes sorte kanter til billedet som standard på nyligt åbnede filer.</translation>
@@ -6505,10 +6495,6 @@ Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf
         <location filename="../prefgeneral.ui" line="315"/>
         <source>S&amp;hut down computer</source>
         <translation>&amp;Luk computer</translation>
-    </message>
-    <message>
-        <source>Wa&amp;yland support</source>
-        <translation type="vanished">Understøttelse af &amp;Wayland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -7860,7 +7846,7 @@ Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8167,12 +8153,12 @@ Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
@@ -10366,19 +10352,13 @@ Navnet på afspilningslisten skal slutte med et bestemt suffiks som er pls, xspf
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

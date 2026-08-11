@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -1040,7 +1038,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Visibilidad&amp;e da legenda secundária</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -3200,7 +3198,7 @@ Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -5300,7 +5298,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation>Pau&amp;sa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5416,7 +5414,7 @@ Deseja substituí-lo?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Não foi possível carregar &apos;%1&apos;.
 Nomes de arquivos de lista de reprodução devem terminar com um sufixo específico como pls, xspf ou m3u. &apos;%2&apos; não é suportado. Por favor, escolha novamente!</translation>
@@ -6323,14 +6321,6 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
         <translation>Selecione o driver de vídeo.</translation>
     </message>
     <message>
-        <source>Wayland support</source>
-        <translation type="vanished">Suporte ao Wayland</translation>
-    </message>
-    <message>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="vanished">Isso ativa algumas opções que previnem o vídeo de ser exibido fora da janela principal.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Se ativar essa opção, serão adicionados contornos negros à imagem em novos arquivos abertos.</translation>
@@ -6505,10 +6495,6 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
         <location filename="../prefgeneral.ui" line="315"/>
         <source>S&amp;hut down computer</source>
         <translation>D&amp;esligar o computador</translation>
-    </message>
-    <message>
-        <source>Wa&amp;yland support</source>
-        <translation type="vanished">Suporte ao Wa&amp;yland</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -7860,7 +7846,7 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xibir prévia da miniatura ao passar o mouse</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8167,12 +8153,12 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir prévia da miniatura ao passar o mouse</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibe uma miniatura do vídeo ao passar o mouse sobre a barra de busca. Disponível apenas para arquivos locais, não para transmissões.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
@@ -10366,19 +10352,13 @@ Nomes de arquivos de lista de reprodução devem terminar com um sufixo específ
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>

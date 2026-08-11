@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="hu">
 <context>
     <name>About</name>
     <message>
@@ -1040,7 +1038,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -3203,7 +3201,7 @@ Példa: extrastereo,karaoke </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nem sikerült elmenteni a letöltött fájlt a %1 könyvtárba. Ellenőrizze a könyvtár jogosultságait.</translation>
@@ -5301,7 +5299,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -5417,7 +5415,7 @@ Valóban felül akarja írni?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
-        <source>It wasn&apos;t possible to load &apos;%1&apos;.
+        <source>It wasn't possible to load '%1'.
 Playlist file name must end with a specific suffix which is pls, xspf or m3u. &apos;%2&apos; is not supported. Please, choose once again!</source>
         <translation>Nem sikerült betölteni a következőt: &apos;%1&apos;.
 A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződnie, ami pls, xspf vagy m3u. A &apos;%2&apos; nem támogatott. Kérjük, válasszon még egyszer!</translation>
@@ -6324,14 +6322,6 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
         <translation>Válassz videomeghajtót a kimenethez</translation>
     </message>
     <message>
-        <source>Wayland support</source>
-        <translation type="vanished">Wayland támogatás</translation>
-    </message>
-    <message>
-        <source>This activates some options to prevent the video being displayed outside the main window.</source>
-        <translation type="vanished">Ez aktivál néhány olyan opciót, amely megakadályozza, hogy a videó a főablakon kívül jelenjen meg.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Ha ez a beállítás engedélyezve van, az újonnan megnyitott fájloknál a kép alapértelmezés szerint fekete keretet kap.</translation>
@@ -6506,10 +6496,6 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
         <location filename="../prefgeneral.ui" line="315"/>
         <source>S&amp;hut down computer</source>
         <translation>A számítógép &amp;leállítása</translation>
-    </message>
-    <message>
-        <source>Wa&amp;yland support</source>
-        <translation type="vanished">Wa&amp;yland támogatás</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -7861,7 +7847,7 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8168,12 +8154,12 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
@@ -10367,17 +10353,13 @@ A lejátszási lista fájlnevének egy meghatározott utótaggal kell végződni
         <location filename="../helper.cpp" line="127"/>
         <location filename="../helper.cpp" line="133"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n másodperc</numerusform>
-        </translation>
+        <translation><numerusform>%n másodperc</numerusform><numerusform>%n másodperc</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="130"/>
         <location filename="../helper.cpp" line="132"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n perc</numerusform>
-        </translation>
+        <translation><numerusform>%n perc</numerusform><numerusform>%n perc</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="134"/>
