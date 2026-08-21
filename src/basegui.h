@@ -493,8 +493,8 @@ protected:
 	MyAction * normalSpeedAct;
 	MyAction * halveSpeedAct;
 	MyAction * doubleSpeedAct;
-	MyAction * decSpeed10Act;
-	MyAction * incSpeed10Act;
+	MyAction * decSpeedAct;
+	MyAction * incSpeedAct;
 	MyAction * decSpeed4Act;
 	MyAction * incSpeed4Act;
 	MyAction * decSpeed1Act;
