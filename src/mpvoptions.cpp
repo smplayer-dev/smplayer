@@ -832,7 +832,7 @@ void MPVProcess::quit() {
 }
 
 void MPVProcess::setVolume(int v) {
-	sendCommand("set volume " + QString::number(v));
+	sendCommand("no-osd set volume " + QString::number(v));
 }
 
 void MPVProcess::setOSD(int o) {
