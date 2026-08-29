@@ -15,7 +15,7 @@
 - Fixed the "add black borders" option.
 - Improved retrieval of the track (song) title for internet radio streams (icy-title).
 - Fixed video aspect ratio override support.
-- Added support for additional network URI schemes (KDE integration)
+- Added support for additional network URI schemes (KDE integration).
 - Forced the xcb backend on Linux to avoid display issues.
 - macOS builds are now available for arm64 (Apple Silicon), in addition to the existing x86_64 builds.
 - Experimental packages compiled with Qt 6 are now available for Windows and macOS.

@@ -1,3 +1,23 @@
+smplayer (26.8.29) jammy; urgency=medium
+
+  * Added an option to show a thumbnail preview when hovering over the seek bar (Preferences -> Interface).
+  * Playlist positions/progress are now remembered between sessions.
+  * Added a pause button to the playlist.
+  * Added an option to enable/disable secondary subtitles.
+  * Fixed zoom behavior.
+  * Fixed playlist item numbering after removing items.
+  * Playlist is now re-sorted automatically after adding files.
+  * Fixed the "add black borders" option.
+  * Improved retrieval of the track (song) title for internet radio streams (icy-title).
+  * Fixed video aspect ratio override support.
+  * Added support for additional network URI schemes (KDE integration).
+  * Forced the xcb backend on Linux to avoid display issues.
+  * macOS builds are now available for arm64 (Apple Silicon), in addition to the existing x86_64 builds.
+  * Experimental packages compiled with Qt 6 are now available for Windows and macOS.
+  * Various translation updates (German, Italian, Spanish, English UK/US, and others).
+
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sat, 29 Aug 2026 09:28:09 +0200
+
 smplayer (25.6.0) jammy; urgency=medium
 
   * Fix play/pause button.
@@ -5,7 +25,7 @@ smplayer (25.6.0) jammy; urgency=medium
   * Fixed some issues related to disc playback.
   * Various bug fixes and stability improvements.
 
- -- Ricardo <ricardo@smplayer.info>  Sun, 08 Jun 2025 13:03:21 +0200
+ -- Ricardo Villalba <ricardo@smplayer.info>  Sun, 08 Jun 2025 13:03:21 +0200
 
 smplayer (24.5.0) jammy; urgency=medium
 
