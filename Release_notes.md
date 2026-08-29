@@ -1,5 +1,28 @@
 # Changelog
 
+## [26.08] - 2026-08-29
+
+**New features**
+- Added an option to show a thumbnail preview when hovering over the seek bar (Preferences -> Interface).
+- Playlist positions/progress are now remembered between sessions.
+- Added a pause button to the playlist.
+- Added an option to enable/disable secondary subtitles.
+
+**Fixes & improvements**
+- Fixed zoom behavior.
+- Fixed playlist item numbering after removing items.
+- Playlist is now re-sorted automatically after adding files.
+- Fixed the "add black borders" option.
+- Improved retrieval of the track (song) title for internet radio streams (icy-title).
+- Fixed video aspect ratio override support.
+- Added support for additional network URI schemes (KDE integration).
+- Forced the xcb backend on Linux to avoid display issues.
+- macOS builds are now available for arm64 (Apple Silicon), in addition to the existing x86_64 builds.
+- Experimental packages compiled with Qt 6 are now available for Windows and macOS.
+
+**Other**
+- Various translation updates (German, Italian, Spanish, English UK/US, and others).
+
 ## [25.06] - 2025-06-08
  * Fix play/pause button.
  * Some fixes to stop the screensaver on Linux.
