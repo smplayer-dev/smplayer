@@ -1,6 +1,6 @@
 # Changelog
 
-## [26.08] - 2026-08-29
+## [26.8] - 2026-08-29
 
 **New features**
 - Added an option to show a thumbnail preview when hovering over the seek bar (Preferences -> Interface).
