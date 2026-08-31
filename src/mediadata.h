@@ -69,6 +69,7 @@ public:
 	QString dvd_id;
 
 	bool novideo; // Only audio
+	bool video_is_album_art; // The selected video track is audio cover art
 
 	bool initialized;
 
