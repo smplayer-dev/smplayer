@@ -204,6 +204,7 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "current-vo" << "current-ao"
                                       << "width" << "height" //<< "dwidth" << "dheight"
                                       << "video-params/aspect"
+                                      << "current-tracks/video/albumart"
                                       << "track-list/0/demux-rotation"
                                       << "container-fps" << "video-format"
                                       << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
@@ -458,6 +459,10 @@ void MPVProcess::socketReadyRead() {
 			else
 			if (name == "video-params/aspect") {
 				md.video_aspect = data.toDouble();
+			}
+			else
+			if (name == "current-tracks/video/albumart") {
+				md.video_is_album_art = data == "true";
 			}
 			else
 			if (name == "container-fps") {
