@@ -2159,7 +2159,14 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if ((mdat.type==TYPE_VCD) || (mdat.type==TYPE_AUDIO_CD)) {
 		if (!pref->cdrom_device.isEmpty()) {
-			proc->setOption("cdrom-device", pref->cdrom_device);
+			#ifdef MPV_SUPPORT
+			if (proc->isMPV() && mdat.type == TYPE_AUDIO_CD) {
+				proc->setOption("cdda-device", pref->cdrom_device);
+			} else
+			#endif
+			{
+				proc->setOption("cdrom-device", pref->cdrom_device);
+			}
 		}
 	}
 
