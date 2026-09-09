@@ -1372,6 +1372,8 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString sub_margin_x = "";
 	if (isOptionAvailable("--sub-margin-x")) sub_margin_x = "--sub-margin-x";
 
+	QString sub_border_style = "";
+	if (isOptionAvailable("--sub-border-style")) sub_border_style = "--sub-border-style";
 
 	if (!sub_font.isEmpty()) {
 		QString font = styles.fontname;
@@ -1387,6 +1389,9 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 
 	if (styles.borderstyle == AssStyles::Opaque) {
 		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backgroundcolor);
+		if (!sub_border_style.isEmpty()) {
+			arg << sub_border_style + "=opaque-box";
+		}
 	}
 
 	if (!sub_border_color.isEmpty()) {
