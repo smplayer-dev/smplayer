@@ -1390,7 +1390,7 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	if (styles.borderstyle == AssStyles::Opaque) {
 		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backgroundcolor);
 		if (!sub_border_style.isEmpty()) {
-			arg << sub_border_style + "=opaque-box";
+			arg << sub_border_style + "=background-box";
 		}
 	}
 
