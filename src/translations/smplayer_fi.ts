@@ -1038,7 +1038,7 @@ Asetukset näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1878"/>
         <source>Secondary subtitle visibilit&amp;y</source>
-        <translation type="unfinished"/>
+        <translation>Toissijaisen tekstityksen näkyvy&amp;ys</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -5298,7 +5298,7 @@ Haluatko kirjoittaa päälle?</translation>
     <message>
         <location filename="../playlist.cpp" line="779"/>
         <source>Pau&amp;se</source>
-        <translation type="unfinished"/>
+        <translation>Py&amp;säytä</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="781"/>
@@ -7846,7 +7846,7 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefinterface.ui" line="674"/>
         <source>S&amp;how thumbnail preview on hover</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Näytä pikkukuva osoittamalla hiirellä</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="739"/>
@@ -8153,12 +8153,12 @@ Soittolistan nimen tulee päättyä pääteeseen, pls, xspf tai m3u. Pääte &qu
     <message>
         <location filename="../prefinterface.cpp" line="835"/>
         <source>Show thumbnail preview on hover</source>
-        <translation type="unfinished"/>
+        <translation>Näytä pikkukuva osoittamalla hiirellä</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
         <source>Shows a thumbnail of the video when hovering the mouse over the seek bar. Only available for local files, not for streams.</source>
-        <translation type="unfinished"/>
+        <translation>Näyttää videon pikkukuvan, kun sitä hiirellä osoitetaan. Vain paikallisille tiedostoille, ei striimeille.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>

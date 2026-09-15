@@ -13,13 +13,13 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "Il programma di installazione è già in esecuzione."
 ${LangFileString} Installer_No_Admin "Per installare questo programma è necessario essere autenticati come amministratore."
-${LangFileString} SMPlayer_Is_Running "È già in esecuzione un'istanza di SMPlayer.$\r$\nEsci da SMPlayer e riprova."
+${LangFileString} SMPlayer_Is_Running "Un'istanza di SMPlayer è in esecuzione.$\r$\nEsci da SMPlayer e riprova."
 
-${LangFileString} OS_Not_Supported "Sistema operativo non supportato.$\r$\nSmPlayer ${SMPLAYER_VERSION} richiede almeno Windows XP e potrebbe non funzionare correttamente su questo sistema.$\r$\nVuoi proseguire con l'installazione?"
+${LangFileString} OS_Not_Supported "Sistema operativo non supportato.$\r$\nSmPlayer ${SMPLAYER_VERSION} richiede almeno Windows XP e potrebbe non funzionare correttamente in  questo sistema.$\r$\nVuoi proseguire con l'installazione?"
 ${LangFileString} OS_Not_Supported_VistaRequired "Sistema operativo non supportato.$\r$\nSmPlayer ${SMPLAYER_VERSION} richiede almeno Windows Vista e potrebbe non funzionare correttamente in questo sistema.$\r$\nVuoi proseguire con l'installazione?"
 ${LangFileString} Win64_Required "Per installare questo software è richiesto un sistema operativo Windows a 64-bit."
-${LangFileString} Existing_32bitInst "È già presente un'installazione di SMPlayer 32bit.$\r$\nPrima disinstalla SMPlayer 32bit."
-${LangFileString} Existing_64bitInst "È già presente un'installazione di SMPlayer 64bit.$\r$\nPrima disinstalla SMPlayer 64bit."
+${LangFileString} Existing_32bitInst "È già presente un'installazione di SMPlayer 32bit.$\r$\nPrima disinstalla SMPlayer a 32bit."
+${LangFileString} Existing_64bitInst "È già presente un'installazione di SMPlayer 64bit.$\r$\nPrima disinstalla SMPlayer a 64bit."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "Installazione guidata di $(^NameDA)"
@@ -34,10 +34,10 @@ ${LangFileString} Section_SMPlayer "SMPlayer (richiesto)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, librerie condivise, e documentazione."
 
 ${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Crea collegamento di SMPlayer sul desktop."
+${LangFileString} Section_DesktopShortcut_Desc "Crea collegamento a SMPlayer sul desktop"
 
 ${LangFileString} Section_StartMenu "Menu Start"
-${LangFileString} Section_StartMenu_Desc "Crea un collegamento di SMPlayer nel menu Start."
+${LangFileString} Section_StartMenu_Desc "Crea collegamento di SMPlayer nel menu Start."
 
 ${LangFileString} Section_MPlayer "MPlayer (richiesto)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; essenziale per la riproduzione."
@@ -49,7 +49,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "In questa versione i codec binari 
 ${LangFileString} Section_MPlayerCodecs_Desc "Codec aggiuntivi MPlayer (per l'installazione è richiesta una connessione internet)."
 !endif
 
-${LangFileString} Section_MPV_Desc "Una fork di MPlayer && MPlayer2 ricca di funzioni"
+${LangFileString} Section_MPV_Desc "Una fork di MPlayer e MPlayer2 ricca di funzioni"
 
 ${LangFileString} Section_YTDL "Supporto YouTube (richiesto download)"
 ${LangFileString} Section_YTDL_Desc "Fornisce la possibilità di visualizzare video YouTube."
@@ -60,25 +60,25 @@ ${LangFileString} Section_IconThemes "Temi icone"
 ${LangFileString} Section_IconThemes_Desc "Temi icone aggiuntivi per SMPlayer."
 
 ${LangFileString} Section_Translations "Lingue interfaccia"
-${LangFileString} Section_Translations_Desc "Lingue aggiuntive interfaccia (oltre a inglese)."
+${LangFileString} Section_Translations_Desc "Lingue aggiuntive IU (oltre all'inglese)."
 
 ${LangFileString} Section_ResetSettings_Desc "Elimina impostazioni SMPlayer lasciate da installazioni precedenti."
 
-${LangFileString} MPlayer_Codec_Msg "I codec binari forniscono il supporto per i codec che non sono stati ancora implementati nativamente, per esempio per le varianti di RealVideo e anche un sacco di formati poco utilizzati.$\nNota che non sono richiesti per riprodurre i formati più comuni come DVD, MPEG-1/2/4, ecc."
+${LangFileString} MPlayer_Codec_Msg "I codec binari forniscono il supporto per i codec che non sono stati ancora implementati nativamente, per esempio le varianti di RealVideo e anche altri formati poco usati.$\nNota che non sono richiesti per riprodurre i formati più comuni come DVD, MPEG-1/2/4, ecc."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Scegli il tipo di installazione"
 ${LangFileString} Reinstall_Header_SubText "Scegli se sovrascrivere o disinstallare."
 
-${LangFileString} Reinstall_Msg1 "È già presente un'installazione di SMPlayer in questa cartella:"
+${LangFileString} Reinstall_Msg1 "È già presente un'installazione di SMPlayer nella seguente cartella:"
 ${LangFileString} Reinstall_Msg2 "Scegli come proseguire:"
 ${LangFileString} Reinstall_Overwrite "Sovrascrivi ($Inst_Type) l'installazione esistente"
 ${LangFileString} Reinstall_Uninstall "Disinstalla (rimuovi) l'installazione esistente"
 ${LangFileString} Reinstall_Msg3_1 "Per proseguire, seleziona 'Installa'."
 ${LangFileString} Reinstall_Msg3_2 "Per proseguire, seleziona 'Avanti'."
 ${LangFileString} Reinstall_Msg3_3 "Per proseguire, seleziona 'Disinstalla'"
-${LangFileString} Reinstall_Msg4 "Modifica impostazioni installazione"
-${LangFileString} Reinstall_Msg5 "Ripristina configurazione SMPlayer"
+${LangFileString} Reinstall_Msg4 "Modifica le impostazioni di installazione"
+${LangFileString} Reinstall_Msg5 "Ripristina configurazione di SMPlayer"
 
 ${LangFileString} Remove_Settings_Confirmation "Vuoi ripristinare le impostazioni di SMPlayer?$\nQuesta azione non potrà essere annullata."
 
@@ -92,21 +92,21 @@ ${LangFileString} StartBtn "Installa"
 ${LangFileString} Codecs_DL_Msg "Download codec MPlayer..."
 ${LangFileString} Codecs_DL_Retry "I codec MPlayer non sono stati installati correttamente.$\nVuoi riprovare?"
 ${LangFileString} Codecs_DL_Failed "Impossibile scaricare i codec MPlayer: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Installazione codec MPlayer non riuscita."
+${LangFileString} Codecs_Inst_Failed "Installazione dei codec MPlayer non riuscita."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "La disinstallazione può essere effettuata solo da un utente con permessi amministratore."
 ${LangFileString} Uninstaller_Aborted "Disinstallazione annullata dall'utente."
 ${LangFileString} Uninstaller_NotInstalled "Sembra che SMPlayer non sia installato nella cartella '$INSTDIR'.$\r$\nVuoi continuare (non raccomandato)?"
 ${LangFileString} Uninstaller_InvalidDirectory "Installazione di SMPlayer non trovata."
-${LangFileString} Uninstaller_64bitOnly "Questa installazione può essere disinstallata solo in Windows 64-bit."
+${LangFileString} Uninstaller_64bitOnly "Questa installazione può essere disinstallata solo in Windows a 64bit."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer è un'interfaccia completa per MPlayer, fornisce funzionalità di base come la riproduzione di video, DVD, VCD e funzionalità più avanzate come il supporto dei filtri di MPlayer, le liste EDL e altro ancora."
+${LangFileString} Application_Description "SMPlayer è un'interfaccia completa per MPlayer, fornisce funzionalità di base come la riproduzione di video, DVD, VCD e funzionalità più avanzate come il supporto dei filtri di MPlayer, elenchi EDL e altro ancora."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Copia di sicurezza codec installazione precedente..."
-${LangFileString} Info_Codecs_Restore "Ripristino codec installazione precedente..."
+${LangFileString} Info_Codecs_Backup "Copia di sicurezza codec dall'installazione precedente..."
+${LangFileString} Info_Codecs_Restore "Ripristino codec dall'installazione precedente..."
 ${LangFileString} Info_Del_Files "Eliminazione file..."
 ${LangFileString} Info_Del_Registry "Eliminazione chiavi registro..."
 ${LangFileString} Info_Del_Shortcuts "Eliminazione collegamenti..."
@@ -129,7 +129,7 @@ ${LangFileString} YTDL_DL_Retry "youtube-dl non è stato installato correttament
 ${LangFileString} YTDL_DL_Failed "Impossibile scaricare youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Verifica aggiornamenti youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Avviso: youtube-dl si è chiuso in modo anomalo con il codice di uscita: $YTDL_Exit_code"
-${LangFileString} YTDL_Error_Msg2 "Per youtube-dl è necessario Visual C++ 2010 Runtime (x86)."
+${LangFileString} YTDL_Error_Msg2 "Per youtube-dl è necessario il runtime di Visual C++ 2010 (x86)."
 
 ; SMTube
 ${LangFileString} SMTube_Incompatible_Msg1 "L'attuale installazione di SMTube non è compatibile con questa versione di SMPlayer."

@@ -473,7 +473,7 @@ void Core::open(QString file, int seek) {
 	if ( (fi.exists()) && (!fi.isDir()) ) {
 		qDebug("Core::open: * identified as local file");
 		// Local file
-		file = QFileInfo(file).absoluteFilePath();
+		file = QDir::toNativeSeparators(QFileInfo(file).absoluteFilePath());
 		openFile(file, seek);
 	} 
 	else
@@ -563,7 +563,7 @@ void Core::openFile(QString filename, int seek) {
 
 	QFileInfo fi(filename);
 	if (fi.exists()) {
-		playNewFile(fi.absoluteFilePath(), seek);
+		playNewFile(QDir::toNativeSeparators(fi.absoluteFilePath()), seek);
 	} else {
 		//File doesn't exists
 		//TODO: error message

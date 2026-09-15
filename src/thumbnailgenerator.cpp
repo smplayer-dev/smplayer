@@ -27,6 +27,17 @@
 
 #define DEBUG 1
 
+// Keep in sync with MAX_THUMB_WIDTH in thumbnailpreview.h. Asking mpv to
+// downscale internally (via --vf) before writing the PNG avoids dumping
+// a multi-MB full-resolution frame to disk just to shrink it again on
+// the Qt side. IMPORTANT: "format=rgb24" must come BEFORE "scale" in the
+// filter chain. With scale first (or with no explicit format at all),
+// mpv 0.41 (at least some builds) writes a corrupted image -- looks like
+// a bug in how the scale filter handles the decoder's native pixel
+// format. Converting to a plain packed RGB format before scaling avoids
+// it entirely. Confirmed working on 0.41; also fine on 0.34.
+#define THUMBNAIL_TARGET_WIDTH 150
+
 ThumbnailGenerator::ThumbnailGenerator(QObject * parent)
 	: QObject(parent)
 	, process(0)
@@ -138,6 +149,7 @@ void ThumbnailGenerator::startExtraction(double time, const QPoint & pos) {
 		     << ("--vo-image-outdir=" + tmp_dir->path())
 		     << ("--vo-image-format=png")
 		     << ("--vo-image-png-compression=0")
+		     << ("--vf=format=rgb24,scale=" + QString::number(THUMBNAIL_TARGET_WIDTH) + ":-2")
 		     << "--frames=1"
 		     << ("--start=" + QString::number(time, 'f', 2))
 		     << "--no-audio"

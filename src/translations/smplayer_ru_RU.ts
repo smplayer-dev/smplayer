@@ -1750,7 +1750,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5066"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые параметры не будут работать, выбор субтитров может вызывать ошибку…</translation>
+        <translation>Версия MPlayer (%1), установленная в вашей системе, устарела. SMPlayer может работать с ней неполноценно: некоторые параметры не будут функционировать, возможны ошибки при выборе субтитров…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5071"/>
@@ -6062,17 +6062,17 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefdrives.ui" line="72"/>
         <source>Select your &amp;CD device:</source>
-        <translation>Выберите ваше устрой&amp;ство CD:</translation>
+        <translation>Выбор вашего устрой&amp;ства CD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="172"/>
         <source>Select your &amp;DVD device:</source>
-        <translation>Выберите ваше устройст&amp;во DVD:</translation>
+        <translation>Выбор вашего устройст&amp;ва DVD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="263"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation>Выбер&amp;ите ваше устройство Blu-ray:</translation>
+        <translation>Выбор вашего ус&amp;тройства Blu-ray:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="42"/>
@@ -6389,7 +6389,7 @@ Playlist file name must end with a specific suffix which is pls, xspf or m3u. &a
     <message>
         <location filename="../prefgeneral.cpp" line="1190"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Вы можете попробовать этот параметр, если видеоэквалайзер не поддерживается вашей видеокартой или выбранным драйвером вывода видео.&lt;br&gt;&lt;b&gt;Обратите внимание:&lt;/b&gt; этот параметр несовместим с некоторыми драйверами вывода видео.</translation>
+        <translation>Вы можете попробовать этот параметр, если видеоэквалайзер не поддерживается вашей видеокартой или выбранным драйвером вывода видео.&lt;br&gt;&lt;b&gt;Замечание:&lt;/b&gt; этот параметр несовместим с некоторыми драйверами вывода видео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1212"/>
