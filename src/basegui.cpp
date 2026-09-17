@@ -2530,6 +2530,9 @@ void BaseGui::createPlaylist() {
 	connect( playlist, SIGNAL(playlistEnded()),
              mplayerwindow, SLOT(showLogo()) );
 
+	connect(playlist, &Playlist::requestToAddForcedTitle,
+			core, &Core::addForcedTitle);
+
 	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
             core, SLOT(open(const QString &, int)));
 
