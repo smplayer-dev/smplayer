@@ -224,6 +224,15 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		bool b = value.toBool();
 		if (b) arg << "-" + option_name; else arg << "-no" + option_name;
 	}
+	else
+	if (option_name == "deinterlace-field-parity") {
+		QString s = value.toString();
+		if ( s == "tff" ) {
+			arg << "-field-dominance 0";
+		} else {
+			arg << "-field-dominance 1";
+		}
+	}
 	else {
 		arg << "-" + option_name;
 		if (!value.isNull()) arg << value.toString();

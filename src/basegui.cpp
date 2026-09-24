@@ -1195,6 +1195,14 @@ void BaseGui::createActions() {
 	connect( deinterlaceGroup, SIGNAL(activated(int)),
              core, SLOT(changeDeinterlace(int)) );
 
+	// Deinterlace Field parity
+	fieldParityGroup = new MyActionGroup(this);
+	fieldParityDefaultAct = new MyActionGroupItem(this, fieldParityGroup, "field_parity_default", MediaSettings::DefaultFieldParity);
+	fieldParityTopAct = new MyActionGroupItem(this, fieldParityGroup, "field_parity_top", MediaSettings::TopFieldParity);
+	fieldParityBottomAct = new MyActionGroupItem(this, fieldParityGroup, "field_parity_bottom", MediaSettings::BottomFieldParity);
+	connect( fieldParityGroup, SIGNAL(activated(int)),
+			 core, SLOT(changeFieldParity(int)) );
+
 	// Audio channels
 	channelsGroup = new MyActionGroup(this);
 	channelsDefaultAct = new MyActionGroupItem(this, channelsGroup, "channels_default", MediaSettings::ChDefault);
@@ -1535,6 +1543,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	unsharpGroup->setActionsEnabled(b);
 	sizeGroup->setActionsEnabled(b);
 	deinterlaceGroup->setActionsEnabled(b);
+	fieldParityGroup->setActionsEnabled(b);
 	aspectGroup->setActionsEnabled(b);
 	rotateGroup->setActionsEnabled(b);
 #if USE_ADAPTER
@@ -1629,6 +1638,7 @@ void BaseGui::enableActionsOnPlaying() {
 		unsharpGroup->setActionsEnabled(false);
 		sizeGroup->setActionsEnabled(false);
 		deinterlaceGroup->setActionsEnabled(false);
+		fieldParityGroup->setActionsEnabled(false);
 		aspectGroup->setActionsEnabled(false);
 		rotateGroup->setActionsEnabled(false);
 #if USE_ADAPTER
@@ -2118,6 +2128,10 @@ void BaseGui::retranslateStrings() {
 	deinterlaceYadif1Act->change( tr("Y&adif (double framerate)") );
 	deinterlaceLBAct->change( tr("Linear &Blend") );
 	deinterlaceKernAct->change( tr("&Kerndeint") );
+
+	fieldParityDefaultAct->change( tr("Automatic field order") );
+	fieldParityTopAct->change( tr("Top field first") );
+	fieldParityBottomAct->change( tr("Bottom field first") );
 
 	denoiseNoneAct->change( tr("&Off", "denoise menu") );
 	denoiseNormalAct->change( tr("&Normal","denoise menu") );
@@ -2680,6 +2694,8 @@ void BaseGui::createMenus() {
 	deinterlace_menu = new QMenu(this);
 	deinterlace_menu->menuAction()->setObjectName("deinterlace_menu");
 	deinterlace_menu->addActions(deinterlaceGroup->actions());
+	deinterlace_menu->addSeparator();
+	deinterlace_menu->addActions(fieldParityGroup->actions());
 
 	// Video filter submenu
 	videofilter_menu = new QMenu(this);
@@ -3930,6 +3946,9 @@ void BaseGui::updateWidgets() {
 
 	// Deinterlace menu
 	deinterlaceGroup->setChecked( core->mset.current_deinterlacer );
+
+	// Field parity submenu
+	fieldParityGroup->setChecked( core->mset.current_field_parity );
 
 	// Video size menu
 	sizeGroup->setChecked( pref->size_factor );
