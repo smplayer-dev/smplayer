@@ -296,6 +296,9 @@ void Preferences::reset() {
 	use_forced_subs_only = false;
 
 	sub_visibility = true;
+#ifdef MPV_SUPPORT
+	secondary_sub_visibility = true;
+#endif
 
 	subtitles_on_screenshots = false;
 
@@ -883,6 +886,9 @@ void Preferences::save() {
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
 	set->setValue("sub_visibility", sub_visibility);
+#ifdef MPV_SUPPORT
+	set->setValue("secondary_sub_visibility", secondary_sub_visibility);
+#endif
 
 	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
 
@@ -1485,6 +1491,9 @@ void Preferences::load() {
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
 
 	sub_visibility = set->value("sub_visibility", sub_visibility).toBool();
+#ifdef MPV_SUPPORT
+	secondary_sub_visibility = set->value("secondary_sub_visibility", secondary_sub_visibility).toBool();
+#endif
 
 	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
 
