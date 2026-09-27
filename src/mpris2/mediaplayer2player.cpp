@@ -45,6 +45,11 @@
 #include "playlist.h"
 
 #include <QCryptographicHash>
+#include <QString>
+#include <QStringList>
+#include <QtGlobal>
+#include <QUrl>
+#include <QVariant>
 
 static QByteArray makeTrackId(const QString& source) {
     return QByteArray("/org/smplayer/") + "smplayer" + "/tid_" +
@@ -164,10 +169,10 @@ QVariantMap MediaPlayer2Player::Metadata() const {
 	}
 
 	metaData["mpris:trackid"] = QVariant::fromValue<QDBusObjectPath>(QDBusObjectPath(makeTrackId(m_core->mdat.filename).constData()));
-	metaData["mpris:length"] = m_core->mdat.duration * 1000000;
+	metaData["mpris:length"] = QVariant::fromValue<qint64>(m_core->mdat.duration * 1000000);
 
 	// m_core->mdat.stream_url is never set
-	metaData["xesam:url"] = m_core->mdat.filename;
+	metaData["xesam:url"] = QUrl::fromUserInput(m_core->mdat.filename).toString();
 
 	if (!m_core->mdat.clip_album.isEmpty())
 		metaData["xesam:album"] = m_core->mdat.clip_album;
@@ -178,9 +183,9 @@ QVariantMap MediaPlayer2Player::Metadata() const {
 		metaData["xesam:title"] = fileInfo.fileName();
 	}
 	if (!m_core->mdat.clip_artist.isEmpty())
-		metaData["xesam:artist"] = m_core->mdat.clip_artist;
+		metaData["xesam:artist"] = QVariant::fromValue(QStringList(m_core->mdat.clip_artist));
 	if (!m_core->mdat.clip_genre.isEmpty())
-		metaData["xesam:genre"] = m_core->mdat.clip_genre;
+		metaData["xesam:genre"] = QVariant::fromValue(QStringList(m_core->mdat.clip_genre));
 
 	return metaData;
 }
