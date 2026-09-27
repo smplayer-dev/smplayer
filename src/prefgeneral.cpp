@@ -339,6 +339,7 @@ void PrefGeneral::setData(Preferences * pref) {
 #endif // AUDIO_DEVICES_SELECTION
 
 	global_speed_check->setChecked(pref->global_speed);
+	speed_step_spin->setValue(pref->speed_step);
 }
 
 void PrefGeneral::getData(Preferences * pref) {
@@ -465,6 +466,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->mc_value, mc());
 
 	pref->global_speed = global_speed_check->isChecked();
+	pref->speed_step = speed_step_spin->value();
 }
 
 void PrefGeneral::updateDriverCombos() {
@@ -1134,6 +1136,10 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(global_speed_check, tr("Keep selected speed across files"),
 		tr("If this option is enabled, the speed selected in the Play menu will be applied for all files.") +" "+
 		tr("Otherwise each file will use its own speed setting."));
+
+	setWhatsThis(speed_step_spin, tr("Playback speed step"),
+		tr("Specifies how much the playback speed changes when using the increase speed or decrease speed actions.") + " " +
+		tr("For example, a step of 0.25 changes 1.00x speed to 1.25x or 0.75x."));
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
