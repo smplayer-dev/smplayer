@@ -44,6 +44,8 @@ public:
                   AspectNone = 0 };
 	enum Deinterlace { NoDeinterlace = 0, L5 = 1, Yadif = 2, LB = 3, 
                        Yadif_1 = 4, Kerndeint = 5 };
+	enum FieldParity { DefaultFieldParity = -1,
+                          TopFieldParity = 0, BottomFieldParity = 1 };
 	enum AudioChannels { ChDefault = 0, ChStereo = 2, ChSurround = 4, 
                          ChFull51 = 6, ChFull61 = 7, ChFull71 = 8 };
 	enum StereoMode { Stereo = 0, Left = 1, Right = 2, Mono = 3, Reverse = 4 };
@@ -105,6 +107,7 @@ public:
 	double speed; // Speed of playback: 1.0 = normal speed
 
 	int current_deinterlacer;
+	int current_field_parity;
 
 	bool add_letterbox;
 
