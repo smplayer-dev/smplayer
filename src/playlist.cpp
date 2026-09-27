@@ -1131,6 +1131,9 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 				name.replace("&#44;", ",");
 				//qDebug() << "Playlist::load_m3u: extra_params:" << extra_params;
 				addItem( filename, name, duration, extra_params, "", icon_url );
+				if (change_name & !name.isEmpty()) {
+					emit requestToAddForcedTitle(filename, name);
+				}
 				name = "";
 				duration = 0;
 				extra_params.clear();

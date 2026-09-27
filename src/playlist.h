@@ -245,6 +245,8 @@ public:
 */
 
 signals:
+	void requestToAddForcedTitle(QString file, const QString & title);
+
 	void requestToPlayFile(const QString & filename, int seek = -1);
 	void requestToPlayStream(const QString & filename, QStringList params = QStringList());
 
