@@ -102,18 +102,4 @@
   <include location="local" >verticaltext.h</include>
  </includes>
  <resources/>
- <connections>
-  <connection>
-   <hints>
-    <hint type="sourcelabel" >
-     <x>64</x>
-     <y>156</y>
-    </hint>
-    <hint type="destinationlabel" >
-     <x>36</x>
-     <y>305</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
 </ui>

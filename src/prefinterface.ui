@@ -1205,30 +1205,6 @@
  <resources/>
  <connections>
   <connection>
-   <hints>
-    <hint type="sourcelabel">
-     <x>282</x>
-     <y>137</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>484</x>
-     <y>137</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <hints>
-    <hint type="sourcelabel">
-     <x>332</x>
-     <y>172</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>480</x>
-     <y>150</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>auto_scale_check</sender>
    <signal>toggled(bool)</signal>
    <receiver>hdpi_scale_label</receiver>

@@ -875,17 +875,5 @@
     </hint>
    </hints>
   </connection>
-  <connection>
-   <hints>
-    <hint type="sourcelabel">
-     <x>305</x>
-     <y>372</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>491</x>
-     <y>372</y>
-    </hint>
-   </hints>
-  </connection>
  </connections>
 </ui>
