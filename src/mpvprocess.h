@@ -200,7 +200,7 @@ protected:
 	void updateAudioTrack(int ID, const QString & name, const QString & lang, bool selected);
 #endif
 #if NOTIFY_SUB_CHANGES
-	void updateSubtitleTrack(int ID, const QString & name, const QString & lang, bool selected);
+	void updateSubtitleTrack(int ID, const QString & name, const QString & lang, const QString & filename, bool selected);
 #endif
 
 #ifdef USE_IPC
