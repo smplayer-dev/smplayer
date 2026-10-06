@@ -173,15 +173,15 @@ bool MPVProcess::start() {
 
 void MPVProcess::initializeRX() {
 	rx_chaptername.setPattern("INFO_CHAPTER_(\\d+)_NAME=(.*)");
-	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
+	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' '(.*)' (yes|no)");
 	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
-	rx_vo.setPattern("^VO: \\[(.*)\\]");
+	rx_vo.setPattern("^(?:\\[[^\\]]+\\] )?VO: \\[(.*)\\]");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
 	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
 	rx_stream_title.setPattern("(?:icy-title: |^ Title: )(.*)");
-	rx_generic.setPattern("^([A-Z_]+)=(.*)");
+	rx_generic.setPattern("^(?:\\[[^\\]]+\\] )?([A-Z_]+)=((?!\\$\\{).*)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -246,8 +246,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 		QString type = rx_trackinfo.cap(2);
 		QString name = rx_trackinfo.cap(5);
 		QString lang = rx_trackinfo.cap(4);
-		QString selected = rx_trackinfo.cap(6);
-		qDebug() << "MPVProcess::parseLine: ID:" << ID << "type:" << type << "name:" << name << "lang:" << lang << "selected:" << selected;
+		QString filename = rx_trackinfo.cap(6);
+		QString selected = rx_trackinfo.cap(7);
+		qDebug() << "MPVProcess::parseLine: ID:" << ID << "type:" << type << "name:" << name << "lang:" << lang << "filename:" << filename << "selected:" << selected;
 
 		if (type == "video") {
 			#if NOTIFY_VIDEO_CHANGES
@@ -263,7 +264,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		else
 		if (type == "sub") {
 			#if NOTIFY_SUB_CHANGES
-			updateSubtitleTrack(ID, name, lang, (selected == "yes"));
+			updateSubtitleTrack(ID, name, lang, filename, (selected == "yes"));
 			#endif
 		}
 	}
@@ -333,6 +334,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 					"${track-list/%1/id} "
 					"'${track-list/%1/lang:}' "
 					"'${track-list/%1/title:}' "
+					"'${track-list/%1/external-filename:}' "
 					"${track-list/%1/selected}\"").arg(n));
 			}
 		}
@@ -560,6 +562,7 @@ void MPVProcess::socketReadyRead() {
 						"${track-list/%1/id} "
 						"'${track-list/%1/lang:}' "
 						"'${track-list/%1/title:}' "
+						"'${track-list/%1/external-filename:}' "
 						"${track-list/%1/selected}\"").arg(n));
 				}
 			}
@@ -645,7 +648,7 @@ void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & 
 #endif
 
 #if NOTIFY_SUB_CHANGES
-void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString & lang, bool selected) {
+void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString & lang, const QString & filename, bool selected) {
 	qDebug("MPVProcess::updateSubtitleTrack: ID: %d", ID);
 
 	int idx = subs.find(SubData::Sub, ID);
@@ -654,6 +657,7 @@ void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString
 		subs.add(SubData::Sub, ID);
 		subs.changeName(SubData::Sub, ID, name);
 		subs.changeLang(SubData::Sub, ID, lang);
+		subs.changeFilename(SubData::Sub, ID, filename);
 	}
 	else {
 		// Track already existed
@@ -664,6 +668,10 @@ void MPVProcess::updateSubtitleTrack(int ID, const QString & name, const QString
 		if (subs.itemAt(idx).lang() != lang) {
 			subtitle_info_changed = true;
 			subs.changeLang(SubData::Sub, ID, lang);
+		}
+		if (subs.itemAt(idx).filename() != filename) {
+			subtitle_info_changed = true;
+			subs.changeFilename(SubData::Sub, ID, filename);
 		}
 	}
 
