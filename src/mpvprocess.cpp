@@ -175,13 +175,13 @@ void MPVProcess::initializeRX() {
 	rx_chaptername.setPattern("INFO_CHAPTER_(\\d+)_NAME=(.*)");
 	rx_trackinfo.setPattern("INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' '(.*)' (yes|no)");
 	rx_dsize.setPattern("INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
-	rx_vo.setPattern("^VO: \\[(.*)\\]");
+	rx_vo.setPattern("^(?:\\[[^\\]]+\\] )?VO: \\[(.*)\\]");
 	rx_notification.setPattern("\"event\":\"(.*)\",\"id\":\\d+,\"name\":\"(.*)\",\"data\":(.*)");
 	rx_endfile.setPattern("\"event\":\"end-file\",\"reason\":\"([a-z]+)\"");
 	rx_dvdtitles.setPattern("\\[dvdnav\\] title:\\s+(\\d+)\\s+duration:\\s+(.*)");
 	rx_brtitles.setPattern("\\[bd\\] idx:\\s+(\\d+)\\s+duration:\\s+([0-9:]+)");
 	rx_stream_title.setPattern("(?:icy-title: |^ Title: )(.*)");
-	rx_generic.setPattern("^([A-Z_]+)=(.*)");
+	rx_generic.setPattern("^(?:\\[[^\\]]+\\] )?([A-Z_]+)=((?!\\$\\{).*)");
 }
 
 void MPVProcess::parseLine(QByteArray ba) {
