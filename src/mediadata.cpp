@@ -37,6 +37,7 @@ void MediaData::reset() {
 	extra_params.clear();
 
 	novideo = false;
+	video_is_album_art = false;
 
 	video_width=0;
 	video_height=0;
@@ -115,6 +116,7 @@ void MediaData::list() {
 
 	qDebug("  type: %d", type);
 	qDebug("  novideo: %d", novideo);
+	qDebug("  video_is_album_art: %d", video_is_album_art);
 	qDebug("  dvd_id: '%s'", dvd_id.toUtf8().data());
 
 	qDebug("  initialized: %d", initialized);
