@@ -590,13 +590,13 @@ void BaseGui::createActions() {
 	connect( doubleSpeedAct, SIGNAL(triggered()),
              core, SLOT(doubleSpeed()) );
 
-	decSpeed10Act = new MyAction( Qt::Key_BracketLeft, this, "dec_speed" );
-	connect( decSpeed10Act, SIGNAL(triggered()),
-             core, SLOT(decSpeed10()) );
+	decSpeedAct = new MyAction( Qt::Key_BracketLeft, this, "dec_speed" );
+	connect( decSpeedAct, SIGNAL(triggered()),
+             core, SLOT(decSpeed()) );
 
-	incSpeed10Act = new MyAction( Qt::Key_BracketRight, this, "inc_speed" );
-	connect( incSpeed10Act, SIGNAL(triggered()),
-             core, SLOT(incSpeed10()) );
+	incSpeedAct = new MyAction( Qt::Key_BracketRight, this, "inc_speed" );
+	connect( incSpeedAct, SIGNAL(triggered()),
+             core, SLOT(incSpeed()) );
 
 	decSpeed4Act = new MyAction( this, "dec_speed_4" );
 	connect( decSpeed4Act, SIGNAL(triggered()),
@@ -1419,8 +1419,8 @@ void BaseGui::setActionsEnabled(bool b) {
 	normalSpeedAct->setEnabled(b);
 	halveSpeedAct->setEnabled(b);
 	doubleSpeedAct->setEnabled(b);
-	decSpeed10Act->setEnabled(b);
-	incSpeed10Act->setEnabled(b);
+	decSpeedAct->setEnabled(b);
+	incSpeedAct->setEnabled(b);
 	decSpeed4Act->setEnabled(b);
 	incSpeed4Act->setEnabled(b);
 	decSpeed1Act->setEnabled(b);
@@ -1785,8 +1785,8 @@ void BaseGui::retranslateStrings() {
 	normalSpeedAct->change( tr("&Normal speed") );
 	halveSpeedAct->change( tr("&Half speed") );
 	doubleSpeedAct->change( tr("&Double speed") );
-	decSpeed10Act->change( tr("Speed &-10%") );
-	incSpeed10Act->change( tr("Speed &+10%") );
+	decSpeedAct->change( tr("&Decrease speed") );
+	incSpeedAct->change( tr("&Increase speed") );
 	decSpeed4Act->change( tr("Speed -&4%") );
 	incSpeed4Act->change( tr("&Speed +4%") );
 	decSpeed1Act->change( tr("Speed -&1%") );
@@ -2618,8 +2618,8 @@ void BaseGui::createMenus() {
 	speed_menu->addAction(halveSpeedAct);
 	speed_menu->addAction(doubleSpeedAct);
 	speed_menu->addSeparator();
-	speed_menu->addAction(decSpeed10Act);
-	speed_menu->addAction(incSpeed10Act);
+	speed_menu->addAction(decSpeedAct);
+	speed_menu->addAction(incSpeedAct);
 	speed_menu->addSeparator();
 	speed_menu->addAction(decSpeed4Act);
 	speed_menu->addAction(incSpeed4Act);
