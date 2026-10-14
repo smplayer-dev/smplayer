@@ -21,6 +21,37 @@
 
 #include <QtGlobal>
 
+#include <QSettings>
+#include <QProcess>
+
+// QSettings (IniFormat): Qt 5 reads/writes the ini file as Latin-1 and escapes
+// every non-ASCII character as \xNNNN, while Qt 6 always reads/writes UTF-8.
+// Forcing UTF-8 in Qt 5 makes both versions write and read the same file.
+inline void QTC_setIniUtf8(QSettings * s) {
+#if (QT_VERSION < QT_VERSION_CHECK(6, 0, 0))
+	s->setIniCodec("UTF-8");
+#else
+	Q_UNUSED(s);
+#endif
+}
+
+// Type of the "result" parameter of nativeEvent() / QAbstractNativeEventFilter::nativeEventFilter():
+// it's a long* in Qt 5 and a qintptr* in Qt 6 (they are different types on 64-bit Windows,
+// so a nativeEvent() declared with long* silently stops overriding the virtual in Qt 6).
+#if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
+typedef qintptr QTC_NativeEventResult;
+#else
+typedef long QTC_NativeEventResult;
+#endif
+
+// QProcess::error(QProcess::ProcessError) signal doesn't exist in Qt 6,
+// it was replaced by errorOccurred() (available since Qt 5.6).
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 6, 0))
+#define QTC_PROCESS_ERROR_SIGNAL SIGNAL(errorOccurred(QProcess::ProcessError))
+#else
+#define QTC_PROCESS_ERROR_SIGNAL SIGNAL(error(QProcess::ProcessError))
+#endif
+
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 14, 0))
 #define QTC_SkipEmptyParts Qt::SkipEmptyParts
 #define QTC_endl Qt::endl

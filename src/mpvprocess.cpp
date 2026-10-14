@@ -17,6 +17,7 @@
 */
 
 #include "mpvprocess.h"
+#include "qtcompat.h"
 #include <QRegExp>
 #include <QStringList>
 #include <QApplication>
@@ -86,7 +87,7 @@ MPVProcess::MPVProcess(QObject * parent)
 	connect( this, SIGNAL(finished(int,QProcess::ExitStatus)), 
              this, SLOT(processFinished(int,QProcess::ExitStatus)) );
 
-	connect( this, SIGNAL(error(QProcess::ProcessError)),
+	connect( this, QTC_PROCESS_ERROR_SIGNAL,
              this, SLOT(gotError(QProcess::ProcessError)) );
 
 	/* int svn = MplayerVersion::mplayerVersion("mpv unknown version (C)"); */

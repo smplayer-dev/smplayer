@@ -17,6 +17,7 @@
 */
 
 #include "updatechecker.h"
+#include "qtcompat.h"
 #include "updatecheckerdata.h"
 #include "version.h"
 #include "links.h"
@@ -116,6 +117,7 @@ QString UpdateChecker::parseVersion(const QByteArray & data, const QString & nam
 	QString grname = "linux";
 	#endif
 	QSettings set(tfile, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 	set.beginGroup(grname);
 	QString version = set.value(name, "").toString();
 	set.endGroup();

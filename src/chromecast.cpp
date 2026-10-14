@@ -17,6 +17,7 @@
 */
 
 #include "chromecast.h"
+#include "qtcompat.h"
 #include "links.h"
 #include <QUrl>
 #include <QFileInfo>
@@ -317,7 +318,7 @@ void Chromecast::startServer(QString doc_root) {
 		server_process->setProcessChannelMode( QProcess::MergedChannels );
 		connect(server_process, SIGNAL(readyReadStandardOutput()), this, SLOT(readProcessOutput()));
 		connect(server_process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
-		connect(server_process, SIGNAL(error(QProcess::ProcessError)), this, SLOT(processError(QProcess::ProcessError)));
+		connect(server_process, QTC_PROCESS_ERROR_SIGNAL, this, SLOT(processError(QProcess::ProcessError)));
 	}
 
 	if (server_process->state() == QProcess::Running) {

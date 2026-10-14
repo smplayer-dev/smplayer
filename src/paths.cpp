@@ -20,7 +20,9 @@
 #include <QLibraryInfo>
 #include <QLocale>
 #include <QFile>
-#if QT_VERSION_MAJOR >= 6
+#if QT_VERSION_MAJOR < 6
+#include <QRegExp>
+#else
 #include <QRegularExpression>
 #endif
 #include <QDir>

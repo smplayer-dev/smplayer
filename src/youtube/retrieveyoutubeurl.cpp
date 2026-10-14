@@ -56,7 +56,7 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 {
 	process = new QProcess(this);
 	connect(process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
-	connect(process, SIGNAL(error(QProcess::ProcessError)), this, SLOT(processError(QProcess::ProcessError)));
+	connect(process, QTC_PROCESS_ERROR_SIGNAL, this, SLOT(processError(QProcess::ProcessError)));
 
 	clearData();
 }

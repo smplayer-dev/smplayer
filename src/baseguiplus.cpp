@@ -648,10 +648,10 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 		int mainwindow_screen = QApplication::desktop()->screenNumber(this);
 #else
         const QList<QScreen *> screens = QGuiApplication::screens();
-        QScreen *primaryScreen = QGuiApplication::primaryScreen();
+        QScreen *mainwindowScreen = this->screen();
         QScreen *pldockScreen = playlistdock->screen();
         int playlist_screen = screens.indexOf(pldockScreen);
-        int mainwindow_screen = screens.indexOf(primaryScreen);
+        int mainwindow_screen = screens.indexOf(mainwindowScreen);
 #endif
 		qDebug("BaseGuiPlus::aboutToEnterFullscreen: mainwindow screen: %d, playlist screen: %d", mainwindow_screen, playlist_screen);
 

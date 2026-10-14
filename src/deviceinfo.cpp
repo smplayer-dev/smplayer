@@ -17,6 +17,7 @@
 */
 
 #include "deviceinfo.h"
+#include "qtcompat.h"
 #include "paths.h"
 #include <QProcess>
 #include <QFile>
@@ -102,6 +103,7 @@ DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 	#ifdef CACHE_DEVICE_INFO
 	QString inifile = Paths::configPath() + "/device_info.ini";
 	QSettings set(inifile, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 	QString section_name = "display-devices";
 	if (type == Sound) section_name = "dsound-devices";
 
@@ -206,6 +208,7 @@ DeviceList DeviceInfo::alsaDevices() {
 	#ifdef CACHE_DEVICE_INFO
 	QString inifile = Paths::configPath() + "/device_info.ini";
 	QSettings set(inifile, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 
 	// Check if we already have the list stored in the INI file
 	l = loadList(&set, "alsa-devices");
@@ -254,6 +257,7 @@ DeviceList DeviceInfo::xvAdaptors() {
 	#ifdef CACHE_DEVICE_INFO
 	QString inifile = Paths::configPath() + "/device_info.ini";
 	QSettings set(inifile, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 
 	// Check if we already have the list stored in the INI file
 	l = loadList(&set, "xv-adaptors");

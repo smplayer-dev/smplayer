@@ -5558,7 +5558,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 #if QT_VERSION_MAJOR < 6
 	QRect desktop_rect = QApplication::desktop()->availableGeometry(this);
 #else
-    QRect desktop_rect = QGuiApplication::primaryScreen()->availableGeometry();
+    QRect desktop_rect = (screen() ? screen() : QGuiApplication::primaryScreen())->availableGeometry();
 #endif
 	QSize desktop_size = QSize(desktop_rect.width(), desktop_rect.height());
 
@@ -5630,7 +5630,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 #if QT_VERSION_MAJOR < 6
         QRect screen_rect = QApplication::desktop()->availableGeometry(this);
 #else
-        QRect screen_rect = QGuiApplication::primaryScreen()->availableGeometry();
+        QRect screen_rect = (screen() ? screen() : QGuiApplication::primaryScreen())->availableGeometry();
 #endif
         QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
 		qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
@@ -5678,9 +5678,9 @@ void BaseGui::centerWindow() {
 	qDebug("BaseGui::centerWindow");
 	if (pref->center_window && !pref->fullscreen && isVisible()) {
 #if QT_VERSION_MAJOR < 6
-        QRect r = QApplication::desktop()->availableGeometry(this);
+        QRect r = QApplication::desktop()->screenGeometry(this);
 #else
-        QRect r = QGuiApplication::primaryScreen()->availableGeometry();
+        QRect r = (screen() ? screen() : QGuiApplication::primaryScreen())->geometry();
 #endif
         // r.setX(500); r.setY(150); // Test
 		qDebug() << "BaseGui::centerWindow: desktop rect:" << r;
@@ -6433,7 +6433,7 @@ void BaseGui::keyPressEvent(QKeyEvent *event) {
 #define SM_SYSTEMDOCKED 0x2004
 #endif
 
-bool BaseGui::winEvent ( MSG * m, long * result ) {
+bool BaseGui::winEvent ( MSG * m, QTC_NativeEventResult * result ) {
 	//qDebug() << "BaseGui::winEvent:" << m;
 	if (m && m->message == WM_SETTINGCHANGE && m->lParam) {
 		QString text = QString::fromWCharArray((TCHAR*)m->lParam);
@@ -6497,7 +6497,7 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 }
 
 #if QT_VERSION >= 0x050000
-bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * result) {
+bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, QTC_NativeEventResult * result) {
 	//qDebug() << "BaseGui::nativeEvent:" << eventType;
 	
 	if (eventType == "windows_generic_MSG") {

@@ -20,6 +20,7 @@
 #define BASEGUI_H
 
 #include <QMainWindow>
+#include "qtcompat.h"
 #include <QNetworkProxy>
 #include "mediadata.h"
 #include "mediasettings.h"
@@ -407,9 +408,9 @@ protected:
 #endif
 
 #ifdef Q_OS_WIN
-	virtual bool winEvent ( MSG * m, long * result );
+	virtual bool winEvent ( MSG * m, QTC_NativeEventResult * result );
 	#if QT_VERSION >= 0x050000
-	virtual bool nativeEvent(const QByteArray &eventType, void * message, long * result);
+	virtual bool nativeEvent(const QByteArray &eventType, void * message, QTC_NativeEventResult * result);
 	#endif
 #endif
 

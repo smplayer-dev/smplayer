@@ -17,6 +17,7 @@
 */
 
 #include "inforeader.h"
+#include "qtcompat.h"
 #include "global.h"
 #include "preferences.h"
 #include "playerprocess.h"
@@ -88,6 +89,7 @@ void InfoReader::setPlayerBin(const QString & bin) {
 void InfoReader::getInfo() {
 	QString inifile = Paths::configPath() + "/player_info.ini";
 	QSettings set(inifile, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 
 	QString version_group = "version_" + QString::number(INFOREADER_SAVE_VERSION);
 

@@ -17,6 +17,7 @@
 */
 
 #include "core.h"
+#include "qtcompat.h"
 #include <QDir>
 #include <QFileInfo>
 #include <QRegExp>
@@ -102,7 +103,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(processExited()),
              mplayerwindow, SLOT(playingStopped()) );
 
-	connect( proc, SIGNAL(error(QProcess::ProcessError)),
+	connect( proc, QTC_PROCESS_ERROR_SIGNAL,
              mplayerwindow, SLOT(playingStopped()) );
 
 	connect( proc, SIGNAL(receivedVO(QString)),
@@ -249,7 +250,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 	connect( this, SIGNAL(mediaInfoChanged()), this, SLOT(sendMediaInfo()) );
 
-	connect( proc, SIGNAL(error(QProcess::ProcessError)), 
+	connect( proc, QTC_PROCESS_ERROR_SIGNAL, 
              this, SIGNAL(mplayerFailed(QProcess::ProcessError)) );
 
 	//pref->load();
@@ -272,7 +273,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	screensaver = new ScreenSaver(this);
 	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
 	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
-	connect( proc, SIGNAL(error(QProcess::ProcessError)), this, SLOT(enableScreensaver()) );
+	connect( proc, QTC_PROCESS_ERROR_SIGNAL, this, SLOT(enableScreensaver()) );
 #endif
 
 #ifdef YOUTUBE_SUPPORT

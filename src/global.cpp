@@ -18,6 +18,7 @@
 
 
 #include "global.h"
+#include "qtcompat.h"
 #include "preferences.h"
 
 #ifndef MINILIB
@@ -49,9 +50,11 @@ void Global::global_init(const QString & config_path) {
 	if (Paths::iniPath().isEmpty()) {
 		settings = new QSettings(QSettings::IniFormat, QSettings::UserScope,
     	                         QString(COMPANY), QString(PROGRAM) );
+		QTC_setIniUtf8(settings);
 	} else {
 		QString filename = Paths::iniPath() + "/smplayer.ini";
 		settings = new QSettings( filename, QSettings::IniFormat );
+		QTC_setIniUtf8(settings);
 		qDebug("global_init: config file: '%s'", filename.toUtf8().data());
 
 	}

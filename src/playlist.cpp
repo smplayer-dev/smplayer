@@ -17,6 +17,7 @@
 */
 
 #include "playlist.h"
+#include "qtcompat.h"
 
 #include <QTableView>
 #include <QStandardItemModel>
@@ -421,6 +422,7 @@ void Playlist::setConfigPath(const QString & config_path) {
 		QString inifile = config_path + "/playlist.ini";
 		qDebug() << "Playlist::setConfigPath: ini file:" << inifile;
 		set = new QSettings(inifile, QSettings::IniFormat);
+		QTC_setIniUtf8(set);
 		loadSettings();
 	}
 }
@@ -1076,11 +1078,9 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 #if QT_VERSION_MAJOR < 6
             stream.setCodec(QTextCodec::codecForLocale());
 #else
-        {
-            std::optional<QStringEncoder::Encoding> encodingOpt = QStringConverter::encodingForName(QTextCodec::codecForLocale()->name());
-            QStringEncoder::Encoding encoding = encodingOpt == std::nullopt ? QStringConverter::Utf8 : encodingOpt.value();
-            stream.setEncoding(encoding);
-        }
+            // QStringConverter::encodingForName() doesn't know the names of the local code pages
+            // (e.g. "System" on Windows), so use the equivalent of QTextCodec::codecForLocale() directly
+            stream.setEncoding(QStringConverter::System);
 #endif
 
 		QString line;
@@ -1180,6 +1180,7 @@ void Playlist::load_pls(QString file) {
 	playlist_path = QFileInfo(file).path();
 
 	QSettings set(file, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 	set.beginGroup("playlist");
 
 	if (set.status() == QSettings::NoError) {
@@ -1321,11 +1322,9 @@ bool Playlist::save_m3u(QString file) {
 #if QT_VERSION_MAJOR < 6
             stream.setCodec(QTextCodec::codecForLocale());
 #else
-        {
-            std::optional<QStringEncoder::Encoding> encodingOpt = QStringConverter::encodingForName(QTextCodec::codecForLocale()->name());
-            QStringEncoder::Encoding encoding = encodingOpt == std::nullopt ? QStringConverter::Utf8 : encodingOpt.value();
-            stream.setEncoding(encoding);
-        }
+            // QStringConverter::encodingForName() doesn't know the names of the local code pages
+            // (e.g. "System" on Windows), so use the equivalent of QTextCodec::codecForLocale() directly
+            stream.setEncoding(QStringConverter::System);
 #endif
 
 		QString filename;
@@ -1385,6 +1384,7 @@ bool Playlist::save_pls(QString file) {
 	qDebug() << "Playlist::save_pls: dir_path:" << dir_path;
 
 	QSettings set(file, QSettings::IniFormat);
+	QTC_setIniUtf8(&set);
 	set.beginGroup( "playlist");
 
 	QString filename;

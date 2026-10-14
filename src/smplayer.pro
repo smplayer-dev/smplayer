@@ -439,7 +439,6 @@ contains( DEFINES, FIND_SUBTITLES ) {
 	SOURCES += findsubtitles/qrestapi/qRestAPI.cpp findsubtitles/qrestapi/qRestResult.cpp \
                findsubtitles/qrestapi/qGirderAPI.cpp findsubtitles/osclient.cpp
 
-        I
 	greaterThan(QT_MAJOR_VERSION, 4) {
 		QT += qml
 	} else {

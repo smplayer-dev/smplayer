@@ -17,6 +17,7 @@
 */
 
 #include "tvsettings.h"
+#include "qtcompat.h"
 #include "mediasettings.h"
 #include <QSettings>
 #include <QFileInfo>
@@ -25,6 +26,7 @@
 TVSettings::TVSettings(QString directory) : FileSettingsBase(directory) 
 {
 	my_settings = new QSettings(directory + "/smplayer_tv.ini", QSettings::IniFormat);
+	QTC_setIniUtf8(my_settings);
 }
 
 TVSettings::~TVSettings() {

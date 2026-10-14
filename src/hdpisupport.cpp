@@ -17,6 +17,7 @@
 */
 
 #include "hdpisupport.h"
+#include "qtcompat.h"
 #include <QSettings>
 #include <QApplication>
 
@@ -82,6 +83,7 @@ void HDPISupport::setConfigPath(const QString & config_path) {
 		qDebug() << "HDPISupport::setConfigPath: ini file:" << inifile;
 		#endif
 		set = new QSettings(inifile, QSettings::IniFormat);
+		QTC_setIniUtf8(set);
 		load();
 	}
 

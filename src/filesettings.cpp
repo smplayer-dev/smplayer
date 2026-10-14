@@ -17,6 +17,7 @@
 */
 
 #include "filesettings.h"
+#include "qtcompat.h"
 #include "mediasettings.h"
 #include "mediadata.h"
 #include <QSettings>
@@ -26,6 +27,7 @@
 FileSettings::FileSettings(QString directory) : FileSettingsBase(directory) 
 {
 	my_settings = new QSettings(directory + "/smplayer_files.ini", QSettings::IniFormat);
+	QTC_setIniUtf8(my_settings);
 }
 
 FileSettings::~FileSettings() {

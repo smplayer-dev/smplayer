@@ -17,6 +17,7 @@
 */
 
 #include "filesettingshash.h"
+#include "qtcompat.h"
 #include "mediasettings.h"
 #include "mediadata.h"
 #include "filehash.h" // hash function
@@ -82,6 +83,7 @@ void FileSettingsHash::loadSettingsFor(QString filename, int type, MediaSettings
 
 	if ((!config_file.isEmpty()) && (QFile::exists(config_file))) {
 		QSettings settings(config_file, QSettings::IniFormat);
+		QTC_setIniUtf8(&settings);
 
 		settings.beginGroup("file_settings");
 		mset.load(&settings, player);
@@ -110,6 +112,7 @@ void FileSettingsHash::saveSettingsFor(QString filename, int type, MediaSettings
 		}
 
 		QSettings settings(config_file, QSettings::IniFormat);
+		QTC_setIniUtf8(&settings);
 
 		/* settings.setValue("filename", filename); */
 
