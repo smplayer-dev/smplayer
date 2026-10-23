@@ -18,6 +18,7 @@
 
 #include "images.h"
 #include <QFile>
+#include <QDir>
 #include <QDebug>
 
 #ifdef USE_RESOURCES
@@ -33,6 +34,7 @@ using namespace Global;
 
 QString Images::current_theme;
 QString Images::themes_path;
+bool Images::is_dark_color_scheme = false;
 
 bool Images::is_internal = false;
 
@@ -54,7 +56,7 @@ QString Images::resourceFilename() {
 #endif
 
 void Images::setTheme(const QString & name) {
-	current_theme = name;
+	current_theme = themeForColorScheme(name);
 
 	is_internal = (QFile::exists(":/" + current_theme + "/style.qss"));
 	if (is_internal) {
@@ -100,9 +102,14 @@ void Images::setThemesPath(const QString & folder) {
 	qDebug() << "Images::setThemesPath:" << themes_path;
 }
 
+void Images::setDarkColorScheme(bool is_dark) {
+	is_dark_color_scheme = is_dark;
+	qDebug() << "Images::setDarkColorScheme:" << is_dark_color_scheme;
+}
+
 QString Images::file(const QString & name) {
 #ifdef SMCODE
-	if (current_theme != pref->iconset) {
+	if (current_theme != themeForColorScheme(pref->iconset)) {
 		setTheme(pref->iconset);
 	}
 #endif
@@ -180,7 +187,7 @@ QString Images::styleSheet(){
 }
 
 QString Images::themesDirectory(){
-	QString skin = pref->iconset;
+	QString skin = themeForColorScheme(pref->iconset);
 	QString dirname;
 	if (!skin.isEmpty()) {
 		dirname = Paths::configPath() + "/themes/" + skin;
@@ -191,3 +198,72 @@ QString Images::themesDirectory(){
 	return dirname;
 }
 #endif
+
+QString Images::themeBaseName(const QString & theme) {
+	static const QStringList suffixes = {
+		QStringLiteral("-dark"),
+		QStringLiteral("-Dark"),
+		QStringLiteral("Dark")
+	};
+
+	for (const QString &suffix : suffixes) {
+		if (theme.endsWith(suffix)) {
+			return theme.left(theme.size() - suffix.size());
+		}
+	}
+
+	return theme;
+}
+
+bool Images::themeExists(const QString & name) {
+	if (name.isEmpty()) {
+		return false;
+	}
+
+	// internal theme
+	if (QFile::exists(":/" + name + "/style.qss")) {
+		return true;
+	}
+
+#ifdef SMCODE
+	// user themes dir
+	if (QDir(Paths::configPath() + "/themes/" + name).exists()) {
+		return true;
+	}
+
+	// system-wide themes dir
+	if (QDir(Paths::themesPath() + "/" + name).exists()) {
+		return true;
+	}
+#endif
+
+	return false;
+}
+
+QString Images::themeForColorScheme(const QString & theme) {
+	const QString base = themeBaseName(theme);
+
+	if (!themeExists(base)) {
+		return theme;
+	}
+
+	if (!is_dark_color_scheme) {
+		return base;
+	} else if (base != theme) {
+		return theme;
+	}
+
+	const QStringList darkSet = {
+		base + "-dark",
+		base + "-Dark",
+		base + "Dark"
+	};
+
+	for (const QString &candidate : darkSet) {
+		if (themeExists(candidate)) {
+			return candidate;
+		}
+	}
+
+	return base;
+}

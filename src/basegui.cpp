@@ -225,6 +225,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	//qDebug() << "BaseGui::BaseGui: qApp->style:" << qApp->style();
 #endif
 
+	Images::setDarkColorScheme(isDarkColorScheme());
+
 #ifdef LOG_MPLAYER
 	mplayer_log_window = new LogWindow(0);
 #endif
@@ -5024,6 +5026,16 @@ void BaseGui::runActions(QString actions) {
 			qWarning("BaseGui::runActions: action: '%s' not found",actionStr.toUtf8().data());
 		} //end if
 	} //end for
+}
+
+bool BaseGui::isDarkColorScheme() {
+	const QPalette palette = QApplication::palette();
+	const int window_lightness = palette.color(QPalette::Window).lightness();
+	const int text_lightness = palette.color(QPalette::WindowText).lightness();
+
+	const bool dark = window_lightness < text_lightness;
+
+	return dark;
 }
 
 void BaseGui::checkPendingActionsToRun() {
