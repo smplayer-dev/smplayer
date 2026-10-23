@@ -299,6 +299,7 @@ public slots:
 	void setAudioEq9(int value);
 
 	void changeDeinterlace(int);
+	void changeFieldParity(int);
 	void changeSubtitle(int track);
 	void prevSubtitle();
 	void nextSubtitle();
