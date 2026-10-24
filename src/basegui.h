@@ -112,6 +112,8 @@ public:
 	Core * getCore() { return core; };
 	Playlist * getPlaylist() { return playlist; };
 
+	bool isDarkColorScheme();
+
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
 	virtual void openFile();
