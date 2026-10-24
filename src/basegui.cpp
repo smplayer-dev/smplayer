@@ -4416,6 +4416,14 @@ QString mountPointOf(const QString & device) {
 	return mp;
 }
 
+// udev reports the exact media (ID_CDROM_MEDIA_DVD_PLUS_R_DL, ID_CDROM_MEDIA_BD_RE...)
+bool hasMediaKind(const QMap<QString,QString> & props, const QString & prefix) {
+	foreach(const QString & k, props.keys()) {
+		if (k == prefix || k.startsWith(prefix + "_")) return true;
+	}
+	return false;
+}
+
 QList<OpticalDisc> findOpticalDiscs() {
 	QList<OpticalDisc> list;
 	QStringList drives = QDir("/sys/block").entryList(QStringList() << "sr*", QDir::Dirs | QDir::NoDotAndDotDot, QDir::Name);
@@ -4447,8 +4455,8 @@ QList<OpticalDisc> findOpticalDiscs() {
 			else if (mounted && (QFileInfo(mp + "/MPEGAV").isDir() || QFileInfo(mp + "/VCD").isDir())) d.type = "vcd";
 			else if (audio) d.type = "audiocd";
 			// Not mounted, so the content can't be inspected: trust the media type
-			else if (!mounted && props.contains("ID_CDROM_MEDIA_BD")) d.type = "bluray";
-			else if (!mounted && props.contains("ID_CDROM_MEDIA_DVD")) d.type = "dvd";
+			else if (!mounted && hasMediaKind(props, "ID_CDROM_MEDIA_BD")) d.type = "bluray";
+			else if (!mounted && hasMediaKind(props, "ID_CDROM_MEDIA_DVD")) d.type = "dvd";
 			else d.type = "data";
 		}
 		list << d;
