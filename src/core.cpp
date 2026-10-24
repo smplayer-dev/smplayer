@@ -1762,7 +1762,11 @@ void Core::startMplayer( QString file, double seek ) {
 	if (qgetenv("XDG_SESSION_TYPE") != "x11") {
 		// Trying to prevent the video to be outside the application window
 		if (proc->isMPV()) {
-			proc->setOption("gpu-context", "x11egl");
+			if (pref->vo == "gpu") {
+				proc->setOption("gpu-context", "x11egl");
+			} else {
+				proc->setOption("gpu-context", "x11vk,x11egl");
+			}
 		}
 	}
 #endif
