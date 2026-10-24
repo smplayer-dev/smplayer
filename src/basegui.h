@@ -443,6 +443,8 @@ protected:
 	void updateBookmarks();
 #endif
 	void updateRecents();
+	void updateDiscMenu();
+	void openDiscDrive(QAction * action);
 	void configureDiscDevices();
 	void setupNetworkProxy();
 	/* virtual void closeEvent( QCloseEvent * e ); */

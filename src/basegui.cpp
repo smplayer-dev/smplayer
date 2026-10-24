@@ -22,6 +22,9 @@
 #include <QMessageBox>
 #include <QLabel>
 #include <QMenu>
+#include <QDir>
+#include <QFile>
+#include <QProcess>
 #include <QFileInfo>
 #include <QApplication>
 #include <QMenuBar>
@@ -2608,6 +2611,8 @@ void BaseGui::createMenus() {
 	#endif
 	disc_menu->addAction(openVCDAct);
 	disc_menu->addAction(openAudioCDAct);
+	connect(disc_menu, SIGNAL(aboutToShow()), this, SLOT(updateDiscMenu()));
+	connect(disc_menu, SIGNAL(triggered(QAction*)), this, SLOT(openDiscDrive(QAction*)));
 
 	// Speed submenu
 	speed_menu = new QMenu(this);
@@ -4381,6 +4386,129 @@ void BaseGui::configureDiscDevices() {
 	
 	showPreferencesDialog();
 	pref_dialog->showSection( PreferencesDialog::Drives );
+}
+
+#ifdef Q_OS_LINUX
+namespace {
+struct OpticalDisc {
+	QString device, label, type;
+};
+
+QString mountPointOf(const QString & device) {
+	QFile f("/proc/mounts");
+	if (!f.open(QIODevice::ReadOnly)) return QString();
+	QString mp;
+	while (!f.atEnd()) {
+		QList<QByteArray> p = f.readLine().split(' ');
+		if (p.count() > 1 && QFileInfo(QString::fromUtf8(p[0])).canonicalFilePath() == device) {
+			// /proc/mounts escapes spaces as \040
+			mp = QString::fromUtf8(p[1]).replace("\\040", " ");
+			break;
+		}
+	}
+	return mp;
+}
+
+QList<OpticalDisc> findOpticalDiscs() {
+	QList<OpticalDisc> list;
+	QStringList drives = QDir("/sys/block").entryList(QStringList() << "sr*", QDir::Dirs | QDir::NoDotAndDotDot, QDir::Name);
+	foreach(const QString & drive, drives) {
+		QString device = "/dev/" + drive;
+
+		QProcess p;
+		p.start("udevadm", QStringList() << "info" << "--query=property" << "--name=" + device);
+		QMap<QString,QString> props;
+		if (p.waitForFinished(2000)) {
+			foreach(const QByteArray & l, p.readAllStandardOutput().split('\n')) {
+				int i = l.indexOf('=');
+				if (i > 0) props[QString::fromUtf8(l.left(i))] = QString::fromUtf8(l.mid(i+1));
+			}
+		}
+		if (props.value("ID_CDROM_MEDIA") != "1") continue;
+
+		OpticalDisc d;
+		d.device = device;
+		d.label = props.value("ID_FS_LABEL");
+		if (d.label.isEmpty()) d.label = props.value("ID_FS_LABEL_ENC");
+
+		QString mp = mountPointOf(device);
+		if (props.contains("ID_CDROM_MEDIA_BD") || (!mp.isEmpty() && QFileInfo(mp + "/BDMV").isDir())) {
+			d.type = "bluray";
+		}
+		else
+		if (!mp.isEmpty() && QFileInfo(mp + "/VIDEO_TS").isDir()) d.type = "dvd";
+		else
+		if (!mp.isEmpty() && (QFileInfo(mp + "/MPEGAV").isDir() || QFileInfo(mp + "/VCD").isDir())) d.type = "vcd";
+		else
+		if (props.value("ID_CDROM_MEDIA_TRACK_COUNT_AUDIO").toInt() > 0 && props.value("ID_CDROM_MEDIA_TRACK_COUNT_DATA").toInt() == 0) d.type = "audiocd";
+		else
+		if (props.contains("ID_CDROM_MEDIA_DVD")) d.type = "dvd";
+		else continue; // Plain data disc
+		list << d;
+	}
+	return list;
+}
+}
+#endif
+
+void BaseGui::updateDiscMenu() {
+	disc_menu->clear();
+	bool found = false;
+
+#ifdef Q_OS_LINUX
+	foreach(const OpticalDisc & d, findOpticalDiscs()) {
+		QString kind;
+		if (d.type == "dvd") kind = tr("DVD");
+		else if (d.type == "bluray") kind = tr("Blu-ray");
+		else if (d.type == "vcd") kind = tr("Video CD");
+		else kind = tr("Audio CD");
+		#ifndef BLURAY_SUPPORT
+		if (d.type == "bluray") continue;
+		#endif
+		QString text = kind;
+		if (!d.label.isEmpty()) text += ": " + d.label;
+		text += " (" + d.device + ")";
+		QAction * a = disc_menu->addAction(Images::icon("open_disc"), text);
+		a->setData(QStringList() << d.type << d.device);
+		found = true;
+	}
+#endif
+
+	if (!found) {
+		disc_menu->addAction(openDVDAct);
+		#ifdef BLURAY_SUPPORT
+		disc_menu->addAction(openBluRayAct);
+		#endif
+		disc_menu->addAction(openVCDAct);
+		disc_menu->addAction(openAudioCDAct);
+	}
+}
+
+void BaseGui::openDiscDrive(QAction * action) {
+	QStringList l = action->data().toStringList();
+	if (l.count() != 2) return; // Static action; handled by its own slot
+	QString type = l[0], device = l[1];
+	qDebug() << "BaseGui::openDiscDrive:" << type << device;
+
+	if (!playlist->maybeSave()) return;
+
+	if (type == "dvd") {
+		#if DVDNAV_SUPPORT
+		core->openDVD( DiscName::joinDVD(0, device, pref->use_dvdnav) );
+		#else
+		core->openDVD( DiscName::joinDVD(0, device, false) );
+		#endif
+	}
+	#ifdef BLURAY_SUPPORT
+	else
+	if (type == "bluray") core->openBluRay( DiscName::join(DiscName::BLURAY, 0, device) );
+	#endif
+	else {
+		// VCD and audio CD use the configured CD-ROM device
+		pref->cdrom_device = device;
+		if (type == "vcd") core->openVCD(pref->vcd_initial_title);
+		else core->openAudioCD();
+	}
 }
 
 void BaseGui::openVCD() {
