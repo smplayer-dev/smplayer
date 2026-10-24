@@ -22,6 +22,7 @@
 #include <QFile>
 #include <QSettings>
 #include <QDebug>
+#include <QRegularExpression>
 
 #ifdef Q_OS_WIN
 
@@ -287,6 +288,33 @@ DeviceList DeviceInfo::xvAdaptors() {
 	return l;
 }
 #endif
+#endif
+
+#ifdef OS_UNIX_NOT_MAC
+bool DeviceInfo::isLlvmPipe() {
+	QProcess p;
+	p.start("glxinfo", QStringList() << "-B");
+
+	if (!p.waitForStarted(2000)) {
+		return false;
+	}
+	if (!p.waitForFinished(3000)) {
+		p.kill();
+		return false;
+	}
+
+	if (p.exitStatus() != QProcess::NormalExit || p.exitCode() != 0)
+		return false;
+
+	const QString output = QString::fromLocal8Bit(p.readAllStandardOutput());
+
+	static const QRegularExpression re(
+		R"(^.*OpenGL renderer.*llvmpipe.*$)",
+		QRegularExpression::MultilineOption | QRegularExpression::CaseInsensitiveOption
+	);
+
+	return re.match(output).hasMatch();
+}
 #endif
 
 #if MPV_AUDIO_DEVICES
