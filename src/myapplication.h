@@ -61,6 +61,7 @@ public:
 
 protected:
 	QProxyStyle * proxy_style;
+	QString current_style;
 #endif
 
 #if QT_VERSION >= 0x050000
