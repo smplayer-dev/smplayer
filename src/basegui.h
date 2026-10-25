@@ -211,6 +211,9 @@ public slots:
 
 
 protected slots:
+	void updateDiscMenu();
+	void updateCurrentChapter(int chapter);
+	void openDiscDrive(QAction * action);
 	virtual void closeWindow();
 
 	virtual void setJumpTexts();
@@ -791,6 +794,7 @@ protected:
 #endif
 	MyActionGroup * titleGroup;
 	MyActionGroup * chapterGroup;
+	int current_chapter;
 	MyActionGroup * angleGroup;
 #ifdef BOOKMARKS
 	MyActionGroup * bookmarkGroup;
