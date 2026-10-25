@@ -61,7 +61,12 @@ public:
 	//! so it can be printed on debugging messages.
 	QString stateToString();
 
-	void addForcedTitle(const QString & file, const QString & title) { forced_titles[file] = title; };
+	void addForcedTitle(QString file, const QString & title) {
+		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+			file = Helper::changeSlashes(file);
+		#endif
+		forced_titles[file] = title;
+	};
 
 protected:
 	//! Change the current state (Stopped, Playing or Paused)
