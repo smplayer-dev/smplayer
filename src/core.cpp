@@ -1510,7 +1510,7 @@ void Core::goToPosition(int value) {
 		goToPos( (double) value / (SEEKBAR_RESOLUTION / 100) );
 	} else {
 		if (mdat.duration > 0) {
-			int jump_time = (double) mdat.duration * value / SEEKBAR_RESOLUTION;
+			double jump_time = (double) mdat.duration * value / SEEKBAR_RESOLUTION;
 			goToSec(jump_time);
 		}
 	}
