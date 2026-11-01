@@ -89,6 +89,7 @@ void MediaSettings::reset() {
 
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;
+	current_field_parity = DefaultFieldParity;
 
 #ifdef INITIAL_BLACKBORDERS
 	add_letterbox = pref->initial_blackborders;
@@ -256,6 +257,7 @@ void MediaSettings::list() {
 	qDebug("  stereo3d_out: %s", stereo3d_out.toUtf8().constData());
 
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
+	qDebug("  current_field_parity: %d", current_field_parity);
 
 	qDebug("  add_letterbox: %d", add_letterbox);
 
@@ -397,6 +399,7 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "stereo3d_out", stereo3d_out);
 
 	set->setValue( "current_deinterlacer", current_deinterlacer);
+	set->setValue( "current_field_parity", current_field_parity);
 
 	set->setValue( "add_letterbox", add_letterbox );
 
@@ -541,6 +544,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	stereo3d_out = set->value( "stereo3d_out", stereo3d_out).toString();
 
 	current_deinterlacer = set->value( "current_deinterlacer", current_deinterlacer ).toInt();
+	current_field_parity = set->value( "current_field_parity", current_field_parity).toInt();
 
 	add_letterbox = set->value( "add_letterbox", add_letterbox ).toBool();
 
