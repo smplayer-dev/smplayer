@@ -32,6 +32,7 @@
 
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
+#include "deviceinfo.h"
 #include "helper.h"
 #include "paths.h"
 #include "preferences.h"
@@ -1763,6 +1764,13 @@ void Core::startMplayer( QString file, double seek ) {
 		// Trying to prevent the video to be outside the application window
 		if (proc->isMPV()) {
 			proc->setOption("gpu-context", "x11egl");
+		}
+	}
+	// If video driver is 'llvmpipe'
+	// Trying to prevent the video to be outside the application window
+	if (pref->vo.isEmpty() && proc->isMPV() && DeviceInfo::isLlvmPipe()) {
+		if (proc->isMPV()) {
+			proc->setOption("vo", "x11,");
 		}
 	}
 #endif

@@ -88,6 +88,10 @@ public:
 	#endif
 #endif
 
+#ifdef OS_UNIX_NOT_MAC
+	static bool isLlvmPipe();
+#endif
+
 #if MPV_AUDIO_DEVICES
 	static void setMpvBin(const QString & bin) { mpv_bin = bin; };
 
