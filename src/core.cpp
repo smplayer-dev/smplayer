@@ -1376,11 +1376,11 @@ void Core::pause_and_frame_step() {
 void Core::pause() {
 	qDebug() << "Core::pause: current state:" << stateToString();
 
-        if (pref->remember_on_pause) {
-                qDebug("Saving recents and position");
-                pref->save();
-                saveMediaInfo();
-        }
+	if (pref->remember_on_pause) {
+		qDebug("Saving recents and position");
+		pref->save();
+		saveMediaInfo();
+	}
 
 	if (proc->isRunning()) {
 		// Pauses and unpauses

@@ -92,7 +92,7 @@ public:
 	bool remember_media_settings;
 	bool remember_time_pos;
 	bool remember_stream_settings;
-        bool remember_on_pause;
+	bool remember_on_pause;
 
 #if SIMPLE_TRACK_SELECTION
 	QString alang;
