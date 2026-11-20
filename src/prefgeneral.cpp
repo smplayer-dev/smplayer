@@ -238,6 +238,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAO( pref->ao );
 
 	setRememberSettings( pref->remember_media_settings );
+	natural_sort_check->setChecked(pref->use_natural_sort);
 	setRememberTimePos( pref->remember_time_pos );
 	remember_streams_check->setChecked(pref->remember_stream_settings);
 
@@ -382,6 +383,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ao, AO());
 
 	TEST_AND_SET(pref->remember_media_settings, rememberSettings());
+	TEST_AND_SET(pref->use_natural_sort, natural_sort_check->isChecked());
 	TEST_AND_SET(pref->remember_time_pos, rememberTimePos());
 	TEST_AND_SET(pref->remember_stream_settings, remember_streams_check->isChecked());
 

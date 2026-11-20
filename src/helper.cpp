@@ -18,7 +18,10 @@
 
 #include "helper.h"
 
+#include <algorithm>
+
 #include <QApplication>
+#include <QVector>
 #include <QFileInfo>
 #include <QColor>
 #include <QDir>
@@ -32,6 +35,9 @@
 
 #ifdef Q_OS_WIN
 #include <windows.h> // For the screensaver stuff
+#include <shlwapi.h>
+#elif QT_VERSION >= QT_VERSION_CHECK(5, 2, 0)
+#include <QCollator>
 #endif
 
 #if EXTERNAL_SLEEP
@@ -191,6 +197,114 @@ QString Helper::changeSlashes(QString filename) {
 		return filename.replace('/', '\\');
 	else
 		return filename;
+}
+
+namespace {
+
+#ifndef Q_OS_WIN
+#if QT_VERSION >= QT_VERSION_CHECK(5, 2, 0)
+struct NaturalCollator {
+	explicit NaturalCollator(Qt::CaseSensitivity sensitivity) {
+		collator.setCaseSensitivity(sensitivity);
+		collator.setNumericMode(true);
+		// Some Qt backends and the C locale cannot collate numbers.
+		supports_numbers = collator.compare(QLatin1String("2"), QLatin1String("10")) < 0;
+	}
+
+	QCollator collator;
+	bool supports_numbers;
+};
+#endif
+
+bool isAsciiDigit(QChar character) {
+	return character >= QLatin1Char('0') && character <= QLatin1Char('9');
+}
+
+// Compare digit runs by significant length, then by digit. This also works
+// for numbers too long to fit in an integer.
+int compareDigitRuns(const QString & left, int & l, const QString & right, int & r) {
+	int left_start = l;
+	int right_start = r;
+	while (l < left.size() && isAsciiDigit(left.at(l))) ++l;
+	while (r < right.size() && isAsciiDigit(right.at(r))) ++r;
+
+	while (left_start < l && left.at(left_start) == QLatin1Char('0')) ++left_start;
+	while (right_start < r && right.at(right_start) == QLatin1Char('0')) ++right_start;
+
+	if (l - left_start != r - right_start) {
+		return (l - left_start < r - right_start) ? -1 : 1;
+	}
+	while (left_start < l) {
+		QChar a = left.at(left_start++);
+		QChar b = right.at(right_start++);
+		if (a != b) return a < b ? -1 : 1;
+	}
+	return 0;
+}
+#endif
+
+struct FileNameEntry {
+	explicit FileNameEntry(const QString & path)
+		: path(path), name(QFileInfo(QDir::cleanPath(path)).fileName()) {}
+
+	bool operator<(const FileNameEntry & other) const {
+		return Helper::compareNaturally(name, other.name, Qt::CaseInsensitive) < 0;
+	}
+
+	QString path;
+	QString name;
+};
+
+}
+
+int Helper::compareNaturally(const QString & left, const QString & right, Qt::CaseSensitivity sensitivity) {
+#ifdef Q_OS_WIN
+	int result = StrCmpLogicalW(reinterpret_cast<LPCWSTR>(left.utf16()),
+	                          reinterpret_cast<LPCWSTR>(right.utf16()));
+	if (result == 0 && sensitivity == Qt::CaseSensitive) {
+		return QString::compare(left, right, Qt::CaseSensitive);
+	}
+	return result;
+#else
+#if QT_VERSION >= QT_VERSION_CHECK(5, 2, 0)
+	static const NaturalCollator insensitive(Qt::CaseInsensitive);
+	static const NaturalCollator sensitive(Qt::CaseSensitive);
+	const NaturalCollator & natural = sensitivity == Qt::CaseInsensitive ? insensitive : sensitive;
+	if (natural.supports_numbers) return natural.collator.compare(left, right);
+#endif
+	const QString a = sensitivity == Qt::CaseInsensitive ? left.toCaseFolded() : left;
+	const QString b = sensitivity == Qt::CaseInsensitive ? right.toCaseFolded() : right;
+	int l = 0;
+	int r = 0;
+	while (l < a.size() && r < b.size()) {
+		if (isAsciiDigit(a.at(l)) && isAsciiDigit(b.at(r))) {
+			int result = compareDigitRuns(a, l, b, r);
+			if (result != 0) return result;
+		} else {
+			QChar left_char = a.at(l++);
+			QChar right_char = b.at(r++);
+			if (left_char != right_char) return left_char < right_char ? -1 : 1;
+		}
+	}
+	return (l < a.size()) - (r < b.size());
+#endif
+}
+
+void Helper::sortFileNames(QStringList & files) {
+	// Preserve the order of streams and any local batches separated by them.
+	int first = 0;
+	while (first < files.size()) {
+		int end = first;
+		while (end < files.size() && !files.at(end).contains(QLatin1String("://"))) ++end;
+		if (end - first > 1) {
+			QVector<FileNameEntry> entries;
+			entries.reserve(end - first);
+			for (int i = first; i < end; ++i) entries.append(FileNameEntry(files.at(i)));
+			std::stable_sort(entries.begin(), entries.end());
+			for (int i = first; i < end; ++i) files[i] = entries.at(i - first).path;
+		}
+		first = end + 1;
+	}
 }
 
 bool Helper::directoryContainsDVD(QString directory) {
