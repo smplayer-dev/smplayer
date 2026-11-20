@@ -166,6 +166,16 @@
             </item>
            </layout>
           </item>
+          <item>
+           <widget class="QCheckBox" name="natural_sort_check">
+            <property name="text">
+             <string>Use natural sorting</string>
+            </property>
+            <property name="toolTip">
+             <string>Sort files when adding them and compare playlist names and filenames numerically (for example: 1, 2, 10).</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
@@ -1357,6 +1367,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>remember_time_check</tabstop>
   <tabstop>remember_streams_check</tabstop>
   <tabstop>filesettings_method_combo</tabstop>
+  <tabstop>natural_sort_check</tabstop>
   <tabstop>use_screenshots_check</tabstop>
   <tabstop>screenshot_edit</tabstop>
   <tabstop>screenshot_template_edit</tabstop>

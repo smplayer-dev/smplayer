@@ -123,31 +123,32 @@ public:
 };
 #endif
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 2, 0)
-#include <QCollator>
-
 class PlaylistSortProxy : public QSortFilterProxyModel {
 public:
-	explicit PlaylistSortProxy(QObject *parent = nullptr)
-		: QSortFilterProxyModel(parent)
-	{
-		collator.setNumericMode(true);                  // ORDEN NATURAL
-		collator.setCaseSensitivity(Qt::CaseInsensitive);
+	explicit PlaylistSortProxy(QObject * parent)
+		: QSortFilterProxyModel(parent), natural_sort(true) {}
+
+	bool naturalSort() const { return natural_sort; }
+
+	void setNaturalSort(bool enabled) {
+		if (natural_sort == enabled) return;
+		natural_sort = enabled;
+		if (sortColumn() == COL_NAME || sortColumn() == COL_FILENAME) invalidate();
 	}
 
 protected:
-	bool lessThan(const QModelIndex &left,
-				  const QModelIndex &right) const override
-	{
-		QString l = sourceModel()->data(left, sortRole()).toString();
-		QString r = sourceModel()->data(right, sortRole()).toString();
-		return collator.compare(l, r) < 0;
+	virtual bool lessThan(const QModelIndex & left, const QModelIndex & right) const {
+		if (natural_sort && (left.column() == COL_NAME || left.column() == COL_FILENAME)) {
+			QString a = left.data(sortRole()).toString();
+			QString b = right.data(sortRole()).toString();
+			return Helper::compareNaturally(a, b, sortCaseSensitivity()) < 0;
+		}
+		return QSortFilterProxyModel::lessThan(left, right);
 	}
 
 private:
-	mutable QCollator collator;
+	bool natural_sort;
 };
-#endif
 
 
 /* ----------------------------------------------------------- */
@@ -460,11 +461,7 @@ void Playlist::createTable() {
 	table->setColumnCount(COL_SHUFFLE + 1);
 	//table->setSortRole(Qt::UserRole + 1);
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 2, 0)
 	proxy = new PlaylistSortProxy(this);
-#else
-	proxy = new QSortFilterProxyModel(this);
-#endif
 	proxy->setSourceModel(table);
 	proxy->setSortRole(Qt::UserRole + 1);
 	proxy->setFilterRole(Qt::UserRole + 1);
@@ -1829,6 +1826,8 @@ void Playlist::addFiles() {
 void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	qDebug("Playlist::addFiles");
 
+	if (proxy->naturalSort()) Helper::sortFileNames(files);
+
 	#if USE_INFOPROVIDER
 	bool get_info = (auto_get_info == GetInfo);
 	if (auto_get_info == UserDefined) {
@@ -1874,7 +1873,10 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	unsetCursor();
 	#endif
 
-	if (new_current_item != -1) setCurrentItem(new_current_item);
+	if (new_current_item != -1) {
+		QModelIndex current = proxy->mapFromSource(table->index(new_current_item, COL_NAME));
+		if (current.isValid()) setCurrentItem(current.row());
+	}
 
 	listView->setSortingEnabled(true);
 	if (shuffleAct->isChecked()) {
@@ -1942,12 +1944,13 @@ void Playlist::addDirectory(QString dir) {
 	addOneDirectory(dir);
 
 	if (recursive_add_directory) {
-		QFileInfoList dir_list = QDir(dir).entryInfoList(QStringList() << "*", QDir::AllDirs | QDir::NoDotAndDotDot);
-		for (int n=0; n < dir_list.count(); n++) {
-			if (dir_list[n].isDir()) {
-				qDebug("Playlist::addDirectory: adding directory: %s", dir_list[n].filePath().toUtf8().data());
-				addDirectory(dir_list[n].filePath());
-			}
+		QDir directory(dir);
+		QStringList subdirs = directory.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
+		if (proxy->naturalSort()) Helper::sortFileNames(subdirs);
+		foreach (const QString & subdir, subdirs) {
+			QString path = directory.filePath(subdir);
+			qDebug("Playlist::addDirectory: adding directory: %s", path.toUtf8().data());
+			addDirectory(path);
 		}
 	}
 	setModified(true);
@@ -2291,16 +2294,20 @@ void Playlist::dropEvent( QDropEvent *e ) {
 	#ifdef Q_OS_WIN
 	files = Helper::resolveSymlinks(files); // Check for Windows shortcuts
 	#endif
-	files.sort();
+	if (!proxy->naturalSort()) files.sort();
 
+	QStringList directories;
 	QStringList only_files;
 	for (int n = 0; n < files.count(); n++) {
 		if ( QFileInfo( files[n] ).isDir() ) {
-			addDirectory( files[n] );
+			directories.append(files[n]);
 		} else {
 			only_files.append( files[n] );
 		}
 	}
+
+	if (proxy->naturalSort()) Helper::sortFileNames(directories);
+	foreach (const QString & directory, directories) addDirectory(directory);
 
 	if (only_files.count() == 1) {
 		// Check if the file is a playlist
@@ -2565,6 +2572,10 @@ void Playlist::setFilenameColumnVisible(bool b) {
 
 void Playlist::setShuffleColumnVisible(bool b) {
 	listView->setColumnHidden(COL_SHUFFLE, !b);
+}
+
+void Playlist::setNaturalSort(bool enabled) {
+	proxy->setNaturalSort(enabled);
 }
 
 void Playlist::setAutoSort(bool b) {

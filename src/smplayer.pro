@@ -720,6 +720,7 @@ win32 {
 	}
 	
 	LIBS += -ldsound -lddraw
+	LIBS += -lshlwapi
 
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
