@@ -147,6 +147,10 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	tabWidget->setTabEnabled(HDPI_TAB, false);
 #endif
 
+#ifndef Q_OS_WIN
+	dark_titlebar_check->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -279,6 +283,9 @@ void PrefInterface::setData(Preferences * pref) {
 	center_if_outside_check->setChecked(pref->center_window_if_outside);
 
 	use_native_openfile_check->setChecked(pref->use_native_open_dialog);
+#ifdef Q_OS_WIN
+	dark_titlebar_check->setChecked(pref->dark_titlebar);
+#endif
 
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
@@ -332,6 +339,9 @@ void PrefInterface::getData(Preferences * pref) {
 	style_changed = false;
 	font_changed = false;
 	recents_changed = false;
+#ifdef Q_OS_WIN
+	dark_titlebar_changed = false;
+#endif
 
 	if (pref->language != language()) {
 		pref->language = language();
@@ -360,6 +370,12 @@ void PrefInterface::getData(Preferences * pref) {
 #endif
 
 	pref->use_native_open_dialog = use_native_openfile_check->isChecked();
+#ifdef Q_OS_WIN
+	if (pref->dark_titlebar != dark_titlebar_check->isChecked()) {
+		pref->dark_titlebar = dark_titlebar_check->isChecked();
+		dark_titlebar_changed = true;
+	}
+#endif
 
 	pref->seeking1 = seeking1();
 	pref->seeking2 = seeking2();
@@ -760,6 +776,10 @@ void PrefInterface::createHelp() {
 
 	setWhatsThis(hide_video_window_on_audio_check, tr("Hide video window when playing audio files"),
         tr("If this option is enabled the video window will be hidden when playing audio files.") );
+#ifdef Q_OS_WIN
+	setWhatsThis(dark_titlebar_check, tr("Use dark title bar"),
+		tr("If this option is enabled, the main window title bar will use the Windows dark mode appearance.") );
+#endif
 
 	setWhatsThis(language_combo, tr("Language"),
 		tr("Here you can change the language of the application.") );

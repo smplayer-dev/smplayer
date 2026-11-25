@@ -3267,6 +3267,11 @@ void BaseGui::applyNewPreferences() {
 	}
 
 	if (_interface->fontChanged()) need_apply_styles = true;
+#ifdef Q_OS_WIN
+	if (_interface->darkTitlebarChanged()) {
+		applyDarkTitlebar(pref->dark_titlebar);
+	}
+#endif
 
 	MyFileDialog::setNative(pref->use_native_open_dialog);
 
@@ -6095,6 +6100,13 @@ void BaseGui::delayedSeek() {
 #ifndef DETECT_MINIMIZE_WORKAROUND
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
+#ifdef Q_OS_WIN
+	static bool dark_titlebar_initialized = false;
+	if (!dark_titlebar_initialized) {
+		dark_titlebar_initialized = true;
+		applyDarkTitlebar(pref->dark_titlebar);
+	}
+#endif
 
 	if (ignore_show_hide_events) return;
 
@@ -6119,6 +6131,17 @@ void BaseGui::hideEvent( QHideEvent * ) {
 #else
 // Qt 5 doesn't call showEvent / hideEvent when the window is minimized or unminimized
 bool BaseGui::event(QEvent * e) {
+#ifdef Q_OS_WIN
+	if (e->type() == QEvent::WinIdChange) {
+		applyDarkTitlebar(pref->dark_titlebar);
+	} else if (e->type() == QEvent::Show) {
+		static bool dark_titlebar_initialized = false;
+		if (!dark_titlebar_initialized) {
+			dark_titlebar_initialized = true;
+			applyDarkTitlebar(pref->dark_titlebar);
+		}
+	}
+#endif
 	//qDebug("BaseGui::event: %d", e->type());
 
 	bool result = QMainWindow::event(e);
@@ -6354,6 +6377,40 @@ void BaseGui::showTubeBrowser() {
 #endif
 
 // Language change stuff
+#ifdef Q_OS_WIN
+void BaseGui::applyDarkTitlebar(bool enable) {
+    WId wid = internalWinId();
+    if (!wid) return;
+    HWND hwnd = reinterpret_cast<HWND>(wid);
+
+    HMODULE dwmapi = GetModuleHandleW(L"dwmapi.dll");
+    if (!dwmapi) {
+        dwmapi = LoadLibraryW(L"dwmapi.dll");
+    }
+    if (!dwmapi) return;
+
+    typedef HRESULT (WINAPI *DwmSetWindowAttributeFunc)(HWND, DWORD, LPCVOID, DWORD);
+    DwmSetWindowAttributeFunc pDwmSetWindowAttribute =
+        reinterpret_cast<DwmSetWindowAttributeFunc>(GetProcAddress(dwmapi, "DwmSetWindowAttribute"));
+    if (!pDwmSetWindowAttribute) return;
+
+    BOOL dark = enable ? TRUE : FALSE;
+    const DWORD DWMWA_USE_IMMERSIVE_DARK_MODE_20 = 20;
+    const DWORD DWMWA_USE_IMMERSIVE_DARK_MODE_19 = 19;
+
+    HRESULT hr = pDwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE_20, &dark, sizeof(dark));
+    if (FAILED(hr)) {
+        pDwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE_19, &dark, sizeof(dark));
+    }
+
+    if (IsWindowVisible(hwnd)) {
+        BOOL isActive = (GetForegroundWindow() == hwnd) ? TRUE : FALSE;
+        DefWindowProcW(hwnd, WM_NCACTIVATE, static_cast<WPARAM>(!isActive), 0);
+        DefWindowProcW(hwnd, WM_NCACTIVATE, static_cast<WPARAM>(isActive), 0);
+    }
+}
+#endif
+
 void BaseGui::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();

@@ -407,6 +407,7 @@ protected:
 #endif
 
 #ifdef Q_OS_WIN
+	void applyDarkTitlebar(bool enable);
 	virtual bool winEvent ( MSG * m, long * result );
 	#if QT_VERSION >= 0x050000
 	virtual bool nativeEvent(const QByteArray &eventType, void * message, long * result);

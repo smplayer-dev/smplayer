@@ -396,6 +396,9 @@ public:
 
 	bool center_window; //!< Center the main window when playback starts
 	bool center_window_if_outside; //!< Center the main window after an autoresize if it's outside of the screen
+#ifdef Q_OS_WIN
+	bool dark_titlebar; //!< Use Windows dark mode for the main window title bar
+#endif
 
 #ifdef GLOBALSHORTCUTS
 	bool use_global_shortcuts;
