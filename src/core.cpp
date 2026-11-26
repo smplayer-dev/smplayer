@@ -4754,7 +4754,7 @@ void Core::gotWindowResolution(int w, int h) {
 	//mdat.video_aspect = mset.win_aspect();
 
 	mplayerwindow->setResolution( w, h );
-	mplayerwindow->setAspect( mset.win_aspect() );
+	mplayerwindow->setAspect( mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id ) );
 }
 
 void Core::gotNoVideo() {
