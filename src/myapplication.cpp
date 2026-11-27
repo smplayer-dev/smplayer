@@ -69,8 +69,18 @@ MyApplication::MyApplication (const QString & /*appId*/, int & argc, char ** arg
 
 #ifdef OS_UNIX_NOT_MAC
 void MyApplication::changeStyle(const QString & style_name) {
+	if (current_style.compare(style_name, Qt::CaseInsensitive) == 0) {
+		return;
+	}
+
 	QStyle * style = QStyleFactory::create(style_name);
-	if (style) proxy_style->setBaseStyle(style);
+
+	if (!style) {
+		return;
+	}
+
+	proxy_style->setBaseStyle(style);
+	current_style = style_name;
 }
 #endif
 
