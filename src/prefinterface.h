@@ -49,6 +49,9 @@ public:
 	bool fontChanged(){ return font_changed; };
 	bool recentsChanged() { return recents_changed; };
 	bool urlMaxChanged() { return url_max_changed; };
+#ifdef Q_OS_WIN
+	bool darkTitlebarChanged() { return dark_titlebar_changed; };
+#endif
 
 protected:
 	virtual void createHelp();
@@ -159,6 +162,9 @@ private:
 	bool font_changed;
 	bool recents_changed;
 	bool url_max_changed;
+#ifdef Q_OS_WIN
+	bool dark_titlebar_changed;
+#endif
 
 #ifdef SKINS
 	int n_skins;

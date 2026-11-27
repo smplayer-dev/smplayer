@@ -430,6 +430,9 @@ void Preferences::reset() {
 
 	center_window = false;
 	center_window_if_outside = false;
+#ifdef Q_OS_WIN
+	dark_titlebar = false;
+#endif
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = false;
@@ -1007,6 +1010,9 @@ void Preferences::save() {
 
 	set->setValue("center_window", center_window);
 	set->setValue("center_window_if_outside", center_window_if_outside);
+#ifdef Q_OS_WIN
+	set->setValue("dark_titlebar", dark_titlebar);
+#endif
 
 #ifdef GLOBALSHORTCUTS
 	set->setValue("use_global_shortcuts", use_global_shortcuts);
@@ -1615,6 +1621,9 @@ void Preferences::load() {
 
 	center_window = set->value("center_window", center_window).toBool();
 	center_window_if_outside = set->value("center_window_if_outside", center_window_if_outside).toBool();
+#ifdef Q_OS_WIN
+	dark_titlebar = set->value("dark_titlebar", dark_titlebar).toBool();
+#endif
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = set->value("use_global_shortcuts", use_global_shortcuts).toBool();
