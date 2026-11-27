@@ -2256,6 +2256,15 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("correct-pts", (pref->use_correct_pts == Preferences::Enabled));
 	}
 
+	// Field Parity
+	if (mset.current_field_parity != MediaSettings::DefaultFieldParity) {
+		if (mset.current_field_parity==MediaSettings::TopFieldParity) {
+			proc->setOption("deinterlace-field-parity", "tff");
+		} else {
+			proc->setOption("deinterlace-field-parity", "bff");
+		}
+	}
+
 	bool force_noslices = false;
 
 #ifndef Q_OS_WIN
@@ -3175,6 +3184,14 @@ void Core::togglePostprocessing(bool b) {
 	if ( b != mset.postprocessing_filter ) {
 		mset.postprocessing_filter = b;
 		CHANGE_VF("postprocessing", b, QVariant());
+	}
+}
+
+void Core::changeFieldParity(int id) {
+	qDebug( "Core::changeFieldParity: %d", id );
+	if (id != mset.current_field_parity) {
+		mset.current_field_parity = id;
+		restartPlay();
 	}
 }
 

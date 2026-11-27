@@ -657,7 +657,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "frames" ||
 	    option_name == "user-agent" || option_name == "referrer" || option_name == "http-header-fields" ||
 	    option_name == "ab-loop-a" || option_name == "ab-loop-b" ||
-	    option_name == "gpu-context")
+	    option_name == "gpu-context" ||
+	    option_name == "deinterlace-field-parity")
 	{
 		QString s = "--" + option_name;
 		if (!value.isNull()) s += "=" + value.toString();

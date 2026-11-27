@@ -707,6 +707,12 @@ protected:
 	MyAction * deinterlaceLBAct;
 	MyAction * deinterlaceKernAct;
 
+	// Field Parity Action Group
+	MyActionGroup * fieldParityGroup;
+	MyAction * fieldParityDefaultAct;
+	MyAction * fieldParityTopAct;
+	MyAction * fieldParityBottomAct;
+
 	// Aspect Action Group
 	MyActionGroup * aspectGroup;
 	MyAction * aspectDetectAct;
