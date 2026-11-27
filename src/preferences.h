@@ -150,9 +150,10 @@ public:
 	bool global_audio_equalizer;
 	AudioEqualizerList audio_equalizer;
 
-	// Global speed
+	// Playback speed
 	bool global_speed;
 	double speed;
+	double speed_step;
 
 	bool autosync;
 	int autosync_factor;
