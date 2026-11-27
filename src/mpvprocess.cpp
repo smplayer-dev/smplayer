@@ -208,7 +208,7 @@ void MPVProcess::parseLine(QByteArray ba) {
                                       << "container-fps" << "video-format"
                                       << "audio-codec-name" << "audio-params/samplerate" << "audio-params/channel-count"
                                       << "current-demuxer"
-                                      << "seekable" << "chapters"
+                                      << "seekable" << "chapters" << "chapter"
                                       #ifndef USE_OLD_TRACKS_COUNT
                                       << "track-list/count"
                                       #endif
@@ -503,6 +503,10 @@ void MPVProcess::socketReadyRead() {
 				for (int ID = 0; ID < n_titles; ID++) {
 					md.titles.addName(ID, QString::number(ID+1));
 				}
+			}
+			else
+			if (name == "chapter") {
+				emit receivedCurrentChapter(data.toInt());
 			}
 			else
 			if (name == "chapters") {

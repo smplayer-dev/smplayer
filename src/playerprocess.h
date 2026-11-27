@@ -206,6 +206,7 @@ signals:
 #endif
 
 	void receivedDuration(double);
+	void receivedCurrentChapter(int);
 #if DVDNAV_SUPPORT
 	void receivedDVDTitle(int);
 	void receivedTitleIsMenu();

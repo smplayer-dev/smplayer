@@ -16,3 +16,5 @@
 # binaries
 /src/smplayer
 /webserver/simple_web_server
+
+appimage/

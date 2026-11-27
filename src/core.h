@@ -506,6 +506,7 @@ signals:
 	void buffering();
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
 	void mediaLoaded();
+	void currentChapterChanged(int);
 	void mediaInfoChanged();
 	void mediaDataReceived(const MediaData &);
 	//! Sends the filename and title of the stream playing in this moment

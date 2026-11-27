@@ -225,6 +225,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(updateChapterInfo(const Chapters &)), Qt::QueuedConnection );
 #endif
 
+	connect( proc, SIGNAL(receivedCurrentChapter(int)), this, SIGNAL(currentChapterChanged(int)) );
 	connect( proc, SIGNAL(receivedDuration(double)), 
              this, SLOT(durationChanged(double)), Qt::QueuedConnection );
 
@@ -1051,6 +1052,13 @@ void Core::newMediaPlaying() {
 	mdat = proc->mediaData();
 	mdat.filename = file;
 	mdat.type = type;
+
+	// mpv has no disc-titles for audio CDs: each track is a chapter
+	if (mdat.type == TYPE_AUDIO_CD && mdat.titles.numItems() == 0) {
+		for (int n = 1; n <= mdat.n_chapters; n++) {
+			mdat.titles.addName(n, QString::number(n));
+		}
+	}
 
 	initializeMenus(); // Old
 

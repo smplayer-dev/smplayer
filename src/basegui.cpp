@@ -22,6 +22,9 @@
 #include <QMessageBox>
 #include <QLabel>
 #include <QMenu>
+#include <QDir>
+#include <QFile>
+#include <QProcess>
 #include <QFileInfo>
 #include <QApplication>
 #include <QMenuBar>
@@ -1346,6 +1349,8 @@ void BaseGui::createActions() {
 
 	// Chapters
 	chapterGroup = new MyActionGroup(this);
+	current_chapter = -1;
+	connect( core, SIGNAL(currentChapterChanged(int)), this, SLOT(updateCurrentChapter(int)) );
 	connect( chapterGroup, SIGNAL(activated(int)),
 			 core, SLOT(changeChapter(int)) );
 
@@ -2608,6 +2613,8 @@ void BaseGui::createMenus() {
 	#endif
 	disc_menu->addAction(openVCDAct);
 	disc_menu->addAction(openAudioCDAct);
+	connect(disc_menu, SIGNAL(aboutToShow()), this, SLOT(updateDiscMenu()));
+	connect(disc_menu, SIGNAL(triggered(QAction*)), this, SLOT(openDiscDrive(QAction*)));
 
 	// Speed submenu
 	speed_menu = new QMenu(this);
@@ -3733,7 +3740,7 @@ void BaseGui::initializeMenus() {
 	if (core->mdat.chapters.numItems() > 0) {
 		for (n=0; n < core->mdat.chapters.numItems(); n++) {
 			QAction *a = new QAction(chapterGroup);
-			//a->setCheckable(true);
+			a->setCheckable(true);
 			//qDebug("BaseGui::initializeMenus: chapter %d name: %s", n, core->mdat.chapters.itemAt(n).name().toUtf8().constData());
 			a->setText(core->mdat.chapters.itemAt(n).name());
 			a->setData(core->mdat.chapters.itemAt(n).ID());
@@ -3743,7 +3750,7 @@ void BaseGui::initializeMenus() {
 	if (core->mdat.n_chapters > 0) {
 		for (n=0; n < core->mdat.n_chapters; n++) {
 			QAction *a = new QAction(chapterGroup);
-			//a->setCheckable(true);
+			a->setCheckable(true);
 			a->setText( QString::number(n+1) );
 			a->setData( n + Core::firstChapter() );
 		}
@@ -3753,6 +3760,7 @@ void BaseGui::initializeMenus() {
 		a->setEnabled(false);
 	}
 	chapters_menu->addActions( chapterGroup->actions() );
+	chapterGroup->setChecked( current_chapter );
 
 	// Angles
 	angleGroup->clear(true);
@@ -3924,6 +3932,10 @@ void BaseGui::updateWidgets() {
 
 	// Titles
 	titleGroup->setChecked( core->mset.current_title_id );
+	if (core->mdat.type == TYPE_AUDIO_CD && core->mset.current_title_id > 0) {
+		current_chapter = core->mset.current_title_id - 1;
+		chapterGroup->setChecked( current_chapter );
+	}
 
 	// Angles
 	angleGroup->setChecked( core->mset.current_angle_id );
@@ -4381,6 +4393,157 @@ void BaseGui::configureDiscDevices() {
 	
 	showPreferencesDialog();
 	pref_dialog->showSection( PreferencesDialog::Drives );
+}
+
+#ifdef Q_OS_LINUX
+namespace {
+struct OpticalDisc {
+	QString device, model, label, type;
+};
+
+QString mountPointOf(const QString & device) {
+	QFile f("/proc/mounts");
+	if (!f.open(QIODevice::ReadOnly)) return QString();
+	QString mp;
+	while (!f.atEnd()) {
+		QList<QByteArray> p = f.readLine().split(' ');
+		if (p.count() > 1 && QFileInfo(QString::fromUtf8(p[0])).canonicalFilePath() == device) {
+			// /proc/mounts escapes spaces as \040
+			mp = QString::fromUtf8(p[1]).replace("\\040", " ");
+			break;
+		}
+	}
+	return mp;
+}
+
+// udev reports the exact media (ID_CDROM_MEDIA_DVD_PLUS_R_DL, ID_CDROM_MEDIA_BD_RE...)
+bool hasMediaKind(const QMap<QString,QString> & props, const QString & prefix) {
+	foreach(const QString & k, props.keys()) {
+		if (k == prefix || k.startsWith(prefix + "_")) return true;
+	}
+	return false;
+}
+
+QList<OpticalDisc> findOpticalDiscs() {
+	QList<OpticalDisc> list;
+	QStringList drives = QDir("/sys/block").entryList(QStringList() << "sr*", QDir::Dirs | QDir::NoDotAndDotDot, QDir::Name);
+	foreach(const QString & drive, drives) {
+		OpticalDisc d;
+		d.device = "/dev/" + drive;
+
+		QProcess p;
+		p.start("udevadm", QStringList() << "info" << "--query=property" << "--name=" + d.device);
+		QMap<QString,QString> props;
+		if (p.waitForFinished(2000)) {
+			foreach(const QByteArray & l, p.readAllStandardOutput().split('\n')) {
+				int i = l.indexOf('=');
+				if (i > 0) props[QString::fromUtf8(l.left(i))] = QString::fromUtf8(l.mid(i+1));
+			}
+		}
+		d.model = props.value("ID_MODEL");
+		d.model.replace('_', ' ');
+
+		if (props.value("ID_CDROM_MEDIA") != "1") {
+			d.type = "empty";
+		} else {
+			d.label = props.value("ID_FS_LABEL");
+			QString mp = mountPointOf(d.device);
+			bool audio = props.value("ID_CDROM_MEDIA_TRACK_COUNT_AUDIO").toInt() > 0 && props.value("ID_CDROM_MEDIA_TRACK_COUNT_DATA").toInt() == 0;
+			bool mounted = !mp.isEmpty();
+			if (mounted && QFileInfo(mp + "/BDMV").isDir()) d.type = "bluray";
+			else if (mounted && QFileInfo(mp + "/VIDEO_TS").isDir()) d.type = "dvd";
+			else if (mounted && (QFileInfo(mp + "/MPEGAV").isDir() || QFileInfo(mp + "/VCD").isDir())) d.type = "vcd";
+			else if (audio) d.type = "audiocd";
+			// Not mounted, so the content can't be inspected: trust the media type
+			else if (!mounted && hasMediaKind(props, "ID_CDROM_MEDIA_BD")) d.type = "bluray";
+			else if (!mounted && hasMediaKind(props, "ID_CDROM_MEDIA_DVD")) d.type = "dvd";
+			else d.type = "data";
+		}
+		list << d;
+	}
+	return list;
+}
+}
+#endif
+
+void BaseGui::updateCurrentChapter(int chapter) {
+	current_chapter = chapter;
+	chapterGroup->setChecked( chapter );
+	// On audio CDs a chapter is a track, so keep the Title menu in sync
+	if (core->mdat.type == TYPE_AUDIO_CD && chapter >= 0) {
+		core->mset.current_title_id = chapter + 1;
+		titleGroup->setChecked( chapter + 1 );
+	}
+}
+
+void BaseGui::updateDiscMenu() {
+	disc_menu->clear();
+	bool found = false;
+
+#ifdef Q_OS_LINUX
+	foreach(const OpticalDisc & d, findOpticalDiscs()) {
+		QString kind;
+		bool playable = true;
+		if (d.type == "dvd") kind = tr("DVD");
+		else if (d.type == "bluray") kind = tr("Blu-ray");
+		else if (d.type == "vcd") kind = tr("Video CD");
+		else if (d.type == "audiocd") kind = tr("Audio CD");
+		else if (d.type == "data") { kind = tr("Data disc (not playable)"); playable = false; }
+		else { kind = tr("Empty"); playable = false; }
+		#ifndef BLURAY_SUPPORT
+		if (d.type == "bluray") playable = false;
+		#endif
+
+		QString text = d.device;
+		if (!d.model.isEmpty()) text += " - " + d.model;
+		text += ": " + kind;
+		if (!d.label.isEmpty() && d.type != "empty") text += " \"" + d.label + "\"";
+
+		QAction * a = disc_menu->addAction(Images::icon("open_disc"), text);
+		a->setData(QStringList() << d.type << d.device);
+		a->setEnabled(playable);
+		found = true;
+	}
+	if (!found) {
+		QAction * a = disc_menu->addAction(tr("No optical drives found"));
+		a->setEnabled(false);
+	}
+#else
+	Q_UNUSED(found);
+	disc_menu->addAction(openDVDAct);
+	#ifdef BLURAY_SUPPORT
+	disc_menu->addAction(openBluRayAct);
+	#endif
+	disc_menu->addAction(openVCDAct);
+	disc_menu->addAction(openAudioCDAct);
+#endif
+}
+
+void BaseGui::openDiscDrive(QAction * action) {
+	QStringList l = action->data().toStringList();
+	if (l.count() != 2) return; // Static action; handled by its own slot
+	QString type = l[0], device = l[1];
+	qDebug() << "BaseGui::openDiscDrive:" << type << device;
+
+	if (!playlist->maybeSave()) return;
+
+	if (type == "dvd") {
+		#if DVDNAV_SUPPORT
+		core->openDVD( DiscName::joinDVD(0, device, pref->use_dvdnav) );
+		#else
+		core->openDVD( DiscName::joinDVD(0, device, false) );
+		#endif
+	}
+	#ifdef BLURAY_SUPPORT
+	else
+	if (type == "bluray") core->openBluRay( DiscName::join(DiscName::BLURAY, 0, device) );
+	#endif
+	else {
+		// VCD and audio CD use the configured CD-ROM device
+		pref->cdrom_device = device;
+		if (type == "vcd") core->openVCD(pref->vcd_initial_title);
+		else core->openAudioCD();
+	}
 }
 
 void BaseGui::openVCD() {
