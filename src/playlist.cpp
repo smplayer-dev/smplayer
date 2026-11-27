@@ -1084,7 +1084,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 				QStringList fields = line.mid(8).split(",");
 				//qDebug() << "Playlist::load_m3u: fields:" << fields;
 				if (fields.count() >= 1) duration = fields[0].toDouble();
-				if (fields.count() >= 2) name = fields[1];
+				if (fields.count() >= 2) name = fields.mid(1).join(",");
 			}
 			else
 			if (line.startsWith("#EXTVLCOPT:")) {
