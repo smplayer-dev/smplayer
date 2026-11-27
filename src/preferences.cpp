@@ -121,6 +121,7 @@ void Preferences::reset() {
 #endif
 
 	remember_media_settings = true;
+	use_natural_sort = true;
 	remember_time_pos = true;
 	remember_stream_settings = false;
 
@@ -711,6 +712,7 @@ void Preferences::save() {
 	#endif
 
 	set->setValue("remember_media_settings", remember_media_settings);
+	set->setValue("use_natural_sort", use_natural_sort);
 	set->setValue("remember_time_pos", remember_time_pos);
 	set->setValue("remember_stream_settings", remember_stream_settings);
 
@@ -1314,6 +1316,7 @@ void Preferences::load() {
 	#endif
 
 	remember_media_settings = set->value("remember_media_settings", remember_media_settings).toBool();
+	use_natural_sort = set->value("use_natural_sort", use_natural_sort).toBool();
 	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
 	remember_stream_settings = set->value("remember_stream_settings", remember_stream_settings).toBool();
 

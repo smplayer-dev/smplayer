@@ -6197,6 +6197,14 @@ El fichero debe terminar en pls, xspf o m3u. &apos;%2&apos; is está soportado. 
 <context>
     <name>PrefGeneral</name>
     <message>
+        <source>Use natural sorting</source>
+        <translation>Usar orden natural</translation>
+    </message>
+    <message>
+        <source>Sort files when adding them and compare playlist names and filenames numerically (for example: 1, 2, 10).</source>
+        <translation>Ordena los archivos al añadirlos y compara numéricamente los nombres de la lista de reproducción y de los archivos (por ejemplo: 1, 2, 10).</translation>
+    </message>
+    <message>
         <location filename="../prefgeneral.cpp" line="152"/>
         <location filename="../prefgeneral.cpp" line="1067"/>
         <source>General</source>

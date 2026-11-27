@@ -82,7 +82,7 @@ protected:
 class QTableView;
 class QStandardItemModel;
 class QStandardItem;
-class QSortFilterProxyModel;
+class PlaylistSortProxy;
 class QToolBar;
 class MyAction;
 class MyLineEdit;
@@ -207,6 +207,7 @@ public:
 	void setIgnorePlayerErrors(bool b) { ignore_player_errors = b; };
 	void setStartPlayOnLoad(bool b) { start_play_on_load = b; };
 	void setAutomaticallyPlayNext(bool b) { automatically_play_next = b; };
+	void setNaturalSort(bool enabled);
 	void setAutoSort(bool b);
 	void setSortCaseSensitive(bool b);
 	void setFilterCaseSensitive(bool b);
@@ -338,7 +339,7 @@ protected:
 
 	QTableView * listView;
 	QStandardItemModel * table;
-	QSortFilterProxyModel * proxy;
+	PlaylistSortProxy * proxy;
 
 	QToolBar * toolbar;
 #ifdef PLAYLIST_DOUBLE_TOOLBAR

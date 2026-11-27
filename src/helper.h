@@ -58,6 +58,12 @@ public:
 	//! Change filenames like "C:/Program Files/" to "C:\Program Files\"
 	static QString changeSlashes(QString filename);
 
+	// Compare names and titles with numeric ordering for digit runs.
+	static int compareNaturally(const QString & left, const QString & right, Qt::CaseSensitivity sensitivity);
+
+	// Sort local paths by their final component, without changing stream order.
+	static void sortFileNames(QStringList & files);
+
 	static bool directoryContainsDVD(QString directory);
 
 	//! Returns an int with the version number of Qt at run-time.

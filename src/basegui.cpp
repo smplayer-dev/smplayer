@@ -2522,6 +2522,7 @@ void BaseGui::createAudioEqualizer() {
 
 void BaseGui::createPlaylist() {
 	playlist = new Playlist(0);
+	playlist->setNaturalSort(pref->use_natural_sort);
 	playlist->setConfigPath(Paths::configPath());
 
 	connect( playlist, SIGNAL(playlistEnded()),
@@ -3319,6 +3320,7 @@ void BaseGui::applyNewPreferences() {
 	playlist->setAutomaticallyPlayNext(pl->playNextAutomatically());
 	playlist->setIgnorePlayerErrors(pl->ignorePlayerErrors());
 	playlist->setAutoSort(pl->autoSort());
+	playlist->setNaturalSort(pref->use_natural_sort);
 	playlist->setFilterCaseSensitive(pl->filterCaseSensitive());
 	playlist->setAllowChangeName(pl->changeName());
 
@@ -4219,7 +4221,7 @@ void BaseGui::openFiles(QStringList files) {
 		if (playlist->maybeSave()) {
 			playlist->clear();
 			playlist->addFiles(files);
-			open(files[0]);
+			open(pref->use_natural_sort ? playlist->itemData(0)->filename() : files[0]);
 		}
 	}
 }
@@ -5259,7 +5261,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		files = Helper::resolveSymlinks(files); // Check for Windows shortcuts
 	}
 #endif
-	files.sort();
+	if (!pref->use_natural_sort) files.sort();
 
 	Extensions ext;
 	QRegExp ext_sub(ext.subtitles().forRegExp());
@@ -5281,6 +5283,8 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 			file_list << file;
 		}
 	}
+
+	if (pref->use_natural_sort) Helper::sortFileNames(dir_list);
 
 	qDebug() << "BaseGui::dropEvent: list of dirs:" << dir_list;
 	qDebug() << "BaseGui::dropEvent: list of files:" << file_list;
@@ -5328,7 +5332,10 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		// Let's open the first directory or file
 		if (!dir_list.isEmpty()) openDirectory(dir_list[0]); // Bug? This actually modifies the playlist...
 		else
-		if (!file_list.isEmpty()) open(file_list[0]);
+		if (!file_list.isEmpty()) {
+			if (pref->use_natural_sort) Helper::sortFileNames(file_list);
+			open(file_list[0]);
+		}
 	}
 }
 

@@ -93,6 +93,8 @@ public:
 	bool remember_time_pos;
 	bool remember_stream_settings;
 
+	bool use_natural_sort;
+
 #if SIMPLE_TRACK_SELECTION
 	QString alang;
 	QString slang;
