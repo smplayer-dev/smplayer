@@ -32,6 +32,7 @@ class Images
 public:
 	static void setThemesPath(const QString & folder);
 	static void setTheme(const QString & name);
+	static void setDarkColorScheme(bool is_dark);
 
 	static QPixmap icon(QString name, int size=-1);
 	static QPixmap flippedIcon(QString name, int size=-1);
@@ -53,9 +54,13 @@ public:
 private:
 	static QPixmap resize(QPixmap *p, int size=20);
 	static QPixmap flip(QPixmap *p);
+	static bool themeExists(const QString & name);
+	static QString themeBaseName(const QString & theme);
+	static QString themeForColorScheme(const QString & theme);
 
 	static QString current_theme;
 	static QString themes_path;
+	static bool is_dark_color_scheme;
 
 #ifdef USE_RESOURCES
 	static QString resourceFilename();
